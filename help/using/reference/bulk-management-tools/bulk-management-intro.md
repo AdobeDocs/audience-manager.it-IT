@@ -1,0 +1,122 @@
+---
+description: Gli strumenti Gestione massa consentono di creare e gestire più oggetti contemporaneamente con un'unica operazione. Puoi usare Strumenti di gestione collettiva per lavorare con sorgenti dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
+keywords: baaam; BAAAM
+seo-description: Gli strumenti Gestione massa consentono di creare e gestire più oggetti contemporaneamente con un'unica operazione. Puoi usare Strumenti di gestione collettiva per lavorare con sorgenti dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
+seo-title: Guida introduttiva alla gestione collettiva
+solution: Audience Manager
+title: Guida introduttiva alla gestione collettiva
+uuid: 4 bc 6 ae 0 a -315 c -4 ce 7-a 68 e-cc 0 c 6 c 6 aa 2 f 1
+translation-type: tm+mt
+source-git-commit: 349cc962c993b361e2dea00ba693337391b87e5e
+
+---
+
+
+# Guida introduttiva alla gestione collettiva{#getting-started-with-bulk-management}
+
+Gli strumenti Gestione massa consentono di creare e gestire più oggetti contemporaneamente con un&#39;unica operazione. Puoi usare Strumenti di gestione collettiva per lavorare con sorgenti dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
+
+<!-- 
+
+c_bulk_start.xml
+
+ -->
+
+>[!NOTE]
+>
+>Non [!UICONTROL Bulk Management Tools]*sono* supportati da [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. Per modifiche in massa, consigliamo di lavorare con [le API](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell&#39; [!DNL Audience Manager] interfaccia utente vengono rispettate nell&#39; [!UICONTROL Bulk Management Tools]interfaccia.
+
+## Panoramica {#overview}
+
+Questa funzione utilizza un foglio di calcolo di Microsoft Excel con macro che consentono di effettuare chiamate sicure e autenticate alle [!DNL Audience Manager] API. L&#39;API fornisce i metodi e i servizi che consentono di apportare modifiche in gruppo. Non è necessario conoscere il codice o lavorare con le API per utilizzarlo. Il foglio di lavoro contiene intestazioni di colonna e schede che consentono di modificare in massa specifiche funzioni. Per apportare modifiche collettive, basta aggiungere le intestazioni predefinite a fogli di lavoro specifici, fornire le informazioni che si desidera modificare in gruppo e fare clic sul pulsante di azione. Il foglio di lavoro e le API elaborano il resto del lavoro.
+
+## Prerequisiti {#prereqs}
+
+Per utilizzare l &#39; [!DNL Bulk Management Tools], è necessario:
+
+* Nome [!DNL Audience Manager] utente e password. In qualità di cliente, devi già disporre di queste credenziali.
+* Un ID client API e una chiave segreta. Il vostro account manager può fornirvi questi.
+* Il foglio di [!UICONTROL Bulk Management Tools] lavoro. **[Scarica il foglio di lavoro](assets/BAAAM_August_2018.xlsm)** per ottenere la versione più aggiornata.
+
+* Microsoft Excel eseguito su [!DNL Windows] o in un [!DNL Microsoft Windows] computer virtuale in [!DNL macOS X]esecuzione. Per lavorare, è necessario utilizzare Excel [!UICONTROL Bulk Management Tools] a 32 bit.
+
+## Azioni e operazioni {#actions-ops}
+
+[!UICONTROL Bulk Management Tools] Il foglio di lavoro è costituito da schede action, pulsanti di azione e **[!UICONTROL Headers]** schede. La **[!UICONTROL Headers]** scheda contiene le intestazioni di colonna pre-formattate utilizzate dalle schede delle azioni. Le schede delle azioni contengono macro che eseguono l&#39;operazione di massa selezionata. Per eseguire un&#39;operazione in blocco, copiate un set di intestazioni nella scheda dell&#39;azione appropriata, immettete i dati dell&#39;intestazione e fate clic sul pulsante di azione.
+
+Aprite il foglio di calcolo e fate clic sul pulsante di un&#39;azione per iniziare.
+
+![](assets/bamwrkbk.png)
+
+La tabella seguente elenca le operazioni che è possibile eseguire e gli elementi che è possibile manipolare con i [!UICONTROL Bulk Management Tools] fogli di lavoro.
+
+<table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Azioni </th> 
+   <th colname="col2" class="entry"> Oggetti </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Le azioni in blocco appaiono nelle schede nella parte inferiore del foglio di lavoro e includono: </p> <p> 
+     <ul id="ul_49F46B9E00C045D29E40258EB7BDCFBB"> 
+      <li id="li_193C41EA19EF4D738FBA037D2BF9B05C">Richieste </li> 
+      <li id="li_5BE2E13D839F4958AAA5C01B7EFC5096">Aggiornamento </li> 
+      <li id="li_4CCCC739795945DF8C89787F9A67EB88">Creare    </li> 
+      <li id="li_C7D36D2BDF0448CEAF3A5EABE41038E8">Stima </li> 
+      <li id="li_07A3E94326124A3092362D9896EB7732">Elimina </li> 
+     </ul> </p> </td> 
+   <td colname="col2"> <p>Gli oggetti che possono essere modificati in massa si trovano nella scheda <b><span class="uicontrol"> Intestazioni</span></b> e includono: </p> <p> 
+     <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
+      <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Origini dati</a> </li> 
+      <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Segnali derivati</a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Destinazioni</a> </li> 
+      <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Cartelle</a> di caratteristiche e segmenti </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segmenti</a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Caratteristiche</a> </li> 
+     </ul> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Esempio di operazione in blocco**
+
+Ad esempio, vediamo come creare più caratteristiche contemporaneamente. Per creare più caratteristiche in un&#39;operazione in blocco, è possibile:
+
+1. Fare clic sulla **[!UICONTROL Headers]** scheda e copiare tutte le etichette sotto l&#39; [!UICONTROL Create a Trait] opzione.
+
+2. Fare clic sulla **[!UICONTROL Create]** scheda e incollare le etichette a partire dalla riga 1, colonna A.
+3. Fornite informazioni relative a ogni intestazione di colonna e fate clic **[!UICONTROL Create Traits]** su. Questa azione richiede l&#39;accesso. Il processo in blocco viene eseguito dopo l&#39;autenticazione (consultate i requisiti [di autenticazione](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) riportati di seguito). Controllate l&#39;angolo inferiore sinistro del foglio di lavoro per una notifica di stato del processo.
+
+>[!NOTE]
+>
+>Quando si lavora con richieste di grandi dimensioni, il foglio di lavoro potrebbe non rispondere e sembrare inattivo. In questi casi, lasciateli soli. Il foglio di lavoro diventa reattivo quando la richiesta di massa sarà completa. Se il foglio di lavoro non risponde per un periodo di tempo prolungato, consultate la sezione [sulla risoluzione dei problemi](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+
+## Requisiti e opzioni di autenticazione {#auth-reqs}
+
+Le modifiche di massa richiedono l&#39;autenticazione. Quando selezionate un&#39;azione, il foglio di lavoro richiede di effettuare l&#39;accesso. Poiché il foglio di lavoro effettua chiamate API, devi configurarlo per la lettura della chiave segreta. Inoltre, il **[!UICONTROL Domain]** campo consente di apportare modifiche collettive in un ambiente di verifica/verifica o nell&#39;account live e di produzione.
+
+![](assets/bamauth.png)
+
+**Requisiti di autenticazione API**
+
+Per configurare l&#39;autenticazione API, devi:
+
+* Copiate e salvate la chiave segreta in un file di testo (.txt).
+* Denominate il file di testo con il vostro ID client API. Ad esempio, se l&#39;ID client è «Bulk-User», salvate la chiave in un file denominato «Bulk-User. txt».
+* Salvate la chiave segreta e il foglio di lavoro nella stessa cartella.
+
+Quando apportate modifiche in massa, dovete comunque immettere un nome utente, una password, un ID client e un dominio, ma l&#39;autenticazione API è automatica.
+
+**Opzioni di autenticazione del dominio**
+
+L&#39;autenticazione del dominio offre l&#39;opzione di sottoporre a test le richieste in blocco o di applicarle direttamente all&#39;account di produzione. Apportare modifiche in massa all&#39;ambiente di prova non influisce sull&#39;account di produzione. Le modifiche di produzione sono effettive immediatamente. **[!UICONTROL Domain]** Il campo accetta i seguenti indirizzi, a seconda dell&#39;ambiente in cui si desidera lavorare:
+
+* Test: `api-beta.demdex.com`
+* Produzione: `api.demdex.com`
+
+>[!MORE_ LIKE_ THIS]
+>
+>* [Scaricare il foglio di lavoro di gestione in blocco](assets/BAAAM_August_2018.xlsm)
+
