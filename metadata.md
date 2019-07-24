@@ -21,9 +21,9 @@ Il file metadata. md include metadati reattivi che passano ai file TOC. md della
 
 | metadata | azione |
 |--- |--- |
-| solution-title | Utilizzato nell&#39;intestazione dell&#39;articolo come collegamento |
+| solution-title | Utilizzato nell'intestazione dell'articolo come collegamento |
 | solution-hub-url | Apre la pagina hub helpx |
-| solution-icon | Visualizza l&#39;icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
+| solution-icon | Visualizza l'icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
 | getting-started-url | Collegamento alla pagina introduttiva helpx |
 | tutorials-url | Collegamento alle esercitazioni video—esercitazioni helpx o esercitazioni KT |
 | mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra laterale destra. Il valore predefinito è 2 |
