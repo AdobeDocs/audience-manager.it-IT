@@ -14,7 +14,7 @@ source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
 
 # Folder Traits: About {#folder-traits-about}
 
-[!UICONTROL Folder traits] consente di aggregare automaticamente le caratteristiche residenti all&#39;interno della stessa cartella e di tutte le cartelle secondarie in un segmento in grado di essere targabile.
+[!UICONTROL Folder traits] consente di aggregare automaticamente le caratteristiche residenti all'interno della stessa cartella e di tutte le cartelle secondarie in un segmento in grado di essere targabile.
 
 ## Benefits of Using Folder Traits {#benefits}
 
@@ -34,7 +34,7 @@ A [!UICONTROL folder trait] contains all the traits in a parent folder and its a
 
 ## Folder Traits Realization - Recency and Frequency {#folder-traits-realization}
 
-Il conteggio frequenza di una caratteristica di una cartella è la somma delle rappresentazioni delle caratteristiche nella sua cartella e nelle relative cartelle figlie. L&#39;illustrazione seguente mostra le caratteristiche A, B e C, che risiedono nella cartella Automobile. Considerate che ciascuna caratteristica dispone delle seguenti realizzazioni:
+Il conteggio frequenza di una caratteristica di una cartella è la somma delle rappresentazioni delle caratteristiche nella sua cartella e nelle relative cartelle figlie. L'illustrazione seguente mostra le caratteristiche A, B e C, che risiedono nella cartella Automobile. Considerate che ciascuna caratteristica dispone delle seguenti realizzazioni:
 
 * Caratteristica A: 5
 * Caratteristica B: 1
@@ -52,7 +52,7 @@ In this case, the [!DNL ]Automobile [!UICONTROL Folder Trait] has 7 realizations
 
 For companies using [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), your users with the appropriate [!UICONTROL RBAC] permissions are able to change the data source associated to the [!UICONTROL folder trait]. Un utente deve appartenere a un gruppo con uno dei seguenti elementi:
 
-* `READ` e `WRITE` le autorizzazioni del gruppo a un&#39;origine dati caratteristica.
+* `READ` e `WRITE` le autorizzazioni del gruppo a un'origine dati caratteristica.
 * `VIEW_ALL_TRAITS` e `EDIT_ALL_TRAITS` autorizzazioni wild card per le origini dati delle caratteristiche.
 
 Learn how to assign [!UICONTROL RBAC] permissions in our [administration documentation](../../features/administration/administration-overview.md#create-group).
@@ -63,5 +63,5 @@ Learn how to assign [!UICONTROL RBAC] permissions in our [administration documen
 |---|---|
 | Tipo caratteristica | [!UICONTROL Onboarded traits] e [!UICONTROL algorithmic traits] contribuisce al massimo 1 realizzazione alla frequenza di una [!UICONTROL folder trait]. |
 | Spostamento delle caratteristiche tra le cartelle | Moving a trait from a folder to another will disqualify that trait from the first folder trait and qualify it for the second [!UICONTROL folder trait]. Questo significa che se eliminate o spostate una caratteristica dalla cartella, gli utenti nella popolazione della caratteristica saranno non segmentati dai segmenti utilizzando la caratteristica di cartella come espressione di segmento. <br> Quando mappatura di segmenti Adobe Analytics o suite di rapporti alla tua organizzazione Experience Cloud, Audience Manager crea automaticamente nuovi segmenti e caratteristiche di sola lettura. Non puoi modificare o modificare il percorso di archiviazione di queste caratteristiche da Audience Manager. Tuttavia, qualsiasi modifica eseguita sui segmenti mappati di Adobe Analytics o sulle suite di rapporti si riflette in Audience Manager. |
-| Variabili di sistema | [!UICONTROL Folder traits] non può essere realizzata nelle chiamate dell&#39;evento utilizzando il `d_sid` parametro. |
+| Variabili di sistema | [!UICONTROL Folder traits] non può essere realizzata nelle chiamate dell'evento utilizzando il `d_sid` parametro. |
 | Generazione di rapporti   | [!UICONTROL Folder traits] sono caratteristiche autocalcate e non sono visualizzate.**[!UICONTROL Overlap Reports]** |
