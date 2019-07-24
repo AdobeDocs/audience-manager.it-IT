@@ -21,11 +21,11 @@ A *`segment`* (or an *`audience`*) is a set of users who share common attributes
 
 * Comportamento;
 * Elementi demografici (età, genere, reddito, ecc.);
-* Altre caratteristiche che puoi definire nell&#39;interfaccia utente.
+* Altre caratteristiche che puoi definire nell'interfaccia utente.
 
 ## Composizione segmenti
 
-Un segmento Audience Manager è una regola lato server che consiste di singoli o gruppi di caratteristiche. Le caratteristiche sono costituite da elementi dati chiamati coppie chiave-valore. Insieme alle regole impostate a livello di segmento, queste coppie chiave-valore contengono i criteri che qualificano i visitatori per l&#39;appartenenza a segmenti e segmenti.
+Un segmento Audience Manager è una regola lato server che consiste di singoli o gruppi di caratteristiche. Le caratteristiche sono costituite da elementi dati chiamati coppie chiave-valore. Insieme alle regole impostate a livello di segmento, queste coppie chiave-valore contengono i criteri che qualificano i visitatori per l'appartenenza a segmenti e segmenti.
 
 ## Considerazioni sulla mappatura segmenti di Adobe Analytics
 
