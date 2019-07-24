@@ -11,29 +11,29 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Formato contenuto per file metadati{#content-format-for-metadata-files}
+# Content Format for Metadata Files{#content-format-for-metadata-files}
 
 Formattate i contenuti del file di metadati Ottimizzazione pubblico in base alle seguenti specifiche.
 
 ## Sintassi {#syntax}
 
-La sintassi seguente definisce la struttura dei contenuti ben formattati in un file di metadati. Nota, *il corsivo* indica un segnaposto variabile.
+La sintassi seguente definisce la struttura dei contenuti ben formattati in un file di metadati. Note, *italics* indicates a variable placeholder.
 
 **Sintassi:***ID contenuto* | *name* | *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
-La terza colonna **-1** è tecnicamente l&#39;ID principale, un campo legacy. Il valore deve essere sempre impostato su **-1**.
+The third column **-1** is technically the Parent ID, which is a legacy field. The value should always be set as **-1**.
 
 >[!NOTE]
 >
->È necessario un file di metadati per dimensione, quindi sono previste più file di metadati nel bucket. Le dimensioni sono elencate nelle convenzioni [di denominazione degli articoli per i file di metadati](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+>È necessario un file di metadati per dimensione, quindi sono previste più file di metadati nel bucket. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Voci file separate con ^ a (control-A o ASCII 001)**
 
-Utilizzate `^a` (control-A o ASCII 001) per separare il contenuto nei file di metadati. Poiché questi sono caratteri non stampabili, l&#39;esempio di sintassi riportato sopra mostra una barra laterale|&quot; solo a scopo di visualizzazione.
+Use `^a` (control-A or ASCII 001) to separate content in your metadata files. Poiché questi sono caratteri non stampabili, l'esempio di sintassi riportato sopra mostra una barra laterale|" solo a scopo di visualizzazione.
 
-Se necessario, potete scaricare il file di esempio - [20181105_ 0_ 1](assets/20181105_0_1.zip). Decomprimete il file e modificatelo nell&#39;editor di scelte e regolatelo in base ai contenuti metadati effettivi, poiché contiene già il carattere di delimitazione richiesto.
+If needed, you may download the example file - [20181105_0_1](assets/20181105_0_1.zip). Decomprimete il file e modificatelo nell'editor di scelte e regolatelo in base ai contenuti metadati effettivi, poiché contiene già il carattere di delimitazione richiesto.
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Se necessario, potete scaricare il file di esempio - [20181105_ 0_ 1](assets/201
 
 ## Esempi {#examples}
 
-Vediamo come strutturare il contenuto in un file di metadati. Parte di questa struttura dipende dalla dimensione. Le dimensioni sono elencate nelle convenzioni [di denominazione degli articoli per i file di metadati](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+Vediamo come strutturare il contenuto in un file di metadati. Parte di questa struttura dipende dalla dimensione. The dimensions are listed in the article [Naming Conventions for Metadata File](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Campaign**
 
