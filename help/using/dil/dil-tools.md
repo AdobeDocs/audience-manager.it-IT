@@ -13,7 +13,7 @@ source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
 
 # Strumenti DIL
 
-Descrive i metodi nello `DIL.tools` spazio nomi. Queste funzioni di utilità consentono di eseguire attività specifiche.
+Describes methods in the `DIL.tools` namespace. Queste funzioni di utilità consentono di eseguire attività specifiche.
 
 <!-- 
 
@@ -31,19 +31,19 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Scopo di `getSearchReferrer`
+### Purpose of `getSearchReferrer`
 
-In DIL `getSearchReferrer` restituisce i risultati della ricerca (nomi e parole chiave) utilizzati per raggiungere il sito. È possibile trasmettere termini di ricerca specifici a questa funzione o consentire la ricerca nei motori di ricerca supportati ( [!DNL AOL][!DNL Ask][!DNL Bing], [!DNL Google]e [!DNL Yahoo]) per `document.referrer` impostazione predefinita.
+In DIL, `getSearchReferrer` returns search results (names and key words) used to reach your site. You can pass in specific search terms to this function or let it search the supported search engines ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], and [!DNL Yahoo]) against `document.referrer` by default.
 
 ### Firma della funzione
 
-Firma della funzione: `DIL.tools.getSearchReferrer(uri, initConfig)`
+Function signature: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 ### Parametri della funzione
 
 `getSearchReferrer` accetta:
 
-* *`{string}`*: *(Facoltativo)* Stringa contenente l&#39;URL di ricerca (se `document.referrer` non è definita).
+* *`{string}`*: *(Facoltativo)* Stringa contenente l'URL di ricerca (se `document.referrer` non è definita).
 * *`{object}`*: *(Facoltativo)* Un oggetto contenente la configurazione per `hostPattern``queryParam`, o `queryPattern`.
 
 e restituisce:
@@ -110,7 +110,7 @@ e restituisce:
 
 ## Decomposeuri
 
-Disassembla un Uniform Resource Identifier ( [!DNL URI]) nei componenti costituenti: `hash``host``href``pathname``protocol`, `search`and `[!DNL uriParams]`.
+Disassembles a Uniform Resource Identifier ( [!DNL URI]) into its constituent components: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, and `[!DNL uriParams]`.
 
 <!-- 
 
@@ -118,13 +118,13 @@ r_dil_decompose.xml
 
  -->
 
-Firma della funzione: `DIL.tools.decomposeURI`
+Function signature: `DIL.tools.decomposeURI`
 
 ### Parametri della funzione
 
 `decomposeURI` accetta:
 
-* *`uri {string}`*: *(Facoltativo)* Stringa contenente l&#39;URI. Se non `document.location.href` viene specificato, predefinito.
+* *`uri {string}`*: *(Facoltativo)* Stringa contenente l'URI. Defaults to `document.location.href` if not specified.
 
 e restituisce:
 
@@ -162,7 +162,7 @@ r_dil_get_metatags.xml
 
 ### Firma della funzione
 
-Firma della funzione: `DIL.tools.getMetaTags( 1 or more parameters)`
+Function signature: `DIL.tools.getMetaTags( 1 or more parameters)`
 
 ### Parametri della funzione
 
