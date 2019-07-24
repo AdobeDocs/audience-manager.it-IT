@@ -12,7 +12,7 @@ source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 ---
 
 
-# Coppie chiave-valore spiegate{#key-value-pairs-explained}
+# Key-Value Pairs Explained{#key-value-pairs-explained}
 
 Definisce e descrive coppie chiave-valore standard e serializzate.
 
@@ -22,15 +22,15 @@ c_key_value_explained.xml
 
  -->
 
-Una coppia chiave-valore è composta da due elementi dati correlati: Una chiave, ovvero una costante che definisce il set di dati (ad es. genere, colore, prezzo) e un valore, ovvero una variabile che appartiene al set (ad es. uomo/donna, verde, 100). In modo completo, una coppia chiave-valore potrebbe avere l&#39;aspetto seguente:
+Una coppia chiave-valore è composta da due elementi dati correlati: Una chiave, ovvero una costante che definisce il set di dati (ad es. genere, colore, prezzo) e un valore, ovvero una variabile che appartiene al set (ad es. uomo/donna, verde, 100). In modo completo, una coppia chiave-valore potrebbe avere l'aspetto seguente:
 
 * `gender = male`
 * `color = green`
 * `price > 100`
 
-## Standard e coppie chiave-valore serializzate {#standard-serialized-pairs}
+## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
 
-Le destinazioni accettano dati chiave-valore in *`standard`* o *`serialized`* formato. La formattazione standard organizza i dati in coppie chiave-valore separate. Ogni chiave viene definita esplicitamente, anche quando viene utilizzata di nuovo per definire un altro valore. Per contro, la formattazione serializzata condensa più valori in un set definito da una singola chiave. Inoltre, in una coppia serializzata, viene utilizzato un indicatore speciale per separare i valori all&#39;interno del set chiave-valore. Infine, i valori chiave standard e serializzati possono contenere valori singoli o multipli. Nella tabella seguente sono riportati alcuni esempi di formati chiave-valore standard e di serie.
+Destinations accept key-value data in *`standard`* or *`serialized`* format. La formattazione standard organizza i dati in coppie chiave-valore separate. Ogni chiave viene definita esplicitamente, anche quando viene utilizzata di nuovo per definire un altro valore. Per contro, la formattazione serializzata condensa più valori in un set definito da una singola chiave. Inoltre, in una coppia serializzata, viene utilizzato un indicatore speciale per separare i valori all'interno del set chiave-valore. Infine, i valori chiave standard e serializzati possono contenere valori singoli o multipli. Nella tabella seguente sono riportati alcuni esempi di formati chiave-valore standard e di serie.
 
 | Formattazione | Chiave singola | Coppie chiave-valore |
 |---|---|---|
@@ -39,16 +39,16 @@ Le destinazioni accettano dati chiave-valore in *`standard`* o *`serialized`* fo
 
 
 
-## Tasti, delimitatori e separatori {#keys-delimiters-separators}
+## Keys, Delimiters, and Separators {#keys-delimiters-separators}
 
-Quando si utilizzano dati serializzati, è necessario specificare i caratteri che separano i valori *all&#39;interno* e *tra* le coppie chiave-valore. Gli elementi delle coppie chiave-valore sono definiti come segue:
+When working with serialized data, you must specify the characters that separate values *within* and *between* the key-value pairs. Gli elementi delle coppie chiave-valore sono definiti come segue:
 
 * **Chiave:** Un identificatore univoco nella coppia chiave-valore.
 * **Delimitatore valore:** Separa le singole coppie chiave-valore.
-* **Separatore chiave chiave:** Separa una chiave dai valori all&#39;interno di una coppia chiave-valore.
-* **Separatore di serie:** Separa i singoli valori all&#39;interno delle coppie chiave-valore serializzate.
+* **Separatore chiave chiave:** Separa una chiave dai valori all'interno di una coppia chiave-valore.
+* **Separatore di serie:** Separa i singoli valori all'interno delle coppie chiave-valore serializzate.
 
-## Standard e chiavi chiave serializzate-Valore {#standard-serialized-key-value-elements}
+## Standard and Serialized Key-Value Elements {#standard-serialized-key-value-elements}
 
 <table id="table_62B0498441034A719C9DB57276777D40"> 
  <thead> 
