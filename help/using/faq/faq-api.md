@@ -11,9 +11,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Domande frequenti sulle API{#api-faq}
+# API FAQ{#api-faq}
 
-Domande e problemi comuni dell&#39;API.
+Domande e problemi comuni dell'API.
 
 <!-- 
 
@@ -21,28 +21,28 @@ faq_api.xml
 
  -->
 
-La [documentazione REST API](../api/rest-api-main/rest-api-main.md) contiene dettagli su metodi e esempi di codice specifici.
+The [REST API](../api/rest-api-main/rest-api-main.md) documentation contains details about specific methods and code samples.
 
 <br> 
 
 **Perché[!UICONTROL DIL]effettuare chiamate evento con[!UICONTROL GET]metodi e[!UICONTROL POST]metodi?**
 
-[!UICONTROL DIL] trasmette dati a [!DNL Audience Manager] un metodo `GET` o `POST` a un metodo in base alla lunghezza della stringa query della chiamata dell&#39;evento. Per impostazione predefinita, questo comportamento è integrato e `GET``POST` metodi. Non è specifico [!DNL Audience Manager].
+[!UICONTROL DIL] trasmette dati a [!DNL Audience Manager] un metodo `GET` o `POST` a un metodo in base alla lunghezza della stringa query della chiamata dell'evento. This behavior is built in to `GET` and `POST` methods by default. It is not specific to [!DNL Audience Manager].
 
-* [!UICONTROL DIL] effettua chiamate evento con `GET` un URL contenente un massimo di 2048 caratteri. Una `GET` chiamata evento include dati nell&#39;URL come parametri stringa query, che vengono passati come coppie chiave-valore.
+* [!UICONTROL DIL] effettua chiamate evento con `GET` un URL contenente un massimo di 2048 caratteri. A `GET` event call includes data in the URL as query string parameters, which are passed in as key-value pairs.
 
-* [!UICONTROL DIL] effettua chiamate evento con `POST` un URL contenente più di 2048 caratteri. Una `POST` chiamata evento include dati nel corpo della richiesta. [!UICONTROL DIL] inserisce i dati in coppie chiave-valore e trasmette le informazioni come dati del modulo anziché nella stringa di query URL.
+* [!UICONTROL DIL] effettua chiamate evento con `POST` un URL contenente più di 2048 caratteri. A `POST` event call includes data in the body of the request. [!UICONTROL DIL] inserisce i dati in coppie chiave-valore e trasmette le informazioni come dati del modulo anziché nella stringa di query URL.
 
-Anche se ogni metodo trasmette dati in modo diverso, questo non influisce sulle funzionalità. Ad esempio, con uno dei due metodi, invia [!DNL Audience Manager] comunque dati alle destinazioni, le sincronizzazioni ID funzionano normalmente ed è possibile creare caratteristiche dai segnali dati.
+Anche se ogni metodo trasmette dati in modo diverso, questo non influisce sulle funzionalità. For example, with either method, [!DNL Audience Manager] still sends data to destinations, ID syncs works normally, and you can create traits from data signals.
 
 <br> 
 
 **Cosa mi consente[!UICONTROL REST API]di fare?**
 
-Gli [!UICONTROL REST API]s consentono di lavorare a livello di programmazione con la maggior parte [!DNL Audience Manager] delle funzionalità e funzioni disponibili nell&#39;interfaccia utente.
+The [!UICONTROL REST API]s let you work programmatically with most [!DNL Audience Manager] features and functions that are available in the user interface.
 
 <br> 
 
 **Come si ottiene un[!UICONTROL REST API]ID client e un segreto?**
 
-Contatta il rappresentante Soluzioni Partner per ottenere [!DNL API] le credenziali di accesso. Le nostre API usano [gli standard oauth 2.0](https://oauth.net/2/) per l&#39;autenticazione token, l&#39;autorizzazione e il rinnovo. Consulta [Autenticazione oauth](../api/rest-api-main/aam-api-getting-started.md#oauth) per ulteriori informazioni.
+Contact your Partner Solutions representative to obtain [!DNL API] access credentials. Our APIs use [OAuth 2.0](https://oauth.net/2/) standards for token authentication, authorization, and renewal. See [OAuth Authentication](../api/rest-api-main/aam-api-getting-started.md#oauth) for more information.
