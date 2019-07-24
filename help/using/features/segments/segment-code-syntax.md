@@ -11,13 +11,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Sintassi codice utilizzata nell&#39;Editor di espressioni segmento {#code-syntax-used-in-the-segment-expression-editor}
+# Code Syntax Used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] consente di creare regole di caratteristica per un segmento utilizzando un editor di codice. Fate clic sulla **[!UICONTROL Segment Expressions (Code View)]** scheda nel [!UICONTROL Traits] pannello per accedere a questa funzione.
+[!UICONTROL Segment Builder] consente di creare regole di caratteristica per un segmento utilizzando un editor di codice. Click the **[!UICONTROL Segment Expressions (Code View)]** tab in the [!UICONTROL Traits] panel to access this feature.
 
 ## Sintassi codice del generatore espressioni
 
-Puoi aggiungere regole di caratteristica a un segmento con codice anziché utilizzare le funzioni di trascinamento. Durante la codifica, sostituite gli elementi in corsivo nell&#39;esempio con un&#39;espressione o un valore effettivo. Il codice di base utilizza la sintassi seguente:
+Puoi aggiungere regole di caratteristica a un segmento con codice anziché utilizzare le funzioni di trascinamento. Durante la codifica, sostituite gli elementi in corsivo nell'esempio con un'espressione o un valore effettivo. Il codice di base utilizza la sintassi seguente:
 
 ```
 FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
@@ -26,11 +26,11 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 
 >[!NOTE]
 >
->Per impostazione predefinita, [!DNL Boolean][!UICONTROL OR] le condizioni si applicano a più caratteristiche *all&#39;interno* di un&#39;espressione.
+>By default, [!DNL Boolean] [!UICONTROL OR] conditions apply to multiple traits *within* an expression.
 
 ### Partecipare a segmenti con operatori booleani
 
-Per creare gruppi di segmenti, racchiudere la funzione di frequenza tra parentesi e impostare la relazione *tra* ciascuna espressione con un [!DNL Boolean] operatore ([!UICONTROL AND], [!UICONTROL OR]e [!UICONTROL NOT]).
+To build groups of segments, wrap the frequency function in parenthesis and set the relationship *between* each expression with a [!DNL Boolean] operator ([!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL NOT]).
 
 ### Parametri
 
@@ -40,14 +40,14 @@ Per creare gruppi di segmenti, racchiudere la funzione di frequenza tra parentes
 
 | Nome o variabile | Descrizione |
 |---|---|
-| `FREQUENCY` | Un letterale che deve precedere l&#39;espressione. |
-| ` [`&lt;`traitID`&gt;`T]` | Un array di ID caratteristiche seguito dalla lettera `T`. Separate più caratteristiche con una virgola. Ad esempio, `[123T, 456T]`. |
-| ` <Recency Operator><Numeric Value>D` | *(Facoltativo)* Imposta le regole di aggiornamento sulle caratteristiche del segmento. La lettera `D` indica l&#39;aggiornamento in giorni. |
+| `FREQUENCY` | Un letterale che deve precedere l'espressione. |
+| ` [`&lt;`traitID`&gt;`T]` | An array of trait IDs followed by the letter `T`. Separate più caratteristiche con una virgola. Ad esempio, `[123T, 456T]`. |
+| ` <Recency Operator><Numeric Value>D` | *(Facoltativo)* Imposta le regole di aggiornamento sulle caratteristiche del segmento. The letter `D` indicates recency in days. |
 | ` <Frequency Operator><Numeric Value>` | Imposta le regole di frequenza sulle caratteristiche nel segmento. |
 
 ### Operatori di aggiornamento e frequenza consentiti
 
-Impostare [intervalli di aggiornamento e frequenza](../../features/segments/recency-and-frequency.md) con un operatore di confronto e un numero intero. [!UICONTROL Segment Builder] utilizza espressioni standard come &lt; (minore di), (maggiore di), = = (uguale), ecc. Tuttavia, i tipi di operatori consentiti variano quando si impostano recency o frequenza. La tabella seguente elenca gli operatori di aggiornamento/frequenza consentiti.
+Set [recency and frequency](../../features/segments/recency-and-frequency.md) intervals with a comparison operator and an integer. [!UICONTROL Segment Builder] utilizza espressioni standard come &lt; (minore di), (maggiore di), = = (uguale), ecc. Tuttavia, i tipi di operatori consentiti variano quando si impostano recency o frequenza. La tabella seguente elenca gli operatori di aggiornamento/frequenza consentiti.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
