@@ -11,17 +11,17 @@ source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
 ---
 
 
-# Metodi API della libreria integrazione dati {#data-integration-library-api-methods}
+# Data Integration Library API Methods {#data-integration-library-api-methods}
 
-Metodi che consentono di lavorare a livello di programmazione con ( [!UICONTROL Data Integration Library][!UICONTROL DIL].
+Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->L&#39;API Library Integration Library è stata rimossa. Questa API utilizzata per generare DIL, che ora potete autoscaricare qui: [Download DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>L'API Library Integration Library è stata rimossa. This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
-## Restituzione versioni per DIL {#return-version-dil}
+## Return Versions for DIL {#return-version-dil}
 
 `GET` Un metodo che restituisce un elenco di versioni ordinate dalla meno recente alla più recente.
 
@@ -33,7 +33,7 @@ Metodi che consentono di lavorare a livello di programmazione con ( [!UICONTROL 
 
 ### Risposta
 
-Una richiesta corretta restituisce il codice `["4.0", "4.1"]` di risposta come mostrato di seguito.
+A successful request returns response code `["4.0", "4.1"]` as shown below.
 
 ```
 ["4.0", "4.1"]
@@ -51,7 +51,7 @@ Una richiesta corretta restituisce il codice `["4.0", "4.1"]` di risposta come m
 
 ### Risposta
 
-Una richiesta corretta restituisce il codice di risposta `["4.0", "4.1"]` e i dati come mostrato di seguito.
+A successful request returns response code `["4.0", "4.1"]` and data as shown below.
 
 ```
 { 
@@ -375,9 +375,9 @@ Una richiesta corretta restituisce il codice di risposta `["4.0", "4.1"]` e i da
 } 
 ```
 
-## Genera DIL {#generate-dil}
+## Generate DIL {#generate-dil}
 
-A `GET` method that generates [!UICONTROL DIL] based on passed in request body using the specified version of [!UICONTROL DIL]. Se l&#39;alias `LATEST` viene usato per la versione nell&#39;URL, viene generata la versione [!UICONTROL DIL] più recente.
+`GET` Un metodo generato [!UICONTROL DIL] in base al corpo della richiesta trasmesso utilizzando la versione specificata. [!UICONTROL DIL] If the alias `LATEST` is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -461,4 +461,4 @@ A `GET` method that generates [!UICONTROL DIL] based on passed in request body u
 
 ### Risposta
 
-Un aggiornamento riuscito restituisce il codice `201 created` di risposta insieme al [!UICONTROL DIL][!DNL JavaScript] codice.
+A successful update returns response code `201 created` along with the [!UICONTROL DIL] [!DNL JavaScript] code.
