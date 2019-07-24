@@ -11,39 +11,39 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Report tendenza segmento{#segment-trend-report}
+# Segment Trend Report{#segment-trend-report}
 
 Il rapporto Tendenza segmento restituisce i dati su impression e percentuali di clic di segmenti mappati e non mappati nel tempo.
 
 Un segmento mappato è un segmento che crei e invia a una destinazione per il targeting. Un segmento non mappato è un segmento che hai creato ma non è stato inviato a una destinazione per il targeting.
 
-Confronta le tendenze e il volume delle metriche selezionate per ottenere un&#39;immagine migliore del comportamento dei tuoi tipi di pubblico nel tempo.
+Confronta le tendenze e il volume delle metriche selezionate per ottenere un'immagine migliore del comportamento dei tuoi tipi di pubblico nel tempo.
 
-## Caso d&#39;uso {#use-cases}
+## Caso d'uso {#use-cases}
 
-Usa [!UICONTROL Segment Trend] il rapporto per convalidare le prestazioni di un segmento nel tempo e per individuare le tendenze in base a prestazioni o scala robuste.
+Use the [!UICONTROL Segment Trend] report to validate a segment's performance over time and to pinpoint trends based on strong performance or scale.
 
-Con questo rapporto potete capire quali delle vostre proprietà Web mostrano un incremento o un incremento anomalo, e la risoluzione di problemi come necessario. Questo rapporto rappresenta il passaggio successivo dopo l&#39;identificazione dell&#39;audience interesse nel [!UICONTROL Segment Performance] report, per garantire che le prestazioni rigorose o di scarso livello visualizzato nella [!UICONTROL Segment Performance] scheda siano coerenti nel tempo.
+Con questo rapporto potete capire quali delle vostre proprietà Web mostrano un incremento o un incremento anomalo, e la risoluzione di problemi come necessario. This report is the next step after you identify your audience of interest in the [!UICONTROL Segment Performance] report, to ensure that the strong or poor performance you saw in the [!UICONTROL Segment Performance] tab is consistent over time.
 
-## Utilizzo del report Tendenza segmento {#using-the-report}
+## Using the Segment Trend Report {#using-the-report}
 
-Alterna **[!UICONTROL Mapped]** e **[!UICONTROL Unmapped]** seleziona i segmenti mappati a una destinazione o meno. Seleziona **[!UICONTROL All]** per includere tutti i segmenti nel rapporto.
+Toggle between **[!UICONTROL Mapped]** and **[!UICONTROL Unmapped]** to select segments that are mapped to a destination or not. Select **[!UICONTROL All]** to include all your segments in the report.
 
-Regolare la finestra di look-back con il **[!UICONTROL Date Through]** cursore.
+Adjust the look-back window with the **[!UICONTROL Date Through]** slider.
 
-Fai clic su uno dei segmenti sotto il **[!UICONTROL Date Through]** cursore per visualizzare l&#39;opzione per mantenere solo tale segmento nel rapporto o escluderlo.
+Click any of the segments under the **[!UICONTROL Date Through]** slider to bring up the option to keep only that segment in the report or exclude it.
 
-Utilizza il **[!UICONTROL Line Item]** menu a discesa per selezionare le proprietà nel tuo portfolio per le quali vuoi restituire le informazioni.
+Use the **[!UICONTROL Line Item]** drop-down box to select the properties in your portfolio for which you want to return information.
 
-Nel menu **[!UICONTROL Segment Data Source]** a discesa, seleziona le origini dati contenenti i segmenti che desideri vedere nel rapporto.
+In the **[!UICONTROL Segment Data Source]** drop-down box, select the data sources containing the segments you want to see in the report.
 
-Utilizza il **[!UICONTROL Segment]** menu a discesa per selezionare i segmenti da visualizzare nel rapporto.
+Use the **[!UICONTROL Segment]** drop-down box to select which segments you want to see in the report.
 
 >[!IMPORTANT]
 >
->Quando abilitate [!UICONTROL Audience Optimization for Publishers], dovete includere metadati descrittivi per [!UICONTROL Line Item] gli ID, come descritto nel Passaggio 3 di [Importa file di dati DFP in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In tal modo, assicuratevi che il rapporto contenga la proprietà Web come [!UICONTROL Line Item] invece dell&#39; [!UICONTROL Line Item] ID.
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Line Item] IDs, as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Line Item] instead of the [!UICONTROL Line Item] ID.
 
-## Interpretazione dei risultati {#interpreting-results}
+## Interpreting the Results {#interpreting-results}
 
 [!UICONTROL Segment Trend] Il rapporto restituisce i dati in un grafico a linee solo per un intervallo di 14 giorni. In questo esempio, il report mostra le tendenze di impression e click-through per un insieme di segmenti mappati e non mappati.
 
