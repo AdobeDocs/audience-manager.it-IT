@@ -11,17 +11,17 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 ---
 
 
-# Univoco portata utente{#unique-user-reach}
+# Unique User Reach{#unique-user-reach}
 
 Il rapporto Univoco utente restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione al numero di utenti unici per la dimensione selezionata. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola.
 
-Il rapporto Univoco utente ti aiuta a trovare l&#39;inserzionista, il marchio, la campagna, la creatività, il posizionamento o il sito che fornisce il pubblico più ampio rispetto agli utenti con targeting.
+Il rapporto Univoco utente ti aiuta a trovare l'inserzionista, il marchio, la campagna, la creatività, il posizionamento o il sito che fornisce il pubblico più ampio rispetto agli utenti con targeting.
 
 >[!NOTE]
 >
 >Nota bene:
 >
->* [!UICONTROL Unique User Reach] Il rapporto visualizza informazioni solo per gli utenti con [!UICONTROL Admin] livelli di autorizzazione. [!DNL Audience Manager] Il tuo consulente o l&#39;Assistenza clienti può effettuare il provisioning del tuo account con [!UICONTROL Admin] le autorizzazioni.
+>* [!UICONTROL Unique User Reach] Il rapporto visualizza informazioni solo per gli utenti con [!UICONTROL Admin] livelli di autorizzazione. [!DNL Audience Manager] Il tuo consulente o l'Assistenza clienti può effettuare il provisioning del tuo account con [!UICONTROL Admin] le autorizzazioni.
    >
    >
 * I periodi di look-back di 7 giorni e 30 giorni sono disponibili solo per domenica.
