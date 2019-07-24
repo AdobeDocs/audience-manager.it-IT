@@ -11,29 +11,29 @@ source-git-commit: 0fac081c93be36d2aa40023c7323ef1886b3860a
 ---
 
 
-# Sincronizzazione ID per trasferimenti di dati in entrata{#id-synchronization-for-inbound-data-transfers}
+# ID Synchronization for Inbound Data Transfers{#id-synchronization-for-inbound-data-transfers}
 
-Descrive la sintassi e i parametri utilizzati nella chiamata iniziale `HTTP` per sincronizzare gli ID utente tra un fornitore e Audience Manager. La sincronizzazione degli ID può iniziare dopo aver inviato la tassonomia di dati ad Audience Manager.
+Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and Audience Manager. La sincronizzazione degli ID può iniziare dopo aver inviato la tassonomia di dati ad Audience Manager.
 
 <!-- c_id_sync_in.xml -->
 
-La sincronizzazione ID è il primo passaggio nel processo di trasferimento dei dati in ingresso e asincrono. In questo passaggio, Audience Manager e il fornitore confrontano e confrontano gli ID per i rispettivi visitatori del sito. Ad esempio, un [!DNL Audience Manager] cliente potrebbe conoscere un utente per ID 123. Tuttavia, il tuo partner dati potrebbe identificare questo utente con ID 456. Il processo di sincronizzazione consente [!DNL Audience Manager] a un fornitore di dati di riconciliare i diversi ID e identificare gli utenti nei rispettivi sistemi. Una volta completato, [!DNL Audience Manager] il tuo partner di terze parti deve avere ID corrispondenti per ogni utente unico visualizzato sulle nostre reti.
+La sincronizzazione ID è il primo passaggio nel processo di trasferimento dei dati in ingresso e asincrono. In questo passaggio, Audience Manager e il fornitore confrontano e confrontano gli ID per i rispettivi visitatori del sito. For example, an [!DNL Audience Manager] customer may know a user by ID 123. Tuttavia, il tuo partner dati potrebbe identificare questo utente con ID 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and your third-party partner should have corresponding IDs for each unique user seen on our networks.
 
-Per ottenere i dati in [!DNL Audience Manager]:
+You can use the following methods to get your data into [!DNL Audience Manager]:
 
 * [Richiesta HTTP sincronizzazione ID](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-http)
 * [Evento ID dichiarato](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#declared-id-event)
-* [Sincronizzazione ID da un&#39;immagine incorporata e-mail](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
+* [Sincronizzazione ID da un'immagine incorporata e-mail](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md#id-sync-email-image)
 
-## Richiesta sincronizzazione `HTTP` ID {#id-sync-http}
+## ID Synchronization `HTTP` Request {#id-sync-http}
 
-In uno scambio ID, una stringa formattata [!DNL URL] correttamente deve essere simile al seguente:
+In an ID exchange, a properly formatted [!DNL URL] string should look like this:
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
 ```
 
-La [!DNL URL] chiamata per la sincronizzazione ID in entrata deve contenere variabili descritte nella tabella seguente.
+The [!DNL URL] for your inbound ID synchronization call should contain variables described in the table below.
 
 >[!NOTE]
 >
@@ -49,34 +49,34 @@ La [!DNL URL] chiamata per la sincronizzazione ID in entrata deve contenere vari
  <tbody> 
   <tr> 
    <td colname="col1"> <code><i>&lt; ID_ ID &gt;</i></code> </td> 
-   <td colname="col2"> <p>ID univoco per il fornitore di contenuti (assegnato da <span class="keyword"> Audience Manager</span>). </p> </td> 
+   <td colname="col2"> <p>Unique ID for the content provider (assigned by <span class="keyword"> Audience Manager</span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>&lt; ID_ UUID &gt;</i></code> </td> 
-   <td colname="col2"> <p>URL (Percent (Percentuale)) Rappresentazione codificata dell'ID utente univoco. Oltre a codificare caratteri ASCII riservati, tutti i caratteri non ASCII devono essere codificati in base alla tabella di codifica caratteri UTF -8. </p> <p>Per ulteriori informazioni, consulta il sito Web Codifica <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL/Decode Online</a> . </p> </td> 
+   <td colname="col2"> <p>URL (Percent (Percentuale)) Rappresentazione codificata dell'ID utente univoco. Oltre a codificare caratteri ASCII riservati, tutti i caratteri non ASCII devono essere codificati in base alla tabella di codifica caratteri UTF -8. </p> <p>For more information, see the <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL Encode/Decode Online</a> website. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>&lt; REDIRECT_ URL &gt;</i></code> </td> 
-   <td colname="col2"> <p>Un URL codificato viene reindirizzato con la macro <code> $ {DD_ UUID}</code> incorporata al suo interno. </p> <p>Nota: Aggiunto solo quando il fornitore del contenuto avvia la chiamata. </p> </td> 
+   <td colname="col2"> <p>An encoded URL redirect with the macro <code> ${DD_UUID}</code> embedded within it. </p> <p>Nota: Aggiunto solo quando il fornitore del contenuto avvia la chiamata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr = &lt; 0|1 &gt;</i></code> </td> 
-   <td colname="col2"> <p>Facoltativo. Aggiungete questo parametro se utilizzate il plug-in <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager per IAB TCF.</a></p> <p><code> gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR apply). </p> <p> <b>Nota:</b> Questo parametro può essere utilizzato solo insieme a <code>gdpr_ permission</code>.</p></td> 
+   <td colname="col2"> <p>Facoltativo. Add this parameter if you are using the <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code> gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR apply). </p> <p> <b>Nota:</b> Questo parametro può essere utilizzato solo insieme a <code>gdpr_ permission</code>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_ permission = &lt; STRING STRING &gt;</i></code> </td> 
-   <td colname="col2"> <p>Facoltativo. Aggiungete questo parametro se utilizzate il plug-in <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager per IAB TCF.</a></p> <p><code>gdpr_ permission</code> is the URL-safe party 64-encoded GDPR permission string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> <p> <b>Nota:</b> Questo parametro può essere utilizzato solo insieme a <code>gdpr</code>.</p> </td> 
+   <td colname="col2"> <p>Facoltativo. Add this parameter if you are using the <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager Plug-in for IAB TCF.</a></p> <p><code>gdpr_ permission</code> is the URL-safe party 64-encoded GDPR permission string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> <p> <b>Nota:</b> Questo parametro può essere utilizzato solo insieme a <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Evento ID dichiarato {#declared-id-event}
+## Declared ID Event {#declared-id-event}
 
-Per ulteriori informazioni, vedi [ID dichiarati](../../../features/declared-ids.md).
+For more information, see [Declared IDs](../../../features/declared-ids.md).
 
-## Sincronizzazione ID da un&#39;immagine incorporata e-mail {#id-sync-email-image}
+## ID Synchronization From an Email Embedded Image {#id-sync-email-image}
 
-Il formato degli ID corrispondenti tramite un&#39;immagine e-mail è lo stesso illustrato sopra. Tuttavia, per poter funzionare è necessario abilitare le immagini in un&#39;e-mail. Questo può influire sulla sincronizzazione ID tramite e-mail perché la maggior parte dei sistemi di posta elettronica disattiva le immagini per impostazione predefinita.
+Il formato degli ID corrispondenti tramite un'immagine e-mail è lo stesso illustrato sopra. Tuttavia, per poter funzionare è necessario abilitare le immagini in un'e-mail. Questo può influire sulla sincronizzazione ID tramite e-mail perché la maggior parte dei sistemi di posta elettronica disattiva le immagini per impostazione predefinita.
 
 >[!MORE_ LIKE_ THIS]
 >
