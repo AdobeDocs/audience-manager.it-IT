@@ -13,13 +13,13 @@ source-git-commit: e6dcd0a33489ae388df25a95d3ad4841030afe31
 
 # Privacy dei dati{#data-privacy}
 
-Descrive l&#39;integrazione e la conformità di Audience Manager con le best practice generalmente accettate relative alle procedure di privacy e rinuncia del consumatore.
+Descrive l'integrazione e la conformità di Audience Manager con le best practice generalmente accettate relative alle procedure di privacy e rinuncia del consumatore.
 
 ## Privacy dei dati {#data-privacy-center}
 
-Consulta il Centro per la privacy di [Adobe](https://www.adobe.com/privacy/opt-out.html).
+See the [Adobe Privacy Center](https://www.adobe.com/privacy/opt-out.html).
 
-## Protezione della privacy del consumatore {#consumer-privacy-protection}
+## Consumer Privacy Protection {#consumer-privacy-protection}
 
 Audience Manager riconosce il patto implicito tra i consumatori e i marchi online con cui interagiscono. Entrambe le parti beneficiano dello scambio trasparente di elementi dati anonimi:
 
@@ -28,9 +28,9 @@ Audience Manager riconosce il patto implicito tra i consumatori e i marchi onlin
 
 Nel supporto costante di questo modello, Audience Manager continua a garantire la trasparenza e il controllo ai consumatori, nonché a soddisfare o superare i principi autoregolamentali della pubblicità comportamentale (OBA) online.
 
-## Gestione rinunce {#opt-out-management}
+## Opt-Out Management {#opt-out-management}
 
-La documentazione di rinuncia è stata estesa e spostata in una parte separata della documentazione. Consulta [Gestione della rinuncia](../../overview/data-security-and-privacy/opt-out-management.md).
+La documentazione di rinuncia è stata estesa e spostata in una parte separata della documentazione. See [Opt-out Management](../../overview/data-security-and-privacy/opt-out-management.md).
 
 <!-- 
 
@@ -68,7 +68,7 @@ La documentazione di rinuncia è stata estesa e spostata in una parte separata d
 
  -->
 
-## Raccolta di indirizzi IP e offuscamento dell&#39;indirizzo IP {#collecting-ip-addresses}
+## Collecting IP Addresses and IP Address Obfuscation {#collecting-ip-addresses}
 
 <!-- 
 
@@ -76,18 +76,18 @@ Adobe has enabled processes and offers settings that allow customers to use Audi
 
 -->
 
-L&#39;indirizzo IP di un visitatore nel sito Web di un cliente viene trasmesso a un Adobe Data Processing Center (DPC) dove può essere memorizzato l&#39;indirizzo IP. A seconda della configurazione di rete per il visitatore, l&#39;indirizzo IP potrebbe non rappresentare necessariamente l&#39;indirizzo IP del computer del visitatore. Potrebbe essere ad esempio l’indirizzo IP esterno di un firewall con traduzione degli indirizzi di rete (Network Address Translation, NAT), di un proxy HTTP o di un gateway Internet.
+L'indirizzo IP di un visitatore nel sito Web di un cliente viene trasmesso a un Adobe Data Processing Center (DPC) dove può essere memorizzato l'indirizzo IP. A seconda della configurazione di rete per il visitatore, l'indirizzo IP potrebbe non rappresentare necessariamente l'indirizzo IP del computer del visitatore. Potrebbe essere ad esempio l’indirizzo IP esterno di un firewall con traduzione degli indirizzi di rete (Network Address Translation, NAT), di un proxy HTTP o di un gateway Internet.
 
-**Metodologia offuscamento IP:** In base ai principi di &quot;Privacy by Design&quot;, Adobe Audience Manager consente ai clienti di abilitare l&#39;offuscamento IP dall&#39;interfaccia utente, a livello globale in tutte le aree geografiche o per paesi specifici. Quando abilitate questa impostazione, l&#39;ultimo ottetto (l&#39;ultima parte) dell&#39;indirizzo IP viene eliminato immediatamente quando l&#39;indirizzo IP viene trasferito in Audience Manager. Audience Manager elimina questa parte dell&#39;indirizzo IP prima dell&#39;elaborazione (inclusa la ricerca geografica facoltativa o la registrazione dell&#39;indirizzo IP). Ad esempio:
+**Metodologia offuscamento IP:** In base ai principi di "Privacy by Design", Adobe Audience Manager consente ai clienti di abilitare l'offuscamento IP dall'interfaccia utente, a livello globale in tutte le aree geografiche o per paesi specifici. Quando abilitate questa impostazione, l'ultimo ottetto (l'ultima parte) dell'indirizzo IP viene eliminato immediatamente quando l'indirizzo IP viene trasferito in Audience Manager. Audience Manager elimina questa parte dell'indirizzo IP prima dell'elaborazione (inclusa la ricerca geografica facoltativa o la registrazione dell'indirizzo IP). Ad esempio:
 
 * Prima: `255.255.255.255`
 * Dopo: `255.255.255.0`
 
 >[!NOTE]
 >
->Consultate [Oscuramento indirizzo IP](/help/using/features/administration/ip-obfuscation.md) per apprendere come abilitare l&#39;offuscamento dell&#39;indirizzo IP nell&#39;interfaccia utente di Audience Manager.
+>See [IP Address Obfuscation](/help/using/features/administration/ip-obfuscation.md) to learn how to enable IP address obfuscation in the Audience Manager UI.
 
-**Segmentazione geografica:** Se abilitate l&#39;offuscamento dell&#39;indirizzo IP, i restanti ottetti dell&#39;indirizzo IP possono essere utilizzati per la segmentazione e il reporting in Audience Manager. Se non abilitate l&#39;offuscamento dell&#39;indirizzo IP, Audience Manager usa l&#39;indirizzo IP completo. Potete utilizzare la funzione Segmentazione geografica per identificare una posizione IP per area geografica in entrambi i casi, ma con lievi perdite di precisione quando viene utilizzata l&#39;offuscamento IP. L’ottenimento di informazioni a livello di città sarà probabilmente influenzato in modo significativo dall’oscuramento dell’indirizzo IP. L&#39;acquisizione di informazioni a livello di paese e paese dovrebbe essere leggermente influenzata. I dati di segmentazione geografica sono granulari solo a livello di città o di codice postale, e non a livello individuale. Scopri ulteriori informazioni sul [geotargeting](/help/using/features/traits/trait-geotarget-keys.md) e come impostare caratteristiche con variabili geografiche.
+**Segmentazione geografica:** Se abilitate l'offuscamento dell'indirizzo IP, i restanti ottetti dell'indirizzo IP possono essere utilizzati per la segmentazione e il reporting in Audience Manager. Se non abilitate l'offuscamento dell'indirizzo IP, Audience Manager usa l'indirizzo IP completo. Potete utilizzare la funzione Segmentazione geografica per identificare una posizione IP per area geografica in entrambi i casi, ma con lievi perdite di precisione quando viene utilizzata l'offuscamento IP. L’ottenimento di informazioni a livello di città sarà probabilmente influenzato in modo significativo dall’oscuramento dell’indirizzo IP. L'acquisizione di informazioni a livello di paese e paese dovrebbe essere leggermente influenzata. I dati di segmentazione geografica sono granulari solo a livello di città o di codice postale, e non a livello individuale. Read more about [geo-targeting](/help/using/features/traits/trait-geotarget-keys.md) and how to set up traits with geographic variables.
 
 ## Concetti correlati {#related-concepts}
 
