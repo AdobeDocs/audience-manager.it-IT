@@ -13,14 +13,14 @@ source-git-commit: b8a735f1bfbd2ac450aabc3348a387aee4b58707
 
 # Partner attivazione Audience Manager
 
-Questa pagina include solo le integrazioni server- [to-server correnti di Audience](/help/using/features/destinations/manage-destinations.md#add-edit-segments) Manager. Per ulteriori informazioni su un&#39;integrazione, consulta l&#39;elenco di [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (ove disponibile) oppure contatta il tuo Adobe Consulente o l&#39;Assistenza clienti.
+This page includes current Audience Manager [server-to-server integrations](/help/using/features/destinations/manage-destinations.md#add-edit-segments) only.  For more information on an integration refer to its [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) listing (where available) or contact your Adobe Consultant or Customer Care.
 
 <br> 
 
-* **Aggiornato** = Mostra l&#39;ultima data in cui si è verificato un aggiornamento per questo partner di attivazione.
-* **Unsegmentazione** = Desegmentazione descrive i processi che consentono di squalificare e rimuovere profili dispositivo dai segmenti. La capacità di rimuovere un profilo dispositivo da un segmento dipende dall&#39;opzione del dispositivo utilizzata per creare una regola unione profilo. L&#39;unsegmentazione viene utilizzata anche nel contesto delle richieste di eliminazione del GDPR, Leggi [regole di unione profili e Processi di unsegmentazione del dispositivo](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [Partner di Audience Manager con funzionalità di unsegmentazione](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager invia le informazioni di separazione alle destinazioni contrassegnate con Sì.
-* **Ricezione dei segnali di consenso IAB TCF** = Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa di autorizzazione IAB TCF ai partner di attivazione rispettando le scelte sulla privacy degli utenti. Leggete [il plug-in Audience Manager per IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners).
-* **ICDS** = Questa colonna elenca i partner che supportano l&#39;opzione Soppressione cross-device. Leggi [Soppressione](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)cross-device.
+* **Aggiornato** = Mostra l'ultima data in cui si è verificato un aggiornamento per questo partner di attivazione.
+* **Unsegmentazione** = Desegmentazione descrive i processi che consentono di squalificare e rimuovere profili dispositivo dai segmenti. La capacità di rimuovere un profilo dispositivo da un segmento dipende dall'opzione del dispositivo utilizzata per creare una regola unione profilo. Unsegmentation is also used in the context of GDPR delete requests Read [Profile Merge Rules and Device Unsegmentation Processes](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) and [Audience Manager Partners With Unsegmentation Capabilities](/help/using/overview/aam-gdpr/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager invia le informazioni di separazione alle destinazioni contrassegnate con Sì.
+* **Ricezione dei segnali di consenso IAB TCF** = Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa di autorizzazione IAB TCF ai partner di attivazione rispettando le scelte sulla privacy degli utenti. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners).
+* **ICDS** = Questa colonna elenca i partner che supportano l'opzione Soppressione cross-device. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **ID dispositivo mobile** = Questa colonna elenca i partner che possono ricevere ID dispositivo mobili da Audience Manager.
 
 <br> 
