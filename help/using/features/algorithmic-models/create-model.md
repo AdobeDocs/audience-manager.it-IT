@@ -13,17 +13,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Creare un modello algoritmico {#create-an-algorithmic-model}
+# Create an Algorithmic Model {#create-an-algorithmic-model}
 
-Descrive i passaggi obbligatori e facoltativi che consentono di creare un modello algoritmico in [!UICONTROL Model Builder].
+Describes the required and optional steps that let you create an algorithmic model in [!UICONTROL Model Builder].
 
-## Creare un modello {#build-model}
+## Build a Model {#build-model}
 
 <!-- t_model_build.xml -->
 
 ### Sezione Builder modello
 
-[!UICONTROL Model Builder] consiste in [!UICONTROL Basic Information] sezioni e [!UICONTROL Configuration] sezioni. Per creare un modello, completare i campi richiesti in queste due sezioni. Salvate il modello per avviare l&#39;algoritmo. [!DNL Audience Manager] invia una notifica automatizzata al completamento della prima esecuzione dei dati. Dopo aver ricevuto l&#39;e-mail, potete passare al Generatore [di caratteristiche](../../features/traits/about-trait-builder.md) e creare caratteristiche algoritmiche.
+[!UICONTROL Model Builder] consiste in [!UICONTROL Basic Information] sezioni e [!UICONTROL Configuration] sezioni. Per creare un modello, completare i campi richiesti in queste due sezioni. Salvate il modello per avviare l'algoritmo. [!DNL Audience Manager] invia una notifica automatizzata al completamento della prima esecuzione dei dati. After you receive the email, you can go to [Trait Builder](../../features/traits/about-trait-builder.md) and create algorithmic traits.
 
 >[!NOTE]
 >
@@ -35,24 +35,24 @@ Descrive i passaggi obbligatori e facoltativi che consentono di creare un modell
 
 ### Creare il modello
 
-Per creare un modello, andate alla [!UICONTROL Models] sezione e fate clic **[!UICONTROL Add New]** ed effettuate le seguenti operazioni:
+To build a model, go to the [!UICONTROL Models] section and click **[!UICONTROL Add New]** and follow the steps below:
 
-1. Nella [sezione Informazioni](../../features/algorithmic-models/create-model.md#basic-information) di base
+1. In the [Basic Information](../../features/algorithmic-models/create-model.md#basic-information) section
    * Denominate il modello.
    * *(Facoltativo)* Fornite una breve descrizione del modello.
-   * Impostate lo stato per il modello su **[!UICONTROL Active]** o **[!UICONTROL Inactive]**. I modelli inattivi non vengono eseguiti e non generano dati.
-1. Nella sezione [Configurazione](../../features/algorithmic-models/create-model.md#configuration) :
-   * Fai clic **[!UICONTROL Browse All Traits]** su o **[!UICONTROL Browse All Segments]** per selezionare una caratteristica o un segmento rispetto al quale vuoi modellare il modello. Seleziona una caratteristica caricata, una caratteristica basata su regole o un segmento come linea di base. In caso contrario, i modelli non saranno eseguiti.
+   * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. I modelli inattivi non vengono eseguiti e non generano dati.
+1. In the [Configuration](../../features/algorithmic-models/create-model.md#configuration) section:
+   * Click **[!UICONTROL Browse All Traits]** or **[!UICONTROL Browse All Segments]** to select a trait or segment you want to model against. Seleziona una caratteristica caricata, una caratteristica basata su regole o un segmento come linea di base. In caso contrario, i modelli non saranno eseguiti.
    * Scegliete un periodo di aspetto del 30, 60 o 90 giorni. Questo imposta un intervallo di tempo per il modello.
-   * L&#39; [!UICONTROL TraitWeight] algoritmo è selezionato per impostazione predefinita.
-   * Selezionare un&#39;origine dati dall&#39; [!UICONTROL Available Data] elenco.
-   * Fate clic **[!UICONTROL Save]** su di essa.
+   * The [!UICONTROL TraitWeight] algorithm is selected by default.
+   * Select a data source from the [!UICONTROL Available Data] list.
+   * Click **[!UICONTROL Save]** when done.
 
-## Informazioni di base per i modelli algoritmici {#basic-information}
+## Basic Information for Algorithmic Models {#basic-information}
 
 <!-- r_model_basic.xml -->
 
-In [!UICONTROL Model Builder], le [!UICONTROL Basic Information] impostazioni consentono di creare nuovi o modificare modelli esistenti. Per creare un nuovo modello, fornire un nome e passare alle [!UICONTROL Configuration] impostazioni. Il campo descrizione è facoltativo.
+In [!UICONTROL Model Builder], the [!UICONTROL Basic Information] settings let you create new or edit existing models. To create a new model, provide a name and move on to the [!UICONTROL Configuration] settings. Il campo descrizione è facoltativo.
 
 | Campo | Descrizione |
 |---|---|
@@ -62,13 +62,13 @@ In [!UICONTROL Model Builder], le [!UICONTROL Basic Information] impostazioni co
 
 ## Configurazione {#configuration}
 
-In [!UICONTROL Model Builder], la [!UICONTROL Configuration] sezione consente di aggiungere caratteristiche o segmenti al modello. In questa sezione, seleziona una caratteristica o segmento di base, un periodo di look-back e dati dalla prima e da origini dati di terze parti.
+In [!UICONTROL Model Builder], the [!UICONTROL Configuration] section lets you add traits or segments to the model. In questa sezione, seleziona una caratteristica o segmento di base, un periodo di look-back e dati dalla prima e da origini dati di terze parti.
 
 <!-- r_model_configuration.xml -->
 
 ### Prerequisiti
 
-Compila prima i campi richiesti nella [!UICONTROL Basic Information] sezione.
+Complete the required fields in the [!UICONTROL Basic Information] section first.
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -90,7 +90,7 @@ Compila prima i campi richiesti nella [!UICONTROL Basic Information] sezione.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Seleziona algoritmo (3)</b> </p> </td> 
-   <td colname="col2"> <p>Al momento, Model Builder funziona solo con il nostro algoritmo proprietario <span class="keyword"> per Spessore</span> caratteristica. <span class="keyword"> Audience Manager</span> può aggiungere altre funzioni algoritmiche nelle release successive. </p> </td>
+   <td colname="col2"> <p>At this time, Model Builder works with our proprietary <span class="keyword"> Trait Weight</span> algorithm only. <span class="keyword"> Audience Manager</span> può aggiungere altre funzioni algoritmiche nelle release successive. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Seleziona dati modello dall'origine dati (4)</b> </p> </td> 
@@ -98,7 +98,7 @@ Compila prima i campi richiesti nella [!UICONTROL Basic Information] sezione.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Esclusioni (5)</b> </p> </td> 
-   <td colname="col2"> <p>Puoi escludere caratteristiche dalle origini dati selezionate per la modellazione. Utilizzare l'elenco <span class="wintitle"> Esclusioni</span> e leggere <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> i modelli algoritmici: Esclusione caratteristica</a> per ulteriori informazioni. </p> </td>
+   <td colname="col2"> <p>Puoi escludere caratteristiche dalle origini dati selezionate per la modellazione. Use the <span class="wintitle"> Exclusions</span> list and read <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Algorithmic Models: Trait Exclusion</a> to learn more. </p> </td>
   </tr> 
  </tbody>
 </table>
