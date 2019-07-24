@@ -12,13 +12,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Stati di autenticazione dei visitatori in Audience Manager{#visitor-authentication-states-in-audience-manager}
+# Visitor Authentication States in Audience Manager{#visitor-authentication-states-in-audience-manager}
 
-Lo stato di autenticazione del visitatore in Audience Manager determina se le nuove informazioni relative alle caratteristiche sono scritte sul profilo autenticato del visitatore o sul profilo dispositivo da cui sono stati raccolti i dati. Audience Manager gestisce gli stati UNKNOWN e LOGGED_ OUT delle chiamate dell&#39;evento nello stesso modo.
+Lo stato di autenticazione del visitatore in Audience Manager determina se le nuove informazioni relative alle caratteristiche sono scritte sul profilo autenticato del visitatore o sul profilo dispositivo da cui sono stati raccolti i dati. Audience Manager gestisce gli stati UNKNOWN e LOGGED_ OUT delle chiamate dell'evento nello stesso modo.
 
-A partire dal [!DNL Experience Cloud] servizio ID v 1.5 +, il `setCustomerID` metodo include l&#39;oggetto opzionale `AuthState` . `AuthState` identifica i visitatori in base al loro [stato di autenticazione](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] gestisce le caratteristiche realizzate in modo diverso, a seconda dello stato di autenticazione passato nella chiamata e della [Regola](../features/profile-merge-rules/merge-rules-dashboard.md) Unione profilo utilizzata per la segmentazione.
+Beginning with [!DNL Experience Cloud] ID service v1.5+, the `setCustomerID` method includes the optional `AuthState` object. `AuthState` identifica i visitatori in base al loro [stato di autenticazione](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] gestisce le caratteristiche realizzate in modo diverso, a seconda dello stato di autenticazione passato nella chiamata e della [Regola](../features/profile-merge-rules/merge-rules-dashboard.md) Unione profilo utilizzata per la segmentazione.
 
-## Stato autenticazione: UNKNOWN {#auth-status-unknown}
+## Authentication Status: UNKNOWN {#auth-status-unknown}
 
 <table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
  <thead> 
@@ -44,7 +44,7 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456`
 
-## Stato autenticazione: AUTHENTICATED {#auth-status-authenticated}
+## Authentication Status: AUTHENTICATED {#auth-status-authenticated}
 
 <table id="table_956ABF96024744308F7773E1F96482B7"> 
  <thead> 
@@ -70,7 +70,7 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%011&d_sid=123456`
 
-## Stato autenticazione: LOGGED_ OUT {#auth-status-logged-out}
+## Authentication Status: LOGGED_OUT {#auth-status-logged-out}
 
 <table id="table_783F0CBB0431482AA49F41468FA65B19"> 
  <thead> 
