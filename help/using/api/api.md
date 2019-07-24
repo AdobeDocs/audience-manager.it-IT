@@ -11,16 +11,16 @@ source-git-commit: 9e407a14f6c466ae826f2b13013a997e762a160e
 ---
 
 
-# API e codice SDK {#api-and-sdk-code}
+# API and SDK Code {#api-and-sdk-code}
 
 [!DNL API]s and toolkit that allows you work programmatically with Audience Manager.
 
 >[!NOTE]
 >
->Queste funzioni non sono supportate dai [!DNL API]nostri s:
+>These features are not supported by our [!DNL API]s:
 >
 >* [!UICONTROL General], [!UICONTROL Trend]e [!UICONTROL Interactive] rapporti.
->* Funzionalità obsoleta Gestione tag ([!DNL TIM]).
+>* Deprecated Tag Insertion Manager ([!DNL TIM]) functionality.
 
 
 Dettagli:
