@@ -11,21 +11,21 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Casi di utilizzo Collegamento grafico grafico grafico {#profile-link-device-graph-use-cases}
+# Profile Link Device Graph Use Cases {#profile-link-device-graph-use-cases}
 
-Recommendations e casi d&#39;uso per il retargeting segmento e la qualifica di segmenti personalizzati con il grafico [!UICONTROL Profile Link] del dispositivo.
+Recommendations and use cases for segment retargeting and personalized segment qualification with the [!UICONTROL Profile Link] device graph.
 
 ## Consigli {#recommendations}
 
-Considerate il [!UICONTROL Profile Link] grafico del dispositivo per campagne che:
+Consider the [!UICONTROL Profile Link] device graph for campaigns that:
 
-* Sfruttare un alto livello di autenticazione nelle loro proprietà digitali. Utilizzate un&#39;opzione grafico dispositivo [esterna](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) se disponete di una piccola quantità di utenti autenticati.
-* Richiede targeting accurato per audience conosciute. Viene [!UICONTROL Profile Link device graph] creato utilizzando dati autenticati di prime parti.
+* Sfruttare un alto livello di autenticazione nelle loro proprietà digitali. Use an [external device graph option](../../features/profile-merge-rules/merge-rule-definitions.md#device-options) if you have a small amount of authenticated users.
+* Richiede targeting accurato per audience conosciute. The [!UICONTROL Profile Link device graph] is built using first-party, authenticated data.
 * Eseguite il targeting di audience conosciute nei loro stati autenticati e non autenticati in tempo reale.
 
 ![](assets/merge-rule-triangle2.png)
 
-## Configurazione delle regole di retargeting e Unione profilo {#retargeting-use-cases}
+## Retargeting Use Case and Profile Merge Rule Configuration {#retargeting-use-cases}
 
 Audience di retargeting che sono in precedenza autenticate su siti e/o in-app su più dispositivi. I segmenti possono essere composti dai seguenti profili:
 
@@ -38,7 +38,7 @@ Audience di retargeting che sono in precedenza autenticate su siti e/o in-app su
 
 ### Esempio di retargeting
 
-Vediamo come funziona con un esempio di società di credito di esempio. Questo esempio utilizza le informazioni relative alle caratteristiche raccolte dall&#39;attività anonima, visualizzata solo in profili dispositivo diversi.
+Vediamo come funziona con un esempio di società di credito di esempio. Questo esempio utilizza le informazioni relative alle caratteristiche raccolte dall'attività anonima, visualizzata solo in profili dispositivo diversi.
 
 <table id="table_8C5ABA47A0634EBA9B1AA1B5C2AABF07"> 
  <thead> 
@@ -60,7 +60,7 @@ Vediamo come funziona con un esempio di società di credito di esempio. Questo e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Risultati</b> </p> </td> 
-   <td colname="col2"> <p>Considerate queste condizioni, <span class="keyword"> Audience Manager</span>: </p> <p> 
+   <td colname="col2"> <p>Given these conditions, <span class="keyword"> Audience Manager</span>: </p> <p> 
      <ul id="ul_1B6174F5C3AF4C32831D4217C5113789"> 
       <li id="li_98FE54696B604C3C8D93CC1C1FBB48D9">Unisce l'attività anonima e non autenticata raccolte da tutti i 3 dispositivi utilizzando l'ultimo profilo autenticato sul dispositivo corrente. </li> 
       <li id="li_A73C7DCE36BA42B6BAD26D8A075416C1">Valuta l'utente anonimo per la qualifica del segmento in base a: 
@@ -76,13 +76,13 @@ Vediamo come funziona con un esempio di società di credito di esempio. Questo e
 
 ### Esempio di retargeting Profile Merge Rule
 
-Per impostare il retargeting con [!UICONTROL Profile Link], l&#39;aspetto [!UICONTROL Authenticated Options] deve [!UICONTROL Device Options] essere simile alla configurazione della regola mostrata di seguito. Le [!UICONTROL Authenticated Profile] opzioni saranno diverse da questo esempio perché queste impostazioni utilizzano i nomi delle origini dati cross-device.
+To set up retargeting with [!UICONTROL Profile Link], your [!UICONTROL Authenticated Options] and [!UICONTROL Device Options] should look like the rule configuration shown below. The [!UICONTROL Authenticated Profile] options will be different from this example because these settings use the names of your cross-device data sources.
 
 ![Configurazione regola unione profilo](assets/merge-rules-internal3.png)
 
-## Configurazione delle regole di personalizzazione e unione profilo {#personalization-use-case}
+## Personalization Use Case and Profile Merge Rule Configuration {#personalization-use-case}
 
-Personalizzate l&#39;esperienza per i tipi di pubblico autenticati sul sito e/o in-app in base all&#39;attività su più dispositivi. I segmenti possono essere composti dai seguenti profili:
+Personalizzate l'esperienza per i tipi di pubblico autenticati sul sito e/o in-app in base all'attività su più dispositivi. I segmenti possono essere composti dai seguenti profili:
 
 * Profilo dispositivo autenticato.
 * Profili dispositivo anonimi.
@@ -116,7 +116,7 @@ Vediamo come funziona con un esempio di società di credito di esempio.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Risultati</b> </p> </td> 
-   <td colname="col2"> <p>Considerate queste condizioni, <span class="keyword"> Audience Manager</span>: </p> <p> 
+   <td colname="col2"> <p>Given these conditions, <span class="keyword"> Audience Manager</span>: </p> <p> 
      <ul id="ul_37DBF5FEABC5463D85C74AD9150EA177"> 
       <li id="li_B60FFA5CF3F64FB69997AA05595900D7">Unisce l'attività anonima e non autenticata raccolte da tutti i 3 dispositivi utilizzando il profilo autenticato corrente. Il profilo autenticato fornisce un identificatore comune su ogni dispositivo. </li> 
       <li id="li_AB9FD87DD804474BA33805C364B7B92D">Valuta l'utente autenticato per la qualifica del segmento in base a: 
@@ -132,15 +132,15 @@ Vediamo come funziona con un esempio di società di credito di esempio.
 
 ### Esempio di regola unione profilo personalizzazione
 
-Per configurare la personalizzazione con [!UICONTROL Profile Link], [!UICONTROL Authenticated Options] l [!UICONTROL Device Options] &#39;aspetto deve essere simile alla configurazione della regola mostrata di seguito. Le [!UICONTROL Authenticated Profile] opzioni saranno diverse da questo esempio perché queste impostazioni utilizzano i nomi delle origini dati cross-device.
+To set up personalization with [!UICONTROL Profile Link], your [!UICONTROL Authenticated Options] and [!UICONTROL Device Options] should look like the rule configuration shown below. The [!UICONTROL Authenticated Profile] options will be different from this example because these settings use the names of your cross-device data sources.
 
 ![](assets/merge-rules-internal4.png)
 
-Per ulteriori informazioni sul funzionamento di questi grafici per dispositivi, scaricate i grafici PDF, [Audience Manager e Dispositivi esterni](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf).
+For more information about how these device graph processes work, download our PDF, [Audience Manager and External Device Graphs](https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf).
 
 >[!MORE_ LIKE_ THIS]
 >
->* [Casi d&#39;uso del grafico del dispositivo esterno](../../features/profile-merge-rules/external-graph-use-cases.md)
+>* [Casi d'uso dei grafici dei dispositivi esterni](../../features/profile-merge-rules/external-graph-use-cases.md)
 >* [Casi di utilizzo generali per regole di unione profilo](../../features/profile-merge-rules/merge-rule-targeting-options.md)
 >* [Domande frequenti sulle regole di unione profilo](../../faq/faq-profile-merge.md)
 
