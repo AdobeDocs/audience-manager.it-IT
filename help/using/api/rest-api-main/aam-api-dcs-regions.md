@@ -11,17 +11,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Metodi API per regione DCS {#dcs-region-api-methods}
+# DCS Region API Methods {#dcs-region-api-methods}
 
-Metodi che consentono di elencare in modo programmatico [!UICONTROL DCS] le aree di Audience Manager.
+Methods that let you programmatically list Audience Manager [!UICONTROL DCS] regions.
 
 <!-- c_rest_api_regions.xml -->
 
-Per un elenco delle regioni e dei relativi integer, vedi [ID regioni DCS, Posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Elenca una regione DCS specifica {#list-specific-dcs-region}
+## List a Specific DCS Region {#list-specific-dcs-region}
 
-`GET` Un metodo per elencare un&#39;area specifica [!UICONTROL DCS] .
+`GET` Un metodo per elencare un'area specifica [!UICONTROL DCS] .
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -45,13 +45,13 @@ Per un elenco delle regioni e dei relativi integer, vedi [ID regioni DCS, Posizi
   }
 ```
 
-Restituisce `200 OK` in caso di esito positivo.
+Returns `200 OK` if successful.
 
-Per un elenco delle regioni e dei relativi integer, vedi [ID regioni DCS, Posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Elenca regioni DCS {#list-dcs-regions}
+## List DCS Regions {#list-dcs-regions}
 
-`GET` Un metodo per l&#39;elenco [!UICONTROL DCS] delle aree.
+`GET` Un metodo per l'elenco [!UICONTROL DCS] delle aree.
 
 <!-- r_rest_api_regions_list.xml -->
 
@@ -78,6 +78,6 @@ Per un elenco delle regioni e dei relativi integer, vedi [ID regioni DCS, Posizi
 ]
 ```
 
-Restituisce `200 OK` in caso di esito positivo.
+Returns `200 OK` if successful.
 
-Per un elenco delle regioni e dei relativi integer, vedi [ID regioni DCS, Posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
