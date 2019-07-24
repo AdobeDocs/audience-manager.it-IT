@@ -11,11 +11,11 @@ source-git-commit: 50a6627568bd472dae1cfbdf5c6c824622766df1
 ---
 
 
-# Gestione della rinuncia{#opt-out-management}
+# Opt-out Management{#opt-out-management}
 
 Adobe rispetta tutti gli standard di settore relativi alla gestione della rinuncia. Continua a leggere per informazioni complete sui tipi di consenso supportati da Audience Manager.
 
-## Rinuncia globale {#global-opt-out}
+## Global Opt-Out {#global-opt-out}
 
 La rinuncia globale rappresenta una rinuncia in Audience Manager e in altre soluzioni Adobe Experience Cloud per tutti i marchi. La tabella seguente elenca i metodi utilizzati per la rinuncia globale:
 
@@ -29,11 +29,11 @@ La rinuncia globale rappresenta una rinuncia in Audience Manager e in altre solu
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p>La <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> pagina Scelte sulla privacy </a> fornisce funzionalità a 1 clic che consentono agli utenti finali di controllare e rifiutare la raccolta di dati tramite le soluzioni pubblicitarie Adobe Experience Cloud (incluso Audience Manager). In modo specifico, consultate la <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> sezione cliente aziendale </a> della pagina Scelte sulla privacy. </p> </td> 
+   <td colname="col2"> <p>The <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> Your Privacy Choices page </a> provides 1-click features that let your end users control and opt-out of data collection by the Adobe Experience Cloud advertising solutions (including Audience Manager). Specifically, see the <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external"> business customer section </a> of the Privacy Choices page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Chiamate API dirette ad Audience Manager </p> </td> 
-   <td colname="col2"> <p>Puoi rifiutare la raccolta dati da tutti i marchi di Audience Manager effettuando una chiamata all'API DCS di seguito e includendo l'ID utente <a href="../../reference/ids-in-aam.md"> di Audience Manager </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" —cookie "demdex = 12345678901234567890123456789012345678; dextp = 12; DST = 12 " </code> </p> <p>Come risultato, imposteremo <code>i cookie demdex = NOTARGET</code> e <code>dextp = NOTARGET</code> per l'ID utente di Audience Manager inviato. </p> </td> 
+   <td colname="col2"> <p>You can opt-out from data collection by all Audience Manager brands by making a call to the DCS API below and include the <a href="../../reference/ids-in-aam.md"> Audience Manager User ID </a>: </p> <p> <code> curl -i "https://www.demdex.net/demoptout.jpg" —cookie "demdex = 12345678901234567890123456789012345678; dextp = 12; DST = 12 " </code> </p> <p>As a result, we will set <code>demdex=NOTARGET</code> and <code>dextp=NOTARGET</code> cookies for the submitted Audience Manager User ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dispositivi mobili </p> </td> 
@@ -56,23 +56,23 @@ Seguendo le richieste di rifiuto descritte in precedenza:
 * Audience Manager cesserà tutte le operazioni di raccolta, segmentazione o attivazione di dati.
 * I dati della cronologia vengono rimossi dal profilo utente dopo 120 giorni.
 
-## Rinuncia a livello di partner {#partner-opt-out}
+## Partner Level Opt-Out {#partner-opt-out}
 
-La rinuncia a livello di partner consente di rifiutare la raccolta dati da parte di specifici partner Audience Manager. La rinuncia a livello di partner funziona con [chiamate ID](../../features/declared-ids.md) dichiarate e chiamate ID dispositivo, come descritto nelle sezioni di seguito.
+La rinuncia a livello di partner consente di rifiutare la raccolta dati da parte di specifici partner Audience Manager. The partner-level opt-out works with [Declared ID](../../features/declared-ids.md) calls and Device ID calls, as described in the sections below.
 
 ### Rinuncia a livello di partner con chiamate ID dichiarate
 
 Dopo una rinuncia a livello di partner con una chiamata ID dichiarata:
 
-* L&#39;ultimo ID dispositivo ([ID utente univoco Audience Manager](../../reference/ids-in-aam.md)) collegato all&#39;ID [CRM](../../reference/ids-in-aam.md) viene rifiutato dalla raccolta dati.
-* Audience Manager cesserà tutte le operazioni di raccolta, segmentazione o attivazione di dati per l&#39;ultimo ID dispositivo collegato all&#39;ID CRM.
+* The last device ID ([Audience Manager Unique User ID](../../reference/ids-in-aam.md)) linked to the [CRM ID](../../reference/ids-in-aam.md) is opted out of data collection.
+* Audience Manager cesserà tutte le operazioni di raccolta, segmentazione o attivazione di dati per l'ultimo ID dispositivo collegato all'ID CRM.
 * Non vengono eliminati dati storici.
 
 <br/>
 
 **Chiamate di rifiuto**
 
-Quando Audience Manager riceve una richiesta di rinuncia a livello di partner, il codice JSON restituito dal DCS contiene il [codice di errore 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), insieme al messaggio [!UICONTROL "Encountered opt out tag"], anziché l&#39;ID utente di Audience Manager.
+When Audience Manager receives a partner-level opt-out request, the JSON returned by the DCS contains the [error code 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), with the message [!UICONTROL "Encountered opt out tag"], instead of the Audience Manager user ID.
 
 <!-- 
 
@@ -94,11 +94,11 @@ Quando Audience Manager riceve una richiesta di rinuncia a livello di partner, i
 
 **Esempi**
 
-Potete effettuare una richiesta di rinuncia ID dichiarata con le `d_cid` coppie `d_cid_ic` chiave-valore. I parametri legacy come `d_dpid` e `d_dpuuid` continuano a funzionare, ma sono considerati obsoleti. Consultate [CID sostituisce DPID e DPUUID](../../reference/cid.md) In questi esempi, *il corsivo* indica un segnaposto variabile.
+You can make a declared ID opt-out request with the `d_cid` and `d_cid_ic` key-value pairs. The legacy parameters like `d_dpid` and `d_dpuuid` still work, but are considered deprecated. Consultate [CID sostituisce DPID e DPUUID](../../reference/cid.md) In the examples, *italics* indicates a variable placeholder.
 
 **Rinunce con CID e CID_ IC**
 
-Per una descrizione e una sintassi, vedi [Variabili URL e sintassi per gli ID dichiarati](../../features/declared-ids.md#variables-and-syntax).
+For a description and syntax, see [URL Variables and Syntax for Declared IDs](../../features/declared-ids.md#variables-and-syntax).
 
 | Rinuncia | Esempio di codice |
 |--- |--- |
@@ -108,17 +108,17 @@ Per una descrizione e una sintassi, vedi [Variabili URL e sintassi per gli ID di
 
 ### Rinuncia a livello di partner con chiamate ID dispositivo
 
-Puoi rifiutare la raccolta dati su un determinato ID dispositivo per un marchio effettuando le seguenti chiamate all&#39;API [DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
+You can opt-out from data collection on a given device ID for a brand by making the following calls to the [DCS API](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md):
 
 | Rinuncia | Esempio di codice |
 |--- |--- |
-| Un ID utente univoco di Audience Manager (`uuid`). | `http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
-| Un ID Experience Cloud (`mid`) | `http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
+| An Audience Manager Unique User ID (`uuid`). | `http://yourcompany.demdex.net/demoptout.jpg?d_uuid=123` |
+| An Experience Cloud ID (`mid`) | `http://yourcompany.demdex.net/demoptout.jpg?d_mid=123&d_orgid=IMSoRGid` |
 
-Leggi ulteriori informazioni `uuid`e `mid``imsOrgId` nell&#39; [Indice degli ID in Audience Manager](/help/using/reference/ids-in-aam.md).
+Read more about `uuid`, `mid` and `imsOrgId` in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
 
 Dopo un opt-out a livello di partner con una chiamata ID dispositivo:
 
-* L&#39;ID dispositivo viene rinunciato alla raccolta di dati.
-* Audience Manager cesserà tutte le operazioni di raccolta, segmentazione o attivazione di dati per il partner, andando avanti per l&#39;ID dispositivo.
+* L'ID dispositivo viene rinunciato alla raccolta di dati.
+* Audience Manager cesserà tutte le operazioni di raccolta, segmentazione o attivazione di dati per il partner, andando avanti per l'ID dispositivo.
 * Non vengono eliminati dati storici.
