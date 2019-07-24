@@ -11,9 +11,9 @@ source-git-commit: 78121b615f665eea8610b3184d4a4a97c869d4d0
 ---
 
 
-# Rapporti interattivi e di sovrapposizione{#interactive-and-overlap-reports}
+# Interactive and Overlap Reports{#interactive-and-overlap-reports}
 
-I rapporti interattivi mostrano prestazioni e sovrapposizione dati per caratteristiche e segmenti. Invece di utilizzare numeri disposti in colonne e righe, tali rapporti restituiscono dati con forme, colori e dimensioni diverse. Inoltre, potete scegliere singoli o gruppi di punti dati e analizzare i risultati del rapporto per ulteriori dettagli. Queste tecniche di visualizzazione e l&#39;interattività dei report facilitano la comprensione di grandi quantità di dati numerici.
+I rapporti interattivi mostrano prestazioni e sovrapposizione dati per caratteristiche e segmenti. Invece di utilizzare numeri disposti in colonne e righe, tali rapporti restituiscono dati con forme, colori e dimensioni diverse. Inoltre, potete scegliere singoli o gruppi di punti dati e analizzare i risultati del rapporto per ulteriori dettagli. Queste tecniche di visualizzazione e l'interattività dei report facilitano la comprensione di grandi quantità di dati numerici.
 
 + [Report Technology](interactive-report-technology.md)
 + [Report sulla distribuzione e sulle prestazioni](delivery-performance-report.md)
