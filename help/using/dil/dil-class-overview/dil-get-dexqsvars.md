@@ -11,7 +11,7 @@ source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
 ---
 
 
-# Dexgetqsvars{#dexgetqsvars}
+# dexGetQSVars{#dexgetqsvars}
 
 Recupera un valore specifico da un server di annunci.
 
@@ -29,11 +29,11 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Stringa | Nome della variabile per la quale desiderate ottenere un valore. |
 | `partner` | Stringa | Nome del partner da cercare. |
-| `containerNSID` | Intero | Il [!DNL NSID] contenitore che stai cercando. I valori predefiniti `0`sono. |
+| `containerNSID` | Intero | The [!DNL NSID] of the container you're searching for. Defaults is `0`. |
 
 **Risposta**
 
-Restituisce il valore della variabile per un [!UICONTROL DIL] &#39;istanza.
+Returns the variable value for a [!UICONTROL DIL] instance.
 
 **Codice di esempio**
 
