@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Componenti azioni dati{#data-action-components}
+# Data Action Components{#data-action-components}
 
 I componenti delle azioni dei dati includono Feed dati cliente, Data Collection Server, SFTP/S 3/HTTP edshers, IRIS e Caching Server profilo.
 
@@ -21,46 +21,46 @@ c_compact.xml
 
  -->
 
-I componenti azione sono sistemi e processi che consentono di spostare i dati da e verso [!DNL Audience Manager] l&#39;esterno e (per la mancanza di una frase migliore). [!DNL Audience Manager] Questi componenti includono:
+Action components are systems and processes that let you move data in and out of [!DNL Audience Manager] and (for the lack of a better phrase) do things with it. [!DNL Audience Manager] Questi componenti includono:
 
-## Feed dati cliente (CDF) {#cdf}
+## Customer Data Feeds (CDF) {#cdf}
 
-[!UICONTROL CDF] sono file inviati oraria ai clienti. Questi contengono ID utente insieme agli ID segmento associati, agli ID tratti e ad altri dati. Per ulteriori informazioni, vedi [Panoramica feed dati cliente](../../features/cdf-files.md).
+[!UICONTROL CDF] sono file inviati oraria ai clienti. Questi contengono ID utente insieme agli ID segmento associati, agli ID tratti e ad altri dati. For more information, see [Customer Data Feed Overview](../../features/cdf-files.md).
 
 ## Data Collection Server (DCS) {#dcs}
 
-Consulta [Componenti raccolta dati](../../reference/system-components/components-data-collection.md).
+See [Data Collection Components](../../reference/system-components/components-data-collection.md).
 
-## SFTP/S 3 {#sftp-s3}
+## SFTP/S3 {#sftp-s3}
 
-Gli [!UICONTROL SFTP/S3] editori ricevono dati ID sincronizzati dall &#39; [!UICONTROL Outbound Feed Converter]. Quando questi file sono pronti, l&#39; [!UICONTROL SFTP/S3 publishers] invio questi dati a una destinazione specificata dal client. Questi file contengono dati ID sincronizzati con una mappatura uno-molti degli [!DNL Audience Manager] ID utente (UUID) a:
+The [!UICONTROL SFTP/S3] publishers receive synchronized ID data from the [!UICONTROL Outbound Feed Converter]. When these files are ready, the [!UICONTROL SFTP/S3 publishers] send this data to a destination specified by the client. These files contain synchronized ID data with a one-to-many mapping of [!DNL Audience Manager] user IDs (UUID) to:
 
 * ID dispositivo/ID fornitore dati (DPUUID)
 * ID del segmento qualificato
 * ID caratteristiche
 
-[!DNL Audience Manager] i clienti non hanno accesso alle funzionalità che controllano direttamente [!UICONTROL SFPT/S3 publishers]. I clienti utilizzano questo servizio indirettamente quando creano e inviano dati alle destinazioni. Il [!UICONTROL SFTP/S3] sistema è, essenzialmente, un processo automatizzato di lavoro che viene eseguito a intervalli pianificati.
+[!DNL Audience Manager] i clienti non hanno accesso alle funzionalità che controllano direttamente [!UICONTROL SFPT/S3 publishers]. I clienti utilizzano questo servizio indirettamente quando creano e inviano dati alle destinazioni. The [!UICONTROL SFTP/S3] system is, essentially, an automated job process that runs at scheduled intervals.
 
 ## IRIS {#iris}
 
-In greco, è un [!UICONTROL Iris] figure che viaggia e invia messaggi rapidamente. [!UICONTROL IRIS] Il sistema è un namespace che riflette le caratteristiche di questa figura dall&#39;antico mondo. Nei termini moderni, [!UICONTROL IRIS] si tratta di una sincronizzazione a bassa latenza, di un servizio di sincronizzazione ad alta frequenza e di un servizio di trasferimento dati.
+In Greek mythology, [!UICONTROL Iris] is a figure who travels and delivers messages rapidly. [!UICONTROL IRIS] Il sistema è un namespace che riflette le caratteristiche di questa figura dall'antico mondo. In modern terms, [!UICONTROL IRIS] is a low-latency, high-frequency cookie synchronization and data transfer service.
 
-[!UICONTROL IRIS] funziona con lo stesso tipo di dati del [!UICONTROL SFTP/S3] sistema. Tuttavia, è diverso [!UICONTROL IRIS] perché invia dati alle destinazioni in tempo reale anziché a intervalli impostati. Questo è un sistema a parte perché gli [!UICONTROL SFTP/S3] editori non possono inviare dati a una destinazione HTTP e non sono progettati per trasferimenti di dati in tempo reale.
+[!UICONTROL IRIS] funziona con lo stesso tipo di dati del [!UICONTROL SFTP/S3] sistema. However, [!UICONTROL IRIS] is different because it sends data to destinations in real time rather than at set intervals. This is a separate system because the [!UICONTROL SFTP/S3] publishers can't send data to an HTTP destination and they're not designed for real-time data transfers.
 
-Non sono disponibili controlli dell&#39;interfaccia utente con [!UICONTROL IRIS]cui i clienti possono lavorare direttamente. I clienti lavorano [!UICONTROL IRIS] indirettamente quando creano e inviano dati alle destinazioni e per altri processi che richiedono trasferimenti di dati rapidi.
+There are no UI controls that let customers work directly with [!UICONTROL IRIS]. Customers work with [!UICONTROL IRIS] indirectly when they create and send data to destinations, and for other processes that require rapid data transfers.
 
-Esempi di [!UICONTROL IRIS] servizi e funzionalità includono:
+Examples of [!UICONTROL IRIS] services and features include:
 
-* La sincronizzazione rapida (entro 30 secondi) per i cookie e i segmenti. Può sincronizzare [!DNL Audience Manager] il cookie, i cookie del partner o entrambi.
-* Trasferimenti di dati in tempo reale. [!UICONTROL IRIS] è responsabile dell&#39;invio di eventi di qualificazione segmenti in tempo reale a un partner o a un&#39;altra destinazione. Questi dati sono formattati in formato JSON e inviati tramite `POST` una richiesta HTTP.
+* La sincronizzazione rapida (entro 30 secondi) per i cookie e i segmenti. It can synchronize the [!DNL Audience Manager] cookie, partner cookies, or both.
+* Trasferimenti di dati in tempo reale. [!UICONTROL IRIS] è responsabile dell'invio di eventi di qualificazione segmenti in tempo reale a un partner o a un'altra destinazione. This data is JSON-formatted and sent via an HTTP `POST` request.
 
-* Trasferimenti di dati server-to-server in massa: Se si scambiano grandi quantità di dati con [!DNL Audience Manager], [!UICONTROL IRIS] è il sistema con cui i server interagiscono per trasferire i dati.
+* Bulk server-to-server data transfers: If you exchange large amounts of data with [!DNL Audience Manager], [!UICONTROL IRIS] is the system that your servers engage with to transfer data.
 
-* Infrastruttura affidabile che funziona in scala ed è tollerante. Sistemi che includono [!UICONTROL IRIS] Amazon SQS, Amazon EC 2 e Cassandra.
+* Infrastruttura affidabile che funziona in scala ed è tollerante. Systems that power [!UICONTROL IRIS] include Amazon SQS, Amazon EC2, and Cassandra.
 
 **Regole di mappatura segmenti**
 
-Per ottimizzare il traffico tra [!UICONTROL IRIS] e segmenti, [!UICONTROL IRIS] invia segmenti alle destinazioni in base a un set di regole.
+To optimize traffic between [!UICONTROL IRIS] and segment destinations, [!UICONTROL IRIS] sends segments to destinations based on a set of rules.
 
 1. **Nuova qualifica segmento**: quando un dispositivo si qualifica per un nuovo segmento, [!UICONTROL IRIS] invia tutti i segmenti associati a tale dispositivo a tutte le destinazioni mappate a tali segmenti.
 
@@ -72,7 +72,7 @@ Per ottimizzare il traffico tra [!UICONTROL IRIS] e segmenti, [!UICONTROL IRIS] 
 
 >[!IMPORTANT]
 >
->Se Audience Manager non rileva alcuno degli aggiornamenti sopra per 3 giorni consecutivi, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a questi segmenti, alla successiva visualizzazione del dispositivo da Audience Manager.
+>If Audience Manager doesn't detect any of the updates above for 3 consecutive days, [!UICONTROL IRIS] sends all segments associated to a device to all of the destinations mapped to these segments, the next time Audience Manager sees the device.
 
 **File di dati di esempio**
 
@@ -144,6 +144,6 @@ The following example contains real-time segment data from [!UICONTROL IRIS]. Te
 }
 ```
 
-## Server cache profilo (PCS) {#pcs}
+## Profile Cache Server (PCS) {#pcs}
 
-Consulta [Componenti raccolta dati](../../reference/system-components/components-data-collection.md).
+See [Data Collection Components](../../reference/system-components/components-data-collection.md).
