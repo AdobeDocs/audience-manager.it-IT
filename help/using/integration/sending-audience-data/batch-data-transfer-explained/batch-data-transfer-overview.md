@@ -24,13 +24,13 @@ Puoi rendere disponibili i dati di altri sistemi in Audience Manager. Il nostro 
 
 ## Passaggio 1: Sincronizzazione degli ID utente
 
-Durante la sincronizzazione, Audience Manager assegna ID univoci ai client e ai relativi utenti. These IDs are known as the [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) and [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectively. Audience Manager uses the [!UICONTROL DPID] and [!UICONTROL UUID] to identify users and qualify them for traits, segments, audience groups, and for reporting. Additionally, our data collection code ([!UICONTROL DIL]) looks for these IDs to capture visitor data from your website. Quando questo passaggio è completo, Audience Manager e l&#39;archivio offline devono contenere ID corrispondenti per ogni record utente.
+Durante la sincronizzazione, Audience Manager assegna ID univoci ai client e ai relativi utenti. These IDs are known as the [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) and [!UICONTROL Unique User ID] ([!UICONTROL UUID]), respectively. Audience Manager uses the [!UICONTROL DPID] and [!UICONTROL UUID] to identify users and qualify them for traits, segments, audience groups, and for reporting. Additionally, our data collection code ([!UICONTROL DIL]) looks for these IDs to capture visitor data from your website. Quando questo passaggio è completo, Audience Manager e l'archivio offline devono contenere ID corrispondenti per ogni record utente.
 
 Considerazioni importanti su questo passaggio:
 
-* **Posizione ID client:** Audience Manager deve sapere dove si trova l&#39;ID cliente sul tuo sito Web (ad es., archiviato in un cookie, una variabile Analytics, nel codice della pagina, ecc.).
+* **Posizione ID client:** Audience Manager deve sapere dove si trova l'ID cliente sul tuo sito Web (ad es., archiviato in un cookie, una variabile Analytics, nel codice della pagina, ecc.).
 * **Escludi:[!DNL PII]Gli ID utente non devono contenere informazioni personali identificabili (**).[!DNL PII]
-* **Distinzione tra maiuscole e minuscole:** Durante una sincronizzazione dati in tempo reale, gli ID utente acquisiti dal sito da Audience Manager devono corrispondere agli ID passati dall&#39;archivio offline. For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. Di conseguenza, le informazioni online per questo visitatore non possono essere associate ai record corrispondenti nel database offline. Gli ID devono corrispondere esattamente.
+* **Distinzione tra maiuscole e minuscole:** Durante una sincronizzazione dati in tempo reale, gli ID utente acquisiti dal sito da Audience Manager devono corrispondere agli ID passati dall'archivio offline. For example, if offline records hold information about [!DNL User123], but your site renders that ID as [!DNL USER123], Audience Manager sees these as different visitors. Di conseguenza, le informazioni online per questo visitatore non possono essere associate ai record corrispondenti nel database offline. Gli ID devono corrispondere esattamente.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
