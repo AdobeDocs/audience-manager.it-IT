@@ -11,11 +11,11 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 ---
 
 
-# Visualizzazione elenco segmenti {#segments-list-view}
+# Segments List View {#segments-list-view}
 
-Il [!UICONTROL Segments] dashboard è un&#39;area di lavoro centralizzata per la gestione delle destinazioni.
+The [!UICONTROL Segments] dashboard is a centralized workspace for managing destinations.
 
-La [!UICONTROL Segments] pagina principale contiene funzioni e strumenti utili per:
+The main [!UICONTROL Segments] page contains features and tools that help you:
 
 * Crea nuovi segmenti.
 * Modifica ed elimina i segmenti.
