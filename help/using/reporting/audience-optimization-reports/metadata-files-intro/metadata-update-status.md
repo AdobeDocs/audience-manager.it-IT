@@ -11,11 +11,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Aggiornamenti dello stato per i file di metadati{#status-updates-for-metadata-files}
+# Status Updates for Metadata Files{#status-updates-for-metadata-files}
 
-La directory di stato S 3 contiene un `.info` file con informazioni completate e non riuscite sui file caricati. Il file contiene dati in formato JSON con stato di stato in un array.
+The S3 status directory holds a `.info` file with success and failure information about your uploaded files. Il file contiene dati in formato JSON con stato di stato in un array.
 
-I contenuti del `.info` file saranno simili a quelli di questo esempio.
+The contents of your `.info` file will look similar to this example.
 
 ```js
 //sample file path
@@ -56,11 +56,11 @@ I contenuti del `.info` file saranno simili a quelli di questo esempio.
 }
 ```
 
-## Coppie chiave-valore definite {#key-value-pairs}
+## Metadata Key-Value Pairs Defined {#key-value-pairs}
 
-Nell&#39;elenco delle tabelle riportate di seguito sono elencate le chiavi presenti nelle `Files` sezioni `Summary` di un file di stato di metadati.
+The following tables list and define the keys in the `Files` and `Summary` sections of a metadata status file.
 
-**Tasti nell&#39;Array file**
+**Tasti nell'Array file**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -80,19 +80,19 @@ Nell&#39;elenco delle tabelle riportate di seguito sono elencate le chiavi prese
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Checksum MD 5 per il file di metadati caricato nella directory <code> meta</code> . </p> </td> 
+   <td colname="col2"> <p>The MD 5 checksum for the metadata file uploaded to your <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Filename</code> </p> </td> 
-   <td colname="col2"> <p>Nome del file di metadati caricato nella directory <code> meta</code> . </p> </td> 
+   <td colname="col2"> <p>The name of the metadata file uploaded to your <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Metadatatype</code> </p> </td> 
-   <td colname="col2"> <p>Il nome leggibile dal tipo di dati contiene. Si basa sull'ID secondario nel nome del file. </p> <p>Consultate <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file di metadati</a>. </p> </td> 
+   <td colname="col2"> <p>Il nome leggibile dal tipo di dati contiene. Si basa sull'ID secondario nel nome del file. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Elemento padre</code> </p> </td> 
-   <td colname="col2"> <p>Il nome leggibile dal tipo di dati contiene. Si basa sull'ID principale nel nome del file. </p> <p>Consultate <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file di metadati</a>. </p> </td> 
+   <td colname="col2"> <p>Il nome leggibile dal tipo di dati contiene. Si basa sull'ID principale nel nome del file. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Stato</code> </p> </td> 
@@ -105,7 +105,7 @@ Nell&#39;elenco delle tabelle riportate di seguito sono elencate le chiavi prese
  </tbody> 
 </table>
 
-**Tasti nell&#39;oggetto Riepilogo**
+**Tasti nell'oggetto Riepilogo**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
@@ -117,7 +117,7 @@ Nell&#39;elenco delle tabelle riportate di seguito sono elencate le chiavi prese
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Giorno</code> </p> </td> 
-   <td colname="col2"> <p>Data di elaborazione file in <code><i>formato aaaa-mm</i></code> -dd. </p> </td> 
+   <td colname="col2"> <p>File processing date in <code><i>yyyy-mm-dd</i></code> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Globalstatus</code> </p> </td> 
