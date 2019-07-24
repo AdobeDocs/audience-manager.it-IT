@@ -15,7 +15,7 @@ Invia dati del pubblico da altre fonti ad Audience Manager.
 
 * [Integrazione dei dati in tempo reale in tempo reale](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
-   Informazioni sull&#39;integrazione in tempo reale di Audience Manager.
+   Informazioni sull'integrazione in tempo reale di Audience Manager.
 
 * [Processo di trasferimento dati batch descritta](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
