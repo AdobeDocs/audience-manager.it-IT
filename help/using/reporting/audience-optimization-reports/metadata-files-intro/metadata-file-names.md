@@ -11,13 +11,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Convenzioni di denominazione per i file di metadati{#naming-conventions-for-metadata-files}
+# Naming Conventions for Metadata Files{#naming-conventions-for-metadata-files}
 
 Denominate il file di metadati Ottimizzazione pubblico in base alle seguenti specifiche.
 
-## Categorie sintassi e ID {#syntax}
+## Syntax and ID Categories {#syntax}
 
-La sintassi seguente definisce la struttura di un nome file di metadati ben formattato. Nota, *il corsivo* indica un segnaposto variabile. Gli altri elementi sono costanti e non cambiano.
+La sintassi seguente definisce la struttura di un nome file di metadati ben formattato. Note, *italics* indicates a variable placeholder. Gli altri elementi sono costanti e non cambiano.
 
 **Sintassi:** *`yyyymmdd_0_childID`*
 
@@ -27,19 +27,19 @@ La sintassi seguente definisce la struttura di un nome file di metadati ben form
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* Il componente centrale **0** è tecnicamente l&#39;ID principale, che è un campo legacy. Il valore deve essere sempre impostato su **0**.
-* L&#39;ID secondario può avere un valore compreso tra 1 e 10, a seconda della dimensione. Vedi di seguito:
+* The middle component **0** is technically the Parent ID, which is a legacy field. The value should always be set as **0**.
+* L'ID secondario può avere un valore compreso tra 1 e 10, a seconda della dimensione. Vedi di seguito:
 
-## Dimensioni ID secondari {#child-dimension}
+## Child ID dimensions {#child-dimension}
 
-Nel nome del file di metadati, l&#39;ID secondario è un identificatore che classifica il tipo di dati in un file e lo inserisce in una gerarchia. Puoi assegnare un tag all&#39;ID secondario nel nome file con i seguenti ID categoria:
+Nel nome del file di metadati, l'ID secondario è un identificatore che classifica il tipo di dati in un file e lo inserisce in una gerarchia. Puoi assegnare un tag all'ID secondario nel nome file con i seguenti ID categoria:
 
 1. Campagna
 1. Creative
 1. Posizionamento
 1. Exchange
 1. Sito
-1. Inserzionista (se utilizzate i codici di integrazione in un&#39;origine [dati](../../../features/manage-datasources.md#details))
+1. Advertiser (if using integration codes in a [data source](../../../features/manage-datasources.md#details))
 1. Ordine di inserimento (IO)
 1. Verticale (ovvero, un settore o categoria aziendale specifica come «computer», «auto», «beni reali», ecc.)
 1. Tactic
