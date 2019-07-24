@@ -11,19 +11,19 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ---
 
 
-# Metodi del tipo Trait {#trait-type-methods}
+# Trait Type Methods {#trait-type-methods}
 
-Metodi facoltativi che consentono di assegnare caratteristiche a un tipo o a una categoria definita dall&#39;utente, in genere in base alla funzione o ai processi di reporting interni.
+Metodi facoltativi che consentono di assegnare caratteristiche a un tipo o a una categoria definita dall'utente, in genere in base alla funzione o ai processi di reporting interni.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->I metodi di tipo trait non assegnano caratteristiche alle categorie utilizzate dalla tassonomia [comune](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Queste etichette sono considerate come etichette separate dalla tassonomia comune.
+>Trait type methods do not assign traits to categories used by the [common taxonomy](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Queste etichette sono considerate come etichette separate dalla tassonomia comune.
 
 For visual reference, [!UICONTROL Trait Types] is a dropdown control located in the [!DNL UI] under **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
-## Crea un nuovo tipo di caratteristica {#create-trait-type}
+## Create a New Trait Type {#create-trait-type}
 
 `POST` Metodo che consente di creare un nuovo tipo di caratteristica.
 
@@ -56,7 +56,7 @@ For visual reference, [!UICONTROL Trait Types] is a dropdown control located in 
 }
 ```
 
-## Restituisci proprietà per un tipo di caratteristica {#return-props}
+## Return Properties for a Trait Type {#return-props}
 
 `GET` Un metodo che restituisce dettagli sul tipo di caratteristica specificato.
 
@@ -81,7 +81,7 @@ For visual reference, [!UICONTROL Trait Types] is a dropdown control located in 
 }
 ```
 
-## Restituisci proprietà per tutti i tipi di caratteristiche {#return-props-all}
+## Return Properties for all Trait Types {#return-props-all}
 
 `GET` Un metodo che restituisce dettagli su tutti i tipi di caratteristiche in un array.
 
