@@ -52,8 +52,8 @@ Consigliamo di:
 * Work with your data provider to format the daily inbound data file according to [!DNL Adobe] specifications.
 * Transfer a test data file to [!DNL Adobe] for format verification.
 * Work with your [!DNL Adobe] consultant to produce a taxonomy suitable for interpreting the contents of the data file.
-* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider&#39;s visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
-* Distribuisci la sincronizzazione DIL/ID in produzione. La sincronizzazione ID sarà già configurata come modulo all&#39;interno del codice DIL dal consulente Adobe.
+* In the staging/development environment, confirm that the ID sync is configured to properly pick up the data provider's visitor ID and transfer it to the [!DNL Audience Manager] servers in realtime.
+* Distribuisci la sincronizzazione DIL/ID in produzione. La sincronizzazione ID sarà già configurata come modulo all'interno del codice DIL dal consulente Adobe.
 * Transfer production data files to [!DNL Audience Manager]. Considerate le dipendenze delle mappature di sincronizzazione ID, potrebbe essere sensato iniziare a trasferire dati fino a una settimana dopo la distribuzione del codice di produzione, anche se potete iniziare a trasferire i file di dati non appena il codice entra nella produzione.
 
 <br> 
@@ -64,7 +64,7 @@ See [File Compression for Inbound Data Transfer Files](../integration/sending-au
 
 <br> 
 
-**Posso caricare un file di dati in entrata ([!DNL .sync]o il file[!DNL .overwrite]) prima di distribuire il codice[!DNL Audience Manager]in produzione?**
+**Posso caricare un file di dati in entrata (file[!DNL .sync]o[!DNL .overwrite]) prima di distribuire il codice[!DNL Audience Manager]in produzione?**
 
 * If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
 
@@ -134,7 +134,7 @@ Consider the following use cases in which the data provider is not configured to
 
 **Quanto tempo impiega prima che i dati di un file caricato siano disponibili per il targeting?**
 
-I dati sono disponibili per il targeting dopo 48 ore. Inoltre, non interpretate l&#39;e-mail &quot;caricamento riuscito&quot; come istruzione che informa che i dati sono disponibili. This only means that [!DNL Audience Manager] has picked up the file and completed the first step of processing.
+I dati sono disponibili per il targeting dopo 48 ore. Inoltre, non interpretate l'e-mail "caricamento riuscito" come istruzione che informa che i dati sono disponibili. This only means that [!DNL Audience Manager] has picked up the file and completed the first step of processing.
 
 <br> 
 
@@ -146,7 +146,7 @@ Si consiglia di inviare un file incrementale una volta al giorno per i nuovi vis
 
 **Per quanto tempo Audience Manager tiene i miei file sul server?**
 
-I file FTP vengono rimossi dopo l&#39;elaborazione. [!DNL S3] vengono rimossi dopo 30 giorni. I file che non possono essere elaborati a causa di formato, sintassi o altri errori vengono rimossi. See also, [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
+I file FTP vengono rimossi dopo l'elaborazione. [!DNL S3] vengono rimossi dopo 30 giorni. I file che non possono essere elaborati a causa di formato, sintassi o altri errori vengono rimossi. See also, [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
 
 <br> 
 
@@ -158,9 +158,9 @@ I file FTP vengono rimossi dopo l&#39;elaborazione. [!DNL S3] vengono rimossi do
    >
    >The [!DNL .overwrite] files only overwrite [!DNL Audience Manager] profile data associated to this data provider. In other words, all [!DNL Adobe Analytics] data associated to the visitor remains intact after a [!DNL .overwrite] file has been processed.
 
-* **Incremento:** Un file incrementale aggiunge nuovi dati ai profili visitatore esistenti. Incremental files are identified by the `.sync` tag appended to the file name. L&#39;invio in un file incrementale non cancella o sovrascrive i profili esistenti.
+* **Incremento:** Un file incrementale aggiunge nuovi dati ai profili visitatore esistenti. Incremental files are identified by the `.sync` tag appended to the file name. L'invio in un file incrementale non cancella o sovrascrive i profili esistenti.
 
-I seguenti casi d&#39;uso mostrano come questi tipi di file influiscono sui profili dei visitatori memorizzati.
+I seguenti casi d'uso mostrano come questi tipi di file influiscono sui profili dei visitatori memorizzati.
 
 <table id="table_CE43B49508384ABF8B25FA8A8FFE5362"> 
  <thead> 
@@ -199,11 +199,11 @@ Per ulteriori informazioni sui tipi di file completi e incrementali, vedi:
 
 **Cosa succede se viene inviato un file con ID per i visitatori che non hanno mai eseguito la sincronizzazione ID su pagina?**
 
-During processing, [!DNL Audience Manager] simply skips that record and moves on to the next. Se un DPID (ID provider dati) è impostato come DPID su più dispositivi, i dati che vengono assimilati prima di una sincronizzazione ID vengono salvati ed è disponibile per l&#39;uso poco dopo la sincronizzazione ID.
+During processing, [!DNL Audience Manager] simply skips that record and moves on to the next. Se un DPID (ID provider dati) è impostato come DPID su più dispositivi, i dati che vengono assimilati prima di una sincronizzazione ID vengono salvati ed è disponibile per l'uso poco dopo la sincronizzazione ID.
 
 <br> 
 
-**Qual è l&#39;indicatore di data e ora per e può fornire un esempio?**
+**Qual è l'indicatore di data e ora per e può fornire un esempio?**
 
 I timestamp vengono utilizzati per effettuare operazioni di registrazione e registrazione. Sono richiesti dalla sintassi utilizzata per un nome di file in ingresso adeguatamente formattato. Consulta:
 
@@ -212,7 +212,7 @@ I timestamp vengono utilizzati per effettuare operazioni di registrazione e regi
 
 <br> 
 
-**Cos&#39;è un ID fornitore dati (DPID) e come lo capisco?**
+**Cos'è un ID fornitore dati (DPID) e come lo capisco?**
 
 Il tuo consulente Adobe assegna un DPID di tre cifre o quattro cifre a una particolare origine dati. Questo ID è univoco e non cambia.
 
@@ -236,25 +236,25 @@ Sì, vedi:
 
 **La chiave primaria nel database di origine dati è un indirizzo e-mail. Is that considered personally identifiable information?**
 
-Sì. [!DNL Audience Manager] non memorizza gli indirizzi e-mail nel database. Ai visitatori deve essere assegnato un ID casuale o una versione con hash dell&#39;indirizzo e-mail prima di avviare le sincronizzazioni ID.
+Sì. [!DNL Audience Manager] non memorizza gli indirizzi e-mail nel database. Ai visitatori deve essere assegnato un ID casuale o una versione con hash dell'indirizzo e-mail prima di avviare le sincronizzazioni ID.
 
 <br> 
 
 **Il contenuto del file di dati è sensibile alla distinzione tra maiuscole e minuscole? How about the ID sync?**
 
-Esistono due componenti di base di un file di dati: Un ID utente univoco (UUID) e dati di profilo, solitamente sotto forma di coppie chiave-valore o codici. L&#39;UUID distingue tra maiuscole e minuscole. In genere, il profilo o i dati chiave-valore non sono sensibili alle maiuscole/minuscole.
+Esistono due componenti di base di un file di dati: Un ID utente univoco (UUID) e dati di profilo, solitamente sotto forma di coppie chiave-valore o codici. L'UUID distingue tra maiuscole e minuscole. In genere, il profilo o i dati chiave-valore non sono sensibili alle maiuscole/minuscole.
 
 <br> 
 
-**È necessario utilizzare l&#39;FTP o[!DNL Amazon S3]per trasferire i file?**
+**È necessario utilizzare l'FTP o[!DNL Amazon S3]per trasferire i file?**
 
-As best practice, we recommend [!DNL Amazon S3] because the process is simpler. [!DNL Audience Manager] trasferisce i file FTP a [!DNL S3] prescindere, pertanto il processo risulta più semplice se rilasci i file [!DNL Amazon S3] su voi stessi. Inoltre, i clienti che caricano contemporaneamente in FTP condividono la larghezza di banda dell&#39;FTP, quindi dovrebbero aspettarsi velocità di caricamento lente. [!DNL Amazon S3] vengono anche replicati e distribuiti, pertanto è generalmente più sicuro e affidabile rispetto a un server FTP. For more information, see [About Amazon S3](../reference/amazon-s3.md).
+As best practice, we recommend [!DNL Amazon S3] because the process is simpler. [!DNL Audience Manager] trasferisce i file FTP a [!DNL S3] prescindere, pertanto il processo risulta più semplice se rilasci i file [!DNL Amazon S3] su voi stessi. Inoltre, i clienti che caricano contemporaneamente in FTP condividono la larghezza di banda dell'FTP, quindi dovrebbero aspettarsi velocità di caricamento lente. [!DNL Amazon S3] vengono anche replicati e distribuiti, pertanto è generalmente più sicuro e affidabile rispetto a un server FTP. For more information, see [About Amazon S3](../reference/amazon-s3.md).
 
 <br> 
 
 **In che modo Audience Manager elabora i file in entrata?**
 
-[!DNL Audience Manager] utilizzati [!DNL Amazon Simple Queue Service (SQS)] per l&#39;elaborazione dei dati in entrata. Ecco come funziona:
+[!DNL Audience Manager] utilizzati [!DNL Amazon Simple Queue Service (SQS)] per l'elaborazione dei dati in entrata. Ecco come funziona:
 
 1. [!DNL Audience Manager] i clienti caricano i dati in entrata su [!DNL Amazon S3] un bucket.
 
