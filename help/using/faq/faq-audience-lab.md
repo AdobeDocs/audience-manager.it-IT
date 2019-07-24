@@ -12,7 +12,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Domande frequenti su Audience Lab{#audience-lab-faq}
+# Audience Lab FAQ{#audience-lab-faq}
 
 Domande frequenti sulla funzione Audience Lab.
 
@@ -24,9 +24,9 @@ audience-lab-faq.xml
 
 <br> 
 
-**I segmenti di prova creati nei gruppi di test hanno ID diversi segmenti? Come si mappano gli ID su destinazioni diverse?**
+**I segmenti di prova creati nei gruppi di test hanno ID diversi segmenti? How do I map the IDs to different destinations?**
 
-Sì, i segmenti di test hanno ID segmento diversi. Per le destinazioni con [!UICONTROL Auto-fill Destination Mapping] o segmenti [!DNL Google]inviati, gestisci [!UICONTROL Audience Lab] i valori di mappatura come farebbero normalmente le destinazioni.
+Sì, i segmenti di test hanno ID segmento diversi. For destinations with [!UICONTROL Auto-fill Destination Mapping] or segments sent to [!DNL Google], [!UICONTROL Audience Lab] will handle the mapping values just like the destinations normally would.
 
 <br> 
 
@@ -36,22 +36,22 @@ Sì, questo è consentito. Si consideri un caso di un test utilizzando un segmen
 
 <br> 
 
-**Supponiamo che un gruppo di test utilizzi un profilo autenticato per la suddivisione del segmento di prova. Il profilo autenticato è collegato a 4[Audience Manager UUID](../reference/ids-in-aam.md). Quando il visitatore assume un trait di conversione da uno dei quattro UUID, conta il[!UICONTROL Audience Lab]conteggio come una o quattro conversioni?**
+**Supponiamo che un gruppo di test utilizzi un profilo autenticato per la suddivisione del segmento di prova. The authenticated profile is linked to 4[Audience Manager UUIDs](../reference/ids-in-aam.md). When the visitor exhibits a conversion trait from one of the four UUIDs, does[!UICONTROL Audience Lab]count this as one or four conversions?**
 
-In questo [!UICONTROL Audience Lab] caso, conta solo una conversione.
-
-<br> 
-
-**Cosa succede se il visitatore del caso precedente mostra il trait di conversione da uno dei quattro UUID collegati al suo profilo autenticato e quindi mostra anche il tratto di conversione da due altri UUID collegati al profilo autenticato? Questo caso conta come una o tre conversioni?**
-
-In questo caso [!UICONTROL Audience Lab] , conta tre conversioni, una per ogni dispositivo che ha rivelato il trait di autenticazione.
+In this case, [!UICONTROL Audience Lab] only counts one conversion.
 
 <br> 
 
-**Un utente può[!UICONTROL Segment: Read-Only]avere accesso, ma[!UICONTROL Audience Lab]anche verificare l&#39;accesso alla creazione dei segmenti?**
+**Cosa succede se il visitatore del caso precedente mostra il trait di conversione da uno dei quattro UUID collegati al suo profilo autenticato e quindi mostra anche il tratto di conversione da due altri UUID collegati al profilo autenticato? Does this case count as one or three conversions?**
 
-Per [informazioni sull&#39;utilizzo](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) [!UICONTROL Audience Lab] con [!UICONTROL RBAC] i privilegi, consultate Crea gruppo di test segmenti.
+In this case, [!UICONTROL Audience Lab] counts three conversions, one for each device that has exhibited the authentication trait.
+
+<br> 
+
+**Un utente può[!UICONTROL Segment: Read-Only]avere accesso, ma[!UICONTROL Audience Lab]anche verificare l'accesso alla creazione dei segmenti?**
+
+See [Create Segment Test Group](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) for information on how to use [!UICONTROL Audience Lab] with [!UICONTROL RBAC] privileges.
 
 **Posso utilizzare[!UICONTROL Audience Lab]in combinazione con[!UICONTROL Profile Link Device Graph]i grafici dispositivo esterno ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph)?**
 
-Al momento, [!UICONTROL Audience Lab] è possibile suddividere le popolazioni di segmenti solo dai dispositivi collegati a un dispositivo idoneo quando si utilizza [!UICONTROL Profile Link Device Graph]. Stiamo lavorando all&#39;aggiunta di supporto per [!UICONTROL Audience Lab] altri grafici per dispositivi e potrete sapere quando farlo.
+For now, [!UICONTROL Audience Lab] can only split out segment populations by the devices connected to a qualifying device, when using the [!UICONTROL Profile Link Device Graph]. We are working on adding support in [!UICONTROL Audience Lab] for the other device graphs and will let you know when we do so.
