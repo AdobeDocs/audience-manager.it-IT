@@ -11,7 +11,7 @@ source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
 ---
 
 
-# Panoramica delle caratteristiche {#traits-overview}
+# Traits Overview {#traits-overview}
 
 Gestisci la raccolta di dati e la creazione di audience con caratteristiche algoritmiche, basate su regole, algoritmiche o basate su regole. Per iniziare a utilizzare le caratteristiche, leggi le pagine seguenti:
 
