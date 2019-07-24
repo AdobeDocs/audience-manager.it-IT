@@ -11,15 +11,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Metodi API origini dati {#data-source-api-methods}
+# Data Source API Methods {#data-source-api-methods}
 
-[!DNL API] che consentono di gestire le origini dati associate all&#39;account.
+[!DNL API] che consentono di gestire le origini dati associate all'account.
 
 <!-- c_rest_data_sources.xml -->
 
 >[!IMPORTANT]
 >
->I metodi di origine [!DNL API] dati sono stati riscritti [!DNL Swagger] e migrati. Consulta:
+>The data source [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Consulta:
 >
 >* [Documenti API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione dei codici API di Audience Manager](../../api/api-swagger-migration.md)
