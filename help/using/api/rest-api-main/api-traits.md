@@ -11,13 +11,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Metodi API Caratteristiche {#trait-api-methods}
+# Trait API Methods {#trait-api-methods}
 
 Metodi che consentono di lavorare in modo programmatico con le caratteristiche.
 
 >[!IMPORTANT]
 >
->I [!DNL API] metodi delle caratteristiche sono stati riscritti [!DNL Swagger] e migrati. Consulta:
+>The trait [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Consulta:
 >
 >* [Documenti API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione dei codici API di Audience Manager](../../api/api-swagger-migration.md)
