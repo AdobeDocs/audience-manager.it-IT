@@ -9,22 +9,22 @@ translation-type: tm+mt
 
 ## Sommario
 
-+ `TOC.md` nella directory principale della guida utente fornisce l&#39;organizzazione degli argomenti contenuti nella guida per questa soluzione.
-+ Ogni guida utente sarà univoca `TOC.md`, in cui potete ordinare tutte le pagine o gli argomenti secondo necessità.
-+ La prima pagina di tutte le guide utente è `overview.md`.
++ `TOC.md` nella directory principale della guida utente fornisce l'organizzazione degli argomenti contenuti nella guida per questa soluzione.
++ Each user guide will have its own unique `TOC.md`, in which you can order all the pages/topics as necessary.
++ The first page of all user guides is `overview.md`.
 
 ## Guida utente
 
-+ L&#39;introduzione alla guida utente è denominata `overview.md`
++ The introduction to the user guide is called `overview.md`
 + Ogni argomento della guida utente ha una propria directory distinta.
-   + Se nella guida è presente un argomento denominato *Implementazione*, la directory corrispondente è `/implementation`
-+ Tutte le risorse di immagini sono memorizzate nella `/assets` directory principale della guida utente.
-   + Tutte le immagini della `/assets` directory vengono localizzate.
-   + Tutte le immagini della `/no-localize` directory non vengono localizzate (c&#39;è una sorpresa!). Questo può essere utilizzato per garantire nelle versioni loc che le risorse specifiche non vengono riprodotte inutilmente.
+   + If there is a topic in the guide called *Implementation*, the corresponding directory is `/implementation`
++ All image assets are stored in `/assets` at the root of the user guide.
+   + All images in the `/assets` directory will be localized.
+   + Any images in the `/no-localize` directory will not be localized (there's a surprise!). Questo può essere utilizzato per garantire nelle versioni loc che le risorse specifiche non vengono riprodotte inutilmente.
 
 ## Metadati livello guida utente
 
-+ I metadati che descrivono la guida utente sono memorizzati in `TOC.md`. Ciò include:
++ Meta data which describes the user guide is stored in the `TOC.md`. Ciò include:
    + product - nome del prodotto/funzionalità.
    + cloud - cloud a cui appartiene il prodotto.
    + pubblico - pubblico o archetype al quale viene indirizzato il targeting.
@@ -48,4 +48,4 @@ translation-type: tm+mt
 
 ## Ulteriori informazioni
 
-Per ulteriori istruzioni sulla pubblicazione, guide di stile, esempi e altre risorse, visitate il [repo della documentazione Collaborativo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+For more publishing instructions, style guides, samples and other resources, please visit the [Collaborative Documentation Repo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
