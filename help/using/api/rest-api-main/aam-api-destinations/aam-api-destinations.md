@@ -11,17 +11,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Metodi API di destinazione {#destination-api-methods}
+# Destination API Methods {#destination-api-methods}
 
 Metodi che consentono di utilizzare in modo programmatico le funzioni di destinazione.
 
 <!-- c_destinations_api.xml -->
 
-In Audience Manager, una destinazione è qualsiasi altro sistema (server pubblicitario, [!DNL DSP]rete pubblicitaria, exchange, il tuo cookie di prime parti, ecc.) con cui condividere i dati.
+In Audience Manager, a destination is any other system (ad server, [!DNL DSP], ad network, exchange, your own first-party cookie, etc.) con cui condividere i dati.
 
-## Tipi di destinazione: URL e cookie {#destination-types}
+## Destination Types: URL and Cookie {#destination-types}
 
-Elenca le variabili utilizzate dal `destinationType` parametro. Specificare `push` o `ADS` utilizzare una [!UICONTROL URL] o [!UICONTROL cookie destination]più operazioni. Non è possibile creare [!UICONTROL server-to-server destinations] con i metodi di destinazione [!DNL API] disponibili.
+Lists the variables used by the `destinationType` parameter. Specify `push` or `ADS` to work with a [!UICONTROL URL] or [!UICONTROL cookie destination]. You cannot create [!UICONTROL server-to-server destinations] with the available destination [!DNL API] methods.
 
 <!-- r_destination_types.xml -->
 
