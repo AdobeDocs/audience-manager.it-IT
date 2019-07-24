@@ -11,18 +11,18 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Ottieni ID utente e regioni da una risposta DCS {#get-user-ids-and-regions-from-a-dcs-response}
+# Get User IDs and Regions From a DCS Response {#get-user-ids-and-regions-from-a-dcs-response}
 
-Questa sezione descrive come analizzare una [!UICONTROL DCS] risposta per recuperare gli ID visitatore e regione necessari per effettuare chiamate in tempo reale all &#39; [!UICONTROL DCS].
+This section describes how to parse a [!UICONTROL DCS] response to retrieve the visitor and region IDs required to make real-time calls to the [!UICONTROL DCS].
 
-## ID utente e regione {#user-region-ids}
+## User and Region IDs {#user-region-ids}
 
-Una [!UICONTROL DCS] risposta contiene dati sui visitatori del sito. È necessario disporre del visitatore e dell&#39;ID di regione prima di poter effettuare chiamate server-to-server al [!UICONTROL DCS].
+A [!UICONTROL DCS] response contains data about your site visitors. You need the visitor and region ID before you can make server-to-server calls to the [!UICONTROL DCS].
 
-* L&#39;ID utente è richiesto per identificare e associare dati a un particolare visitatore.
-* L&#39;ID di regione è richiesto perché è associato a un nome server regionale, che è necessario inviare a [!UICONTROL DCS]tale nome. Le [!UICONTROL DCS] informazioni memorizzano informazioni nei centri dati geograficamente più vicini ai visitatori del sito. Consulta [ID regioni DCS, posizioni e nomi host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* L'ID utente è richiesto per identificare e associare dati a un particolare visitatore.
+* The region ID is required because it is tied to a regional server name, which you need to send data to the [!UICONTROL DCS]. The [!UICONTROL DCS] stores information in data centers that are geographically closest to site visitors. Consulta [ID regioni DCS, posizioni e nomi host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-Questi parametri sono descritti di seguito. Il codice in *corsivo* rappresenta un segnaposto variabile.
+Questi parametri sono descritti di seguito. Code in *italics* represents a variable placeholder.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -48,7 +48,7 @@ Questi parametri sono descritti di seguito. Il codice in *corsivo* rappresenta u
 
 ## Risposta di esempio {#sample-response}
 
-Questa semplice risposta mostra l&#39;area `UUID` e l&#39;area `ID`. Nota, si tratta di dati di esempio. I file di registro possono essere più lunghi e complessi.
+This simple response shows the `UUID` and region `ID`. Nota, si tratta di dati di esempio. I file di registro possono essere più lunghi e complessi.
 
 ```js
 {
@@ -61,4 +61,4 @@ Questa semplice risposta mostra l&#39;area `UUID` e l&#39;area `ID`. Nota, si tr
 
 ## Passaggi successivi {#next-steps}
 
-Una volta ottenuto l&#39;ID utente e il nome del server regionale, puoi iniziare a inviare e ricevere [!UICONTROL DCS] dati. Consultate [Creazione di chiamate DCS API](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Once you have the user ID and regional server name, you can start sending and receiving [!UICONTROL DCS] data. See [Making DCS API Calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
