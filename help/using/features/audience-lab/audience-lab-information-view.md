@@ -12,15 +12,15 @@ source-git-commit: 668b8ddded63acfa3479860f878cbf84b4f74218
 ---
 
 
-# Test Group Information (Informazioni gruppo di test) {#test-group-information}
+# Test Group Information {#test-group-information}
 
 Questa sezione visualizza informazioni generali sul gruppo di test e sui segmenti di test in cui è diviso, le caratteristiche di conversione e le destinazioni mappate. La sezione fornisce inoltre controlli per duplicare o eliminare il gruppo di prova.
 
 Potete inoltre vedere le informazioni sul segmento di base utilizzato per il gruppo di test e la suddivisione dei segmenti di prova.
 
-Gli **[!UICONTROL Test Segments]** utenti sono popolati in modo casuale con gli utenti del segmento di base utilizzato per il gruppo di test. La panoramica mostra le percentuali di utenti assegnate a ogni segmento di test.
+The **[!UICONTROL Test Segments]** are populated randomly with users from the baseline segment you used for the test group. La panoramica mostra le percentuali di utenti assegnate a ogni segmento di test.
 
-**[!UICONTROL Conversion Traits]** The drives the reporting for the test groups. Per designare una caratteristica come conversione, quando create o modificate le caratteristiche in [!UICONTROL Trait Builder], selezionate **Conversione** come **[tipo evento](../../features/traits/create-onboarded-rule-based-traits.md).**
+**[!UICONTROL Conversion Traits]** The drives the reporting for the test groups. To designate a trait as a conversion, when creating or editing traits in the [!UICONTROL Trait Builder], select **Conversion** as **[Event Type](../../features/traits/create-onboarded-rule-based-traits.md).**
 
 **[!UICONTROL Destinations]** La scheda è comprimibile. Premi le frecce per aprire o chiudere singole destinazioni e ottenere le seguenti informazioni per i segmenti di prova, raggruppati per le destinazioni mappate a:
 
