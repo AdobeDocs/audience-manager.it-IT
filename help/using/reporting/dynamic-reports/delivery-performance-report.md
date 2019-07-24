@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Report sulla distribuzione e sulle prestazioni{#delivery-and-performance-report}
+# Delivery and Performance Report{#delivery-and-performance-report}
 
 Restituisce dati a livello di segmento su impression e percentuali di clic.
 
@@ -25,7 +25,7 @@ c_delivery_reports.xml
 
 * Identifica segmenti ad alte prestazioni da riutilizzare in altre campagne o su altri siti.
 * Trova e rimuovi segmenti da siti sottostanti.
-* Analizzare visivamente le dimensioni dell&#39;impression dei segmenti e i tassi di click-through.
+* Analizzare visivamente le dimensioni dell'impression dei segmenti e i tassi di click-through.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Selezionate un singolo punto per visualizzare i dettagli dei dati in una finestr
 >* [Forme, colori e dimensioni utilizzati nei report interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 
 
-## Campi di consegna dati di consegna e prestazioni definiti {#field-definitions}
+## Delivery and Performance Data Pop Fields Defined {#field-definitions}
 
 Descrive le metriche visualizzate nella finestra popup quando si fa clic su un singolo punto dati.
 
