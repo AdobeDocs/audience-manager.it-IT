@@ -11,18 +11,18 @@ source-git-commit: 8a616bcf9583abfb2a94ec2a0cabcaf97ea2aeeb
 ---
 
 
-# Pannello caratteristiche {#traits-dashboard}
+# Traits Dashboard {#traits-dashboard}
 
-Il [!UICONTROL Traits] dashboard è un&#39;area di lavoro centralizzata per gestire le caratteristiche.
+The [!UICONTROL Traits] dashboard is a centralized workspace for managing traits.
 
 ![](assets/traits-dashboard.png)
 
 <!-- c_tb_dashboard.xml -->
 
-Il [!UICONTROL Traits] dashboard contiene funzioni e strumenti utili per:
+The [!UICONTROL Traits] dashboard contains features and tools that help you:
 
 1. Vedi tutte le caratteristiche e i dettagli correlati in una tabella con colonne che puoi ordinare.
-1. Leggi e lavora con [Caratteristiche di audience attive e caratteristiche](../../features/traits/client-activity-synced-audience-traits.md)sincronizzate.
+1. Review and work with [Active Audience Traits and Data Source Synced Traits](../../features/traits/client-activity-synced-audience-traits.md).
 1. Create, modificate ed eliminate caratteristiche.
 1. Visualizzate e gestite le cartelle di archiviazione delle caratteristiche.
 1. Cerca caratteristiche per nome, ID, descrizione o origine dati. Fate clic su una cartella durante la ricerca per limitare i risultati a quella cartella e alle relative sottocartelle.
