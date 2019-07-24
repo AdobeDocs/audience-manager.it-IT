@@ -11,17 +11,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Informazioni su Generatore caratteristiche {#about-trait-builder}
+# About Trait Builder {#about-trait-builder}
 
-[!UICONTROL Trait Builder] è una funzione che migliora i tradizionali processi di raccolta e creazione di tipi di pubblico basati su pixel. Funziona elaborando i dati delle pagine con le regole lato server create nell&#39;interfaccia utente.
+[!UICONTROL Trait Builder] è una funzione che migliora i tradizionali processi di raccolta e creazione di tipi di pubblico basati su pixel. Funziona elaborando i dati delle pagine con le regole lato server create nell'interfaccia utente.
 
 <!-- c_tb_about.xml -->
 
-Rispetto ai pixel, che attivano in risposta a semplici condizioni &quot;sì&quot; o &quot;true&quot;, [!UICONTROL Trait Builder] consente di:
+Compared to pixels, which fire in response to simple "yes" or "true" conditions, [!UICONTROL Trait Builder] lets you:
 
-* Raccogliete *tutti* i dati di pagina in modo da poterli utilizzare in un secondo momento per creare caratteristiche rilevanti e utili.
-* Creare caratteristiche basate su [coppie chiave-valore](../../reference/key-value-pairs-explained.md) trasmesse durante la raccolta dati.
-* Valuta condizioni dati complesse con regole lato server che funzionano con [espressioni booleane](../../reference/boolean-expressions-tsb.md) e [operatori di confronto](../../features/traits/trait-comparison-operators.md).
+* Collect *all* page data so you can use it later to build relevant, useful traits.
+* Build traits based on [key-value pairs](../../reference/key-value-pairs-explained.md) passed in during data collection.
+* Evaluate complex data conditions with server-side rules that work with [Boolean expressions](../../reference/boolean-expressions-tsb.md) and [comparison operators](../../features/traits/trait-comparison-operators.md).
 
-* Riducete o eliminate la necessità di mantenere i pixel della raccolta dati nell&#39;inventario.
-* Monitorare le prestazioni dei [!DNL Audience Manager] rapporti.
+* Riducete o eliminate la necessità di mantenere i pixel della raccolta dati nell'inventario.
+* Monitor performance with [!DNL Audience Manager] reports.
