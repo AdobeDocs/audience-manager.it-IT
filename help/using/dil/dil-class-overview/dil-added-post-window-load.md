@@ -11,7 +11,7 @@ source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 ---
 
 
-# Isaddedpostwindowload{#isaddedpostwindowload}
+# isAddedPostWindowLoad{#isaddedpostwindowload}
 
 Utilizzato per consentire a DIL di sapere che viene caricato dopo il caricamento della finestra.
 
