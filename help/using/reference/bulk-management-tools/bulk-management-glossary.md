@@ -11,9 +11,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Glossario strumenti di gestione massa{#bulk-management-tools-glossary}
+# Bulk Management Tools Glossary{#bulk-management-tools-glossary}
 
-Etichette dell&#39;intestazione colonna definite.
+Etichette dell'intestazione colonna definite.
 
 <!-- 
 
@@ -23,7 +23,7 @@ Etichette dell&#39;intestazione colonna definite.
 
 >[!NOTE]
 >
->Non [!UICONTROL Bulk Management Tools]*sono* supportati da [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. Per modifiche in massa, consigliamo di lavorare con [le API](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell&#39; [!DNL Audience Manager] interfaccia utente vengono rispettate nell&#39; [!UICONTROL Bulk Management Tools]interfaccia.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell' [!DNL Audience Manager] interfaccia utente vengono rispettate nell' [!UICONTROL Bulk Management Tools]interfaccia.
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -35,11 +35,11 @@ Etichette dell&#39;intestazione colonna definite.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Datasourceid</span> </p> </td> 
-   <td colname="col2"> <p>ID di un <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> 'origine</a> dati che desideri restituire o assegnare in gruppo. </p> </td> 
+   <td colname="col2"> <p>The ID of a <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> data source</a> you want to return or assign in bulk. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Derivedsignalid</span> </p> </td> 
-   <td colname="col2"> <p>Un <a href="../../features/derived-signals.md"> ID segnale</a> derivato. </p> </td> 
+   <td colname="col2"> <p>A <a href="../../features/derived-signals.md"> derived signal</a> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> description</span> </p> </td> 
@@ -47,7 +47,7 @@ Etichette dell&#39;intestazione colonna definite.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Purchionid</span> </p> </td> 
-   <td colname="col2"> <p>ID della <a href="../../features/destinations/destinations.md"> destinazione</a> da mappare o eliminare. </p> </td> 
+   <td colname="col2"> <p>The ID of the <a href="../../features/destinations/destinations.md"> destination</a> you want to map or delete. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Purchionmappingid</span> </p> </td> 
@@ -71,31 +71,31 @@ Etichette dell&#39;intestazione colonna definite.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Sourcekey</span> </p> </td> 
-   <td colname="col2"> <p>I segnali sono bit di dati passati ad <span class="keyword"> Audience Manager</span> in base all'attività dell'utente. Queste vengono trasmesse come <a href="../../reference/key-value-pairs-explained.md"> coppie chiave-valore</a>. La chiave source è una costante che non viene modificata. Consente di classificare il valore di origine che può cambiare. Consultate <a href="../../features/derived-signals.md"> Segnali derivati</a>. </p> </td> 
+   <td colname="col2"> <p>Signals are bits of data passed in to <span class="keyword"> Audience Manager</span> based on user activity. These are transmitted as <a href="../../reference/key-value-pairs-explained.md"> key-value pairs</a>. La chiave source è una costante che non viene modificata. Consente di classificare il valore di origine che può cambiare. See <a href="../../features/derived-signals.md"> Derived Signals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Sourcevalue</span> </p> </td> 
-   <td colname="col2"> <p>Il valore source è una variabile passata come coppia <a href="../../reference/key-value-pairs-explained.md"> chiave-valore</a>. </p> </td> 
+   <td colname="col2"> <p>The source value is a variable passed in as part a <a href="../../reference/key-value-pairs-explained.md"> key-value pair</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indica quando un segmento può iniziare a essere inviato a una destinazione. Utilizza <tt>il formato aaaa-mm</tt> -dd. </p> </td> 
+   <td colname="col2"> <p>Indica quando un segmento può iniziare a essere inviato a una destinazione. Uses <tt>yyyy-mm-dd</tt> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Targetkey</span> </p> </td> 
-   <td colname="col2">La chiave utilizzata nel segnale derivato. Consultate <a href="../../features/derived-signals.md"> Segnali derivati</a>. </td> 
+   <td colname="col2">La chiave utilizzata nel segnale derivato. See <a href="../../features/derived-signals.md"> Derived Signals</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Targetvalue</span> </p> </td> 
-   <td colname="col2"> <p>Il valore passato con un tasto segnale derivato. Consultate <a href="../../features/derived-signals.md"> Segnali derivati</a>. </p> </td> 
+   <td colname="col2"> <p>Il valore passato con un tasto segnale derivato. See <a href="../../features/derived-signals.md"> Derived Signals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Traitaliani</span> </p> </td> 
-   <td colname="col2"> <p>Un ID passato a una destinazione basata su cookie. Per una destinazione basata su cookie, questa è la chiave in una coppia <a href="../../reference/key-value-pairs-explained.md"> chiave-valore</a>. </p> </td> 
+   <td colname="col2"> <p>Un ID passato a una destinazione basata su cookie. For a cookie-based destination, this is the key in a <a href="../../reference/key-value-pairs-explained.md"> key-value pair</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Traitrule/segmentrule</span> </p> </td> 
-   <td colname="col2"> <p>La regola effettiva della caratteristica o del segmento utilizzata per raccogliere i dati. Una richiesta in massa restituisce le regole create in <span class="keyword"> Audience Manager</span> con il generatore di regole <a href="../../features/traits/about-trait-builder.md"> di caratteristica</a> o il <a href="../../features/segments/segment-builder.md"> generatore di regole del segmento</a>. Potete anche utilizzare questi strumenti per creare regole e applicarle in massa quando aggiornate un segmento o una caratteristica. </p> <p>Vedi anche <a href="../../reference/bulk-management-tools/bulk-rules.md"> Crea o aggiorna regole caratteristiche e regole segmento</a>. </p> </td> 
+   <td colname="col2"> <p>La regola effettiva della caratteristica o del segmento utilizzata per raccogliere i dati. A bulk request returns the rules created in <span class="keyword"> Audience Manager</span> with the <a href="../../features/traits/about-trait-builder.md"> trait rule builder</a> or the <a href="../../features/segments/segment-builder.md"> segment rule builder</a>. Potete anche utilizzare questi strumenti per creare regole e applicarle in massa quando aggiornate un segmento o una caratteristica. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Traittype</span> </p> </td> 
@@ -112,7 +112,7 @@ Etichette dell&#39;intestazione colonna definite.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> Valuealias</span> </p> </td> 
-   <td colname="col2"> <p>La chiave in una <a href="../../reference/key-value-pairs-explained.md"> coppia chiave-valore</a> passata a una destinazione del cookie. </p> </td> 
+   <td colname="col2"> <p>The key in a <a href="../../reference/key-value-pairs-explained.md"> key-value pair</a> passed to a cookie destination. </p> </td> 
   </tr> 
  </tbody> 
 </table>
