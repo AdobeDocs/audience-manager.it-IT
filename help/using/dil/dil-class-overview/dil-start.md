@@ -11,13 +11,13 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ---
 
 
-# Guida introduttiva alle API DIL a livello di classe{#getting-started-with-class-level-dil-apis}
+# Getting Started With Class-level DIL APIs{#getting-started-with-class-level-dil-apis}
 
 Le API DIL a livello di classe consentono di creare e lavorare a livello di codice con gli oggetti Audience Manager. Le API a livello di classe funzionano con le altre funzioni a livello di istanza per impostare valori o restituire dati.
 
-## Guida introduttiva alle API DIL a livello di classe {#get-started}
+## Getting Started With Class-level DIL APIs {#get-started}
 
-Descrive i requisiti di autenticazione e la formattazione del testo utilizzata nella [!UICONTROL DIL] documentazione a livello di classe.
+Describes authentication requirements and the text formatting used in the class-level [!UICONTROL DIL] documentation.
 
 <!-- 
 
@@ -25,9 +25,9 @@ c_class_start.xml
 
  -->
 
-Quando si utilizzano [!UICONTROL DIL] le API a livello di classe:
+When working with the class-level [!UICONTROL DIL] APIs:
 
-* L&#39;accesso richiede un nome partner e un ID di namespace del contenitore (NSID). Contatta il tuo account manager Audience Manager per ottenere queste informazioni.
-* Sostituite qualsiasi testo *con corsivo* di esempio nella documentazione API con valore, ID o altra variabile come richiesto dal metodo in uso.
-* [!UICONTROL DIL] scrive i dati codificati in un cookie di destinazione. Ad esempio, gli spazi sono codificati come `%20``%3B`e punto e virgola.
+* L'accesso richiede un nome partner e un ID di namespace del contenitore (NSID). Contatta il tuo account manager Audience Manager per ottenere queste informazioni.
+* Replace any sample *italicized* text in the API documentation with value, ID, or other variable as required by the method you're working with.
+* [!UICONTROL DIL] scrive i dati codificati in un cookie di destinazione. For example, spaces are encoded as `%20` and semicolons as `%3B`.
 
