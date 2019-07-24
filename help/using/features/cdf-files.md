@@ -12,42 +12,42 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Feed dati cliente {#customer-data-feeds}
+# Customer Data Feeds {#customer-data-feeds}
 
-Informazioni di base su [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) file e istruzioni su come iniziare. Iniziate qui se siete interessati a ricevere [!UICONTROL CDF] i file o solo a desiderate ulteriori informazioni.
+Basic information about [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) files and instructions on how to get started. Start here if you're interested in receiving [!UICONTROL CDF] files or just want more information.
 
-## Contenuto e scopo del file {#file-contents-purpose}
+## File Contents and Purpose {#file-contents-purpose}
 
 <!-- cdf-intro.xml -->
 
-Un [!UICONTROL CDF] file contiene gli stessi dati inviati da una [!DNL Audience Manager] chiamata di evento ( `/event`) ai server. Ciò include dati come ID utente, ID caratteristica, ID segmento e tutti gli altri parametri acquisiti da una chiamata dell&#39;evento. I sistemi interni [!DNL Audience Manager] elaborano i dati dell&#39;evento in un [!UICONTROL CDF] file con contenuto organizzato in campi che vengono visualizzati in un ordine impostato. [!DNL Audience Manager] tenta di generare [!UICONTROL CDF] i file oraria e li memorizza in un bucket sicuro per un cliente su un [!DNL Amazon S3] server. Questi file consentono di lavorare con [!DNL Audience Manager] i dati oltre i limiti imposti dall&#39;interfaccia utente.
+A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call ( `/event`) sends to our servers. Ciò include dati come ID utente, ID caratteristica, ID segmento e tutti gli altri parametri acquisiti da una chiamata dell'evento. Internal [!DNL Audience Manager] systems processes event data into a [!UICONTROL CDF] file with content organized into fields that appear in a set order. [!DNL Audience Manager] tenta di generare [!UICONTROL CDF] i file oraria e li memorizza in un bucket sicuro per un cliente su un [!DNL Amazon S3] server. We provide these files so you can work with [!DNL Audience Manager] data outside of the limits imposed by our user interface.
 
 >[!NOTE]
 >
->Non devono essere utilizzati [!UICONTROL CDF] come proxy per monitorare il traffico delle pagine, conciliare discrepanze dei report, o fatturazione, ecc.
+>You should not use [!UICONTROL CDF] files as a proxy to monitor page traffic, reconcile report discrepancies, or for billing, etc.
 
 ## Introduzione {#getting-started}
 
-Non esiste un processo self-service per avviare [!UICONTROL CDF] la distribuzione dei file. Contatta il [!DNL Audience Manager] tuo consulente o l&#39;Assistenza clienti per iniziare. Durante l&#39;implementazione, il [!DNL Audience Manager] rappresentante sarà in grado di:
+There is no self-service process to start [!UICONTROL CDF] file delivery. Contact your [!DNL Audience Manager] consultant or Customer Care to get started. During implementation, your [!DNL Audience Manager] representative will:
 
-* Configurate il [!DNL Amazon S3] bucket dell&#39;archiviazione.
-* Fornire le credenziali [!DNL S3] di autenticazione in sola lettura al bucket dell&#39;archivio del file. Non potrete visualizzare o accedere a directory e file appartenenti ad altri clienti.
+* Set up your [!DNL Amazon S3] storage bucket.
+* Provide read-only [!DNL S3] authentication credentials to your file storage bucket. Non potrete visualizzare o accedere a directory e file appartenenti ad altri clienti.
 
-Le notifiche e [!UICONTROL CDF] i file dei file compariranno nel [!DNL S3] bucket quando saranno pronti per il download. Siete responsabili del monitoraggio e del download dei file dalla [!DNL S3] directory assegnata. Consultate [Notifiche di elaborazione dei file feed dati cliente](#cdf-file-processing-notifications).
+File notifications and [!UICONTROL CDF] files will appear in your [!DNL S3] bucket when they're ready for download. You're responsible for monitoring and downloading files from your assigned [!DNL S3] directory. See [Customer Data Feed File Processing Notifications](#cdf-file-processing-notifications).
 
 ## Passaggi successivi {#next-steps}
 
-Le sezioni riportate di seguito e le [domande frequenti](../faq/faq-cdf.md) sui feed dei dati cliente consentono di acquisire familiarità con questo servizio.
+The sections below and the [Customer Data Feed FAQ](../faq/faq-cdf.md) can help you become more familiar with this service.
 
-## Contenuto feed dati cliente definito {#cdf-defined}
+## Customer Data Feed Contents Defined {#cdf-defined}
 
-Elenca e definisce gli elementi di dati e gli array di un [!UICONTROL CDF] file, ordinati in base all&#39;aspetto. Le definizioni includono tipi di dati, ma queste informazioni non fanno parte di un [!UICONTROL CDF] file.
+Lists and defines the data elements and arrays in a [!UICONTROL CDF] file, by order of appearance. Definitions include data types, but this information is not part of a [!UICONTROL CDF] file.
 
 ## Definizioni {#definitions}
 
 <!-- cdf-contents-defined.xml -->
 
-Un [!UICONTROL CDF] file include alcuni o tutti i campi definiti di seguito. Per informazioni sull&#39;organizzazione dei file interni, vedi [Struttura file feed dati cliente](#cdf-file-structure).
+A [!UICONTROL CDF] file includes some or all of the fields defined below. For information about internal file organization, see [Customer Data Feed File Structure](#cdf-file-structure).
 
 <table id="table_46BC897A30C2469AB5911F5B85A3FAA7"> 
  <thead> 
@@ -61,16 +61,16 @@ Un [!UICONTROL CDF] file include alcuni o tutti i campi definiti di seguito. Per
   <tr> 
    <td colname="col1"> <p><code> Ora evento</code> </p> </td> 
    <td colname="col2"> <p>Marca temporale </p> </td> 
-   <td colname="col3"> <p>L'ora in cui un file CDF è stato elaborato dai server di raccolta <span class="wintitle"> dati</span> (DCS). La marca temporale utilizza <i>aaaa-mm-gg hh: mm: ss</i> ed è impostato nel fuso orario UTC. </p> <p> <p>Nota: L'ora <i>evento non</i>è: <p> 
+   <td colname="col3"> <p>The time a CDF file was processed by the <span class="wintitle"> Data Collection Servers</span> (DCS). The timestamp uses the <i>yyyy-mm-dd hh:mm:ss</i> format and is set in the UTC time zone. </p> <p> <p>Note: The Event Time <i>is not</i>: <p> 
        <ul id="ul_41ABC813FAAC4659AC8DA13F4A6DD7EB"> 
         <li id="li_0192D253EA4C49C4BF2E8BA62CEE028E">L'ora dell'evento pagina o della chiamata dell'evento, anche se potrebbe essere vicino a tali orari. </li> 
-        <li id="li_271DF14395BC495FBF17186588A554A8">Correlato all'ora DCS nel nome del file. Vedi anche <a href="#different-processing-times"> Times Data Feed Name Name and File Content Times…</a> </li> 
+        <li id="li_271DF14395BC495FBF17186588A554A8">Correlato all'ora DCS nel nome del file. See also, <a href="#different-processing-times"> Customer Data Feed File Name Times and File Content Times...</a>. </li> 
        </ul> </p> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Dispositivo</code> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>This is the <span class="wintitle"> Unique User ID</span> (UUID), which is a 38-digit device ID for your site visitor. Vedi anche <a href="../reference/ids-in-aam.md"> Indice degli ID in Audience Manager</a>. </p> </td> 
+   <td colname="col3"> <p>This is the <span class="wintitle"> Unique User ID</span> (UUID), which is a 38-digit device ID for your site visitor. See also, <a href="../reference/ids-in-aam.md"> Index of IDs in Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> ID contenitore</code> </p> </td> 
@@ -105,7 +105,7 @@ Un [!UICONTROL CDF] file include alcuni o tutti i campi definiti di seguito. Per
   <tr> 
    <td colname="col1"> <p><code> Mcdevice </code> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>L'identificatore <span class="keyword"> Experience Cloud</span> ID (MID) assegnato al visitatore del sito. Vedi anche <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookie e il servizio Experience Cloud ID</a>. </p> </td> 
+   <td colname="col3"> <p>The <span class="keyword"> Experience Cloud</span> ID (MID) assigned to the site visitor. See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and theExperience Cloud ID service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Tutti i segmenti</code> </p> </td> 
@@ -120,15 +120,15 @@ Un [!UICONTROL CDF] file include alcuni o tutti i campi definiti di seguito. Per
  </tbody> 
 </table>
 
-## Struttura file feed dati cliente {#cdf-file-structure}
+## Customer Data Feed File Structure {#cdf-file-structure}
 
-Elenca e definisce la struttura dati di un [!UICONTROL CDF] file. Comprende sequenza di dati, delimitatori di campo e separatori, una mappa di file dati e file di esempio.
+Lists and defines the data structure of a [!UICONTROL CDF] file. Comprende sequenza di dati, delimitatori di campo e separatori, una mappa di file dati e file di esempio.
 
-## Identificatori dei campi dati e sequenza {#identifiers-and-sequence}
+## Data Field Identifiers and Sequence {#identifiers-and-sequence}
 
 <!-- cdf-file-structure.xml -->
 
-[!UICONTROL CDF] i file non contengono colonne etichettate o intestazioni campo. Al contrario, un [!UICONTROL CDF] file definisce campi e array con [!DNL ASCII] caratteri non stampabili. Inoltre, il [!UICONTROL CDF] file elenca ogni campo e matrice in un ordine specifico. La comprensione degli identificatori dei campi e dell&#39;ordine facilita la corretta analisi del file.
+[!UICONTROL CDF] i file non contengono colonne etichettate o intestazioni campo. Instead, a [!UICONTROL CDF] file defines fields and arrays with non-printing [!DNL ASCII] characters. Also, the [!UICONTROL CDF] file lists each field and array in a specific order. La comprensione degli identificatori dei campi e dell'ordine facilita la corretta analisi del file.
 
 <table id="table_D2C8786DF7CE47E5ADB8930EC825F8F6"> 
  <thead> 
@@ -142,14 +142,14 @@ Elenca e definisce la struttura dati di un [!UICONTROL CDF] file. Comprende sequ
    <td colname="col1"> <p>Separatori di campo e delimitatori </p> </td> 
    <td colname="col2"> <p>Questi caratteri non stampabili definiscono gli elementi e la struttura del file CDF: </p> <p> 
      <ul id="ul_056A9B90AC88405CBB5F81A56CD6E4C9"> 
-      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + A (ASCII <code> 001</code> o <code> ^ A</code>) separa i dati nei singoli campi con un indicatore dello spazio non stampabile. </li> 
-      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + B (ASCII <code> 002</code> o <code> ^ B</code>) separa i dati un array e i parametri di richiesta. </li> 
-      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + C (ASCII <code> 003</code> o <code> ^ C</code>) definisce coppie chiave-valore. </li> 
+      <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII <code> 001</code> or <code> ^A</code>) separates data in individual fields with a non-printing space indicator. </li> 
+      <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII <code> 002</code> or <code> ^B</code>) separates data an array and request parameters. </li> 
+      <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c (ASCII <code> 003</code> or <code> ^C</code>) defines key-value pairs. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sequenza campi </p> </td> 
-   <td colname="col2"> <p> <p>Importante: <span class="keyword"> Audience Manager</span> si riserva il diritto di aggiungere nuovi campi alla fine del file CDF in rilasci futuri. Questo significa che la progettazione tecnica del sistema di analisi dei file non deve presupporre un numero fisso di colonne, ma può presupporsi un ordine fisso per le colonne esistenti. </p> </p> <p>I dati nel file CDF vengono visualizzati nell'ordine indicato di seguito. </p> <p> 
+   <td colname="col2"> <p> <p>Important: <span class="keyword"> Audience Manager</span> reserves the right to add new fields to the end of the CDF file in future releases. Questo significa che la progettazione tecnica del sistema di analisi dei file non deve presupporre un numero fisso di colonne, ma può presupporsi un ordine fisso per le colonne esistenti. </p> </p> <p>I dati nel file CDF vengono visualizzati nell'ordine indicato di seguito. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Ora evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
@@ -159,39 +159,39 @@ Elenca e definisce la struttura dati di un [!UICONTROL CDF] file. Comprende sequ
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parametri di richiesta </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referente </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Indirizzo IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID dispositivo Experience Cloud (MID). Vedi anche <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookie e il servizio Experience Cloud ID</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID dispositivo Experience Cloud (MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Tutti i segmenti </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Tutte le caratteristiche </li> 
-     </ol> </p> <p>Per le descrizioni dei campi, consultate <a href="#cdf-defined"> Contenuti feed dati cliente definiti</a>. </p> </td> 
+     </ol> </p> <p>For field descriptions, see <a href="#cdf-defined"> Customer Data Feed Contents Defined</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Mappa file CDF {#cdf-file-map}
+## CDF File Map {#cdf-file-map}
 
-[!UICONTROL CDF] i dati del file vengono visualizzati nell&#39;ordine indicato di seguito.
+[!UICONTROL CDF] i dati del file vengono visualizzati nell'ordine indicato di seguito.
 
 ![](assets/sequence-map.png)
 
 ## Identificazione degli array
 
-Gli array [!UICONTROL CDF] vengono avviati e terminati con il `Ctrl + a` separatore di campo. Questo rende il primo elemento di un array come un campo di dati standalone. Ad esempio, inizia con `^A1234`l&#39;array tra. Il carattere di delimitazione dell&#39;array e l&#39;ID `^B5678` seguono questa voce. Di conseguenza, potreste essere tentati di ritenere che il primo elemento nell&#39;array realized sia ID 5678 (perché inizia con `^B`). Questo non è il caso, per questo è necessario avere familiarità con la sequenza e la struttura di un file di dati. Anche se il primo elemento nell&#39;array delle caratteristiche (o nessuno degli altri array in un [!UICONTROL CDF] file) inizia con, `^A`l&#39;ordine di aspetto o posizione nel file definisce l&#39;inizio di un array. And, the first element in an array is always separated from the preceding entry by `^A`.
+Arrays in a [!UICONTROL CDF] file start and end with the `Ctrl + a` field separator. Questo rende il primo elemento di un array come un campo di dati standalone. For example, the realized traits array starts with `^A1234`. The array delimiter and ID `^B5678` follows this entry. As a result, you might be tempted to think that the first element in the realized traits array is ID 5678 (because it starts with `^B`). Questo non è il caso, per questo è necessario avere familiarità con la sequenza e la struttura di un file di dati. Even though the first element in the realized trait array (or any of the other arrays in a [!UICONTROL CDF] file) starts with `^A`, the order of appearance or position in the file defines the start of an array. And, the first element in an array is always separated from the preceding entry by `^A`.
 
-## File CDF di esempio {#sample-file}
+## Sample CDF File {#sample-file}
 
-Un [!UICONTROL CDF] file di esempio potrebbe assomigliare a quanto segue. Abbiamo inserito interruzioni di riga in questo esempio per adattarla alla pagina.
+A sample [!UICONTROL CDF] file could look similar to the following. Abbiamo inserito interruzioni di riga in questo esempio per adattarla alla pagina.
 
 ![](assets/CDF-sample.png)
 
-## Convenzioni di denominazione dei file feed dati cliente {#cdf-naming-conventions}
+## Customer Data Feed File Naming Conventions {#cdf-naming-conventions}
 
-Le sezioni riportate sotto e definiscono gli elementi nel nome [!UICONTROL CDF] del file.
+The sections below list and define the elements in your [!UICONTROL CDF] file name.
 
-## Nome file CDF: Sintassi e esempio {#cdf-file-name}
+## CDF File Name: Syntax and Example {#cdf-file-name}
 
 <!-- cdf-file-name.xml -->
 
-Un nome [!UICONTROL CDF] di file tipico contiene gli elementi elencati di seguito. Nota: *il corsivo* indica un segnaposto variabile:
+A typical [!UICONTROL CDF] file name contains the elements listed below. Note, *italics* indicates a variable placeholder:
 
 * **Sintassi**
 
@@ -204,11 +204,11 @@ Un nome [!UICONTROL CDF] di file tipico contiene gli elementi elencati di seguit
 s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 ```
 
-Nel bucket [!DNL S3] dell&#39;archivio, i file vengono ordinati in ordine crescente per ID partner ([!UICONTROL PID]), giorno e ora.
+In your [!DNL S3] storage bucket, files are sorted in ascending order by Partner ID ([!UICONTROL PID]), day, and hour.
 
-## Elementi nome file CDF definiti {#cdf-file-name-elements}
+## CDF File Name Elements Defined {#cdf-file-name-elements}
 
-Nella tabella seguente sono elencati e definiti gli elementi del nome di un [!UICONTROL CDF] file.
+The following table lists and defines the elements in a [!UICONTROL CDF] file name.
 
 <table id="table_4AC4F90C1C7D43E2A93CB3B6908D7E94"> 
  <thead> 
@@ -232,7 +232,7 @@ Nella tabella seguente sono elencati e definiti gli elementi del nome di un [!UI
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>hour =<i>hh</i></code> </p> </td> 
-   <td colname="col2"> <p>Un valore di tempo espresso nella notazione di 24 ore e impostato nel fuso orario UTC. Vedi anche <a href="#different-processing-times"> Times Data Feed Name Name and File Content Times…</a> </p> </td> 
+   <td colname="col2"> <p>Un valore di tempo espresso nella notazione di 24 ore e impostato nel fuso orario UTC. See also, <a href="#different-processing-times"> Customer Data Feed File Name Times and File Content Times...</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>ID partner</i></code> </p> </td> 
@@ -240,7 +240,7 @@ Nella tabella seguente sono elencati e definiti gli elementi del nome di un [!UI
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>ID processo AAM</i>_ 0</code> </p> </td> 
-   <td colname="col2"> <p>ID processo interno <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>An internal, <span class="keyword"> Audience Manager</span> process ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
@@ -249,15 +249,15 @@ Nella tabella seguente sono elencati e definiti gli elementi del nome di un [!UI
  </tbody> 
 </table>
 
-## Notifiche elaborazione file feed dati cliente {#cdf-file-processing-notifications}
+## Customer Data Feed File Processing Notifications {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] scrive un `.info` file nella [!DNL S3] directory per segnalare quando ( [!UICONTROL Customer Data File][!UICONTROL CDF]) è pronto per il download. `.info` Il file include [!DNL JSON] anche metadati formattati sui contenuti dei [!UICONTROL CDF] file. Consultate questa sezione per informazioni sulla sintassi e sui campi utilizzati dal file di notifica.
 
-## File di informazioni campione {#sample-info-file}
+## Sample Info File {#sample-info-file}
 
 <!-- cdf-notifications.xml -->
 
-Ogni `.info` file contiene una sezione `Files` e `Totals` una sezione. La `Files` sezione contiene un array che contiene metriche specifiche per ogni file orario. La `Totals` sezione contiene metriche aggregate in tutti [!UICONTROL CDF] i file per un giorno particolare. Il contenuto del `.info` file potrebbe essere simile al seguente esempio.
+Each `.info` file contains a `Files` and `Totals` section. The `Files` section contains an array that holds specific metrics for each hourly file. The `Totals` section contains metrics aggregated across all your [!UICONTROL CDF] files for a particular day. The contents of your `.info` file could look similar to the following example.
 
 ```js
 {
@@ -284,9 +284,9 @@ Ogni `.info` file contiene una sezione `Files` e `Totals` una sezione. La `Files
 }
 ```
 
-## Campi file Info definiti {#info-file-fields-defined}
+## Info File Fields Defined {#info-file-fields-defined}
 
-L&#39;elenco delle tabelle seguenti e definisce gli elementi di un [!UICONTROL CDF]`.info` file.
+The following tables list and define the elements in a [!UICONTROL CDF] `.info` file.
 
 ### Oggetto file
 
@@ -312,7 +312,7 @@ L&#39;elenco delle tabelle seguenti e definisce gli elementi di un [!UICONTROL C
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Filename</code> </p> </td> 
-   <td colname="col2"> <p>Il nome del file. Consultate <a href="#cdf-naming-conventions"> Convenzioni di denominazione dei file dei feed di dati cliente</a>. </p> </td> 
+   <td colname="col2"> <p>Il nome del file. See <a href="#cdf-naming-conventions"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Filesequencenumber</code> </p> </td> 
@@ -337,7 +337,7 @@ L&#39;elenco delle tabelle seguenti e definisce gli elementi di un [!UICONTROL C
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Giorno</code> </p> </td> 
-   <td colname="col2"> <p>Il giorno per il quale sono disponibili i dati. Utilizza <i>il formato aaaa-mm</i> -dd. </p> </td> 
+   <td colname="col2"> <p>Il giorno per il quale sono disponibili i dati. Uses <i>yyyy-mm-dd</i> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Ora</code> </p> </td> 
@@ -354,11 +354,11 @@ L&#39;elenco delle tabelle seguenti e definisce gli elementi di un [!UICONTROL C
  </tbody> 
 </table>
 
-## Times Data Feed File Name and File Content Times are Different {#different-processing-times}
+## Customer Data Feed File Name Times and File Content Times are Different {#different-processing-times}
 
-[!UICONTROL CDF] Il file contiene marche temporali nel nome file e nel contenuto del file. Queste marche temporali registrano processi di eventi diversi per lo stesso [!UICONTROL CDF] file. Non è raro visualizzare marche temporali diverse nel nome e nel contenuto dello stesso file. La comprensione di ogni marca temporale può aiutarti a evitare errori comuni quando si lavora con tali dati o si tenta di ordinarlo in base a tale data.
+[!UICONTROL CDF] Il file contiene marche temporali nel nome file e nel contenuto del file. These timestamps record different event processes for the same [!UICONTROL CDF] file. Non è raro visualizzare marche temporali diverse nel nome e nel contenuto dello stesso file. La comprensione di ogni marca temporale può aiutarti a evitare errori comuni quando si lavora con tali dati o si tenta di ordinarlo in base a tale data.
 
-## Individuazione della marca temporale del file CDF {#locating-timestamps}
+## Locating CDF File Timestamps {#locating-timestamps}
 
 <!-- cdf-time-differences.xml -->
 
@@ -366,14 +366,14 @@ L&#39;elenco delle tabelle seguenti e definisce gli elementi di un [!UICONTROL C
 
 ![](assets/cdf-timestamp.png)
 
-## Comprensione della differenza tra Marca temporale {#understanding-timestamps}
+## Understanding the Difference Between Timestamps {#understanding-timestamps}
 
-La tabella seguente fornisce ulteriori dettagli sulle marche temporali [!UICONTROL CDF] del file e su come utilizzarli correttamente.
+The following table provides additional details about your [!UICONTROL CDF] file timestamps along with information about how to use them properly.
 
 | Posizione marca temporale | Descrizione |
 |--- |--- |
-| Nome file | Il timestamp nel nome del file CDF indica l&#39;ora in cui è [!DNL Audience Manager] iniziata la preparazione del file per la consegna. Questa marca temporale è impostata nel fuso orario UTC. Utilizza il `hour=` parametro, con il formato impostato come ora di 2 cifre nella notazione di 24 ore. Questa volta può essere diversa dall&#39;ora dell&#39;evento registrata nel contenuto del file. Breakwhen in caso di file CDF, a volte si noterà che il bucket S 3 è vuoto per un&#39;ora particolare. Un esempio di bucket vuoto può significare una delle seguenti:<ul><li>Non sono disponibili dati per quell&#39;ora particolare. </li><li> I server sono in carico e non possono elaborare i file per un&#39;ora particolare. Quando il server viene arrestato, inserisce i file che dovrebbero trascorrere in un determinato intervallo di tempo in un bucket con un valore successivo. Ad esempio, si vedrà questo quando un file che dovrebbe essere compreso nell&#39;ora di 17 viene visualizzato nell&#39;ora 18 (con `hour=18` nel nome del file). In questo caso, il server ha iniziato a elaborare il file nell&#39;ora 17 ma non è stato possibile completarlo entro tale intervallo. Al contrario, il file viene inviato all&#39;intervallo orario successivo.</li></ul><br>**Importante**: Non utilizzare la marca temporale del nome file per raggruppare gli eventi per volta. Se è necessario raggruppare per volta, utilizzare la `EventTime` marca temporale nei contenuti del file. |
-| Contenuto file | Il timestamp nel contenuto del file CDF contrassegna l&#39;ora in cui i server di raccolta dati hanno iniziato a elaborare il file. Questa marca temporale è impostata nel fuso orario UTC. Utilizza il `EventTime` campo, con formato formattato come *`yyyy-mm-dd hh:mm:ss`*. Questa volta è simile all&#39;ora effettiva dell&#39;evento sulla pagina, ma può essere diversa dall&#39;indicatore dell&#39;ora nel nome del file. <br> **Suggerimento**: A differenza della `hour=` marca temporale nel nome del file, potete utilizzare `EventTime` per raggruppare i dati per volta. |
+| Nome file | The timestamp in your CDF file name marks the time when [!DNL Audience Manager] started preparing your file for delivery. Questa marca temporale è impostata nel fuso orario UTC. It uses the `hour=` parameter, with time formatted as a 2-digit hour in 24-hour notation. Questa volta può essere diversa dall'ora dell'evento registrata nel contenuto del file. Breakwhen in caso di file CDF, a volte si noterà che il bucket S 3 è vuoto per un'ora particolare. Un esempio di bucket vuoto può significare una delle seguenti:<ul><li>Non sono disponibili dati per quell'ora particolare. </li><li> I server sono in carico e non possono elaborare i file per un'ora particolare. Quando il server viene arrestato, inserisce i file che dovrebbero trascorrere in un determinato intervallo di tempo in un bucket con un valore successivo. For example, you'll see this when a file that should have been in the hour 17 bucket appear in the hour 18 bucket (with `hour=18` in the file name). In questo caso, il server ha iniziato a elaborare il file nell'ora 17 ma non è stato possibile completarlo entro tale intervallo. Al contrario, il file viene inviato all'intervallo orario successivo.</li></ul><br>**Importante**: Non utilizzare la marca temporale del nome file per raggruppare gli eventi per volta. If you need to group by time, use the `EventTime` timestamp in the file contents. |
+| Contenuto file | Il timestamp nel contenuto del file CDF contrassegna l'ora in cui i server di raccolta dati hanno iniziato a elaborare il file. Questa marca temporale è impostata nel fuso orario UTC. It uses the `EventTime` field, with time formatted as *`yyyy-mm-dd hh:mm:ss`*. This time is close to the actual time of the event on the page, but it can be different than the hour indicator in the file name. <br> **Suggerimento**: A differenza della `hour=` marca temporale nel nome del file, potete utilizzare `EventTime` per raggruppare i dati per volta. |
 
 >[!MORE_ LIKE_ THIS]
 >
