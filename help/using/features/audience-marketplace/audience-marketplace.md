@@ -15,9 +15,9 @@ source-git-commit: db98258a1f88867af4cd1369d35fa243a89f3f65
 
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] consente ai fornitori di dati e agli acquirenti di eseguire le operazioni di dati in modo autonomo con il minimo sforzo. A questo scopo, fornire funzioni specializzate che variano a seconda del ruolo assegnato a un acquirente dati o a un venditore di dati. Infatti, puoi anche essere un acquirente e un venditore allo stesso tempo. E, se questo non riesce, si occupa [!UICONTROL Audience Marketplace] di contratti, fatturazione e pagamenti tra fornitori di dati e venditori.
+[!UICONTROL Audience Marketplace] consente ai fornitori di dati e agli acquirenti di eseguire le operazioni di dati in modo autonomo con il minimo sforzo. A questo scopo, fornire funzioni specializzate che variano a seconda del ruolo assegnato a un acquirente dati o a un venditore di dati. Infatti, puoi anche essere un acquirente e un venditore allo stesso tempo. And, if this couldn’t get any better, [!UICONTROL Audience Marketplace] takes care of contracts, billing, and payments between data providers and sellers.
 
-Parla con il tuo [!DNL Audience Manager] specialista di vendita per iniziare. They can activate [!UICONTROL Audience Marketplace for you].
+Talk to your [!DNL Audience Manager] sales specialist to get started. They can activate [!UICONTROL Audience Marketplace for you].
 
 >[!NOTE]
 >
