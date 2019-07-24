@@ -10,15 +10,15 @@ source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
 ---
 
 
-# Data Explorer - Panoramica, vantaggi e casi d&#39;uso {#overview-benefits-and-use-cases}
+# Data Explorer - Overview, Benefits, and Use Cases {#overview-benefits-and-use-cases}
 
-Utilizzate [!UICONTROL Data Explorer] per connettervi a audience storiche creando caratteristiche basate su segnali utilizzati e inutilizzati e recuperandole con dati storici per evitare potenziali perdite di audience rilevanti.
+Use [!UICONTROL Data Explorer] to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
 
 ## Panoramica {#overview}
 
 La creazione di caratteristiche basate su approfondimenti esistenti relativi al pubblico è un processo piuttosto semplice, a condizione che tu sappia sempre chi sia il pubblico. Ma con quale frequenza si verifica?
 
-[!UICONTROL Data Explorer] semplifica il processo di gestione delle caratteristiche offrendo un maggiore flessibilità nella gestione della tassonomia. Sono disponibili due [!UICONTROL Data Explorer] componenti:
+[!UICONTROL Data Explorer] semplifica il processo di gestione delle caratteristiche offrendo un maggiore flessibilità nella gestione della tassonomia. Two [!UICONTROL Data Explorer] components help you achieve this:
 
 * [Segnali dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) e [!UICONTROL Signals Search] consente di tenere traccia dei segnali ricevuti da tale [!DNL Audience Manager] pannello per creare nuove caratteristiche o aggiungere a quelli esistenti.
 
@@ -26,18 +26,18 @@ La creazione di caratteristiche basate su approfondimenti esistenti relativi al 
 
 ## Vantaggi {#benefits}
 
-Utilizzate per [!UICONTROL Data Explorer] ottimizzare la creazione dell&#39;audience in vari modi:
+Use [!UICONTROL Data Explorer] to optimize your audience building in multiple ways:
 
 * **Concentratevi su audience ad alto valore**. Monitora le modifiche della tendenza nel comportamento di ricerca e navigazione sulle pagine, quindi crea caratteristiche specifiche per il loro comportamento. Elimina la necessità di creare caratteristiche e focalizzare i segnali pertinenti.
 * **Evitare la perdita di dati**. Riempie le caratteristiche con le realizzazioni storiche, per evitare di perdere i segmenti di pubblico perché non avete creato caratteristiche prima di ricevere i segnali.
 * **Migliorate il flusso di lavoro**. Scopri i segnali di tendenza e trasformali rapidamente in caratteristiche fruibili.
 
-## Casi d&#39;uso {#use-cases-data-explorer}
+## Casi d'uso {#use-cases-data-explorer}
 
 ### Esempio 1
 
-Un rivenditore globale elettronico ha un traffico di visitatori elevato, ma i tassi di conversione sono inferiori al previsto, sebbene abbiano ottimizzato il contenuto per più piattaforme. Utilizzando il [Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md)Segnali, essi identificano un volume elevato di segnali inutilizzati, indicando che i visitatori stanno cercando un marchio elettronico specifico non attualmente in magazzino. L&#39;azienda può sfruttare questa informazione aggiornando la propria azione e visualizzando i visitatori con campagne personalizzate.
+Un rivenditore globale elettronico ha un traffico di visitatori elevato, ma i tassi di conversione sono inferiori al previsto, sebbene abbiano ottimizzato il contenuto per più piattaforme. Using the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md), they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. L'azienda può sfruttare questa informazione aggiornando la propria azione e visualizzando i visitatori con campagne personalizzate.
 
 ### Esempio 2
 
-Quando un fornitore di servizi di viaggio aggiunge nuove destinazioni al proprio sito Web di prenotazione, desiderano pubblicarle a audience storiche, anche se non hanno caratteristiche create per loro. Possono utilizzare la ricerca segnali per identificare i segnali inutilizzati relativi alle nuove destinazioni, includerli in nuove caratteristiche e [completarli con](../../features/data-explorer/data-explorer-trait-backfill.md) le realizzazioni storiche. Quindi, crea nuovi segmenti con le nuove caratteristiche e esegui il targeting immediatamente con campagne dedicate.
+Quando un fornitore di servizi di viaggio aggiunge nuove destinazioni al proprio sito Web di prenotazione, desiderano pubblicarle a audience storiche, anche se non hanno caratteristiche create per loro. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../features/data-explorer/data-explorer-trait-backfill.md) them with historical realizations. Quindi, crea nuovi segmenti con le nuove caratteristiche e esegui il targeting immediatamente con campagne dedicate.
