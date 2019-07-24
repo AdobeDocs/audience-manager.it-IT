@@ -12,13 +12,13 @@ source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
 ---
 
 
-# Metodi API algoritmici {#algorithmic-api-methods}
+# Algorithmic API Methods {#algorithmic-api-methods}
 
 Metodi che consentono di utilizzare in modo programmatico le funzionalità di modellazione algoritmica.
 
 >[!IMPORTANT]
 >
->I metodi dei modelli [!DNL API] algoritmici sono stati riscritti e [!DNL Swagger] migrati. Consulta:
+>The algorithmic models [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Consulta:
 >
 >* [Documenti API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione dei codici API di Audience Manager](../../api/api-swagger-migration.md)
