@@ -11,7 +11,7 @@ source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 ---
 
 
-# Elimina destinazioni {#delete-destinations}
+# Delete Destinations {#delete-destinations}
 
 `DELETE` e `POST` metodi che consentono di rimuovere le destinazioni e le mappature dei segmenti.
 
@@ -25,19 +25,19 @@ source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 >
 >Devi rimuovere tutte le mappature dei segmenti prima di poter eliminare una destinazione.
 
-* Richiesta: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
-* Risposta: Restituisce il codice `204 No Content` in caso di esito positivo.
+* Request: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
+* Response: Returns code `204 No Content` if successful.
 
 ## Destinazioni di eliminazione in blocco
 
-Rimuovere più destinazioni con questo `POST` metodo. Passa gli ID di destinazione ( `destinationId`) con un array nel corpo della richiesta.
+Remove multiple destinations with this `POST` method. Pass in destination IDs ( `destinationId`) with an array in the request body.
 
 * Richiesta: `POST https://api.demdex.com/v1/destinations/bulk-delete/`
-* Risposta: Restituisce il codice `204 No Content` in caso di esito positivo.
+* Response: Returns code `204 No Content` if successful.
 
 ## Elimina mappature di destinazione per ID mappatura segmento
 
-`POST` Un metodo che rimuove le mappature di destinazione in base all&#39;ID del segmento specificato.
+`POST` Un metodo che rimuove le mappature di destinazione in base all'ID del segmento specificato.
 
-* Richiesta: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*`/segments/`*`<mappingId>`*
-* Risposta: Restituisce il codice `204 No Content` in caso di esito positivo.
+* Request: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
+* Response: Returns code `204 No Content` if successful.
