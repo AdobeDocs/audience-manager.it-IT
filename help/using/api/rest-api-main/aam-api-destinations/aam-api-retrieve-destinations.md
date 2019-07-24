@@ -11,7 +11,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ---
 
 
-# Restituisci una destinazione per ID destinazione {#return-a-destination-by-destination-id}
+# Return A Destination by Destination ID {#return-a-destination-by-destination-id}
 
 `GET` Un metodo che restituisce la destinazione specificata `destinationId`.
 
@@ -23,7 +23,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 >[!NOTE]
 >
->Per compilare il `mappings` campo di accesso nell `includeMappings=true` &#39;URL.
+>To populate the `mappings` field pass in `includeMappings=true` in the URL.
 
 ## Risposta
 
@@ -53,7 +53,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 }
 ```
 
-## Restituisci tutte le destinazioni {#return-all-destinations}
+## Return All Destinations {#return-all-destinations}
 
 `GET` Un metodo che restituisce tutte le destinazioni per il partner specificato.
 
@@ -65,15 +65,15 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 >[!NOTE]
 >
->* *(Facoltativo)* Passa per `containsSegment=<sid>` restituire un array di tutte le destinazioni mappate al segmento specificato. Ad esempio, la query avrà un aspetto simile al seguente: `GET .../destinations/?containsSegment=4321`.
+>* *(Facoltativo)* Passa per `containsSegment=<sid>` restituire un array di tutte le destinazioni mappate al segmento specificato. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`.
    >
    >
-* Non restituisce l&#39;oggetto di destinazione completo. Ottenere la destinazione per l&#39;ordine dati se è necessario un oggetto completo.
+* Non restituisce l'oggetto di destinazione completo. Ottenere la destinazione per l'ordine dati se è necessario un oggetto completo.
 
 
 ### Parametri query facoltativi
 
-È possibile utilizzare questi parametri facoltativi con metodi API che restituiscono *tutte* le proprietà di un oggetto. Impostate queste opzioni nella stringa di richiesta quando trasferite la query all&#39; [!DNL API]oggetto. Consultate [Parametri facoltativi](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -93,7 +93,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> Sortby</code> </td>
-   <td colname="col2">Ordina e restituisce i risultati in base alla proprietà <span class="keyword"> JSON</span> specificata. </td>
+   <td colname="col2">Sorts and returns results according to the specified <span class="keyword"> JSON</span> property. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> decrescente</code> </td>
@@ -138,7 +138,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ]
 ```
 
-## Restituzione di una mappatura destinazione con l&#39;ID mappatura {#return-dest-mapping-id}
+## Return a Destination Mapping With the Mapping ID {#return-dest-mapping-id}
 
 `GET` Un metodo che restituisce una singola mappatura di destinazione basata sul `mappingId`.
 
@@ -175,7 +175,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 }
 ```
 
-## Restituzione di mappature di destinazione {#return-dest-mappings}
+## Return Destination Mappings {#return-dest-mappings}
 
 `GET` Un metodo che restituisce le mappature per una destinazione.
 
@@ -249,7 +249,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 {
 ```
 
-## Restituisci tutte le piattaforme di destinazione disponibili {#return-dest-platforms}
+## Return All Available Destination Platforms {#return-dest-platforms}
 
 `GET` Un metodo che restituisce tutte le piattaforme dispositivo disponibili per le destinazioni.
 
@@ -267,7 +267,7 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Cronologia processi di destinazione S 2 S e Bulk S 2 S {#return-job-history}
+## Return S2S and Bulk S2S Destination Job History {#return-job-history}
 
 `GET` Un metodo che restituisce informazioni sulla cronologia dei processi di destinazione in uscita [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) e in massa [!UICONTROL S2S] .
 
@@ -277,7 +277,7 @@ BROWSER, ANDROID, iOS, ALL
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Parametri query richiesti: `startDate` = *&lt;`epochtime`&gt;* and `endDate` = *&lt;`epochtime`&gt;*.
+Required query parameters: `startDate` = *&lt;`epochtime`&gt;* and `endDate` = *&lt;`epochtime`&gt;*.
 
 ### Risposta
 
