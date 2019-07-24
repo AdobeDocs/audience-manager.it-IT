@@ -11,9 +11,9 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 ---
 
 
-# Implementazione di Audience Manager {#implementing-audience-manager}
+# Implementing Audience Manager {#implementing-audience-manager}
 
-Questa sezione descrive e descrive i processi relativi alla guida introduttiva alla piattaforma di gestione dati di Audience Manager ([!DNL DMP]). Questa sezione è stata progettata per aiutare i team aziendali, i responsabili dei progetti e i gestori di tecnologia a comprendere il processo di implementazione di Audience Manager. La Guida introduttiva di Audience Manager può richiedere circa sei settimane a tre mesi, a seconda delle esigenze della raccolta dati.
+This section outlines and explains the processes related to getting started with the Audience Manager data management platform ([!DNL DMP]). Questa sezione è stata progettata per aiutare i team aziendali, i responsabili dei progetti e i gestori di tecnologia a comprendere il processo di implementazione di Audience Manager. La Guida introduttiva di Audience Manager può richiedere circa sei settimane a tre mesi, a seconda delle esigenze della raccolta dati.
 
 Le nostre tecniche di implementazione consentono di creare partnership di consulenza con i nuovi client. Questo processo è progettato per:
 
@@ -24,15 +24,15 @@ Le nostre tecniche di implementazione consentono di creare partnership di consul
 
 I nostri team Partner Solutions e Gestione account collaboreranno con te prima, durante e dopo il processo di implementazione.
 
-Audience Manager adotta un approccio graduale all&#39;impostazione e all&#39;implementazione.
+Audience Manager adotta un approccio graduale all'impostazione e all'implementazione.
 
-## Definisci fase {#define-phase}
+## Define Phase {#define-phase}
 
 La fase di definizione ti permette di accedere al nostro progetto di Partner Solutions e inizia il processo di gestione dei progetti.
 
 <!-- c_define.xml -->
 
-Questo passaggio è pensato per aiutare i potenziali client a definire e accettare l&#39;ambito del progetto, comprendere i requisiti personalizzati, determinare le pietre miliari e configurare le comunicazioni.
+Questo passaggio è pensato per aiutare i potenziali client a definire e accettare l'ambito del progetto, comprendere i requisiti personalizzati, determinare le pietre miliari e configurare le comunicazioni.
 
 La tabella seguente descrive le attività chiave che hanno luogo durante questa fase:
 
@@ -73,11 +73,11 @@ La tabella seguente descrive le attività chiave che hanno luogo durante questa 
 I risultati di questa fase possono includere quanto segue:
 
 * Documenti che identificano ruoli e responsabilità;
-* Documenti che determinano l&#39;ambito del lavoro;
+* Documenti che determinano l'ambito del lavoro;
 * Un piano per pianificare riunioni e chiamate di progetto;
 * Un processo per condividere risorse e accesso.
 
-## Fase individuazione {#discovery-phase}
+## Discovery Phase {#discovery-phase}
 
 La fase di scoperta è dedicata alla raccolta di requisiti, alla ricerca di ricerche e alla possibilità di comprendere meglio le esigenze aziendali e le strategie di raccolta dati.
 
@@ -133,18 +133,18 @@ La tabella seguente descrive le attività chiave che hanno luogo durante questa 
 I risultati di questa fase possono includere:
 
 * Una strategia di raccolta dati di prime, seconda e terze parti completata;
-* Un piano di assimilazione completato [!DNL CRM] o di data warehouse;
+* A completed [!DNL CRM] or data warehouse ingestion plan;
 * Requisiti definiti per segmentazione del pubblico;
 * una tassonommia dati completata;
 * Un piano di integrazione dati di terze parti sviluppato.
 
-## Fase di creazione, test e treno {#build-test-train-phase}
+## Build, Test, and Train Phase {#build-test-train-phase}
 
 Durante la fase di creazione, test e treno, controllerai la strategia di raccolta dati e il prototipo con un lead Partner Solutions designato.
 
 <!-- c_build_test_train.xml -->
 
-La tua strategia di raccolta dati sarà soggetta [!DNL QA] a test end-to-end. Soluzioni Partner traccierà i bug rilevati e le risoluzioni delle coordinate con i nostri ingegneri di sistema. La formazione dei clienti può iniziare in parallelo con gli altri sforzi.
+Your data collection strategy will undergo end-to-end [!DNL QA] testing. Soluzioni Partner traccierà i bug rilevati e le risoluzioni delle coordinate con i nostri ingegneri di sistema. La formazione dei clienti può iniziare in parallelo con gli altri sforzi.
 
 La tabella seguente descrive le attività chiave che hanno luogo durante questa fase:
 
@@ -153,18 +153,18 @@ La tabella seguente descrive le attività chiave che hanno luogo durante questa 
 | Preparare una strategia di raccolta dati | Collaborazione con i team tecnici di Adobe per creare un piano di raccolta dati conforme ai vostri requisiti aziendali | Team aziendali e tecnici |
 | Implementare e testare il codice | Verificare la soluzione proposta in un ambiente di verifica ed eseguire test tra browser | Team tecnici |
 | Verifica della funzionalità e risoluzione dei bug | Esaminare e comunicare risultati, risolvere bug e ripetere il test | Team tecnici |
-| Formazione utenti | Fornire informazioni sull&#39;education e comprendere le funzionalità, gli strumenti e i rapporti di Audience Manager | Team aziendali |
+| Formazione utenti | Fornire informazioni sull'education e comprendere le funzionalità, gli strumenti e i rapporti di Audience Manager | Team aziendali |
 
 I risultati di questa fase possono includere:
 
 * Un piano di raccolta dati completato e accettato;
-* Test end-to-end [!DNL QA] ;
-* Istruzioni di base sulle funzionalità dell&#39;interfaccia utente di Audience Manager;
+* End-to-end [!DNL QA] testing;
+* Istruzioni di base sulle funzionalità dell'interfaccia utente di Audience Manager;
 * Accettazione e accesso.
 
-## Avvio, Supporto e Ottimizzazione fase {#launch-support-optimize-phase}
+## Launch, Support, and Optimize Phase {#launch-support-optimize-phase}
 
-Durante il lancio, il supporto e l&#39;ottimizzazione della fase, la raccolta di dati e l&#39;implementazione prototipata passano dallo sviluppo a un ambiente di produzione live. Continueremo a conoscere la familiarizzazione sui prodotti e le strategie che contribuiscono a migliorare [!DNL ROI] l&#39;ottimizzazione basata sui dati.
+Durante il lancio, il supporto e l'ottimizzazione della fase, la raccolta di dati e l'implementazione prototipata passano dallo sviluppo a un ambiente di produzione live. We’ll continue training on product familiarization and strategies that can help increase your [!DNL ROI] through data-driven optimization.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -215,26 +215,26 @@ Le attività di questa fase possono includere:
 * Risposta o richiesta di richieste di funzioni, bug e feedback degli utenti;
 * Familiarità con le funzionalità e i report di Audience Manager.
 
-## Implementazione del codice {#code-implementation}
+## Code Implementation {#code-implementation}
 
-Anche se il processo di distribuzione potrebbe sembrare complesso, l&#39;implementazione del codice è semplice come aggiungere alcune righe [!DNL JavaScript] di prossimità al `</body>` tag di chiusura del sito Web.
+Though the deployment process may seem complex, the code implementation is as simple as adding a few lines of [!DNL JavaScript] adjacent to the closing `</body>` tag of your website.
 
 <!-- c_code.xml -->
 
 ### Distribuzione
 
-Le chiamate snippet di codici Audience Manager per [!DNL Akamai] scaricare le regole aziendali configurate in precedenza nell&#39;interfaccia utente. Inoltre, i browser client memorizzano nella cache queste informazioni, per ridurre i tempi di caricamento delle pagine e del server. La nostra metodologia di codice e raccolta dati è progettata per mantenere l&#39;esperienza utente nell&#39;inventario.
+The Audience Manager code snippet calls [!DNL Akamai] to download the business rules set up previously in the user interface. Inoltre, i browser client memorizzano nella cache queste informazioni, per ridurre i tempi di caricamento delle pagine e del server. La nostra metodologia di codice e raccolta dati è progettata per mantenere l'esperienza utente nell'inventario.
 
 ### Partecipanti
 
 Soluzioni Partner possono collaborare direttamente con i team tecnici per distribuire il codice, rispondere alle problematiche finali e soddisfare altri requisiti.
 
-## Supporto post-implementazione {#post-implementation-support}
+## Post-Implementation Support {#post-implementation-support}
 
-Le nostre iniziative collaborative non si fermano alla distribuzione finale. Una volta completata l&#39;implementazione, il nostro team Gestione account prende il posto.
+Le nostre iniziative collaborative non si fermano alla distribuzione finale. Una volta completata l'implementazione, il nostro team Gestione account prende il posto.
 
 <!-- c_post_implement_support.xml -->
 
 I manager di account forniscono servizi di supporto e di consulenza continua al termine del processo di implementazione del prodotto. Si prevede di disporre di riunioni regolari con il responsabile commerciale. Queste riunioni garantiscono la massima quantità di utilizzo e valore di Audience Manager.
 
-Per ulteriori informazioni e per iniziare a usare Audience Manager, contattaci [qui](https://www.adobe.com/products/audiencemanager.html) .
+Contact us [here](https://www.adobe.com/products/audiencemanager.html) for more information and to get started with Audience Manager.
