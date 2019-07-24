@@ -11,27 +11,27 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Analisi tendenze e rapporti sull&#39;analisi del volume{#trend-analysis-and-volume-analysis-reports}
+# Trend Analysis and Volume Analysis Reports{#trend-analysis-and-volume-analysis-reports}
 
-Tali rapporti restituiscono dati su impression, percentuali di clic e conversioni per un&#39;ampia gamma di dimensioni pubblicitarie. Confronta le tendenze e il volume delle metriche selezionate per ottenere un&#39;immagine migliore delle prestazioni della tua campagna nel tempo.
+Tali rapporti restituiscono dati su impression, percentuali di clic e conversioni per un'ampia gamma di dimensioni pubblicitarie. Confronta le tendenze e il volume delle metriche selezionate per ottenere un'immagine migliore delle prestazioni della tua campagna nel tempo.
 
-## Report di analisi tendenze di esempio {#sample-trend-analysis}
+## Sample Trend Analysis Report {#sample-trend-analysis}
 
-[!UICONTROL Trend Analysis] Il rapporto restituisce i dati in un grafico a linee solo per un intervallo di 14 giorni. In questo esempio, il report mostra l&#39;impression, il click-through e le tendenze di conversione per un set di segmenti mappati.
+[!UICONTROL Trend Analysis] Il rapporto restituisce i dati in un grafico a linee solo per un intervallo di 14 giorni. In questo esempio, il report mostra l'impression, il click-through e le tendenze di conversione per un set di segmenti mappati.
 
 ![](assets/trend-analysis.png)
 
-## Rapporto di analisi del volume di esempio {#sample-volume-analysis}
+## Sample Volume Analysis Report {#sample-volume-analysis}
 
-[!UICONTROL Volume Analysis] Il rapporto restituisce i dati in un grafico a barre per l&#39;intervallo di date selezionato. In questo esempio, il report mostra impression, click-through e conversioni in base al volume per un set di segmenti mappati.
+[!UICONTROL Volume Analysis] Il rapporto restituisce i dati in un grafico a barre per l'intervallo di date selezionato. In questo esempio, il report mostra impression, click-through e conversioni in base al volume per un set di segmenti mappati.
 
 >[!NOTE]
 >
->I periodi di look-back di 7 giorni e 30 giorni sono disponibili solo per **[!UICONTROL Date Through]** le date domenica.
+>7-day and 30-day look-back periods are only available for Sunday **[!UICONTROL Date Through]** dates.
 
 ![](assets/volume-analysis.png)
 
 >[!TIP]
 >
->Per informazioni sui segmenti mappati e non mappati, consulta la documentazione [sui report](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) sulle prestazioni dei segmenti.
+>For information about mapped and unmapped segments, see the [Segment Performance Report](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) documentation.
 
