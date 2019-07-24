@@ -11,9 +11,9 @@ source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
 ---
 
 
-# Domande frequenti sulla raccolta di dati e l&#39;integrazione dei prodotti{#data-collection-and-product-integration-faq}
+# Data Collection and Product Integration FAQ{#data-collection-and-product-integration-faq}
 
-Domande e problemi comuni sulla raccolta di dati e l&#39;integrazione.
+Domande e problemi comuni sulla raccolta di dati e l'integrazione.
 
 <br> 
 
@@ -25,17 +25,17 @@ faq_data_collection_integration.xml
 
 **Come si differenziano il traffico in ingresso dal[!UICONTROL DCS]traffico nelle[!UICONTROL DCS]esportazioni dei file di registro?**
 
-Le caratteristiche caricate sono [!UICONTROL Inbound] popolate con [!UICONTROL Inbound] la stessa modalità [!UICONTROL DCS]con cui vengono popolate. Esistono diversi modi per comunicare che il traffico proviene [!UICONTROL Inbound]da:
+Traits onboarded via [!UICONTROL Inbound] are populated by [!UICONTROL Inbound] the same way they get populated by [!UICONTROL DCS]. There are a few different ways to tell that traffic came from [!UICONTROL Inbound]:
 
 * IP remoto impostato su 68.67.173.18
 * Domainid sarà impostato su 5325
-* L&#39;area sarà impostata su 0
+* L'area sarà impostata su 0
 
 <br> 
 
 **Posso fornire un elenco degli indirizzi IP che posso inserire nella whitelist per dpm. demdex. net?**
 
-Purtroppo, non possiamo. Questi IP vengono assegnati in modo dinamico, tramite area geografica, tramite [!DNL Amazon Web Services]. Di conseguenza, [!DNL Audience Manager] non controlla l&#39;intervallo di ips che può essere assegnato a questo indirizzo.
+Purtroppo, non possiamo. These IPs are assigned dynamically, by geographic region, through [!DNL Amazon Web Services]. As a result, [!DNL Audience Manager] does not control the range of IPs that can be assigned to this address.
 
 <br> 
 
@@ -50,9 +50,9 @@ Sì, vedi di seguito.
 
 <br> 
 
-**Quali sono i requisiti di posizionamento del codice e di caricamento della pagina per un&#39;integrazione[!UICONTROL DIL]con i[!DNL Analytics]dati?**
+**Quali sono i requisiti di posizionamento del codice e di caricamento della pagina per un'integrazione[!UICONTROL DIL]con i[!DNL Analytics]dati?**
 
-Per inserire [!DNL Analytics][!DNL Audience Manager]dati, caricare [!UICONTROL DIL] dopo il `s_code` modulo ma *prima* della `s.t()` funzione. Ad esempio, inserite il codice o assicuratevi che venga caricato in questo ordine:
+To bring [!DNL Analytics] data into [!DNL Audience Manager], load [!UICONTROL DIL] after the `s_code` module but *before* the `s.t()` function. Ad esempio, inserite il codice o assicuratevi che venga caricato in questo ordine:
 
 1. [!DNL Analytics] `s_code`
 
@@ -60,13 +60,13 @@ Per inserire [!DNL Analytics][!DNL Audience Manager]dati, caricare [!UICONTROL D
 
 3. [!DNL Analytics]`s.t()` function
 
-Come procedura ottimale, impostate [!DNL Audience Manager]l [!DNL Analytics] &#39;integrazione con uno di questi due metodi:
+As a best practice, set up your [!DNL Audience Manager]- [!DNL Analytics] integration with either of these 2 methods:
 
-* Inserisci [!UICONTROL DIL] direttamente `s_code`in.
+* Put [!UICONTROL DIL] directly in the `s_code`.
 
-* Trasmissione [!UICONTROL DIL] , `s_code`[!DNL Adobe Launch][!DNL Adobe DTM]ecc.
+* Serve [!UICONTROL DIL] and the `s_code` through [!DNL Adobe Launch] or [!DNL Adobe DTM].
 
-Consultate [API Library Integration Library (DIL)](../dil/dil-overview.md).
+See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
 <br> 
 
@@ -74,22 +74,22 @@ Consultate [API Library Integration Library (DIL)](../dil/dil-overview.md).
 
 In genere si verifica quando:
 
-* Utilizzate [!UICONTROL DIL] un sistema di gestione tag che lo carica in modo asincrono con altri elementi del codice sulla pagina.
-* La `s.t()` funzione viene caricata prima [!UICONTROL DIL].
+* You serve [!UICONTROL DIL] through a tag management system that loads it asynchronously with other code elements on the page.
+* The `s.t()` function loads before [!UICONTROL DIL].
 
 <br> 
 
 **Che tipo di[!DNL Analytics]operazioni con[!UICONTROL DIL]?**
 
-È necessario utilizzare [!DNL Analytics] la versione 20.2 (o successiva) e la [!DNL Adobe AppMeasurement AS] versione della libreria 3.5.2 (o successiva) con [!UICONTROL DIL]cui lavorare. Se non conosci la tua versione [!DNL Analytics] o [!DNL AppMeasurement] la tua versione, controlla la [!DNL Analytics] chiamata che viene effettuata dalla pagina. Informazioni sulla versione mostrate di seguito:
+You must use [!DNL Analytics] version 20.2 (or higher) and the [!DNL Adobe AppMeasurement AS] library version 3.5.2 (or higher) to work with [!UICONTROL DIL]. If you don't know your [!DNL Analytics] or [!DNL AppMeasurement] version, check the [!DNL Analytics] call that gets made from the page. Informazioni sulla versione mostrate di seguito:
 
-Il cliente utilizza [!DNL Analytics] la versione 24.4:
+This customer uses [!DNL Analytics] version 24.4:
 
 ```
 https://112.2o7.net/b/ss/.../1/H.24.4/...
 ```
 
-Il cliente utilizza [!DNL AppMeasurement] la versione 3.5.2:
+This customer uses [!DNL AppMeasurement] version 3.5.2:
 
 ```
 https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
@@ -99,14 +99,14 @@ https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 
 **Posso raccogliere i dati della pagina se non sono[!DNL Analytics]un cliente?**
 
-Sì. [!UICONTROL DIL] Il modulo consente di raccogliere i dati della pagina anche se non si utilizza [!DNL Analytics]. Se configurato correttamente, [!UICONTROL DIL] può acquisire dati da e su:
+Sì. [!UICONTROL DIL] Il modulo consente di raccogliere i dati della pagina anche se non si utilizza [!DNL Analytics]. When set up properly, [!UICONTROL DIL] can capture data from and about:
 
 * Tag meta
 * URL e intestazioni URL
 * Tipi di motore di ricerca
 * Parole chiave
 
-Inoltre, i client possono implementare un semplice oggetto onsite e compilarlo con coppie chiave-valore a cui [!UICONTROL DIL] si desidera raccogliere i dati. Questo consente di aggiungere e rimuovere specifici punti dati di audience sul sito senza [!DNL Audience Management] aggiornamenti. Collabora con il rappresentante delle soluzioni Partner per impostarlo correttamente e accertati che [!DNL DIL] il modulo faccia correttamente riferimento all&#39;oggetto della pagina.
+Additionally, clients can deploy a simple onsite object and populate it with key-value pairs that you want [!UICONTROL DIL] to collect data on. This lets you add and remove specific audience data points on your site without any [!DNL Audience Management] updates. Work with your Partner Solutions representative to properly set this up and ensure the [!DNL DIL] module references the page object correctly.
 
 <br> 
 
@@ -121,9 +121,9 @@ Sì. [!UICONTROL DIL] possono raccogliere alcuni [!DNL Google Analytics] element
 
 **Posso trovare dati non elaborati da[!DNL Audience Manager]e come è dettagliato?**
 
-Sì, [!DNL Audience Manager] puoi fornire dati raccolti per gli utenti che sono stati visti nell&#39;inventario. Ciò include:
+Yes, [!DNL Audience Manager] can provide you with data collected for users we've seen on your inventory. Ciò include:
 
-* L&#39;ID utente univoco (UUID) assegnato da [!DNL Audience Manager]
+* The unique user ID (UUID) assigned by [!DNL Audience Manager]
 * Caratteristiche e ID segmento
 * Segnali inutilizzati
 * Marche temporali
@@ -131,9 +131,9 @@ Sì, [!DNL Audience Manager] puoi fornire dati raccolti per gli utenti che sono 
 
 <br> 
 
-**Desidero raccogliere dati su un sito ed eseguire il targeting degli utenti tramite DFP su un altro sito. È necessario distribuire il codice sull&#39;altra proprietà se non desidero raccogliere dati da tale posizione?**
+**Desidero raccogliere dati su un sito ed eseguire il targeting degli utenti tramite DFP su un altro sito. Do I need to deploy code on the other property if I don't want to collect data from that location?**
 
-No. Se la raccolta dati sul secondo sito non è necessaria, non è necessario distribuire DIL. Se hai accesso all&#39;inventario sul secondo sito tramite DFP, puoi utilizzare la raccolta dati dal sito iniziale e tramite DFP.
+No. Se la raccolta dati sul secondo sito non è necessaria, non è necessario distribuire DIL. Se hai accesso all'inventario sul secondo sito tramite DFP, puoi utilizzare la raccolta dati dal sito iniziale e tramite DFP.
 
 <br> 
 
@@ -145,41 +145,41 @@ Ogni fornitore porta qualcosa di univoco alla tabella, quindi la risposta dipend
 
 **Come[!DNL Audience Manager]impostare i cookie e passare variabili a DFP?**
 
-[!DNL Audience Manager] imposta 2 cookie: Uno invia variabili segmentate al tag di annunci DFP, mentre l&#39;altro imposta il nostro ID utente univoco (UUID), che viene letto anche tramite DFP. L&#39;aggiunta dell&#39;UUID al tag annunci significa che possiamo eseguire reporting a livello di utente e individuazione dell&#39;audience.
+[!DNL Audience Manager] imposta 2 cookie: Uno invia variabili segmentate al tag di annunci DFP, mentre l'altro imposta il nostro ID utente univoco (UUID), che viene letto anche tramite DFP. L'aggiunta dell'UUID al tag annunci significa che possiamo eseguire reporting a livello di utente e individuazione dell'audience.
 
 <br> 
 
 **Posso inviare una informazione DSP su punti nel funnel di conversione raggiunto da un utente?**
 
-Sì. Possiamo inviare dati funnel, ma il DSP deve avere la capacità tecnica di utilizzarla. Un DSP deve confermare che possono gestire più segmenti. Se non possono, potrebbe essere necessario creare segmenti specifici per estrarre un utente da altri segmenti in base all&#39;avanzamento della conversione (ad es., completare i passaggi 1 e 2 ma non il passaggio 3). Potresti voler inviare queste informazioni a una DSP in modo che possano reindirizzare gli utenti, indirizzarli a una pagina di destinazione specifica o visualizzare alcuni creativi specifici.
+Sì. Possiamo inviare dati funnel, ma il DSP deve avere la capacità tecnica di utilizzarla. Un DSP deve confermare che possono gestire più segmenti. Se non possono, potrebbe essere necessario creare segmenti specifici per estrarre un utente da altri segmenti in base all'avanzamento della conversione (ad es., completare i passaggi 1 e 2 ma non il passaggio 3). Potresti voler inviare queste informazioni a una DSP in modo che possano reindirizzare gli utenti, indirizzarli a una pagina di destinazione specifica o visualizzare alcuni creativi specifici.
 
 <br> 
 
 **Come posso confermare che i dati inviati tramite FTP sono stati prelevati[!DNL Audience Manager]da?**
 
-Un file è stato prelevato quando l&#39;estensione cambia da `.sync``.processed`. In tal caso, il file si trova nella coda di assimilazione. Inoltre, il manager commerciale può confermare quando un file è stato caricato.
+A file has been picked up when the extension changes from `.sync` to `.processed`. In tal caso, il file si trova nella coda di assimilazione. Inoltre, il manager commerciale può confermare quando un file è stato caricato.
 
 <br> 
 
-**Desidero testare le funzionalità dell&#39;API[DCS](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md). Sto inviando chiamate evento come quella mostrata di seguito. Le chiamate contengono[ID dichiarati](../features/declared-ids.md)e segnali, che devono realizzare alcune caratteristiche e segmenti già configurati. Posso usare[!UICONTROL General Reports]e[!UICONTROL Trend Reports]verificare se le caratteristiche delle caratteristiche e dei segmenti aumentano?**
+**Desidero testare le funzionalità dell'API[DCS](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md). Sto inviando chiamate evento come quella mostrata di seguito. The calls contain[Declared IDs](../features/declared-ids.md)and signals, which should realize some traits and segments I have already set up. Can I use the[!UICONTROL General Reports]and[!UICONTROL Trend Reports]to verify if the trait and segment populations are increasing?**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
 ```
 
-No, non fai affidamento sull&#39; [!UICONTROL General Reports] e [!UICONTROL Trend Reports] in questo caso.
+No, do not rely on the [!UICONTROL General Reports] and [!UICONTROL Trend Reports] in this case.
 
 I rapporti calcolano le popolazioni in base ai record di profilo non autenticati (UUID) visualizzati nel backend al momento in cui i rapporti vengono generati.
 
-In una prima chiamata agli [!UICONTROL DCS], gli ID dichiarati *non* sono collegati a UUID (i [cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) demdex non sono presenti sul lato client). L&#39; [!UICONTROL DCS] UUID genera in modo casuale un UUID e imposta un [!DNL demdex] cookie e lo trasmette nella chiamata di risposta, ma non trasmetterà l&#39;UUID al backend.
+On a first call to the [!UICONTROL DCS], the declared IDs are *not* linked to any UUID (i.e. no [demdex cookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) is present on the client side). The [!UICONTROL DCS] will randomly generate a UUID and set a [!DNL demdex] cookie and pass it on in the response call, but it will not transmit the UUID to the backend.
 
 >[!NOTE]
 >
->L&#39;UUID generato verrà materializzato solo nell&#39;archivio dei dati di backend quando il dispositivo su cui viene impostato il cookie attiva ulteriori attività.
+>L'UUID generato verrà materializzato solo nell'archivio dei dati di backend quando il dispositivo su cui viene impostato il cookie attiva ulteriori attività.
 
-Per questo motivo, i report non riflettono gli eventi attivati dagli ID dichiarati nella chiamata. Consigliamo di utilizzare UUID, ECID (ex MID) o ID dispositivo mobili nelle chiamate di test dell&#39;evento a [!UICONTROL DCS]. Quindi, puoi verificare le caratteristiche di segmenti e segmenti nell&#39; [!UICONTROL General Reports][!UICONTROL Trend Reports]e in.
+Per questo motivo, i report non riflettono gli eventi attivati dagli ID dichiarati nella chiamata. We recommend you use UUID, ECID (formerly MID) or mobile device IDs in event test calls to the [!UICONTROL DCS]. Then, you can verify the trait and segment realizations in the [!UICONTROL General Reports] and in the [!UICONTROL Trend Reports].
 
-Vedi anche [Indice degli ID di Audience Manager](../reference/ids-in-aam.md).
+See also, the [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 
 <br> 
 
