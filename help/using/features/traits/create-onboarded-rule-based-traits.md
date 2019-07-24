@@ -12,15 +12,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Creare caratteristiche basate su regole o caricate {#create-rules-based-or-onboarded-traits}
+# Create Rules-Based or Onboarded Traits {#create-rules-based-or-onboarded-traits}
 
-Descrive la configurazione di passaggi e funzioni specifiche per [!UICONTROL rules-based] il processo di creazione [!UICONTROL onboarded] delle caratteristiche.
+Describes set up steps and features specific to the [!UICONTROL rules-based] and [!UICONTROL onboarded] trait creation process.
 
 <!-- c_tb_rules_traits.xml -->
 
-## Informazioni di base per caratteristiche {#basics}
+## Basic Information for Traits {#basics}
 
-In [!UICONTROL Trait Builder], le [!UICONTROL Basic Information] impostazioni consentono di creare nuove caratteristiche o di modificare le caratteristiche esistenti. [!UICONTROL Basic Information] Le impostazioni sono uguali per le caratteristiche basate su regole, caricate e algoritmiche. Per creare una nuova caratteristica, specificate un nome (evitate caratteri speciali), un&#39;origine dati e selezionate una cartella di archiviazione. Altri [!UICONTROL Basic Information] campi sono facoltativi.
+In [!UICONTROL Trait Builder], the [!UICONTROL Basic Information] settings let you create new, or edit existing traits. [!UICONTROL Basic Information] Le impostazioni sono uguali per le caratteristiche basate su regole, caricate e algoritmiche. Per creare una nuova caratteristica, specificate un nome (evitate caratteri speciali), un'origine dati e selezionate una cartella di archiviazione. Other [!UICONTROL Basic Information] fields are optional.
 
 <!-- c_tb_basics.xml -->
 
@@ -43,7 +43,7 @@ In [!UICONTROL Trait Builder], le [!UICONTROL Basic Information] impostazioni co
        <li id="li_579302FE34B64FE0AE3C751012839229">Trattini </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">Schede </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">Barra verticale o simbolo verticale </li> 
-      </ul> </p> </p> <p>In questo modo si riducono gli errori di elaborazione quando si configura un <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> trasferimento di file di dati in ingresso</a>. </p> </td> 
+      </ul> </p> </p> <p>This helps reduce processing errors when you set up an <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> inbound data file transfer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Descrizione</span></b> </td> 
@@ -76,15 +76,15 @@ In [!UICONTROL Trait Builder], le [!UICONTROL Basic Information] impostazioni co
  </tbody> 
 </table>
 
-## Impostare un intervallo di scadenza {#set-expiration-interval}
+## Set a Trait Expiration Interval {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder], consente [!UICONTROL Advanced Options] di impostare un intervallo time-to-live ([!DNL TTL]) per una caratteristica. [!DNL TTL] definisce quanti giorni un visitatore qualificato rimane in una caratteristica (120 giorni è predefinito). Se impostata su 0, l&#39;iscrizione alle caratteristiche non scade.
+In [!UICONTROL Trait Builder], the [!UICONTROL Advanced Options] lets you set a time-to-live ([!DNL TTL]) interval for a trait. [!DNL TTL] definisce quanti giorni un visitatore qualificato rimane in una caratteristica (120 giorni è predefinito). Se impostata su 0, l'iscrizione alle caratteristiche non scade.
 
 <!-- t_tb_ttl.xml -->
 
 ### Impostare il TTL per una caratteristica
 
-1. Espandete la [!UICONTROL Advanced Options] sezione e immettete un numero per impostare [!DNL TTL] un valore per la caratteristica.
+1. Expand the [!UICONTROL Advanced Options] section and enter a number to set a [!DNL TTL] value for the trait.
 1. Fai clic su **[!UICONTROL Save]**.
    ![](assets/TTL.png)
 
