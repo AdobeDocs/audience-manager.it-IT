@@ -11,33 +11,33 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Caratteristiche principali non utilizzate{#top-unused-traits}
+# Top Unused Traits{#top-unused-traits}
 
-Le caratteristiche non utilizzate principali sono rappresentate da un diagramma a dispersione di caratteristiche non ancora membri di un segmento, in base al tipo di caratteristica, all&#39;origine dati e alle prestazioni.
+Le caratteristiche non utilizzate principali sono rappresentate da un diagramma a dispersione di caratteristiche non ancora membri di un segmento, in base al tipo di caratteristica, all'origine dati e alle prestazioni.
 
-## Caso d&#39;uso {#use-cases}
+## Caso d'uso {#use-cases}
 
-Con [!UICONTROL Top Unused Traits] il rapporto, puoi analizzare e confrontare le prestazioni delle caratteristiche prime e terze parti attualmente non mappate a un segmento. Questa vista può indicare le caratteristiche migliori da utilizzare in un segmento di audience per ottimizzare le campagne o le nuove opportunità.
+With the [!UICONTROL Top Unused Traits] report, you can analyze and compare the performance of first and third party traits that are currently not mapped to a segment. Questa vista può indicare le caratteristiche migliori da utilizzare in un segmento di audience per ottimizzare le campagne o le nuove opportunità.
 
-## Utilizzo del report Traits principale {#using-the-report}
+## Using the Top Unused Traits Report {#using-the-report}
 
-Utilizzate **[!UICONTROL Data Provider Type]** i controlli per alternare tra le caratteristiche di prime parti e terze parti. Seleziona **[!UICONTROL All]** per restituire le caratteristiche prima e terza al rapporto.
+Use the **[!UICONTROL Data Provider Type]** controls to toggle between first party and third party traits. Select **[!UICONTROL All]** to return first and third party traits in the report.
 
-Con il **[!UICONTROL Impressions]** cursore, potete selezionare un valore minimo e massimo per le impression restituite. Qualsiasi caratteristica responsabile per meno o più dei limiti impostata non viene visualizzata nel rapporto.
+With the **[!UICONTROL Impressions]** slider, you can select a minimum and maximum value for returned impressions. Qualsiasi caratteristica responsabile per meno o più dei limiti impostata non viene visualizzata nel rapporto.
 
-Utilizza i **[!UICONTROL Day Range]****[!UICONTROL Date Through]** controlli e regola l&#39;intervallo di look-back. Per questo rapporto è disponibile solo il periodo di look-back di 30 giorni.
+Use the **[!UICONTROL Day Range]** and **[!UICONTROL Date Through]** controls to adjust your look-back range. Per questo rapporto è disponibile solo il periodo di look-back di 30 giorni.
 
-Utilizzate il **[!UICONTROL Order]** menu a discesa per selezionare le proprietà Web nel portfolio per il quale desiderate restituire le informazioni.
+Use the **[!UICONTROL Order]** drop-down box to select the web properties in your portfolio for which you want to return information.
 
-Nel menu **[!UICONTROL Data Provider]** a discesa, seleziona le origini dati contenenti le caratteristiche che desideri vedere nel rapporto.
+In the **[!UICONTROL Data Provider]** drop-down box, select the data sources containing the traits you want to see in the report.
 
-Utilizzate il **[!UICONTROL Traits]** menu a discesa per selezionare le caratteristiche da visualizzare nel rapporto.
+Use the **[!UICONTROL Traits]** drop-down box to select which traits you want to see in the report.
 
 >[!IMPORTANT]
 >
->Quando abilitate [!UICONTROL Audience Optimization for Publishers], dovete includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel Passaggio 3 di [Importa file di dati DFP in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In tal modo, assicuratevi che il report contenga la proprietà Web come [!UICONTROL Order] invece [!UICONTROL Order ID]della proprietà.
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Order] instead of the [!UICONTROL Order ID].
 
-## Interpretazione dei risultati {#interpreting-results}
+## Interpreting the Results {#interpreting-results}
 
 **Report di esempio**
 
@@ -86,9 +86,9 @@ Vedere descrizioni per le informazioni aggiuntive nella tabella sotto il rapport
 
 La posizione delle caratteristiche in un rapporto può dirvi molto sulle caratteristiche che potete utilizzare per ottimizzare segmenti di pubblico esistenti.
 
-Le caratteristiche più alte sull&#39;asse Impression sono quelle che desiderate utilizzare nelle campagne. Per caratteristiche con un numero limitato di impression, è improbabile che tu stia raggiungendo questo pubblico sulla proprietà Web, in base ai dati DFP.
+Le caratteristiche più alte sull'asse Impression sono quelle che desiderate utilizzare nelle campagne. Per caratteristiche con un numero limitato di impression, è improbabile che tu stia raggiungendo questo pubblico sulla proprietà Web, in base ai dati DFP.
 
-Osservate a sinistra dell&#39; [!UICONTROL Unique Trait Realizations] asse per caratteristiche altamente precise e verso destra per le caratteristiche che possono essere ridimensionate.
+Look to the left of the [!UICONTROL Unique Trait Realizations] axis for highly accurate traits and to the right for traits that can drive scale.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
