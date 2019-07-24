@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Metodi API della cartella {#folder-api-methods}
+# Folder API Methods {#folder-api-methods}
 
 Metodi che consentono di utilizzare in modo programmatico le cartelle di segmenti e segmenti. Le cartelle sono directory che contengono e organizza caratteristiche e segmenti nei gruppi logici.
 
@@ -19,6 +19,6 @@ Metodi che consentono di utilizzare in modo programmatico le cartelle di segment
 
 >[!IMPORTANT]
 >
->I metodi delle cartelle [!DNL API] sono stati riscritti [!DNL Swagger] e migrati. Consulta:  &gt;
+>The folder [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Consulta:  &gt;
 >* [Documenti API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione dei codici API di Audience Manager](../../api/api-swagger-migration.md)
