@@ -15,24 +15,24 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 Prima che Audience Manager possa abilitare l’ottimizzazione del pubblico per gli editori, assicurati che siano soddisfatti tutti i prerequisiti definiti in questo articolo. Dopo aver verificato i prerequisiti, contatta l’Assistenza clienti.
 
-## Prerequisiti per l&#39;inserimento di log DFP {#prereqs-dfp-ingestion}
+## Prerequisites for DFP Log Ingestion {#prereqs-dfp-ingestion}
 
-Il processo descritto in questa sezione deve essere completato *prima* di passare ai prerequisiti per l&#39;abilitazione dell&#39;assimilazione del registro.
+Note that the process described in this section must be completed *before* you move on to the prerequisites for log ingestion enablement.
 
-Per utilizzare i file di registro DFP ( [!DNL DoubleClick For Publishers]) in [!DNL Audience Manager], devi prima impostare il nostro [ID utente univoco Audience Manager (UUID)](../../../reference/ids-in-aam.md) nella chiamata ad un tag pubblicitario. Il nostro ID è incluso nei registri DFP e possiamo abbinare ID tra DFP e [!DNL Audience Manager]. Usa [!DNL Audience Manager][!UICONTROL DIL] il codice o l&#39;identificatore [!UICONTROL Audience Management Module] per impostare l&#39; [!DNL Audience Manager] UUID in un cookie first party.
+In order to use DFP ( [!DNL DoubleClick For Publishers]) log files in [!DNL Audience Manager], you must first set our [Audience Manager Unique User ID (UUID)](../../../reference/ids-in-aam.md) in the ad tag call. By doing this, our ID is included in the DFP logs and we can match IDs between DFP and [!DNL Audience Manager]. Use [!DNL Audience Manager] [!UICONTROL DIL] code or the [!UICONTROL Audience Management Module] to set the [!DNL Audience Manager] UUID in a first party cookie.
 
-Ecco come impostare l&#39; [!DNL Audience Manager] ID nella chiamata di tag di annunci, come descritto nella documentazione:
+Here is how to set the [!DNL Audience Manager] ID in the ad tag call, as explained in our documentation:
 
 * [Tramite Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 * [Tramite una destinazione cookie](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 
-Devi impostare l&#39; [!DNL Audience Manager] ID voi stessi e lavorare [!DNL Audience Manager] con la consulenza per controllare se tutto funziona. L&#39; [!DNL Audience Manager] ID è stato impostato correttamente se:
+You need to set the [!DNL Audience Manager] ID yourself, and can work with [!DNL Audience Manager] consulting to check if everything works. You have set the [!DNL Audience Manager] ID correctly if:
 
 * `'aamid'` è la chiave utilizzata come identificatore.
-* Il valore ID utente è formattato correttamente come [!DNL Audience Manager] UUID, come descritto nel nostro [Indice degli ID in Audience Manager](../../../reference/ids-in-aam.md).
-* Hai incluso l&#39; [!DNL Audience Manager] UUID in un campo definito nei registri DFP (ad es. customtargeting).
+* The User ID value is correctly formatted as the [!DNL Audience Manager] UUID, as described in our [Index of IDs in Audience Manager](../../../reference/ids-in-aam.md).
+* You have included the [!DNL Audience Manager] UUID in a defined field in your DFP logs (e.g. CustomTargeting).
 
-## Prerequisiti per l&#39;abilitazione all&#39;inserimento del registro {#prereqs-ingestion-enablement}
+## Prerequisites for Log Ingestion Enablement {#prereqs-ingestion-enablement}
 
 <table id="table_C980A9F9B0FB4157B4908A64768B1571"> 
  <thead> 
@@ -45,14 +45,14 @@ Devi impostare l&#39; [!DNL Audience Manager] ID voi stessi e lavorare [!DNL Aud
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Passaggio 1 </p> </td> 
-   <td colname="col2"> <p>Verificate che i passaggi necessari per impostare l'UUID <span class="keyword"> Audience Manager</span> (descritto sopra) siano stati completati prima di passare al passaggio 2 </p> </td> 
+   <td colname="col2"> <p>Confirm that the required steps to set the <span class="keyword"> Audience Manager</span> UUID (outlined above) have been completed prior to moving to Step 2 </p> </td> 
    <td colname="col3"> <p><span class="keyword"> Assistenza</span> clienti di Audience Manager o consulenza </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passaggio 2 </p> </td> 
    <td colname="col2"> <p>L'amministratore DFP crea: </p> <p> 
      <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
-      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Un account di servizio per l'assimilazione di registri DFP in <span class="keyword"> Audience Manager</span>. </li> 
+      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">A service account for ingesting DFP logs into <span class="keyword"> Audience Manager</span>. </li> 
       <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Nuove credenziali. <p>Nota: Questo potrebbe richiedere un indirizzo e-mail univoco specifico per questo progetto e verrà utilizzato durante il provisioning di accesso al bug di Google Storage. </p> </li> 
       <li id="li_95444B9FD1B34659A9634814B262A681">Una chiave privata (credenziale basata su JSON) </li> 
      </ol> </p> </td> 
@@ -80,11 +80,11 @@ Devi impostare l&#39; [!DNL Audience Manager] ID voi stessi e lavorare [!DNL Aud
   <tr> 
    <td colname="col1"> <p>Passaggio 6 </p> </td> 
    <td colname="col2"> <p>Compila i prerequisiti in un messaggio e-mail all'Assistenza clienti AAM (aamsupport@adobe.com) per disattivare il processo di inserimento di registro. Preparate il messaggio e-mail utilizzando il modello nella sezione successiva. </p> </td> 
-   <td colname="col3"> <p>Voi, o <span class="keyword"> Audience Manager</span> Consulting, a vostro nome </p> </td> 
+   <td colname="col3"> <p>You, or <span class="keyword"> Audience Manager</span> Consulting on your behalf </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Modello e-mail {#email-template}
+## E-Mail Template {#email-template}
 
-Per finalizzare l&#39;abilitazione dell&#39;assimilazione del registro, inviateci un messaggio e-mail a aamsupport@adobe.com. Utilizzate il [modello e-mail allegato](assets/enable_dfp_ingestion.txt).
+Per finalizzare l'abilitazione dell'assimilazione del registro, inviateci un messaggio e-mail a aamsupport@adobe.com. Please use the [attached e-mail template](assets/enable_dfp_ingestion.txt).
