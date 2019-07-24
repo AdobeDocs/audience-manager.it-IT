@@ -12,13 +12,13 @@ source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
 
 # Creare caratteristiche dai segnali
 
-Create nuove caratteristiche da tutti i segnali, inclusi quelli già utilizzati nelle caratteristiche, e acquisite audience future idonee dopo la creazione delle caratteristiche. Per informazioni dettagliate, guardate il video su una dimostrazione rapida o su un&#39;altra:
+Create nuove caratteristiche da tutti i segnali, inclusi quelli già utilizzati nelle caratteristiche, e acquisite audience future idonee dopo la creazione delle caratteristiche. Per informazioni dettagliate, guardate il video su una dimostrazione rapida o su un'altra:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25169/?quality=12&captions=ita)
 
-## Crea caratteristiche dal pannello del segnale {#create-traits-from-signal-dashboard}
+## Create Traits from Signal Dashboard {#create-traits-from-signal-dashboard}
 
-Consente [!UICONTROL Signal Dashboard] di creare nuove caratteristiche [!UICONTROL Top Unused Signals][!UICONTROL New Unused Signals]dalle ricerche salvate.
+The [!UICONTROL Signal Dashboard] allows you to create new traits from the [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals], and your saved searches.
 
 Quando create una nuova caratteristica, il tipo di caratteristica è preimpostato in base al tipo di segnale:
 
@@ -26,28 +26,28 @@ Quando create una nuova caratteristica, il tipo di caratteristica è preimpostat
 
 * **[!UICONTROL Onboarded]** caratteristiche per segnali caricati.
 
-Per creare nuove caratteristiche da **[!UICONTROL Signal Dashboard]**, identificate il segnale che desiderate utilizzare nella caratteristica, quindi fate clic sul corrispondente collegamento **[!UICONTROL Create Rule-Based Trait]** o **[!UICONTROL Create Onboarded Trait]** collegamento.
+To create new traits from the **[!UICONTROL Signal Dashboard]**, identify the signal that you want to use in the trait, then click the corresponding **[!UICONTROL Create Rule-Based Trait]** or **[!UICONTROL Create Onboarded Trait]** link.
 
 ![](assets/signals-create-trait.png)
 
-Verrai reindirizzato al Generatore **[di caratteristiche](../../features/traits/about-trait-builder.md)** per creare nuove caratteristiche.
+You'll be redirected to the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new trait(s).
 
-## Crea caratteristiche da ricerca segnale {#create-traits-from-signal-search}
+## Create Traits from Signal Search {#create-traits-from-signal-search}
 
-Creare caratteristiche basate su segnali utilizzati o inutilizzati che non vengono visualizzati nell &#39; [!UICONTROL Signal Dashboard].
+Create traits based on used or unused signals that are not shown in the [!UICONTROL Signal Dashboard].
 
 Cercare segnali specifici e creare caratteristiche basate su regola o registrate in base ai risultati. Ecco come effettuare questa operazione:
 
-1. Eseguire una **[!UICONTROL Audience Data > Signals > Search]** ricerca in base alle coppie chiave-valore ricercate, oppure fare clic **[!UICONTROL Search]** senza inserire coppia chiave-valore per visualizzare tutti i risultati.
-2. Identificate i segnali che desiderate utilizzare nel trait, nell&#39;elenco dei risultati.
-   * Per creare una caratteristica da un segnale, fate clic sul corrispondente collegamento **[!UICONTROL Create Rule-Based Trait]** o **[!UICONTROL Create Onboarded Trait]** collegamento.
-   * Per creare una caratteristica da più segnali, fate clic sulla casella di controllo corrispondente di ciascun segnale, quindi fate clic **[!UICONTROL Create Trait from Multiple Signals]** su.
+1. Go to **[!UICONTROL Audience Data > Signals > Search]** and run a search based on the key-value pairs that you are looking for, or click **[!UICONTROL Search]** without entering any key-value pair to display all results.
+2. Identificate i segnali che desiderate utilizzare nel trait, nell'elenco dei risultati.
+   * To create a trait from one signal, click the corresponding **[!UICONTROL Create Rule-Based Trait]** or **[!UICONTROL Create Onboarded Trait]** link.
+   * To create a trait from multiple signals, click the corresponding check box of each signal, then click **[!UICONTROL Create Trait from Multiple Signals]**.
    >[!NOTE]
    >Potete creare caratteristiche solo dai segnali dello stesso tipo. Non potete creare una caratteristica basata su una combinazione di segnale in tempo reale e su una.
    >
    > ![](assets/signals-create-trait-search.png)
-   >Potete anche creare caratteristiche dai segnali utilizzati. I segnali già utilizzati nelle caratteristiche presentano il numero di caratteristiche visualizzate nella **[!UICONTROL Included in Traits]** colonna. Fate clic sulla freccia per visualizzare le caratteristiche che contengono il segnale.
+   >Potete anche creare caratteristiche dai segnali utilizzati. Signals that are already used in traits have the number of traits displayed in the **[!UICONTROL Included in Traits]** column. Fate clic sulla freccia per visualizzare le caratteristiche che contengono il segnale.
    >
    >![](assets/signals-used-traits.png)
 
-3. Usate il **[Generatore](../../features/traits/about-trait-builder.md)** di caratteristiche per creare le nuove caratteristiche.
+3. Use the **[Trait Builder](../../features/traits/about-trait-builder.md)** to create your new traits.
