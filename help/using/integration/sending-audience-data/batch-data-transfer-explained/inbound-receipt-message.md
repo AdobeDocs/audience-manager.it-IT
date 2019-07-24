@@ -11,13 +11,13 @@ source-git-commit: 3fb90da3be8f50fe670c1193600f5e3a027be52c
 ---
 
 
-# Messaggio di esempio ai partner dopo l&#39;elaborazione in entrata{#sample-message-to-partners-after-inbound-processing}
+# Sample Message to Partners after Inbound Processing{#sample-message-to-partners-after-inbound-processing}
 
-Ogni volta che un [!UICONTROL Server-to-Server] file in entrata viene elaborato, una ricevuta viene inviata via e-mail alle soluzioni partner e, se configurato, al partner.
+Whenever an inbound [!UICONTROL Server-to-Server] file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner.
 
 <!-- r_inbound_message.xml -->
 
-L&#39;esempio seguente è un esempio di messaggio e-mail. La tabella sotto il messaggio descrive le varie righe del messaggio.
+L'esempio seguente è un esempio di messaggio e-mail. La tabella sotto il messaggio descrive le varie righe del messaggio.
 
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
