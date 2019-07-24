@@ -11,8 +11,8 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 ---
 
 
-# DFP come destinazione di Audience Manager {#dfp-as-an-audience-manager-destination}
+# DFP as an Audience Manager Destination {#dfp-as-an-audience-manager-destination}
 
-Configuralo [!DNL DFP] come destinazione e invia i dati dei segmenti di Audience Manager a quella piattaforma.
+Set up [!DNL DFP] as a destination and send Audience Manager segment data to that platform.
 
-La documentazione in questa sezione descrive il metodo obsoleto di integrazione con [!DNL DFP] ed è stato rimosso. Per [!DNL DFP] le integrazioni, consultate [Integrare DFP tramite tag Google Publisher (GPT)](../integration/gpt-aam-destination/gpt-aam-requirements.md).
+The documentation in this section described the outdated method of integrating with [!DNL DFP] and has been removed. For [!DNL DFP] integrations, see [Integrate DFP using Google Publisher Tags (GPT)](../integration/gpt-aam-destination/gpt-aam-requirements.md).
