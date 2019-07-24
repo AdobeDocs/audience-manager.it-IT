@@ -14,22 +14,22 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Audience Lab {#audience-lab}
 
-Crea segmenti di test mutualmente esclusivi in [!UICONTROL Segment Test Groups] modo da confrontare e misurare l&#39;efficacia di diverse destinazioni. Puoi impostare un gruppo di controllo e dividere il segmento in percentuali di un intero, per testare l&#39;efficacia.
+Create mutually exclusive test segments in [!UICONTROL Segment Test Groups] to compare and measure effectiveness of different destinations. Puoi impostare un gruppo di controllo e dividere il segmento in percentuali di un intero, per testare l'efficacia.
 
 ## Panoramica {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] utilizza [Collegamento](../../features/profile-merge-rules/merge-rules-overview.md) profilo per abilitare la verifica cross-device. Questo consente di garantire che un utente sia idoneo per lo stesso segmento di test e riceva lo stesso trattamento tra i dispositivi. I segmenti di prova nei gruppi di test erediteranno la [regola](../../features/profile-merge-rules/merge-rules-dashboard.md) Unione profilo assegnata al segmento di base.
+[!UICONTROL Audience Lab] utilizza [Collegamento](../../features/profile-merge-rules/merge-rules-overview.md) profilo per abilitare la verifica cross-device. Questo consente di garantire che un utente sia idoneo per lo stesso segmento di test e riceva lo stesso trattamento tra i dispositivi. The test segments in test groups will inherit the [Profile Merge Rule](../../features/profile-merge-rules/merge-rules-dashboard.md) the base segment has assigned to it.
 
-La [!UICONTROL Audience Lab] visualizzazione predefinita visualizza una scheda per ciascun gruppo di test. Fate clic su una scheda per accedere alla **[!UICONTROL Test Group]** visualizzazione. Questa vista include le informazioni seguenti:
+The [!UICONTROL Audience Lab] default view displays a card for each of the test groups. Click a card to access the **[!UICONTROL Test Group]** view. Questa vista include le informazioni seguenti:
 
 * **[Test Group Information (Informazioni gruppo di test)](../../features/audience-lab/audience-lab-information-view.md)**
 * **[Test dei rapporti di gruppo](../../features/audience-lab/audience-lab-reporting-view.md)**
 
-Potete creare **fino a 10 gruppi di test**, ciascuno con **fino a 15 segmenti di test**.
+You are able to create **up to 10 test groups**, each one with **up to 15 test segments**.
 
 ![](assets/test-groups-view.PNG)
 
-## Cercare e filtrare i gruppi di test {#search-and-filter}
+## Search and Filter Test Groups {#search-and-filter}
 
 Dopo aver iniziato a creare più gruppi di test con più segmenti di test, potrebbe essere più semplice utilizzare la casella di ricerca per trovare un gruppo di test specifico. Potete cercare un gruppo di test:
 
@@ -39,7 +39,7 @@ Dopo aver iniziato a creare più gruppi di test con più segmenti di test, potre
 
 ![](assets/search_and_filter_audience_lab.png)
 
-Potete anche filtrare i gruppi di test per stato. Tutti gli stati disponibili sono descritti nella sezione [Stato](../../features/audience-lab/audience-lab.md#status) di seguito.
+Potete anche filtrare i gruppi di test per stato. All available statuses are described in the [Status](../../features/audience-lab/audience-lab.md#status) section below.
 
 ## Stato {#status}
 
@@ -55,23 +55,23 @@ Lo stato di un gruppo di test può essere attivo, pianificato, messo in pausa, b
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Attivo </span></b> </p> </td> 
-   <td colname="col2"> <p>Un gruppo di test <i>attivo</i> indica che i dati vengono attualmente inviati alle destinazioni. Premete <b><span class="uicontrol"> Pausa test </span></b> nella scheda Gruppo <b><span class="uicontrol"></span></b> di test per sospendere l'invio di dati alle destinazioni. </p> </td> 
+   <td colname="col2"> <p>An <i>active</i> test group means that data is currently being sent to destinations. Press <b><span class="uicontrol"> Pause Test </span></b> in the <b><span class="uicontrol"> Test Group </span></b> card to suspend sending data to destinations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pianificato </span></b> </p> </td> 
-   <td colname="col2"> <p>Un <i>gruppo</i> di test pianificato non è ancora attivo, ma non può più essere modificato. Verrà attivato alla data di inizio selezionata nella procedura guidata <b>Crea gruppi</b> di test. </p> </td> 
+   <td colname="col2"> <p>A <i>scheduled</i> test group is not yet active but cannot be edited anymore. It will become active at the start date you selected in the <b>Create Test Groups</b> wizard. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> In pausa </span></b> </p> </td> 
-   <td colname="col2"> <p>Al momento, un <i>gruppo</i> di test in pausa non invia dati alle destinazioni. Premete <b><span class="uicontrol"> Rendi attivo </span></b> nella scheda Gruppo <b><span class="uicontrol"></span></b> di test per riprendere l'invio delle caratteristiche. </p> </td> 
+   <td colname="col2"> <p>A <i>paused</i> test group does not currently send data to destinations. Press <b><span class="uicontrol"> Make Active </span></b> in the <b><span class="uicontrol"> Test Group </span></b> card to resume sending traits. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Bozza </span></b> </p> </td> 
-   <td colname="col2"> <p>Un <i>gruppo</i> di test di bozza non è ancora attivo e può ancora essere modificato. Non invia ancora dati alle destinazioni mappate. </p> </td> 
+   <td colname="col2"> <p>A <i>draft</i> test group is not yet active and can still be edited. Non invia ancora dati alle destinazioni mappate. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Completato </span></b> </p> </td> 
-   <td colname="col2"> <p>Un <i>gruppo</i> di test completato ha raggiunto la data di fine selezionata nella procedura guidata <b><span class="uicontrol"> Crea gruppi </span></b> di test e ha interrotto l'invio di dati di reporting. </p> </td>
+   <td colname="col2"> <p>A <i>completed</i> test group has reached the end date you selected in the <b><span class="uicontrol"> Create Test Groups </span></b> wizard and has stopped sending reporting data. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -88,7 +88,7 @@ Lo stato di un gruppo di test può essere attivo, pianificato, messo in pausa, b
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Modifica </span></b> </p> </td>
-   <td colname="col2"> <p>Disponibile <b>solo</b> per i gruppi di bozza di bozza. Consente di riprendere la procedura guidata <b><span class="uicontrol"> Crea nuovo gruppo </span></b> di test. </p> </td>
+   <td colname="col2"> <p>Available <b>only</b> for draft test groups. Allows you to resume the <b><span class="uicontrol"> Create New Test Group </span></b> wizard. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pausa </span></b> </p> </td>
