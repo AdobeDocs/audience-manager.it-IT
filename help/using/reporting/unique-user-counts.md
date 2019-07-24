@@ -11,9 +11,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Conteggio degli utenti univoci in Sovrapposizione e Rapporti generali{#counting-unique-users-in-overlap-and-general-reports}
+# Counting Unique Users in Overlap and General Reports{#counting-unique-users-in-overlap-and-general-reports}
 
-Questa pagina descrive la variazione in totali univoci dell&#39;utente tra rapporti per la stessa caratteristica e il medesimo periodo di tempo.
+Questa pagina descrive la variazione in totali univoci dell'utente tra rapporti per la stessa caratteristica e il medesimo periodo di tempo.
 
 <!-- 
 
@@ -25,8 +25,8 @@ c_unique_user_counts.xml
 
 I rapporti di sovrapposizione contano gli utenti come univoci quando si qualificano per una caratteristica:
 
-* Durante l&#39;intervallo di tempo selezionato per il report.
-* Con un valore [time-to-live](../features/traits/segment-ttl-explained.md) più lungo dell&#39;intervallo di tempo selezionato per il report.
+* Durante l'intervallo di tempo selezionato per il report.
+* That has a [time-to-live](../features/traits/segment-ttl-explained.md) value longer than the selected time interval for the report.
 * Se sono visibili nel nostro sistema (ovvero, qualificato per qualsiasi altra caratteristica, avevano una sincronizzazione ID, ecc.) negli ultimi 60 giorni.
 
 ## Rapporto generale: Numero di utenti univoci
