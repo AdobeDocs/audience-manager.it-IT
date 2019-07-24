@@ -12,7 +12,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Domande frequenti su Profile Merge Rules e Device Graph{#profile-merge-rules-and-device-graph-faq}
+# Profile Merge Rules and Device Graph FAQ{#profile-merge-rules-and-device-graph-faq}
 
 Risposte alle domande comuni su Regola unione profilo e grafico dispositivo.
 
@@ -22,23 +22,23 @@ profile-merge-faq.xml
 
  -->
 
-## Nozioni di base sui grafici {#device-graph-basics}
+## Device Graph Basics {#device-graph-basics}
 
-**Cos&#39;è un grafico di dispositivo?**
+**Cos'è un grafico di dispositivo?**
 
 Un grafico del dispositivo è un set di mappature ID che definiscono gruppi di dispositivi anonimi. Associa questi dispositivi a una persona o a una famiglia in base agli elementi comuni dei segnali raccolti da ciascun dispositivo. Questi segnali aiutano a identificare i dispositivi a livello individuale o familiare.
 
 <br> 
 
-**Cos&#39;è un grafico dispositivo esterno?**
+**Cos'è un grafico dispositivo esterno?**
 
-Un grafico dispositivo esterno è un grafico del dispositivo in cui [!DNL Audience Manager] non è stato creato esclusivamente dalle tue origini dati cross-device. Ad esempio, quando create una regola [di unione profili](../features/profile-merge-rules/merge-rules-start.md) e scegliete le [!UICONTROL Co-op Device Graph] opzioni di grafico o grafico dispositivo di terze parti, state lavorando con un grafico dispositivo esterno. Consultate [Opzioni dispositivo](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+An external device graph is any device graph in [!DNL Audience Manager] that has not been created exclusively from your own cross-device data sources. For example, when you create a [Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md) and choose the [!UICONTROL Co-op Device Graph] or third-party device graph options, you're working with an external device graph. See [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
 <br> 
 
-**Quali sono alcuni casi d&#39;uso comuni per utilizzare un grafico dispositivo esterno in un[!UICONTROL Profile Merge Rule]&#39;interfaccia?**
+**Quali sono alcuni casi d'uso comuni per utilizzare un grafico dispositivo esterno in un[!UICONTROL Profile Merge Rule]'interfaccia?**
 
-L&#39;obiettivo principale di utilizzare un grafico dispositivo in un grafico [!UICONTROL Profile Merge Rule] è valutare e qualificare più dispositivi appartenenti a una singola persona o famiglia per un segmento specifico. Il segmento stesso potrebbe avere più usi, ad esempio, targeting di un pubblico di potenziali prospect con annunci pubblicitari gestiti da una DSP o personalizzazione dell&#39;esperienza on-site di un cliente tramite una piattaforma di personalizzazione on-site. Consulta [Casi d&#39;uso grafici esterni](../features/profile-merge-rules/external-graph-use-cases.md).
+The main objective of using a device graph in a [!UICONTROL Profile Merge Rule] is to evaluate and qualify multiple devices belonging to a single person or household for a specific segment. Il segmento stesso potrebbe avere più usi, ad esempio, targeting di un pubblico di potenziali prospect con annunci pubblicitari gestiti da una DSP o personalizzazione dell'esperienza on-site di un cliente tramite una piattaforma di personalizzazione on-site. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
 <br> 
 
@@ -54,11 +54,11 @@ Una volta a settimana.
 
 <br> 
 
-## Grafici dispositivo e regole di unione profilo {#device-graph-profile-merge-rules}
+## Device Graphs and Profile Merge Rules {#device-graph-profile-merge-rules}
 
 **Come[!DNL Audience Manager]si utilizza un grafico dispositivo?**
 
-In [!DNL Audience Manager], i grafici dei dispositivi appaiono come opzioni di configurazione quando [crei una regola unione profilo](../features/profile-merge-rules/merge-rules-start.md). Tramite la vostra [!UICONTROL Profile Merge Rules], questi grafici dispositivo sono utili [!DNL Audience Manager]:
+In [!DNL Audience Manager], device graphs appear as configuration options when you [create a Profile Merge Rule](../features/profile-merge-rules/merge-rules-start.md). Through your [!UICONTROL Profile Merge Rules], these device graphs help [!DNL Audience Manager]:
 
 * Unisce insieme più profili dispositivo. Viene creato un singolo superset di caratteristiche.
 * Valuta il superset di caratteristiche per la qualifica del segmento (piuttosto che valutare singolarmente ciascun profilo dispositivo).
@@ -68,49 +68,49 @@ In [!DNL Audience Manager], i grafici dei dispositivi appaiono come opzioni di c
 
 **Quanti[!UICONTROL Profile Merge Rules]è possibile creare?**
 
-Al momento, potete creare un massimo di 3 [!UICONTROL Profile Merge Rules].
+Currently, you can create a maximum of 3 [!UICONTROL Profile Merge Rules].
 
 <br> 
 
-**Quanti profili dispositivo[!DNL Audience Manager]vengono uniti e letti quando si utilizza un grafico dispositivo in un[!UICONTROL Profile Merge Rule]&#39;interfaccia?**
+**Quanti profili dispositivo[!DNL Audience Manager]vengono uniti e letti quando si utilizza un grafico dispositivo in un[!UICONTROL Profile Merge Rule]'interfaccia?**
 
-Quando si qualifica un dispositivo per un segmento utilizzando un componente, [!UICONTROL Profile Merge Rule]Audience Manager unisce e legge il profilo dispositivo corrente e un massimo di 3 profili dispositivo aggiuntivi collegati dall&#39;opzione di grafico dispositivo selezionata.
+When qualifying a device for a segment using a [!UICONTROL Profile Merge Rule], Audience Manager merges and reads the current device profile and a maximum of 3 additional device profiles linked by your selected device graph option.
 
 <br> 
 
 **Quali dispositivi si qualificano per un segmento quando si utilizza un grafico dispositivo in un[!UICONTROL Profile Merge Rule]?**
 
-I dispositivi [!DNL Audience Manager] uniscono e leggono gli stessi dispositivi idonei per un segmento.
+The devices [!DNL Audience Manager] merges and reads are the same devices that are qualified for a segment.
 
 >[!NOTE]
 >
->Per i grafici dei dispositivi esterni [!DNL Audience Manager] , memorizza la mappatura tra i dispositivi a livello di piattaforma e seleziona 3 senza valutare la loro relazione con i dispositivi visualizzati nell&#39;istanza [!DNL Audience Manager].
+>For external device graphs, [!DNL Audience Manager] stores the mapping between devices at the platform level and selects 3 without evaluating their relationship to the devices seen in your instance of [!DNL Audience Manager].
 
 <br> 
 
-**Quali dispositivi**possono essere idonei per un segmento utilizzando un[!UICONTROL Profile Merge Rule]grafico dispositivo?**
+**Quali dispositivi **possono essere idonei per un segmento utilizzando un[!UICONTROL Profile Merge Rule]grafico dispositivo?**
 
-Per qualificarsi per un segmento, i dispositivi devono essere stati visti da Audience Manager sui nostri [server di dati periferici](../reference/system-components/components-edge.md) dopo la creazione del segmento. Inoltre, i server periferici:
+To qualify for a segment, devices must have been seen by Audience Manager on our [edge data servers](../reference/system-components/components-edge.md) after the segment was created. Inoltre, i server periferici:
 
 * Archivia i dati di profilo per un massimo di 14 giorni.
-* Eliminate un profilo dispositivo se resta inattivo per più di 14 giorni. Nota: Questa azione rimuove solo i dati dal margine. Altri sistemi conserveranno i record per intervalli di tempo più lunghi. Consulta le domande frequenti [sulla privacy e sulla conservazione dei dati](../faq/faq-privacy.md).
-* Ripristina l&#39;intervallo di 14 giorni se [!DNL Audience Manager] registra qualsiasi attività per tale profilo nell&#39;intera piattaforma.
+* Eliminate un profilo dispositivo se resta inattivo per più di 14 giorni. Nota: Questa azione rimuove solo i dati dal margine. Altri sistemi conserveranno i record per intervalli di tempo più lunghi. See the [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
+* Reset the 14-day interval if [!DNL Audience Manager] records any activity for that profile across the entire platform.
 
-Vedi anche Componenti raccolta [dati](../reference/system-components/components-data-collection.md).
+See also, [Data Collection Components](../reference/system-components/components-data-collection.md).
 
 <br> 
 
 **Dove[!DNL Audience Manager]può inviare segmenti idonei da un[!UICONTROL Profile Merge Rule]grafico che usa un grafico dispositivo?**
 
-[!DNL Audience Manager] può inviare segmenti a una destinazione in file batch o in tempo reale. Inoltre, come indicato nella voce FAQ sopra, per qualificarvi su un segmento, i dispositivi devono essere stati visti dai [!DNL Audience Manager] server [di dati periferici](../reference/system-components/components-edge.md) dopo la creazione del segmento.
+[!DNL Audience Manager] può inviare segmenti a una destinazione in file batch o in tempo reale. And, as noted in the FAQ entry above, To qualify for a segment, devices must have been seen by [!DNL Audience Manager] on our [edge data servers](../reference/system-components/components-edge.md) after the segment was created.
 
 <br> 
 
-## Segmenti, Grafici dispositivo e regole di unione profilo {#segments-device-graphs-rules}
+## Segments, Device Graphs, and Profile Merge Rules {#segments-device-graphs-rules}
 
 **How does[!DNL Audience Manager]desegment a device when it is no longer qualified for a segment with a[!UICONTROL Profile Merge Rule]that uses a device graph?**
 
-Audience Manager unisce fino a quattro dispositivi durante la valutazione dei segmenti con un [!UICONTROL Profile Merge Rule] grafico del dispositivo. Se viene emesso il segnale di annullamento del segmento, il dispositivo corrente e tre dispositivi aggiuntivi visualizzati in tempo reale verranno rimossi dal segmento nella destinazione. Ad esempio, in un cluster di sei dispositivi, fino a quattro dispositivi vengono uniti, valutati e qualificati per un segmento. Analogamente, fino a quattro dispositivi vengono uniti, valutati e non segmentati.
+Audience Manager merges up to four devices when evaluating segments with a [!UICONTROL Profile Merge Rule] that uses a device graph. Se viene emesso il segnale di annullamento del segmento, il dispositivo corrente e tre dispositivi aggiuntivi visualizzati in tempo reale verranno rimossi dal segmento nella destinazione. Ad esempio, in un cluster di sei dispositivi, fino a quattro dispositivi vengono uniti, valutati e qualificati per un segmento. Analogamente, fino a quattro dispositivi vengono uniti, valutati e non segmentati.
 
 <br> 
 
@@ -122,17 +122,17 @@ Sì. Vedi la spiegazione sopra.
 
 **Se crei un segmento con un[!UICONTROL Profile Merge Rule]grafico che usa un grafico di dispositivo e il segmento utilizza dati in tempo reale e su smartphone, il mio segmento sarà aggiornato con la modifica dei dati on-boarded?**
 
-No. Al momento [!DNL Audience Manager] , valuta i segmenti con un [!UICONTROL Profile Merge Rule] grafico di dispositivo in tempo reale. Gli aggiornamenti apportati alle caratteristiche allineate dopo l&#39;esame del segmento saranno utilizzati per qualificare il segmento quando il dispositivo viene visualizzato successivamente dai nostri [server di dati periferici](../reference/system-components/components-edge.md). Questo presuppone che il profilo dispositivo sia ancora attivo nei server periferici e che i dati on-boarded siano stati resi disponibili a tali sistemi. Vedi anche le domande frequenti [sulla privacy e sulla conservazione dei dati](../faq/faq-privacy.md).
+No. Currently, [!DNL Audience Manager] evaluates segments with a [!UICONTROL Profile Merge Rule] that uses a device graph in real-time only. Updates made to on-boarded traits after the segment has been evaluated will be used to qualify the segment when the device is next seen by our [edge data servers](../reference/system-components/components-edge.md). Questo presuppone che il profilo dispositivo sia ancora attivo nei server periferici e che i dati on-boarded siano stati resi disponibili a tali sistemi. See also, the [Privacy and Data Retention FAQ](../faq/faq-privacy.md).
 
 <br> 
 
-**Le stime di dimensioni del segmento includono dispositivi idonei per un segmento basato su connessioni fornite da un&#39;[!UICONTROL Profile Merge Rule]opzione di grafico dispositivo?**
+**Le stime di dimensioni del segmento includono dispositivi idonei per un segmento basato su connessioni fornite da un'[!UICONTROL Profile Merge Rule]opzione di grafico dispositivo?**
 
-No. Consulta le definizioni per [!UICONTROL Estimated Real-Time Population] i [!UICONTROL Estimated Total Population] dati [della popolazione e dei segmenti in Segment Builder](../features/segments/segment-builder-data.md)(Generatore segmenti).
+No. See the definitions for the [!UICONTROL Estimated Real-Time Population] and [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
 
 <br> 
 
-**[!UICONTROL Addressable Audiences]Comprende dispositivi idonei per un segmento basato su connessioni fornite da un&#39;[!UICONTROL Profile Merge Rule]opzione di grafico dispositivo?**
+**[!UICONTROL Addressable Audiences]Comprende dispositivi idonei per un segmento basato su connessioni fornite da un'[!UICONTROL Profile Merge Rule]opzione di grafico dispositivo?**
 
 Sì. 
 
@@ -144,11 +144,11 @@ No. Oggi Audience Manager conta i dispositivi mappati al profilo autenticato com
 
 <br> 
 
-## Frequenza caratteristica, Grafici dispositivo e regole di unione profilo {#trait-freq-device-rules}
+## Trait Frequency, Device Graphs, and Profile Merge Rules {#trait-freq-device-rules}
 
 **Come[!DNL Audience Manager]calcola la frequenza delle caratteristiche con un[!UICONTROL Profile Merge Rule]grafico di dispositivo?**
 
-La frequenza delle caratteristiche è definita dalla somma del numero di qualifiche per una caratteristica specifica su più dispositivi. Per comprenderlo, osserva il seguente caso d&#39;uso.
+La frequenza delle caratteristiche è definita dalla somma del numero di qualifiche per una caratteristica specifica su più dispositivi. Per comprenderlo, osserva il seguente caso d'uso.
 
 <table id="table_DE7A308705C84B93B3089CAD2228569E"> 
  <thead> 
@@ -163,7 +163,7 @@ La frequenza delle caratteristiche è definita dalla somma del numero di qualifi
    <td colname="col2"> <p> 
      <ul id="ul_52EA0F142E3F488CAAC7CF541E7F3472"> 
       <li id="li_11228EC0266A4A02BB4057B77FE93A8A">Il dispositivo A e il dispositivo B sono collegati da un grafico del dispositivo. </li> 
-      <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">Hai una <span class="wintitle"> regola Unione profilo</span> che usa un'opzione grafico dispositivo. </li> 
+      <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">You have a <span class="wintitle"> Profile Merge Rule</span> that uses a device graph option. </li> 
       <li id="li_B46C4DE6CBD44D44B0F02EC9987140A5">Un segmento singolo (segmento 1) composto di una caratteristica singola (caratteristica 1), dove Trait 1 ha una frequenza di 8. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -184,15 +184,15 @@ La frequenza delle caratteristiche è definita dalla somma del numero di qualifi
 
 <br> 
 
-## Rapporti, Grafici dispositivo e regole di unione profilo {#reports-device-graphs-rules}
+## Reports, Device Graphs, and Profile Merge Rules {#reports-device-graphs-rules}
 
 **Posso visualizzare il numero di dispositivi che possono essere raggiunti con un[!UICONTROL Profile Merge Rule]grafico di dispositivo?**
 
-Sì. I rapporti restituiscono i dati a [!UICONTROL Profile Merge Rule] livello. I dati dei report vengono aggiornati ogni giorno. I dati si basano sui dispositivi visualizzati nell&#39;account, non quelli collegati da un grafico del dispositivo. Consultate [Metriche di report per regole di unione profilo](../features/profile-merge-rules/profile-link-metrics.md).
+Sì. Reports return data at the [!UICONTROL Profile Merge Rule] level. I dati dei report vengono aggiornati ogni giorno. I dati si basano sui dispositivi visualizzati nell'account, non quelli collegati da un grafico del dispositivo. See [Report Metrics for Profile Merge Rules](../features/profile-merge-rules/profile-link-metrics.md).
 
 <br> 
 
-**Posso visualizzare il numero di dispositivi idonei per un segmento specifico in*tempo reale*con[!UICONTROL Profile Merge Rules]l&#39;utilizzo di un grafico dispositivo?**
+**Posso visualizzare il numero di dispositivi idonei per un segmento specifico in *tempo reale*con[!UICONTROL Profile Merge Rules]l'utilizzo di un grafico dispositivo?**
 
 Sì. La metrica popolazione in tempo reale acquisisce le qualifiche del segmento per il dispositivo corrente (il dispositivo visualizzato in tempo reale) utilizzando i profili provenienti da tutti i dispositivi collegati da un grafico del dispositivo.
 
@@ -223,9 +223,9 @@ Sì. La metrica popolazione in tempo reale acquisisce le qualifiche del segmento
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Risultati</b> </p> </td> 
-   <td colname="col2"> <p>In base agli elementi precedenti, la popolazione totale per il segmento 1 è una. </p> <p>In questo caso, la Regola Unione <span class="wintitle"> profili</span> utilizza tutti i dispositivi e le relative caratteristiche per stabilire la qualifica del segmento. Ciò significa che i dispositivi 1, 2 e 3 sono idonei per il segmento 1, ma, come indicato sopra, solo il dispositivo 1 è incluso nella popolazione dei segmenti in tempo reale. poiché: </p> <p> 
+   <td colname="col2"> <p>In base agli elementi precedenti, la popolazione totale per il segmento 1 è una. </p> <p>In this case, the <span class="wintitle"> Profile Merge Rule</span> uses all the devices and their traits to decide segment qualification. Ciò significa che i dispositivi 1, 2 e 3 sono idonei per il segmento 1, ma, come indicato sopra, solo il dispositivo 1 è incluso nella popolazione dei segmenti in tempo reale. poiché: </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
-      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Device 1 è il dispositivo corrente che interagisce con i server di raccolta <span class="wintitle"> dati di Audience Manager</span> (<span class="wintitle"> DCS</span>) in tempo reale. </li> 
+      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Device 1 is the current device interacting with the Audience Manager <span class="wintitle"> Data Collection Servers</span> (<span class="wintitle"> DCS</span>) in real-time. </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">I dispositivi 2 e 3 sono associati al Device 1 da un grafico del dispositivo, ma non interagiscono con il DCS contemporaneamente al dispositivo 1. </li> 
      </ul> </p> <p>Di conseguenza, i dispositivi 2 e 3 non sono inclusi nella metrica relativa alla popolazione del segmento in tempo reale. </p> </td> 
   </tr> 
@@ -265,7 +265,7 @@ Sì. La metrica relativa alla popolazione del segmento totale include i disposit
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Risultati</b> </p> </td> 
-   <td colname="col2"> <p>In base agli elementi precedenti, la popolazione totale per Segmento 1 è costituita da tre (3). </p> <p>In questo caso, la Regola Unione <span class="wintitle"> profili</span> utilizza tutti i dispositivi e le relative caratteristiche per stabilire la qualifica del segmento. Ciò significa che i dispositivi 1, 2 e 3 sono idonei per il segmento 1 e tutti e tre sono inclusi nella popolazione totale. </p> </td> 
+   <td colname="col2"> <p>In base agli elementi precedenti, la popolazione totale per Segmento 1 è costituita da tre (3). </p> <p>In this case, the <span class="wintitle"> Profile Merge Rule</span> uses all the devices and their traits to decide segment qualification. Ciò significa che i dispositivi 1, 2 e 3 sono idonei per il segmento 1 e tutti e tre sono inclusi nella popolazione totale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
