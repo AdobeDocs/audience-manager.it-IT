@@ -14,7 +14,7 @@ source-git-commit: f6fd1b99467a35b3f2c978c4b2e28d562eaa3c52
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-Gli strumenti Gestione massa consentono di creare e gestire più oggetti contemporaneamente con un&#39;unica operazione. Puoi usare Strumenti di gestione collettiva per lavorare con sorgenti dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
+Gli strumenti Gestione massa consentono di creare e gestire più oggetti contemporaneamente con un'unica operazione. Puoi usare Strumenti di gestione collettiva per lavorare con sorgenti dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
 
 <!-- 
 
@@ -24,11 +24,11 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell&#39; [!DNL Audience Manager] interfaccia utente vengono rispettate nell&#39; [!UICONTROL Bulk Management Tools]interfaccia.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell' [!DNL Audience Manager] interfaccia utente vengono rispettate nell' [!UICONTROL Bulk Management Tools]interfaccia.
 
 ## Panoramica {#overview}
 
-This feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. L&#39;API fornisce i metodi e i servizi che consentono di apportare modifiche in gruppo. Non è necessario conoscere il codice o lavorare con le API per utilizzarlo. Il foglio di lavoro contiene intestazioni di colonna e schede che consentono di modificare in massa specifiche funzioni. Per apportare modifiche collettive, basta aggiungere le intestazioni predefinite a fogli di lavoro specifici, fornire le informazioni che si desidera modificare in gruppo e fare clic sul pulsante di azione. Il foglio di lavoro e le API elaborano il resto del lavoro.
+This feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. L'API fornisce i metodi e i servizi che consentono di apportare modifiche in gruppo. Non è necessario conoscere il codice o lavorare con le API per utilizzarlo. Il foglio di lavoro contiene intestazioni di colonna e schede che consentono di modificare in massa specifiche funzioni. Per apportare modifiche collettive, basta aggiungere le intestazioni predefinite a fogli di lavoro specifici, fornire le informazioni che si desidera modificare in gruppo e fare clic sul pulsante di azione. Il foglio di lavoro e le API elaborano il resto del lavoro.
 
 ## Prerequisiti {#prereqs}
 
@@ -42,9 +42,9 @@ To use the [!DNL Bulk Management Tools], you need the following:
 
 ## Actions and operations {#actions-ops}
 
-[!UICONTROL Bulk Management Tools] Il foglio di lavoro è costituito da schede action, pulsanti di azione e **[!UICONTROL Headers]** schede. The **[!UICONTROL Headers]** tab contains the pre-formatted column headers used by the action tabs. Le schede delle azioni contengono macro che eseguono l&#39;operazione di massa selezionata. Per eseguire un&#39;operazione in blocco, copiate un set di intestazioni nella scheda dell&#39;azione appropriata, immettete i dati dell&#39;intestazione e fate clic sul pulsante di azione.
+[!UICONTROL Bulk Management Tools] Il foglio di lavoro è costituito da schede action, pulsanti di azione e **[!UICONTROL Headers]** schede. The **[!UICONTROL Headers]** tab contains the pre-formatted column headers used by the action tabs. Le schede delle azioni contengono macro che eseguono l'operazione di massa selezionata. Per eseguire un'operazione in blocco, copiate un set di intestazioni nella scheda dell'azione appropriata, immettete i dati dell'intestazione e fate clic sul pulsante di azione.
 
-Aprite il foglio di calcolo e fate clic sul pulsante di un&#39;azione per iniziare.
+Aprite il foglio di calcolo e fate clic sul pulsante di un'azione per iniziare.
 
 ![](assets/bamwrkbk.png)
 
@@ -82,12 +82,12 @@ The table below lists the operations you can perform and items you can manipulat
 
 **Esempio di operazione in blocco**
 
-Ad esempio, vediamo come creare più caratteristiche contemporaneamente. Per creare più caratteristiche in un&#39;operazione in blocco, è possibile:
+Ad esempio, vediamo come creare più caratteristiche contemporaneamente. Per creare più caratteristiche in un'operazione in blocco, è possibile:
 
 1. Click the **[!UICONTROL Headers]** tab and copy all the labels under the [!UICONTROL Create a Trait] option.
 
 2. Click the **[!UICONTROL Create]** tab and paste the labels starting in row 1, column A.
-3. Provide information related to each column header and click **[!UICONTROL Create Traits]**. Questa azione richiede l&#39;accesso. Your bulk job runs after you successfully authenticate (see the [authentication requirements](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) below). Controllate l&#39;angolo inferiore sinistro del foglio di lavoro per una notifica di stato del processo.
+3. Provide information related to each column header and click **[!UICONTROL Create Traits]**. Questa azione richiede l'accesso. Your bulk job runs after you successfully authenticate (see the [authentication requirements](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) below). Controllate l'angolo inferiore sinistro del foglio di lavoro per una notifica di stato del processo.
 
 >[!NOTE]
 >
@@ -95,23 +95,23 @@ Ad esempio, vediamo come creare più caratteristiche contemporaneamente. Per cre
 
 ## Authentication requirements and options {#auth-reqs}
 
-Le modifiche di massa richiedono l&#39;autenticazione. Quando selezionate un&#39;azione, il foglio di lavoro richiede di effettuare l&#39;accesso. Poiché il foglio di lavoro effettua chiamate API, devi configurarlo per la lettura della chiave segreta. And, the **[!UICONTROL Domain]** field lets you make bulk changes in a staging/test environment or against your live, production account.
+Le modifiche di massa richiedono l'autenticazione. Quando selezionate un'azione, il foglio di lavoro richiede di effettuare l'accesso. Poiché il foglio di lavoro effettua chiamate API, devi configurarlo per la lettura della chiave segreta. And, the **[!UICONTROL Domain]** field lets you make bulk changes in a staging/test environment or against your live, production account.
 
 ![](assets/bamauth.png)
 
 **Requisiti di autenticazione API**
 
-Per configurare l&#39;autenticazione API, devi:
+Per configurare l'autenticazione API, devi:
 
 * Copiate e salvate la chiave segreta in un file di testo (.txt).
-* Denominate il file di testo con il vostro ID client API. Ad esempio, se l&#39;ID client è «Bulk-User», salvate la chiave in un file denominato «Bulk-User. txt».
+* Denominate il file di testo con il vostro ID client API. Ad esempio, se l'ID client è «Bulk-User», salvate la chiave in un file denominato «Bulk-User. txt».
 * Salvate la chiave segreta e il foglio di lavoro nella stessa cartella.
 
-Quando apportate modifiche in massa, dovete comunque immettere un nome utente, una password, un ID client e un dominio, ma l&#39;autenticazione API è automatica.
+Quando apportate modifiche in massa, dovete comunque immettere un nome utente, una password, un ID client e un dominio, ma l'autenticazione API è automatica.
 
 **Opzioni di autenticazione del dominio**
 
-L&#39;autenticazione del dominio offre l&#39;opzione di sottoporre a test le richieste in blocco o di applicarle direttamente all&#39;account di produzione. Apportare modifiche in massa all&#39;ambiente di prova non influisce sull&#39;account di produzione. Le modifiche di produzione sono effettive immediatamente. **[!UICONTROL Domain]** Il campo accetta i seguenti indirizzi, a seconda dell&#39;ambiente in cui si desidera lavorare:
+L'autenticazione del dominio offre l'opzione di sottoporre a test le richieste in blocco o di applicarle direttamente all'account di produzione. Apportare modifiche in massa all'ambiente di prova non influisce sull'account di produzione. Le modifiche di produzione sono effettive immediatamente. **[!UICONTROL Domain]** Il campo accetta i seguenti indirizzi, a seconda dell'ambiente in cui si desidera lavorare:
 
 * Testing: `api-beta.demdex.com`
 * Produzione: `api.demdex.com`
