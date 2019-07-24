@@ -14,19 +14,19 @@ source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 # Ambiente beta {#beta-environment}
 
-L&#39;ambiente beta è per testare l&#39;implementazione di Audience Manager. Le modifiche apportate in beta non influiscono sui dati di produzione. Contatta il rappresentante delle soluzioni Partner Manager di Audience Manager se sei interessato all&#39;utilizzo dell&#39;ambiente Beta.
+L'ambiente beta è per testare l'implementazione di Audience Manager. Le modifiche apportate in beta non influiscono sui dati di produzione. Contatta il rappresentante delle soluzioni Partner Manager di Audience Manager se sei interessato all'utilizzo dell'ambiente Beta.
 
 ## Panoramica
 
-L&#39;ambiente beta è una replica esatta dell&#39;ambiente di produzione, senza funzioni sperimentali o non ancora rilasciate. Le credenziali di accesso dall&#39;ambiente di produzione sono valide nell&#39;ambiente beta.
+L'ambiente beta è una replica esatta dell'ambiente di produzione, senza funzioni sperimentali o non ancora rilasciate. Le credenziali di accesso dall'ambiente di produzione sono valide nell'ambiente beta.
 
 **Aggiorna pianificazione**
 
-L&#39;ambiente beta viene aggiornato alla fine di ogni mese durante il periodo di disattivazione.
+L'ambiente beta viene aggiornato alla fine di ogni mese durante il periodo di disattivazione.
 
 **Traffico in uscita**
 
-Il traffico in uscita non è abilitato per l&#39;ambiente Beta.
+Il traffico in uscita non è abilitato per l'ambiente Beta.
 
 <!-- 
 
@@ -38,22 +38,22 @@ Added re: AAM-30826.
 
 
 
-| Servizio | URL/Nome host | Come ottenere l&#39;accesso |
+| Servizio | URL/Nome host | Come ottenere l'accesso |
 |--- |--- | --- |
-| S3 | Contatta il rappresentante delle soluzioni Partner Manager Audience o l&#39;Assistenza clienti | Contatta il rappresentante delle soluzioni Partner Manager Audience o l&#39;Assistenza clienti per impostare un bucket Amazon S 3 per l&#39;istanza beta. Scopri i [vantaggi dell&#39;utilizzo di Amazon S 3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Consultate [Accesso al DCS nell&#39;ambiente Beta](../reference/beta-environment.md#access-dcs-beta-environment). |
-| Interfaccia | `https://bank-beta.demdex.com` | Le credenziali dell&#39;ambiente di produzione sono valide per l&#39;ambiente beta. |
-| API | `https://api-beta.demdex.com/...` | Le credenziali dell&#39;ambiente di produzione sono valide per l&#39;ambiente beta. Vi consigliamo di creare un utente API generico, [consultate i dettagli](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| S3 | Contatta il rappresentante delle soluzioni Partner Manager Audience o l'Assistenza clienti | Contatta il rappresentante delle soluzioni Partner Manager Audience o l'Assistenza clienti per impostare un bucket Amazon S 3 per l'istanza beta. Read about the [advantages of using Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | See [Accessing the DCS in the Beta Environment](../reference/beta-environment.md#access-dcs-beta-environment). |
+| Interfaccia | `https://bank-beta.demdex.com` | Le credenziali dell'ambiente di produzione sono valide per l'ambiente beta. |
+| API | `https://api-beta.demdex.com/...` | Le credenziali dell'ambiente di produzione sono valide per l'ambiente beta. We recommend that you create a generic API user, [see details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## Accesso al DCS nell&#39;ambiente Beta {#access-dcs-beta-environment}
+## Accessing the DCS in the Beta Environment {#access-dcs-beta-environment}
 
-1. Eseguire una chiamata DCS utilizzando il [comando curl](https://curl.haxx.se/docs/manpage.html). Curl è uno strumento che consente di trasferire dati da o su un server utilizzando uno dei numerosi protocolli supportati.
+1. Make a DCS call, using the curl [command](https://curl.haxx.se/docs/manpage.html). Curl è uno strumento che consente di trasferire dati da o su un server utilizzando uno dei numerosi protocolli supportati.
 
    Ad esempio:
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Verifica che la richiesta sia stata trasmessa dal DCS beta cercando «sandbox» nell&#39;intestazione della risposta DCS.
+1. Verifica che la richiesta sia stata trasmessa dal DCS beta cercando «sandbox» nell'intestazione della risposta DCS.
 
    Ad esempio:
 
