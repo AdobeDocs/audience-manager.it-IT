@@ -11,25 +11,25 @@ source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
 ---
 
 
-# File di controllo trasferimento per trasferimenti di file di registro {#transfer-control-files-for-log-file-transfers}
+# Transfer-Control Files for Log File Transfers {#transfer-control-files-for-log-file-transfers}
 
-I file transfer-control ([!DNL .info]) forniscono informazioni sui metadati sui trasferimenti di file, in modo che i partner possano verificare che Audience Manager sia stato gestito correttamente.
+Transfer-control ([!DNL .info]) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
 
-[!DNL Audience Manager] invia un file di controllo trasferimento a un partner con ogni trasferimento di file. A causa della natura multi thread dell&#39; [!DNL FTP] editore, il file di controllo del trasferimento potrebbe essere inviato prima che i file effettivi vengano trasferiti.
+[!DNL Audience Manager] invia un file di controllo trasferimento a un partner con ogni trasferimento di file. Due to the multi-thread nature of the [!DNL FTP] publisher, the transfer-control file might be sent before the actual files are finished transferring.
 
-I metadati del [!DNL .info] file consentono ai partner di:
+The metadata in the [!DNL .info] file lets partners:
 
 * Determinare quando è completato un ciclo di trasferimento completo (il numero totale di file nella sequenza è stato consegnato);
 * Determinare se un determinato file nella sequenza è completo o corretto (verificando la dimensione del file in byte e il numero totale di righe);
 * Convalidate il numero di righe in file grezzi per calcolare il numero di righe dopo che i file sono stati caricati nel database sulla fine ricevente (dimensione del file nelle righe).
 
-## Convenzioni di denominazione dei file {#file-naming-conventions}
+## File Naming Conventions {#file-naming-conventions}
 
-Il file di controllo del trasferimento ha lo stesso nome della directory principale del batch/sequenza con l&#39;estensione [!DNL .info] di un file.
+The transfer-control file has the same name as the root of the batch/sequence with a [!DNL .info] file extension.s
 
-Ad esempio, se il primo file della sequenza è stato denominato: [!DNL ftp_12345_67890_full_1500727351632-1.sync], il file di controllo viene denominato [!DNL ftp_12345_67890_iter_1500727351632.info].
+For example, if the first file in the sequence were named: [!DNL ftp_12345_67890_full_1500727351632-1.sync], the control file would be named [!DNL ftp_12345_67890_iter_1500727351632.info].
 
-## Formato file {#file-format}
+## File Format {#file-format}
 
 ```
 {
@@ -74,7 +74,7 @@ Ad esempio, se il primo file della sequenza è stato denominato: [!DNL ftp_12345
 
 >[NOTA]
 >
-> I numeri totali in batch sono esclusivamente [!DNL .info] del file stesso. ovvero, i totali non includono [!DNL .info] il file, le sue dimensioni del byte o il relativo conteggio delle linee.
+> The batch total numbers are exclusive of the [!DNL .info] file itself. That is, the totals do not include the [!DNL .info] file, its byte size, or its line count.
 >
 > Le dimensioni dei file e i conteggi di riga sono inclusi di qualsiasi intestazione e riga (vuoto) righe/righe. Per ottenere il conteggio di righe/righe dati effettive, sottrarre intestazioni.
 >
