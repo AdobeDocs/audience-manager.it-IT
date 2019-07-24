@@ -11,19 +11,19 @@ source-git-commit: e206d3a3cba259dc215f2f4190c9b4e03264f080
 ---
 
 
-# Sincronizzazione ID per trasferimenti di dati in uscita{#id-synchronization-for-outbound-data-transfers}
+# ID Synchronization for Outbound Data Transfers{#id-synchronization-for-outbound-data-transfers}
 
-Descrive la sintassi e i parametri utilizzati nella chiamata iniziale `HTTP` per sincronizzare gli ID utente tra Audience Manager e un provider di dati terze parti. Contatta il tuo consulente Adobe Audience Manager prima di tentare la prima sincronizzazione ID.
+Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between Audience Manager and a third-party data provider. Contatta il tuo consulente Adobe Audience Manager prima di tentare la prima sincronizzazione ID.
 
 <!-- c_id_sync_out.xml -->
 
 ## Scopo della sincronizzazione ID
 
-La sincronizzazione ID è il primo passaggio nel processo di trasferimento dati asincrono e in uscita. In questo passaggio [!DNL Audience Manager] , il fornitore confronta e confronta gli ID con i rispettivi visitatori del sito. Ad esempio, un [!DNL Audience Manager] cliente potrebbe conoscere un utente per ID 123. Tuttavia, il tuo partner dati potrebbe identificare questo utente con ID 456. Il processo di sincronizzazione consente [!DNL Audience Manager] a un fornitore di dati di riconciliare i diversi ID e identificare gli utenti nei rispettivi sistemi. Una volta completato, [!DNL Audience Manager] il provider di dati di terze parti deve avere ID corrispondenti per ogni utente unico visualizzato sulle nostre reti.
+La sincronizzazione ID è il primo passaggio nel processo di trasferimento dati asincrono e in uscita. In this step, [!DNL Audience Manager] and the vendor compare and match IDs for their respective site visitors. For example, an [!DNL Audience Manager] customer may know a user by ID 123. Tuttavia, il tuo partner dati potrebbe identificare questo utente con ID 456. The synchronization process allows [!DNL Audience Manager] and a data vendor to reconcile these different IDs and identify users in their respective systems. Once complete, [!DNL Audience Manager] and the third-party data provider should have corresponding IDs for each unique user seen on our networks.
 
 ## Sintassi URL
 
-In uno scambio ID, una stringa formattata [!DNL URL] correttamente deve essere simile al seguente:
+In an ID exchange, a properly formatted [!DNL URL] string should look like this:
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
@@ -31,7 +31,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 
 ## Parametri URL
 
-La [!DNL URL] chiamata per la sincronizzazione ID in entrata deve contenere variabili descritte nella tabella seguente.
+The [!DNL URL] for your inbound ID synchronization call should contain variables described in the table below.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ La [!DNL URL] chiamata per la sincronizzazione ID in entrata deve contenere vari
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>&lt; ID_ ID &gt;</i></code> </td> 
-   <td colname="col2">ID univoco per il provider di dati (assegnato da <span class="keyword"> Audience Manager</span>). </td> 
+   <td colname="col2">Unique ID for the data provider (assigned by <span class="keyword"> Audience Manager</span>). </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>&lt; ID_ UUID &gt;</i></code> </td> 
@@ -55,12 +55,12 @@ La [!DNL URL] chiamata per la sincronizzazione ID in entrata deve contenere vari
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>&lt; REDIRECT_ URL &gt;</i></code> </td> 
-   <td colname="col2">Un URL codificato viene reindirizzato con la macro <code> $ {DD_ UUID}</code> incorporata al suo interno. <p><b>Nota:</b> Aggiunto solo quando il provider di dati avvia la chiamata. </p> </td> 
+   <td colname="col2">An encoded URL redirect with the macro <code> ${DD_UUID}</code> embedded within it. <p><b>Nota:</b> Aggiunto solo quando il provider di dati avvia la chiamata. </p> </td> 
   </tr> 
     </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr = &lt; 0|1 &gt;</i></code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR apply).</p><p><b>Nota:</b> <ul><li>I parametri <code>gdpr</code> e <code>gdpr_ permission</code> vengono gradualmente rollout negli URL di sincronizzazione ID con partner di attivazione. Consultate Partner di attivazione che supportano IAB TCF nel <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">plug-in Audience Manager per IAB TCF.</a></li><li>Questo parametro può essere utilizzato solo insieme a <code>gdpr_ permission.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> can be 0 (GDPR does not apply) or 1 (GDPR apply).</p><p><b>Nota:</b> <ul><li>The <code>gdpr</code> and <code>gdpr_consent</code> parameters are being gradually rolled out in ID sync URLs with activation partners. See Activation partners that support IAB TCF in <a href="../../overview/aam-gdpr/aam-iab-plugin.md#aam-activation-partners">Audience Manager Plug-in for IAB TCF.</a></li><li>This parameter can only be used together with <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
