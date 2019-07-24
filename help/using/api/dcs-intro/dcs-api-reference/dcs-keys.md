@@ -11,13 +11,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Attributi supportati per chiamate API DCS {#supported-attributes-for-dcs-api-calls}
+# Supported Attributes for DCS API Calls {#supported-attributes-for-dcs-api-calls}
 
-Elenca e descrive la sintassi e gli attributi supportati (o coppie chiave-valore) che puoi trasmettere a [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). Queste informazioni possono essere utili per formattare [!UICONTROL DCS] le richieste e comprendere i parametri restituiti dal sistema.
+Lists and describes the syntax and supported attributes (or key-value pairs) you can pass in to the [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). This information can help you format your [!UICONTROL DCS] requests and understand the parameters returned by this system.
 
-## Prefissi attributi {#attribute-prefixes}
+## Attribute Prefixes {#attribute-prefixes}
 
-I [!UICONTROL DCS] prerequisiti richiedono prefissi specifici aggiunti alle chiavi in coppie chiave-valore per classificare il tipo di dati in fase di trasferimento.
+The [!UICONTROL DCS] relies on specific prefixes added to the keys in key-value pairs to classify the type of data you're passing in.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -41,14 +41,14 @@ I [!UICONTROL DCS] prerequisiti richiedono prefissi specifici aggiunti alle chia
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Attributi privati definiti dal cliente. </p> <p> Il DCS accetta i dati privati quando la chiave ha un <code> p_</code> prefix. I dati privati vengono utilizzati per la valutazione delle caratteristiche, ma non saranno registrati o memorizzati nel sistema. Ad esempio, supponiamo che sia presente una caratteristica definita <code> come customers = p_ age &lt; 25</code> e passate <code> in p_ age = 23</code> in una chiamata dell'evento. Considerate queste condizioni, l'utente che soddisfa i criteri di qualificazione basati su age è idoneo per la caratteristica, ma la coppia chiave-valore viene rilasciata dopo <span class="keyword"> che Audience Manager</span> riceve la richiesta e non viene registrato. </p> </td>
+   <td colname="col2"> <p>Attributi privati definiti dal cliente. </p> <p> The DCS accepts your own, private data when the key has a <code> p_</code> prefix. I dati privati vengono utilizzati per la valutazione delle caratteristiche, ma non saranno registrati o memorizzati nel sistema. For example, lets say you have a trait defined as <code> customers = p_age&lt;25</code> and you pass in <code> p_age=23</code> in an event call. Given these conditions, the user who meets the age-based qualification criteria qualifies for the trait, but the key-value pair is dropped after <span class="keyword"> Audience Manager</span> receives the request and is not logged. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ## d_ Attributes {#d-attributes}
 
-Tutti questi elementi sono facoltativi, a meno che non desideriate una risposta dall &#39; [!UICONTROL DCS]. Se desiderate [!UICONTROL DCS] restituire una risposta, è `d_rtbd=json` necessario.
+All of these are optional, unless you want a response from the [!UICONTROL DCS]. If you want the [!UICONTROL DCS] to return a response, then `d_rtbd=json` is required.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
@@ -60,15 +60,15 @@ Tutti questi elementi sono facoltativi, a meno che non desideriate una risposta 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><code> d_ caller</code> </p> </td> 
-   <td colname="col2"> <p>Utilizzato per identificare il chiamante che sta effettuando la chiamata all'API <span class="wintitle"> DCS</span> . </p> </td> 
+   <td colname="col2"> <p>Used to identify the caller who is making the call to the <span class="wintitle"> DCS</span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cb</code> </p> </td> 
-   <td colname="col2"> <p>Specifica una funzione javascript da eseguire utilizzando la <span class="wintitle"> risposta DCS</span> come parametro di funzione della funzione callback. </p> </td> 
+   <td colname="col2"> <p>Specifies a JavaScript function you want to execute using the <span class="wintitle"> DCS</span> response as a function parameter of the callback function. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Contiene una o più coppie di ID di fornitori di dati (<code> DPID</code>) e ID utente (<code> DPUUID</code>) assegnati da <span class="keyword"> Audience Manager</span>. Se utilizzate più coppie di <code> DPID</code>e <code> dpuuid</code>, separate ciascuna coppia con il carattere non stampabile <code> % 01</code>. Ad esempio: <code><i>DPID</i>% 01<i>DPUUUID</i></code>. </p> <p><code> d_ cid</code> sostituisce <code> d_ dpid</code> e <code> d_ dpuuid</code>, che sono obsoleti ma continuano a essere supportati. Consultate <a href="../../../reference/cid.md">CID sostituisce DPID e DPUUID</a> </p> </td>
+   <td colname="col2"> <p>Contains one or more pairs of data provider IDs (<code> DPID</code>) and data provider user IDs (<code> DPUUID</code>) assigned by <span class="keyword"> Audience Manager</span>. If you use multiple pairs of <code> DPID</code>s and <code> DPUUID</code>s, separate each pair with the non-printing character <code> %01</code>. For example: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_ cid</code> sostituisce <code> d_ dpid</code> e <code> d_ dpuuid</code>, che sono obsoleti ma continuano a essere supportati. Consultate <a href="../../../reference/cid.md">CID sostituisce DPID e DPUUID</a> </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_ cid_ ic</code> </p> </td> 
@@ -76,11 +76,11 @@ Tutti questi elementi sono facoltativi, a meno che non desideriate una risposta 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ coppa</code> </p> </td> 
-   <td colname="col2"> <p>Disattivazione dell'utilizzo dei cookie di terze parti per conformarsi alle normative sulla protezione secondarie. Questo parametro viene impostato in modo dinamico dal servizio Adobe Experience Cloud ID e dipende dalla <code> configurazione idsyncdisable 3 rdpartysyncing</code> . Consulta <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> Supporto COPPA nel servizio Experience Cloud ID</a>. </p> </td>
+   <td colname="col2"> <p>Disattivazione dell'utilizzo dei cookie di terze parti per conformarsi alle normative sulla protezione secondarie. This parameter is dynamically set by the Adobe Experience Cloud ID service and depends on the <code> idSyncDisable3rdPartySyncing</code> configuration. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> COPPA Support in the Experience Cloud ID Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_ cts = 1</code> </p> <p><code> d_ cts = 2</code> </p> </td> 
-   <td colname="col2"> <p>Facoltativo. Abilitata sulla richiesta del cliente. Contatta il tuo consulente Adobe Audience Manager o l'Assistenza clienti. </p> <p>Indica che le caratteristiche e i segmenti devono essere restituiti all'interno della <code> risposta JSON</code> . </p> <p> 
+   <td colname="col2"> <p>Facoltativo. Abilitata sulla richiesta del cliente. Contatta il tuo consulente Adobe Audience Manager o l'Assistenza clienti. </p> <p>Indicates that traits and segments should be returned inside the <code> JSON</code> response. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
       <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_ cts = 1</code> restituisce <a href="../../../reference/ids-in-aam.md"> ID segmento precedenti</a> per i segmenti. </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_ cts = 2</code> restituisce ID segmento per i segmenti. </p> </li>
@@ -90,15 +90,15 @@ Tutti questi elementi sono facoltativi, a meno che non desideriate una risposta 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ dpid</code> </p> </td> 
-   <td colname="col2"> <p>Obsoleto. Vedere <code> d_ cid</code> e <code> d_ cid_ ic</code>. </p> </td> 
+   <td colname="col2"> <p>Obsoleto. See <code> d_cid</code> and <code> d_cid_ic</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ dpuuid</code> </p> </td> 
-   <td colname="col2"> <p>Obsoleto. Vedere <code> d_ cid</code> e <code> d_ cid_ ic</code>. </p> </td> 
+   <td colname="col2"> <p>Obsoleto. See <code> d_cid</code> and <code> d_cid_ic</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ dst = 1</code> </p> </td> 
-   <td colname="col2"> <p>Restituisce dati di destinazione URL nella risposta <code> JSON</code> . </p> </td> 
+   <td colname="col2"> <p>Returns URL destination data in the <code> JSON</code> response. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ dst_ filter</code> </p> </td> 
@@ -106,15 +106,15 @@ Tutti questi elementi sono facoltativi, a meno che non desideriate una risposta 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ jsonv = 1|0</code> </p> </td> 
-   <td colname="col2"> <p>Indica la versione <code> JSON</code> da utilizzare nella risposta. Normalmente, impostate questo valore su <code> d_ jsonv = 1</code>. L'impostazione <code> d_ jsonv = 0</code> disabilita le sincronizzazioni ID. </p> </td> 
+   <td colname="col2"> <p>Indicates the <code> JSON</code> version to use in the response. Normally, you should set this to <code> d_jsonv=1</code>. Setting <code> d_jsonv=0</code> disables ID syncs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Specifica il set Experience Cloud ID impostato e utilizzato <span class="keyword"> dal servizio Experience Cloud</span> ID. Per ulteriori informazioni sull'ECID, vedi <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cookies.html" format="https" scope="external"> Cookie e Experience Cloud ID</a>. </p> </td> 
+   <td colname="col2"> <p>Specifies the Experience Cloud ID set and used by the <span class="keyword"> Experience Cloud</span> ID service. For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ nsid</code> </p> </td> 
-   <td colname="col2"> <p>ID spazio. Indica quale contenitore javascript è utilizzato. Utilizzato da <span class="wintitle"> DIL</span> a scopo di sincronizzazione ID. </p> </td> 
+   <td colname="col2"> <p>ID spazio. Indica quale contenitore javascript è utilizzato. Used by <span class="wintitle"> DIL</span> to for id-syncing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ ptfm </code> </p> </td> 
@@ -132,10 +132,10 @@ Tutti questi elementi sono facoltativi, a meno che non desideriate una risposta 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ rtbd = json</code> </p> </td> 
-   <td colname="col2"> <p>Richiesto se desiderate una risposta <code> JSON</code> dal <span class="wintitle"> DCS</span>. </p> <p> 
+   <td colname="col2"> <p>Required if you want a <code> JSON</code> response from the <span class="wintitle"> DCS</span>. </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
-      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Se si omette questo valore, <span class="wintitle"> il DCS</span> restituisce un pixel nell'intestazione. </li> 
-      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">In tal caso, <span class="wintitle"> il DCS</span> restituisce un <code> oggetto JSON</code> nel corpo della risposta. Vedere l'esempio seguente. La risposta potrebbe essere più complessa. </li> 
+      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">If you omit this, the <span class="wintitle"> DCS</span> returns a pixel in the header. </li> 
+      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">If you include this, the <span class="wintitle"> DCS</span> returns a <code> JSON</code> object in the body of the response. Vedere l'esempio seguente. La risposta potrebbe essere più complessa. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">{"stuff": [], "uuid": " 22920112968019678612904394744954398990 "," dcs_ region ": 7, "tid": " ss 3 otqpiqp 0 = "} </code>
   </p> </td> 
@@ -149,20 +149,20 @@ Tutti questi elementi sono facoltativi, a meno che non desideriate una risposta 
    <td colname="col2"> <p>Trasmette un'origine dati per la valutazione delle caratteristiche. Vengono valutate solo le caratteristiche provenienti da questa origine dati. </p> <p>Ad esempio, supponiamo che: </p> <p> 
      <ul id="ul_6230777E16C14DCB83025A101A4ECA14"> 
       <li id="li_71F3970417BC4B93881A3E12DADE4120"><b>Caratteristica T 1</b> con: </li> 
-      <li id="li_66125E035F524A958C6F4BFAABA2A0D2">Regola caratteristica: "<code> key 1 = = val 1</code>" </li> 
-      <li id="li_4EE486E02CF54AEA876ABC005094E9E4">Origine dati (<a href="../../../reference/ids-in-aam.md"> DPID</a>): 1 </li> 
+      <li id="li_66125E035F524A958C6F4BFAABA2A0D2">Trait rule: "<code> key1 == val1</code>" </li> 
+      <li id="li_4EE486E02CF54AEA876ABC005094E9E4">Data Source (<a href="../../../reference/ids-in-aam.md"> DPID</a>): 1 </li> 
       <li id="li_3E6BBDEAE5C644C6A96CB49766CDA988">Codice integrazione DPID: ic 1 </li> 
      </ul> 
      <ul id="ul_0C30A8AE349D43A08490DA76CB4B06FA"> 
       <li id="li_F1E8DB26168B471FA35D82F4DD3AC601"><b>Caratteristica T 2</b> con: </li> 
-      <li id="li_1C943F84A4A149A0A86ABC92761D3E9E">Regola caratteristica: "<code> key 2 = = val 2</code>" </li> 
+      <li id="li_1C943F84A4A149A0A86ABC92761D3E9E">Trait rule: "<code> key2 == val2</code>" </li> 
       <li id="li_F2AA086C87B7484F8BFE1D5C09E8EBDF">Origine dati (DPID): 2 </li> 
       <li id="li_877CAAAE996A4707BEE74F7042708481">Codice integrazione DPID: ic 2 </li> 
-     </ul> </p> <p>In una chiamata di esempio, <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid=1</code>, viene restituito solo T 1. </p> </td> 
+     </ul> </p> <p>In a sample call, <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid=1</code>, only trait T1 is returned. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_ tdpid_ ic</code> </p> </td> 
-   <td colname="col2"> <p>Lo scopo è identico al parametro <code> d_ tdpid</code> descritto in precedenza. In questo caso, tuttavia, l'origine dati viene trasmessa utilizzando il codice di integrazione. </p> <p>Tenendo le caratteristiche descritte qui sopra, prendete in considerazione la chiamata di esempio: </p> <p>Per <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code>viene restituito solo T 2. </p> </td> 
+   <td colname="col2"> <p>The purpose is identical to the <code> d_tdpid</code> parameter described above. In questo caso, tuttavia, l'origine dati viene trasmessa utilizzando il codice di integrazione. </p> <p>Tenendo le caratteristiche descritte qui sopra, prendete in considerazione la chiamata di esempio: </p> <p>For <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code>, only trait T2 is returned. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ uuid</code> </p> </td> 
