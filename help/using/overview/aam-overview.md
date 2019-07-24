@@ -11,13 +11,13 @@ source-git-commit: f87a6f6c79a01c23608e4f5be24d017894e1c541
 ---
 
 
-# Panoramica di Audience Manager {#audience-manager-overview}
+# Audience Manager Overview {#audience-manager-overview}
 
 Audience Manager consente di riunire le risorse dati relative al pubblico, semplificando la raccolta di informazioni commerciali sui visitatori del sito, la creazione di segmenti commercializzabili e la trasmissione di pubblicità e contenuti mirati al pubblico giusto. Inoltre, Audience Manager offre facilità di implementazione e gestione dei tag grazie alla solida raccolta, controllo e protezione dei dati.
 
-Con Audience Manager, non sei legato a un venditore di dati, a uno scambio o a una piattaforma lato domanda. Inoltre, Audience Manager è totalmente agnostico quando si tratta delle risorse dati dei nostri partner. Con l&#39;accesso a più origini dati, Audience Manager offre agli editori digitali la possibilità di utilizzare un&#39;ampia gamma di dati di terze parti oltre alla nostra cooperativa privata. Parla con il nostro team Soluzioni Partner per informazioni su come prendere decisioni intelligenti e precise sul pubblico di destinazione.
+Con Audience Manager, non sei legato a un venditore di dati, a uno scambio o a una piattaforma lato domanda. Inoltre, Audience Manager è totalmente agnostico quando si tratta delle risorse dati dei nostri partner. Con l'accesso a più origini dati, Audience Manager offre agli editori digitali la possibilità di utilizzare un'ampia gamma di dati di terze parti oltre alla nostra cooperativa privata. Parla con il nostro team Soluzioni Partner per informazioni su come prendere decisioni intelligenti e precise sul pubblico di destinazione.
 
-## Cronologia e Sfondo {#history-and-background}
+## History and Background {#history-and-background}
 
 Audience Manager è iniziato come Demdex nel 2008. È stata acquisita da Adobe Systems nel 2011 e successivamente rinominata come Audience Manager.
 
@@ -27,13 +27,13 @@ c_history_and_background.xml
 
  -->
 
-## Cronologia {#history}
+## History {#history}
 
-Dal 2008, Audience Manager (già, [!UICONTROL Demdex]) è stato un pioniere nel mercato on-line della gestione dell&#39;audience. I servizi Audience Manager offrono strategie dinamiche per i dati online multicanale. La nostra piattaforma e i nostri servizi sono utilizzati da un array di settori diversi (autotrader), dalle compagnie aeree (American Airlines) e dalle aziende di servizi finanziari (American Express). Audience Manager usa tecnologie a livello di enterprise per fornire la scala, l&#39;affidabilità, le analisi e le prestazioni per rendere il business più efficace online. Audience Manager si integra con Adobe Experience Cloud per aiutarti a centralizzare, gestire e intervenire sulle tue risorse dati su un numero sempre maggiore di canali di indirizzamento digitale.
+Since 2008, Audience Manager (formerly, [!UICONTROL Demdex]) has been a pioneer in the on-line audience management market. I servizi Audience Manager offrono strategie dinamiche per i dati online multicanale. La nostra piattaforma e i nostri servizi sono utilizzati da un array di settori diversi (autotrader), dalle compagnie aeree (American Airlines) e dalle aziende di servizi finanziari (American Express). Audience Manager usa tecnologie a livello di enterprise per fornire la scala, l'affidabilità, le analisi e le prestazioni per rendere il business più efficace online. Audience Manager si integra con Adobe Experience Cloud per aiutarti a centralizzare, gestire e intervenire sulle tue risorse dati su un numero sempre maggiore di canali di indirizzamento digitale.
 
-## Audience Manager e la relativa piattaforma di gestione dati (DMP) {#aam-dmp}
+## Audience Manager and its Data Management Platform (DMP) {#aam-dmp}
 
-Audience Manager ti aiuta a gestire la tua pipeline dati. Il nostro servizio è un catalizzatore che trasforma utenti generici e segnali dati grezzi in segmenti di audience effettivi utilizzati per attività di marketing multicanale. Inoltre, Audience Manager offre strumenti per la gestione tag e l&#39;analisi dell&#39;audience, allo stesso modo in cui si tengono contemporaneamente le esigenze di privacy e tutela dei dati di client e consumatori.
+Audience Manager ti aiuta a gestire la tua pipeline dati. Il nostro servizio è un catalizzatore che trasforma utenti generici e segnali dati grezzi in segmenti di audience effettivi utilizzati per attività di marketing multicanale. Inoltre, Audience Manager offre strumenti per la gestione tag e l'analisi dell'audience, allo stesso modo in cui si tengono contemporaneamente le esigenze di privacy e tutela dei dati di client e consumatori.
 
 ![](assets/am_overview_80.png)
 
