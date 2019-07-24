@@ -25,13 +25,13 @@ faq_reports.xml
 
 **Per le nuove caratteristiche caricate, perché[!UICONTROL Trait Graph]talvolta la visualizzazione è inferiore ai numeri previsti o 0?**
 
-A volte, dopo aver caricato le caratteristiche, i [!UICONTROL Trait Graph] risultati non vengono visualizzati o visualizzati inferiore a quelli previsti. Questo avviene quando il volume di dati ricevuti è molto elevato che il processo di elaborazione in ingresso non può terminare l&#39;assimilazione di queste informazioni fino alla scadenza del rapporto di quel giorno.
+Sometimes, after you upload traits, the [!UICONTROL Trait Graph] doesn't show any results or shows lower than expected numbers. Questo avviene quando il volume di dati ricevuti è molto elevato che il processo di elaborazione in ingresso non può terminare l'assimilazione di queste informazioni fino alla scadenza del rapporto di quel giorno.
 
-As a result, this data is sent to the reporting system late and won&#39;t show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. Tuttavia, potete visualizzare tali dati negli intervalli dei report 7, 14, 30 e 60 giorni in [una Tendenza](../reporting/trend-reports.md#trend-report-overview) o [in un Rapporto](../reporting/general-reports.md#general-reports-overview) generale il giorno seguente.
+As a result, this data is sent to the reporting system late and won't show up in the 1-day reporting interval which is used for plotting the [!UICONTROL Trait Graph]. However, you can view this data in the 7, 14, 30, and 60-day report intervals in a [Trend](../reporting/trend-reports.md#trend-report-overview) or [General Report](../reporting/general-reports.md#general-reports-overview) on the following day.
 
 <br> 
 
-**Alcuni segmenti mancano da un[!UICONTROL Overlap]rapporto. Dove sono?**
+**Alcuni segmenti mancano da un[!UICONTROL Overlap]rapporto. Where are they?**
 
 Per ridurre la richiesta computazionale, questi report omettono dati statisticamente insignificanti dai risultati. I segmenti non mancano, sono semplicemente rilasciati perché non producono risultati significativi o utili pool di utenti che potete destinare. Vedi anche:
 
@@ -42,15 +42,15 @@ Per ridurre la richiesta computazionale, questi report omettono dati statisticam
 
 **Se esegui una campagna di marketing e-mail, come posso determinare se gli utenti reindirizzati arrivano al mio sito da quella campagna o da altre fonti?**
 
-Aggiungete una stringa query specifica per la campagna all&#39;URL della sezione del sito da monitorare. Quindi, impostate una regola di caratteristica per acquisire questa variabile. Ad esempio, se l&#39;URL passa in un ID campagna come questo, `www.test123.com/electronics?campaign=123`create una regola caratteristica per acquisire quei dati dalla `h_referer` variabile con una regola caratteristica che cerca un&#39;intestazione come `h_referer = 'campaign=123'`).
+Aggiungete una stringa query specifica per la campagna all'URL della sezione del sito da monitorare. Quindi, impostate una regola di caratteristica per acquisire questa variabile. For example, if your URL passes in a campaign ID like this, `www.test123.com/electronics?campaign=123`, then create a trait rule to capture that data from the `h_referer` variable with a trait rule that looks for a header like `h_referer = 'campaign=123'`).
 
 <br> 
 
 **Qual è la differenza tra i conteggi di popolazione in tempo reale e totale?**
 
-* **Tempo reale:** Il numero di utenti unici che fanno parte del segmento e attivi sulle proprietà durante un periodo di tempo impostato (ovvero, deve aver [!DNL Audience Manager] registrato l&#39;attività per quell&#39;utente per il periodo di tempo specificato).
+* **Tempo reale:** Il numero di utenti unici che fanno parte del segmento e attivi sulle proprietà durante un periodo di tempo impostato (ovvero, deve aver [!DNL Audience Manager] registrato l'attività per quell'utente per il periodo di tempo specificato).
 
-* **Popolazione segmento totale:** Un&#39;aggregazione di tutti gli utenti attualmente classificati in tale segmento.
+* **Popolazione segmento totale:** Un'aggregazione di tutti gli utenti attualmente classificati in tale segmento.
 
 <!-- 
 
@@ -63,7 +63,7 @@ Aggiungete una stringa query specifica per la campagna all&#39;URL della sezione
 
 **Ho un segmento composto di una sola caratteristica. Quando visualizzi le metriche di reporting, i relativi conteggi non corrispondono. Perché?**
 
-Consulta [Caratteristiche e dati demografici segmenti in Segment Builder](../features/segments/segment-builder-data.md)(Generatore segmenti).
+See [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
 
 <br> 
 
@@ -80,29 +80,29 @@ Consulta [Caratteristiche e dati demografici segmenti in Segment Builder](../fea
 
 **I In entrata un file e la ricevuta in entrata mostrano un numero elevato di record elaborati con successo, ma i rapporti mostrano numeri molto più bassi. Perché?**
 
-Nel back-backend, i dati caricati vengono allegati solo agli utenti ancora attivi in AAM (l&#39;utente deve aver avuto attività recenti [!UICONTROL DCS] negli ultimi 120 giorni). Pertanto, se i dati per gli utenti che sono già scaduti sono [!DNL Audience Manager]già scaduti, [!UICONTROL Inbound] potrebbe essere necessario ricordare che alcuni record utente sono stati caricati, ma se questi utenti non hanno attività recenti, questi dati vengono ignorati al momento della creazione del report [!UICONTROL User Profile Store] .
+In the backend, onboarded data gets attached only to users that are still active in AAM (user must have had recent [!UICONTROL DCS] activity in the past 120 days). Therefore, if you onboard data for users that have already expired in [!DNL Audience Manager], [!UICONTROL Inbound] might tell you that a certain number of user records were onboarded, but if these users have not had any recent activity, this data is dropped when it reaches our [!UICONTROL User Profile Store] and reporting will surface that.
 
 <br> 
 
 **Perché le caratteristiche delle caratteristiche per la mia interazione con più dispositivi sono molto più alta rispetto al numero totale di record caricati?**
 
-Se distribuisci un file per un fornitore di dati cross-device che disabilita l&#39;ID cliente, Audience Manager esegue una ricerca per ottenere tutti gli ID dispositivo associati a ciascun ID cliente caricato. Audience Manager quindi assegna le caratteristiche caricate all&#39;ID dispositivo associato all&#39;ID cliente.
+Se distribuisci un file per un fornitore di dati cross-device che disabilita l'ID cliente, Audience Manager esegue una ricerca per ottenere tutti gli ID dispositivo associati a ciascun ID cliente caricato. Audience Manager quindi assegna le caratteristiche caricate all'ID dispositivo associato all'ID cliente.
 
 Ad esempio, supponiamo che siano stati caricati 100 record. Per ognuno di questi ID cliente, in media, AAM ha associato tre ID dispositivo. Di conseguenza, la caratteristica inserita è assegnata a 300 ID dispositivo.
 
 Esistono due motivi per cui un singolo ID cliente multi-dispositivo può essere associato a più ID dispositivo:
 
 * Gli utenti accedono allo stesso account cross-device da più computer/browser.
-* Gli utenti stanno cancellando i loro cookie. Nota: I cookie «Abbandonato» vengono eliminati dopo 120 giorni dall&#39;inattività dell&#39;utente.
+* Gli utenti stanno cancellando i loro cookie. Nota: I cookie «Abbandonato» vengono eliminati dopo 120 giorni dall'inattività dell'utente.
 
 <br> 
 
 **Perché[!UICONTROL Total Trait Realizations]per le mie caratteristiche dettagliate è sempre 0?**
 
-[!UICONTROL Total Trait Realizations] corrisponde alla pagina caricata. [!UICONTROL Total Trait Realizations] specifica il numero di volte in cui la caratteristica specifica è stata lanciata in tempo reale. Questo numero viene calcolato solo per le caratteristiche basate su regole. Le caratteristiche caricate vengono sempre visualizzate [!UICONTROL Total Trait Realizations] come 0.
+[!UICONTROL Total Trait Realizations] corrisponde alla pagina caricata. [!UICONTROL Total Trait Realizations] specifica il numero di volte in cui la caratteristica specifica è stata lanciata in tempo reale. Questo numero viene calcolato solo per le caratteristiche basate su regole. Onboarded traits always show [!UICONTROL Total Trait Realizations] as 0.
 
 <br> 
 
-**I create a trait and the[!UICONTROL Trait Graph]shows un numero più grande[!UICONTROL Unique Trait Realizations]di the[!UICONTROL Total Trait Population]. È normale?**
+**I create a trait and the[!UICONTROL Trait Graph]shows un numero più grande[!UICONTROL Unique Trait Realizations]di the[!UICONTROL Total Trait Population]. Is this normal?**
 
-Ciò si verifica perché le [!UICONTROL Unique Trait Realizations] metriche in tempo reale, ma i processi di reporting che facciamo per calcolare il [!UICONTROL Total Trait Population] numero non sono in tempo reale. Deve [!UICONTROL Total Trait Population] essere più grande [!UICONTROL Unique Trait Realizations] di un paio di giorni.
+You are seeing this because the [!UICONTROL Unique Trait Realizations] are real-time metrics, but the reporting jobs we do to calculate the [!UICONTROL Total Trait Population] are not real-time. The [!UICONTROL Total Trait Population] should be larger than the [!UICONTROL Unique Trait Realizations] within a couple of days.
