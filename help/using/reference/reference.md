@@ -12,7 +12,7 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 
 # Riferimenti
 
-Questa sezione contiene la documentazione tecnica sulla funzionalità di sistema, l&#39;integrazione dei dati e i file della guida. Alcune delle pagine di questa sezione sono:
+Questa sezione contiene la documentazione tecnica sulla funzionalità di sistema, l'integrazione dei dati e i file della guida. Alcune delle pagine di questa sezione sono:
 
 * [Strumenti di gestione collettiva](/help/using/reference/bulk-management-tools/bulk-management-intro.md)
 * [Componenti di sistema](/help/using/reference/system-components/components-overview.md)
