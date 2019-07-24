@@ -10,7 +10,7 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 ---
 
 
-# Panoramica sui componenti di sistema{#system-components-overview}
+# System Components Overview{#system-components-overview}
 
 Panoramica di alto livello dei principali componenti e dei flussi di dati nel sistema Audience Manager.
 
@@ -20,13 +20,13 @@ c_compintro.xml
 
  -->
 
-Questa guida fornisce una panoramica di base dei componenti principali di cui [!DNL Audience Manager]dispone. Viene scritto per:
+This guide provides a basic overview of the main components that power [!DNL Audience Manager]. Viene scritto per:
 
 * Lettori tecnici e non tecnici.
-* I clienti attuali [!DNL Audience Manager] sono curiosi di sapere come funziona tutti.
-* Potenziali [!DNL Audience Manager] clienti che devono valutare questo sistema nell&#39;ambito di una diligenza o di una richiesta di processo di presentazione.
+* Current [!DNL Audience Manager] customers curious about how it all works.
+* Potential [!DNL Audience Manager] customers who need to evaluate this system as part of a due diligence or request for proposal process.
 
-Questa guida cerca di trovare un compromesso tra le descrizioni generali e un&#39;implementazione approfondita. Tuttavia, alcune cose sono proprietarie e quindi non ci andremo. Dopo tutto, c&#39;è una salsa speciale rispetto a quella semplicemente mayonnaise e ketchup. We need to keeping the pickles a secret. Come sempre, potete rivolgervi al [!DNL Audience Manager] consulente in caso di domande.
+Questa guida cerca di trovare un compromesso tra le descrizioni generali e un'implementazione approfondita. Tuttavia, alcune cose sono proprietarie e quindi non ci andremo. Dopo tutto, c'è una salsa speciale rispetto a quella semplicemente mayonnaise e ketchup. We need to keeping the pickles a secret. As always, you can check with your [!DNL Audience Manager] consultant if you have any questions.
 
 * [Componenti chiave nel sistema Audience Manager](/help/using/reference/system-components/components-stack.md)
 * [Componenti azioni dati](/help/using/reference/system-components/components-data-action.md)
