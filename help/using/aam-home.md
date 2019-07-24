@@ -11,7 +11,7 @@ source-git-commit: d8a7f4125bc5dbf8b6eeb5b64efec7462da4c4e9
 ---
 
 
-# Documentazione di Audience Manager {#audience-manager-product-documentation}
+# Audience Manager Product Documentation {#audience-manager-product-documentation}
 
 Audience Manager fornisce servizi leader nel settore per la gestione online di dati sul pubblico. I nostri prodotti e servizi offrono a editori e inserzionisti digitali gli strumenti necessari per controllare e sfruttare le risorse di dati per favorire il successo delle vendite.
 
@@ -25,8 +25,8 @@ Audience Manager fornisce servizi leader nel settore per la gestione online di d
      <li><a href="overview/aam-gdpr/aam-iab-plugin.md">Plug-in di Audience Manager per IAB TCF</a> </li>
      <li><a href="features/administration/usage-limits.md#id-mapping-limits">Limiti di mappatura degli ID</a> </li>
      <li><a href="features/global-data-sources.md">Fonti di dati globali</a> </li> 
-     </ul> </p> <p>Vedere anche <a href="docs-updates/docs-2019.md"> 2019 aggiornamenti della documentazione</a>. </p> 
-     <p>Se non conosci Audience Manager, consulta il <a href="reference/aam-glossary.md"> nostro Glossario</a> e <a href= "reference/ids-in-aam.md">Indice degli ID.</a></p></td>
+     </ul> </p> <p>See also, <a href="docs-updates/docs-2019.md"> 2019 Documentation Updates</a>. </p> 
+     <p>If you are new to Audience Manager, see our <a href="reference/aam-glossary.md"> Glossary</a> and <a href= "reference/ids-in-aam.md">Index of IDs.</a></p></td>
    <td colname="col2"> <p> <b>Note sulla versione</b> </p> <p> 
      <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
       <li id="li_09C1CD15823E4AD7856CE40BE848E03F">Per conoscere le nuove funzioni e le correzioni, vedi le <a href="https://marketing.adobe.com/resources/help/en_US/whatsnew/" format="https" scope="external">note sulla versione di Experience Cloud</a> più recenti. </li> 
