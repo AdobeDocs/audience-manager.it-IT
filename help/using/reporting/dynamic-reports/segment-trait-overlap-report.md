@@ -17,7 +17,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra una caratteristica
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione in Audience Manager aderiscono ai principi RBAC. Puoi visualizzare solo segmenti e caratteristiche dalle origini dati a cui hai accesso in base al [gruppo](/help/using/features/administration/administration-overview.md) RBAC a cui appartieni.
+>I rapporti di sovrapposizione in Audience Manager aderiscono ai principi RBAC. You can only see segments and traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
 
 <!-- 
 
@@ -27,11 +27,11 @@ c_segment_trait_overlap.xml
 
 ## Panoramica
 
-Come strumento di ottimizzazione, i [!UICONTROL Segment to Trait Overlap] report consentono di creare segmenti altamente focalizzati o di espandere la portata dei segmenti. Ad esempio, potete creare segmenti e caratteristiche mirati con sovrapposizione elevata per raggiungere un pubblico specifico. Tuttavia, la sovrapposizione può comportare un numero minore di utenti univoci (meno raggiungibili). Questo rapporto consente di espandere la portata rimuovendo le caratteristiche con molti segmenti sovrapposti e sostituendo le caratteristiche con meno sovrapposizioni.
+As an optimization tool, the [!UICONTROL Segment to Trait Overlap] reports helps you build highly focused segments or expand segment reach. Ad esempio, potete creare segmenti e caratteristiche mirati con sovrapposizione elevata per raggiungere un pubblico specifico. Tuttavia, la sovrapposizione può comportare un numero minore di utenti univoci (meno raggiungibili). Questo rapporto consente di espandere la portata rimuovendo le caratteristiche con molti segmenti sovrapposti e sostituendo le caratteristiche con meno sovrapposizioni.
 
 ### Report di esempio
 
-La seguente illustrazione fornisce una panoramica di alto livello del [!UICONTROL Segment-to-Trait Overlap] rapporto.
+The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Trait Overlap] report.
 
 ![](assets/segment-to-trait-overlap.png)
 
@@ -39,7 +39,7 @@ La seguente illustrazione fornisce una panoramica di alto livello del [!UICONTRO
 
 Selezionate un singolo punto per visualizzare i dettagli dei dati in una finestra a comparsa. Le azioni di clic aggiornano automaticamente i dati visualizzati nel rapporto.
 
-## Confronto tra segmenti e caratteristiche {#comparing-segments-to-traits}
+## Comparing Segments to Traits {#comparing-segments-to-traits}
 
 Descrive come confrontare segmenti e caratteristiche per ricavare informazioni significative dai risultati.
 
@@ -57,7 +57,7 @@ Il diagramma seguente illustra la relazione tra una caratteristica e il segmento
 
 ![](assets/s2t.png)
 
-Il conteggio dei visitatori univoci è il valore comune costante condiviso tra queste diverse classi di oggetti. Di conseguenza, puoi determinare l&#39;unico rapporto visitatore tra di essi, come segue:
+Il conteggio dei visitatori univoci è il valore comune costante condiviso tra queste diverse classi di oggetti. Di conseguenza, puoi determinare l'unico rapporto visitatore tra di essi, come segue:
 
 * Il trait condivide il 30% dei visitatori unici con il segmento (3/10 = 0.30).
 * Il segmento condivide il 0.3% dei visitatori unici con la caratteristica (3/1,000 = 0.003)
@@ -80,12 +80,12 @@ La sovrapposizione tra caratteristiche e segmenti può aiutarti a stimare il poo
   </tr> 
   <tr> 
    <td colname="col1"><b>Trovare segmenti inefficienti</b> </td> 
-   <td colname="col2"> <p>Se una caratteristica fa parte di un <span class="wintitle"> gruppo AND</span> nella definizione di un segmento, i visitatori unici che hanno tale caratteristica sono già nel segmento e non sono disponibili per l'aggiunta al segmento. Puoi usare questo rapporto per trovare caratteristiche rilevanti con sovrapposizione bassa e aggiungerle alla definizione del segmento, aumentando quindi la portata di quel pool di pubblico. </p> </td> 
+   <td colname="col2"> <p>If a trait is part of an <span class="wintitle"> AND</span> group in a segment definition, the unique visitors who have that trait are already in the segment and not available for adding to the segment. Puoi usare questo rapporto per trovare caratteristiche rilevanti con sovrapposizione bassa e aggiungerle alla definizione del segmento, aumentando quindi la portata di quel pool di pubblico. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Comprendere i filtri dati nel rapporto di sovrapposizione segmento-caratteristica {#data-filters-s2t-report}
+## Understanding the Data Filters in the Segment-to-Trait Overlap Report {#data-filters-s2t-report}
 
 Descrive il funzionamento della caratteristica e dei cursori univoci di sovrapposizione %.
 
@@ -109,7 +109,7 @@ Nel diagramma seguente è illustrata la differenza tra uniques % e segmento unif
 
 ![](assets/s2t.png)
 
-## Campi pop-to-trait di dati definiti {#fields-defined}
+## Segment-to-Trait Data Pop Fields Defined {#fields-defined}
 
 Descrive le metriche visualizzate nella finestra popup quando si fa clic su un singolo punto dati.
 
@@ -119,7 +119,7 @@ r_s2t_data_pop.xml
 
  -->
 
-La finestra a comparsa del [!UICONTROL Segment-to-Trait Overlap] rapporto contiene le metriche riportate di seguito. Tieni presente che la metrica unificata nella tabella rappresenta gli *utenti in tempo reale*.
+The popup for the [!UICONTROL Segment-to-Trait Overlap] report contains the metrics below. Note that the uniques metric in the table represents your *real-time users*.
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
