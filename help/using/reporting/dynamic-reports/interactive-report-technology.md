@@ -13,7 +13,7 @@ source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
 
 # Report Technology{#report-technology}
 
-Descrive il software sottostante che attiva i rapporti interattivi e la pianificazione dell&#39;aggiornamento dei dati.
+Descrive il software sottostante che attiva i rapporti interattivi e la pianificazione dell'aggiornamento dei dati.
 
 <!-- 
 
@@ -23,7 +23,7 @@ c_report_technology.xml
 
 ## I report interattivi utilizzano Tableau Technology
 
-[!DNL Audience Manager] utilizza [il software Tableau](https://www.tableausoftware.com/) per visualizzare i dati nei rapporti interattivi. Con [!DNL Tableau]i rapporti, [!UICONTROL Delivery and Overlap] i rapporti possono essere utilizzati per essere utilizzati in modo visivo:
+[!DNL Audience Manager] utilizza [il software Tableau](https://www.tableausoftware.com/) per visualizzare i dati nei rapporti interattivi. With [!DNL Tableau], the [!UICONTROL Delivery and Overlap] reports use visual cues and symbols that help you:
 
 * Trova caratteristiche elevate e a bassa prestazioni.
 * Caratteristiche tinte piatte e segmenti con sovrapposizione visitatore bassa e alta.
@@ -32,11 +32,11 @@ c_report_technology.xml
 
 ## Pianificazione aggiornamento dati
 
-I dati del report vengono aggiornati settimanalmente ogni domenica. L&#39;aggiornamento elabora i dati da sabato (il giorno prima) alla domenica precedente.
+I dati del report vengono aggiornati settimanalmente ogni domenica. L'aggiornamento elabora i dati da sabato (il giorno prima) alla domenica precedente.
 
-## Forme, colori e dimensioni utilizzati nei report interattivi {#shapes-colors-sizes}
+## Shapes, Colors, and Sizes Used in Interactive Reports {#shapes-colors-sizes}
 
-La maggior parte dei rapporti interattivi visualizzano risultati con forme di dimensioni e colori diversi. Questo formato di visualizzazione è progettato per facilitare l&#39;interpretazione dei dati visivi, senza dover passare attraverso righe e colonne di numeri.
+La maggior parte dei rapporti interattivi visualizzano risultati con forme di dimensioni e colori diversi. Questo formato di visualizzazione è progettato per facilitare l'interpretazione dei dati visivi, senza dover passare attraverso righe e colonne di numeri.
 
 <!-- 
 
@@ -68,8 +68,8 @@ La tabella seguente definisce forme, dimensioni e colori utilizzati nei report d
    <td colname="col1"> <b>Colori</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Le tonalità rosse indicano <i>una sovrapposizione bassa</i> . </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Le tonalità verdi indicano <i>una sovrapposizione alta</i> . </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Red shades indicate <i>low</i> overlap. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Green shades indicate <i>high</i> overlap. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ La tabella seguente definisce forme, dimensioni e colori utilizzati nei report d
  </tbody> 
 </table>
 
-## Icone e strumenti per report descritti {#icons-tools-explained}
+## Report Icons and Tools Explained {#icons-tools-explained}
 
 Descrive come cercare e utilizzare le varie icone utilizzate nei rapporti dinamici.
 
@@ -91,7 +91,7 @@ r_icons.xml
 
 ### Icone e strumenti di dati
 
-Le seguenti icone sono disponibili nella parte inferiore di ciascuna finestra di rapporti dinamica. L&#39;illustrazione seguente fornisce ulteriori informazioni su questi strumenti.
+Le seguenti icone sono disponibili nella parte inferiore di ciascuna finestra di rapporti dinamica. L'illustrazione seguente fornisce ulteriori informazioni su questi strumenti.
 
 ![](assets/tools_icons90.png)
 
@@ -112,19 +112,19 @@ Selezionate questo strumento per annullare eventuali modifiche interattive event
 
 ### Aggiornamenti automatici
 
-I [!UICONTROL Delivery-Performance] rapporti e [!UICONTROL Trait-to-Trait Overlap] sono rapporti dinamici che rispondono e cambiano in base alle azioni di clic dell&#39;utente.
+The [!UICONTROL Delivery-Performance] and [!UICONTROL Trait-to-Trait Overlap] reports are dynamic reports that respond and change based on user click actions.
 
-Ad esempio, supponiamo di voler selezionare diversi inserzionisti nel [!UICONTROL Overlap] rapporto. Quando sono abilitati, gli aggiornamenti automatici iniziano a restituire dati non appena selezionate una casella di controllo. Questo comportamento dinamico può interrompere il flusso di lavoro perché dovete attendere fino al termine dell&#39;elaborazione prima di selezionare un altro inserzionista. Utilizzate questo strumento per disattivare la funzione (e riattivarla), a seconda delle necessità.
+For example, say you want to select several advertisers in the [!UICONTROL Overlap] report. Quando sono abilitati, gli aggiornamenti automatici iniziano a restituire dati non appena selezionate una casella di controllo. Questo comportamento dinamico può interrompere il flusso di lavoro perché dovete attendere fino al termine dell'elaborazione prima di selezionare un altro inserzionista. Utilizzate questo strumento per disattivare la funzione (e riattivarla), a seconda delle necessità.
 
 ### Aggiorna dati
 
-Fai clic sull&#39;icona di aggiornamento per eseguire un rapporto o ricaricare il set di dati. Quando gli aggiornamenti automatici sono disattivati, fate clic su Aggiorna per eseguire o aggiornare il rapporto.
+Fai clic sull'icona di aggiornamento per eseguire un rapporto o ricaricare il set di dati. Quando gli aggiornamenti automatici sono disattivati, fate clic su Aggiorna per eseguire o aggiornare il rapporto.
 
 ### Strumento Ricerca
 
-La ricerca è rappresentata da un&#39;icona della lente di ingrandimento generica (non visualizzata). Il campo di ricerca viene nascosto finché non fate clic sulle etichette di selezione sul lato sinistro della schermata. La tabella seguente descrive la posizione dello strumento di ricerca per ogni rapporto.
+La ricerca è rappresentata da un'icona della lente di ingrandimento generica (non visualizzata). Il campo di ricerca viene nascosto finché non fate clic sulle etichette di selezione sul lato sinistro della schermata. La tabella seguente descrive la posizione dello strumento di ricerca per ogni rapporto.
 
 | Report | Per cercare, passare il mouse su |
 |---|---|
-| [!UICONTROL Delivery and Performance] rapporto | Etichetta &quot;Nome creatore dell&#39;annuncio&quot;. |
-| [!UICONTROL Overlap] rapporti | Etichetta &quot;Nome SID&quot;. |
+| [!UICONTROL Delivery and Performance] rapporto | Etichetta "Nome creatore dell'annuncio". |
+| [!UICONTROL Overlap] rapporti | Etichetta "Nome SID". |
