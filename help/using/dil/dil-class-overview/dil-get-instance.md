@@ -12,9 +12,9 @@ source-git-commit: 128368669163097e604f6b23ab538341adcf8d7a
 ---
 
 
-# Getdil{#getdil}
+# getDil{#getdil}
 
-Recupera un&#39;istanza DIL specifica per il partner.
+Recupera un'istanza DIL specifica per il partner.
 
 **Firma funzione:**`getDil: function (partner, containerNSID) {}`
 
@@ -25,11 +25,11 @@ Recupera un&#39;istanza DIL specifica per il partner.
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `partner` | Stringa | Nome del partner da cercare. |
-| `containerNSID` | Intero | I valori predefiniti `0`sono. Il NSID del contenitore ricercato. Facoltativo. |
+| `containerNSID` | Intero | Defaults is `0`. Il NSID del contenitore ricercato. Facoltativo. |
 
 ## Risposta
 
-Un partner di successo e una corrispondenza NSID contenitore restituiscono [!UICONTROL DIL] un&#39;istanza specifica per il partner. In assenza di corrispondenza, l&#39;API restituisce (non genera) un errore con il messaggio &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+A successful partner and container NSID match returns a partner-specific [!UICONTROL DIL] instance. If there is no match, the API returns (does not throw) an error with the message, " `The DIL instance with partner <name> and containerNSID <ID> was not found.`"
 
 ## Codice di esempio
 
