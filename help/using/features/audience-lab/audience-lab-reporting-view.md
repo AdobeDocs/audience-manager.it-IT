@@ -12,11 +12,11 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Test dei rapporti di gruppo {#test-group-reporting}
+# Test Group Reporting {#test-group-reporting}
 
-La sezione di reporting dei gruppi di test restituisce informazioni sulle conversioni dei gruppi di test, consentendo un confronto semplice tra l&#39;efficacia dei segmenti di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
+La sezione di reporting dei gruppi di test restituisce informazioni sulle conversioni dei gruppi di test, consentendo un confronto semplice tra l'efficacia dei segmenti di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
 
-[!UICONTROL Audience Lab] restituisce informazioni di reporting dettagliate per i segmenti di prova creati e consente di salvare i dati di reporting come [!DNL CSV] file. Potete selezionare tra **[!UICONTROL Aggregate Reporting]** e **[!UICONTROL Trend Reporting]**.
+[!UICONTROL Audience Lab] restituisce informazioni di reporting dettagliate per i segmenti di prova creati e consente di salvare i dati di reporting come [!DNL CSV] file. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**.
 
 **[!UICONTROL Aggregate Reporting]** restituisce i numeri assoluti per i segmenti di prova. **[!UICONTROL Trend Reporting]** restituisce un grafico della tendenza *per un periodo specifico*. Quattro schede consentono di personalizzare i rapporti:
 
@@ -42,12 +42,12 @@ La sezione di reporting dei gruppi di test restituisce informazioni sulle conver
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Test Populations Population</span></b> </p> </td> 
-   <td colname="col2"> <p>Restituisce il numero di dispositivi appartenenti ai segmenti di prova. Passa dalla <b><span class="uicontrol"> popolazione totale</span></b> alla <b><span class="uicontrol"> popolazione in tempo reale</span></b>. La differenza è descritta nelle domande frequenti <a href="../../faq/faq-reporting.md"> sul rapporto</a> . </p> </td>
+   <td colname="col2"> <p>Restituisce il numero di dispositivi appartenenti ai segmenti di prova. Toggle between <b><span class="uicontrol"> Total Population</span></b> or <b><span class="uicontrol"> Real-time Population</span></b>. The difference is explained in the <a href="../../faq/faq-reporting.md"> Reporting FAQ</a> . </p> </td>
   </tr>
  </tbody>
 </table>
 
-Potete selezionare una caratteristica di conversione specifica per la quale generare il rapporto oppure selezionare tutte le caratteristiche combinate. Puoi definire un intervallo di date per il quale restituire le informazioni ed esportare il rapporto come [!DNL CSV] file.
+Potete selezionare una caratteristica di conversione specifica per la quale generare il rapporto oppure selezionare tutte le caratteristiche combinate. You can define a date range for which the information should be returned and export the report as a [!DNL CSV] file.
 
 >[!NOTE]
 >
@@ -55,10 +55,10 @@ Potete selezionare una caratteristica di conversione specifica per la quale gene
 >* Una conversione viene conteggiata solo per un dispositivo dopo la data di inizio di un test e dopo che il dispositivo è stato aggiunto a un segmento di prova. Se viene eseguita una conversione per quel dispositivo prima che gli venga assegnato un gruppo di test, la conversione non verrà conteggiata.
 
 
-Un grafico restituito **[!UICONTROL Aggregate Reporting]** potrebbe presentarsi come segue:
+A returned **[!UICONTROL Aggregate Reporting]** chart could look like this:
 
 ![](assets/aggregate-reporting.PNG)
 
-Un grafico restituito **[!UICONTROL Trend Reporting]** avrà un aspetto simile a quello riportato di seguito. Seleziona **[!UICONTROL Normalized]** nella casella di controllo se desideri ignorare i numeri assoluti e solo concentrarsi sulle tendenze dei segmenti di prova.
+A returned **[!UICONTROL Trend Reporting]** chart could look like the one below. Select **[!UICONTROL Normalized]** in the check box if you want to ignore the absolute numbers and simply focus on the test segments trends.
 
 ![](assets/trend-reporting.PNG)
