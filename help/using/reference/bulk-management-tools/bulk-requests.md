@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Richieste di massa{#bulk-requests}
+# Bulk Requests{#bulk-requests}
 
 Una richiesta in massa restituisce i dati utilizzabili con le varie intestazioni nei fogli di lavoro Aggiorna, Crea, Stima ed Elimina.
 
@@ -23,13 +23,13 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->Non [!UICONTROL Bulk Management Tools]*sono* supportati da [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. Per modifiche in massa, consigliamo di lavorare con [le API](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell&#39; [!DNL Audience Manager] interfaccia utente vengono rispettate nell&#39; [!UICONTROL Bulk Management Tools]interfaccia.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell' [!DNL Audience Manager] interfaccia utente vengono rispettate nell' [!UICONTROL Bulk Management Tools]interfaccia.
 
-Il [!UICONTROL Request] foglio di lavoro non dispone di intestazioni di colonna proprie e non è necessario copiare gli ID in una qualsiasi colonna. Al contrario, restituisce dati in base al pulsante azione che si fa clic sulla barra degli strumenti. Inoltre, una funzione di reporting opzionale restituisce un conteggio di frequenza per gli attivamenti pixel e il conteggio univoco degli utenti a intervalli di tempo diversi.
+The [!UICONTROL Request] worksheet does not have its own set of column headers and you don't need to copy IDs to any of the columns. Al contrario, restituisce dati in base al pulsante azione che si fa clic sulla barra degli strumenti. Inoltre, una funzione di reporting opzionale restituisce un conteggio di frequenza per gli attivamenti pixel e il conteggio univoco degli utenti a intervalli di tempo diversi.
 
-Per effettuare richieste di massa, apri il [!UICONTROL Bulk Management Tools] foglio di lavoro e:
+To make bulk requests, open the [!UICONTROL Bulk Management Tools] worksheet and:
 
-1. Fare clic sulla **[!UICONTROL Request]** scheda.
+1. Click the **[!UICONTROL Request]** tab.
 2. Nella barra degli strumenti nella parte superiore del foglio di lavoro, fate clic su un pulsante di richiesta corrispondente ai dati che desiderate utilizzare. Potete richiedere:
 
    * ID dei fornitori di dati
@@ -38,10 +38,10 @@ Per effettuare richieste di massa, apri il [!UICONTROL Bulk Management Tools] fo
    * Caratteristiche basate su regola e su scorrimento
    * Segmenti
    * ID delle cartelle di segmenti e segmenti
-   L&#39; [!DNL Audience Manager] API scrive nuovamente i dati in massa sul [!UICONTROL Request] foglio di lavoro.
+   The [!DNL Audience Manager] API writes bulk data back to the [!UICONTROL Request] worksheet.
 
 >[!NOTE]
 >
->Nei risultati, le `createTime``updateTime` colonne restituiscono dati sotto forma di notazione esponenziale. I timestamp di data/ora sottostanti vengono registrati in ora UNIX UTC. Al momento, il foglio di lavoro non può restituire marche temporali/ora in formato leggibile.
+>In your results, the `createTime` and `updateTime` columns return data in exponential notation. I timestamp di data/ora sottostanti vengono registrati in ora UNIX UTC. Al momento, il foglio di lavoro non può restituire marche temporali/ora in formato leggibile.
 
-Se l&#39;aggiornamento in blocco restituisce un errore o un errore, consultate [Risoluzione dei problemi per strumenti di gestione collettiva](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).
