@@ -13,9 +13,9 @@ source-git-commit: f54064793aac81e3dd58e3b8966760f74c962880
 
 # Obsolescenza di TLS 1.0{#tls-deprecation}
 
-Transport Layer Security (TLS) è un protocollo di cifratura usato per stabilire un canale di comunicazione protetto tra due sistemi. Viene utilizzata per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l&#39;integrità delle informazioni che superano i diversi sistemi. A maggio 2018, sono disponibili tre versioni del protocollo TLS: TLS 1.0, 1.1 e 1.2.
+Transport Layer Security (TLS) è un protocollo di cifratura usato per stabilire un canale di comunicazione protetto tra due sistemi. Viene utilizzata per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l'integrità delle informazioni che superano i diversi sistemi. A maggio 2018, sono disponibili tre versioni del protocollo TLS: TLS 1.0, 1.1 e 1.2.
 
-A marzo 2019, il [!DNL Adobe] protocollo ha cessato [!DNL TLS 1.0] il supporto. La funzionalità di Adobe Audience Manager non funziona per gli utenti finali che utilizzano browser che supportano [!DNL TLS 1.0]solo i browser. In realtà, consigliamo l&#39;utilizzo di [!DNL TLS 1.2], che al momento della scrittura, la versione più recente del protocollo. Tutti i browser moderni utilizzano [!DNL TLS 1.2]. Abbiamo raccolto un elenco di browser, versioni e il loro [!DNL TLS] supporto. Per ulteriori informazioni, visita [questo collegamento Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+In March 2019, [!DNL Adobe] has ended support for the [!DNL TLS 1.0] protocol. Adobe Audience Manager functionality does not work for your end users that use browsers which only support [!DNL TLS 1.0]. In fact, we recommend the use of [!DNL TLS 1.2], which is, at the time of writing, the latest version of the protocol. All modern browsers use [!DNL TLS 1.2]. We have collected for you a list of browsers,versions, and their [!DNL TLS] support. For more information, visit [this Wikipedia link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
