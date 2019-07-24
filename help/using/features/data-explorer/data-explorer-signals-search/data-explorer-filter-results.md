@@ -10,16 +10,16 @@ source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 ---
 
 
-# Filtrare i risultati della ricerca {#filter-search-results}
+# Filter Search Results {#filter-search-results}
 
 Filtrare i risultati della ricerca di un segnale in base al tipo di segnale.
 
-1. Accedete [!UICONTROL Audience Data > Signals > Search] ed eseguite una [!UICONTROL Signals Search] delle coppie chiave-valore desiderate, oppure una ricerca più ampia tramite i filtri.
-1. Utilizzate **[!UICONTROL Filter by Signal Type]** la sezione per filtrare i risultati in base alle seguenti categorie:
+1. Go to [!UICONTROL Audience Data > Signals > Search] and run a [!UICONTROL Signals Search] with the desired key-value pairs, or a broader search, using the filters.
+1. Use the **[!UICONTROL Filter by Signal Type]** section to filter your results based on the following categories:
 
    * **[!UICONTROL Actionable log files]**: segnali ricevuti tramite file [!DNL Google][!DNL DCM] di registro;
-   * **[!DNL Adobe Analytics]**: segnali ricevuti dall [!DNL Adobe Analytics] &#39;account. Utilizzate il **[!UICONTROL Filter by report suites]** menu a discesa per selezionare la suite di rapporti da cui visualizzare i segnali.
+   * **[!DNL Adobe Analytics]**: segnali ricevuti dall [!DNL Adobe Analytics] 'account. Use the **[!UICONTROL Filter by report suites]** drop-down menu to select the report suite to show signals from.
    * **[!UICONTROL General online data]**: i dati in tempo reale generati dai visitatori e non inclusi nei file di registro utilizzabili e [!DNL Adobe Analytics];
-   * **[!UICONTROL Onboarded records]**: dati ricevuti tramite trasferimento di dati batch. Utilizzate il **[!UICONTROL Filter by data source]** menu a discesa per selezionare l&#39;origine dati da cui visualizzare i segnali.
+   * **[!UICONTROL Onboarded records]**: dati ricevuti tramite trasferimento di dati batch. Use the **[!UICONTROL Filter by data source]** drop-down menu to select the data source to show signals from.
 
-1. Se necessario [, potete salvare i criteri](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) di ricerca per usarlo in futuro.
+1. Optionally, you can [Save Search Criteria](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) for future use.
