@@ -12,18 +12,18 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Fatturazione per i fornitori di feed dati {#billing-for-data-feed-providers}
+# Billing for Data Feed Providers {#billing-for-data-feed-providers}
 
-Genera un rapporto [!DNL Audience Marketplace] di fatturazione per visualizzare l&#39;utilizzo dei feed di dati per il mese precedente per ogni utente iscritto. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10 ° giorno del mese corrente.
+Generate an [!DNL Audience Marketplace] billing report to view data feed usage for the previous month for each of your subscribers. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10 ° giorno del mese corrente.
 
-## Download di un rapporto di fatturazione {#download-billing-report}
+## Download a Billing Report {#download-billing-report}
 
 Per scaricare un rapporto:
 
 1. **[!UICONTROL Audience Marketplace > Receivables]** Vai a.
 1. Fai clic su **[!UICONTROL Generate Billing Report]**.
 
-## Campi rapporto definiti {#report-fields-defined}
+## Report Fields Defined {#report-fields-defined}
 
 Un rapporto di fatturazione contiene le informazioni seguenti.
 
@@ -37,7 +37,7 @@ Un rapporto di fatturazione contiene le informazioni seguenti.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> PID Data Provider</span></b> </p> </td> 
-   <td colname="col2"> <p>L' <span class="keyword"> ID del provider</span> di dati Audience Manager. </p> </td> 
+   <td colname="col2"> <p>Your <span class="keyword"> Audience Manager</span> data provider ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Nome provider dati</span></b> </p> </td> 
@@ -66,7 +66,7 @@ Un rapporto di fatturazione contiene le informazioni seguenti.
      <li id="li_3400C6475F6D43D7AF54D9A0ED9C09E0">Segmenti e sovrapposizione </li> 
      <li id="li_65DFEF1EA6C341ACB5B72FF629F10AFC">Modellazione </li> 
      <li id="li_B84935B93ADE4D299732CE7E099DF7B3">Activation </li> 
-    </ul> <p>Consultate <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Tipi di pianificazione per feed dati</a>. </p> </td> 
+    </ul> <p>See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types"> Plan Types for Data Feeds</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unità di misura</span></b> </p> </td> 
@@ -78,7 +78,7 @@ Un rapporto di fatturazione contiene le informazioni seguenti.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Prezzo scontato</span></b> </p> </td> 
-   <td colname="col2"> <p>La tariffa di iscrizione per un feed di dati scontato. Consultate <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Sconti per i provider di dati</a>. </p> </td> 
+   <td colname="col2"> <p>La tariffa di iscrizione per un feed di dati scontato. See <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Discounts for Data Providers</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Unità</span></b> </p> </td> 
@@ -90,7 +90,7 @@ Un rapporto di fatturazione contiene le informazioni seguenti.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Costo totale</span></b> </p> </td> 
-   <td colname="col2"> <p>L'entità <span class="keyword"> di bollette di Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>The amount <span class="keyword"> Audience Manager</span> bills a buyer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Periodo di fatturazione</span></b> </p> </td> 
@@ -112,8 +112,8 @@ Un rapporto di fatturazione contiene le informazioni seguenti.
    <td colname="col1"> <p><b><span class="uicontrol"> Flag</span></b> </p> </td> 
    <td colname="col2"> <p> <i>Solo per feed CPM</i>. Le opzioni di segnalazione includono: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica che un utente iscritto ha segnalato le informazioni sull'utilizzo ad <span class="keyword"> Audience Manager</span>. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indica che l'utente iscritto non ha segnalato le informazioni sull'utilizzo ad <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indicates a subscriber has reported usage information to <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indicates a subscriber has not reported usage information to <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -123,5 +123,5 @@ Un rapporto di fatturazione contiene le informazioni seguenti.
 >
 >* [Fatturazione e allocazione impression per feed dati CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Fatturazione e allocazione impression per feed dati flat](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Come generare report sull&#39;utilizzo CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Come generare report sull'utilizzo CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 
