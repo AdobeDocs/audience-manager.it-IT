@@ -13,35 +13,35 @@ source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
 
 # [!DNL OAuth 2.0] Integrazione per trasferimenti in tempo reale in tempo reale{#oauth-integration-for-real-time-outbound-transfers}
 
-Quando si pubblicano segmenti alla destinazione partner tramite un&#39;integrazione server-to-server in tempo reale, Audience Manager può essere configurato per l&#39;autenticazione utilizzando [!DNL OAuth 2.0] le richieste. Ciò mostra la capacità di emettere richieste autenticate da Audience Manager all&#39;endpoint.
+When publishing segments to the partner destination via a realtime server-to-server integration, Audience Manager can be set up to authenticate using [!DNL OAuth 2.0] when making the requests. Ciò mostra la capacità di emettere richieste autenticate da Audience Manager all'endpoint.
 
-## Flusso di autenticazione {#auth-flow}
+## Authentication Flow {#auth-flow}
 
-L&#39;implementazione dell&#39;autenticazione [!DNL Adobe Audience Manager][oauth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) si basa sul flusso di concessione Client Credentials ed effettua le seguenti operazioni:
+The [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) authentication implementation is based on the Client Credentials grant flow and follows these steps:
 
 1. È necessario fornire:
-   * L&#39; [!DNL OAuth 2.0] endpoint che genera il token di autenticazione.
+   * The [!DNL OAuth 2.0] endpoint that generates the authentication token.
    * Le credenziali utilizzate per generare un token.
-1. Un [!DNL Audience Manager] consulente configura la [destinazione](../../../features/destinations/destinations.md) utilizzando le informazioni fornite.
-1. Una volta mappato un segmento su questa destinazione, il nostro sistema di trasferimento dati in tempo reale [, IRIS](../../../reference/system-components/components-data-action.md#iris), effettua una `POST` richiesta all&#39;endpoint token per scambiare le credenziali per un token di più persone.
-1. Per ogni richiesta di pubblicazione del segmento all&#39;endpoint del partner [!UICONTROL IRIS] , utilizza il token del beator per l&#39;autenticazione.
+1. An [!DNL Audience Manager] consultant sets up the [destination](../../../features/destinations/destinations.md) using the information you provided.
+1. Once a segment is mapped to this destination, our real-time data transfer system, [IRIS](../../../reference/system-components/components-data-action.md#iris), makes a `POST` request to the token endpoint to exchange the credentials for a bearer token.
+1. For each segment publishing request to the partner endpoint, [!UICONTROL IRIS] uses the bearer token to authenticate.
 
 ![](assets/oauth2-iris.png)
 
 ## Requisiti {#auth-requirements}
 
-In qualità [!DNL Audience Manager] di partner, sono necessari i seguenti endpoint per ricevere richieste autenticate:
+As an [!DNL Audience Manager] partner, the following endpoints are needed to receive authenticated requests:
 
 ### Endpoint 1 utilizzato da IRIS per ottenere un token per il visualizzatore
 
 Questo endpoint accetta le credenziali fornite al passaggio 1 e genera un token bewards che verrà utilizzato per le richieste successive.
 
-* L&#39;endpoint deve accettare `HTTP POST` richieste.
-* L&#39;endpoint deve accettare e visualizzare l&#39; [!DNL Authorization] intestazione. Il valore di questa intestazione sarà: `Basic <credentials_provided_by_partner>`.
-* L&#39;endpoint deve controllare l&#39; [!DNL Content-type] intestazione e convalidarne il valore `application/x-www-form-urlencoded ; charset=UTF-8`.
-* Il corpo della richiesta `grant_type=client_credentials`sarà.
+* The endpoint must accept `HTTP POST` requests.
+* The endpoint must accept and look at the [!DNL Authorization] header. The value for this header will be: `Basic <credentials_provided_by_partner>`.
+* The endpoint must look at the [!DNL Content-type] header and validate that its value is `application/x-www-form-urlencoded ; charset=UTF-8`.
+* The body of the request will be `grant_type=client_credentials`.
 
-### Richiesta di esempio eseguita da Audience Manager all&#39;endpoint del partner per ottenere un token del besting
+### Richiesta di esempio eseguita da Audience Manager all'endpoint del partner per ottenere un token del besting
 
 ```
 POST /oauth2/token HTTP/1.1
@@ -55,7 +55,7 @@ Accept-Encoding: gzip
 grant_type=client_credentials
 ```
 
-### Risposta di esempio dall&#39;endpoint partner
+### Risposta di esempio dall'endpoint partner
 
 ```
 HTTP/1.1 200 OK
@@ -72,9 +72,9 @@ Content-Length: 121
 
 [!DNL Audience Manager] invia dati a questo endpoint in tempo reale, quando gli utenti si qualificano per i segmenti. Inoltre, questo metodo può inviare batch di dati offline o caricati ogni 24 ore.
 
-Il token beator generato dall&#39;endpoint 1 viene utilizzato per inviare richieste a questo endpoint. Il sistema di trasferimento dati [!DNL Audience Manager] in tempo reale [, IRIS,](../../../reference/system-components/components-data-action.md#iris)crea una richiesta HTTPS normale e include un&#39;intestazione di autorizzazione. Il valore di questa intestazione sarà: Bearer `<bearer token from step 1>`.
+Il token beator generato dall'endpoint 1 viene utilizzato per inviare richieste a questo endpoint. The [!DNL Audience Manager] real-time data transfer system, [IRIS](../../../reference/system-components/components-data-action.md#iris), constructs a normal HTTPS request and includes an Authorization header. The value for this header will be: Bearer `<bearer token from step 1>`.
 
-### Risposta di esempio dall&#39;endpoint partner
+### Risposta di esempio dall'endpoint partner
 
 ```
 GET /segments/aam HTTP/1.1
@@ -107,12 +107,12 @@ Accept-Encoding: gzip
 >
 >Questa richiesta contiene un payload standard (contenuto richiesta).
 
-## Considerazioni importanti {#considerations}
+## Important Considerations {#considerations}
 
 ### I token sono password
 
-Le credenziali presentate dal partner e i token ottenuti da [!DNL Audience Manager] autenticazione tramite [!DNL OAuth 2.0] flusso sono informazioni sensibili e non devono essere condivise con terze parti.
+The credentials presented by the partner and the tokens obtained by [!DNL Audience Manager] when authenticating using the [!DNL OAuth 2.0] flow, are sensitive information and must not be shared with third parties.
 
 ### [!DNL SSL] è obbligatorio
 
-[!DNL SSL] devono essere utilizzati per mantenere un processo di autenticazione protetto. Tutte le richieste, comprese quelle utilizzate per ottenere e utilizzare i token, devono utilizzare `HTTPS` gli endpoint.
+[!DNL SSL] devono essere utilizzati per mantenere un processo di autenticazione protetto. All requests, including the ones used to obtain and use the tokens must use `HTTPS` endpoints.
