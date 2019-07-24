@@ -11,13 +11,13 @@ source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
 ---
 
 
-# Aiuto e legale{#help-and-legal}
+# Help and Legal{#help-and-legal}
 
-Risorse per l&#39;assistenza clienti e questioni legali correlate all&#39;utilizzo di questo prodotto e della documentazione.
+Risorse per l'assistenza clienti e questioni legali correlate all'utilizzo di questo prodotto e della documentazione.
 
 * [Se è presente un problema di](/help/using/help-legal/help-problem.md)
-Assistenza clienti, ti aiuta a risolvere eventuali problemi riscontrati. Fornisci tutte queste informazioni come puoi contattare l&#39;Assistenza clienti. Questo aiuterà il team a comprendere e risolvere il problema.
+Assistenza clienti, ti aiuta a risolvere eventuali problemi riscontrati. Fornisci tutte queste informazioni come puoi contattare l'Assistenza clienti. Questo aiuterà il team a comprendere e risolvere il problema.
 
 
 * [Informazioni sui contatti e sulle informazioni](/help/using/help-legal/help-legal-contact.md)
-legali per contattare Adobe e comprendere i problemi legali relativi all&#39;utilizzo di questo prodotto e della documentazione.
+legali per contattare Adobe e comprendere i problemi legali relativi all'utilizzo di questo prodotto e della documentazione.
