@@ -11,95 +11,95 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Openx come destinazione di Audience Manager{#openx-as-an-audience-manager-destination}
+# OpenX as an Audience Manager Destination{#openx-as-an-audience-manager-destination}
 
-Configuralo [!DNL OpenX] come destinazione e invia i dati dei segmenti di Audience Manager a quella piattaforma.
+Set up [!DNL OpenX] as a destination and send Audience Manager segment data to that platform.
 
 >[!NOTE]
 >
 >Solo per targeting on server onsite.
 
-## Requisiti di destinazione openx {#openx-requirements}
+## OpenX Destination Requirements {#openx-requirements}
 
-Standard per posizione del codice, formati chiave-valore supportati, rapporti e tipo di dati del segmento inviati [!DNL OpenX].
+Standards for code placement, supported key-value formats, reports, and the type of segment data sent to [!DNL OpenX].
 
 <!-- aam-openx-requirements.xml -->
 
-Prima di configurare [!DNL OpenX] come destinazione Audience Manager, controlla quanto segue:
+Review the following before setting up [!DNL OpenX] as an Audience Manager destination:
 
-* **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library] il codice deve essere distribuito sul sito. [!UICONTROL DIL] aiuta a eliminare la necessità di scrivere codici speciali per la raccolta di dati, l&#39;integrazione, i valori dei cookie di lettura e il recupero dei dati delle pagine.
-* **`get_aamCookie`Funzione:** Codice che acquisisce l&#39;ID utente di Audience Manager e i dati del cookie. Posiziona [questo codice](../../features/destinations/get-aam-cookie-code.md) nella parte superiore della pagina o all&#39;interno del `<head>` blocco.
-* **Invia registri di consegna ad Audience Manager:** Se desideri un rapporto sulla consegna del segmento (facoltativo), fornisci Audience Manager con un registro giornaliero contenente dati di consegna a livello di impression. I dati possono essere in un formato non elaborato, ma ogni record deve contenere Audience Manager `UUID`. Audience Manager può scegliere o ricevere questi tramite [!DNL FTP].
+* **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library] il codice deve essere distribuito sul sito. [!UICONTROL DIL] aiuta a eliminare la necessità di scrivere codici speciali per la raccolta di dati, l'integrazione, i valori dei cookie di lettura e il recupero dei dati delle pagine.
+* **`get_aamCookie`Funzione:** Codice che acquisisce l'ID utente di Audience Manager e i dati del cookie. Place [this code](../../features/destinations/get-aam-cookie-code.md) on the top of the page or inside the `<head>` codeblock.
+* **Invia registri di consegna ad Audience Manager:** Se desideri un rapporto sulla consegna del segmento (facoltativo), fornisci Audience Manager con un registro giornaliero contenente dati di consegna a livello di impression. The data can be in a raw format, but each record must contain the Audience Manager `UUID`. Audience Manager can pick up or receive these via [!DNL FTP].
 
 ### Dati chiave-valore: Requisiti di formattazione
 
 Audience Manager invia i dati sotto forma di coppie chiave-valore. Create coppie chiave-valore in base alle seguenti specifiche:
 
-* Tasti predefiniti con `c.` (ad es. `c.color` o `c.price`).
-* Valori serializzati separati associati a una singola chiave con virgola (ad es. `c.color = red, green, blue`,).
-* Separate più coppie chiave-valore con un ampersand (ad es. `c.color=red & c.price = 100 & c.condition = new`,).
+* Preface keys with `c.` (e.g., `c.color` or `c.price`).
+* Separate serialized values attached to a single key with a comma (e.g., `c.color = red, green, blue`).
+* Separate multiple key-value pairs with an ampersand (e.g., `c.color=red & c.price = 100 & c.condition = new`).
 * I nomi delle chiavi non devono contenere caratteri speciali quali accento e punteggiatura o altri simboli.
 
 ### Solo i segmenti idonei vengono inviati a openx
 
-L&#39;entità dei dati passati [!DNL OpenX] dipende dal numero di segmenti idonei a un particolare utente. Ad esempio, supponiamo di configurare 100 segmenti di Gestione pubblico. Se un visitatore del sito ne qualifica cinque, vengono inviati solo quei cinque segmenti [!DNL OpenX] (non tutti i 100).
+The amount data passed in to [!DNL OpenX] depends on how many segments a particular user qualifies for. Ad esempio, supponiamo di configurare 100 segmenti di Gestione pubblico. If a site visitor qualifies for five of them, then only those five segments get sent to [!DNL OpenX] (not all 100).
 
-## Creare una destinazione openx {#openx-destination}
+## Create an OpenX Destination {#openx-destination}
 
-Crea una destinazione di cookie per [!DNL OpenX] Gestione audience.
+Create a cookie destination for [!DNL OpenX] in Audience Management.
 
 <!-- aam-openx-destination.xml -->
 
-In Audience Manager, una *destinazione* è qualsiasi altro sistema (server pubblicitario, [!DNL DSP]rete pubblicitaria ecc.) con cui condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire questi processi di consegna dei dati. Le funzioni di destinazione Audience Manager si trovano in *Audience Data &gt; Destinations*(Destinazioni). Per iniziare, fai clic **[!UICONTROL Add New Destination]** su ed effettua le operazioni seguenti.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) con cui condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire questi processi di consegna dei dati. Audience Manager destination features are located in *Audience Data &gt; Destinations*. To get started, click **[!UICONTROL Add New Destination]** and follow the steps below.
 
 ### Passaggio 1: Informazioni di base
 
-Per completare la [!UICONTROL Basic Information] sezione:
+To complete the [!UICONTROL Basic Information] section:
 
 1. Denominate la destinazione.
-1. Seleziona **[!UICONTROL "Cookie"]** dall&#39;elenco [!UICONTROL Type] a discesa.
-1. Fare clic **[!UICONTROL Next]** su e passare alle [!UICONTROL Configuration] sezioni e [!UICONTROL Segment Mappings] viceversa.
+1. Select **[!UICONTROL "Cookie"]** from the [!UICONTROL Type] drop-down list.
+1. Click **[!UICONTROL Next]** and move on to the [!UICONTROL Configuration] and [!UICONTROL Segment Mappings] sections.
 
 ### Passaggio 2: Informazioni sulla configurazione
 
-Per completare la [!UICONTROL Configuration] sezione:
+To complete the [!UICONTROL Configuration] section:
 
 1. **Nome cookie:** Inserisci un nome breve e descrittivo per il cookie.
-1. **Dominio cookie:** Lasciate vuoto per impostare un cookie nel dominio della pagina corrente dell&#39;utente. Se desiderate specificare un dominio, prefisso il nome con un punto `.mydomain.com`simile.
-1. Scegliete un&#39;opzione di chiave nella [!UICONTROL Data Format] sezione.
-1. Se le chiavi utilizzano dati con valori serializzati, selezionare il **[!UICONTROL Serialize]** controllo e specificare il delimitatore seriale (il carattere che separa i valori serializzati).
-1. Fare clic **[!UICONTROL Save]** su ed espandere [!UICONTROL Segment Mappings] la sezione.
+1. **Dominio cookie:** Lasciate vuoto per impostare un cookie nel dominio della pagina corrente dell'utente. If you want to specify a domain, prefix the name with a period like this, `.mydomain.com`.
+1. Choose a key option in the [!UICONTROL Data Format] section.
+1. If your keys use data with serialized values, select the **[!UICONTROL Serialize]** control and specify the serial delimiter (the character that separates the serialized values).
+1. Click **[!UICONTROL Save]** and expand the [!UICONTROL Segment Mappings] section.
 
 ### Passaggio 3: Mappature segmento
 
 Per aggiungere un segmento a una destinazione di cookie:
 
 1. **Trova segmenti:** [!UICONTROL Segment Mappings] La sezione fornisce due strumenti di ricerca per individuare i segmenti. Per trovare un segmento:
-   * Opzione 1: Inizia a digitare un nome di segmento nel campo di ricerca. Il campo si aggiorna automaticamente in base al testo. Fai clic **[!UICONTROL Add]** su un segmento che desideri usare.
-   * Opzione 2: Fai clic per **[!UICONTROL Browse All Segments]** aprire una finestra che consente di sfogliare i segmenti per nome o posizione di archiviazione. Fate clic **[!UICONTROL Add Selected Segments]** su di essa.
-1. **Aggiungi mappature:** Nella sezione delle mappature, immetti l&#39;ID segmento nel campo delle mappature e fai clic **[!UICONTROL Save]** su.
+   * Opzione 1: Inizia a digitare un nome di segmento nel campo di ricerca. Il campo si aggiorna automaticamente in base al testo. Click **[!UICONTROL Add]** once you find the segment you want to use.
+   * Option 2: Click **[!UICONTROL Browse All Segments]** to open a window that lets you browse for segments by name or storage location. Click **[!UICONTROL Add Selected Segments]** when done.
+1. **Aggiungi mappature:** Nella sezione delle mappature, immetti l'ID segmento nel campo delle mappature e fai clic **[!UICONTROL Save]** su.
 1. Fai clic su **[!UICONTROL Done]**.
 
-## Impostazione openx {#openx-code-setup}
+## OpenX Setup {#openx-code-setup}
 
-Modifica [!DNL OpenX] le impostazioni per lavorare con i dati del segmento Audience Manager.
+Modify [!DNL OpenX] settings to work with Audience Manager segment data.
 
 <!-- aam-openx-code.xml -->
 
-Per configurare [!DNL OpenX]:
+To set up [!DNL OpenX]:
 
-* Installate [!UICONTROL DIL] il codice nel sito.
-* Crea [!DNL OpenX] come destinazione del cookie in Audience Manager.
-* Posiziona la `get_aamCookie` funzione nella parte superiore della pagina, idealmente all&#39;interno del `<head>` blocco. `get_aamCookie` Il codice è disponibile [](../../features/destinations/get-aam-cookie-code.md)qui.
-* Modificate il tag pubblicitario per chiamare la `get_aamCookie` funzione e includete il nome del cookie fornito al momento della configurazione della [!DNL OpenX] destinazione. Ad esempio, se il cookie `test_cookie`viene chiamato, il tag pubblicitario deve chiamare `get_aamCookie` e fare riferimento al nome del cookie.
-* Il tag di annunci potrebbe assomigliare all&#39;esempio seguente.
+* Install [!UICONTROL DIL] code across your site.
+* Create [!DNL OpenX] as a cookie destination in Audience Manager.
+* Place the `get_aamCookie` function at the top of the page, ideally within the `<head>` codeblock. `get_aamCookie` Il codice è disponibile [](../../features/destinations/get-aam-cookie-code.md)qui.
+* Modify your ad tag to call the `get_aamCookie` function and include the cookie name you provided when setting up the [!DNL OpenX] destination. For example, if you named the cookie `test_cookie`, then the ad tag should call `get_aamCookie` and reference the cookie name.
+* Il tag di annunci potrebbe assomigliare all'esempio seguente.
 
    ```
    <a href= "https://client.adserver.net/?" + get_aamCookie('test_cookie') +
     "&etc&xid=" + get_aamCookie('aam_uuid')
    ```
 
-Ricorda di includere `xid=` . Contiene l&#39;ID utente univoco effettivo ([!UICONTROL UUID]) trasmesso durante una chiamata ad annuncio.
+Remember to include `xid=` . It holds the actual unique user ID ([!UICONTROL UUID]) passed in during an ad call.
 
 La chiamata ad annuncio completa potrebbe essere simile a quella riportata di seguito:
 
