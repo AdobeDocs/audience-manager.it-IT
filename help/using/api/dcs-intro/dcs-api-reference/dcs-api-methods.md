@@ -11,30 +11,30 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 ---
 
 
-# Metodi API DCS {#dcs-api-methods}
+# DCS API Methods {#dcs-api-methods}
 
-Inviare dati all [!UICONTROL DCS][!DNL API] &#39;uso `GET` o `POST` ai metodi.
+Send data to the [!UICONTROL DCS] [!DNL API] using `GET` or `POST` methods.
 
-È possibile inviare dati all&#39; [!UICONTROL DCS] uso di uno o `GET``POST` più metodi. Date un&#39;occhiata alle chiamate di esempio di seguito utilizzando [l&#39;effetto curl](https://curl.haxx.se/). In tutte e tre le chiamate campione, stiamo aggiungendo i segnali `c_likes = famous popstar` e `c_loves = famous actress` il profilo `12345678901234567890123456789012345678`dispositivo.
+You can send data to the [!UICONTROL DCS] using either one of the `GET` or `POST` methods. Take a look at the sample calls below, using [curl](https://curl.haxx.se/). In all three sample calls, we are adding the signals `c_likes = famous popstar` and `c_loves = famous actress` to the device profile `12345678901234567890123456789012345678`.
 
 >[!NOTE]
 >
->Nel codice ed esempi, *il corsivo* rappresenta un segnaposto variabile. Sostituire un valore reale per il segnaposto quando si inviano dati a [!UICONTROL DCS] questo metodo.
+>In the code and examples, *italics* represents a variable placeholder. Substitute a real value for the placeholder when you send data to the [!UICONTROL DCS] with this method.
 
-## Inviare dati tramite GET {#send-data-via-get}
+## Send Data via GET {#send-data-via-get}
 
-La dimensione massima consentita per `GET` le chiamate è 8 K.
+Note that the maximum allowed size for `GET` calls is 8K.
 
 <pre><code>curl -i "<i>yourcompany.demdex.net/event</i>?
-d_ uuid =<i>12345678901234567890123456789012345678</i>&amp; d_ rtbd = json &amp;<i>c_ likes = famose % 20 popstar</i>&amp;<i>c_ loves = famosa % 20 acl</i>"</code>
-</pre>
+d_uuid=<i>12345678901234567890123456789012345678</i>&amp;d_rtbd=json&amp;<i>c_likes=famous%20popstar</i>&amp;<i>c_loves=famous%20actress</i>"
+</code></pre>
 
-## Inviare dati tramite POST {#send-data-via-post}
+## Send Data via POST {#send-data-via-post}
 
-Prendete nota dei requisiti per l&#39;invio di dati utilizzando il `POST` metodo:
+Note the requirements for sending data using the `POST` method:
 
 * La dimensione massima consentita è 32 K.
-* Impostate il tipo di contenuto su `application/x-www-form-urlencoded`.
+* Set the content type to `application/x-www-form-urlencoded`.
 
 ### Chiamata di esempio
 
