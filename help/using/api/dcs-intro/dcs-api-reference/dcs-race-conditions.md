@@ -11,23 +11,23 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Condizioni race ed Errori {#race-conditions-and-error-handling}
+# Race Conditions and Error Handling {#race-conditions-and-error-handling}
 
-Descrive come evitare condizioni race ed [!UICONTROL DCS] errori.
+Describes how to prevent race conditions and [!UICONTROL DCS] error handling.
 
-## Impedire la presenza di condizioni race {#prevent-race-conditions}
+## Preventing Race Conditions {#prevent-race-conditions}
 
-Una condizione race può verificarsi se inviate più chiamate contemporaneamente (o in rapida successione) al [!UICONTROL DCS] prima che termini a rispondere alle query iniziali e a scrivere dati nel cookie dell&#39;utente. Una condizione race è indesiderata perché può danneggiare o sovrascrivere erroneamente i dati del cookie. Come procedura ottimale, considerate i seguenti metodi per evitare il problema:
+A race condition can occur if you send multiple calls simultaneously (or in rapid succession) to the [!UICONTROL DCS] before it finishes responding to the initial queries and writing data to the user’s cookie. Una condizione race è indesiderata perché può danneggiare o sovrascrivere erroneamente i dati del cookie. Come procedura ottimale, considerate i seguenti metodi per evitare il problema:
 
-* Non effettuare chiamate simultanee, o chiamate in rapida successione, [!UICONTROL DCS] allo stesso utente.
+* Don't make simultaneous calls, or calls in rapid succession, to the [!UICONTROL DCS] from the same user.
 * Attendete che ogni risposta torni prima di effettuare chiamate successive.
 
-## Gestione errori {#error-handling}
+## Error Handling {#error-handling}
 
-La gestione degli errori è limitata per query non valide o non corrette. Una richiesta non valida restituisce `HTTP 200 OK` una risposta e nessun dato. Inoltre, l&#39;elaborazione [!UICONTROL DCS] interrompe una richiesta, elimina i dati delle caratteristiche e restituisce una `HTTP 200 OK` risposta quando un utente:
+La gestione degli errori è limitata per query non valide o non corrette. An invalid request returns an `HTTP 200 OK` response and no data. Also, the [!UICONTROL DCS] stops processing a request, discards trait data, and returns an `HTTP 200 OK` response when a user:
 
 * Rifiuta il monitoraggio a livello di Audience Manager o partner.
-* Proviene da un&#39;area geografica non valida/non selezionata.
+* Proviene da un'area geografica non valida/non selezionata.
 * Disabilita i cookie del browser (tutto o terze parti).
 
-Vedi anche Codici di errore, messaggi ed esempi [DCS](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
+See also, [DCS Error Codes, Messages, and Examples](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
