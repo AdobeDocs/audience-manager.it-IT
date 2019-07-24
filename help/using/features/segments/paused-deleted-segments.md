@@ -11,13 +11,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Segmenti in pausa ed eliminati {#paused-and-deleted-segments}
+# Paused and Deleted Segments {#paused-and-deleted-segments}
 
-Descrive gli effetti su utenti, dati e destinazioni segmentati quando si mette in pausa o si elimina un segmento attivo utilizzando [!UICONTROL Segment Builder].
+Describes the effects on segmented users, data, and destinations when you pause or delete an active segment using [!UICONTROL Segment Builder].
 
 ## Accesso ai controlli Pausa ed Elimina
 
-Passa il cursore sul nome di un segmento nell&#39;elenco dei segmenti per esporre le **[!UICONTROL pause]****[!UICONTROL delete]** icone (nella [!UICONTROL Actions] colonna). Queste funzioni interessano i segmenti come descritto di seguito.
+Hover over a segment name in the segments list to expose the **[!UICONTROL pause]** and **[!UICONTROL delete]** icons (in the [!UICONTROL Actions] column). Queste funzioni interessano i segmenti come descritto di seguito.
 
 ## Funzionalità segmento in pausa
 
@@ -25,7 +25,7 @@ Un segmento messo in pausa (disattivato):
 
 * Interrompe la segmentazione di utenti nuovi e idonei.
 * Mantiene lo stato di segmentazione/appartenenza di un utente (non rimuove un utente dal segmento).
-* Resta nell&#39;elenco dei segmenti e può essere riattivato.
+* Resta nell'elenco dei segmenti e può essere riattivato.
 * Non invia dati alle destinazioni associate.
 * Restituisce i dati nei rapporti disponibili (fino alla data di disattivazione).
 
@@ -34,12 +34,12 @@ Un segmento messo in pausa (disattivato):
 Un segmento eliminato:
 
 * Interrompe la segmentazione di utenti nuovi e idonei.
-* Rimuove gli utenti qualificati dall&#39;appartenenza al segmento.
-* Viene rimosso dall&#39;elenco dei segmenti.
-* Non è possibile annullare l&#39;eliminazione.
+* Rimuove gli utenti qualificati dall'appartenenza al segmento.
+* Viene rimosso dall'elenco dei segmenti.
+* Non è possibile annullare l'eliminazione.
 * Non invia dati alle destinazioni associate.
 * Non restituisce dati nei rapporti disponibili.
 
 >[!NOTE]
 >
->È inoltre possibile mettere in pausa ed eliminare i segmenti utilizzando un [!DNL API] metodo. Per ulteriori informazioni, consultate [API REST](../../api/rest-api-main/rest-api-main.md).
+>You can also pause and delete segments using an [!DNL API] method. For more information, see [REST APIs](../../api/rest-api-main/rest-api-main.md).
