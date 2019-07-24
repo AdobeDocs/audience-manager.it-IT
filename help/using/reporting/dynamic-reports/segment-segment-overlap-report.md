@@ -17,7 +17,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra i segmenti.
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione in Audience Manager aderiscono ai principi RBAC. Puoi visualizzare solo segmenti dalle origini dati a cui hai accesso in base al [gruppo RBAC a](/help/using/features/administration/administration-overview.md) cui appartieni.
+>I rapporti di sovrapposizione in Audience Manager aderiscono ai principi RBAC. You can only see segments from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
 
 <!-- 
 
@@ -34,7 +34,7 @@ c_segment_segment_overlap.xml
 
 ## Report di esempio
 
-La seguente illustrazione fornisce una panoramica di alto livello del [!UICONTROL Segment-to-Segment Overlap] rapporto.
+The following illustration provides a high-level overview of the [!UICONTROL Segment-to-Segment Overlap] report.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ La seguente illustrazione fornisce una panoramica di alto livello del [!UICONTRO
 
 Selezionate un singolo punto per visualizzare i dettagli dei dati in una finestra a comparsa. Le azioni di clic aggiornano automaticamente i dati visualizzati nel rapporto.
 
-## Campi pop-to-segmento di sovrapposizione segmenti definiti {#fields-defined}
+## Segment-to-Segment Overlap Data Pop Fields Defined {#fields-defined}
 
 <!-- 
 
@@ -54,14 +54,14 @@ r_s2s_data_pop.xml
 
  -->
 
-La finestra a comparsa del [!UICONTROL Segment-to-Segment Overlap] rapporto contiene le metriche riportate di seguito. Tieni presente che la metrica unificata nella tabella rappresenta gli *utenti in tempo reale*.
+The popup for the [!UICONTROL Segment-to-Segment Overlap] report contains the metrics below. Note that the uniques metric in the table represents your *real-time users*.
 
 | Metrica | Descrizione |
 |---|---|
 | **[!UICONTROL Segment ID1]** | ID numerico univoco per il segmento visualizzato nei risultati del rapporto. Viene visualizzato come ID riga per il segmento. |
-| **[!UICONTROL Segment ID2]** | ID numerico univoco per il segmento selezionato durante l&#39;esecuzione del rapporto. Viene visualizzato come ID colonna per il segmento. |
+| **[!UICONTROL Segment ID2]** | ID numerico univoco per il segmento selezionato durante l'esecuzione del rapporto. Viene visualizzato come ID colonna per il segmento. |
 | **[!UICONTROL Segment Name1]** | Nome del segmento che viene visualizzato nella riga dei risultati del rapporto. |
-| **[!UICONTROL Segment Name2]** | Nome del segmento selezionato durante l&#39;esecuzione del rapporto. Viene visualizzata nella colonna dei risultati del rapporto. |
+| **[!UICONTROL Segment Name2]** | Nome del segmento selezionato durante l'esecuzione del rapporto. Viene visualizzata nella colonna dei risultati del rapporto. |
 | **[!UICONTROL Overlap %]** | Per ottenere la sovrapposizione %, Audience Manager usa la formula seguente: Unificazione sovrapposizione/(Uniques segmento base + Unione segmento sovrapposizione - Unificazione sovrapposizione) |
 | **[!UICONTROL Overlap Uniques]** | Numero di visitatori univoci condivisi tra segmenti confrontati. |
 | **[!UICONTROL Segment Uniques1]** | Numero di visitatori unici nel segmento 1. |
