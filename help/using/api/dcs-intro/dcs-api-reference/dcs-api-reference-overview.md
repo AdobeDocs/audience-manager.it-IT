@@ -15,7 +15,7 @@ Informazioni teoriche, descrizioni e definizioni per codice API, metodi e proces
 
 * [Metodi API DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Invia dati all&#39;API DCS utilizzando i metodi GET o POST.
+   Invia dati all'API DCS utilizzando i metodi GET o POST.
 
 * [Codici errore DCS, messaggi ed esempi](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
@@ -27,7 +27,7 @@ Informazioni teoriche, descrizioni e definizioni per codice API, metodi e proces
 
 * [ID regioni DCS, posizioni e nomi host](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
-   Per effettuare chiamate al DCS è necessario il nome host del server DCS regionale. poiché il DCS memorizza informazioni nei centri dati che sono geograficamente vicini ai visitatori del sito. Le tue query funzionano se li invii al DCS sbagliato, ma queste chiamate sono inefficienti e possono ritardare la risposta. Per effettuare una richiesta DCS, fai corrispondere l&#39;ID regione al nome host regionale corrispondente e completa la query con il nome host corretto.
+   Per effettuare chiamate al DCS è necessario il nome host del server DCS regionale. poiché il DCS memorizza informazioni nei centri dati che sono geograficamente vicini ai visitatori del sito. Le tue query funzionano se li invii al DCS sbagliato, ma queste chiamate sono inefficienti e possono ritardare la risposta. Per effettuare una richiesta DCS, fai corrispondere l'ID regione al nome host regionale corrispondente e completa la query con il nome host corretto.
 
 * [Formattazione delle coppie chiave-valore in DCS Chiamate](/help/using/api/dcs-intro/dcs-api-reference/dcs-key-format.md)
 
