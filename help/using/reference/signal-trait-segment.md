@@ -11,9 +11,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Segnali, caratteristiche e segmenti{#signals-traits-and-segments}
+# Signals, Traits, and Segments{#signals-traits-and-segments}
 
-Descrive i componenti di un segmento Audience Manager, le espressioni utilizzate per impostare i criteri di qualifica dell&#39;audience e il modo in cui i dati vengono trasmessi in una chiamata dell&#39;evento.
+Descrive i componenti di un segmento Audience Manager, le espressioni utilizzate per impostare i criteri di qualifica dell'audience e il modo in cui i dati vengono trasmessi in una chiamata dell'evento.
 
 <!-- 
 
@@ -23,7 +23,7 @@ c_signal_trait_segment.xml
 
 **Composizione e scopo**
 
-[!DNL Audience Manager] i dati sono segnali, caratteristiche, segmenti e regole relative alle qualifiche correlate. Gli elementi di dati e le regole combinano per creare segmenti. I segmenti organizzano i visitatori in gruppi correlati. La tabella seguente definisce i tre componenti principali di un [!DNL Audience Manager] segmento.
+[!DNL Audience Manager] i dati sono segnali, caratteristiche, segmenti e regole relative alle qualifiche correlate. Gli elementi di dati e le regole combinano per creare segmenti. I segmenti organizzano i visitatori in gruppi correlati. The following table defines the three principal components in an [!DNL Audience Manager] segment.
 
 <table id="table_E8373A01C3414C42B4983A59BF0F0669"> 
  <thead> 
@@ -36,7 +36,7 @@ c_signal_trait_segment.xml
  <tbody> 
   <tr> 
    <td colname="col1"><b>Segnale</b> </td> 
-   <td colname="col2"> <p>I segnali sono le unità dati più piccole in <span class="keyword"> Audience Manager</span> e sono espresse come <a href="../reference/key-value-pairs-explained.md"> coppie chiave-valore</a>. </p> 
+   <td colname="col2"> <p>Signals are the smallest data units in <span class="keyword"> Audience Manager</span> and are expressed as <a href="../reference/key-value-pairs-explained.md"> key-value pairs</a>. </p> 
     <ul id="ul_728347E325284B9FA0B4E05DE8CF4570"> 
      <li id="li_89574A3B4A734726AD43405AE6D85FF5">La chiave è una costante che definisce un set di dati (ad es. genere, colore, prezzo). </li> 
      <li id="li_D35601B33EE24EC5857F45D9577254D4">Il valore è una variabile relativa alla costante (ad es. uomo/donna, verde, 100). </li> 
@@ -67,11 +67,11 @@ Usa il diagramma seguente per mantenere una nota mentale della relazione tra seg
 
 **Creare caratteristiche e regole di segmento con strumenti visivi e editor di codice**
 
-I client gestiscono caratteristiche e segmenti con strumenti visivi e editor di codice nell&#39;interfaccia [!DNL Audience Manager] utente. Gli strumenti visivi consentono di creare regole utilizzando funzioni di ricerca, opzioni a comparsa, menu a discesa e funzionalità di trascinamento. Gli editor di codice offrono agli utenti avanzati un modo per sviluppare in modo programmatico i criteri di segmentazione del pubblico.
+Clients manage traits and segments with visual tools and code editors in the [!DNL Audience Manager] user interface. Gli strumenti visivi consentono di creare regole utilizzando funzioni di ricerca, opzioni a comparsa, menu a discesa e funzionalità di trascinamento. Gli editor di codice offrono agli utenti avanzati un modo per sviluppare in modo programmatico i criteri di segmentazione del pubblico.
 
-**L&#39;evento chiama i dati inviati a Audience Manager**
+**L'evento chiama i dati inviati a Audience Manager**
 
-Una chiamata di evento invia dati dal sito Web a [!DNL Audience Manager]. La chiamata contiene dati, caratteristiche e segmenti in una richiesta HTTP. L&#39;evento stesso è tutto dopo la `/event` parte di una stringa URL. Come mostrato nell&#39;esempio di seguito, questo processo richiede solo una singola chiamata evento a cui [!DNL Audience Manager]trasmettere più variabili.
+An event call sends data from your website to [!DNL Audience Manager]. La chiamata contiene dati, caratteristiche e segmenti in una richiesta HTTP. The event itself is everything after the `/event` part of a URL string. As shown in the example below, this process requires only a single event call to pass in multiple variables to [!DNL Audience Manager].
 
 ```
 https://<domain>/event?product=camera&price>100
