@@ -11,17 +11,17 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Inserimento dati in tempo reale {#real-time-inbound-data-ingestion}
+# Real-Time Inbound Data Ingestion {#real-time-inbound-data-ingestion}
 
-Il processo di assimilazione in tempo reale in tempo reale utilizza una serie di `HTTP` richieste dal browser di un utente per trasmettere dati ad Audience Manager.
+The real-time inbound data ingestion process uses a series of `HTTP` requests from a user's browser to pass in data to Audience Manager.
 
 <!-- c_rt_inbound_real_time.xml -->
 
-I dati in entrata devono essere formattati come coppie chiave-valore denominate segnali. In genere, ogni segnale viene mappato su un segmento creato o gestito tramite l&#39;interfaccia utente o [!DNL API].
+I dati in entrata devono essere formattati come coppie chiave-valore denominate segnali. Typically, each signal is mapped to a segment created or managed through the user interface or [!DNL API].
 
-## Parametri stringa URL e sintassi {#url-string-syntax}
+## URL String Parameters and Syntax {#url-string-syntax}
 
-Il [!DNL URL] trasferimento di dati in entrata deve contenere le variabili descritte di seguito. Ricorda di [creare caratteristiche](../../../features/traits/create-onboarded-rule-based-traits.md) e una struttura [di cartelle](../../../features/traits/trait-storage.md#create-trait-storage-folder) nell&#39; [!DNL Audience Manager] interfaccia utente prima di impostare trasferimenti di dati in tempo reale.
+The [!DNL URL] for an inbound data transfer should contain the variables described below. Remember to [create traits](../../../features/traits/create-onboarded-rule-based-traits.md) and a [folder structure](../../../features/traits/trait-storage.md#create-trait-storage-folder) in the [!DNL Audience Manager] UI before setting up real-time data transfers.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Il [!DNL URL] trasferimento di dati in entrata deve contenere le variabili descr
 
 ### Sintassi URL
 
-Durante un processo di assimilazione in tempo reale in tempo reale, una stringa formattata [!DNL URL] correttamente utilizza la sintassi seguente:
+During a real-time inbound data ingestion process, a properly formatted [!DNL URL] string uses the following syntax:
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
