@@ -11,7 +11,7 @@ source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
 ---
 
 
-# Suggerimenti per la risoluzione di problemi per strumenti di gestione collettiva{#troubleshooting-tips-for-bulk-management-tools}
+# Troubleshooting Tips for Bulk Management Tools{#troubleshooting-tips-for-bulk-management-tools}
 
 Cosa fare quando i fogli di lavoro restituiscono un errore o la richiesta di massa non riesce.
 
@@ -25,7 +25,7 @@ Cosa fare quando i fogli di lavoro restituiscono un errore o la richiesta di mas
 
 >[!NOTE]
 >
->Non [!UICONTROL Bulk Management Tools]*sono* supportati da [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. Per modifiche in massa, consigliamo di lavorare con [le API](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell&#39; [!DNL Audience Manager] interfaccia utente vengono rispettate nell&#39; [!UICONTROL Bulk Management Tools]interfaccia.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell' [!DNL Audience Manager] interfaccia utente vengono rispettate nell' [!UICONTROL Bulk Management Tools]interfaccia.
 
 Fattori come traffico di rete pesante, uso server e set di dati grandi possono causare errori o timeout di una richiesta in blocco. In caso di problemi, il foglio di lavoro interrompe la scrittura dei dati e visualizza un messaggio di errore. In tal caso, è necessario:
 
@@ -34,7 +34,7 @@ Fattori come traffico di rete pesante, uso server e set di dati grandi possono c
 * Elimina tutte le righe già aggiornate.
 * Prova nuovamente la richiesta in blocco.
 
-## Ritardi lunghi o comportamenti non reattivi {#delays-behavior}
+## Long delays or unresponsive behavior {#delays-behavior}
 
 Nella tabella seguente sono elencati alcuni problemi comuni che si possono incontrare durante la creazione di richieste di massa con i fogli di lavoro. Provate a risolvere questi problemi con le soluzioni consigliate. Se le soluzioni consigliate non risolvono il problema, salvate il lavoro, riavviate il computer e riprovate senza avviare o lavorare con altre applicazioni.
 
