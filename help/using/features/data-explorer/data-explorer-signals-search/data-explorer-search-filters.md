@@ -10,12 +10,12 @@ source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 ---
 
 
-# Segnali di ricerca per filtri {#search-signals-by-filters}
+# Search Signals by Filters {#search-signals-by-filters}
 
 Lasciate vuoti i campi chiave-valore per cercare un intervallo più ampio di segnali e utilizzare i filtri disponibili per limitare i risultati.
 
-Utilizzate questo metodo quando non si dispone di una coppia chiave-valore specifica, ma si desidera visualizzare l&#39;evoluzione di più segnali in un determinato periodo di tempo.
+Utilizzate questo metodo quando non si dispone di una coppia chiave-valore specifica, ma si desidera visualizzare l'evoluzione di più segnali in un determinato periodo di tempo.
 
-Nell&#39;esempio di seguito, i filtri sono configurati per mostrare tutti i segnali inutilizzati degli ultimi 30 giorni con un conteggio minimo pari a 1000.
+Nell'esempio di seguito, i filtri sono configurati per mostrare tutti i segnali inutilizzati degli ultimi 30 giorni con un conteggio minimo pari a 1000.
 
 ![](assets/signals-search-filters.png)
