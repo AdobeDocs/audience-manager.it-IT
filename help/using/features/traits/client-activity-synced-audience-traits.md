@@ -11,29 +11,29 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Caratteristiche di audience attive e caratteristiche sincronizzate origine dati {#active-audience-traits-and-data-source-synced-traits}
+# Active Audience Traits and Data Source Synced Traits {#active-audience-traits-and-data-source-synced-traits}
 
-Queste caratteristiche speciali sono utilizzate da [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] e [!UICONTROL Data Source Synced Traits] si trovano in [!UICONTROL Audience Data > Traits > Audience Traits].
+These are special traits used by [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] e [!UICONTROL Data Source Synced Traits] si trovano in [!UICONTROL Audience Data > Traits > Audience Traits].
 
 >[!NOTE]
 >
->L&#39;accesso richiede autorizzazioni amministratore.
+>L'accesso richiede autorizzazioni amministratore.
 
-## Caratteristiche audience attive {#active-audience-traits}
+## Active Audience Traits {#active-audience-traits}
 
-[!UICONTROL Active Audience] Un trait contiene tutti i dispositivi in gestione nell [!DNL Audience Manager] &#39;account. Quando crei o modifichi segmenti puoi usare un [!UICONTROL Active Audience Trait] &#39;altra caratteristica. Inoltre, Pubblico [di riferimento](../../features/addressable-audiences.md) richiede questa caratteristica per generare dati di sovrapposizione. Per impostazione predefinita, tutti gli account dispongono di [!UICONTROL Active Audience] caratteristiche. Questa caratteristica non può essere eliminata.
+[!UICONTROL Active Audience] Un trait contiene tutti i dispositivi in gestione nell [!DNL Audience Manager] 'account. You can use an [!UICONTROL Active Audience Trait] like other traits when you build or edit segments. Also, [Addressable Audiences](../../features/addressable-audiences.md) requires this trait to generate overlap data. All accounts have an [!UICONTROL Active Audience] trait by default. Questa caratteristica non può essere eliminata.
 
-## Caratteristiche sincronizzate origine dati {#data-source-synced-traits}
+## Data Source Synced Traits {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] viene visualizzato nella [!UICONTROL Audience Traits] cartella quando [create o modificate un&#39;origine dati](../../features/manage-datasources.md#create-data-source) e applicate una delle seguenti impostazioni:
+[!UICONTROL Data Source Synced Traits] viene visualizzato nella [!UICONTROL Audience Traits] cartella quando [create o modificate un'origine dati](../../features/manage-datasources.md#create-data-source) e applicate una delle seguenti impostazioni:
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] tenere traccia di tutti gli utenti associati a un&#39;origine dati. Quando crei o modifichi segmenti puoi usare altre [!UICONTROL Data Source Synched Trait] caratteristiche. Quando create un [!UICONTROL Data Source Synced Trait]nome, il nome della caratteristica corrisponde al nome utilizzato dall&#39;origine dati. Modificate l&#39;origine dati per modificare il nome delle caratteristiche. Queste caratteristiche non possono essere eliminate.
+[!UICONTROL Data Source Synced Traits] tenere traccia di tutti gli utenti associati a un'origine dati. You can use a [!UICONTROL Data Source Synched Trait] like other traits when you build or edit segments. When you create a [!UICONTROL Data Source Synced Trait], the trait name matches the name used by your data source. Modificate l'origine dati per modificare il nome delle caratteristiche. Queste caratteristiche non possono essere eliminate.
 
 >[!TIP]
 >
->[!UICONTROL Data Source Synced Traits] sono utili per la risoluzione dei problemi. Fai clic su un nome di caratteristica per controllare le metriche nella pagina di riepilogo delle caratteristiche. Se la caratteristica selezionata restituisce i dati, indica che il processo di sincronizzazione ID è configurato correttamente e come inviare i dati [!DNL Audience Manager].
+>[!UICONTROL Data Source Synced Traits] sono utili per la risoluzione dei problemi. Fai clic su un nome di caratteristica per controllare le metriche nella pagina di riepilogo delle caratteristiche. If your selected trait returns data, that indicates the ID synchronization process is set up properly and pushing data to [!DNL Audience Manager].
 
 >[!MORE_ LIKE_ THIS]
 >
