@@ -13,11 +13,11 @@ source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
 
 # File CSV per rapporti di sovrapposizione{#csv-files-for-overlap-reports}
 
-È possibile richiedere un file .csv per rapporti di sovrapposizione quando tale rapporto raggiunge il limite di 1 milione di record. Un rapporto potrebbe aver raggiunto questo limite quando viene visualizzato un messaggio di errore imprevisto. Contatta l&#39;Assistenza clienti per richiedere un file. csv compresso, che puoi importare e utilizzare nel tuo sistema di database. I file sono disponibili per rapporti di sovrapposizione segmento-segmento, segmento a caratteristica e caratteristica.
+È possibile richiedere un file .csv per rapporti di sovrapposizione quando tale rapporto raggiunge il limite di 1 milione di record. Un rapporto potrebbe aver raggiunto questo limite quando viene visualizzato un messaggio di errore imprevisto. Contatta l'Assistenza clienti per richiedere un file. csv compresso, che puoi importare e utilizzare nel tuo sistema di database. I file sono disponibili per rapporti di sovrapposizione segmento-segmento, segmento a caratteristica e caratteristica.
 
-## Metadati nome file {#file-name-metadata}
+## File Name Metadata {#file-name-metadata}
 
-Nell&#39;elenco seguente sono elencate e descritte le convenzioni di denominazione dei file e le estensioni dei file in un file overlap. csv. In questi esempi, *il corsivo* indica un segnaposto variabile.
+Nell'elenco seguente sono elencate e descritte le convenzioni di denominazione dei file e le estensioni dei file in un file overlap. csv. In the examples, *italics* indicates a variable placeholder.
 
 <table id="table_C99FCABA365B4AB99620F27D4414E623"> 
  <thead> 
@@ -29,15 +29,15 @@ Nell&#39;elenco seguente sono elencate e descritte le convenzioni di denominazio
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Estensione file </p> </td> 
-   <td colname="col2"> <p>I file di rapporti sovrapposti sono compressi e presentano un'estensione <code> .gz</code> file. È necessario aggiungere l' <code> estensione. csv</code> al file dopo la decompressione. </p> </td> 
+   <td colname="col2"> <p>Overlap report files are gzip compressed and have a <code> .gz</code> file extension. You must add the <code> .csv</code> extension to the file after decompression. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome file </p> </td> 
    <td colname="col2"> <p>Sintassi del nome file: </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
-      <li id="li_FFB104975D104050AB67FEEC903C6E2E">File segmento-segmento: <code>S 2 S_ overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
-      <li id="li_7DEC51D693FB4377840D652AF40386EF">File di tipo segmento-to-trait: <code>S 2 T_ overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date intervallo</i></code> </li> 
-      <li id="li_CCB35A2BCB714E518AB279D453740623">File caratteristiche: <code>T 2 T_ overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date intervallo</i></code> </li> 
+      <li id="li_FFB104975D104050AB67FEEC903C6E2E">Segment-to-segment files: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_7DEC51D693FB4377840D652AF40386EF">Segment-to-trait files: <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_CCB35A2BCB714E518AB279D453740623">Trait-to-trait files: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -56,8 +56,8 @@ Nell&#39;elenco seguente sono elencate e descritte le convenzioni di denominazio
    <td colname="col1"> <p>Esempi </p> </td> 
    <td colname="col2"> <p>Esempi di nome file per un singolo report: </p> <p> 
      <ul id="ul_EED13F73F37D48868236F8945E19C88F"> 
-      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">File singolo di 7 giorni: <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
-      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">File singolo di 30 giorni: <code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
+      <li id="li_55DD677F9BA7460AA4AAD27AFD08A5AE">Single, 7-day file: <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
+      <li id="li_487F8B76B7F24DCEB890C2D8186728F7">Single, 30-day file: <code> S2S_overlap_12345_2017_01_14_30000.gz</code> </li> 
      </ul> </p> <p>Esempi di nome file per un rapporto con più file: </p> <p> 
      <ul id="ul_D307EECBB3524962AB8C8332BF699D29"> 
       <li id="li_9FA3B5539E5A4F95899075866D96DEA0"> <code> S2S_overlap_12345_2017_01_14_70000.gz</code> </li> 
@@ -68,7 +68,7 @@ Nell&#39;elenco seguente sono elencate e descritte le convenzioni di denominazio
  </tbody> 
 </table>
 
-## Contenuto file {#file-contents}
+## File Contents {#file-contents}
 
 Nel file, i dati stringa sono racchiusi tra virgolette doppie. Vedi i dati di mock. Questa opzione è stata troncata per ragioni di brevità e adatta allo schermo.
 
@@ -79,9 +79,9 @@ Nel file, i dati stringa sono racchiusi tra virgolette doppie. Vedi i dati di mo
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## Record rapporto segmento-segmento {#segment-segment-records}
+## Segment-to-Segment Report Records {#segment-segment-records}
 
-Un file di dati per il rapporto di sovrapposizione [segmento-segmento](segment-segment-overlap-report.md) contiene i record seguenti.
+A data file for your [Segment-to-Segment Overlap Report](segment-segment-overlap-report.md) contains the following records.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -109,7 +109,7 @@ Un file di dati per il rapporto di sovrapposizione [segmento-segmento](segment-s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Puoi ottenere rapporti per intervalli di aspetto-back di 7 e 30 giorni. L' <code> ID rangeid</code> corrisponde agli intervalli di tempo mostrati di seguito. </p> <p> 
+   <td colname="col2"> <p>Puoi ottenere rapporti per intervalli di aspetto-back di 7 e 30 giorni. The <code> rangeid</code> corresponds to the time intervals shown below. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7 giorni </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 giorni </li> 
@@ -138,9 +138,9 @@ Un file di dati per il rapporto di sovrapposizione [segmento-segmento](segment-s
  </tbody> 
 </table>
 
-## Record rapporto segmento-caratteristica {#segment-trait-records}
+## Segment-to-Trait Report Records {#segment-trait-records}
 
-Un file di dati per il rapporto di sovrapposizione [segmento-caratteristica](segment-trait-overlap-report.md) contiene i record seguenti.
+A data file for your [Segment-to-Trait Overlap Report](segment-trait-overlap-report.md) contains the following records.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -172,7 +172,7 @@ Un file di dati per il rapporto di sovrapposizione [segmento-caratteristica](seg
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Puoi ottenere rapporti per intervalli di aspetto-back di 7 e 30 giorni. L' <code> ID rangeid</code> corrisponde agli intervalli di tempo mostrati di seguito. </p> <p> 
+   <td colname="col2"> <p>Puoi ottenere rapporti per intervalli di aspetto-back di 7 e 30 giorni. The <code> rangeid</code> corresponds to the time intervals shown below. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7 giorni </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 giorni </li> 
@@ -205,9 +205,9 @@ Un file di dati per il rapporto di sovrapposizione [segmento-caratteristica](seg
  </tbody> 
 </table>
 
-## Record rapporto caratteristiche con caratteristiche {#trait-trait-records}
+## Trait-to-Trait Report Records {#trait-trait-records}
 
-Un file di dati per il rapporto di sovrapposizione [Caratteristiche](trait-trait-overlap-report.md) contiene i record seguenti.
+A data file for your [Trait-to-Trait Overlap Report](trait-trait-overlap-report.md) contains the following records.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -247,7 +247,7 @@ Un file di dati per il rapporto di sovrapposizione [Caratteristiche](trait-trait
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Puoi ottenere rapporti per intervalli di aspetto-back di 7 e 30 giorni. L' <code> ID rangeid</code> corrisponde agli intervalli di tempo mostrati di seguito. </p> <p> 
+   <td colname="col2"> <p>Puoi ottenere rapporti per intervalli di aspetto-back di 7 e 30 giorni. The <code> rangeid</code> corresponds to the time intervals shown below. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7 giorni </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 giorni </li> 
