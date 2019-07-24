@@ -10,18 +10,18 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 ---
 
 
-# Ricerca avanzata di Adobe Analytics {#advanced-search-for-adobe-analytics}
+# Advanced Search for Adobe Analytics {#advanced-search-for-adobe-analytics}
 
-I clienti di Audience Manager che utilizzano [!DNL Adobe Analytics] anche possono sfruttare la stretta integrazione tra le due soluzioni abilitando l&#39; [!UICONTROL Advanced Search for Adobe Analytics] opzione.
+Audience Manager customers who also use [!DNL Adobe Analytics] can leverage the tight integration between the two solutions by enabling the [!UICONTROL Advanced Search for Adobe Analytics] option.
 
-Questa integrazione consente di visualizzare i nomi descrittivi per coppie chiave-valore derivate dalle [!DNL Adobe Analytics] suite di rapporti. Ecco come effettuare questa operazione:
+This integration allows you to see the friendly names for key-value pairs derived from [!DNL Adobe Analytics] report suites. Ecco come effettuare questa operazione:
 
-1. Andate ed [!UICONTROL Audience Data > Signals > Search] eseguite un&#39; [!UICONTROL Signals Search] opzione e attivate l&#39; **[!UICONTROL Advanced search for Adobe Analytics]** opzione.
-1. Usa il **[!UICONTROL Report Suite]** menu a discesa per cercare e selezionare la [!DNL Adobe Analytics] suite di rapporti da usare.
-1. Inserite il resto dei criteri di ricerca e fate clic **[!UICONTROL Search]** su. Per cercare tutti i segnali nella suite di rapporti specificata, lasciate vuoto i campi chiave-valore.
+1. Go to [!UICONTROL Audience Data > Signals > Search] and run a [!UICONTROL Signals Search] and enable the **[!UICONTROL Advanced search for Adobe Analytics]** option.
+1. Use the **[!UICONTROL Report Suite]** drop-down menu to search for and select the [!DNL Adobe Analytics] report suite to be used.
+1. Enter the rest of the search criteria and click **[!UICONTROL Search]**. Per cercare tutti i segnali nella suite di rapporti specificata, lasciate vuoto i campi chiave-valore.
    >[!NOTE]
    >
-   >**[!UICONTROL Key or Key Name]** Il campo mostra suggerimenti completati automaticamente in base all&#39;input e nomi descrittivi per le chiavi immesse.
+   >**[!UICONTROL Key or Key Name]** Il campo mostra suggerimenti completati automaticamente in base all'input e nomi descrittivi per le chiavi immesse.
 
    ![](assets/signals-search-analytics.png)
-1. I risultati della ricerca mostrano ora i nomi descrittivi per le coppie chiave-valore immesse nella **[!UICONTROL Key or Key Name]** colonna, oppure per tutti i segnali nella suite di rapporti, se avete lasciato vuoto i campi chiave-valore.
+1. The search results will now show you the friendly names for the key-value pairs entered in the **[!UICONTROL Key or Key Name]** column, or for all of the signals in the report suite, if you left the key-value fields blank.
