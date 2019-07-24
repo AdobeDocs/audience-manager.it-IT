@@ -11,13 +11,13 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 ---
 
 
-# Metodi API segmento {#segment-api-methods}
+# Segment API Methods {#segment-api-methods}
 
 Metodi che consentono di lavorare in modo programmatico con i segmenti.
 
 >[!IMPORTANT]
 >
->I metodi dei segmenti [!DNL API] sono stati riscritti [!DNL Swagger] e migrati. Consulta:
+>The segment [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Consulta:
 >
 >* [Documenti API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione dei codici API di Audience Manager](../../api/api-swagger-migration.md)
