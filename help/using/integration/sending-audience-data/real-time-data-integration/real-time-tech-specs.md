@@ -11,9 +11,9 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 ---
 
 
-# Specifiche tecniche per trasferimenti in entrata e in tempo reale{#technical-specifications-for-inbound-real-time-data-transfers}
+# Technical Specifications for Inbound, Real-Time Data Transfers{#technical-specifications-for-inbound-real-time-data-transfers}
 
-I fornitori di contenuti di terze parti possono prevedere di scambiare dati con Audience Manager in base a tali specifiche tecniche. Un&#39;integrazione in tempo reale (sincrona) trasferisce i dati in tempo reale mentre un utente visita o utilizza il sito. I team tecnici, tecnici o di sviluppo devono usare questo materiale per impostare trasferimenti di dati in tempo reale con Audience Manager.
+I fornitori di contenuti di terze parti possono prevedere di scambiare dati con Audience Manager in base a tali specifiche tecniche. Un'integrazione in tempo reale (sincrona) trasferisce i dati in tempo reale mentre un utente visita o utilizza il sito. I team tecnici, tecnici o di sviluppo devono usare questo materiale per impostare trasferimenti di dati in tempo reale con Audience Manager.
 
 <!-- c_rt_realtime_intro.xml -->
 
