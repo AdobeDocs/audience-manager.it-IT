@@ -11,21 +11,21 @@ source-git-commit: 3a02c2e109f6ae4565cf9d86bb8828ab49bb01f0
 ---
 
 
-# Univoco portata utente{#unique-user-reach}
+# Unique User Reach{#unique-user-reach}
 
-Il rapporto Univoco utente restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione al numero di utenti unici per le unità ad hoc selezionate. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola. Il rapporto Univoco utente consente di trovare l&#39;unità di annunci che offre il massimo reach rispetto agli utenti con targeting.
+Il rapporto Univoco utente restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione al numero di utenti unici per le unità ad hoc selezionate. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola. Il rapporto Univoco utente consente di trovare l'unità di annunci che offre il massimo reach rispetto agli utenti con targeting.
 
-## Caso d&#39;uso {#use-cases}
+## Caso d'uso {#use-cases}
 
-Con [!UICONTROL Unique User Reach] il rapporto potete identificare le proprietà nel portafoglio che attirano un volume elevato di utenti univoci.
+With the [!UICONTROL Unique User Reach] report, you can identify the properties in your portfolio that attract a high volume of unique users.
 
-## Utilizzo del Rapporto REACH univoco {#using-the-report}
+## Using the Unique Reach Report {#using-the-report}
 
-Utilizza la **[!UICONTROL Dimension Value]** casella per selezionare le unità di annunci da visualizzare nel rapporto. Fate clic per **[!UICONTROL All]** visualizzare tutte le proprietà nel grafico a bolle.
+Use the **[!UICONTROL Dimension Value]** box to select the ad units you want to display in the report. Click **[!UICONTROL All]** to display all your properties in the bubble chart.
 
-Utilizza i **controlli Intervallo** giorno e **Data mediante** per regolare l&#39;intervallo di look-back.
+Use the **Day Range** and **Date Through** controls to adjust your look-back range.
 
-## Interpretazione dei risultati {#interpreting-results}
+## Interpreting the Results {#interpreting-results}
 
 **Report di esempio**
 
@@ -36,6 +36,6 @@ Utilizza i **controlli Intervallo** giorno e **Data mediante** per regolare l&#3
 | Elemento | Descrizione |
 |--- |--- |
 | Valore dimensione | Nome della proprietà Web. |
-| Tipo dimensione | Tipo di dimensione editore. Al momento supportiamo solamente l&#39;unità ad unità come tipo di dimensione. |
-| Impressioni | Il numero di impression che sono state servite per la proprietà Web nell&#39;intervallo di look-back specificato. |
+| Tipo dimensione | Tipo di dimensione editore. Al momento supportiamo solamente l'unità ad unità come tipo di dimensione. |
+| Impressioni | Il numero di impression che sono state servite per la proprietà Web nell'intervallo di look-back specificato. |
 | Portata univoca | Il numero univoco di utenti raggiunto dalle impression sulle proprietà Web. |
