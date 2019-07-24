@@ -11,27 +11,27 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Tra segmenti e sovrapposizione unità ad{#segment-to-ad-unit-overlap}
+# Segment to Ad Unit Overlap{#segment-to-ad-unit-overlap}
 
-Il rapporto Segmento su unità ad unità viene visualizzato come grafico caldo che evidenzia l&#39;alta e il basso tra i segmenti Ad Units e Audience Manager.
+Il rapporto Segmento su unità ad unità viene visualizzato come grafico caldo che evidenzia l'alta e il basso tra i segmenti Ad Units e Audience Manager.
 
-## Caso d&#39;uso {#use-cases}
+## Caso d'uso {#use-cases}
 
-Con [!UICONTROL Segment to Ad Unit Overlap] il rapporto, puoi capire quali tipi di pubblico visita le tue proprietà web. Il rapporto mostra la sovrapposizione tra i membri [!DNL Audience Manager] dei segmenti e il numero di visitatori alle proprietà Web. Una sovrapposizione più elevata implica che molti membri di un segmento visitano la proprietà Web.
+With the [!UICONTROL Segment to Ad Unit Overlap] report, you can understand which audiences visit your web properties. The report displays the overlap between members of your [!DNL Audience Manager] segments and the number of visitors to your web properties. Una sovrapposizione più elevata implica che molti membri di un segmento visitano la proprietà Web.
 
-## Utilizzo del rapporto di sovrapposizione tra segmento e unità ad unità {#using-the-report}
+## Using the Segment to Ad Unit Overlap Report {#using-the-report}
 
-Usate i **[!UICONTROL Top N Ad Units]** controlli e **[!UICONTROL Top N Segments]** per selezionare il numero desiderato di unità e segmenti per la sovrapposizione. Potete selezionare un numero massimo di 100 elementi per ciascuno.
+Use the **[!UICONTROL Top N Ad Units]** and **[!UICONTROL Top N Segments]** controls to select your desired number of ad units and segments for the overlap. Potete selezionare un numero massimo di 100 elementi per ciascuno.
 
-Utilizza i **controlli Intervallo** giorno e **Data mediante** per regolare l&#39;intervallo di look-back. I periodi di look-back di 7 giorni e 30 giorni sono disponibili solo per le date domenica.
+Use the **Day Range** and **Date Through** controls to adjust your look-back range. I periodi di look-back di 7 giorni e 30 giorni sono disponibili solo per le date domenica.
 
-Utilizzate le **[!UICONTROL Segment Name]** caselle e **[!UICONTROL Ad Unit]** le caselle per filtrare i segmenti e le unità di annunci.
+Use the **[!UICONTROL Segment Name]** and the **[!UICONTROL Ad Unit]** boxes to filter any of segments and ad units.
 
 >[!IMPORTANT]
 >
->Quando abilitate [!UICONTROL Audience Optimization for Publishers], dovete includere metadati descrittivi per [!UICONTROL Ad Unit IDs], come descritto nel Passaggio 3 di [Importa file di dati DFP in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In tal modo, assicuratevi che il report contenga la proprietà Web come [!UICONTROL Ad Unit] invece [!UICONTROL Ad Unit ID]della proprietà.
+>When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Ad Unit IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Ad Unit] instead of the [!UICONTROL Ad Unit ID].
 
-## Interpretazione dei risultati {#interpreting-results}
+## Interpreting the Results {#interpreting-results}
 
 [!UICONTROL Segment to Ad Unit Overlap] Il rapporto potrebbe essere simile a quello di seguito. Passa il cursore su una cella per ottenere ulteriori informazioni su quella particolare sovrapposizione. Vedere descrizioni per le informazioni aggiuntive nella tabella sotto il rapporto campione.
 
@@ -51,7 +51,7 @@ Utilizzate le **[!UICONTROL Segment Name]** caselle e **[!UICONTROL Ad Unit]** l
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Conteggio unificazioni tempo reale</span> </p> </td> 
-   <td colname="col2"> <p>Il numero di visitatori unici che sono stati visti in tempo reale per l'intervallo di tempo specificato e che sono stati qualificati per il segmento nel momento in cui sono stati visti <span class="keyword"> da Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>The number of unique visitors seen in real-time for the specified time range and who were qualified for the segment at the moment they were seen by <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Conteggio unitario unità pubblicitaria</span> </p> </td> 
@@ -63,7 +63,7 @@ Utilizzate le **[!UICONTROL Segment Name]** caselle e **[!UICONTROL Ad Unit]** l
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Percentuale di sovrapposizione</span> </p> </td> 
-   <td colname="col2"> <p>La sovrapposizione tra le popolazioni di annunci e segmenti. Si tratta del <span class="wintitle"> Conteggio</span>unificato di sovrapposizione, espresso come percentuale del <span class="wintitle"> segmento Tempo reale segmento</span>. </p> </td> 
+   <td colname="col2"> <p>La sovrapposizione tra le popolazioni di annunci e segmenti. This is the <span class="wintitle"> Overlap Uniques Count</span>, expressed as a percentage of the <span class="wintitle"> Segment Real Time Uniques</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
