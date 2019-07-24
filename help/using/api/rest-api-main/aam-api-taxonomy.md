@@ -11,7 +11,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ---
 
 
-# Metodi API Tassonomic {#taxonomic-api-methods}
+# Taxonomic API Methods {#taxonomic-api-methods}
 
 Metodi che consentono di visualizzare la tassonomia Audience Manager. Questo schema di classificazione facoltativo organizza caratteristiche nelle categorie standard di settore.
 
@@ -19,9 +19,9 @@ Metodi che consentono di visualizzare la tassonomia Audience Manager. Questo sch
 
 >[!NOTE]
 >
->Non è possibile creare nuove categorie tassonomiche né classificare le caratteristiche con questi metodi. Per classificare una caratteristica, specificate quanto appropriato `categoryId` con un metodo di creazione o aggiornamento.
+>Non è possibile creare nuove categorie tassonomiche né classificare le caratteristiche con questi metodi. To classify a trait, specify the appropriate `categoryId` with a trait create or update method.
 
-## Restituisci una tassonomia specifica {#return-specific-taxonomy}
+## Return a Specific Taxonomy {#return-specific-taxonomy}
 
 `GET` Un metodo che restituisce dettagli sulla categoria tassonomic specificata.
 
@@ -33,7 +33,7 @@ Metodi che consentono di visualizzare la tassonomia Audience Manager. Questo sch
 
 ### Risposta
 
-Una risposta di risposta riuscita `200 OK` e la categoria per l&#39;ID specificato. Una richiesta non riuscita restituisce `404 No Content` se l&#39;ID non esiste.
+A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist.
 
 ```
 {
@@ -46,7 +46,7 @@ Una risposta di risposta riuscita `200 OK` e la categoria per l&#39;ID specifica
 }
 ```
 
-## Restituisci tutte le categorie Tassonomic {#return-all-taxonomy-categories}
+## Return all Taxonomic Categories {#return-all-taxonomy-categories}
 
 `GET` Un metodo che restituisce un elenco delle categorie di livello principale in un array.
 
@@ -89,7 +89,7 @@ Troncato per brevità.
 ]
 ```
 
-## Restituzione di sottocategorie tassonoiche {#return-taxonomy-sub-categories}
+## Return Taxonomic Sub-Categories {#return-taxonomy-sub-categories}
 
 `GET` Un metodo che restituisce sottocategorie per la categoria principale specificata in un array.
 
@@ -101,7 +101,7 @@ Troncato per brevità.
 
 ### Risposta
 
-Una risposta di risposta riuscita `200 OK` e la categoria per l&#39;ID specificato. Una richiesta non riuscita restituisce `404 No Content` se l&#39;ID non esiste. Troncato per brevità.
+A successful response returns `200 OK` and the category for the specified ID. An unsuccessful request returns `404 No Content` if the ID does not exist. Troncato per brevità.
 
 ```
 [
