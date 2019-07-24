@@ -11,7 +11,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Crea in blocco{#bulk-create}
+# Bulk Create{#bulk-create}
 
 La creazione in massa consente di creare più origini dati, segnali derivati, segmenti, caratteristiche e altri elementi con una singola operazione. Per effettuare una richiesta di creazione in massa, effettuate le seguenti operazioni.
 
@@ -23,25 +23,25 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->Non [!UICONTROL Bulk Management Tools]*sono* supportati da [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. Per modifiche in massa, consigliamo di lavorare con [le API](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell&#39; [!DNL Audience Manager] interfaccia utente vengono rispettate nell&#39; [!UICONTROL Bulk Management Tools]interfaccia.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell' [!DNL Audience Manager] interfaccia utente vengono rispettate nell' [!UICONTROL Bulk Management Tools]interfaccia.
 
 >[!CAUTION]
 >
 >Non combinate tipi di oggetti in una richiesta di creazione in massa. Le intestazioni di ciascun oggetto sono univoche e non possono essere combinate. Cancella il foglio di lavoro e richiedi una richiesta separata per elementi diversi.
 
-Per creare oggetti in gruppo, aprite il [!UICONTROL Bulk Management Tools] foglio di lavoro e:
+To create objects in bulk, open the [!UICONTROL Bulk Management Tools] worksheet and:
 
-1. Fare clic sulla **[!UICONTROL Headers]** scheda e copiare le intestazioni create per l&#39;elemento da aggiungere.
-1. Fare clic sulla **[!UICONTROL Create]** scheda.
+1. Click the **[!UICONTROL Headers]** tab and copy the create headers for the item you want to add.
+1. Click the **[!UICONTROL Create]** tab.
 1. Incolla le intestazioni create nella prima riga del foglio di lavoro di aggiornamento.
-1. Incolla o digita i dati da modificare in una colonna corrispondente basata sull&#39;etichetta dell&#39;intestazione.
-1. Nella barra degli strumenti del foglio di lavoro, fate clic sul pulsante Crea corrispondente all&#39;elemento che state aggiornando.
-Questa azione apre la [!UICONTROL Account Information] finestra di dialogo.
+1. Incolla o digita i dati da modificare in una colonna corrispondente basata sull'etichetta dell'intestazione.
+1. Nella barra degli strumenti del foglio di lavoro, fate clic sul pulsante Crea corrispondente all'elemento che state aggiornando.
+This action opens the [!UICONTROL Account Information] dialog box.
 
-1. Fornite le informazioni [richieste](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) e fate clic **[!UICONTROL Submit]** su.
+1. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
 
-Il foglio di lavoro crea una [!UICONTROL Results] colonna. La [!UICONTROL Results] colonna restituisce la risposta JSON per un&#39;operazione di successo. Per [esempi, consultate](../../api/rest-api-main/rest-api-main.md) API REST. Prima di inserire i dati, il foglio di lavoro di creazione in massa deve essere simile all&#39;esempio seguente. Non vengono visualizzate tutte le opzioni di creazione. Questa funzione è utile per comprendere l&#39;aspetto di un foglio di lavoro completato.
+The worksheet creates a [!UICONTROL Results] column. The [!UICONTROL Results] column returns the JSON response for a successful operation. See the [REST APIs](../../api/rest-api-main/rest-api-main.md) for examples. Prima di inserire i dati, il foglio di lavoro di creazione in massa deve essere simile all'esempio seguente. Non vengono visualizzate tutte le opzioni di creazione. Questa funzione è utile per comprendere l'aspetto di un foglio di lavoro completato.
 
 ![](assets/cretetraits.png)
 
-Se l&#39;aggiornamento in blocco restituisce un errore o un errore, consultate [Risoluzione dei problemi per strumenti di gestione collettiva](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).
