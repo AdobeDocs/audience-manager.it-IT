@@ -11,9 +11,9 @@ source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 ---
 
 
-# Requisiti password, Account bloccati e Password dimenticate{#password-requirements-locked-accounts-and-forgotten-passwords}
+# Password Requirements, Locked Accounts, and Forgotten Passwords{#password-requirements-locked-accounts-and-forgotten-passwords}
 
-Audience Manager può essere configurato per la scadenza delle password ogni 30 giorni. Chiedi al tuo consulente Audience Manager o all&#39;Assistenza clienti se desideri abilitare la scadenza della password. Consultate questa sezione per i requisiti della password e come recuperare una password perduta o dimenticata.
+Audience Manager può essere configurato per la scadenza delle password ogni 30 giorni. Chiedi al tuo consulente Audience Manager o all'Assistenza clienti se desideri abilitare la scadenza della password. Consultate questa sezione per i requisiti della password e come recuperare una password perduta o dimenticata.
 
 <!-- 
 
@@ -23,7 +23,7 @@ c_password_requirements.xml
 
 **Requisiti password**
 
-Per essere valida, [!DNL Audience Manager] la password deve soddisfare i seguenti requisiti:
+To be valid, your [!DNL Audience Manager] password must meet the following requirements:
 
 <table id="table_9B79E9F634664F6B995649E3158CCF20"> 
  <thead> 
@@ -64,15 +64,15 @@ Per essere valida, [!DNL Audience Manager] la password deve soddisfare i seguent
  </tbody> 
 </table>
 
-Per informazioni su come ripristinare la password, consultate [Modifica impostazioni account](../features/administration/edit-account-settings.md).
+For information about resetting your password, see [Edit Your Account Settings](../features/administration/edit-account-settings.md).
 
 **Lockout account**
 
-Gli account sono bloccati dopo i tentativi di accesso di 5 non riusciti. Contatta [!DNL Audience Manager] l&#39;amministratore della tua società o i rappresentanti di Partner Services per sbloccare l&#39;account.
+Gli account sono bloccati dopo i tentativi di accesso di 5 non riusciti. Contact your company's [!DNL Audience Manager] administrator or a Partner Services representatives to unlock your account.
 
 **Password dimenticata/dimenticata**
 
-Fai clic sul **[!UICONTROL Forgot password]** collegamento dalla pagina di accesso per reimpostare la password. Riceverete un messaggio e-mail automatizzato con una password temporanea scaduta dopo 24 ore. Fai clic sul collegamento nel messaggio e-mail per accedere al tuo account e reimpostare la password.
+Click the **[!UICONTROL Forgot password]** link from the login page to reset your password. Riceverete un messaggio e-mail automatizzato con una password temporanea scaduta dopo 24 ore. Fai clic sul collegamento nel messaggio e-mail per accedere al tuo account e reimpostare la password.
 
 >[!MORE_ LIKE_ THIS]
 >
