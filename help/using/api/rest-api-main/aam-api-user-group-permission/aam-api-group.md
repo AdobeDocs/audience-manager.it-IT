@@ -11,9 +11,9 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 ---
 
 
-# Metodi API di gestione dei gruppi {#group-management-api-methods}
+# Group Management API Methods {#group-management-api-methods}
 
-Metodi rest [!DNL API] per gestire gruppi, compresa la creazione, l&#39;aggiornamento, l&#39;elenco, l&#39;eliminazione di gruppi.
+Rest [!DNL API] methods to manage groups, including creating, updating, listing, deleting groups.
 
 <!-- c_rest_api_user_man_group.xml -->
 
@@ -50,7 +50,7 @@ Metodi rest [!DNL API] per gestire gruppi, compresa la creazione, l&#39;aggiorna
   }
 ```
 
-## Aggiornare un gruppo {#update-group}
+## Update a Group {#update-group}
 
 `PUT` Un metodo per aggiornare un gruppo utenti.
 
@@ -85,9 +85,9 @@ r_rest_api_group_update.xml
   }
 ```
 
-## Gruppi di elenco {#list-groups}
+## List Groups {#list-groups}
 
-`GET` Metodo per l&#39;elenco dei gruppi di utenti.
+`GET` Metodo per l'elenco dei gruppi di utenti.
 
 <!--
 r_rest_api_group_list.xml
@@ -113,7 +113,7 @@ r_rest_api_group_list.xml
 ]
 ```
 
-## Eliminare un gruppo {#delete-groups}
+## Delete a Group {#delete-groups}
 
 `DELETE` Un metodo per eliminare un gruppo di utenti e rimuovere tutti i membri da tale gruppo.
 
@@ -123,9 +123,9 @@ r_rest_api_group_list.xml
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Restituisce `204 No Content` in caso di esito positivo. In caso di ritorni `409 Conflict`a capo.
+Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
-## Elimina gruppi in gruppo {#delete-groups-bulk}
+## Delete Groups in Bulk {#delete-groups-bulk}
 
 `DELETE` Metodo per eliminare più gruppi in gruppo e rimuovere tutti i membri da tale gruppo.
 
@@ -135,9 +135,9 @@ Restituisce `204 No Content` in caso di esito positivo. In caso di ritorni `409 
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Restituisce `204 No Content` in caso di esito positivo. In caso di ritorni `409 Conflict`a capo.
+Returns `204 No Content` if successful. In case of conflict returns `409 Conflict`.
 
-## Elenca tutte le autorizzazioni per un gruppo {#list-permissions-group}
+## List All Permissions for a Group {#list-permissions-group}
 
 `GET` Un metodo per elencare gli oggetti delle autorizzazioni in un gruppo.
 
@@ -169,9 +169,9 @@ Restituisce `204 No Content` in caso di esito positivo. In caso di ritorni `409 
 ]
 ```
 
-Restituisce `400 Bad Request` se il gruppo è inaccessibile.
+Returns `400 Bad Request` if the group is inaccessible.
 
-## Impostazione delle autorizzazioni per un gruppo {#set-permissions-group}
+## Set Permissions for a Group {#set-permissions-group}
 
 `PUT` Un metodo per aggiornare le autorizzazioni del gruppo. Questo metodo sovrascrive le precedenti autorizzazioni con le nuove autorizzazioni.
 
@@ -204,6 +204,6 @@ Restituisce `400 Bad Request` se il gruppo è inaccessibile.
 ]
 ```
 
-La risposta di esempio rappresenta l&#39;elenco aggiornato degli oggetti delle autorizzazioni.
+La risposta di esempio rappresenta l'elenco aggiornato degli oggetti delle autorizzazioni.
 
-Restituisce `200 OK` in caso di esito positivo. Restituisce `400` se una determinata autorizzazione non è valida. Può essere restituito `403` anche se l&#39;oggetto non è accessibile dall&#39;utente connesso.
+Returns `200 OK` if successful. Returns `400` if any given permission is invalid. Can also return `403` if the object is not accessible by the logged-in user.
