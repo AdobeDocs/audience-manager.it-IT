@@ -10,13 +10,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Realizzazioni caratteristica backfill {#backfill-trait-realizations}
+# Backfill Trait Realizations {#backfill-trait-realizations}
 
 Realizza le caratteristiche delle caratteristiche per acquisire audience storiche ed evitare la perdita di dati rilevanti prima di una data di creazione delle caratteristiche.
 
-[!UICONTROL Data Explorer Trait Backfill] è una funzionalità premium che migliora l&#39;esperienza Audience Manager sbloccando altri casi d&#39;uso. Il backfill richiede ulteriori capacità di elaborazione ed è disponibile per tutti i clienti di Audience Manager a un costo incrementale. Per ulteriori informazioni, contattate il rappresentante vendite Adobe.
+[!UICONTROL Data Explorer Trait Backfill] è una funzionalità premium che migliora l'esperienza Audience Manager sbloccando altri casi d'uso. Il backfill richiede ulteriori capacità di elaborazione ed è disponibile per tutti i clienti di Audience Manager a un costo incrementale. Per ulteriori informazioni, contattate il rappresentante vendite Adobe.
 
-Quando create tratti da segnali inutilizzati, potete scegliere di retrocompilare le caratteristiche delle caratteristiche in un determinato periodo di tempo. [!DNL Audience Manager] acquisisce i dati storici sui tipi di pubblico idonei per la nuova caratteristica e li memorizza sul profilo corrispondente. Potete visualizzare la **[!UICONTROL Backfill Options]**[!UICONTROL Trait Expression] sezione del Generatore **[di caratteristiche](../../features/traits/about-trait-builder.md)**.
+Quando create tratti da segnali inutilizzati, potete scegliere di retrocompilare le caratteristiche delle caratteristiche in un determinato periodo di tempo. [!DNL Audience Manager] acquisisce i dati storici sui tipi di pubblico idonei per la nuova caratteristica e li memorizza sul profilo corrispondente. You can see the **[!UICONTROL Backfill Options]** in the [!UICONTROL Trait Expression] section of the **[Trait Builder](../../features/traits/about-trait-builder.md)**.
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ Quando create tratti da segnali inutilizzati, potete scegliere di retrocompilare
 
 Ecco come riempire le realizzazioni delle caratteristiche:
 
-1. Passate da [!UICONTROL Audience Data > Signals > Search] amd a un&#39;opzione di ricerca o utilizzate il [dashboard Segnali](../../features/data-explorer/data-explorer-signals-dashboard.md) per identificare i segnali da utilizzare nel nuovo tratto.
+1. Go to [!UICONTROL Audience Data > Signals > Search] amd run a Signals Search or use the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) to identify the signals to use in the new trait.
 1. Create una nuova caratteristica basata sui segnali desiderati.
-1. Utilizzate la **[!UICONTROL Backfill Options]** sezione nella **[!UICONTROL Trait Expression]** sezione per selezionare l&#39;intervallo di tempo per il quale desiderate riempire le caratteristiche delle caratteristiche. Intervalli di backfill predefiniti includono 1, 7, 14 e 30 giorni. Puoi anche scegliere un intervallo di date personalizzato fino a 30 giorni.
+1. Use the **[!UICONTROL Backfill Options]** in the **[!UICONTROL Trait Expression]** section to select the time interval for which you want to backfill trait realizations. Intervalli di backfill predefiniti includono 1, 7, 14 e 30 giorni. Puoi anche scegliere un intervallo di date personalizzato fino a 30 giorni.
    ![](assets/signals-trait-backfill.png)
-1. (Facoltativo) Fai clic **[!UICONTROL Estimate Realizations]** nella **[!UICONTROL Estimated Trait Realizations]** sezione per visualizzare i valori stimati [!UICONTROL Unique Trait Realizations] e [!UICONTROL Total Trait Population] i valori per il tratto con riempimento negli ultimi 7 giorni.
+1. (Optional) Click **[!UICONTROL Estimate Realizations]** in the **[!UICONTROL Estimated Trait Realizations]** section to see the estimated [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] values for the backfilled trait over the last 7 days.
    ![](assets/estimate-trait-realizations.png)
    >[!IMPORTANT]
    >
@@ -41,13 +41,13 @@ Ecco come riempire le realizzazioni delle caratteristiche:
 
 Una volta terminata la creazione della caratteristica, le relative rappresentazioni rientrate saranno incluse nelle statistiche di stabilità.
 
-## Latenza backfill {#trait-backfilling-latency}
+## Trait Backfilling Latency {#trait-backfilling-latency}
 
-Le caratteristiche appena create iniziano a acquisire l&#39;audience da due a tre ore dopo la creazione. Tuttavia, a causa dell&#39;elevato volume di dati [!DNL Audience Manager] che avvengono su base giornaliera, la popolazione smartinata non si riflette immediatamente nei grafici [!UICONTROL Unique Trait Realizations] e nei [!UICONTROL Total Trait Population] grafici.
+Le caratteristiche appena create iniziano a acquisire l'audience da due a tre ore dopo la creazione. However, due to the large volume of data that [!DNL Audience Manager] performs on a daily basis, the backfilled population is not immediately reflected in the [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] graphs.
 
-Audience Manager aggiorna la [!UICONTROL Trait Graph] popolazione con sottotitoli entro 48 ore dalla creazione delle caratteristiche.
+Audience Manager updates the [!UICONTROL Trait Graph] with the backfilled population within 48 hours from trait creation.
 
-## Limite backfill caratteristica {#trait-backfilling-limit}
+## Trait Backfilling Limit {#trait-backfilling-limit}
 
 [!UICONTROL Data Explorer] consente di ripristinare fino a 50 caratteristiche al mese, con il contatore di backfill che viene reimpostato il giorno di ogni mese.
 
@@ -55,8 +55,8 @@ Audience Manager aggiorna la [!UICONTROL Trait Graph] popolazione con sottotitol
 >
 >La quota di backfill trait non viene aggiornata dai mesi precedenti. Ad esempio, se riutilizzate 30 caratteristiche questo mese, la quota di backfill per il mese successivo viene reimpostata su 50, non su 70.
 
-## Impatto sui rapporti {#reporting-impact}
+## Impact on Reporting {#reporting-impact}
 
-Le caratteristiche di caratteristica backched si riflettono nelle [!UICONTROL Unique Trait Realizations][!UICONTROL Total Trait Population] metriche, in quanto [!DNL Audience Manager] converte i segnali storici nelle realizzazioni delle caratteristiche.
+Backfilled trait realizations are reflected in the [!UICONTROL Unique Trait Realizations] and [!UICONTROL Total Trait Population] metrics, as [!DNL Audience Manager] turns historical signals into trait realizations.
 
-Tuttavia, l &#39; [!UICONTROL Trait Graph], [!UICONTROL General Reports]e non [!UICONTROL Trend Reports] vengono aggiornati retroattivamente con le metriche storiche completate prima della data di creazione delle caratteristiche.
+However, the [!UICONTROL Trait Graph], [!UICONTROL General Reports], and [!UICONTROL Trend Reports] are not updated retroactively with historical metrics backfilled before the trait creation date.
