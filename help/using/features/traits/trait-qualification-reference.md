@@ -16,7 +16,7 @@ source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
 
 Le caratteristiche delle caratteristiche o la realizzazione delle caratteristiche vengono gestite diversamente in Audience Manager, a seconda del tipo di caratteristica. Per informazioni dettagliate sulla qualifica delle caratteristiche, consultate la tabella riportata di seguito.
 
-## Caratteristica caratteristica per tipo caratteristica {#trait-type}
+## Trait Qualification by Trait Type {#trait-type}
 
 <table id="table_14CD705F376B44EEA9A6C011984356F0"> 
  <thead> 
@@ -28,11 +28,11 @@ Le caratteristiche delle caratteristiche o la realizzazione delle caratteristich
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Caratteristiche basate su regole </p> </td> 
-   <td colname="col2"> <p>La caratteristica caratteristica si verifica in tempo reale, in quanto gli utenti si qualificano per una caratteristica nel browser. Dopo <a href="../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits"> la creazione della caratteristica</a> nell'interfaccia utente, gli utenti possono iniziare a fruire di una caratteristica di circa 4 ore. </p> <p>Le caratteristiche basate su regole consentono di utilizzare <a href="../../features/segments/recency-and-frequency.md"> controlli di aggiornamento e frequenza</a> per il sottoping della frequenza ad e altri casi d'uso. </p> </td> 
+   <td colname="col2"> <p>La caratteristica caratteristica si verifica in tempo reale, in quanto gli utenti si qualificano per una caratteristica nel browser. Your users will start qualifying for a rule-based trait approximately 4 hours after you <a href="../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits"> create the trait</a> in the UI. </p> <p>Rule-based traits allow you to use <a href="../../features/segments/recency-and-frequency.md"> recency and frequency</a> controls for ad frequency capping and other use cases. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caratteristiche caricate </p> </td> 
-   <td colname="col2"> <p>La caratteristica caratteristica si verifica dopo che un file in entrata è stato elaborato, ovvero il file in entrata <a href="../../faq/faq-inbound-data-ingestion.md"> viene importato in Audience Manager</a> e questo si verifica quando si verifica la qualifica di caratteristica. </p> <p> Per le caratteristiche caricate, il numero massimo di qualifiche per un profilo utente è 1. </p> </td> 
+   <td colname="col2"> <p>Trait qualification happens after an inbound file is processed, i.e. the inbound file is <a href="../../faq/faq-inbound-data-ingestion.md"> imported into Audience Manager</a> and that is when the trait qualification happens. </p> <p> Per le caratteristiche caricate, il numero massimo di qualifiche per un profilo utente è 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caratteristiche algoritmica </p> </td> 
@@ -40,29 +40,29 @@ Le caratteristiche delle caratteristiche o la realizzazione delle caratteristich
   </tr> 
   <tr> 
    <td colname="col1"> <p>Caratteristiche cartella </p> </td> 
-   <td colname="col2"> <p>Una caratteristica di cartella somma le caratteristiche delle caratteristiche delle caratteristiche che contiene. </p> <p>Leggi <a href="../../features/traits/about-folder-traits.md"> caratteristiche cartella: Informazioni</a> su ulteriori informazioni. </p> </td> 
+   <td colname="col2"> <p>Una caratteristica di cartella somma le caratteristiche delle caratteristiche delle caratteristiche che contiene. </p> <p>Read <a href="../../features/traits/about-folder-traits.md"> Folder Traits: About</a> for more information. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>Caratteristiche di audience attive e caratteristiche sincronizzate origine dati </p> </td> 
-   <td colname="col2"> <p>Una <span class="wintitle"> caratteristica Audience</span> attiva contiene tutti i dispositivi in gestione nell'account <span class="wintitle"> Audience Manager</span> . </p> <p><span class="wintitle"> Caratteristiche sincronizzate origine dati</span> Traccia tutti gli utenti associati a un'origine dati. </p> <p>Ulteriori informazioni sulle <a href="../../features/traits/client-activity-synced-audience-traits.md"> Caratteristiche di Audience attive e sulle caratteristiche</a>sincronizzate. </p> </td>
+   <td colname="col2"> <p>An <span class="wintitle"> Active Audience</span> trait contains all of the devices under management in your <span class="wintitle"> Audience Manager</span> account. </p> <p><span class="wintitle"> Caratteristiche sincronizzate origine dati</span> Traccia tutti gli utenti associati a un'origine dati. </p> <p>Read more about <a href="../../features/traits/client-activity-synced-audience-traits.md"> Active Audience Traits and Data Source Synced Traits</a>. </p> </td>
   </tr>
  </tbody>
 </table>
 
-## Rappresentazione caratteristica univoca e popolazione totale caratteristiche {#unique-trait-realizations}
+## Unique Trait Realizations and Total Trait Population {#unique-trait-realizations}
 
 ![](assets/utr-ttp1.png)
 
 **[!UICONTROL Unique Trait Realizations]** Il numero di visitatori che hanno aggiunto la caratteristica al proprio profilo, entro diversi intervalli di tempo.
 
-Rappresenta **[!UICONTROL Total Trait Population]** il numero di visitatori che hanno questa caratteristica sul proprio profilo.
+The **[!UICONTROL Total Trait Population]** represents the number of your visitors that have this trait on their profile.
 
-Pensa ai numeri in questo modo. Nell&#39;immagine sopra, dalla [visualizzazione Dettagli](../../features/traits/trait-details-page.md) caratteristica, 181 rappresenta il numero di dispositivi attivi che hanno visitato le proprietà ieri. Il [!UICONTROL Total Trait Population] valore 1,595 rappresenta la quantità di utenti attualmente qualificata per questa caratteristica. La [!UICONTROL Total Trait Population] figura è concepita per mostrare la quantità totale di utenti che possono essere utilizzati per la segmentazione o il targeting. In genere, gli utenti resteranno parte di una caratteristica per 120 giorni.
+Pensa ai numeri in questo modo. In the image above, from the [Trait Details](../../features/traits/trait-details-page.md) view, 181 represents the number of active devices, that visited your properties yesterday. The [!UICONTROL Total Trait Population] of 1,595 represents the amount of users currently qualified for this trait. The [!UICONTROL Total Trait Population] figure is meant to show the total amount of users who could be used for segmentation/targeting. In genere, gli utenti resteranno parte di una caratteristica per 120 giorni.
 
-Poiché sono disponibili due processi computazionali diversi per calcolare le due popolazioni, il [!UICONTROL Total Trait Population] numero sempre maggiore [!UICONTROL Unique Trait Realizations] di 24 ore. Nel grafico sopra, puoi vedere 175 [!UICONTROL Unique Trait Realizations] e [!UICONTROL Total Trait Population] 6 per febbraio 11. I 175 profili vengono aggiunti [!UICONTROL Total Trait Population] al giorno seguente.
+Because we run two different computational jobs to calculate the two populations, the [!UICONTROL Total Trait Population] always lags behind the [!UICONTROL Unique Trait Realizations] by 24 hours. In the graph above, you can see 175 [!UICONTROL Unique Trait Realizations] and a [!UICONTROL Total Trait Population] of 6 for February 11. The 175 profiles are added to the [!UICONTROL Total Trait Population] on the following day.
 
-Per promuovere ulteriormente la home page, se si provava un picco di 10,000 visitatori al momento, compariva nel futuro [!UICONTROL Unique Trait Realizations], ma compariva solo 24 ore più tardi nella [!UICONTROL Total Trait Population]pagina.
+To further drive the point home, if you experienced a spike of 10,000 visitors right now, they would show up in tomorrow's [!UICONTROL Unique Trait Realizations], but would only show up 24 hours later in the [!UICONTROL Total Trait Population].
 
-## Limite di qualifica caratteristica {#trait-qualification-limit}
+## Trait Qualification Limit {#trait-qualification-limit}
 
-Applica un limite di 150,000 caratteristiche caratteristiche per ogni profilo utente, sia che si tratti di un profilo autenticato ( [DPUUID](../../reference/ids-in-aam.md)) o di un ID dispositivo ( [UUID](../../reference/ids-in-aam.md)). Tieni presente che, mentre dpuuid è univoco per un&#39;istanza specifica di [!DNL Audience Manager], UUID è condiviso su tutta [!DNL Audience Manager] la piattaforma. Per [!UICONTROL UUID]s, impone un criterio di equità durante la memorizzazione delle caratteristiche delle caratteristiche. Un algoritmo assicura che una condivisione uguale del [!UICONTROL UUID] profilo sia resa disponibile per ogni istanza di [!DNL Audience Manager].
+We enforce a limit of 150,000 trait qualifications for each user profile, whether it is an authenticated profile ( [DPUUID](../../reference/ids-in-aam.md)) or a device ID ( [UUID](../../reference/ids-in-aam.md)). Note that while the DPUUIDs are unique to a specific instance of [!DNL Audience Manager], UUIDs are shared across the [!DNL Audience Manager] platform. For [!UICONTROL UUID]s, we impose a fairness policy when storing trait qualifications. An algorithm ensures that an equal share of the [!UICONTROL UUID] profile is made available for every instance of [!DNL Audience Manager].
