@@ -10,7 +10,7 @@ source-git-commit: 3e7c993b1ddd2829e382de56ea246a667ff3ce0c
 ---
 
 
-# Integrazioni partner personalizzate {#custom-partner-integrations}
+# Custom Partner Integrations {#custom-partner-integrations}
 
 Questa pagina elenca le integrazioni personalizzate tra Audience Manager e partner di dati.
 
@@ -24,7 +24,7 @@ Audience Manager inserisce cookie e dati di identificazione mobile da Oracle Dat
 
 **Specifiche di integrazione**
 
-I file di dati in entrata ricevuti da Oracle Data Cloud differiscono dalla sintassi standard del nome file descritta in [Amazon S 3 Nome e Dimensione file per i file di dati in entrata](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) e dalla sintassi standard del contenuto del file in entrata descritta in [Contenuti del file di dati in entrata: Sintassi, Caratteri non validi, variabili ed esempi](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+Inbound Data Files received from the Oracle Data Cloud differ from the standard inbound file name syntax described in [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) and from the standard inbound file content syntax described in [Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 Sono necessari gli elementi evidenziati sotto, oltre ai campi di implementazione standard per i file di dati in entrata. Per le descrizioni di tutti gli altri campi standard e nomi del file, vedere Sintassi nome file e Sintassi contenuto file nelle due pagine collegate sopra.
 
@@ -34,17 +34,17 @@ Sono necessari gli elementi evidenziati sotto, oltre ai campi di implementazione
 
 I nomi dei file ODC sono strutturati come:
 
-<pre>ftp_ dpm_<b>odc</b>_ DPID [_ DPID_ TARGET_ DATA_ OWNER]_ TIMESTAMP (. sync |. overwrite) [. SPLIT_ NUMBER] [.gz]</pre>
+<pre>ftp_dpm_<b>odc</b>_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]</pre>
 
-L&#39;elemento nome `odc` file identifica il file come importato da Oracle Data Cloud e indica all&#39;autore del file in ingresso di Audience Manager di elaborarlo come tale.
+The `odc` file name element identifies the file as being imported from the Oracle Data Cloud and instructs the Audience Manager inbound file validator to process it as such.
 
 <br> 
 
 **Contenuto dei file**
 
-I campi nel file di dati in entrata ODC devono essere visualizzati nell&#39;ordine indicato di seguito:
+I campi nel file di dati in entrata ODC devono essere visualizzati nell'ordine indicato di seguito:
 
-<pre>&lt;<b>Tipo ID</b>&gt; &lt; TAB &gt; &lt; ID utente &gt; &lt; TAB &gt; &lt; ID caratteristica &gt;, &lt; ID caratteristica &gt;, &lt; ID caratteristica &gt;,…</pre>
+<pre>&lt;<b>ID type</b>&gt;&lt;TAB&gt;&lt;user ID&gt;&lt;TAB&gt;&lt;trait ID&gt;,&lt;trait ID&gt;,&lt;trait ID&gt;,...</pre>
 
 `ID type` Può essere:
 
@@ -59,4 +59,4 @@ I campi nel file di dati in entrata ODC devono essere visualizzati nell&#39;ordi
 
 **File in entrata ODC di esempio**
 
-Scaricate il [file di esempio](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). Questo file qualifica diversi IDFAS per l&#39;ID caratteristica 38838. Potete aprire questo file in un editor di testo standard o in un editor di codice.
+Download the [sample file](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). Questo file qualifica diversi IDFAS per l'ID caratteristica 38838. Potete aprire questo file in un editor di testo standard o in un editor di codice.
