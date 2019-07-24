@@ -11,9 +11,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Elimina massa{#bulk-delete}
+# Bulk Delete{#bulk-delete}
 
-L&#39;eliminazione di massa consente di rimuovere più segmenti, caratteristiche, cartelle, segnali derivati e destinazioni con una singola operazione. Per effettuare una richiesta di eliminazione collettiva, effettuate le seguenti operazioni.
+L'eliminazione di massa consente di rimuovere più segmenti, caratteristiche, cartelle, segnali derivati e destinazioni con una singola operazione. Per effettuare una richiesta di eliminazione collettiva, effettuate le seguenti operazioni.
 
 <!-- 
 
@@ -23,23 +23,23 @@ L&#39;eliminazione di massa consente di rimuovere più segmenti, caratteristiche
 
 >[!NOTE]
 >
->Non [!UICONTROL Bulk Management Tools]*sono* supportati da [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. Per modifiche in massa, consigliamo di lavorare con [le API](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell&#39; [!DNL Audience Manager] interfaccia utente vengono rispettate nell&#39; [!UICONTROL Bulk Management Tools]interfaccia.
+>The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell' [!DNL Audience Manager] interfaccia utente vengono rispettate nell' [!UICONTROL Bulk Management Tools]interfaccia.
 
 >[!NOTE]
 >
->Un eliminazione in massa per le mappature di destinazione non riesce se vi sono segmenti mappati alla destinazione. Rimuovi i segmenti da quella destinazione nell&#39;interfaccia utente prima di tentare di indirizzare le destinazioni di eliminazione in massa. Inoltre, le cartelle di segmenti e segmenti devono essere vuote prima di poterle eliminare.
+>Un eliminazione in massa per le mappature di destinazione non riesce se vi sono segmenti mappati alla destinazione. Rimuovi i segmenti da quella destinazione nell'interfaccia utente prima di tentare di indirizzare le destinazioni di eliminazione in massa. Inoltre, le cartelle di segmenti e segmenti devono essere vuote prima di poterle eliminare.
 
-Per eliminare più elementi, aprite il [!UICONTROL Bulk Management Tools] foglio di lavoro e:
+To delete multiple items, open the [!UICONTROL Bulk Management Tools] worksheet and:
 
-1. Fare clic sulla **[!UICONTROL Headers]** scheda e copiare le intestazioni create per l&#39;elemento da aggiungere.
-2. Fare clic sulla **[!UICONTROL Delete]** scheda.
+1. Click the **[!UICONTROL Headers]** tab and copy the create headers for the item you want to add.
+2. Click the **[!UICONTROL Delete]** tab.
 3. Incolla le intestazioni di eliminazione nella prima riga del foglio di lavoro di aggiornamento.
-4. Incolla o immetti gli ID per gli oggetti da eliminare nella colonna sotto l&#39;intestazione.
-5. Fornite le informazioni [richieste](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) e fate clic **[!UICONTROL Submit]** su.
+4. Incolla o immetti gli ID per gli oggetti da eliminare nella colonna sotto l'intestazione.
+5. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
 
-   Il foglio di lavoro crea una [!UICONTROL Results] colonna. [!UICONTROL Results] La colonna restituisce un messaggio che indica se l&#39;elemento è stato eliminato o un messaggio di errore.
+   The worksheet creates a [!UICONTROL Results] column. [!UICONTROL Results] La colonna restituisce un messaggio che indica se l'elemento è stato eliminato o un messaggio di errore.
 Prima di inserire i dati, il foglio di lavoro di aggiornamento in blocco deve essere simile a quello seguente:
 
 ![](assets/delete.png)
 
-Se l&#39;aggiornamento in blocco restituisce un errore o un errore, consultate [Risoluzione dei problemi per strumenti di gestione collettiva](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).
