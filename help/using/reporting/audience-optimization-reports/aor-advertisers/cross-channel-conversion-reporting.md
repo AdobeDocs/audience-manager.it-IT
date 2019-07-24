@@ -13,15 +13,15 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Conversione tra canali{#cross-channel-conversion}
 
-L&#39;opzione Cross Channel Conversion (Conversione tra canali) nei report di ottimizzazione audience consente di attribuire conversioni offline a impression online o clic.
+L'opzione Cross Channel Conversion (Conversione tra canali) nei report di ottimizzazione audience consente di attribuire conversioni offline a impression online o clic.
 
 [!UICONTROL Cross Channel Conversion] I rapporti combinano i risultati della piattaforma [!DNL DoubleClick Campaign Manager] (DCM) con caratteristiche [!DNL Audience Manager] di conversione. In tal modo potete collegare le conversioni offline alle impression o ai clic online.
 
-Puoi utilizzare i [!UICONTROL Cross Channel Conversion] rapporti Prestazioni [segmento](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) e [Frequenza](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) ottimale.
+You can use the [!UICONTROL Cross Channel Conversion] for the [Segment Performance](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) and [Optimal Frequency](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) reports.
 
-Per visualizzare [!UICONTROL Cross Channel Conversion] i rapporti, seleziona l&#39; **[!UICONTROL AAM+DCM]** elemento nell&#39;elenco **[!UICONTROL Platform]** a discesa.
+To view the [!UICONTROL Cross Channel Conversion] reports, select the **[!UICONTROL AAM+DCM]** item in the **[!UICONTROL Platform]** drop-down list.
 
-Nella tabella seguente sono elencate considerazioni importanti per la configurazione [!UICONTROL Cross Channel Conversion]:
+The following table lists important considerations when setting up [!UICONTROL Cross Channel Conversion]:
 
 <table id="table_62590B4AB7624B619EC9AA8FF89722C9"> 
  <thead> 
@@ -33,11 +33,11 @@ Nella tabella seguente sono elencate considerazioni importanti per la configuraz
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Numero minimo di caratteristiche di conversione </p> </td> 
-   <td colname="col1"> <p>Almeno un trait di conversione deve essere assegnato a un'origine dati per eseguire i rapporti <span class="wintitle"> Cross Channel Conversion (Conversione</span> tra canali). Per <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> ulteriori informazioni sulle caratteristiche, consulta Informazioni di base sulle caratteristiche</a> . </p> </td> 
+   <td colname="col1"> <p>At least one conversion trait must be assigned to a data source in order for the <span class="wintitle"> Cross Channel Conversion</span> reports to run. See <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Basic Information for Traits</a> for more information on traits. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>Numero massimo di caratteristiche di conversione </p> </td> 
-   <td colname="col1"> <p>I report generano <i>un massimo</i> di 50 caratteristiche di conversione dall'utente. Se raggiungete il massimo, i report utilizzano le prime 50 caratteristiche di conversione in base all'ID caratteristica, in ordine crescente. </p> </td> 
+   <td colname="col1"> <p>The reports pull in a <i>maximum</i> of 50 conversion traits from the user. Se raggiungete il massimo, i report utilizzano le prime 50 caratteristiche di conversione in base all'ID caratteristica, in ordine crescente. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Finestra Attribuzione </p> </td> 
