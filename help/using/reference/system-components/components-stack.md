@@ -11,7 +11,7 @@ source-git-commit: b8b195f51186151fa7a8658451d1ee9aa7010a75
 ---
 
 
-# Componenti chiave nel sistema Audience Manager{#key-components-in-the-audience-manager-system}
+# Key Components in the Audience Manager System{#key-components-in-the-audience-manager-system}
 
 Audience Manager raggruppa i propri sistemi e processi in quattro categorie principali: gestione tag, raccolta dati, organizzazione dati e fruibilità dati.
 
@@ -21,7 +21,7 @@ c_compstack.xml
 
  -->
 
-L&#39;illustrazione seguente mostra i componenti principali e la tecnologia (hardware e software) di cui dispone [!DNL Audience Manager]. Sebbene alcuni processi svolgano funzioni specifiche e altri dispongono di ruoli multipli, tutti i sistemi lavorano insieme per aiutarti a gestire i tag, raccogliere dati, analizzare le prestazioni, sincronizzare le informazioni con altri sistemi e intervenire su tali informazioni.
+The following illustration shows the main components and the underlying technology (hardware and software) that power [!DNL Audience Manager]. Sebbene alcuni processi svolgano funzioni specifiche e altri dispongono di ruoli multipli, tutti i sistemi lavorano insieme per aiutarti a gestire i tag, raccogliere dati, analizzare le prestazioni, sincronizzare le informazioni con altri sistemi e intervenire su tali informazioni.
 
 ![](assets/components.png)
 
