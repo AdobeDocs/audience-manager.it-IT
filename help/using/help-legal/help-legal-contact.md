@@ -12,7 +12,7 @@ source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
 
 # Contatti e informazioni legali {#legal-contact}
 
-Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l&#39;utilizzo di questo prodotto e di questa documentazione.
+Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l'utilizzo di questo prodotto e di questa documentazione.
 
 ## Aiuto e supporto tecnico {#technical-support}
 
@@ -31,7 +31,7 @@ In base alla configurazione della soluzione, alcune opzioni descritte in questa 
 
 Published by Adobe Systems Incorporated.
 
-[Condizioni d&#39;uso](https://marketing.adobe.com/resources/help/en_US/terms.html) | [Centro per la privacy](https://www.adobe.com/privacy.html)
+[Condizioni d'uso](https://marketing.adobe.com/resources/help/en_US/terms.html) | [Centro per la privacy](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
