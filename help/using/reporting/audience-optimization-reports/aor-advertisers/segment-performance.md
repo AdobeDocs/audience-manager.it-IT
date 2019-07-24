@@ -11,19 +11,19 @@ source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
 ---
 
 
-# Report sulle prestazioni dei segmenti{#segment-performance-report}
+# Segment Performance Report{#segment-performance-report}
 
-[!UICONTROL Segment Performance] Il rapporto confronta i segmenti mappati e non mappati tramite impression e tassi di conversione. Un segmento mappato è un segmento che crei e invia a una destinazione per il targeting. Un segmento non mappato è un segmento che hai creato ma non è stato inviato a una destinazione per il targeting. Il confronto tra questi tipi di segmenti diversi all&#39;interno e tra i rapporti consente di ottimizzare le campagne esistenti e individuare segmenti trascurati che potresti desiderare inviare a una destinazione per il targeting.
+[!UICONTROL Segment Performance] Il rapporto confronta i segmenti mappati e non mappati tramite impression e tassi di conversione. Un segmento mappato è un segmento che crei e invia a una destinazione per il targeting. Un segmento non mappato è un segmento che hai creato ma non è stato inviato a una destinazione per il targeting. Il confronto tra questi tipi di segmenti diversi all'interno e tra i rapporti consente di ottimizzare le campagne esistenti e individuare segmenti trascurati che potresti desiderare inviare a una destinazione per il targeting.
 
-## Come leggere i risultati dei segmenti mappati {#read-mapped-segment-results}
+## How to Read Your Mapped Segment Results {#read-mapped-segment-results}
 
-Il [!UICONTROL Segment Performance] rapporto mappato mostra tutti i segmenti creati e inviati a una destinazione per il targeting. La posizione dei segmenti mappati in un rapporto può indicare molto sui segmenti che funzionano bene e dove potresti dover apportare alcune correzioni.
+The mapped [!UICONTROL Segment Performance] report displays all the segments you created and sent to a destination for targeting.The position of your mapped segments in a report can tell you a lot about which segments are performing well and where you might need to make some adjustments.
 
 Per leggere il rapporto, è utile suddividere i risultati in 4 sezioni con righe immaginarie (in rosso) e le categorie mostrate nel rapporto di esempio sottostante.
 
 ![](assets/mapped-segment-performance.png)
 
-Le etichette nell&#39;esempio e nella tabella seguente possono aiutarti a comprendere le prestazioni dei segmenti e come rispondere a tali risultati.
+Le etichette nell'esempio e nella tabella seguente possono aiutarti a comprendere le prestazioni dei segmenti e come rispondere a tali risultati.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
@@ -52,9 +52,9 @@ Le etichette nell&#39;esempio e nella tabella seguente possono aiutarti a compre
  </tbody> 
 </table>
 
-## Come leggere i risultati dei segmenti non mappati {#read-unmapped-segment-results}
+## How to Read Your Unmapped Segment Results {#read-unmapped-segment-results}
 
-L&#39;aspetto dei segmenti non mappati in un [!UICONTROL Segment Performance] rapporto è un modo eccellente per trovare nuovi segmenti che non sono considerati per il targeting. In effetti, alcuni di questi segmenti possono prevalere sui segmenti mappati. poiché un segmento non mappato deve soddisfare un insieme di criteri di qualifica da includere in questo report. Per essere inclusi in questo rapporto, un segmento non mappato deve:
+Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. In effetti, alcuni di questi segmenti possono prevalere sui segmenti mappati. poiché un segmento non mappato deve soddisfare un insieme di criteri di qualifica da includere in questo report. Per essere inclusi in questo rapporto, un segmento non mappato deve:
 
 * Hanno conversioni superiori alla media di tutti i segmenti mappati.
 * Dai primi 100 segmenti non mappati per tasso di conversione.
@@ -67,4 +67,4 @@ In questo rapporto, vuoi solo concentrarti su quei segmenti non mappati nella se
 
 >[!NOTE]
 >
->I periodi di look-back di 7 giorni e 30 giorni sono disponibili solo per **[!UICONTROL Date Through]** le date domenica.
+>7-day and 30-day look-back periods are only available for Sunday **[!UICONTROL Date Through]** dates.
