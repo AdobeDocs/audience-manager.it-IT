@@ -11,9 +11,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Ordine delle operazioni nel generatore di caratteristiche {#order-of-operations-in-trait-builder}
+# Order of Operations in Trait Builder {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] valuta le espressioni in base all&#39;ordine di operazioni elencate di seguito, dall&#39;alto a una precedenza bassa. Gli elementi trait definiti da operatori ad alta precedenza vengono valutati prima, prima di altri operatori di precedenza. Questa sezione classifica ciascun operatore in base alla precedenza, da alta a bassa.
+[!UICONTROL Trait Builder] valuta le espressioni in base all'ordine di operazioni elencate di seguito, dall'alto a una precedenza bassa. Gli elementi trait definiti da operatori ad alta precedenza vengono valutati prima, prima di altri operatori di precedenza. Questa sezione classifica ciascun operatore in base alla precedenza, da alta a bassa.
 
 <!-- c_tb_operator_precedence.xml -->
 
@@ -42,12 +42,12 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
    <td colname="col3"> Uguale a, non equivale a essere valutata dopo gli operatori precedenti. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Booleano <span class="wintitle"> AND</span> </td> 
+   <td colname="col1">Boolean <span class="wintitle"> AND</span> </td> 
    <td colname="col2"><span class="wintitle"> AND</span> </td> 
    <td colname="col3" morerows="1"> n/d </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Booleano <span class="wintitle"> OR</span> </td> 
+   <td colname="col1">Boolean <span class="wintitle"> OR</span> </td> 
    <td colname="col2"><span class="wintitle"> OR</span> </td> 
    <td colname="col3" morerows="1"> n/d </td> 
   </tr> 
