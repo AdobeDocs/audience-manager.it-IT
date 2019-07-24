@@ -11,8 +11,8 @@ source-git-commit: ea95df8531c00c183f22b09a4a78fc6b35ee279d
 ---
 
 
-# Integrazione dei dati in tempo reale in tempo reale {#real-time-inbound-data-integration}
+# Real-Time Inbound Data Integration {#real-time-inbound-data-integration}
 
-Informazioni sull&#39;integrazione in tempo reale di Audience Manager.
+Informazioni sull'integrazione in tempo reale di Audience Manager.
 
 <!-- c_rt_data_int.xml -->
