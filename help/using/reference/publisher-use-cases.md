@@ -11,9 +11,9 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Casi d&#39;uso editore{#publisher-use-cases}
+# Publisher Use Cases{#publisher-use-cases}
 
-Un&#39;audience più comune deve essere soddisfatta da Adobe Audience Manager.
+Un'audience più comune deve essere soddisfatta da Adobe Audience Manager.
 
 <!-- 
 
@@ -89,16 +89,16 @@ c_pub_use_case.xml
    <td colname="col3"> <p> 
      <ul id="ul_EEED2DAD504C486F8C00992219C893F7"> 
       <li id="li_E536F7C79824484DA3DC895809B849F4">Analytics fornisce dati di prime parti sull'interesse del pubblico nel contenuto dei viaggi. Crea un segmento denominato «Viaggi di viaggio» basato su queste informazioni. </li> 
-      <li id="li_DCB3A5F3772C4DCEB757A4AB6CABFBE3">Integrare <span class="keyword"> Audience Manager</span> con un sistema come Adobe CQ per gestire le campagne di personalizzazione dei contenuti. </li> 
+      <li id="li_DCB3A5F3772C4DCEB757A4AB6CABFBE3">Integrate <span class="keyword"> Audience Manager</span> with a system like Adobe CQ to manage content personalization campaigns. </li> 
       <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">Eseguite il targeting del segmento di viaggio a un inserzionista di volo, hotel o ospitalità per migliorare i ricavi pubblicitari generati dall'inventario. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Miglioramento dell&#39;estensione REACH fuori sito**
+**Miglioramento dell'estensione REACH fuori sito**
 
-Questo caso d&#39;uso funziona con i dati di prime parti di Analytics inviati a una piattaforma di demand (DSP).
+Questo caso d'uso funziona con i dati di prime parti di Analytics inviati a una piattaforma di demand (DSP).
 
 <table id="table_F88329D45D9441F1A8EDB9D6140FD02D"> 
  <thead> 
@@ -123,7 +123,7 @@ Questo caso d&#39;uso funziona con i dati di prime parti di Analytics inviati a 
 
 **Creare segmenti di valore elevato e migliorare Reach con modellazione simile**
 
-La documentazione [Modelli](../features/algorithmic-models/understanding-models.md) contiene informazioni sul processo [!DNL Audience Manager] di modellazione algoritmica.
+The [Models documentation](../features/algorithmic-models/understanding-models.md) contains details about the [!DNL Audience Manager] algorithmic modeling process.
 
 <table id="table_A10E4656E2A74EF5BCCA42A7AAA94416"> 
  <thead> 
