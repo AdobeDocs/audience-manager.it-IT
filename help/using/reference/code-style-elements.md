@@ -11,7 +11,7 @@ source-git-commit: 8e4afebaa2035fca6f8535314be5f072f26e0217
 ---
 
 
-# Convenzioni di stile per Codice e elementi di testo{#style-conventions-for-code-and-text-elements}
+# Style Conventions for Code and Text Elements{#style-conventions-for-code-and-text-elements}
 
 Questi elementi identificano le opzioni e le variabili del codice utilizzate nella documentazione di aiuto. In genere, non includete tali simboli o elementi di stile nel codice o nei file di dati. Sono solo indicatori visivi.
 
@@ -25,7 +25,7 @@ Questi elementi identificano le opzioni e le variabili del codice utilizzate nel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>variable</i></code> </p> </td> 
-   <td colname="col2"> <p>Le variabili sono visualizzate <i>in corsivo</i>. Sostituire il valore appropriato per il nome della variabile. </p> <p>Per chiarezza visiva, a volte le variabili e altri elementi di codice appaiono tra &lt; &gt; parentesi quadre. Non è necessario utilizzare questi simboli nel codice. </p> </td> 
+   <td colname="col2"> <p>Variables appear in <i>italics</i>. Sostituire il valore appropriato per il nome della variabile. </p> <p>Per chiarezza visiva, a volte le variabili e altri elementi di codice appaiono tra &lt; &gt; parentesi quadre. Non è necessario utilizzare questi simboli nel codice. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [facoltativo]</code> </p> </td> 
