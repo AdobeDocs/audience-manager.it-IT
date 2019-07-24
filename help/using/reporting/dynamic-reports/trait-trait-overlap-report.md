@@ -17,7 +17,7 @@ Restituisce dati sul numero di utenti univoci condivisi tra tutte le caratterist
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione in Audience Manager aderiscono ai principi RBAC. Potete visualizzare solo le caratteristiche delle origini dati a cui avete accesso in base al [gruppo](/help/using/features/administration/administration-overview.md) RBAC a cui appartenete.
+>I rapporti di sovrapposizione in Audience Manager aderiscono ai principi RBAC. You can only see traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
 
 <!-- 
 
@@ -35,7 +35,7 @@ c_overlap_reports.xml
 
 ## Report di esempio
 
-L&#39;illustrazione seguente fornisce una panoramica di alto livello degli elementi [!UICONTROL Trait-to-Trait Overlap] del rapporto.
+The following illustration provides a high-level overview of elements in the [!UICONTROL Trait-to-Trait Overlap] report.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ L&#39;illustrazione seguente fornisce una panoramica di alto livello degli eleme
 
 Selezionate un singolo punto per visualizzare i dettagli dei dati in una finestra a comparsa. Le azioni di clic aggiornano automaticamente i dati visualizzati nel rapporto.
 
-## Campi pop-to-trait di sovrapposizione caratteristica definiti {#field-definitions}
+## Trait-to-Trait Overlap Data Pop Fields Defined {#field-definitions}
 
 Descrive le metriche visualizzate nella finestra popup quando si fa clic su un singolo punto dati.
 
@@ -57,7 +57,7 @@ r_t2t_data_pop.xml
 
  -->
 
-La finestra a comparsa del [!UICONTROL Trait-to-Trait Overlap] rapporto contiene le metriche riportate di seguito. Tieni presente che la metrica unificata nella tabella rappresenta gli *utenti in tempo reale*.
+The popup for the [!UICONTROL Trait-to-Trait Overlap] report contains the metrics below. Note that the uniques metric in the table represents your *real-time users*.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
