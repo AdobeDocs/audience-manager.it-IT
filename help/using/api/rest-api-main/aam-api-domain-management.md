@@ -11,13 +11,13 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Metodi API di gestione dominio {#domain-management-api-methods}
+# Domain Management API Methods {#domain-management-api-methods}
 
 Metodi di gestione del dominio che consentono di creare e gestire i domini ai quali vuoi inviare dati (solo per le destinazioni dei cookie).
 
 <!-- c_partner_site.xml -->
 
-## Creare un nuovo dominio {#create-new-domain}
+## Create a New Domain {#create-new-domain}
 
 `POST` Un metodo che consente di creare un nuovo dominio per (solo destinazioni dei cookie).
 
@@ -37,7 +37,7 @@ Metodi di gestione del dominio che consentono di creare e gestire i domini ai qu
 
 ### Risposta
 
-Una risposta di risposta vincente e `201 created` il sito partner, incluso il suo ID univoco.
+A successful response returns `201 created` and the partner site, including its unique ID.
 
 ```
 {
@@ -47,7 +47,7 @@ Una risposta di risposta vincente e `201 created` il sito partner, incluso il su
 }
 ```
 
-## Eliminare un dominio {#delete-domain}
+## Delete a Domain {#delete-domain}
 
 `DELETE` Un metodo che consente di rimuovere un dominio (solo per le destinazioni dei cookie).
 
@@ -59,9 +59,9 @@ Una risposta di risposta vincente e `201 created` il sito partner, incluso il su
 
 ### Risposta
 
-Restituisce una risposta di successo `204 no content`. Restituisce `404 not found` se non è possibile trovare il sito partner.
+A successful response returns `204 no content`. Returns `404 not found` if the partner site cannot be found.
 
-## Restituisci proprietà per un dominio {#return-props-domain}
+## Return Properties for a Domain {#return-props-domain}
 
 `GET` Un metodo che restituisce dettagli sul dominio specificato (solo per le destinazioni dei cookie).
 
@@ -73,7 +73,7 @@ Restituisce una risposta di successo `204 no content`. Restituisce `404 not foun
 
 ### Risposta
 
-Una risposta di risposta vincente e `200 OK` dati come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l&#39;ID del sito o il partner non è trovato.
+A successful response returns `200 OK` and data as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found.
 
 ```
 {
@@ -83,7 +83,7 @@ Una risposta di risposta vincente e `200 OK` dati come mostrato nell&#39;esempio
 }
 ```
 
-## Restituisci proprietà per tutti i domini {#return-props-all-domains}
+## Return Properties for all Domains {#return-props-all-domains}
 
 `GET` Un metodo che restituisce informazioni su tutti i domini (solo per le destinazioni dei cookie).
 
@@ -95,7 +95,7 @@ Una risposta di risposta vincente e `200 OK` dati come mostrato nell&#39;esempio
 
 ### Parametri query facoltativi
 
-È possibile utilizzare questi parametri facoltativi con [!DNL API] metodi che restituiscono *tutte* le proprietà di un oggetto. Impostate queste opzioni nella stringa di richiesta quando trasferite la query all&#39; [!DNL API]oggetto. Consultate [Parametri facoltativi](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+You can use these optional parameters with [!DNL API] methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -130,7 +130,7 @@ Una risposta di risposta vincente e `200 OK` dati come mostrato nell&#39;esempio
 
 ### Risposta
 
-Restituisce una `200 OK` risposta di risposta e dati in un array come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l&#39;ID del sito o il partner non è trovato.
+A successful response returns `200 OK` and data in an array as shown in the sample below. Returns `404 Not found` if the site ID or partner is not found.
 
 ```
 [
