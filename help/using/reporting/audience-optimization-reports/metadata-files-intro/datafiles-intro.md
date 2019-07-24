@@ -11,19 +11,19 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# File di dati per report di ottimizzazione pubblico{#data-files-for-audience-optimization-reports}
+# Data Files for Audience Optimization Reports{#data-files-for-audience-optimization-reports}
 
 Un file di dati contiene dati di impression, clic o conversione. Una volta formattati correttamente, puoi importarli in Audience Manager e visualizzarli nei report Ottimizzazione pubblico. Formattare i file di dati in base alle seguenti specifiche in questa sezione.
 
 ## Panoramica {#overview}
 
-Un file di dati correttamente denominato e formattato consente di importare dati di impression, clic o conversione nei report Ottimizzazione [pubblico](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Questo è utile quando lavorate con un partner che non è integrato [!DNL Audience Manager] e desiderate lavorare con i loro dati in quella suite di rapporti. Questo processo richiede file separati per i dati impression, clic e conversione. Non combinarli in un unico file.
+A properly named and formatted data file lets you import impression, click, or conversion data into the [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). This is useful when working with a partner who is not integrated with [!DNL Audience Manager] and you want to work with their data in that report suite. Questo processo richiede file separati per i dati impression, clic e conversione. Non combinarli in un unico file.
 
-Un file di dati deve essere accompagnato da un file di metadati. I contenuti dei file di metadati corrispondono alle informazioni sui file di dati per etichette pertinenti e comprensibili all&#39;utente nei menu dei rapporti. Per ulteriori informazioni, consultate [Panoramica e mappature per i file di metadati](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Un file di dati deve essere accompagnato da un file di metadati. I contenuti dei file di metadati corrispondono alle informazioni sui file di dati per etichette pertinenti e comprensibili all'utente nei menu dei rapporti. For more information, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
-## Convenzioni di denominazione per i file di dati {#naming-conventions}
+## Naming Conventions for Data Files {#naming-conventions}
 
-La sintassi seguente definisce la struttura di un nome di file dati ben formattato. Nota: *il corsivo* indica un segnaposto variabile che cambia a seconda del contenuto del file.
+La sintassi seguente definisce la struttura di un nome di file dati ben formattato. Note, *italics* indicates a variable placeholder that changes depending on the file contents.
 
 **Sintassi:** <pre><code><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
@@ -31,7 +31,7 @@ Nel nome di un file:
 
 * Il tipo di evento indica che il file contiene impression, clic o conversioni. Create un file separato per ogni tipo di evento.
 * Un carattere di sottolineatura separa il tipo di evento e un indicatore di data/mese.
-* Prima di caricare, comprimete i file utilizzando gzip e salvateli con l&#39;estensione `.gz` del file.
+* Before uploading, compress your files using gzip and save them with the `.gz` file extension.
 
 In base a tali requisiti, denominate i file di dati in base al loro contenuto:
 
@@ -39,19 +39,19 @@ In base a tali requisiti, denominate i file di dati in base al loro contenuto:
 * Fate clic su dati: <pre><code>click_<i>yyyymmdd</i>.gz</code></pre>
 * Dati conversione: <pre><code>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
-## Formato contenuto per i file di dati {#content-format}
+## Content Format for Data Files {#content-format}
 
-La sintassi seguente definisce la struttura del contenuto nel file di dati corretto. Nota, *il corsivo* indica un segnaposto variabile e viene sostituito con un&#39;etichetta in un file di dati effettivo.
+La sintassi seguente definisce la struttura del contenuto nel file di dati corretto. Note, *italics* indicates a variable placeholder and is replaced with an label in an actual data file.
 
 **Sintassi:** <pre><code><i>label label 1</i> | <i>label label label 2</i> … <i>header label n</i> | <i>version</i></code></pre>
 
 Nel contenuto del file:
 
-* Le etichette dell&#39;intestazione devono essere visualizzate nell&#39;ordine come illustrato nella tabella seguente. Le impression e i clic usano le stesse etichette. I file di conversione contengono intestazioni aggiuntive.
-* Se non si dispone di dati per una particolare colonna, compilare il campo con un `NULL` oggetto o `-1`.
+* Le etichette dell'intestazione devono essere visualizzate nell'ordine come illustrato nella tabella seguente. Le impression e i clic usano le stesse etichette. I file di conversione contengono intestazioni aggiuntive.
+* If you don't have data for a particular column, populate that field with a `NULL` object or `-1`.
 
-* I file ** devono terminare con un numero di versione. La versione corrente è 1.1.
-* Separate intestazioni e contenuti con il carattere ASCII 001 non stampabile. Se non è possibile utilizzare ASCII 001, separate le intestazioni e i dati con un delimitatore tabulazione. Poiché questi sono caratteri non stampabili, l&#39;esempio di sintassi riportato sopra mostra un canale `"|"` esclusivamente a scopo di visualizzazione.
+* Files *must* end with a version number. La versione corrente è 1.1.
+* Separate intestazioni e contenuti con il carattere ASCII 001 non stampabile. Se non è possibile utilizzare ASCII 001, separate le intestazioni e i dati con un delimitatore tabulazione. As these are non-printing characters, the syntax example above shows a pipe `"|"` for display purposes only.
 
 **Etichette dei campi**
 
@@ -67,11 +67,11 @@ La tabella seguente elenca e descrive le intestazioni delle colonne del file di 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Marca temporale </p> </td> 
-   <td colname="col2"> <p>Una data e un'ora UTC per l'evento di impression, clic o conversione. Utilizzate <code> aaaa-dd-mm hh: mm:</code> formato ss. </p> </td> 
+   <td colname="col2"> <p>Una data e un'ora UTC per l'evento di impression, clic o conversione. Use the <code> yyyy-dd-mm hh:mm:ss</code> format. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID utente </p> </td> 
-   <td colname="col2"> <p>L'ID per un visitatore del sito, noto anche come ID utente univoco di <span class="term"> data provider</span> o DPUUID. </p> </td> 
+   <td colname="col2"> <p>Your ID for a site visitor, also known as the <span class="term"> data provider unique user ID</span> or DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertiser-ID </p> </td> 
@@ -137,13 +137,13 @@ La tabella seguente elenca e descrive le intestazioni delle colonne del file di 
  </tbody> 
 </table>
 
-## Metodi di consegna per i file di dati {#delivery-methods}
+## Delivery Methods for Data Files {#delivery-methods}
 
-Caricate i file di dati impression, clic o conversione in una directory Amazon S 3 per l&#39; [!DNL Audience Manager] account. Fate riferimento a questa sezione per informazioni sui percorsi di consegna/directory, sui tempi di elaborazione dei file e sugli aggiornamenti.
+Upload your impression, click, or conversion data files to an Amazon S3 directory for your [!DNL Audience Manager] account. Fate riferimento a questa sezione per informazioni sui percorsi di consegna/directory, sui tempi di elaborazione dei file e sugli aggiornamenti.
 
 **Sintassi percorso di consegna ed Esempi**
 
-I dati vengono memorizzati in uno spazio nomi separato per ogni cliente in una directory Amazon S 3. Il percorso del file segue la sintassi mostrata di seguito. Nota, *il corsivo* indica un segnaposto variabile. Altri elementi sono costanti o chiavi e non cambiano.
+I dati vengono memorizzati in uno spazio nomi separato per ogni cliente in una directory Amazon S 3. Il percorso del file segue la sintassi mostrata di seguito. Note, *italics* indicates a variable placeholder. Altri elementi sono costanti o chiavi e non cambiano.
 
 **Sintassi:** <pre><code>…/log_ assimilion/pid = <i>AAM ID<i>/dpid = <i>d_ src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
@@ -163,7 +163,7 @@ La tabella seguente definisce ciascuno di questi elementi in un percorso di cons
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid =<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Questa coppia chiave-valore contenente l' <span class="keyword"> ID</span> cliente di Audience Manager. </p> </td> 
+   <td colname="col2"> <p>This key-value pair that contains your <span class="keyword"> Audience Manager</span> customer ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid =<i>d_ src</i></code> </p> </td> 
@@ -190,8 +190,8 @@ Quando caricate un file, il percorso sarà simile al seguente:
 
 I file di dati vengono elaborati quattro volte al giorno, a intervalli regolari.
 
-Per aggiornare i dati, inviarli in un file contenente tutte le impression, i clic o le conversioni per un giorno particolare. In questo caso, un giorno corrisponde al periodo di 24 ore da una mezzanotte a quella successiva. Come procedura ottimale, puoi usare ora UTC per definire l&#39;intervallo di giorni.
+Per aggiornare i dati, inviarli in un file contenente tutte le impression, i clic o le conversioni per un giorno particolare. In questo caso, un giorno corrisponde al periodo di 24 ore da una mezzanotte a quella successiva. Come procedura ottimale, puoi usare ora UTC per definire l'intervallo di giorni.
 
 ## Passaggi successivi {#next-steps}
 
-Esaminate i requisiti per la denominazione e la creazione di file di metadati. Per iniziare, consultate [Panoramica e mappature per i file di metadati](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Esaminate i requisiti per la denominazione e la creazione di file di metadati. To get started, see [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
