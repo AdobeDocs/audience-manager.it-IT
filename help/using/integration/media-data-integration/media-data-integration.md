@@ -11,9 +11,9 @@ source-git-commit: f39c8fbb8f301c3068cd6fab47def9f8e3308cad
 ---
 
 
-# Integrazione dei dati multimediali {#media-data-integration}
+# Media Data Integration {#media-data-integration}
 
-Potete acquisire i dati dalle campagne multimediali utilizzando chiamate pixel ad Audience Manager (spesso denominate pixelio delle credenziali) o tramite l&#39;assimilazione dei file di registro. Leggi gli articoli in questa sezione per comprendere il processo.
+Potete acquisire i dati dalle campagne multimediali utilizzando chiamate pixel ad Audience Manager (spesso denominate pixelio delle credenziali) o tramite l'assimilazione dei file di registro. Leggi gli articoli in questa sezione per comprendere il processo.
 
 <!-- c_camp_data_int.xml -->
 
