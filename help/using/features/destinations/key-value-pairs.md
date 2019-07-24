@@ -11,11 +11,11 @@ source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 ---
 
 
-# Coppie chiave-valore standard e chiave di serie {#standard-and-serial-key-value-pairs}
+# Standard and Serial Key-Value Pairs {#standard-and-serial-key-value-pairs}
 
 Una coppia chiave-valore consiste in elementi correlati: Una chiave, ovvero una costante che definisce il set di dati (ad es. genere, colore, prezzo) e un valore, ovvero una variabile che appartiene al set (ad es. uomo/donna, verde, 100). [!UICONTROL Destination Builder] invia dati formattati come coppie chiave-valore.
 
-## Coppie chiave-valore di base {#basic-key-value-pairs}
+## Basic Key-Value Pairs {#basic-key-value-pairs}
 
 Completamente formattato, un set di base della coppia chiave-valore potrebbe essere:
 
@@ -23,12 +23,12 @@ Completamente formattato, un set di base della coppia chiave-valore potrebbe ess
 * `color = green`
 * `price > 100`
 
-## Coppie chiave-valore standard e chiave di serie {#standard-serial-key-value-pairs}
+## Standard and Serial Key-Value Pairs {#standard-serial-key-value-pairs}
 
-Le destinazioni accettano dati chiave-valore in *`standard`* o *`serialized`* formato.
+Destinations accept key-value data in *`standard`* or *`serialized`* format.
 
 * **Coppie chiave-valore standard:** Formatta i dati di destinazione in coppie chiave-valore separate. Ogni chiave viene definita esplicitamente, anche quando viene utilizzata di nuovo per definire un altro valore.
-* **Coppie chiave-valore serializzate:** Condensa più valori in una singola coppia chiave-valore. In una coppia chiave-valore serializzata, un indicatore speciale separa i valori all&#39;interno del set chiave-valore.
+* **Coppie chiave-valore serializzate:** Condensa più valori in una singola coppia chiave-valore. In una coppia chiave-valore serializzata, un indicatore speciale separa i valori all'interno del set chiave-valore.
 
 Valori chiave standard e serializzati possono contenere valori singoli o multipli. Nella tabella seguente sono riportati alcuni esempi di formati chiave-valore standard e di serie.
 
@@ -54,17 +54,17 @@ Valori chiave standard e serializzati possono contenere valori singoli o multipl
  </tbody>
 </table>
 
-## Delimitatori e separatori {#delimiters-separators}
+## Delimiters and Separators {#delimiters-separators}
 
-I caratteri che separano i valori all&#39;interno e tra chiavi e valori sono noti come *`delimiters`* e *`separators`*. Sono particolarmente importanti quando invii segmenti a una destinazione in un formato di serie. La serializzazione consente di trasmettere più valori con una singola chiave e combinare coppie chiave-valore. I delimitatori e i separatori sono definiti come segue:
+The characters that separate values within and between keys and values are known as *`delimiters`* and *`separators`*. Sono particolarmente importanti quando invii segmenti a una destinazione in un formato di serie. La serializzazione consente di trasmettere più valori con una singola chiave e combinare coppie chiave-valore. I delimitatori e i separatori sono definiti come segue:
 
-* **Separatore chiave chiave:** Separa una chiave e un valore all&#39;interno di una coppia chiave-valore.
+* **Separatore chiave chiave:** Separa una chiave e un valore all'interno di una coppia chiave-valore.
 * **Delimitatore chiave chiave:** Separa i set di coppie chiave-valore.
-* **Separatore di serie:** Separa più valori all&#39;interno di set di coppie chiave-valore serializzate.
+* **Separatore di serie:** Separa più valori all'interno di set di coppie chiave-valore serializzate.
 
 ## Esempi {#examples}
 
-Con [!UICONTROL Destination Builder] è possibile formattare i dati chiave-valore in diversi modi. Diamo un&#39;occhiata ad alcuni esempi di ciascun tipo.
+With [!UICONTROL Destination Builder] you can format key-value data in several different ways. Diamo un'occhiata ad alcuni esempi di ciascun tipo.
 
 <table id="table_C2FBDC887C8C4CC88B1B2A7CF8E2795F"> 
  <thead> 
@@ -123,14 +123,14 @@ Con [!UICONTROL Destination Builder] è possibile formattare i dati chiave-valor
  </tbody> 
 </table>
 
-## Serializzazione destinazione {#destination-serialized}
+## Destination Serialization {#destination-serialized}
 
 Una destinazione serializzata combina più caratteristiche in una singola stringa e invia tali informazioni a una destinazione.
 
 <!-- c_dest_serialized.xml -->
 
-La trasmissione serializzata contribuisce a migliorare l&#39;efficienza perché più caratteristiche vengono attivate in sequenza, anziché in parallelo. Questo fornisce al server di destinazione un tempo sufficiente per ricevere, elaborare e restituire i dati prima di rispondere a richieste aggiuntive.
+La trasmissione serializzata contribuisce a migliorare l'efficienza perché più caratteristiche vengono attivate in sequenza, anziché in parallelo. Questo fornisce al server di destinazione un tempo sufficiente per ricevere, elaborare e restituire i dati prima di rispondere a richieste aggiuntive.
 
 ### Destinazioni supportate
 
-In [!DNL Audience Manager], potete serializzare e inviare dati a qualsiasi destinazione con cui desiderate lavorare. Tuttavia, prima di utilizzare questa funzione, è necessario conoscere la destinazione [!DNL URL] e dove inserire alcune macro richieste o facoltative. Ottenere le informazioni sulla posizione della macro dal partner di destinazione. See [Destination Macros Defined](../../features/destinations/destination-macros.md#destination-macros-defined) for more information.
+In [!DNL Audience Manager], you can serialize and send data to just about any destination you want to work with. However, before using this feature, you will need to know the destination [!DNL URL] and where to place some required or optional macros. Ottenere le informazioni sulla posizione della macro dal partner di destinazione. See [Destination Macros Defined](../../features/destinations/destination-macros.md#destination-macros-defined) for more information.
