@@ -11,24 +11,24 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 ---
 
 
-# Recency e frequenza {#recency-and-frequency}
+# Recency and Frequency {#recency-and-frequency}
 
-In [!UICONTROL Segment Builder], recency e frequenza puoi segmentare i visitatori in base alle azioni che si verificano o ripetere un intervallo giornaliero impostato.
+In [!UICONTROL Segment Builder], recency and frequency let you segment visitors based on actions that occur or repeat over a set daily interval.
 
-Audience Manager viene definito [!DNL recency] e [!DNL frequency] come segue:
+Audience Manager defines [!DNL recency] and [!DNL frequency] as follows:
 
 * **[!UICONTROL Recency]:** Numero di giorni in cui un utente ha visualizzato o qualificato per una o più caratteristiche.
 * **[!UICONTROL Frequency]:** La frequenza di visualizzazione o di qualifica di un utente per una o più caratteristiche.
 
 [!UICONTROL Recency][!UICONTROL Frequency] e le impostazioni aiutano a segmentare i visitatori in base al loro livello di interesse reale (percepito) in un sito, sezione o particolare creativo. Ad esempio, gli utenti idonei per un segmento con requisiti di recency/frequenza elevati possono essere più interessati a un sito o a un prodotto rispetto a quelli che visita meno spesso o meno.
 
-## Posizione delle impostazioni di aggiornamento e frequenza {#location}
+## Location of Recency and Frequency Settings {#location}
 
-In [!UICONTROL Segment Builder], [!UICONTROL Recency][!UICONTROL Frequency] le impostazioni si trovano nella [!UICONTROL Basic View] sezione del [!UICONTROL Traits] pannello. Fate clic sull&#39;icona dell&#39;orologio per esporre questi controlli.
+In [!UICONTROL Segment Builder], [!UICONTROL Recency] and [!UICONTROL Frequency] settings are located in the [!UICONTROL Basic View] section of the [!UICONTROL Traits] panel. Fate clic sull'icona dell'orologio per esporre questi controlli.
 
 ![](assets/recency_frequency.png)
 
-## Limitazioni e regole {#limitations-rules}
+## Limitations and Rules {#limitations-rules}
 
 Leggi e comprendi questi limiti e regole quando vuoi applicare recency e frequenza alle caratteristiche nei tuoi segmenti.
 
@@ -69,26 +69,26 @@ Leggi e comprendi questi limiti e regole quando vuoi applicare recency e frequen
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Requisiti di aggiornamento</b> </p> </td> 
-   <td colname="col2"> <p>È possibile configurare i requisiti di frequenza <i>senza</i> configurare i requisiti di aggiornamento. È sufficiente impostare un valore di frequenza e lasciare vuoto il campo di aggiornamento. </p> </td> 
+   <td colname="col2"> <p>You can configure frequency requirements <i>without</i> configuring recency requirements. È sufficiente impostare un valore di frequenza e lasciare vuoto il campo di aggiornamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Regole di unione profilo</b> </p> </td> 
-   <td colname="col2"> <p>Consultate <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Frequenza caratteristica, Grafici dispositivo esterni e Regole di unione profilo</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Esempi di sottotitoli frequenza {#frequency-capping}
+## Frequency Capping Examples {#frequency-capping}
 
 Le espressioni di estremità della frequenza includono tutti gli utenti il cui numero di realizzazioni è sotto un valore desiderato. Di seguito sono riportati alcuni esempi:
 
-* L&#39;espressione `frequency([1000T]) <= 5` include tutti gli utenti che hanno realizzato la caratteristica con l&#39;ID «1000» un massimo di cinque volte, compresi gli utenti che non hanno realizzato la caratteristica.
-* Quando è necessario che i requisiti di aggiornamento/frequenza siano inferiori a un numero specifico di volte o giorni, unisciti a tale caratteristica con un `AND` operatore. Utilizzando l&#39;esempio precedente, questa espressione diventa valida se associata con un&#39;altra caratteristica, come illustrato: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+* The expression `frequency([1000T]) <= 5` includes all users that have realized the trait with the ID "1000" a maximum of five times, including users who have not realized the trait.
+* When you need recency/frequency requirements to be less than a specific number of times or days, join that trait to another with an `AND` operator. Using the example above, this expression becomes valid when joined with another trait as shown here: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
 
-* Per i casi di utilizzo dei sottotitoli pubblicitari, puoi creare una regola di segmento simile a questa: `(frequency([1000T] <= 2D) >= 5)`. Questa espressione include tutti gli utenti che hanno realizzato la caratteristica con l&#39;ID «1000» negli ultimi 2 giorni di almeno cinque volte. Imposta il passaggio della frequenza inviando questo segmento al server di annunci con un `NOT` set sul segmento nell&#39;ad server. Questo approccio offre prestazioni maggiori nel [!DNL Audience Manager] corso, mantenendo allo stesso tempo lo stesso scopo per il passaggio della frequenza.
+* For advertising frequency-capping use cases, you could create a segment rule similar to this: `(frequency([1000T] <= 2D) >= 5)`. Questa espressione include tutti gli utenti che hanno realizzato la caratteristica con l'ID «1000» negli ultimi 2 giorni di almeno cinque volte. Set frequency capping by sending this segment to the ad server with a `NOT` set on the segment in the ad server. This approach achieves greater performance in [!DNL Audience Manager] while still serving the same purpose for frequency capping.
 
 >[!MORE_ LIKE_ THIS]
 >
 >* [Controlli del Generatore di segmenti: Sezione Caratteristiche](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [Sintassi codice utilizzata nell&#39;Editor di espressioni segmento](../../features/segments/segment-code-syntax.md)
+>* [Sintassi codice utilizzata nell'Editor di espressioni segmento](../../features/segments/segment-code-syntax.md)
 
