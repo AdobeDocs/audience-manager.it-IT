@@ -12,13 +12,13 @@ source-git-commit: a9550d71bbc6adf939539df05cd38a9d22ef261b
 ---
 
 
-# Limiti di utilizzo {#usage-limits}
+# Usage Limits {#usage-limits}
 
-Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che puoi creare per un account. I limiti si applicano a questi elementi sia per l&#39;interfaccia utente che per quelli mediante [!DNL API] metodi. I limiti di utilizzo aiutano a proteggere Audience Manager dai processi automatizzati che potrebbero tentare di compromettere l&#39;interfaccia [!DNL API]utente o l&#39;interfaccia utente.
+Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che puoi creare per un account. Limits apply to these items whether created in the user interface or programmatically through [!DNL API] methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our [!DNL API]s or user interface.
 
 ## Limiti di mappatura degli ID {#id-mapping-limits}
 
-La tabella seguente elenca i [limiti di mappatura](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) ID per gli ID dispositivo. Una volta raggiunto un qualsiasi limite di seguito, Audience Manager aggiunge nuove mappature ID basate su una [!DNL FIFO] logica (first in, first out), rimuovendo la mappatura ID memorizzata meno recente e aggiunge quella nuova. Fai riferimento [all&#39;indice degli ID](../../reference/ids-in-aam.md) in Audience Manager per informazioni sugli ID supportati da Audience Manager.
+The table below lists the [ID mapping](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) limits for device IDs. Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adds the new one. Refer to [Index of IDs](../../reference/ids-in-aam.md) in Audience Manager for details on the IDs supported by Audience Manager.
 
 | Mappatura ID | Limite massimo |
 |-----------|-------------- |
@@ -26,16 +26,16 @@ La tabella seguente elenca i [limiti di mappatura](../../integration/sending-aud
 | ID cross-device (CRM ID) to Device Advertising ID (DAID) | 10 ID cross-device (CRM ID) a 1 Device Advertising ID (DAID) |
 | ID cookie/browser per cookie/ID browser | 1000 ID/browser browser to 1 cookie/browser ID |
 
-## Limiti elemento {#item-limits}
+## Item Limits {#item-limits}
 
-Le tabelle indicano i limiti correnti per tipo di elemento. Non puoi creare nuove caratteristiche, segmenti, destinazioni o [!UICONTROL Algorithmic Models] se raggiungere un limite specifico per uno di questi elementi. Se raggiungete un limite, dovete eliminare un elemento precedente prima di crearne uno nuovo.
+Le tabelle indicano i limiti correnti per tipo di elemento. You cannot create new traits, segments, destinations, or [!UICONTROL Algorithmic Models] if you reach a specific limit for one of these items. Se raggiungete un limite, dovete eliminare un elemento precedente prima di crearne uno nuovo.
 
 ### Limiti caratteristiche
 
 | Tipo caratteristica | Limite massimo |
 | -------------------------- | ------------------------------------- |
 | Totale caratteristiche | 100,000 |
-| Totale caratteristiche caratteristiche | 150,000. Per ulteriori informazioni sulla qualifica delle caratteristiche, consulta Limite delle qualifiche caratteristiche in [Riferimento alle caratteristiche caratteristiche](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit). |
+| Totale caratteristiche caratteristiche | 150,000. For more information on trait qualification, see Trait Qualification Limit in [Trait Qualifications Reference](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit). |
 | Algoritmo | 50 |
 | Basate sulla regola | 100,000 |
 | Caricati | 100,000 |
@@ -61,9 +61,9 @@ Le tabelle indicano i limiti correnti per tipo di elemento. Non puoi creare nuov
 
 | Elemento | Limite massimo |
 | -------- | ----- |
-| Modelli algoritmici attivi | 20. Audience Manager conta *solo i modelli* algoritmici attivi rispetto al limite. |
+| Modelli algoritmici attivi | 20. Audience Manager only counts *active* algorithmic models against the limit. |
 | Dimensioni massime dei modelli algoritmici | 25,000,000.  Tenete presente che questo limite non può essere aumentato. Puoi diminuire le dimensioni del pubblico selezionando un numero inferiore di origini dati per il modello o selezionando una finestra di look-back più breve. |
-| Numero massimo di caratteristiche escluse per un modello | 500. Consultate [Esclusione caratteristica in Modellazione algoritmica](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Numero massimo di caratteristiche escluse per un modello | 500. See [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 
 ### Limiti cartella
 
@@ -83,12 +83,12 @@ Le tabelle indicano i limiti correnti per tipo di elemento. Non puoi creare nuov
 | ----------- | ------------- |
 | Numero massimo di account utente per una società | 1,000. |
 
-## Utilizzo del monitor {#monitor-usage}
+## Monitor Usage {#monitor-usage}
 
-You can see usage and limits for your account by going to **[!UICONTROL Administration > Limits]**. L&#39;accesso richiede autorizzazioni amministratore.
+You can see usage and limits for your account by going to **[!UICONTROL Administration > Limits]**. L'accesso richiede autorizzazioni amministratore.
 
-![l&#39;immagine limita l&#39;utilizzo](assets/usage-limits.png)
+![l'immagine limita l'utilizzo](assets/usage-limits.png)
 
-## Aumenta limiti elemento {#increase-item-limits}
+## Increase Item Limits {#increase-item-limits}
 
 I limiti predefiniti elencati qui devono fornire una capacità sufficiente per le esigenze aziendali. Se la vostra organizzazione raggiunge in modo coerente questi limiti, contattate il rappresentante commerciale di riferimento per discutere di un aumento.
