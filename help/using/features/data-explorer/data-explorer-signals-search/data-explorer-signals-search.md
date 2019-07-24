@@ -9,7 +9,7 @@ source-git-commit: 16c0dd83c18e720045995ac1851b4c91f3346183
 ---
 
 
-# Panoramica ricerca segnali {#signals-search}
+# Signals Search Overview {#signals-search}
 
 Ricerca di segnali utilizzati e non utilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, vai a Data Data &gt; Segnali &gt; Cerca.
 
