@@ -13,15 +13,15 @@ source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
 
 # Onboarding Status Report{#onboarding-status-report-about}
 
-Il rapporto sullo stato di onboarding verifica i tassi di successo e di successo per l&#39;elaborazione dei record nei file di origine dati in ingresso. Questo rapporto visualizza i dati in un grafico a barre interattivo e fornisce metriche di riepilogo in forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. Questo rapporto è disponibile in Analytics &gt; Rapporto sullo stato di onboarding. Questo rapporto è disponibile anche quando si crea un&#39;origine dati in entrata.
+Il rapporto sullo stato di onboarding verifica i tassi di successo e di successo per l'elaborazione dei record nei file di origine dati in ingresso. Questo rapporto visualizza i dati in un grafico a barre interattivo e fornisce metriche di riepilogo in forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. Questo rapporto è disponibile in Analytics &gt; Rapporto sullo stato di onboarding. Questo rapporto è disponibile anche quando si crea un'origine dati in entrata.
 
 >[!NOTE]
 >
->Solo gli utenti con privilegi Amministratore possono visualizzare questo rapporto nell&#39;interfaccia utente di Audience Manager. Potete ricevere agli utenti non amministratori una notifica dello stato dei file in ingresso caricato aggiungendo le e-mail al rapporto. See [Receive E-mail Notifications](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
+>Solo gli utenti con privilegi Amministratore possono visualizzare questo rapporto nell'interfaccia utente di Audience Manager. Potete ricevere agli utenti non amministratori una notifica dello stato dei file in ingresso caricato aggiungendo le e-mail al rapporto. See [Receive E-mail Notifications](/help/using/reporting/onboarding-status-report.md#receive-email-notifications).
 
 ## Onboarding Status Report: About {#onboarding-status-about}
 
-Il [!UICONTROL Onboarding Status Report] (Report errori campione) verifica i tassi d’errore e di successo nell’elaborazione dei record nei propri file di origine dei dati in ingresso. Questo rapporto visualizza i dati in un grafico a barre interattivo e fornisce metriche di riepilogo in forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. You can find this report in **[!UICONTROL Analytics > Onboarding Status Report]**. Questo rapporto è disponibile anche quando si crea un&#39;origine dati in entrata.
+Il [!UICONTROL Onboarding Status Report] (Report errori campione) verifica i tassi d’errore e di successo nell’elaborazione dei record nei propri file di origine dei dati in ingresso. Questo rapporto visualizza i dati in un grafico a barre interattivo e fornisce metriche di riepilogo in forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. You can find this report in **[!UICONTROL Analytics > Onboarding Status Report]**. Questo rapporto è disponibile anche quando si crea un'origine dati in entrata.
 
 ## Error Reporting and Error Sampling {#error-reporting-sampling}
 
@@ -48,7 +48,7 @@ Error reporting and error sampling are 2 separate features of the [!UICONTROL On
 
 ## Error Report Bar Chart {#error-report-bar-chart}
 
-L&#39;errore dei report genera i tassi di successo e di successo per l&#39;elaborazione del record in un grafico a barre sovrapposte, come illustrato nell&#39;esempio seguente. Il grafico è interattivo. Facendo clic su una barra, vengono visualizzate le metriche di riepilogo per quel giorno in una tabella sotto il grafico.
+L'errore dei report genera i tassi di successo e di successo per l'elaborazione del record in un grafico a barre sovrapposte, come illustrato nell'esempio seguente. Il grafico è interattivo. Facendo clic su una barra, vengono visualizzate le metriche di riepilogo per quel giorno in una tabella sotto il grafico.
 
 ![](assets/stacked-graph.png)
 
@@ -95,7 +95,7 @@ create-onboarding-status-report.xml
  -->
 
 
-1. **[!UICONTROL Analytics > Onboarding Status Report]** Vai a. Cercare un&#39;origine dati o selezionarne una dall&#39;elenco.
+1. **[!UICONTROL Analytics > Onboarding Status Report]** Vai a. Cercare un'origine dati o selezionarne una dall'elenco.
 
 2. Seleziona un intervallo di date. Le opzioni includono:
 
