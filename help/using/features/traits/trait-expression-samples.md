@@ -11,21 +11,21 @@ source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
 ---
 
 
-# Espressioni di esempio con operatori booleani e di confronto {#sample-expressions-with-boolean-and-comparison-operators}
+# Sample Expressions With Boolean and Comparison Operators {#sample-expressions-with-boolean-and-comparison-operators}
 
-Esempi a cui potete fare riferimento per creare espressioni nell&#39;editor [!UICONTROL Expression Builder] di codice.
+Examples you can refer to for creating expressions in the [!UICONTROL Expression Builder] code editor.
 
-## Panoramica esempi di codice {#code-samples-overview}
+## Code Samples Overview {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-Crea le tue regole di caratteristica con l&#39;editor [!UICONTROL Expression Builder] di codice. I seguenti esempi possono aiutarti a iniziare. Alcuni esempi precedono la *`key`* variabile con `c_` per identificarlo come variabile definita dall&#39;utente. Includete il `c_` prefisso (o qualsiasi altra convenzione di denominazione) per *`key`* la variabile se le chiamate dell&#39;evento inviano dati all [!DNL Audience Manager] &#39;utilizzo di tale sintassi.
+Create your own trait rules with the [!UICONTROL Expression Builder] code editor. I seguenti esempi possono aiutarti a iniziare. Some of the examples preface the *`key`* variable with `c_` to identify it as a user-defined variable. Include the `c_` prefix (or any other naming convention) for *`key`* variable if your event calls send data to [!DNL Audience Manager] using that syntax.
 
-## Espressioni booleane {#boolean-expressions}
+## Boolean Expressions {#boolean-expressions}
 
 ### Esempio AND
 
-La regola stabilisce i requisiti di qualifica delle caratteristiche utilizzando [!UICONTROL AND] operatori booleani.
+The rule establishes trait qualification requirements using Boolean [!UICONTROL AND] operators.
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
@@ -48,7 +48,7 @@ La regola stabilisce i requisiti di qualifica delle caratteristiche utilizzando 
 
 ### Esempio OR
 
-Questa regola stabilisce i requisiti di qualifica delle caratteristiche utilizzando [!DNL Boolean][!UICONTROL OR] e [!UICONTROL AND] operatori.
+This rule establishes trait qualification requirements using [!DNL Boolean] [!UICONTROL OR] and [!UICONTROL AND] operators.
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
@@ -60,7 +60,7 @@ Questa regola stabilisce i requisiti di qualifica delle caratteristiche utilizza
  <tbody> 
   <tr> 
    <td colname="col1"><code>(a = = "1" OR b = "1") AND (c = = "new")</code> </td> 
-   <td colname="col2"> Soddisfa le condizioni impostate dalle variabili <code><i>a </i></code> o <code><i>b </i></code> e <code><i>c </i></code>. </td> 
+   <td colname="col2"> Meet the conditions set by variables <code><i>a </i></code> or <code><i>b </i></code> and <code><i>c </i></code>. </td> 
   </tr> 
  </tbody> 
 </table>
