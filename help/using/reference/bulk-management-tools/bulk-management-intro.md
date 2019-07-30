@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Guida introduttiva alla gestione collettiva
 uuid: 4 bc 6 ae 0 a -315 c -4 ce 7-a 68 e-cc 0 c 6 c 6 aa 2 f 1
 translation-type: tm+mt
-source-git-commit: f6fd1b99467a35b3f2c978c4b2e28d562eaa3c52
+source-git-commit: 215054718e9248bd44ba99baeb2a10236701d98e
 
 ---
 
@@ -30,13 +30,17 @@ c_bulk_start.xml
 
 This feature uses a Microsoft Excel spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. L'API fornisce i metodi e i servizi che consentono di apportare modifiche in gruppo. Non è necessario conoscere il codice o lavorare con le API per utilizzarlo. Il foglio di lavoro contiene intestazioni di colonna e schede che consentono di modificare in massa specifiche funzioni. Per apportare modifiche collettive, basta aggiungere le intestazioni predefinite a fogli di lavoro specifici, fornire le informazioni che si desidera modificare in gruppo e fare clic sul pulsante di azione. Il foglio di lavoro e le API elaborano il resto del lavoro.
 
+## Scarica {#download}
+
+Download the latest worksheet **[here](assets/BAAAM_August_2018.xlsm)**.
+
 ## Prerequisiti {#prereqs}
 
 To use the [!DNL Bulk Management Tools], you need the following:
 
 * Your [!DNL Audience Manager] user name and password. In qualità di cliente, devi già disporre di queste credenziali.
 * Un ID client API e una chiave segreta. Il vostro account manager può fornirvi questi.
-* The [!UICONTROL Bulk Management Tools] worksheet. **[Scarica il foglio di lavoro](assets/BAAAM_August_2018.xlsm)** per ottenere la versione più recente.
+* The [!UICONTROL Bulk Management Tools] worksheet. [Scarica il foglio di lavoro](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) per ottenere la versione più recente.
 
 * Microsoft Excel running on [!DNL Windows] or in a [!DNL Microsoft Windows] virtual machine running on [!DNL macOS X]. You must use 32-bit Excel for the [!UICONTROL Bulk Management Tools] to work.
 
