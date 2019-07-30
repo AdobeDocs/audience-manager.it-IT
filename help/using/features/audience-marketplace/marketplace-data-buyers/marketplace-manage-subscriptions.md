@@ -7,7 +7,7 @@ title: Gestione sottoscrizioni feed dati
 topic: API DIL
 uuid: 7305 adb 6-cbb 8-4430-8204-2243095 c 0 ba 5
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
 ---
 
@@ -280,7 +280,7 @@ In questa pagina sono fornite le informazioni seguenti:
    * Click **[!UICONTROL Request More Details]** to ask the data provider questions about the selected data feed or to request a discount. Questa funzione invia i commenti e le domande direttamente al provider di dati.
 
 1. Metriche rapporto feed dati. Il diagramma di Venn (e metriche correlate) mostra i dati di sovrapposizione delle caratteristiche per gli ultimi 30 giorni. See [The Marketplace: About](marketplace-data-buyers.md#about-marketplace) for details.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: Numero di utenti unici nel vostro account che si sovrappongono agli utenti nell'account del fornitore.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: Numero di utenti unici nel vostro account che si sovrappongono agli utenti nell'account del fornitore. For a definition of unique users, see AAM UUID in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: Numero di utenti unici provenienti dall'account del fornitore.
    * **[!UICONTROL Your Unique Users]**: Numero di utenti unici provenienti dall'account.
 
