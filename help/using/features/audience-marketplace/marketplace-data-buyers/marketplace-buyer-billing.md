@@ -7,7 +7,7 @@ title: Fatturazione per feed feed dati
 keywords: Generazione di rapporti a livello di segmento, livello segmento, segmento segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: fde8dd10e2693427c4330739fa013deb48be35be
+source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
 
 ---
 
@@ -47,6 +47,8 @@ Per generare un rapporto [!DNL CPM] sull'utilizzo a livello di segmento:
 6. Fate clic **[!UICONTROL Save]** al termine e esaminate la finestra di dialogo di conferma.
    ![confirm-segment-use](assets/confirm-segment-usage.png)
 7. Fai clic su **[!UICONTROL Confirm]**.
+
+<br> 
 
 ## Report Utilizzo CPM al livello feed dati {#feed-level-report}
 
@@ -221,6 +223,8 @@ Questo segmento contiene 3 caratteristiche da fornitori di dati separati. Poich�
 Non possiamo sapere a quale caratteristica è affidata un'impression perché la qualifica si basa su una [!UICONTROL OR] condizione. Come risultato, nella [!UICONTROL Audience Marketplace > Payables] sezione riconoscete ogni fornitore con un'allocazione ponderata delle impression totali, basate sulla popolazione di caratteristiche.
 
 ![billing-segment-or](assets/billing-segment-or.png)
+
+<br> 
 
 ### Caso 3: Segmenti con casi di modellazione e attivazione
 
