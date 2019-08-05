@@ -7,7 +7,7 @@ title: Fatturazione per feed feed dati
 keywords: Generazione di rapporti a livello di segmento, livello segmento, segmento segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: 3107d34b1338e042320d837d2efbbc19c900e904
+source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
 
 ---
 
@@ -251,7 +251,7 @@ A un livello di feed dati, il modo in cui le impression vengono allocate è:
 
 La panoramica dettagliata per feed di dati e casi d'uso è la seguente:
 
-![feed-break](assets/feed-breakdown.png)
+![feed-break](assets/feed-breakdown-alt.png)
 
 <br> 
 
