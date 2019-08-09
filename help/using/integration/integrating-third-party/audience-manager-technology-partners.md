@@ -6,14 +6,14 @@ keywords: activation; partner di attivazione, destinazione, destinazioni
 solution: Audience Manager
 title: Partner di Adobe Audience Manager
 translation-type: tm+mt
-source-git-commit: ffdf5404235734adb77e93a3d231a65b2444cc1f
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
 # Partner attivazione Audience Manager
 
-Questa pagina include solo le integrazioni server- [to-server correnti di Audience](/help/using/features/destinations/manage-destinations.md#add-edit-segments) Manager. Per ulteriori informazioni su un'integrazione, consulta l'elenco di [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (ove disponibile) oppure contatta il tuo Adobe Consulente o l'Assistenza clienti.
+Questa pagina include solo le integrazioni server- [to-server correnti di Audience](/help/using/features/destinations/add-edit-segments.md) Manager. Per ulteriori informazioni su un'integrazione, consulta l'elenco di [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (ove disponibile) oppure contatta il tuo Adobe Consulente o l'Assistenza clienti.
 
 <br> 
 
