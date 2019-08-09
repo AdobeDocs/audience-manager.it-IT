@@ -6,31 +6,31 @@ solution: Audience Manager
 title: Ricevere dati dal DCS
 uuid: fbb 77197-8530-48 a 8-b 708-d 785 f 7214494
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
-# Receive Data From the DCS {#receive-data-from-the-dcs}
+# Ricevere dati dal DCS {#receive-data-from-the-dcs}
 
-Continue here for information about how to request a [!UICONTROL DCS] response in a `/event` call. Questa sezione include un esempio di risposta e definizioni per gli elementi dati comuni di una risposta.
+Per informazioni su come richiedere una [!UICONTROL DCS] risposta in `/event` una chiamata, continuate qui. Questa sezione include un esempio di risposta e definizioni per gli elementi dati comuni di una risposta.
 
-Before reviewing this content, see [Send Data to the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
+Prima di rivedere il contenuto, vedi [Invia dati al DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).
 
-## DCS Response Parameters: A Review {#dcs-response-parameters}
+## Parametri di risposta DCS: Una revisione {#dcs-response-parameters}
 
-Your [!UICONTROL DCS] request must include `d_rtbd=json` if you want to receive a response from the [!UICONTROL DCS]. The [!UICONTROL DCS] will not return data if you omit this parameter. A basic call to the [!UICONTROL DCS] to request data uses this syntax:
+La [!UICONTROL DCS] richiesta deve includere `d_rtbd=json` se desiderate ricevere una risposta dall ' [!UICONTROL DCS]. Se [!UICONTROL DCS] si omette questo parametro, i dati non vengono restituiti. Una chiamata di base ai [!UICONTROL DCS] dati di richiesta utilizza questa sintassi:
 
 <pre><code>https://domain alias.demdex.net/event<i></i>?<i>key 1</i>= <i>val 1</i>, &amp;<i>key 2</i>= <i>val 2</i>&amp; d_ dst = 1 &amp; d_ rtbd = json &amp; d_ cb =<i>callback</i></code>
 </pre>
 
 ## Risposta di esempio {#sample-response}
 
-Recall that from the [Send Data to the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) documentation, the fictional company [!DNL Acme, Inc.] made this call:
+Ricorda che, dall' [invio di dati alla](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) documentazione DCS, l'azienda fittizia ha [!DNL Acme, Inc.] fatto questa chiamata:
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
-As this call includes the required response parameter, the [!UICONTROL DCS] sent back the [!DNL JSON] object shown below. Il vostro potrebbe essere simile o più complesso.
+Poiché questa chiamata include il parametro di risposta richiesto, l' [!UICONTROL DCS][!DNL JSON] oggetto riportato di seguito viene restituito. Il vostro potrebbe essere simile o più complesso.
 
 ```js
 {
@@ -43,22 +43,22 @@ As this call includes the required response parameter, the [!UICONTROL DCS] sent
 
 ## Parametri di risposta {#response-parameters}
 
-The table below lists and defines the more common parameters you may see in a response from the [!UICONTROL DCS]. This applies to event calls or other [!UICONTROL DCS] [!DNL API] queries that return data.
+Nella tabella seguente sono elencati e definiti i parametri più comuni che si possono vedere in una risposta dall ' [!UICONTROL DCS]. Ciò si applica alle chiamate dell'evento o ad altre [!UICONTROL DCS][!DNL API] query che restituiscono dati.
 
 | Parametro | Descrizione |
 |--- |--- |
-| `c` | A URL that has been set as a [URL destination](../../../features/destinations/manage-destinations.md#configure-url-destination). |
-| `cn` | The name or ID set in the cookie name field of a [cookie destination](../../../features/destinations/manage-destinations.md#create-cookie-destination). |
+| `c` | Un URL impostato come destinazione [URL](../../../features/destinations/create-url-destination.md). |
+| `cn` | Nome o ID impostato nel campo nome del cookie di una [destinazione del cookie](../../../features/destinations/create-cookie-destination.md). |
 | `cv` | I valori inviati alla destinazione definita dalla "cn": " destinaton name ". |
-| `dcs_region` | The [server-to-server DCS calls](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
+| `dcs_region` | Le chiamate DCS [server-to-server](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
 | `dests` | Questo oggetto contiene informazioni per tutte le destinazioni URL configurate nell'interfaccia utente. L'elenco di questo oggetto è dinamico in base alle azioni dell'utente. |
-| `dmn` | Questo è il dominio specificato nel campo Dominio cookie per una destinazione del cookie. See [Optional Settings for Cookie Destinations](../../../features/destinations/manage-destinations.md#optional-settings-cookies).  For  Server to Server integrations we recommend using a domain like `aam-api.com`. |
+| `dmn` | Questo è il dominio specificato nel campo Dominio cookie per una destinazione del cookie. Consultate [Impostazioni facoltative per destinazioni cookie](../../../features/destinations/cookie-destination-options.md). Per le integrazioni Server, consigliamo di utilizzare un dominio come `aam-api.com`. |
 | `e` | L'URL protetto impostato in una destinazione URL. |
 | `stuff` | Questo oggetto contiene informazioni per tutte le destinazioni dei cookie. L'elenco di questo oggetto è dinamico in base alle azioni dell'utente. |
 | `tid` | ID transazione, ID univoco di 12 caratteri utilizzato a scopo di debug. Ogni chiamata /event al DCS riceve un tid a cui potete fare riferimento nel supporto per una risposta migliore e più rapida. |
 | `ttl` | Il valore time-to-live del cookie in giorni. |
-| `u` e `uuid` | ID utente univoco assegnato da Audience Manager. This is required if you're making [server-to-server DCS calls](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
-| `y` | Destination type,  iFrame (`iframe`) or image (`img`). |
+| `u` e `uuid` | ID utente univoco assegnato da Audience Manager. Questa funzione è necessaria se state effettuando [chiamate DCS server-to-server](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
+| `y` | Tipo di destinazione, iframe (`iframe`) o immagine (`img`). |
 
 >[!MORE_ LIKE_ THIS]
 >
