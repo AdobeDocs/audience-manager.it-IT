@@ -6,13 +6,13 @@ solution: Audience Manager
 title: Fusi orari in Audience Manager
 uuid: ff 4710 a 9-edee -470 c -9 ab 0-85 c 1789 a 2837
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
-# Time Zones in Audience Manager{#time-zones-in-audience-manager}
+# Fusi orari in Audience Manager{#time-zones-in-audience-manager}
 
 Audience Manager usa l'ora universale (UTC) per l'intera interfaccia utente.
 
-Unless otherwise specified, all the dates and date ranges you can select in the [!DNL Adobe] [!DNL Audience Manager] UI are [Coordinated Universal Time (UTC)](https://www.timeanddate.com/worldclock/timezone/utc). For example, in the [Create Destination](../features/destinations/manage-destinations.md#segment-mappings) flow, when mapping segments to your destination, the start and end date you select are midnight UTC. The same applies for all the dates in [!DNL Audience Manager].
+Se non diversamente specificato, tutte le date e gli intervalli di date che puoi selezionare nell' [!DNL Adobe][!DNL Audience Manager] interfaccia utente sono [armonizzati Ora universale (UTC)](https://www.timeanddate.com/worldclock/timezone/utc). Ad esempio, nel flusso [Crea destinazione](../features/destinations/create-cookie-destination.md#segments-mapping) , quando si mappano i segmenti sulla destinazione, la data di inizio e di fine selezionata è mezzanotte UTC. Lo stesso vale per tutte le date in [!DNL Audience Manager].
