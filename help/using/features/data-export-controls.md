@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Controlli sull'esportazione dei dati
 uuid: de 7 f 3608-c 0 cb -4049-973 a -8 be 54525 c 600
 translation-type: tm+mt
-source-git-commit: 302670f294574c3b56ccd16aeca8ebab8f4e8ce9
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
@@ -20,27 +20,27 @@ source-git-commit: 302670f294574c3b56ccd16aeca8ebab8f4e8ce9
 [!UICONTROL Data Export Controls] consente di classificare [le origini](../features/datasources-list-and-settings.md#data-sources-list-and-settings) dati e [le destinazioni](../features/destinations/destinations.md). Le classificazioni applicate determinano quando i dati possono o meno essere esportati in una destinazione. Questa funzione consiste in:
 
 * **[!UICONTROL Data Export Controls]**: Potete impostare Controlli esportazione dati sulle *origini dati*. Se si imposta un'origine dati, questi controlli limitano l'utilizzo delle caratteristiche e delle caratteristiche dell'origine dati.
-* **[!UICONTROL Data Export Labels]**: Potete impostare Etichette esportazione dati sulle *destinazioni*. Quando viene impostata su una destinazione, queste etichette identificano in che modo la destinazione utilizza i dati. See [Add Data Export Labels to a Destination](/help/using/features/destinations/manage-destinations.md#add-data-export-labels) to learn how to add export labels to a destination.
+* **[!UICONTROL Data Export Labels]**: Potete impostare Etichette esportazione dati sulle *destinazioni*. Quando viene impostata su una destinazione, queste etichette identificano in che modo la destinazione utilizza i dati. Per informazioni su come aggiungere etichette di esportazione a una destinazione, consultate [Aggiungere etichette di esportazione dati a una destinazione](/help/using/features/destinations/add-data-export-labels.md) .
 
 In base alle classificazioni applicate a un'origine dati e a una destinazione, i controlli di esportazione ti interrompono da:
 
 * Aggiungere una caratteristica a un segmento quando questo appartiene a un'origine dati con un controllo di esportazione dati incompatibile con un'etichetta di esportazione dati su una o più destinazioni a cui il segmento viene mappato.
-For example, say a segment is mapped to a destination with the export label **[UICONTROL! This destination may enable a combination with personally identifiable information (PII)]**. Export controls stop you from adding a trait to that segment if the data source that the trait belongs to has a data export control that says **[UICONTROL! Cannot be tied to personally identifiable information (PII)]**.
+Ad esempio, supponiamo che un segmento sia mappato a una destinazione con l'etichetta di esportazione **[UICONTROL! Questa destinazione può consentire una combinazione con informazioni personali (PII]**). I controlli per l'esportazione non consentono di aggiungere una caratteristica a tale segmento se l'origine dati a cui appartiene ha un controllo di esportazione dati che indica **[UICONTROL! Non può essere associato a informazioni personali identificabili (PII]**).
 * L'invio di dati a una destinazione di destinazione presenta un'etichetta di esportazione dati bloccata da un controllo di esportazione dei dati su:
    * L'origine dati di una caratteristica inclusa;
    * L'origine dati di una caratteristica utilizzata in un segmento incluso;
    * La regola di unione profilo sfrutta un segmento incluso;
    * Una qualsiasi delle sorgenti dati utilizzate da una regola di unione profilo del segmento incluso.
 
-[!UICONTROL Data Export Controls] sono disponibili automaticamente per tutti i clienti di Audience Manager. Tuttavia, è necessario disporre delle autorizzazioni di amministratore per aggiungere controlli di esportazione a un'origine dati. Adding export labels to a destination requires administrator permissions *or* sufficient privileges to create or edit a destination.
+[!UICONTROL Data Export Controls] sono disponibili automaticamente per tutti i clienti di Audience Manager. Tuttavia, è necessario disporre delle autorizzazioni di amministratore per aggiungere controlli di esportazione a un'origine dati. Per aggiungere etichette di esportazione a una destinazione è necessario disporre di autorizzazioni *amministratore o* di privilegi sufficienti per creare o modificare una destinazione.
 
-## Controls and labels defined {#controls-labels}
+## Controlli ed etichette definite {#controls-labels}
 
 [!UICONTROL Data Export Controls] fornisce i seguenti controlli per la classificazione delle origini dati e delle destinazioni.
 
-Per bloccare la consegna dei dati, è necessario classificare un'origine dati con un controllo di esportazione e aggiungere un'etichetta di esportazione a una destinazione. Se si applicano controlli di esportazione a un'origine dati o a una destinazione, questa funzione non limita la distribuzione dei dati. When set on both the data source *and* destination, the export controls will limit the traits you can add to a segment and prevent sending the segment members to a destination.
+Per bloccare la consegna dei dati, è necessario classificare un'origine dati con un controllo di esportazione e aggiungere un'etichetta di esportazione a una destinazione. Se si applicano controlli di esportazione a un'origine dati o a una destinazione, questa funzione non limita la distribuzione dei dati. Se si imposta sia l'origine *dati* che la destinazione, i controlli di esportazione limiteranno le caratteristiche che è possibile aggiungere a un segmento e impedirne l'invio a una destinazione.
 
-Inoltre, almeno un'etichetta di esportazione deve corrispondere a un controllo dell'esportazione prima di applicare le limitazioni di consegna dei dati. For example, say you add the [!UICONTROL PII] export control to a data source. Successivamente, aggiungete l'etichetta di targeting on-site a una destinazione. In questo caso, i controlli di esportazione non limitano la distribuzione dei dati, poiché le impostazioni non corrispondono. However, if you add the [!UICONTROL PII] export label to the destination, the export controls will block the export.
+Inoltre, almeno un'etichetta di esportazione deve corrispondere a un controllo dell'esportazione prima di applicare le limitazioni di consegna dei dati. Ad esempio, supponete di aggiungere il [!UICONTROL PII] controllo esportazione a un'origine dati. Successivamente, aggiungete l'etichetta di targeting on-site a una destinazione. In questo caso, i controlli di esportazione non limitano la distribuzione dei dati, poiché le impostazioni non corrispondono. Tuttavia, se aggiungete l'etichetta [!UICONTROL PII] di esportazione alla destinazione, i controlli di esportazione bloccano l'esportazione.
 
 >[!IMPORTANT]
 >
@@ -110,4 +110,4 @@ Inoltre, almeno un'etichetta di esportazione deve corrispondere a un controllo d
 Per iniziare, consulta la documentazione di origine dati e di destinazione. Questi articoli forniscono istruzioni su come aggiungere controlli ed etichette di esportazione alle origini dati e alle destinazioni.
 
 * [Creare un'origine dati](../features/manage-datasources.md#create-data-source)
-* [Aggiungere etichette di esportazione dati a una destinazione](../features/destinations/manage-destinations.md#add-data-export-labels)
+* [Aggiungere etichette di esportazione dati a una destinazione](../features/destinations/add-data-export-labels.md)
