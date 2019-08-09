@@ -6,46 +6,46 @@ solution: Audience Manager
 title: Inviare segmenti a un elenco di remarketing Google adwords
 uuid: 5 ad 821 c 6-48 b 4-42 c 0-b 912-1563331 e 93 a 2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 
 ---
 
 
-# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
+# Inviare segmenti a un elenco di remarketing Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
 
-This procedure requires a [!DNL Google Ads] remarketing list, pixel code, and an Audience Manager [!DNL URL] destination. It is also known as a remarketing list for search ads ([!DNL RLSA]) integration. Applicabile solo a una ricerca a pagamento.
+Questa procedura richiede un [!DNL Google Ads] elenco di remarketing, un codice pixel e una [!DNL URL] destinazione di Audience Manager. È anche noto come elenco di remarketing per l'integrazione ads ads ([!DNL RLSA]). Applicabile solo a una ricerca a pagamento.
 
 >[!IMPORTANT]
 >Tenete presente che non si tratta di un'integrazione integrata dei due sistemi.
 
-To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] URL destination:
+Per impostare un [!DNL Google Ads] elenco di remarketing come destinazione [!DNL Audience Manager] URL:
 
-1. In your [!DNL Google Ads] account, [create a website re-marketing list](https://support.google.com/adwords/answer/2454064?hl=en) and write down your conversion ID.
+1. Nel [!DNL Google Ads] tuo account [, crea un elenco di ricommercializzazione Web](https://support.google.com/adwords/answer/2454064?hl=en) e annotane l'ID conversione.
 1. Utilizzate il seguente URL come modello per l'URL di base e l'URL sicuro. Sostituisci la sezione xxxxxxxx con l'ID conversione.
 
    ```
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. In Audience Manager, [Create a URL destination](../../features/destinations/manage-destinations.md#configure-url-destination) or edit an existing destination. Quando create la destinazione, usate le seguenti impostazioni:
+1. In Audience Manager [, create una destinazione URL](../../features/destinations/create-url-destination.md) o modificate una destinazione esistente. Quando create la destinazione, usate le seguenti impostazioni:
    * Tipo: URL
    * Serializza: Attivato
    * Delimitatore: Punto e virgola (;)
 
-1. In the [!UICONTROL Segment Mappings] section of your [!DNL URL] destination, add the code from step 2 to the [!DNL URL] and [!DNL Secure URL] fields. Prefix the code with `http:` and `https:` in the [!DNL URL] and [!DNL Secure URL] fields, respectively.
+1. Nella [!UICONTROL Segment Mappings] sezione della [!DNL URL] destinazione, aggiungete il codice dal passaggio 2 ai campi [!DNL URL] e [!DNL Secure URL] . Prefisso il codice rispettivamente con `http:` e `https:`[!DNL URL] nei [!DNL Secure URL] campi.
 
    >[!IMPORTANT]
    >
-   >Replace encoded ampersands `&` with un-encoded ampersands `&`
+   >Sostituire marchi codificati `&` con marchi non codificati `&`
 
-   Unsecure [!DNL URL] code:
+   Codice non protetto [!DNL URL] :
 
    ```
     http://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
     value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-   Secure [!DNL URL] code:
+   Codice protetto [!DNL URL] :
 
    ```
     https://googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?
@@ -58,8 +58,8 @@ To set up a [!DNL Google Ads] remarketing list as an [!DNL Audience Manager] URL
    >
    >Se lavori con più segmenti, ottieni un nuovo pixel per ogni segmento che desideri mappare su una destinazione Google Ads. In questo modo i dati vengono applicati all'elenco di remarketing appropriato.
 
-1. When mapping a new segment to this destination in Audience Manager, define the mapping as `aam=segmentID` and replace `segmentID` with the ID of your segment.
-1. When defining a bucket in [!DNL Google Ads], create a rule that matches the mapping defined at step 6.
+1. Quando mappatura di un nuovo segmento su questa destinazione in Audience Manager, definisci la mappatura come `aam=segmentID` e sostituisci `segmentID` con l'ID del segmento.
+1. Quando definite un bucket in, [!DNL Google Ads]create una regola che corrisponda alla mappatura definita al punto 6.
 
 Una mappatura completata avrà un aspetto simile a quello riportato di seguito:
 
@@ -68,7 +68,7 @@ Una mappatura completata avrà un aspetto simile a quello riportato di seguito:
 >[!MORE_ LIKE_ THIS]
 >
 >* [Destinazioni](../../features/destinations/destinations.md)
->* [Creare una destinazione URL](../../features/destinations/manage-destinations.md#configure-url-destination)
+>* [Creare una destinazione URL](../../features/destinations/create-url-destination.md)
 >* [Informazioni sugli elenchi di remarketing adwords](https://support.google.com/adwords/answer/2472738)
 >* [Come funziona il remarketing di adwords](https://support.google.com/adwords/answer/2454000)
 
