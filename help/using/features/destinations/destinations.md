@@ -1,13 +1,13 @@
 ---
 description: In Audience Manager, una destinazione è un sistema di terze parti (server pubblicitario, DSP, rete di annunci ecc.) con cui condividere i dati. Generatore di destinazione è lo strumento utilizzato per creare e gestire cookie, URL o destinazioni server-to-server.
-keywords: codice integrazione, destinazione, panoramica della destinazione
+keywords: codice integrazione, destinazione, panoramica di destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione
 seo-description: In Audience Manager, una destinazione è un sistema di terze parti (server pubblicitario, DSP, rete di annunci ecc.) con cui condividere i dati. Generatore di destinazione è lo strumento utilizzato per creare e gestire cookie, URL o destinazioni server-to-server.
 seo-title: Destinazioni
 solution: Audience Manager
 title: Destinazioni
 uuid: 5 c 7 dbdec-f 73 f -46 fe -9 f 12-7685 e 8 d 7334 f
 translation-type: tm+mt
-source-git-commit: 75eada471bc898be2f8903316285fe60890972cc
+source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
