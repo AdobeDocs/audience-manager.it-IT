@@ -5,7 +5,7 @@ seo-title: Configurare i tipi di pubblico personalizzati su Twitter come destina
 solution: Audience Manager
 title: Configurare i tipi di pubblico personalizzati su Twitter come destinazione basata su dispositivo self-service
 translation-type: tm+mt
-source-git-commit: 0ca286bd391c9c3a5298508ecc5a42ec61a64044
+source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
 
 ---
 
@@ -21,8 +21,6 @@ Prima di configurare [!DNL Twitter Tailored Audiences] la destinazione, verifica
 1. Il tuo [!DNL Twitter Ads] account deve essere idoneo per la pubblicità. I nuovi [!DNL Twitter Ads] account non sono idonei per la pubblicità nelle prime 2 settimane dopo averli creati.
 2. L'account utente Twitter a cui hai autorizzato accesso in Audience Manager deve disporre dell'autorizzazione [di manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) audience manager abilitata.
 3. Se [state aggiornando l'integrazione Twitter esistente con l'amministrazione self-service](#update-existing-twitter-integrations), l'account utente di Twitter deve avere abilitato l'autorizzazione [Ad Manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) .
-
-
 
 ## Aggiungere una nuova [!DNL Twitter Tailored Audiences] destinazione {#add-new-twitter-destination}
 
@@ -65,9 +63,18 @@ Per migliorare l'esperienza utente e semplificare il processo di configurazione,
 Effettuate le seguenti operazioni per migrare [!DNL Twitter Tailored Audiences] la destinazione esistente nel modello autonomo.
 
 1. Accedi al tuo account Audience Manager e vai a **[!DNL Administration > Integrated Accounts]**.
-2. Fai clic su **[!DNL Add Account]**.
-3. Seleziona [!DNL Twitter Tailored Audiences] e fai clic per **[!DNL Confirm]** essere reindirizzati alla pagina di autenticazione. ![piattaforme integrate](assets/dbd-integrated-platforms.png)
-4. Una volta autenticato con il tuo account Twitter, verrai reindirizzato ad Audience Manager dove dovresti vedere i tuoi account pubblicitari associati. Selezionate l'account pubblicitario che desiderate utilizzare e fate clic **[!DNL Confirm]** su.
+1. Fai clic su **[!DNL Add Account]**.
+1. Seleziona [!DNL Twitter Tailored Audiences] e fai clic per **[!DNL Confirm]** essere reindirizzati alla pagina di autenticazione. ![piattaforme integrate](assets/dbd-integrated-platforms.png)
+1. Dopo aver autenticato il tuo [!DNL Twitter] account, verrai reindirizzato ad Audience Manager dove dovresti vedere i tuoi account pubblicitari associati. Selezionate l'account pubblicitario che desiderate utilizzare e fate clic **[!DNL Confirm]** su.
+1. Vai a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** e fai clic sulla destinazione Twitter che devi configurare.
+1. Fai clic su **[!UICONTROL Edit]**. Nella **[!UICONTROL Basic Information]** sezione, fai clic sul **[!UICONTROL Integrated Account]** menu a discesa e seleziona l' [!DNL Twitter] account con cui hai autenticato il passaggio 4.
+1. **[!UICONTROL Save]** la destinazione.
+
+## Convalida della migrazione a Amministrazione self-service {#migration-validation}
+
+La migrazione completa delle integrazioni esistenti [!DNL Twitter] all'amministrazione self-service può richiedere fino a 7 giorni. Una volta completata la migrazione, Audience Manager visualizza una notifica nell'interfaccia utente.
+
+Vedrai anche un nuovo set di audience nel [!DNL Twitter] tuo account, con i relativi nomi prefissi da [! DNL [Adobe DMP Audience]]. La popolazione dell'audience deve essere completamente retrocompilata fino a 7 giorni. Una volta completata la migrazione, usa queste nuove audience invece dei vecchi.
 
 ## Considerazioni sulla mappatura segmenti {#segment-mapping-considerations}
 
@@ -76,7 +83,7 @@ Quando mappatura di segmenti di pubblico su Twitter, assicurati di soddisfare i 
 * Fornire nomi di mappatura segmenti leggibili. Consigliamo di utilizzare lo stesso nome utilizzato per i segmenti Audience Manager.
 * Non utilizzare virgole nel segmento e nomi di mappatura segmenti.
 
-**Esempio**
+### Esempio 
 
 * Nome corretto del segmento o della mappatura: " US and European Shoppers ",
 * Nome di segmento o mappatura errato: " US, Europa 5 h 0 PP 3 rs ".
