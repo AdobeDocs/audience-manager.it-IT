@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida utente di Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8ceeee38dc798810559467ffc12177a2f1968b44
+source-git-commit: 5bd7acbdaa90d33eb5f806dbe072acfb013d8f0b
 
 ---
 
@@ -81,7 +81,7 @@ source-git-commit: 8ceeee38dc798810559467ffc12177a2f1968b44
       + [Home page destinazioni](features/destinations/destinations-home.md)
       + Destinazioni Adobe Experience Cloud{#experience-cloud-destinations}
          + [Configurare una destinazione di Analytics](features/destinations/create-analytics-destination.md)
-      + Destinazioni basate su persone {#people-based-destinations}
+      + Destinazioni basate su persone {#people-based}
          + [Panoramica e casi d'uso](features/destinations/people-based-destinations-overview.md)
          + [Prerequisiti e considerazioni](features/destinations/people-based-destinations-prerequisites.md)
          + Guida all'implementazione {#implementation-guide}
