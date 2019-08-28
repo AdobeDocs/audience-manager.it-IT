@@ -5,7 +5,7 @@ seo-title: Configurare i tipi di pubblico personalizzati su Twitter come destina
 solution: Audience Manager
 title: Configurare i tipi di pubblico personalizzati su Twitter come destinazione basata su dispositivo self-service
 translation-type: tm+mt
-source-git-commit: bdc626ef11aacbf1fcbf138748b56acc24ec7b13
+source-git-commit: 2ca6ed86922af2dbdfd268551f101e58c8356579
 
 ---
 
@@ -74,7 +74,7 @@ Effettuate le seguenti operazioni per migrare [!DNL Twitter Tailored Audiences] 
 
 La migrazione completa delle integrazioni esistenti [!DNL Twitter] all'amministrazione self-service può richiedere fino a 7 giorni. Una volta completata la migrazione, Audience Manager visualizza una notifica nell'interfaccia utente.
 
-Vedrai anche un nuovo set di audience nel [!DNL Twitter] tuo account, con i relativi nomi prefissi da [! DNL [Adobe DMP Audience]]. La popolazione dell'audience deve essere completamente retrocompilata fino a 7 giorni. Una volta completata la migrazione, usa queste nuove audience invece dei vecchi.
+Vedrai anche un nuovo set di audience nel [!DNL Twitter] tuo account, con i relativi nomi prefissi da [[!DNL Adobe DMP Audience]]. La popolazione dell'audience deve essere completamente retrocompilata fino a 7 giorni. Una volta completata la migrazione, usa queste nuove audience invece dei vecchi.
 
 ## Considerazioni sulla mappatura segmenti {#segment-mapping-considerations}
 
