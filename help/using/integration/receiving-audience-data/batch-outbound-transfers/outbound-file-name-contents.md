@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sintassi nome file dati in uscita ed Esempi
 uuid: effdcaf 6-c 37 c -45 f 3-9 d 2 f-a 938 a 9 da 47 a 6
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
 
 ---
 
@@ -93,7 +93,7 @@ La tabella definisce gli elementi in un nome file di dati in uscita.
 
 ### Scenario 1
 
-File inviati in [!DNL Amazon S3] una posizione, con *`PID-ALIAS="XYZCustomer"`* e con [!DNL Google Advertiser IDs] il contenuto del file.
+File inviati in [!DNL Amazon S3] una posizione, con *`PID_ALIAS="XYZCustomer"`* e con [!DNL Google Advertiser IDs] il contenuto del file.
 
 Ad esempio, file incrementali:
 
@@ -112,7 +112,7 @@ Ad esempio, file completi:
 
 ### Scenario 2
 
-File inviati in [!DNL FTP] posizione, senza *`PID-ALIAS`* e con [!DNL Apple Advertiser IDs] il contenuto del file:
+File inviati in [!DNL FTP] posizione, senza *`PID_ALIAS`* e con [!DNL Apple Advertiser IDs] il contenuto del file:
 
 Ad esempio, file incrementali:
 
@@ -128,7 +128,7 @@ Ad esempio, file completi:
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Scenario 3**: File inviati in [!DNL FTP] posizione, con *`PID-ALIAS="XYZCustomer"`* e con ID utente 3 rd party nel contenuto del file ( *`Vendor ID=45454`*):
+**Scenario 3**: File inviati in [!DNL FTP] posizione, con *`PID_ALIAS="XYZCustomer"`* e con ID utente 3 rd party nel contenuto del file ( *`Vendor ID=45454`*):
 
 Ad esempio, file incrementali:
 
