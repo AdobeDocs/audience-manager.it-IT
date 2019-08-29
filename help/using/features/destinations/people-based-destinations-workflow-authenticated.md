@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro C - Personalizzazione basata sull'attività autentic
 solution: Audience Manager
 title: Flusso di lavoro C - Personalizzazione basata sull'attività autenticata combinata con dati offline
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
 
 ---
 
@@ -49,16 +49,16 @@ Per qualificare gli utenti autenticati per caratteristiche basate su regole, è 
 
 Supponiamo che siano state create le due seguenti origini dati.
 
-| Dati ID di origine | Dati contenuto sorgente |
-|-|-|
-| 999999 | Esistente Dpuuids (CRM ID)|
-| 987654 | Hash indirizzi e-mail|
+| ID origine dati | Contenuto origine dati |
+|---|---|
+| 999999 | Dpuuids esistenti (ID CRM) |
+| 987654 | Indirizzi e-mail con hash |
 
 Quindi, puoi qualificare gli ID CRM di seguito per la caratteristica nella tabella.
 
-| DPUUID (ID CRM)| E-mail indirizzo | Indirizzo e-mail con hash | Caratteristiche|
-|-|-|-|-|
-|68079982765673198504052656074456196039|`johndoe@example.com`| 55 e 79200 c 1635 b 37 ad 31 a 378 c 39 feb 12 f 120 f 116625093 a 19 bc 32 fff 15041149 | location = US|
+| DPUUID (CRM ID) | Indirizzo e-mail | Indirizzo e-mail con hash | Caratteristica |
+|---|---|---|---|
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | posizione = US |
 
 L'ID dichiarato deve seguire questa sintassi:
 
