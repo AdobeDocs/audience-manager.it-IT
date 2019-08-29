@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Pagina dettagli caratteristica
 uuid: 23301376-c 1 cc -4778-b 8 c 4-9831 f 6739 db 9
 translation-type: tm+mt
-source-git-commit: aadcafe10d452a0abc02a430485a373c6c80cdc5
+source-git-commit: 3130882116d39e94b446679999144f1eb55edc77
 
 ---
 
@@ -29,15 +29,16 @@ Vengono [!UICONTROL Trait Graph] fornite le metriche di prestazioni a livello di
 
 * Per caratteristiche basate su regole, la qualifica caratteristica avviene in tempo reale, in quanto gli utenti si qualificano per una caratteristica nel browser.
 * Per le caratteristiche caricate, la qualificazione caratteristica ha luogo dopo l'elaborazione di un file in entrata, ovvero il file in entrata viene [trasmesso a Audience Manager](../../faq/faq-inbound-data-ingestion.md) e si verifica così la qualifica di caratteristica.
-* **Rappresentazione caratteristica univoca**: Un numero di utenti univoci che hanno aggiunto questa caratteristica al proprio profilo su un determinato intervallo di tempo.
-* **Popolazione caratteristica totale**: Il numero di utenti univoci attualmente qualificati per questa caratteristica.
+* **[!UICONTROL Unique Trait Realizations]**: Un numero di utenti univoci che hanno aggiunto questa caratteristica al proprio profilo su un determinato intervallo di tempo.
+* **[!UICONTROL Total Trait Population]**: Il numero di utenti univoci attualmente qualificati per questa caratteristica.
 
    ![trait-graph](assets/trait-summary.png)
 
-* **Suddivisione tipo identità**: Le prime tre voci mostrano le prime tre origini dati cross-device con il numero di popolazione più alto che si è qualificato per la caratteristica, in ordine decrescente. La quarta voce mostra la somma di tutti gli altri [!DNL DPUUIDs] ([!DNL CRM IDs]) che sono idonei per la caratteristica, dalle origini dati cross-device che non si trovano nei primi tre. Questo rapporto viene visualizzato solo se selezionate ID cross-device nel menu [!UICONTROL Show Results By] a discesa in alto a destra della pagina. L'opzione a discesa predefinita è [!UICONTROL Device ID], in cui questo rapporto non viene visualizzato.
+* **[!UICONTROL Identity Type Breakdown]**: Le prime tre voci mostrano le prime tre origini dati cross-device con il numero di popolazione più alto che si è qualificato per la caratteristica, in ordine decrescente. La quarta voce mostra la somma di tutti gli altri [!DNL DPUUIDs] ([!DNL CRM IDs]) che sono idonei per la caratteristica, dalle origini dati cross-device che non si trovano nei primi tre. Questo rapporto viene visualizzato solo se selezionate ID cross-device nel menu [!UICONTROL Show Results By] a discesa in alto a destra della pagina. L'opzione a discesa predefinita è [!UICONTROL Device ID], in cui questo rapporto non viene visualizzato.
 
    ![trait-graph](assets/trait-identity.png)
-
+   > [!NOTE]
+   > Audience Manager visualizza il [!UICONTROL Identity Type Breakdown] rapporto solo se hai un ID cross-device qualificato per la caratteristica.
 
 ## Espressione caratteristica {#trait-expression}
 
