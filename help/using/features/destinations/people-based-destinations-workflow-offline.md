@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro B - Personalizzazione basata su dati non in linea
 solution: Audience Manager
 title: Flusso di lavoro B - Personalizzazione basata su dati non in linea
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -34,7 +34,7 @@ Vuoi qualificare gli ID cliente dalla tabella seguente per gli ID tratti caricat
 | 67412682083411995725538770443620307584 | 45678 |
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
-Per qualificare gli ID cliente nell'esempio precedente per le caratteristiche caricate corrispondenti, devi caricare un [file di dati in entrata](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) con i seguenti contenuti:
+<br />Per qualificare gli ID cliente nell'esempio precedente per le caratteristiche caricate corrispondenti, devi caricare un [file di dati in entrata] (../../integration/sending-audience/batch-data-transfer/inbound-file-explained/inbound-file-explained/inbound-file-contents. md):
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
@@ -49,6 +49,8 @@ Per [informazioni dettagliate sulla struttura del nome file, consultate i requis
 
 A seconda che [i dpuuid](../../reference/ids-in-aam.md) siano minuscoli, indirizzi e-mail con hash, potrebbe essere necessario configurare l'origine dati che archivia gli indirizzi e-mail con hash.
 
+ 
+
 **Scenario 1:[i dpuuid](../../reference/ids-in-aam.md)sono già lettere minuscole, indirizzi e-mail con hash.**
 
 In tal caso, è necessario etichettare l'origine dati corrispondente come tale:
@@ -57,6 +59,8 @@ In tal caso, è necessario etichettare l'origine dati corrispondente come tale:
 1. Trova l'origine dati che contiene i tuoi [dpuuid](../../reference/ids-in-aam.md)e fai clic su di esso.
 1. Verificate che l'opzione **[!UICONTROL Cannot be tied to personally identifiable information]** non sia selezionata.
 1. Salvare le impostazioni dell'origine dati.
+
+ 
 
 **Scenario 2:[i dpuuid non](../../reference/ids-in-aam.md)sono lettere minuscole, indirizzi e-mail con hash.**
 
@@ -98,7 +102,7 @@ Come promemoria, ora hai due origini dati:
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
-<br/>
+ 
 
 Il [file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) di sincronizzazione ID avrà i seguenti contenuti:
 
@@ -108,15 +112,16 @@ Il [file](../../integration/sending-audience-data/batch-data-transfer-explained/
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
-<br/>
+ 
 
 Il [file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) di sincronizzazione ID deve seguire questa struttura di denominazione:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
 
-<br/>
+ 
 
-Nell'esempio precedente, il nome file sarà simile al seguente: `c2c_id_999999_987654_1560431657.sync`
+Nell'esempio precedente, il nome file sarà simile al seguente:`c2c_id_999999_987654_1560431657.sync`
+
 
 [Scarica qui il file di esempio](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
 
