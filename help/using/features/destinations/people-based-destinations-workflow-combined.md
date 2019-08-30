@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro A - Personalizzazione basata su tutta l'attività on
 solution: Audience Manager
 title: Flusso di lavoro A - Personalizzazione basata su tutta l'attività online combinata con dati offline
 translation-type: tm+mt
-source-git-commit: 3fd24d4006ccbb14dad5cad10a66749a1cb97f47
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -55,7 +55,7 @@ In questo caso, è necessario creare una nuova origine dati cross-device che mem
 Supponiamo che desideri associare [i dpuuid](../../reference/ids-in-aam.md) esistenti agli indirizzi e-mail con hash dalla tabella seguente (colonna a destra) e memorizzare gli indirizzi e-mail con hash nella nuova origine dati creata al [Passaggio 1 - Configura impostazioni sorgente dati](people-based-destinations-workflow-combined.md#configure-data-source-settings).
 
 | DPUUID (CRM ID) | Indirizzo e-mail | Indirizzo e-mail con hash |
-| --- | --- | --- |
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
@@ -65,7 +65,7 @@ Potete collegare fino a 10 indirizzi e-mail con hash a un singolo [DPUUID](../..
 Nel nostro esempio, ora hai due origini dati.
 
 | ID origine dati | Contenuto origine dati |
-| --- | --- |
+| -------------- | -------------------------- |
 | 999999 | Dpuuids esistenti (ID CRM) |
 | 987654 | Indirizzi e-mail con hash |
 
