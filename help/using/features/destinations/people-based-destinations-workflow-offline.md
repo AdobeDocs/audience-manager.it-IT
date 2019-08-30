@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro B - Personalizzazione basata su dati non in linea
 solution: Audience Manager
 title: Flusso di lavoro B - Personalizzazione basata su dati non in linea
 translation-type: tm+mt
-source-git-commit: 11663e962254bbcab90105d72af003b2a7056744
+source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
 
 ---
 
@@ -28,11 +28,11 @@ A prescindere dal fatto che gli ID cliente di Audience Manager ([dpuuids](../../
 
 Vuoi qualificare gli ID cliente dalla tabella seguente per gli ID tratti caricati corrispondenti. Tieni presente che i [tuoi dpuuid](../../reference/ids-in-aam.md) vengono memorizzati in un'origine dati con l'ID 999999, e l'ID partner di Audience Manager è 123.
 
-| Cliente ID (DPUUID)| ID caratteristica caricati |
-|-|-|
-|68079982765673198504052656074456196039|12345, 23456 |
-|67412682083411995725538770443620307584 |45678|
-|89159024796760343733111707646026765593 |11223, 93342, 27341|
+| ID cliente (DPUUID) | ID caratteristica caricati |
+| -------------------------------------- | ------------------- |
+| 68079982765673198504052656074456196039 | 12345, 23456 |
+| 67412682083411995725538770443620307584 | 45678 |
+| 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 Per qualificare gli ID cliente nell'esempio precedente per le caratteristiche caricate corrispondenti, devi caricare un [file di dati in entrata](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) con i seguenti contenuti:
 
@@ -88,15 +88,17 @@ Supponiamo che desideri corrispondere ai [dpuuid esistenti](../../reference/ids-
 Come promemoria, ora hai due origini dati:
 
 | ID origine dati | Contenuto origine dati |
-|---|---|
+| -------------- | -------------------------- |
 | 999999 | Dpuuids esistenti (ID CRM) |
 | 987654 | Indirizzi e-mail con hash |
 
 | Dpuuids (CRM ID) | Indirizzo e-mail | Indirizzo e-mail con hash |
-|---|---|---|
+| -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
+
+<br/>
 
 Il [file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) di sincronizzazione ID avrà i seguenti contenuti:
 
@@ -106,9 +108,13 @@ Il [file](../../integration/sending-audience-data/batch-data-transfer-explained/
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+<br/>
+
 Il [file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) di sincronizzazione ID deve seguire questa struttura di denominazione:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+<br/>
 
 Nell'esempio precedente, il nome file sarà simile al seguente: `c2c_id_999999_987654_1560431657.sync`
 
