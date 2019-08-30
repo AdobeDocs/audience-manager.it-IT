@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro A - Personalizzazione basata su tutta l'attività on
 solution: Audience Manager
 title: Flusso di lavoro A - Personalizzazione basata su tutta l'attività online combinata con dati offline
 translation-type: tm+mt
-source-git-commit: fdb17c46dd66794cfb744b77e8e5c8be9fd65dd5
+source-git-commit: d0e343e3fbaf527e9b630dc2dbc851d8f8f4c0b2
 
 ---
 
@@ -18,6 +18,8 @@ Questa pagina include indicazioni dettagliate su come combinare dati offline [!D
 
 A seconda che [i dpuuid](../../reference/ids-in-aam.md) siano minuscoli, indirizzi e-mail con hash, potrebbe essere necessario configurare l'origine dati che archivia gli indirizzi e-mail con hash.
 
+ 
+
 **Scenario 1:[i dpuuid](../../reference/ids-in-aam.md)sono già lettere minuscole, indirizzi e-mail con hash.**
 
 In tal caso, è necessario etichettare l'origine dati corrispondente come tale:
@@ -26,6 +28,8 @@ In tal caso, è necessario etichettare l'origine dati corrispondente come tale:
 1. Trova l'origine dati che contiene i tuoi [dpuuid](../../reference/ids-in-aam.md)e fai clic su di esso.
 1. Verificate che l'opzione [!UICONTROL Cannot be tied to personally identifiable information] non sia selezionata.
 1. Salvare le impostazioni dell'origine dati.
+
+ 
 
 **Scenario 2:[i dpuuid non](../../reference/ids-in-aam.md)sono lettere minuscole, indirizzi e-mail con hash.**
 
@@ -60,6 +64,8 @@ Supponiamo che desideri associare [i dpuuid](../../reference/ids-in-aam.md) esis
 | 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
+ 
+
 Potete collegare fino a 10 indirizzi e-mail con hash a un singolo [DPUUID](../../reference/ids-in-aam.md). A tal fine, separate gli indirizzi e-mail con hash con una virgola, all'interno del file di sincronizzazione.
 
 Nel nostro esempio, ora hai due origini dati.
@@ -69,6 +75,8 @@ Nel nostro esempio, ora hai due origini dati.
 | 999999 | Dpuuids esistenti (ID CRM) |
 | 987654 | Indirizzi e-mail con hash |
 
+ 
+
 Il [file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) di sincronizzazione ID avrà i seguenti contenuti:
 
 ```
@@ -77,9 +85,13 @@ Il [file](../../integration/sending-audience-data/batch-data-transfer-explained/
 89159024796760343733111707646026765593<TAB>feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6
 ```
 
+ 
+
 Il [file](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) di sincronizzazione ID deve seguire questa struttura di denominazione:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
+
+ 
 
 Nell'esempio precedente, il nome file sarà simile al seguente:`c2c_id_999999_987654_1560431657.sync`
 
