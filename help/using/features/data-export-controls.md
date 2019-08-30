@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Controlli sull'esportazione dei dati
 uuid: de 7 f 3608-c 0 cb -4049-973 a -8 be 54525 c 600
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 In base alle classificazioni applicate a un'origine dati e a una destinazione, i controlli di esportazione ti interrompono da:
 
 * Aggiungere una caratteristica a un segmento quando questo appartiene a un'origine dati con un controllo di esportazione dati incompatibile con un'etichetta di esportazione dati su una o più destinazioni a cui il segmento viene mappato.
-Ad esempio, supponiamo che un segmento sia mappato a una destinazione con l'etichetta di esportazione **[UICONTROL! Questa destinazione può consentire una combinazione con informazioni personali (PII]**). I controlli per l'esportazione non consentono di aggiungere una caratteristica a tale segmento se l'origine dati a cui appartiene ha un controllo di esportazione dati che indica **[UICONTROL! Non può essere associato a informazioni personali identificabili (PII]**).
+Ad esempio, supponiamo che un segmento sia mappato a una destinazione con l'etichetta **[!DNL This destination may enable a combination with personally identifiable information (PII)]** di esportazione. I controlli per l'esportazione non consentono **[!DNL Cannot be tied to personally identifiable information (PII)]** di aggiungere una caratteristica a tale segmento se l'origine dati a cui appartiene ha un controllo sull'esportazione di dati.
 * L'invio di dati a una destinazione di destinazione presenta un'etichetta di esportazione dati bloccata da un controllo di esportazione dei dati su:
    * L'origine dati di una caratteristica inclusa;
    * L'origine dati di una caratteristica utilizzata in un segmento incluso;
@@ -44,7 +44,7 @@ Inoltre, almeno un'etichetta di esportazione deve corrispondere a un controllo d
 
 >[!IMPORTANT]
 >
->[Non potete bloccare l'esportazione di un segmento inserendo un controllo di esportazione dati sull'origine dati del segmento, è necessario impostare il controllo su:
+>Non puoi bloccare l'esportazione di un segmento inserendo un controllo di esportazione dati sull'origine dati del segmento, devi impostare il controllo su:
 > * Le origini dati delle caratteristiche utilizzate nel segmento;
 > * La regola di unione profilo sfrutta il segmento;
 > * Qualsiasi sorgente dati utilizzata dalla regola unione profilo del segmento.
