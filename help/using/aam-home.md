@@ -1,19 +1,19 @@
 ---
 description: Audience Manager fornisce servizi leader nel settore per la gestione online di dati sul pubblico. I nostri prodotti e servizi offrono a editori e inserzionisti digitali gli strumenti necessari per controllare e sfruttare le risorse di dati per favorire il successo delle vendite.
-seo-description: Audience Manager fornisce servizi leader nel settore per la gestione online di dati sul pubblico. I nostri prodotti e servizi offrono a editori e inserzionisti digitali gli strumenti necessari per controllare e sfruttare le risorse di dati per favorire il successo delle vendite.
-seo-title: Documentazione di Audience Manager
+seo-description: Documentazione tecnica e assistenza per Audience Manager (AAM). AAM offre servizi leader di settore per la gestione online dei dati di audience e offre agli inserzionisti digitali e agli editori gli strumenti necessari per controllare e sfruttare le risorse dati per favorire il successo delle vendite.
+seo-title: Documentazione tecnica del prodotto Adobe Audience Manager
 solution: Audience Manager
 title: Documentazione di Audience Manager
 uuid: 48267 e 3 b -70 e 6-42 ae -99 b 1-884 f 4 d 0916 be
 translation-type: tm+mt
-source-git-commit: aa58d1aa69a7d5e112d6b24fa8250bf56ccb370a
+source-git-commit: 5ea8e5d7997f192bc41bb9f9e4caa4a86b852a12
 
 ---
 
 
 # Documentazione di Audience Manager {#audience-manager-product-documentation}
 
-Audience Manager fornisce servizi leader nel settore per la gestione online di dati sul pubblico. I nostri prodotti e servizi offrono a editori e inserzionisti digitali gli strumenti necessari per controllare e sfruttare le risorse di dati per favorire il successo delle vendite.
+Questa guida tecnica tecnica fornisce assistenza self-to-self per Audience Manager, un servizio leader di settore per la gestione online dei dati sul pubblico. I nostri prodotti e servizi offrono a editori e inserzionisti digitali gli strumenti necessari per controllare e sfruttare le risorse di dati per favorire il successo delle vendite.
 
 <table id="table_5E612F746A704FE095B809A013EE977F" class="simpletable"> 
  <tbody> 
