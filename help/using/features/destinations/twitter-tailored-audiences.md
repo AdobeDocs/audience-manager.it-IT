@@ -5,7 +5,7 @@ seo-title: Configurare i tipi di pubblico personalizzati su Twitter come destina
 solution: Audience Manager
 title: Configurare i tipi di pubblico personalizzati su Twitter come destinazione basata su dispositivo self-service
 translation-type: tm+mt
-source-git-commit: a16734f652f3c398f12660671103f5478cfdd89e
+source-git-commit: cd770afc39221687f4eb47cc358d8d57a51b9fb5
 
 ---
 
@@ -21,7 +21,7 @@ Prima di configurare [!DNL Twitter Tailored Audiences] la destinazione, verifica
 1. Il tuo [!DNL Twitter Ads] account deve essere idoneo per la pubblicità. I nuovi [!DNL Twitter Ads] account non sono idonei per la pubblicità nelle prime 2 settimane dopo averli creati.
 1. L'account utente Twitter a cui hai autorizzato accesso in Audience Manager deve disporre dell'autorizzazione [di manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) audience manager abilitata.
 1. Se [state aggiornando l'integrazione Twitter esistente con l'amministrazione self-service](#update-existing-twitter-integrations), l'account utente di Twitter deve avere abilitato l'autorizzazione [Ad Manager](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels) .
-2. Quando crei la prima [!DNL Twitter Tailored Audiences] destinazione nell'istanza di Audience Manager, contatta Adobe Consulting o l'Assistenza clienti per abilitare la [!DNL Twitter] sincronizzazione ID (ID origine dati = 1123) per l'account. Questo è necessario per la corretta sincronizzazione tra Audience Manager e [!DNL Twitter].
+1. Quando crei la prima [!DNL Twitter Tailored Audiences] destinazione nell'istanza di Audience Manager, contatta Adobe Consulting o l'Assistenza clienti per abilitare la [!DNL Twitter] sincronizzazione ID (ID origine dati = 1123) per l'account. Questo è necessario per la corretta sincronizzazione tra Audience Manager e [!DNL Twitter].
 
 ## Aggiungere una nuova [!DNL Twitter Tailored Audiences] destinazione {#add-new-twitter-destination}
 
