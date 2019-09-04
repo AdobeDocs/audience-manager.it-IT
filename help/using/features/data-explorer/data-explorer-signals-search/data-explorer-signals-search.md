@@ -4,12 +4,12 @@ seo-description: Ricerca di segnali utilizzati e non utilizzati ricevuti in peri
 seo-title: Ricerca segnali
 title: Ricerca segnali
 translation-type: tm+mt
-source-git-commit: 16c0dd83c18e720045995ac1851b4c91f3346183
+source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
 
 ---
 
 
-# Signals Search Overview {#signals-search}
+# Panoramica ricerca segnali {#signals-search}
 
 Ricerca di segnali utilizzati e non utilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, vai a Data Data &gt; Segnali &gt; Cerca.
 
