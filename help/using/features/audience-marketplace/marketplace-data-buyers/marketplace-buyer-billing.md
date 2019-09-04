@@ -7,7 +7,7 @@ title: Fatturazione per feed feed dati
 keywords: Generazione di rapporti a livello di segmento, livello segmento, segmento segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: dab5b255f966e63d51cc4d236d37bb0cb4eb960c
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
@@ -40,15 +40,17 @@ Dopo aver utilizzato [!DNL CPM] il rapporto sul livello di segmento, [!UICONTROL
 Per generare un rapporto [!DNL CPM] sull'utilizzo a livello di segmento:
 
 1. **[!UICONTROL Audience Marketplace > Payables]** Vai a.
-2. Selezionare la **[!UICONTROL Segment Usage]** scheda.
-3. Compilare l'utilizzo per i segmenti. Puoi utilizzare la [!UICONTROL Search] casella per filtrare i segmenti solo se hai bisogno di rapporti per alcuni di essi.
-4. Fai clic su **[!UICONTROL Edit Segments Usage]**.
-5. Inserite l'importo [!DNL CPM] di utilizzo nella [!UICONTROL Usage] colonna.
-6. Fate clic **[!UICONTROL Save]** al termine e esaminate la finestra di dialogo di conferma.
-   ![confirm-segment-use](assets/confirm-segment-usage.png)
-7. Fai clic su **[!UICONTROL Confirm]**.
+1. Selezionare la **[!UICONTROL Segment Usage]** scheda.
+1. Compilare l'utilizzo per i segmenti. Puoi utilizzare la [!UICONTROL Search] casella per filtrare i segmenti solo se hai bisogno di rapporti per alcuni di essi.
+1. Fai clic su **[!UICONTROL Edit Segments Usage]**.
+1. Inserite l'importo [!DNL CPM] di utilizzo nella [!UICONTROL Usage] colonna.
+1. Fate clic **[!UICONTROL Save]** al termine e esaminate la finestra di dialogo di conferma.
 
-<br> 
+   ![confirm-segment-use](assets/confirm-segment-usage.png)
+
+1. Fai clic su **[!UICONTROL Confirm]**.
+
+ 
 
 ## Report Utilizzo CPM al livello feed dati {#feed-level-report}
 
@@ -57,15 +59,15 @@ Il reporting a livello di feed dati è un processo più tedioso e indirizzato a 
 Per generare un rapporto [!DNL CPM] sull'utilizzo a livello di segmento:
 
 1. **[!UICONTROL Audience Marketplace > Payables]** Vai a.
-2. Selezionare la **[!UICONTROL Feed Usage]** scheda.
-3. Utilizzate [!UICONTROL Search] la casella per filtrare i feed di dati e identificare quelli a cui dovete aggiungere dei rapporti.
-4. Fai clic su **[!UICONTROL Edit Feeds Usage]**.
-5. Calcola l [!DNL CPM] 'utilizzo per ogni feed di dati basato sull'attribuzione [costi per i feed](#cost-attribution)dati CPM e immetti nella [!UICONTROL Usage] colonna.
-6. Fate clic **[!UICONTROL Save]** al termine e esaminate la finestra di dialogo di conferma.
+1. Selezionare la **[!UICONTROL Feed Usage]** scheda.
+1. Utilizzate [!UICONTROL Search] la casella per filtrare i feed di dati e identificare quelli a cui dovete aggiungere dei rapporti.
+1. Fai clic su **[!UICONTROL Edit Feeds Usage]**.
+1. Calcola l [!DNL CPM] 'utilizzo per ogni feed di dati basato sull'attribuzione [costi per i feed](#cost-attribution)dati CPM e immetti nella [!UICONTROL Usage] colonna.
+1. Fate clic **[!UICONTROL Save]** al termine e esaminate la finestra di dialogo di conferma.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-7. Fai clic su **[!UICONTROL Confirm]**.
+1. Fai clic su **[!UICONTROL Confirm]**.
 
 <br> 
 
@@ -155,7 +157,7 @@ Dopo aver [!DNL CPM] impostato un numero per il mese precedente, [!DNL Adobe] ef
 
 ## Assegnare impression a livello di feed in base alle regole di qualifica caratteristiche {#assign-impressions}
 
-Il caso [!UICONTROL Activation] d'uso ti consente di utilizzare caratteristiche nel feed di dati corrispondente per creare segmenti in [Segment Builder](../../../features/segments/segment-builder.md#topic_E166819D26B94A868376BA54E10E4B74) (Generatore segmenti) e mappare tali segmenti su una destinazione. Gli operatori [!UICONTROL AND]booleani, [!UICONTROL OR]e [!UICONTROL NOT] consentono di impostare le condizioni per la caratteristica di caratteristica e segmento.
+Il caso [!UICONTROL Activation] d'uso ti consente di utilizzare caratteristiche nel feed di dati corrispondente per creare segmenti in [Segment Builder](../../../features/segments/segment-builder.md) (Generatore segmenti) e mappare tali segmenti su una destinazione. Gli operatori [!UICONTROL AND]booleani, [!UICONTROL OR]e [!UICONTROL NOT] consentono di impostare le condizioni per la caratteristica di caratteristica e segmento.
 
 Quando [rapporti Utilizzo CPM al livello feed dati](#feed-level-report), devi allocare le impression proporzionalmente per ciascun feed di dati, in base agli [!DNL Boolean] operatori utilizzati nelle regole di qualificazione delle caratteristiche. Nella tabella seguente è indicato come allocare correttamente impression per regola booleana o per tipo di caratteristica.
 
