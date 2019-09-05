@@ -4,7 +4,7 @@ solution: Audience Manager
 title: Effettuare chiamate API Server-to-Server DCS
 uuid: bdfe 3430-e 27 f -4 a 5 c -88 d 9-ae 164 d 28 f 601
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -21,7 +21,9 @@ Le chiamate richiedono il nome host del server DCS regionale e l'ID utente. Se n
 
 Una richiesta server-to-server di base che invia dati alla [!UICONTROL DCS] sintassi mostrata di seguito.
 
-<pre><code>" Host:<i>domain alias</i>. demdex. net "" https://DCS<i>host name.demdex.net/event?d_rtbd=json&amp;d_jsonv=1&amp;d_uuid=user</i><i>ID</i>.</code></pre>
+```js
+"Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
+```
 
 Un esempio di chiamata è simile all'esempio seguente.
 
