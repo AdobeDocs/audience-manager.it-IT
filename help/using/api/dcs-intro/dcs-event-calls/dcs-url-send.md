@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Inviare dati al DCS
 uuid: 024 e 307 d-bfcb -46 cf-ac 3 a-fc 71 df 0248 fe
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
 
 ---
 
@@ -23,7 +23,9 @@ Per informazioni sull'esecuzione `/event` di chiamate [!UICONTROL DCS]a. Questa 
 
 Una stringa di base `URL` che invia dati alla [!UICONTROL DCS] sintassi mostrata di seguito.
 
-<pre><code>https://domain alias.demdex.net/event<i></i>?<i>key 1</i>=<i>val 1</i>, &amp;<i>key 2</i>=<i>val 2</i>&amp; d_ dst = 1 &amp; d_ rtbd = json &amp; d_ cb =<i>callback</i></code></pre>
+```js
+https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
+```
 
 >[!NOTE]
 >
@@ -85,8 +87,9 @@ La tabella seguente definisce i componenti di base di una [!UICONTROL DCS] chiam
 
 Questo esempio mostra l'azienda fittizia [!DNL Acme, Inc.] che invia dati a [!UICONTROL DCS] tramite [!DNL HTTP] una chiamata. Questa chiamata include i parametri `d_dst=1`facoltativi, `d_rtbd=json`e `d_cb=callback`. Queste indicano che [!DNL Acme] desiderano ricevere una [!DNL JSON] risposta dalla funzione [!UICONTROL DCS] di callback di una chiamata. Ricorda, questo è solo un esempio. Non tagliate e incollate questo codice.
 
-`https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
-
+```js
+https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
+```
 ## Passaggi successivi {#dcs-next-steps}
 
 Ora che hai familiarità con l'invio di dati all ' [!UICONTROL DCS], è ora di vedere come recuperare i dati e analizzarli. Consultate [Ricezione dei dati dal DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
