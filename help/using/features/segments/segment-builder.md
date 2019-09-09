@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Generatore di segmenti
 uuid: 5 ca 924 a 5-2 b 29-4802-ab 02-e 292 d 77 a 0 aae
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: 2733080505760bbcf39737f0ad0d2d7605d1f477
 
 ---
 
@@ -14,6 +14,12 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 # Generatore di segmenti {#segment-builder}
 
 Descrive i passaggi obbligatori e facoltativi che creano un segmento in [!UICONTROL Segment Builder].
+
+## Dimostrazione video
+
+Il video seguente illustra il processo di creazione dei segmenti. Per ulteriori informazioni, leggere le sezioni seguenti.
+
+>[!VIDEO](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4)
 
 ## Crea un segmento {#create-segment}
 
