@@ -7,7 +7,7 @@ title: Fatturazione per feed feed dati
 keywords: Generazione di rapporti a livello di segmento, livello segmento, segmento segmento
 uuid: d 7236667-282 b -4160-9909-579721 af 4016
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
 
 ---
 
@@ -50,6 +50,10 @@ Per generare un rapporto [!DNL CPM] sull'utilizzo a livello di segmento:
 
 1. Fai clic su **[!UICONTROL Confirm]**.
 
+Consulta anche la nostra dimostrazione video su come creare rapporti a livello di segmento:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=ita)
+
  
 
 ## Report Utilizzo CPM al livello feed dati {#feed-level-report}
@@ -59,15 +63,15 @@ Il reporting a livello di feed dati è un processo più tedioso e indirizzato a 
 Per generare un rapporto [!DNL CPM] sull'utilizzo a livello di segmento:
 
 1. **[!UICONTROL Audience Marketplace > Payables]** Vai a.
-1. Selezionare la **[!UICONTROL Feed Usage]** scheda.
-1. Utilizzate [!UICONTROL Search] la casella per filtrare i feed di dati e identificare quelli a cui dovete aggiungere dei rapporti.
-1. Fai clic su **[!UICONTROL Edit Feeds Usage]**.
-1. Calcola l [!DNL CPM] 'utilizzo per ogni feed di dati basato sull'attribuzione [costi per i feed](#cost-attribution)dati CPM e immetti nella [!UICONTROL Usage] colonna.
-1. Fate clic **[!UICONTROL Save]** al termine e esaminate la finestra di dialogo di conferma.
+2. Selezionare la **[!UICONTROL Feed Usage]** scheda.
+3. Utilizzate [!UICONTROL Search] la casella per filtrare i feed di dati e identificare quelli a cui dovete aggiungere dei rapporti.
+4. Fai clic su **[!UICONTROL Edit Feeds Usage]**.
+5. Calcola l [!DNL CPM] 'utilizzo per ogni feed di dati basato sull'attribuzione [costi per i feed](#cost-attribution)dati CPM e immetti nella [!UICONTROL Usage] colonna.
+6. Fate clic **[!UICONTROL Save]** al termine e esaminate la finestra di dialogo di conferma.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
 
-1. Fai clic su **[!UICONTROL Confirm]**.
+7. Fai clic su **[!UICONTROL Confirm]**.
 
 <br> 
 
