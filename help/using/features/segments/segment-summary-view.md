@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Visualizzazione riepilogo segmenti
 uuid: e 844 e 423-9701-42 d 4-9 ba 5-d 82 f 41358 adc
 translation-type: tm+mt
-source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
+source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 263c55e6bd2c9ad7159306fc889b048d800c59da
 Fate clic sul nome di un segmento dalla dashboard principale per accedere alla relativa pagina di riepilogo. Le sezioni di riepilogo includono:
 
 1. **[!UICONTROL Basic Information]:** Mostra i dettagli obbligatori e facoltativi specificati al momento della creazione del segmento.
-2. **[!UICONTROL Segment Graph]:** Visualizza in modo grafico i dati sulle prestazioni e per intervalli di 1, 7, 14, 30, 60 e 90 giorni. I numeri di popolazione dei segmenti vengono illustrati in un [documento separato](../../features/segments/segment-builder-data.md).
+2. **[!UICONTROL Segment Graph]:** Visualizza in modo grafico i dati sulle prestazioni e per intervalli di 1, 7, 14, 30, 60 e 90 giorni. I numeri di popolazione dei segmenti vengono illustrati in un [articolo separato](../../features/segments/segment-builder-data.md).
 
    ![segmenti-grafico](assets/segment-graph.png)
 
@@ -29,6 +29,8 @@ Fate clic sul nome di un segmento dalla dashboard principale per accedere alla r
    >[!NOTE]
    >
    >Audience Manager visualizza il [!UICONTROL Identity Type Breakdown] rapporto solo se hai un ID cross-device qualificato per il segmento.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/?captions=ita)
 
 4. **[!UICONTROL Segment Rules]:** Elenca le caratteristiche del segmento insieme alle regole di qualifica.
 5. **[!UICONTROL Destination Mappings]:** Elenca le mappature di destinazione per il segmento.
