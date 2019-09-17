@@ -5,7 +5,7 @@ seo-title: Aggiungi nuove destinazioni basate su dispositivo
 solution: Audience Manager
 title: Aggiungi nuove destinazioni basate su dispositivo
 translation-type: tm+mt
-source-git-commit: bdf4a26fb128e4e76507ce6d7bbb19decb13173e
+source-git-commit: c206246a4a586d1148c18e0bce734d07963a85f6
 
 ---
 
@@ -31,9 +31,9 @@ Quando crei la prima destinazione basata su dispositivo con una piattaforma inte
 Prima di poter creare una nuova destinazione basata su dispositivo, è necessario configurare l'integrazione tra Audience Manager e la piattaforma di destinazione. Come procedere:
 
 1. Accedi al tuo account Audience Manager e vai a **[!DNL Administration > Integrated Accounts]**. Se disponete di un'integrazione configurata in precedenza con una piattaforma di destinazione, visualizzatela in questa pagina. In caso contrario, la pagina è vuota.
-2. Fai clic su **[!DNL Add Account]**.
-3. Selezionate la piattaforma di destinazione con cui desiderate eseguire l'autenticazione e fate clic per **[!DNL Confirm]** essere reindirizzati alla pagina di autenticazione della piattaforma selezionata. ![piattaforme integrate](assets/dbd-integrated-platforms.png)
-4. Dopo aver eseguito l'autenticazione sull'account della piattaforma di destinazione, verrete reindirizzati ad Audience Manager, dove dovrebbero essere visualizzati gli account dell'inserzionista associato. Selezionate l’account dell’inserzionista da usare e fate clic su **[!DNL Confirm]**.
+1. Fai clic su **[!DNL Add Account]**.
+1. Selezionate la piattaforma di destinazione con cui desiderate eseguire l'autenticazione e fate clic per **[!DNL Confirm]** essere reindirizzati alla pagina di autenticazione della piattaforma selezionata. ![piattaforme integrate](assets/dbd-integrated-platforms.png)
+1. Dopo aver eseguito l'autenticazione sull'account della piattaforma di destinazione, verrete reindirizzati ad Audience Manager, dove dovrebbero essere visualizzati gli account dell'inserzionista associato. Selezionate l’account dell’inserzionista da usare e fate clic su **[!DNL Confirm]**.
 
 ## Passaggio 2: Creare una nuova destinazione basata su dispositivo {#step2}
 
@@ -44,14 +44,13 @@ Dopo aver configurato l'integrazione della piattaforma di destinazione, potete c
 >Non è possibile modificare il nome di una destinazione esistente basata su dispositivo. Assicuratevi di fornire un nome che vi aiuterà a identificare correttamente la destinazione.
 
 1. Accedi al tuo account Audience Manager, vai a **[!DNL Audience Data > Destinations]** e fai clic su **[!DNL Create Destination]**.
-2. Nella **[!DNL Basic Information]** sezione immettere un **[!DNL Name]** e **[!DNL Description]** per la nuova destinazione e utilizzare le impostazioni nell'elenco seguente: ![setup](assets/dbd-new-basic.png)
+1. Nella **[!DNL Basic Information]** sezione immettere un **[!DNL Name]** e **[!DNL Description]** per la nuova destinazione e utilizzare le impostazioni nell'elenco seguente: ![setup](assets/dbd-new-basic.png)
    * **[!DNL Category]**: [!DNL Integrated Platforms];
    * **[!DNL Type]**: [!DNL Device-Based];
    * **[!DNL Platform]**: selezionate la piattaforma di destinazione alla quale desiderate inviare i segmenti di pubblico.
    * **[!DNL Account]**: selezionate l'account dell'inserzionista desiderato associato alla piattaforma selezionata.
-3. Fai clic su **[!DNL Next]**.
-4. Scegliere le etichette [di esportazione](/help/using/features/data-export-controls.md#controls-labels) dati da impostare per questa destinazione.
-5. Fai clic su **[!DNL Save]**.
-6. Nella **[!DNL Segment Mappings]** sezione, selezionate i segmenti di pubblico che desiderate inviare a questa destinazione.
-7. Salva la destinazione.
-
+1. Fai clic su **[!DNL Next]**.
+1. Scegliere le etichette [di esportazione](/help/using/features/data-export-controls.md#controls-labels) dati da impostare per questa destinazione.
+1. Fai clic su **[!DNL Save]**.
+1. Nella **[!DNL Segment Mappings]** sezione, selezionate i segmenti di pubblico che desiderate inviare a questa destinazione.
+1. Salva la destinazione.
