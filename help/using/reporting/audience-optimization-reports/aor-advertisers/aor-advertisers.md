@@ -1,10 +1,10 @@
 ---
-description: L'ottimizzazione audience per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per segmenti Audience Manager tra le campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche dei segmenti Audience Manager per informare le ottimizzazioni incentrate sul segmento e un mix efficace dei canali.
-seo-description: L'ottimizzazione audience per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per segmenti Audience Manager tra le campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche dei segmenti Audience Manager per informare le ottimizzazioni incentrate sul segmento e un mix efficace dei canali.
+description: Audience Optimization per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per i segmenti Audience Manager nelle tue campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche dei segmenti di Audience Manager per informare le ottimizzazioni incentrate sui segmenti e un mix efficace di canali.
+seo-description: Audience Optimization per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per i segmenti Audience Manager nelle tue campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche dei segmenti di Audience Manager per informare le ottimizzazioni incentrate sui segmenti e un mix efficace di canali.
 seo-title: Ottimizzazione dell'audience per gli inserzionisti
 solution: Audience Manager
 title: Ottimizzazione dell'audience per gli inserzionisti
-uuid: 852 d 550 e -3 c 7 f -4750-9 abc -365 c 3 a 6 f 7883
+uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
@@ -13,28 +13,28 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 # Audience Optimization for Advertisers{#audience-optimization-for-advertisers}
 
-L'ottimizzazione audience per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per segmenti Audience Manager tra le campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche dei segmenti Audience Manager per informare le ottimizzazioni incentrate sul segmento e un mix efficace dei canali.
+Audience Optimization per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per i segmenti Audience Manager nelle tue campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche dei segmenti di Audience Manager per informare le ottimizzazioni incentrate sui segmenti e un mix efficace di canali.
 
-## Data Ingestion Methods {#data-ingestion-methods}
+## Metodi di inserimento dati {#data-ingestion-methods}
 
-You can send data to [!DNL Audience Manager] for use in these reports by either of these methods. A volte i clienti inviano dati in base a entrambi i metodi. In questo modo i rapporti possono contenere informazioni più complete e accurate su un visitatore. To use the [!UICONTROL Audience Optimization] reports, your event calls must include *all* of the parameters listed in the [Overview and Mappings for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) documentation. Puoi inviare dati tramite i seguenti metodi elencati di seguito.
+È possibile inviare dati [!DNL Audience Manager] per l'utilizzo in questi rapporti tramite uno di questi metodi. A volte, i clienti inviano i dati in base a entrambi i metodi. In questo modo i rapporti contengono le informazioni più complete e precise su un visitatore. Per utilizzare i [!UICONTROL Audience Optimization] rapporti, le chiamate agli eventi devono includere *tutti* i parametri elencati nella documentazione [Panoramica e Mappature per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) di metadati. Puoi inviare i dati tramite i seguenti metodi elencati di seguito.
 
-* Pixel calls: To pass the required metadata parameters to [!DNL Audience Manager] see [Capturing Campaign Click Data via Pixel Calls](../../../integration/media-data-integration/click-data-pixels.md) and [Capturing Campaign Impression Data via Pixel Calls](../../../integration/media-data-integration/impression-data-pixels.md).
+* Chiamate in pixel: Per trasmettere i parametri di metadati richiesti per [!DNL Audience Manager] vedere [Acquisizione dei dati di clic sulla campagna tramite Pixel Calls (Chiamate pixel) e](../../../integration/media-data-integration/click-data-pixels.md) Acquisizione dei dati di impressione della campagna tramite Pixel Calls (Chiamate pixel) [](../../../integration/media-data-integration/impression-data-pixels.md).
 
-* Data files: If you want to use these reports to analyze your own data or data from a source that is not integrated with [!DNL Audience Manager], you need to create and upload data and metadata files for that data. For more information, see [Data Files for Audience Optimization Reports](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) and [Data and Metadata Files for Audience Optimization Reports](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
+* File di dati: Se desiderate utilizzare questi rapporti per analizzare i vostri dati o dati da un'origine non integrata con [!DNL Audience Manager], dovete creare e caricare i dati e i file di metadati per tali dati. Per ulteriori informazioni, vedi File [di dati per report](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) di ottimizzazione dell'audience e file di [dati e metadati per report](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)di ottimizzazione dell'audience.
 
-## Role-Based Access Controls (RBAC) {#rbac}
+## Controlli di accesso basati sul ruolo (RBAC) {#rbac}
 
-The type of reports you can view depend on the [!UICONTROL RBAC] group you're assigned to. See [Administration](../../../features/administration/administration-overview.md) and [Create a Group](../../../features/administration/administration-overview.md#create-group) for more information.
+Il tipo di rapporti che puoi visualizzare dipende dal [!UICONTROL RBAC] gruppo a cui sei assegnato. Per ulteriori informazioni, consulta [Amministrazione](../../../features/administration/administration-overview.md) e [creazione di un gruppo](../../../features/administration/administration-overview.md#create-group) .
 
-[!UICONTROL RBAC] devono avere alcune origini dati configurate per visualizzare [!UICONTROL Audience Optimization] i rapporti. Your [!DNL Audience Manager] consultant will set up these data sources for you. The more data sources in each [!UICONTROL RBAC] user group, the more data those group members will have access to. Come minimo, il consulente conterrà almeno una di queste origini dati:
+[!UICONTROL RBAC] per visualizzare i [!UICONTROL Audience Optimization] rapporti, è necessario che siano configurate alcune origini dati. Il tuo [!DNL Audience Manager] consulente configurerà queste origini dati per te. Più origini dati in ciascun gruppo di [!UICONTROL RBAC] utenti, più dati saranno accessibili ai membri del gruppo. Come minimo, il consulente configurerà almeno una delle seguenti origini dati:
 
 * Origine dati inserzionista
 * Origine dati marchio
 * Origine dati piattaforma
 
-Users that belong to more than one [!UICONTROL RBAC] user group can switch between each group's view. I dati visualizzati vengono aggiornati per rispettare il gruppo selezionato. If your company does not use [!UICONTROL RBAC], all users will have admin privileges and access to all the data sources (conversion groups).
+Gli utenti appartenenti a più [!UICONTROL RBAC] gruppi di utenti possono passare dalla visualizzazione di ciascun gruppo a quella di appartenenza. I dati visualizzati si aggiorneranno per rispettare il gruppo selezionato. Se la società non utilizza [!UICONTROL RBAC], tutti gli utenti avranno privilegi di amministratore e l'accesso a tutte le origini dati (gruppi di conversione).
 
-## Conversion Groups {#conversion-groups}
+## Gruppi di conversione {#conversion-groups}
 
-In the [!UICONTROL Audience Optimization] reports, **[!UICONTROL Conversion Groups]** are synonymous with data sources that contain at least one conversion trait. Data sources which do not contain at least one conversion trait do not appear in the [!UICONTROL Audience Optimization] reports. You can view the conversion traits for conversion groups in the [Reported Conversion Traits](../../../reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md) report.
+Nei [!UICONTROL Audience Optimization] rapporti, **[!UICONTROL Conversion Groups]** sono sinonimi di origini dati che contengono almeno una caratteristica di conversione. Le origini dati che non contengono almeno una caratteristica di conversione non vengono visualizzate nei [!UICONTROL Audience Optimization] rapporti. Puoi visualizzare le caratteristiche di conversione per i gruppi di conversione nel rapporto Caratteristiche [conversione](../../../reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md) segnalate.
