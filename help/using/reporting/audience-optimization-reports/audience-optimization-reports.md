@@ -1,19 +1,19 @@
 ---
-description: I rapporti sull'ottimizzazione del pubblico utilizzano i metodi di visualizzazione dati per restituire informazioni sulle destinazioni nell'account Audience Manager. In ogni rapporto, puoi fare clic su quasi qualsiasi punto dati per restituire informazioni dettagliate su quell'elemento. Queste approfondimenti di Ottimizzazione audience possono essere applicate a diversi casi d'uso nei canali pubblicitari e pubblicazione, ma non sono disponibili per impostazione predefinita. Contatta il tuo consulente Audience Manager per iniziare.
-seo-description: I rapporti sull'ottimizzazione del pubblico utilizzano i metodi di visualizzazione dati per restituire informazioni sulle destinazioni nell'account Audience Manager. In ogni rapporto, puoi fare clic su quasi qualsiasi punto dati per restituire informazioni dettagliate su quell'elemento. Queste approfondimenti di Ottimizzazione audience possono essere applicate a diversi casi d'uso nei canali pubblicitari e pubblicazione, ma non sono disponibili per impostazione predefinita. Contatta il tuo consulente Audience Manager per iniziare.
+description: I report di ottimizzazione dell'audience utilizzano metodi di visualizzazione dei dati per restituire informazioni sulle destinazioni nell'account Audience Manager. In ciascun rapporto, potete fare clic su quasi tutti i punti dati per restituire informazioni dettagliate su tale elemento. Queste informazioni di ottimizzazione dell'audience possono essere applicate a diversi casi di utilizzo tra canali di pubblicità e pubblicazione, ma non sono disponibili per impostazione predefinita. Contatta il tuo consulente Audience Manager per iniziare.
+seo-description: I report di ottimizzazione dell'audience utilizzano metodi di visualizzazione dei dati per restituire informazioni sulle destinazioni nell'account Audience Manager. In ciascun rapporto, potete fare clic su quasi tutti i punti dati per restituire informazioni dettagliate su tale elemento. Queste informazioni di ottimizzazione dell'audience possono essere applicate a diversi casi di utilizzo tra canali di pubblicità e pubblicazione, ma non sono disponibili per impostazione predefinita. Contatta il tuo consulente Audience Manager per iniziare.
 seo-title: Report di ottimizzazione dell'audience
 solution: Audience Manager
 title: Report di ottimizzazione dell'audience
-uuid: b 06 efa 28-f 56 a -4 b 72-978 e-e 0 c 067 f 54798
+uuid: b06efa28-f56a-4b72-978e-e0c067f54798
 translation-type: tm+mt
 source-git-commit: 1e38d1bc12eb19e33ba02fc2560eaf989f420168
 
 ---
 
 
-# Audience Optimization Reports{#audience-optimization-reports}
+# Report di ottimizzazione dell'audience{#audience-optimization-reports}
 
-I rapporti sull'ottimizzazione del pubblico utilizzano i metodi di visualizzazione dati per restituire informazioni sulle destinazioni nell'account Audience Manager. In ogni rapporto, puoi fare clic su quasi qualsiasi punto dati per restituire informazioni dettagliate su quell'elemento. Queste approfondimenti di Ottimizzazione audience possono essere applicate a diversi casi d'uso nei canali pubblicitari e pubblicazione, ma non sono disponibili per impostazione predefinita. Contatta il tuo consulente Audience Manager per iniziare.
+I report di ottimizzazione dell'audience utilizzano metodi di visualizzazione dei dati per restituire informazioni sulle destinazioni nell'account Audience Manager. In ciascun rapporto, potete fare clic su quasi tutti i punti dati per restituire informazioni dettagliate su tale elemento. Queste informazioni di ottimizzazione dell'audience possono essere applicate a diversi casi di utilizzo tra canali di pubblicità e pubblicazione, ma non sono disponibili per impostazione predefinita. Contatta il tuo consulente Audience Manager per iniziare.
 
-+ [Panoramica dell'audience per inserzionisti](aor-advertisers/aor-advertisers.md)
-+ [Panoramica dell'audience per Editori](aor-publishers/aor-publishers.md)
++ [Panoramica sull'ottimizzazione dell'audience per gli inserzionisti](aor-advertisers/aor-advertisers.md)
++ [Panoramica di ottimizzazione dell'audience per gli editori](aor-publishers/aor-publishers.md)
