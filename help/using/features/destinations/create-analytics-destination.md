@@ -1,75 +1,75 @@
 ---
 description: Audience Analytics consente di inviare segmenti Audience Manager ad Analytics. Per utilizzare questa funzione è necessario creare una destinazione Analytics e mappare i segmenti su tale destinazione in Audience Manager.
 seo-description: Audience Analytics consente di inviare segmenti Audience Manager ad Analytics. Per utilizzare questa funzione è necessario creare una destinazione Analytics e mappare i segmenti su tale destinazione in Audience Manager.
-seo-title: Configurare una destinazione di Analytics
+seo-title: ' Configurare una destinazione Analytics'
 solution: Audience Manager
-title: Configurare una destinazione di Analytics
+title: Configurare una destinazione Analytics
 translation-type: tm+mt
 source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
 
-# Configurare una destinazione di Analytics
+# Configurare una destinazione Analytics
 
 ## Requisiti {#requirements}
 
 Consulta [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/).
 
-## Destinazioni di Analytics predefinite e nuove destinazioni di Analytics
+## Destinazioni Analytics predefinite e nuove destinazioni Analytics
 
-| Tipo di destinazione di Analytics | Descrizione |
+| Tipo di destinazione Analytics | Descrizione |
 |---|---|
-| impostazione predefinita | Il nome di questa destinazione predefinita è "Adobe Analytics", che potete modificare. Gli ID di suite di rapporti mappati vengono visualizzati nella memorizzazione delle cartelle per le caratteristiche e i segmenti di Audience Manager. <br>Audience Manager crea automaticamente una destinazione se l'account ha: <br> <ul><li>Soddisfa i requisiti descritti nella documentazione [di Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/) .</li><li>Una [suite di rapporti](https://marketing.adobe.com/resources/help/en_US/sc/implement/ref-reports-report-suites.html) in Analytics.</li><li>[È stata mappata una suite di rapporti su un'organizzazione](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).</li></ul> |
-| Nuovo | Per creare nuove destinazioni Analytics, vai a Audience Data &gt; Destinazioni &gt; Crea nuova destinazione e segui i passaggi descritti di seguito. |
+| impostazione predefinita | Il nome di questa destinazione predefinita è "Adobe Analytics", che puoi modificare. Gli ID suite di rapporti mappati vengono visualizzati nell'archivio delle cartelle per le caratteristiche e i segmenti di Audience Manager. <br>  Audience Manager crea automaticamente una destinazione se l'account dispone di: <br>  <ul><li>Soddisfa i requisiti descritti nella documentazione di [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/) .</li><li>Una suite [di](https://marketing.adobe.com/resources/help/en_US/sc/implement/ref-reports-report-suites.html) rapporti in Analytics.</li><li>[Mappata una suite di rapporti a un'organizzazione](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).</li></ul> |
+| Nuovo | Per creare nuove destinazioni Analytics, vai a Dati audience &gt; Destinazioni &gt; Crea nuova destinazione e segui i passaggi per ciascuna sezione descritta di seguito. |
 
-## Passaggio 1: Fornire informazioni di base
+## Passaggio 1: Informazioni di base
 
-Questa sezione contiene campi e opzioni che avviano il processo di creazione di destinazione di Analytics. Per completare questa sezione:
+Questa sezione contiene campi e opzioni che avviano il processo di creazione della destinazione di Analytics. Per completare questa sezione:
 
-1. Fate clic su **Informazioni** di base per esporre i controlli.
+1. Fate clic su Informazioni **di** base per esporre i controlli.
 1. Denominate la destinazione. Evitare abbreviazioni e caratteri speciali.
-1. *(Facoltativo)* Descrivete la destinazione. Una descrizione concisa è un modo efficace per definire o fornire ulteriori informazioni su una destinazione.
-1. *(Facoltativo)* Nell'elenco **Piattaforma** , lasciate il set predefinito **su Tutti**. Al momento, queste opzioni non eseguono alcuna operazione. Sono progettati per supportare funzioni che possono essere aggiunte in un secondo momento.
+1. *(Facoltativo)* Descrivere la destinazione. Una descrizione sintetica è un modo efficace per definire o fornire ulteriori informazioni su una destinazione.
+1. *(Facoltativo)* Nell'elenco **Piattaforma** , lasciare il valore predefinito impostato su **Tutto**. Attualmente, queste opzioni non fanno nulla. Sono progettati per supportare funzioni che possono essere aggiunte in un secondo momento.
 1. Nell'elenco **Categoria** , seleziona **Adobe Experience Cloud**.
-1. Nell'elenco **Tipo** , selezionate **Adobe Analytics**.
-1. Fate clic **su Salva** per accedere alle impostazioni di configurazione o fate clic **su Etichette esportazione dati** per applicare i controlli di esportazione alla destinazione.
+1. Nell'elenco **Tipo** , seleziona **Adobe Analytics**.
+1. Fare clic su **Salva** per accedere alle impostazioni di configurazione o su Etichette **esportazione** dati per applicare i controlli di esportazione alla destinazione.
 
 >[!NOTE]
 >
->Per una destinazione Analytics, la **casella di controllo Mappatura destinazione automatica** e **ID** segmento sono selezionate per impostazione predefinita. Non potete modificare queste impostazioni.
+>Per una destinazione Analytics, la casella di controllo Mappatura **destinazione di riempimento** automatico e l'opzione ID **** segmento sono selezionate per impostazione predefinita. Non potete modificare queste impostazioni.
 
 ![informazioni di base](assets/basicinformation.png)
 
-## Passaggio 2: Configurare i controlli sull'esportazione dei dati
+## Passaggio 2: Configurare i controlli di esportazione dei dati
 
-Questa sezione contiene le opzioni che applicano [Controlli esportazione dati](/help/using/features/data-export-controls.md) a una destinazione di Analytics. Ignorate questo passaggio se non utilizzate i controlli di esportazione dei dati. Per completare questa sezione:
+Questa sezione contiene opzioni che applicano i controlli [di esportazione dei](/help/using/features/data-export-controls.md) dati a una destinazione Analytics. Salta questo passaggio se non utilizzi i controlli di esportazione dei dati. Per completare questa sezione:
 
-1. Fate clic su **Controlli esportazione dati** per esporre i controlli.
-1. Selezionate un'etichetta che corrisponda al controllo sull'esportazione dei dati applicato alla destinazione (consultate [Aggiungi etichette esportazione dati a una destinazione](/help/using/features/destinations/add-data-export-labels.md) ). Per le destinazioni di Analytics, la casella di controllo PII è selezionata per impostazione predefinita.
+1. Fate clic su Controlli **esportazione** dati per esporre i controlli.
+1. Selezionare un'etichetta che corrisponda al controllo di esportazione dei dati applicato alla destinazione (vedere [Aggiungi etichette di esportazione dati a una destinazione](/help/using/features/destinations/add-data-export-labels.md) ). Per le destinazioni Analytics, la casella di controllo PII è selezionata per impostazione predefinita.
 1. Fai clic su **Salva**.
 
-![exportcontrolli](assets/exportControls.png)
+![controlli di esportazione](assets/exportControls.png)
 
 ## Passaggio 3: Mappa suite di rapporti
 
-Nella sezione Configurazione sono elencate le suite di rapporti di Analytics abilitate per l'inoltro lato server. Se hai più destinazioni Analytics, le suite di rapporti assegnate a queste destinazioni saranno mutualmente esclusive e applicate da Audience Manager. Per completare questa sezione:
+Nella sezione Configurazione sono elencate le suite di rapporti di Analytics che sono state abilitate per l'inoltro lato server. Se hai più destinazioni Analytics, le suite di rapporti assegnate a tali destinazioni si escluderanno a vicenda e saranno applicate da Audience Manager. Per completare questa sezione:
 
-1. Fate clic **su Configurazione** per esporre i controlli.
-1. Seleziona una o più suite di rapporti a cui vuoi inviare segmenti.
+1. Fate clic su **Configurazione** per esporre i controlli.
+1. Seleziona una (o più) suite di rapporti a cui vuoi inviare i segmenti.
 1. Fai clic su **Salva**.
 
-![suite di rapporti](assets/reportSuites.png)
+![reportsuites](assets/reportSuites.png)
 
-## Passaggio 4: Mappature segmento
+## Passaggio 4: Mappature segmenti
 
-Questa sezione fornisce opzioni che consentono di mappare i segmenti automaticamente o manualmente.
+Questa sezione offre opzioni che consentono di mappare i segmenti automaticamente o manualmente.
 
-| Opzione di mapping | Descrizione |
+| Opzione mapping | Descrizione |
 |---|---|
-| Mappa automaticamente tutti i segmenti correnti e futuri | Selezionato per impostazione predefinita, questa funzione invia tutti i segmenti che un visitatore qualifica, su base giornaliera, ad Analytics. <br>Se un visitatore appartiene a più di 150 segmenti Audience Manager su un unico hit, vengono inviati ad Analytics solo i 150 segmenti idonei più recenti, mentre l'elenco rimanente viene troncato. Ad Analytics viene inviato un flag aggiuntivo che indica che l'elenco dei segmenti è stato troncato. Questa azione viene visualizzata come «Limite pubblico raggiunto» nella dimensione Nome pubblico e «1» nella dimensione ID audience. Per informazioni dettagliate, consultate [le domande frequenti](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/mc-audiences-faqs.html) . <br>Inoltre, questa opzione influisce sulla disponibilità di destinazione in [Segment Builder](/help/using/features/segments/segment-builder.md)(Generatore segmenti). Ad esempio, se un segmento viene mappato automaticamente a una destinazione Analytics, tale destinazione non è disponibile per la selezione nella sezione delle mappature [di destinazione di Segment](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) Builder (Generatore di segmenti). La destinazione Analisi appare disattivata e mostra "Analytics" nella colonna Tipo del browser Destinazione. |
-| Mappare manualmente i segmenti | Questa opzione espone i controlli di ricerca e ricerca che consentono di scegliere i segmenti da inviare ad Analytics. <br>Per cercare un segmento: <br> <ol><li>Digita il nome o l'ID del segmento nel campo di ricerca.</li><li>Fai clic su <b>Aggiungi.</b></li><li>Continua a cercare e aggiungere segmenti oppure fai clic su <b>Done (Fine</b>).</li></ol><br>Per cercare un segmento: <ol><li>Fate clic <b>su Sfoglia tutti i segmenti</b>. Viene visualizzato un elenco dei segmenti disponibili.</li><li>Dall'elenco, seleziona la casella di controllo del segmento da utilizzare e fai clic <b>su Aggiungi segmenti selezionati</b>.</li><li>Fate clic <b>su Salva</b> nella finestra Aggiungi mappature. Non puoi cambiare le mappature, l'inizio o le date di fine durante la versione beta.</li><li>Continua a sfogliare e aggiungere segmenti oppure fai clic su <b>Done (Fine</b>).</li></ol> ![mapsegments](assets/mapSegments.png) |
+| Mappa automaticamente tutti i segmenti attuali e futuri | Selezionata per impostazione predefinita, questa funzione invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all’hit. <br>  Se un visitatore appartiene a più di 150 segmenti di Audience Manager per un singolo hit, vengono inviati ad Analytics solo i 150 segmenti qualificati più di recente, mentre il resto dell’elenco viene troncato. Viene inviato un flag aggiuntivo ad Analytics per indicare che l’elenco dei segmenti è stato troncato. Questa azione viene visualizzata come "Limite pubblico raggiunto" nella dimensione Nome pubblico e come "1" nella dimensione ID pubblico. Per informazioni dettagliate, consultate le [domande frequenti](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/mc-audiences-faqs.html) . <br>  Inoltre, questa opzione influisce sulla disponibilità di destinazione in [Segment Builder](/help/using/features/segments/segment-builder.md). Ad esempio, se un segmento viene mappato automaticamente a una destinazione Analytics, tale destinazione non è disponibile per la selezione nella sezione Mappature [di](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) destinazione di Segment Builder. La destinazione Analytics viene visualizzata in grigio e viene visualizzata l'opzione "Analytics" nella colonna Tipo del browser Destinazione. |
+| Mappatura manuale dei segmenti | Questa opzione espone i controlli di ricerca e ricerca che consentono di scegliere quali segmenti inviare ad Analytics. <br>  Per cercare un segmento: <br>  <ol><li>Digita il nome del segmento o l’ID nel campo di ricerca.</li><li>Fai clic su <b>Aggiungi.</b></li><li>Continua a cercare e aggiungere segmenti o fai clic su <b>Fine</b>.</li></ol><br>  Per cercare un segmento: <ol><li>Fai clic su <b>Sfoglia tutti i segmenti</b>. Viene visualizzato un elenco di segmenti disponibili.</li><li>Dall’elenco, selezionate la casella di controllo del segmento da utilizzare e fate clic su <b>Aggiungi segmenti</b>selezionati.</li><li>Fate clic su <b>Salva</b> nella finestra Aggiungi mappature. Non puoi modificare le mappature, le date di inizio o di fine durante la versione beta.</li><li>Continua a cercare e aggiungere segmenti o fai clic su <b>Fine</b>.</li></ol> ![mapsegmenti](assets/mapSegments.png) |
 
 ## Passaggi successivi
 
-Dopo aver creato e salvato una destinazione, puoi lavorare con quei dati in Analytics. Tuttavia, potrebbero essere necessarie alcune ore prima che i dati siano disponibili nelle suite di rapporti selezionate. See [Use the Audience Data in Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/use-audience-data-analytics.html).
+Dopo aver creato e salvato una destinazione, puoi lavorare con tali dati in Analytics. Tuttavia, potrebbero essere necessarie alcune ore prima che i dati siano disponibili nelle suite di rapporti selezionate. See [Use the Audience Data in Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/use-audience-data-analytics.html).
