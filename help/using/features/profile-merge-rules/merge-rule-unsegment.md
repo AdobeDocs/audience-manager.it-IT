@@ -1,32 +1,32 @@
 ---
-description: L'unsegmentazione descrive i processi che consentono di squalificare e rimuovere profili dispositivo dai segmenti. La capacità di rimuovere un profilo dispositivo da un segmento dipende dall'opzione del dispositivo utilizzata per creare una regola unione profilo.
-seo-description: L'unsegmentazione descrive i processi che consentono di squalificare e rimuovere profili dispositivo dai segmenti. La capacità di rimuovere un profilo dispositivo da un segmento dipende dall'opzione del dispositivo utilizzata per creare una regola unione profilo.
-seo-title: Regole di unione profili e processi di annullamento della segmentazione dei dispositivi
+description: La segmentazione descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall'opzione del dispositivo utilizzata per creare una regola di unione dei profili.
+seo-description: La segmentazione descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall'opzione del dispositivo utilizzata per creare una regola di unione dei profili.
+seo-title: ' Regole di unione dei profili e processi di rimozione della segmentazione del dispositivo'
 solution: Audience Manager
-title: Regole di unione profili e processi di annullamento della segmentazione dei dispositivi
-uuid: b 61 c 6 de 3-5 fe 4-4892-a 05 a -96 a 4 cb 35 af 34
+title: ' Regole di unione dei profili e processi di rimozione della segmentazione del dispositivo'
+uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Profile Merge Rules and Device Un-Segmentation Processes {#profile-merge-rules-and-device-un-segmentation-processes}
+# Regole di unione dei profili e processi di rimozione della segmentazione del dispositivo {#profile-merge-rules-and-device-un-segmentation-processes}
 
-L'unsegmentazione descrive i processi che consentono di squalificare e rimuovere profili dispositivo dai segmenti. Your ability to remove a device profile from a segment depends on the device option used to create a [!UICONTROL Profile Merge Rule].
+La segmentazione descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall'opzione del dispositivo utilizzata per creare un [!UICONTROL Profile Merge Rule].
 
-## Available Device Options {#device-options}
+## Opzioni dispositivo disponibili {#device-options}
 
-As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL Profile Merge Rules Setup] section when you create or edit a [!UICONTROL Profile Merge Rule].
+Come promemoria, [!UICONTROL Device Options] sono disponibili nella [!UICONTROL Profile Merge Rules Setup] sezione quando create o modificate un [!UICONTROL Profile Merge Rule].
 
 ![](assets/merge-rules-options.png)
 
-## Current Device Profile Option and Device Unsegmentation {#current-device-profile-options}
+## Opzione profilo dispositivo corrente e segmentazione dispositivo {#current-device-profile-options}
 
-**[!UICONTROL Current Device Profile]** è l'opzione di profilo dispositivo predefinita per un [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] can remove a device profile from a segment when your [!UICONTROL Profile Merge Rule] use the **[!UICONTROL Current Device Profile]** option. In queste condizioni, l'unsegmentazione avviene quando:
+**[!UICONTROL Current Device Profile]** è l'opzione di profilo dispositivo predefinita per un [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] può rimuovere un profilo dispositivo da un segmento quando [!UICONTROL Profile Merge Rule] si utilizza l' **[!UICONTROL Current Device Profile]** opzione. In queste condizioni, la segmentazione si verifica quando:
 
-* Il profilo del dispositivo è stato inattivo per 120 giorni. Un processo settimanale di pulizia dei dati rimuove dai segmenti i profili dispositivo inattivi.
-* Il dispositivo non si qualifica più per un segmento, perché gli aggiornamenti o le modifiche al profilo dispositivo la disqualificano. This happens when segment qualification criteria change, or you apply an [!DNL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+* Il profilo del dispositivo è rimasto inattivo per 120 giorni. Un processo settimanale di pulizia dei dati rimuove i profili dispositivo inattivi dai tuoi segmenti.
+* Il dispositivo non si qualifica più per un segmento perché gli aggiornamenti o le modifiche al profilo del dispositivo lo qualificano. Ciò si verifica quando i criteri di qualificazione del segmento cambiano, o si applica un [!DNL AND NOT] operatore a una regola del segmento, o si specificano le condizioni di [aggiornamento e frequenza](../../features/segments/recency-and-frequency.md) che utilizzano le impostazioni minore di/uguale a. I casi di utilizzo sono descritti nella documentazione [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) .
 
 ![](assets/single_device_use_case.png)
 
@@ -42,19 +42,19 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
  -->
 
-## No Device Option and Device Unsegmentation {#no-device-option}
+## Nessuna opzione dispositivo e nessuna segmentazione dispositivo {#no-device-option}
 
-[!DNL Audience Manager] can remove a cross-device ID from a segment when your [!UICONTROL Profile Merge Rule] use the **[!UICONTROL No Device Profile]** + **[!UICONTROL Current Authenticated]** option. In queste condizioni, l'unsegmentazione avviene quando l'ID cross-device non si qualifica più per un segmento, perché gli aggiornamenti o le modifiche al profilo cross-device la disqualificano. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+[!DNL Audience Manager] può rimuovere un ID cross-device da un segmento quando [!UICONTROL Profile Merge Rule] utilizza l'opzione **[!UICONTROL No Device Profile]** + **[!UICONTROL Current Authenticated]** . In queste condizioni, la segmentazione avviene quando l'ID cross-device non si qualifica più per un segmento perché gli aggiornamenti o le modifiche al profilo cross-device non lo qualificano più. Ciò si verifica quando i criteri di qualificazione del segmento cambiano, o si applica un [!UICONTROL AND NOT] operatore a una regola del segmento, o si specificano le condizioni di [aggiornamento e frequenza](../../features/segments/recency-and-frequency.md) che utilizzano le impostazioni minore di/uguale a. I casi di utilizzo sono descritti nella documentazione [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) .
 
 ![](assets/no_device_use_case.png)
 
-## Device Graph Options and Device Unsegmentation {#device-graph-options-unsegmentation}
+## Opzioni di Device Graph e Separazione dispositivo {#device-graph-options-unsegmentation}
 
-[!DNL Audience Manager] può rimuovere più profili dispositivo da un segmento quando usa [!UICONTROL Profile Merge Rule] un'opzione grafico dispositivo. L'unsegmentazione avviene quando il profilo unito del dispositivo dal grafico del dispositivo non è più idoneo per il segmento, perché gli aggiornamenti o le modifiche a questo profilo unito non sono più riconoscibili dal segmento. This happens when segment qualification criteria change, or you apply an [!UICONTROL AND NOT] operator to a segment rule, or specify [recency and frequency](../../features/segments/recency-and-frequency.md) conditions that use the less than/equal to settings. Use cases are described in the [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) documentation.
+[!DNL Audience Manager] può rimuovere più profili dispositivo da un segmento quando [!UICONTROL Profile Merge Rule] si utilizza un'opzione di grafico del dispositivo. La segmentazione avviene quando il profilo unito del dispositivo dal grafico del dispositivo non è più idoneo per il segmento, perché gli aggiornamenti o le modifiche a questo profilo unito non lo qualificano più dal segmento. Ciò si verifica quando i criteri di qualificazione del segmento cambiano, o si applica un [!UICONTROL AND NOT] operatore a una regola del segmento, o si specificano le condizioni di [aggiornamento e frequenza](../../features/segments/recency-and-frequency.md) che utilizzano le impostazioni minore di/uguale a. I casi di utilizzo sono descritti nella documentazione [Instant Cross-Device Suppression](../../features/profile-merge-rules/instant-cross-device-suppression.md) .
 
 >[!NOTE]
 >
->**Il limite di quattro dispositivi per la valutazione e l'abilitazione dei segmenti** [!DNL Audience Manager] unisce fino a quattro dispositivi durante la valutazione dei segmenti con un [!UICONTROL Profile Merge Rule] grafico del dispositivo. [!DNL Audience Manager] valuta il dispositivo *corrente e tre dispositivi aggiuntivi che sono stati visti in tempo reale*. Se viene emesso il segnale di annullamento del segmento, il dispositivo corrente e tre dispositivi aggiuntivi visualizzati in tempo reale verranno rimossi dal segmento nella destinazione. Ad esempio, in un cluster di sei dispositivi, fino a quattro dispositivi vengono uniti, valutati e qualificati per un segmento. Analogamente, fino a quattro dispositivi vengono uniti, valutati e non segmentati.
+>**Il limite di quattro dispositivi per la valutazione dei segmenti e l'esclusione** dalla qualifica [!DNL Audience Manager] unisce fino a quattro dispositivi durante la valutazione dei segmenti con un grafico [!UICONTROL Profile Merge Rule] che utilizza un dispositivo. [!DNL Audience Manager] valuta il dispositivo *corrente e tre dispositivi aggiuntivi visti per l’ultima volta in tempo* reale. Se viene emesso il segnale di dissegmento, il dispositivo corrente e tre altri dispositivi visti in tempo reale verranno rimossi dal segmento nella destinazione. Ad esempio, in un cluster a sei dispositivi, vengono uniti, valutati e qualificati fino a quattro dispositivi per un segmento. Allo stesso modo, vengono uniti, valutati e non segmentati fino a quattro dispositivi.
 
 ![](assets/cross_device_workflow.png)
 
@@ -101,9 +101,9 @@ As a reminder, the [!UICONTROL Device Options] are available in the [!UICONTROL 
 
  -->
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
->* [Domande frequenti su Profile Merge Rules e Device Graph](../../faq/faq-profile-merge.md)
+>* [Domande frequenti su Regole di unione dei profili e Device Graph](../../faq/faq-profile-merge.md)
 >* [Soppressione immediata su diversi dispositivi](../../features/profile-merge-rules/instant-cross-device-suppression.md)
->* [Considerazioni importanti sulle regole di unione profili con grafici dispositivo](../../features/profile-merge-rules/considerations-pmr-device-graph.md)
+>* [Considerazioni importanti per le regole di unione dei profili con i grafici del dispositivo](../../features/profile-merge-rules/considerations-pmr-device-graph.md)
 
