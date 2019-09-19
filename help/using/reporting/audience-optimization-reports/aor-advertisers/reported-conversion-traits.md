@@ -1,10 +1,10 @@
 ---
-description: Il rapporto Traits di conversione mostra tutte le caratteristiche etichettate come caratteristiche di conversione per un gruppo di conversione in una data determinata. Le caratteristiche di conversione per i gruppi di conversione possono cambiare da quelle eseguite per eseguire il reporting. Il rapporto visualizza le caratteristiche di conversione raggruppate in base al gruppo di conversione per la data di reporting selezionata.
-seo-description: Il rapporto Traits di conversione mostra tutte le caratteristiche etichettate come caratteristiche di conversione per un gruppo di conversione in una data determinata. Le caratteristiche di conversione per i gruppi di conversione possono cambiare da quelle eseguite per eseguire il reporting. Il rapporto visualizza le caratteristiche di conversione raggruppate in base al gruppo di conversione per la data di reporting selezionata.
+description: Il rapporto Caratteristiche di conversione mostra tutte le caratteristiche etichettate come caratteristiche di conversione per un gruppo di conversione a una determinata data. Le caratteristiche di conversione per i gruppi di conversione possono passare dall'esecuzione dei report all'esecuzione dei report. Il rapporto visualizza le caratteristiche di conversione per gruppo di conversione per la data di rapporto selezionata.
+seo-description: Il rapporto Caratteristiche di conversione mostra tutte le caratteristiche etichettate come caratteristiche di conversione per un gruppo di conversione a una determinata data. Le caratteristiche di conversione per i gruppi di conversione possono passare dall'esecuzione dei report all'esecuzione dei report. Il rapporto visualizza le caratteristiche di conversione per gruppo di conversione per la data di rapporto selezionata.
 seo-title: Rapporto di caratteristiche di conversione
 solution: Audience Manager
 title: Rapporto di caratteristiche di conversione
-uuid: b 4 b 5 eb 9 c-d 83 e -4 e 7 f -8661-f 5 d 9 c 855258 b
+uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
 translation-type: tm+mt
 source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
@@ -13,16 +13,16 @@ source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
 
 # Rapporto di caratteristiche di conversione{#reported-conversion-traits}
 
-Il rapporto Traits di conversione mostra tutte le caratteristiche etichettate come caratteristiche di conversione per un gruppo di conversione in una data determinata.
+Il rapporto Caratteristiche di conversione mostra tutte le caratteristiche etichettate come caratteristiche di conversione per un gruppo di conversione a una determinata data.
 
-Le caratteristiche di conversione per i gruppi di conversione possono cambiare da quelle eseguite per eseguire il reporting. Il rapporto visualizza le caratteristiche di conversione raggruppate in base al gruppo di conversione per la data di reporting selezionata.
+Le caratteristiche di conversione per i gruppi di conversione possono passare dall'esecuzione dei report all'esecuzione dei report. Il rapporto visualizza le caratteristiche di conversione per gruppo di conversione per la data di rapporto selezionata.
 
-Per imparare a creare caratteristiche di conversione in Audience Manager, vedi il video seguente:
+Per informazioni su come creare caratteristiche di conversione in Audience Manager, guarda il video seguente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23431/?captions=ita)
 
 ## Report di esempio
 
-[!UICONTROL Reported Conversion Traits] Il rapporto potrebbe essere simile a quello di seguito:
+Il tuo [!UICONTROL Reported Conversion Traits] rapporto potrebbe essere simile a quello riportato di seguito:
 
 ![](assets/reported-conversion-traits.png)
