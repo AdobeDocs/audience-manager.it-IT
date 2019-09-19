@@ -1,49 +1,49 @@
 ---
-description: Le caratteristiche non utilizzate principali sono rappresentate da un diagramma a dispersione di caratteristiche non ancora membri di un segmento, in base al tipo di caratteristica, all'origine dati e alle prestazioni.
-seo-description: Le caratteristiche non utilizzate principali sono rappresentate da un diagramma a dispersione di caratteristiche non ancora membri di un segmento, in base al tipo di caratteristica, all'origine dati e alle prestazioni.
-seo-title: Caratteristiche principali non utilizzate
+description: Le caratteristiche principali non utilizzate sono rappresentate come un diagramma a dispersione delle caratteristiche che non sono ancora membri di un segmento, in base al tipo di caratteristica, all'origine dati e alle prestazioni.
+seo-description: Le caratteristiche principali non utilizzate sono rappresentate come un diagramma a dispersione delle caratteristiche che non sono ancora membri di un segmento, in base al tipo di caratteristica, all'origine dati e alle prestazioni.
+seo-title: Principali caratteristiche non utilizzate
 solution: Audience Manager
-title: Caratteristiche principali non utilizzate
-uuid: 90 bcd 333-41 b 8-416 e-aa 4 e-a 8661891 df 50
+title: Principali caratteristiche non utilizzate
+uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Top Unused Traits{#top-unused-traits}
+# Principali caratteristiche non utilizzate{#top-unused-traits}
 
-Le caratteristiche non utilizzate principali sono rappresentate da un diagramma a dispersione di caratteristiche non ancora membri di un segmento, in base al tipo di caratteristica, all'origine dati e alle prestazioni.
+Le caratteristiche principali non utilizzate sono rappresentate come un diagramma a dispersione delle caratteristiche che non sono ancora membri di un segmento, in base al tipo di caratteristica, all'origine dati e alle prestazioni.
 
 ## Caso d'uso {#use-cases}
 
-With the [!UICONTROL Top Unused Traits] report, you can analyze and compare the performance of first and third party traits that are currently not mapped to a segment. Questa vista può indicare le caratteristiche migliori da utilizzare in un segmento di audience per ottimizzare le campagne o le nuove opportunità.
+Con il [!UICONTROL Top Unused Traits] rapporto, puoi analizzare e confrontare le prestazioni di caratteristiche di prime e terze parti che attualmente non sono mappate a un segmento. Questa visualizzazione può evidenziare le caratteristiche migliori da utilizzare in un segmento di pubblico per l'ottimizzazione delle campagne o per la rete di nuove opportunità.
 
-## Using the Top Unused Traits Report {#using-the-report}
+## Utilizzo del report Caratteristiche principali non utilizzate {#using-the-report}
 
-Use the **[!UICONTROL Data Provider Type]** controls to toggle between first party and third party traits. Select **[!UICONTROL All]** to return first and third party traits in the report.
+Usate i **[!UICONTROL Data Provider Type]** controlli per alternare tra caratteristiche di prime parti e terze parti. Selezionare **[!UICONTROL All]** per restituire caratteristiche di prima e terza parte nel rapporto.
 
-With the **[!UICONTROL Impressions]** slider, you can select a minimum and maximum value for returned impressions. Qualsiasi caratteristica responsabile per meno o più dei limiti impostata non viene visualizzata nel rapporto.
+Con il **[!UICONTROL Impressions]** cursore, potete selezionare un valore minimo e massimo per le impression restituite. Eventuali caratteristiche responsabili di un numero inferiore o superiore ai limiti impostati non vengono visualizzate nel rapporto.
 
-Use the **[!UICONTROL Day Range]** and **[!UICONTROL Date Through]** controls to adjust your look-back range. Per questo rapporto è disponibile solo il periodo di look-back di 30 giorni.
+Utilizzate i controlli **[!UICONTROL Day Range]** e **[!UICONTROL Date Through]** per regolare la gamma di look-back. Per questo rapporto è disponibile solo il periodo di lookback di 30 giorni.
 
-Use the **[!UICONTROL Order]** drop-down box to select the web properties in your portfolio for which you want to return information.
+Utilizzate la casella a **[!UICONTROL Order]** discesa per selezionare le proprietà Web del portfolio per cui desiderate restituire informazioni.
 
-In the **[!UICONTROL Data Provider]** drop-down box, select the data sources containing the traits you want to see in the report.
+Nella casella a **[!UICONTROL Data Provider]** discesa, seleziona le origini dati contenenti le caratteristiche che desideri vedere nel rapporto.
 
-Use the **[!UICONTROL Traits]** drop-down box to select which traits you want to see in the report.
+Utilizzate la casella a **[!UICONTROL Traits]** discesa per selezionare le caratteristiche da visualizzare nel rapporto.
 
 >[!IMPORTANT]
 >
->When enabling [!UICONTROL Audience Optimization for Publishers], you must include descriptive metadata for [!UICONTROL Order IDs], as described in Step 3 of [Import DFP Data Files Into Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). By doing this, you assure that the report details the web property as [!UICONTROL Order] instead of the [!UICONTROL Order ID].
+>Quando [!UICONTROL Audience Optimization for Publishers]abilitate, dovete includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel passaggio 3 di [Importazione di file di dati DFP in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Order] anziché come [!UICONTROL Order ID].
 
-## Interpreting the Results {#interpreting-results}
+## Interpretazione dei risultati {#interpreting-results}
 
 **Report di esempio**
 
-[!UICONTROL Top Unused Traits] Il rapporto potrebbe essere simile a quello di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti.
+Il tuo [!UICONTROL Top Unused Traits] rapporto potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti.
 
-Vedere descrizioni per le informazioni aggiuntive nella tabella sotto il rapporto campione.
+Vedere le descrizioni per le informazioni aggiuntive nella tabella sotto il rapporto campione.
 
 ![](assets/publisher_unused_traits.png)
 
@@ -56,27 +56,27 @@ Vedere descrizioni per le informazioni aggiuntive nella tabella sotto il rapport
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Tipo di provider dati</span> </p> </td> 
-   <td colname="col2"> <p>Specifica se l'origine dati selezionata contiene caratteristiche di terze parti o di terze parti. </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Tipo provider dati</span> </p> </td> 
+   <td colname="col2"> <p>Specifica se l'origine dati selezionata contiene caratteristiche di prime parti o terze parti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> ID caratteristica</span> </p> </td> 
-   <td colname="col2"> <p>L'ID univoco di questa caratteristica. </p> </td> 
+   <td colname="col2"> <p>ID univoco di questa caratteristica. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Nome caratteristica</span> </p> </td> 
-   <td colname="col2"> <p>Nome alfanumerico assegnato a voi o al fornitore di dati. </p> </td> 
+   <td colname="col2"> <p>Nome alfanumerico assegnato a questa caratteristica da voi o dal provider di dati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Ordine</span> </p> </td> 
-   <td colname="col2"> <p>La proprietà Web per la quale stai visualizzando il rapporto. </p> </td> 
+   <td colname="col2"> <p>Proprietà Web per la quale viene visualizzato il rapporto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Impressioni</span> </p> </td> 
-   <td colname="col2"> <p>Numero di volte in cui i membri di questa caratteristica sono stati esposti alle scorte. </p> </td> 
+   <td colname="col2"> <p>Il numero di volte in cui i membri di questa caratteristica sono stati esposti al tuo inventario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Caratteristiche caratteristiche</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Caratteristiche tecniche</span> </p> </td> 
    <td colname="col2"> <p>Numero di membri delle caratteristiche negli ultimi 30 giorni. </p> </td> 
   </tr> 
  </tbody> 
@@ -84,11 +84,11 @@ Vedere descrizioni per le informazioni aggiuntive nella tabella sotto il rapport
 
 ![](assets/publisher_unused_traits_final.png)
 
-La posizione delle caratteristiche in un rapporto può dirvi molto sulle caratteristiche che potete utilizzare per ottimizzare segmenti di pubblico esistenti.
+La posizione delle caratteristiche in un report può fornire informazioni dettagliate sulle caratteristiche che è possibile utilizzare per ottimizzare i segmenti di pubblico esistenti.
 
-Le caratteristiche più alte sull'asse Impression sono quelle che desiderate utilizzare nelle campagne. Per caratteristiche con un numero limitato di impression, è improbabile che tu stia raggiungendo questo pubblico sulla proprietà Web, in base ai dati DFP.
+Le caratteristiche situate più in alto sull’asse Impressioni sono quelle che desiderate usare nelle campagne. Per le caratteristiche con un numero limitato di impression, è improbabile che si stia raggiungendo questo pubblico sulla proprietà Web, in base ai dati DFP.
 
-Look to the left of the [!UICONTROL Unique Trait Realizations] axis for highly accurate traits and to the right for traits that can drive scale.
+Osservate a sinistra dell' [!UICONTROL Unique Trait Realizations] asse per ottenere caratteristiche estremamente precise e a destra per quelle che possono essere ridimensionate.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
@@ -100,19 +100,19 @@ Look to the left of the [!UICONTROL Unique Trait Realizations] axis for highly a
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>In alto a sinistra</b> </p> </td> 
-   <td colname="col2"> <p>Numero elevato di impression, numero ridotto di realizzazioni. </p> <p>Si tratta di un pubblico altamente accurato che non è ancora membro di un segmento. Prendere in considerazione il targeting. </p> </td> 
+   <td colname="col2"> <p>Numero elevato di impression, numero ridotto di realizzazioni di caratteristiche. </p> <p>Si tratta di un pubblico altamente preciso che non è ancora membro di un segmento. Considerate la possibilità di eseguire il targeting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>In basso a sinistra</b> </p> </td> 
-   <td colname="col2"> <p>Numero limitato di impression, numero ridotto di realizzazioni. </p> <p> Escludete queste caratteristiche in quanto i membri non contribuiscono alle impression sulle proprietà Web. </p> </td> 
+   <td colname="col2"> <p>Numero basso di impression, numero basso di realizzazioni di caratteristiche. </p> <p> Escludete queste caratteristiche, in quanto i membri non contribuiscono alle impressioni sulle vostre proprietà Web. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>In alto a destra</b> </p> </td> 
-   <td colname="col2"> <p>Numero elevato di impression, numero elevato di realizzazioni. </p> <p>Un pubblico elevato rispetto a un'audience che non viene ancora denotata in un segmento. Questo pubblico è un candidato principale per il targeting a causa dell'elevato numero di impression e della scala. </p> </td> 
+   <td colname="col2"> <p>Numero elevato di impression, numero elevato di realizzazioni di caratteristiche. </p> <p>Una portata elevata contro un pubblico che non è ancora indicato in un segmento. Questo pubblico è un candidato ideale per il targeting a causa dell'alto numero di impression e della scala. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>In basso a destra</b> </p> </td> 
-   <td colname="col2"> <p>Numero limitato di impression, numero elevato di realizzazioni. </p> <p> Potete escludere queste caratteristiche, poiché i membri non contribuiscono alle impression sulle proprietà Web. </p> </td> 
+   <td colname="col2"> <p>Numero basso di impression, numero elevato di realizzazioni di caratteristiche. </p> <p> Potete escludere queste caratteristiche, in quanto i membri non contribuiscono alle impressioni sulle proprietà Web. </p> </td> 
   </tr> 
  </tbody> 
 </table>
