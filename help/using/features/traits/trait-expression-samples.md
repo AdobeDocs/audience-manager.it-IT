@@ -1,31 +1,31 @@
 ---
-description: Esempi a cui potete fare riferimento per creare espressioni nell'editor di codice di Generatore espressioni.
-seo-description: Esempi a cui potete fare riferimento per creare espressioni nell'editor di codice di Generatore espressioni.
+description: Esempi a cui potete fare riferimento per la creazione di espressioni nell’editor di codice di Expression Builder.
+seo-description: Esempi a cui potete fare riferimento per la creazione di espressioni nell’editor di codice di Expression Builder.
 seo-title: Espressioni di esempio con operatori booleani e di confronto
 solution: Audience Manager
 title: Espressioni di esempio con operatori booleani e di confronto
-uuid: ee 74 c 376-2099-4816-8694-43 f 58845 a 0 ac
+uuid: ee74c376-2099-4816-8694-43f58845a0ac
 translation-type: tm+mt
 source-git-commit: 92b75773d2bbe2f635d84bd5bffe625d2023b6cf
 
 ---
 
 
-# Sample Expressions With Boolean and Comparison Operators {#sample-expressions-with-boolean-and-comparison-operators}
+# Espressioni di esempio con operatori booleani e di confronto {#sample-expressions-with-boolean-and-comparison-operators}
 
-Examples you can refer to for creating expressions in the [!UICONTROL Expression Builder] code editor.
+Esempi a cui potete fare riferimento per la creazione di espressioni nell'editor di [!UICONTROL Expression Builder] codice.
 
-## Code Samples Overview {#code-samples-overview}
+## Panoramica sugli esempi di codice {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-Create your own trait rules with the [!UICONTROL Expression Builder] code editor. I seguenti esempi possono aiutarti a iniziare. Some of the examples preface the *`key`* variable with `c_` to identify it as a user-defined variable. Include the `c_` prefix (or any other naming convention) for *`key`* variable if your event calls send data to [!DNL Audience Manager] using that syntax.
+Crea le tue regole di caratteristiche con l'editor di [!UICONTROL Expression Builder] codice. Gli esempi seguenti possono aiutarti a iniziare. Alcuni esempi precedono la *`key`* variabile con `c_` l'identificazione come variabile definita dall'utente. Includete il `c_` prefisso (o qualsiasi altra convenzione di denominazione) per la *`key`* variabile se le chiamate dell’evento inviano dati a [!DNL Audience Manager] tale sintassi.
 
-## Boolean Expressions {#boolean-expressions}
+## Espressioni booleane {#boolean-expressions}
 
 ### Esempio AND
 
-The rule establishes trait qualification requirements using Boolean [!UICONTROL AND] operators.
+La regola stabilisce i requisiti di qualificazione delle caratteristiche utilizzando [!UICONTROL AND] operatori booleani.
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
@@ -36,19 +36,19 @@ The rule establishes trait qualification requirements using Boolean [!UICONTROL 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><code>(c_ make = = "A") AND (c_ model = = "B") AND (c_ search = = "1")</code> </td> 
+   <td colname="col1"><code>(c_make=="A") AND (c_model="B") AND (c_search="1")</code> </td> 
    <td colname="col2"> 
     <ul id="ul_F1BB5084FB794BE7A3569F9C106FC481"> 
      <li id="li_56E8C3BACF1C4B33A46CF92C51FF2286">Cercare una marca e un modello specifici. </li> 
-     <li id="li_DD55F053BFCF4B0888B6994013000DB2">Trovate il prodotto da una pagina dei risultati della ricerca (ricerca = "1" o "true"). </li> 
+     <li id="li_DD55F053BFCF4B0888B6994013000DB2">Trova il prodotto da una pagina di risultati della ricerca (ricerca = "1" o "true"). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Esempio OR
+### OR
 
-This rule establishes trait qualification requirements using [!DNL Boolean] [!UICONTROL OR] and [!UICONTROL AND] operators.
+Questa regola stabilisce i requisiti di qualificazione delle caratteristiche utilizzando [!DNL Boolean] e [!UICONTROL OR] gli [!UICONTROL AND] operatori.
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
@@ -59,15 +59,15 @@ This rule establishes trait qualification requirements using [!DNL Boolean] [!UI
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><code>(a = = "1" OR b = "1") AND (c = = "new")</code> </td> 
-   <td colname="col2"> Meet the conditions set by variables <code><i>a </i></code> or <code><i>b </i></code> and <code><i>c </i></code>. </td> 
+   <td colname="col1"><code>(a== "1" OR b="1") E (c=="nuovo")</code> </td> 
+   <td colname="col2"> Soddisfare le condizioni impostate dalle variabili <code><i>a </i></code> o <code><i>b </i></code> e <code><i>c </i></code>. </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Esempio intervallo con Maggiore di, Minore di, Uguale a
+## Esempio di intervallo con maggiore di, minore di, uguale a
 
-Questa regola stabilisce i requisiti di qualificazione delle caratteristiche con un intervallo.
+Questa regola stabilisce i requisiti per la qualifica delle caratteristiche utilizzando un intervallo.
 
 <table id="table_988DE28E35D94348ADD334FB4C9F68D3"> 
  <thead> 
@@ -78,8 +78,8 @@ Questa regola stabilisce i requisiti di qualificazione delle caratteristiche con
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><code>(prezzo &gt; = 1.00 AND prezzo &lt; = 100.00)</code> </td> 
-   <td colname="col2"> Soddisfa eventuali condizioni di prezzo tra 1.00 e 100.00. </td> 
+   <td colname="col1"><code>(prezzo &gt;= 1.00 E prezzo &lt;= 100.00)</code> </td> 
+   <td colname="col2"> Soddisfare qualsiasi condizione di prezzo tra 1.00 e 100.00. </td> 
   </tr> 
  </tbody> 
 </table>
