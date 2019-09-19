@@ -1,19 +1,19 @@
 ---
-description: Descrive il software sottostante che attiva i rapporti interattivi e la pianificazione dell'aggiornamento dei dati.
-seo-description: Descrive il software sottostante che attiva i rapporti interattivi e la pianificazione dell'aggiornamento dei dati.
-seo-title: Report Technology
+description: Descrive il software sottostante che abilita i report interattivi e la pianificazione dell'aggiornamento dei dati.
+seo-description: Descrive il software sottostante che abilita i report interattivi e la pianificazione dell'aggiornamento dei dati.
+seo-title: Tecnologia di report
 solution: Audience Manager
-title: Report Technology
-uuid: 5 f 3 d 815 b-e 1 e 6-42 f 2-b 848-ac 035 a 5 aa 77 d
+title: Tecnologia di report
+uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
 source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
 
 ---
 
 
-# Report Technology{#report-technology}
+# Tecnologia di report{#report-technology}
 
-Descrive il software sottostante che attiva i rapporti interattivi e la pianificazione dell'aggiornamento dei dati.
+Descrive il software sottostante che abilita i report interattivi e la pianificazione dell'aggiornamento dei dati.
 
 <!-- 
 
@@ -21,22 +21,22 @@ c_report_technology.xml
 
  -->
 
-## I report interattivi utilizzano Tableau Technology
+## Report interattivi che utilizzano la tecnologia Tableau
 
-[!DNL Audience Manager] utilizza [il software Tableau](https://www.tableausoftware.com/) per visualizzare i dati nei rapporti interattivi. With [!DNL Tableau], the [!UICONTROL Delivery and Overlap] reports use visual cues and symbols that help you:
+[!DNL Audience Manager] utilizza il software [Tableau](https://www.tableausoftware.com/) per visualizzare i dati nei rapporti interattivi. Con [!DNL Tableau], i [!UICONTROL Delivery and Overlap] rapporti utilizzano suggerimenti visivi e simboli che consentono di:
 
-* Trova caratteristiche elevate e a bassa prestazioni.
-* Caratteristiche tinte piatte e segmenti con sovrapposizione visitatore bassa e alta.
-* Utilizzare dati di sovrapposizione per creare segmenti di destinazione.
-* Amplia la portata identificando caratteristiche correlate con sovrapposizione ridotta.
+* Trovate caratteristiche ad alte e basse prestazioni.
+* Caratteristiche e segmenti spot con sovrapposizione di visitatore univoca bassa e alta.
+* Utilizzate i dati di sovrapposizione per creare segmenti mirati.
+* Ampliate la portata identificando le caratteristiche correlate con una sovrapposizione ridotta.
 
 ## Pianificazione aggiornamento dati
 
-I dati del report vengono aggiornati settimanalmente ogni domenica. L'aggiornamento elabora i dati da sabato (il giorno prima) alla domenica precedente.
+I dati del rapporto vengono aggiornati ogni domenica. L'aggiornamento elabora i dati da sabato (il giorno precedente) alla domenica precedente.
 
-## Shapes, Colors, and Sizes Used in Interactive Reports {#shapes-colors-sizes}
+## Forme, colori e dimensioni utilizzati nei rapporti interattivi {#shapes-colors-sizes}
 
-La maggior parte dei rapporti interattivi visualizzano risultati con forme di dimensioni e colori diversi. Questo formato di visualizzazione è progettato per facilitare l'interpretazione dei dati visivi, senza dover passare attraverso righe e colonne di numeri.
+La maggior parte dei rapporti interattivi visualizza i risultati utilizzando forme di dimensioni e colori diversi. Questo formato di visualizzazione è progettato per aiutarti a comprendere i dati visivamente, senza dover scorrere righe e colonne di numeri.
 
 <!-- 
 
@@ -46,7 +46,7 @@ r_legend.xml
 
 ### Legenda report
 
-La tabella seguente definisce forme, dimensioni e colori utilizzati nei report dinamici.
+La tabella seguente definisce le forme, le dimensioni e i colori utilizzati nei rapporti dinamici.
 
 <table id="table_EC180A96E3784FC6B81FCFB546C4A3FA"> 
  <thead> 
@@ -60,7 +60,7 @@ La tabella seguente definisce forme, dimensioni e colori utilizzati nei report d
    <td colname="col1"> <b>Forme</b> </td> 
    <td colname="col2"> 
     <ul id="ul_076773ABD0BB4CE6834ACFA8B3D6AC2E"> 
-     <li id="li_BBAB37A6EC1549B48C0E4D3BFAF7062C">I cerchi indicano le caratteristiche di prime parti. </li> 
+     <li id="li_BBAB37A6EC1549B48C0E4D3BFAF7062C">I cerchi indicano le proprie caratteristiche di prime parti. </li> 
      <li id="li_371331AE984A4A999CE0596EA13987E0">I quadrati indicano caratteristiche di terze parti. </li> 
     </ul> </td> 
   </tr> 
@@ -68,20 +68,20 @@ La tabella seguente definisce forme, dimensioni e colori utilizzati nei report d
    <td colname="col1"> <b>Colori</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Red shades indicate <i>low</i> overlap. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Green shades indicate <i>high</i> overlap. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Le sfumature rosse indicano una sovrapposizione <i>bassa</i> . </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Le sfumature verdi indicano una sovrapposizione <i>elevata</i> . </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Dimensioni</b> </td> 
-   <td colname="col2"> Le dimensioni aumentano o diminuisce in proporzione diretta per raggiungere il risultato (il numero o il % dei clic o per gli utenti univoci in un segmento o segmento). </td> 
+   <td colname="col2"> Le dimensioni aumentano o diminuiscono in proporzione diretta per raggiungere (il numero o la % di clic o di utenti univoci in una caratteristica o segmento). </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Report Icons and Tools Explained {#icons-tools-explained}
+## Informazioni su icone e strumenti del rapporto {#icons-tools-explained}
 
-Descrive come cercare e utilizzare le varie icone utilizzate nei rapporti dinamici.
+Descrive come cercare e utilizzare i vari strumenti per le icone utilizzati nei rapporti dinamici.
 
 <!-- 
 
@@ -89,9 +89,9 @@ r_icons.xml
 
  -->
 
-### Icone e strumenti di dati
+### Icone e strumenti dati
 
-Le seguenti icone sono disponibili nella parte inferiore di ciascuna finestra di rapporti dinamica. L'illustrazione seguente fornisce ulteriori informazioni su questi strumenti.
+Le icone e gli strumenti riportati di seguito sono disponibili nella parte inferiore di ogni finestra di rapporto dinamico. L'illustrazione seguente fornisce ulteriori informazioni su questi strumenti.
 
 ![](assets/tools_icons90.png)
 
@@ -101,30 +101,30 @@ Questi strumenti consentono di esportare i dati dal rapporto in 4 formati divers
 
 | Opzione di esportazione | Esporta dati |
 |---|---|
-| **[!UICONTROL Image]** | Come file di immagine (. png). Utile per scaricare e condividere i dati dei rapporti nel formato grafico originale. |
+| **[!UICONTROL Image]** | Come file di immagine (.png). Utile per scaricare e condividere i dati dei rapporti nel formato grafico originale. |
 | **[!UICONTROL PDF]** | Come file PDF. |
-| **[!UICONTROL Data]** | In una nuova finestra del browser come dati numerici nelle colonne e nelle righe. |
-| **[!UICONTROL Crosstab]** | Come file. csv. |
+| **[!UICONTROL Data]** | In una nuova finestra del browser come dati numerici in colonne e righe. |
+| **[!UICONTROL Crosstab]** | Come file .csv. |
 
-### Ripristina modifiche
+### Ripristino modifiche
 
-Selezionate questo strumento per annullare eventuali modifiche interattive eventualmente apportate sul rapporto.
+Selezionare questo strumento per annullare eventuali modifiche interattive apportate al clic sul rapporto.
 
 ### Aggiornamenti automatici
 
-The [!UICONTROL Delivery-Performance] and [!UICONTROL Trait-to-Trait Overlap] reports are dynamic reports that respond and change based on user click actions.
+I [!UICONTROL Delivery-Performance] [!UICONTROL Trait-to-Trait Overlap] rapporti e i rapporti sono rapporti dinamici che rispondono e cambiano in base alle azioni di clic dell'utente.
 
-For example, say you want to select several advertisers in the [!UICONTROL Overlap] report. Quando sono abilitati, gli aggiornamenti automatici iniziano a restituire dati non appena selezionate una casella di controllo. Questo comportamento dinamico può interrompere il flusso di lavoro perché dovete attendere fino al termine dell'elaborazione prima di selezionare un altro inserzionista. Utilizzate questo strumento per disattivare la funzione (e riattivarla), a seconda delle necessità.
+Ad esempio, supponiamo di voler selezionare diversi inserzionisti nel [!UICONTROL Overlap] rapporto. Quando questa opzione è attivata, gli aggiornamenti automatici iniziano a restituire i dati non appena si seleziona una casella di controllo. Questo comportamento dinamico può interrompere il flusso di lavoro perché è necessario attendere il termine dell'elaborazione del rapporto prima di selezionare un altro inserzionista. Utilizzate questo strumento per disattivare (e riattivare) la funzione come necessario.
 
 ### Aggiorna dati
 
-Fai clic sull'icona di aggiornamento per eseguire un rapporto o ricaricare il set di dati. Quando gli aggiornamenti automatici sono disattivati, fate clic su Aggiorna per eseguire o aggiornare il rapporto.
+Fate clic sull'icona di aggiornamento per eseguire un rapporto o ricaricare il set di dati. Quando gli aggiornamenti automatici sono disattivati, fai clic su Aggiorna per eseguire o aggiornare il rapporto.
 
 ### Strumento Ricerca
 
-La ricerca è rappresentata da un'icona della lente di ingrandimento generica (non visualizzata). Il campo di ricerca viene nascosto finché non fate clic sulle etichette di selezione sul lato sinistro della schermata. La tabella seguente descrive la posizione dello strumento di ricerca per ogni rapporto.
+La ricerca è rappresentata da un'icona generica di lente di ingrandimento (non mostrata). Il campo di ricerca viene nascosto finché non si fa clic sulle etichette di selezione sul lato sinistro dello schermo. La tabella seguente descrive la posizione dello strumento di ricerca per ciascun rapporto.
 
-| Report | Per cercare, passare il mouse su |
+| Report | Per trovare una ricerca, passa il mouse sopra |
 |---|---|
-| [!UICONTROL Delivery and Performance] rapporto | Etichetta "Nome creatore dell'annuncio". |
-| [!UICONTROL Overlap] rapporti | Etichetta "Nome SID". |
+| [!UICONTROL Delivery and Performance] rapporto | Etichetta "Advertiser Name". |
+| [!UICONTROL Overlap] report | Etichetta "SID Name". |
