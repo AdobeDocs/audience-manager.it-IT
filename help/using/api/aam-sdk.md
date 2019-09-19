@@ -4,7 +4,7 @@ seo-description: Audience Manager fornisce kit di sviluppo software (SDK) per An
 seo-title: Codice SDK
 solution: Audience Manager
 title: Codice SDK
-uuid: 7 d 0 b 40 ce -9 cee -41 f 1-8253-dcfc 77 a 89 c 72
+uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 translation-type: tm+mt
 source-git-commit: 88e196b4c7024c201a615a15a76f24d79c9f96df
 
@@ -13,7 +13,7 @@ source-git-commit: 88e196b4c7024c201a615a15a76f24d79c9f96df
 
 # [!DNL SDK] Codice {#sdk-code}
 
-Audience Manager fornisce i kit di sviluppo software[!DNL SDK]per [!DNL Android] e [!DNL iOS].
+Audience Manager fornisce kit[!DNL SDK]di sviluppo software per [!DNL Android] e [!DNL iOS].
 
 >[!IMPORTANT]
 >
@@ -21,11 +21,11 @@ Audience Manager fornisce i kit di sviluppo software[!DNL SDK]per [!DNL Android]
 
 * Per iniziare, passa ad [Launch](https://launch.adobe.com/).
 * Per visualizzare cosa è compreso negli archivi Experience Platform SDK, passa a [Github: SDK di Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-* Per implementare Audience Manager nell'app, utilizzando la nuova SDK v .5, leggi la documentazione [di Adobe Audience Manager](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) nella nuova pagina SDK.
+* Per implementare Audience Manager nella tua app, utilizzando il nuovo SDK v.5, leggi la documentazione [di](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) Adobe Audience Manager nella nuova pagina SDK.
 
 <br> 
 
-Continuiamo a supportare gli SDK per Android e iOS 4. x. Per le librerie di codici SDK, vedi:
+Continuiamo a supportare gli SDK Android e iOS 4.x. Per le librerie di codici SDK, vedi:
 
 * [Android SDK](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
 * [iOS SDK](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
