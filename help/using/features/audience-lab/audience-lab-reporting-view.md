@@ -1,24 +1,24 @@
 ---
-description: La sezione di reporting dei gruppi di test restituisce informazioni sulle conversioni dei gruppi di test, consentendo un confronto semplice tra l'efficacia dei segmenti di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
-seo-description: La sezione di reporting dei gruppi di test restituisce informazioni sulle conversioni dei gruppi di test, consentendo un confronto semplice tra l'efficacia dei segmenti di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
-seo-title: Test dei rapporti di gruppo
+description: La sezione report del gruppo di test restituisce informazioni sulle conversioni del gruppo di test, consentendo un semplice confronto dell'efficacia del segmento di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
+seo-description: La sezione report del gruppo di test restituisce informazioni sulle conversioni del gruppo di test, consentendo un semplice confronto dell'efficacia del segmento di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
+seo-title: Report gruppo di test
 solution: Audience Manager
-title: Test dei rapporti di gruppo
+title: Report gruppo di test
 topic: API DIL
-uuid: 21303 c 3 e -4 c 05-4728-a 759-96 c 2 a 1 d 99 b 69
+uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Test Group Reporting {#test-group-reporting}
+# Report gruppo di test {#test-group-reporting}
 
-La sezione di reporting dei gruppi di test restituisce informazioni sulle conversioni dei gruppi di test, consentendo un confronto semplice tra l'efficacia dei segmenti di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
+La sezione report del gruppo di test restituisce informazioni sulle conversioni del gruppo di test, consentendo un semplice confronto dell'efficacia del segmento di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
 
-[!UICONTROL Audience Lab] restituisce informazioni di reporting dettagliate per i segmenti di prova creati e consente di salvare i dati di reporting come [!DNL CSV] file. You can select between **[!UICONTROL Aggregate Reporting]** and **[!UICONTROL Trend Reporting]**.
+[!UICONTROL Audience Lab] restituisce informazioni di reporting dettagliate per i segmenti di test creati e consente di salvare i dati di reporting come [!DNL CSV] file. Potete scegliere tra **[!UICONTROL Aggregate Reporting]** e **[!UICONTROL Trend Reporting]**.
 
-**[!UICONTROL Aggregate Reporting]** restituisce i numeri assoluti per i segmenti di prova. **[!UICONTROL Trend Reporting]** restituisce un grafico della tendenza *per un periodo specifico*. Quattro schede consentono di personalizzare i rapporti:
+**[!UICONTROL Aggregate Reporting]** restituisce i numeri assoluti per i segmenti di test. **[!UICONTROL Trend Reporting]** restituisce un grafico della tendenza *in un periodo* specifico. Quattro schede consentono di personalizzare i rapporti:
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
@@ -30,35 +30,35 @@ La sezione di reporting dei gruppi di test restituisce informazioni sulle conver
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Tasso di conversione popolazione</span></b> </p> </td> 
-   <td colname="col2"> <p>Restituisce la percentuale di dispositivi appartenenti a un particolare segmento di test che sono convertiti. </p> </td> 
+   <td colname="col2"> <p>Restituisce la percentuale di dispositivi appartenenti a un particolare segmento di test, che sono stati convertiti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Convertitori</span></b> </p> </td> 
-   <td colname="col2"> <p>Restituisce il numero di dispositivi che hanno rivelato le caratteristiche di conversione selezionate nei gruppi di test. <a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external"> Guardate questo video</a> per imparare a creare caratteristiche di conversione. </p> </td> 
+   <td colname="col2"> <p>Restituisce il numero di dispositivi che hanno mostrato le caratteristiche di conversione selezionate nei gruppi di test. <a href="https://helpx.adobe.com/audience-manager/kt/using/creating-conversion-traits-feature-video-use.html" format="https" scope="external"> Guardate questo video</a> per apprendere come creare tratti di conversione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Totale conversioni</span></b> </p> </td> 
-   <td colname="col2"> <p>Restituisce il numero di conversioni generate dai segmenti di prova. </p> </td> 
+   <td colname="col2"> <p>Restituisce il numero di conversioni generate dai segmenti di test. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Test Populations Population</span></b> </p> </td> 
-   <td colname="col2"> <p>Restituisce il numero di dispositivi appartenenti ai segmenti di prova. Toggle between <b><span class="uicontrol"> Total Population</span></b> or <b><span class="uicontrol"> Real-time Population</span></b>. The difference is explained in the <a href="../../faq/faq-reporting.md"> Reporting FAQ</a> . </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Test dei segmenti</span></b> </p> </td> 
+   <td colname="col2"> <p>Restituisce il numero di dispositivi appartenenti ai segmenti di test. Passa dalla popolazione <b><span class="uicontrol"> totale a quella</span></b> in tempo reale <b><span class="uicontrol"></span></b>. La differenza è spiegata nelle domande frequenti relative ai <a href="../../faq/faq-reporting.md"> rapporti</a> . </p> </td>
   </tr>
  </tbody>
 </table>
 
-Potete selezionare una caratteristica di conversione specifica per la quale generare il rapporto oppure selezionare tutte le caratteristiche combinate. You can define a date range for which the information should be returned and export the report as a [!DNL CSV] file.
+È possibile selezionare una caratteristica di conversione specifica per la quale generare il rapporto oppure selezionare tutte le caratteristiche combinate. Puoi definire un intervallo di date per il quale le informazioni devono essere restituite ed esportare il rapporto come [!DNL CSV] file.
 
 >[!NOTE]
 >
 >* I rapporti per un gruppo di test popoleranno il giorno dopo la data di inizio.
->* Una conversione viene conteggiata solo per un dispositivo dopo la data di inizio di un test e dopo che il dispositivo è stato aggiunto a un segmento di prova. Se viene eseguita una conversione per quel dispositivo prima che gli venga assegnato un gruppo di test, la conversione non verrà conteggiata.
+>* Una conversione viene conteggiata solo per un dispositivo dopo la data di inizio di un test e dopo che il dispositivo è stato aggiunto a un segmento di test. Se una conversione avviene per quel dispositivo prima che gli venga assegnato un gruppo di test, la conversione non verrà conteggiata.
 
 
-A returned **[!UICONTROL Aggregate Reporting]** chart could look like this:
+Un **[!UICONTROL Aggregate Reporting]** grafico restituito potrebbe essere simile al seguente:
 
 ![](assets/aggregate-reporting.PNG)
 
-A returned **[!UICONTROL Trend Reporting]** chart could look like the one below. Select **[!UICONTROL Normalized]** in the check box if you want to ignore the absolute numbers and simply focus on the test segments trends.
+Un **[!UICONTROL Trend Reporting]** grafico restituito potrebbe essere simile a quello riportato di seguito. Selezionare **[!UICONTROL Normalized]** nella casella di controllo se si desidera ignorare i numeri assoluti e concentrarsi semplicemente sulle tendenze dei segmenti di test.
 
 ![](assets/trend-reporting.PNG)
