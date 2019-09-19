@@ -1,35 +1,35 @@
 ---
-description: Le chiamate evento inviano al DCS informazioni su una stringa URL. In una distribuzione tipica di Audience Manager, i clienti usano il nostro codice di raccolta dati javascript (DIL) per inviare dati al DCS. Tuttavia, a volte i clienti non possono inserire il codice javascript nelle proprie pagine. Se criteri aziendali o altri problemi tecnici impediscono di inserire il codice javascript nelle pagine, puoi comunque lavorare con Audience Manager per inviare e restituire dati da DCS con queste chiamate di tipo Evento.
-seo-description: Le chiamate evento inviano al DCS informazioni su una stringa URL. In una distribuzione tipica di Audience Manager, i clienti usano il nostro codice di raccolta dati javascript (DIL) per inviare dati al DCS. Tuttavia, a volte i clienti non possono inserire il codice javascript nelle proprie pagine. Se criteri aziendali o altri problemi tecnici impediscono di inserire il codice javascript nelle pagine, puoi comunque lavorare con Audience Manager per inviare e restituire dati da DCS con queste chiamate di tipo Evento.
-seo-title: API di chiamata evento DCS
+description: Le chiamate agli eventi inviano informazioni al DCS in una stringa URL. In una tipica implementazione di Audience Manager, i clienti utilizzano il codice di raccolta dati JavaScript (DIL) per inviare dati al DCS. Tuttavia, a volte i clienti non possono inserire il codice JavaScript nelle proprie pagine. Se le politiche aziendali o altri problemi tecnici non consentono di inserire il codice JavaScript nelle pagine, puoi comunque lavorare con Audience Manager per inviare e restituire dati da DCS con queste API per le chiamate agli eventi.
+seo-description: Le chiamate agli eventi inviano informazioni al DCS in una stringa URL. In una tipica implementazione di Audience Manager, i clienti utilizzano il codice di raccolta dati JavaScript (DIL) per inviare dati al DCS. Tuttavia, a volte i clienti non possono inserire il codice JavaScript nelle proprie pagine. Se le politiche aziendali o altri problemi tecnici non consentono di inserire il codice JavaScript nelle pagine, puoi comunque lavorare con Audience Manager per inviare e restituire dati da DCS con queste API per le chiamate agli eventi.
+seo-title: API DCS Event Call
 solution: Audience Manager
-title: API di chiamata evento DCS
-uuid: 84754960-9 ef 0-454 d -8 f 5 c -33846 e 2494 f 6
+title: API DCS Event Call
+uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# DCS Event Call APIs {#dcs-event-call-apis}
+# API DCS Event Call {#dcs-event-call-apis}
 
-Event calls send information to the [!UICONTROL DCS] in a [!DNL URL] string. In a typical Audience Manager deployment, customers use our [!DNL JavaScript] data collection code ([!UICONTROL DIL]) to send data to the [!UICONTROL DCS]. However, sometimes customers cannot put our [!DNL JavaScript] code on their pages. If company policies or other technical issues prevent you from placing our [!DNL JavaScript] code on your pages, you can still work with Audience Manager to send and return data from [!UICONTROL DCS] with these event call [!DNL API]s.
+Le chiamate agli eventi inviano informazioni al [!UICONTROL DCS] destinatario in una [!DNL URL] stringa. In una tipica implementazione di Audience Manager, i clienti utilizzano il nostro codice [!DNL JavaScript] di raccolta dati ([!UICONTROL DIL]) per inviare dati al [!UICONTROL DCS]. Tuttavia, a volte i clienti non possono inserire il nostro [!DNL JavaScript] codice nelle proprie pagine. Se le politiche aziendali o altri problemi tecnici non consentono di inserire il nostro [!DNL JavaScript] codice nelle pagine, puoi comunque lavorare con Audience Manager per inviare e restituire i dati da [!UICONTROL DCS] queste chiamate [!DNL API]agli eventi.
 
 ## Introduzione {#dcs-getting-started}
 
 Questa sezione contiene informazioni e riferimenti correlati che mostrano come:
 
-* Make calls to the [!UICONTROL DCS].
-* Receive data from the [!UICONTROL DCS].
-* Formattare gli elementi di dati nelle chiamate.
-* Understand the parameters returned by the [!UICONTROL DCS].
+* Effettua chiamate al [!UICONTROL DCS].
+* Ricevi dati dal [!UICONTROL DCS].
+* Formattare gli elementi dati nelle chiamate.
+* Comprendere i parametri restituiti dal [!UICONTROL DCS].
 
-Per iniziare, vedi le sezioni seguenti. Start with [Send Data to the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). After that, move on to [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Per iniziare, consulta le sezioni seguenti. Inizia con [Invia dati al DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Dopodiché, passa alla [ricezione dei dati dal DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 * [Inviare dati al DCS](dcs-url-send.md)
-* [Ricevere dati dal DCS](dcs-url-receive.md)
+* [Ricevi dati dal DCS](dcs-url-receive.md)
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
 >* [Riferimento API DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
