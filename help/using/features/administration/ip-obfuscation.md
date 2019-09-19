@@ -11,49 +11,49 @@ source-git-commit: f7206fda4b16a22c8a8bfcf97529cdaea24b0898
 
 # Offuscamento dell’indirizzo IP {#ip-obfuscation}
 
-Utilizzate questa funzione per offuscare gli indirizzi IP raccolti in Audience Manager.
+Utilizzate questa funzione per oscurare gli indirizzi IP raccolti in Audience Manager.
 
-## Overview and Methodology {#overview-and-methodology}
+## Panoramica e metodologia {#overview-and-methodology}
 
 La vostra azienda potrebbe voler offuscare l’indirizzo IP in molti paesi a causa delle normative globali sulla privacy. Audience Manager consente di offuscare gli indirizzi IP dei visitatori su base globale o paese per paese.
 
-### Metodologia offuscamento IP
+### Metodo di offuscamento IP
 
-In base ai principi di "Privacy by Design", Adobe Audience Manager consente ai clienti di abilitare l'offuscamento IP dall'interfaccia utente, a livello globale in tutte le aree geografiche o per paesi specifici. Quando abilitate questa impostazione, l'ultimo ottetto (l'ultima parte) dell'indirizzo IP viene eliminato immediatamente quando l'indirizzo IP viene trasferito in Audience Manager. Audience Manager elimina questa parte dell'indirizzo IP prima dell'elaborazione (inclusa la ricerca geografica facoltativa o la registrazione dell'indirizzo IP). Ad esempio:
+In base ai principi di "Privacy By Design", Adobe Audience Manager consente ai clienti di abilitare l’offuscamento IP dall’interfaccia utente, a livello globale per tutte le aree geografiche o per specifici paesi. Quando abilitate questa impostazione, l'ultimo ottetto (l'ultima parte) dell'indirizzo IP viene immediatamente eliminato quando l'indirizzo IP viene assimilato in Audience Manager. Audience Manager ignora questa parte dell'indirizzo IP prima dell'elaborazione (inclusa prima di qualsiasi ricerca geografica facoltativa o registrazione dell'indirizzo IP). Ad esempio:
 
-* Before obfuscation: `255.255.255.255`
-* After obfuscation: `255.255.255.0`
+* Prima dell'offuscamento: `255.255.255.255`
+* Dopo l'offuscamento: `255.255.255.0`
 
-See also, Collecting IP addresses and IP Address Obfuscation in our [Data Privacy section](/help/using/overview/data-security-and-privacy/data-privacy.md).
+Vedi anche, Raccolta di indirizzi IP e offuscamento di indirizzi IP nella nostra sezione [Privacy](/help/using/overview/data-security-and-privacy/data-privacy.md)dei dati.
 
-## IP Address Obfuscation Requirements {#ip-obfuscation-requirements}
+## Requisiti di offuscamento indirizzo IP {#ip-obfuscation-requirements}
 
-L'offuscamento dell'indirizzo IP è disponibile solo per gli account amministratore di Audience Manager. See [Create Users](/help/using/features/administration/administration-overview.md#create-users) to understand how to assign administrator privileges for a user.
+L'offuscamento dell'indirizzo IP è disponibile solo per gli account amministratore di Audience Manager. Consultate [Creazione di utenti](/help/using/features/administration/administration-overview.md#create-users) per comprendere come assegnare privilegi di amministratore a un utente.
 
 >[!NOTE]
 >
-> A causa dell'elevato volume di dati elaborati da Audience Manager, le modifiche di offuscamento IP possono richiedere fino a 4 ore, dal momento in cui aggiornate le impostazioni.
+> A causa dell'elevato volume di dati elaborati da Audience Manager, le modifiche dell'offuscamento IP possono richiedere fino a 4 ore per entrare in vigore, dal momento in cui aggiornate le impostazioni.
 
-## Configure IP Address Obfuscation {#configure-ip-obfuscation}
+## Configura offuscamento indirizzo IP {#configure-ip-obfuscation}
 
-Effettuate le seguenti operazioni per configurare l'offuscamento dell'indirizzo IP.
+Seguite i passaggi indicati di seguito per configurare l'offuscamento degli indirizzi IP.
 
-1. Log in to Audience Manager with an administrator account and go to **Administration &gt; Privacy**.
-2. Scegliete il tipo di oscuramento dell'IP che desiderate usare.
-   1. **Oscurate tutti gli indirizzi IP:** Selezionate questa opzione affinché Audience Manager offri l'ultimo ottetto di tutti gli indirizzi IP visitatore, indipendentemente dall'area da cui originano.
-   2. **Offuscare gli indirizzi IP per paesi specifici:** selezionate questa opzione affinché Audience Manager offri l'ultimo ottetto degli indirizzi IP visitatore per paesi specifici. Use the **List of Countries** or the corresponding **Search** field to find the countries to enable IP obfuscation for, and click the + icon to add them to the **Selected for Obfuscation** list. Once you've added all the required countries to the **Selected for Obfuscation** list, click **Save**.
+1. Accedete ad Audience Manager con un account amministratore e passate a **Amministrazione &gt; Privacy**.
+2. Scegliere il tipo di offuscamento IP che si desidera utilizzare.
+   1. **** Soffocare tutti gli indirizzi IP: selezionate questa opzione affinché Audience Manager offuschi l’ultimo ottetto di tutti gli indirizzi IP dei visitatori, a prescindere dalla regione di origine.
+   2. **** Indirizzi IP offuscati per paesi specifici: selezionate questa opzione affinché Audience Manager offuschi l’ultimo ottetto di indirizzi IP dei visitatori per specifici paesi. Utilizzate il campo **Elenco paesi** o il campo di **ricerca** corrispondente per individuare i paesi per cui abilitare l'offuscamento IP, quindi fate clic sull'icona + per aggiungerli all'elenco **Selezionato per offuscamento** . Dopo aver aggiunto tutti i paesi richiesti all'elenco **Selezionato per offuscamento** , fare clic su **Salva**.
 
 ![](assets/ip-obfuscation.png)
 
-## Disable IP Address Obfuscation {#disable-ip-obfuscation}
+## Disattiva offuscamento indirizzo IP {#disable-ip-obfuscation}
 
-To disable IP address obfuscation globally, go to **Administration &gt; Privacy**, select **Do not obfuscate IP addresses**, and click **Save**.
+Per disabilitare l'offuscamento dell'indirizzo IP a livello globale, andate a **Amministrazione &gt; Privacy**, selezionate **Non offuscare gli indirizzi** IP e fate clic su **Salva**.
 
-To disable IP address obfuscation for specific countries, find the countries in the **Selected for Obfuscation** list, then click their corresponding **X** icon. Click **Save** when you're done.
+Per disattivare l'offuscamento dell'indirizzo IP per specifici paesi, individua i paesi nell'elenco **Selezionato per offuscamento** , quindi fai clic sulla loro icona **X** corrispondente. Click **Save** when you're done.
 
 ## Concetti correlati {#related-concepts}
 
 * [Privacy dei dati](/help/using/overview/data-security-and-privacy/data-privacy.md)
-* Dimostrazione video offuscamento indirizzo IP
+* Video sull'offuscamento dell'indirizzo IP
 >[!VIDEO](https://video.tv.adobe.com/v/27218/?captions=ita)
 
