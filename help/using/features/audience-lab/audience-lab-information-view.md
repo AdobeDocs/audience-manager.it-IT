@@ -1,11 +1,11 @@
 ---
-description: Questa sezione visualizza informazioni generali sul gruppo di test e sui segmenti di test in cui è diviso, le caratteristiche di conversione e le destinazioni mappate. La sezione fornisce inoltre controlli per duplicare o eliminare il gruppo di prova.
-seo-description: Questa sezione visualizza informazioni generali sul gruppo di test e sui segmenti di test in cui è diviso, le caratteristiche di conversione e le destinazioni mappate. La sezione fornisce inoltre controlli per duplicare o eliminare il gruppo di prova.
-seo-title: Test Group Information (Informazioni gruppo di test)
+description: In questa sezione sono visualizzate informazioni generali sul gruppo di test e sui segmenti in cui è diviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
+seo-description: In questa sezione sono visualizzate informazioni generali sul gruppo di test e sui segmenti in cui è diviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
+seo-title: Test Group Information
 solution: Audience Manager
-title: Test Group Information (Informazioni gruppo di test)
+title: Test Group Information
 topic: API DIL
-uuid: a 49 dfdb 3-21 e 1-4 c 3 d-b 957-4 d 445 f 890124
+uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 translation-type: tm+mt
 source-git-commit: 668b8ddded63acfa3479860f878cbf84b4f74218
 
@@ -14,23 +14,23 @@ source-git-commit: 668b8ddded63acfa3479860f878cbf84b4f74218
 
 # Test Group Information {#test-group-information}
 
-Questa sezione visualizza informazioni generali sul gruppo di test e sui segmenti di test in cui è diviso, le caratteristiche di conversione e le destinazioni mappate. La sezione fornisce inoltre controlli per duplicare o eliminare il gruppo di prova.
+In questa sezione sono visualizzate informazioni generali sul gruppo di test e sui segmenti in cui è diviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
 
-Potete inoltre vedere le informazioni sul segmento di base utilizzato per il gruppo di test e la suddivisione dei segmenti di prova.
+Potete inoltre visualizzare informazioni sul segmento della linea di base utilizzato per il gruppo di test e sulla modalità di divisione dei segmenti di test.
 
-The **[!UICONTROL Test Segments]** are populated randomly with users from the baseline segment you used for the test group. La panoramica mostra le percentuali di utenti assegnate a ogni segmento di test.
+Gli utenti **[!UICONTROL Test Segments]** vengono compilati in modo casuale con gli utenti del segmento della linea di base utilizzato per il gruppo di test. La panoramica mostra le percentuali di utenti assegnate a ciascun segmento di test.
 
-**[!UICONTROL Conversion Traits]** The drives the reporting for the test groups. To designate a trait as a conversion, when creating or editing traits in the [!UICONTROL Trait Builder], select **Conversion** as **[Event Type](../../features/traits/create-onboarded-rule-based-traits.md).**
+L' **[!UICONTROL Conversion Traits]** unità di report per i gruppi di test. Per designare una caratteristica come conversione, durante la creazione o la modifica delle caratteristiche in [!UICONTROL Trait Builder], selezionare **Conversione** come tipo **[di](../../features/traits/create-onboarded-rule-based-traits.md)evento.**
 
-**[!UICONTROL Destinations]** La scheda è comprimibile. Premi le frecce per aprire o chiudere singole destinazioni e ottenere le seguenti informazioni per i segmenti di prova, raggruppati per le destinazioni mappate a:
+La **[!UICONTROL Destinations]** scheda è comprimibile. Premere le frecce per aprire o chiudere singole destinazioni e ottenere le seguenti informazioni per i segmenti di test, raggruppate per le destinazioni a cui sono mappate:
 
-* il numero di dispositivi della popolazione totale del segmento di base allocata a ciascuna destinazione.
-* chiave di mapping;
+* il numero di dispositivi dalla popolazione totale del segmento di base allocata a ciascuna destinazione.
+* chiave di mappatura;
 * valore di mappatura;
-* [!DNL URL] &amp; sicuro [!DNL URL] per [!DNL URL] le destinazioni.
+* [!DNL URL] e sicuro [!DNL URL] per [!DNL URL] le destinazioni.
 
 >[!NOTE]
 >
->Tenete presente che non potete modificare i gruppi di prova dopo averlo finalizzato, ma potete solo interromperli, eliminarli o duplicarli.
+>Tenete presente che non potete modificare i gruppi di test dopo averli completati e che potete solo metterli in pausa, eliminarli o duplicarli.
 
 ![](assets/test-groups-information.PNG)
