@@ -1,34 +1,34 @@
 ---
-description: Questo articolo descrive due funzionalità che offrono funzionalità avanzate per i modelli di allocazione duplicati di Audience Lab e Segmento.
-seo-description: Questo articolo descrive due funzionalità che offrono funzionalità avanzate per i modelli di allocazione duplicati di Audience Lab e Segmento.
-seo-title: Funzionalità avanzate di Audience Lab
+description: Questo articolo descrive due funzioni che forniscono funzionalità avanzate per i modelli di allocazione duplicati e il blocco dei segmenti di Audience Lab.
+seo-description: Questo articolo descrive due funzioni che forniscono funzionalità avanzate per i modelli di allocazione duplicati e il blocco dei segmenti di Audience Lab.
+seo-title: Funzionalità avanzata di Audience Lab
 solution: Audience Manager
-title: Funzionalità avanzate di Audience Lab
-uuid: 0 f 57 d 634-caa 0-40 da -81 a 2-c 23 fbd 299 bfd
+title: Funzionalità avanzata di Audience Lab
+uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
 translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
 
 
-# [!DNL Audience Lab] Funzionalità avanzate {#audience-lab-advanced-functionality}
+# [!DNL Audience Lab] Funzionalità avanzata {#audience-lab-advanced-functionality}
 
-This article describes two features which provide advanced functionality for [!DNL Audience Lab]: [!DNL Duplicate Allocation Template] and [!DNL Segment Holdout].
+Questo articolo descrive due funzioni che forniscono funzionalità avanzate per [!DNL Audience Lab]: [!DNL Duplicate Allocation Template] e [!DNL Segment Holdout].
 
-## Duplicate Allocation Template {#duplicate-allocation-template}
+## Duplica modello di allocazione {#duplicate-allocation-template}
 
 <!-- 
 <p>The <b>Allocation Template</b> represents how you split a test group into test segments and the way the test segments are mapped to destinations. </p>
  -->
 
-In [!DNL Audience Lab], the [!DNL Allocation Template] represents the various selections you make when creating a test group:
+In [!DNL Audience Lab], [!DNL Allocation Template] rappresenta le varie selezioni effettuate durante la creazione di un gruppo di test:
 
 * La distribuzione dei dispositivi tra i segmenti di prova;
 * Mappatura dei segmenti di prova alle destinazioni;
-* Le caratteristiche di conversione utilizzate per un gruppo di test;
-* L'intervallo di date in cui il gruppo di prova viene pubblicato nelle destinazioni selezionate.
+* Caratteristiche di conversione utilizzate per un gruppo di test;
+* Intervallo di date in cui il gruppo di test pubblica nelle destinazioni selezionate.
 
-Duplicando un modello di assegnazione, potete riutilizzare la stessa distribuzione di segmenti e destinazioni di test per un segmento di base diverso, in un nuovo gruppo di test. Esempio di modello di allocazione illustrato di seguito. The image is taken from the [!UICONTROL Summary & Finalize] step in the **Create Test Group** workflow.
+Duplicando un modello di allocazione, puoi riutilizzare la stessa distribuzione di segmenti di test e destinazioni per un segmento di base diverso, in un nuovo gruppo di test. Un esempio di modello di allocazione è illustrato di seguito. L’immagine viene tratta dal [!UICONTROL Summary & Finalize] passaggio del flusso di lavoro **Crea gruppo** di test.
 
 ![](assets/allocation_template_3.png)
 
@@ -36,45 +36,45 @@ Duplicando un modello di assegnazione, potete riutilizzare la stessa distribuzio
 With the option to duplicate allocation templates, you can increase your productivity when running multivariate tests as part of multivariate campaigns.
 -->
 
-### Utilizzo del modello di allocazione duplicato
+### Utilizzo di un modello di allocazione duplicato
 
-Create an initial test group, then select **[!UICONTROL Duplicate Allocation Template]** to reuse the same settings across multiple test groups. Ad esempio, potete utilizzare questa funzione se state eseguendo un test in cui desiderate determinare l'efficacia di più destinazioni per più segmenti.
+Create un gruppo di test iniziale, quindi selezionate **[!UICONTROL Duplicate Allocation Template]** per riutilizzare le stesse impostazioni tra più gruppi di test. Ad esempio, puoi utilizzare questa funzione se esegui un test in cui vuoi determinare l'efficacia di diverse destinazioni per più segmenti.
 
-1. Nella vista principale di Audience Lab, cercate il gruppo di prova di cui desiderate riprodurre il modello in un nuovo gruppo di test. In the drop-down box, select **[!UICONTROL Duplicate Allocation Template]**.
+1. Nella vista principale di Audience Lab, cercate il gruppo di test di cui desiderate riprodurre il modello di allocazione in un nuovo gruppo di test. Nella casella a discesa, selezionate **[!UICONTROL Duplicate Allocation Template]**.
 
    ![](assets/duplicate-allocation-template.png)
 
-2. In the [!UICONTROL Create Test Group] wizard, you can specify a base segment and rename your test segments, if you wish.
-3. *Non* è possibile modificare:
+2. Nella [!UICONTROL Create Test Group] procedura guidata potete specificare un segmento di base e, se lo desiderate, rinominare i segmenti di test.
+3. Non *è possibile* modificare:
 
    * La distribuzione dei dispositivi tra i segmenti di prova;
-   * Le caratteristiche di conversione;
-   * Mappatura dei segmenti di prova alle destinazioni. Potete compilare la chiave di mappatura solo per le destinazioni che ne richiedono uno.
-   * Intervallo di date in cui verrà pubblicato il gruppo di test nelle destinazioni selezionate.
+   * caratteristiche di conversione;
+   * Mappatura dei segmenti di test alle destinazioni. Puoi compilare solo la chiave di mappatura, per le destinazioni che ne richiedono una.
+   * Intervallo di date in cui il gruppo di test pubblicherà le destinazioni selezionate.
 
-4. Review the information you added in the previous steps and select **[!UICONTROL Finalize Group]**.
+4. Rivedete le informazioni aggiunte nei passaggi precedenti e selezionate **[!UICONTROL Finalize Group]**.
 
-## Test Segment Holdout {#test-segment-holdout}
+## Esclusione segmento test {#test-segment-holdout}
 
 >[!NOTE]
 >
->[!UICONTROL Test Segment Holdout] è una funzionalità avanzata attivata sulla richiesta del cliente. Please contact [!DNL Customer Care] or [!DNL Adobe Consulting] to activate this feature.
+>[!UICONTROL Test Segment Holdout] è una funzionalità avanzata, attivata su richiesta del cliente. Contattate [!DNL Customer Care] o [!DNL Adobe Consulting] per attivare questa funzione.
 
-Utilizzate questa funzione per nascondere parte del pubblico da includere nel test. La percentuale selezionata viene esclusa dal test. In questo modo, puoi misurare e confrontare il numero di conversioni da destinazioni (attivate in destinazioni) e tipi di pubblico senza argetter (gruppo di oldout).
+Utilizzate questa funzione per impedire che parte del pubblico venga inclusa nel test. La percentuale selezionata viene esclusa dal test. In questo modo, potete misurare e confrontare il numero di conversioni da tipi di pubblico con targeting (attivato sulle destinazioni) e non mirati (esclusi).
 
 <!--
 <p>Note that this option is different to the control segment because it subtracts the percentage ................. You can withhold an audience group and still use a control segment. </p>
 -->
 
-### Utilizzo della funzione Holdout segmento di prova
+### Utilizzo del blocco del segmento di test
 
-1. Create a new test group by using the [!UICONTROL Create Test Group] wizard.
-1. In the **[!UICONTROL Allocate Test Segment]** step, you can select a part of the audience to be withheld from testing.
+1. Create un nuovo gruppo di test utilizzando la [!UICONTROL Create Test Group] procedura guidata.
+1. Nel **[!UICONTROL Allocate Test Segment]** passaggio, potete selezionare una parte dell'audience da escludere dai test.
 
-   ![Elemento elenco](assets/test-segment-holdout.png)
+   ![Voce di elenco](assets/test-segment-holdout.png)
 
-1. Usate il cursore per regolare il numero di dispositivi da sottoporre a test. Osservate come il segmento di prova 1 e il segmento di test 2 ora risalgono solo al 70% dei dispositivi totali.
+1. Usate il cursore per regolare quanti dispositivi desiderate impedire il test. Tenere presente che il segmento di test 1 e il segmento di test 2 ora rappresentano solo il 70% del totale dei dispositivi.
 
    ![](assets/test-segment-holdout-selected.png)
 
-1. Go through the rest of the steps in the **[!UICONTROL Create Test Group]** workflow and select **[!UICONTROL Finalize Group]** when you're satisfied with your selection. Ora hai un gruppo di test con parte dell'audience trattenuta dai test.
+1. Scorri gli altri passaggi del **[!UICONTROL Create Test Group]** flusso di lavoro e seleziona **[!UICONTROL Finalize Group]** quando sei soddisfatto della selezione. Ora disponete di un gruppo di test con parte del pubblico cui è stato negato il test.
