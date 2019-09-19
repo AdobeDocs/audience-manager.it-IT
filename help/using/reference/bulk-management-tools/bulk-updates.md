@@ -1,20 +1,20 @@
 ---
-description: Un aggiornamento in massa consente di modificare più segmenti, caratteristiche e elementi di cartelle o segmenti in una singola operazione. Segui queste istruzioni per effettuare aggiornamenti in massa.
+description: Un aggiornamento in blocco consente di modificare più segmenti, caratteristiche, elementi di segmenti o cartelle di caratteristiche in una singola operazione. Seguite queste istruzioni per effettuare aggiornamenti in blocco.
 keywords: baaam
-seo-description: Un aggiornamento in massa consente di modificare più segmenti, caratteristiche e elementi di cartelle o segmenti in una singola operazione. Segui queste istruzioni per effettuare aggiornamenti in massa.
-seo-title: Aggiornamenti in blocco
+seo-description: Un aggiornamento in blocco consente di modificare più segmenti, caratteristiche, elementi di segmenti o cartelle di caratteristiche in una singola operazione. Seguite queste istruzioni per effettuare aggiornamenti in blocco.
+seo-title: Aggiornamenti di massa
 solution: Audience Manager
-title: Aggiornamenti in blocco
-uuid: 22 f 1 badd-a 274-4 d 3 e -9957-a 24 bf 8 c 1 d 0 dc
+title: Aggiornamenti di massa
+uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Bulk Updates{#bulk-updates}
+# Aggiornamenti di massa{#bulk-updates}
 
-Un aggiornamento in massa consente di modificare più segmenti, caratteristiche e elementi di cartelle o segmenti in una singola operazione. Segui queste istruzioni per effettuare aggiornamenti in massa.
+Un aggiornamento in blocco consente di modificare più segmenti, caratteristiche, elementi di segmenti o cartelle di caratteristiche in una singola operazione. Seguite queste istruzioni per effettuare aggiornamenti in blocco.
 
 <!-- 
 
@@ -24,25 +24,25 @@ t_bulk_updates.xml
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell' [!DNL Audience Manager] interfaccia utente vengono rispettate nell' [!UICONTROL Bulk Management Tools]interfaccia.
+>Le [!UICONTROL Bulk Management Tools] opzioni non *sono supportate da* [!DNL Audience Manager]. Questo strumento è fornito per comodità e solo come cortesia. Per modifiche di massa, consigliamo di lavorare con le API [](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
 
-To make bulk updates, open the [!UICONTROL Bulk Management Tools] worksheet and:
+Per eseguire aggiornamenti in blocco, aprire il [!UICONTROL Bulk Management Tools] foglio di lavoro e:
 
-1. Click the **[!UICONTROL Headers]** tab and copy the update headers for the item you want to edit.
+1. Fate clic sulla **[!UICONTROL Headers]** scheda e copiate le intestazioni di aggiornamento per l’elemento da modificare.
 1. Click the **[!UICONTROL Update]** tab.
-1. Incollate le intestazioni di aggiornamento nella prima riga del foglio di lavoro di aggiornamento. Tenete presente quanto segue:
+1. Incollare le intestazioni di aggiornamento nella prima riga del foglio di lavoro di aggiornamento. Tenete presente quanto segue:
 
-   * Quando si aggiorna una cartella, tutte le intestazioni sono richieste.
-   * Quando aggiornate segmenti o caratteristiche, è necessario solo l'ID segmento (SID) e l'elemento dell'intestazione che deve essere modificato. Elimina le intestazioni non utilizzate.
+   * Quando si aggiorna una cartella, tutte le intestazioni sono obbligatorie.
+   * Quando si aggiornano segmenti o caratteristiche, è necessario solo l’ID segmento (SID) e l’elemento intestazione che deve essere modificato. Elimina intestazioni inutilizzate.
 
-1. Incolla o digita i dati da modificare in una colonna corrispondente basata sull'etichetta dell'intestazione.
-1. Nella barra degli strumenti del foglio di lavoro, fate clic su un pulsante di aggiornamento corrispondente all'elemento che state aggiornando.
-This action opens the [!UICONTROL Account Information] dialog box.
+1. Incollate o digitate i dati da modificare in una colonna corrispondente in base all'etichetta dell'intestazione.
+1. Nella barra degli strumenti del foglio di lavoro, fare clic su un pulsante di aggiornamento corrispondente all'elemento che si sta aggiornando.
+Questa azione consente di aprire la [!UICONTROL Account Information] finestra di dialogo.
 
-1. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
+1. Fornite le informazioni [di](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) accesso richieste e fate clic su **[!UICONTROL Submit]**.
 
-   The worksheet creates a [!UICONTROL Results] column. The [!UICONTROL Results] column returns the JSON response for a successful operation. See the [REST APIs](../../api/rest-api-main/rest-api-main.md) for examples. Prima di inserire i dati, il foglio di lavoro di aggiornamento in blocco deve essere simile a quello seguente:
+   Il foglio di lavoro crea una [!UICONTROL Results] colonna. La [!UICONTROL Results] colonna restituisce la risposta JSON per un'operazione riuscita. Per gli esempi, consultate [REST API](../../api/rest-api-main/rest-api-main.md) . Prima di immettere i dati, il foglio di lavoro di aggiornamento in blocco deve essere simile al seguente:
 
 ![](assets/update.png)
 
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Se l'aggiornamento in blocco restituisce un errore o non riesce, consultate Risoluzione dei [problemi relativi agli strumenti](../../reference/bulk-management-tools/bulk-troubleshooting.md)di gestione in blocco.
