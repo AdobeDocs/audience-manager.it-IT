@@ -1,143 +1,143 @@
 ---
-description: Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed sono disattivati finché non salvate e attivate il feed. Configurate feed di dati pubblici o privati in Audience Marketplace > Miei dati condivisi. Disponibile solo per i venditori di dati.
-seo-description: Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed sono disattivati finché non salvate e attivate il feed. Configurate feed di dati pubblici o privati in Audience Marketplace > Miei dati condivisi. Disponibile solo per i venditori di dati.
-seo-title: Creazione, prezzo e gestione dei feed dati
+description: Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed vengono disattivati fino al salvataggio e all’attivazione del feed. Configurate feed di dati pubblici o privati in Audience Marketplace > I miei dati condivisi. Disponibile solo per i venditori di dati.
+seo-description: Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed vengono disattivati fino al salvataggio e all’attivazione del feed. Configurate feed di dati pubblici o privati in Audience Marketplace > I miei dati condivisi. Disponibile solo per i venditori di dati.
+seo-title: Creazione, prezzo e gestione dei feed di dati
 solution: Audience Manager
-title: Creazione, prezzo e gestione dei feed dati
+title: Creazione, prezzo e gestione dei feed di dati
 topic: API DIL
-uuid: e 28 c 20 b 3-33 fc -4485-8 ee 9-8530 d 126 f 741
+uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Create, Price, and Manage Data Feeds {#create-price-and-manage-data-feeds}
+# Creazione, prezzo e gestione dei feed di dati {#create-price-and-manage-data-feeds}
 
-Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed sono disattivati finché non salvate e attivate il feed. Set up public or private data feeds in [!UICONTROL Audience Marketplace] &gt; [!UICONTROL My Shared Data]. Disponibile solo per i venditori di dati.
+Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed vengono disattivati fino al salvataggio e all’attivazione del feed. Configurate feed di dati pubblici o privati in [!UICONTROL Audience Marketplace] &gt; [!UICONTROL My Shared Data]. Disponibile solo per i venditori di dati.
 
-## Create a Public or Private Data Feed {#create-public-private-data-feed}
+## Creare un feed di dati pubblico o privato {#create-public-private-data-feed}
 
-Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed sono disattivati finché non salvate e attivate il feed. Set up public or private data feeds in **[!UICONTROL Audience Marketplace > My Shared Data]**. Disponibile solo per i venditori di dati.
+Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed vengono disattivati fino al salvataggio e all’attivazione del feed. Configurate feed di dati pubblici o privati in **[!UICONTROL Audience Marketplace > My Shared Data]**. Disponibile solo per i venditori di dati.
 
 <!-- t_data_feed.xml -->
 
-Per creare un feed di dati pubblico o privato dovete disporre dei diritti di amministratore.
+Per creare un feed di dati pubblico o privato è necessario disporre dei diritti di amministratore.
 Per creare un feed di dati:
 
 1. Fai clic su **[!UICONTROL New Data Feed]**.
-1. Denominate il feed di dati. Gli acquirenti di dati possono cercare i feed in base al nome.
-1. Fornite una breve descrizione (massimo 255 caratteri).
+1. Denominate il feed di dati. Gli acquirenti di dati possono cercare il feed in base al nome.
+1. Fornire una breve descrizione (massimo 255 caratteri).
 
-   Una buona descrizione dovrebbe descrivere il feed con precisione. For example, you could include text for marketing categories, demographics, and geographic coverage (e.g., [!DNL US] or North America). Il testo descrittivo è ricercabile e aiuta gli acquirenti a trovare o valutare il feed. Una buona descrizione è una parte importante dell'attirare gli abbonati al feed di dati.
-1. Select a data source from the **[!UICONTROL Data Source]** options.
+   Una buona descrizione dovrebbe descrivere con precisione il feed. Ad esempio, puoi includere testo per categorie di marketing, dati demografici e copertura geografica (ad esempio, [!DNL US] o Nord America). Il testo descrittivo è ricercabile e aiuta gli acquirenti a trovare o valutare il feed. Una buona descrizione è una parte importante dell'attrazione degli utenti iscritti al feed di dati.
+1. Selezionare un'origine dati dalle **[!UICONTROL Data Source]** opzioni.
 
    >[!IMPORTANT]
    >
-   >Tutte le caratteristiche correnti e future che appartengono a questa origine dati saranno condivise con gli acquirenti di dati, come parte di questo feed.
+   >Qualsiasi caratteristica corrente e futura appartenente a questa origine dati sarà condivisa con gli acquirenti di dati, come parte di questo feed.
 
-1. In [!UICONTROL Plan Types], select the options you want to use and click **[!UICONTROL Add Plan]**.
+1. In [!UICONTROL Plan Types], selezionate le opzioni da utilizzare e fate clic su **[!UICONTROL Add Plan]**.
 
-   I feed possono contenere più piani. I piani possono contenere più casi d'uso. For details, see [Plan Types for Data Feeds](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
+   I feed possono contenere più piani. I piani possono contenere più casi di utilizzo. Per informazioni dettagliate, consultate Tipi di [piano per feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types)dati.
 
-1. Click **[!UICONTROL Save]** to save your data fee *without* activating it.
+1. Fare clic **[!UICONTROL Save]** per salvare la tariffa dati *senza* attivarla.
 1. Per salvare e attivare un feed di dati:
-   1. Move the **[!UICONTROL Availability]** slider to **[!UICONTROL Active]**.
+   1. Spostate il **[!UICONTROL Availability]** cursore su **[!UICONTROL Active]**.
    1. Fai clic su **[!UICONTROL Save]**.
    >[!NOTE]
    >
    >* I feed di dati salvati e attivati non possono essere eliminati.
-   >* Gli acquirenti possono vedere solo i feed attivi.
+   >* Gli acquirenti visualizzano solo i feed attivi.
 
 
-### Facoltativo: Creare un feed dati privato
+### Facoltativo: Creare un feed di dati privato
 
-In the [!UICONTROL Settings] section, move the slider to:
+Nella [!UICONTROL Settings] sezione, spostare il cursore in:
 
-* **[!UICONTROL Private]** e **[!UICONTROL Branded]**: L' [!UICONTROL Marketplace] elenco dell'acquirente mostra il nome del venditore nella colonna del fornitore e tutti gli altri dati sono nascosti.
+* **[!UICONTROL Private]** e **[!UICONTROL Branded]**: L'elenco dell' [!UICONTROL Marketplace] acquirente mostra il nome del venditore nella colonna del fornitore e tutti gli altri dati sono nascosti.
 
-* **[!UICONTROL Private]** e **[!UICONTROL Unbranded]**: [!UICONTROL Marketplace] L'elenco dell'acquirente mostra solo il nome del feed dati e la descrizione. The data provider name appears as [!UICONTROL Private Seller].
+* **[!UICONTROL Private]** e **[!UICONTROL Unbranded]**: L'elenco dell' [!UICONTROL Marketplace] acquirente mostra solo il nome e la descrizione del feed di dati. Il nome del provider di dati viene visualizzato come [!UICONTROL Private Seller].
 
-To see what a private feed looks like to buyers, see the buyers section in [Private Data Feeds](../../../features/audience-marketplace/marketplace-private-feeds.md).
+Per vedere come si presenta un feed privato agli acquirenti, consulta la sezione relativa agli acquirenti in Feed [dati](../../../features/audience-marketplace/marketplace-private-feeds.md)privati.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
 >* [Feed dati privati](../../../features/audience-marketplace/marketplace-private-feeds.md)
 
 
 ## Disattivazione dei feed dati di un abbonato {#deactivate-data-feed}
 
-As an [!UICONTROL Audience Marketplace] data provider, you can revoke buyer access to a subscribed data feed. Potrebbe essere utile rimuovere un acquirente da un feed per motivi quali pagamento o mancato pagamento delle tariffe o se utilizzano dati di caratteristica non corretti.
+In qualità di provider di [!UICONTROL Audience Marketplace] dati, puoi revocare l'accesso dell'acquirente a un feed di dati con sottoscrizione. Potresti voler rimuovere un acquirente da un feed per ragioni come il ritardo di pagamento / mancato pagamento delle tariffe o se utilizzano impropriamente i dati sulle caratteristiche.
 
 <!-- marketplace-deactiva4te-subscribers.xml -->
 
 Per revocare un utente iscritto:
 
-1. In [!UICONTROL My Shared Data], find the feed the subscriber is using.
+1. In [!UICONTROL My Shared Data], trovate il feed utilizzato dall'utente iscritto.
 
    >[!NOTE]
    >
-   >I feed di dati con account in ritardo sono contrassegnati con un'icona triangolare/esclamativo.
+   >I feed di dati con account scaduti sono contrassegnati da un’icona a forma di triangolo/punto esclamativo.
 
-1. In the [!UICONTROL Subscribers] column, click the blue number that counts subscribers for that feed. Viene aperta la pagina dei dettagli iscrizione.
-1. Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL Off]**. Viene aperta una finestra di dialogo di conferma.
-1. [!UICONTROL Confirmation] A questo punto, fate clic su **[!UICONTROL Yes]** per disattivare un abbonamento o **[!UICONTROL Cancel]** uscire senza apportare modifiche di iscrizione.
+1. Nella [!UICONTROL Subscribers] colonna, fate clic sul numero blu che conta gli abbonati per quel feed. Viene aperta la pagina dei dettagli dell’iscrizione.
+1. Spostate il **[!UICONTROL Subscription]** cursore su **[!UICONTROL Off]**. Viene aperta una finestra di dialogo di conferma.
+1. Nel [!UICONTROL Confirmation] pop-up, fate clic **[!UICONTROL Yes]** per disattivare un'iscrizione o **[!UICONTROL Cancel]** per uscire senza apportare modifiche all'iscrizione.
 
 ### Cosa accade dopo la disattivazione di un utente iscritto
 
-La revoca dell'accesso a un feed di dati invia un messaggio e-mail a tutti gli utenti dell'amministratore nell'account dell'acquirente dati. Il messaggio e-mail contiene un allegato in cui sono elencate le caratteristiche revocate. Questo elenco consente agli utenti iscritti di trovare e rimuovere tratti disattivati dai propri segmenti e modelli.
+Revocare l'accesso a un feed di dati invia un'e-mail di notifica a tutti gli utenti amministratori nell'account dell'acquirente dei dati. Il messaggio e-mail contiene un allegato in cui sono elencate le caratteristiche revocate. Questo elenco consente agli abbonati di trovare e rimuovere tratti disattivati dai propri segmenti e modelli.
 
-### Fatturazione e disattivazione feed
+### Disattivazione fatturazione e feed
 
-Dopo aver rimosso l'accesso a un feed di dati, gli utenti iscritti sono responsabili delle tariffe relative al mese precedente o in corso, a seconda di quando è stato disattivato il feed.
+Dopo aver rimosso l'accesso a un feed di dati, gli utenti iscritti sono responsabili delle tariffe per il mese precedente o corrente, a seconda di quando avete disattivato il feed.
 
-## Plan Types for Data Feeds {#plan-types}
+## Tipi di piano per feed di dati {#plan-types}
 
-[!DNL Plan types] sono componenti essenziali in un [!UICONTROL Audience Marketplace] feed di dati. In qualità di fornitore di dati, puoi creare più casi di utilizzo e opzioni relative ai prezzi per i feed. Inoltre, può essere una strategia valida per creare alcuni piani per ogni feed di dati. In questo modo, gli acquirenti possono scegliere diverse opzioni da quando desiderano visualizzare i dati o inviarli a una destinazione.
+[!DNL Plan types] sono componenti essenziali in un feed di [!UICONTROL Audience Marketplace] dati. In qualità di fornitore di dati, ti consentono di creare diversi casi di utilizzo e opzioni di prezzo per i tuoi feed. Inoltre, può essere una buona strategia creare alcuni piani per ogni feed di dati. Questo offre agli acquirenti diverse opzioni tra cui scegliere quando cercano dati da modellare o inviare a una destinazione.
 
-[Creare un feed di dati](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) da selezionare [!UICONTROL Plan Types].
+[Crea un feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) di dati da selezionare [!UICONTROL Plan Types].
 
 ![](assets/plan_types.png)
 
-## Plan Types and Use Case Options {#plan-types-use-cases}
+## Tipi di piano e opzioni caso di utilizzo {#plan-types-use-cases}
 
 <!-- c_feed_options.xml -->
 
-[!UICONTROL Use Case] Le impostazioni consentono ai venditori di controllare in che modo gli acquirenti possono utilizzare i dati.
+Le [!UICONTROL Use Case] impostazioni consentono ai venditori di controllare in che modo gli acquirenti possono utilizzare i tuoi dati.
 
 ### Segmenti e sovrapposizione
 
-A **[!UICONTROL Segments and Overlap]** use case creates a plan that lets buyers compare trait data in a [trait-to-trait overlap report](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report). Furthermore, buyers can add your data to segments and make comparisons with the [segment-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) and [segment-to-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) reports.
+Un caso **[!UICONTROL Segments and Overlap]** d’uso crea un piano che consente agli acquirenti di confrontare i dati delle caratteristiche in un rapporto [di sovrapposizione](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)caratteristiche-caratteristiche. Inoltre, gli acquirenti possono aggiungere i tuoi dati ai segmenti e fare confronti con i rapporti [segmento-tratto](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) .
 
-Each data feed must include at least one [!UICONTROL Segments and Overlap] use case. Buyers cannot subscribe to other plans in a data feed if the feed does not contain a [!UICONTROL Segments and Overlap] use case, either by itself or in combination with another use case.
+Ogni feed di dati deve includere almeno un caso di [!UICONTROL Segments and Overlap] utilizzo. Gli acquirenti non possono sottoscrivere altri piani in un feed di dati se il feed non contiene un caso di [!UICONTROL Segments and Overlap] utilizzo, né in se stesso né in combinazione con un altro caso di utilizzo.
 
 I confronti di sovrapposizione possono aiutare gli acquirenti:
 
-* **Ampliare la portata dell'audience:** La sovrapposizione Bassa suggerisce che le caratteristiche contengano utenti che l'acquirente non ha visto prima. Di conseguenza, gli acquirenti potrebbero desiderare che queste caratteristiche aggiungano nuovi utenti ai loro segmenti di pubblico.
-* **Ottimizzazione dell'audience esistente:** La sovrapposizione alta suggerisce che le caratteristiche contengano utenti simili a quelli già noti a un acquirente. Di conseguenza, gli acquirenti potrebbero desiderare di utilizzare queste caratteristiche per aiutare a apportare miglioramenti mirati e incrementali al pubblico sviluppato.
+* **** Amplia il pubblico: Una sovrapposizione bassa indica che le caratteristiche contengono utenti che l'acquirente non ha visto prima. Di conseguenza, gli acquirenti potrebbero desiderare che queste caratteristiche aggiungessero nuovi utenti ai loro segmenti di pubblico.
+* **** Ottimizzazione dell'audience esistente: Un'elevata sovrapposizione suggerisce che le caratteristiche contengono utenti simili a quelli già noti da un acquirente. Di conseguenza, gli acquirenti potrebbero desiderare che queste caratteristiche contribuissero a migliorare in modo mirato e incrementale le audience sviluppate.
 
-Prezzo di questo esempio di utilizzo:
+Prezzo questo caso di utilizzo come segue:
 
-* Unità di misura: Tariffa flat
-* Prezzo: Gratuito ($ 0.00)
+* Unità di misura: Tariffa forfettaria
+* Prezzo: Gratuito ($0.00)
 
 ### Modellazione
 
-A **[!UICONTROL Modeling]** use case creates a plan that lets buyers compare your traits to theirs with [algorithmic modeling](../../../features/algorithmic-models/understanding-models.md#understanding-models). Gli acquirenti guardano i risultati del modello per trovare nuovi tipi di pubblico nei dati che condividono attributi di conversione simili. Prezzo di questo esempio di utilizzo:
+Un caso di **[!UICONTROL Modeling]** utilizzo crea un piano che consente agli acquirenti di confrontare le proprie caratteristiche con le proprie con la modellazione [](../../../features/algorithmic-models/understanding-models.md#understanding-models)algoritmica. Gli acquirenti guardano i risultati del modello per trovare nuove audience nei dati che condividono attributi di conversione simili a loro. Prezzo questo caso di utilizzo come segue:
 
-* Unità di misura: Tariffa flat
+* Unità di misura: Tariffa forfettaria
 * Prezzo: Prezzo scontato o prezzo di mercato
 
 ### Activation
 
-An **[!UICONTROL Activation]** use case lets buyers send data to a [destination](../../../features/destinations/destinations.md). Con questo caso d'uso, gli acquirenti non possono confrontare i dati con un rapporto di sovrapposizione o con un modello algoritmico. Prezzo di questo esempio di utilizzo:
+Un **[!UICONTROL Activation]** esempio di utilizzo consente agli acquirenti di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In questo caso di utilizzo, gli acquirenti non possono confrontare i dati con un rapporto di sovrapposizione o in un modello algoritmico. Prezzo questo caso di utilizzo come segue:
 
-* Unit of Measure: [!DNL CPM]
-* Price: [!DNL CPM] market rate
+* Unità di misura: [!DNL CPM]
+* Prezzo: [!DNL CPM] tasso di mercato
 
-## Billing and Price Options {#billing}
+## Opzioni fatturazione e prezzo {#billing}
 
-Le opzioni di fatturazione e prezzo controllano in che modo gli acquirenti pagano i dati.
+Le opzioni di fatturazione e di prezzo controllano il modo in cui gli acquirenti pagano i tuoi dati.
 
 <table id="table_CCEAAF24295942EA82F20753827D1A23"> 
  <thead> 
@@ -149,66 +149,66 @@ Le opzioni di fatturazione e prezzo controllano in che modo gli acquirenti pagan
  <tbody> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Ciclo di fatturazione</span></b> </td> 
-   <td colname="col2"> <b><span class="uicontrol"> Mensile in Mora</span></b> è l'unica opzione. Il ciclo di fatturazione termina il 10 di ogni mese. </td> 
+   <td colname="col2"> <b><span class="uicontrol"> Mensile in Arrears</span></b> è l'unica opzione. Il ciclo di fatturazione termina il 10° giorno di ogni mese. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Unità di misura</span></b> </td> 
-   <td colname="col2">Addebitare gli acquirenti di dati a una tariffa CPM o a una tariffa semplice. 
+   <td colname="col2">Addebitare gli acquirenti di dati a un tasso CPM o a una tariffa forfettaria. 
     <ul id="ul_D5F125E0F7364C568D9F3107E090059D"> 
-     <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> Con prezzi CPM, gli acquirenti di dati sono necessari per l'uso autonomo. </li> 
-     <li id="li_DFED3194854A492F9DD0E7BA1A655E96">Prezzi con tariffe piatte, gli acquirenti di dati non vengono utilizzati per il report perché vengono addebitati una tariffa fissa. </li> 
+     <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> Con il prezzo di CPM, gli acquirenti di dati devono effettuare una segnalazione automatica dell’utilizzo. </li> 
+     <li id="li_DFED3194854A492F9DD0E7BA1A655E96">Con tariffe forfettarie, gli acquirenti di dati non segnalano l'utilizzo perché a loro viene addebitato un tasso fisso. </li> 
     </ul> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Prezzo</span></b> </td>
-   <td colname="col2"> Importo addebitato dal venditore come prezzo CPM o prezzo tariffa semplice, in dollari. </td>
+   <td colname="col2"> L'importo che un venditore addebita all'acquirente come tasso CPM o prezzo a tariffa fissa, in dollari. </td>
   </tr> 
  </tbody> 
 </table>
 
-## Plan Notes {#plan-notes}
+## Note piano {#plan-notes}
 
-In the **[!UICONTROL Additional Notes]** field, take some time to describe each data plan in a feed. Una breve descrizione dettagliata aiuta gli acquirenti a capire il contenuto o lo scopo di ogni piano in un feed di dati. Gli acquirenti possono leggere feed di dati e descrizioni pianificate durante la ricerca o la valutazione di nuove origini dati.
+Nel **[!UICONTROL Additional Notes]** campo, Dedica un po' di tempo a descrivere ogni piano dati in un feed. Una breve descrizione valida aiuta gli acquirenti a comprendere il contenuto o lo scopo di ciascun piano in un feed di dati. Gli acquirenti possono leggere il feed di dati e le descrizioni del piano durante la ricerca o la valutazione di nuove origini dati.
 
-## Manage Private Data Feed Requests {#manage-private-requests}
+## Gestisci richieste feed di dati privati {#manage-private-requests}
 
-Flussi di lavoro fornitori per la gestione delle richieste di feed private dagli acquirenti.
+Flussi di lavoro dei fornitori per la gestione delle richieste di feed privati da parte degli acquirenti.
 
-To review, approve, or reject buyer requests, go to [!UICONTROL My Shared Data] and:
+Per esaminare, approvare o rifiutare le richieste dell'acquirente, vai a [!UICONTROL My Shared Data] e:
 
 <!-- t_private_feed_workflows.xml -->
 
-1. Fai clic sul nome del feed di dati privato.
-2. Click **[!UICONTROL Access Requests]** to review all the buyers who want access to your data feed.
-3. In the [!UICONTROL Allow Access] section of each request box, click the check mark to approve a request or the X to deny access.
-4. Conferma o annulla l'azione selezionata nel popup di conferma.
+1. Fate clic sul nome del feed di dati privato.
+2. Fare clic **[!UICONTROL Access Requests]** per controllare tutti gli acquirenti che desiderano accedere al feed di dati.
+3. Nella [!UICONTROL Allow Access] sezione di ogni casella di richiesta, fate clic sul segno di spunta per approvare una richiesta o sulla X per negare l’accesso.
+4. Conferma o annulla l’azione selezionata nella finestra a comparsa di conferma.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
 >* [Feed dati privati](../../../features/audience-marketplace/marketplace-private-feeds.md)
 
 
-## Discounts for Data Providers {#discounts}
+## Sconti per provider di dati {#discounts}
 
-In [!UICONTROL Audience Marketplace], discounts let you reduce the published price of a data feed for individual subscribers. Potete offrire sconti agli utenti iscritti che hanno inviato una richiesta di iscrizione o agli abbonati che hanno richiesto dettagli su un feed di dati. Discounts apply to [!DNL CPM] and flat rate feeds. Gli sconti possono essere utili quando desideri fornire incentivi di iscrizione per nuovi clienti o per premiare la fidelizzazione dei clienti.
+Inoltre, [!UICONTROL Audience Marketplace]gli sconti consentono di ridurre il prezzo pubblicato di un feed di dati per singoli utenti. Potete offrire sconti agli abbonati che hanno inoltrato una richiesta di iscrizione o agli abbonati che hanno richiesto dettagli su un feed di dati. Gli sconti si applicano ai feed [!DNL CPM] e ai feed a tasso fisso. Gli sconti possono essere utili quando si desidera offrire incentivi per l'abbonamento ai nuovi clienti o premiare la fedeltà dei clienti.
 
-## Apply Discounts to a Data Feed {#apply-discounts}
+## Applicazione di sconti a un feed di dati {#apply-discounts}
 
 <!-- marketplace-seller-discounts.xml -->
 
-Per sconto su un feed, aggiungi un importo di sconto come % al campo sconto e conferma le modifiche. Data providers can discount a data feeds in [!UICONTROL Audience Marketplace] from either:
+Per applicare lo sconto a un feed, aggiungi un importo di sconto come % al campo di sconto e conferma le modifiche. I provider di dati possono effettuare uno sconto sui feed di dati [!UICONTROL Audience Marketplace] da:
 
 * **[!UICONTROL My Shared Data > Potential Subscribers]**
 * **[!UICONTROL My Shared Data > Details Requests]**
 
-In these examples, the seller has added 10% discount to the [!UICONTROL Software Audience] data feed.
+In questi esempi, il venditore ha aggiunto uno sconto del 10% al feed di [!UICONTROL Software Audience] dati.
 
 ![](assets/potential_subscribers.png)
 
 ![](assets/detail_requests.png)
 
-## Review Discounted Feeds {#review-discounted-feeds}
+## Rivedi feed scontati {#review-discounted-feeds}
 
-Data providers can see all of their subscribers and discounted feeds in **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
+I provider di dati possono vedere tutti i loro abbonati e feed scontati in **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
 ![](assets/subscribers.png)
