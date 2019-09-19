@@ -1,33 +1,33 @@
 ---
-description: API e toolkit che consentono di lavorare a livello di programmazione con Audience Manager.
-seo-description: API e toolkit che consentono di lavorare a livello di programmazione con Audience Manager.
-seo-title: API e codice SDK
-keywords: 'api, api, api, api, api, api, api, api, api, api '
+description: API e toolkit che consentono di lavorare in modo programmatico con Audience Manager.
+seo-description: API e toolkit che consentono di lavorare in modo programmatico con Audience Manager.
+seo-title: Codice API e SDK
+keywords: 'api, api, api, api, api, api, api, api, api, api, api '
 solution: Audience Manager
-title: API e codice SDK
-uuid: bf 801 e 84-f 914-4 efd -8807-c 4972474894 a
+title: Codice API e SDK
+uuid: bf801e84-f914-4efd-8807-c4972474894a
 translation-type: tm+mt
 source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
 
-# API e codice SDK {#api-and-sdk-code}
+# Codice API e SDK {#api-and-sdk-code}
 
-[!DNL API]s and toolkit that allows you work programmatically with Audience Manager.
+[!DNL API]s e toolkit che consentono di lavorare in modo programmatico con Audience Manager.
 
 >[!NOTE]
 >
->Queste funzioni non sono supportate dai [!DNL API]nostri s:
+>Queste funzioni non sono supportate dai nostri [!DNL API]sistemi:
 >
 >* [!UICONTROL General], [!UICONTROL Trend]e [!UICONTROL Interactive] rapporti.
->* Funzionalità obsoleta Gestione tag ([!DNL TIM]).
+>* Funzionalità Tag Insertion Manager ([!DNL TIM]) obsoleta.
 
 
 Dettagli:
 
 * [Migrazione dei codici API di Audience Manager](api-swagger-migration.md)
-* [API di chiamata evento DCS](dcs-intro/dcs-event-calls/dcs-event-calls.md)
-* [API DCS per trasferimenti di dati server-to-server](dcs-intro/dcs-s2s/dcs-s2s.md)
+* [API DCS Event Call](dcs-intro/dcs-event-calls/dcs-event-calls.md)
+* [API DCS per trasferimenti di dati da server a server](dcs-intro/dcs-s2s/dcs-s2s.md)
 * [Metodi API DCS](dcs-intro/dcs-api-reference/dcs-api-methods.md)
 * [Codice SDK](/help/using/api/aam-sdk.md)
