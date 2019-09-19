@@ -1,59 +1,59 @@
 ---
-description: Questo rapporto restituisce un elenco di caratteristiche realizzate almeno 10,000 volte nei 30 giorni precedenti alle date selezionate e una deviazione standard maggiore o uguale a 1.7 in entrambe le direzioni rispetto alla stessa intervallo temporale. Il rapporto consente di valutare il modo in cui il numero di impression degli utenti unici di una caratteristica fluttua nel tempo.
-seo-description: Questo rapporto restituisce un elenco di caratteristiche realizzate almeno 10,000 volte nei 30 giorni precedenti alle date selezionate e una deviazione standard maggiore o uguale a 1.7 in entrambe le direzioni rispetto alla stessa intervallo temporale. Il rapporto consente di valutare il modo in cui il numero di impression degli utenti unici di una caratteristica fluttua nel tempo.
-seo-title: Report sulle caratteristiche giornaliere
+description: Questo rapporto restituisce un elenco di caratteristiche che sono state realizzate almeno 10.000 volte nei 30 giorni precedenti le date selezionate e hanno una deviazione standard maggiore o uguale a 1,7 in entrambe le direzioni nello stesso intervallo di tempo. Il rapporto consente di valutare il modo in cui il numero di impression di utenti univoci in una caratteristica varia nel tempo.
+seo-description: Questo rapporto restituisce un elenco di caratteristiche che sono state realizzate almeno 10.000 volte nei 30 giorni precedenti le date selezionate e hanno una deviazione standard maggiore o uguale a 1,7 in entrambe le direzioni nello stesso intervallo di tempo. Il rapporto consente di valutare il modo in cui il numero di impression di utenti univoci in una caratteristica varia nel tempo.
+seo-title: Report Variazione caratteristica giornaliera
 solution: Audience Manager
-title: Report sulle caratteristiche giornaliere
-uuid: 4 e 82 bb 17-d 447-4 ed 1-a 4 fc-e 15 b 0 f 1 b 47 f 0
+title: Report Variazione caratteristica giornaliera
+uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 translation-type: tm+mt
 source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
 
 ---
 
 
-# Daily Trait Variation Report {#daily-trait-variation-report}
+# Report Variazione caratteristica giornaliera {#daily-trait-variation-report}
 
-Questo rapporto restituisce un elenco di caratteristiche realizzate almeno 10,000 volte nei 30 giorni precedenti alle date selezionate e una deviazione standard maggiore o uguale a 1.7 in entrambe le direzioni rispetto alla stessa intervallo temporale. Il rapporto consente di valutare il modo in cui il numero di impression degli utenti unici di una caratteristica fluttua nel tempo.
+Questo rapporto restituisce un elenco di caratteristiche che sono state realizzate almeno 10.000 volte nei 30 giorni precedenti le date selezionate e hanno una deviazione standard maggiore o uguale a 1,7 in entrambe le direzioni nello stesso intervallo di tempo. Il rapporto consente di valutare il modo in cui il numero di impression di utenti univoci in una caratteristica varia nel tempo.
 
 >[!NOTE]
 >
->Il rapporto sulla variazione giornaliera delle caratteristiche in Audience Manager rispetta i principi RBAC. You can only see traits from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>Il report Daily Trait Variation (Variazione caratteristica giornaliera) in Audience Manager rispetta i principi RBAC. Potete visualizzare solo le caratteristiche provenienti da origini dati a cui avete accesso in base al gruppo [di utenti](/help/using/features/administration/administration-overview.md) RBAC a cui appartenete.
 
-Deviazione standard misura la quantità di variazione o dispersione dalla media (o valore medio/previsto). Una deviazione standard bassa indica che i punti dati tendono a essere molto vicini al significato. Una deviazione standard elevata indica che i punti dati si estendono su un'ampia gamma di valori.
+La deviazione standard misura la quantità di variazione o dispersione dalla media (o dal valore medio/previsto). Una deviazione standard bassa indica che i punti dati tendono ad essere molto vicini alla media. Una deviazione standard elevata indica che i punti dati sono distribuiti su un ampio intervallo di valori.
 
 ![](assets/daily_trait_variation.png)
 
-Use the [!UICONTROL Date] list to select one or more dates for your report. Nella parte inferiore dell'elenco viene visualizzato un grafico a barre con codifica colori che fornisce un rappresentante visivo dell'intervallo di deviazione standard per tutte le date selezionate. La linea verticale nera indica il significato.
+Utilizza l’ [!UICONTROL Date] elenco per selezionare una o più date per il rapporto. Nella parte inferiore dell’elenco viene visualizzato un grafico a barre con colori che rappresenta visivamente l’intervallo di deviazione standard per tutte le caratteristiche di tutte le date selezionate. La linea verticale nera indica la media.
 
-The middle column contains a list of traits, identified by [!UICONTROL Trait ID] and [!UICONTROL Trait Name]. Fate clic su una caratteristica per accedere a una finestra di dialogo a comparsa che consente di selezionare le opzioni seguenti:
+La colonna centrale contiene un elenco di caratteristiche, identificate da [!UICONTROL Trait ID] e [!UICONTROL Trait Name]. Fate clic su una caratteristica per accedere a una finestra di dialogo a comparsa che consente di selezionare una delle seguenti opzioni:
 
-* **Mantieni solo:** Rimuove tutte le altre caratteristiche dal rapporto e visualizza i dati solo per questa caratteristica.
-* **Escludi:** Rimuove questa caratteristica dal rapporto e visualizza i dati per tutte le altre caratteristiche. Potete escludere più caratteristiche.
-* **Visualizza dati:** Consente di visualizzare i dati per la riga. È inoltre possibile scaricare tutte le righe come file di testo.
+* **** Mantieni solo: Rimuove tutte le altre caratteristiche dal rapporto e visualizza i dati solo per questa caratteristica.
+* **** Escludi: Rimuove questa caratteristica dal rapporto e visualizza i dati per tutte le altre caratteristiche. Potete escludere più caratteristiche.
+* **** Visualizza dati: Consente di visualizzare i dati per la riga. È inoltre possibile scaricare tutte le righe come file di testo.
 
-The [!UICONTROL Standard Deviation] column displays color-coded bar charts that display the standard deviation for each trait over the selected interval. Le barre rosse indicano caratteristiche con deviazione standard negativa (i punti dati tendono ad essere sotto la media). Le barre verdi indicano caratteristiche con deviazione standard positiva (i punti dati tendono ad essere superiori alla significata). Passate il puntatore del mouse su una barra per visualizzare una finestra di dialogo a comparsa con ulteriori informazioni e opzioni per mantenere o escludere tale caratteristica e visualizzare ulteriori informazioni.
+La [!UICONTROL Standard Deviation] colonna presenta grafici a barre con colori che mostrano la deviazione standard per ogni caratteristica nell’intervallo selezionato. Le barre rosse indicano caratteristiche con una deviazione standard negativa (i punti dati tendono a essere inferiori alla media). Le barre verdi indicano caratteristiche con una deviazione standard positiva (i punti dati tendono ad essere al di sopra della media). Passate il puntatore del mouse su una barra per visualizzare una finestra di dialogo a comparsa con ulteriori informazioni e opzioni per mantenere o escludere tale caratteristica e visualizzare ulteriori informazioni.
 
-Nella parte inferiore del rapporto sono visualizzate le icone che consentono di esportare i dati in vari formati, ripristinare le modifiche eventualmente apportate al rapporto (ad esempio escludendo le caratteristiche), abilitare o disabilitare gli aggiornamenti automatici e aggiornare i dati del rapporto. See [Report Icons and Tools Explained](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
+Nella parte inferiore del rapporto sono visualizzate delle icone che consentono di esportare i dati in vari formati, ripristinare eventuali modifiche apportate al rapporto (ad esempio escludendo le caratteristiche), attivare o disattivare gli aggiornamenti automatici e aggiornare i dati del rapporto. Consultate [Icone e strumenti del rapporto spiegati](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
 
 ## Casi d'uso {#use-cases}
 
-**Esempio # 1**: Questo rapporto può essere molto utile nelle situazioni in cui si hanno caratteristiche con un livello di stagionalità elevato. Ad esempio, supponiamo che l'archivio online stia testando promozioni stagionali di diversi tipi e prezzi. You have the following traits defined in [!DNL Audience Manager]:
+**Esempio n. 1**: questo rapporto può essere molto utile in situazioni in cui hai caratteristiche con un alto livello di stagionalità. Ad esempio, supponiamo che il vostro negozio online stia testando promozioni stagionali di vari tipi e prezzi. Sono state definite le seguenti caratteristiche in [!DNL Audience Manager]:
 
 * `productPage == "December Promotion"`
 * `price > "500"`
 
-Say you run the [!UICONTROL Daily Trait Variation] report on the 20th of December and you notice a solid positive deviation on the above mentioned traits in the past 30 days. Ciò suggerisce ai visitatori di cercare i prodotti indicati nella promozione stagionale. Per capitalizzare questa tendenza, potete investire più sforzi nel targeting delle credenziali per quella specifica categoria di prodotti sui visitatori interessati.
+Supponiamo che eseguiate il [!UICONTROL Daily Trait Variation] rapporto il 20 dicembre e che notiate una deviazione positiva significativa sulle caratteristiche sopra menzionate negli ultimi 30 giorni. Questo può suggerire che i visitatori stiano cercando i prodotti indicati nella promozione stagionale. Per sfruttare questa tendenza, potete quindi investire di più nel targeting di creativi per quella specifica categoria di prodotti per i visitatori che sono interessati a loro.
 
-**Esempio # 2**: Questo rapporto può facilitare l'identificazione delle anomalie di targeting correlate a problemi di tag o a configurazioni sbagliate. Immagina di aver definito le caratteristiche seguenti in base alle categorie del negozio online:
+**Esempio n. 2**: questo rapporto può essere utile per identificare le anomalie di targeting relative a problemi di tag o configurazioni errate delle caratteristiche. Immaginate di aver definito la seguente caratteristica in base alle categorie del vostro negozio online:
 
 * `productPage == "smartphones"`
 
-A causa di una riconfigurazione dello store, la pagina smartphone viene suddivisa in più pagine, in base ai nomi dei marchi. However, you forget to update the traits defined in [!DNL Audience Manager].
+A causa di una riconfigurazione dello store, la pagina degli smartphone viene suddivisa in più pagine, in base ai nomi dei marchi. Tuttavia, si dimentica di aggiornare le caratteristiche definite in [!DNL Audience Manager].
 
-One month later, you run the [!UICONTROL Daily Trait Variation] report and notice a large negative deviation on the `productPage == "smartphones"` trait, although your visitor number has increased, according to your site analytics. Based on this information, you realize that you haven't updated the traits in [!DNL Audience Manager] for your new product pages, so you know that you need to create the following traits:
+Un mese dopo, esegui il [!UICONTROL Daily Trait Variation] rapporto e noti un'ampia deviazione negativa sulla `productPage == "smartphones"` caratteristica, anche se il numero del visitatore è aumentato, in base all'analisi del sito. In base a queste informazioni, ti rendi conto che non hai aggiornato le caratteristiche [!DNL Audience Manager] per le nuove pagine di prodotto, quindi sai che devi creare le caratteristiche seguenti:
 
-* Productpage = = "samsung"
-* Productpage = = "apple"
-* Productpage = = "huawei"
+* productPage == "samsung"
+* productPage == "apple"
+* productPage == "huawei"
 
-In tal modo, visualizzerai il pubblico idoneo per le caratteristiche appena create.
+Una volta effettuata questa operazione, il pubblico sarà in grado di soddisfare le caratteristiche appena create.
