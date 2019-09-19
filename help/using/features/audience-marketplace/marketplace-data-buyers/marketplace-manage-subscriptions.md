@@ -1,93 +1,93 @@
 ---
-description: Marketplace è il luogo in cui gli acquirenti di dati vanno alla ricerca e si iscrivono a feed di dati pubblici e privati. Segui questi passaggi per abbonarti a un feed di dati pubblico.
-seo-description: Marketplace è il luogo in cui gli acquirenti di dati vanno alla ricerca e si iscrivono a feed di dati pubblici e privati. Segui questi passaggi per abbonarti a un feed di dati pubblico.
-seo-title: Gestione sottoscrizioni feed dati
+description: Il Marketplace è il luogo in cui gli acquirenti di dati vanno alla ricerca e si iscrivono ai feed di dati pubblici e privati. Seguite i passaggi indicati per effettuare la sottoscrizione a un feed di dati pubblico.
+seo-description: Il Marketplace è il luogo in cui gli acquirenti di dati vanno alla ricerca e si iscrivono ai feed di dati pubblici e privati. Seguite i passaggi indicati per effettuare la sottoscrizione a un feed di dati pubblico.
+seo-title: Gestisci sottoscrizioni feed dati
 solution: Audience Manager
-title: Gestione sottoscrizioni feed dati
+title: Gestisci sottoscrizioni feed dati
 topic: API DIL
-uuid: 7305 adb 6-cbb 8-4430-8204-2243095 c 0 ba 5
+uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
 source-git-commit: 49cedeb25e524bf13dc9e17b4674e3b27e42a1a9
 
 ---
 
 
-# Manage Data Feed Subscriptions {#manage-data-feed-subscriptions}
+# Gestisci sottoscrizioni feed dati {#manage-data-feed-subscriptions}
 
-The [!UICONTROL Marketplace] is where data buyers go to research and subscribe to public and private data feeds. Segui questi passaggi per abbonarti a un feed di dati pubblico.
+È [!UICONTROL Marketplace] il luogo dove gli acquirenti di dati vanno a ricerca e si iscrivono ai feed di dati pubblici e privati. Seguite i passaggi indicati per effettuare la sottoscrizione a un feed di dati pubblico.
 
-## Subscribe to a Public Data Feed {#subscript-public-data-feed}
+## Iscriviti a un feed di dati pubblici {#subscript-public-data-feed}
 
-The [!UICONTROL Marketplace] is where data buyers go to research and subscribe to public and private data feeds. Segui questi passaggi per abbonarti a un feed di dati pubblico.
+È [!UICONTROL Marketplace] il luogo dove gli acquirenti di dati vanno a ricerca e si iscrivono ai feed di dati pubblici e privati. Seguite i passaggi indicati per effettuare la sottoscrizione a un feed di dati pubblico.
 
 <!-- t_subscribe_feed.xml -->
 
-Per sottoscrivere un feed di dati pubblico:
+Per effettuare la sottoscrizione a un feed di dati pubblico:
 
-1. **[!UICONTROL Audience Marketplace > Marketplace]** Vai a. Utilizzate la funzione di ricerca o sfogliate l'elenco per trovare un feed di dati.
+1. Vai a **[!UICONTROL Audience Marketplace > Marketplace]**. Utilizzate la funzione di ricerca o sfogliate l'elenco per trovare un feed di dati.
 
    ![](assets/subscribe1.png)
 
-1. Fare clic sul nome del feed di dati che si desidera utilizzare. This opens the [plan details page](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) for the selected feed.
+1. Fare clic sul nome del feed di dati che si desidera utilizzare. Viene visualizzata la pagina [dei dettagli del](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) piano per il feed selezionato.
 
    ![](assets/plan-details.png)
 
-1. Scegliete un caso d'uso dalla tabella iscrizioni e:
-   * Move the **[!UICONTROL Subscription]** slider to **[!UICONTROL On]**.
-   * Fai clic su **[!UICONTROL Review & Subscribe]**. This opens the [!UICONTROL Terms and Conditions] window.
+1. Scegliete un caso di utilizzo dalla tabella Iscrizioni e:
+   * Spostate il **[!UICONTROL Subscription]** cursore su **[!UICONTROL On]**.
+   * Fai clic su **[!UICONTROL Review & Subscribe]**. Questo apre la [!UICONTROL Terms and Conditions] finestra.
    ![](assets/subscribe3.png)
 
-1. In the [!UICONTROL Terms and Conditions] window:
+1. Nella [!UICONTROL Terms and Conditions] finestra:
 
-   * **Importante:** Lasciate la casella **[!UICONTROL ID sync]** di controllo selezionata. Questa impostazione consente di migliorare le percentuali di corrispondenza con il fornitore di dati.
-   * Check the terms and conditions box and click **[!UICONTROL Accept]** to complete the subscription process.
+   * **** Importante: Lasciate selezionata la **[!UICONTROL ID sync]** casella di controllo. Questa impostazione consente di migliorare le percentuali di corrispondenza con il provider di dati.
+   * Selezionate la casella Termini e condizioni e fate clic **[!UICONTROL Accept]** per completare il processo di iscrizione.
    ![](assets/subscribe4.png)
 
 ### Passaggi successivi
 
-Dopo aver effettuato l'iscrizione a un feed di dati:
+Dopo aver effettuato la sottoscrizione a un feed di dati:
 
-* Verify the subscription by checking your [!UICONTROL Traits] folder. See [Storage for Subscribed Data Feeds](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
+* Verifica l’iscrizione controllando la [!UICONTROL Traits] cartella. Consultate [Archiviazione per feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee)di dati con iscrizione.
 
 * Consulta la documentazione di fatturazione e pagamento. Vedi i collegamenti correlati di seguito.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
->* [Fatturazione e allocazione impression per feed dati CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Fatturazione e allocazione impression per feed dati flat](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Come generare report sull'utilizzo CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [Allocazione fatturazione e impressione per feed di dati CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Allocazione fatturazione e impressione per feed di dati a tariffa fissa](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [Come segnalare l’utilizzo di CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 
 
-## Subscribe to a Private Data Feed {#subscript-private-data-feed}
+## Iscriviti a un feed di dati privato {#subscript-private-data-feed}
 
-Buyers subscribe to private data feeds and plans in **[!UICONTROL Audience Marketplace > Marketplace]**.
+Gli acquirenti si iscrivono ai feed di dati privati e ai piani in **[!UICONTROL Audience Marketplace > Marketplace]**.
 
 <!-- t_private_feed.xml -->
 
 >[!TIP]
 >
->A volte i fornitori di dati possono offrire uno sconto su un feed di dati privato. Potrebbe essere utile chiedere un possibile sconto durante l'invio della richiesta di iscrizione.
+>A volte i provider di dati possono offrire uno sconto su un feed di dati privato. Potrebbe essere utile richiedere informazioni su un possibile sconto quando si invia la richiesta di iscrizione.
 
-Per sottoscrivere un feed di dati privato:
+Per effettuare la sottoscrizione a un feed di dati privato:
 
-1. Click the data feed name in the [!UICONTROL Marketplace].
-1. Fai clic su **[!UICONTROL Request Access]**. Viene aperta la finestra di dialogo della richiesta.
-1. In the request dialog box, write the provider a note expressing your interest in their data feed and click **[!UICONTROL Send]**. Il venditore controlla il messaggio e approva o rifiuta la richiesta. While waiting for approval, "Requested" appears in the [!UICONTROL Marketplace] list for that data feed.
+1. Fate clic sul nome del feed di dati nel pannello [!UICONTROL Marketplace].
+1. Fai clic su **[!UICONTROL Request Access]**. Viene visualizzata la finestra di dialogo di richiesta.
+1. Nella finestra di dialogo di richiesta, scrivere al fornitore una nota che esprima il proprio interesse per il feed di dati e fare clic **[!UICONTROL Send]**. Il venditore rivede il messaggio e approva o rifiuta la richiesta. In attesa di approvazione, nell' [!UICONTROL Marketplace] elenco del feed di dati viene visualizzato "Richiesto".
 
-   * **[!UICONTROL Request approved]**: Lo stato nell [!UICONTROL Marketplace] 'elenco diventa «Accesso concesso» e riceverai una notifica automatizzata. A questo punto, potete abbonarvi al feed. See [Subscribe to a Public Data Feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) for instructions.
-   * **[!UICONTROL Request denied]**: Il testo "Obbligatorio" viene rimosso dall' [!UICONTROL Marketplace] elenco del feed. Potete effettuare nuovamente l'iscrizione o scegliere un altro feed.
+   * **[!UICONTROL Request approved]**: Lo stato nell’ [!UICONTROL Marketplace] elenco diventa "Accesso concesso" e riceverete una notifica automatica. A questo punto è possibile abbonarsi al feed. Per istruzioni, consulta [Iscrizione a un feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) di dati pubblici.
+   * **[!UICONTROL Request denied]**: Il testo "Richiesto" viene rimosso dall' [!UICONTROL Marketplace] elenco del feed. Potete provare a registrarvi nuovamente o scegliere un feed diverso.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
->* [Iscriviti a un feed dati pubblico](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [Iscriviti a un feed di dati pubblici](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
 >* [Sconti per gli acquirenti di dati](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
 
 
-## Data Feed Discounts for Buyers {#buyer-discount}
+## Sconti feed dati per gli acquirenti {#buyer-discount}
 
-In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on the published price of a [!DNL CPM] or flat rate data feed. However, discount amounts aren't visible to buyers in the [!DNL Marketplace] feed list. Tuttavia, potete anche richiedere uno sconto quando vi iscrivete a un feed di dati privato o quando richiedete ulteriori informazioni su un particolare feed.
+In [!UICONTROL Audience Marketplace]questo caso, i fornitori possono offrire agli acquirenti uno sconto sul prezzo pubblicato di un feed di dati [!DNL CPM] o a tasso fisso. Tuttavia, gli importi di sconto non sono visibili agli acquirenti nell'elenco dei [!DNL Marketplace] feed. Tuttavia, potete anche chiedere uno sconto quando effettuate la sottoscrizione a un feed di dati privato o quando richiedete ulteriori informazioni su un particolare feed.
 
-## Request a Discount {#request-discount}
+## Richiesta di uno sconto {#request-discount}
 
 <!-- marketplace-buyer-discounts.xml -->
 
@@ -100,106 +100,106 @@ In [!UICONTROL Audience Marketplace], providers can offer buyers a discount on t
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Abbonati correnti</b> </p> </td> 
+   <td colname="col1"> <p> <b>Sottoscrittori correnti</b> </p> </td> 
    <td colname="col2"> <p>Se hai già effettuato la sottoscrizione a un feed di dati privato e vuoi richiedere uno sconto: </p> 
     <ol id="ol_A58D419EBB9349E9B1225202535130F6"> 
      <li id="li_D0DDC8AC6E9C4675AA4630D63FE8F071"> <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe"> Annulla sottoscrizione</a> al feed di dati. </li> 
-     <li id="li_05A5379F2A944FB28AB39C196DDE3A1D">Contatta il provider di dati e richiedi un prezzo scontato. </li> 
-     <li id="li_B1B5AA6F6CC64512A02D5E8861A5F266">If the provider gives you a discount, re-subscribe to the feed on the 1<sup>st</sup> day of the next month. </li> 
+     <li id="li_05A5379F2A944FB28AB39C196DDE3A1D">Contattate il fornitore di dati e richiedete un prezzo scontato. </li> 
+     <li id="li_B1B5AA6F6CC64512A02D5E8861A5F266">Se il fornitore vi offre uno sconto, registratevi nuovamente al feed il 1<sup>esimo</sup> giorno del mese successivo. </li> 
     </ol> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Nuovi abbonati a feed dati privati</b> </p> </td> 
-   <td colname="col2"> <p>Richiedete uno sconto nella richiesta di iscrizione. See <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed"> Subscribe to a Private Data Feed</a>. </p> </td>
+   <td colname="col1"> <p> <b>Nuovi Sottoscrittori feed dati privati</b> </p> </td> 
+   <td colname="col2"> <p>Chiedete uno sconto nella vostra richiesta di iscrizione. Consultate <a href="../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed"> Iscrizione a feed</a>dati privati. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Potenziali sottoscrittori</b> </p> </td> 
-   <td colname="col2"> <p>A <a href="../../../features/audience-marketplace/marketplace-private-feeds.md"> potential subscriber</a> is a data buyer who has requested access to a private data feed, received seller approval, but has not subscribed to the feed. Per richiedere uno sconto come potenziale utente iscritto: </p> 
+   <td colname="col2"> <p>Un <a href="../../../features/audience-marketplace/marketplace-private-feeds.md"> potenziale abbonato</a> è un acquirente di dati che ha richiesto l’accesso a un feed di dati privato, ha ricevuto l’approvazione del venditore, ma non ha effettuato la sottoscrizione al feed. Per richiedere uno sconto come potenziale abbonato: </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
-     <li id="li_618B64160CF24549AFCA73E006DCA35A">Go to <b><span class="uicontrol"> Audience Marketplace &gt; Marketplace</span></b>. </li> 
+     <li id="li_618B64160CF24549AFCA73E006DCA35A">Vai a <b><span class="uicontrol"> Audience Marketplace &gt; Marketplace</span></b>. </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">Fate clic sul nome del feed per il quale siete stati approvati. </li> 
-     <li id="li_763C050AC9464BE380D00F6085B6E540">Click <b><span class="uicontrol"> Request More Details</span></b>. Richiedete uno sconto nella richiesta di dettagli al venditore. </li> 
+     <li id="li_763C050AC9464BE380D00F6085B6E540">Fate clic su <b><span class="uicontrol"> Richiedi ulteriori dettagli</span></b>. Chiedi uno sconto nella richiesta di dettagli al venditore. </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Review Discounted Feeds {#review-discounted-feeds}
+## Rivedi feed scontati {#review-discounted-feeds}
 
 Per rivedere i feed scontati:
 
-1. **[!UICONTROL Audience Marketplace > Marketplace]** Vai a.
-1. Fai clic sul nome di un feed a cui hai già effettuato la sottoscrizione.
-1. Look at the [!UICONTROL Price] and [!UICONTROL Your Price] columns in the [!UICONTROL Plan Details] table. Se il feed viene svalutato:
+1. Vai a **[!UICONTROL Audience Marketplace > Marketplace]**.
+1. Fate clic sul nome di un feed a cui siete già iscritti.
+1. Osservare le [!UICONTROL Price] colonne e le [!UICONTROL Your Price] colonne della [!UICONTROL Plan Details] tabella. Se il feed è scontato:
 
-   * Il prezzo originale è contrassegnato da una linea rossa.
-   * The fee in the [!UICONTROL Your Price] column will be lower than the fee in the [!UICONTROL Price] column.
+   * Il prezzo originale è contrassegnato con una linea rossa.
+   * La tariffa nella [!UICONTROL Your Price] colonna sarà inferiore alla tariffa nella [!UICONTROL Price] colonna.
 
-In the example, the buyer gets a 10% discount on the [!UICONTROL Segments and Overlap] plan in the **[!UICONTROL Software Audience Feed]**.
+Nell'esempio, l'acquirente ottiene uno sconto del 10% sul [!UICONTROL Segments and Overlap] piano nel **[!UICONTROL Software Audience Feed]**.
 
 ![](assets/buyer-discount.png)
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
 >* [Marketplace: Informazioni](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
 
 
 ## Ricerca dei dati del feed sottoscritti {#find-subscribed-data-fee}
 
-I dati (caratteristiche) dei feed dati vengono visualizzati nelle proprie cartelle di memorizzazione delle caratteristiche. Go to **[!UICONTROL Audience Data > Traits]** and expand the **[!UICONTROL 3rd-Party Data]** folder to view and work with the traits in your subscribed feeds. Cerca la sottocartella denominata dopo il fornitore di dati. Queste includono cartelle denominate dopo le singole caratteristiche di feed di dati e elenco forniti dal feed.
+I dati (caratteristiche) per i feed di dati vengono visualizzati nelle relative cartelle di archiviazione caratteristiche. Andate a **[!UICONTROL Audience Data > Traits]** ed espandete la **[!UICONTROL 3rd-Party Data]** cartella per visualizzare e usare le caratteristiche dei feed sottoscritti. Cercare la sottocartella denominata dal provider di dati. che contengono cartelle denominate in base ai singoli feed di dati e alle caratteristiche dell'elenco fornite dal feed.
 
 <!-- marketplace-feed-storage.xml -->
 
 ![](assets/subscribe5.png)
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
->* [Iscriviti a un feed dati pubblico](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [Iscriviti a un feed di dati pubblici](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
 
 
-## Unsubscribe from a Data Feed {#unsubscribe}
+## Annulla sottoscrizione a un feed di dati {#unsubscribe}
 
-Data buyers unsubscribe from data feeds and plans in **[!UICONTROL Audience Marketplace > Marketplace]**.
+Gli acquirenti di dati annulla sottoscrizione a feed di dati e piani in **[!UICONTROL Audience Marketplace > Marketplace]**.
 
 <!-- t_unsubscribe_feed.xml -->
 
 Per annullare l'iscrizione a un feed di dati:
 
-1. Click the data feed name in the [!UICONTROL Marketplace].
-1. In the [!UICONTROL Use Case] section find the plan you want to use and move the **[!UICONTROL Subscription]** slider to **[!UICONTROL Off]**.
+1. Fate clic sul nome del feed di dati nel pannello [!UICONTROL Marketplace].
+1. Nella [!UICONTROL Use Case] sezione trovate il piano da usare e spostate il **[!UICONTROL Subscription]** cursore in **[!UICONTROL Off]**.
 
-## Data Feed Deactivation: Why It Happens and How to Respond {#data-feed-deactivation-reasons}
+## Disattivazione feed dati: Perché accade e come rispondere {#data-feed-deactivation-reasons}
 
-In [!UICONTROL Audience Marketplace], data providers can revoke access to your subscribed data feeds. Non allargarti se ti capita di farlo. We've have you covered. Leggi questa sezione per processi e procedure correlate alle disattivazione dei feed di dati.
+In [!UICONTROL Audience Marketplace]questo caso, i fornitori di dati possono revocare l'accesso ai feed di dati sottoscritti. Non essere allarmato se questo ti succede. Ti abbiamo coperto. Consulta questa sezione per i processi e le procedure relativi alle disattivazione dei feed di dati.
 
-## Common Reasons for Data Feed Deactivation {#reasons-for-deactivation}
+## Motivi comuni per la disattivazione dei feed di dati {#reasons-for-deactivation}
 
 <!-- marketplace-subscriber-deactivated.xml -->
 
-Potrebbe essere problematico o addirittura eccessivo se un feed a cui iscriviti viene disattivato. Tuttavia, i fornitori di dati possono disattivare un feed di dati per diversi motivi. Alcuni motivi comuni includono:
+Potrebbe essere sconcertante o anche sconvolgente se un feed con sottoscrizione viene spento. Tuttavia, i provider di dati possono disattivare un feed di dati per diversi motivi. Alcuni motivi comuni includono:
 
-* **Fatturazione:** I fornitori di dati disattiveranno un feed se si procede in modo coerente con pagamenti a pagamento o se non si pagano le tariffe.
-* **Aggiornamenti dei feed:** I fornitori di dati devono disattivare i feed quando aggiorna la tassonomia dei feed o le strutture costi.
-* **Acquirenti inattivi:** I fornitori di dati si riservano il diritto di disattivare i feed se gli utenti iscritti non mostrano spesa per un periodo di tempo prolungato.
-* **Venditori inattivi:** I fornitori di dati che abbandonano [!UICONTROL Audience Marketplace] ed elimineranno tutti i feed di dati.
+* **** Fatturazione: I provider di dati disattiveranno un feed se i pagamenti a pagamento a pagamento vengono eseguiti regolarmente in ritardo o se non paghi le tariffe.
+* **** Aggiornamenti feed: I provider di dati devono disattivare i feed quando aggiornano la tassonomia dei feed o le strutture di costo.
+* **** Acquirenti inattivi: I provider di dati si riservano il diritto di disattivare i feed se gli abbonati non mostrano alcuna spesa per un periodo di tempo prolungato.
+* **** Venditori inattivi: I provider di dati che se ne [!UICONTROL Audience Marketplace] andranno disattiveranno ed elimineranno tutti i feed di dati.
 
 >[!TIP]
 >
->Contatta direttamente il provider di dati se ritenete che un feed di dati sia stato disattivato per errore. Your [!DNL Adobe] consultant can help you with contact information or additional support.
+>Contatta direttamente il provider di dati se ritieni che un feed di dati sia stato disattivato per errore. Il [!DNL Adobe] consulente può fornire informazioni di contatto o ulteriore assistenza.
 
-## Deactivation Email {#deactivation-email}
+## E-mail di disattivazione {#deactivation-email}
 
-When a data provider deactivates one of your data feeds, [!DNL Audience Manager] sends an email to the users in your company who have [!UICONTROL Administrator] permissions. A volte i filtri e-mail classificano questo messaggio come spam. Di conseguenza, potrebbe mancare questa notifica importante. Per identificare il messaggio di disattivazione, questo messaggio e-mail contiene i seguenti elementi:
+Quando un provider di dati disattiva uno dei feed di dati, [!DNL Audience Manager] invia un messaggio e-mail agli utenti della società che dispongono [!UICONTROL Administrator] delle autorizzazioni. Talvolta i filtri e-mail classificano il messaggio come spam. Di conseguenza, potresti perdere questa importante notifica. Per facilitare l’identificazione del messaggio di disattivazione, questo messaggio e-mail contiene i seguenti elementi:
 
-* **Da:** Viene inviato il messaggio e-mail di disattivazione `aam-noreply@adobe.com`. Pro-tip: Non rispondete a questo messaggio e-mail.
+* **** Da: Il messaggio e-mail di disattivazione viene da `aam-noreply@adobe.com`. Pro-tip: Non risponda a questa e-mail.
 
-* **Oggetto:** L'iscrizione al *nome del feed di dati qui* viene annullata.
+* **** Oggetto: La sottoscrizione al *nome del feed di dati qui* è annullata.
 
-* **Allegati:** Il messaggio e-mail contiene un allegato, " `list-of-affected-entities-by-feed-revocation.csv`." Questo è un modo casuale per dire che l'allegato elenca tutte le caratteristiche incluse nel feed annullato. In qualità di acquirente dati, controlla questo allegato. It will help you find and remove deactivated traits from your segments and [algorithmic models](../../../features/algorithmic-models/understanding-models.md).
+* **** Allegati: Il messaggio e-mail contiene un allegato con titolo " `list-of-affected-entities-by-feed-revocation.csv`." Questo è un modo contorto di dire che l'allegato elenca tutte le caratteristiche incluse nel feed annullato. In qualità di acquirente dei dati, devi controllare questo allegato. Questo ti aiuterà a trovare e rimuovere tratti disattivati dai tuoi segmenti e modelli [](../../../features/algorithmic-models/understanding-models.md)algoritmici.
 
-## Deactivated Trait List {#deactivation-trait-list}
+## Elenco caratteristiche disattivate {#deactivation-trait-list}
 
-L'elenco che accompagna un messaggio e-mail di disattivazione contiene i campi come mostrato di seguito.
+L’elenco che accompagna un messaggio e-mail di disattivazione contiene i campi come mostrato di seguito.
 
 <table id="table_5C3800F9D8AA43EFAB4690959A721F63"> 
  <thead> 
@@ -218,102 +218,102 @@ L'elenco che accompagna un messaggio e-mail di disattivazione contiene i campi c
    <td colname="col2"> <p>Nome del feed di dati disattivato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Caratteristica SID</span></b> </p> </td> 
-   <td colname="col2"> <p>ID di caratteristiche disattivati. </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> SID caratteristica</span></b> </p> </td> 
+   <td colname="col2"> <p>ID caratteristica disattivati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Nome caratteristica</span></b> </p> </td> 
    <td colname="col2"> <p>Nomi delle caratteristiche disattivati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Segmento SID</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> SID segmento</span></b> </p> </td> 
    <td colname="col2"> <p>ID del segmento che contiene caratteristiche disattivate. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Nome segmento</span></b> </p> </td> 
-   <td colname="col2"> <p>Nome del segmento che contiene le caratteristiche disattivate. </p> </td> 
+   <td colname="col2"> <p>Nome del segmento che contiene caratteristiche disattivate. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> ID modello Algo</span></b> </p> </td> 
-   <td colname="col2"> <p>L'ID del modello algoritmico che contiene caratteristiche disattivate. </p> </td> 
+   <td colname="col2"> <p>ID del modello algoritmico che contiene caratteristiche disattivate. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Algo Model Name</span></b> </p> </td> 
-   <td colname="col2"> <p>I nomi dei modelli algoritmici contenenti caratteristiche disattivate. </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Nome modello Algo</span></b> </p> </td> 
+   <td colname="col2"> <p>I nomi dei modelli algoritmici che contengono caratteristiche disattivate. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Remove Deactivated Traits {#remove-deactivated-traits}
+## Rimuovi caratteristiche disattivate {#remove-deactivated-traits}
 
-L'acquirente di dati è tenuto a rimuovere le caratteristiche in un feed annullato da tutti i segmenti attivi/utilizzati o inattivi. Le opzioni di rimozione includono:
+In qualità di data buyer, devi rimuovere le caratteristiche di un feed annullato da tutti i segmenti attivi/in-uso o inattivi. Le opzioni di rimozione includono:
 
-* Bulk removal with the [REST APIs](../../../api/rest-api-main/rest-api-main.md) or the [Bulk Management Tools](../../../reference/bulk-management-tools/bulk-management-intro.md).
+* Rimozione in blocco con le API [](../../../api/rest-api-main/rest-api-main.md) REST o con gli strumenti [di gestione](../../../reference/bulk-management-tools/bulk-management-intro.md)in blocco.
 
-* Manually search for affected segments and remove deactivated traits using [!UICONTROL Segment Builder]. See [Remove Traits from a Segment](../../../features/segments/segment-builder.md#segment-builder-controls-traits).
+* Cercare manualmente i segmenti interessati e rimuovere le caratteristiche disattivate utilizzando [!UICONTROL Segment Builder]. Consulta [Rimuovere le caratteristiche da un segmento](../../../features/segments/segment-builder.md#segment-builder-controls-traits).
 
 >[!NOTE]
 >
->La rimozione delle caratteristiche dai modelli algoritmici attivi o delle destinazioni influisce su scala e precisione di targeting. Provate a sostituire le caratteristiche revocate con le caratteristiche nuove, attive, se possibile.
+>La rimozione di caratteristiche da modelli o destinazioni algoritmici attivi influisce sulla precisione di scala e targeting. Cercate di sostituire le caratteristiche revocate con nuove caratteristiche attive, se possibile.
 
-[Annulla l'iscrizione al feed di dati disattivato](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe) dopo aver rimosso tutte le caratteristiche revocate dall'account. Se si tratta di una disattivazione temporanea, è possibile registrarsi nuovamente dopo che il provider di dati ha terminato di apportare le modifiche necessarie e di riattivarlo. As with most things, good communication with your partners (the data provider and [!DNL Adobe]) can help you work through this process.
+[Annulla sottoscrizione al feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe) di dati disattivato dopo aver rimosso tutte le caratteristiche revocate dall’account. Se si tratta di una disattivazione temporanea, potete effettuare nuovamente la sottoscrizione dopo che il fornitore di dati avrà completato le modifiche richieste e riattivato il feed. Come per la maggior parte delle cose, una buona comunicazione con i partner (il provider di dati e [!DNL Adobe]) può aiutarti a superare questo processo.
 
 ## Informazioni sulla pagina Dettagli piano in Audience Marketplace {#marketplace-buyer-details}
 
-When you click the name of a data plan in the [!UICONTROL Marketplace], [!DNL Audience Manager] provides information that can help you make informed choices about subscribing to a data feed.
+Quando si fa clic sul nome di un piano dati nel [!UICONTROL Marketplace], [!DNL Audience Manager] vengono fornite informazioni utili per effettuare scelte informate sulla sottoscrizione a un feed di dati.
 
 <!-- marketplace-buyer-details.xml -->
 
 ![](assets/plan-details-numbered.png)
 
-In questa pagina sono fornite le informazioni seguenti:
+Questa pagina fornisce le seguenti informazioni:
 
-1. **Informazioni sul piano di base**. Ciò include informazioni sui feed quali:
-   * Nome feed dati. Ad esempio, come mostrato qui sopra, il nome di questo feed è "Sample Data Feed" (Feed dati campione).
-   * Nome del provider di dati;
+1. **Informazioni** di base sul piano. Sono incluse informazioni sui feed quali:
+   * Nome feed dati. Ad esempio, come mostrato sopra, il nome di questo feed è "Feed dati di esempio".
+   * il nome del fornitore dei dati;
    * ID feed dati;
    * Descrizione;
-   * Numero di caratteristiche nel feed;
+   * numero di caratteristiche nel mangime;
 
-1. Piani Informazioni piano.
-   * Click **[!UICONTROL Explore All Traits]** to see details about all the traits in the selected data feed.
-   * Click **[!UICONTROL Request More Details]** to ask the data provider questions about the selected data feed or to request a discount. Questa funzione invia i commenti e le domande direttamente al provider di dati.
+1. Pulsanti Informazioni piano.
+   * Fai clic **[!UICONTROL Explore All Traits]** per visualizzare i dettagli su tutte le caratteristiche nel feed di dati selezionato.
+   * Fare clic **[!UICONTROL Request More Details]** per porre domande al provider di dati sul feed di dati selezionato o per richiedere uno sconto. Questa funzione invia commenti e domande direttamente al provider di dati.
 
-1. Metriche rapporto feed dati. Il diagramma di Venn (e metriche correlate) mostra i dati di sovrapposizione delle caratteristiche per gli ultimi 30 giorni. See [The Marketplace: About](marketplace-data-buyers.md#about-marketplace) for details.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: Numero di utenti unici nel vostro account che si sovrappongono agli utenti nell'account del fornitore. For a definition of unique users, see AAM UUID in the [Index of IDs in Audience Manager](/help/using/reference/ids-in-aam.md).
-   * **[!UICONTROL 30 Day Provider Unique Users]**: Numero di utenti unici provenienti dall'account del fornitore.
-   * **[!UICONTROL Your Unique Users]**: Numero di utenti unici provenienti dall'account.
+1. Metriche del report Feed dati. Il diagramma di Venn (e le relative metriche) mostra i dati di sovrapposizione delle caratteristiche degli ultimi 30 giorni. Vedere [Il Marketplace: Informazioni](marketplace-data-buyers.md#about-marketplace) per i dettagli.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: Il numero di utenti univoci nel vostro account che si sovrappongono con gli utenti nell'account del fornitore. Per una definizione di utenti univoci, vedi AAM UUID nell’ [indice degli ID in Audience Manager](/help/using/reference/ids-in-aam.md).
+   * **[!UICONTROL 30 Day Provider Unique Users]**: Numero di utenti univoci che provengono dall'account del provider.
+   * **[!UICONTROL Your Unique Users]**: Il numero di utenti univoci che provengono dal vostro account.
 
-1. **[!UICONTROL Plan Details]** Tabella. Questa tabella mostra i casi d'uso per i quali è possibile iscriversi al feed di dati e il relativo modello di tariffazione. See [Understanding Data Feed Use Cases](#use-cases).
+1. **[!UICONTROL Plan Details]** Tabella. Questa tabella mostra i casi d’uso per i quali è possibile sottoscrivere un’iscrizione al feed di dati, nonché il relativo modello di tariffazione. Consulta [I casi](#use-cases)di utilizzo dei feed di dati.
 
-1. Pianificare pulsanti di azione.
-   * Click **[!UICONTROL Cancel]** to leave the page without making changes.
-   * Click **[!UICONTROL Review & Subscribe]** to subscribe to a data feed. This button is greyed out until you switch a [!UICONTROL Subscription] toggle to [!UICONTROL On]. See also [Subscribe to a Public Data Feed](#subscript-public-data-feed) and [Subscribe to a Private Data Feed](#subscript-private-data-feed).
+1. Pulsanti Azione piano.
+   * Fare clic **[!UICONTROL Cancel]** per uscire dalla pagina senza apportare modifiche.
+   * Fate clic **[!UICONTROL Review & Subscribe]** per effettuare la sottoscrizione a un feed di dati. Questo pulsante è disattivato finché non passate a un [!UICONTROL Subscription] interruttore [!UICONTROL On]. Vedi anche [Iscriviti a feed](#subscript-public-data-feed) di dati pubblici e [Iscriviti a feed](#subscript-private-data-feed)di dati privati.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
 >* [Marketplace: Informazioni](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
 
 
-## Understanding Data Feed Use Cases {#use-cases}
+## Casi di utilizzo dei feed di dati {#use-cases}
 
-As an [!UICONTROL Audience Marketplace] data buyer, you can purchase data for overlap, modeling, and activation use cases. Ogni caso di utilizzo è progettato per uno scopo specifico e limita le operazioni che è possibile eseguire con i dati. Queste descrizioni d'uso possono aiutarti a prendere la decisione giusta sul tipo di piano di dati da acquistare.
+In qualità di [!UICONTROL Audience Marketplace] data buyer, puoi acquistare dati per sovrapposizione, modellazione e casi di utilizzo di attivazione. Ogni caso di utilizzo è progettato per uno scopo specifico e limita le operazioni che è possibile eseguire con i dati. Queste descrizioni dei casi di utilizzo possono aiutarti a prendere la decisione giusta sul tipo di piano di dati da acquistare.
 
-## Make Comparisons with Segments and Overlap Plans {#comparisons}
+## Confronto con segmenti e piani di sovrapposizione {#comparisons}
 
 <!-- c_use_cases_for_buyers.xml -->
 
 ### Segmenti e sovrapposizione
 
-This use case lets you compare your traits with provider traits in a [trait-to-trait overlap report.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Inoltre, puoi creare o aggiungere caratteristiche di fornitori a un segmento ed eseguire confronti aggiuntivi con i [report segmento-to-trait](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [segmento-to-segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) . I confronti di sovrapposizione possono essere utili:
+Questo caso di utilizzo consente di confrontare le caratteristiche con quelle del fornitore in un rapporto di sovrapposizione [caratteristiche-caratteristiche.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Inoltre, puoi creare o aggiungere caratteristiche del fornitore a un segmento e effettuare confronti aggiuntivi con i rapporti [segmento-caratteristica](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) . I confronti di sovrapposizione possono facilitare:
 
-* **Ampliare la portata dell'audience:** La sovrapposizione Bassa suggerisce che le caratteristiche contengano utenti che non sono già stati visti. Potete cercare di raggiungere nuovi utenti.
-* **Ottimizzazione dell'audience esistente:** La sovrapposizione alta suggerisce le caratteristiche simili a quelle di proprietà del provider di dati. Queste caratteristiche possono essere utili per apportare miglioramenti mirati e incrementali a un pubblico già sviluppato.
+* **** Amplia il pubblico: Una sovrapposizione bassa suggerisce che le caratteristiche contengono utenti che non avete mai visto prima. Potete desiderare che queste caratteristiche provino a raggiungere nuovi utenti.
+* **** Ottimizzazione dell'audience esistente: Un'elevata sovrapposizione suggerisce che le caratteristiche sono simili a quelle di proprietà del provider di dati. Potreste desiderare che queste caratteristiche contribuiscano a migliorare in modo mirato un pubblico già sviluppato.
 
 ### Modelli algoritmici
 
-This use case lets you evaluate supplier traits against your traits with [algorithmic modeling](../../../features/algorithmic-models/understanding-models.md#understanding-models). Ad esempio, il nostro sistema di modellazione algoritmica usa una delle caratteristiche come base per il confronto rispetto a una caratteristica del fornitore. Quando il modello viene eseguito, può mostrare se i tipi di pubblico nelle caratteristiche del fornitore condividono attributi di conversione simili alle caratteristiche.
+Questo caso di utilizzo consente di valutare le caratteristiche dei fornitori rispetto alle caratteristiche con la modellazione [](../../../features/algorithmic-models/understanding-models.md#understanding-models)algoritmica. Ad esempio, il nostro sistema di modellazione algoritmica utilizza una delle caratteristiche come base per il confronto con una caratteristica del fornitore. Quando il modello viene eseguito, può mostrare se le audience nelle caratteristiche del fornitore condividono attributi di conversione simili alle caratteristiche.
 
 ### Activation
 
-This use case lets you send data to a [destination](../../../features/destinations/destinations.md). In [!UICONTROL Audience Manager], a destination is any third-party system (ad server, [!DNL DSP], [!DNL DMP], exchange, etc.) con cui condividere i dati. However, with an [!UICONTROL Activation] use case, you cannot run overlap reports or test the data in an algorithmic model.
+Questo caso di utilizzo consente di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In [!UICONTROL Audience Manager], una destinazione è qualsiasi sistema di terze parti (server di annunci, [!DNL DSP], [!DNL DMP], Exchange ecc.) con cui condividere i dati. Tuttavia, con un caso di [!UICONTROL Activation] utilizzo, non potete eseguire rapporti di sovrapposizione o testare i dati in un modello algoritmico.
