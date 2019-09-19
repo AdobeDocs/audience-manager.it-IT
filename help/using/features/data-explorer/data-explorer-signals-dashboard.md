@@ -1,37 +1,37 @@
 ---
-description: Ottenete una panoramica dei segnali non utilizzati ricevuti da Audience Manager negli ultimi 7 giorni e identificate potenziali nuove caratteristiche. I segnali inutilizzati raggiungono Audience Manager dalle proprietà online, ma non vengono utilizzati in nessuna delle caratteristiche esistenti. Per visualizzare il dashboard Segnali, vai a Data Data > Segnali. Il Pannello Segnali mostra informazioni fruibili basate sui segnali inutilizzati più attivi.
-seo-description: Ottenete una panoramica dei segnali non utilizzati ricevuti da Audience Manager negli ultimi 7 giorni e identificate potenziali nuove caratteristiche. I segnali inutilizzati raggiungono Audience Manager dalle proprietà online, ma non vengono utilizzati in nessuna delle caratteristiche esistenti. Per visualizzare il dashboard Segnali, vai a Data Data > Segnali. Il Pannello Segnali mostra informazioni fruibili basate sui segnali inutilizzati più attivi.
-seo-title: Dashboard segnali
-title: Dashboard segnali
-uuid: 26 f 39507-097 f -427 d-bf 5 b-ab 6 d 035 c 1 dd 2
+description: Ottenete una panoramica dei segnali inutilizzati ricevuti da Audience Manager negli ultimi 7 giorni e identificate le potenziali nuove caratteristiche. I segnali inutilizzati raggiungono Audience Manager dalle tue proprietà online, ma non vengono utilizzati in nessuna delle caratteristiche esistenti. Per visualizzare il dashboard dei segnali, vai a Dati pubblico > Segnali. Il Pannello dei segnali mostra informazioni fruibili in base ai segnali inutilizzati più attivi.
+seo-description: Ottenete una panoramica dei segnali inutilizzati ricevuti da Audience Manager negli ultimi 7 giorni e identificate le potenziali nuove caratteristiche. I segnali inutilizzati raggiungono Audience Manager dalle tue proprietà online, ma non vengono utilizzati in nessuna delle caratteristiche esistenti. Per visualizzare il dashboard dei segnali, vai a Dati pubblico > Segnali. Il Pannello dei segnali mostra informazioni fruibili in base ai segnali inutilizzati più attivi.
+seo-title: Pannello segnali
+title: Pannello segnali
+uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
 source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 ---
 
 
-# Signals Dashboard {#signals-dashboard}
+# Pannello segnali {#signals-dashboard}
 
-Ottenete una panoramica dei segnali non utilizzati ricevuti da Audience Manager negli ultimi 7 giorni e identificate potenziali nuove caratteristiche. I segnali inutilizzati raggiungono Audience Manager dalle proprietà online, ma non vengono utilizzati in nessuna delle caratteristiche esistenti. To view the [!UICONTROL Signals Dashboard], go to [!UICONTROL Audience Data] &gt; [!UICONTROL Signals]. The [!UICONTROL Signals Dashboard] shows you actionable insights based on your most active unused signals.
+Ottenete una panoramica dei segnali inutilizzati ricevuti da Audience Manager negli ultimi 7 giorni e identificate le potenziali nuove caratteristiche. I segnali inutilizzati raggiungono Audience Manager dalle tue proprietà online, ma non vengono utilizzati in nessuna delle caratteristiche esistenti. Per visualizzare il [!UICONTROL Signals Dashboard], passare a [!UICONTROL Audience Data] &gt; [!UICONTROL Signals]. La [!UICONTROL Signals Dashboard] mostra informazioni fruibili in base ai segnali inutilizzati più attivi.
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Top Unused Signals]** and **[!UICONTROL New Unused Signals]** sections only display records with more than **100 occurrences/hour**. Signals below that threshold are included in [!UICONTROL Signals Search].
+>Le **[!UICONTROL Top Unused Signals]** sezioni e **[!UICONTROL New Unused Signals]** i record vengono visualizzati solo con più di **100 occorrenze/ora**. I segnali al di sotto di tale soglia sono inclusi in [!UICONTROL Signals Search].
 
-## Top Unused Signals {#top-unused-signals}
+## Segnali inutilizzati principali {#top-unused-signals}
 
-This section shows you the top 50 unused signals (both new and old) sent to [!DNL Audience Manager] in the past 7 days, based on their total count. Depending on the data [!DNL Audience Manager] receives, this table can include some or all of the entries in the **New Unused Signals** table.
+Questa sezione mostra i primi 50 segnali inutilizzati (sia nuovi che vecchi) inviati [!DNL Audience Manager] negli ultimi 7 giorni, in base al loro totale. A seconda dei dati [!DNL Audience Manager] ricevuti, questa tabella può includere alcune o tutte le voci della tabella **Nuovi segnali** non utilizzati.
 
 ![](assets/signals-top-unused.png)
 
-## New Unused Signals {#new-unused-signals}
+## Nuovi segnali inutilizzati {#new-unused-signals}
 
-Questa sezione mostra i primi 50 segnali inutilizzati ricevuti negli ultimi 7 giorni.
+Questa sezione mostra i primi 50 nuovi segnali inutilizzati ricevuti negli ultimi 7 giorni.
 
 ![](assets/signals-new-unused.png)
 
-## Saved Searches {#saved-searches}
+## Ricerche salvate {#saved-searches}
 
-[!DNL Audience Manager] mostra tutte le ricerche [salvate](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) e le [!UICONTROL Dashboard] ricarica ogni volta che caricate il [!UICONTROL Dashboard]file.
+[!DNL Audience Manager] mostra tutte le ricerche [](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) salvate sul [!UICONTROL Dashboard] sito e le ricarica ogni volta che caricate il [!UICONTROL Dashboard].
 
 Le ricerche salvate mostrano i primi 50 risultati per i criteri corrispondenti.
