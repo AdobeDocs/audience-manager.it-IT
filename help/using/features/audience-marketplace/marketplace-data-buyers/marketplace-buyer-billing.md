@@ -1,115 +1,115 @@
 ---
-description: Gli acquirenti di dati Audience Marketplace accettano di riportare tutte le ad impression servite utilizzando caratteristiche contenute nel feed di dati a prezzi di base per migliaia di impressioni (CPM). L'utilizzo CPM è previsto il 5 ° giorno di ogni mese del calendario e include dati per il mese precedente. Gli abbonati a tariffa fissa non devono utilizzare l'utilizzo del report.
-seo-description: Gli acquirenti di dati Audience Marketplace accettano di riportare tutte le ad impression servite utilizzando caratteristiche contenute nel feed di dati a prezzi di base per migliaia di impressioni (CPM). L'utilizzo CPM è previsto il 5 ° giorno di ogni mese del calendario e include dati per il mese precedente. Gli abbonati a tariffa fissa non devono utilizzare l'utilizzo del report.
-seo-title: Fatturazione per feed feed dati
+description: Gli acquirenti di dati di Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati a un costo per migliaia di annunci (CPM). L’utilizzo di CPM è previsto il 5° giorno di ogni mese di calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono segnalare l'utilizzo.
+seo-description: Gli acquirenti di dati di Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati a un costo per migliaia di annunci (CPM). L’utilizzo di CPM è previsto il 5° giorno di ogni mese di calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono segnalare l'utilizzo.
+seo-title: Fatturazione per gli acquirenti di feed di dati
 solution: Audience Manager
-title: Fatturazione per feed feed dati
-keywords: Generazione di rapporti a livello di segmento, livello segmento, segmento segmento
-uuid: d 7236667-282 b -4160-9909-579721 af 4016
+title: Fatturazione per gli acquirenti di feed di dati
+keywords: Report a livello di segmento, livello di segmento, livello di segmento
+uuid: d7236667-282b-4160-9909-579721af4016
 translation-type: tm+mt
 source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
 
 ---
 
 
-# Fatturazione per feed feed dati {#billing-for-data-feed-buyers}
+# Fatturazione per gli acquirenti di feed di dati {#billing-for-data-feed-buyers}
 
-Gli acquirenti di dati Audience Marketplace accettano di riportare tutte le ad impression servite utilizzando caratteristiche contenute nel feed di dati ridotto a una base costo per migliaia di impression ([!DNL CPM]). [!DNL CPM] l'utilizzo è previsto il 5 ° giorno di ogni mese del calendario e include dati per il mese precedente. Gli abbonati a tariffa fissa non devono utilizzare l'utilizzo del report.
+Gli acquirenti di dati di Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati a un costo per migliaia di annunci ([!DNL CPM]). [!DNL CPM] l’utilizzo è previsto il 5° giorno di ogni mese di calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono segnalare l'utilizzo.
 
 <br> 
 
-## Come generare report sull'utilizzo CPM {#report-cpm-usage}
+## Come segnalare l’utilizzo di CPM {#report-cpm-usage}
 
 <!-- t_marketplace_report_cpm_usage.xml -->
 
-[!UICONTROL Audience Marketplace] Gli acquirenti di dati accettano di riportare tutte le ad impression servite utilizzando caratteristiche contenute nel feed di dati a prezzi di base per migliaia di impressioni ([!DNL CPM]). [!DNL CPM] l'utilizzo scade il 5 giorno di ogni mese del calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono utilizzare l'utilizzo del report.
+[!UICONTROL Audience Marketplace] gli acquirenti di dati accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati a un costo per migliaia di annunci ([!DNL CPM]). [!DNL CPM] l’utilizzo è previsto il 5 giorno di ogni mese del calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono segnalare l'utilizzo.
 
-[!UICONTROL Audience Marketplace] offre due modi per utilizzare [!DNL CPM] l'utilizzo:
+[!UICONTROL Audience Marketplace] offre due modi per segnalare l' [!DNL CPM] utilizzo:
 
-* **Generazione di rapporti a livello di segmento**: questo è il metodo di generazione di rapporti [!DNL CPM] consigliato. Quando riporti [!DNL CPM] l'utilizzo a livello di segmento, la sezione di reporting a livello di feed dati viene compilata automaticamente con gli algoritmi di utilizzo corrispondenti, in base agli algoritmi descritti in [Attribuzione costi per feed dati CPM](#cost-attribution).
-* **Rapporti a livello di feed di dati**: Questo metodo richiede di segnalare singolarmente [!DNL CPM] l'utilizzo per ogni feed di dati, in base agli algoritmi descritti in [Attribuzione costi per feed dati CPM](#cost-attribution). Tuttavia, questo metodo è più tedioso e si verifica un errore rispetto alla generazione di rapporti a livello di segmento.
+* **Report** a livello di segmento: questo è il metodo di reporting [!DNL CPM] dell'utilizzo consigliato. Quando si segnala [!DNL CPM] l’utilizzo a livello di segmento, la sezione di reporting a livello di feed di dati viene compilata automaticamente con gli importi di utilizzo corrispondenti, in base agli algoritmi descritti in [Attribuzione costi per feed](#cost-attribution)dati CPM.
+* **Report** a livello di feed di dati: questo metodo richiede di segnalare singolarmente l’ [!DNL CPM] utilizzo di ciascun feed di dati, in base agli algoritmi descritti in [Attribuzione costi per feed](#cost-attribution)dati CPM. Tuttavia, questo metodo è più noioso e incline agli errori rispetto alla generazione di rapporti a livello di segmento.
 
 <br> 
 
-## Report Utilizzo CPM a livello di segmento {#segment-level-report}
+## Report sull’utilizzo CPM a livello di segmento {#segment-level-report}
 
 La [!UICONTROL Segment Usage] scheda consente di generare rapporti sull'utilizzo a livello di segmento, mostrando i segmenti raggruppati per le destinazioni a cui sono mappati.
 
-Dopo aver utilizzato [!DNL CPM] il rapporto sul livello di segmento, [!UICONTROL Audience Marketplace] assegna automaticamente i dati corrispondenti, in base all'attribuzione [costi per i feed dati CPM](#cost-attribution).
+Dopo aver segnalato [!DNL CPM] l’utilizzo a livello di segmento, [!UICONTROL Audience Marketplace] assegna automaticamente i dati corrispondenti al corretto utilizzo, in base all’Attribuzione [costi per feed](#cost-attribution)dati CPM.
 
-Per generare un rapporto [!DNL CPM] sull'utilizzo a livello di segmento:
+Per segnalare [!DNL CPM] l’utilizzo a livello di segmento:
 
-1. **[!UICONTROL Audience Marketplace > Payables]** Vai a.
-1. Selezionare la **[!UICONTROL Segment Usage]** scheda.
-1. Compilare l'utilizzo per i segmenti. Puoi utilizzare la [!UICONTROL Search] casella per filtrare i segmenti solo se hai bisogno di rapporti per alcuni di essi.
+1. Vai a **[!UICONTROL Audience Marketplace > Payables]**.
+1. Selezionate la **[!UICONTROL Segment Usage]** scheda.
+1. Compila l’utilizzo per i tuoi segmenti. Puoi utilizzare la [!UICONTROL Search] casella per filtrare i segmenti se devi solo segnalare l’utilizzo di alcuni di essi.
 1. Fai clic su **[!UICONTROL Edit Segments Usage]**.
-1. Inserite l'importo [!DNL CPM] di utilizzo nella [!UICONTROL Usage] colonna.
-1. Fate clic **[!UICONTROL Save]** al termine e esaminate la finestra di dialogo di conferma.
+1. Immettete il valore [!DNL CPM] di utilizzo nella [!UICONTROL Usage] colonna.
+1. Fai clic **[!UICONTROL Save]** al termine e controlla la finestra di dialogo di conferma.
 
-   ![confirm-segment-use](assets/confirm-segment-usage.png)
+   ![verify-segment-usage](assets/confirm-segment-usage.png)
 
 1. Fai clic su **[!UICONTROL Confirm]**.
 
-Consulta anche la nostra dimostrazione video su come creare rapporti a livello di segmento:
+Vedi anche la nostra dimostrazione video su come puoi segnalare l’utilizzo a livello di segmento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25522/?captions=ita)
 
  
 
-## Report Utilizzo CPM al livello feed dati {#feed-level-report}
+## Report sull'utilizzo CPM a livello di feed di dati {#feed-level-report}
 
-Il reporting a livello di feed dati è un processo più tedioso e indirizzato a un processo, in quanto è necessario calcolare [!DNL CPM] singolarmente l'utilizzo per ogni feed di dati. Consigliamo di [riportare l'utilizzo CPM al livello](#segment-level-report) di segmento.
+La generazione di rapporti a livello di feed di dati è un processo più tedioso e suscettibile di errori, in quanto è necessario calcolare singolarmente [!DNL CPM] l'utilizzo di ciascun feed di dati. È invece consigliabile [segnalare l’utilizzo di CPM a livello](#segment-level-report) di segmento.
 
-Per generare un rapporto [!DNL CPM] sull'utilizzo a livello di segmento:
+Per segnalare [!DNL CPM] l’utilizzo a livello di segmento:
 
-1. **[!UICONTROL Audience Marketplace > Payables]** Vai a.
-2. Selezionare la **[!UICONTROL Feed Usage]** scheda.
-3. Utilizzate [!UICONTROL Search] la casella per filtrare i feed di dati e identificare quelli a cui dovete aggiungere dei rapporti.
+1. Vai a **[!UICONTROL Audience Marketplace > Payables]**.
+2. Selezionate la **[!UICONTROL Feed Usage]** scheda.
+3. Utilizzate la [!UICONTROL Search] casella per filtrare i feed di dati e identificare quelli per i quali è necessario segnalare l'utilizzo.
 4. Fai clic su **[!UICONTROL Edit Feeds Usage]**.
-5. Calcola l [!DNL CPM] 'utilizzo per ogni feed di dati basato sull'attribuzione [costi per i feed](#cost-attribution)dati CPM e immetti nella [!UICONTROL Usage] colonna.
-6. Fate clic **[!UICONTROL Save]** al termine e esaminate la finestra di dialogo di conferma.
+5. Calcolare l' [!DNL CPM] utilizzo di ciascun feed di dati in base all' [Attribuzione costi per i feed](#cost-attribution)di dati CPM e immetterlo nella [!UICONTROL Usage] colonna.
+6. Fai clic **[!UICONTROL Save]** al termine e controlla la finestra di dialogo di conferma.
 
-   ![confirm-feed-usage](assets/confirm-feed-usage.png)
+   ![verify-feed-usage](assets/confirm-feed-usage.png)
 
 7. Fai clic su **[!UICONTROL Confirm]**.
 
 <br> 
 
-## Generazione di rapporti in massa
+## Generazione di rapporti in blocco
 
-Per ridurre gli errori e il sovraccarico durante il reporting, [!DNL CPM] potete utilizzare l'opzione di generazione di rapporti in massa per scaricare un [!DNL CSV] file contenente feed di dati e segmenti, compilare l'uso e caricarlo nuovamente. [!DNL Audience Manager] Potete utilizzare la generazione di rapporti in blocco per riportare feed e utilizzo del segmento.
+Per ridurre gli errori e il sovraccarico durante la generazione dei rapporti [!DNL CPM] di utilizzo, potete utilizzare l’opzione di reporting in blocco per scaricare un [!DNL CSV] file contenente i feed di dati e i segmenti, riempire l’utilizzo e caricarlo nuovamente in [!DNL Audience Manager]. Potete utilizzare la generazione di rapporti in massa per segnalare sia l'utilizzo dei feed che quello dei segmenti.
 
-Per aggiornare [!DNL CPM] l'utilizzo in gruppo:
+Per aggiornare [!DNL CPM] l'utilizzo in blocco:
 
-1. **[!UICONTROL Audience Marketplace > Payables]** Vai a.
-1. Selezionate la **[!UICONTROL Feed Usage]****[!UICONTROL Segment Usage]** o la scheda, a seconda del tipo di rapporto che desiderate aggiornare.
+1. Vai a **[!UICONTROL Audience Marketplace > Payables]**.
+1. Selezionate la **[!UICONTROL Feed Usage]** **[!UICONTROL Segment Usage]** scheda o, a seconda del tipo di rapporto che desiderate aggiornare.
 1. Fate clic **[!UICONTROL Edit Feeds Usage]** o **[!UICONTROL Edit Segments Usage]**.
-1. Fate clic su **[!UICONTROL download the current usage]** per usare un file CSV valido.
-1. Aprite il file sul computer e compilate il rapporto sull'utilizzo.
-1. Fate clic su **[!UICONTROL Choose a CSV file]** per caricare il rapporto sull'utilizzo aggiornato.
+1. Fate clic **[!UICONTROL download the current usage]** per essere certi di usare un file CSV valido.
+1. Aprite il file sul computer e compilate il rapporto di utilizzo.
+1. Fate clic **[!UICONTROL Choose a CSV file]** per caricare il rapporto di utilizzo aggiornato.
 
    ![usage-report-csv](assets/usage-report-csv.png)
 
-1. [!DNL Audience Manager] convalida il file non appena viene caricato e richiede se rileva eventuali errori presenti nel file.
+1. [!DNL Audience Manager] convalida il file non appena viene caricato e vi chiede se rileva eventuali errori nel file.
 
 <br> 
 
-### Errori di convalida in blocco
+### Errori di convalida dei rapporti in blocco
 
 | Messaggio di errore | Descrizione | Correzione |
 | ------------- | -------------| -----|
-| Input non valido | [!DNL Audience Manager] rilevata una modifica nello schema [!DNL CSV] del file, ad esempio colonne mancanti o modifiche ai titoli delle colonne. | Evitare di modificare la struttura della tabella. |
-| Non trovato | For [!UICONTROL Segment Level Reporting], [!DNL Audience Manager] impossibile identificare la combinazione [!UICONTROL Segment ID] e [!UICONTROL Destination ID] la combinazione. For [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] impossibile identificare la [!UICONTROL Data Provider Name]combinazione, [!UICONTROL Feed Name]e [!UICONTROL Use Case] la combinazione. | Per [!UICONTROL Segment Level Reporting], verificate la validità della combinazione [!UICONTROL Segment ID] e [!UICONTROL Destination ID] della combinazione. Per [!UICONTROL Feed Level Reporting], verificate la validità della [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]e [!UICONTROL Use Case] della combinazione. |
-| Record duplicati trovati | [!DNL Audience Manager] rilevati record duplicati con valori di impression diversi. | Rivedete il rapporto e verificate di non aver segnalato valori di utilizzo diversi per lo stesso feed di dati o segmento. |
-| Valori non supportati | [!DNL Audience Manager] rilevati valori non numerici nella [!DNL Audience Manager] colonna. | Controlla il rapporto e assicurati di immettere solo i valori numerici nella [!DNL Audience Manager] colonna. |
-| Intestazioni per campi obbligatori mancanti | [!DNL Audience Manager] sono state rilevate intestazioni di tabella mancanti per campi obbligatori. Per [!UICONTROL Segment Level Reporting], i campi obbligatori sono: [!UICONTROL Segment ID][!UICONTROL Destination ID]. Per [!UICONTROL Feed Level Reporting], i campi obbligatori sono: [!UICONTROL Data Provider Name][!UICONTROL Data Feed Name], [!UICONTROL Use Case] | Controllare il rapporto e verificare che le intestazioni della tabella non siano state alterate. |
+| Input non valido | [!DNL Audience Manager] rilevato una modifica nello schema del [!DNL CSV] file, ad esempio colonne mancanti o modifiche ai titoli delle colonne. | Evitare di modificare la struttura della tabella. |
+| Non trovato | Ad [!UICONTROL Segment Level Reporting]esempio, [!DNL Audience Manager] non è stato possibile identificare la [!UICONTROL Segment ID] combinazione e [!UICONTROL Destination ID] . Ad [!UICONTROL Feed Level Reporting]esempio, [!DNL Audience Manager] non è stato possibile identificare la [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]e [!UICONTROL Use Case] la combinazione. | Ad [!UICONTROL Segment Level Reporting]esempio, verificare la validità della [!UICONTROL Segment ID] combinazione e [!UICONTROL Destination ID] . Ad [!UICONTROL Feed Level Reporting]esempio, verificare la validità della [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]e della [!UICONTROL Use Case] combinazione. |
+| Record duplicati trovati | [!DNL Audience Manager] rilevati record duplicati con valori di impression diversi. | Rivedete il rapporto e accertatevi di non riportare valori di utilizzo diversi per lo stesso feed o segmento di dati. |
+| Valori non supportati | [!DNL Audience Manager] rilevati valori non numerici nella [!DNL Audience Manager] colonna. | Rivedete il rapporto e accertatevi di immettere solo valori numerici nella [!DNL Audience Manager] colonna. |
+| Intestazioni per campi obbligatori mancanti | [!DNL Audience Manager] rilevate intestazioni di tabella mancanti per i campi obbligatori. Ad [!UICONTROL Segment Level Reporting]esempio, i campi obbligatori sono: [!UICONTROL Segment ID], [!UICONTROL Destination ID].. Ad [!UICONTROL Feed Level Reporting]esempio, i campi obbligatori sono: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name], [!UICONTROL Use Case] | Rivedete il rapporto e accertatevi che le intestazioni della tabella non siano state alterate. |
 
 >[!NOTE]
->La rimozione delle righe dal rapporto [!DNL CSV] sull'utilizzo non ha alcun effetto sul rapporto sull'utilizzo esistente. [!DNL Audience Manager] elabora solo i campi inclusi nel rapporto.
+>La rimozione delle righe dal rapporto sull' [!DNL CSV] uso non ha alcun effetto sul rapporto sull'uso esistente. [!DNL Audience Manager] elabora solo i campi inclusi nel rapporto.
 
 <br> 
 
-## [!DNL CPM] Best practice per i rapporti
+## [!DNL CPM] Tecniche consigliate per la generazione dei rapporti
 
 <table id="table_E68FA2130D1C495FAB8982DFB6A31FD9"> 
  <thead> 
@@ -121,76 +121,76 @@ Per aggiornare [!DNL CPM] l'utilizzo in gruppo:
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Segnala sempre il numero totale di impression</b> </p> </td> 
-   <td colname="col2"> <p>Per i totali impression CPM: </p>
-   <p> Segnala il numero totale di impression, senza utilizzare i decimali. Audience Manager calcola automaticamente il CPM in base al numero totale di report.</p><p>Se hai bisogno di riportare 1,234,567 impression, segnalalo esattamente come. Non è necessario dividere il numero totale di impression per 1,000 per calcolare il CPM.</p><p>Le caratteristiche utilizzate per ottimizzare il contenuto Web o dell'app (ottimizzazione contenuto) mediante strumenti quali Adobe Target o una destinazione Analytics non contribuiscono ai totali d'uso per i piani CPM. I fornitori di dati vengono in genere compensati per l'ottimizzazione dei contenuti con piani a tariffa fissa.</p><p>Per <a href="#cost-attribution">ulteriori informazioni, consulta Attribuzione costi per feed</a> dati CPM. </p> </td>
+   <td colname="col2"> <p>Per i totali di impression CPM: </p>
+   <p> Segnala il numero totale di impression, senza utilizzare decimali. Audience Manager calcola automaticamente il CPM in base al numero totale di rapporti.</p><p>Se hai bisogno di segnalare 1.234.567 impression, segnalalo esattamente così. Non è necessario dividere il numero totale di impression per 1.000 per calcolare il CPM.</p><p>Le caratteristiche utilizzate per ottimizzare il contenuto Web o dell'app (ottimizzazione del contenuto) mediante strumenti quali Adobe Target o una destinazione Analytics non contribuiscono ai totali di utilizzo per i piani CPM. I provider di dati vengono generalmente compensati per l'ottimizzazione dei contenuti utilizzando piani a tariffa fissa.</p><p>Per ulteriori informazioni, consulta <a href="#cost-attribution">Attribuzione dei costi per i feed</a> di dati CPM. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p><b>Passa all'intervallo di reporting mensile</b> </p> </td> 
-   <td colname="col2"> <p>Il sistema di rapporti si chiude dopo il 5 di ogni mese. Se non riesci a generare un rapporto sull'utilizzo CPM per partire da quel momento, devi aggiungere tale importo al rapporto per il mese successivo. Ad esempio, supponiamo che a ottobre utilizzi 1000 impression, perderai la scadenza di reporting di ottobre e utilizzi 1000 impression a novembre. In questo caso, nel mese di dicembre, tra il 1 ° e il 5 ° settembre, segnalerete il totale di ottobre e di novembre (2000).</p><p><b>Suggerimento</b>: Devi sempre tentare di riportare l'utilizzo CPM per il mese precedente tra il 1 ° e il 5 ° giorno del mese successivo.</p><p>Puoi riportare l'utilizzo CPM fino al 5 del nuovo mese di calendario, ma questo non è consigliato. La generazione di rapporti sull'utilizzo CPM prima del 5 di ogni mese fornisce ora di Audience Manager per controllare ed elaborare i dati.</p> </td>
+   <td colname="col1"> <p><b>Attenetevi all'intervallo di reporting mensile</b> </p> </td> 
+   <td colname="col2"> <p>Il sistema di report si chiude dopo il 5 di ogni mese. Se non riesci a segnalare l’utilizzo di CPM entro tale data, devi aggiungere tale importo al rapporto per il mese successivo. Ad esempio, se utilizzi 1000 impression in ottobre, non raggiungi la scadenza del rapporto di ottobre e utilizzi 1000 impression in novembre. In questo caso, segnalate il totale di ottobre e novembre (2000) in dicembre, tra il 1 e il 5.</p><p><b>Suggerimento</b>: Dovresti sempre cercare di segnalare l’utilizzo di CPM per il mese precedente tra il primo e il quinto giorno del mese successivo.</p><p>Potete segnalare l’utilizzo di CPM fino al 5° del nuovo mese di calendario, ma questo non è consigliato. Segnalare l’utilizzo di CPM prima del 5 di ogni mese dà ad Audience Manager il tempo di controllare ed elaborare i dati.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
 <br> 
 
-## Attribuzione costi per feed dati CPM {#cost-attribution}
+## Attribuzione dei costi per i feed di dati CPM {#cost-attribution}
 
-In ogni [!UICONTROL Audience Marketplace] mese, devi creare un rapporto sulle impression per ogni mese. Consigliamo di generare rapporti [!DNL CPM] sul livello di utilizzo a livello di segmento, in modo da effettuare automaticamente l'attribuzione costi.
+In [!UICONTROL Audience Marketplace] questo caso, devi creare rapporti con gli importi mensili delle impression, per ogni segmento. È consigliabile utilizzare i rapporti [!DNL CPM] a livello di segmento, in modo che l'attribuzione dei costi venga eseguita automaticamente.
 
 <!-- marketplace_cpm_billing.xml -->
 
 ### Riepilogo fatturazione {#billing-summary}
 
-È necessario inviare [!DNL CPM] importi di impression di feed dati tra il 1 ° e il 5 ° giorno di ogni mese del calendario. A questo scopo, ti consigliamo [di riportare l'utilizzo CPM a livello di segmento](#segment-level-report).
+È necessario inviare gli importi delle impression dei feed [!DNL CPM] di dati tra il primo e il quinto giorno di ogni mese di calendario. A questo scopo, consigliamo di [segnalare l’utilizzo di CPM a livello](#segment-level-report)di segmento.
 
 >[!TIP]
->Quando segnalate [!DNL CPM] l'utilizzo a livello di segmento, la sezione di reporting a livello di feed dati viene compilata automaticamente con gli importi di utilizzo corrispondenti.
+>Quando si segnala [!DNL CPM] l’utilizzo a livello di segmento, la sezione di reporting a livello di feed di dati viene compilata automaticamente con i corrispondenti importi di utilizzo.
 
-Se necessario [!UICONTROL Report CPM Usage at Data Feed Level], dovete compilare singolarmente tutte le impression distribuite per ogni feed nel mese precedente, e generare rapporti in base all'allocazione di fatturazione descritta in questo articolo.
+Se necessario, [!UICONTROL Report CPM Usage at Data Feed Level]devi compilare singolarmente tutte le impression consegnate per ciascun feed nel mese di calendario precedente e segnalarle in base all'allocazione di fatturazione descritta in questo articolo.
 
-Dopo aver [!DNL CPM] impostato un numero per il mese precedente, [!DNL Adobe] effettua le seguenti operazioni:
+Dopo aver riportato [!DNL CPM] il numero del mese di calendario precedente, [!DNL Adobe] verrà effettuato quanto segue:
 
-* Create una fattura e fatturatela in base alla [!DNL CPM] frequenza di ciascun feed di dati sottoscritto.
-* Paga i costi dei fornitori di dati (venditori) in base all'utilizzo indicato [!DNL CPM] .
+* Crea una fattura e una fattura in base alla [!DNL CPM] tariffa per ciascun feed di dati sottoscritto.
+* Pagare le tariffe (venditori) dovute in base all' [!DNL CPM] uso indicato.
 
 >[!IMPORTANT]
 >
->In qualità di acquirente, tutti i totali di impression segnalati devono essere true e precisi. Se non riesci a segnalare i totali delle impression entro il 5 di ogni mese, devi includere i totali per il mese non segnalato nel mese successivo.
+>Come acquirente, tutti i totali di impression segnalati devono essere veri e precisi. Se non si segnalano i totali delle impression entro il quinto giorno di ogni mese, è necessario includere i totali per il mese non segnalato del mese successivo.
 
 <br> 
 
-## Assegnare impression a livello di feed in base alle regole di qualifica caratteristiche {#assign-impressions}
+## Assegna impression a livello di feed in base alle regole di qualifica caratteristica {#assign-impressions}
 
-Il caso [!UICONTROL Activation] d'uso ti consente di utilizzare caratteristiche nel feed di dati corrispondente per creare segmenti in [Segment Builder](../../../features/segments/segment-builder.md) (Generatore segmenti) e mappare tali segmenti su una destinazione. Gli operatori [!UICONTROL AND]booleani, [!UICONTROL OR]e [!UICONTROL NOT] consentono di impostare le condizioni per la caratteristica di caratteristica e segmento.
+Il [!UICONTROL Activation] caso d’uso consente di utilizzare le caratteristiche nel feed di dati corrispondente per creare segmenti nel Generatore [di](../../../features/segments/segment-builder.md) segmenti e mappare tali segmenti a una destinazione. Gli operatori booleani [!UICONTROL AND], [!UICONTROL OR]e [!UICONTROL NOT] consentono di impostare le condizioni per la caratteristica e la qualifica del segmento.
 
-Quando [rapporti Utilizzo CPM al livello feed dati](#feed-level-report), devi allocare le impression proporzionalmente per ciascun feed di dati, in base agli [!DNL Boolean] operatori utilizzati nelle regole di qualificazione delle caratteristiche. Nella tabella seguente è indicato come allocare correttamente impression per regola booleana o per tipo di caratteristica.
+Quando si [segnala l'utilizzo di CPM a livello](#feed-level-report)di feed di dati, è necessario allocare le impression in modo proporzionale per ciascun feed di dati, in base agli [!DNL Boolean] operatori utilizzati nelle regole di qualifica delle caratteristiche. La tabella seguente elenca come allocare correttamente le impression per regola booleana o tipo di caratteristica.
 
 >[!TIP]
->[Report Utilizzo CPM a livello segmento](#segment-level-report) per fare in modo che i rapporti sul livello di feed dati vengano inseriti automaticamente da Audience Manager.
+>[Segnala l’utilizzo di CPM a livello](#segment-level-report) di segmento affinché il reporting del livello di feed di dati venga eseguito automaticamente da Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Logica o tipo di qualifica regola </th> 
+   <th colname="col1" class="entry"> Logica o tipo di qualifica della regola </th> 
    <th colname="col2" class="entry"> Distribuzione fatturazione </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> AND</span> </p> </td> 
-   <td colname="col2"> <p>Applica il 100% dei totali delle impression consegnati a tutte le caratteristiche del fornitore in un segmento basato su regole che utilizza una condizione <span class="wintitle"> booleana AND</span> . </p> </td> 
+   <td colname="col2"> <p>Applicare il 100% dei totali impression forniti a tutte le caratteristiche del fornitore in un segmento basato su regole che utilizza una condizione <span class="wintitle"> AND booleana</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> OR</span> </p> </td> 
-   <td colname="col2"> <p>Applica la ponderazione ponderata dei totali delle impression consegnati a tutte le caratteristiche del fornitore in un segmento basato su regole che utilizza una condizione OR booleana. L'allocazione ponderata viene calcolata utilizzando la formula seguente:</p><p><code>(Popolazione caratteristica/Popolazione segmento) * Numero di impression * Costo di CPM</code></p> </td> 
+   <td colname="col2"> <p>Applica l'allocazione ponderata dei totali impression consegnati a tutte le caratteristiche del fornitore in un segmento basato su regole che utilizza una condizione OR booleana. L'allocazione ponderata è calcolata utilizzando la seguente formula:</p><p><code>(Popolazione caratteristica / Popolazione segmento) * Numero di impression * Costo di CPM</code></p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NOT</span> </p> </td> 
-   <td colname="col2"> <p>Applica il 100% dei totali delle impression consegnati a tutte le caratteristiche del fornitore in un segmento basato su regole che utilizza una condizione booleana <span class="wintitle"> NOT</span> . </p> </td> 
+   <td colname="col2"> <p>Applicare il 100% dei totali impression forniti a tutte le caratteristiche del fornitore in un segmento basato su regole che utilizza una condizione <span class="wintitle"> NOT</span> booleana. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Segmenti algoritmici </p> </td> 
-   <td colname="col2"> <p>Applica il 100% dei totali delle impression consegnati a tutti i feed del fornitore in un segmento che contiene caratteristiche algoritmiche. </p> </td> 
+   <td colname="col2"> <p>Applica il 100% dei totali impression consegnati a tutti i feed del fornitore in un segmento contenente caratteristiche algoritmiche. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -199,70 +199,70 @@ Quando [rapporti Utilizzo CPM al livello feed dati](#feed-level-report), devi al
 
 ## Esempi di fatturazione {#billing-examples}
 
-Gli esempi seguenti illustrano il modo in cui l'allocazione [!DNL CPM] di utilizzo viene realizzata al livello di feed di dati.
+Gli esempi riportati di seguito illustrano il modo in cui l'allocazione [!DNL CPM] dell'utilizzo viene effettuata a livello di feed di dati.
 
 >[!IMPORTANT]
->Per far sì che questo processo venga eseguito automaticamente, [consigliamo di riportare l'utilizzo CPM al livello](#segment-level-report) segmento.
+>Consigliamo invece di [segnalare l’utilizzo di CPM a livello](#segment-level-report) di segmento, affinché questo processo venga eseguito automaticamente.
 
-Prendiamo in considerazione il seguente scenario:
+Consideriamo il seguente scenario:
 
-![billing-examples](assets/billing-examples.png)
+![esempi di fatturazione](assets/billing-examples.png)
 
 <br> 
 
 ### Caso 1: Segmenti con regole di qualifica AND
 
-Questo segmento contiene 3 caratteristiche da fornitori di dati separati. Poiché la qualifica del segmento è basata su una [!UICONTROL AND] condizione, i visitatori devono realizzare le caratteristiche da tutti e tre i feed per qualificarlo.
+Questo segmento contiene 3 caratteristiche di provider di dati separati. Poiché la qualifica del segmento è basata su una [!UICONTROL AND] condizione, i visitatori devono realizzare le caratteristiche di tutti e tre i feed per qualificarsi per il segmento.
 
 ![](assets/billing-segment-and.png)
 
-Con una [!UICONTROL AND] condizione, è necessario assegnare il 100% delle impression ricevute durante il mese a tutti e tre i fornitori di dati. Nella [!UICONTROL Audience Marketplace > Payables] sezione viene accreditato ogni fornitore con 1,000,000 impression.
+In presenza di una [!UICONTROL AND] condizione, è necessario assegnare il 100% delle impression ricevute durante il mese a tutti e tre i provider di dati. Nella [!UICONTROL Audience Marketplace > Payables] sezione viene accreditato ogni provider con 1.000.000 impression.
 
-Questo esempio si applica a segmenti che utilizzano [!DNL Boolean][!UICONTROL NOT] operatori o segmenti che contengono caratteristiche algoritmiche.
-
-<br> 
-
-### Caso 2: Segmenti con regole di qualificazione OR
-
-Questo segmento contiene 3 caratteristiche da fornitori di dati separati. Poiché la qualifica del segmento è basata su una [!UICONTROL OR] condizione, i visitatori devono realizzare almeno una delle tre caratteristiche per qualificarlo.
-
-Non possiamo sapere a quale caratteristica è affidata un'impression perché la qualifica si basa su una [!UICONTROL OR] condizione. Come risultato, nella [!UICONTROL Audience Marketplace > Payables] sezione riconoscete ogni fornitore con un'allocazione ponderata delle impression totali, basate sulla popolazione di caratteristiche.
-
-![billing-segment-or](assets/billing-segment-or.png)
+Questo esempio si applica ai segmenti che utilizzano [!DNL Boolean] [!UICONTROL NOT] operatori o per segmenti che contengono caratteristiche algoritmiche.
 
 <br> 
 
-### Caso 3: Segmenti con casi di modellazione e attivazione
+### Caso 2: Segmenti con regole di qualifica OR
 
-Questo esempio descrive l'attribuzione in base a due casi d'uso Feed dati - Modellazione e attivazione. Nell'esempio sono disponibili due fornitori di dati, con le seguenti informazioni:
+Questo segmento contiene 3 caratteristiche di provider di dati separati. Poiché la qualifica del segmento è basata su una [!UICONTROL OR] condizione, i visitatori devono realizzare almeno una delle tre caratteristiche per qualificarsi per il segmento.
 
-![feed-feed](assets/feed-use-cases.png)
+Non possiamo dire quale caratteristica è responsabile di un'impressione perché la qualificazione è basata su una [!UICONTROL OR] condizione. Di conseguenza, nella [!UICONTROL Audience Marketplace > Payables] sezione accreditate ogni fornitore con una ripartizione ponderata delle impression totali, in base alla popolazione di caratteristiche.
 
-Nella tabella successiva, Segmento X contiene due caratteristiche, T 1 e T 2, con la regola del segmento T 1 OR T 2, dove:
-
-* T 1 è una caratteristica del feed dati A;
-* T 2 è una caratteristica algoritmica progettata dopo tratti di terze parti da Feed dati A e Feed dati B.
-
-Il segmento viene mappato a una destinazione e 1,000,000 impression vengono inserite per questo segmento in un mese, utilizzando [Reporting a livello di segmento](#segment-level-report).
-
-Di queste 1,000,000 impression:
-
-* T 1 rappresenta il 40% della popolazione dei segmenti, che converte 400,000 impression per Feed A.
-* T 2 rappresenta il 60% della popolazione dei segmenti, che converte 600,000 impression per Feed A e Feed B.
-
-A un livello di feed dati, il modo in cui le impression vengono allocate è:
-
-* Feed Feed A riceve 600,000 impression dalla caratteristica T 2 (modellata sulle caratteristiche dei feed dati A e Feed dati B, in modo da ricevere entrambe le impression) e 400,000 impression da T 1 (che è una caratteristica di Feed di dati A), che totalizzano 1,000,000 impression.
-* Feed dati B riceve 600,000 impression dalla caratteristica T 2 (vedere la spiegazione sopra) e 0 impression dalla caratteristica T 1.
-
-La panoramica dettagliata per feed di dati e casi d'uso è la seguente:
-
-![feed-break](assets/feed-breakdown-alt.png)
+![segmento di fatturazione](assets/billing-segment-or.png)
 
 <br> 
 
-## Fatturazione e allocazione impression per feed dati flat {#billing-flat-fee}
+### Caso 3: Segmenti con modelli e casi di utilizzo attivazione
 
-Un feed di dati a tariffa fissa addebita ogni mese un importo fisso, a prescindere dall'avvio dell'iscrizione o dal numero di impression utilizzate. Le tariffe non vengono suddivise in proporzione per uso mensile o intervalli. Come per la fatturazione CPM, Adobe genererà una fattura e la addebiterà al tasso mensile a tariffa fissa per i feed di dati iscritti.
+Questo esempio descrive l'attribuzione in base a due casi di utilizzo Feed dati: Modellazione e Attivazione. Nell'esempio, stiamo esaminando due provider di dati, con le seguenti informazioni:
 
-Ad esempio, supponiamo che tu abbia deciso di attivare alcune caratteristiche in un feed a metà del mese. L'utente continuerà a essere addebitato sulla base della tariffa mensile, a prescindere dall'avvio della sottoscrizione o delle caratteristiche attivate.
+![feed di dati](assets/feed-use-cases.png)
+
+Nella tabella che segue, il segmento X contiene due caratteristiche, T1 e T2, con la regola del segmento T1 O T2, dove:
+
+* T1 è una caratteristica del feed dati A;
+* T2 è una caratteristica algoritmica modellata dopo tratti di terze parti tratti da Feed dati A e Feed dati B.
+
+Il segmento viene mappato su una destinazione e 1.000.000 impression vengono immesse per questo segmento in un mese, utilizzando [Segment-Level Reporting (Generazione rapporti a livello di segmento)](#segment-level-report).
+
+Di queste 1.000.000 impressioni:
+
+* T1 costituisce il 40% della popolazione del segmento, che equivale a 400.000 impression per il Feed A.
+* T2 rappresenta il 60% della popolazione del segmento, che equivale a 600.000 impression per i Feed A e i Feed B.
+
+A livello di feed di dati, le impression vengono allocate nel modo seguente:
+
+* Feed dati A riceve 600.000 impression dalla caratteristica T2 (modellata sulle caratteristiche dei Feed dati A e Feed dati B, in modo che entrambi ricevano le impression) e 400.000 impression dalla caratteristica T1 (che è una caratteristica del Feed dati A), per un totale di 1.000.000.
+* Feed dati B riceve 600.000 impression dalla caratteristica T2 (cfr. la spiegazione sopra) e 0 impressioni dalla caratteristica T1.
+
+La suddivisione rapida per feed di dati e casi di utilizzo è la seguente:
+
+![interruzione di corrente](assets/feed-breakdown-alt.png)
+
+<br> 
+
+## Allocazione fatturazione e impressione per feed di dati a tariffa fissa {#billing-flat-fee}
+
+Un feed di dati a tariffa fissa addebita ogni mese un importo fisso, indipendentemente da quando inizia l'iscrizione o da quante impression utilizzi. Le tariffe non vengono ripartite in modo proporzionale per l'uso parziale dei mesi o per gli intervalli. Come per la fatturazione CPM, Adobe genererà una fattura e vi addebiterà al tasso mensile forfettario per i feed di dati sottoscritti.
+
+Ad esempio, supponiamo che abbiate deciso di attivare alcune caratteristiche in un feed a metà del mese. L'importo verrà comunque addebitato al tasso mensile completo, indipendentemente da quando è stata avviata la sottoscrizione o sono state attivate caratteristiche specifiche.
