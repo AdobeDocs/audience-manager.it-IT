@@ -1,53 +1,53 @@
 ---
-description: Un riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, percentuali di errore campione e un elenco di rapporti che restituiscono informazioni sulla base dei dati campionati.
-seo-description: Un riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, percentuali di errore campione e un elenco di rapporti che restituiscono informazioni sulla base dei dati campionati.
-seo-title: Campionamento dei dati ed errori in Report Audience Manager selezionati
+description: Riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, tassi di errore di campionamento e un elenco di rapporti che restituiscono informazioni basate su dati campionati.
+seo-description: Riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, tassi di errore di campionamento e un elenco di rapporti che restituiscono informazioni basate su dati campionati.
+seo-title: Campionamento dei dati e tassi di errore nei report Audience Manager selezionati
 solution: Audience Manager
-title: Campionamento dei dati ed errori in Report Audience Manager selezionati
-uuid: 3 d 8 bd 764-a 9 da -40 f 1-8794-54304457 bb 9 a
+title: Campionamento dei dati e tassi di errore nei report Audience Manager selezionati
+uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
 source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
 
 ---
 
 
-# Data Sampling and Error Rates in Selected Audience Manager Reports{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Campionamento dei dati e tassi di errore nei report Audience Manager selezionati{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
-Un riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, percentuali di errore campione e un elenco di rapporti che restituiscono informazioni sulla base dei dati campionati.
+Riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, tassi di errore di campionamento e un elenco di rapporti che restituiscono informazioni basate su dati campionati.
 
-## Data Sampling Ratio and Minimum Requirements {#data-sampling-ratio}
+## Rapporto di campionamento dei dati e requisiti minimi {#data-sampling-ratio}
 
-Some [!DNL Audience Manager] reports display results based on a sampled set of the total amount of available data. Il rapporto dati campionato è 1:54. Per rapporti che utilizzano dati campionati, ciò significa che i risultati sono basati su 1 record per ogni set di 54 record.
+Alcuni [!DNL Audience Manager] rapporti visualizzano i risultati in base a un set campionato della quantità totale di dati disponibili. Il rapporto dei dati campionati è di 1:54. Per i report che utilizzano dati campionati, i risultati sono basati su 1 record su ogni set di 54 record.
 
-Questi report utilizzano dati campionati perché richiedono un'enorme quantità di potenza di calcolo per generare risultati. Il campionamento consente di individuare un compromesso tra le ridotte esigenze computazionali, mantenere le prestazioni del sistema e fornire risultati precisi.
+Questi report utilizzano dati campionati perché necessitano di una notevole quantità di potenza di elaborazione per generare risultati. Il campionamento aiuta a trovare un equilibrio tra la riduzione delle richieste di calcolo, il mantenimento delle prestazioni del sistema e la fornitura di risultati accurati.
 
-I report che utilizzano il campionamento escludono caratteristiche e segmenti quando non soddisfano i requisiti minimi di visitatori minimi. I seguenti requisiti minimi sono:
+I report che utilizzano il campionamento escludono caratteristiche e segmenti quando non soddisfano i requisiti minimi di visitatore univoco. Tali requisiti minimi sono i seguenti:
 
-* Traits: 28,000 [unique trait realizations](/help/using/features/traits/trait-qualification-reference.md#unique-trait-realizations) over a 14-day period.
-* Segmenti: 70,000 utenti in tempo reale per un periodo di 14 giorni.
+* Caratteristiche: 28.000 realizzazioni [di caratteristiche](/help/using/features/traits/trait-qualification-reference.md#unique-trait-realizations) uniche in un periodo di 14 giorni.
+* Segmenti: 70.000 utenti in tempo reale per un periodo di 14 giorni.
 
-## Error Rates {#error-rates}
+## Tassi errore {#error-rates}
 
-Si possono verificare errori nei rapporti che generano dati di sovrapposizione. Un errore è definito come percentuale di record:
+Gli errori possono verificarsi nei report che generano dati di sovrapposizione. Un errore è definito come la percentuale di record che:
 
-* Non deve essere stato incluso in un rapporto ma aggiunto comunque.
-* Should have been included in a report but were left out.
+* Non avrebbe dovuto essere incluso in un rapporto ma sarebbe stato comunque aggiunto.
+* Avrebbe dovuto essere incluso in una relazione, ma sono stati esclusi.
 
-It's important to note that our tests and models show that the error rate *decreases* in an inverse proportion to the number of records in your data set. I set di dati con molti record generano meno errori rispetto a quelli con un numero limitato di record. Diamo un'occhiata a questa asserzione in modo più quantitativo. Come mostrato nella tabella seguente, per un numero impostato di record, il 95% dei risultati del report sarà inferiore a una frequenza di errore specifica.
+È importante notare che i nostri test e modelli mostrano che il tasso di errore *diminuisce* in proporzione inversa rispetto al numero di record nel set di dati. I set di dati con molti record generano meno errori rispetto ai set con un numero limitato di record. Vediamo questa affermazione in modo più quantitativo. Come mostrato nella tabella seguente, per un numero impostato di record, il 95% dei risultati del rapporto sarà inferiore a un tasso di errore specifico.
 
-| Numero di record | Tasso di errore |
+| Numero di record | Frequenza errori |
 |--- |--- |
-| 500 - 1,000 | 95% ha una frequenza di errore 42%. |
-| 1,000 - 1,500 | 95% ha una frequenza di errore 34%. |
-| 10,000 - 50,000 | 95% ha una frequenza di errore 14%. |
-| 50,000 | 95% ha una frequenza di errore 6%. |
-| 100,000 | 95% ha una frequenza di errore 4%. |
-| 500,000 (o più) | 95% ha una frequenza di errore 2%. |
+| 500 - 1,000 | Il 95% è inferiore a un tasso di errore del 42%. |
+| 1,000 - 1,500 | Il 95% è inferiore a un tasso di errore del 34%. |
+| 10,000 - 50,000 | Il 95% è inferiore a un tasso di errore del 14%. |
+| 50,000 | Il 95% è inferiore a un tasso di errore del 6%. |
+| 100,000 | Il 95% è inferiore a un tasso di errore del 4%. |
+| 500.000 (o più) | Il 95% è inferiore a un tasso di errore del 2%. |
 
-## Reports That Use Sampled Data {#reports-using-sampled-data}
+## Report che utilizzano dati di esempio {#reports-using-sampled-data}
 
-[!DNL Audience Manager] I rapporti che utilizzano i dati campionati includono:
+I [!DNL Audience Manager] rapporti che utilizzano i dati campionati includono:
 
-* [Rapporti di sovrapposizione](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (caratteristica a caratteristica, segmento a caratteristica e segmento a segmento).
-* [Addressable Audience](../features/addressable-audiences.md) data (customer- and segment-level data).
-* The [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metric for a [!UICONTROL Profile Merge Rule].
+* [Report](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) di sovrapposizione (caratteristiche, caratteristiche, caratteristiche e segmento per segmento).
+* [Dati Pubblico](../features/addressable-audiences.md) indirizzabili (dati a livello di cliente e segmento).
+* La metrica Dispositivi [](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) totali per un [!UICONTROL Profile Merge Rule].
