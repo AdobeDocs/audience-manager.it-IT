@@ -1,19 +1,19 @@
 ---
-description: Audience Manager raggruppa i suoi sistemi e processi in quattro categorie principali di gestione tag, raccolta dati, organizzazione dati e fruibilità dati.
-seo-description: Audience Manager raggruppa i suoi sistemi e processi in quattro categorie principali di gestione tag, raccolta dati, organizzazione dati e fruibilità dati.
-seo-title: Componenti chiave nel sistema Audience Manager
+description: 'Audience Manager raggruppa i suoi sistemi e processi in quattro categorie principali: gestione tag, raccolta dati, organizzazione dati e possibilità di utilizzo dei dati.'
+seo-description: 'Audience Manager raggruppa i suoi sistemi e processi in quattro categorie principali: gestione tag, raccolta dati, organizzazione dati e possibilità di utilizzo dei dati.'
+seo-title: Componenti chiave in Audience Manager System
 solution: Audience Manager
-title: Componenti chiave nel sistema Audience Manager
-uuid: dedb 15 e 6-b 8 dd -4 eea-ab 84-d 99 f 160 e 4 d 34
+title: Componenti chiave in Audience Manager System
+uuid: dedb15e6-b8dd-4ea-ab84-d99f160e4d34
 translation-type: tm+mt
 source-git-commit: b8b195f51186151fa7a8658451d1ee9aa7010a75
 
 ---
 
 
-# Key Components in the Audience Manager System{#key-components-in-the-audience-manager-system}
+# Componenti chiave in Audience Manager System{#key-components-in-the-audience-manager-system}
 
-Audience Manager raggruppa i propri sistemi e processi in quattro categorie principali: gestione tag, raccolta dati, organizzazione dati e fruibilità dati.
+Audience Manager raggruppa i sistemi e i processi in quattro categorie principali: gestione tag, raccolta dati, organizzazione dati e fruibilità dei dati.
 
 <!-- 
 
@@ -21,7 +21,7 @@ c_compstack.xml
 
  -->
 
-The following illustration shows the main components and the underlying technology (hardware and software) that power [!DNL Audience Manager]. Sebbene alcuni processi svolgano funzioni specifiche e altri dispongono di ruoli multipli, tutti i sistemi lavorano insieme per aiutarti a gestire i tag, raccogliere dati, analizzare le prestazioni, sincronizzare le informazioni con altri sistemi e intervenire su tali informazioni.
+L'illustrazione seguente mostra i componenti principali e la tecnologia sottostante (hardware e software) che alimentano [!DNL Audience Manager]. Anche se alcuni processi eseguono funzioni specifiche e altri hanno ruoli multiuso, tutti i sistemi collaborano per gestire tag, raccogliere dati, analizzare le prestazioni, sincronizzare le informazioni con altri sistemi e intervenire su tali informazioni.
 
 ![](assets/components.png)
 
