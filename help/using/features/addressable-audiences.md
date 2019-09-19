@@ -107,7 +107,7 @@ Prima di acquistare dati di terze parti per l'acquisizione di audience, i client
 
 Ci sono degli spazi vuoti quando si tenta di connettere gli utenti delle app [!DNL Safari] o per dispositivi mobili in cui non sono presenti cookie di terze parti. Questo rende difficile la sincronizzazione degli utenti con alcuni partner, perché solo questi [!DNL Adobe] ID per i cookie di terze parti sincronizzati sono forniti nei registri di distribuzione dei supporti. Questo è un motivo per cui potresti vedere percentuali [di corrispondenza](../features/addressable-audiences.md#low-match-rates) basse per le tue destinazioni.
 
-## Intervalli di date in Pubblico indirizzabile e Destinazioni {#date-ranges}
+##  Intervalli di date in Pubblico indirizzabile e Destinazioni {#date-ranges}
 
 Leggi le sezioni seguenti per conoscere gli intervalli di date disponibili e come i dati scadono a ogni intervallo nei rapporti per un [!UICONTROL Addressable Audience] o [!UICONTROL Destination].
 
