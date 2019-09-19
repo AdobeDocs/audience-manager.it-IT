@@ -4,20 +4,20 @@ seo-description: Descrive le macro che è possibile aggiungere a un URL di desti
 seo-title: Macro di destinazione definite
 solution: Audience Manager
 title: Macro di destinazione definite
-uuid: 982 cab 05-8 a 3 f -4 f 96-b 4 d 0-291709712 ad 1
+uuid: 982CAB05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Destination Macros Defined {#destination-macros-defined}
+# Macro di destinazione definite {#destination-macros-defined}
 
-Describes the macros you can add to a destination [!DNL URL].
+Descrive le macro che è possibile aggiungere a una destinazione [!DNL URL].
 
 <!-- destination-macros.xml -->
 
-When creating a [!DNL URL] destination, you can insert the following macros into the [!DNL URL] string. Check with your data/destination partner about proper macro placement within the destination [!DNL URL].
+Durante la creazione di una [!DNL URL] destinazione, è possibile inserire le seguenti macro nella [!DNL URL] stringa. Consultare il partner di dati/destinazione per informazioni sulla corretta posizione delle macro all'interno della destinazione [!DNL URL].
 
 >[!NOTE]
 >
@@ -32,75 +32,75 @@ When creating a [!DNL URL] destination, you can insert the following macros into
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> % alias %</code> </p> </td> 
-   <td colname="col2"> <p>Obbligatorio. </p> <p>Definisce la posizione del valore del segmento mappato in un URL di destinazione. Usually this is the <i>Segment ID</i>, but could also be the integration code. </p> </td> 
+   <td colname="col1"> <p> <code> %alias%</code> </p> </td> 
+   <td colname="col2"> <p>Obbligatorio. </p> <p>Definisce la posizione del valore del segmento mappato in un URL di destinazione. Solitamente si tratta dell’ID <i></i>segmento, ma potrebbe anche essere il codice di integrazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> % did %</code> </p> </td> 
-   <td colname="col2"> <p>Inserts the user's <span class="keyword"> Audience Manager</span> ID into the destination URL. </p> </td> 
+   <td colname="col1"> <p> <code> %did%</code> </p> </td> 
+   <td colname="col2"> <p>Inserisce l'ID di <span class="keyword"> Audience Manager</span> dell'utente nell'URL di destinazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>% dpid_<i>source source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>The <i>data source id</i> corresponds to the identifier for a data source passed in to the macro. </p> <p>Vediamo come funziona in un esempio semplice. In this case, we have an <span class="keyword"> Audience Manager</span> partner with the following IDs and conditions: </p> 
+   <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
+   <td colname="col2"> <p>L'ID <i>origine</i> dati corrisponde all'identificatore di un'origine dati passata alla macro. </p> <p>Vediamo come funziona in un semplice esempio. In questo caso, abbiamo un partner <span class="keyword"> Audience Manager</span> con i seguenti ID e condizioni: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
-     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">Data source ID: <code> 1</code> </li> 
-     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">An internal customer ID: <code> CustomerABC</code> </li> 
-     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">Declared ID: The partner wants to pass in these values as the declared ID <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>To do this with the <code>%dpid_<i>data source id</i>%</code>, the <span class="keyword"> Audience Manager</span> partner would format the macro like this: </p> 
+     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID origine dati: 11221222122122122122122121221212212121221221221222222222222222222222111111111222222222112222222211222222222222212222222222222 <code></code> </li> 
+     <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Un ID cliente interno: <code> CustomerABC</code> </li> 
+     <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID dichiarato: Il partner desidera trasmettere questi valori come ID dichiarato <code> 1:CustomerABC</code>. </li> 
+    </ul> <p>A questo scopo, con l'ID <code>%dpid_<i>data dell'origine</i>%</code>, il partner <span class="keyword"> Audience Manager</span> formatta la macro come segue: </p> 
     <ul class="simplelist"> 
-     <li> <code> % dpid_ 1%</code> </li> 
-    </ul> <p>The macro will replace <code> 1</code> with <code> CustomerABC</code>. </p> <p> 
+     <li> <code> %dpid_1%</code> </li> 
+    </ul> <p>La macro sostituirà <code> 1</code> con <code> CustomerABC</code>. </p> <p> 
      <draft-comment>
-       Basato su AAM -22193 https://jira.corp.adobe.com/browse/AAM-22193 
+       Basato su AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> % http_ proto %</code> </p> </td> 
-   <td colname="col2"> <p>Rileva il protocollo utilizzato nella pagina Web principale e lo inserisce nell'URL di destinazione. Ad esempio: 
+   <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
+   <td colname="col2"> <p>Rileva il protocollo utilizzato nella pagina Web padre e lo inserisce nell’URL di destinazione. Ad esempio: 
      <br> 
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
-      <li id="li_B41EF140CC274CB68FE7213DD8B908C0">if the webpage is <b>https</b>://aam_client.com, this macro will be replaced with <b>https</b>://url-destination.com </li> 
-      <li id="li_BDCD6EA69B004A92BA6981952341BD77">if the webpage is <b>http</b>://aam_client.com, this macro will be replaced with <b>http</b>://url-destination.com </li> 
+      <li id="li_B41EF140CC274CB68FE7213DD8B908C0">se la pagina Web è <b>https</b>://aam_client.com, la macro verrà sostituita con <b>https</b>://url-destination.com </li> 
+      <li id="li_BDCD6EA69B004A92BA6981952341BD77">se la pagina Web è <b>http</b>://aam_client.com, la macro verrà sostituita con <b>http</b>://url-destination.com </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> % mcid %</code> </p> </td> 
-   <td colname="col2"> <p>Inserts the <span class="keyword"> Experience Cloud</span> ID into the destination URL. </p> </td> 
+   <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
+   <td colname="col2"> <p>Inserisce l'ID <span class="keyword"> Experience Cloud</span> nell'URL di destinazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code> % region %</code> </p> </td> 
-   <td colname="col2"> <p>Inserts the <span class="wintitle"> Data Collection Server (DCS)</span> region into the destination URL. In order to minimize latency, when the visitor makes an HTTP call to <span class="keyword"> Audience Manager</span>, they are being redirected to the closest <span class="wintitle"> DCS</span> datacenter. Questo risultato viene ottenuto tramite DNS, che è in grado di rilevare il percorso del visitatore e indirizzarlo al data datacenter appropriato. </p> </td> 
+   <td colname="col1"> <p><code> %region%</code> </p> </td> 
+   <td colname="col2"> <p>Inserisce l'area <span class="wintitle"> Data Collection Server (DCS)</span> nell'URL di destinazione. Per ridurre al minimo la latenza, quando il visitatore effettua una chiamata HTTP ad <span class="keyword"> Audience Manager</span>, viene reindirizzato al centro dati <span class="wintitle"> DCS</span> più vicino. Questo viene ottenuto tramite DNS, in grado di rilevare la posizione del visitatore e indirizzarlo al centro dati appropriato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> % rnd %</code> </p> </td> 
-   <td colname="col2"> <p>Esegue una funzione di svuotamento della cache inserendo un numero casuale nell'URL di destinazione. Ciò impedisce ai browser di distribuire il contenuto memorizzato nella cache. </p> </td> 
+   <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 
+   <td colname="col2"> <p>Esegue una funzione di arresto cache inserendo un numero casuale nell'URL di destinazione. Ciò impedisce ai browser di gestire il contenuto memorizzato nella cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %timestamp%</code> </p> </td> 
-   <td colname="col2"> <p>Inserisce una marca temporale UNIX nell'URL di destinazione per impedire ai browser di distribuire il contenuto memorizzato nella cache. </p> </td> 
+   <td colname="col2"> <p>Inserisce una marca temporale UNIX nell'URL di destinazione per evitare che i browser distribuiscano contenuto nella cache. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Cache Busting with Destination Macros {#destination-cache-busting}
+## Busting cache con macro di destinazione {#destination-cache-busting}
 
-The `%rnd%` and `%timestamp%` macros insert unique values into a [!DNL URL] string to prevent browser caching.
+Le `%rnd%` macro e `%timestamp%` le macro inseriscono valori univoci in una [!DNL URL] stringa per impedire il caching del browser.
 
-## Cache Busting with `%rnd%` and `%timestamp%` {#dest-cache-busting}
+## Busting cache con `%rnd%` e `%timestamp%`{#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
-I browser memorizzano nella cache i contenuti di frequente richiesti. Quando una pagina viene caricata, il contenuto salvato viene utilizzato dalla cache anziché da un server remoto. Questo processo consente di mantenere i tempi di download efficienti perché i dati vengono utilizzati localmente anziché da un'altra posizione. Tuttavia, poiché il caching non richiede una chiamata al server, può inclinare i rapporti riducendo artificialmente il numero di richieste univoche.
+La cache dei browser (salva) del contenuto richiesto di frequente nella memoria. Quando una pagina viene caricata, il contenuto salvato viene distribuito dalla cache anziché da un server remoto. Questo processo consente di mantenere tempi di download efficienti perché i dati vengono inviati localmente anziché da un'altra posizione. Tuttavia, poiché il caching non richiede una chiamata al server, può distorcere i rapporti riducendo artificialmente il numero di richieste univoche.
 
-La cache non consente ai browser di salvare e riutilizzare il contenuto. Questa tecnica utilizza codice che inserisce un numero casuale o un indicatore di ora in una stringa URL, che lo rende univoco per il browser. As a result, each `HTTP` call is counted as a separate request to the server. Forzando una nuova chiamata server per ogni richiesta, è possibile mantenere l'accuratezza dei rapporti e ridurre le discrepanze. [!DNL Audience Manager] fornisce due macro per svuotare la cache:
+La funzione cache impedisce ai browser di salvare e riutilizzare il contenuto. Questa tecnica utilizza codice che inserisce un numero casuale o una marca temporale in una stringa URL, rendendola univoca per il browser. Di conseguenza, ogni `HTTP` chiamata viene conteggiata come una richiesta separata al server. Forzare una nuova chiamata al server per ogni richiesta consente di mantenere la precisione dei rapporti e ridurre le discrepanze. [!DNL Audience Manager] fornisce due macro per l'avvio della cache:
 
 * `%rnd%`: Inserisce un numero casuale in un URL.
-* `%timestamp%`: Inserisce la data/l'ora Unix in un URL.
+* `%timestamp%`: Inserisce la data/ora Unix in un URL.
 
-## Comparing `%rnd%` and `%timestamp%` {#compare-rnd-timestamp}
+## Confronto `%rnd%` e `%timestamp%`{#compare-rnd-timestamp}
 
-Both macros prevent caching, but `%rnd%` may be more efficient. For example, with `%timestamp%`, if several users view a page simultaneously they'll get the same date/time value. As a result, the [!DNL URL] is not unique and multiple calls are counted only once. `%rnd%` Tuttavia, genera un valore numerico univoco per ogni chiamata (anche quando gli utenti visualizzano contemporaneamente la stessa pagina). This means the [!DNL URL] string contains different values and is counted as unique.
+Entrambe le macro impediscono il caching, ma `%rnd%` possono essere più efficienti. Ad esempio, con `%timestamp%`, se più utenti visualizzano una pagina contemporaneamente, avranno lo stesso valore di data/ora. Di conseguenza, le chiamate non [!DNL URL] sono univoche e più chiamate vengono conteggiate solo una volta. Tuttavia, `%rnd%` genera un valore numerico univoco per ogni chiamata (anche quando gli utenti vedono la stessa pagina contemporaneamente). Ciò significa che la [!DNL URL] stringa contiene valori diversi e viene conteggiata come univoca.
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
 >* [Macro di destinazione definite](../../features/destinations/destination-macros.md#destination-macros-defined)
