@@ -1,40 +1,40 @@
 ---
-description: Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive basate su una caratteristica già visualizzata. In altre parole, è possibile derivare ulteriori caratteristiche di caratteristica da una caratteristica attualmente visualizzata anche se un utente non ha mai visto il nuovo tratto.
-seo-description: Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive basate su una caratteristica già visualizzata. In altre parole, è possibile derivare ulteriori caratteristiche di caratteristica da una caratteristica attualmente visualizzata anche se un utente non ha mai visto il nuovo tratto.
+description: Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive basate su una caratteristica già vista. In altre parole, è possibile derivare una caratteristica aggiuntiva da una caratteristica attualmente esposta anche se un utente non ha mai visto la nuova caratteristica prima.
+seo-description: Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive basate su una caratteristica già vista. In altre parole, è possibile derivare una caratteristica aggiuntiva da una caratteristica attualmente esposta anche se un utente non ha mai visto la nuova caratteristica prima.
 seo-title: Segnali derivati
 solution: Audience Manager
 title: Segnali derivati
-uuid: e 52600 e 3-26 d 1-4607-9 b 96-afd 6086 a 252 d
+uuid: e52600e3-26d1-4607-9b96-afd6086a252d
 translation-type: tm+mt
 source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
 
 ---
 
 
-# Derived Signals {#derived-signals}
+# Segnali derivati {#derived-signals}
 
-A [!UICONTROL derived signal] qualifies site visitors for additional traits based on a trait they've already seen. In altre parole, è possibile derivare ulteriori caratteristiche di caratteristica da una caratteristica attualmente visualizzata anche se un utente non ha mai visto il nuovo tratto.
+Un visitatore [!UICONTROL derived signal] qualificato per caratteristiche aggiuntive basate su una caratteristica già vista. In altre parole, è possibile derivare una caratteristica aggiuntiva da una caratteristica attualmente esposta anche se un utente non ha mai visto la nuova caratteristica prima.
 
 <!-- c_tb_derived_signal.xml -->
 
 ## Finalità dei segnali derivati
 
-In [!DNL Audience Manager], you can create a relationship between signals (or trait rules) passed in during an event call to other, specified signals or traits. For example, assume an event call passes in a signal composed of the key-value [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] collegare il segnale a qualsiasi altro creato con lo [!UICONTROL derived signals] strumento. Although the associated signals can be any key-values you specify, they are most useful when linked to existing signals already set up as [!UICONTROL Trait Builder] rules. For example, in the illustration below, when a user action fires the signal [!DNL "product = new car"] that user can also qualify for traits defined by the target key and value signals.
+In [!DNL Audience Manager], potete creare una relazione tra i segnali (o le regole di caratteristica) passati durante una chiamata dell'evento ad altri segnali o caratteristiche specificati. Ad esempio, si supponga che una chiamata evento passi in un segnale composto dal valore chiave [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] collega il segnale a qualsiasi altro strumento creato con [!UICONTROL derived signals] lo strumento. Anche se i segnali associati possono essere qualsiasi valore chiave specificato, sono più utili se collegati a segnali esistenti già configurati come [!UICONTROL Trait Builder] regole. Ad esempio, nell'illustrazione seguente, quando un'azione utente attiva il segnale [!DNL "product = new car"] che l'utente può anche qualificarsi per le caratteristiche definite dai segnali chiave-valore di destinazione.
 
 ![](assets/derived_signal_example.png)
 
 ## Posizione dei segnali derivati
 
-Create and manage [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** from the sidebar navigation.
+Creare e gestire [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** dalla navigazione della barra laterale.
 
-## Create a Derived Signal {#create}
+## Creare un segnale derivato {#create}
 
 <!-- t_tb_create_derived.xml -->
 
 To create a [!UICONTROL derived signal]:
 
-1. Select **[!UICONTROL Derived Signals]** from the [!UICONTROL Tools] menu.
-1. Specificate un:
+1. Selezionate **[!UICONTROL Derived Signals]** dal [!UICONTROL Tools] menu.
+1. Fornisci un
    * *(Facoltativo)*[!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
    * [!UICONTROL Source Value]
@@ -44,19 +44,19 @@ To create a [!UICONTROL derived signal]:
 
 >[!NOTE]
 >
->The character limit for the [!UICONTROL Source Key], [!UICONTROL Source Value], [!UICONTROL Target Key], and [!UICONTROL Target Value] fields is 228 characters.
+>Il limite di caratteri per i [!UICONTROL Source Key], [!UICONTROL Source Value], [!UICONTROL Target Key]e [!UICONTROL Target Value] i campi è di 228 caratteri.
 
-## Edit a Derived Signal {#edit}
+## Modifica di un segnale derivato {#edit}
 
 <!-- t_tb_edit_derived.xml -->
 
-To edit a [!UICONTROL derived signal]:
+Per modificare un [!UICONTROL derived signal]:
 
-1. Hover over the signal, then click **[!UICONTROL Edit]**.
-2. Make the required code, key, or value changes, then click **[!UICONTROL Save]**.
+1. Passa il mouse sul segnale, quindi fai clic **[!UICONTROL Edit]**.
+2. Apportate le modifiche necessarie al codice, alla chiave o al valore, quindi fate clic **[!UICONTROL Save]**.
 
-## Delete a Derived Signal {#delete}
+## Eliminare un segnale derivato {#delete}
 
 <!-- t_tb_delete_derived.xml -->
 
-To delete a [!UICONTROL derived signal], hover over the signal, then click **[!UICONTROL Delete]**.
+Per eliminare un [!UICONTROL derived signal]segnale, passate il mouse sul segnale, quindi fate clic **[!UICONTROL Delete]**.
