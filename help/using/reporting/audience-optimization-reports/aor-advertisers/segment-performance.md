@@ -1,29 +1,29 @@
 ---
-description: Il rapporto Performance Performance (Prestazioni segmento) confronta i segmenti mappati e non mappati tramite impression e tassi di conversione. Un segmento mappato è un segmento che crei e invia a una destinazione per il targeting. Un segmento non mappato è un segmento che hai creato ma non è stato inviato a una destinazione per il targeting. Il confronto tra questi tipi di segmenti diversi all'interno e tra i rapporti consente di ottimizzare le campagne esistenti e individuare segmenti trascurati che potresti desiderare inviare a una destinazione per il targeting.
-seo-description: Il rapporto Performance Performance (Prestazioni segmento) confronta i segmenti mappati e non mappati tramite impression e tassi di conversione. Un segmento mappato è un segmento che crei e invia a una destinazione per il targeting. Un segmento non mappato è un segmento che hai creato ma non è stato inviato a una destinazione per il targeting. Il confronto tra questi tipi di segmenti diversi all'interno e tra i rapporti consente di ottimizzare le campagne esistenti e individuare segmenti trascurati che potresti desiderare inviare a una destinazione per il targeting.
-seo-title: Report sulle prestazioni dei segmenti
+description: Il rapporto Prestazioni segmento confronta i segmenti mappati e non mappati per impression e tassi di conversione. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all'interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
+seo-description: Il rapporto Prestazioni segmento confronta i segmenti mappati e non mappati per impression e tassi di conversione. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all'interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
+seo-title: Report Prestazioni segmento
 solution: Audience Manager
-title: Report sulle prestazioni dei segmenti
-uuid: 5156 a 4 c 7-831 d -4 a 95-a 1 be-eb 516 f 0 d 91 b 7
+title: Report Prestazioni segmento
+uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 translation-type: tm+mt
 source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
 
 ---
 
 
-# Segment Performance Report{#segment-performance-report}
+# Report Prestazioni segmento{#segment-performance-report}
 
-[!UICONTROL Segment Performance] Il rapporto confronta i segmenti mappati e non mappati tramite impression e tassi di conversione. Un segmento mappato è un segmento che crei e invia a una destinazione per il targeting. Un segmento non mappato è un segmento che hai creato ma non è stato inviato a una destinazione per il targeting. Il confronto tra questi tipi di segmenti diversi all'interno e tra i rapporti consente di ottimizzare le campagne esistenti e individuare segmenti trascurati che potresti desiderare inviare a una destinazione per il targeting.
+Il [!UICONTROL Segment Performance] rapporto confronta i segmenti mappati e non mappati per impression e tassi di conversione. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all'interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
 
-## How to Read Your Mapped Segment Results {#read-mapped-segment-results}
+## Come leggere i risultati dei segmenti mappati {#read-mapped-segment-results}
 
-The mapped [!UICONTROL Segment Performance] report displays all the segments you created and sent to a destination for targeting.The position of your mapped segments in a report can tell you a lot about which segments are performing well and where you might need to make some adjustments.
+Il [!UICONTROL Segment Performance] rapporto mappato visualizza tutti i segmenti creati e inviati a una destinazione per il targeting. La posizione dei segmenti mappati in un rapporto può fornire informazioni dettagliate sui segmenti che hanno prestazioni migliori e sui punti in cui potrebbe essere necessario apportare alcune modifiche.
 
-Per leggere il rapporto, è utile suddividere i risultati in 4 sezioni con righe immaginarie (in rosso) e le categorie mostrate nel rapporto di esempio sottostante.
+Per leggere il rapporto, esso aiuta a dividere i risultati in 4 sezioni con linee immaginarie (in rosso) e le categorie mostrate nel rapporto campione sottostante.
 
 ![](assets/mapped-segment-performance.png)
 
-Le etichette nell'esempio e nella tabella seguente possono aiutarti a comprendere le prestazioni dei segmenti e come rispondere a tali risultati.
+Le etichette contenute nell'esempio e nella tabella seguente consentono di comprendere le prestazioni dei segmenti e come rispondere a tali risultati.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
@@ -35,36 +35,36 @@ Le etichette nell'esempio e nella tabella seguente possono aiutarti a comprender
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>In alto a sinistra</b> </p> </td> 
-   <td colname="col2"> <p>Tassi di conversione validi. </p> <p>Potreste essere in grado di ottenere più conversioni aumentando le impression. </p> </td> 
+   <td colname="col2"> <p>Buoni tassi di conversione. </p> <p>Potreste essere in grado di ottenere più conversioni aumentando le impression. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>In basso a sinistra</b> </p> </td> 
-   <td colname="col2"> <p>Tassi di conversione ridotti. </p> <p>Potresti voler evitare di targeting di questi segmenti. I segmenti in questa sezione rendono i candidati straordinari per il confronto con quelli nei risultati non mappati. Alcuni dei segmenti non mappati possono essere migliori rispetto ai segmenti già impostati come destinazione. </p> </td> 
+   <td colname="col2"> <p>Tassi di conversione ridotti. </p> <p>È possibile evitare di eseguire il targeting di questi segmenti. I segmenti in questa sezione sono ottimi candidati per il confronto con quelli nei risultati dei segmenti non mappati. Alcuni dei segmenti non mappati potrebbero funzionare meglio dei segmenti già impostati per il targeting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>In alto a destra</b> </p> </td> 
-   <td colname="col2"> <p>Prestazioni elevate. Lascia questi segmenti da soli. </p> </td> 
+   <td colname="col2"> <p>Prestazioni elevate. Lasciate soli questi segmenti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>In basso a destra</b> </p> </td> 
-   <td colname="col2"> <p>Tassi di conversione bassi e impression elevate. </p> <p>I segmenti in questa sezione non funzionano correttamente. Potrebbe essere utile spostare il budget lontano da questi segmenti e nei segmenti nel quadrante sinistro superiore del report. Ciò consentirà di ridurre le impression e di migliorare i tassi di conversione per i segmenti in questa sezione in basso a destra. Confronta anche questi segmenti mappati con i segmenti non mappati. Alcuni dei segmenti non mappati possono essere migliori rispetto ai segmenti già impostati come destinazione. </p> </td> 
+   <td colname="col2"> <p>Tassi di conversione ridotti e impression elevate. </p> <p>I segmenti in questa sezione non funzionano bene. Potresti voler spostare il budget da questi segmenti a segmenti nel quadrante in alto a sinistra del report. In questo modo sarà possibile ridurre le impression e migliorare i tassi di conversione per i segmenti in questa sezione in basso a destra. Inoltre, confronta questi segmenti mappati con i tuoi segmenti non mappati. Alcuni dei segmenti non mappati potrebbero funzionare meglio dei segmenti già impostati per il targeting. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## How to Read Your Unmapped Segment Results {#read-unmapped-segment-results}
+## Come leggere i risultati dei segmenti non mappati {#read-unmapped-segment-results}
 
-Looking at unmapped segments in a [!UICONTROL Segment Performance] report is a great way to find new segments you haven't considered for targeting. In effetti, alcuni di questi segmenti possono prevalere sui segmenti mappati. poiché un segmento non mappato deve soddisfare un insieme di criteri di qualifica da includere in questo report. Per essere inclusi in questo rapporto, un segmento non mappato deve:
+Osservare i segmenti non mappati in un [!UICONTROL Segment Performance] report è un ottimo modo per trovare nuovi segmenti che non hai considerato per il targeting. In realtà, alcuni di questi segmenti potrebbero superare i segmenti mappati. Questo perché un segmento non mappato deve soddisfare una serie di criteri di qualifica da includere in questo rapporto. Per essere incluso in questo rapporto, un segmento non mappato deve:
 
-* Hanno conversioni superiori alla media di tutti i segmenti mappati.
-* Dai primi 100 segmenti non mappati per tasso di conversione.
+* Conversioni maggiori della media di tutti i segmenti mappati.
+* I primi 100 segmenti non mappati in base al tasso di conversione.
 
-Per leggere questo rapporto, è utile suddividere i risultati in 4 sezioni con righe immaginarie (in rosso) e categorie mostrate nel rapporto di esempio sottostante.
+Per leggere questo rapporto, aiuta a dividere i risultati in 4 sezioni con linee immaginarie (in rosso) e categorie indicate nel rapporto di esempio seguente.
 
 ![](assets/unmapped-segment-performance.png)
 
-In questo rapporto, vuoi solo concentrarti su quei segmenti non mappati nella sezione in alto a sinistra. Questi segmenti non mappati presentano tassi di conversione elevati per un livello basso di impression quando confrontato ai segmenti nelle altre tre sezioni.
+In questo rapporto, vuoi concentrarti solo sui segmenti non mappati nella sezione in alto a sinistra. Questi segmenti non mappati presentano tassi di conversione elevati per un basso livello di impression rispetto ai segmenti delle altre tre sezioni.
 
 >[!NOTE]
 >
->7-day and 30-day look-back periods are only available for Sunday **[!UICONTROL Date Through]** dates.
+>I periodi di lookback di 7 giorni e 30 giorni sono disponibili solo per le **[!UICONTROL Date Through]** date della domenica.
