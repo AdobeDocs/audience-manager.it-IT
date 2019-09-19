@@ -1,33 +1,33 @@
 ---
-description: Questo articolo descrive gli operatori di confronto utilizzati dal Generatore di caratteristiche.
-seo-description: Questo articolo descrive gli operatori di confronto utilizzati dal Generatore di caratteristiche.
-seo-title: Utilizzo degli operatori di confronto nel Generatore di caratteristiche
+description: Questo articolo descrive gli operatori di confronto utilizzati da Trait Builder.
+seo-description: Questo articolo descrive gli operatori di confronto utilizzati da Trait Builder.
+seo-title: Utilizzo degli operatori di confronto in Generatore di caratteristiche
 solution: Audience Manager
-title: Utilizzo degli operatori di confronto nel Generatore di caratteristiche
-uuid: 41 bec 3 b 3-e 5 df -4 a 6 f-abb 0-80 ce 4 c 75 f 5 e 7
+title: Utilizzo degli operatori di confronto in Generatore di caratteristiche
+uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Working with Comparison Operators in Trait Builder {#working-with-comparison-operators-in-trait-builder}
+# Utilizzo degli operatori di confronto in Generatore di caratteristiche {#working-with-comparison-operators-in-trait-builder}
 
-This article describes the comparison operators used by [!UICONTROL Trait Builder].
+Questo articolo descrive gli operatori di confronto utilizzati da [!UICONTROL Trait Builder].
 
 ## Scopo degli operatori di confronto
 
 <!-- c_tb_comparison_operators.xml -->
 
-Operatori di confronto (o operatori relazionali) vengono utilizzati per confrontare, verificare o valutare la relazione tra valori diversi. In [!UICONTROL Trait Builder], when building signal rules, comparison operators let you test the relationship between different key-value pairs. Ad esempio, potete creare una regola di segnale per definire un pubblico per acquirenti da fotocamera costosi. In questo caso, è possibile creare una coppia di valori chiave/prezzo e qualificare un utente se ha cercato una videocamera con un prezzo pari o superiore a un importo impostato.
+Gli operatori di confronto (o operatori relazionali) vengono utilizzati per confrontare, verificare o valutare la relazione tra valori diversi. In [!UICONTROL Trait Builder]questo caso, quando si creano le regole del segnale, gli operatori di confronto consentono di verificare la relazione tra diverse coppie chiave-valore. Ad esempio, potete creare una regola del segnale per definire un pubblico per i costosi clienti della telecamera. In questo caso, è possibile creare una coppia telecamera/prezzo chiave-valore e qualificare un utente se ha cercato una fotocamera con un prezzo uguale o superiore a una quantità impostata.
 
 ## Vantaggi degli operatori di confronto
 
-Gli operatori di confronto sono utili quando è necessario valutare e creare caratteristiche basate su più valori. L'aspetto dei prezzi su beni e servizi può illustrare questa condizione. Ad esempio, la tua attività potrebbe voler identificare i visitatori in base ai prezzi dei prodotti visualizzati. Tuttavia, può essere amministrativamente inefficiente per definire singoli segmenti basati su valori specifici. Gli operatori di confronto contribuiscono a superare questo ostacolo stabilendo attivatori di segmentazione basati su soglie di prezzo o intervalli.
+Gli operatori di confronto sono utili per valutare e creare caratteristiche basate su più valori. La valutazione dei prezzi dei beni e dei servizi può illustrare tale condizione. Ad esempio, l'azienda potrebbe voler identificare i visitatori in base ai prezzi dei prodotti visualizzati. Tuttavia, può risultare inefficiente dal punto di vista amministrativo definire singoli segmenti in base a valori specifici. Gli operatori di confronto contribuiscono a superare questo ostacolo stabilendo attivatori di segmentazione in base a soglie o intervalli di prezzo.
 
 ## Operatori di confronto
 
-Puoi creare regole con i seguenti operatori di confronto:
+È possibile creare regole con i seguenti operatori di confronto:
 
 | Operatore | Definizione |
 |---|---|
@@ -40,20 +40,20 @@ Puoi creare regole con i seguenti operatori di confronto:
 
 ## Operatori denominati
 
-Potete creare regole con i seguenti operatori denominati:
+È possibile creare regole con i seguenti operatori denominati:
 
-| Operatore | Evaluates to [!DNL True] When |
+| Operatore | Valuta in [!DNL True] Quando |
 |---|---|
-| **[!UICONTROL Contains]** | The value in a key-value pair *contains* characters specified by this operator. |
-| **[!UICONTROL Matcheswords]** | The value in a key-value pair *matches* the pattern specified by this operator. |
-| **[!UICONTROL Startswith]** | The value in a key-value pair *starts with* characters specified by this operator. |
-| **[!UICONTROL Endswith]** | The value in a key-value pair *ends with* the characters specified by this operator. |
-| **[!UICONTROL Matchesregex]** | The value in a key-value pair *matches* the pattern specified by a regular expression. [Scopri come](../../features/traits/trait-builder-regex.md) usare espressioni regolari in [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Contains]** | Il valore in una coppia chiave-valore *contiene* i caratteri specificati da questo operatore. |
+| **[!UICONTROL Matcheswords]** | Il valore di una coppia chiave-valore *corrisponde* al pattern specificato dall'operatore. |
+| **[!UICONTROL Startswith]** | Il valore in una coppia chiave-valore *inizia con* i caratteri specificati da questo operatore. |
+| **[!UICONTROL Endswith]** | Il valore in una coppia chiave-valore *termina con* i caratteri specificati da questo operatore. |
+| **[!UICONTROL Matchesregex]** | Il valore in una coppia chiave-valore *corrisponde* al pattern specificato da un'espressione regolare. [Ulteriori](../../features/traits/trait-builder-regex.md) informazioni sull'utilizzo delle espressioni regolari in [!UICONTROL Trait Builder]. |
 
->[!MORE_ LIKE_ THIS]
+>[!MORE_LIKE_this]
 >
->* [Espressioni booleane in Caratteristiche e Generatore segmenti](../../reference/boolean-expressions-tsb.md)
->* [Informazioni sulle espressioni booleane in traitbuilder](../../reference/boolean-expressions-tsb.md)
->* [Ordine delle operazioni nelle espressioni traitbuilder](../../features/traits/trait-operator-precedence.md)
+>* [Espressioni booleane in Generatore di caratteristiche e segmenti](../../reference/boolean-expressions-tsb.md)
+>* [Informazioni sulle espressioni booleane in TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Ordine delle operazioni nelle espressioni TraitBuilder](../../features/traits/trait-operator-precedence.md)
 >* [Espressioni di esempio con operatori booleani e di confronto](../../features/traits/trait-expression-samples.md)
 
