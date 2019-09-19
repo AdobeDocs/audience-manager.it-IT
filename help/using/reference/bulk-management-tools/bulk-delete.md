@@ -1,19 +1,19 @@
 ---
-description: L'eliminazione di massa consente di rimuovere più segmenti, caratteristiche, cartelle, segnali derivati e destinazioni con una singola operazione. Per effettuare una richiesta di eliminazione collettiva, effettuate le seguenti operazioni.
-seo-description: L'eliminazione di massa consente di rimuovere più segmenti, caratteristiche, cartelle, segnali derivati e destinazioni con una singola operazione. Per effettuare una richiesta di eliminazione collettiva, effettuate le seguenti operazioni.
-seo-title: Elimina massa
+description: L’eliminazione in blocco consente di rimuovere segmenti, caratteristiche, cartelle, segnali derivati e destinazioni multipli con un’unica operazione. Seguite queste istruzioni per effettuare una richiesta di eliminazione in blocco.
+seo-description: L’eliminazione in blocco consente di rimuovere segmenti, caratteristiche, cartelle, segnali derivati e destinazioni multipli con un’unica operazione. Seguite queste istruzioni per effettuare una richiesta di eliminazione in blocco.
+seo-title: Elimina in blocco
 solution: Audience Manager
-title: Elimina massa
-uuid: 679 cde 46-09 fb -45 c 6-b 84 d -47 e 00 e 0 e 7 c 0 a
+title: Elimina in blocco
+uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Bulk Delete{#bulk-delete}
+# Elimina in blocco{#bulk-delete}
 
-L'eliminazione di massa consente di rimuovere più segmenti, caratteristiche, cartelle, segnali derivati e destinazioni con una singola operazione. Per effettuare una richiesta di eliminazione collettiva, effettuate le seguenti operazioni.
+L’eliminazione in blocco consente di rimuovere segmenti, caratteristiche, cartelle, segnali derivati e destinazioni multipli con un’unica operazione. Seguite queste istruzioni per effettuare una richiesta di eliminazione in blocco.
 
 <!-- 
 
@@ -23,23 +23,23 @@ L'eliminazione di massa consente di rimuovere più segmenti, caratteristiche, ca
 
 >[!NOTE]
 >
->The [!UICONTROL Bulk Management Tools] *are not* supported by [!DNL Audience Manager]. Questo strumento viene fornito per comodità e solo per cortesia. For bulk changes, we recommend that you work with the [Audience Manager APIs](../../api/rest-api-main/aam-api-getting-started.md) instead. [Le autorizzazioni dei gruppi RBAC](../../features/administration/administration-overview.md) assegnate nell' [!DNL Audience Manager] interfaccia utente vengono rispettate nell' [!UICONTROL Bulk Management Tools]interfaccia.
+>Le [!UICONTROL Bulk Management Tools] opzioni non *sono supportate da* [!DNL Audience Manager]. Questo strumento è fornito per comodità e solo come cortesia. Per modifiche di massa, consigliamo di lavorare con le API [](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
->Un eliminazione in massa per le mappature di destinazione non riesce se vi sono segmenti mappati alla destinazione. Rimuovi i segmenti da quella destinazione nell'interfaccia utente prima di tentare di indirizzare le destinazioni di eliminazione in massa. Inoltre, le cartelle di segmenti e segmenti devono essere vuote prima di poterle eliminare.
+>Un'eliminazione in blocco per le mappature di destinazione non riesce se i segmenti sono mappati sulla destinazione. Rimuovere i segmenti da tale destinazione nell'interfaccia utente prima di tentare di eliminare in massa le destinazioni. Inoltre, le cartelle relative alle caratteristiche e ai segmenti devono essere vuote prima di poter essere eliminate.
 
-To delete multiple items, open the [!UICONTROL Bulk Management Tools] worksheet and:
+Per eliminare più elementi, aprire il [!UICONTROL Bulk Management Tools] foglio di lavoro e:
 
-1. Click the **[!UICONTROL Headers]** tab and copy the create headers for the item you want to add.
+1. Fate clic sulla **[!UICONTROL Headers]** scheda e copiate le intestazioni create per l’elemento da aggiungere.
 2. Click the **[!UICONTROL Delete]** tab.
 3. Incolla le intestazioni di eliminazione nella prima riga del foglio di lavoro di aggiornamento.
-4. Incolla o immetti gli ID per gli oggetti da eliminare nella colonna sotto l'intestazione.
-5. Provide the required [log on information](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) and click **[!UICONTROL Submit]**.
+4. Incollate o digitate gli ID per gli oggetti da eliminare nella colonna sotto l’intestazione.
+5. Fornite le informazioni [di](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) accesso richieste e fate clic su **[!UICONTROL Submit]**.
 
-   The worksheet creates a [!UICONTROL Results] column. [!UICONTROL Results] La colonna restituisce un messaggio che indica se l'elemento è stato eliminato o un messaggio di errore.
-Prima di inserire i dati, il foglio di lavoro di aggiornamento in blocco deve essere simile a quello seguente:
+   Il foglio di lavoro crea una [!UICONTROL Results] colonna. La [!UICONTROL Results] colonna restituisce un messaggio che indica se l’elemento è stato eliminato o se è stato visualizzato un messaggio di errore.
+Prima di immettere i dati, il foglio di lavoro di aggiornamento in blocco deve essere simile al seguente:
 
 ![](assets/delete.png)
 
-If your bulk update returns an error or fails, see [Troubleshooting for Bulk Management Tools](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Se l'aggiornamento in blocco restituisce un errore o non riesce, consultate Risoluzione dei [problemi relativi agli strumenti](../../reference/bulk-management-tools/bulk-troubleshooting.md)di gestione in blocco.
