@@ -151,17 +151,17 @@ Elenca e definisce la struttura dati di un [!UICONTROL CDF] file. Sono inclusi s
    <td colname="col1"> <p>Sequenza campi </p> </td> 
    <td colname="col2"> <p> <p>Importante: <span class="keyword"> Audience Manager</span> si riserva il diritto di aggiungere nuovi campi alla fine del file CDF nelle release future. Ciò significa che la progettazione tecnica del sistema di analisi dei file non deve assumere un numero fisso di colonne (anche se può assumere un ordine fisso per le colonne esistenti). </p> </p> <p>I dati nel file CDF vengono visualizzati nell'ordine indicato di seguito. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
-      <li id="li_CB97D90B54EB4F95861583D4A5F660C7"> Ora evento </li> 
+      <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Ora evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
-      <li id="li_F8AE0D4CA19D411686A240FE06F56147"> ID contenitore </li> 
-      <li id="li_660D17989BE54610A01229C47894E8A9"> Caratteristiche realizzate </li> 
-      <li id="li_1591180564374204852785C6FFCA4F74"> Segmenti Realizzati </li> 
+      <li id="li_F8AE0D4CA19D411686A240FE06F56147">ID contenitore </li> 
+      <li id="li_660D17989BE54610A01229C47894E8A9">Caratteristiche realizzate </li> 
+      <li id="li_1591180564374204852785C6FFCA4F74">Segmenti Realizzati </li> 
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parametri di richiesta </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referente </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Indirizzo IP </li> 
       <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (o MID). See also, <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595"> Tutti i segmenti </li> 
-      <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Tutte le caratteristiche </li> 
+      <li id="li_1B5A6F076A354BA0A931CB260E6D2675"> Tutte le caratteristiche </li> 
      </ol> </p> <p>Per le descrizioni dei campi, vedi <a href="#cdf-defined"> Contenuto feed dati cliente definito</a>. </p> </td> 
   </tr> 
  </tbody> 
