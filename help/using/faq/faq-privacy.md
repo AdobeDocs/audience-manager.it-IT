@@ -1,35 +1,35 @@
 ---
-description: Risposte alle domande o ai problemi relativi alla privacy e ai dati comuni.
-seo-description: Risposte alle domande o ai problemi relativi alla privacy e ai dati comuni.
+description: Risposte alle domande o ai problemi più comuni relativi alla privacy e ai dati.
+seo-description: Risposte alle domande o ai problemi più comuni relativi alla privacy e ai dati.
 seo-title: Domande frequenti sulla privacy e sulla conservazione dei dati
 solution: Audience Manager
 title: Domande frequenti sulla privacy e sulla conservazione dei dati
-uuid: ef 558 fca -35 ff -44 f 1-8527-f 8 bee 9 f 2 c 7 e 9
+uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
 source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
 
 ---
 
 
-# Privacy and Data Retention FAQ{#privacy-and-data-retention-faq}
+# Domande frequenti sulla privacy e sulla conservazione dei dati{#privacy-and-data-retention-faq}
 
-Risposte alle domande o ai problemi relativi alla privacy e ai dati comuni.
+Risposte alle domande o ai problemi più comuni relativi alla privacy e ai dati.
 
 <!-- faq_privacy.xml -->
 
-## Privacy FAQ {#privacy-faq}
+## Domande frequenti sulla privacy {#privacy-faq}
 
 >[!TIP]
 >
->Visit the [Adobe Privacy Center](https://www.adobe.com/privacy.html) for more information.
+>Per ulteriori informazioni, visitare l' [Adobe Privacy Center](https://www.adobe.com/privacy.html) .
 
-**In che modo Audience Manager utilizza i cookie e i cookie che vengono impostati?**
+**In che modo Audience Manager utilizza i cookie e quali cookie imposta?**
 
-See [Audience Manager Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html).
+Consultate Cookie [Audience Manager](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html).
 
-**I client di Audience Manager possono essere utilizzati dagli utenti di Target per le proprietà UE?**
+**I clienti di Audience Manager negli Stati Uniti possono rivolgersi agli utenti in base alle proprietà UE?**
 
-Sì. Audience Manager funziona con clienti che hanno proprietà e scorte internazionali. L'Unione Europea ha leggi sulla privacy restrittive, ma Audience Manager dispone di client che utilizzano dati di prime parti per il targeting dell'audience in Europa. Audience Manager supporta il targeting per i tipi di pubblico dell'Unione Europea, ma è la tua responsabilità rispettare le normative sulla privacy locali.
+Sì. Audience Manager funziona con client che dispongono di proprietà e inventario internazionali. L'UE ha leggi sulla privacy severe, ma Audience Manager ha clienti che utilizzano dati di prime parti per il targeting dell'audience in Europa. Audience Manager può supportare il targeting per i tipi di pubblico dell'UE, ma è responsabilità dell'utente rispettare le normative locali sulla privacy.
 
 <!-- 
 
@@ -38,80 +38,80 @@ Sì. Audience Manager funziona con clienti che hanno proprietà e scorte interna
 
  -->
 
-## Data Retention FAQ {#data-retention-faq}
+## Domande frequenti sulla conservazione dei dati {#data-retention-faq}
 
-Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi di dati e sistemi di archiviazione.
+Nella tabella seguente sono elencati i tempi di conservazione per diversi tipi di dati e sistemi di storage.
 
 <table id="table_21C0B13A57A44DE0999FB33F363C88F6"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Tipo di dati, Sorgente o Archiviazione </th> 
+   <th colname="col1" class="entry"> Tipo di dati, origine o archiviazione </th> 
    <th colname="col2" class="entry"> Periodo di conservazione dei dati </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Server back-end </p> </td> 
-   <td colname="col2"> <p>120 giorni. </p> <p> Audience Manager elimina i dati utente dai server back-end 120 giorni dopo l'ultimo rilevamento di un utente sulla piattaforma Audience Manager. If <span class="keyword"> Audience Manager</span> records user activity within this 120-day cycle, we will keep this data for another 120-days. </p> </td> 
+   <td colname="col2"> <p>120 giorni. </p> <p> Audience Manager elimina i dati utente dai server back-end 120 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l'attività utente in questo ciclo di 120 giorni, questi dati verranno conservati per altri 120 giorni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Server periferici </p> </td> 
-   <td colname="col2"> <p> 14 giorni. </p> <p>Audience Manager elimina i dati utente dai server periferici 14 giorni dopo l'ultimo rilevamento di un utente sulla piattaforma Audience Manager. If <span class="keyword"> Audience Manager</span> records user activity in within this 14-day cycle, we will keep this data for another 14-days. Se l'utente diventa nuovamente attivo dopo il periodo di 14 giorni, si verificherà un ritardo tra quella prima nuova pagina e quando l'utente diventa fruibile. Sono necessarie 6-18 ore per recuperare il profilo completo al centro periferico dopo oltre 14 giorni di inattività. </p> </td> 
+   <td colname="col2"> <p> 14 giorni. </p> <p>Audience Manager elimina i dati utente dai nostri server periferici 14 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l'attività utente in questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l'utente torna ad essere attivo dopo 14 giorni, si verifica un ritardo tra la prima visualizzazione della pagina e quando l'utente diventa utilizzabile. Ci vogliono 6-18 ore per riportare il profilo completo al centro del margine dopo più di 14 giorni di inattività. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Registri raw </p> </td> 
-   <td colname="col2"> <p>180 giorni (rimosso dopo 180 giorni di nessuna attività). </p> <p>Raw logs are data received by an edge server via HTTP calls or from onboarded files sent in to <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col1"> <p>Registri non elaborati </p> </td> 
+   <td colname="col2"> <p>180 giorni (rimossi dopo 180 giorni di assenza di attività). </p> <p>I registri non elaborati sono dati ricevuti da un server periferico tramite chiamate HTTP o da file caricati inviati ad <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Registri di annunci di annunci </p> </td> 
-   <td colname="col2"> <p><b>Generazione di rapporti</b> </p> <p>I file di registro vengono conservati a scopo di reporting per un massimo di 30 giorni. We do not persist unmatched logs (i.e. logs for which there is no ID sync between a visitor's ad server ID and <span class="keyword"> Audience Manager</span> ID) in our backend storage, and matched logs stored in <span class="keyword"> Amazon S3</span> are retained for up to 30 days. </p> <p><b>File di registro fruibili</b> </p> <p>I registri associati e non associati vengono conservati per un massimo di 30 giorni. </p> </td> 
+   <td colname="col1"> <p>Registri Ad Server </p> </td> 
+   <td colname="col2"> <p><b>Generazione di rapporti</b> </p> <p>I file di registro vengono conservati a scopo di reporting per un massimo di 30 giorni. I file di registro non corrispondenti (ossia quelli per i quali non esiste la sincronizzazione ID tra l’ID del server di annunci del visitatore e l’ID di <span class="keyword"> Audience Manager</span> ) nell’archivio di back-end e i file di registro corrispondenti memorizzati in <span class="keyword"> Amazon S3</span> vengono conservati per un massimo di 30 giorni. </p> <p><b>File di registro fruibili</b> </p> <p>I registri associati e non associati vengono conservati per un massimo di 30 giorni. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Profili a livello CRM (profili autenticati) </p> </td> 
-   <td colname="col2"> <p>L'intervallo time-to-live (TTL) predefinito per i profili a livello CRM inattivo (ID cliente) è di 24 mesi. Tuttavia, puoi utilizzare l'interfaccia utente di Audience Manager per ridurre o estendere l'intervallo TTL per i profili a livello CRM inattivi tra un mese e 5 anni. Potete eseguire questa operazione al momento della creazione o della modifica di un'origine dati multi-dispositivo.</p> <p>For more information, see Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Create a Cross-Device Data Source </a>.</p> </td> 
+   <td colname="col1"> <p>Profili a livello di CRM (profili autenticati) </p> </td> 
+   <td colname="col2"> <p>L'intervallo TTL (time-to-live) predefinito per i profili a livello di CRM inattivi (ID cliente) è di 24 mesi. Tuttavia, puoi utilizzare l’interfaccia utente di Audience Manager per ridurre o estendere l’intervallo TTL per i profili a livello CRM inattivi tra un mese e cinque anni. È possibile eseguire questa operazione durante la creazione o la modifica di un'origine dati multi-dispositivo.</p> <p>Per ulteriori informazioni, vedi Impostazioni origine dati in <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Creazione di un'origine dati multi-dispositivo </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID dispositivo mobili </p> </td> 
-   <td colname="col2"> <p>The retention conditions for mobile device IDs (<a href="../reference/ids-in-aam.md"> IDFA, GAID</a>) follow the cadence described in the first two rows, back-end servers and edge servers. </p> </td> 
+   <td colname="col1"> <p>ID dispositivo mobile </p> </td> 
+   <td colname="col2"> <p>Le condizioni di conservazione per gli ID dispositivo mobile (<a href="../reference/ids-in-aam.md"> IDFA, GAID</a>) seguono la frequenza descritta nelle prime due righe, nei server back-end e nei server periferici. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed dati cliente (CDF) </p> </td> 
-   <td colname="col2"> <p>A CDF file contains the same data that an <span class="keyword"> Audience Manager</span> event call (/event) sends to our servers. Il periodo di conservazione è di 8 giorni. For more details about CDF, please refer to <a href="../features/cdf-files.md"> CDF Intro</a> and <a href="../faq/faq-cdf.md"> CDF FAQ</a>. </p> </td> 
+   <td colname="col2"> <p>Un file CDF contiene gli stessi dati inviati ai nostri server da una chiamata evento <span class="keyword"> Audience Manager</span> (/event). Il periodo di conservazione è di 8 giorni. Per ulteriori informazioni su CDF, consultate <a href="../features/cdf-files.md"> CDF Intro</a> e <a href="../faq/faq-cdf.md"> CDF FAQ</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mappature tra ID sincronizzati </p> </td> 
-   <td colname="col2"> <p>Mappings between synchronized IDs may be kept for the life of the associated <a href="../reference/ids-in-aam.md"> Audience Manager Unique User ID (AAM UUID)</a>. </p> </td> 
+   <td colname="col2"> <p>Le mappature tra ID sincronizzati possono essere mantenute per la durata dell’ID utente univoco di <a href="../reference/ids-in-aam.md"> Audience Manager (AAM UUID)</a>associato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dati in entrata </p> </td> 
-   <td colname="col2"> <p>This is inbound data you send to <span class="keyword"> Audience Manager</span> by FTP or directly to an <span class="keyword"> Amazon S3</span> directory. See the <a href="../faq/faq-inbound-data-ingestion.md"> Inbound Customer Data Ingestion FAQ</a>. </p> </td> 
+   <td colname="col2"> <p>Si tratta di dati in entrata inviati ad <span class="keyword"> Audience Manager</span> tramite FTP o direttamente a una directory <span class="keyword"> Amazon S3</span> . Consulta le domande frequenti sull' <a href="../faq/faq-inbound-data-ingestion.md"> inserimento dei dati dei clienti in entrata</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dati in uscita </p> </td> 
-   <td colname="col2"> <p>This is the batch data that <span class="keyword"> Audience Manager</span> sends to third party activation partners. Il periodo di conservazione è di 8 giorni. For more details about Outbound data, please refer to <a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> Outbound Batch Transfers</a>. </p> </td> 
+   <td colname="col2"> <p>Si tratta dei dati batch che <span class="keyword"> Audience Manager</span> invia ai partner di attivazione di terze parti. Il periodo di conservazione è di 8 giorni. Per ulteriori dettagli sui dati in uscita, fare riferimento a Trasferimenti <a href="../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md"> batch in</a>uscita. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Trait Qualification Data Retention {#trait-qual}
+## Mantenimento dei dati di qualifica {#trait-qual}
 
-La tabella seguente elenca le opzioni di mantenimento per le caratteristiche delle caratteristiche.
+La tabella seguente elenca le opzioni di conservazione per le qualifiche delle caratteristiche.
 
 <table id="table_7FB42BEF138540AAB6869995C1AB8D3F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Operazione caratteristica </th> 
+   <th colname="col1" class="entry"> Funzionamento </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Eliminare una caratteristica </p> </td> 
-   <td colname="col2"> <p>Eliminando un trait, i dati delle caratteristiche delle caratteristiche vengono rimossi da tutti i profili utente idonei per la caratteristica precedente. </p> </td> 
+   <td colname="col2"> <p>L’eliminazione di una caratteristica rimuove i dati sulla qualifica della caratteristica da tutti i profili utente che erano stati qualificati per la caratteristica in passato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Limite delle caratteristiche raggiunto </p> </td> 
-   <td colname="col2"> <p>Imposti un limite di 100,000 caratteristiche caratteristiche per ogni profilo utente. Il limite si applica a profili autenticati e profili dispositivo. Se un profilo utente raggiunge questo limite, elimineremo le caratteristiche più obsolete delle caratteristiche, in base alla prima e alla prima. </p> <p>For more details, read our <a href="../features/traits/trait-qualification-reference.md#trait-qualification-limit"> Trait Qualification Limit</a>. </p> </td> 
+   <td colname="col1"> <p>Limite di caratteristiche raggiunto </p> </td> 
+   <td colname="col2"> <p>Imponiamo un limite di 100.000 qualifiche per ogni profilo utente. Il limite si applica ai profili e ai profili dispositivo autenticati. Se un profilo utente raggiunge questo limite, elimineremo le qualifiche di caratteristiche più vecchie, in base al primo ingresso e al primo accesso. </p> <p>Per maggiori dettagli, leggi il nostro <a href="../features/traits/trait-qualification-reference.md#trait-qualification-limit"> limite</a>di qualificazione delle caratteristiche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
