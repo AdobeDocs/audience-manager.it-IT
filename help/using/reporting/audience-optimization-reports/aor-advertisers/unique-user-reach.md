@@ -1,34 +1,34 @@
 ---
-description: Il rapporto Univoco utente restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione al numero di utenti unici per la dimensione selezionata. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola. Il rapporto Univoco utente ti aiuta a trovare l'inserzionista, il marchio, la campagna, la creatività, il posizionamento o il sito che fornisce il pubblico più ampio rispetto agli utenti con targeting.
-seo-description: Il rapporto Univoco utente restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione al numero di utenti unici per la dimensione selezionata. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola. Il rapporto Univoco utente ti aiuta a trovare l'inserzionista, il marchio, la campagna, la creatività, il posizionamento o il sito che fornisce il pubblico più ampio rispetto agli utenti con targeting.
-seo-title: Univoco portata utente
+description: Il rapporto Raggiungi utente univoco restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione diretta al numero di utenti unici per la dimensione selezionata. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola. Il rapporto Raggiungi l'utente univoco consente di trovare l'inserzionista, il marchio, la campagna, la creatività, il posizionamento o il sito che offre la portata più ampia rispetto agli utenti con targeting.
+seo-description: Il rapporto Raggiungi utente univoco restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione diretta al numero di utenti unici per la dimensione selezionata. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola. Il rapporto Raggiungi l'utente univoco consente di trovare l'inserzionista, il marchio, la campagna, la creatività, il posizionamento o il sito che offre la portata più ampia rispetto agli utenti con targeting.
+seo-title: Raggiungimento utente univoco
 solution: Audience Manager
-title: Univoco portata utente
-uuid: 897245 ab-af 6 e -42 a 0-b 653-96703 b 65 c 764
+title: Raggiungimento utente univoco
+uuid: 897245ab-af6e-42a0-b653-96703b65c764
 translation-type: tm+mt
 source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 
 ---
 
 
-# Unique User Reach{#unique-user-reach}
+# Raggiungimento utente univoco{#unique-user-reach}
 
-Il rapporto Univoco utente restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione al numero di utenti unici per la dimensione selezionata. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola.
+Il rapporto Raggiungi utente univoco restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione diretta al numero di utenti unici per la dimensione selezionata. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola.
 
-Il rapporto Univoco utente ti aiuta a trovare l'inserzionista, il marchio, la campagna, la creatività, il posizionamento o il sito che fornisce il pubblico più ampio rispetto agli utenti con targeting.
+Il rapporto Raggiungi l'utente univoco consente di trovare l'inserzionista, il marchio, la campagna, la creatività, il posizionamento o il sito che offre la portata più ampia rispetto agli utenti con targeting.
 
 >[!NOTE]
 >
 >Nota bene:
 >
->* [!UICONTROL Unique User Reach] Il rapporto visualizza informazioni solo per gli utenti con [!UICONTROL Admin] livelli di autorizzazione. [!DNL Audience Manager] Il tuo consulente o l'Assistenza clienti può effettuare il provisioning del tuo account con [!UICONTROL Admin] le autorizzazioni.
+>* Il [!UICONTROL Unique User Reach] rapporto visualizza informazioni solo per gli utenti con livelli di [!UICONTROL Admin] autorizzazione. Il [!DNL Audience Manager] consulente o l'Assistenza clienti possono fornire al tuo account [!UICONTROL Admin] le autorizzazioni necessarie.
    >
    >
-* I periodi di look-back di 7 giorni e 30 giorni sono disponibili solo per domenica.
+* I periodi di lookback di 7 giorni e 30 giorni sono disponibili solo per la domenica.
 
 
 ## Report di esempio
 
-[!UICONTROL Unique User Reach] Il rapporto potrebbe essere simile a quello di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti.
+Il tuo [!UICONTROL Unique User Reach] rapporto potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti.
 
 ![](assets/unique-user-reach.png)
