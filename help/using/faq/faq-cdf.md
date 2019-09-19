@@ -1,89 +1,89 @@
 ---
 description: Domande frequenti sui file Feed dati cliente (CDF).
 seo-description: Domande frequenti sui file Feed dati cliente (CDF).
-seo-title: Domande frequenti sui feed dei dati cliente
+seo-title: Domande frequenti sui feed di dati cliente
 solution: Audience Manager
-title: Domande frequenti sui feed dei dati cliente
-uuid: 7183 b 3 e 2-e 999-4 e 1 e -892 f -2 bab 335 c 13 b 6
+title: Domande frequenti sui feed di dati cliente
+uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Customer Data Feed FAQ{#customer-data-feed-faq}
+# Domande frequenti sui feed di dati cliente{#customer-data-feed-faq}
 
 Domande frequenti sui file Feed dati cliente (CDF).
 
-## Amazon S3 Storage {#amazon-s3-storage}
+## Storage Amazon S3 {#amazon-s3-storage}
 
-**Da dove viene memorizzato il file CDF[!DNL Amazon]?**
+**Dove è memorizzato il file CDF[!DNL Amazon]?**
 
-Your CDF file is stored in the `aam-cdf` root directory on an [!DNL Amazon S3] server. This default bucket is managed by [!DNL Audience Manager]. See also [Customer Data Feed File Naming Conventions](../features/cdf-files.md#cdf-naming-conventions).
-
-<br> 
-
-**Il mio spazio di archiviazione è protetto?**
-
-Sì. I clienti possono accedere solo al proprio spazio di archiviazione. Disponete dell'accesso in sola lettura al bucket dell'archiviazione. Non si dispone di accesso in scrittura.
+Il file CDF viene memorizzato nella directory `aam-cdf` principale di un [!DNL Amazon S3] server. Questo bucket predefinito è gestito da [!DNL Audience Manager]. Consultate anche Convenzioni di denominazione dei file dei feed di dati [cliente](../features/cdf-files.md#cdf-naming-conventions).
 
 <br> 
 
-**È possibile personalizzare lo spazio di archiviazione o archiviare i file in un'altra directory?**
+**Il mio bucket di stoccaggio è sicuro?**
 
-No. La personalizzazione e le opzioni di archiviazione alternative non sono disponibili.
-
-<br> 
-
-**Nella directory della mia directory manca un file per un'ora particolare. Where is it?**
-
-A missing file means [!DNL Audience Manager] was not able to process your CDF files for that hour. Questa situazione si verifica in genere quando i nostri server sono in grado di elaborare i file CDF. In questo caso, il file non viene perso. Apparirà in una directory oraria successiva dopo che il sistema avrà la possibilità di aggiornarsi. See also, [Customer Data Feed File Processing Notifications](../features/cdf-files.md#cdf-file-processing-notifications).
+Sì. I clienti possono accedere solo allo spazio di archiviazione personale. Avrete accesso in sola lettura al bucket di archiviazione. Non avrete accesso in scrittura.
 
 <br> 
 
-**Come è possibile sapere quando i file CDF sono pronti?**
+**È possibile personalizzare il bucket di archiviazione o archiviare i file in un'altra directory?**
 
-See [Customer Data Feed File Processing Notifications](../features/cdf-files.md#cdf-file-processing-notifications).
-
-<br> 
-
-## File Sizes {#file-sizes}
-
-**Che tipo di file è previsto? How big is an average CDF file?**
-
-È difficile stimare le dimensioni dei file. Inoltre, ciascun file può avere dimensioni diverse. Le dimensioni variano da ora a ora e giorno al giorno. Se si desidera ricevere file CDF, è utile prepararsi a gestire molti dati.
+No. Le opzioni di personalizzazione e di archiviazione alternativa non sono disponibili.
 
 <br> 
 
-**Quanti file ricevere?**
+**Nella mia directory manca un file per un'ora particolare. Dov'è?**
 
-Anche in questo caso è difficile stimarlo. Tuttavia, se si desidera ricevere file CDF è utile prepararsi a gestire molti dati.
-
-<br> 
-
-## Data Integrity {#data-integrity}
-
-**Come si verifica l'integrità dei dati caricati in Amazon S 3?**
-
-Files exceeding 16MiB in size are split into 16MiB chunks and uploaded to [!DNL Amazon S3] using multi-part upload.
-
-[!DNL Amazon] genera un `ETag` valore per caricamenti multiparte. Prima calcola i singoli checksum MD 5 di ciascuna parte caricata, quindi li concatena in una singola stringa. Quindi, calcola il checksum MD 5 della stringa. The resulting checksum (the `ETag`) is then appended with a hyphen and the total number of parts used for upload. For instance, the `ETag` for a file that was split into 5 parts during upload could look something like this: `2c51427d19021e88cf3395365895b6d4-5`
+Un file mancante significa che [!DNL Audience Manager] non è stato possibile elaborare i file CDF per quell'ora. Questo accade solitamente quando i nostri server si mettono in ritardo nell'elaborazione dei file CDF. In questo caso, il file non viene perso. Apparirà in una directory oraria successiva dopo che il nostro sistema ha la possibilità di recuperare. Vedi anche Notifiche sull'elaborazione dei file dei feed di dati [cliente](../features/cdf-files.md#cdf-file-processing-notifications).
 
 <br> 
 
-## Data Retention {#data-retension}
+**Come posso sapere quando i miei file CDF sono pronti?**
 
-**Per quanto tempo memorizzi i file CDF?**
-
-I dati vengono eliminati dopo 8 (otto) giorni.
+Consulta Notifiche [di elaborazione dei file feed di dati](../features/cdf-files.md#cdf-file-processing-notifications)cliente.
 
 <br> 
 
-**È possibile ottenere file CDF in modo retroattivo o per giorni precedenti?**
+## Dimensioni file {#file-sizes}
 
-È possibile generare solo i file CDF per gli ultimi 8 giorni. Non è possibile generare nuovamente i file CDF per intervalli precedenti ai precedenti 8 giorni.
+**Che tipo di dimensioni di file devo aspettarmi? Quanto è grande un file CDF medio?**
 
->[!MORE_ LIKE_ THIS]
+È difficile stimare le dimensioni dei file. Inoltre, ogni file può avere dimensioni diverse. Le dimensioni variano da ora a ora e giorno a giorno. Se si desidera ricevere i file CDF, è utile essere preparati a gestire molti dati.
+
+<br> 
+
+**Quanti file riceverò?**
+
+Anche in questo caso, è difficile stimarlo. Tuttavia, se si desidera ricevere i file CDF, è utile essere preparati a gestire molti dati.
+
+<br> 
+
+## Integrità dei dati {#data-integrity}
+
+**Come posso verificare l'integrità dei dati caricati su Amazon S3?**
+
+I file di dimensioni superiori a 16MiB vengono suddivisi in blocchi 16MiB e caricati [!DNL Amazon S3] utilizzando il caricamento multiparte.
+
+[!DNL Amazon] genera un `ETag` valore per caricamenti con più parti. In primo luogo, vengono calcolati i singoli checksum MD5 di ciascuna parte caricata, quindi li concatenano in una singola stringa. Quindi, calcola il checksum MD5 della stringa. Il checksum risultante (il `ETag`) viene quindi aggiunto con un trattino e il numero totale di parti utilizzate per il caricamento. Ad esempio, il `ETag` file diviso in 5 parti durante il caricamento potrebbe essere simile al seguente: `2c51427d19021e88cf3395365895b6d4-5`
+
+<br> 
+
+## Conservazione dei dati {#data-retension}
+
+**Per quanto tempo vengono memorizzati i file CDF?**
+
+I dati vengono eliminati dopo 8 (8) giorni.
+
+<br> 
+
+**È possibile ottenere i file CDF retroattivamente o per i giorni precedenti?**
+
+Potete generare file CDF solo per gli ultimi 8 giorni. I file CDF per gli intervalli precedenti agli 8 giorni non possono essere rigenerati.
+
+>[!MORE_LIKE_this]
 >
 >* [Feed dati cliente](../features/cdf-files.md)
 
