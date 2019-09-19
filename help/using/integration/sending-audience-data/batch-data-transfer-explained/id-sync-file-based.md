@@ -1,10 +1,10 @@
 ---
-description: Descrive i campi, la sintassi e le convenzioni di denominazione richieste per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti del file in base alle seguenti specifiche.
-seo-description: Descrive i campi, la sintassi e le convenzioni di denominazione richieste per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti del file in base alle seguenti specifiche.
+description: Descrive i campi, la sintassi e le convenzioni di denominazione richiesti per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti dei file in base alle seguenti specifiche.
+seo-description: Descrive i campi, la sintassi e le convenzioni di denominazione richiesti per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti dei file in base alle seguenti specifiche.
 seo-title: Requisiti di nome e contenuto per i file di sincronizzazione ID
 solution: Audience Manager
 title: Requisiti di nome e contenuto per i file di sincronizzazione ID
-uuid: bfe 42 af 9-9149-4 da 3-830 e-f 227 c 4 e 610 c 2
+uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 translation-type: tm+mt
 source-git-commit: 5624eac36a7f2b8892136688f89fc22af241fc3a
 
@@ -13,13 +13,13 @@ source-git-commit: 5624eac36a7f2b8892136688f89fc22af241fc3a
 
 # Requisiti di nome e contenuto per i file di sincronizzazione ID {#name-and-content-requirements-for-id-synchronization-files}
 
-Descrive i campi, la sintassi e le convenzioni di denominazione richieste per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti del file in base alle seguenti specifiche.
+Descrive i campi, la sintassi e le convenzioni di denominazione richiesti per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti dei file in base alle seguenti specifiche.
 
 >[!NOTE]
 >
->Gli stili di testo (`monospaced text`, *corsivo*, parentesi `[ ]` `( )`, ecc.) in questo documento indica gli elementi e le opzioni del codice. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
+>Gli stili di testo (`monospaced text`, *corsivo*, parentesi `[ ]` `( )`, ecc.) in questo documento indicano gli elementi e le opzioni del codice. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
 
-## Sintassi ed esempi del nome file {#file-name-syntax}
+## Sintassi nome file ed esempi {#file-name-syntax}
 
 <!-- c_file_based_id_sync.xml -->
 
@@ -36,32 +36,32 @@ I nomi dei file ID contengono i seguenti elementi obbligatori e facoltativi:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> adobe_ id</code> </p> </td> 
-   <td colname="col2"> <p>Un prefisso statico che identifica il file come file di sincronizzazione ID. Usa questo prefisso quando fai corrispondere gli ID dispositivo ad altri ID dispositivo o ID cliente (dpuuid).  </p> </td> 
+   <td colname="col1"> <p> <code> adobe_id</code> </p> </td> 
+   <td colname="col2"> <p>Un prefisso statico che identifica il file come file di sincronizzazione ID. Utilizzate questo prefisso quando gli ID dispositivo corrispondono ad altri ID dispositivo o ID cliente (DPUUID).  </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> c 2 c_ id</code> </p> </td> 
-   <td colname="col2"> <p>Un prefisso statico che identifica il file come file di sincronizzazione ID per le destinazioni basate su persone. Usa questo prefisso quando fai corrispondere ID cliente (dpuuid) agli indirizzi e-mail con hash per destinazioni basate su persone.  </p> </td> 
+   <td colname="col1"> <p> <code> c2c_id</code> </p> </td> 
+   <td colname="col2"> <p>Prefisso statico che identifica il file come file di sincronizzazione ID per le destinazioni basate sulle persone. Utilizzate questo prefisso per far corrispondere gli ID cliente (DPUUID) agli indirizzi e-mail con hash per le destinazioni basate sulle persone.  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> L'ID del fornitore di dati principale è l'ID principale dei DPID nel nome del file. Inoltre, il primo ID utente nel file di dati corrisponde all'ID principale. I DPID successivi sono altri identificatori appartenenti alla principale. La sincronizzazione mappa DPID nel nome file per gli UUID nel file. </td> 
+   <td colname="col2"> L'ID del provider di dati principale è l'ID padre dei DPID nel nome del file. Inoltre, il primo ID utente nel file di dati corrisponde all'ID principale. I DPID successivi sono altri identificatori appartenenti al master. La sincronizzazione mappa i DPID nel nome del file sugli UUID nel file. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
-   <td colname="col2"> <p>ID dei fornitori di dati. Questi ID rappresentano entità o origini dati associate al DPID principale. La sincronizzazione mappa DPID nel nome file per gli UUID nel file. </p> <p>Il numero di DPID nel nome file deve corrispondere al numero di UUID nel file di dati. Ad esempio, supponiamo che il nome del file contenga un DPID principale e 3 DPID. Il file di dati deve includere 4 colonne corrispondenti di UUID, formattate come descritto nella sezione del contenuto di file di seguito. </p> </td> 
+   <td colname="col2"> <p>ID del provider di dati. Questi ID rappresentano entità o origini dati associate al DPID principale. La sincronizzazione mappa i DPID nel nome del file sugli UUID nel file. </p> <p>Il numero di DPID nel nome del file deve corrispondere al numero di UUID nel file di dati. Ad esempio, supponiamo che il nome del file contenga un DPID principale e 3 DPID. Il file di dati deve includere 4 colonne corrispondenti di UUID, formattate come descritto nella sezione del contenuto del file di seguito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>timestamp</i></code> </td> 
-   <td colname="col2"> <p>Un timestamp a 10 cifre UNIX, in secondi. La marca temporale contribuisce a rendere univoco ogni nome file. </p> </td> 
+   <td colname="col2"> <p>Marca temporale UNIX di 10 cifre, in secondi. La marca temporale consente di rendere univoco ciascun nome file. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> . sync</code> </p> </td> 
-   <td colname="col2"> <p>Indica una normale sincronizzazione completa. </p> </td> 
+   <td colname="col1"> <p> <code> .sync</code> </p> </td> 
+   <td colname="col2"> <p>Indica una sincronizzazione normale e completa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>[<i>. SPLIT_ NUMBER</i>]</code> </p> </td> 
-   <td colname="col2"> <p>Un numero intero. Utilizzato quando si dividono file di grandi dimensioni in più file di dimensioni più ridotte. Questo consente di migliorare i tempi di elaborazione. Il numero indica quale parte del file originale si sta inviando. Consultate gli esempi del nome file riportati di seguito. </p> </td> 
+   <td colname="col1"> <p> <code>[<i>.SPLIT_NUMBER</i>]</code> </p> </td> 
+   <td colname="col2"> <p>Un numero intero. Utilizzato quando si suddividono file di grandi dimensioni in più file più piccoli. Questo consente di migliorare i tempi di elaborazione. Il numero indica quale parte del file originale viene inviata. Vedere gli esempi di nome file riportati di seguito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
@@ -70,21 +70,21 @@ I nomi dei file ID contengono i seguenti elementi obbligatori e facoltativi:
  </tbody> 
 </table>
 
-### Esempi nome file
+### Esempi di nomi file
 
-Gli esempi seguenti mostrano nomi di file formattati correttamente. I nomi dei file possono essere simili.
+Gli esempi seguenti mostrano i nomi dei file formattati correttamente. I nomi dei file potrebbero essere simili.
 
 <ul class="simplelist"> 
- <li> <code> adobe_ id_ 111_ 222_ 333_ 444_ 1454442149. sync</code> </li> 
+ <li> <code> adobe_id_111_222_333_444_145442149.sync</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.1.gz</code> </li> 
  <li> <code> adobe_id_123_898_456_1454442149.sync.2.gz</code> </li> 
  <li> <code>c2c_id_123_898_1454442149.sync.gz</code> </li> 
 </ul>
 
 >[!NOTE]
-> Per la denominazione dei file di sincronizzazione ID (prefisso c 2 c) per Destinazioni basate su persone, vedi [Flusso di lavoro A - Personalizzazione basata su tutta l'attività online combinato con Dati](../../../features/destinations/people-based-destinations-workflow-combined.md) offline o [Flusso di lavoro B - Personalizzazione basata su dati non in linea](../../../features/destinations/people-based-destinations-workflow-offline.md).
+> Per la denominazione dei file di sincronizzazione ID (prefisso c2c) per le destinazioni basate sulle persone, vedi [Flusso di lavoro A - Personalizzazione basata su tutte le attività online combinate con dati](../../../features/destinations/people-based-destinations-workflow-combined.md) offline o [Flusso di lavoro B - Personalizzazione basata su dati](../../../features/destinations/people-based-destinations-workflow-offline.md)solo offline.
 
-## Sintassi di contenuto file ed esempi {#file-content-syntax}
+## Sintassi dei contenuti dei file ed esempi {#file-content-syntax}
 
 Il contenuto di un file ID include i seguenti elementi:
 
@@ -96,42 +96,42 @@ Il file contiene gli ID utente ([!DNL UUID]). In ogni riga, separa gli ID con un
 abc123 def456 ghi789 xyz987
 ```
 
-## Sincronizzazione corrispondente dpuuid agli UUID {#sync-matches-dpuuids-uuids}
+## Sincronizzazione con DPUUID per UUID {#sync-matches-dpuuids-uuids}
 
-Lo scopo di un file di sincronizzazione ID è quello di sincronizzare i [dpuuid](../../../reference/ids-in-aam.md) dalle tue Origini dati con [!DNL Audience Manager] UUID. Sincronizzazione mappa [!DNL DPUUID]le s dalla mastro [!DNL DPID] e i relativi [!DNL DPID]s a [!DNL Audience Manager][!DNL UUID]s. Dove vengono inseriti gli ID nel nome e nel corpo del file determina il modo in cui questi identificatori vengono mappati tra loro. Ad esempio, inserire i due file di esempio seguenti:
+Lo scopo di un file di sincronizzazione ID è quello di sincronizzare i [DPUUID](../../../reference/ids-in-aam.md) da Origini dati personali con [!DNL Audience Manager] UUID. La sincronizzazione mappa gli [!DNL DPUUID]s dal master [!DNL DPID] e i relativi [!DNL DPID]s agli [!DNL Audience Manager][!DNL UUID]s. La posizione in cui gli ID vengono inseriti nel nome e nel corpo del file determina in che modo questi identificatori vengono mappati l'uno sull'altro. Ad esempio, prendete i due file di esempio seguenti:
 
-* **File 1:**`adobe_id_0_12345_1476312152.sync`
+* **** File 1: `adobe_id_0_12345_1476312152.sync`
 
-* **File 2:**`adobe_id_12345_67890_1476312876.sync`
+* **** File 2:  `adobe_id_12345_67890_1476312876.sync`
 
 <br/>
 
-Considerando il nome e il contenuto del campione, gli ID vengono mappati insieme come segue:
+Dati il nome e il contenuto dell’esempio, gli ID vengono mappati in questo modo:
 
-**File 1** ( [file di esempio Scarica](assets/adobe_id_0_12345_1476312152.sync))
+**File 1** ( [Scarica file](assets/adobe_id_0_12345_1476312152.sync)di esempio)
 
-| DPID 0 = Adobe Audience Manager UUID | DPID 12345 |
+| DPID 0 = UUID di Adobe Audience Manager | DPID 12345 |
 |---|---|
-| 68079982765673198504052656074456196039 | XYZ 3017 D_ 2 kzktoxkfyiagwbajoqwrcqkxl-ttrj 6 E 4 njamr 38 |
-| 67412682083411995725538770443620307584 | XYZ 3017 BBR 4 dafjwfm 6 D 4 Gb 4 ln_ T 5 jk_ f 7 rdecqns 9 wfna 7 h 70 |
-| 89159024796760343733111707646026765593 | XYZ 3017 prypid 8 tzfhkee-gE 034 LI -53 Jde 0 utcyciwd 0 A 2 olm |
-| 66552757407517449462805881945288602094 | XYZ 3017 qvbddd-bljs 28 dpxiqufmibxe 3_ 55 bvqjmlwregju 2 M |
-| 66184778222667870903738139438735041506 | XYZ 3017 q 9 r 60 kuhwise_ Ek-btcn 2 iu 1 hyvaue 0 rd 412 tzbycmw |
+| 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-Trj6E4njaMR.38 |
+| 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
+| 89159024796760343733111707646026765593 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM |
+| 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
+| 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-Passaggio 1: il processo di sincronizzazione ID sincronizzerà [!DNL DPUUID]le s da [!DNL DPID] 12345 con [!DNL Audience Manager][!DNL UUID]le s nella colonna sinistra. Notate che [!DNL DPID] «0» nel nome del file rappresenta [!DNL Audience Manager][!DNL UUID]s.<br/>
+Passaggio 1: il processo di sincronizzazione ID sincronizzerà gli [!DNL DPUUID]s da [!DNL DPID] 12345 con gli [!DNL Audience Manager] s [!DNL UUID]nella colonna sinistra. Si noti che il [!DNL DPID] "0" nel nome del file rappresenta [!DNL Audience Manager] [!DNL UUID]s.
+<br/>
 
-
-**File 2** ( [file di esempio Scarica](assets/adobe_id_12345_67890_1477846458.sync))
+**File 2** ( [Scarica file](assets/adobe_id_12345_67890_1477846458.sync)di esempio)
 
 | [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|
-| XYZ 3017 D_ 2 kzktoxkfyiagwbajoqwrcqkxl-ttrj 6 E 4 njamr 38 | 4598060374 |
-| XYZ 3017 BBR 4 dafjwfm 6 D 4 Gb 4 ln_ T 5 jk_ f 7 rdecqns 9 wfna 7 h 70 | 4581274262 |
-| XYZ 3017 prypid 8 tzfhkee-gE 034 LI -53 Jde 0 utcyciwd 0 A 2 olm | 4392434426 |
-| XYZ 3017 qvbddd-bljs 28 dpxiqufmibxe 3_ 55 bvqjmlwregju 2 M | 2351382994 |
-| XYZ 3017 q 9 r 60 kuhwise_ Ek-btcn 2 iu 1 hyvaue 0 rd 412 tzbycmw | 4601584763 |
+| XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-Trj6E4njaMR.38 | 4598060374 |
+| XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 | 4581274262 |
+| XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM | 4392434426 |
+| XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
+| XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Passaggio 2: the [!DNL DPUUID]s from [!DNL DPID] 12345 have been syncing al passaggio 1 with the Audience Manager [!DNL UUID]s. Questa sincronizzazione ID sincronizza le [!DNL DPUUID]s da [!DNL DPID] 67890 con Audience Manager [!DNL UUID]al passaggio 1.
+Passaggio 2: gli [!DNL DPUUID]s da [!DNL DPID] 12345 sono stati sincronizzati nel passaggio 1 con Audience Manager [!DNL UUID]s. Questa sincronizzazione ID effettua la sincronizzazione [!DNL DPUUID]degli ID da [!DNL DPID] 67890 con Audience Manager [!DNL UUID]dal passaggio 1.
 
 <br/>
 
@@ -139,8 +139,8 @@ Passaggio 2: the [!DNL DPUUID]s from [!DNL DPID] 12345 have been syncing al pass
 
 Gli ID utente non possono:
 
-* Avere schede nell'ID. Le schede vengono utilizzate solo per separare singoli ID nel file di dati.
-* Contengono informazioni personali identificabili ([!UICONTROL PII]).
-* Utilizzare [!DNL URL] la codifica. Passa solo gli ID non codificati.
+* Avere schede nell'ID stesso. Le schede vengono utilizzate solo per separare i singoli ID nel file di dati.
+* Contiene informazioni personali ([!UICONTROL PII]).
+* Utilizzare [!DNL URL] la codifica. Trasmettere solo ID non codificati.
 
-Tutte le righe che terminano con schede o spazi non saranno elaborate o realizzate. Come regola, accertatevi di mantenere chiare le righe.
+Tutte le righe che terminano con tabulazioni o spazi non verranno elaborate o realizzate. Come regola, accertatevi di mantenere la fine delle righe pulita.
