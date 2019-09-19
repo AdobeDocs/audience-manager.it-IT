@@ -1,22 +1,22 @@
 ---
-description: Utilizzate operatori logici per raggruppare coppie chiave-valore e caratteristiche di backfill.
-seo-description: Utilizzate operatori logici per raggruppare coppie chiave-valore e caratteristiche di backfill.
+description: Utilizzare operatori logici per raggruppare coppie chiave-valore e caratteristiche di backfill.
+seo-description: Utilizzare operatori logici per raggruppare coppie chiave-valore e caratteristiche di backfill.
 seo-title: Operatori logici supportati
 title: Operatori logici supportati
-uuid: 645 fcb 6 f -50 ac -49 bc -8 df 9-c 699 c 749 cf 8 f
+uuid: 645fcb6f-50ac-49bc-8df9-c699c749cf8f
 translation-type: tm+mt
 source-git-commit: 1f26460d746a93ddc36c375360fcfbd9feb06fbb
 
 ---
 
 
-# Supported Logical Operators {#supported-logical-operators}
+# Operatori logici supportati {#supported-logical-operators}
 
-Utilizzate operatori logici per raggruppare coppie chiave-valore e caratteristiche di backfill.
+Utilizzare operatori logici per raggruppare coppie chiave-valore e caratteristiche di backfill.
 
-## Supported Operators for Signal Search {#supported-operators-search}
+## Operatori supportati per la ricerca del segnale {#supported-operators-search}
 
-Usate i seguenti operatori logici supportati per cercare coppie chiave-valore:
+Utilizzate i seguenti operatori logici supportati per cercare coppie chiave-valore:
 
 ### Operatori di confronto
 
@@ -30,12 +30,12 @@ Usate i seguenti operatori logici supportati per cercare coppie chiave-valore:
 
 ### Operatori denominati
 
-| Operatore | Evaluates to [!DNL True] When |
+| Operatore | Valuta in [!DNL True] Quando |
 |---|---|
-| **[!UICONTROL Contains]** | The value in a key-value pair *contains* characters specified by this operator. |
-| **[!UICONTROL Startswith]** | The value in a key-value pair *starts with* characters specified by this operator. |
-| **[!UICONTROL Endswith]** | The value in a key-value pair *ends with* the characters specified by this operator. |
+| **[!UICONTROL Contains]** | Il valore in una coppia chiave-valore *contiene* i caratteri specificati da questo operatore. |
+| **[!UICONTROL Startswith]** | Il valore in una coppia chiave-valore *inizia con* i caratteri specificati da questo operatore. |
+| **[!UICONTROL Endswith]** | Il valore in una coppia chiave-valore *termina con* i caratteri specificati da questo operatore. |
 
-## Supported Operators for Trait Backfilling and Estimation {#supported-operators-backfilling}
+## Operatori supportati per il recupero e la stima delle caratteristiche {#supported-operators-backfilling}
 
-You can backfill traits that include expressions containing any of the operators supported by [!UICONTROL Signal Search]. In addition to these operators, trait backfilling and estimation also support the [!UICONTROL AND], [!UICONTROL OR], and [!UICONTROL AND NOT] logical operators, used to combine key-value pairs within the backfilled trait expressions.
+Potete eseguire il backfill delle caratteristiche che includono espressioni contenenti uno degli operatori supportati da [!UICONTROL Signal Search]. Oltre a questi operatori, il backfill e la stima delle caratteristiche supportano anche gli operatori [!UICONTROL AND], [!UICONTROL OR]e [!UICONTROL AND NOT] logici, utilizzati per combinare coppie chiave-valore all'interno delle espressioni di caratteristica con backfill.
