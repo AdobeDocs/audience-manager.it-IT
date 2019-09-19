@@ -1,25 +1,25 @@
 ---
-description: Filtrare i risultati della ricerca di un segnale in base al tipo di segnale.
-seo-description: Filtrare i risultati della ricerca di un segnale in base al tipo di segnale.
-seo-title: Filtrare i risultati della ricerca
-title: Filtrare i risultati della ricerca
-uuid: 7 b 764 a 5 d-f 8 ae -4 f 7 b -83 f 5-7 f 6 c 40 de 639 b
+description: Filtrare i risultati di una ricerca del segnale in base al tipo di segnale.
+seo-description: Filtrare i risultati di una ricerca del segnale in base al tipo di segnale.
+seo-title: Filtra risultati di ricerca
+title: Filtra risultati di ricerca
+uuid: 7b764a5d-f8ae-4f7b-83f5-7f6c40de639b
 translation-type: tm+mt
 source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
 
 ---
 
 
-# Filter Search Results {#filter-search-results}
+# Filtra risultati di ricerca {#filter-search-results}
 
-Filtrare i risultati della ricerca di un segnale in base al tipo di segnale.
+Filtrare i risultati di una ricerca del segnale in base al tipo di segnale.
 
-1. Go to [!UICONTROL Audience Data > Signals > Search] and run a [!UICONTROL Signals Search] with the desired key-value pairs, or a broader search, using the filters.
-1. Use the **[!UICONTROL Filter by Signal Type]** section to filter your results based on the following categories:
+1. Passate a [!UICONTROL Audience Data > Signals > Search] ed eseguite una ricerca [!UICONTROL Signals Search] con le coppie chiave-valore desiderate, o con una ricerca più ampia, utilizzando i filtri.
+1. Utilizzate la **[!UICONTROL Filter by Signal Type]** sezione per filtrare i risultati in base alle seguenti categorie:
 
-   * **[!UICONTROL Actionable log files]**: segnali ricevuti tramite file [!DNL Google][!DNL DCM] di registro;
-   * **[!DNL Adobe Analytics]**: segnali ricevuti dall [!DNL Adobe Analytics] 'account. Use the **[!UICONTROL Filter by report suites]** drop-down menu to select the report suite to show signals from.
-   * **[!UICONTROL General online data]**: i dati in tempo reale generati dai visitatori e non inclusi nei file di registro utilizzabili e [!DNL Adobe Analytics];
-   * **[!UICONTROL Onboarded records]**: dati ricevuti tramite trasferimento di dati batch. Use the **[!UICONTROL Filter by data source]** drop-down menu to select the data source to show signals from.
+   * **[!UICONTROL Actionable log files]**: i segnali ricevuti attraverso [!DNL Google] file di [!DNL DCM] registro;
+   * **[!DNL Adobe Analytics]**: i segnali ricevuti dal tuo [!DNL Adobe Analytics] account. Utilizzate il menu a **[!UICONTROL Filter by report suites]** discesa per selezionare la suite di rapporti da cui visualizzare i segnali.
+   * **[!UICONTROL General online data]**: dati in tempo reale generati dai visitatori e non inclusi nei file di registro fruibili e [!DNL Adobe Analytics];
+   * **[!UICONTROL Onboarded records]**: i dati ricevuti tramite trasferimenti di dati batch. Utilizzare il menu a **[!UICONTROL Filter by data source]** discesa per selezionare l'origine dati da cui visualizzare i segnali.
 
-1. Optionally, you can [Save Search Criteria](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) for future use.
+1. Facoltativamente, puoi [salvare i criteri](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) di ricerca per un utilizzo futuro.
