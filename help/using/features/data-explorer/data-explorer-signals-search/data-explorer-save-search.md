@@ -1,31 +1,31 @@
 ---
-description: Ottimizzate le attività di ricerca dei segnali salvando fino a 10 set di criteri di ricerca da utilizzare ogni volta che li necessiti, e tracciateli sul dashboard. Audience Manager ricarica le ricerche salvate ogni volta che caricate il dashboard.
-seo-description: Ottimizzate le attività di ricerca dei segnali salvando fino a 10 set di criteri di ricerca da utilizzare ogni volta che li necessiti, e tracciateli sul dashboard. Audience Manager ricarica le ricerche salvate ogni volta che caricate il dashboard.
+description: Ottimizzate le attività di ricerca del segnale salvando fino a 10 set di criteri di ricerca da utilizzare ogni volta che ne avete bisogno, e teneteli traccia sul dashboard. Audience Manager ricarica le ricerche salvate ogni volta che caricate il dashboard.
+seo-description: Ottimizzate le attività di ricerca del segnale salvando fino a 10 set di criteri di ricerca da utilizzare ogni volta che ne avete bisogno, e teneteli traccia sul dashboard. Audience Manager ricarica le ricerche salvate ogni volta che caricate il dashboard.
 seo-title: Salva criteri di ricerca
 title: Salva criteri di ricerca
-uuid: c 17 b 26 e 0-f 489-47 c 9-b 41 b-bf 895 ca 9 d 8 a 5
+uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 translation-type: tm+mt
 source-git-commit: 3d8f16725053ae29bdba8e4fcd144ff0b9b67880
 
 ---
 
 
-# Save Search Criteria {#save-search-criteria}
+# Salva criteri di ricerca {#save-search-criteria}
 
-Optimize signal search efforts by saving up to 10 sets of search criteria to use whenever you need them, and track them on the [!UICONTROL Signals Dashboard]. Audience Manager reloads the saved searches every time you load the [!UICONTROL Signals Dashboard].
+Ottimizzate le attività di ricerca del segnale salvando fino a 10 set di criteri di ricerca da utilizzare ogni volta che ne avete bisogno, e teneteli traccia sul [!UICONTROL Signals Dashboard]. Audience Manager ricarica le ricerche salvate ogni volta che caricate il [!UICONTROL Signals Dashboard].
 
-1. Go to **[!UICONTROL Audience Data > Signals > Search]** and run a **[!UICONTROL Signals Search]** with the key-value pairs and/or the filters that you want to save for future searches.
-1. Click **[!UICONTROL Save this Search]** once you get the search results.
+1. Passate a **[!UICONTROL Audience Data > Signals > Search]** ed eseguite un **[!UICONTROL Signals Search]** file con le coppie chiave-valore e/o i filtri che desiderate salvare per ricerche future.
+1. Fate clic **[!UICONTROL Save this Search]** una volta ottenuti i risultati della ricerca.
 
-   ![Risultato passaggio](assets/save-search-criteria.png)
-1. Inserite un nome suggestivo per la ricerca, in modo da poterlo identificare in un secondo momento.
-1. (Optional) Enable the **[!UICONTROL Track this search result in the dashboard]** option if you want the signals dashboard to include the signals in the current search set.
+   ![Risultato del passaggio](assets/save-search-criteria.png)
+1. Immettete un nome di suggerimento per la ricerca, in modo da poterlo identificare in un secondo momento.
+1. (Facoltativo) Abilitate l' **[!UICONTROL Track this search result in the dashboard]** opzione se desiderate che il pannello dei segnali includa i segnali nel set di ricerca corrente.
 1. Select the **[!UICONTROL Default Sorting]** criteria:
    * **[!UICONTROL Total Counts]**
    * **[!UICONTROL Key Name]**
-1. Choose the **[!UICONTROL Default Sorting]** mode:
+1. Scegliete la **[!UICONTROL Default Sorting]** modalità:
    * **[!UICONTROL Descending]**
    * **[!UICONTROL Ascending]**
-1. Fai clic su **[!UICONTROL Save]**. You can see your saved search in the [!UICONTROL Saved Search] section, and use it whenever you need it.
+1. Fai clic su **[!UICONTROL Save]**. Puoi visualizzare la ricerca salvata nella [!UICONTROL Saved Search] sezione e utilizzarla quando necessario.
 
 ![ricerca salvata](assets/saved-search.png)
