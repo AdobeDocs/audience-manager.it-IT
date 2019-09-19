@@ -1,10 +1,10 @@
 ---
-description: Il processo di trasferimento dei dati in uscita per i clienti che usano Amazon Simple Storage Service (Amazon S 3) richiede la richiesta della chiave di accesso e della chiave segreta Amazon S 3 per distribuire i file di dati in uscita al bucket.
-seo-description: Il processo di trasferimento dei dati in uscita per i clienti che usano Amazon Simple Storage Service (Amazon S 3) richiede la richiesta della chiave di accesso e della chiave segreta Amazon S 3 per distribuire i file di dati in uscita al bucket.
+description: Il processo di trasferimento dati in uscita per i clienti che utilizzano Amazon Simple Storage Service (Amazon S3) richiede che venga richiesto il codice di accesso e la chiave segreta Amazon S3, al fine di inviare i file di dati in uscita al bucket.
+seo-description: Il processo di trasferimento dati in uscita per i clienti che utilizzano Amazon Simple Storage Service (Amazon S3) richiede che venga richiesto il codice di accesso e la chiave segreta Amazon S3, al fine di inviare i file di dati in uscita al bucket.
 seo-title: Utilizzo delle autorizzazioni bucket tra account diversi di Amazon S3 per i file un uscita
 solution: Audience Manager
 title: Utilizzo delle autorizzazioni bucket tra account diversi di Amazon S3 per i file un uscita
-uuid: 400 a 8 d 67-ebf 3-48 be-aa 3 f -498 a 5441 f 498
+uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
@@ -13,6 +13,6 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 # Utilizzo delle autorizzazioni bucket tra account diversi di Amazon S3 per i file un uscita {#leverage-amazon-s-cross-account-bucket-permissions-for-your-outbound-files}
 
-The [!UICONTROL Outbound Data Transfer] process for customers using [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) requires us to ask for your [!DNL Amazon S3] access key and secret key, in order to deliver the outbound data files to your bucket.
+Il [!UICONTROL Outbound Data Transfer] processo per i clienti che utilizzano [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) richiede che noi chiediamo la tua chiave di [!DNL Amazon S3] accesso e la chiave segreta, al fine di consegnare i file di dati in uscita al tuo bucket.
 
-If you'd rather not share your [!DNL Amazon S3] access key and secret key with us, contact your [!DNL Audience Manager] consultant or Customer Care and they will set up [!DNL Cross-Account Bucket Permissions] for you. You only need to whitelist our [!DNL Amazon S3] account ID for the [!DNL S3] bucket where you wish to receive the outbound data files, as described in the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). [!DNL Audience Manager] Il tuo consulente o Assistenza clienti fornirà il nostro [!DNL Amazon S3] ID account.
+Se preferisci non condividere con noi la tua chiave [!DNL Amazon S3] di accesso e la chiave segreta, contatta il tuo [!DNL Audience Manager] consulente o l'Assistenza clienti e ti installeranno [!DNL Cross-Account Bucket Permissions] . Devi solo inserire il nostro [!DNL Amazon S3] ID account per il [!DNL S3] bucket in cui desideri ricevere i file di dati in uscita, come descritto nella documentazione [di](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)Amazon S3. Il tuo [!DNL Audience Manager] consulente o l'Assistenza clienti ti fornirà il nostro [!DNL Amazon S3] ID account.
