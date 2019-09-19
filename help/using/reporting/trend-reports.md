@@ -1,19 +1,19 @@
 ---
-description: Un rapporto Tendenza restituisce dati sulle tendenze sui segmenti e sui segmenti.
-seo-description: Un rapporto Tendenza restituisce dati sulle tendenze sui segmenti e sui segmenti.
-seo-title: Report sulle tendenze
+description: Un report Trend restituisce dati di tendenza su caratteristiche e segmenti.
+seo-description: Un report Trend restituisce dati di tendenza su caratteristiche e segmenti.
+seo-title: Report tendenze
 solution: Audience Manager
-title: Report sulle tendenze
-uuid: bedbe 7 d 4-7 cbb -4403-9104-312 f 9230 aea 1
+title: Report tendenze
+uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 translation-type: tm+mt
 source-git-commit: 18bb00d494d44d7028dcc51dcb2fc57b23420142
 
 ---
 
 
-# Trend Reports{#trend-reports}
+# Report tendenze{#trend-reports}
 
-Un rapporto Tendenza restituisce dati sulle tendenze sui segmenti e sui segmenti.
+Un report Trend restituisce dati di tendenza su caratteristiche e segmenti.
 
 ## Panoramica {#trend-report-overview}
 
@@ -23,37 +23,37 @@ c_trend_reports.xml
 
  -->
 
-[!DNL Audience Manager] uses [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) per estendere le autorizzazioni del gruppo utenti ai [!UICONTROL Trend] rapporti. Gli utenti possono vedere solo le caratteristiche e i segmenti nei rapporti che possono visualizzare. [!UICONTROL RBAC] consente di controllare quali dei team interni di dati di reporting sono in grado di visualizzare.
+[!DNL Audience Manager] utilizza [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) per estendere le autorizzazioni del gruppo di utenti ai [!UICONTROL Trend] rapporti. Gli utenti possono visualizzare solo le caratteristiche e i segmenti nei rapporti che dispongono delle autorizzazioni per visualizzare. [!UICONTROL RBAC] consente di controllare i dati che possono essere visualizzati dai team interni.
 
-Ad esempio, un'agenzia che gestisce diversi account pubblicitari può configurare le autorizzazioni del gruppo di utenti in modo che un team che gestisce l'account dell'inserzionista A non possa vedere i dati di reporting dell'inserzionista B.
+Ad esempio, un'agenzia che gestisce diversi account di inserzionisti può configurare le autorizzazioni per gruppi di utenti in modo che un team che gestisce l'account dell'inserzionista A non possa vedere i dati di reporting dell'inserzionista B.
 
-Run a [!UICONTROL Trend] report when you need to:
+Esegui un [!UICONTROL Trend] report quando è necessario:
 
 * Rivedete i dati delle tendenze per caratteristiche e segmenti.
-* Tieni traccia delle tendenze di 1, 7, 14, 30, 60 e 90 giorni.
-* Confronta le tendenze e le tendenze del segmento nel tempo.
-* Identificare caratteristiche e segmenti di prestazioni potenti o scadenti.
-* Esportare dati (formato. csv) per un'ulteriore analisi e condivisione.
+* Tieni traccia delle tendenze di 1, 7, 14, 30, 60 e intervalli di 90 giorni.
+* Confronta caratteristiche e tendenze dei segmenti nel tempo.
+* Identificare caratteristiche e segmenti di prestazioni forti o insufficienti.
+* Esporta dati (formato CSV) per ulteriori analisi e condivisione.
 
-The following illustration provides a high-level overview of key elements in the [!UICONTROL Trend] report.
+L'illustrazione seguente fornisce una panoramica di alto livello degli elementi chiave nel [!UICONTROL Trend] rapporto.
 
 ![](assets/trend_reports.png)
 
-1. Configura le seguenti opzioni:
+1. Configurate le seguenti opzioni:
 
-   **Tipo di rapporto:** Seleziona il tipo di rapporto desiderato (Caratteristica o Segmento).
+   **** Tipo di rapporto: Selezionare il tipo di rapporto desiderato (Caratteristiche o Segmento).
 
-   **Intervallo di date:** Specifica l'intervallo di date per il rapporto (data di inizio e data di fine).
+   **** Intervallo date: Specifica l'intervallo di date per il rapporto (data di inizio e data di fine).
 
-   **Intervallo di visualizzazione:** Specificare l'intervallo di visualizzazione (intervalli 1, 7, 14, 30, 60 e 90 giorni).
+   **** Intervallo di visualizzazione: Specificate l'intervallo di visualizzazione (intervalli di 1, 7, 14, 30, 60 e 90 giorni).
 
-2. Cerca una caratteristica o un segmento per nome o ID.
-3. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side.
-4. Genera il rapporto da visualizzare nei dati in formato grafico o esporta il rapporto in formato CSV.
+2. Cercare una caratteristica o segmento per nome o ID.
+3. Dall’elenco delle cartelle, trascinate le caratteristiche o i segmenti da includere nel rapporto sul [!UICONTROL Selections] pannello a destra.
+4. Generate il rapporto per visualizzare i dati in formato grafico o esportarlo in formato CSV.
 
-## Run a Trend Report {#run-trend-report}
+## Eseguire un report di tendenze {#run-trend-report}
 
-This procedure describes how to run a [!UICONTROL Trend] report.
+Questa procedura descrive come eseguire un [!UICONTROL Trend] rapporto.
 
 <!-- 
 
@@ -61,30 +61,30 @@ t_working_with_trend_reports.xml
 
  -->
 
-1. In the **[!UICONTROL Analytics]** dashboard, click **[!UICONTROL Trend Reports]**.
-1. From the **[!UICONTROL Report Type]** drop-down list, select the desired type: **[!UICONTROL Trait]** or **[!UICONTROL Segment]**.
-1. Fate clic sulle caselle di data per visualizzare un calendario, quindi selezionate le date di inizio e fine del rapporto.
-1. Specificate l'intervallo di visualizzazione: per 1, 7, 14, 30, 60 o 90 giorni.
-1. Cerca una caratteristica o un segmento per nome o ID.
-1. From the folder list, drag and drop the traits or segments you want to report to the [!UICONTROL Selections] panel on the right side.
+1. Nel **[!UICONTROL Analytics]** dashboard, fate clic su **[!UICONTROL Trend Reports]**.
+1. Dall’elenco a **[!UICONTROL Report Type]** discesa, selezionate il tipo desiderato: **[!UICONTROL Trait]** o **[!UICONTROL Segment]**.
+1. Fai clic sulle caselle delle date per visualizzare un calendario, quindi seleziona le date di inizio e di fine del rapporto.
+1. Specificate l'intervallo di visualizzazione: entro 1, 7, 14, 30, 60 o 90 giorni.
+1. Cercare una caratteristica o segmento per nome o ID.
+1. Dall’elenco delle cartelle, trascinate le caratteristiche o i segmenti da includere nel rapporto sul [!UICONTROL Selections] pannello a destra.
 
-   For best performance, run a [!UICONTROL Trend] report on fewer than 20 traits or segments at a time.
-1. Click **[!UICONTROL Graph Traits]** or **[!UICONTROL Graph Segments]**, depending on which type of report you are viewing (Traits or Segments).
+   Per ottenere prestazioni ottimali, esegui un [!UICONTROL Trend] rapporto su meno di 20 caratteristiche o segmenti alla volta.
+1. Fate clic **[!UICONTROL Graph Traits]** o **[!UICONTROL Graph Segments]**, a seconda del tipo di rapporto che state visualizzando (Caratteristiche o Segmenti).
 
-   Queste opzioni ignorano tutte le cartelle e i grafici solo per caratteristiche o segmenti selezionati singolarmente.
+   Queste opzioni ignorano tutte le cartelle e i grafici solo i tratti o i segmenti selezionati singolarmente.
 
    Oppure
 
-   Click **[!UICONTROL Export to CSV]** to export the trait or segment data and all folders in CSV format for further analysis and sharing. This exports the [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations], and [!UICONTROL Total Trait Population] for all day ranges.
+   Fate clic **[!UICONTROL Export to CSV]** per esportare la caratteristica o i dati del segmento e tutte le cartelle in formato CSV per ulteriori analisi e condivisione. Questo consente di esportare gli intervalli [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]e [!UICONTROL Total Trait Population] per tutti i giorni.
 
    >[!NOTE]
    >
-   >[!UICONTROL Total Trait Realizations] sono calcolate [!UICONTROL Rule-based Traits] solo per.
+   >[!UICONTROL Total Trait Realizations] sono calcolati [!UICONTROL Rule-based Traits] solo per.
 
-1. (Facoltativo) Passa il cursore su singole caratteristiche o segmenti per visualizzare il numero di visite e la data di ogni dato.
+1. (Facoltativo) Passa il puntatore del mouse sulle singole caratteristiche o segmenti per visualizzare il numero di visite e la data di ciascun punto dati.
 
-   Potete fare clic sulle intestazioni di colonna nella tabella per ordinare i risultati in ordine crescente o decrescente.
+   È possibile fare clic sulle intestazioni delle colonne nella tabella per ordinare i risultati in ordine crescente o decrescente.
 
-For [!UICONTROL Trended Trait] reports, zeroes indicate that [!DNL Audience Manager] did not collect data for that day. Le voci vuote indicano che la caratteristica non esiste. L'esempio seguente mostra esempi di entrambi i tipi di voci:
+Per [!UICONTROL Trended Trait] i report, gli zero indicano che [!DNL Audience Manager] non sono stati raccolti dati per quel giorno. Voci vuote indicano che la caratteristica non esisteva. L'esempio seguente mostra esempi di entrambi i tipi di voci:
 
 ![](assets/trended_data.png)
