@@ -1,29 +1,29 @@
 ---
-description: Metodi che consentono di lavorare a livello di programmazione con la libreria DIL (Data Integration Library).
-seo-description: Metodi che consentono di lavorare a livello di programmazione con la libreria DIL (Data Integration Library).
-seo-title: Metodi API della libreria integrazione dati
+description: Metodi che consentono di utilizzare in modo programmatico la Data Integration Library (DIL).
+seo-description: Metodi che consentono di utilizzare in modo programmatico la Data Integration Library (DIL).
+seo-title: Metodi API della libreria di integrazione dati
 solution: Audience Manager
-title: Metodi API della libreria integrazione dati
-uuid: 507 e 7 afd -3 ae 7-44 de -98 b 0-589 d 699 c 453 b
+title: Metodi API della libreria di integrazione dati
+uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 translation-type: tm+mt
 source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
 
 ---
 
 
-# Data Integration Library API Methods {#data-integration-library-api-methods}
+# Metodi API della libreria di integrazione dati {#data-integration-library-api-methods}
 
-Methods that let you work programmatically with the [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+Metodi che consentono di utilizzare in modo programmatico [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->L'API Library Integration Library è stata rimossa. This API used to generate DIL, which you can now self-download here: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>L'API Data Integration Library è stata rimossa. Questa API è stata utilizzata per generare DIL, che ora potete scaricare autonomamente qui: Download [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
-## Return Versions for DIL {#return-version-dil}
+## Versioni di restituzione per DIL {#return-version-dil}
 
-`GET` Un metodo che restituisce un elenco di versioni ordinate dalla meno recente alla più recente.
+Un `GET` metodo che restituisce un elenco di versioni ordinate dalla meno recente alla più recente.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -33,15 +33,15 @@ Methods that let you work programmatically with the [!UICONTROL Data Integration
 
 ### Risposta
 
-A successful request returns response code `["4.0", "4.1"]` as shown below.
+Una richiesta di successo restituisce il codice di risposta `["4.0", "4.1"]` come mostrato di seguito.
 
 ```
 ["4.0", "4.1"]
 ```
 
-## Return JSON Schema for Version {#return-json-schema-version}
+## Restituisce lo schema JSON per la versione {#return-json-schema-version}
 
-`GET` Un metodo che restituisce lo [!DNL JSON] schema per la [!UICONTROL DIL] versione. Supports using alias [!UICONTROL LATEST] for version to get the latest version of [!UICONTROL DIL].
+Un `GET` metodo che restituisce lo [!DNL JSON] schema per la [!UICONTROL DIL] versione. Supporta l'utilizzo di alias [!UICONTROL LATEST] per la versione per ottenere la versione più recente di [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -51,7 +51,7 @@ A successful request returns response code `["4.0", "4.1"]` as shown below.
 
 ### Risposta
 
-A successful request returns response code `["4.0", "4.1"]` and data as shown below.
+Una richiesta di successo restituisce codice `["4.0", "4.1"]` e dati di risposta come mostrato di seguito.
 
 ```
 { 
@@ -375,9 +375,9 @@ A successful request returns response code `["4.0", "4.1"]` and data as shown be
 } 
 ```
 
-## Generate DIL {#generate-dil}
+## Genera DIL {#generate-dil}
 
-`GET` Un metodo generato [!UICONTROL DIL] in base al corpo della richiesta trasmesso utilizzando la versione specificata. [!UICONTROL DIL] If the alias `LATEST` is used for version in the URL, the latest version of [!UICONTROL DIL] is generated.
+Un `GET` metodo che genera [!UICONTROL DIL] in base al corpo della richiesta passato utilizzando la versione specificata di [!UICONTROL DIL]. Se l’alias `LATEST` viene utilizzato per la versione nell’URL, [!UICONTROL DIL] viene generata l’ultima versione di.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -461,4 +461,4 @@ A successful request returns response code `["4.0", "4.1"]` and data as shown be
 
 ### Risposta
 
-A successful update returns response code `201 created` along with the [!UICONTROL DIL] [!DNL JavaScript] code.
+Un aggiornamento riuscito restituisce il codice di risposta `201 created` insieme al [!UICONTROL DIL] [!DNL JavaScript] codice.
