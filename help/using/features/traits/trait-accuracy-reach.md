@@ -1,37 +1,37 @@
 ---
 description: Descrive la relazione tra precisione e portata nelle caratteristiche algoritmiche.
 seo-description: Descrive la relazione tra precisione e portata nelle caratteristiche algoritmiche.
-seo-title: Precisione e portata
+seo-title: Precisione e raggiungimento
 solution: Audience Manager
-title: Precisione e portata
-uuid: d 121 e 099-6642-4003-ad 4 f -507 d 21 e 478 d 8
+title: Precisione e raggiungimento
+uuid: d121e099-6642-4003-ad4f-507d21e478d8
 translation-type: tm+mt
 source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
 
 ---
 
 
-# Accuracy and Reach {#accuracy-and-reach}
+# Precisione e raggiungimento {#accuracy-and-reach}
 
 Descrive la relazione tra precisione e portata nelle caratteristiche algoritmiche.
 
 <!-- c_accuracy_reach.xml -->
 
-## Precisione rispetto alla portata: Informazioni
+## Precisione e raggiungimento: Informazioni
 
-È importante comprendere il rapporto tra precisione e portata quando si utilizzano caratteristiche algoritmiche. La precisione è rappresentata da un valore punteggio che riflette il modo in cui gli utenti simili si riferiscono alla tua linea di base. La scala di precisione va da 0 (meno precisa) a 1 (più accurata). Reach è semplicemente un valore che rappresenta il numero di utenti unici che si desidera includere in una caratteristica. Portata e precisione sono invertite. Le caratteristiche precise raggiungono un numero inferiore di utenti e caratteristiche con maggiore portata. L'immagine seguente illustra questo concetto.
+È importante comprendere la relazione tra precisione e portata quando si utilizzano caratteristiche algoritmiche. Precisione è rappresentata da un valore con un punteggio che riflette la somiglianza degli utenti rispetto alla linea di base. La scala di precisione va da 0 (minimo accurato) a 1 (più preciso). Reach è semplicemente un valore che rappresenta il numero di utenti univoci che desiderate includere in una caratteristica. Raggiungere e la precisione sono inversamente correlati. Le caratteristiche precise raggiungono un numero inferiore di utenti e le caratteristiche con una maggiore portata sono meno precise. L'immagine seguente illustra questo concetto.
 
 ![](assets/Reach_v_Accuracy.png)
 
-## Precisione e Portata influiscono sulle dimensioni dell'audience
+## Precisione e raggiungimento dell'obiettivo influiscono sulle dimensioni del pubblico
 
-Gli obiettivi aziendali dovrebbero aiutarti a prendere le decisioni giuste riguardo precisione e portata quando lavori con caratteristiche algoritmiche. Se l'accuratezza è l'obiettivo, tieni presente che la popolazione di una caratteristica può aumentare o diminuire l'esecuzione del modello. Le modifiche alla popolazione sono i risultati dell'algoritmo decisionale durante ogni periodo di valutazione. A volte, l'algoritmo trova più utenti qualificati durante un ciclo di elaborazione e, durante altri, può trovare un numero minore di utenti. I risultati sono determinati dai dati della linea di base utilizzati per creare il modello e i nuovi visitatori e le caratteristiche di caratteristiche derivanti dall'esecuzione del modello precedente. Per contro, quando si lavora con il pubblico, il conteggio di popolazione dell'utente rimane costante. Ad esempio, se desiderate raggiungere 10,000 utenti, l'algoritmo assicurerà che raggiungano sempre il numero per ogni esecuzione del modello.
+I tuoi obiettivi aziendali dovrebbero aiutarti a prendere le decisioni giuste sull'accuratezza e a raggiungere quando lavori con caratteristiche algoritmiche. Se l'obiettivo è la precisione, notare che la popolazione di una caratteristica può aumentare o diminuire in più esecuzioni di modelli. I cambiamenti di popolazione sono i risultati dell'algoritmo che prende decisioni durante ciascun periodo di valutazione. Talvolta, l'algoritmo rileva più utenti qualificati durante un ciclo di elaborazione e, durante gli altri, ne rileva meno. I risultati sono determinati dai dati di base utilizzati per creare il modello, i nuovi visitatori e le qualifiche di caratteristiche emerse dall'esecuzione del modello precedente. Per contro, quando si lavora con REACH, il conteggio della popolazione degli utenti rimane costante. Ad esempio, se desiderate raggiungere 10.000 utenti, l'algoritmo si accerterà che raggiunga sempre quel numero per ogni esecuzione del modello.
 
-## Casi di utilizzo generali per precisione rispetto alla portata
+## Casi di utilizzo generali per Precisione e Raggiungimento
 
-L'attenzione sulla precisione o sulla portata dipende da cosa si desidera raggiungere con un particolare segmento. La tabella seguente può aiutarvi a valutare precisione rispetto alla portata di una caratteristica.
+L’attenzione sulla precisione o la portata dipende da cosa si desidera ottenere con un particolare segmento. La tabella seguente può essere utile per valutare l’accuratezza rispetto alla portata durante la creazione di una caratteristica.
 
-| Preferenze decisionali caratteristiche | Aiuta Trova |
+| Vantaggi della decisione sulle caratteristiche | Aiuta a trovare |
 |---|---|
-| **Precisione** | Utenti simili ai clienti di base nel modello. Utile per campagne mirate quando si desidera raggiungere un pubblico specifico. |
-| **Raggiungere** | Un numero specifico di utenti per ogni dato. Utile per campagne di marchio quando sei interessato a raggiungere un pubblico di dimensioni specifiche. |
+| **Precisione** | Utenti simili ai clienti previsti nel modello. Utile per campagne mirate quando si desidera raggiungere un pubblico specifico. |
+| **Raggiungi** | Un numero specifico di utenti per ogni esecuzione di dati. Utile per le campagne sul marchio quando sei interessato a raggiungere un pubblico di dimensioni specifiche. |
