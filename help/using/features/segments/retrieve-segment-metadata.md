@@ -1,47 +1,47 @@
 ---
-description: Quando Audience Manager invia informazioni sul segmento a un partner dati, identifica questi oggetti con ID numerici. In qualità di partner dati, quando condividete queste informazioni con i vostri clienti (o lavorate con voi stessi), un nome e una descrizione effettivi offrono un'esperienza migliore ai clienti nei report, nelle dashboard o in altre interfacce utente (interfaccia utente). I partner di dati possono rendere disponibili ai clienti questi nomi descrittivi con i metodi manuali o automatizzati descritti in questa sezione.
-seo-description: Quando Audience Manager invia informazioni sul segmento a un partner dati, identifica questi oggetti con ID numerici. In qualità di partner dati, quando condividete queste informazioni con i vostri clienti (o lavorate con voi stessi), un nome e una descrizione effettivi offrono un'esperienza migliore ai clienti nei report, nelle dashboard o in altre interfacce utente (interfaccia utente). I partner di dati possono rendere disponibili ai clienti questi nomi descrittivi con i metodi manuali o automatizzati descritti in questa sezione.
+description: Quando Audience Manager invia informazioni sui segmenti a un partner di dati, identifica questi oggetti con ID numerici. In qualità di partner dati, quando condividi queste informazioni con i tuoi clienti (o lavori con te stesso), un nome e una descrizione effettivi offrono ai clienti un'esperienza migliore in rapporti, dashboard o altre interfacce utente (interfaccia utente). I partner di dati possono rendere disponibili questi nomi descrittivi ai propri clienti con i metodi manuali o automatizzati descritti in questa sezione.
+seo-description: Quando Audience Manager invia informazioni sui segmenti a un partner di dati, identifica questi oggetti con ID numerici. In qualità di partner dati, quando condividi queste informazioni con i tuoi clienti (o lavori con te stesso), un nome e una descrizione effettivi offrono ai clienti un'esperienza migliore in rapporti, dashboard o altre interfacce utente (interfaccia utente). I partner di dati possono rendere disponibili questi nomi descrittivi ai propri clienti con i metodi manuali o automatizzati descritti in questa sezione.
 seo-title: Recupero dei metadati del segmento
 solution: Audience Manager
 title: Recupero dei metadati del segmento
-uuid: 719 e 2 c 41-8788-4 e 8 a -967 a-e 367421 f 9 f 84
+uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Retrieving Segment Metadata {#retrieving-segment-metadata}
+# Recupero dei metadati del segmento {#retrieving-segment-metadata}
 
-Quando Audience Manager invia informazioni sul segmento a un partner dati, identifica questi oggetti con ID numerici. As a data partner, when you share this information with your customers (or work with it yourself), an actual name and description provide a better experience for customers in reports, dashboards, or other user interfaces ([!DNL UI]). I partner di dati possono rendere disponibili ai clienti questi nomi descrittivi con i metodi manuali o automatizzati descritti in questa sezione.
+Quando Audience Manager invia informazioni sui segmenti a un partner di dati, identifica questi oggetti con ID numerici. In qualità di partner dati, quando condividi queste informazioni con i tuoi clienti (o lavori con te stesso), un nome e una descrizione effettivi offrono ai clienti un'esperienza migliore in rapporti, dashboard o altre interfacce utente ([!DNL UI]). I partner di dati possono rendere disponibili questi nomi descrittivi ai propri clienti con i metodi manuali o automatizzati descritti in questa sezione.
 
-## Manual method {#manual-method}
+## Metodo manuale {#manual-method}
 
-In qualità di partner dati, sei probabilmente utilizzato per ottenere i metadati del pubblico dai clienti tramite processi manuali. This could include files attached to emails or from customers adding that data through a [!DNL UI] you've built and maintained for this purpose. Questi processi funzionano, ma spesso sono molto difficili e richiedono un'immissione manuale di dati. Questi metodi vengono spesso utilizzati per facilitare l'integrazione e l'esecuzione rapida, ma non forniscono la migliore esperienza cliente nel lungo periodo. As an alternative, you can use the [!DNL Audience Manager] [!DNL API] to get segment metadata automatically.
+In qualità di partner di dati, sei probabilmente abituato a ottenere i metadati del pubblico dai clienti attraverso processi manuali. Ciò può includere file allegati alle e-mail o dai clienti che aggiungono tali dati tramite un [!DNL UI] modulo creato e gestito a tal fine. Questi processi funzionano, ma spesso sono complicati, richiedono molto tempo e possono richiedere l'immissione manuale dei dati. Questi metodi sono spesso utilizzati per rendere l'integrazione operativa e funzionante rapidamente, ma non offrono la migliore esperienza cliente a lungo termine. In alternativa, puoi usare [!DNL Audience Manager] per ottenere automaticamente [!DNL API] i metadati dei segmenti.
 
-## Automated method {#automated-method}
+## Metodo automatizzato {#automated-method}
 
-[!DNL Audience Manager] fornisce un set di [API](../../api/rest-api-main/rest-api-main.md) REST che consentono di recuperare automaticamente i metadati del segmento. With the [!DNL API], you can create jobs that retrieve segment metadata at scheduled intervals or automatically, whenever you process [!DNL Audience Manager] data and find a new segment ID. Per ulteriori informazioni, vedi la procedura seguente.
+[!DNL Audience Manager] fornisce un set di API [](../../api/rest-api-main/rest-api-main.md) REST che consente di recuperare automaticamente i metadati del segmento. Con [!DNL API], potete creare processi che recuperino i metadati dei segmenti a intervalli pianificati o automaticamente, ogni volta che elaborate [!DNL Audience Manager] i dati e trovate un nuovo ID segmento. Per ulteriori informazioni, consulta i passaggi riportati di seguito.
 
-### Passaggio 1: Rivedete le API Audience Manager
+### Passaggio 1: Esaminare le API di Audience Manager
 
-The [Getting Started with REST APIs](../../api/rest-api-main/aam-api-getting-started.md) section contains information about general requirements, authentication, available methods, etc. This is a good place to begin if you haven't worked with the [!DNL Audience Manager] [!DNL API] before.
+La sezione [Guida introduttiva alle API](../../api/rest-api-main/aam-api-getting-started.md) REST contiene informazioni su requisiti generali, autenticazione, metodi disponibili, ecc. Questo è un buon posto dove iniziare se non hai lavorato con il [!DNL Audience Manager] [!DNL API] prima.
 
-### Passaggio 2: Richiedi credenziali di accesso oauth 2
+### Passaggio 2: Richiedi credenziali di accesso OAuth2
 
-You need a client ID and secret to make [!DNL API] calls. Potete ottenere un ID client e un segreto dal vostro specialista di integrazione durante il processo di configurazione dell'integrazione. You can also send an email request to [!UICONTROL Audience Manager Customer Care] at [!DNL amsupport@adobe.com].
+Per effettuare [!DNL API] le chiamate è necessario un ID client e un segreto. Durante il processo di configurazione dell'integrazione, potete ottenere un ID client e un segreto dal vostro specialista dell'integrazione. Potete inoltre inviare una richiesta e-mail a [!UICONTROL Audience Manager Customer Care] all'indirizzo [!DNL amsupport@adobe.com].
 
-### Passaggio 3: Raccolta di informazioni specifiche per i clienti da ciascun cliente integrato
+### Passaggio 3: Raccolta di informazioni specifiche per il cliente da ogni cliente integrato
 
-Richiedi quanto segue da ciascun cliente integrato:
+Richiedete quanto segue da ogni cliente integrato:
 
-* Nome utente: Si tratta di un utente con restrizioni che dispone delle autorizzazioni di sola lettura per la destinazione associata a un'integrazione specifica.
+* Nome utente: Si tratta di un utente con restrizioni che dispone di autorizzazioni di sola lettura per la destinazione associata a una specifica integrazione.
 * Password: La password utente.
 * ID destinazione: Si tratta dell'ID (un numero intero) associato alla destinazione creata per l'integrazione server-to-server specifica.
 
-### Passaggio 4: Ottenimento dei metadati del segmento con una chiamata API
+### Passaggio 4: Recuperare i metadati del segmento con una chiamata API
 
-After completing the previous steps, you can use a `GET` method to retrieve segment metadata. For a sample request and response, see [Return Destination Mappings](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings). This call returns segment data formatted as key-value pairs in a [!DNL JSON] object. Alcuni degli importanti attributi del segmento restituiti nella risposta sono elencati nella tabella seguente.
+Dopo aver completato i passaggi precedenti, puoi usare un `GET` metodo per recuperare i metadati del segmento. Per un esempio di richiesta e risposta, consultate [Return Destination Mappings (Mappature delle destinazioni di ritorno)](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings). Questa chiamata restituisce i dati del segmento formattati come coppie chiave-valore in un [!DNL JSON] oggetto. Alcuni degli importanti attributi del segmento restituiti nella risposta sono elencati nella tabella seguente.
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
@@ -52,24 +52,24 @@ After completing the previous steps, you can use a `GET` method to retrieve segm
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Purchionmappingid</code> </p> </td> 
-   <td colname="col2"> <p>The <span class="keyword"> Audience Manager</span> segment ID. </p> </td> 
+   <td colname="col1"> <p> <code> DestinationMappingId</code> </p> </td> 
+   <td colname="col2"> <p>L’ID del segmento di <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Elementname</code> </p> </td> 
+   <td colname="col1"> <p> <code> elementName</code> </p> </td> 
    <td colname="col2"> <p>Il nome del segmento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Elementdescription</code> </p> </td> 
+   <td colname="col1"> <p> <code> elementDescription</code> </p> </td> 
    <td colname="col2"> <p>Testo che descrive brevemente il segmento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Elementstatus</code> </p> </td> 
-   <td colname="col2"> <p>Lo stato corrente della mappatura segmenti. Le opzioni di stato restituite includono: </p> 
+   <td colname="col1"> <p> <code> elementStatus</code> </p> </td> 
+   <td colname="col2"> <p>Lo stato corrente della mappatura del segmento. Le opzioni di stato restituite includono: </p> 
     <ul id="ul_BA3A1F5A773D4ECD9A1A3A1118BDDA8A"> 
      <li id="li_A12B858BD0AD4F35BCD50A4D113D86FF"> <code> active</code> </li> 
      <li id="li_98C04A861C2D4364B5FBD24498E8E9C5"> <code> inactive</code> </li> 
-     <li id="li_1913A10948894FF3B507C0A3FE775CC1"> <code> eliminati</code> </li> 
+     <li id="li_1913A10948894FF3B507C0A3FE775CC1"> <code> cancellato</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
