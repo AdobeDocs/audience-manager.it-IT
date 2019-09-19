@@ -1,30 +1,30 @@
 ---
-description: Un file di dati contiene dati di impression, clic o conversione da importare nei report Ottimizzazione pubblico. Un file di metadati contiene nomi leggibili dall'utente corrispondenti a varie opzioni di rapporto e voci di menu. Formattate i dati e i file di metadati in base alle specifiche in questa sezione.
-seo-description: Un file di dati contiene dati di impression, clic o conversione da importare nei report Ottimizzazione pubblico. Un file di metadati contiene nomi leggibili dall'utente corrispondenti a varie opzioni di rapporto e voci di menu. Formattate i dati e i file di metadati in base alle specifiche in questa sezione.
-seo-title: Dati e file di metadati per report di ottimizzazione pubblico
+description: Un file di dati contiene dati di impression, clic o conversione che puoi importare nei rapporti di ottimizzazione dell'audience. Un file di metadati contiene nomi leggibili che corrispondono a varie opzioni di rapporto e voci di menu. Formattate i file di dati e metadati in base alle specifiche di questa sezione.
+seo-description: Un file di dati contiene dati di impression, clic o conversione che puoi importare nei rapporti di ottimizzazione dell'audience. Un file di metadati contiene nomi leggibili che corrispondono a varie opzioni di rapporto e voci di menu. Formattate i file di dati e metadati in base alle specifiche di questa sezione.
+seo-title: File di dati e metadati per report di ottimizzazione dell'audience
 solution: Audience Manager
-title: Dati e file di metadati per report di ottimizzazione pubblico
-uuid: 80 aa 4 bc 3-c 660-4 e 65-8 c 22-2 ddbb 7 bddd 4 f
+title: File di dati e metadati per report di ottimizzazione dell'audience
+uuid: 80aa4bc3-c660-4e65-8c22-2dbb7bddd4f
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Data and Metadata Files for Audience Optimization Reports{#data-and-metadata-files-for-audience-optimization-reports}
+# File di dati e metadati per report di ottimizzazione dell'audience{#data-and-metadata-files-for-audience-optimization-reports}
 
-Un file di dati contiene dati di impression, clic o conversione da importare nei report Ottimizzazione pubblico. Un file di metadati contiene nomi leggibili dall'utente corrispondenti a varie opzioni di rapporto e voci di menu. Formattate i dati e i file di metadati in base alle specifiche in questa sezione.
+Un file di dati contiene dati di impression, clic o conversione che puoi importare nei rapporti di ottimizzazione dell'audience. Un file di metadati contiene nomi leggibili che corrispondono a varie opzioni di rapporto e voci di menu. Formattate i file di dati e metadati in base alle specifiche di questa sezione.
 
 >[!IMPORTANT]
 >
->To use metadata files, your event calls must include *all* of the parameters listed in the [overview and mappings](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) section.
+>Per utilizzare i file di metadati, le chiamate evento devono includere *tutti* i parametri elencati nella sezione [panoramica e mappature](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) .
 
-* [File di dati per report di ottimizzazione pubblico](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+* [File di dati per report di ottimizzazione dell'audience](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 * [Panoramica e mappature per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
 * [Convenzioni di denominazione per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
-* [Formato contenuto per file metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
+* [Formato contenuto per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
 * [Metodi di consegna per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-* [Aggiornamenti dello stato per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
+* [Aggiornamenti di stato per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
 
 
 
