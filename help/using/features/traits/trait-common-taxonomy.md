@@ -5,43 +5,43 @@ seo-description: Questo articolo fornisce una panoramica generale sulla classifi
 seo-title: Classificazione delle caratteristiche con una tassonomia comune
 solution: Audience Manager
 title: Classificazione delle caratteristiche con una tassonomia comune
-uuid: 2 e 177344-07 d 9-40 a 7-8 c 99-c 6 c 6518 b 9 d 97
+uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 translation-type: tm+mt
 source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
 
 ---
 
 
-# Classifying Traits with a Common Taxonomy {#classifying-traits-with-a-common-taxonomy}
+# Classificazione delle caratteristiche con una tassonomia comune {#classifying-traits-with-a-common-taxonomy}
 
 Questo articolo fornisce una panoramica generale sulla classificazione delle caratteristiche con una tassonomia comune.
 
-## La tassonomia Audience Manager
+## La tassonomia di Audience Manager
 
 <!-- c_common_taxonomy_about.xml -->
 
-[!DNL Audience Manager] La tassonomia è una funzione opzionale che classifica caratteristiche utilizzando convenzioni di denominazione uniformi, logiche e comunemente comprese. It operates at the platform level to help ensure naming consistency throughout the [!DNL Audience Manager] ecosystem. In sostanza, la tassonomia comune è concepita per portare il nostro prodotto in maggiore allineamento con gli standard del settore relativi alla privacy e ai processi di rinuncia del consumatore.
+La [!DNL Audience Manager] tassonomia è una funzione opzionale che classifica le caratteristiche utilizzando convenzioni di denominazione uniformi, logiche e comunemente conosciute. Funziona a a livello di piattaforma per garantire la coerenza dei nomi in tutto l' [!DNL Audience Manager] ecosistema. In ultima analisi, la tassonomia comune è stata progettata per portare il nostro prodotto ad un maggiore allineamento con gli standard del settore in materia di privacy dei consumatori e di procedure di rifiuto.
 
-## Vantaggi della classificazione caratteristica
+## Vantaggi della classificazione delle caratteristiche
 
-Enabling our customers to build custom segments and data models is core to the [!DNL Audience Manager] model and to your ability to capture value from our platform. Inoltre, è necessario utilizzare un mezzo solido e scalabile per comunicare informazioni sui segmenti ai clienti e ai partner. Inoltre, questa comunicazione richiede che le informazioni sul segmento vengano condivise in un linguaggio di facile comprensione e comprensivo universale, proteggendo al contempo i nomi proprietario e i nomi dei segmenti. The [!DNL Audience Manager] common taxonomy provides this language and capability.
+Consentire ai nostri clienti di creare segmenti personalizzati e modelli di dati è fondamentale per il [!DNL Audience Manager] modello e per la capacità di acquisire valore dalla nostra piattaforma. Tuttavia, è necessario anche un mezzo affidabile e scalabile per comunicare informazioni sui segmenti ai clienti e ai partner. Inoltre, questa comunicazione richiede che le informazioni del segmento siano condivise in un linguaggio di facile comprensione e universalmente compreso, proteggendo allo stesso tempo le caratteristiche proprietarie e i nomi dei segmenti. La tassonomia [!DNL Audience Manager] comune fornisce questa lingua e questa capacità.
 
-## La Tassonomy utilizza categorie di classificazioni standard di settore
+## La Tassonomia Utilizza Categorie Di Classificazione Standard Di Settore
 
-The common taxonomy is based on the classifications created by the [!DNL Interactive Advertising Bureau (IAB)]. Refer to the [!DNL IAB]'s [website](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) for more information about quality assurance guidelines for networks and exchanges.
+La tassonomia comune si basa sulle classificazioni create dal [!DNL Interactive Advertising Bureau (IAB)]. Per ulteriori informazioni sulle linee guida [!DNL IAB]per la garanzia della qualità per le reti e gli scambi, fare riferimento al [sito](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) Web.
 
-## Organizzazione tassonomia
+## Organizzazione tassonomica
 
-[!DNL Audience Manager] La tassonomia organizza i dati in categorie nidificate denominate tiri. Ogni categoria può contenere fino a 3 livelli separati per la classificazione dei dati. Al livello più elevato, una categoria di Tier 1 raggruppa i dati nel modulo più generale (ad es., geografia). Subsequent tiers provide greater specificity to the higher level, general category (e.g., *geography --&gt; United States --&gt; New York*). Tuttavia, non tutte le categorie hanno 3 livelli, ma solo 2.
+La [!DNL Audience Manager] tassonomia organizza i dati in categorie nidificate denominate livelli. Ogni categoria può contenere fino a 3 livelli distinti per la classificazione dei dati. Al livello più alto, una categoria di livello 1 raggruppa i dati nella sua forma più generale (ad es. geografia). I livelli successivi forniscono maggiore specificità alla categoria generale di livello superiore (ad esempio, *geografia —&gt; Stati Uniti —&gt; New York*). Tuttavia, non tutte le categorie hanno 3 livelli, alcuni usano solo 2.
 
-## Classifica caratteristiche nelle categorie dei dati
+## Classifica caratteristiche in categorie dati
 
-You assign taxonomic classifications when creating or editing traits in the [!UICONTROL Add New Trait Wizard] (located in * **[!UICONTROL Audience Data > Traits]***). Refer to the [documentation on creating traits](../../features/traits/create-onboarded-rule-based-traits.md) for more information.
+Potete assegnare le classificazioni tassonomiche durante la creazione o la modifica di caratteristiche nel [!UICONTROL Add New Trait Wizard] (situato in * **[!UICONTROL Audience Data > Traits]***). Per ulteriori informazioni, consulta la [documentazione sulla creazione di caratteristiche](../../features/traits/create-onboarded-rule-based-traits.md) .
 
 ## Utilizzo della tassonomia: Considerazioni aggiuntive
 
-Se decidi di classificare le caratteristiche in base alla tassonomia comune, è importante ricordare:
+Se decidi di classificare le caratteristiche in base alla nostra tassonomia comune, è importante ricordare:
 
-* Classification is *optional*.
-* Traits *are not* assigned to a taxonomic category by default (i.e., traits are not classified as "unknown" or "uncategorized" etc.).
-* Traits can belong to *one* taxonomic category only (multiple and cross-category classifications are not allowed).
+* La classificazione è *facoltativa*.
+* Le caratteristiche non *sono* assegnate per impostazione predefinita a una categoria tassonomica (ovvero, le caratteristiche non sono classificate come "sconosciute" o "non categorizzate", ecc.).
+* Le caratteristiche possono appartenere a *una* sola categoria tassonomica (le classificazioni multiple e tra categorie non sono consentite).
