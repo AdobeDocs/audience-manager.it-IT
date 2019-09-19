@@ -4,22 +4,22 @@ seo-description: Il dashboard Segmenti è un'area di lavoro centralizzata per la
 seo-title: Visualizzazione elenco segmenti
 solution: Audience Manager
 title: Visualizzazione elenco segmenti
-uuid: aa 69877 b -1 d 52-4 b 87-8734-b 4 bff 39935 a 5
+uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
 translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
 
 
-# Segments List View {#segments-list-view}
+# Visualizzazione elenco segmenti {#segments-list-view}
 
-The [!UICONTROL Segments] dashboard is a centralized workspace for managing destinations.
+Il [!UICONTROL Segments] dashboard è un'area di lavoro centralizzata per la gestione delle destinazioni.
 
-The main [!UICONTROL Segments] page contains features and tools that help you:
+La [!UICONTROL Segments] pagina principale contiene funzioni e strumenti utili per:
 
 * Crea nuovi segmenti.
-* Modifica ed elimina i segmenti.
-* Duplica (duplicate) i segmenti esistenti.
-* Vedi tutti i tuoi segmenti in una tabella con colonne sordibili.
-* Gestisci archiviazione segmenti.
-* Cerca segmenti per nome.
+* Modificare ed eliminare segmenti.
+* Duplica (duplica) segmenti esistenti.
+* Visualizzare tutti i segmenti in una tabella con colonne ordinabili.
+* Gestione dell'archiviazione dei segmenti.
+* Cercare segmenti per nome.
