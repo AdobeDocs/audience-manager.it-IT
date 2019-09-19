@@ -1,18 +1,18 @@
 ---
-description: L'Assistenza clienti è utile per risolvere eventuali problemi riscontrati. Fornisci tutte queste informazioni come puoi contattare l'Assistenza clienti. Questo aiuterà il team a comprendere e risolvere il problema.
-seo-description: L'Assistenza clienti è utile per risolvere eventuali problemi riscontrati. Fornisci tutte queste informazioni come puoi contattare l'Assistenza clienti. Questo aiuterà il team a comprendere e risolvere il problema.
-seo-title: Se si verifica un problema
+description: L'Assistenza clienti è pronta a aiutarti a risolvere eventuali problemi. Fornisci tutte queste informazioni possibili quando contatta l'Assistenza clienti. Questo aiuterà il team a capire e risolvere il problema.
+seo-description: L'Assistenza clienti è pronta a aiutarti a risolvere eventuali problemi. Fornisci tutte queste informazioni possibili quando contatta l'Assistenza clienti. Questo aiuterà il team a capire e risolvere il problema.
+seo-title: Se c'è un problema
 solution: Audience Manager
-title: Se si verifica un problema
+title: Se c'è un problema
 translation-type: tm+mt
 source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
 
 ---
 
 
-# If There's a Problem {#problem}
+# Se c'è un problema {#problem}
 
-L'Assistenza clienti è utile per risolvere eventuali problemi riscontrati. Fornisci tutte queste informazioni come puoi contattare l'Assistenza clienti. Questo aiuterà il team a comprendere e risolvere il problema.
+L'Assistenza clienti è pronta a aiutarti a risolvere eventuali problemi. Fornisci tutte queste informazioni possibili quando contatta l'Assistenza clienti. Questo aiuterà il team a capire e risolvere il problema.
 
 ## Informazioni di base {#basic-information}
 
@@ -24,13 +24,13 @@ r_problem.xml
 
 For technical issues or to log a bug, contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-* **Telefono:** 1-800-497-0335
+* **** Telefono: 1-800-497-0335
 
-   For toll-free numbers outside the United States, see our [regional Customer Care contact numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) site. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
+   Per i numeri verdi al di fuori degli Stati Uniti, consulta il nostro sito [regionale dei numeri](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) di contatto dell'Assistenza clienti. When asked to select an option for your product, press 4 to contact the [!DNL Audience Manager] team.
 
-* **E-mail:** amsupport@adobe.com
+* **** E-mail: amsupport@adobe.com
 
-Prima di contattarci, tenete in considerazione le seguenti informazioni.
+Prima di contattarci, tieni a portata le seguenti informazioni.
 
 <table id="table_28E76031E2804265B1A48AB2659F68F0"> 
  <thead> 
@@ -41,28 +41,28 @@ Prima di contattarci, tenete in considerazione le seguenti informazioni.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Riepilogo problema</b> </p> </td> 
-   <td colname="col2"> <p>Fornite un breve riepilogo descrittivo del problema. </p> </td> 
+   <td colname="col1"> <p><b>Riepilogo dei problemi</b> </p> </td> 
+   <td colname="col2"> <p>Fornire un breve riepilogo descrittivo del problema. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Informazioni account</b> </p> </td> 
-   <td colname="col2"> <p>Fornite le seguenti informazioni: </p> <p> 
+   <td colname="col2"> <p>Fornisci: </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
       <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Nome società. </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Dominio secondario di Audience Manager</span> (se noto). The sub-domain is the URL of the domain that sends data collection events to <span class="keyword"> Adobe</span> (e.g., <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Sottodominio Audience Manager</span> (se noto). Il sottodominio è l’URL del dominio che invia eventi di raccolta dati ad <span class="keyword"> Adobe</span> (ad esempio, <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Passaggi per riprodurre</b> </p> </td> 
-   <td colname="col2"> <p>Includete quanti più dettagli possibile, inclusi eventuali URL necessari per duplicare il problema e il risultato previsto. Your description should contain enough detail that somebody unfamiliar with <span class="keyword"> Audience Manager</span> should be able to follow your steps or procedures and reproduce the problem. </p> </td> 
+   <td colname="col2"> <p>Includete il maggior numero di dettagli possibile, compresi eventuali URL necessari per duplicare il problema e il risultato previsto. La descrizione deve contenere informazioni sufficienti per consentire a un utente che non ha familiarità con <span class="keyword"> Audience Manager</span> di seguire i passaggi o le procedure e riprodurre il problema. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Priorità</b> </p> </td> 
-   <td colname="col2"> <p>Assegna una priorità a questo problema. L'intervallo di priorità è compreso tra P 1 (più importante) e P 4 (meno importante). </p> </td> 
+   <td colname="col2"> <p>Assegnare una priorità a questo problema. L'intervallo di priorità è compreso tra P1 (il più importante) e P4 (il meno importante). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Impatto business</b> </p> </td> 
-   <td colname="col2"> <p>Descrivere il modo in cui questo problema influisce sul business. Ad esempio, questo problema causa la perdita di entrate o il rendering del prodotto inutilizzabile? State lavorando al problema? </p> </td> 
+   <td colname="col1"> <p><b>Impatto sull'attività</b> </p> </td> 
+   <td colname="col2"> <p>Descrivi in che modo questo problema influisce sulla tua attività. Ad esempio, questo problema causa una perdita di ricavi o rende il prodotto inutilizzabile? Ha risolto questo problema? </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Aspettative</b> </p> </td> 
