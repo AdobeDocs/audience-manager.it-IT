@@ -18,7 +18,7 @@ Elenca e descrive la sintassi e gli attributi supportati (o coppie chiave-valore
 
 ## Prefissi attributi {#attribute-prefixes}
 
-Per classificare il tipo di dati che si sta trasmettendo, le chiavi [!UICONTROL DCS] si basano su specifici prefissi aggiunti alle chiavi in coppie chiave-valore.
+Per classificare il tipo di dati che si sta trasmettendo, le chiavi vengono aggiunte [!UICONTROL DCS] a specifici prefissi nelle coppie chiave-valore.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
