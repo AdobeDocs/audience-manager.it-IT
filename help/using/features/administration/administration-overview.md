@@ -1,136 +1,136 @@
 ---
-description: Le opzioni nel menu Amministrazione consentono di creare utenti di Audience Manager e assegnarli ai gruppi. Puoi inoltre visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
-keywords: rbac; RBAC; ruolo basato su; basate su ruolo; controlli di accesso basati su ruolo
-seo-description: Le opzioni nel menu Amministrazione consentono di creare utenti di Audience Manager e assegnarli ai gruppi. Puoi inoltre visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
+description: Le opzioni del menu Amministrazione consentono di creare utenti Audience Manager e assegnarli ai gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
+keywords: rback;RBAC;basato su ruoli;basato su ruoli;controlli di accesso basati su ruoli
+seo-description: Le opzioni del menu Amministrazione consentono di creare utenti Audience Manager e assegnarli ai gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
 seo-title: Amministrazione
 solution: Audience Manager
 title: Amministrazione
 topic: API DIL
-uuid: 498 e 0316-cf 1 b -43 e 9-88 ba -338 ee 0 daf 225
+uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
 source-git-commit: 6d2c749813871e52c3ef81581ed50f24fe7fd22c
 
 ---
 
 
-# Amministrazione (Controlli RBAC) {#administration}
+# Amministrazione (controlli RBAC) {#administration}
 
 ![](assets/rbac-controls.png)
 
-Le opzioni presenti nel [!UICONTROL Administration] menu consentono di creare utenti Audience Manager e assegnarli ai gruppi. Puoi inoltre visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
+Le opzioni del [!UICONTROL Administration] menu consentono di creare utenti Audience Manager e assegnarli ai gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
 
-I clienti Enterprise che utilizzano [!DNL Audience Manager] una piattaforma di gestione dati per tutti i loro dati, ma devono essere in grado di controllare la visibilità dei diversi elementi di dati a unità aziendali specifiche. Potete eseguire questa operazione utilizzando le autorizzazioni del gruppo, dette anche [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
+I clienti Enterprise che utilizzano [!DNL Audience Manager] necessitano di una piattaforma di gestione dati per tutti i loro dati, ma devono essere in grado di controllare la visibilità dei diversi elementi di dati a specifiche unità aziendali. A tal fine potete utilizzare le autorizzazioni di gruppo, denominate anche [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
 
-[!DNL Audience Manager] utilizza i gruppi per assegnare le autorizzazioni. Le autorizzazioni non vengono assegnate a livello di utente. Le autorizzazioni del gruppo sono associate a oggetti (caratteristiche, segmenti, ecc.) e alle azioni che puoi eseguire su tali oggetti (modifica, visualizzazione, ecc.). Questi controlli sono disponibili anche tramite le API REST di Audience Manager. Consultate [Metodi di gestione utenti](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [gestione](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)dei gruppi e [gestione](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) delle autorizzazioni.
+[!DNL Audience Manager] utilizza i gruppi per assegnare le autorizzazioni. Le autorizzazioni non vengono assegnate a livello di utente. Le autorizzazioni del gruppo sono associate a oggetti (caratteristiche, segmenti, ecc.) e alle azioni che è possibile eseguire su tali oggetti (modifica, visualizzazione, ecc.). Questi controlli sono disponibili anche tramite le API REST di Audience Manager. Consultate [Gestione](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md)utente, Gestione dei [gruppi](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)e Metodi API per la gestione delle [autorizzazioni](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) .
 
 ## Crea utenti {#create-users}
 
 <!-- t_create_users.xml -->
 
-Create utenti in [!DNL Audience Manager] e specificate i dettagli utente, lo stato di accesso e assegnate gli utenti ai gruppi.
+Create gli utenti in [!DNL Audience Manager] e specificate i dettagli utente, lo stato di accesso e assegnate gli utenti ai gruppi.
 
 1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Users]**.
-1. Fare clic per ![](assets/icon_add.png) visualizzare [!UICONTROL Create New User] la pagina.
+1. Fate clic ![](assets/icon_add.png) per visualizzare la [!UICONTROL Create New User] pagina.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
-   * **Nome utente:** Specifica un nome utente univoco per Audience Manager.
-   * **Nome:** Specificate il nome dell'utente.
-   * **Cognome:** Specificate il cognome dell'utente.
-   * **Indirizzo e-mail:** Specificate l'indirizzo e-mail dell'utente. [!DNL Audience Manager] non invia una notifica regolare agli utenti. [!DNL Audience Manager] gli amministratori possono accedere agli indirizzi e-mail degli utenti e possono inviare manualmente gli utenti e-mail in base alle esigenze. Ad esempio, se un utente dimentica la password, l'indirizzo e-mail specificato in questo campo viene usato per inviare una password temporanea e le istruzioni per reimpostare la password.
-   * **Numero di telefono:** Specificate il numero di telefono dell'utente.
-   * **È Amministratore:** Specificate se l'utente è [!DNL Audience Manager] un amministratore. Gli utenti Admin possono gestire gli utenti (creazione, modifica ecc.) e gruppi (create, assegnate autorizzazioni, ecc.). Gli utenti non amministratori possono controllare solo i propri profili utente, inclusa la modifica dei loro indirizzi e-mail e la reimpostazione delle password. Per ulteriori informazioni, vedi [Modifica impostazioni account](../../features/administration/edit-account-settings.md).
-1. Sotto **[!UICONTROL Login]**, selezionate lo stato desiderato:
-   * **Attivo:** Gli utenti attivi possono accedere [!DNL Audience Manager] e disporre delle autorizzazioni concesse per appartenenza al gruppo.
-   * **Disattivato:** Gli utenti disattivati non possono accedere [!DNL Audience Manager] e non dispongono di autorizzazioni. Se disattivate gli utenti, le informazioni relative agli utenti rimangono in [!DNL Audience Manager] e potete facilmente riattivarle, se necessario. Se rimuovete gli utenti, dovete ricrearli se dovranno riutilizzarli [!DNL Audience Manager] in futuro.
-   * **Scaduto:** La password di un utente è precedente a 90 giorni.
-   * **In sospeso:** L'utente dispone di una password temporanea, come dopo una reimpostazione della password o come nuovo account, e non ha ancora impostato una password permanente.
-   * **Bloccato:** 5 tentativi di accesso errati bloccheranno un utente.
-1. Sotto **[!UICONTROL Assigned Groups]**, dall'elenco a discesa, selezionate i gruppi desiderati a cui assegnare l'utente.
-Per ulteriori informazioni sui gruppi e le autorizzazioni, consultate [Creare un gruppo](../../features/administration/administration-overview.md#create-group).
+   * **** Nome utente: Specificate un nome utente univoco per Audience Manager.
+   * **** Nome: Specificate il nome dell'utente.
+   * **** Cognome: Specificate il cognome dell’utente.
+   * **** Indirizzo e-mail: Specificate l'indirizzo e-mail dell'utente. [!DNL Audience Manager] non invia notifiche regolari agli utenti. [!DNL Audience Manager] gli amministratori hanno accesso agli indirizzi e-mail degli utenti e possono inviare manualmente gli utenti come necessario. Ad esempio, se un utente dimentica la password, l'indirizzo e-mail specificato in questo campo viene utilizzato per inviare una password temporanea e le istruzioni per reimpostare la password.
+   * **** Numero di telefono: Specificate il numero di telefono dell'utente.
+   * **** Amministratore Is: Specificate se questo utente è un [!DNL Audience Manager] amministratore. Gli utenti amministratori possono gestire gli utenti (creare, modificare, ecc.) e i gruppi (creare, assegnare le autorizzazioni, ecc.). Gli utenti non amministratori possono controllare solo i propri profili utente, inclusi la modifica degli indirizzi e-mail e la reimpostazione delle proprie password. Per ulteriori informazioni, consultate [Modificare le impostazioni](../../features/administration/edit-account-settings.md)dell'account.
+1. In **[!UICONTROL Login]**, selezionate lo stato desiderato:
+   * **** Attivo:  Gli utenti attivi possono accedere [!DNL Audience Manager] e disporre delle autorizzazioni concesse per appartenenza al gruppo.
+   * **** Disattivato:  Gli utenti disattivati non possono accedere [!DNL Audience Manager] e non dispongono di alcuna autorizzazione. Se disattivate gli utenti, le relative informazioni restano invariate [!DNL Audience Manager] e potete semplicemente riattivarle, se necessario. Se rimuovete degli utenti, dovete ricrearli se dovranno riutilizzarli [!DNL Audience Manager] in futuro.
+   * **** Scaduto: La password di un utente supera i 90 giorni.
+   * **** In sospeso: L'utente dispone di una password temporanea, come dopo il ripristino della password o come nuovo account, e non ha ancora impostato una password permanente.
+   * **** Bloccato: 5 tentativi di accesso errati bloccheranno un utente.
+1. Nell'elenco **[!UICONTROL Assigned Groups]**a discesa, selezionate i gruppi a cui desiderate assegnare l'utente.
+Per ulteriori informazioni su gruppi e autorizzazioni, consultate [Creare un gruppo](../../features/administration/administration-overview.md#create-group).
 1. Fai clic su **[!UICONTROL Save]**.
 
 ## Creare un gruppo {#create-group}
 
-*Un gruppo* è una raccolta di utenti che condividono diritti di accesso a oggetti di destinazione, segmento e caratteristiche. È possibile limitare i gruppi solo a singoli oggetti o consentire loro un accesso ampio a combinazioni di oggetti diversi.
+Un *gruppo* è un insieme di utenti che condividono i diritti di accesso agli oggetti di destinazione, segmento e caratteristica. È possibile limitare i gruppi a un solo oggetto o consentire loro un ampio accesso a combinazioni di oggetti diversi.
 
 <!-- t_create_groups.xml -->
 
 Per creare un gruppo:
 
 1. Click **[!UICONTROL Administration]** &gt; **[!UICONTROL Groups]**.
-1. Fare clic per ![](assets/icon_add.png) aprire la [!UICONTROL Group Settings] pagina.
+1. Fate clic ![](assets/icon_add.png) per aprire la [!UICONTROL Group Settings] pagina.
 1. In [!UICONTROL Group Details]:
    * Denominate il gruppo.
    * Fornite una breve descrizione del gruppo.
-1. In [!UICONTROL Group Members], fate clic su un utente per **[!UICONTROL Add Users]** aggiungerle al gruppo.
-1. In [!UICONTROL Group Permissions], seleziona una [caratteristica](../../features/traits/trait-details-page.md), [un segmento](../../features/segments/segments-purpose.md)o [una destinazione](../../features/destinations/destinations.md) da **[!UICONTROL Add Object]**.
-Viene aperta una finestra delle autorizzazioni per l'oggetto selezionato.
+1. In [!UICONTROL Group Members], fate clic su un utente tra **[!UICONTROL Add Users]** le opzioni per aggiungerlo al gruppo.
+1. In [!UICONTROL Group Permissions], seleziona una [caratteristica](../../features/traits/trait-details-page.md), un [segmento](../../features/segments/segments-purpose.md)o una [destinazione](../../features/destinations/destinations.md) da **[!UICONTROL Add Object]**.
+Viene visualizzata una finestra di autorizzazioni per l'oggetto selezionato.
 1. Selezionate la casella di controllo per le autorizzazioni che desiderate assegnare ai membri del gruppo.
-1. *(Facoltativo)* Assegna [le autorizzazioni](../../features/administration/administration-overview.md#wild-card-permissions) wild card al gruppo.
+1. *(Facoltativo)* Assegnate le autorizzazioni per schede [jolly](../../features/administration/administration-overview.md#wild-card-permissions) al gruppo.
 1. Fai clic su **[!UICONTROL Save Group]**.
 
-## Autorizzazioni wild card {#wild-card-permissions}
+## Informazioni sulle autorizzazioni per le schede wild {#wild-card-permissions}
 
-Semplificate la gestione dei diritti dei gruppi [!UICONTROL Wild Card Permissions].
+Semplificate la gestione dei diritti di gruppo con [!UICONTROL Wild Card Permissions].
 
 <!-- c_wildcard_permissions.xml -->
 
-[!UICONTROL Wild Card Permissions] assegna ai membri del gruppo l'accesso automatico a ogni origine dati associata a un segmento, a una destinazione o a una caratteristica. Per confronto, le autorizzazioni regolari consentono solo di assegnare origini dati specifiche a uno di questi oggetti. Inoltre, quando aggiungi nuove sorgenti dati, i membri del gruppo non possono accedere a tali fonti.
+[!UICONTROL Wild Card Permissions] consente ai membri del gruppo di accedere automaticamente a ogni origine dati associata a un segmento, una destinazione o una caratteristica. A titolo di confronto, le autorizzazioni regolari consentono solo di assegnare origini dati specifiche a uno di questi oggetti. Inoltre, quando si aggiungono nuove origini dati, i membri del gruppo non hanno accesso a queste nuove origini.
 
-Devi aprire le autorizzazioni del gruppo e assegnare tali nuove origini dati al gruppo. [!UICONTROL Wild Card Permissions] consente di evitare questo processo di aggiornamento manuale dell'origine dati. I gruppi con [!UICONTROL Wild Card Permissions] accesso a nuove sorgenti dati senza autorizzazione esplicita.
+È necessario aprire le autorizzazioni del gruppo e assegnare le nuove origini dati al gruppo. [!UICONTROL Wild Card Permissions] consente di evitare questo processo manuale di aggiornamento dell'origine dati. Gruppi con [!UICONTROL Wild Card Permissions] accesso a nuove origini dati senza autorizzazione esplicita.
 
 ![](assets/wild-card.png)
 
-Leggi di seguito per una descrizione di ogni autorizzazione di caratteri jolly:
+Di seguito è riportata una descrizione del significato di ciascuna autorizzazione per caratteri jolly:
 
-**Caratteristica**
+**Caratteristiche**
 
-* `MAP_ALL_TRAITS_TO_MODELS` - Gli utenti possono selezionare caratteristiche come linea di base per i modelli.
-* `EDIT_ALL_TRAITS` - Gli utenti possono modificare tutte le caratteristiche configurate all'interno del proprio account della società.
-* `VIEW_ALL_TRAITS` - Gli utenti possono visualizzare tutte le caratteristiche all'interno del proprio account della società.
-* `DELETE_ALL_TRAITS` - Gli utenti possono eliminare tutte le caratteristiche configurate all'interno del proprio account della società.
+* `MAP_ALL_TRAITS_TO_MODELS` - Gli utenti possono selezionare le caratteristiche come linea di base per i modelli.
+* `EDIT_ALL_TRAITS` - Gli utenti possono modificare tutte le caratteristiche configurate nel proprio account aziendale.
+* `VIEW_ALL_TRAITS` - Gli utenti possono visualizzare tutte le caratteristiche configurate nel proprio account aziendale.
+* `DELETE_ALL_TRAITS` - Gli utenti possono eliminare tutte le caratteristiche configurate nel proprio account aziendale.
 * `CREATE_ALL_ALGO_TRAITS` - Gli utenti possono creare caratteristiche algoritmiche.
-* `MAP_ALL_TO_SEGMENTS` - Gli utenti possono aggiungere qualsiasi caratteristica appartenente alla propria società ai segmenti.
+* `MAP_ALL_TO_SEGMENTS` - Gli utenti possono aggiungere ai segmenti qualsiasi caratteristica appartenente alla propria società.
 * `CREATE_ALL_TRAITS` - Gli utenti possono creare caratteristiche.
 
 **Rapporti**
 
-* `PTRREPORTS` - Questa autorizzazione jolly fa riferimento a funzionalità obsolete e verrà rimossa dall'interfaccia utente di Audience Manager a breve.
+* `PTRREPORTS` - Questa autorizzazione per i caratteri jolly fa riferimento a funzionalità obsolete e verrà rimossa presto dall’interfaccia utente di Audience Manager.
 
 **Modelli**
 
-* `VIEW_MODELS` - Gli utenti dispongono dell'autorizzazione per visualizzare i modelli appartenenti alla propria azienda.
+* `VIEW_MODELS` - Gli utenti dispongono dell'autorizzazione per visualizzare i modelli appartenenti alla propria società.
 
 **Segnali derivati**
 
-* `VIEW_DERIVED_SIGNALS` - Gli utenti possono visualizzare tutti i segnali derivati appartenenti alla loro società.
+* `VIEW_DERIVED_SIGNALS` - Gli utenti possono visualizzare tutti i segnali derivati appartenenti alla propria azienda.
 * `CREATE_DERIVED_SIGNALS` - Gli utenti possono creare segnali derivati.
 * `EDIT_DERIVED_SIGNALS` - Gli utenti possono modificare tutti i segnali derivati appartenenti alla propria azienda.
 * `DELETE_DERIVED_SIGNALS` - Gli utenti possono eliminare qualsiasi segnale derivato appartenente alla propria società.
 
 **Destinazione**
 
-* `EDIT_ALL_DESTINATIONS` - Gli utenti possono modificare tutta la destinazione impostata all'interno del proprio account della società.
+* `EDIT_ALL_DESTINATIONS` - Gli utenti possono modificare tutta la destinazione impostata nel loro account società.
 * `CREATE_DESTINATIONS` - Gli utenti possono creare delle destinazioni.
-* `VIEW_ALL_DESTINATIONS` - Gli utenti possono visualizzare tutte le destinazioni configurate all'interno del proprio account della società.
-* `DELETE_ALL_DESTINATIONS` - Gli utenti possono eliminare tutte le destinazioni configurate all'interno del proprio account della società.
+* `VIEW_ALL_DESTINATIONS` - Gli utenti possono visualizzare tutte le destinazioni configurate nel loro account società.
+* `DELETE_ALL_DESTINATIONS` - Gli utenti possono eliminare tutte le destinazioni configurate nel loro account società.
 
 **Tag**
 
-* `VIEW_TAGS` - Gli utenti possono fare tutto (visualizzare, creare, modificare, eliminare) sui propri contenitori Tag.
+* `VIEW_TAGS` - Gli utenti possono fare tutto (visualizzare, creare, modificare, eliminare) sui propri contenitori di tag.
 
 **Audience Lab**
 
-* `MANAGE_SEGMENT_TEST_GROUPS` - Gli utenti possono fare tutto (visualizzare, creare, modificare, eliminare) sui gruppi di test Audience Lab.
+* `MANAGE_SEGMENT_TEST_GROUPS` - Gli utenti possono fare tutto (visualizzare, creare, modificare, eliminare) sui gruppi di test di Audience Lab.
 
 **Segmento**
 
 * `CREATE_ALL_SEGMENTS` - Gli utenti possono creare segmenti.
-* `DELETE_ALL_SEGMENTS` - Gli utenti possono eliminare tutti i segmenti configurati all'interno del relativo account della società.
-* `MAP_ALL_TO_DESTINATIONS` - Gli utenti possono mappare qualsiasi segmento appartenente alla propria società a destinazioni.
-* `EDIT_ALL_SEGMENTS` - Gli utenti possono modificare tutti i segmenti configurati all'interno del relativo account aziendale.
-* `MAP_ALL_SEGMENTS_TO_MODELS` - Gli utenti possono selezionare segmenti come linea di base per i modelli.
-* `VIEW_ALL_SEGMENTS` - Gli utenti possono visualizzare tutti i segmenti configurati all'interno del relativo account della società.
+* `DELETE_ALL_SEGMENTS` - Gli utenti possono eliminare tutti i segmenti configurati nel loro account società.
+* `MAP_ALL_TO_DESTINATIONS` - Gli utenti possono mappare i segmenti appartenenti alla propria società alle destinazioni.
+* `EDIT_ALL_SEGMENTS` - Gli utenti possono modificare tutti i segmenti configurati all'interno del loro account società.
+* `MAP_ALL_SEGMENTS_TO_MODELS` - Gli utenti possono selezionare i segmenti come linea di base per i modelli.
+* `VIEW_ALL_SEGMENTS` - Gli utenti possono visualizzare tutti i segmenti configurati nel loro account società.
 
 **Segnali**
 
-* `VIEW_ALL_SIGNALS` - Gli utenti possono visualizzare tutti i segnali acquisiti in [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md).
+* `VIEW_ALL_SIGNALS` - Gli utenti possono visualizzare tutti i segnali acquisiti in [Esplora](/help/using/features/data-explorer/data-explorer-overview.md)dati.
