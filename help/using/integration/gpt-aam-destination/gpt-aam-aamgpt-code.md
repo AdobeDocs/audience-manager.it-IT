@@ -1,27 +1,27 @@
 ---
-description: Aamgpt è una funzione javascript che legge i dati dei cookie di Audience Manager e invia tali informazioni ai tag di Google Publisher.
-seo-description: Aamgpt è una funzione javascript che legge i dati dei cookie di Audience Manager e invia tali informazioni ai tag di Google Publisher.
-seo-title: Codice Audience Manager per tag Editore Google
+description: AamGpt è una funzione JavaScript che legge i dati dei cookie di Audience Manager e invia tali informazioni ai tag di Google Publisher.
+seo-description: AamGpt è una funzione JavaScript che legge i dati dei cookie di Audience Manager e invia tali informazioni ai tag di Google Publisher.
+seo-title: Codice Audience Manager per i tag di Google Publisher
 solution: Audience Manager
-title: Codice Audience Manager per tag Editore Google
-uuid: 24 ff 5 d 16-b 360-46 cc-a 4 c 6-6 db 34 d 7 fda 75
+title: Codice Audience Manager per i tag di Google Publisher
+uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
 translation-type: tm+mt
 source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 ---
 
 
-# Audience Manager Code for Google Publisher Tags {#audience-manager-code-for-google-publisher-tags}
+# Codice Audience Manager per i tag di Google Publisher {#audience-manager-code-for-google-publisher-tags}
 
-`AamGpt`[!DNL JavaScript] è una funzione che legge i dati dei cookie di Audience Manager e invia tali informazioni [!DNL Google Publisher Tags].
+`AamGpt` è una [!DNL JavaScript] funzione che legge i dati dei cookie di Audience Manager e invia tali informazioni a [!DNL Google Publisher Tags].
 
 >[!NOTE]
 >
->This function is not required if you have your own code to read Audience Manager cookie data from the [!UICONTROL UUID] and destination cookies.
+>Questa funzione non è necessaria se disponete di un codice personalizzato per leggere i dati dei cookie di Audience Manager dai cookie [!UICONTROL UUID] e di destinazione.
 
 ## Codice di esempio
 
-Place the `AamGpt` code at the top of the page, ideally within the `<head>` code block. `AamGpt` Il codice è disponibile di seguito:
+Posizionare il `AamGpt` codice nella parte superiore della pagina, idealmente all’interno del blocco di `<head>` codice. Il `AamGpt` codice è disponibile di seguito:
 
 ```js
 var AamGpt = {  
