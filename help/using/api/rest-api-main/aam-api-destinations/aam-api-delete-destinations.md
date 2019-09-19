@@ -1,43 +1,43 @@
 ---
-description: I metodi DELETE e POST consentono di rimuovere le destinazioni e le mappature dei segmenti.
-seo-description: I metodi DELETE e POST consentono di rimuovere le destinazioni e le mappature dei segmenti.
+description: Metodi DELETE e POST che consentono di rimuovere destinazioni e mappature segmenti.
+seo-description: Metodi DELETE e POST che consentono di rimuovere destinazioni e mappature segmenti.
 seo-title: Elimina destinazioni
 solution: Audience Manager
 title: Elimina destinazioni
-uuid: 38 fb 2228-e 564-49 a 3-9930-3139 f 8799 a 8 f
+uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
 translation-type: tm+mt
 source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
 
 ---
 
 
-# Delete Destinations {#delete-destinations}
+# Elimina destinazioni {#delete-destinations}
 
-`DELETE` e `POST` metodi che consentono di rimuovere le destinazioni e le mappature dei segmenti.
+`DELETE` e `POST` metodi che consentono di rimuovere destinazioni e mappature segmenti.
 
 <!-- r_delete_destinations_all.xml -->
 
-## Eliminare una destinazione
+## Eliminazione di una destinazione
 
-`DELETE` Metodo che rimuove una destinazione.
+Un `DELETE` metodo che rimuove una destinazione.
 
 >[!NOTE]
 >
->Devi rimuovere tutte le mappature dei segmenti prima di poter eliminare una destinazione.
+>È necessario rimuovere tutte le mappature dei segmenti prima di poter eliminare una destinazione.
 
 * Request: `DELETE https://api.demdex.com/v1/destinations/`*`<destinationId>`*
-* Response: Returns code `204 No Content` if successful.
+* Risposta: Restituisce il codice `204 No Content` in caso di esito positivo.
 
 ## Destinazioni di eliminazione in blocco
 
-Remove multiple destinations with this `POST` method. Pass in destination IDs ( `destinationId`) with an array in the request body.
+Rimuovete più destinazioni con questo `POST` metodo. Trasmettere gli ID di destinazione ( `destinationId`) con un array nel corpo della richiesta.
 
 * Richiesta: `POST https://api.demdex.com/v1/destinations/bulk-delete/`
-* Response: Returns code `204 No Content` if successful.
+* Risposta: Restituisce il codice `204 No Content` in caso di esito positivo.
 
 ## Elimina mappature di destinazione per ID mappatura segmento
 
-`POST` Un metodo che rimuove le mappature di destinazione in base all'ID del segmento specificato.
+Un `POST` metodo che rimuove le mappature di destinazione in base all'ID segmento specificato.
 
 * Request: `DELETE https://api.demdex.com/v1/destinations/` *`<destinationId>`*`/segments/`*`<mappingId>`*
-* Response: Returns code `204 No Content` if successful.
+* Risposta: Restituisce il codice `204 No Content` in caso di esito positivo.
