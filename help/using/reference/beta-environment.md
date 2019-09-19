@@ -1,11 +1,11 @@
 ---
-description: L'ambiente beta è per testare l'implementazione di Audience Manager. Le modifiche apportate in beta non influiscono sui dati di produzione. Contatta il rappresentante delle soluzioni Partner Manager di Audience Manager se sei interessato all'utilizzo dell'ambiente Beta.
+description: L’ambiente beta è destinato a verificare l’implementazione di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Contatta il tuo rappresentante per le soluzioni partner di Audience Manager se sei interessato a utilizzare l’ambiente Beta.
 keywords: sandbox
-seo-description: L'ambiente beta è per testare l'implementazione di Audience Manager. Le modifiche apportate in beta non influiscono sui dati di produzione. Contatta il rappresentante delle soluzioni Partner Manager di Audience Manager se sei interessato all'utilizzo dell'ambiente Beta.
+seo-description: L’ambiente beta è destinato a verificare l’implementazione di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Contatta il tuo rappresentante per le soluzioni partner di Audience Manager se sei interessato a utilizzare l’ambiente Beta.
 seo-title: Ambiente beta
 solution: Audience Manager
 title: Ambiente beta
-uuid: de 4 a 1 a 46-cfa 4-4 f 64-8569-48 a 7650 fd 8 cf
+uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 translation-type: tm+mt
 source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
@@ -14,15 +14,15 @@ source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
 
 # Ambiente beta {#beta-environment}
 
-L'ambiente beta è per testare l'implementazione di Audience Manager. Le modifiche apportate in beta non influiscono sui dati di produzione. Contatta il rappresentante delle soluzioni Partner Manager di Audience Manager se sei interessato all'utilizzo dell'ambiente Beta.
+L’ambiente beta è destinato a verificare l’implementazione di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Contatta il tuo rappresentante per le soluzioni partner di Audience Manager se sei interessato a utilizzare l’ambiente Beta.
 
 ## Panoramica
 
-L'ambiente beta è una replica esatta dell'ambiente di produzione, senza funzioni sperimentali o non ancora rilasciate. Le credenziali di accesso dall'ambiente di produzione sono valide nell'ambiente beta.
+L'ambiente beta è una replica esatta dell'ambiente di produzione, senza alcuna caratteristica sperimentale o non rilasciata. Le credenziali di accesso dall'ambiente di produzione sono valide nell'ambiente Beta.
 
 **Aggiorna pianificazione**
 
-L'ambiente beta viene aggiornato alla fine di ogni mese durante il periodo di disattivazione.
+L'ambiente beta viene aggiornato alla fine di ogni mese durante le ore di punta.
 
 **Traffico in uscita**
 
@@ -40,20 +40,20 @@ Added re: AAM-30826.
 
 | Servizio | URL/Nome host | Come ottenere l'accesso |
 |--- |--- | --- |
-| S3 | Contatta il rappresentante delle soluzioni Partner Manager Audience o l'Assistenza clienti | Contatta il rappresentante delle soluzioni Partner Manager Audience o l'Assistenza clienti per impostare un bucket Amazon S 3 per l'istanza beta. Read about the [advantages of using Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | See [Accessing the DCS in the Beta Environment](../reference/beta-environment.md#access-dcs-beta-environment). |
-| Interfaccia | `https://bank-beta.demdex.com` | Le credenziali dell'ambiente di produzione sono valide per l'ambiente beta. |
-| API | `https://api-beta.demdex.com/...` | Le credenziali dell'ambiente di produzione sono valide per l'ambiente beta. We recommend that you create a generic API user, [see details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| S3 | Contatta il tuo rappresentante delle soluzioni per i partner Audience Manager o l’assistenza clienti | Contatta il tuo rappresentante delle soluzioni partner di Audience Manager o l'Assistenza clienti per configurare un bucket Amazon S3 per la tua istanza beta. Scoprite i [vantaggi dell'utilizzo di Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | Consultate [Accesso al DCS in ambiente](../reference/beta-environment.md#access-dcs-beta-environment)Beta. |
+| Interfaccia | `https://bank-beta.demdex.com` | Le credenziali dell'ambiente di produzione sono valide per l'ambiente Beta. |
+| API | `https://api-beta.demdex.com/...` | Le credenziali dell'ambiente di produzione sono valide per l'ambiente Beta. Vi consigliamo di creare un utente API generico, [consultate i dettagli](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## Accessing the DCS in the Beta Environment {#access-dcs-beta-environment}
+## Accesso al DCS in ambiente Beta {#access-dcs-beta-environment}
 
-1. Make a DCS call, using the curl [command](https://curl.haxx.se/docs/manpage.html). Curl è uno strumento che consente di trasferire dati da o su un server utilizzando uno dei numerosi protocolli supportati.
+1. Effettuare una chiamata DCS utilizzando il [comando](https://curl.haxx.se/docs/manpage.html)curl. Curl è uno strumento per trasferire dati da o verso un server, utilizzando uno dei numerosi protocolli supportati.
 
    Ad esempio:
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Verifica che la richiesta sia stata trasmessa dal DCS beta cercando «sandbox» nell'intestazione della risposta DCS.
+1. Verificate che la richiesta sia stata trasmessa dalla versione beta del DCS cercando "sandbox" nell’intestazione della risposta del DCS.
 
    Ad esempio:
 
