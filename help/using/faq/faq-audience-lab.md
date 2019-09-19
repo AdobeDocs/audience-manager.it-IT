@@ -5,14 +5,14 @@ seo-title: Domande frequenti su Audience Lab
 solution: Audience Manager
 title: Domande frequenti su Audience Lab
 topic: API DIL
-uuid: b 1 daf 99 d-af 60-4 f 65-987 d -794 a 6 d 45 d 566
+uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Audience Lab FAQ{#audience-lab-faq}
+# Domande frequenti su Audience Lab{#audience-lab-faq}
 
 Domande frequenti sulla funzione Audience Lab.
 
@@ -24,34 +24,34 @@ audience-lab-faq.xml
 
 <br> 
 
-**I segmenti di prova creati nei gruppi di test hanno ID diversi segmenti? How do I map the IDs to different destinations?**
+**I segmenti di test creati nei gruppi di test hanno ID di segmento diversi? Come posso mappare gli ID su destinazioni diverse?**
 
-Sì, i segmenti di test hanno ID segmento diversi. For destinations with [!UICONTROL Auto-fill Destination Mapping] or segments sent to [!DNL Google], [!UICONTROL Audience Lab] will handle the mapping values just like the destinations normally would.
+Sì, i segmenti di test hanno ID di segmento diversi. Per le destinazioni con [!UICONTROL Auto-fill Destination Mapping] o i segmenti a cui viene inviato [!DNL Google], [!UICONTROL Audience Lab] i valori di mappatura saranno gestiti come le destinazioni normalmente.
 
 <br> 
 
 **La stessa caratteristica di conversione può essere associata a più gruppi di test?**
 
-Sì, questo è consentito. Si consideri un caso di un test utilizzando un segmento maschile associato alla conversione X e un test utilizzando un segmento femmina associato alla conversione X. Non è importante che entrambi i test guidino le conversioni perché stanno sottoponendo a test due audience diverse.
+Sì, è permesso. Si consideri un caso di un test utilizzando un segmento maschile associato alla conversione X e un test utilizzando un segmento femminile associato alla conversione X. Non importa che entrambi i test stiano promuovendo le conversioni, dal momento che stanno testando due tipi di pubblico diversi.
 
 <br> 
 
-**Supponiamo che un gruppo di test utilizzi un profilo autenticato per la suddivisione del segmento di prova. The authenticated profile is linked to 4[Audience Manager UUIDs](../reference/ids-in-aam.md). When the visitor exhibits a conversion trait from one of the four UUIDs, does[!UICONTROL Audience Lab]count this as one or four conversions?**
+**Supponiamo che un gruppo di test stia utilizzando un profilo autenticato per la divisione del segmento di test. Il profilo autenticato è collegato a 4 UUID[di](../reference/ids-in-aam.md)Audience Manager. Quando il visitatore mostra una caratteristica di conversione da uno dei quattro UUID,[!UICONTROL Audience Lab]conteggia questa come una o quattro conversioni?**
 
-In this case, [!UICONTROL Audience Lab] only counts one conversion.
-
-<br> 
-
-**Cosa succede se il visitatore del caso precedente mostra il trait di conversione da uno dei quattro UUID collegati al suo profilo autenticato e quindi mostra anche il tratto di conversione da due altri UUID collegati al profilo autenticato? Does this case count as one or three conversions?**
-
-In this case, [!UICONTROL Audience Lab] counts three conversions, one for each device that has exhibited the authentication trait.
+In questo caso, viene conteggiata [!UICONTROL Audience Lab] solo una conversione.
 
 <br> 
 
-**Un utente può[!UICONTROL Segment: Read-Only]avere accesso, ma[!UICONTROL Audience Lab]anche verificare l'accesso alla creazione dei segmenti?**
+**Cosa succede se il visitatore del caso precedente mostra prima il tratto di conversione da uno dei quattro UUID collegati al suo profilo autenticato e quindi mostra anche il tratto di conversione da altri due UUID collegati al profilo autenticato? Questo caso conta come una o tre conversioni?**
 
-See [Create Segment Test Group](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) for information on how to use [!UICONTROL Audience Lab] with [!UICONTROL RBAC] privileges.
+In questo caso, [!UICONTROL Audience Lab] contano tre conversioni, una per ogni dispositivo che ha mostrato la caratteristica di autenticazione.
 
-**Posso utilizzare[!UICONTROL Audience Lab]in combinazione con[!UICONTROL Profile Link Device Graph]i grafici dispositivo esterno ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph)?**
+<br> 
 
-For now, [!UICONTROL Audience Lab] can only split out segment populations by the devices connected to a qualifying device, when using the [!UICONTROL Profile Link Device Graph]. We are working on adding support in [!UICONTROL Audience Lab] for the other device graphs and will let you know when we do so.
+**Un utente può avere[!UICONTROL Segment: Read-Only]accesso, ma può anche[!UICONTROL Audience Lab]testare l'accesso per la creazione dei segmenti?**
+
+Consultate [Creare un gruppo](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) di test dei segmenti per informazioni su come utilizzare [!UICONTROL Audience Lab] con [!UICONTROL RBAC] i privilegi.
+
+**Posso utilizzare[!UICONTROL Audience Lab]insieme ai grafici per dispositivi[!UICONTROL Profile Link Device Graph]ed esterni ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph)?**
+
+Per il momento, [!UICONTROL Audience Lab] è possibile suddividere le popolazioni dei segmenti solo dai dispositivi collegati a un dispositivo idoneo, quando si utilizza il [!UICONTROL Profile Link Device Graph]. Stiamo lavorando all'aggiunta del supporto [!UICONTROL Audience Lab] per gli altri grafici dei dispositivi e vi informeremo quando lo faremo.
