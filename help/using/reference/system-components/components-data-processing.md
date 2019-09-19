@@ -1,19 +1,19 @@
 ---
-description: I componenti di elaborazione dati includono Hadoop, Snowflating, SOLR e Tableau.
-seo-description: I componenti di elaborazione dati includono Hadoop, Snowflating, SOLR e Tableau.
-seo-title: Componenti elaborazione dati
+description: I componenti per l’elaborazione dei dati includono Hadoop, Snowflake, SOLR e Tableau.
+seo-description: I componenti per l’elaborazione dei dati includono Hadoop, Snowflake, SOLR e Tableau.
+seo-title: Componenti di elaborazione dati
 solution: Audience Manager
-title: Componenti elaborazione dati
-uuid: d 458 d 869-7 a 23-4016-871 d -0 b 994 cf 4 af 06
+title: Componenti di elaborazione dati
+uuid: d458d869-7a23-4016-871d-0b994cf4af06
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Data Processing Components{#data-processing-components}
+# Componenti di elaborazione dati{#data-processing-components}
 
-I componenti di elaborazione dati includono Hadoop, Snowflating, SOLR e Tableau.
+I componenti per l’elaborazione dei dati includono Hadoop, Snowflake, SOLR e Tableau.
 
 <!-- 
 
@@ -25,32 +25,32 @@ Audience Manager utilizza i seguenti componenti per elaborare i dati:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager], Hadoop is the master database that contains everything [!DNL Audience Manager] knows about a user. For example, when the [Profile Cache Servers](../../reference/system-components/components-data-collection.md) create log files that contain data about your users, it sends that data to Hadoop for storage. Altri elementi Hadoop importanti includono:
+In [!DNL Audience Manager], Hadoop è il database master che contiene tutto ciò che [!DNL Audience Manager] sa su un utente. Ad esempio, quando i server [cache](../../reference/system-components/components-data-collection.md) profilo creano file di registro contenenti dati sugli utenti, questi li inviano ad Hadoop per l'archiviazione. Altri importanti elementi Hadoop:
 
-* **Hive:** Un data warehouse per Hadoop. Hive gestisce le query ad hoc ai dati memorizzati in Hadoop.
+* **** Alveare: Un data warehouse per Hadoop. Hive gestisce le query ad hoc ai dati memorizzati in Hadoop.
 
-* **Hbase:** Un database Hadoop molto grande. Elabora e gestisce dati in entrata e in uscita, regole delle caratteristiche, informazioni algoritmiche algoritmiche ed esegue molte altre funzioni correlate alla memorizzazione e allo spostamento di dati in sistemi diversi.
+* **** HBase: Un database Hadoop molto grande. Elabora e gestisce dati in entrata e in uscita, regole sulle caratteristiche, informazioni sulla modellazione algoritmica ed esegue molte altre funzioni relative alla memorizzazione e allo spostamento dei dati in sistemi diversi.
 
-I clienti non hanno accesso diretto a tali sistemi. Tuttavia, i clienti lavorano con loro indirettamente in quanto questi componenti archiviano dati importanti sui visitatori del sito.
+I clienti non hanno accesso diretto a questi sistemi. Tuttavia, i clienti collaborano indirettamente con loro, in quanto questi componenti memorizzano dati importanti sui visitatori del sito.
 
-## Snowflake {#snowflake}
+## Fiocco di neve {#snowflake}
 
-[Snowflating](https://www.snowflake.net/) è un grande database cloud. Fornisce dati a molti grafici del dashboard e alle relative caselle di testo che mostrano la modifica % per ogni elemento del grafico. If you use [!DNL Audience Manager] and look at the dashboard reports, you're interacting with data provided by [!UICONTROL Snowflake].
+[Snowflake](https://www.snowflake.net/) è un enorme database cloud. Fornisce dati a molti grafici del dashboard e alle relative caselle di testo che mostrano la modifica % per ogni elemento del grafico. Se utilizzate [!DNL Audience Manager] e guardate i rapporti del dashboard, interagite con i dati forniti da [!UICONTROL Snowflake].
 
 
 
 ![](assets/dashboardreport.png)
 
-This is by no means a comprehensive list, but some common dashboard reports that [!UICONTROL Snowflake] is responsible for include:
+Non si tratta di un elenco completo, ma alcuni report comuni della dashboard [!UICONTROL Snowflake] responsabili includono:
 
-* [Report sulle caratteristiche giornaliere](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* [Report sulla distribuzione e sulle prestazioni](/help/using/reporting/dynamic-reports/delivery-performance-report.md)
-* All the overlap reports (see the [Interactive Reports](/help/using/reporting/dynamic-reports/dynamic-reports.md) section for information about each overlap report).
-* [Report segnali inutilizzati](/help/using/reporting/dynamic-reports/unused-signals.md)
+* [Report Variazione caratteristica giornaliera](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
+* [Rapporto sulla consegna e sulle prestazioni](/help/using/reporting/dynamic-reports/delivery-performance-report.md)
+* Tutti i rapporti di sovrapposizione (consultate la sezione Rapporti [](/help/using/reporting/dynamic-reports/dynamic-reports.md) interattivi per informazioni su ciascun rapporto di sovrapposizione).
+* [Report Segnali non utilizzati](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 
-SOLR è un database open-source e un sistema server Apache. Offre funzionalità di ricerca avanzate e rapide sui nostri grandi set di dati. As an [!DNL Audience Manager] customer, you can see SOLR in action when you build segments. It provides data to the [!UICONTROL Estimated Historic Segment Size] report. SOLR è ideale per questo ruolo a causa della velocità. Ad esempio, SOLR è in grado di aggiornare i dati delle dimensioni storiche mentre si creano regole e aggiungere nuove caratteristiche a un segmento.
+SOLR è un database e un sistema server open-source da Apache. Offre funzionalità di ricerca robuste e veloci sui nostri grandi set di dati. In qualità di cliente, puoi vedere SOLR in azione quando crei segmenti. [!DNL Audience Manager] Fornisce i dati al [!UICONTROL Estimated Historic Segment Size] report. SOLR è ideale per questo ruolo a causa della sua velocità. Ad esempio, SOLR è in grado di aggiornare i dati delle dimensioni storiche quando si creano regole e si aggiungono nuove caratteristiche a un segmento.
 
 
 
@@ -58,7 +58,7 @@ SOLR è un database open-source e un sistema server Apache. Offre funzionalità 
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] utilizza [Tableau](https://www.tableausoftware.com/) per visualizzare i dati nei report [interattivi](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) e nei report [di ottimizzazione dell'audience](../../reporting/audience-optimization-reports/audience-optimization-reports.md). I rapporti interattivi mostrano prestazioni e sovrapposizione dati per caratteristiche e segmenti. Invece di utilizzare i numeri disposti nelle colonne e nelle righe, restituiscono dati con forme, colori e dimensioni diverse. Inoltre, potete scegliere singoli o gruppi di punti dati e analizzare i risultati del rapporto per ulteriori dettagli. Queste tecniche di visualizzazione e l'interattività dei report facilitano la comprensione di grandi quantità di dati numerici.
+[!DNL Audience Manager] utilizza [Tableau](https://www.tableausoftware.com/) per visualizzare i dati nei report [](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) interattivi e nei report [di ottimizzazione dell'](../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience. I rapporti interattivi mostrano le prestazioni e i dati di sovrapposizione per caratteristiche e segmenti. Invece di usare numeri disposti in colonne e righe, restituiscono i dati utilizzando forme, colori e dimensioni diversi. Inoltre, puoi scegliere punti dati singoli o gruppi e approfondire i risultati del rapporto per maggiori dettagli. Queste tecniche di visualizzazione e l'interattività dei report consentono di comprendere meglio grandi quantità di dati numerici.
 
 
 
