@@ -1,19 +1,19 @@
 ---
-description: Un metodo GET che restituisce la destinazione per l'ID visitionid specificato.
-seo-description: Un metodo GET che restituisce la destinazione per l'ID visitionid specificato.
+description: Un metodo GET che restituisce la destinazione per l'ID destinazione specificato.
+seo-description: Un metodo GET che restituisce la destinazione per l'ID destinazione specificato.
 seo-title: Restituisci una destinazione per ID destinazione
 solution: Audience Manager
 title: Restituisci una destinazione per ID destinazione
-uuid: abce 7426-55 a 5-4045-93 a 7-0487652 a 7189
+uuid: abce7426-55a5-4045-93a7-0487652a7189
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Return A Destination by Destination ID {#return-a-destination-by-destination-id}
+# Restituisci una destinazione per ID destinazione {#return-a-destination-by-destination-id}
 
-`GET` Un metodo che restituisce la destinazione specificata `destinationId`.
+Un `GET` metodo che restituisce la destinazione per l'oggetto specificato `destinationId`.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -23,7 +23,7 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 >[!NOTE]
 >
->To populate the `mappings` field pass in `includeMappings=true` in the URL.
+>Per compilare il `mappings` campo passato `includeMappings=true` nell’URL.
 
 ## Risposta
 
@@ -53,9 +53,9 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 }
 ```
 
-## Return All Destinations {#return-all-destinations}
+## Restituisci tutte le destinazioni {#return-all-destinations}
 
-`GET` Un metodo che restituisce tutte le destinazioni per il partner specificato.
+Un `GET` metodo che restituisce tutte le destinazioni per il partner specificato.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -65,15 +65,15 @@ source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 >[!NOTE]
 >
->* *(Facoltativo)* Passa per `containsSegment=<sid>` restituire un array di tutte le destinazioni mappate al segmento specificato. For example, your query could look similar to this: `GET .../destinations/?containsSegment=4321`.
+>* *(Facoltativo)* Passare `containsSegment=<sid>` per restituire un array di tutte le destinazioni mappate al segmento specificato. Ad esempio, la query potrebbe essere simile alla seguente: `GET .../destinations/?containsSegment=4321`.
    >
    >
-* Non restituisce l'oggetto di destinazione completo. Ottenere la destinazione per l'ordine dati se è necessario un oggetto completo.
+* Non restituisce l'oggetto di destinazione completo. Ottenere la destinazione per ordine di dati se è necessario un oggetto completamente popolato.
 
 
-### Parametri query facoltativi
+### Parametri query opzionali
 
-You can use these optional parameters with API methods that return *all* properties for an object. Set these options in the request string when passing that query in to the [!DNL API]. See [Optional Parameters](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+È possibile utilizzare questi parametri facoltativi con metodi API che restituiscono *tutte* le proprietà di un oggetto. Impostate queste opzioni nella stringa di richiesta quando passate la query al [!DNL API]. Consultate Parametri [](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)opzionali.
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -88,20 +88,20 @@ You can use these optional parameters with API methods that return *all* propert
    <td colname="col2"> Restituisce i risultati per numero di pagina. La numerazione inizia da 0. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> Pagesize</code> </td>
-   <td colname="col2"> Imposta il numero di risultati di risposta restituiti dalla richiesta (10 è predefinito). </td>
+   <td colname="col1"><code> pageSize</code> </td>
+   <td colname="col2"> Imposta il numero di risultati della risposta restituiti dalla richiesta (il valore predefinito è 10). </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> Sortby</code> </td>
-   <td colname="col2">Sorts and returns results according to the specified <span class="keyword"> JSON</span> property. </td>
+   <td colname="col1"><code> sortBy</code> </td>
+   <td colname="col2">Ordina e restituisce i risultati in base alla proprietà <span class="keyword"> JSON</span> specificata. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> decrescente</code> </td>
-   <td colname="col2"> Ordina e restituisce i risultati in ordine decrescente. L'incremento è predefinito. </td>
+   <td colname="col2"> Ordina e restituisce risultati in ordine decrescente. Ascendente è il valore predefinito. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che desideri trovare risultati per tutti i modelli con la parola "Test" in uno dei campi di valore per quell'elemento. La richiesta di esempio potrebbe essere simile alla seguente: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>È possibile cercare qualsiasi valore restituito da un metodo "get all". </p> </td>
+   <td colname="col2">Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare risultati per tutti i modelli con la parola "Test" in uno qualsiasi dei campi di valore per l'elemento. Esempio di richiesta: <p><code> SCEGLIETE https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>È possibile cercare qualsiasi valore restituito da un metodo "get all". </p> </td>
   </tr>
  </tbody>
 </table>
@@ -138,9 +138,9 @@ You can use these optional parameters with API methods that return *all* propert
 ]
 ```
 
-## Return a Destination Mapping With the Mapping ID {#return-dest-mapping-id}
+## Restituire una mappatura di destinazione con l’ID mappatura {#return-dest-mapping-id}
 
-`GET` Un metodo che restituisce una singola mappatura di destinazione basata sul `mappingId`.
+Un `GET` metodo che restituisce un singolo mapping di destinazione basato sul `mappingId`.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -175,15 +175,15 @@ You can use these optional parameters with API methods that return *all* propert
 }
 ```
 
-## Return Destination Mappings {#return-dest-mappings}
+## Mappature di destinazione di ritorno {#return-dest-mappings}
 
-`GET` Un metodo che restituisce le mappature per una destinazione.
+Un `GET` metodo che restituisce i mapping per una destinazione.
 
 <!-- r_get_destination_mappings.xml -->
 
 >[!NOTE]
 >
->La mappatura restituita è specifica per il tipo di destinazione e la configurazione.
+>Il mapping restituito è specifico per il tipo di destinazione e la configurazione.
 
 ### Richiesta
 
@@ -249,9 +249,9 @@ You can use these optional parameters with API methods that return *all* propert
 {
 ```
 
-## Return All Available Destination Platforms {#return-dest-platforms}
+## Restituisci tutte le piattaforme di destinazione disponibili {#return-dest-platforms}
 
-`GET` Un metodo che restituisce tutte le piattaforme dispositivo disponibili per le destinazioni.
+Un `GET` metodo che restituisce tutte le piattaforme dispositivo disponibili per le destinazioni.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -267,9 +267,9 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## Return S2S and Bulk S2S Destination Job History {#return-job-history}
+## Restituisci cronologia processo di destinazione S2S e Bulk S2S {#return-job-history}
 
-`GET` Un metodo che restituisce informazioni sulla cronologia dei processi di destinazione in uscita [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) e in massa [!UICONTROL S2S] .
+Un `GET` metodo che restituisce informazioni sulla cronologia dei processi di destinazione in uscita [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) e in massa [!UICONTROL S2S] .
 
 <!-- r_get_job_history.xml -->
 
@@ -277,7 +277,7 @@ BROWSER, ANDROID, iOS, ALL
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Required query parameters: `startDate` = *&lt;`epochtime`&gt;* and `endDate` = *&lt;`epochtime`&gt;*.
+Parametri di query richiesti: `startDate` = *&lt;`epochtime`&gt;* e `endDate` = *&lt;`epochtime`&gt;*.
 
 ### Risposta
 
