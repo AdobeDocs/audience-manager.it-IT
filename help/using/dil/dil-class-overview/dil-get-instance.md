@@ -1,22 +1,22 @@
 ---
-description: Recupera un'istanza DIL specifica per il partner.
-keywords: API Audience Manager; aam api; audience manager apis; aam apis
-seo-description: Recupera un'istanza DIL specifica per il partner.
-seo-title: Getdil
+description: Recupera un’istanza DIL specifica del partner.
+keywords: audience manager api;aam api;audience manager apis;aam apis
+seo-description: Recupera un’istanza DIL specifica del partner.
+seo-title: getDil
 solution: Audience Manager
-title: Getdil
-uuid: 7 b 95 f 9 bf -14 c 0-4 c 74-b 6 b 9-d 6 b 38513 d 487
+title: getDil
+uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
 translation-type: tm+mt
 source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 ---
 
 
-# Getdil{#getdil}
+# getDil{#getdil}
 
-Recupera un'istanza DIL specifica per il partner.
+Recupera un’istanza DIL specifica del partner.
 
-**Firma funzione:**`getDil: function (partner, containerNSID) {}`
+**** Firma funzione: `getDil: function (partner, containerNSID) {}`
 
 <!-- r_dil_get_dil.xml -->
 
@@ -24,14 +24,14 @@ Recupera un'istanza DIL specifica per il partner.
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `partner` | Stringa | Nome del partner da cercare. |
-| `containerNSID` | Intero | I valori predefiniti `0`sono. Il NSID del contenitore ricercato. Facoltativo. |
+| `partner` | Stringa | Il nome del partner da cercare. |
+| `containerNSID` | Intero | Il valore predefinito è `0`. NSID del contenitore che si sta cercando. Facoltativo. |
 
 ## Risposta
 
-Un partner di successo e una corrispondenza NSID contenitore restituiscono [!UICONTROL DIL] un'istanza specifica per il partner. In assenza di corrispondenza, l'API restituisce (non genera) un errore con il messaggio " `The DIL instance with partner <name> and containerNSID <ID> was not found.`"
+La corrispondenza NSID di un partner e un contenitore di successo restituisce un’ [!UICONTROL DIL] istanza specifica del partner. In assenza di corrispondenza, l'API restituisce (non genera) un errore con il messaggio " `The DIL instance with partner <name> and containerNSID <ID> was not found.`"
 
 ## Codice di esempio
 
-<pre class="java"><code>DIL. getdil ('<i>partner</i>', <i>containernsid</i>); 
-DIL. getdil ('<i>partner</i>');</code></pre>
+<pre class="java"><code>DIL.getDil('<i>partner</i>', <i>containerNSID</i>); 
+DIL.getDil('<i>partner</i>');</code></pre>
