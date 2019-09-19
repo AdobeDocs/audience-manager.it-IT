@@ -1,27 +1,27 @@
 ---
-description: Il Generatore di caratteristiche è una funzione che migliora i tradizionali processi di raccolta e creazione di tipi di pubblico basati su pixel. Funziona elaborando i dati delle pagine con le regole lato server create nell'interfaccia utente.
-seo-description: Il Generatore di caratteristiche è una funzione che migliora i tradizionali processi di raccolta e creazione di tipi di pubblico basati su pixel. Funziona elaborando i dati delle pagine con le regole lato server create nell'interfaccia utente.
-seo-title: Informazioni su Generatore caratteristiche
+description: Trait Builder è una funzione che migliora i tradizionali processi di raccolta dati basati su pixel e di creazione/segmentazione dell'audience. Funziona elaborando i dati della pagina con le regole sul lato server create nell'interfaccia utente.
+seo-description: Trait Builder è una funzione che migliora i tradizionali processi di raccolta dati basati su pixel e di creazione/segmentazione dell'audience. Funziona elaborando i dati della pagina con le regole sul lato server create nell'interfaccia utente.
+seo-title: Informazioni su Generatore di caratteristiche
 solution: Audience Manager
-title: Informazioni su Generatore caratteristiche
-uuid: 4258616 c -7 a 9 f -4 fe 9-95 e 2-9 f 51896 a 14 ab
+title: Informazioni su Generatore di caratteristiche
+uuid: 4258616c-7a9f-4fe9-95e2-9f51896a14ab
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# About Trait Builder {#about-trait-builder}
+# Informazioni su Generatore di caratteristiche {#about-trait-builder}
 
-[!UICONTROL Trait Builder] è una funzione che migliora i tradizionali processi di raccolta e creazione di tipi di pubblico basati su pixel. Funziona elaborando i dati delle pagine con le regole lato server create nell'interfaccia utente.
+[!UICONTROL Trait Builder] è una funzione che migliora i tradizionali processi di raccolta dati basati su pixel e creazione/segmentazione dell'audience. Funziona elaborando i dati della pagina con le regole sul lato server create nell'interfaccia utente.
 
 <!-- c_tb_about.xml -->
 
-Compared to pixels, which fire in response to simple "yes" or "true" conditions, [!UICONTROL Trait Builder] lets you:
+Rispetto ai pixel, attivati in risposta a semplici condizioni "yes" o "true", [!UICONTROL Trait Builder] potete effettuare le seguenti operazioni:
 
-* Collect *all* page data so you can use it later to build relevant, useful traits.
-* Build traits based on [key-value pairs](../../reference/key-value-pairs-explained.md) passed in during data collection.
-* Evaluate complex data conditions with server-side rules that work with [Boolean expressions](../../reference/boolean-expressions-tsb.md) and [comparison operators](../../features/traits/trait-comparison-operators.md).
+* Raccogliete *tutti* i dati di pagina in modo da poterlo utilizzare in seguito per creare caratteristiche utili e rilevanti.
+* Crea caratteristiche basate su coppie [chiave-valore](../../reference/key-value-pairs-explained.md) passate durante la raccolta dei dati.
+* Valutare le condizioni dei dati complesse con regole lato server che funzionano con espressioni [](../../reference/boolean-expressions-tsb.md) booleane e operatori [di](../../features/traits/trait-comparison-operators.md)confronto.
 
-* Riducete o eliminate la necessità di mantenere i pixel della raccolta dati nell'inventario.
-* Monitor performance with [!DNL Audience Manager] reports.
+* Ridurre o eliminare la necessità di mantenere i pixel di raccolta dati presenti nel magazzino.
+* Monitorare le prestazioni con [!DNL Audience Manager] i report.
