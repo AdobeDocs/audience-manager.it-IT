@@ -1,21 +1,21 @@
 ---
-description: Questa mappa contiene i principali sistemi Audience Manager. Rappresenta visivamente il modo in cui i dati entrano, escono e tra i componenti Audience Manager.
-seo-description: Questa mappa contiene i principali sistemi Audience Manager. Rappresenta visivamente il modo in cui i dati entrano, escono e tra i componenti Audience Manager.
-seo-title: Mappa flusso dati di architettura piattaforma
+description: Questa mappa contiene i principali sistemi Audience Manager. Rappresenta visivamente il modo in cui i dati fluiscono nei componenti di Audience Manager, da e tra essi.
+seo-description: Questa mappa contiene i principali sistemi Audience Manager. Rappresenta visivamente il modo in cui i dati fluiscono nei componenti di Audience Manager, da e tra essi.
+seo-title: Mappa del flusso di dati dell'architettura della piattaforma
 solution: Audience Manager
-title: Mappa flusso dati di architettura piattaforma
-uuid: d 845 af 1 d-f 448-4 f 4 c -948 e-b 2 c 89 f 125086
+title: Mappa del flusso di dati dell'architettura della piattaforma
+uuid: d845af1d-f448-4f4c-948e-b2c89f125086
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Platform Architecture: Data Flow Map{#platform-architecture-data-flow-map}
+# Architettura piattaforma: Mappa del flusso di dati{#platform-architecture-data-flow-map}
 
-Questa mappa contiene i principali sistemi Audience Manager. Rappresenta visivamente il modo in cui i dati entrano, escono e tra i componenti Audience Manager.
+Questa mappa contiene i principali sistemi Audience Manager. Rappresenta visivamente il modo in cui i dati fluiscono nei componenti di Audience Manager, da e tra essi.
 
-## How to read this map {#compmap}
+## Come leggere questa mappa {#compmap}
 
 <!-- 
 
@@ -23,11 +23,11 @@ c_compmap.xml
 
  -->
 
-In the map, the gray box contains [!DNL Audience Manager] systems. Some components are completely internal and others sit on the boundary between [!DNL Audience Manager] and the outside world. As an [!DNL Audience Manager] customer, internal components are often transparent or inaccessible. Tuttavia, a volte potete interagire con questi sistemi tramite l'interfaccia utente o le integrazioni di dati. Systems on the edge of the box collect and send data between [!DNL Audience Manager] and the outside world.
+Nella mappa, la scatola grigia contiene [!DNL Audience Manager] dei sistemi. Alcuni componenti sono completamente interni e altri si trovano al confine tra [!DNL Audience Manager] e il mondo esterno. Come [!DNL Audience Manager] cliente, i componenti interni sono spesso trasparenti o inaccessibili. Tuttavia, a volte è possibile interagire con questi sistemi tramite l'interfaccia utente o integrazioni di dati. I sistemi sul bordo della scatola raccolgono e inviano i dati tra [!DNL Audience Manager] il mondo esterno.
 
-Colors define the type of data that flows in and out of [!DNL Audience Manager]. Verde è dati cliente, blu è dati cliente (persone che visita il sito) e arancione sono dati utilizzati per il reporting.
+I colori definiscono il tipo di dati che fluiscono dentro e fuori [!DNL Audience Manager]. Il verde è dato dai clienti, il blu è dato dai clienti (persone che visitano il sito) e il blu è arancione è dato utilizzato per il reporting.
 
-For system descriptions and summaries see the data [action](../../reference/system-components/components-data-action.md), [collection](../../reference/system-components/components-data-collection.md), [processing](../../reference/system-components/components-data-processing.md), and [tag management](../../reference/system-components/components-tag-management.md) sections.
+Per le descrizioni e i riepiloghi del sistema, consultate le sezioni [azione](../../reference/system-components/components-data-action.md)dei dati, [raccolta](../../reference/system-components/components-data-collection.md), [elaborazione](../../reference/system-components/components-data-processing.md)e gestione [dei](../../reference/system-components/components-tag-management.md) tag.
 
 ![](assets/flowmap.png)
 
