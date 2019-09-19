@@ -1,36 +1,36 @@
 ---
-description: Panoramica dei clienti tecnici e non tecnici che desiderano trasferire dati da altri sistemi (offline) in Audience Manager.
+description: Panoramica per i clienti tecnici e non tecnici che desiderano portare dati da altri sistemi (offline) in Audience Manager.
 keywords: in entrata, batch, caricamento batch, dati batch
-seo-description: Panoramica dei clienti tecnici e non tecnici che desiderano trasferire dati da altri sistemi (offline) in Audience Manager. A questo scopo, utilizzate l'opzione di caricamento batch in Audience Manager.
-seo-title: Invia dati batch alla panoramica di Audience Manager
+seo-description: Panoramica per i clienti tecnici e non tecnici che desiderano portare dati da altri sistemi (offline) in Audience Manager. A tal fine, utilizzate l'opzione di caricamento batch in Audience Manager.
+seo-title: Invia dati batch ad Audience Manager Panoramica
 solution: Audience Manager
-title: Invia dati batch alla panoramica di Audience Manager
-uuid: 472583 b 1-5057-4 add -8 e 3 c -5 e 50762 c 88 e 0
+title: Invia dati batch ad Audience Manager Panoramica
+uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 translation-type: tm+mt
 source-git-commit: 2e3adc8f0b2fe6efd9ca57f1d763ee4476d2edee
 
 ---
 
 
-# Invia dati batch alla panoramica di Audience Manager{#send-batch-data-to-audience-manager-overview}
+# Invia dati batch ad Audience Manager Panoramica{#send-batch-data-to-audience-manager-overview}
 
-Panoramica dei clienti tecnici e non tecnici che desiderano trasferire dati da altri sistemi (offline) in Audience Manager.
+Panoramica per i clienti tecnici e non tecnici che desiderano portare dati da altri sistemi (offline) in Audience Manager.
 
 ## Vantaggi
 
 <!-- c_offline_to_online.xml -->
 
-Puoi rendere disponibili i dati di altri sistemi in Audience Manager. Il nostro sistema può aiutarti a sbloccare i valori e sfruttare i dati degli utenti raccolti in precedenza. Sono incluse informazioni su acquisti, sondaggi sui clienti, dati di registrazione, [!DNL CRM] database ecc. Anche se ogni integrazione presenta le proprie problematiche, condividono tutti questi passaggi comuni. Rivedete questo materiale per ridurre il sforzo necessario per rendere online i dati offline.
+Puoi rendere disponibili i dati di altri sistemi in Audience Manager. Il nostro sistema può aiutarti a sbloccare i valori e a sfruttare i dati utente raccolti in precedenza. Questo include informazioni su acquisti, sondaggi sui clienti, dati di registrazione, [!DNL CRM] database ecc. Sebbene ogni integrazione presenti le proprie sfide, tutti condividono questi passi comuni. Rivedete questo materiale per ridurre gli sforzi necessari per portare online i dati offline.
 
-## Passaggio 1: Sincronizzazione degli ID utente
+## Passaggio 1: Sincronizza ID utente
 
-Durante la sincronizzazione, Audience Manager assegna ID univoci ai client e ai relativi utenti. Questi ID sono noti rispettivamente come ( [!UICONTROL Data Provider ID][!UICONTROL DPID]) e [!UICONTROL Unique User ID] ([!UICONTROL UUID]). Audience Manager usa [!UICONTROL DPID] e [!UICONTROL UUID] per identificare gli utenti e qualificarli per caratteristiche, segmenti, gruppi di pubblico e per rapporti. Inoltre, il nostro codice di raccolta dati ([!UICONTROL DIL]) cerca questi ID per acquisire i dati dei visitatori dal tuo sito Web. Quando questo passaggio è completo, Audience Manager e l'archivio offline devono contenere ID corrispondenti per ogni record utente.
+Durante la sincronizzazione, Audience Manager assegna ID univoci ai client e ai loro utenti. Tali ID sono noti rispettivamente come [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) e [!UICONTROL Unique User ID] ([!UICONTROL UUID]). Audience Manager utilizza l' [!UICONTROL DPID] e [!UICONTROL UUID] per identificare gli utenti e qualificarli per caratteristiche, segmenti, gruppi di pubblico e per la creazione di report. Inoltre, il nostro codice di raccolta dati ([!UICONTROL DIL]) cerca questi ID per acquisire i dati dei visitatori dal tuo sito Web. Al termine di questo passaggio, Audience Manager e il repository offline devono contenere gli ID corrispondenti per ciascun record utente.
 
 Considerazioni importanti su questo passaggio:
 
-* **Posizione ID client:** Audience Manager deve sapere dove si trova l'ID cliente sul tuo sito Web (ad es., archiviato in un cookie, una variabile Analytics, nel codice della pagina, ecc.).
-* **Escludi:[!DNL PII]Gli ID utente non devono contenere informazioni personali identificabili (**).[!DNL PII]
-* **Distinzione tra maiuscole e minuscole:** Durante una sincronizzazione dati in tempo reale, gli ID utente acquisiti dal sito da Audience Manager devono corrispondere agli ID passati dall'archivio offline. Ad esempio, se i record offline contengono informazioni su [!DNL User123], ma il tuo sito esegue il rendering di tale ID come [!DNL USER123], Audience Manager li visualizza come visitatori diversi. Di conseguenza, le informazioni online per questo visitatore non possono essere associate ai record corrispondenti nel database offline. Gli ID devono corrispondere esattamente.
+* **** Posizione ID client: Audience Manager deve sapere dove viene visualizzato l’ID cliente sul sito Web (ad esempio, se è memorizzato in un cookie, una variabile di Analytics, nel codice della pagina, ecc.).
+* **[!DNL PII]Escludi**: Gli ID utente non devono contenere informazioni personali ([!DNL PII]).
+* **** Sensibilità di maiuscole e minuscole: Durante una sincronizzazione dei dati in tempo reale, gli ID utente acquisiti dal sito da Audience Manager devono corrispondere agli ID trasmessi dal repository offline. Ad esempio, se i record offline contengono informazioni su [!DNL User123]ma il sito esegue il rendering dell'ID come [!DNL USER123], Audience Manager li vede come visitatori diversi. Di conseguenza, le informazioni online per questo visitatore non possono essere associate ai record corrispondenti nel database offline. Gli ID devono corrispondere esattamente.
 
 See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
@@ -47,20 +47,20 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 
  -->
 
-## Passaggio 2: Formato file dati
+## Passaggio 2:Formato file dati
 
-I nomi e i contenuti dei file seguono linee guida rigorose. In *questa guida* , è necessario denominare e organizzare i file di dati in base alle seguenti specifiche. Consulta:
+I nomi e il contenuto dei file seguono linee guida rigorose. In questa guida *è necessario* assegnare un nome e organizzare i file di dati in base alle seguenti specifiche. Consulta:
 
 * [Requisiti di nome di Amazon S3 per file di dati in entrata](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Contenuto del file di dati in ingresso: Sintassi, Variabili ed Esempi](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+* [Contenuto file dati in entrata: Sintassi, variabili ed esempi](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
-## Dati online disponibili per iniziative di marketing offline
+## I dati online sono disponibili per gli sforzi di marketing offline
 
-Quando trasferite online dati offline, potete comunque utilizzare queste informazioni per campagne offline. A questo scopo, Audience Manager esporta le informazioni relative a caratteristiche e segmenti in una [!DNL FTP][!DNL Amazon S3] o più posizioni di tua scelta. Contatta il tuo responsabile Soluzioni Partner per ulteriori informazioni o assistenza.
+Quando portate online i dati offline, potete comunque utilizzare tali informazioni per le campagne offline. A tal fine, Audience Manager esporta le informazioni sulle caratteristiche e sui segmenti in una [!DNL FTP] posizione o [!DNL Amazon S3] posizione desiderata. Contatta il tuo Partner Solutions Manager per ulteriori informazioni o assistenza.
 
 ## Ambienti
 
-Audience Manager offre i seguenti ambienti per il rilascio dei file:
+Audience Manager fornisce i seguenti ambienti per il rilascio dei file:
 
 <table id="table_A61AA64578944B23B5A7355F2A76E882"> 
  <thead> 
@@ -87,11 +87,11 @@ Audience Manager offre i seguenti ambienti per il rilascio dei file:
   </tr> 
   <tr> 
    <td colname="col02"> S3 </td> 
-   <td colname="col2"> <p> <code> demdex-s 2 s-client-sandbox-us-east -1</code> </p> </td> 
+   <td colname="col2"> <p> <code> demdex-s2s-client-sandbox-us-east-1</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ulteriore lettura tecnica
 
-Gli ingegneri, gli sviluppatori o i team tecnici/di implementazione di sistema devono consultare [il processo di trasferimento dei dati batch descritti](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) e gli altri articoli in questa sezione. Questi articoli forniscono dettagli sui protocolli di trasferimento, sui contenuti dei file e sui requisiti del nome file.
+Gli ingegneri di sistemi, gli sviluppatori o i team tecnici/di implementazione devono consultare il processo di trasferimento dei dati [batch descritto](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) e gli altri articoli di questa sezione. Questi articoli forniscono dettagli sui protocolli di trasferimento, il contenuto del file e i requisiti relativi al nome del file.
