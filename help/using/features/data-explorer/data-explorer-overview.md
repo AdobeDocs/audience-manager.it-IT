@@ -1,43 +1,43 @@
 ---
-description: Utilizza Data Explorer per connetterti a tipi di pubblico storici creando caratteristiche basate su segnali utilizzati e inutilizzati e eseguendo il backfill con dati storici per evitare potenziali perdite di pubblico rilevanti.
-seo-description: Utilizza Data Explorer per connetterti a tipi di pubblico storici creando caratteristiche basate su segnali utilizzati e inutilizzati e eseguendo il backfill con dati storici per evitare potenziali perdite di pubblico rilevanti.
-seo-title: Panoramica, vantaggi e casi d'uso
-title: Panoramica, vantaggi e casi d'uso
-uuid: 3 bd 32 d 4 a-ade 3-413 d -837 a -9 edd 14 d 415 a 5
+description: Utilizzare Data Explorer per sfruttare i tipi di pubblico storici creando tratti basati su segnali usati e inutilizzati e ricollegandoli con dati storici per evitare potenziali perdite di audience rilevanti.
+seo-description: Utilizzare Data Explorer per sfruttare i tipi di pubblico storici creando tratti basati su segnali usati e inutilizzati e ricollegandoli con dati storici per evitare potenziali perdite di audience rilevanti.
+seo-title: Panoramica, vantaggi e casi di utilizzo
+title: Panoramica, vantaggi e casi di utilizzo
+uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
 source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
 
 ---
 
 
-# Data Explorer - Overview, Benefits, and Use Cases {#overview-benefits-and-use-cases}
+# Esplora dati - Panoramica, vantaggi e casi di utilizzo {#overview-benefits-and-use-cases}
 
-Use [!UICONTROL Data Explorer] to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
+Utilizzare [!UICONTROL Data Explorer] per sfruttare i tipi di pubblico storici costruendo tratti basati su segnali usati e inutilizzati, e ricollegarli con dati storici per evitare la potenziale perdita di audience rilevanti.
 
 ## Panoramica {#overview}
 
-La creazione di caratteristiche basate su approfondimenti esistenti relativi al pubblico è un processo piuttosto semplice, a condizione che tu sappia sempre chi sia il pubblico. Ma con quale frequenza si verifica?
+La creazione di caratteristiche basate su informazioni esistenti correlate al pubblico è un processo piuttosto semplice, purché si sappia sempre chi è il pubblico. Ma quanto spesso succede?
 
-[!UICONTROL Data Explorer] semplifica il processo di gestione delle caratteristiche offrendo un maggiore flessibilità nella gestione della tassonomia. Two [!UICONTROL Data Explorer] components help you achieve this:
+[!UICONTROL Data Explorer] semplifica il processo di gestione delle caratteristiche offrendo al contempo un maggiore grado di flessibilità nella cura della tassonomia. Due [!UICONTROL Data Explorer] componenti consentono di:
 
-* [Segnali dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) e [!UICONTROL Signals Search] consente di tenere traccia dei segnali ricevuti da tale [!DNL Audience Manager] pannello per creare nuove caratteristiche o aggiungere a quelli esistenti.
+* [Pannello](../../features/data-explorer/data-explorer-signals-dashboard.md) dei segnali e [!UICONTROL Signals Search] aiuta a tenere traccia dei segnali ricevuti da [!DNL Audience Manager] che puoi usare per creare nuove caratteristiche o aggiungere a quelle esistenti.
 
-* [Trait Realization Backfill](../../features/data-explorer/data-explorer-trait-backfill.md) (Utilizzo di backfill realizzazione caratteristica) consente di qualificare audience storiche per le caratteristiche appena create, in modo da poterle includere in attività di targeting future.
+* [Trait Realization Backfill](../../features/data-explorer/data-explorer-trait-backfill.md) consente di qualificare i tipi di pubblico storici per le caratteristiche create di recente, in modo da poterli includere nei futuri sforzi di targeting.
 
 ## Vantaggi {#benefits}
 
-Use [!UICONTROL Data Explorer] to optimize your audience building in multiple ways:
+Utilizzate [!UICONTROL Data Explorer] per ottimizzare la creazione del pubblico in diversi modi:
 
-* **Concentratevi su audience ad alto valore**. Monitora le modifiche della tendenza nel comportamento di ricerca e navigazione sulle pagine, quindi crea caratteristiche specifiche per il loro comportamento. Elimina la necessità di creare caratteristiche e focalizzare i segnali pertinenti.
-* **Evitare la perdita di dati**. Riempie le caratteristiche con le realizzazioni storiche, per evitare di perdere i segmenti di pubblico perché non avete creato caratteristiche prima di ricevere i segnali.
-* **Migliorate il flusso di lavoro**. Scopri i segnali di tendenza e trasformali rapidamente in caratteristiche fruibili.
+* **Concentrati su audience** di alto valore. Monitora i cambiamenti di tendenza nel comportamento di ricerca e navigazione sulle pagine, quindi crea caratteristiche specifiche per il loro comportamento. Eliminare la necessità di creare caratteristiche "nel caso" e concentrarsi sui segnali rilevanti.
+* **Evitare la perdita** di dati. Tratti di backfill con realizzazioni storiche che ti permettono di non perdere i segmenti di pubblico perché non hai creato caratteristiche prima della ricezione dei segnali.
+* **Migliorate il flusso di lavoro**. Scopri i segnali di tendenza e trasformali rapidamente in tratti fruibili.
 
 ## Casi d'uso {#use-cases-data-explorer}
 
 ### Esempio 1
 
-Un rivenditore globale elettronico ha un traffico di visitatori elevato, ma i tassi di conversione sono inferiori al previsto, sebbene abbiano ottimizzato il contenuto per più piattaforme. Using the [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md), they identify a high volume of unused signals, indicating that visitors are searching for a specific electronics brand not currently in stock. L'azienda può sfruttare questa informazione aggiornando la propria azione e visualizzando i visitatori con campagne personalizzate.
+Un rivenditore di elettronica globale ha un volume elevato di traffico dei visitatori, ma i tassi di conversione sono inferiori al previsto, anche se hanno ottimizzato il contenuto per più piattaforme. Tramite il dashboard [](../../features/data-explorer/data-explorer-signals-dashboard.md)dei segnali, viene identificato un volume elevato di segnali inutilizzati, a indicare che i visitatori stanno cercando uno specifico marchio di elettronica che non è attualmente in magazzino. L'azienda può trarre vantaggio da queste informazioni aggiornando le proprie azioni e rivolgendosi a quei visitatori con campagne personalizzate.
 
 ### Esempio 2
 
-Quando un fornitore di servizi di viaggio aggiunge nuove destinazioni al proprio sito Web di prenotazione, desiderano pubblicarle a audience storiche, anche se non hanno caratteristiche create per loro. They can use Signals Search to identify the unused signals related to the new destinations, include them in new traits and [backfill](../../features/data-explorer/data-explorer-trait-backfill.md) them with historical realizations. Quindi, crea nuovi segmenti con le nuove caratteristiche e esegui il targeting immediatamente con campagne dedicate.
+Dopo che un fornitore di servizi di viaggio ha aggiunto nuove destinazioni al suo sito web di prenotazione, vuole pubblicizzarle per i tipi di pubblico storici, anche se non hanno alcuna caratteristica creata per loro. Possono utilizzare Signals Search per identificare i segnali non utilizzati relativi alle nuove destinazioni, includerli in nuove caratteristiche e [ricompilarli](../../features/data-explorer/data-explorer-trait-backfill.md) con realizzazioni storiche. Quindi, crea nuovi segmenti con le nuove caratteristiche e mirali immediatamente con campagne dedicate.
