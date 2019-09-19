@@ -1,27 +1,27 @@
 ---
-description: Metodi API che consentono di utilizzare segnali derivati. Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive basate su una caratteristica già visualizzata.
-seo-description: Metodi API che consentono di utilizzare segnali derivati. Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive basate su una caratteristica già visualizzata.
-seo-title: Metodi API derivati dai segnali
+description: Metodi API che consentono di utilizzare segnali derivati. Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive basate su una caratteristica già vista.
+seo-description: Metodi API che consentono di utilizzare segnali derivati. Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive basate su una caratteristica già vista.
+seo-title: Metodi API dei segnali derivati
 solution: Audience Manager
-title: Metodi API derivati dai segnali
-uuid: 698019 bc-d 7 f 6-41 e 0-a 78 a -1 ab 0 bf 0 e 65 a 0
+title: Metodi API dei segnali derivati
+uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
 translation-type: tm+mt
 source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
 
 ---
 
 
-# Derived Signals API Methods {#derived-signals-api-methods}
+# Metodi API dei segnali derivati {#derived-signals-api-methods}
 
-[!DNL API] che consentono di utilizzare i segnali derivati. Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive basate su una caratteristica già visualizzata.
+[!DNL API] metodi che consentono di utilizzare i segnali derivati. Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive basate su una caratteristica già vista.
 
 <!-- c_separator.xml -->
 
-For more information about derived signals, see [Derived Signals](../../features/derived-signals.md).
+Per ulteriori informazioni sui segnali derivati, vedi [Segnali](../../features/derived-signals.md)derivati.
 
 >[!IMPORTANT]
 >
->The derived signals [!DNL API] methods have been rewritten with [!DNL Swagger] and migrated. Consulta:
+>I [!DNL API] metodi dei segnali derivati sono stati riscritti con [!DNL Swagger] e migrati. Consulta:
 >
 >* [Documenti API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione dei codici API di Audience Manager](../../api/api-swagger-migration.md)
