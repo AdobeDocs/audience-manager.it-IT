@@ -1,79 +1,79 @@
 ---
-description: Audience Manager prende in considerazione la sicurezza e la privacy dei dati. Lavoriamo per proteggere i nostri sistemi e proteggere i tuoi dati di valore.
-seo-description: Audience Manager prende in considerazione la sicurezza e la privacy dei dati. Lavoriamo per proteggere i nostri sistemi e proteggere i tuoi dati di valore.
-seo-title: Sicurezza dei dati
+description: Audience Manager considera la sicurezza e la privacy dei dati molto seriamente. Lavoriamo per proteggere i nostri sistemi e proteggere i dati di valore.
+seo-description: Audience Manager considera la sicurezza e la privacy dei dati molto seriamente. Lavoriamo per proteggere i nostri sistemi e proteggere i dati di valore.
+seo-title: Protezione dei dati
 solution: Audience Manager
-title: Sicurezza dei dati
-uuid: 33 ad 19 ca -4690-4 d 97-853 b -1882 d 7 d 4 ac 01
+title: Protezione dei dati
+uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Data Security {#data-security}
+# Protezione dei dati {#data-security}
 
-Audience Manager prende in considerazione la sicurezza e la privacy dei dati. Lavoriamo per proteggere i nostri sistemi e proteggere i tuoi dati di valore.
+Audience Manager considera la sicurezza e la privacy dei dati molto seriamente. Lavoriamo per proteggere i nostri sistemi e proteggere i dati di valore.
 
-Le pratiche di sicurezza di Audience Manager includono controlli esterni e interni, registrazione attività, formazione e altre procedure progettate per proteggere i nostri sistemi e i dati di valore. Crediamo che un prodotto protetto contribuisca a creare e mantenere l'affidabilità dei clienti.
+Le procedure di sicurezza di Audience Manager includono audit interni ed esterni, registrazione delle attività, formazione e altre procedure progettate per proteggere i nostri sistemi e i vostri dati preziosi. Crediamo che un prodotto sicuro contribuisca a creare e mantenere la fiducia che i clienti pongono in noi.
 
-In Audience Manager si pensa alla sicurezza in tre categorie principali:
+In Audience Manager, pensiamo alla sicurezza in tre categorie principali:
 
-| Tipo di sicurezza | Fornisce supporto per |
+| Tipo di protezione | Fornisce Supporto Per |
 |---|---|
-| **Protezione delle informazioni** | Pratiche di autenticazione a livello di Enterprise, cifratura e archiviazione dati |
-| **Perdita di dati/trasparenza** | Approfondimenti profondi e fruibili sulle attività sul sito che costituiscono o contribuiscono alla fuga di dati |
-| **Miglioramenti ai processi/ai criteri** | Client, lavorare con best practice di settore per la privacy e la sicurezza dei dati |
+| **Sicurezza delle informazioni** | Pratiche di autenticazione, crittografia e archiviazione dei dati a livello aziendale |
+| **Perdita di dati/trasparenza** | Informazioni approfondite e fruibili sulle attività sul sito che costituiscono o contribuiscono alla perdita di dati |
+| **Miglioramenti a livello di processi/criteri** | Client, utilizzando le best practice del settore per la privacy e la sicurezza dei dati |
 
-## Systems, Training, and Access {#systems-training-access}
+## Sistemi, formazione e accesso {#systems-training-access}
 
-Processi che aiutano a mantenere il sistema e i dati protetti.
+Processi che contribuiscono a mantenere il nostro sistema e i tuoi dati al sicuro.
 
-**Convalida della sicurezza esterna:** Audience Manager verifica la sicurezza su base annuale e trimestrale.
+**** Convalida della sicurezza esterna:  Audience Manager verifica la sicurezza su base annuale e trimestrale.
 
-* Annuale: Una volta all'anno, Audience Manager utilizza un test di penetrazione completo condotto da una società indipendente indipendente. Il test è progettato per identificare le vulnerabilità di protezione nell'applicazione. I test includono la scansione per gli script cross-site, le integrazioni SQL, la manipolazione dei parametri dei moduli e altre vulnerabilità a livello di applicazione.
-* Trimestrale: Una volta trimestrale, i team interni verificano le vulnerabilità di sicurezza. Questi test includono scansioni di rete per le porte aperte e le vulnerabilità dei servizi.
+* Annuale: Una volta all'anno, Audience Manager viene sottoposto a un test di penetrazione completo condotto da una società indipendente di terze parti. Il test è progettato per identificare le vulnerabilità di sicurezza nell'applicazione. I test includono la scansione per script intersito, iniezioni SQL, manipolazione dei parametri del modulo e altre vulnerabilità a livello di applicazione.
+* Trimestrale: Una volta ogni trimestre, i team interni controllano le vulnerabilità di sicurezza. Questi test includono scansioni di rete per porte aperte e vulnerabilità del servizio.
 
-**Protezione sistemi:** Per aiutare a mantenere i dati sicuri e privati, Audience Manager:
+**** Sicurezza dei sistemi:  Per mantenere i dati sicuri e privati, Audience Manager:
 
 * Blocca le richieste da indirizzi IP non autorizzati.
-* Protegge i dati dietro firewall, VPNS e con archiviazione virtuale privata.
-* Tiene traccia delle modifiche nei database cliente e di controllo con la registrazione di controllo basata sul trigger. Tali registri tengono traccia di tutte le modifiche a livello di database, inclusi l'ID utente e l'indirizzo IP da cui vengono apportate le modifiche.
+* Protegge i dati dietro firewall, VPN e con l'archiviazione Virtual Private Cloud.
+* Monitora le modifiche nei database delle informazioni cliente e controllo con la registrazione del controllo basata su trigger. Tali registri tengono traccia di tutte le modifiche a livello di database, inclusi l’ID utente e l’indirizzo IP da cui vengono apportate le modifiche.
 
-**Risorse di sicurezza:** Audience Manager dispone di un team di operazioni dedicato per il monitoraggio dei firewall e dei dispositivi di rilevamento intrusione. Solo il personale chiave ha accesso alla nostra tecnologia di sicurezza e ai dati.
+**** Risorse di sicurezza:  Audience Manager dispone di un team dedicato per le operazioni di rete che controlla i firewall e i dispositivi di rilevamento delle intrusioni. Solo il personale chiave ha accesso alla nostra tecnologia e ai dati di sicurezza.
 
-**Formazione sulla sicurezza:** Internamente, il nostro impegno verso la sicurezza si estende agli sviluppatori che lavorano sul nostro prodotto. Adobe offre agli sviluppatori formazione formale su come creare applicazioni e servizi protetti.
+**** Formazione sulla sicurezza:  Internamente, il nostro impegno per la sicurezza si estende agli sviluppatori che lavorano sul nostro prodotto. Adobe offre agli sviluppatori una formazione formale su come creare applicazioni e servizi sicuri.
 
-**Accesso protetto:** Audience Manager richiede una password efficace per accedere al sistema. See [password requirements](../../reference/password-requirements.md).
+**** Accesso sicuro:  Audience Manager richiede password complesse per accedere al sistema. Consultate [Requisiti](../../reference/password-requirements.md)della password.
 
-## Privacy and Personally Identifiable Information (PII) {#pii}
+## Privacy e informazioni personali (PII) {#pii}
 
-Processi che consentono di proteggere le informazioni personali. For additional privacy information, see the [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html).
+Processi che aiutano a mantenere sicure le informazioni personali. Per ulteriori informazioni sulla privacy, vedere l' [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html).
 
-**Dati PII:** Audience Manager impedisce a clienti e partner di dati di inviare informazioni PII nel nostro sistema. Inoltre, l'ID utente univoco (UUID) non contiene o usa dati PII come parte dell'algoritmo di generazione ID.
+**** Dati PII:  Audience Manager impedisce contrattualmente a clienti e partner di dati di inviare informazioni PII al nostro sistema. Inoltre, l’ID utente univoco (UUID) non contiene o utilizza dati PII come parte dell’algoritmo di generazione degli ID.
 
-**Indirizzi IP:** Audience Manager raccoglie indirizzi IP. Gli indirizzi IP vengono utilizzati nei processi di elaborazione dei dati e di aggregazione del registro. Sono inoltre necessari per l'aspetto geografico/della posizione e il targeting. Inoltre, tutti gli indirizzi IP all'interno dei file di registro conservati vengono offuscati entro 90 giorni.
+**** Indirizzi IP:  Audience Manager raccoglie gli indirizzi IP. Gli indirizzi IP vengono utilizzati nei processi di elaborazione dati e di aggregazione log. Sono inoltre necessari per la ricerca geografica/posizione e il targeting. Inoltre, tutti gli indirizzi IP all'interno dei file di registro conservati vengono oscurati entro 90 giorni.
 
-## Data Partitioning {#data-partitioning}
+## Partizionamento dei dati {#data-partitioning}
 
-Processi che consentono di proteggere i dati di proprietà dei singoli client.
+Processi che proteggono i dati di proprietà di singoli client.
 
-**Suddivisione dati caratteristiche:** I tuoi dati (caratteristiche, ID, ecc.) è suddiviso in partizioni client. Questo consente di impedire l'esposizione accidentale delle informazioni tra i diversi client. Ad esempio, i dati delle caratteristiche nei cookie sono suddivisi per cliente e memorizzati in un dominio secondario specifico del cliente. Non può essere letto o utilizzato accidentalmente da un altro client Audience Manager. Furthermore, trait data stored in the [!UICONTROL Profile Cache Servers (PCS)] is also partitioned by customer. Questo impedisce ad altri client di utilizzare accidentalmente i dati in una chiamata evento o in un'altra richiesta.
+**** Partizionamento dati caratteristica:  Dati (caratteristiche, ID ecc.) è partizionato dal client. Questo aiuta a prevenire l'esposizione accidentale di informazioni tra diversi client. Ad esempio, i dati sulle caratteristiche nei cookie vengono suddivisi per cliente e memorizzati in un sottodominio specifico per il cliente. Non può essere letto o utilizzato accidentalmente da un altro client Audience Manager. Inoltre, i dati sulle caratteristiche memorizzati nella cartella [!UICONTROL Profile Cache Servers (PCS)] vengono suddivisi in base al cliente. Ciò impedisce ad altri client di utilizzare accidentalmente i dati in una chiamata evento o in un'altra richiesta.
 
-**Suddivisione dei dati nei report:** Gli ID client fanno parte della chiave identificativa in tutte le tabelle di rapporti e le query di report vengono filtrate tramite ID. In questo modo i dati non vengono visualizzati nei report di un altro cliente Audience Manager.
+**** Partizionamento dei dati nei report:  Gli ID client fanno parte della chiave di identificazione in tutte le tabelle di reporting e le query di report vengono filtrate per ID. Questo aiuta a evitare che i dati vengano visualizzati nei rapporti di un altro cliente Audience Manager.
 
-## Inbound Server-to-Server (S2S) Transfers {#inbound-s2s}
+## Trasferimenti da server a server in ingresso (S2S) {#inbound-s2s}
 
-Adobe Audience Manager supporta due metodi principali per trasferire i file di dati On 2 S sui nostri sistemi:
+Adobe Audience Manager supporta due metodi principali per trasferire i file di dati S2S caricati nei nostri sistemi:
 
-Entrambi i metodi sono progettati con la sicurezza dei dati dei nostri clienti e partner, mentre i dati sono in volo tra i loro sistemi e il nostro sistema.
+Entrambi i metodi sono progettati tenendo presente la sicurezza dei dati dei nostri clienti e partner mentre i dati sono in volo tra i loro sistemi e il nostro sistema.
 
-**SFTP:** Per l'opzione SFTP, la maggior parte dei clienti sceglie di distribuire i file tramite il protocollo Secure FTP (SFTP), che utilizza il protocollo SSH (Secure Shell). Questo metodo assicura che i file siano crittografati durante la verifica tra i sistemi del cliente e il sistema Adobe. Per ciascun cliente, viene creata una posizione di rilascio sui nostri server Sftp, che viene associata a un account utente su tale sistema. Solo gli utenti del sistema interni con credenziali e federate del cliente possono accedere a questa posizione di rilascio. Questa prigione non è mai accessibile ad altri clienti.
+**** SFTP: Per l'opzione SFTP, la maggior parte dei clienti sceglie di inviare i file tramite il protocollo SFTP (Secure FTP), che utilizza il protocollo SSH (Secure Shell). Questo metodo assicura che i file siano crittografati durante il volo tra i sistemi del cliente e il sistema Adobe. Per ogni cliente, creiamo una posizione di rilascio imprigionata sui nostri server SFTP, che è legata a un account utente sul sistema. Solo gli utenti accreditati e privilegiati del sistema interno del cliente possono accedere a questa posizione della casella di rilascio. Questa prigione non è mai accessibile agli altri clienti.
 
-**Amazon Web Services S 3 tramite HTTPS:** Per l'opzione di consegna S 3, è consigliabile che tutti i clienti configurino i client S 3 per utilizzare il metodo di cifratura HTTPS per i trasferimenti di file (questa non è l'impostazione predefinita, per cui deve essere configurata esplicitamente). L'opzione HTTPS è supportata sia dallo strumento della riga di comando s 3 cmd che dalle librerie S 3 disponibili in ogni linguaggio di programmazione principale. Con questa opzione HTTPS attivata, i dati del cliente vengono crittografati durante la flight per i nostri sistemi. Per ciascun cliente, creeremo una directory secondaria S 3 separata, accessibile solo dalle credenziali del cliente e dagli utenti interni del sistema.
+**** Amazon Web Services S3 tramite HTTPS: Per l'opzione di consegna S3, si consiglia a tutti i clienti di configurare i propri client S3 in modo che utilizzino il metodo di crittografia HTTPS per i trasferimenti di file (questa non è l'impostazione predefinita, pertanto deve essere configurata in modo esplicito). L'opzione HTTPS è supportata sia dallo strumento della riga di comando s3cmd che dalle librerie S3 disponibili in ogni linguaggio di programmazione principale. Se questa opzione HTTPS è attivata, i dati del cliente vengono crittografati mentre è in volo verso i nostri sistemi. Per ciascun cliente, creiamo una sottodirectory S3 bucket separata a cui è possibile accedere solo dalle credenziali di quel cliente e da quelle degli utenti del sistema interno.
 
-To add PGP encryption to your data files, see [File PGP Encryption for Inbound Data Types](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
+Per aggiungere la crittografia PGP ai file di dati, vedere Crittografia PGP [file per i tipi](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)di dati in entrata.
 
-## Protecting Data by Escaping {#escaping-data}
+## Protezione dei dati tramite fuga {#escaping-data}
 
-Note that [!DNL Audience Manager] does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. È responsabilità del client inserire i dati in arrivo.
+Tenere presente che [!DNL Audience Manager] non esegue l'escape dei dati in uscita per proteggerli da possibili script tra siti diversi (XSS), ecc. È responsabilità del cliente uscire dai dati in arrivo.
