@@ -1,37 +1,37 @@
 ---
-description: Evita di usare regole di unione profili con Device Graph per segmenti che hanno scarsa probabilità di disporre di una popolazione di segmenti in tempo reale.
-seo-description: Evita di usare regole di unione profili con Device Graph per segmenti che hanno scarsa probabilità di disporre di una popolazione di segmenti in tempo reale.
-seo-title: Considerazioni importanti sulle regole di unione profili con grafici dispositivo
-title: Considerazioni importanti sulle regole di unione profili con grafici dispositivo
-uuid: 93 cd 8861-210 d -4 c 52-9 cb 7-6 f 2 dd 7 dc 018 a
+description: Evitate di utilizzare le regole di unione dei profili con Device Graph per segmenti con popolazione di segmenti limitata o nulla in tempo reale.
+seo-description: Evitate di utilizzare le regole di unione dei profili con Device Graph per segmenti con popolazione di segmenti limitata o nulla in tempo reale.
+seo-title: Considerazioni importanti per le regole di unione dei profili con i grafici del dispositivo
+title: Considerazioni importanti per le regole di unione dei profili con i grafici del dispositivo
+uuid: 93cd8861-210d-4c52-9cb7-6f2dd7dc018a
 translation-type: tm+mt
 source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 ---
 
 
-# Important Considerations for Profile Merge Rules with Device Graphs {#important-considerations-for-profile-merge-rules-with-device-graphs}
+# Considerazioni importanti per le regole di unione dei profili con i grafici del dispositivo {#important-considerations-for-profile-merge-rules-with-device-graphs}
 
-Avoid using [!UICONTROL Profile Merge Rules] with a [!UICONTROL Device Graph] for segments which have little to no real-time segment population.
+Evitare di utilizzare [!UICONTROL Profile Merge Rules] con un [!UICONTROL Device Graph] per segmenti con popolazione di segmenti in tempo reale ridotta o inesistente.
 
 >[!IMPORTANT]
 >
->If the [!UICONTROL Profile Merge Rule] is configured incorrectly, the segment population exported to batch destinations may be significantly lower than expected.
+>Se la configurazione non [!UICONTROL Profile Merge Rule] è corretta, la popolazione del segmento esportata nelle destinazioni batch potrebbe essere significativamente inferiore al previsto.
 
-Segments using a [Profile Merge Rule with a Device Graph](../../features/profile-merge-rules/merge-rule-targeting-options.md#device-graph-options) are only evaluated against devices seen in real-time on [Audience Manager’s Edge Servers](../../reference/system-components/components-edge.md) after the segment has been created.
+I segmenti che utilizzano una regola di unione dei [profili con Device Graph](../../features/profile-merge-rules/merge-rule-targeting-options.md#device-graph-options) vengono valutati solo rispetto ai dispositivi visualizzati in tempo reale sui server [periferici di](../../reference/system-components/components-edge.md) Audience Manager dopo la creazione del segmento.
 
-Remember, a [!UICONTROL Profile Merge Rule] with a [!UICONTROL Device Graph] has one of the following device options selected, as shown below.
+Ricordate, [!UICONTROL Profile Merge Rule] con una [!UICONTROL Device Graph] delle seguenti opzioni di dispositivo selezionate, come mostrato di seguito.
 
 ![](assets/pmr-considerations-1.png)
 
-Devices that qualify for a segment in real-time are measured by the [segment’s real-time population](../../features/segments/segment-builder-data.md#segment-populations).
+I dispositivi idonei per un segmento in tempo reale sono misurati dalla popolazione [in tempo reale del](../../features/segments/segment-builder-data.md#segment-populations)segmento.
 
 ![](assets/pmr-considerations-2.png)
 
-Una popolazione segmento in tempo reale bassa significa che pochissimi dei dispositivi idonei per il segmento vengono visualizzati in tempo reale. For best performance, segments with little to no real-time population should use a [!UICONTROL Profile Merge Rule] set to evaluate the *[!UICONTROL Current Device]*, like in the image below.
+Una popolazione di segmenti in tempo reale ridotta indica che pochissimi dispositivi idonei per il segmento vengono visti in tempo reale. Per ottenere prestazioni ottimali, i segmenti con popolazione in tempo reale limitata o nulla devono utilizzare un [!UICONTROL Profile Merge Rule] set per valutare i risultati, come nell' *[!UICONTROL Current Device]* immagine seguente.
 
 ![](assets/pmr-considerations-3.png)
 
-Setting the [!UICONTROL Profile Merge Rule] to evaluate the *[!UICONTROL Current Device]* ensures that all devices (not just those seen in real-time) are evaluated for the segment. Tutti i dispositivi idonei per il segmento sono definiti dalla popolazione del segmento totale, come mostrato di seguito.
+L’impostazione [!UICONTROL Profile Merge Rule] per valutare l’ *[!UICONTROL Current Device]* garantisce che tutti i dispositivi (non solo quelli visti in tempo reale) vengano valutati per il segmento. Tutti i dispositivi idonei per il segmento sono definiti dalla popolazione totale del segmento, come mostrato di seguito.
 
 ![](assets/pmr-considerations-4.png)
