@@ -1,25 +1,25 @@
 ---
-description: Metodi REST API per gestire le autorizzazioni per oggetti e gruppi.
-seo-description: Metodi REST API per gestire le autorizzazioni per oggetti e gruppi.
-seo-title: Metodi API per gestione autorizzazioni
+description: Rest Metodi API per gestire le autorizzazioni per oggetti e gruppi.
+seo-description: Rest Metodi API per gestire le autorizzazioni per oggetti e gruppi.
+seo-title: Metodi API per la gestione delle autorizzazioni
 solution: Audience Manager
-title: Metodi API per gestione autorizzazioni
-uuid: 111 d 0 f 92-d 92 c -4 d 4 b-b 0 d 6-10 dd 3 fa 466 ad
+title: Metodi API per la gestione delle autorizzazioni
+uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 translation-type: tm+mt
 source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
 
 ---
 
 
-# Permissions Management API Methods {#permissions-management-api-methods}
+# Metodi API per la gestione delle autorizzazioni {#permissions-management-api-methods}
 
-Rest [!DNL API] methods to manage permissions for objects and groups.
+Metodi [!DNL API] di riposo per gestire le autorizzazioni per oggetti e gruppi.
 
 <!-- c_rest_api_perm_man.xml -->
 
-## List Available Object Types {#list-object-types}
+## Elenca i tipi di oggetto disponibili {#list-object-types}
 
-`GET` Un metodo per elencare i tipi di oggetti disponibili sui quali è possibile impostare i controlli di accesso basati sul ruolo.
+Un `GET` metodo per elencare i tipi di oggetti disponibili per i quali è possibile impostare controlli di accesso basati sui ruoli.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -33,9 +33,9 @@ Rest [!DNL API] methods to manage permissions for objects and groups.
 [ "SEGMENT", "TRAIT", "DESTINATION", "DERIVED_SIGNALS", "TAGS" ]
 ```
 
-## List Available Permissions for an Object Type {#list-permissions-object-type}
+## Elenca le autorizzazioni disponibili per un tipo di oggetto {#list-permissions-object-type}
 
-`GET` Un metodo per elencare le autorizzazioni disponibili per un tipo di oggetto.
+Un `GET` metodo per elencare le autorizzazioni disponibili per un tipo di oggetto.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
@@ -54,4 +54,4 @@ Rest [!DNL API] methods to manage permissions for objects and groups.
 
 >[!NOTE]
 >
->I tipi di oggetto TAGS e DERIVED SIGNAL non dispongono di autorizzazioni regolari. I controlli di questi tipi di oggetto vengono modificati da Tutte o Nessuna autorizzazione Wild card.
+>I tipi di oggetto TAGS e DERIVED SIGNALS non dispongono di autorizzazioni regolari da utilizzare. I controlli su questi tipi di oggetto vengono modificati solo dalle Autorizzazioni wild card All o Nothing.
