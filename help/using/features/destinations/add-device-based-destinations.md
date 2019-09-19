@@ -41,7 +41,7 @@ Dopo aver configurato l'integrazione della piattaforma di destinazione, potete c
 
 >[!NOTE]
 >
->Non è possibile modificare il nome di una destinazione esistente basata su dispositivo. Assicuratevi di fornire un nome che vi aiuterà a identificare correttamente la destinazione.
+>Non è possibile modificare il nome di una destinazione esistente basata su dispositivo. Assicuratevi di fornire un nome che vi consenta di identificare correttamente la destinazione.
 
 1. Accedi al tuo account Audience Manager, vai a **[!DNL Audience Data > Destinations]** e fai clic su **[!DNL Create Destination]**.
 1. Nella **[!DNL Basic Information]** sezione immettere un **[!DNL Name]** e **[!DNL Description]** per la nuova destinazione e utilizzare le impostazioni nell'elenco seguente: ![setup](assets/dbd-new-basic.png)
