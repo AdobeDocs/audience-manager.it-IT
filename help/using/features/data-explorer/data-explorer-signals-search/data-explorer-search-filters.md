@@ -1,21 +1,21 @@
 ---
-description: Lasciate vuoti i campi chiave-valore per cercare un intervallo più ampio di segnali e utilizzare i filtri disponibili per limitare i risultati.
-seo-description: Lasciate vuoti i campi chiave-valore per cercare un intervallo più ampio di segnali e utilizzare i filtri disponibili per limitare i risultati.
-seo-title: Segnali di ricerca per filtri
-title: Segnali di ricerca per filtri
-uuid: 99 b 00 d 48-6415-4 cb 1-848 a -5401 b 34 c 43 a 6
+description: Lasciate vuoti i campi chiave-valore per cercare una gamma più ampia di segnali e utilizzate i filtri disponibili per restringere i risultati.
+seo-description: Lasciate vuoti i campi chiave-valore per cercare una gamma più ampia di segnali e utilizzate i filtri disponibili per restringere i risultati.
+seo-title: Ricerca segnali per filtri
+title: Ricerca segnali per filtri
+uuid: 99b00d48-6415-4cb1-848a-5401b34c43a6
 translation-type: tm+mt
 source-git-commit: 212ec8641068a9ed4c620987bb18586ee8c7d519
 
 ---
 
 
-# Search Signals by Filters {#search-signals-by-filters}
+# Ricerca segnali per filtri {#search-signals-by-filters}
 
-Lasciate vuoti i campi chiave-valore per cercare un intervallo più ampio di segnali e utilizzare i filtri disponibili per limitare i risultati.
+Lasciate vuoti i campi chiave-valore per cercare una gamma più ampia di segnali e utilizzate i filtri disponibili per restringere i risultati.
 
-Utilizzate questo metodo quando non si dispone di una coppia chiave-valore specifica, ma si desidera visualizzare l'evoluzione di più segnali in un determinato periodo di tempo.
+Utilizzate questo metodo quando non avete in mente una coppia chiave-valore specifica, ma desiderate visualizzare l'evoluzione di più segnali in un periodo di tempo specifico.
 
-Nell'esempio di seguito, i filtri sono configurati per mostrare tutti i segnali inutilizzati degli ultimi 30 giorni con un conteggio minimo pari a 1000.
+Nell'esempio seguente, i filtri sono configurati per mostrare tutti i segnali inutilizzati degli ultimi 30 giorni con un conteggio minimo di 1000.
 
 ![](assets/signals-search-filters.png)
