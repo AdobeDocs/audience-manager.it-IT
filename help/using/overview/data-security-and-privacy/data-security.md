@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Protezione dei dati
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 91444ad943fcd020c83e522922d67ef400bf8824
 
 ---
 
@@ -21,22 +21,22 @@ In Audience Manager, pensiamo alla sicurezza in tre categorie principali:
 
 | Tipo di protezione | Fornisce Supporto Per |
 |---|---|
-| **Sicurezza delle informazioni** | Pratiche di autenticazione, crittografia e archiviazione dei dati a livello aziendale |
-| **Perdita di dati/trasparenza** | Informazioni approfondite e fruibili sulle attività sul sito che costituiscono o contribuiscono alla perdita di dati |
-| **Miglioramenti a livello di processi/criteri** | Client, utilizzando le best practice del settore per la privacy e la sicurezza dei dati |
+| **Information security** | Enterprise-level authentication, encryption, and data storage practices |
+| **Data leakage/transparency** | Deep and actionable insight into on-site activities that constitute or contribute to data leakage |
+| **Process/policy enhancements** | Clients, by working with industry best practices for privacy and data security |
 
-## Sistemi, formazione e accesso {#systems-training-access}
+## Systems, Training, and Access {#systems-training-access}
 
-Processi che contribuiscono a mantenere il nostro sistema e i tuoi dati al sicuro.
+Processes that help keep our system and your data secure.
 
 **** Convalida della sicurezza esterna:  Audience Manager verifica la sicurezza su base annuale e trimestrale.
 
-* Annuale: Una volta all'anno, Audience Manager viene sottoposto a un test di penetrazione completo condotto da una società indipendente di terze parti. Il test è progettato per identificare le vulnerabilità di sicurezza nell'applicazione. I test includono la scansione per script intersito, iniezioni SQL, manipolazione dei parametri del modulo e altre vulnerabilità a livello di applicazione.
-* Trimestrale: Una volta ogni trimestre, i team interni controllano le vulnerabilità di sicurezza. Questi test includono scansioni di rete per porte aperte e vulnerabilità del servizio.
+* Yearly: Once a year, Audience Manager undergoes a full penetration test conducted by an independent third-party company. Il test è progettato per identificare le vulnerabilità di sicurezza nell'applicazione. I test includono la scansione per script intersito, iniezioni SQL, manipolazione dei parametri del modulo e altre vulnerabilità a livello di applicazione.
+* Quarterly: Once each quarter, internal teams check for security vulnerabilities. Questi test includono scansioni di rete per porte aperte e vulnerabilità del servizio.
 
-**** Sicurezza dei sistemi:  Per mantenere i dati sicuri e privati, Audience Manager:
+**** Systems Security:  To help keep data safe and private, Audience Manager:
 
-* Blocca le richieste da indirizzi IP non autorizzati.
+* Blocks requests from unauthorized IP addresses.
 * Protegge i dati dietro firewall, VPN e con l'archiviazione Virtual Private Cloud.
 * Monitora le modifiche nei database delle informazioni cliente e controllo con la registrazione del controllo basata su trigger. Tali registri tengono traccia di tutte le modifiche a livello di database, inclusi l’ID utente e l’indirizzo IP da cui vengono apportate le modifiche.
 
@@ -60,20 +60,32 @@ Processi che proteggono i dati di proprietà di singoli client.
 
 **** Partizionamento dati caratteristica:  Dati (caratteristiche, ID ecc.) è partizionato dal client. Questo aiuta a prevenire l'esposizione accidentale di informazioni tra diversi client. Ad esempio, i dati sulle caratteristiche nei cookie vengono suddivisi per cliente e memorizzati in un sottodominio specifico per il cliente. Non può essere letto o utilizzato accidentalmente da un altro client Audience Manager. Inoltre, i dati sulle caratteristiche memorizzati nella cartella [!UICONTROL Profile Cache Servers (PCS)] vengono suddivisi in base al cliente. Ciò impedisce ad altri client di utilizzare accidentalmente i dati in una chiamata evento o in un'altra richiesta.
 
-**** Partizionamento dei dati nei report:  Gli ID client fanno parte della chiave di identificazione in tutte le tabelle di reporting e le query di report vengono filtrate per ID. Questo aiuta a evitare che i dati vengano visualizzati nei rapporti di un altro cliente Audience Manager.
+**** Partizionamento dei dati nei report:  Gli ID client fanno parte della chiave di identificazione in tutte le tabelle di reporting e le query di report vengono filtrate per ID. This helps prevent your data from appearing in the reports of another Audience Manager customer.
 
 ## Trasferimenti da server a server in ingresso (S2S) {#inbound-s2s}
 
 Adobe Audience Manager supporta due metodi principali per trasferire i file di dati S2S caricati nei nostri sistemi:
 
-Entrambi i metodi sono progettati tenendo presente la sicurezza dei dati dei nostri clienti e partner mentre i dati sono in volo tra i loro sistemi e il nostro sistema.
+Both methods are designed with the security of our customer and partner data in mind while data is in flight between their systems and our system.
 
-**** SFTP: Per l'opzione SFTP, la maggior parte dei clienti sceglie di inviare i file tramite il protocollo SFTP (Secure FTP), che utilizza il protocollo SSH (Secure Shell). Questo metodo assicura che i file siano crittografati durante il volo tra i sistemi del cliente e il sistema Adobe. Per ogni cliente, creiamo una posizione di rilascio imprigionata sui nostri server SFTP, che è legata a un account utente sul sistema. Solo gli utenti accreditati e privilegiati del sistema interno del cliente possono accedere a questa posizione della casella di rilascio. Questa prigione non è mai accessibile agli altri clienti.
+**** SFTP: Per l'opzione SFTP, la maggior parte dei clienti sceglie di inviare i file tramite il protocollo SFTP (Secure FTP), che utilizza il protocollo SSH (Secure Shell). This method ensures that files are encrypted while in flight between the customer's systems and Adobe's system. For each customer, we create a jailed drop-box location on our SFTP servers, which is tied to a user account on that system. Solo gli utenti accreditati e privilegiati del sistema interno del cliente possono accedere a questa posizione della casella di rilascio. This jail is never accessible to other customers.
 
-**** Amazon Web Services S3 tramite HTTPS: Per l'opzione di consegna S3, si consiglia a tutti i clienti di configurare i propri client S3 in modo che utilizzino il metodo di crittografia HTTPS per i trasferimenti di file (questa non è l'impostazione predefinita, pertanto deve essere configurata in modo esplicito). L'opzione HTTPS è supportata sia dallo strumento della riga di comando s3cmd che dalle librerie S3 disponibili in ogni linguaggio di programmazione principale. Se questa opzione HTTPS è attivata, i dati del cliente vengono crittografati mentre è in volo verso i nostri sistemi. Per ciascun cliente, creiamo una sottodirectory S3 bucket separata a cui è possibile accedere solo dalle credenziali di quel cliente e da quelle degli utenti del sistema interno.
+**** Amazon Web Services S3 via HTTPS: For the S3 delivery option, we recommend that all customers configure their S3 clients to use the HTTPS encryption method for file transfers (this is not the default, so it must be explicitly configured). L'opzione HTTPS è supportata sia dallo strumento della riga di comando s3cmd che dalle librerie S3 disponibili in ogni linguaggio di programmazione principale. Se questa opzione HTTPS è attivata, i dati del cliente vengono crittografati mentre è in volo verso i nostri sistemi. Per ciascun cliente, creiamo una sottodirectory S3 bucket separata a cui è possibile accedere solo dalle credenziali di quel cliente e da quelle degli utenti del sistema interno.
 
 Per aggiungere la crittografia PGP ai file di dati, vedere Crittografia PGP [file per i tipi](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)di dati in entrata.
 
 ## Protezione dei dati tramite fuga {#escaping-data}
 
 Tenere presente che [!DNL Audience Manager] non esegue l'escape dei dati in uscita per proteggerli da possibili script tra siti diversi (XSS), ecc. È responsabilità del cliente uscire dai dati in arrivo.
+
+## HTTP Strict-Transport-Security (#hste)
+
+[!DNL HTTP Strict-Transport-Security (HSTS)] è un meccanismo di politica di sicurezza web che aiuta a proteggere contro il dirottamento dei cookie e gli attacchi di downgrade del protocollo non permettendo [!DNL HTTP] il traffico e l'aggiornamento trasparente di tutto [!DNL HTTP] il traffico a [!DNL HTTPS].
+
+Questo criterio migliora la sicurezza dei dati tra client e server Adobe Edge.
+
+### Esempio {#hsts-example}
+
+Quando si tenta di accedere `http://bank.demdex.com`, [!DNL HSTS] aggiorna automaticamente la richiesta a `https://bank.demdex.com`, nel caso in cui il browser non richieda automaticamente il [!DNL HTTPS] dominio.
+
+Per ulteriori informazioni su HSTS, consulta [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) .
