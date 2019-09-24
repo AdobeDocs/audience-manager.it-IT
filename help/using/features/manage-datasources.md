@@ -1,13 +1,13 @@
 ---
 description: Per creare una nuova origine dati, accedi a Audience Data > Origini dati > Aggiungi nuovo e completa i passaggi per ciascuna sezione descritta qui. Per creare un'origine dati è necessario disporre delle autorizzazioni di amministratore.
-keywords: cdf;feed di dati personalizzato
+keywords: origini dati;gestire l'origine dati;origine dati di Gestione dell'audience
 seo-description: Per creare una nuova origine dati, accedi a Audience Data > Origini dati > Aggiungi nuovo e completa i passaggi per ciascuna sezione descritta qui. Per creare un'origine dati è necessario disporre delle autorizzazioni di amministratore.
 seo-title: Creazione di un'origine dati
 solution: Audience Manager
-title: Creazione di un'origine dati
+title: Gestisci origini dati
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e1abb305c66a4adf6a42a7873144222491692f9
 
 ---
 
@@ -32,15 +32,15 @@ Per completare la [!UICONTROL Data Source Details] sezione:
 1. *(Facoltativo)* Descrivere l'origine dati. Una breve descrizione consente di definire il ruolo o lo scopo dell'origine dati.
 1. Fornite un codice di integrazione. In genere, i codici di integrazione sono facoltativi. Sono necessari per:
 
-   * [Crea un'origine](../features/profile-merge-rules/merge-rules-start.md#create-data-source)dati multi-dispositivo.
+   * [Create a cross-device data source](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
    * Usa il servizio [](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud ID.
-   * Utilizzare le regole [di unione dei](../features/profile-merge-rules/merge-rules-start.md)profili.
+   * Work with [Profile Merge Rules](../features/profile-merge-rules/merge-rules-start.md).
 
-1. Scegliete un **[!UICONTROL ID Type]**. Le opzioni del tipo di ID includono:
+1. Choose an . **[!UICONTROL ID Type]** ID Type options include:
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
-   * **[!UICONTROL Cross-device]** (Obbligatorio per creare un [!UICONTROL Profile Merge Rule]). Nota: per alcuni clienti questa selezione espone le **[!UICONTROL ID Definition]** opzioni.
+   * **[!UICONTROL Cross-device]** (Required to create a [!UICONTROL Profile Merge Rule]). Nota: per alcuni clienti questa selezione espone le **[!UICONTROL ID Definition]** opzioni.
 
 1. Scegliete un’ **[!UICONTROL ID Definition]** opzione. Le opzioni includono:
 
@@ -60,24 +60,24 @@ Queste impostazioni determinano il modo in cui un'origine dati viene identificat
 
 >[!MORE_LIKE_this]
 >
->* [Impostazioni origine dati e opzioni menu](../features/datasources-list-and-settings.md#settings-menu-options)
+>* [Data Source Settings and Menu Options](../features/datasources-list-and-settings.md#settings-menu-options)
 
 
-## Eliminare un'origine dati {#delete-data-source}
+## Delete a Data Source {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Eliminare un'origine dati non più necessaria.
+Delete a data source that you no longer need.
 
 >[!NOTE]
 >
->Prendete nota delle seguenti limitazioni:
+>Please note the following restrictions:
 >
->* Non puoi eliminare un [Pubblico attivo o una caratteristica](../features/traits/client-activity-synced-audience-traits.md)sincronizzata origine dati.
->* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di [!DNL Analytics] rapporti. Utilizzate il servizio [](https://marketing.adobe.com/resources/help/en_US/mcloud/) core per annullare la mappatura di queste origini dati.
+>* You cannot delete an Active Audience or Data Source Synced Trait.[](../features/traits/client-activity-synced-audience-traits.md)
+>* For customers using Adobe Analytics: Audience Manager does not allow you to delete data sources created automatically from your  report suites. [!DNL Analytics] Use the Core Service to unmap these data sources.[](https://marketing.adobe.com/resources/help/en_US/mcloud/)
 
 
 1. Click **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**.
 1. Selezionare la casella di controllo accanto a una o più origini dati.
-È possibile utilizzare la [!UICONTROL Search] casella per individuare le origini dati desiderate se si dispone di un elenco lungo.
-1. Fare clic ![](assets/icon_trash.png), quindi confermare l'eliminazione.
+You can use the  box to locate the desired data sources if you have a long list.[!UICONTROL Search]
+1. Click  , then confirm the deletion.![](assets/icon_trash.png)
