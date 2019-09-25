@@ -1,20 +1,21 @@
 ---
 description: Audience Analytics consente di inviare segmenti Audience Manager ad Analytics. Per utilizzare questa funzione è necessario creare una destinazione Analytics e mappare i segmenti su tale destinazione in Audience Manager.
 seo-description: Audience Analytics consente di inviare segmenti Audience Manager ad Analytics. Per utilizzare questa funzione è necessario creare una destinazione Analytics e mappare i segmenti su tale destinazione in Audience Manager.
-seo-title: ' Configurare una destinazione Analytics'
+seo-title: Configurare una destinazione Analytics
 solution: Audience Manager
 title: Configurare una destinazione Analytics
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: fa39d070be9ec9f07e9da31de3efd151dd2c6cf1
 
 ---
 
 
-# Configurare una destinazione Analytics
+# Configure an Analytics Destination
 
 ## Requisiti {#requirements}
 
-Consulta [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/).
+Per configurare una destinazione Analytics, l'utente Audience Manager deve disporre delle autorizzazioni di amministratore. Consultate [Creare utenti](/help/using/features/administration/administration-overview.md#create-users) nella guida all'amministrazione. Tenere presente che disporre dell'autorizzazione `CREATE_DESTINATIONS` per il [](/help/using/features/administration/administration-overview.md#wild-card-permissions) carattere jolly non è sufficiente per creare le destinazioni Analytics.
+Per ulteriori requisiti, consulta Prerequisiti in [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/).
 
 ## Destinazioni Analytics predefinite e nuove destinazioni Analytics
 
@@ -28,32 +29,32 @@ Consulta [Audience Analytics](https://marketing.adobe.com/resources/help/en_US/a
 Questa sezione contiene campi e opzioni che avviano il processo di creazione della destinazione di Analytics. Per completare questa sezione:
 
 1. Fate clic su Informazioni **di** base per esporre i controlli.
-1. Denominate la destinazione. Evitare abbreviazioni e caratteri speciali.
-1. *(Facoltativo)* Descrivere la destinazione. Una descrizione sintetica è un modo efficace per definire o fornire ulteriori informazioni su una destinazione.
-1. *(Facoltativo)* Nell'elenco **Piattaforma** , lasciare il valore predefinito impostato su **Tutto**. Attualmente, queste opzioni non fanno nulla. Sono progettati per supportare funzioni che possono essere aggiunte in un secondo momento.
-1. Nell'elenco **Categoria** , seleziona **Adobe Experience Cloud**.
-1. Nell'elenco **Tipo** , seleziona **Adobe Analytics**.
-1. Fare clic su **Salva** per accedere alle impostazioni di configurazione o su Etichette **esportazione** dati per applicare i controlli di esportazione alla destinazione.
+2. Denominate la destinazione. Evitare abbreviazioni e caratteri speciali.
+3. *(Facoltativo)* Descrivere la destinazione. Una descrizione sintetica è un modo efficace per definire o fornire ulteriori informazioni su una destinazione.
+4. *(Facoltativo)* Nell'elenco **Piattaforma** , lasciare il valore predefinito impostato su **Tutto**. Attualmente, queste opzioni non fanno nulla. Sono progettati per supportare funzioni che possono essere aggiunte in un secondo momento.
+5. In the **Category** list, select **Adobe Experience Cloud**.
+6. Nell'elenco **Tipo** , seleziona **Adobe Analytics**.
+7. Fare clic su **Salva** per accedere alle impostazioni di configurazione o su Etichette **esportazione** dati per applicare i controlli di esportazione alla destinazione.
 
 >[!NOTE]
 >
->Per una destinazione Analytics, la casella di controllo Mappatura **destinazione di riempimento** automatico e l'opzione ID **** segmento sono selezionate per impostazione predefinita. Non potete modificare queste impostazioni.
+>For an Analytics destination, the **Auto-fill Destination Mappping** check box and **Segment ID** option are selected by default. You cannot change these settings.
 
 ![informazioni di base](assets/basicinformation.png)
 
 ## Passaggio 2: Configurare i controlli di esportazione dei dati
 
-Questa sezione contiene opzioni che applicano i controlli [di esportazione dei](/help/using/features/data-export-controls.md) dati a una destinazione Analytics. Salta questo passaggio se non utilizzi i controlli di esportazione dei dati. Per completare questa sezione:
+This section contains options that apply Data Export Controls to an Analytics destination. [](/help/using/features/data-export-controls.md) Skip this step if you do not use data export controls. To complete this section:
 
-1. Fate clic su Controlli **esportazione** dati per esporre i controlli.
-1. Selezionare un'etichetta che corrisponda al controllo di esportazione dei dati applicato alla destinazione (vedere [Aggiungi etichette di esportazione dati a una destinazione](/help/using/features/destinations/add-data-export-labels.md) ). Per le destinazioni Analytics, la casella di controllo PII è selezionata per impostazione predefinita.
+1. Click Data Export Controls to expose the controls.****
+1. Select a label that corresponds to the data export control applied to the destination (see Add Data Export Labels to a Destination ). [](/help/using/features/destinations/add-data-export-labels.md) For Analytics destinations, the PII check box is selected by default.
 1. Fai clic su **Salva**.
 
-![controlli di esportazione](assets/exportControls.png)
+![exportcontrols](assets/exportControls.png)
 
-## Passaggio 3: Mappa suite di rapporti
+## Step 3: Map Report Suites
 
-Nella sezione Configurazione sono elencate le suite di rapporti di Analytics che sono state abilitate per l'inoltro lato server. Se hai più destinazioni Analytics, le suite di rapporti assegnate a tali destinazioni si escluderanno a vicenda e saranno applicate da Audience Manager. Per completare questa sezione:
+The Configuration section lists your Analytics Report Suites that have been enabled for server-side forwarding. If you have multiple Analytics destinations, the report suites assigned to these destinations will be mutually exclusive and enforced by Audience Manager. To complete this section:
 
 1. Fate clic su **Configurazione** per esporre i controlli.
 1. Seleziona una (o più) suite di rapporti a cui vuoi inviare i segmenti.
@@ -61,7 +62,7 @@ Nella sezione Configurazione sono elencate le suite di rapporti di Analytics che
 
 ![reportsuites](assets/reportSuites.png)
 
-## Passaggio 4: Mappature segmenti
+## Step 4: Segment Mappings
 
 Questa sezione offre opzioni che consentono di mappare i segmenti automaticamente o manualmente.
 
