@@ -5,7 +5,7 @@ seo-title: Casi di utilizzo e panoramica delle destinazioni basate sulle persone
 solution: Audience Manager
 title: Casi di utilizzo e panoramica
 translation-type: tm+mt
-source-git-commit: 62c27a3990c2c39d069c7a6e4ef32e8e8b3f1998
+source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
 
 ---
 
@@ -16,7 +16,7 @@ Da utilizzare [!DNL People-Based Destinations] per inviare segmenti di audience 
 
 ## Panoramica {#overview}
 
-[!DNL People-Based Destinations] consente di applicare la segmentazione ai dati online e offline per creare segmenti di pubblico basati su identificatori con hash, come indirizzi e-mail o numeri di telefono. Quindi, puoi inviare questi segmenti a "giardini murati" come [!DNL Facebook], ad esempio, dove puoi rivolgerti al pubblico indipendentemente dalle loro interazioni online o dallo stato di autenticazione. [!DNL People-Based Destinations] può essere utile:
+[!DNL People-Based Destinations] consente di applicare la segmentazione ai dati online e offline per creare segmenti di pubblico basati su identificatori [](people-based-destinations-prerequisites.md#hashing-requirements)con hash, ad esempio indirizzi e-mail o numeri di telefono. Quindi, puoi inviare questi segmenti a "giardini murati" come [!DNL Facebook], ad esempio, dove puoi rivolgerti al pubblico sulle piattaforme social. [!DNL People-Based Destinations] può essere utile:
 
 * Esegue il targeting del pubblico offline e online in piattaforme come [!DNL Facebook], ad esempio, basate su indirizzi e-mail con hash;
 * Integrare le funzionalità di targeting dei dispositivi e dei cookie esistenti di Audience Manager;
@@ -25,7 +25,7 @@ Da utilizzare [!DNL People-Based Destinations] per inviare segmenti di audience 
 * Esegue il targeting delle audience in ambienti senza cookie;
 * Esegue il targeting delle audience deduplicando gli indirizzi e-mail associati agli ID cliente.
 
-Potete utilizzare [!DNL People-Based Destinations] per segmentare e mirare clienti di alto valore che potrebbero non aver mai visitato il vostro sito Web o per interrompere il targeting di coloro che hanno già convertito offline. Inoltre, puoi sfruttare [!DNL Profile Merge Rules] per combinare dati di prime parti offline con dati di prime parti online, inclusi i dati dei clienti provenienti da altre soluzioni Adobe Experience Cloud, per ottimizzare le attività pubblicitarie sui social media.
+Potete utilizzare [!DNL People-Based Destinations] per segmentare e mirare i clienti di alto valore che non hanno visitato il vostro sito Web o per interrompere il targeting per coloro che hanno già convertito offline. Inoltre, puoi sfruttare [!DNL Profile Merge Rules] per combinare i tuoi dati di prime parti offline con i dati di prime parti online, inclusi i dati dei clienti provenienti da altre soluzioni Adobe Experience Cloud, per ottimizzare le attività pubblicitarie sui social media.
 
 ![pbd-overview](assets/pbd-overview.png)
 
@@ -45,7 +45,7 @@ Il modo più "tradizionale" di targeting dei tipi di pubblico tra canali basati 
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-Mediante [!DNL People-Based Destinations]Audience Manager puoi centralizzare tutti i dati dei clienti, creare segmenti di pubblico e attivarli tra più canali basati su persone. Puoi farlo direttamente dall’interfaccia utente di Audience Manager, evitando il lavoro aggiuntivo di caricamento manuale dei dati su ciascuna piattaforma, risparmiando tempo prezioso nel processo.
+Mediante [!DNL People-Based Destinations]Audience Manager puoi centralizzare i dati dei clienti, creare segmenti di pubblico e attivarli tra più canali basati su persone. Puoi farlo direttamente dall’interfaccia utente di Audience Manager, evitando il lavoro aggiuntivo di caricamento manuale dei dati su ciascuna piattaforma, risparmiando tempo prezioso nel processo.
 
 **Crea e attiva segmenti di pubblico da profili puramente offline.**
 
@@ -53,7 +53,7 @@ Mediante [!DNL People-Based Destinations]Audience Manager puoi centralizzare tut
 
 **Sfruttate la governance dei dati e i controlli sulla privacy di Audience Manager per gestire in modo sicuro i dati dei clienti.**
 
-[!DNL People-Based Destinations] utilizzate solo identificatori con hash, in modo che i dati del cliente siano sempre protetti, dal momento in cui lo accedete ad Audience Manager fino al momento in cui raggiunge la destinazione. Questo elimina i rischi per la privacy associati al caricamento manuale di dati cliente sensibili in ciascuna piattaforma di attivazione.
+[!DNL People-Based Destinations] richiede che vengano utilizzati solo identificatori con hash irreversibile. Questo riduce i rischi associati al caricamento manuale dei dati dei clienti in ciascuna piattaforma di destinazione.
 
 ## Casi d'uso {#use-cases}
 
@@ -61,12 +61,12 @@ Per aiutarti a capire meglio come e quando dovresti usare [!DNL People-Based Des
 
 ### Use Case #1 {#use-case-1}
 
-Un rivenditore online vuole raggiungere i clienti esistenti tramite piattaforme social e mostrare loro offerte personalizzate in base ai loro ordini precedenti. Con [!DNL People-Based Destinations], possono assimilare indirizzi e-mail con hash da soli [!DNL CRM] ad Audience Manager, creare segmenti dai dati offline e inviare questi segmenti alle piattaforme social su cui desiderano pubblicizzare, ottimizzando le spese pubblicitarie.
+Un rivenditore online vuole raggiungere i clienti esistenti tramite piattaforme social e mostrare loro offerte personalizzate in base ai loro ordini precedenti. Con [!DNL People-Based Destinations]questo, il rivenditore online può trasferire indirizzi e-mail con hash da [!DNL CRM] propri ad Audience Manager, creare segmenti dai propri dati offline e inviare questi segmenti alle piattaforme social su cui desiderano pubblicizzare, ottimizzando le spese pubblicitarie.
 
 ### Use Case #2 {#use-case-2}
 
-Una compagnia aerea ha diversi livelli di clienti (Bronzo, Argento e Oro) e vuole fornire a ciascuno dei livelli offerte personalizzate tramite piattaforme social. L'azienda utilizza Audience Manager per analizzare l'attività dei clienti sul sito Web. Tuttavia, non tutti i clienti usano l'app mobile della compagnia aerea, e alcuni di loro non hanno mai effettuato l'accesso al sito web della società. Gli unici identificatori della società per questi clienti sono gli ID iscrizione e gli indirizzi e-mail.
+Una compagnia aerea ha diversi livelli di clienti (Bronzo, Argento e Oro) e vuole fornire a ciascuno dei livelli offerte personalizzate tramite piattaforme social. L'azienda utilizza Audience Manager per analizzare l'attività dei clienti sul sito Web. Tuttavia, non tutti i clienti utilizzano l'app mobile della compagnia aerea e alcuni di essi non hanno effettuato l'accesso al sito Web della società. Gli unici identificatori della società per questi clienti sono gli ID iscrizione e gli indirizzi e-mail.
 
-Per utilizzarli tra social media e canali simili basati su persone, possono tenere a bordo i dati del cliente da [!DNL CRM] Audience Manager, utilizzando come identificatori gli indirizzi e-mail con hash.
+Per utilizzarli tra social media e canali simili basati su persone, possono tenere a bordo i dati del cliente dal [!DNL CRM] proprio ad Audience Manager, utilizzando come identificatori gli indirizzi e-mail con hash.
 
-In seguito, possono combinare i dati offline con le caratteristiche dell'attività online esistenti, per creare nuovi segmenti di pubblico ai quali indirizzare [!DNL People-Based Destinations].
+In seguito, possono combinare i dati offline con le caratteristiche delle attività online esistenti, per creare nuovi segmenti di pubblico ai quali indirizzare [!DNL People-Based Destinations].
