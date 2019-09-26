@@ -5,7 +5,7 @@ seo-title: Configurare l'audience personalizzata di Twitter come destinazione au
 solution: Audience Manager
 title: Configurare l'audience personalizzata di Twitter come destinazione autonoma basata su dispositivo
 translation-type: tm+mt
-source-git-commit: cd770afc39221687f4eb47cc358d8d57a51b9fb5
+source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
 
 ---
 
@@ -88,6 +88,10 @@ Quando mappate i segmenti di pubblico su Twitter, accertatevi di soddisfare i se
 
 * Correggi il nome del segmento o della mappatura: "Acquirenti statunitensi ed europei";
 * Nome segmento o mappatura errato: "US, European 5h0pP3rs".
+
+## Considerazioni sui tassi di corrispondenza {#match-rates-considerations}
+
+Quando si utilizza [!UICONTROL Twitter Tailored Audiences], le [!UICONTROL Segment Addressable Audience] metriche e quelle [!UICONTROL Segment Match Rate] della pagina di destinazione non visualizzeranno alcun valore. Si tratta di un comportamento normale, in quanto l'audience che corrisponde con le percentuali di corrispondenza per questa destinazione viene gestita e ospitata da [!UICONTROL Twitter], non da Adobe.
 
 >[!IMPORTANT]
 >
