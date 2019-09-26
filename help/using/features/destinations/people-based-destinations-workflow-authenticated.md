@@ -5,12 +5,15 @@ seo-title: Flusso di lavoro C - Personalizzazione basata su attività autenticat
 solution: Audience Manager
 title: Flusso di lavoro C - Personalizzazione basata su attività autenticata combinata con dati offline
 translation-type: tm+mt
-source-git-commit: a2825f256364668abc4e6760a473713fec8626e3
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Flusso di lavoro C - Personalizzazione basata su attività autenticata combinata con dati offline {#workflow-c}
+
+>[!IMPORTANT]
+>Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell'utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per assistenza legale.
 
 Questa pagina include istruzioni dettagliate su come combinare [!DNL CRM] i dati offline con i dati comportamentali in tempo reale per gli utenti autenticati, al fine di creare segmenti di pubblico e quindi inviare tali segmenti a [!DNL People-Based Destinations].
 
@@ -89,7 +92,7 @@ Il passo successivo consiste nella creazione di una nuova regola di unione che t
 1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Profile Merge Rules]**.
 2. Fai clic su **[!UICONTROL Add New Rule]**.
 3. Immettete una regola di unione dei profili **[!UICONTROL Name]** e **[!UICONTROL Description]**.
-4. Nella **[!UICONTROL Profile Merge Rule Setup]** sezione, selezionare la **[!UICONTROL All Cross-Device Profiles]** regola dall' **[!UICONTROL Cross-Device Options]** elenco.
+4. Nella **[!UICONTROL Profile Merge Rule Setup]** sezione, selezionare la **[!UICONTROL Current Authenticated Profiles]** regola o **[!UICONTROL Last Authenticated Profiles]** dall' **[!UICONTROL Cross-Device Options]** elenco.
 5. Nell' **[!UICONTROL Cross-Device Profile Options]** elenco, selezionare le origini dati sulle quali eseguire la segmentazione. Devono essere le origini dati che contengono i DPUUID esistenti.
    ![merge-rule-setup](assets/pbd-pmr-combined.png)
 
