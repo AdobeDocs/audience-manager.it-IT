@@ -5,12 +5,15 @@ seo-title: Pubblico condivisibile
 solution: Audience Manager
 title: Pubblico condivisibile
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Pubblico condivisibile {#shareable-audiences}
+
+>[!IMPORTANT]
+>Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell'utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per assistenza legale.
 
 [!DNL People-Based Destinations] porta il concetto di [!DNL Shareable Audiences] Audience Manager. Questa metrica consente di capire quanti indirizzi e-mail con hash Audience Manager possono condividere con la piattaforma di destinazione.
 
@@ -40,14 +43,14 @@ Un cliente Audience Manager dispone di un'origine dati con 110.000 [DPUUID](../.
 
 In questo scenario:
 
-* Segmento Di Un Pubblico Condiviso = 10.000;
-* Segmento B Pubblico condivisibile = 20.000;
-* Segmento C Pubblico condivisibile = 50.000;
-* Destinazione A Destinazione Pubblico Condiviso = Segmento A Pubblico Condiviso + Segmento B Pubblico Condiviso = 30.000;
-* Destinazione B Pubblico condivisibile = Segmento C Pubblico condivisibile = 50.000.
+* Segment A Shareable Audience = 10,000;
+* Segment B Shareable Audience = 20,000;
+* Segment C Shareable Audience = 50,000;
+* Destination A Shareable Audience = Segment A Shareable Audience + Segment B Shareable Audience = 30,000;
+* Destination B Shareable Audience = Segment C Shareable Audience = 50,000.
 
-![shared-audience-chart](assets/shareable-audiences.png)
+![shareable-audiences-diagram](assets/shareable-audiences.png)
 
 > [!NOTE]
 >
-> Nell'esempio precedente, non significa che tutti gli 80.000 indirizzi e-mail con hash dei tre segmenti corrispondano agli account esistenti nelle piattaforme di destinazione. Significa solo che Audience Manager invia gli identificatori con hash dai tre segmenti alle rispettive destinazioni. Quando si inviano segmenti di pubblico a destinazioni basate su persone, la corrispondenza di pubblico avviene sul lato del partner. La destinazione A può avere fino a 30.000 account utente corrispondenti, mentre la destinazione B può avere fino a 50.000 account utente corrispondenti, ma non esiste alcuna garanzia di percentuali di corrispondenza. Adobe non ha accesso a metriche specifiche per i partner. Consulta [Corrispondenza](../../faq/faq-people-based-destinations.md#match-rates) per le domande frequenti sulla visibilità delle destinazioni basate sulle persone nelle percentuali di corrispondenza.
+> In the example above, it does not mean that all the 80,000 hashed email addresses from the three segments match existing accounts in the destination platforms. It only means that Audience Manager sends the hashed identifiers from the three segments to their respective destinations. When sending audience segments to people-based destinations, audience matching happens on the partner side. Destination A may have up to 30,000 matching user accounts, whereas Destination B may have up to 50,000 matching user accounts, but there is no guarantee of match rates. Adobe does not have access to partner-specific metrics. See Match Rates for frequently asked questions about People-Based Destinations visibility in match rates.[](../../faq/faq-people-based-destinations.md#match-rates)
