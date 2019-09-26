@@ -5,12 +5,15 @@ seo-title: Flusso di lavoro A - Personalizzazione basata su tutte le attività o
 solution: Audience Manager
 title: Flusso di lavoro A - Personalizzazione basata su tutte le attività online combinate con dati offline
 translation-type: tm+mt
-source-git-commit: 455c198d7a096a620a2cf7c8b728b67335eadc8d
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Flusso di lavoro A - Personalizzazione basata su tutte le attività online combinate con dati offline {#workflow-a}
+
+>[!IMPORTANT]
+>Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell'utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per assistenza legale.
 
 Questa pagina include istruzioni dettagliate su come combinare [!DNL CRM] dati offline con dati comportamentali già presenti in Audience Manager per creare nuovi segmenti di pubblico e quindi inviare tali segmenti a [!DNL People-Based Destinations].
 
