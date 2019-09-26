@@ -5,12 +5,15 @@ seo-title: Istruzioni per l'implementazione delle destinazioni basate sulle pers
 solution: Audience Manager
 title: Guida all'implementazione
 translation-type: tm+mt
-source-git-commit: 6093def9c5853572c064a4e398d5e328bcb9d181
+source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 
 ---
 
 
 # Guida all'implementazione {#implementation-guidance}
+
+>[!IMPORTANT]
+>Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell'utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per assistenza legale.
 
 [!DNL People-Based Destinations] offre diverse strategie di implementazione, a seconda di come sono strutturati i dati dei clienti. Questo articolo fornisce una panoramica dei passaggi di implementazione da seguire [!DNL People-Based Destinations], a seconda dello scenario in uso.
 
