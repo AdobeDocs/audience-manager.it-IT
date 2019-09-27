@@ -5,7 +5,7 @@ seo-title: Configurare l'audience personalizzata di Twitter come destinazione au
 solution: Audience Manager
 title: Configurare l'audience personalizzata di Twitter come destinazione autonoma basata su dispositivo
 translation-type: tm+mt
-source-git-commit: 2bf825e083c81edb8c03cb8dcef99088b1958452
+source-git-commit: c6318921b49603015b4670a361ec85ffa29abb30
 
 ---
 
@@ -33,26 +33,26 @@ Prima di poter aggiungere la destinazione basata sui dispositivi, è necessario 
 
 1. Accedi al tuo account Audience Manager e vai a **[!DNL Administration > Integrated Accounts]**. Se disponete di un'integrazione configurata in precedenza con una piattaforma di destinazione, visualizzatela in questa pagina. In caso contrario, la pagina è vuota.
 2. Fai clic su **[!DNL Add Account]**.
-3. Selezionate [!DNL Twitter Tailored Audiences] e fate clic **[!DNL Confirm]** per reindirizzare la pagina di autenticazione.                     ![piattaforme integrate](assets/dbd-integrated-platforms.png)
-4. Dopo l'autenticazione, verrete reindirizzati ad Audience Manager dove dovrebbero essere visualizzati gli account dell'inserzionista associato. Selezionate l’account dell’inserzionista da usare e fate clic su **[!DNL Confirm]**.
+3. Select [!DNL Twitter Tailored Audiences] and click **[!DNL Confirm]** to be redirected to the authentication page.                     ![integrated-platforms](assets/dbd-integrated-platforms.png)
+4. Once you've authenticated, you are redirected to Audience Manager where you should see your associated advertiser accounts. Select the advertiser account that you want to use and click **[!DNL Confirm]**.
 
-### Passaggio 2: Creare una nuova destinazione basata su dispositivo {#step2-create-new-destination}
+### Passaggio 2: Create a New Device-Based Destination {#step2-create-new-destination}
 
-Dopo aver collegato Audience Manager e il vostro account [!DNL Twitter Tailored Audiences], potete creare la nuova destinazione. Come procedere:
+After you have linked Audience Manager and your , you can create the new destination. [!DNL Twitter Tailored Audiences] Here's how to do this:
 
 >[!NOTE]
 >
->Non è possibile modificare il nome di una destinazione esistente basata su dispositivo. Assicuratevi di fornire un nome che vi consenta di identificare correttamente la destinazione.
+>You cannot change the name of an existing device-based destination. Make sure to provide a name that will help you identify the destination correctly.
 
-1. Accedi al tuo account Audience Manager, vai a **[!DNL Audience Data > Destinations]** e fai clic su **[!DNL Create Destination]**.
-2. Nella **[!DNL Basic Information]** sezione immettere un **[!DNL Name]** e **[!DNL Description]** per la nuova destinazione e utilizzare le impostazioni seguenti: ![setup](assets/dbd-new-basic.png)
+1. Log in to your Audience Manager account, go to , and click .**[!DNL Audience Data > Destinations]****[!DNL Create Destination]**
+2. In the  section, enter a  and  for your new destination, and use the settings below: setup **[!DNL Basic Information]****[!DNL Name]****[!DNL Description]**![](assets/dbd-new-basic.png)
 3. Fai clic su **[!DNL Next]**.
-4. Scegliere le etichette [di esportazione](/help/using/features/data-export-controls.md#controls-labels) dati da impostare per questa destinazione.
+4. Choose the Data Export Labels that you want to set for this destination.[](/help/using/features/data-export-controls.md#controls-labels)
 5. Fai clic su **[!DNL Save]**.
-6. Nella **[!DNL Segment Mappings]** sezione, selezionate i segmenti di pubblico che desiderate inviare a questa destinazione.
-7. Salva la destinazione.
+6. In the  section, select the audience segments that you want to send to this destination.**[!DNL Segment Mappings]**
+7. Save the destination.
 
-## Aggiornamento Delle Integrazioni Twitter Esistenti All'Amministrazione Self-Service {#update-existing-twitter-integrations}
+## Update Existing Twitter Integrations To Self-Service Administration {#update-existing-twitter-integrations}
 
 Per migliorare l'esperienza dell'utente e semplificare il processo di configurazione, stiamo aggiornando l' [!DNL Twitter Tailored Audiences] integrazione a un modello self-service, dove puoi eseguire la configurazione autonomamente dall'interfaccia utente di Audience Manager. Questa sezione descrive i passaggi necessari per aggiornare l'integrazione esistente di Twitter.
 
@@ -89,10 +89,10 @@ Quando mappate i segmenti di pubblico su Twitter, accertatevi di soddisfare i se
 * Correggi il nome del segmento o della mappatura: "Acquirenti statunitensi ed europei";
 * Nome segmento o mappatura errato: "US, European 5h0pP3rs".
 
-## Considerazioni sui tassi di corrispondenza {#match-rates-considerations}
-
-Quando si utilizza [!UICONTROL Twitter Tailored Audiences], le [!UICONTROL Segment Addressable Audience] metriche e quelle [!UICONTROL Segment Match Rate] della pagina di destinazione non visualizzeranno alcun valore. Si tratta di un comportamento normale, in quanto l'audience che corrisponde con le percentuali di corrispondenza per questa destinazione viene gestita e ospitata da [!UICONTROL Twitter], non da Adobe.
-
 >[!IMPORTANT]
 >
->Non è possibile modificare i nomi dei segmenti già mappati. Audience Manager utilizza i nomi dei segmenti per identificare correttamente i segmenti nell'integrazione.
+>You cannot change the names of already mapped segments. Audience Manager utilizza i nomi dei segmenti per identificare correttamente i segmenti nell'integrazione.
+
+## Considerazioni sui tassi di corrispondenza {#match-rates-considerations}
+
+When using , the  and  metrics from the destination page will not display any values. [!UICONTROL Twitter Tailored Audiences][!UICONTROL Segment Addressable Audience][!UICONTROL Segment Match Rate] This is normal behavior, since audience matching along with the match rates for this destination are handled and hosted by , not Adobe.[!UICONTROL Twitter]
