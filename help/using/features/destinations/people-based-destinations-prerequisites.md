@@ -5,7 +5,7 @@ seo-title: Destinazioni basate su persone Prerequisiti e considerazioni
 solution: Audience Manager
 title: Prerequisiti e considerazioni
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
 # Prerequisiti e considerazioni {#prerequisites-considerations}
 
 >[!IMPORTANT]
->Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell'utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per assistenza legale.
+>Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell'utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Please consult your own legal counsel for legal guidance.
 
 Leggi di seguito per una panoramica dei requisiti dei clienti che devi soddisfare prima di iscriverti [!DNL People-Based Destinations].
 
@@ -46,21 +46,24 @@ Se si caricano più di 10 indirizzi e-mail con hash collegati a un ID cliente in
 
 ## Privacy dei dati {#data-privacy}
 
-Anche se [!DNL People-Based Destinations] consentite di eseguire il targeting dei tipi di pubblico in base agli indirizzi e-mail con hash caricati dall'utente, non potete caricare in Audience Manager eventuali informazioni sui visitatori direttamente identificabili. Nella fase di onboarding dei dati, devi accertarti che gli indirizzi e-mail che intendi utilizzare siano crittografati con l' [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarli in [!DNL People-Based Destinations].
+Anche se [!DNL People-Based Destinations] consentite di eseguire il targeting dei tipi di pubblico in base agli indirizzi e-mail con hash caricati dall'utente, non potete caricare in Audience Manager eventuali informazioni sui visitatori direttamente identificabili. In the data onboarding phase, you must ensure that the email addresses you plan to use are hashed with the  algorithm. [!DNL SHA256] Otherwise, you won't be able to use them in .[!DNL People-Based Destinations]
 
-## Hashing dati contro crittografia {#data-hashing-encryption}
+## Data Hashing Versus Encryption {#data-hashing-encryption}
 
-La crittografia è una funzione bidirezionale. È inoltre possibile decrittografare qualsiasi informazione crittografata utilizzando la chiave di decrittazione corretta. La cifratura dei dati nel contesto di Audience Manager comporta seri rischi, poiché è possibile decifrare anche qualsiasi forma crittografata di informazioni personali. Invece della cifratura, [!DNL People-Based Destinations] sono progettati per funzionare con dati con hash.
+Encryption is a two-way function. È inoltre possibile decrittografare qualsiasi informazione crittografata utilizzando la chiave di decrittazione corretta. La cifratura dei dati nel contesto di Audience Manager comporta seri rischi, poiché è possibile decifrare anche qualsiasi forma crittografata di informazioni personali. Invece della cifratura, [!DNL People-Based Destinations] sono progettati per funzionare con dati con hash.
 
-Hashing è una funzione unidirezionale che scorre l'input per produrre un risultato unico. Utilizzando gli algoritmi di hashing appropriati, come [!DNL SHA256], non c'è modo di invertire la funzione di hashing e rivelare le informazioni non scorrevoli. Gli indirizzi e-mail che si desidera inserire in Audience Manager devono essere crittografati con l’ [!DNL SHA256] algoritmo. In questo modo, potete assicurarvi che nessun indirizzo e-mail senza hash arrivi ad Audience Manager.
+Hashing è una funzione unidirezionale che scorre l'input per produrre un risultato unico. By using proper hashing algorithms, like , there is no way to reverse the hashing function and reveal the unscrambled information. [!DNL SHA256] The email addresses that you will onboard to Audience Manager must be hashed with the  algorithm. [!DNL SHA256] This way, you can ensure that no unhashed email addresses reach Audience Manager.
 
-## Requisiti di hash {#hashing-requirements}
+## Hashing Requirements {#hashing-requirements}
 
-Quando eseguite l'hashing degli indirizzi e-mail, accertatevi di rispettare i seguenti requisiti:
+When hashing the email addresses, make sure to comply with the following requirements:
 
-* Rifila tutti gli spazi iniziali e finali dalla stringa e-mail; esempio: `johndoe@example.com`, non `<space>johndoe@example.com<space>`;
-* Verificate che la stringa con hash sia in lettere minuscole; esempio: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, non `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
-* Non saldare la stringa.
+* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com``<space>johndoe@example.com<space>`
+* When hashing the email strings, make sure to hash the lowercase string;
+   * Esempio: , not ;`example@email.com``EXAMPLE@EMAIL.COM`
+* Make sure the hashed string is all lowercase
+   * Esempio: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, non `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
+* Do not salt the string.
 
 Adobe Experience Cloud ti offre la possibilità di hash degli ID cliente tramite il servizio Experience Cloud ID. Per informazioni dettagliate sull’utilizzo di ECID per l’hash degli ID cliente, consultate Supporto hash [SHA256 per setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
 
@@ -72,7 +75,7 @@ Prima di iscriversi, [!DNL People-Based Destinations]assicuratevi di ottenere il
 
 Nel caso in cui i clienti desiderino rinunciare alle campagne pubblicitarie, consulta Gestione [del](../../overview/data-security-and-privacy/opt-out-management.md) rifiuto per informazioni su come impedire ad Audience Manager di raccogliere ulteriori dati.
 
-## Applicazione dell'attivazione dei dati di prime parti {#enforcing-first-party-activation}
+## Enforcing First-Party Data Activation {#enforcing-first-party-activation}
 
 Quando si utilizza [!DNL People-Based Destinations], è possibile utilizzare solo dati di prime parti per attivare i segmenti di pubblico nei canali basati sulle persone. Non potete utilizzare dati di seconda o terza parte per l'attivazione dell'audience nei canali basati sulle persone.
 
