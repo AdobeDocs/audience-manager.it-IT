@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro C - Personalizzazione basata su attività autenticat
 solution: Audience Manager
 title: Flusso di lavoro C - Personalizzazione basata su attività autenticata combinata con dati offline
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -50,7 +50,7 @@ In questo caso, è necessario creare una nuova origine dati cross-device in cui 
 
 Guardate il video seguente per un'esercitazione video su come creare un'origine dati per [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=ita)
 
 ## Passaggio 2 - Utilizzare gli ID dichiarati per far corrispondere DPUUID agli indirizzi e-mail con hash tramite chiamate HTTP in tempo reale {#match-email-addresses}
 
