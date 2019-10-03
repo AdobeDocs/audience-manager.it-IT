@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro A - Personalizzazione basata su tutte le attività o
 solution: Audience Manager
 title: Flusso di lavoro A - Personalizzazione basata su tutte le attività online combinate con dati offline
 translation-type: tm+mt
-source-git-commit: fb5d9eff3573048d3e8a570b342a97bce3cd8da0
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -46,17 +46,21 @@ In questo caso, è necessario etichettare l'origine dati corrispondente come tal
 
 In questo caso, è necessario creare una nuova origine dati cross-device in cui memorizzare gli indirizzi e-mail con hash. Come procedere:
 
-1. Log in to your Audience Manager account and go to  &gt; , and click .**[!UICONTROL Audience Data]****[!UICONTROL Data Sources]****[!UICONTROL Add New]**
-1. Enter a  and  for your new data source.[!UICONTROL Name][!UICONTROL Description]
-1. In the  drop-down menu, select .**[!UICONTROL ID Type]****[!UICONTROL Cross Device]**
-1. In the  section, select both the  and  options, and enable the  option.**[!UICONTROL Data Source Settings]****[!UICONTROL Inbound]****[!UICONTROL Outbound]****[!UICONTROL Share associated cross-device IDs in people-based destinations]**
-1. Use the drop-down menu to select the  label for this data source.**[!UICONTROL Emails(SHA256, lowercased)]**
+1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**, quindi fai clic su **[!UICONTROL Add New]**.
+1. Immettere un [!UICONTROL Name] e [!UICONTROL Description] per la nuova origine dati.
+1. Nel **[!UICONTROL ID Type]** menu a discesa, selezionate **[!UICONTROL Cross Device]**.
+1. Nella **[!UICONTROL Data Source Settings]** sezione, selezionate sia le **[!UICONTROL Inbound]** opzioni che le **[!UICONTROL Outbound]** opzioni e abilitate l' **[!UICONTROL Share associated cross-device IDs in people-based destinations]** opzione.
+1. Utilizzare il menu a discesa per selezionare l' **[!UICONTROL Emails(SHA256, lowercased)]** etichetta per questa origine dati.
    >[!IMPORTANT]
    >
-   >This option only labels the data source as containing data hashed with that specific algorithm. Audience Manager does not hash the data at this step. Make sure the email addresses that you plan on storing in this data source are already hashed with the  algorithm. [!DNL SHA256] Otherwise, you won't be able to use it for .[!DNL People-Based Destinations]
+   >Questa opzione etichetta solo l'origine dati come contenente i dati con hash con tale algoritmo specifico. Audience Manager non esegue l'hash dei dati in questo passaggio. Assicurati che gli indirizzi e-mail che intendi memorizzare in questa origine dati siano già crittografati con l' [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
-1. Save the data source settings.
+1. Salvare le impostazioni dell'origine dati.
+
+Guardate il video seguente per un'esercitazione video su come creare un'origine dati per [!UICONTROL People-Based Destinations].
+
+[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=ita)
 
 >[!NOTE]
 >
@@ -66,7 +70,7 @@ In questo caso, è necessario creare una nuova origine dati cross-device in cui 
 
 >[!IMPORTANT]
 >
-> This step only applies to Scenario 2 described above. [](people-based-destinations-workflow-combined.md#configure-data-source-settings) Se i [DPUUID](../../reference/ids-in-aam.md) esistenti sono già indirizzi e-mail con hash, passa al [Passaggio 3 - Crea una regola di unione dei profili per la segmentazione](people-based-destinations-workflow-combined.md#create-merge-rule).
+> Questo passaggio si applica solo allo [scenario 2](people-based-destinations-workflow-combined.md#configure-data-source-settings) sopra descritto. Se i [DPUUID](../../reference/ids-in-aam.md) esistenti sono già indirizzi e-mail con hash, passa al [Passaggio 3 - Crea una regola di unione dei profili per la segmentazione](people-based-destinations-workflow-combined.md#create-merge-rule).
 
 Supponiamo che tu voglia far corrispondere i tuoi [DPUUID](../../reference/ids-in-aam.md) esistenti agli indirizzi e-mail con hash della tabella seguente (colonna a destra), e memorizzare gli indirizzi e-mail con hash nella nuova origine dati creata al [Passaggio 1 - Configura impostazioni](people-based-destinations-workflow-combined.md#configure-data-source-settings)origine dati.
 
@@ -130,20 +134,20 @@ Il passo successivo consiste nella creazione di una nuova regola di unione che t
 
 Per creare nuovi segmenti di pubblico, utilizza il Generatore di [segmenti](../segments/segment-builder.md). Se hai segmenti di pubblico esistenti a cui vuoi inviare [!DNL People-Based Destinations], passa al [Passaggio 5 - Configura autenticazione](people-based-destinations-workflow-combined.md#configure-authentication)della piattaforma basata sulle persone.
 
-## Step 5 - Configure People-Based Platform Authentication {#configure-authentication}
+## Passaggio 5 - Configurare l'autenticazione della piattaforma basata sulle persone {#configure-authentication}
 
-1. Log in to your Audience Manager account and go to  &gt; . **[!UICONTROL Administration]****[!UICONTROL Integrated Accounts]** If you have a previously configured integration with a social platform, you should see it listed in this page. Otherwise, the page is empty.
-   ![people-based-integration](assets/pbd-config.png)
+1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**. Se avete già configurato un'integrazione con una piattaforma social, visualizzatela in questa pagina. In caso contrario, la pagina è vuota.
+   ![integrazione basata sulle persone](assets/pbd-config.png)
 1. Fai clic su **[!UICONTROL Add Account]**.
-1. Use the  drop-down menu to select the platform that you want to configure the integration with.**[!UICONTROL People-Based Platform]**
-   ![people-based-platform](assets/pbd-add.png)
-1. Click  to be redirected to the authentication page of the selected platform.**[!UICONTROL Confirm]**
-1. Once you've authenticated to your social platform account, you are redirected to Audience Manager where you should see your associated advertiser accounts. Selezionate l’account dell’inserzionista da usare e fate clic su **[!UICONTROL Confirm]**.
-1. Audience Manager visualizza una notifica nella parte superiore della pagina per informarvi se l'account è stato aggiunto correttamente. The notification also allows you to add a contact email address to receive notifications when the social platform authentication is about to expire.
+1. Utilizzate il menu a **[!UICONTROL People-Based Platform]** discesa per selezionare la piattaforma con cui desiderate configurare l'integrazione.
+   ![piattaforma basata sulle persone](assets/pbd-add.png)
+1. Fare clic per **[!UICONTROL Confirm]** essere reindirizzato alla pagina di autenticazione della piattaforma selezionata.
+1. Dopo aver eseguito l'autenticazione sull'account della piattaforma social, verrete reindirizzati ad Audience Manager, dove dovrebbero essere visualizzati gli account degli inserzionisti associati. Selezionate l’account dell’inserzionista da usare e fate clic su **[!UICONTROL Confirm]**.
+1. Audience Manager visualizza una notifica nella parte superiore della pagina per informarvi se l'account è stato aggiunto correttamente. La notifica consente inoltre di aggiungere un indirizzo e-mail di contatto per ricevere le notifiche quando l'autenticazione della piattaforma social sta per scadere.
 
 >[!IMPORTANT]
 >
->A udience Manager handles the integration with social platforms through authentication tokens that expire after a certain amount of time. Consulta Rinnovo token di autenticazione per informazioni dettagliate su come rinnovare i token scaduti.
+>Un Audience Manager gestisce l'integrazione con le piattaforme social tramite token di autenticazione che scadono dopo un certo periodo di tempo. Consulta Rinnovo token di autenticazione per informazioni dettagliate su come rinnovare i token scaduti.
 
 ## Passaggio 6 - Creare una destinazione basata sulle persone {#create-destination}
 
