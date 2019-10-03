@@ -5,7 +5,7 @@ seo-title: Pannello segnali
 title: Pannello segnali
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
-source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -35,3 +35,6 @@ Questa sezione mostra i primi 50 nuovi segnali inutilizzati ricevuti negli ultim
 [!DNL Audience Manager] mostra tutte le ricerche [](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) salvate sul [!UICONTROL Dashboard] sito e le ricarica ogni volta che caricate il [!UICONTROL Dashboard].
 
 Le ricerche salvate mostrano i primi 50 risultati per i criteri corrispondenti.
+
+Guardate il video seguente per apprendere come usare il [!UICONTROL Signals Dashboard].
+[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=ita)
