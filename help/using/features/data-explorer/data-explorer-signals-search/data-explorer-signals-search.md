@@ -4,7 +4,7 @@ seo-description: Cercare i segnali usati e inutilizzati ricevuti in periodi di t
 seo-title: Ricerca segnali
 title: Ricerca segnali
 translation-type: tm+mt
-source-git-commit: a0e585b85a4e8ab180766298579dc39f93b7ff29
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -19,5 +19,4 @@ Cercare i segnali usati e inutilizzati ricevuti in periodi di tempo specifici. P
 * [Filtra risultati di ricerca](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
 * [Salva criteri di ricerca](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
 
-
-
+[!VIDEO](https://video.tv.adobe.com/v/25148/?captions=ita)
