@@ -5,7 +5,7 @@ seo-title: Salva criteri di ricerca
 title: Salva criteri di ricerca
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -32,4 +32,4 @@ Ottimizzate le attività di ricerca del segnale salvando fino a 10 set di criter
 
 Guarda il video seguente per scoprire come salvare le ricerche dei segnali.
 
-[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=ita)
