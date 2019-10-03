@@ -8,7 +8,7 @@ title: Creare un modello algoritmico
 topic: API DIL
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -37,32 +37,32 @@ Descrive i passaggi obbligatori e facoltativi che consentono di creare un modell
 
 Per creare un modello, andate alla [!UICONTROL Models] sezione e fate clic **[!UICONTROL Add New]** e seguite la procedura seguente:
 
-1. Nella sezione [Informazioni](../../features/algorithmic-models/create-model.md#basic-information) di base
+1. In the Basic Information section[](../../features/algorithmic-models/create-model.md#basic-information)
    * Denominate il modello.
    * *(Facoltativo)* Fornire una breve descrizione del modello.
-   * Impostare lo stato del modello su **[!UICONTROL Active]** o **[!UICONTROL Inactive]**. I modelli inattivi non verranno eseguiti e non produrranno alcun dato.
+   * Set the status for the model to **[!UICONTROL Active]** or **[!UICONTROL Inactive]**. I modelli inattivi non verranno eseguiti e non produrranno alcun dato.
 1. Nella sezione [Configurazione](../../features/algorithmic-models/create-model.md#configuration) :
-   * Fare clic **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** per selezionare una caratteristica o un segmento rispetto al quale si desidera creare il modello.   Seleziona come linea di base una caratteristica integrata, una caratteristica basata su regole o un segmento. In caso contrario, i modelli non verranno eseguiti.
-   * Scegliete un periodo di look-back di 30, 60 o 90 giorni. Questo imposta un intervallo di tempo per il modello.
+   * Fare clic **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** per selezionare una caratteristica o un segmento rispetto al quale si desidera creare il modello.   Select an onboarded trait, a rule-based trait, or a segment as baseline. In caso contrario, i modelli non verranno eseguiti.
+   * Choose a 30, 60, or 90 day look-back period. This sets a time range for the model.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
    * Selezionare un'origine dati dall' [!UICONTROL Available Data] elenco.
    * Click **[!UICONTROL Save]** when done.
 
-## Informazioni di base per i modelli algoritmici {#basic-information}
+## Basic Information for Algorithmic Models {#basic-information}
 
 <!-- r_model_basic.xml -->
 
-In [!UICONTROL Model Builder], le [!UICONTROL Basic Information] impostazioni consentono di creare nuovi modelli o di modificarli esistenti. Per creare un nuovo modello, immettete un nome e passate alle [!UICONTROL Configuration] impostazioni. Il campo di descrizione è facoltativo.
+In , the  settings let you create new or edit existing models. [!UICONTROL Model Builder][!UICONTROL Basic Information] To create a new model, provide a name and move on to the [!UICONTROL Configuration] settings. The description field is optional.
 
 | Campo | Descrizione |
 |---|---|
-| **[!UICONTROL Name]** | Assegnare al modello un nome logico breve che ne descriva funzione o finalità. Evitare abbreviazioni, caratteri speciali e segni di accento. |
-| **[!UICONTROL Description]** | Campo per ulteriori informazioni descrittive sul modello. |
-| **[!UICONTROL Status]** | Attiva o disattiva il modello (attivo per impostazione predefinita). |
+| **[!UICONTROL Name]** | Give your model a short, logical name that describes its function or purpose. Avoid abbreviations, special characters, and accent marks. |
+| **[!UICONTROL Description]** | A field for additional descriptive information about the model. |
+| **[!UICONTROL Status]** | Activates or deactivates the model (active by default). |
 
 ## Configurazione {#configuration}
 
-In [!UICONTROL Model Builder], la [!UICONTROL Configuration] sezione consente di aggiungere caratteristiche o segmenti al modello. In questa sezione, seleziona una caratteristica o un segmento della linea di base, un periodo di look-back e i dati dalle origini dati di prime e terze parti.
+In , the  section lets you add traits or segments to the model. [!UICONTROL Model Builder][!UICONTROL Configuration] In this section, select a baseline trait or segment, a look-back period, and data from your first and third-party data sources.
 
 <!-- r_model_configuration.xml -->
 
@@ -97,7 +97,7 @@ Compila prima i campi richiesti nella [!UICONTROL Basic Information] sezione.
    <td colname="col2"> <p>Consente di selezionare le origini dati di prima e terza parte da utilizzare nel modello. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Esclusioni (5)</b> </p> </td> 
+   <td colname="col1"> <p><b>Exclusions (5)</b> </p> </td> 
    <td colname="col2"> <p>È possibile escludere caratteristiche dalle origini dati selezionate per la modellazione. Utilizzare l'elenco <span class="wintitle"> Esclusioni</span> e leggere Modelli <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> algoritmici: Trait Exclusion</a> per saperne di più. </p> </td>
   </tr> 
  </tbody>
@@ -105,7 +105,7 @@ Compila prima i campi richiesti nella [!UICONTROL Basic Information] sezione.
 
 Guardate il video qui sotto per scoprire come creare un modello simile di prima parte, in modo da poter trovare più visitatori che somigliano ai vostri convertitori.
 
-[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=ita)
 
 >[!MORE_LIKE_this]
 >
