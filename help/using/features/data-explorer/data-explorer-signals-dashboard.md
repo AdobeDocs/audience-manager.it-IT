@@ -5,7 +5,7 @@ seo-title: Pannello segnali
 title: Pannello segnali
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -37,4 +37,4 @@ Questa sezione mostra i primi 50 nuovi segnali inutilizzati ricevuti negli ultim
 Le ricerche salvate mostrano i primi 50 risultati per i criteri corrispondenti.
 
 Guardate il video seguente per apprendere come usare il [!UICONTROL Signals Dashboard].
-[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/?captions=ita)
