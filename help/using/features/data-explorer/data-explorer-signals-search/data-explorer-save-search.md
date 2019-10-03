@@ -5,7 +5,7 @@ seo-title: Salva criteri di ricerca
 title: Salva criteri di ricerca
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 translation-type: tm+mt
-source-git-commit: 3d8f16725053ae29bdba8e4fcd144ff0b9b67880
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -29,3 +29,7 @@ Ottimizzate le attività di ricerca del segnale salvando fino a 10 set di criter
 1. Fai clic su **[!UICONTROL Save]**. Puoi visualizzare la ricerca salvata nella [!UICONTROL Saved Search] sezione e utilizzarla quando necessario.
 
 ![ricerca salvata](assets/saved-search.png)
+
+Guarda il video seguente per scoprire come salvare le ricerche dei segnali.
+
+[!VIDEO](https://video.tv.adobe.com/v/25147/?captions=ita)
