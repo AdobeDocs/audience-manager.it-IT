@@ -5,7 +5,7 @@ seo-title: Panoramica, vantaggi e casi di utilizzo
 title: Panoramica, vantaggi e casi di utilizzo
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -46,4 +46,4 @@ Dopo che un fornitore di servizi di viaggio ha aggiunto nuove destinazioni al su
 
 Una delle funzioni più potenti di Audience Manager è la capacità di tenere a bordo i dati offline e collegarli con i dati online. Nel video seguente, scoprite come utilizzare [!UICONTROL Data Explorer] per verificare di aver creato tutte le caratteristiche necessarie per sfruttare questi dati caricati.
 
-[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=ita)
