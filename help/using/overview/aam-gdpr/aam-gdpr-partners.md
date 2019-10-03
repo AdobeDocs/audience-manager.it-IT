@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Considerazioni sul GDPR per le destinazioni
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
 translation-type: tm+mt
-source-git-commit: 69be038d0f2d31b6b5eda20041082c1890abc38f
+source-git-commit: c238a37e1a72edb0679f657d0178e04b8d848ec2
 
 ---
 
@@ -55,17 +55,17 @@ Alcuni partner, elencati nella tabella seguente, hanno modificato i propri requi
 
 ## Aggiornamento dell'interfaccia utente di Audience Manager - Integrazione Yahoo/Oath/DataX {#ui-update}
 
-Oltre agli aggiornamenti al framework IAB sopra menzionati, Yahoo/Oath/DataX ha aggiunto nuovi parametri, **gdpr** e **gdpr_mode**, alle loro API tassonomia e Pubblico. I loro parametri informano Yahoo/Oath/DataX di avere i diritti per elaborare un determinato segmento come processore dati o come controller dati. Di conseguenza, i clienti Audience Manager che inviano segmenti a una destinazione Yahoo/Oath/DataX devono designare il parametro appropriato (Processore o Controller), in base al loro accordo con Oath.
+Oltre agli aggiornamenti al framework IAB sopra menzionati, Yahoo/Oath/DataX ha aggiunto nuovi parametri, **gdpr** e **gdpr_mode**, alle loro API tassonomia e Pubblico. Their parameters inform Yahoo/Oath/DataX that they have the rights to process a certain segment as a Data Processor or as a Data Controller. As a result, Audience Manager customers sending segments to a Yahoo/Oath/DataX destination must designate the appropriate parameter (Processor or Controller), based on their agreement with Oath.
 
-Rivolgiti al tuo Consulente o all'Assistenza clienti per impostare il parametro corretto. Adobe non può eseguire questo aggiornamento per conto di un cliente a meno che non riceva una corrispondenza scritta, richiedendo questo aggiornamento. Rivolgiti al rappresentante Yahoo/Oath/DataX per conoscere la definizione completa di questi parametri.
+Please reach out to your Consultant or Client Care to set the correct parameter. Adobe cannot make this update on behalf of a customer unless we receive written correspondence, requesting this update. Please reach out to your Yahoo/Oath/DataX representative to understand the full definition of these parameters.
 
-## Partner Audience Manager Con Funzionalità Di Separazione {#aam-partners-with-unsegmentation}
+## Audience Manager Partners With Unsegmentation Capabilities {#aam-partners-with-unsegmentation}
 
-Per aiutare i nostri clienti ad automatizzare le richieste GDPR, Audience Manager avvisa i nostri partner di attivazione sulle richieste di eliminazione da oggetti dati inviando loro informazioni non segmentate (o rimuovendo segmenti).
+In order to help our customers automate GDPR requests, Audience Manager notifies our activation partners about deletion requests from Data Subjects by sending them unsegment (or remove segment) information.
 
-Tuttavia, alcuni dei nostri partner per l'attivazione:
+However, some of our activation partners:
 
-1. Impossibile supportare richieste non segmentate da Adobe e/o
-1. Non sono in grado di ricevere aggiornamenti da noi più spesso di una volta in 30 giorni.
+1. Cannot support unsegment requests from Adobe and/or
+1. Are not able to receive updates from us more frequently than once in 30 days.
 
-In questi casi, non è possibile inviare le richieste di eliminazione ai partner di attivazione in modo automatico tramite Audience Manager. Scarica il nostro foglio [Excel per](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx) partner per vedere quali partner di attivazione di Audience Manager supportano il segmento.
+In those cases, you are not able to send delete requests to activation partners in an automated way through Audience Manager. Download our Partner Excel sheet to see which Audience Manager activation partners support unsegment.[](/help/using/overview/aam-gdpr/assets/AAM-Partners-October2019.xlsx)
