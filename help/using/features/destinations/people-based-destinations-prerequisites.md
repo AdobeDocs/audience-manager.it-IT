@@ -1,11 +1,11 @@
 ---
 description: 'Leggi di seguito per una panoramica dei requisiti dei clienti che devi soddisfare prima di iscriverti alle Destinazioni basate sulle persone.  '
 seo-description: 'Leggi di seguito per una panoramica dei requisiti dei clienti che devi soddisfare prima di iscriverti alle Destinazioni basate sulle persone.  '
-seo-title: People-Based Destinations Prerequisites and Considerations
+seo-title: Destinazioni basate su persone Prerequisiti e considerazioni
 solution: Audience Manager
 title: Prerequisiti e considerazioni
 translation-type: tm+mt
-source-git-commit: ad9c077f538759e195a83d47e0ef36ccffa25c7e
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -38,34 +38,38 @@ Prima di poter utilizzare [!DNL People-Based Destinations] per inviare segmenti 
    > Quando configuri le autorizzazioni per Adobe Experience Cloud, devi abilitare l'autorizzazione **Gestisci campagne** . Questo è richiesto per l' [!DNL People-Based Destinations] integrazione.
 1. Leggi e firma le [!DNL Facebook Custom Audiences] Condizioni del servizio. Per fare questo, andate a `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, dov' `accountID` è il vostro [!DNL Facebook Ad Account ID].
 
-## Data Onboarding {#data-onboarding}
+## Onboarding dei dati {#data-onboarding}
 
 L'assimilazione dei dati per [!DNL People-Based Destinations] ora supporta fino a 10 indirizzi e-mail con hash collegati a un ID cliente ([!DNL CRM ID]), per trasferimento batch. Il caricamento di più di 10 indirizzi e-mail con hash collegati a un ID cliente causa l’inserimento di 10 indirizzi da parte di Audience Manager, senza un ordine specifico.
 
-Uploading more than 10 hashed email addresses linked to one customer ID in multiple batch transfers causes Audience Manager to retain the most recent 10 email addresses added.
+Se si caricano più di 10 indirizzi e-mail con hash collegati a un ID cliente in più trasferimenti batch, Audience Manager conserva gli ultimi 10 indirizzi e-mail aggiunti.
 
 ## Privacy dei dati {#data-privacy}
 
-Anche se [!DNL People-Based Destinations] consentite di eseguire il targeting dei tipi di pubblico in base agli indirizzi e-mail con hash caricati dall'utente, non potete caricare in Audience Manager eventuali informazioni sui visitatori direttamente identificabili. Nella fase di onboarding dei dati, devi accertarti che gli indirizzi e-mail che intendi utilizzare siano crittografati con l' [!DNL SHA256] algoritmo. Otherwise, you won't be able to use them in .[!DNL People-Based Destinations]
+Anche se [!DNL People-Based Destinations] consentite di eseguire il targeting dei tipi di pubblico in base agli indirizzi e-mail con hash caricati dall'utente, non potete caricare in Audience Manager eventuali informazioni sui visitatori direttamente identificabili. Nella fase di onboarding dei dati, devi accertarti che gli indirizzi e-mail che intendi utilizzare siano crittografati con l' [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarli in [!DNL People-Based Destinations].
 
 ## Hashing dati contro crittografia {#data-hashing-encryption}
 
-La crittografia è una funzione bidirezionale. Any encrypted information can also be decrypted, using the correct decryption key. La cifratura dei dati nel contesto di Audience Manager comporta seri rischi, poiché è possibile decifrare anche qualsiasi forma crittografata di informazioni personali. Invece della cifratura, [!DNL People-Based Destinations] sono progettati per funzionare con dati con hash.
+La crittografia è una funzione bidirezionale. È inoltre possibile decrittografare qualsiasi informazione crittografata utilizzando la chiave di decrittazione corretta. La cifratura dei dati nel contesto di Audience Manager comporta seri rischi, poiché è possibile decifrare anche qualsiasi forma crittografata di informazioni personali. Invece della cifratura, [!DNL People-Based Destinations] sono progettati per funzionare con dati con hash.
 
-Hashing è una funzione unidirezionale che scorre l'input per produrre un risultato unico. By using proper hashing algorithms, like , there is no way to reverse the hashing function and reveal the unscrambled information. [!DNL SHA256] The email addresses that you will onboard to Audience Manager must be hashed with the  algorithm. [!DNL SHA256] This way, you can ensure that no unhashed email addresses reach Audience Manager.
+Hashing è una funzione unidirezionale che scorre l'input per produrre un risultato unico. Utilizzando gli algoritmi di hashing appropriati, come [!DNL SHA256], non c'è modo di invertire la funzione di hashing e rivelare le informazioni non scorrevoli. Gli indirizzi e-mail che si desidera inserire in Audience Manager devono essere crittografati con l’ [!DNL SHA256] algoritmo. In questo modo, potete assicurarvi che nessun indirizzo e-mail senza hash arrivi ad Audience Manager.
 
-## Hashing Requirements {#hashing-requirements}
+## Requisiti di hash {#hashing-requirements}
 
-When hashing the email addresses, make sure to comply with the following requirements:
+Quando eseguite l'hashing degli indirizzi e-mail, accertatevi di rispettare i seguenti requisiti:
 
-* Trim all leading and trailing spaces from the email string; example: , not ;`johndoe@example.com``<space>johndoe@example.com<space>`
-* When hashing the email strings, make sure to hash the lowercase string;
-   * Esempio: , not ;`example@email.com``EXAMPLE@EMAIL.COM`
-* Make sure the hashed string is all lowercase
-   * Esempio: , not ;`55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149``55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`
+* Rifila tutti gli spazi iniziali e finali dalla stringa e-mail; esempio: `johndoe@example.com`, non `<space>johndoe@example.com<space>`;
+* Durante l'hashing delle stringhe e-mail, assicurarsi di eseguire l'hash della stringa minuscola;
+   * Esempio: `example@email.com`, non `EXAMPLE@EMAIL.COM`;
+* Verificate che la stringa hash sia in lettere minuscole
+   * Esempio: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, non `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
 * Non saldare la stringa.
 
-Adobe Experience Cloud gives you the option to hash customer IDs through the Experience Cloud ID Service. Per informazioni dettagliate sull’utilizzo di ECID per l’hash degli ID cliente, consultate Supporto hash [SHA256 per setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
+Guardate il video seguente per comprendere i requisiti di hashing di [!UICONTROL People-Based Destinations].
+
+[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=ita)
+
+Adobe Experience Cloud ti offre la possibilità di hash degli ID cliente tramite il servizio Experience Cloud ID. Per informazioni dettagliate sull’utilizzo di ECID per l’hash degli ID cliente, consultate Supporto hash [SHA256 per setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
 
 ## Ottenimento dell'autorizzazione utente {#obtaining-user-permission}
 
