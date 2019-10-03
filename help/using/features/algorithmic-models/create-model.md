@@ -8,7 +8,7 @@ title: Creare un modello algoritmico
 topic: API DIL
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -42,7 +42,7 @@ Per creare un modello, andate alla [!UICONTROL Models] sezione e fate clic **[!U
    * *(Facoltativo)* Fornire una breve descrizione del modello.
    * Impostare lo stato del modello su **[!UICONTROL Active]** o **[!UICONTROL Inactive]**. I modelli inattivi non verranno eseguiti e non produrranno alcun dato.
 1. Nella sezione [Configurazione](../../features/algorithmic-models/create-model.md#configuration) :
-   * Fare clic **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** per selezionare una caratteristica o un segmento rispetto al quale si desidera creare il modello. Seleziona come linea di base una caratteristica integrata, una caratteristica basata su regole o un segmento. In caso contrario, i modelli non verranno eseguiti.
+   * Fare clic **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** per selezionare una caratteristica o un segmento rispetto al quale si desidera creare il modello.   Seleziona come linea di base una caratteristica integrata, una caratteristica basata su regole o un segmento. In caso contrario, i modelli non verranno eseguiti.
    * Scegliete un periodo di look-back di 30, 60 o 90 giorni. Questo imposta un intervallo di tempo per il modello.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
    * Selezionare un'origine dati dall' [!UICONTROL Available Data] elenco.
@@ -102,6 +102,10 @@ Compila prima i campi richiesti nella [!UICONTROL Basic Information] sezione.
   </tr> 
  </tbody>
 </table>
+
+Guardate il video qui sotto per scoprire come creare un modello simile di prima parte, in modo da poter trovare più visitatori che somigliano ai vostri convertitori.
+
+[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=ita)
 
 >[!MORE_LIKE_this]
 >
