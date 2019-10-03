@@ -1,16 +1,16 @@
 ---
-description: I clienti di Audience Manager che utilizzano anche Adobe Analytics possono sfruttare la stretta integrazione tra le due soluzioni abilitando l'opzione Ricerca avanzata per Adobe Analytics.
+description: Audience Manager customers who also use Adobe Analytics can leverage the tight integration between the two solutions by enabling the Advanced Search for Adobe Analytics option.
 seo-description: I clienti di Audience Manager che utilizzano anche Adobe Analytics possono sfruttare la stretta integrazione tra le due soluzioni abilitando l'opzione Ricerca avanzata per Adobe Analytics.
 seo-title: Ricerca avanzata per Adobe Analytics
 title: Ricerca avanzata per Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
 
-# Ricerca avanzata per Adobe Analytics {#advanced-search-for-adobe-analytics}
+# Advanced Search for Adobe Analytics {#advanced-search-for-adobe-analytics}
 
 I clienti di Audience Manager che utilizzano anche [!DNL Adobe Analytics] possono sfruttare la stretta integrazione tra le due soluzioni abilitando l' [!UICONTROL Advanced Search for Adobe Analytics] opzione.
 
@@ -25,3 +25,7 @@ Questa integrazione consente di visualizzare i nomi descrittivi delle coppie chi
 
    ![](assets/signals-search-analytics.png)
 1. I risultati della ricerca ora mostrano i nomi descrittivi per le coppie chiave-valore inserite nella **[!UICONTROL Key or Key Name]** colonna, o per tutti i segnali nella suite di rapporti, se i campi chiave-valore sono vuoti.
+
+Il video seguente mostra come utilizzare [!UICONTROL Data Explorer] per scoprire e usare i dati Adobe Analytics, inclusa la ricerca di segnali usati e non utilizzati, la creazione di caratteristiche di Analytics e la comprensione dei dati.
+
+[!VIDEO](https://video.tv.adobe.com/v/25150?captions=ita)
