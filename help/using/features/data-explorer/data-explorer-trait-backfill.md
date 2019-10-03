@@ -5,7 +5,7 @@ seo-title: Realizzazioni caratteristica backfill
 title: Realizzazioni caratteristica backfill
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -45,6 +45,10 @@ Di seguito viene illustrato come eseguire il backfill delle realizzazioni delle 
 
 Una volta completata la creazione della caratteristica, vedrete le relative realizzazioni con backfill incluse nelle statistiche di realizzazione.
 
+Guardate il video seguente per un video che illustra come tornare a capo delle caratteristiche.
+
+[!VIDEO](https://video.tv.adobe.com/v/25169/?captions=ita)
+
 ## Latenza di recupero caratteristiche {#trait-backfilling-latency}
 
 Le caratteristiche create di recente iniziano a catturare i tipi di pubblico due o tre ore dopo la creazione. Tuttavia, a causa dell'elevato volume di dati che [!DNL Audience Manager] esegue su base giornaliera, la popolazione con backfill non si riflette immediatamente nei [!UICONTROL Unique Trait Realizations] grafici e [!UICONTROL Total Trait Population] nei grafici.
@@ -63,4 +67,4 @@ Audience Manager aggiorna i contenuti [!UICONTROL Trait Graph] con la popolazion
 
 Le realizzazioni con tratto con backfill si riflettono nelle [!UICONTROL Unique Trait Realizations] metriche e nelle [!UICONTROL Total Trait Population] metriche, in quanto [!DNL Audience Manager] trasforma i segnali storici in realizzazioni con caratteristiche.
 
-Tuttavia, [!UICONTROL Trait Graph], [!UICONTROL General Reports]e [!UICONTROL Trend Reports] non vengono aggiornati retroattivamente con le metriche storiche sottoposte a backfill prima della data di creazione delle caratteristiche.
+Tuttavia, [!UICONTROL Trait Graph], [!UICONTROL General Reports]e [!UICONTROL Trend Reports] non vengono aggiornati retroattivamente con le metriche storiche sottoposte a backfill prima della data di creazione delle caratteristiche
