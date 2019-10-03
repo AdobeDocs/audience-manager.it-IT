@@ -5,7 +5,7 @@ seo-title: Casi di utilizzo e panoramica delle destinazioni basate sulle persone
 solution: Audience Manager
 title: Casi di utilizzo e panoramica
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -15,24 +15,24 @@ source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 Da utilizzare [!DNL People-Based Destinations] per inviare segmenti di audience di prime parti ad ambienti basati sulle persone. Questi ambienti sono ecosistemi chiusi appartenenti a un'entità che controlla il contenuto visualizzato al suo interno. Includono piattaforme social come [!DNL Facebook]e altre piattaforme che si affidano agli account dei clienti per personalizzare il contenuto visualizzato.
 
 >[!IMPORTANT]
->This article contains product documentation meant to guide you through the setup and usage of this feature. Nothing contained herein is legal advice. Please consult your own legal counsel for legal guidance.
+>Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell'utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per assistenza legale.
 
 ## Panoramica {#overview}
 
-[!DNL People-Based Destinations] enable you to apply segmentation on online and offline data to create audience segments based on hashed identifiers, such as email addresses or phone numbers. [](people-based-destinations-prerequisites.md#hashing-requirements) Then, you can send these segments to "walled gardens" such as , where you can target your audience on the social platforms. [!DNL Facebook] [!DNL People-Based Destinations] can help you:
+[!DNL People-Based Destinations] consente di applicare la segmentazione ai dati online e offline per creare segmenti di pubblico basati su identificatori [](people-based-destinations-prerequisites.md#hashing-requirements)con hash, ad esempio indirizzi e-mail o numeri di telefono. Quindi, puoi inviare questi segmenti a "giardini murati" come [!DNL Facebook], ad esempio, dove puoi rivolgerti al pubblico sulle piattaforme social. [!DNL People-Based Destinations] può essere utile:
 
-* Target offline and online audiences in platforms such as [!DNL Facebook], based on hashed email addresses;
-* Complement existing device and cookie targeting capabilities of Audience Manager;
-* Eliminate costs associated with third-party data onboarding solutions;
-* Eliminate costs associated with developing custom data onboarding workflows;
-* Target audiences in cookie-less environments;
-* Target audiences by deduplicating email addresses matched to customer IDs.
+* Esegue il targeting del pubblico offline e online in piattaforme come [!DNL Facebook], ad esempio, basate su indirizzi e-mail con hash;
+* Integrare le funzionalità di targeting dei dispositivi e dei cookie esistenti di Audience Manager;
+* eliminare i costi associati alle soluzioni di registrazione dei dati di terze parti;
+* Eliminazione dei costi associati allo sviluppo di flussi di lavoro personalizzati di onboarding dei dati;
+* Esegue il targeting delle audience in ambienti senza cookie;
+* Esegue il targeting delle audience deduplicando gli indirizzi e-mail associati agli ID cliente.
 
-You can use  to segment and target high value customers who may not visited your website, or stop targeting those who have already converted offline. [!DNL People-Based Destinations] Additionally, you can leverage  to combine your offline first-party data with your online first-party data, including customer data from other Adobe Experience Cloud solutions, to optimize your social media advertising efforts.[!DNL Profile Merge Rules]
+Potete utilizzare [!DNL People-Based Destinations] per segmentare e mirare i clienti di alto valore che non hanno visitato il vostro sito Web o per interrompere il targeting per coloro che hanno già convertito offline. Inoltre, puoi sfruttare [!DNL Profile Merge Rules] per combinare i tuoi dati di prime parti offline con i dati di prime parti online, inclusi i dati dei clienti provenienti da altre soluzioni Adobe Experience Cloud, per ottimizzare le attività pubblicitarie sui social media.
 
 ![pbd-overview](assets/pbd-overview.png)
 
-## Availability {#availability}
+## Disponibilità {#availability}
 
 [!DNL People-Based Destinations] è un’integrazione premium di Audience Manager. Contattate il vostro rappresentante Adobe per sfruttare questa funzione premium.
 
@@ -60,7 +60,7 @@ Mediante [!DNL People-Based Destinations]Audience Manager puoi centralizzare i d
 
 Guardate il video seguente per una panoramica del flusso di dati durante l’utilizzo [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28968/?captions=ita)
 
 ## Casi d'uso {#use-cases}
 
@@ -76,4 +76,4 @@ Una compagnia aerea ha diversi livelli di clienti (Bronzo, Argento e Oro) e vuol
 
 Per utilizzarli tra social media e canali simili basati su persone, possono tenere a bordo i dati del cliente dal [!DNL CRM] proprio ad Audience Manager, utilizzando come identificatori gli indirizzi e-mail con hash.
 
-Next, they can combine their offline data with their existing online activity traits, to build new audience segments that they can target through .[!DNL People-Based Destinations]
+In seguito, possono combinare i dati offline con le caratteristiche delle attività online esistenti, per creare nuovi segmenti di pubblico ai quali indirizzare [!DNL People-Based Destinations].
