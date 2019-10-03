@@ -5,7 +5,7 @@ seo-title: Destinazioni basate su persone Prerequisiti e considerazioni
 solution: Audience Manager
 title: Prerequisiti e considerazioni
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -67,7 +67,7 @@ Quando eseguite l'hashing degli indirizzi e-mail, accertatevi di rispettare i se
 
 Guardate il video seguente per comprendere i requisiti di hashing di [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/29003/?captions=ita)
 
 Adobe Experience Cloud ti offre la possibilità di hash degli ID cliente tramite il servizio Experience Cloud ID. Per informazioni dettagliate sull’utilizzo di ECID per l’hash degli ID cliente, consultate Supporto hash [SHA256 per setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
 
