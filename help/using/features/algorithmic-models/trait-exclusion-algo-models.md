@@ -1,30 +1,30 @@
 ---
-description: Trait Exclusion provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the Exclusions option to select which traits to ignore when creating models from one or more data sources.
-seo-description: Trait Exclusion provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Use the Exclusions option to select which traits to ignore when creating models from one or more data sources.
-seo-title: Algorithmic Models  Trait Exclusion
-title: Algorithmic Models  Trait Exclusion
+description: Trait Exclusion offre controlli aggiuntivi nel flusso di lavoro di modellazione, consentendo di aggiungere al modello le guide di protezione necessarie, in base alle competenze di dominio e ai requisiti normativi. Utilizzate l'opzione Esclusioni per selezionare le caratteristiche da ignorare durante la creazione di modelli da una o più origini dati.
+seo-description: Trait Exclusion offre controlli aggiuntivi nel flusso di lavoro di modellazione, consentendo di aggiungere al modello le guide di protezione necessarie, in base alle competenze di dominio e ai requisiti normativi. Utilizzate l'opzione Esclusioni per selezionare le caratteristiche da ignorare durante la creazione di modelli da una o più origini dati.
+seo-title: Esclusione dei modelli algoritmici
+title: Esclusione dei modelli algoritmici
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
 
-# Algorithmic Models: Trait Exclusion {#algorithmic-models-trait-exclusion}
+# Modelli algoritmici: Esclusione caratteristica {#algorithmic-models-trait-exclusion}
 
-[!UICONTROL Trait Exclusion] provides additional controls in your modeling workflow, allowing you to add the necessary guard rails to the model, based on your domain expertise and regulatory requirements. Utilizzare l' [!UICONTROL Exclusions] opzione per selezionare le caratteristiche da ignorare durante la creazione di modelli da una o più origini dati.
+[!UICONTROL Trait Exclusion] fornisce controlli aggiuntivi nel flusso di lavoro di modellazione, consentendo di aggiungere al modello le guide necessarie, in base alle competenze del dominio e ai requisiti normativi. Utilizzare l' [!UICONTROL Exclusions] opzione per selezionare le caratteristiche da ignorare durante la creazione di modelli da una o più origini dati.
 
 ## Casi d'uso {#use-cases}
 
-Here are some use cases you can address with :[!UICONTROL Trait Exclusion]
+Di seguito sono riportati alcuni esempi di casi d’uso con [!UICONTROL Trait Exclusion]:
 
-* [!UICONTROL Trait Exclusion] enables you to exclude certain catch-all traits, such as site visitor traits, so you don't bias the model, leading to flat results.
+* [!UICONTROL Trait Exclusion] consente di escludere alcune caratteristiche catch-all, come le caratteristiche del visitatore del sito, in modo da non alterare il modello, generando risultati semplici.
 * È possibile rimuovere le caratteristiche che non si conoscono o che non si fida di un'origine dati per comprendere meglio le caratteristiche influenti.
-* You can exclude certain traits, such as demographic traits, to help with any compliance obligations you may have.
+* È possibile escludere alcune caratteristiche, come caratteristiche demografiche, per facilitare l'adempimento di eventuali obblighi di conformità.
 
 >[!IMPORTANT]
 >
->An important note on the third use case. Se il provider di dati di terze parti aggiunge una nuova caratteristica demografica al feed di dati *dopo la creazione del modello*, la caratteristica viene automaticamente rilevata dal modello. You cannot exclude traits from modeling after creating the model. Consulta [Aspetti e limitazioni](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations)importanti. Prestate attenzione quando utilizzate questa funzione e collaborate con il provider di dati per essere certi di essere informati di eventuali modifiche alla struttura del feed.
+>Una nota importante sul terzo caso di utilizzo. Se il provider di dati di terze parti aggiunge una nuova caratteristica demografica al feed di dati *dopo la creazione del modello*, la caratteristica viene automaticamente rilevata dal modello. Non è possibile escludere le caratteristiche dalla modellazione dopo la creazione del modello. Consulta [Aspetti e limitazioni](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations)importanti. Prestate attenzione quando utilizzate questa funzione e collaborate con il provider di dati per essere certi di essere informati di eventuali modifiche alla struttura del feed.
 
 ![](assets/lam_exclude_traits.png)
 
@@ -75,19 +75,19 @@ Prendete nota dei seguenti aspetti e limitazioni relativi a [!UICONTROL Trait Ex
    <td colname="col2"> <p>Non è possibile modificare le caratteristiche escluse dopo aver creato e salvato un modello. Se si desidera modificare i risultati, è possibile duplicare il modello e modificare le caratteristiche escluse. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Maximum number of traits you can exclude </p> </td>
-   <td colname="col2"> <p>Il numero massimo di caratteristiche che è possibile escludere da un modello è 500. Use folder traits to maximize your exclusions. </p> </td>
+   <td colname="col1"> <p>Numero massimo di caratteristiche che è possibile escludere </p> </td>
+   <td colname="col2"> <p>Il numero massimo di caratteristiche che è possibile escludere da un modello è 500. Utilizzate le caratteristiche delle cartelle per massimizzare le esclusioni. </p> </td>
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Exclude baseline trait </p> </td>
-   <td colname="col2"> <p>The baseline trait is excluded by default, so it does not show up in the  Exclusions list, when building the model.<b><span class="uicontrol"></span></b> </p> </td>
+   <td colname="col1"> <p>Escludi tratto della linea di base </p> </td>
+   <td colname="col2"> <p>La caratteristica di base è esclusa per impostazione predefinita, pertanto non viene visualizzata nell'elenco <b><span class="uicontrol"> Esclusioni</span></b> al momento della creazione del modello. </p> </td>
   </tr>
  </tbody>
 </table>
 
-Watch the video below to learn how and why to exclude specific traits from a .[!UICONTROL Look-Alike Model]
+Guardate il video seguente per scoprire come e perché escludere tratti specifici da un [!UICONTROL Look-Alike Model].
 
-[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=ita)
 
 ## Collegamenti correlati
 
