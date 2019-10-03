@@ -5,7 +5,7 @@ seo-title: Panoramica, vantaggi e casi di utilizzo
 title: Panoramica, vantaggi e casi di utilizzo
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
 translation-type: tm+mt
-source-git-commit: 643e44efd8d9aa016c20eb0d2c8a2d7006156048
+source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
 
 ---
 
@@ -41,3 +41,9 @@ Un rivenditore di elettronica globale ha un volume elevato di traffico dei visit
 ### Esempio 2
 
 Dopo che un fornitore di servizi di viaggio ha aggiunto nuove destinazioni al suo sito web di prenotazione, vuole pubblicizzarle per i tipi di pubblico storici, anche se non hanno alcuna caratteristica creata per loro. Possono utilizzare Signals Search per identificare i segnali non utilizzati relativi alle nuove destinazioni, includerli in nuove caratteristiche e [ricompilarli](../../features/data-explorer/data-explorer-trait-backfill.md) con realizzazioni storiche. Quindi, crea nuovi segmenti con le nuove caratteristiche e mirali immediatamente con campagne dedicate.
+
+### Utilizzo di Esplora dati per convalidare la creazione di caratteristiche per i dati caricati
+
+Una delle funzioni più potenti di Audience Manager è la capacità di tenere a bordo i dati offline e collegarli con i dati online. Nel video seguente, scoprite come utilizzare [!UICONTROL Data Explorer] per verificare di aver creato tutte le caratteristiche necessarie per sfruttare questi dati caricati.
+
+[!VIDEO](https://video.tv.adobe.com/v/25149/?captions=ita)
