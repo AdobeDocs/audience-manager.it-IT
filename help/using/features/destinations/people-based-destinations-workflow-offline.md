@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro B - Personalizzazione basata su dati solo offline
 solution: Audience Manager
 title: Flusso di lavoro B - Personalizzazione basata su dati solo offline
 translation-type: tm+mt
-source-git-commit: 0eb6a6f67d87377a044b18118fac0185219b0347
+source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 
 ---
 
@@ -61,7 +61,7 @@ In questo caso, è necessario etichettare l'origine dati corrispondente come tal
 
 1. Vai a **[!UICONTROL Audience Data]** -&gt; **[!UICONTROL Data Sources]**.
 1. Individua l’origine dati che contiene i tuoi [DPUUID](../../reference/ids-in-aam.md)e fai clic su di essa.
-1. Make sure the option  is unchecked.**[!UICONTROL Cannot be tied to personally identifiable information]**
+1. Accertatevi che l’opzione **[!UICONTROL Cannot be tied to personally identifiable information]** sia deselezionata.
 1. Salvare le impostazioni dell'origine dati.
 
  
@@ -87,7 +87,7 @@ In questo caso, è necessario creare una nuova origine dati cross-device in cui 
 
 Guardate il video seguente per un'esercitazione video su come creare un'origine dati per [!UICONTROL People-Based Destinations].
 
-[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=ita)
 
 ## Passaggio 3 - Corrispondenza DPUUID con indirizzi e-mail con hash tramite sincronizzazione ID basata su file {#match-ids-emails}
 
