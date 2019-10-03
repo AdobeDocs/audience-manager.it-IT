@@ -5,7 +5,7 @@ seo-title: Plug-in di Audience Manager per IAB TCF
 solution: Audience Manager
 title: Plug-in di Audience Manager per IAB TCF
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: c238a37e1a72edb0679f657d0178e04b8d848ec2
 
 ---
 
@@ -18,9 +18,9 @@ Un aspetto importante degli obblighi sulla riservatezza nei confronti degli uten
 
 Adobe consente di gestire e comunicare le scelte degli utenti in materia di riservatezza, tramite la [Funzionalità di consenso](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html) e il supporto del [Transparency and Consent Framework (TCF) di IAB](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/).
 
-In questo articolo vengono descritti i casi di utilizzo di Audience Manager che supportano IAB TCF e come implementare tale supporto in Audience Manager. Audience Manager è registrato nell'IAB TCF con l'ID fornitore 565.
+In questo articolo vengono descritti i casi di utilizzo di Audience Manager che supportano IAB TCF e come implementare tale supporto in Audience Manager. Audience Manager is registered in the IAB TCF with the vendor ID 565.
 
-Il plug-in Audience Manager per IAB TCF utilizza la funzionalità [](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)di consenso, che a sua volta fa parte della libreria del servizio Adobe [Experience Cloud ID (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) .
+The Audience Manager Plug-in for IAB TCF utilizes the [Opt-in functionality](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html), which is, in turn, part of the Adobe [Experience Cloud ID Service (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) library.
 
 ## Ambito di applicazione e limitazioni {#scope-and-limitations}
 
@@ -59,23 +59,23 @@ Le finalità standard del quadro IAB sono:
 
 * Archiviazione delle informazioni e accesso
 * Personalizzazione
-* Selezione, consegna e reporting di annunci
+* Ad selection, delivery, and reporting
 * Selezione, distribuzione e reporting dei contenuti
-* Misurazione
+* Measurement
 
-Per una descrizione dei cinque scopi standard, fare riferimento alla pagina [delle specifiche del framework](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features) IAB.
+Refer to the IAB framework specification page for a description of the five standard purposes.[](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#purposes-features)
 
-Gli utenti possono concedere il loro consenso per una combinazione di scopi e fornitori standard. Ad esempio, gli utenti possono concedere il loro consenso per lo storage, la personalizzazione e la misurazione e concedere il loro consenso a tutti i fornitori di terze parti visualizzati dal CMP. Oppure, in un altro esempio, possono concedere il loro consenso per tutti e cinque gli scopi standard, ma solo concedere il consenso ad alcuni dei venditori visualizzati dal CMP.
+Users may grant their consent for a combination of standard purposes and vendors. For example, users could grant their consent for storage, personalization, and measurement and grant their consent to all third-party vendors displayed by the CMP. Or, in another example, they could grant their consent for all five standard purposes but only grant consent to a few of the vendors displayed by the CMP.
 
-Una volta che l'utente seleziona le proprie scelte sulla privacy, le scelte dell'utente vengono registrate nella stringa di consenso IAB TCF. La stringa di consenso IAB TCF memorizza la combinazione di scopi approvati e fornitori, insieme ad altre informazioni sui metadati (vedere la pagina [](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format) IAB per ulteriori informazioni). Ogni fornitore registrato nell'IAB TCF valuta la stringa di consenso IAB TCF e prende decisioni in base alle scelte di privacy degli utenti. Tenere presente che le scelte relative alla privacy degli utenti sono valide per tutti i fornitori approvati.
+Once the user selects their privacy choices, the user choice(s) are recorded in the IAB TCF consent string. The IAB TCF consent string stores the combination of approved purposes and vendors, along with other metadata information (see the IAB page for more information). [](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md#Consent-string-and-vendor-list-format) Every vendor registered in the IAB TCF evaluates the IAB TCF consent string and makes decisions based on the users' privacy choices. Keep in mind that the users' privacy choices are valid across all approved vendors.
 
-## Finalità standard necessarie per Audience Manager {#aam-standard-purposes}
+## Standard purposes needed by Audience Manager {#aam-standard-purposes}
 
-Audience Manager valuta le scelte degli utenti memorizzate nella stringa di consenso TFC IAB per:
+Audience Manager evaluates the users' choices stored in the IAB TFC consent string for:
 
-* Archivio delle informazioni e accesso (ID scopo 1 nell'elenco [dei fornitori](https://vendorlist.consensu.org/vendorlist.json)globali)
-* Personalizzazione (ID scopo 2)
-* Misurazione (scopo ID 5)
+* Information storage and access (purpose ID 1 in the global vendor list)[](https://vendorlist.consensu.org/vendorlist.json)
+* Personalization (purpose ID 2)
+* Measurement (purpose ID 5)
 * Il fornitore di Audience Manager acconsente a archiviare, elaborare o attivare i dati per un editore.
 
 >[!IMPORTANT]
@@ -132,7 +132,7 @@ Il caso d’uso è descritto nell’immagine e nei passaggi seguenti. Iniziate d
 
 ## Partner di attivazione che supportano IAB TCF {#aam-activation-partners}
 
-Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa di consenso IAB TCF ai partner di attivazione, nel rispetto delle scelte sulla privacy degli utenti. Per informazioni su quali partner di attivazione supportano IAB TCF (accurato dal 7 luglio 2019), fare riferimento al nostro foglio **[di Excel](/help/using/overview/aam-gdpr/assets/AAM-Partners-July2019.xlsx)** Partner.
+Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa di consenso IAB TCF ai partner di attivazione, nel rispetto delle scelte sulla privacy degli utenti. Per informazioni su quali partner di attivazione supportano IAB TCF (accurato dal 7 luglio 2019), fare riferimento al nostro foglio **[di Excel](/help/using/overview/aam-gdpr/assets/AAM-Partners-October2019.xlsx)** Partner.
 
 ## Test dell’implementazione IAB {#test-iab-implementation}
 
