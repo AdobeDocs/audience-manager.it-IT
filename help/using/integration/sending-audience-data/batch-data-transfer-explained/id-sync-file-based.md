@@ -1,12 +1,12 @@
 ---
-description: Descrive i campi, la sintassi e le convenzioni di denominazione richiesti per la sincronizzazione ID basata su file. Name and organize your file contents according to these specifications.
-seo-description: Describes the required fields, syntax, and naming conventions used for file-based ID synchronization. Name and organize your file contents according to these specifications.
+description: Descrive i campi, la sintassi e le convenzioni di denominazione richiesti per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti dei file in base alle seguenti specifiche.
+seo-description: Descrive i campi, la sintassi e le convenzioni di denominazione richiesti per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti dei file in base alle seguenti specifiche.
 seo-title: Requisiti di nome e contenuto per i file di sincronizzazione ID
 solution: Audience Manager
 title: Requisiti di nome e contenuto per i file di sincronizzazione ID
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 translation-type: tm+mt
-source-git-commit: 4bc3d7c0a34619e556f58b39b7812a5612050f7f
+source-git-commit: 84c860ca918ae7daf2a5225716fd7db7143089d9
 
 ---
 
@@ -25,7 +25,7 @@ Descrive i campi, la sintassi e le convenzioni di denominazione richiesti per la
 
 I nomi dei file ID contengono i seguenti elementi obbligatori e facoltativi:
 
-*`[adobe_id_]`* _DPID_DPID.gz *`[c2c_id_]`*`MASTERDPID_DPID`*[]*`_TIMESTAMP.sync`*`[.SPLIT_NUMBER]`*[]
+*`[adobe_id_]`* *`[c2c_id_]`*`MASTERDPID_DPID`*`[_DPID]`*`_TIMESTAMP.sync`*`[.SPLIT_NUMBER]`*`[.gz]`
 
 <table id="table_727A465D7C38419CA0750EF32DEDA2FD"> 
  <thead> 
@@ -49,11 +49,11 @@ I nomi dei file ID contengono i seguenti elementi obbligatori e facoltativi:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
-   <td colname="col2"> <p>ID del provider di dati. Questi ID rappresentano entità o origini dati associate al DPID principale. La sincronizzazione mappa i DPID nel nome del file sugli UUID nel file. </p> <p>Il numero di DPID nel nome del file deve corrispondere al numero di UUID nel file di dati. Ad esempio, supponiamo che il nome del file contenga un DPID principale e 3 DPID. Your data file must include 4 corresponding columns of UUIDs, formatted as described in the file content section below. </p> </td> 
+   <td colname="col2"> <p>ID del provider di dati. Questi ID rappresentano entità o origini dati associate al DPID principale. La sincronizzazione mappa i DPID nel nome del file sugli UUID nel file. </p> <p>Il numero di DPID nel nome del file deve corrispondere al numero di UUID nel file di dati. Ad esempio, supponiamo che il nome del file contenga un DPID principale e 3 DPID. Il file di dati deve includere 4 colonne corrispondenti di UUID, formattate come descritto nella sezione del contenuto del file di seguito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>timestamp</i></code> </td> 
-   <td colname="col2"> <p>A 10-digit, UNIX timestamp in seconds. The timestamp helps make each file name unique. </p> </td> 
+   <td colname="col2"> <p>Marca temporale UNIX di 10 cifre, in secondi. La marca temporale consente di rendere univoco ciascun nome file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .sync</code> </p> </td> 
@@ -70,9 +70,9 @@ I nomi dei file ID contengono i seguenti elementi obbligatori e facoltativi:
  </tbody> 
 </table>
 
-### File Name Examples
+### Esempi di nomi file
 
-Gli esempi seguenti mostrano i nomi dei file formattati correttamente. Your file names could look similar.
+Gli esempi seguenti mostrano i nomi dei file formattati correttamente. I nomi dei file potrebbero essere simili.
 
 <ul class="simplelist"> 
  <li> <code> adobe_id_111_222_333_444_145442149.sync</code> </li> 
@@ -90,23 +90,23 @@ Il contenuto di un file ID include i seguenti elementi:
 
 *`UUID`* `<tab>`*`UUID`* `<tab>`*`UUID`*`<tab>` *`UUID`*
 
-Il file contiene gli ID utente ([!DNL UUID]). In ogni riga, separa gli ID con una scheda. L'esempio seguente mostra un file ID formattato correttamente. Your contents could look similar.
+Il file contiene gli ID utente ([!DNL UUID]). In ogni riga, separa gli ID con una scheda. L'esempio seguente mostra un file ID formattato correttamente. Il contenuto potrebbe essere simile.
 
 ```
 abc123 def456 ghi789 xyz987
 ```
 
-## Synchronization Matches DPUUIDs to UUIDs {#sync-matches-dpuuids-uuids}
+## Sincronizzazione con DPUUID per UUID {#sync-matches-dpuuids-uuids}
 
-Lo scopo di un file di sincronizzazione ID è quello di sincronizzare i [DPUUID](../../../reference/ids-in-aam.md) da Origini dati personali con [!DNL Audience Manager] UUID. Synchronization maps the s from the master  and its related s to the  s. Where you put the IDs in the file name and body determines how these identifiers are mapped to each other. [!DNL DPUUID][!DNL DPID][!DNL DPID][!DNL Audience Manager][!DNL UUID] For example, take the two sample files shown here:
+Lo scopo di un file di sincronizzazione ID è quello di sincronizzare i [DPUUID](../../../reference/ids-in-aam.md) da Origini dati personali con [!DNL Audience Manager] UUID. La sincronizzazione mappa gli [!DNL DPUUID]s dal master [!DNL DPID] e i relativi [!DNL DPID]s agli [!DNL Audience Manager][!DNL UUID]s. La posizione in cui gli ID vengono inseriti nel nome e nel corpo del file determina in che modo questi identificatori vengono mappati l'uno sull'altro. Ad esempio, prendete i due file di esempio seguenti:
 
-* **File 1:** `adobe_id_0_12345_1476312152.sync`
+* **** File 1: `adobe_id_0_12345_1476312152.sync`
 
-* **File 2:**  `adobe_id_12345_67890_1476312876.sync`
+* **** File 2:  `adobe_id_12345_67890_1476312876.sync`
 
 <br/>
 
-Given the sample name and contents, the IDs map together like this:
+Dati il nome e il contenuto dell’esempio, gli ID vengono mappati in questo modo:
 
 **File 1** ( [Scarica file](assets/adobe_id_0_12345_1476312152.sync)di esempio)
 
@@ -121,7 +121,7 @@ Given the sample name and contents, the IDs map together like this:
 Passaggio 1: il processo di sincronizzazione ID sincronizzerà gli [!DNL DPUUID]s da [!DNL DPID] 12345 con gli [!DNL Audience Manager] s [!DNL UUID]nella colonna sinistra. Si noti che il [!DNL DPID] "0" nel nome del file rappresenta [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
-**File 2 ( Download sample file)**[](assets/adobe_id_12345_67890_1477846458.sync)
+**File 2** ( [Scarica file](assets/adobe_id_12345_67890_1477846458.sync)di esempio)
 
 | [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|
