@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Acquisizione dei dati di impressione della campagna attraverso Pixel Calls (Chiamate pixel)
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 7f71a099157e81c8d17cf018a4c84a69e2205bb4
+source-git-commit: f072c5328ac75bf3376f80e86418d25d4f10df23
 
 ---
 
@@ -27,9 +27,9 @@ La chiamata dell'evento raccoglie i dati sulle impression e di conversione e li 
 
 Le chiamate evento sono composte da coppie chiave-valore che utilizzano la sintassi seguente:
 
-<pre>
-http://clientname.demdex.net/event?d_event=imp&amp;d_src=datasource_id&amp;d_site=siteID&amp;d_creative=<i>creative_id</i>&amp;d_adgroup=<i>adgroup_id</i>&amp;d_placement=<i>placement_id</i>&amp;d_campaign=<i>campaign_id</i>[&amp;d_cid=(GAID|IDFA)%01 DPUUID]&amp;d_bust=valore buster della cache
-</pre>
+```
+http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
+```
 
 Nella coppia chiave-valore, la variabile valore è un ID o una macro inserita dal server di annunci. Quando il tag dell'annuncio viene caricato, `%macro%` viene sostituito con i valori richiesti e corrispondenti. Questa chiamata non restituisce una risposta.
 
