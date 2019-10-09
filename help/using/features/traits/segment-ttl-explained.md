@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tempo segmento per vivere spiegato
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 translation-type: tm+mt
-source-git-commit: 7e9aada98fe9c18c6fc484255b3c9ff33dc59324
+source-git-commit: 17906734132813984437216f2a6cbc1c7bf14937
 
 ---
 
@@ -19,19 +19,32 @@ L’intervallo di caratteristiche [!UICONTROL time-to-live] ([!DNL TTL]) influis
 
 ## Tempo di vita
 
-[!DNL TTL] Definisce per quanto tempo un visitatore del sito rimane in un segmento dopo l’ultimo evento di qualificazione delle caratteristiche. [!DNL TTL] è impostato sulle caratteristiche e non sui segmenti. I visitatori non rientrano in un segmento se non vedono una caratteristica valida prima della fine dell' [!DNL TTL] intervallo. Il valore predefinito [!DNL TTL] per le nuove caratteristiche è 120 giorni. Se è impostata su 0 giorni, la caratteristica non scade mai. [Impostate il valore](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL quando create o modificate una caratteristica nella [!UICONTROL Advanced Options] sezione dell’interfaccia di creazione delle caratteristiche.
+[!DNL TTL] Definisce per quanto tempo un visitatore del sito rimane in un segmento dopo l’ultimo evento di qualificazione delle caratteristiche. [!DNL TTL] è impostato sulle caratteristiche e non sui segmenti. I visitatori non rientrano in un segmento se non sono idonei per una caratteristica prima della fine dell' [!DNL TTL] intervallo. Il valore predefinito [!DNL TTL] per le nuove caratteristiche è 120 giorni. Se è impostata su 0 giorni, la caratteristica non scade mai. [Impostate il valore](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL quando create o modificate una caratteristica nella [!UICONTROL Advanced Options] sezione dell’interfaccia di creazione delle caratteristiche.
+
+### 1 giorno TTL spiegato
+
+Quando si imposta [!DNL TTL] su 1 giorno, il timer TTL inizia il giorno successivo alla realizzazione della caratteristica, senza contare le ore rimanenti nel giorno di realizzazione della caratteristica.
+
+Audience Manager calcola [!DNL TTL] la scadenza per le caratteristiche con 1 giorno [!DNL TTL] in base alla seguente formula:
+
+`24 + (24 - Hour of the day the trait was realized, in UTC)`
+
+* **Esempio 1**: Un tratto realizzato all'1:00 [!DNL UTC], con 1 giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 1 = 47 ore dopo.
+* **Esempio 2**: Un tratto realizzato alle 23:00 [!DNL UTC], con 1 giorno [!DNL TTL]. [!DNL TTL] Scadrà 24 + 24 - 23 = 25 ore dopo.
 
 ## [!DNL TTL] e per uscire da un segmento
 
-Un utente esce da un segmento se non ne vede alcuna caratteristica all'interno dell' [!DNL TTL] intervallo. Ad esempio, se hai un segmento con 1 caratteristica con 30 giorni [!DNL TTL], l’utente lascerà il segmento se non visualizza nuovamente la caratteristica entro 30 giorni.
+Un utente esce da un segmento se non è idoneo per nessuna delle sue caratteristiche entro l’ [!DNL TTL] intervallo. Ad esempio, se hai un segmento con 1 caratteristica con 30 giorni [!DNL TTL], l’utente lascerà il segmento se non è più idoneo per la caratteristica entro i 30 giorni successivi.
 
-![](assets/ttl_1.png)
+![](assets/ttl-explained.png)
 
 ## [!DNL TTL] e rinnovo dei segmenti
 
-Se visualizzano la caratteristica di quel segmento nel [!DNL TTL] [!DNL TTL] periodo, l’utente viene reimpostato e resta in un segmento. Inoltre, poiché la maggior parte dei segmenti contiene più caratteristiche con [!DNL TTL] periodi specifici, un utente può restare in un segmento (e reimpostare l’ [!DNL TTL] intervallo) purché continui a visualizzare eventuali caratteristiche associate a un segmento. Ad esempio, supponiamo che il segmento 1 sia composto dalla caratteristica A (30 giorni [!DNL TTL]) e dalla caratteristica B (15 giorni [!DNL TTL]). Se l'utente visualizza ogni caratteristica solo una volta, l'illustrazione seguente delinea il processo di [!DNL TTL] rinnovo e la durata totale del segmento.
+Il [!DNL TTL] ripristino e l’utente rimane in un segmento, se soddisfa le caratteristiche di quel segmento entro il [!DNL TTL] periodo. Inoltre, poiché la maggior parte dei segmenti contiene caratteristiche multiple con [!DNL TTL] intervalli propri, un utente può restare in un segmento e reimpostare l’ [!DNL TTL] intervallo, purché mantengano le caratteristiche idonee per qualsiasi caratteristica associata al segmento.
 
-![](assets/ttl_2.png)
+Ad esempio, supponiamo che il segmento 1 sia composto dalla caratteristica A (30 giorni [!DNL TTL]) e dalla caratteristica B (15 giorni [!DNL TTL]). Se un visitatore si qualifica per ogni caratteristica solo una volta, l'illustrazione seguente delinea il processo di [!DNL TTL] rinnovo e la durata totale del segmento.
+
+![](assets/ttl-renewal.png)
 
 ## [!DNL Audience Manager] TTL sono indipendenti dalle impostazioni TTL di terze parti
 
