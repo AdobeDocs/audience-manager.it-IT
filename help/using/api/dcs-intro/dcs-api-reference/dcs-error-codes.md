@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Codici errore DCS, messaggi ed esempi
 uuid: d3290038-567b-4c00-bc95-2set683da5ec
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
 
 ---
 
@@ -40,7 +40,7 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Valore <code> d_orgid</code> non valido (impossibile trovare una configurazione per questo ID organizzazione): <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Valore non valido <code> d_orgid</code> (impossibile trovare una configurazione per questo ID organizzazione): <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>L'ID organizzazione non è corretto. </p> <p>Controlla l’ID e riprova la richiesta. Se non conosci o non conosci il tuo ID organizzazione, consulta la sezione "Pagina di amministrazione" in Amministrazione <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"></a> Experience Cloud per informazioni su come trovarlo. </p> </td> 
   </tr>
  </tbody>
@@ -64,18 +64,23 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   </tr> 
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>ID Experience Cloud non valido passato in <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>La chiamata <span class="wintitle"> DCS</span> contiene un ID <span class="keyword"> Experience Cloud</span> non valido. </p> <p>Controllare la coppia <code> d_mid=</code> key-value nella stringa di intestazione. Assicurati di trasmettere l’ID <span class="keyword"> Experience Cloud</span> corretto e riprova. </p> </td> 
+   <td colname="col2"> <p>ID Experience Cloud non valido passato <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>La chiamata <span class="wintitle"> DCS</span> contiene un ID <span class="keyword"> Experience Cloud</span> non valido. </p> <p>Controllare la coppia chiave-valore nella stringa di intestazione. <code> d_mid=</code> Assicurati di trasmettere l’ID <span class="keyword"> Experience Cloud</span> corretto e riprova. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>ID aam non valido passato nell' <code><i>ID richiesta</i></code> </p> </td> 
-   <td colname="col3"> <p>La chiamata <span class="wintitle"> DCS</span> contiene un ID <span class="keyword"> Audience Manager</span> non valido. </p> <p>Controllare la coppia <code> d_uuid=</code> key-value nella stringa di intestazione. Assicurati di trasmettere l’ID <span class="keyword"> Audience Manager</span> corretto e riprova. </p> </td> 
+   <td colname="col2"> <p>ID aam non valido passato nella richiesta <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>La chiamata <span class="wintitle"> DCS</span> contiene un ID <span class="keyword"> Audience Manager</span> non valido. </p> <p>Controllare la coppia chiave-valore nella stringa di intestazione. <code> d_uuid=</code> Assicurati di trasmettere l’ID <span class="keyword"> Audience Manager</span> corretto e riprova. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>104 </p> </td> 
    <td colname="col2"> <p>Tutti gli ID cliente non sono validi </p> </td> 
    <td colname="col3"> <p>Tutti gli ID cliente nella chiamata non sono validi. Controlla gli ID e riprova. </p> </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"> <p>109</p> </td> 
+   <td colname="col2"> <p>Referente non <code>HTTP referer</code> consentito per il partner <code>Partner ID</code> </p> </td> 
+   <td colname="col3"> <p>L'intestazione [!DNL HTTP referer] nella chiamata non è consentita per l'ID partner nella chiamata. Verificate che l'intestazione [!DNL HTTP referer] sia corretta.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
@@ -98,7 +103,7 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>171 </p> </td> 
-   <td colname="col2"> <p>È stato rilevato un tag di rifiuto per l'ID <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>È stato rilevato il tag di rifiuto per l’ID <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Un cliente ha rinunciato a ricevere pubblicità basata sugli interessi. </p> </td> 
   </tr> 
   <tr> 
@@ -169,7 +174,7 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
-   <td colname="col2"> <p>Impossibile eseguire la migrazione da <code><i>ID</i></code> a <code><i>ID</i></code>. Impossibile leggere il profilo per l' <code><i>ID</i></code> </p> </td>
+   <td colname="col2"> <p>Impossibile eseguire la migrazione da <code><i>ID</i></code> a <code><i>ID</i></code>. Impossibile leggere il profilo per <code><i>ID</i></code> </p> </td>
    <td colname="col3"> <p>Se ricevi questo errore, potrebbero verificarsi problemi di scalabilità con il nostro archivio dati (<span class="wintitle"> PCS</span>). Se il problema persiste, contattate il rappresentante Adobe. </p> </td> 
   </tr> 
  </tbody> 
@@ -193,7 +198,7 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   </tr> 
   <tr> 
    <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>Numero massimo di ID cliente superato. Il valore massimo consentito è <code><i>massimo consentito</i></code>. Trovato il <code><i>massimo</i></code>.</p> </td> 
+   <td colname="col2"> <p>Numero massimo di ID cliente superato. Il valore massimo consentito è <code><i>maximum allowed</i></code>. Trovato <code><i>maximum found</i></code>.</p> </td> 
    <td colname="col3"> <p>Il numero di ID cliente associati a un'origine dati multi-dispositivo supera il numero consentito di ID cross-device per richiesta. Questi ID includono ID per dispositivi diversi, dispositivi mobili o cookie. Il limite è attualmente impostato su 10. </p> </td>
   </tr> 
   <tr> 
@@ -208,7 +213,7 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
-   <td colname="col2"> <p>ID origine dati bloccato <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>ID origine dati bloccata <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>Restituito quando l’ID origine dati è stato identificato come dannoso ed è stato inserito in blacklist. </p> </td> 
   </tr> 
   <tr> 
@@ -223,18 +228,18 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>ID <code><i>ID</i></code> cliente scartato perché superava il limite di ID cliente dichiarati per richiesta </p> </td> 
+   <td colname="col2"> <p>ID cliente <code><i>ID</i></code> scartato perché superava il limite di ID cliente dichiarati per richiesta </p> </td> 
    <td colname="col3"> <p>Relativo all'errore 301. Questo errore specifica quale ID cliente è stato scartato perché il limite è stato superato. </p> <p>Ad esempio, se 12 ID cliente sono dichiarati nella chiamata <span class="wintitle"> DCS</span> , due di essi verranno scartati. Per comunicare quali sono stati scartati, l'errore verrà visualizzato due volte nella risposta (una volta per ciascun ID cliente scartato). </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>ID cliente scartato perché superava il limite per uno spazio nomi specificato. ID spazio dei nomi è <code><i>ID</i></code>, ID cliente è <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Questo codice di errore viene restituito se sono stati dichiarati più di 3 ID cliente per lo stesso spazio nomi (<code> DPID</code>) in una chiamata <span class="wintitle"> DCS</span> . </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In questa richiesta <span class="wintitle"> DCS</span> di esempio, sono stati dichiarati 4 ID per lo stesso namespace (con il codice di integrazione uno). Uno degli ID viene eliminato e viene restituito l’errore 310. </p> </td> 
+   <td colname="col2"> <p>ID cliente scartato perché superava il limite per uno spazio nomi specificato. ID spazio nomi è <code><i>ID</i></code>, ID cliente è <code><i>ID</i></code>. </p> </td> 
+   <td colname="col3"> <p>Questo codice di errore viene restituito se ci sono più di 3 ID cliente dichiarati per lo stesso namespace (<code> DPID</code>) in una chiamata <span class="wintitle"> DCS</span> . </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In questa richiesta <span class="wintitle"> DCS</span> di esempio, sono stati dichiarati 4 ID per lo stesso namespace (con il codice di integrazione uno). Uno degli ID viene eliminato e viene restituito l’errore 310. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
    <td colname="col2"> <p>La richiesta contiene parametri non validi </p> </td> 
-   <td colname="col3"> <p>Il <span class="wintitle"> DCS</span> restituisce questo codice di errore quando almeno un parametro URL non è codificato correttamente. In questo caso, il <span class="wintitle"> DCS</span> ignora l’intera richiesta. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>Nella richiesta di esempio precedente, la sequenza <code> %</code> non è codificata correttamente. Di conseguenza, il <span class="wintitle"> DCS</span> non lo terrà in considerazione. </p> <p>L’esempio codificato correttamente deve essere simile al seguente: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
+   <td colname="col3"> <p>Il <span class="wintitle"> DCS</span> restituisce questo codice di errore quando almeno un parametro URL non è codificato correttamente. In questo caso, il <span class="wintitle"> DCS</span> ignora l’intera richiesta. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>Nella richiesta di esempio precedente, la <code> %</code> sequenza non è codificata correttamente. Di conseguenza, il <span class="wintitle"> DCS</span> non lo terrà in considerazione. </p> <p>L’esempio codificato correttamente deve essere simile al seguente: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
