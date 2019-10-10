@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida utente di Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
+source-git-commit: 3c68d2e04bf35763aa44edff01fd43a8c412ce1f
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
       + [Protezione dei dati](overview/data-security-and-privacy/data-security.md)
       + [Privacy dei dati](overview/data-security-and-privacy/data-privacy.md)
       + [Gestione del rifiuto](overview/data-security-and-privacy/opt-out-management.md)
-   +  Regolamento generale sulla protezione dei dati (GDPR){#gdpr}
+   + Regolamento generale sulla protezione dei dati (GDPR){#gdpr}
       + [GDPR in Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
       + [Considerazioni sul GDPR per le destinazioni](overview/aam-gdpr/aam-gdpr-partners.md)
       + [Domande frequenti sul GDPR](overview/aam-gdpr/aam-gdpr-faq.md)
@@ -186,7 +186,6 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
          + [Convenzioni di denominazione per i file di metadati](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [Formato contenuto per i file di metadati](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
          + [Metodi di consegna per i file di metadati](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-         + [Aggiornamenti di stato per i file di metadati](reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
       + [Report Variazione caratteristica giornaliera](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Rapporti interattivi e sovrapposizione {#interactive-and-overlap-reports}
       + [Panoramica dei rapporti interattivi e di sovrapposizione](reporting/dynamic-reports/dynamic-reports.md)
@@ -207,7 +206,7 @@ source-git-commit: b00a5570dd1d21474fef2295937fc379565f71ba
 + Codice API e SDK{#api-and-sdk-code}
    + [Panoramica delle API e del codice SDK](api/api.md)
    + [Migrazione dei codici API di Audience Manager](api/api-swagger-migration.md)
-   +  Metodi e codice API per Data Collection Server (DCS){#dcs}
+   + Metodi e codice API per Data Collection Server (DCS){#dcs}
       + [Metodi e codice API DCS](api/dcs-intro/dcs-intro.md)
       + Chiamate evento DCS{#dcs-event-calls}
          + [API DCS Event Call](api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
