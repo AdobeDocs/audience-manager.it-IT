@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Generatore di segmenti
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -32,7 +32,7 @@ Per iniziare, guarda il video [](https://images-tv.adobe.com/avp/vr/b7f88801-efe
 1. Nella sezione [Informazioni](../../features/segments/segment-builder.md#segment-builder-controls-basics) di base:
    * Denominate il segmento. La lunghezza massima del nome di un segmento è di 255 caratteri.
    * Imposta lo stato del segmento (attivo è predefinito).
-   * Scegliere un'origine dati. Usate il primo menu a discesa per filtrare tra le origini dati di Audience Manager, le suite di rapporti di Adobe Analytics o entrambe. Quindi, utilizzare il secondo menu a discesa per scegliere l'origine dati. Se non hai suite di rapporti Adobe Analytics, il selettore del tipo di origine dati è disabilitato e puoi visualizzare solo le tue origini dati Audience Manager.
+   * Scegliere un'origine dati. Usate il primo menu a discesa per filtrare tra le origini dati di Audience Manager, le suite di rapporti di Adobe Analytics o entrambe. Quindi, utilizzare il secondo menu a discesa per scegliere l'origine dati. Se non utilizzate suite di rapporti di Adobe Analytics, il selettore del tipo di origine dati è disabilitato e predefinito solo per le origini dati di Audience Manager.
    * Selezionare una regola di unione dei profili da utilizzare per la qualifica del segmento.
    * Assegnare il segmento a una cartella di archiviazione.
 2. Nella sezione [Caratteristiche](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
@@ -76,7 +76,7 @@ In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] le impostazi
   </tr> 
   <tr> 
    <td colname="col1"> <b>Origine dati</b> </td> 
-   <td colname="col2"> <p>Associa il segmento a un fornitore di dati specifico. <p>Usate il primo menu a discesa per filtrare tra le origini dati di Audience Manager, le suite di rapporti di Adobe Analytics o entrambe. Quindi, utilizzare il secondo menu a discesa per scegliere l'origine dati.</p><p> Se non hai suite di rapporti Adobe Analytics, il selettore del tipo di origine dati è disabilitato e puoi visualizzare solo le tue origini dati Audience Manager.</p></p> </td> 
+   <td colname="col2"> <p>Associa il segmento a un fornitore di dati specifico. <p>Usate il primo menu a discesa per filtrare tra le origini dati di Audience Manager, le suite di rapporti di Adobe Analytics o entrambe. Quindi, utilizzare il secondo menu a discesa per scegliere l'origine dati.</p><p> Se non utilizzate suite di rapporti di Adobe Analytics, il selettore del tipo di origine dati è disabilitato e predefinito solo per le origini dati di Audience Manager.</p></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Regola di unione profilo</b> </td> 
