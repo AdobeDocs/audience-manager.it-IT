@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Creare caratteristiche basate su regole o registrate
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: c7efca0cd13f0ca05d926e6675b74ef0170cbce1
+source-git-commit: 9215942bd33af0eabf5143e52edcb249d4ca2cac
 
 ---
 
@@ -53,7 +53,7 @@ In [!UICONTROL Trait Builder], le [!UICONTROL Basic Information] impostazioni co
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Origine dati</span></b> </td> 
-   <td colname="col2"> Associa la caratteristica a un provider di dati specifico. Obbligatorio. <p>Usate il primo menu a discesa per filtrare tra le origini dati di Audience Manager, le suite di rapporti di Adobe Analytics o entrambe. Quindi, utilizzare il secondo menu a discesa per scegliere l'origine dati.</p><p> Se non hai suite di rapporti Adobe Analytics, il selettore del tipo di origine dati è disabilitato e puoi visualizzare solo le tue origini dati Audience Manager.</p>  </td> 
+   <td colname="col2"> Associa la caratteristica a un provider di dati specifico. Obbligatorio. <p>Usate il primo menu a discesa per filtrare tra le origini dati di Audience Manager, le suite di rapporti di Adobe Analytics o entrambe. Quindi, utilizzare il secondo menu a discesa per scegliere l'origine dati.</p><p> Se non utilizzate suite di rapporti di Adobe Analytics, il selettore del tipo di origine dati è disabilitato e predefinito solo per le origini dati di Audience Manager.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Tipo evento</span></b> </td> 
