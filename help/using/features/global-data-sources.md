@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Fonti di dati globali
 uuid: null
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
 
 ---
 
@@ -21,11 +21,12 @@ La tabella seguente descrive le origini dati globali supportate da Audience Mana
 
 | ID origine dati | Descrizione |
 |---|---|
-| 20914 | **Google Advertising ID** - **** GAID rappresentano dispositivi che eseguono il sistema operativo Android. |
-| 20915 | **Apple ID for Advertising** - **** Gli IDFA rappresentano i dispositivi che eseguono il sistema operativo iOS. |
-| 121963 | **Roku ID for Advertising** - **** RIDA rappresentano i dispositivi di streaming Roku. |
-| 389146 | **Microsoft Advertising ID** - **** MAID rappresentano dispositivi con sistema operativo Windows 10. |
-| 404660 | **Samsung** DUID rappresenta Samsung smart TV. |
+| 20914 | **Google Advertising ID** - **** GAID rappresentano dispositivi che eseguono il sistema [!DNL Android] operativo. |
+| 20915 | **Apple ID for Advertising** - **** Gli IDFA rappresentano i dispositivi che eseguono il sistema [!DNL iOS] operativo. |
+| 121963 | **Roku ID for Advertising** - **** RIDA rappresentano dispositivi [!DNL Roku] di streaming. |
+| 389146 | **Microsoft Advertising ID** - **** MAID rappresentano i dispositivi che eseguono il sistema [!DNL Windows 10] operativo. |
+| 404660 | **Samsung** DUID rappresenta [!DNL Samsung] smart TV. |
+| 488258 | **Amazon Fire TV Advertising** ID rappresentano dispositivi in esecuzione [!DNL Amazon Fire OS] |
 
 ## Importazione di dati da origini dati globali
 
