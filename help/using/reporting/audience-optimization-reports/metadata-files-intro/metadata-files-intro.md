@@ -6,7 +6,7 @@ solution: Audience Manager
 title: File di dati e metadati per report di ottimizzazione dell'audience
 uuid: 80aa4bc3-c660-4e65-8c22-2dbb7bddd4f
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
 
 ---
 
@@ -24,8 +24,3 @@ Un file di dati contiene dati di impression, clic o conversione che puoi importa
 * [Convenzioni di denominazione per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
 * [Formato contenuto per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
 * [Metodi di consegna per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
-* [Aggiornamenti di stato per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-update-status.md)
-
-
-
-
