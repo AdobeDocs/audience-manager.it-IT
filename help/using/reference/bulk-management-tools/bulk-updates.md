@@ -1,20 +1,20 @@
 ---
-description: Un aggiornamento in blocco consente di modificare più segmenti, caratteristiche, elementi di segmenti o cartelle di caratteristiche in una singola operazione. Seguite queste istruzioni per effettuare aggiornamenti in blocco.
+description: Un aggiornamento in blocco consente di modificare più segmenti, caratteristiche, modelli, origini dati ed elementi della cartella dei segmenti o delle caratteristiche in un'unica operazione. Seguite queste istruzioni per effettuare aggiornamenti in blocco.
 keywords: baaam
-seo-description: Un aggiornamento in blocco consente di modificare più segmenti, caratteristiche, elementi di segmenti o cartelle di caratteristiche in una singola operazione. Seguite queste istruzioni per effettuare aggiornamenti in blocco.
+seo-description: Un aggiornamento in blocco consente di modificare più segmenti, caratteristiche, modelli, origini dati ed elementi della cartella dei segmenti o delle caratteristiche in un'unica operazione. Seguite queste istruzioni per effettuare aggiornamenti in blocco.
 seo-title: Aggiornamenti di massa
 solution: Audience Manager
 title: Aggiornamenti di massa
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
 
 ---
 
 
 # Aggiornamenti di massa{#bulk-updates}
 
-Un aggiornamento in blocco consente di modificare più segmenti, caratteristiche, elementi di segmenti o cartelle di caratteristiche in una singola operazione. Seguite queste istruzioni per effettuare aggiornamenti in blocco.
+Un aggiornamento in blocco consente di modificare più segmenti, caratteristiche, modelli, origini dati ed elementi della cartella dei segmenti o delle caratteristiche in un'unica operazione. Seguite queste istruzioni per effettuare aggiornamenti in blocco.
 
 <!-- 
 
