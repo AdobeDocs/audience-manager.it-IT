@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Richieste in blocco
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: cb17d417aa6b3cc213e69c5d71051f235d81c2a5
 
 ---
 
@@ -32,10 +32,11 @@ Per eseguire richieste in massa, aprire il [!UICONTROL Bulk Management Tools] fo
 1. Click the **[!UICONTROL Request]** tab.
 2. Nella barra degli strumenti nella parte superiore del foglio di lavoro, fare clic su un pulsante di richiesta corrispondente ai dati con cui si desidera lavorare. Potete richiedere:
 
-   * ID del provider di dati
+   * Modelli algoritmici
+   * Origini dati
    *  Segnali derivati
    * Mappature di destinazione
-   * Caratteristiche basate su regole e barrate
+   * Caratteristiche algoritmiche, basate su regole e integrate
    * Segmenti
    * ID cartella caratteristiche e segmento
    L' [!DNL Audience Manager] API riscrive i dati in massa nel [!UICONTROL Request] foglio di lavoro.
