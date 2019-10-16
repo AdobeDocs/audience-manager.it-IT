@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Metriche dei rapporti per le regole di unione dei profili
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
-#  Metriche dei rapporti per le regole di unione dei profili {#report-metrics-for-profile-merge-rules}
+# Metriche dei rapporti per le regole di unione dei profili {#report-metrics-for-profile-merge-rules}
 
-[!UICONTROL Profile Link] le metriche forniscono dati sulle persone e sui dispositivi che eseguono l'autenticazione sul sito. I dati e i grafici in [!UICONTROL Profile Link] questione si aggiornano dinamicamente durante la creazione di regole di unione o quando si fa clic su una regola esistente dal [!UICONTROL Profile Merge Rules] dashboard. Tali metriche possono includere grafico del dispositivo da origini del grafico del dispositivo [!DNL Adobe Experience Cloud Device Co-op] o da altre origini del grafico del dispositivo di terze parti.
+[!UICONTROL Profile Merge Rule] le metriche forniscono dati sulle persone e sui dispositivi che eseguono l'autenticazione sul sito. I dati e i grafici in [!UICONTROL Profile Merge Rule Reports] questione si aggiornano in modo dinamico durante la creazione di una regola di unione o quando si fa clic su una regola esistente dal [!UICONTROL Profile Merge Rules] dashboard. Queste metriche possono includere grafici dispositivo da origini di grafici dispositivo [!DNL Adobe Experience Cloud Device Co-op] o da altre origini di grafici dispositivo di terze parti.
 
 ## Unisci metriche regola {#merge-rule-metrics}
 
@@ -32,7 +32,7 @@ I rapporti restituiscono i dati sotto forma di grafici a barre affiancati quando
    <td colname="col2"> <p>Mostra: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Persone</span>attive: Numero di persone che hanno eseguito l’autenticazione sul sito per gli ultimi 60 giorni. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Dispositivo</span>incrociato: Il numero totale di ID <a href="../../features/profile-merge-rules/merge-rules-start.md#create-data-source"> di</a> dispositivi diversi <a href="../../features/manage-datasources.md#create-data-source"> memorizzati nell'origine</a> dati del profilo <a href="../../features/profile-merge-rules/merge-rule-definitions.md"></a> autenticato selezionato per tutta la durata di vita dell'origine dati. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Dispositivo</span>incrociato: Il numero totale di ID <a href="merge-rules-start.md#create-data-source"> di</a> dispositivi diversi <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> memorizzati nell'origine</a> dati del profilo <a href="merge-rule-definitions.md"></a> autenticato selezionato per tutta la durata di vita dell'origine dati. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % persone</span>attive: Mostra <span class="wintitle"> persone</span> attive come %. </li> 
     </ul> <p> <span class="wintitle"> Attività</span> autenticata consente di confrontare le origini dati per attività, volume e percentuale. Può essere utile per trovare un'origine dati con molte persone e un'alta percentuale di utenti attivi. Oppure, puoi trovare un valore nel confronto tra origini dati con un'elevata percentuale di utenti attivi rispetto alla dimensione totale del pubblico. Ad esempio, a volte un'origine dati con un numero totale di ciclo di vita basso e un'attività elevata è più preziosa di quella con risultati di durata elevata e numeri di attività ridotti. </p> <p> <p>Nota: Le metriche <span class="wintitle"> Attività</span> autenticate contengono solo dati di collegamento <span class="wintitle"></span> profilo. Questo rapporto non include i dati di <span class="wintitle"> Device Graph</span> . </p> </p> </td> 
   </tr> 
@@ -104,19 +104,17 @@ I [!UICONTROL Merge Rules] rapporti mostrano inoltre i dati sul numero totale di
 
 Un [!UICONTROL Profile Link] rapporto standard è simile al seguente. Le regole di unione che utilizzano più origini dati (fino a 3, massimo) mostrano grafici in schede separate per ogni origine dati. Questa regola di unione non include [!UICONTROL Device Co-op] dati.
 
-![](assets/coop-metrics1.png)
+![](assets/profile-link-metrics.png)
 
 ### Report Collegamento Profilo Con Dati Grafico Dispositivo
 
-Un [!UICONTROL Profile Link] report che include i dati del grafico del dispositivo dal grafico del dispositivo [!UICONTROL Adobe Experience Cloud Device Co-op] o da un grafico di terze parti mostra [!UICONTROL Profile Link] e i dati del grafico del dispositivo con grafici a barre affiancati. Posizionando questi grafici adiacenti è possibile valutare i vantaggi derivanti dall’utilizzo dei grafici [!UICONTROL Experience Cloud Device Co-op] rispetto a [!UICONTROL Profile Link] se stessi. Le regole di unione che utilizzano più origini dati (fino a 3, massimo) mostrano grafici in schede separate per ogni origine dati. Come promemoria, il [!UICONTROL Authenticated Activity] grafico e le metriche non restituiscono i dati dal grafico del [!DNL Adobe] dispositivo o da altri grafici del dispositivo di terze parti a cui puoi accedere in [!DNL Audience Manager].
+Un [!UICONTROL Profile Link Device Graph] report che include i dati del grafico del dispositivo dal grafico del dispositivo [!UICONTROL Adobe Experience Cloud Device Co-op] o da un grafico di terze parti mostra [!UICONTROL Profile Link] e i dati del grafico del dispositivo con grafici a barre affiancati. Posizionando questi grafici adiacenti è possibile valutare i vantaggi derivanti dall’utilizzo dei grafici [!UICONTROL Experience Cloud Device Co-op] rispetto a [!UICONTROL Profile Link] se stessi. Le regole di unione che utilizzano più origini dati (fino a 3, massimo) mostrano grafici in schede separate per ogni origine dati. Come promemoria, il [!UICONTROL Authenticated Activity] grafico e le metriche non restituiscono i dati dal grafico del [!DNL Adobe] dispositivo o da altri grafici del dispositivo di terze parti a cui puoi accedere in [!DNL Audience Manager].
 
-![](assets/coop-metrics2.png)
+![](assets/profile-link-graph.png)
 
 ## Grafici di tendenza collegamenti profilo {#profile-link-trend}
 
 Oltre alle altre visualizzazioni di dati, [!UICONTROL Profile Link] i rapporti includono un grafico a linee. Il grafico a linee è progettato per mostrare le tendenze nel tempo per le regole del profilo. I grafici delle tendenze (e gli altri rapporti) sono disponibili quando si fa clic su una regola dalla pagina di [!UICONTROL Profile Merge Rules] destinazione ( **[!UICONTROL Audience Data > Profile Merge Rules]**). Questi grafici includono i dati del grafico del dispositivo se siete membri del grafico del dispositivo [!UICONTROL Device Co-op] o di altri grafici di terze parti a cui potete accedere in [!DNL Audience Manager]. Fare clic su una linea di tendenza per visualizzare i dati sottostanti.
-
-![](assets/authenticated_trends.png)
 
 >[!MORE_LIKE_this]
 >
