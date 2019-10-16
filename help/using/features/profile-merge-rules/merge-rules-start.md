@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Guida introduttiva alle regole di unione dei profili
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 28d1292140a56cf1627a8921876d9483221876ca
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
@@ -25,23 +25,23 @@ Per creare un'origine dati multi-dispositivo, passare a **[!UICONTROL Audience D
 
 >[!TIP]
 >
->Per una descrizione di questi diversi controlli, vedere Impostazioni origine [dati e Opzioni](../../features/datasources-list-and-settings.md#settings-menu-options) menu.
+>Per una descrizione di questi diversi controlli, vedere Impostazioni origine [dati e Opzioni](../datasources-list-and-settings.md#settings-menu-options) menu.
 
 ## Dettagli origine dati {#details}
 
 Per completare la [!UICONTROL Data Source Details] sezione:
 
 1. Denominare l'origine dati.
-1. *(Facoltativo)* Descrivere l'origine dati. Una breve descrizione consente di definire il ruolo o lo scopo dell'origine dati.
-1. Fornite un codice di integrazione. Un codice di integrazione è il tuo ID univoco per questa origine dati.
-1. Nell' **[!UICONTROL ID Type]** elenco, selezionare **[!UICONTROL Cross Device]**.
-1. Nell' **[!UICONTROL ID Definition]** elenco, selezionare un'opzione che definisce il tipo di origine dati. Le opzioni includono:
+2. *(Facoltativo)* Descrivere l'origine dati. Una breve descrizione consente di definire il ruolo o lo scopo dell'origine dati.
+3. Fornite un codice di integrazione. Un codice di integrazione è il tuo ID univoco per questa origine dati.
+4. Nell' **[!UICONTROL ID Type]** elenco, selezionare **[!UICONTROL Cross Device]**.
+5. Nell' **[!UICONTROL ID Definition]** elenco, selezionare un'opzione che definisce il tipo di origine dati. Le opzioni includono:
    * **[!UICONTROL Person]**: Un ID che definisce una singola persona. Questo ID può essere mappato su più [!DNL Audience Manager] ID.
    * **[!UICONTROL Household]**: Un ID che definisce un gruppo di persone. Questo ID può essere mappato su più [!DNL Audience Manager] ID.
 
 ## Controlli sull'esportazione dei dati {#export-controls}
 
-[I Controlli](../../features/data-export-controls.md) sull'esportazione dei dati sono regole di classificazione facoltative applicabili a un'origine dati e a una destinazione. Impediscono l'invio di dati a una destinazione in caso di violazione della privacy dei dati o dell'accordo di utilizzo. Saltate questa sezione se non utilizzate [!UICONTROL Data Export Controls].
+[I Controlli](../data-export-controls.md) sull'esportazione dei dati sono regole di classificazione facoltative applicabili a un'origine dati e a una destinazione. Impediscono l'invio di dati a una destinazione in caso di violazione della privacy dei dati o dell'accordo di utilizzo. Saltate questa sezione se non utilizzate [!UICONTROL Data Export Controls].
 
 ## Data Source Settings {#settings}
 
@@ -53,11 +53,11 @@ Per completare la [!UICONTROL Data Source Details] sezione:
 
 * **[!UICONTROL Data retention for inactive Customer IDs]**: Questo controllo consente di impostare il periodo di conservazione dei dati per gli ID cliente inattivi. Questo determina per quanto tempo Audience Manager mantiene gli ID cliente nel nostro database dopo che sono stati visti per l’ultima volta sulla piattaforma Audience Manager. Il valore predefinito è 24 mesi (720 giorni). Il valore minimo è 1 mese e il valore massimo è 5 anni. Teniamo presente che contiamo tutti i mesi come 30 giorni. Audience Manager esegue un processo che elimina gli ID cliente inattivi una volta alla settimana, in conformità con la conservazione dei dati impostata per gli ID cliente inattivi.
 
-I campi di testo associati a queste impostazioni consentono di rinominare l'oggetto [!UICONTROL Data Source] con un alias visualizzato nelle opzioni [Regola unione](../../features/profile-merge-rules/merge-rule-definitions.md)profilo. Ad esempio, se aggiungete un alias a **[!UICONTROL Use as Authenticated Profile]**, il nome verrà visualizzato nell' [!UICONTROL Authenticated Profile Options] elenco. Se aggiungete un alias a **[!UICONTROL Use as a Device Graph]**, il nome verrà visualizzato nell' [!UICONTROL Device Options] elenco.
+I campi di testo associati a queste impostazioni consentono di rinominare l'oggetto [!UICONTROL Data Source] con un alias visualizzato nelle opzioni [Regola unione](merge-rule-definitions.md)profilo. Ad esempio, se aggiungete un alias a **[!UICONTROL Use as Authenticated Profile]**, il nome verrà visualizzato nell' [!UICONTROL Authenticated Profile Options] elenco. Se aggiungete un alias a **[!UICONTROL Use as a Device Graph]**, il nome verrà visualizzato nell' [!UICONTROL Device Options] elenco.
 
 >[!MORE_LIKE_this]
 >
->* [Creazione di un'origine dati](../../features/manage-datasources.md#create-data-source)
+>* [Creazione di un'origine dati](../manage-datasources.md#create-data-source)
 
 
 ## Creare una regola di unione dei profili {#create-profile-merge-rule}
@@ -66,11 +66,11 @@ Per creare un [!UICONTROL Profile Merge Rule], andate a **[!UICONTROL Audience D
 
 <!-- create-profile-merge-rule.xml -->
 
-**** Prerequisiti: Per creare un'origine dati multi-dispositivo è necessaria un'origine dati [!UICONTROL Profile Merge Rule]. Consulta [Creare un'origine](../../features/manage-datasources.md#create-data-source)dati.
+**** Prerequisiti: Per creare un'origine dati multi-dispositivo è necessaria un'origine dati [!UICONTROL Profile Merge Rule]. Consulta [Creare un'origine](../manage-datasources.md#create-data-source)dati.
 
 >[!TIP]
 >
->Per le descrizioni di questi diversi controlli, consultate Opzioni regole di unione [profilo](../../features/profile-merge-rules/merge-rule-definitions.md) .
+>Per le descrizioni di questi diversi controlli, consultate Opzioni regole di unione [profilo](merge-rule-definitions.md) .
 
 ## Informazioni di base {#basic-info}
 
@@ -82,7 +82,7 @@ Per completare la [!UICONTROL Basic Information] sezione:
 
 ## Controlli sull'esportazione dei dati {#data-export-controls}
 
-[I controlli](../../features/data-export-controls.md) di esportazione dei dati sono regole di classificazione facoltative che puoi applicare al tuo [!UICONTROL Profile Merge Rule]. Impediscono l'invio di dati a una destinazione in caso di violazione della privacy dei dati o dell'accordo di utilizzo. Saltate questa sezione se non utilizzate [!UICONTROL Data Export Controls].
+[I controlli](../data-export-controls.md) di esportazione dei dati sono regole di classificazione facoltative che puoi applicare al tuo [!UICONTROL Profile Merge Rule]. Impediscono l'invio di dati a una destinazione in caso di violazione della privacy dei dati o dell'accordo di utilizzo. Saltate questa sezione se non utilizzate [!UICONTROL Data Export Controls].
 
 ## Impostazione regola di unione profilo {#profile-merge-rule-setup}
 
@@ -92,7 +92,7 @@ Per completare la [!UICONTROL Proflie Merge Rule Setup] sezione:
    * **[!UICONTROL No Authenticated Profile]**
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
-2. Selezionate un **[!UICONTROL Authenticated Profile Option]** (fino a 3, massimo). Si tratta delle origini [dati](../../features/profile-merge-rules/merge-rules-start.md) cross-device create in precedenza.
+2. Selezionate un **[!UICONTROL Authenticated Profile Option]** (fino a 3, massimo). Si tratta delle origini [dati](merge-rules-start.md) cross-device create in precedenza.
 3. Seleziona una **[!UICONTROL Device Option]**. Le opzioni includono:
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**
@@ -112,7 +112,7 @@ Seguire queste istruzioni per impostare il [!UICONTROL Experience Cloud ID Servi
 
 ## Per i clienti del servizio Experience Cloud ID {#id-service-customers}
 
-Quando si lavora con [!UICONTROL Experience Cloud ID Service] DIL [, si consiglia di utilizzare la versione più recente di](../../dil/dil-overview.md) DIL [!UICONTROL Profile Merge Rules]. Tuttavia, non è necessario utilizzare la funzione [!UICONTROL Experience Cloud ID Service] per utilizzarla. Se utilizzi solo [!UICONTROL DIL]questa opzione, consulta la sezione [DIL](../../features/profile-merge-rules/merge-rules-start.md#legacy-dil) precedente riportata di seguito.
+Quando si lavora con [!UICONTROL Experience Cloud ID Service] DIL [, si consiglia di utilizzare la versione più recente di](../../dil/dil-overview.md) DIL [!UICONTROL Profile Merge Rules]. Tuttavia, non è necessario utilizzare la funzione [!UICONTROL Experience Cloud ID Service] per utilizzarla. Se utilizzi solo [!UICONTROL DIL]questa funzione, consulta la sezione [DIL](#legacy-dil) precedente riportata di seguito.
 
 ### Configurare la funzione Imposta ID cliente
 
@@ -140,11 +140,16 @@ Per ulteriori informazioni, vedi [Creare un'origine](#create-data-source) dati e
 
 ### Configura `DIL.create` funzione
 
-Le versioni più recenti di [!UICONTROL DIL] ora recuperano automaticamente la [!UICONTROL declared ID] funzione dalla `visitorService` funzione in `DIL.create` (vedere Variabili [ID](../../features/declared-ids.md#declared-id-variables)dichiarate). Controllare la `DIL.create` funzione per assicurarsi che sia impostata correttamente, come mostrato nell'esempio di codice seguente.
+Le versioni più recenti di [!UICONTROL DIL] ora recuperano automaticamente la [!UICONTROL declared ID] funzione dalla `visitorService` funzione in `DIL.create` (vedere Variabili [ID](../declared-ids.md#declared-id-variables)dichiarate). Controllare la `DIL.create` funzione per assicurarsi che sia impostata correttamente, come mostrato nell'esempio di codice seguente.
 
-<pre class="js"><code>
-var vDil = DIL.create({ partner:"partner name", visitorService:{ namespace:"<i>INSERT-MCORG-ID-HERE</i>" }});
-</code></pre>
+```js
+var vDil = DIL.create({
+   partner:"partner name",
+   visitorService:{
+      namespace:"INSERT-MCORG-ID-HERE"
+   }
+});
+```
 
 Nella coppia chiave-valore dello spazio dei nomi, la variabile `*`MCORG`*` è l’ID [!DNL Experience Cloud] organizzazione. Se non disponete di questo ID, potete trovarlo nella [!UICONTROL Administration] sezione del [!DNL Experience Cloud] dashboard. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
 
@@ -156,11 +161,17 @@ Consulta la sezione [Configura SDK](#configure-sdks-legacy-dil) di seguito.
 
 Se non usi [!DNL Experience Cloud ID Service] ancora, dovresti davvero farlo. Ma sappiamo che per passare a un nuovo codice è necessario un attento esame e riflessione. In questi casi, controllare la `DIL.create` funzione per assicurarsi che sia impostata correttamente come mostrato nel codice di esempio riportato di seguito.
 
-<pre class="js"><code>
-DIL.create({ partner:"partner name", dichiaratoId:{ dpuuid:<i>dpuuid</i>, dpid:<i>dpid</i>}});
-</code></pre>
+```js
+DIL.create({
+   partner: "partner name",
+   declaredId:{
+      dpuuid: YOUR_DPUUID,
+      dpid: YOUR_DPID
+   }
+});
+```
 
-Per ulteriori informazioni, consulta la [!UICONTROL DIL] sezione precedente in Variabili [ID](../../features/declared-ids.md#declared-id-variables)dichiarate.
+Per ulteriori informazioni, consulta la [!UICONTROL DIL] sezione precedente in Variabili [ID](../declared-ids.md#declared-id-variables)dichiarate.
 
 ### Configurare gli SDK {#configure-sdks-legacy-dil}
 
@@ -185,11 +196,13 @@ Controllate i metodi nel [!DNL SDK] codice che consentono di passare [!UICONTROL
    <td colname="col1"> <p> <b> iOS </b> </p> </td> 
    <td colname="col2"> <p> <code> audienceSetDpid:dpuuid </code> </p> <p> <b>Sintassi:</b> </p><p>
     <code class="javascript">
-      + (void) audienceSetDpid:(NSString *)dpid dpuuid:(NSString *)dpuuid; 
+      +&nbsp;(void)&nbsp;audienceSetDpid:(NSString&nbsp;*)dpid 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:(NSString&nbsp;*)dpuuid; 
     </code></p>
     <p> <b>Esempio:</b> </p><p>
     <code class="javascript">
-      [ADBMobile audienceSetDpid:@"290" dpuuid:@"99301393923940"];
+      [ADBMobile&nbsp;audienceSetDpid:@"290"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
     </code></p>
     </td>
   </tr>
