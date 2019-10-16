@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentazione prodotto Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
@@ -20,8 +20,9 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
   <tr> 
    <td colname="col1"> <p> <b>Novità e funzioni</b> </p> <p>Scopri le funzionalità più recenti di Audience Manager:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
+    <li><a href="features/profile-merge-rules/merge-rules-overview.md">Miglioramenti delle regole di unione dei profili</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Aggiornamento degli strumenti di gestione in blocco</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts">HTTP Strict-Transport-Security</a></li>
+     <li><a href="overview/data-security-and-privacy/data-security.md#hsts">HTTP Strict-Transport-Security</a></li>
      <li><a href="features/destinations/people-based-destinations-overview.md">Destinazioni basate sulle persone</a> </li>
      <li><a href="features/destinations/twitter-tailored-audiences.md">Configurare l'audience personalizzata di Twitter come destinazione autonoma basata su dispositivo</a> </li>
      <li><a href="features/destinations/destinations-home.md">Home page Destinazioni</a> </li>
