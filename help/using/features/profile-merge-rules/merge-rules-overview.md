@@ -6,14 +6,16 @@ solution: Audience Manager
 title: Panoramica delle regole di unione dei profili
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 translation-type: tm+mt
-source-git-commit: f42267d3acf2570fc87d50c4c4e65826902d9e55
+source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 ---
 
 
 # Panoramica delle regole di unione dei profili {#profile-merge-rules-overview}
 
-Grazie a [!UICONTROL Profile Merge Rules] questa funzionalità puoi controllare i set di dati utilizzati per la segmentazione e indirizzare una persona in modo preciso su più dispositivi.
+Grazie a [!UICONTROL Profile Merge Rules] questa opzione è possibile controllare i set di dati utilizzati per la segmentazione e indirizzare gli utenti in modo accurato su più dispositivi.
+
+>[!VIDEO](https://video.tv.adobe.com/v/28974?captions=ita)
 
 ## Raccolta e targeting dei dati con profili anonimi e autenticati {#data-collection-targeting}
 
@@ -21,7 +23,7 @@ In genere, la segmentazione del pubblico e il targeting si basano sui dati racco
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] modifica in modo sostanziale il modo in cui [!DNL Audience Manager] raccoglie dati e segmenti gli utenti per il targeting. Consente di lavorare con due tipi distinti di profili, un profilo dispositivo e un profilo autenticato.
+[!UICONTROL Profile Merge Rules] modifica in modo sostanziale il modo in cui [!DNL Audience Manager] raccoglie dati e segmenti gli utenti per il targeting. Consente di lavorare con due tipi distinti di profili, un profilo dispositivo e un profilo [](../../reference/visitor-authentication-states.md)autenticato.
 
 <table id="table_CE98C0E32A964B27804736A896233869"> 
  <thead> 
@@ -50,7 +52,7 @@ In genere, la segmentazione del pubblico e il targeting si basano sui dati racco
  </tbody>
 </table>
 
-Questi profili differenti controllano i dati che potete utilizzare per la segmentazione. Ad esempio, con un profilo autenticato, puoi creare segmenti precisi basati su dati provenienti da più dispositivi per una singola persona. Questo significa che puoi offrire ai clienti un'esperienza di marchio coerente su più dispositivi. Inoltre, l'autenticazione cross-device consente [!DNL Audience Manager] di mappare le diverse piattaforme utilizzate da una persona per le sue attività online. Questo si chiama il [!UICONTROL Profile Link Device Graph].
+Questi profili differenti controllano i dati che potete utilizzare per la segmentazione. Ad esempio, con un profilo [](../../reference/visitor-authentication-states.md)autenticato puoi creare segmenti precisi basati su dati provenienti da più dispositivi per un singolo utente. Questo significa che puoi offrire ai clienti un'esperienza di marchio coerente su più dispositivi. Audience Manager ottiene questo risultato memorizzando la mappatura dei diversi dispositivi utilizzati da una persona per le sue attività online sul suo profilo [](../../reference/visitor-authentication-states.md)autenticato. Tali mappature sono denominate [!UICONTROL Profile Link Device Graph].
 
 ![](assets/authenticated2.png)
 
@@ -58,23 +60,8 @@ Questi profili differenti controllano i dati che potete utilizzare per la segmen
 
 È [!UICONTROL Profile Merge Rules] possibile:
 
-* Esegue il targeting degli utenti in base a profili autenticati, profili anonimi o combinazioni di entrambi.
+* Esegue il targeting degli utenti in base a profili [](../../reference/visitor-authentication-states.md)autenticati, profili anonimi o combinazioni di entrambi.
 * Esegue il targeting di un cliente specifico tra i suoi dispositivi.
 * Crea un grafico del dispositivo basato su dati deterministici.
 * Ottimizza i dati nei tuoi segmenti in base a diversi profili.
 * Ulteriori informazioni sul pubblico.
-
-## Getting started {#getting-started}
-
-Per ulteriori informazioni, consulta le sezioni seguenti e le [domande frequenti](../../faq/faq-profile-merge.md) [!UICONTROL Profile Merge Rules].
-
-* [Guida introduttiva alle regole di unione dei profili](/help/using/features/profile-merge-rules/merge-rules-start.md)
-* [Dashboard regole di unione profilo](/help/using/features/profile-merge-rules/merge-rules-dashboard.md)
-* [Opzioni Regola di unione profilo definite](/help/using/features/profile-merge-rules/merge-rule-definitions.md)
-* [Casi di utilizzo generali per le regole di unione dei profili](/help/using/features/profile-merge-rules/merge-rule-targeting-options.md)
-* [Casi di utilizzo del grafico dei collegamenti profilo](/help/using/features/profile-merge-rules/profile-link-use-case.md)
-* [Casi d'uso dei grafici dei dispositivi esterni](/help/using/features/profile-merge-rules/external-graph-use-cases.md)
-* [Metriche dei rapporti per le regole di unione dei profili](/help/using/features/profile-merge-rules/profile-link-metrics.md)
-* [Regole di unione dei profili e processi di rimozione della segmentazione del dispositivo](/help/using/features/profile-merge-rules/merge-rule-unsegment.md)
-* [Soppressione immediata su diversi dispositivi](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)
-* [Considerazioni importanti per le regole di unione dei profili con i grafici del dispositivo](/help/using/features/profile-merge-rules/considerations-pmr-device-graph.md)
