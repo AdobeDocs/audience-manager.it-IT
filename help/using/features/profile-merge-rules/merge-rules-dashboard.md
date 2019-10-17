@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dashboard regole di unione profilo
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -23,7 +23,7 @@ Il [!UICONTROL Profile Merge Rules] dashboard fornisce un'area di lavoro unifica
 
 Quando lavorate con [!UICONTROL Profile Merge Rules], potete:
 
-* Crea un massimo di 4 regole dalle origini dati cross-device. Consultate [Creare un'origine](merge-rules-start.md#create-data-source)dati multi-dispositivo.
+* Crea un massimo di 4 [!UICONTROL Profile Merge Rules] da origini dati cross-device. Consultate [Creare un'origine](merge-rules-start.md#create-data-source)dati multi-dispositivo.
 * Designare una regola di unione predefinita. [Generatore](../segments/segment-builder.md) di segmenti applica automaticamente la regola predefinita a tutti i nuovi segmenti creati.
 * Applica controlli [di esportazione](../data-export-controls.md) dati a una regola di unione. [!UICONTROL Data Export Controls] impedire l'invio di dati alle destinazioni qualora ciò violi la privacy dei dati o l'utilizzo di accordi.
 * Consente di tenere traccia del numero medio di dispositivi per ogni utente.
