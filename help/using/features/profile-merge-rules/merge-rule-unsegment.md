@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Regole di unione dei profili e processi di rimozione della segmentazione del dispositivo
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
 
 ---
 
@@ -32,7 +32,7 @@ Come promemoria, [!UICONTROL Device Options] sono disponibili nella [!UICONTROL 
 
 [!DNL Audience Manager] può rimuovere un ID cross-device da un segmento quando [!UICONTROL Profile Merge Rule] utilizza l'opzione **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** . In queste condizioni, la segmentazione avviene quando l'ID cross-device non si qualifica più per un segmento perché gli aggiornamenti o le modifiche al profilo cross-device non lo qualificano più. Ciò si verifica quando i criteri di qualificazione del segmento cambiano, o si applica un [!UICONTROL AND NOT] operatore a una regola del segmento, o si specificano le condizioni di [aggiornamento e frequenza](../segments/recency-and-frequency.md) che utilizzano le impostazioni minore di/uguale a. I casi di utilizzo sono descritti nella documentazione [Instant Cross-Device Suppression](instant-cross-device-suppression.md) .
 
-![](../assets/current-no-device.png)
+![](assets/current-no-device.png)
 
 ## Opzioni di Device Graph e Separazione dispositivo {#device-graph-options-unsegmentation}
 
