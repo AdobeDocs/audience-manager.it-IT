@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Guida introduttiva alle regole di unione dei profili
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
 
 ---
 
@@ -62,7 +62,11 @@ I campi di testo associati a queste impostazioni consentono di rinominare l'ogge
 
 ## Creare una regola di unione dei profili {#create-profile-merge-rule}
 
-Per creare un [!UICONTROL Profile Merge Rule], andate a **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** e completate i passaggi per ciascuna sezione descritta qui. È possibile creare fino a 3 regole di unione dopo la configurazione di un'origine dati multi-dispositivo. Per creare, modificare o eliminare una regola sono necessarie autorizzazioni di amministratore. Tutti gli utenti possono visualizzare e utilizzare gli [!UICONTROL Profile Merge Rules]elementi esistenti.
+Per creare un [!UICONTROL Profile Merge Rule], andate a **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** e completate i passaggi per ciascuna sezione descritta qui.
+
+È possibile creare fino a 3 regole di unione dopo la configurazione di un'origine dati multi-dispositivo. Se ti iscrivi a Destinazioni[!UICONTROL All Cross-Device Profiles]basate sulle [persone, puoi accedere a una regola di unione dei 4° profilo (](../destinations/people-based-destinations-overview.md)).
+
+Per creare, modificare o eliminare una regola sono necessarie autorizzazioni di amministratore. Tutti gli utenti possono visualizzare e utilizzare gli [!UICONTROL Profile Merge Rules]elementi esistenti.
 
 <!-- create-profile-merge-rule.xml -->
 
