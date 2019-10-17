@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Opzioni Regola di unione profilo definite
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: aebb6b8d3653197642ec591bc35bde50d4e7abb4
 
 ---
 
 
-# Profile Merge Rule Options Defined {#profile-merge-rule-options-defined}
+# Profile Merge Rules Options Defined {#profile-merge-rule-options-defined}
 
 Le opzioni della regola di unione consentono di controllare il tipo di dati utilizzato da Audience Manager per la segmentazione. Una regola di unione può includere profili dispositivo mappati dal grafico del [!UICONTROL Profile Link] dispositivo, dai fornitori di grafici [!UICONTROL Adobe Experience Cloud Device Co-op]di dispositivi e/o da altri fornitori di grafici di terze parti integrati con Audience Manager. Potete creare un massimo di 4 [!UICONTROL Profile Merge Rules]. Il quarto [!UICONTROL Profile Merge Rule] è disponibile esclusivamente per i clienti che hanno acquistato il [!UICONTROL People-Based Destinations] componente aggiuntivo.
 
