@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sintassi ed esempi di file di dati in uscita
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
 translation-type: tm+mt
-source-git-commit: e6f1a3b86658a882ebe927cefe55be6ddd40b906
+source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
 
 ---
 
@@ -60,7 +60,7 @@ La tabella definisce gli elementi in un nome file di dati in uscita.
       <li id="li_94DAFA169380405981AFEF1B581997E6">2014 - <span class="keyword"> Google Advertiser ID </span> (raw, unhashed) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">2015 - <span class="keyword"> Apple ID per inserzionisti </span> (non elaborati, senza hash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID fornitore - ID utente di terze parti (web/cookie) </li> 
-     </ul> </p> </td> 
+     </ul> </p> <p>Per ulteriori informazioni, consulta <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Origini</a> dati globali.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -83,7 +83,7 @@ La tabella definisce gli elementi in un nome file di dati in uscita.
    <td colname="col2"> <p>Un numero intero. Identifica parte di un file suddiviso in più parti per migliorare i tempi di elaborazione. Il numero indica a quale parte del file originale appartengono i dati.</p>  <p>Il numero intero deve essere lungo almeno 3 cifre, preceduto da zero, se la dimensione della divisione è inferiore a 100 parti.</p>  <p>Il file originale non avrà alcun numero di divisione. Il primo file diviso termina con 001. Vedere gli esempi di seguito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code><i>.gz (facoltativo) </i></code> </p> </td> 
+   <td colname="col1"> <p> <code><i>.gz (optional) </i></code> </p> </td> 
    <td colname="col2"> <p>Compressione GZIP. </p> </td> 
   </tr> 
  </tbody> 
@@ -99,15 +99,15 @@ Ad esempio, file incrementali:
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCustomer_iter_148614084400001.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCustomer_iter_148614084400002.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000001.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_iter_1486140844000002.sync.gz </code> </li> 
 </ul>
 
 Ad esempio, file completi:
 
 <ul class="simplelist"> 
  <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000.sync.gz </code> </li> 
- <li> <code> S3_1234_20914_XYZCustomer_full_148614084400001.sync.gz </code> </li> 
+ <li> <code> S3_1234_20914_XYZCustomer_full_1486140844000001.sync.gz </code> </li> 
 </ul>
 
 ### Scenario 2
@@ -118,7 +118,7 @@ Ad esempio, file incrementali:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_20915_iter_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_20915_iter_148614084300001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_20915_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
 Ad esempio, file completi:
@@ -134,15 +134,15 @@ Ad esempio, file incrementali:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCustomer_iter_148614084300001.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCustomer_iter_148614084300001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_iter_1486140843000001.sync.gz </code> </li> 
 </ul>
 
 Ad esempio, file completi:
 
 <ul class="simplelist"> 
  <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200.sync.gz </code> </li> 
- <li> <code> ftp_1234_45454_XYZCustomer_full_148614084320001.sync.gz </code> </li> 
+ <li> <code> ftp_1234_45454_XYZCustomer_full_1486140843200001.sync.gz </code> </li> 
 </ul>
 
 ## Contenuto file dati in uscita: Sintassi e parametri {#outbound-contents-syntax}
