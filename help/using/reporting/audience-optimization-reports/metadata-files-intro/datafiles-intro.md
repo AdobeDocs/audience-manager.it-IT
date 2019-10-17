@@ -1,19 +1,19 @@
 ---
-description: Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager e visualizzarli nei rapporti di ottimizzazione dell'audience. Formattare i file di dati in base alle seguenti specifiche in questa sezione.
-seo-description: Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager e visualizzarli nei rapporti di ottimizzazione dell'audience. Formattare i file di dati in base alle seguenti specifiche in questa sezione.
-seo-title: File di dati per report di ottimizzazione dell'audience
+description: Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager e utilizzarli nei rapporti di ottimizzazione dell'audience e per i file di registro fruibili. Formattare i file di dati in base alle specifiche di questa sezione.
+seo-description: Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager e utilizzarli nei rapporti di ottimizzazione dell'audience e per i file di registro fruibili. Formattare i file di dati in base alle specifiche di questa sezione.
+seo-title: File di dati per report di ottimizzazione dell'audience e file di registro fruibili
 solution: Audience Manager
-title: File di dati per report di ottimizzazione dell'audience
+title: File di dati per report di ottimizzazione dell'audience e file di registro fruibili
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 6e504dabacff9be40633d6c91856b57c6e653f71
+source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
 
 ---
 
 
-# File di dati per report di ottimizzazione dell'audience{#data-files-for-audience-optimization-reports}
+# File di dati per report di ottimizzazione dell'audience e file di registro fruibili {#data-files-for-audience-optimization-reports}
 
-Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager e visualizzarli nei rapporti di ottimizzazione dell'audience. Formattare i file di dati in base alle seguenti specifiche in questa sezione.
+Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager per visualizzarli nei report [di ottimizzazione dell'](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) audience e creare caratteristiche utilizzando i dati tramite i file [di registro](/help/using/integration/media-data-integration/actionable-log-files.md)fruibili. Formattare i file di dati in base alle seguenti specifiche in questa sezione.
 
 ## Panoramica {#overview}
 
@@ -25,7 +25,7 @@ Un file di dati deve essere accompagnato da un file di metadati. I contenuti dei
 
 La sintassi seguente definisce la struttura di un nome file di dati ben formato. Nota: il *corsivo* indica un segnaposto variabile che cambia a seconda del contenuto del file.
 
-**Sintassi:** <pre><code><i>event type</i>_<i>yyyymmdd</i></code></pre>
+**Sintassi:** <pre><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
 In un nome file:
 
@@ -35,15 +35,15 @@ In un nome file:
 
 Dati questi requisiti, assegnare un nome ai file di dati in base al contenuto come segue:
 
-* Dati di impressione: <pre><code>impression_<i>yymmdd<i>.gz</code></pre>
-* Fare clic su dati: <pre><code>click_<i>yyyymmdd</i>.gz</code></pre>
-* Dati di conversione: <pre><code>conversioni_<i>yyyymmdd</i>.gz</code></pre>
+* Dati di impressione: <pre>impression_<i>yymmdd<i>.gz</code></pre>
+* Fare clic su dati: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
+* Dati di conversione: <pre>conversioni_<i>yyyymmdd</i>.gz</code></pre>
 
 ## Formato contenuto per i file di dati {#content-format}
 
 La sintassi seguente definisce la struttura del contenuto in un file di dati formato correttamente. Nota: il *corsivo* indica un segnaposto variabile e viene sostituito con un'etichetta in un file di dati effettivo.
 
-**Sintassi:** <pre><code><i>etichetta di intestazione 1</i> | Etichetta <i>intestazione 2</i> ... Etichetta <i>intestazione n</i> | <i>versione</i></code></pre>
+**Sintassi:** <pre><i>etichetta di intestazione 1</i> | Etichetta <i>intestazione 2</i> ... Etichetta <i>intestazione n</i> | <i>versione</i></code></pre>
 
 Nel contenuto del file:
 
@@ -67,7 +67,7 @@ La tabella seguente elenca e descrive le intestazioni delle colonne per il file 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Timestamp </p> </td> 
-   <td colname="col2"> <p>Una data e un'ora UTC per l'evento di impression, clic o conversione. Utilizzate il formato <code> yyyy-dd-mm hh:mm:ss</code> . </p> </td> 
+   <td colname="col2"> <p>Una data e un'ora UTC per l'evento di impression, clic o conversione. Utilizzate il <code> yyyy-dd-mm hh:mm:ss</code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID utente </p> </td> 
@@ -125,8 +125,8 @@ La tabella seguente elenca e descrive le intestazioni delle colonne per il file 
    <td colname="col1"> <p>Event-Type </p> </td> 
    <td colname="col2"> <p>Tipo di conversione. Indica se una conversione corrisponde o meno. Le opzioni includono: </p> 
     <ul id="ul_DA8230D167F241F2B53F29367874D4B1"> 
-     <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: Impression </li> 
-     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: Click </li> 
+     <li id="li_2BC2EBCAE12541029A5F62AC0785E7FE"> <code> 0</code>: Impressioni </li> 
+     <li id="li_2A4B1354891144D587624228D8FB5E77"> <code> 1</code>: Clic </li> 
      <li id="li_44E61419DB56471EB2091072595D3E5C"> <code> -1</code>: Non attribuito o sconosciuto </li> 
     </ul> <p> <i>Solo per i file di dati di conversione.</i> </p> </td> 
   </tr> 
@@ -145,7 +145,7 @@ Caricate i file di dati di impression, clic o conversione in una directory Amazo
 
 I dati vengono memorizzati in uno spazio dei nomi separato per ciascun cliente in una directory Amazon S3. Il percorso del file segue la sintassi indicata di seguito. Note, *italics* indicates a variable placeholder. Altri elementi sono costanti o chiavi e non vengono modificati.
 
-**Sintassi:** <pre><code>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
+**Sintassi:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
 La tabella seguente definisce ciascuno di questi elementi in un percorso di consegna dei file.
 
@@ -162,7 +162,7 @@ La tabella seguente definisce ciascuno di questi elementi in un percorso di cons
    <td colname="col2"> <p>Questo è l'inizio del percorso di memorizzazione della directory. Riceverai il percorso completo quando tutto è configurato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>pid=ID<i>AAM</i></code> </p> </td> 
+   <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
    <td colname="col2"> <p>Questa coppia chiave-valore che contiene l'ID cliente <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ La tabella seguente definisce ciascuno di questi elementi in un percorso di cons
    <td colname="col2"> <p> Una directory di livello superiore per i file di dati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> tipo <i>di</i>file_<i>yymmdd</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>file type</i>_<i>yyyymmdd</i></code> </p> </td> 
    <td colname="col2"> <p>Un nome di tipo di file che indica il tipo di dati che contiene e una marca temporale di consegna. </p> </td> 
   </tr> 
  </tbody> 
