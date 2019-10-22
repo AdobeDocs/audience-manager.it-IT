@@ -5,7 +5,7 @@ seo-title: Destinazioni basate su persone Prerequisiti e considerazioni
 solution: Audience Manager
 title: Prerequisiti e considerazioni
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
 
 ---
 
@@ -82,6 +82,8 @@ Nel caso in cui i clienti desiderino rinunciare alle campagne pubblicitarie, con
 ## Applicazione dell'attivazione dei dati di prime parti {#enforcing-first-party-activation}
 
 Quando si utilizza [!DNL People-Based Destinations], è possibile utilizzare solo dati di prime parti per attivare i segmenti di pubblico nei canali basati sulle persone. Non potete utilizzare dati di seconda o terza parte per l'attivazione dell'audience nei canali basati sulle persone.
+
+Quando si utilizza [!UICONTROL People-Based Destinations], utilizzare [Controlli](../data-export-controls.md) sull'esportazione dei dati per etichettare le origini dati e le destinazioni in base alle linee guida e ai requisiti delle piattaforme e dei provider di dati di destinazione.
 
 ## ID con hash autenticati a bordo tramite targeting ID dichiarato {#onboard-authenticated-declared-id}
 
