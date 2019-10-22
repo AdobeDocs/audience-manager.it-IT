@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casi di utilizzo generali per le regole di unione dei profili
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -61,11 +61,15 @@ Il collegamento tra il dispositivo e il profilo della famiglia consente ad Audie
 
 ![gestione familiare](assets/household-management.png)
 
-## Targeting basato su persone {#all-cross-device}
+## Targeting per destinazioni basate su persone {#all-cross-device}
+
+> [!IMPORTANT]
+>
+> Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell'utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per assistenza legale.
 
 Questo scenario di targeting è disponibile solo per i clienti che hanno acquistato il [!DNL People-Based Destinations] componente aggiuntivo. Questa regola consente agli esperti di marketing di raggiungere i clienti in base ai propri dati autenticati.
 
-Supponiamo che un rivenditore online voglia raggiungere i clienti esistenti tramite piattaforme social e mostrare loro offerte personalizzate in base ai loro ordini precedenti. Con [!UICONTROL People-Based Destinations], possono assimilare indirizzi e-mail con hash da soli [!DNL CRM] ad Audience Manager, creare segmenti dai dati offline e inviare questi segmenti alle piattaforme social su cui desiderano pubblicizzare, ottimizzando le spese pubblicitarie.
+Supponiamo che un rivenditore online voglia raggiungere i clienti esistenti tramite piattaforme social e mostrare loro offerte personalizzate in base ai loro ordini precedenti. Con [!UICONTROL People-Based Destinations], possono trasferire indirizzi e-mail con hash da [!DNL CRM] propri ad Audience Manager, creare segmenti dai dati offline e inviare questi segmenti alle piattaforme social sulle quali desiderano pubblicizzare, utilizzando questo identificatore con hash, ottimizzando le spese pubblicitarie.
 
 Per ulteriori informazioni su questa opzione, consulta Destinazioni [basate sulle](../destinations/people-based-destinations-overview.md)persone.
 
