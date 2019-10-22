@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Opzioni Regola di unione profilo definite
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 3a272e31fd388e2b15245f231f11ecf68a7d55e9
+source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
 
 ---
 
@@ -31,7 +31,7 @@ Le regole di unione dei profili consentono una serie di combinazioni di regole, 
 | Ultimi profili autenticati | Profilo dispositivo | Tutti i clienti | Tempo reale e batch | Sì | [Targeting online/offline](merge-rule-targeting-options.md#device-household-targeting) |
 | Ultimi profili autenticati | Grafico dispositivo di collegamento profilo | Solo Nord America e Canada | Tempo reale e batch | Sì | [Targeting tra dispositivi](profile-link-use-case.md#cross-device-personalization) |
 | Ultimi profili autenticati | Device Graph esterno (include Co-op Device Graph) | Tutti i clienti | Tempo reale e batch | No | [Targeting cross-device avanzato](external-graph-use-cases.md#advanced-graph-expansion) |
-|  Tutti i profili multi-dispositivo | N/D | Esclusivo ai clienti delle destinazioni [basate sulle](../destinations/people-based-destinations-overview.md) persone | Solo batch | No | [Targeting basato su persone](merge-rule-targeting-options.md#all-cross-device) |
+|  Tutti i profili multi-dispositivo | N/D | Esclusivo ai clienti delle destinazioni [basate sulle](../destinations/people-based-destinations-overview.md) persone | Solo batch | No | [Targeting per destinazioni basate su persone](merge-rule-targeting-options.md#all-cross-device) |
 
 ## Valutazione segmento regola unione profilo {#segment-evaluation}
 
