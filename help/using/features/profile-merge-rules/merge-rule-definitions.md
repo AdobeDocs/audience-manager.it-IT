@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Opzioni Regola di unione profilo definite
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: 12dea0f5e762496b19a87c8993877302b1433d26
 
 ---
 
@@ -29,7 +29,7 @@ Le regole di unione dei profili consentono una serie di combinazioni di regole, 
 | Nessun profilo multi-dispositivo | Device Graph esterno (include Co-op Device Graph) | Tutti i clienti | Tempo reale e batch | No | [Targeting esteso dei dispositivi](external-graph-use-cases.md#audience-expansion) |
 | Profili autenticati correnti | Nessun profilo dispositivo | Tutti i clienti | Solo in tempo reale | No | [Targeting dei dispositivi condivisi](merge-rule-targeting-options.md#target-shared-devices) |
 | Ultimi profili autenticati | Profilo dispositivo | Tutti i clienti | Tempo reale e batch | Sì | [Targeting online/offline](merge-rule-targeting-options.md#device-household-targeting) |
-| Ultimi profili autenticati | Grafico dispositivo di collegamento profilo | Solo Nord America e Canada | Tempo reale e batch | Sì | [Targeting tra dispositivi](profile-link-use-case.md#cross-device-personalization) |
+| Ultimi profili autenticati | Grafico dispositivo di collegamento profilo | Tutti i clienti | Tempo reale e batch | Sì | [Targeting tra dispositivi](profile-link-use-case.md#cross-device-personalization) |
 | Ultimi profili autenticati | Device Graph esterno (include Co-op Device Graph) | Tutti i clienti | Tempo reale e batch | No | [Targeting cross-device avanzato](external-graph-use-cases.md#advanced-graph-expansion) |
 |  Tutti i profili multi-dispositivo | N/D | Esclusivo ai clienti delle destinazioni [basate sulle](../destinations/people-based-destinations-overview.md) persone | Solo batch | No | [Targeting per destinazioni basate su persone](merge-rule-targeting-options.md#all-cross-device) |
 
