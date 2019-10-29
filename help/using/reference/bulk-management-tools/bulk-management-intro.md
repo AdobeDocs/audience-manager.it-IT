@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Guida Introduttiva Alla Gestione Di Gruppi
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: b1cecf805a47a7cf3b732337027c31664a08a910
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
@@ -111,9 +111,9 @@ Nella tabella seguente sono elencate le operazioni che è possibile eseguire e g
 Ad esempio, vediamo come creare più caratteristiche contemporaneamente. Per creare più caratteristiche in un'operazione in blocco, è necessario:
 
 1. Fare clic sulla **[!UICONTROL Headers]** scheda e copiare tutte le etichette sotto l' [!UICONTROL Create a Trait] opzione.
-
 2. Fare clic sulla **[!UICONTROL Create]** scheda e incollare le etichette a partire dalla riga 1, colonna A.
 3. Fornire informazioni relative a ciascuna intestazione di colonna e fare clic su **[!UICONTROL Create Traits]**. Questa azione richiede di confermare l’autenticazione. Il processo di massa viene eseguito dopo aver confermato l’autenticazione. Verificare che nell'angolo inferiore sinistro del foglio di lavoro sia presente una notifica dello stato del processo.
+
 
 >[!NOTE]
 >
