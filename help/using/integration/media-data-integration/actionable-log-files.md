@@ -7,7 +7,7 @@ solution: Audience Manager
 title: File di registro fruibili
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 5643b1490738aa452e45517610d31e37c361a780
+source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
 
 ---
 
@@ -244,18 +244,6 @@ I segnali descritti nella tabella vengono acquisiti in [!DNL Audience Manager] m
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
-
-## Utilizzo dei segnali fruibili nell’interfaccia utente di Audience Manager {#actionable-signals-in-ui}
-
-Puoi visualizzare i segnali attivabili in ingresso nell'interfaccia di ricerca [](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) segnali.
-
-Andate a Dati **** Pubblico (1) &gt; **Segnali** (2) &gt; **Ricerca** (3) e selezionate il filtro File **di registro** fruibili (4).
-
-![Segnali fruibili nell’interfaccia utente](/help/using/integration/assets/alf-in-signals.png)
-
-Per creare caratteristiche basate su regole utilizzando i segnali fruibili, selezionare File **di registro** fruibili (1), selezionare i segnali attivabili che si desidera utilizzare come regole sulle caratteristiche (2), quindi premere **Crea caratteristica dai segnali** selezionati (3).
-
-![Creazione di caratteristiche dai segnali](/help/using/integration/assets/alf-create-trait.png)
 
 ## Casi d'uso {#use-cases}
 
