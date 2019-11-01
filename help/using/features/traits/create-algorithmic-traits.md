@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Creare caratteristiche algoritmiche
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,11 +28,6 @@ Si apre una nuova finestra che consente di selezionare il modello da utilizzare 
 L'aggiunta del modello espone le impostazioni di portata e precisione.
 1. Selezionate l’obiettivo o la precisione e scegliete un valore dai rispettivi menu a discesa. Click **[!UICONTROL Save]** when done.
 
->[!MORE_LIKE_this]
->
->* [Precisione e raggiungimento](../../features/traits/trait-accuracy-reach.md)
-
-
 ## Impostazioni di configurazione per caratteristiche algoritmiche {#configure-settings}
 
 In [!UICONTROL Trait Builder], la [!UICONTROL Configuration] sezione consente di associare un modello algoritmico a una caratteristica. Per completare il processo di creazione delle caratteristiche algoritmiche, selezionate un modello e scegliete un obiettivo di raggiungimento o precisione.
@@ -43,7 +38,7 @@ In [!UICONTROL Trait Builder], la [!UICONTROL Configuration] sezione consente di
 
 * [Creare un modello](../../features/algorithmic-models/create-model.md#build-model)algoritmico.
 * Attendi il messaggio e-mail di notifica che ti consente di sapere che l'esecuzione dei dati del modello è terminata.
-* Compila i campi richiesti nella sezione Informazioni [di](../../features/traits/create-onboarded-rule-based-traits.md) base.
+*  Compila i campi richiesti nella sezione Informazioni [di](../../features/traits/create-onboarded-rule-based-traits.md) base.
 
 ### Campi e impostazioni di configurazione
 
@@ -54,6 +49,7 @@ In [!UICONTROL Trait Builder], la [!UICONTROL Configuration] sezione consente di
 | **[!UICONTROL Reach and Accuracy Data Columns]** | Situata a destra, questa sezione visualizza fino a 21 righe di dati numerici che mostrano la precisione e i valori di portata del modello. |
 | **[!UICONTROL Reach and Accuracy Slider]** | Posizionato nella parte inferiore del grafico, il cursore consente di impostare un valore numerico per raggiungere o raggiungere gli obiettivi di precisione. Potete impostare il cursore e quindi scegliere il pulsante di raggiungimento o precisione dell’obiettivo per creare una caratteristica. |
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Precisione e raggiungimento](../../features/traits/trait-accuracy-reach.md)
+
