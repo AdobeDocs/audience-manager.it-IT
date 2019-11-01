@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sintassi contenuto file dati in entrata, caratteri non validi, variabili ed esempi
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 5a822460f93bb7295edafff03104ae7626b69a51
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ La tabella elenca e definisce le variabili utilizzate in un file di dati in entr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>ID utente </i> </code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>Un ID utente può essere: </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
       <li id="li_23829FE2F6464E33859B3E388FCD106B">Un ID utente univoco assegnato da <span class="keyword"> Audience Manager </span> (UUID <a href="../../../reference/ids-in-aam.md"> Audience Manager </a>). </li> 
@@ -68,7 +68,7 @@ La tabella elenca e definisce le variabili utilizzate in un file di dati in entr
    <td colname="col2"> <p>Separa ID utente e ID caratteristica con un singolo delimitatore di tabulazione. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> ID <i>caratteristica </i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
    <td colname="col2"> <p>L’ID <span class="keyword"> caratteristica di Audience Manager </span> . Vi chiediamo di includere <i>solo le caratteristiche</i> registrate nei file di dati in entrata. Non vengono elaborati altri tipi di caratteristiche nel trasferimento dati in entrata. </p> <p> <p>Nota:  L'ID caratteristica può essere trovato utilizzando il metodo GET che restituisce dettagli su tutte le caratteristiche. Per ulteriori informazioni, consulta <a href="../../../api/rest-api-main/api-traits.md"> Metodi API per le caratteristiche </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
@@ -88,23 +88,24 @@ Nella tabella seguente sono descritti i prefissi che identificano i nomi o gli I
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>Il prefisso <code> d_sid </code> indica al sistema che l’ID è un ID <span class="keyword"> caratteristica di </span> Audience Manager. Si tratta dello stesso ID mostrato nell'interfaccia utente. Potete inoltre restituire gli ID caratteristica con il <code> </code> metodo API GET. Consulta <a href="../../../api/rest-api-main/api-traits.md"> Metodi API per le caratteristiche </a>. </p> </td>
+   <td colname="col2"> <p>Il <code> d_sid </code> prefisso indica al sistema che l’ID è un ID di <span class="keyword"> caratteristica </span> Audience Manager. Si tratta dello stesso ID mostrato nell'interfaccia utente. Potete inoltre restituire gli ID caratteristica con il <code> GET </code> metodo API. Consulta <a href="../../../api/rest-api-main/api-traits.md"> Metodi API per le caratteristiche </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>I dati con prefisso <code> d_unsid </code> rimuovono gli utenti da tale caratteristica. Il <code> prefisso d_unsid </code> viene ignorato in un file di <code> sovrascrittura </code> . </p> <p>Il prefisso <code> d_unsid= </code> indica al sistema che l’ID è un ID <span class="keyword"> caratteristica di </span> Audience Manager. Si tratta dello stesso ID mostrato nell'interfaccia utente. Potete inoltre restituire gli ID caratteristica con il <code> </code> metodo API GET. Consulta <a href="../../../api/rest-api-main/api-traits.md"> Metodi API per le caratteristiche </a>. </p> </td>
+   <td colname="col2"> <p>I dati con prefisso <code> d_unsid </code> rimuovono gli utenti da tale caratteristica. Il <code> d_unsid </code> prefisso viene ignorato in un <code> overwrite </code> file. </p> <p>Il <code> d_unsid= </code> prefisso indica al sistema che l’ID è un ID di <span class="keyword"> caratteristica </span> Audience Manager. Si tratta dello stesso ID mostrato nell'interfaccia utente. Potete inoltre restituire gli ID caratteristica con il <code> GET </code> metodo API. Consulta <a href="../../../api/rest-api-main/api-traits.md"> Metodi API per le caratteristiche </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
-   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Le regole sulle caratteristiche </a> consentono di impostare i criteri per la qualifica delle caratteristiche. Se formattate una regola di caratteristiche come ID di caratteristica <code> ic == </code>, potete inviare le caratteristiche in un semplice elenco in formato virgola. </p> <p>Ad esempio, supponiamo di creare le seguenti 3 regole di caratteristiche: </p> <p> 
+   <td colname="col2"> <p> <a href="../../../features/traits/manage-trait-rules.md#managing-trait-rules"> Le regole sulle caratteristiche </a> consentono di impostare i criteri per la qualifica delle caratteristiche. Se formattate una regola di caratteristiche come <code> ic == trait ID </code>, potete inviare le caratteristiche in un semplice elenco in formato virgola. </p> <p>Ad esempio, supponiamo di creare le seguenti 3 regole di caratteristiche: </p> <p> 
      <ul class="simplelist"> 
       <li> <code> ic == "123" </code> </li>
       <li> <code> ic == "456" </code> </li>
       <li> <code> ic == "789" </code> </li>
-     </ul> </p> <p>Queste caratteristiche sono associate alla <code> chiave ic </code> . Questo consente di creare un elenco di caratteristiche più semplice nel file di dati. Inoltre, non è necessario includere il <code> </code> prefisso ic. Di conseguenza, il contenuto del file di dati potrebbe essere simile al seguente: </p> <p>
+     </ul> </p> <p>Tali caratteristiche sono associate alla <code> ic </code> chiave. Questo consente di creare un elenco di caratteristiche più semplice nel file di dati. Inoltre, non è necessario includere il <code> ic </code> prefisso. Di conseguenza, il contenuto del file di dati potrebbe essere simile al seguente: </p> <p>
      <code> 
-                       
-      ID <i></i>utente &lt;TAB&gt; 123.456.789 </code> </p> </td> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <i>user ID</i>&nbsp;&lt;TAB&gt;&nbsp;123,456,789 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Coppie chiave-valore </p> </td> 
@@ -114,7 +115,7 @@ Nella tabella seguente sono descritti i prefissi che identificano i nomi o gli I
       <li id="li_1F3ACA27C5794931B430298B27AB8BCC"> <code> "key" = value </code> </li> 
       <li id="li_8910539EB4F0431E8CF63983D30D9B08"> <code> key = "value" </code> </li> 
       <li id="li_DCECE281D245438FB01F8D0BA932B3CC"> <code> "key" = "value" </code> </li> 
-     </ul><code> "age"="32" </code> , <code> "gender"=m </code> , <code> model = "pick-up camion" </code> , <code> product = tablet </code> sono tutti esempi di coppie chiave-valore formattate correttamente. </p> </td> 
+     </ul><code> "age"="32" </code> , <code> "gender"=m </code> , <code> model = "pickup truck" </code> , <code> product = tablet </code> sono tutti esempi di coppie chiave-valore formattate correttamente. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -137,7 +138,7 @@ Gli ID caratteristica sono costituiti solo da caratteri numerici. Vi chiediamo d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p><i>Non</i> utilizzare due punti codificati ( <code> %3A </code>) o due punti non codificati ( : ) in DPUUID. </p> </td> 
+   <td colname="col2"> <p><i>Non</i> usate due punti codificati ( <code> %3A </code>) o due punti non codificati ( : ) in DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID dispositivo iOS (IDFA) mobile o Android </p> </td> 
@@ -172,15 +173,15 @@ Anche i nomi di valori formattati in modo errato in una coppia chiave-valore cau
   </tr> 
   <tr> 
    <td colname="col1"> <p>Carattere trattino (-) </p> </td> 
-   <td colname="col2"> <p>Ignoriamo i segni dei trattini all'inizio delle chiavi. Ad esempio, <code> -product = camera </code> viene interpretato come <code> product = camera </code>. </p> </td> 
+   <td colname="col2"> <p>Ignoriamo i segni di tratteggio all'inizio delle chiavi. Ad esempio, <code> -product = camera </code> viene interpretato come <code> product = camera </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TAB </code> </p> </td> 
-   <td colname="col2"> <p><i>Non</i> utilizzare <code> TAB </code> invece di valori vuoti nelle coppie chiave-valore. Utilizzare <code> TAB </code> per separare le variabili nel file di dati in entrata. </p> </td> 
+   <td colname="col2"> <p><i>Non</i> utilizzare valori <code> TAB </code> invece di valori vuoti nelle coppie chiave-valore. Utilizzate solo <code> TAB </code> per separare le variabili nel file di dati in entrata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> \n, \t </code> </p> </td> 
-   <td colname="col2"> <p>Non usate i nuovi caratteri di riga o di tabulazione ( <code> \n, \t </code>) nei tasti o nei valori. </p> </td> 
+   <td colname="col2"> <p>Non utilizzare la nuova riga o i nuovi caratteri di tabulazione ( <code> \n, \t </code>) nelle chiavi o nei valori. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -199,25 +200,31 @@ Anche i nomi di valori formattati in modo errato in una coppia chiave-valore cau
    <td colname="col1"> <p>Con <code> d_sid </code> o <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>Questo file di dati mostra un utente qualificato per le caratteristiche 24, 26, 27 ed è stato rimosso dalla caratteristica 28 e 29. </p> <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_9 sid=26,d_sid=27,d_unsid=28,d_unsid=29 </code> </p> <p>Nota:  <p>Invece di utilizzare d_unsid, potete anche rimuovere le caratteristiche dai profili utente utilizzando la sintassi seguente: </p> <p> 
+       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+     </code> </p> <p>Nota:  <p>Invece di utilizzare d_unsid, potete anche rimuovere le caratteristiche dai profili utente utilizzando la sintassi seguente: </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 </code> </p> <p> 
+        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
+      </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29: -1 </code> </p> </p> </td> 
+        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
+      </code> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Con <code> ic= </code> </p> </td> 
-   <td colname="col2"> <p>Queste caratteristiche sono state aggiunte a una regola delle caratteristiche con il <code> prefisso ic </code> . In questo modo, è possibile aggiungerli al file di dati separati da virgole come mostrato. Una scheda separa gli UUID e gli ID caratteristica. Il <code> prefisso </code> ic non è richiesto nel file. </p> <p><b>ID numerici</b> </p> <p> 
+   <td colname="col1"> <p>Utilizzate <code> ic== </code> </p> </td> 
+   <td colname="col2"> <p>Queste caratteristiche sono state aggiunte a una regola delle caratteristiche con il <code> ic </code> prefisso . In questo modo, è possibile aggiungerli al file di dati separati da virgole come mostrato. Una scheda separa gli UUID e gli ID caratteristica. Il <code> ic </code> prefisso non è richiesto nel file. </p> <p><b>ID numerici</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30 626 </code> </p> <p><b>ID stringa</b> </p> <p> 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
+     </code> </p> <p><b>ID stringa</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 </code> </p> </td> 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
+     </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Con coppie chiave-valore </p> </td> 
    <td colname="col2"> Questi dati del file utilizzano coppie chiave-valore per trasmettere i dati ad <span class="keyword"> Audience Manager </span>. <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;"gender"="femmina","lusso_shopper" "yes" </code> </p> </td> 
+       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+     </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -494,7 +501,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 ```
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Generatore di caratteristiche](../../../features/traits/about-trait-builder.md)
 
