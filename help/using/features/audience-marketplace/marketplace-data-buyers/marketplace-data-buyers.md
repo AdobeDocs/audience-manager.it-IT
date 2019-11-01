@@ -7,7 +7,7 @@ title: Audience Marketplace per gli acquirenti di dati
 topic: API DIL
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
 
 ---
 
@@ -51,15 +51,15 @@ L' [!UICONTROL Marketplace] elenco contiene informazioni che è possibile ordina
 * **[!UICONTROL Private Feeds]**: Consultate Feed [di dati](../../../features/audience-marketplace/marketplace-private-feeds.md)privati.
 * **[!UICONTROL Currently Subscribed Plan Count]**: Numero di sottoscrizioni possedute con un provider di dati.
 
+ 
+
 Per trovare facilmente i feed di dati migliori per le vostre esigenze, utilizzate i seguenti filtri disponibili sul lato sinistro della [!UICONTROL Marketplace] pagina:
 
 * **[!UICONTROL Similarity To]**: Filtrare i feed di dati in base alla loro somiglianza con una caratteristica o segmento scelto. Quando immetti la caratteristica o il segmento con cui confrontarti, puoi usare la caratteristica o l’ID segmento, o i rispettivi nomi.
-* **[!UICONTROL Similarity Cutoff]**: Trascinate il cursore per filtrare i feed di dati in base alle caratteristiche simili a quelle del tratto o segmento selezionato.
+* **[!UICONTROL Similarity Cutoff]**: Trascinate il cursore per filtrare i feed di dati in base alle caratteristiche simili a quelle del tratto o segmento selezionato. Per ulteriori informazioni sui punteggi per similarità dei tratti, consulta Punteggio per similarità delle [caratteristiche](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]**: Filtrate i feed di dati in base al vostro stato di iscrizione.
 * **[!UICONTROL Plan Use Case]**: Filtrare i feed di dati in base ai casi di utilizzo supportati: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]**, e **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: Filtrare i feed di dati in base al tipo di prezzo.
-
-Guardate il video seguente per una panoramica su come usare questi filtri.
 
 ## Ricerca di caratteristiche simili {#finding-similar-traits}
 
@@ -81,7 +81,6 @@ Per visualizzare l'elenco completo delle caratteristiche simili, fare clic sul n
 Guarda il video seguente per una panoramica completa su come trovare caratteristiche simili.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/?captions=ita)
-
 
 ## Feed dati privati {#private-data-feeds}
 
