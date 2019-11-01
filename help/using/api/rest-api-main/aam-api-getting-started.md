@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Guida introduttiva alle API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 27800ce003a62733eece0d5de3b94737ed61133a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -45,7 +45,7 @@ Ad esempio, per questo tipo di account, supponiamo che tu voglia cambiare molti 
 
 Consultate il vostro consulente Audience Manager per configurare un account utente generico [!DNL API]solo.
 
-## Autenticazione OAuth {#oauth}
+##  Autenticazione OAuth {#oauth}
 
 Audience Manager [!UICONTROL REST API] segue [!DNL OAuth 2.0] gli standard per l’autenticazione e il rinnovo dei token. Le sezioni seguenti descrivono come autenticarsi e iniziare a lavorare con gli [!DNL API]s.
 
@@ -130,12 +130,6 @@ La [!DNL JSON] risposta contiene il nuovo token di accesso. La risposta dovrebbe
 
 Audience Manager [!UICONTROL REST API] supporta il codice di autorizzazione e l'autenticazione implicita. Per utilizzare questi metodi di accesso, gli utenti devono effettuare l'accesso per `https://api.demdex.com/oauth/authorize` ottenere l'accesso e aggiornare i token.
 
->[!MORE_LIKE_this]
->
->* [OAuth 2.0](https://oauth.net/2/)
->* [OAuth 2 semplificato](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
-
-
 ## Richieste di autenticazione API {#authenticated-api-requests}
 
 Requisiti per i [!DNL API] metodi di chiamata dopo la ricezione di un token di autenticazione.
@@ -146,11 +140,6 @@ Per effettuare chiamate ai [!DNL API] metodi disponibili:
 
 * Nell’ `HTTP` intestazione, impostate `Authorization: Bearer <token>`.
 * Chiama il [!DNL API] metodo richiesto.
-
->[!MORE_LIKE_this]
->
->* [Autenticazione OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-
 
 ## Parametri query API opzionali {#optional-api-query-parameters}
 
@@ -166,7 +155,7 @@ Impostare i parametri facoltativi disponibili per i metodi che restituiscono tut
 | pageSize | Imposta il numero di risultati della risposta restituiti dalla richiesta (il valore predefinito è 10). |
 | sortBy | Ordina e restituisce i risultati in base alla [!DNL JSON] proprietà specificata. |
 | decrescente | Ordina e restituisce risultati in ordine decrescente. Ascendente è il valore predefinito. |
-|  search | Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare risultati per tutti i modelli con la parola "Test" in uno qualsiasi dei campi di valore per l'elemento. Esempio di richiesta: `GET https://api.demdex.com/v1/models/?search=Test`.  È possibile cercare qualsiasi valore restituito da un metodo "get all". |
+| search | Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare risultati per tutti i modelli con la parola "Test" in uno qualsiasi dei campi di valore per l'elemento. Esempio di richiesta: `GET https://api.demdex.com/v1/models/?search=Test`.  È possibile cercare qualsiasi valore restituito da un metodo "get all". |
 | folderId | Restituisce tutti gli ID per le caratteristiche all’interno della cartella specificata. Non disponibile per tutti i metodi. |
 | permissions | Restituisce un elenco di segmenti in base all'autorizzazione specificata.  READ è il valore predefinito. Le autorizzazioni includono:<ul><li>`READ` : Restituisce e visualizza informazioni su un segmento.</li><li>`WRITE` : Utilizzare `PUT` per aggiornare un segmento.</li><li>`CREATE` : Utilizzate `POST` per creare un segmento.</li><li>`DELETE` : Elimina un segmento. Richiede l'accesso alle caratteristiche sottostanti, se presenti. Ad esempio, avrai bisogno di diritti per eliminare le caratteristiche appartenenti a un segmento se desideri rimuoverlo.</li></ul><br>Specificate più autorizzazioni con coppie chiave-valore separate. Ad esempio, per restituire un elenco di segmenti con `READ` e `WRITE` autorizzazioni, passate in `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | includePermissions | (Booleano) Impostate su true per restituire le autorizzazioni per il segmento. Il valore predefinito è false. |
@@ -238,3 +227,10 @@ Le nuove versioni [!DNL API]vengono rilasciate secondo una pianificazione regola
 | 404 | Non trovato | Impossibile trovare la risorsa per il percorso specificato. |
 | 409 | Conflitto | Impossibile completare la richiesta a causa di un conflitto con lo stato della risorsa. |
 | 500 | Errore server | Il server ha rilevato un errore imprevisto che gli ha impedito di soddisfare la richiesta. |
+
+>[!MORELIKETHIS]
+>
+>* [Autenticazione OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 semplificato](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+
