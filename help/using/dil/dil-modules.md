@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Moduli DIL
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> Stringa </td> 
-   <td colname="col3"> <p>Un array di stringhe che contiene <span class="keyword"> variabili Analytics non enumerate come </span> pageName <code> , </code>channel <code> , </code>campaign <code> , </code>product <code> </code>, ecc. </p> </td> 
+   <td colname="col3"> <p>Un array di stringhe che contiene <span class="keyword"> variabili Analytics non enumerate come </span> , <code> pageName </code>, <code> channel </code>, <code> campaign </code><code> product </code>ecc. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
@@ -78,8 +78,8 @@ r_dil_sc_init.xml
    <td colname="col2"> Oggetto </td> 
    <td colname="col3"> <p>Opzioni aggiuntive: </p> 
     <ul id="ul_F4DFA5351BB5427B8CBF600A0A4A21A9"> 
-     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Se non si specifica altro, i punti vengono sostituiti con il carattere di sottolineatura predefinito ( _ ). </p> <p>Ad esempio <code> s.contextData = {abc.def = '123'} </code>restituisce <code> c_contextData_abc_def=123 </code> nella stringa di query della chiamata dell'evento. </p> <p>Questa opzione è disponibile solo nella <span class="wintitle"> versione DIL </span> 5.0 o successiva. </p> </li> 
-     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>Ad esempio, <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> determinerebbe il filtraggio dell'array di stringhe dalla raccolta di dati contestuali. Questa opzione esclude le informazioni personali (PII). </p> </li> 
+     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Se non si specifica altro, i punti vengono sostituiti con il carattere di sottolineatura predefinito ( _ ). </p> <p>Ad esempio, <code> s.contextData = {abc.def = '123'} </code>risulterebbe <code> c_contextData_abc_def=123 </code> nella stringa di query della chiamata dell'evento. </p> <p>Questa opzione è disponibile solo nella <span class="wintitle"> versione DIL </span> 5.0 o successiva. </p> </li> 
+     <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>Ad esempio, <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> l'array di stringhe viene filtrato dalla raccolta di dati contestuali. Questa opzione esclude le informazioni personali (PII). </p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +173,7 @@ La `GA.submitUniversalAnalytics();` funzione accetta le seguenti proprietà.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p>Variabile globale per l’istanza di <span class="keyword"> Google Analytics </span>. In genere si tratta <code> di un valore </code> predefinito, a meno che non abbiate personalizzato il <span class="keyword"> codice di </span> Google Analytics. </p> </td> 
+   <td colname="col2"> <p>Variabile globale per l’istanza di <span class="keyword"> Google Analytics </span>. In genere questo è <code> ga </code> il valore predefinito, a meno che non abbiate personalizzato il <span class="keyword"> codice </span> Google Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
@@ -181,7 +181,7 @@ La `GA.submitUniversalAnalytics();` funzione accetta le seguenti proprietà.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> internalPropertyName </code> </p> </td> 
-   <td colname="col2"> <p> <i>(Facoltativo)</i> Nella libreria <code> analytics.js </code> , la proprietà interna è la variabile minificata <code> 'b' </code>. Questa variabile contiene <span class="keyword"> i </span> dati Google Analytics. </p> <p>Questa proprietà è facoltativa perché non è necessario impostarla a meno che Google non modifichi il nome della propria variabile interna. Ad esempio, se questa variabile minificata è cambiata in <code> "a" </code>, chiamereste <code> GA.submitUniversalAnalytics(); </code> così: </p> <p> <code> DIL.module.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
+   <td colname="col2"> <p> <i>(Facoltativo)</i> Nella <code> analytics.js </code> libreria, la proprietà interna è la variabile minified <code> 'b' </code>. Questa variabile contiene <span class="keyword"> i </span> dati Google Analytics. </p> <p>Questa proprietà è facoltativa perché non è necessario impostarla a meno che Google non modifichi il nome della propria variabile interna. Ad esempio, se la variabile minified viene modificata in <code> 'a' </code>, si effettua la chiamata <code> GA.submitUniversalAnalytics(); </code> come segue: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -199,11 +199,6 @@ var dilInstance = DIL.create({
 //Call the DIL Universal Analytics function 
 DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 ```
-
->[!MORE_LIKE_this]
->
->* [riferimento ai metodi dell'oggetto ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
-
 
 ## GA.init {#ga-init}
 
@@ -312,9 +307,10 @@ La chiamata dell’evento URL ad Audience Manager potrebbe essere simile alla se
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1`
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Codice di tracciamento di Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
 >* [Aggiornamento Web completo: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
 >* [Aggiunta di analytics.js al sito](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [riferimento ai metodi dell'oggetto ga](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
