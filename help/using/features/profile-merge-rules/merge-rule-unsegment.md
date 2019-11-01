@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Regole di unione dei profili e processi di rimozione della segmentazione del dispositivo
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -45,7 +45,7 @@ Come promemoria, [!UICONTROL Device Options] sono disponibili nella [!UICONTROL 
 
 ![](assets/last-device-graph.png)
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Domande frequenti su Regole di unione dei profili e Device Graph](../../faq/faq-profile-merge.md)
 >* [Soppressione immediata su diversi dispositivi](instant-cross-device-suppression.md)
