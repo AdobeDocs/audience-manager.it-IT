@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Acquisizione dei dati di clic sulla campagna tramite chiamate pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584feed
 translation-type: tm+mt
-source-git-commit: dbc96973ed2214d171fe32b7e1314d40c22c2d79
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -79,7 +79,7 @@ Gli eventi Click supportano le macro elencate nella tabella seguente. Una macro 
   <tr> 
    <td colname="col1"> <p> <code> d_dpid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_id%</code> </p> </td> 
-   <td colname="col2"> <p>ID provider dati. </p> <p>Spesso utilizzato con <code> d_dpuuid</code> per collegare un ID fornitore di dati a un ID utente. </p> <p>Facoltativo. </p> </td> 
+   <td colname="col2"> <p>ID provider dati. </p> <p>Spesso utilizzato con <code> d_dpuuid</code> per collegare un ID provider di dati a un ID utente. </p> <p>Facoltativo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
@@ -108,7 +108,7 @@ Gli eventi Click supportano le macro elencate nella tabella seguente. Una macro 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_site</code> </p> </td> 
-   <td colname="col02"> <p> <code> %d_sito%</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_site%</code> </p> </td> 
    <td colname="col2"> <p>ID sito numerico dal server annunci. </p> <p>Facoltativo. </p> </td> 
   </tr> 
   <tr> 
@@ -118,18 +118,18 @@ Gli eventi Click supportano le macro elencate nella tabella seguente. Una macro 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
-   <td colname="col02"> <p> <code> %d_uid%</code> </p> </td> 
+   <td colname="col02"> <p> <code> %d_uuid%</code> </p> </td> 
    <td colname="col2"> <p>Specificate l'ID del visitatore direttamente nell'URL invece di affidarsi al cookie Demdex. </p> <p>Facoltativo. </p> </td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <p> <code>dpr</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_apply%</code> </p> </td> 
+   <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
+   <td colname="col02"> <p> <code>%gdpr_applies%</code> </p> </td> 
    <td colname="col2"> <p>Correlato al <a href="../../overview/aam-gdpr/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a> </p><p><code>gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p></td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <p> <code>gdpr_assenso</code> </p> </td> 
-   <td colname="col02"> <p> <code>%gdpr_assenso%</code> </p> </td> 
-   <td colname="col2"> <p>Correlato al <a href="../../overview/aam-gdpr/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p><p> Se <code>gdpr=1</code>, <code>%gdpr_permission%</code> viene sostituito dalla stringa <code>gdpr_permission</code> (consulta la <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">Specifica IAB</a>).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p></td> 
+   <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
+   <td colname="col02"> <p> <code>%gdpr_consent%</code> </p> </td> 
+   <td colname="col2"> <p>Correlato al <a href="../../overview/aam-gdpr/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p><p> Se <code>gdpr=1</code>, allora <code>%gdpr_consent%</code> viene sostituito dalla stringa <code>gdpr_consent</code> (vedi le <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> specifiche IAB</a>).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,7 +160,7 @@ In base all'esempio precedente, il browser viene reindirizzato a quanto segue [!
 
 [!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [File di dati e metadati per report di ottimizzazione dell'audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
