@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Metriche dei rapporti per le regole di unione dei profili
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -116,7 +116,7 @@ Un [!UICONTROL Profile Link Device Graph] report che include i dati del grafico 
 
 Oltre alle altre visualizzazioni di dati, [!UICONTROL Profile Link] i rapporti includono un grafico a linee. Il grafico a linee è progettato per mostrare le tendenze nel tempo per le regole del profilo. I grafici delle tendenze (e gli altri rapporti) sono disponibili quando si fa clic su una regola dalla pagina di [!UICONTROL Profile Merge Rules] destinazione ( **[!UICONTROL Audience Data > Profile Merge Rules]**). Questi grafici includono i dati del grafico del dispositivo se siete membri del grafico del dispositivo [!UICONTROL Device Co-op] o di altri grafici di terze parti a cui potete accedere in [!DNL Audience Manager]. Fare clic su una linea di tendenza per visualizzare i dati sottostanti.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Domande frequenti sulle regole di unione dei profili](../../faq/faq-profile-merge.md)
 
