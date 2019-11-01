@@ -8,7 +8,7 @@ title: Audience Marketplace per provider di dati
 topic: API DIL
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,7 +51,7 @@ Le funzioni includono:
 
 In [!UICONTROL My Shared Data], a volte lo stato di un feed è contrassegnato come privato. Indica un feed di dati privato. Un feed di dati privato consente ai venditori di limitare l'accesso dell'acquirente ai propri dati e persino al nome del feed di dati. I venditori possono rendere privati i propri feed quando offrono offerte speciali, sconti o quando il controllo sulla privacy e l'accesso sono importanti. Con i feed di dati privati, i fornitori rivedono e approvano tutte le richieste di accesso degli acquirenti. Per ulteriori informazioni, consultate Feed [di dati](../../../features/audience-marketplace/marketplace-private-feeds.md)privati. Per creare un feed di dati pubblico o privato, vedi [Creare un feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)di dati pubblico o privato.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Sconti per provider di dati](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)
 
