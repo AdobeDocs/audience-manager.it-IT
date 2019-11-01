@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Crea destinazioni
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 translation-type: tm+mt
-source-git-commit: 8ab675cac67a0e6353cf5fd14944c7c5cc849e5a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -21,13 +21,6 @@ Creare destinazioni con questi [!UICONTROL RESTful API] metodi.
 
 I `POST` metodi disponibili consentono di creare [!UICONTROL URL] e [!UICONTROL cookie destinations] solo. Al momento non è possibile creare [!UICONTROL server-to-server destinations] con questi [!DNL REST API] metodi. Tuttavia, i `GET` metodi di destinazione correlati consentono di recuperare le informazioni [!UICONTROL server-to-server destinations] create nell'interfaccia utente.
 
->[!MORE_LIKE_this]
->
->* [Destinazioni](../../../features/destinations/destinations.md)
->* [Serializzazione delle destinazioni](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Spiegazione delle coppie chiave-valore](../../../reference/key-value-pairs-explained.md)
-
-
 ## Creare una destinazione URL non seriale {#create-nonserial-dest}
 
 Un `POST` metodo che consente di creare una destinazione che accetta segmenti composti da coppie chiave-valore singole (ad esempio, `gender=male` o `gender=female`).
@@ -40,7 +33,7 @@ Un `POST` metodo che consente di creare una destinazione che accetta segmenti co
 
 ### Richiesta di esempio
 
-Questa richiesta crea una singola destinazione. Salvo diversa indicazione, tutti i valori richiesti sono obbligatori.
+Questa richiesta crea una singola destinazione. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -81,11 +74,6 @@ Una richiesta corretta restituisce `201 created` e la destinazione.
 } 
 ```
 
->[!MORE_LIKE_this]
->
->* [Serializzazione delle destinazioni](../../../features/destinations/key-value-pairs.md#destination-serialized)
-
-
 ## Creare una destinazione URL serializzata {#create-serial-url-dest}
 
 Un `POST` metodo che consente di creare una destinazione che accetta più valori associati a una singola chiave (ad esempio, `color=blue, red, green`).
@@ -98,7 +86,7 @@ Un `POST` metodo che consente di creare una destinazione che accetta più valori
 
 ### Richiesta di esempio
 
-Specificare il carattere di delimitazione [!DNL URL] e di protezione per la coppia chiave-valore passata alla destinazione. Salvo diversa indicazione, tutti i valori richiesti sono obbligatori.
+Specificare il carattere di delimitazione [!DNL URL] e di protezione per la coppia chiave-valore passata alla destinazione. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -142,11 +130,6 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 }
 ```
 
->[!MORE_LIKE_this]
->
->* [Serializzazione delle destinazioni](../../../features/destinations/key-value-pairs.md#destination-serialized)
-
-
 ## Crea una destinazione cookie: Chiave singola, non serializzata {#create-cookie-dest-single}
 
 Un `POST` metodo che consente di creare un [!UICONTROL cookie destination] che accetta segmenti composti da coppie chiave-valore singole (ad esempio, `gender=male` o `gender=female`).
@@ -159,7 +142,7 @@ Un `POST` metodo che consente di creare un [!UICONTROL cookie destination] che a
 
 ### Richiesta di esempio
 
-Salvo diversa indicazione, tutti i valori richiesti sono obbligatori.
+Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -216,12 +199,6 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 } 
 ```
 
->[!MORE_LIKE_this]
->
->* [Serializzazione delle destinazioni](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Spiegazione delle coppie chiave-valore](../../../reference/key-value-pairs-explained.md)
-
-
 ## Crea una destinazione cookie: Chiave singola, serializzata {#create-cookie-dest-single-serial}
 
 Un `POST` metodo che consente di creare una destinazione che accetta più valori associati a una singola chiave (ad esempio, `color=blue, red, green`).
@@ -234,7 +211,7 @@ Un `POST` metodo che consente di creare una destinazione che accetta più valori
 
 ### Richiesta di esempio
 
-Salvo diversa indicazione, tutti i valori richiesti sono obbligatori.
+Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -293,12 +270,6 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 }
 ```
 
->[!MORE_LIKE_this]
->
->* [Serializzazione delle destinazioni](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Spiegazione delle coppie chiave-valore](../../../reference/key-value-pairs-explained.md)
-
-
 ## Crea una destinazione cookie: Multi-chiave, non serializzata {#create-cookie-dest-multi}
 
 Un `POST` metodo che consente di creare una destinazione che accetta segmenti contenenti più chiavi con valori diversi (ad esempio, `gender=male; gender=female; color=blue; color=red`).
@@ -311,7 +282,7 @@ Un `POST` metodo che consente di creare una destinazione che accetta segmenti co
 
 ### Richiesta di esempio
 
-Salvo diversa indicazione, tutti i valori richiesti sono obbligatori.
+Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -378,7 +349,7 @@ Un `POST` metodo che consente di creare una destinazione che accetta segmenti co
 
 ### Richiesta di esempio
 
-Salvo diversa indicazione, tutti i valori richiesti sono obbligatori.
+Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -435,8 +406,9 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 }
 ```
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
+>* [Destinazioni](../../../features/destinations/destinations.md)
 >* [Serializzazione delle destinazioni](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Spiegazione delle coppie chiave-valore](../../../reference/key-value-pairs-explained.md)
 
