@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Generatore di segmenti
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
 
 ---
 
@@ -97,7 +97,7 @@ In [!UICONTROL Segment Builder], [!UICONTROL the Basic Information] le impostazi
 
 In [!UICONTROL Segment Builder], la [!UICONTROL Traits] sezione consente di gestire le caratteristiche di un segmento, creare gruppi di caratteristiche e impostare criteri di qualifica. Per aggiungere una caratteristica a un segmento, digita il nome della caratteristica nel campo di ricerca e fai clic [!UICONTROL Add Trait]. Salvate la caratteristica (se completata) o passate a [!UICONTROL Destinations Mapping].
 
-<!-- r_segment_traits_section.xml -->
+<!-- r_segment_traits_section.xml-->
 
 **** Prerequisiti: Compila i campi richiesti nella [!UICONTROL Basic Information] sezione .
 
@@ -106,7 +106,8 @@ In [!UICONTROL Segment Builder], la [!UICONTROL Traits] sezione consente di gest
 | Visualizzazione di base | Questa sezione contiene controlli visivi che consentono di: <ul><li>Crea nuovi segmenti e gestisci quelli esistenti.</li><li>Rimuove le caratteristiche da un segmento.</li><li>Aggiungi fino a 50 (massimo) caratteristiche a un segmento.</li><li>Trascinate le caratteristiche per creare nuovi gruppi.</li><li>Visualizzare caratteristiche e gruppi di caratteristiche in un segmento.</li><li>Impostate i criteri di qualifica con espressioni booleane, operatori di confronto e impostazioni di aggiornamento/frequenza.</li></ul> |
 | Vista Codice | Apre un ambiente di sviluppo che consente di creare e gestire caratteristiche, gruppi e requisiti di qualifica con codice invece dell'interfaccia visiva. La vista Codice è utile se i segmenti: <ul><li>Contiene più di 50 caratteristiche in un singolo segmento. Nota: I segmenti sono limitati a 5000 caratteristiche (massimo).</li><li>Contiene molti gruppi di caratteristiche.</li><li>Avere requisiti di qualifica complessi.</li></ul> |
 | Cerca | Consente di trovare caratteristiche da aggiungere a un segmento. |
-| Consigli | Ottieni raccomandazioni live per caratteristiche simili da aggiungere alla regola del segmento. Ulteriori informazioni in [Recommendations](trait-recommendations.md)sulle caratteristiche. |
+| Consigli | Ottenete raccomandazioni live per caratteristiche simili, dalle caratteristiche di prima parte e dai feed [!UICONTROL Audience Marketplace] di dati a cui siete iscritti. Aggiungi queste raccomandazioni alla regola del segmento per espandere il pubblico. Ulteriori informazioni in [Recommendations](trait-recommendations.md)sulle caratteristiche. |
+| Recommendations di Marketplace | Ottenete raccomandazioni live per caratteristiche simili, dai feed di [!UICONTROL Audience Marketplace] dati a cui non siete iscritti. Ulteriori informazioni in [Recommendations](trait-recommendations.md)sulle caratteristiche. |
 | Dati reali e stimati sulle dimensioni dei segmenti | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
 ## Rimozione di caratteristiche da un segmento {#remove-traits}
