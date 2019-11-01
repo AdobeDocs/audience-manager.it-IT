@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Finalità, composizione e regole dei segmenti
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 translation-type: tm+mt
-source-git-commit: c229bf71da5b07277811219cbf2794c3ca7bc89d
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ Un segmento di Audience Manager è una regola lato server che consiste di singol
 
 ## Considerazioni sulla mappatura dei segmenti di Adobe Analytics
 
- Quando mappate segmenti o suite di rapporti di Adobe Analytics alla vostra organizzazione Experience Cloud, Audience Manager crea automaticamente nuovi segmenti e caratteristiche di sola lettura corrispondenti. Non puoi modificare o modificare la posizione di archiviazione di questi segmenti da Audience Manager. Tuttavia, qualsiasi modifica eseguita sui segmenti Adobe Analytics o sulle suite di rapporti mappati viene visualizzata in Audience Manager.
+Quando mappate segmenti o suite di rapporti di Adobe Analytics alla vostra organizzazione Experience Cloud, Audience Manager crea automaticamente nuovi segmenti e caratteristiche di sola lettura corrispondenti. Non puoi modificare o modificare la posizione di archiviazione di questi segmenti da Audience Manager. Tuttavia, qualsiasi modifica eseguita sui segmenti Adobe Analytics o sulle suite di rapporti mappati viene visualizzata in Audience Manager.
 
 >[!TIP]
 >
@@ -48,7 +48,7 @@ I segmenti migliorano i processi standard di creazione/segmentazione dell'audien
 * Invia i dati del segmento a un partner di destinazione.
 * Monitorate le prestazioni con i rapporti di Audience Manager.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Segnali, caratteristiche e segmenti](../../reference/signal-trait-segment.md)
 
