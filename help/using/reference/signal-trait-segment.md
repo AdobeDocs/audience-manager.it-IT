@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segnali, caratteristiche e segmenti
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -44,7 +44,7 @@ c_signal_trait_segment.xml
    <td colname="col3"> 
     <ul id="ul_A6D8D30A37C94437A7BF38736C6F8556"> 
      <li id="li_74C87C34FA254783AC0DEBBC69B35AC4"><code> product=camera</code> </li> 
-     <li id="li_C1727B9136024E56B60374597A7DCA00"><code> prezzo&gt;1000</code> </li> 
+     <li id="li_C1727B9136024E56B60374597A7DCA00"><code> price&gt;1000</code> </li> 
      <li id="li_B2E7798768EE444AB978F3F27B0BC0B5"><code> type=digital SLR</code> </li> 
     </ul> </td> 
   </tr> 
@@ -56,7 +56,7 @@ c_signal_trait_segment.xml
   <tr> 
    <td colname="col1"><b>Segmento</b> </td> 
    <td colname="col2"> <p>Utenti che condividono una serie di attributi comuni e che possono ottenere caratteristiche correlate. </p> <p>Le espressioni booleane, insieme ai requisiti di aggiornamento/frequenza, consentono di creare regole di qualificazione del segmento. </p> <p>Crea requisiti di qualifica precisi con combinazioni di caratteristiche e regole di segmento. </p> </td> 
-   <td colname="col3"> <p>Dalle caratteristiche e dai segnali disponibili, puoi creare una regola di segmento espressa come segue: </p> <p><code> (product=camera AND type=digital SLR) OR (prezzo&gt;1000)</code> </p> </td> 
+   <td colname="col3"> <p>Dalle caratteristiche e dai segnali disponibili, puoi creare una regola di segmento espressa come segue: </p> <p><code> (product=camera AND type=digital SLR) OR (price&gt;1000)</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +77,7 @@ Una chiamata evento invia i dati dal sito Web a [!DNL Audience Manager]. La chia
 https://<domain>/event?product=camera&price>100
 ```
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Segmenti: Finalità, composizione e regole](../features/segments/segments-purpose.md)
 
