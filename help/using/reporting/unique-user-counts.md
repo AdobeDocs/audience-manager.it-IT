@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Conteggio di utenti univoci in sovrapposizione e rapporti generali
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -33,7 +33,7 @@ I rapporti di sovrapposizione contano gli utenti come univoci quando si qualific
 
 Il rapporto Generale considera univoci i visitatori del sito se si sono qualificati per la caratteristica nel periodo di tempo selezionato.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Rapporti interattivi](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
 >* [Rapporti generali](../reporting/general-reports.md#general-reports-overview)
