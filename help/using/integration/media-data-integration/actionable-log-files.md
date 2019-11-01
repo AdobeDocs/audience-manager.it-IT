@@ -7,7 +7,7 @@ solution: Audience Manager
 title: File di registro fruibili
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: be988def0e9cb5cb6b4a926754dd24f9fd1f85fe
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -279,7 +279,7 @@ Riavviate gli utenti che hanno visto creative 123 ma non hanno fatto clic o conv
 
 2. Una volta creata la caratteristica, la conversione inizierà a essere segnalata nel [!UICONTROL Audience Optimization Reports] e in [!UICONTROL Audience Lab].
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Importa file di dati DCM in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Report di ottimizzazione dell'audience](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
