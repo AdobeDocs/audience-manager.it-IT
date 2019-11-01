@@ -8,7 +8,7 @@ title: Informazioni sui modelli algoritmici
 topic: API DIL
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: 73d670225fb4170d02428a1dd163f442540e3415
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -51,13 +51,6 @@ Puoi gestire i modelli in **[!UICONTROL Audience Data > Models]**. A un livello 
 ## Risoluzione dei problemi {#troubleshooting}
 
 Disattiviamo qualsiasi modello algoritmico che non genera dati per tre esecuzioni consecutive. Non è possibile impostare nuovamente lo stato del modello su attivo in seguito. Per garantire che i modelli generino dati, è consigliabile creare modelli da origini dati con caratteristiche sufficienti per accumulare dati.
-
->[!MORE_LIKE_this]
->
->* [Destinazioni](../../features/destinations/destinations.md)
->* [Caratteristiche](../../features/traits/trait-details-page.md)
->* [Segmenti](../../features/segments/segments-purpose.md)
-
 
 ## Comprensione di TraitWeight {#understanding-traitweight}
 
@@ -210,3 +203,10 @@ La pagina di riepilogo del modello include le sezioni seguenti.
   </tr>
  </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>* [Destinazioni](../../features/destinations/destinations.md)
+>* [Caratteristiche](../../features/traits/trait-details-page.md)
+>* [Segmenti](../../features/segments/segments-purpose.md)
+
