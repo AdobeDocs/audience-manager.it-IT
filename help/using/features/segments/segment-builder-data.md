@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dati sulle caratteristiche e sulla popolazione dei segmenti nel Generatore di segmenti
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -153,7 +153,7 @@ La tabella seguente definisce le metriche effettive della popolazione in tempo r
 
 Al momento esiste una limitazione nota perché il nostro stimatore delle dimensioni del segmento non tiene conto delle regole di unione del profilo. Ad esempio, osserva i segmenti con la regola di **unione Nessun profilo autenticato + Profilo** dispositivo corrente[Regola](../../features/profile-merge-rules/merge-rule-definitions.md)di unione. A causa del modo in cui attualmente calcoliamo i numeri di stima dei segmenti, le popolazioni stimate includeranno profili autenticati. Tuttavia, le popolazioni di segmenti esistenti ignoreranno correttamente i profili autenticati.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Domande frequenti su Regole di unione dei profili e Device Graph](../../faq/faq-profile-merge.md)
 >* [Collegamento profilo](../../features/profile-merge-rules/merge-rules-overview.md)
