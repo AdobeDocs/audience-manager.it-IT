@@ -7,7 +7,7 @@ solution: Audience Manager
 title: ID dichiarati
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
 
 Funzionamento degli ID dichiarati, configurazione di procedure, esempi di codice e variabili.
 
-## Targeting degli ID dichiarati {#declared-id-targeting}
+##  Targeting degli ID dichiarati {#declared-id-targeting}
 
 Scambiate e sincronizzate gli ID utente con Audience Manager da dispositivi o browser che non utilizzano o accettano meccanismi di memorizzazione persistenti, ad esempio cookie di terze parti.
 
@@ -36,7 +36,7 @@ Alcuni browser e la maggior parte dei dispositivi mobili non accettano i cookie 
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Chiamata evento</b> </td> 
-   <td colname="col2"> <p>Per funzionare, hai bisogno di <span class="wintitle"> DIL </span> e del codice del servizio <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID </a> sulla pagina. <span class="wintitle"> DIL </span> ottiene <span class="wintitle"> ID dichiarati </span> dalla funzione <code> setVisitorID </code> fornita dal servizio <span class="keyword"> Experience Cloud ID </span> e li trasmette ad <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Per funzionare, hai bisogno di <span class="wintitle"> DIL </span> e del codice del servizio <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID </a> sulla pagina. <span class="wintitle"> DIL </span> riceve gli ID <span class="wintitle"> dichiarati </span> dalla <code> setVisitorID </code> funzione fornita dal servizio <span class="keyword"> Experience Cloud ID </span> e li trasmette ad <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID corrispondenza</b> </td> 
@@ -82,15 +82,15 @@ Per una descrizione e una sintassi, consultate Variabili [URL e sintassi per ID]
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ID provider di dati e ID utente. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nome</i>dominio/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Un codice di integrazione e un ID utente. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nome</i>di dominio/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Più coppie <code> d_cid </code> e <code> d_cid_ic </code> chiave-valore. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nome</i>di dominio/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,16 +108,16 @@ Questi metodi funzionano ancora ma sono considerati obsoleti. Queste informazion
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> d_uuid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>dominio</i>/demoptout.jpg?d_uuid=ID AAM </code> </p> </td> 
+   <td colname="col1"> <p> <code> d_uuid </code> only </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid=AAM ID </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rinuncia a livello di partner </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= utente ID&amp;d_dpid= ID del provider di dati </code> </p> <p>Viene memorizzata una rinuncia a livello di partner per la mappatura più recente della <code> coppia dpid </code> + <code> dpuuid </code> a un UUID AAM. Se in precedenza non esiste alcuna mappatura, Audience Manager verifica se la richiesta contiene un UUID AAM nel cookie e, in caso contrario, lo utilizza per memorizzare la rinuncia. In caso contrario, Audience Manager genera un nuovo UUID AAM e memorizza sotto di esso il rifiuto. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Viene memorizzata una rinuncia a livello di partner per la mappatura più recente di questa <code> dpid </code> + <code> dpuuid </code> coppia a un UUID AAM. Se in precedenza non esiste alcuna mappatura, Audience Manager verifica se la richiesta contiene un UUID AAM nel cookie e, in caso contrario, lo utilizza per memorizzare la rinuncia. In caso contrario, Audience Manager genera un nuovo UUID AAM e memorizza sotto di esso il rifiuto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> ed esplicita <code> d_uuid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>dominio</i>/demoptout.jpg?d_uuid= ID utente e d_dpuuid= ID utente del provider di dati e<i>d_dpid=ID</i> del provider di dati </code> </p> <p> <code> d_uuid ha </code> sempre la precedenza. Se la <code> combinazione dpid </code> + <code> dpuuid </code> viene mappata su un altro UUID AAM, la rinuncia viene memorizzata nell’UUID AAM passato nella richiesta ( <code> d_uuid </code>). </p> </td> 
+   <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> ed esplicito <code> d_uuid </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> ha sempre la precedenza. Se la combinazione <code> dpid </code> + <code> dpuuid </code> viene mappata su un altro UUID AAM, la rinuncia viene memorizzata nell’UUID AAM passato nella richiesta ( <code> d_uuid </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,11 +142,11 @@ In ogni coppia chiave-valore:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> d_cid = ID<i>provider</i> dati %01<i>ID</i> utente </code> </p> </td> 
-   <td colname="col2"> <p>Contiene un ID provider di dati e un ID utente univoco associato in una coppia chiave-valore singola. <code> d_cid </code> sostituisce <code> d_dpid </code> e <code> d_dpuuid </code>, che sono considerati obsoleti, ma sono comunque supportati. Consultate <a href="../reference/cid.md">CID sostituisce DPID e DPUUID</a> </p> </td> 
+   <td colname="col1"> <p> <code> d_cid =<i>data provider ID</i> %01<i>user ID</i> </code> </p> </td> 
+   <td colname="col2"> <p>Contiene un ID provider di dati e un ID utente univoco associato in una coppia chiave-valore singola. <code> d_cid </code> sostituisce <code> d_dpid </code> e <code> d_dpuuid </code>, che sono considerati obsoleti, ma sono ancora supportati. Consultate <a href="../reference/cid.md">CID sostituisce DPID e DPUUID</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> d_cid_ic = codice<i>di</i> integrazione %01<i>ID</i> utente </code> </p> </td> 
+   <td colname="col1"> <p> <code> d_cid_ic =<i>integration code</i> %01<i>user ID</i> </code> </p> </td> 
    <td colname="col2"> <p>Contiene un codice di integrazione e un ID utente univoco associato in una coppia chiave-valore singola. <code> d_cid_ic </code> sostituisce <code> d_dpid </code> e <code> d_dpuuid </code>, che sono obsoleti, ma sono ancora supportati. Consultate <a href="../reference/cid.md">CID sostituisce DPID e DPUUID</a> </p> </td> 
   </tr> 
  </tbody> 
@@ -166,23 +166,18 @@ Considerate queste coppie chiave-valore e la sintassi richiesta, effettuerete le
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ID provider di dati e ID utente. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nome</i>di dominio/evento?d_cid=123%01987... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Un codice di integrazione e un ID utente. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nome</i>/evento?d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Più coppie <code> d_cid </code> e <code> d_cid_ic </code> chiave-valore. </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>nome</i>/evento?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987&amp;d_cid_ic=456%01321... </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
->[!MORE_LIKE_this]
->
->* [CID sostituisce DPID e DPUUID](../reference/cid.md)
-
 
 ## Variabili ID dichiarate {#declared-id-variables}
 
@@ -285,3 +280,8 @@ myCallback({
 ## Non eseguire il targeting e non eseguire il rifiuto delle chiamate {#do-not-target}
 
 Il [!UICONTROL declared ID] processo rispetta le preferenze dei visitatori del sito per rinunciare al targeting di Audience Manager dal sito Web. Quando Audience Manager riceve una richiesta di rifiuto, [!UICONTROL DCS] restituisce un [!DNL JSON] oggetto vuoto invece dell’ID utente di Audience Manager.
+
+>[!MORELIKETHIS]
+>
+>* [CID sostituisce DPID e DPUUID](../reference/cid.md)
+
