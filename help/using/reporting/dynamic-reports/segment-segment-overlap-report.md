@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapporto di sovrapposizione segmento-segmento
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: 339d5550b22949862415d2abc812217e5479c993
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -62,12 +62,12 @@ La finestra a comparsa per il [!UICONTROL Segment-to-Segment Overlap] rapporto c
 | **[!UICONTROL Segment ID2]** | ID numerico univoco per il segmento selezionato durante l'esecuzione del rapporto. Viene visualizzato come ID colonna per il segmento. |
 | **[!UICONTROL Segment Name1]** | Nome del segmento visualizzato nella riga dei risultati del rapporto. |
 | **[!UICONTROL Segment Name2]** | Nome del segmento selezionato durante l'esecuzione del rapporto. Viene visualizzata nella colonna dei risultati del rapporto. |
-| **[!UICONTROL Overlap %]** | Per ottenere la sovrapposizione %, Audience Manager utilizza la seguente formula:Sovrapposizione Di Uniche / (Uniche Segmenti Di Base + Sovrapposizione Di Segmenti - Sovrapposizione Di Uniche Analisi) |
+| **[!UICONTROL Overlap %]** | Per ottenere la sovrapposizione %, Audience Manager utilizza la seguente formula: Sovrapposizione Di Uniche / (Uniche Segmenti Di Base + Sovrapposizione Di Segmenti - Sovrapposizione Di Uniche Analisi) |
 | **[!UICONTROL Overlap Uniques]** | Il numero di visitatori univoci condivisi tra segmenti confrontati. |
 | **[!UICONTROL Segment Uniques1]** | Il numero di visitatori unici nel segmento 1. |
 | **[!UICONTROL Segment Uniques2]** | Il numero di visitatori unici nel segmento 2. |
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Filtra i risultati dei report con i cursori dei dati](../../reporting/dynamic-reports/data-sliders.md)
 >* [Forme, colori e dimensioni utilizzati nei rapporti interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
