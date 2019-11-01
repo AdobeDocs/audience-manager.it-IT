@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Filtra i risultati dei report con i cursori dei dati
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -28,7 +28,7 @@ I cursori del rapporto consentono di impostare limiti per i dati restituiti da u
 * Ridurre la quantità totale di dati restituiti dai report.
 * Concentrati su caratteristiche o segmenti che rientrano in un intervallo di dimensioni specifico.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Informazioni sui filtri dati nel rapporto di sovrapposizione segmento-caratteristica](../../reporting/dynamic-reports/segment-trait-overlap-report.md#data-filters-s2t-report)
 
