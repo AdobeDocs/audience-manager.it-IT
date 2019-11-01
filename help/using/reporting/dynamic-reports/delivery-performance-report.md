@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapporto sulla consegna e sulle prestazioni
 uuid: c8daa6bc-50d6-4c2c-a45a-5b7065fd88f9
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -35,14 +35,6 @@ Il [!UICONTROL Delivery and Performance] rapporto consente di valutare le presta
 
 Selezionare un singolo punto per visualizzare i dettagli dei dati in una finestra a comparsa. È inoltre possibile fare clic e trascinare il cursore su un gruppo di punti per restituire solo i dati relativi a tali elementi. Queste azioni aggiornano automaticamente i risultati del rapporto.
 
->[!MORE_LIKE_this]
->
->* [Miglioramento dei tempi di elaborazione dei file di registro con le tabelle di ricerca](../../reporting/dynamic-reports/lookup-tables.md)
->* [Filtra i risultati dei report con i cursori dei dati](../../reporting/dynamic-reports/data-sliders.md)
->* [Campi Pop Data Consegna e Prestazioni Definiti](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
->* [Forme, colori e dimensioni utilizzati nei rapporti interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
-
-
 ## Campi Pop Data Consegna e Prestazioni Definiti {#field-definitions}
 
 Descrive le metriche visualizzate nella finestra a comparsa quando si fa clic su un singolo punto dati.
@@ -66,7 +58,10 @@ La finestra a comparsa per il report Consegna e Prestazioni contiene le metriche
 | **[!UICONTROL Reach]** | Numero di visitatori univoci. |
 | **[!UICONTROL Click Through]** | Numero di volte in cui un visitatore ha fatto clic su un annuncio. |
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Miglioramento dei tempi di elaborazione dei file di registro con le tabelle di ricerca](../../reporting/dynamic-reports/lookup-tables.md)
+>* [Filtra i risultati dei report con i cursori dei dati](../../reporting/dynamic-reports/data-sliders.md)
+>* [Campi Pop Data Consegna e Prestazioni Definiti](../../reporting/dynamic-reports/delivery-performance-report.md#field-definitions)
+>* [Forme, colori e dimensioni utilizzati nei rapporti interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 
