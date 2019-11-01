@@ -6,22 +6,22 @@ solution: Audience Manager
 title: Consigli sulle caratteristiche
 uuid: null
 translation-type: tm+mt
-source-git-commit: a67998b925002438b20fdde81f1abec4acbd5602
+source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
 
 
 # Consigli sulle caratteristiche
 
-Ricevi raccomandazioni sulle caratteristiche dal vivo mentre crei i tuoi segmenti.
+Ricevi raccomandazioni sulle caratteristiche dal vivo man mano che crei i tuoi segmenti, dalle caratteristiche di prima parte e dai feed di [!UICONTROL Audience Marketplace] dati.
 
 ## Dimostrazione video
 
-Per iniziare, guarda il [!UICONTROL Trait Recommendations] video qui sotto, quindi leggi per saperne di più.
+Per iniziare, guarda il [!UICONTROL Trait Recommendations] video qui sotto, quindi leggi per saperne di più. La dimostrazione video mostra come lavorare con le raccomandazioni derivate da caratteristiche di prime parti, nonché con le raccomandazioni sulle caratteristiche dei feed di [!UICONTROL Audience Marketplace] dati a cui *si è già abbonati*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26228/?captions=ita)
 
-Il video successivo illustra il flusso di lavoro per [!UICONTROL Marketplace Recommendations], mostrandovi come aggiungere raccomandazioni sulle caratteristiche ai segmenti, dai feed di dati in [!UICONTROL Audience Marketplace].
+Il video successivo illustra il flusso di lavoro per [!UICONTROL Marketplace Recommendations], mostrandovi come aggiungere caratteristiche ai segmenti, in base alle raccomandazioni dei feed di dati in [!UICONTROL Audience Marketplace]. Queste raccomandazioni si basano sui feed di dati a cui non *siete iscritti*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29363/?captions=ita)
 
@@ -32,13 +32,13 @@ With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Se
 
 Audience Manager mostra le raccomandazioni relative alle caratteristiche sia dalle caratteristiche di prime parti, nella **[!UICONTROL Recommendations]** sezione, sia **[!UICONTROL Audience Marketplace]** nella **[!UICONTROL Recommendations from Marketplace]** sezione.
 
-![Panoramica sulle raccomandazioni sulle caratteristiche](assets/trait-recommendations-overview-full.png)
-
 Aggiungi le caratteristiche consigliate al segmento per aumentare il pubblico di destinazione.
+
+![Panoramica sulle raccomandazioni sulle caratteristiche](assets/trait-recommendations-overview-full.png)
 
 **In sintesi:**
 
-* Audience Manager mostra le caratteristiche della prima parte nella [!UICONTROL Recommendations] sezione. Le raccomandazioni di Marketplace dai feed pubblici e privati per i quali non sei iscritto sono visibili nella [!UICONTROL Recommendations from Marketplace] sezione.
+* Audience Manager mostra le caratteristiche della prima parte nella [!UICONTROL Recommendations] sezione. Le raccomandazioni di Marketplace dai feed pubblici e privati per i quali non sei iscritto sono visibili nella [!UICONTROL Recommendations from Marketplace] sezione. Fate clic sul nome del feed per andare a [!UICONTROL Audience Marketplace] e iscrivervi.
 * Audience Manager mostra un massimo di cinquanta caratteristiche simili a quella della regola del segmento.
 * Potete filtrare le origini dati da cui non desiderate visualizzare alcuna raccomandazione.
 * Nel calcolo delle similarità, Audience Manager considera gli [UUID](../../reference/ids-in-aam.md) idonei per la caratteristica negli ultimi 30 giorni.
@@ -50,6 +50,8 @@ Con [!UICONTROL Trait Recommendations], puoi migliorare i flussi di lavoro, a se
 
 * Come esperto di marketing, puoi trovare rapidamente audience interessate a prodotti complementari con l'aiuto di caratteristiche simili, in modo da aumentare la tua portata.
 * Se usi Audience Manager come editore, [!UICONTROL Trait Recommendations]puoi comprendere il comportamento dell'audience e creare segmenti migliori per le vendite di annunci pubblicitari o l'acquisizione di utenti.
+* In qualità di [!UICONTROL Audience Marketplace] data buyer, voglio scoprire dati rilevanti di terze parti senza consultare un gran numero di feed.
+* Come fornitore di [!UICONTROL Audience Marketplace] dati, voglio raccomandare dati rilevanti agli acquirenti in modo da poter beneficiare di abbonamenti ottimali e rilevanti.
 
 ## Differenze tra le raccomandazioni caratteristiche e i modelli algoritmici
 
@@ -79,7 +81,7 @@ Durante la creazione o la modifica di un segmento in Generatore [di](segment-bui
 
 1. Vai a Dati **audience &gt; Segmenti** e fai clic su **Aggiungi nuovo**.
 2. Nella casella a discesa **Caratteristiche** , aggiungi almeno una caratteristica alla regola del segmento.
-3. Potete visualizzare le caratteristiche consigliate di prime parti nella **[!UICONTROL Recommendations]** sezione e quelle consigliate di terze parti nella **[!UICONTROL Recommendations from Marketplace]** sezione. Tutte queste raccomandazioni sono simili alle caratteristiche aggiunte alla regola del segmento. Scorrete verso il basso per visualizzare tutte le caratteristiche consigliate.
+3. Potete visualizzare le caratteristiche consigliate di prima parte e le raccomandazioni sulle [!UICONTROL Audience Marketplace] caratteristiche dai feed a cui siete iscritti, nella **[!UICONTROL Recommendations]** sezione. La **[!UICONTROL Recommendations from Marketplace]** sezione mostra le raccomandazioni di caratteristiche dai feed a cui non si è iscritti. Tutte queste raccomandazioni sono simili alle caratteristiche aggiunte alla regola del segmento. Scorrete verso il basso per visualizzare tutte le caratteristiche consigliate.
 4. (Facoltativo) Per escludere caratteristiche di prime parti consigliate da determinate origini dati, fare clic sul simbolo **X** relativo alle origini dati da escludere.
    > [!NOTE]
    >
@@ -134,7 +136,7 @@ Facendo clic su una caratteristica di prima parte si apre una finestra a compars
 
 Per produrre le raccomandazioni sulle caratteristiche, Audience Manager calcola la similarità [](https://en.wikipedia.org/wiki/Jaccard_index) Jaccard tra la caratteristica di destinazione e ogni altra caratteristica a cui l'account ha accesso, compresi i dati di terze parti. Audience Manager visualizza quindi fino a cinquanta caratteristiche con la somiglianza più elevata.
 
-## Punteggio per similarità caratteristica
+## Punteggio per similarità caratteristica {#trait-similarity-score}
 
 Audience Manager calcola il [!UICONTROL Trait Similarity Score] tra due caratteristiche calcolando l'intersezione e l'unione in termini di numero di [!UICONTROL UUID]s e quindi dividendo i due. Per due caratteristiche A e B, il calcolo si presenta come segue:
 
@@ -151,7 +153,7 @@ Utilizzando la formula precedente, si ottiene quanto segue: 25.000 / 1.975.000 =
 
 ### Esempio 2 - Punteggio per similarità caratteristica
 
-Se le stesse caratteristiche A e B presentavano 400.000 [!UICONTRL ]UUID idonei per entrambe le caratteristiche, il [!UICONTROL Trait Similarity Score] valore è molto superiore:
+Se le stesse caratteristiche A e B presentavano 400.000 [!UICONTROL UUID]s idonee per entrambe le caratteristiche, l' [!UICONTROL Trait Similarity Score] operazione è molto più elevata:
 400.000 / 1.600.000 = 0,25
 
 ![trait-recommendations-high-Sovrapposizione](assets/Trait-Recommendations-High-overlap.png)
@@ -169,7 +171,13 @@ Utilizzate la tabella riportata di seguito come guida approssimativa per la cara
 
 ## Controllo dell'accesso basato sul ruolo (RBAC)
 
-Per le aziende che utilizzano [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), è necessario disporre dell'autorizzazione per creare e modificare i segmenti al fine di visualizzare le caratteristiche consigliate. Inoltre, le caratteristiche consigliate visualizzate sono solo quelle provenienti da origini dati a cui si ha accesso tramite [!UICONTROL RBAC]. Ulteriori informazioni sui [!UICONTROL RBAC] controlli sono disponibili [qui](../administration/administration-overview.md).
+Per le aziende che utilizzano [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]), è necessario disporre dell'autorizzazione per creare e modificare i segmenti al fine di visualizzare le caratteristiche consigliate. Le raccomandazioni sulle caratteristiche visualizzate sono solo quelle delle origini dati a cui hai accesso tramite [!UICONTROL RBAC].
+
+> [!IMPORTANT]
+>
+> Per aggiungere [!UICONTROL Marketplace Recommendations] un segmento, gli utenti devono prima sottoscrivere i feed di dati corrispondenti. Solo gli utenti con privilegi di amministratore possono iscriversi ai feed [!UICONTROL Audience Marketplace] di dati.
+
+Ulteriori informazioni sui [!UICONTROL RBAC] controlli sono disponibili [qui](../administration/administration-overview.md).
 
 ## Limitazioni
 
