@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisiti della password, account bloccati e password dimenticate
 uuid: bca892eb-3577-4382-8110-131f78d23069
 translation-type: tm+mt
-source-git-commit: 12216ab5105fce80b4b47c31ee6be144ddfe8df9
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -74,7 +74,7 @@ Gli account vengono bloccati dopo 5 tentativi di accesso non riusciti. Contatta 
 
 Fate clic sul **[!UICONTROL Forgot password]** collegamento dalla pagina di accesso per ripristinare la password. Riceverete un'e-mail automatizzata con una password temporanea che scade tra 24 ore. Fate clic sul collegamento nell'e-mail per accedere all'account e reimpostare la password.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Protezione dei dati](../overview/data-security-and-privacy/data-security.md)
 >* [Protezione dei dati](../overview/data-security-and-privacy/data-privacy.md)
