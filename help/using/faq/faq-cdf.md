@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Domande frequenti sui feed di dati cliente
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -83,7 +83,7 @@ I dati vengono eliminati dopo 8 (8) giorni.
 
 Potete generare file CDF solo per gli ultimi 8 giorni. I file CDF per gli intervalli precedenti agli 8 giorni non possono essere rigenerati.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Feed dati cliente](../features/cdf-files.md)
 
