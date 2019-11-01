@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sovrapponi rapporti Programma di aggiornamento e Dimensione minima del segmento
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -46,7 +46,7 @@ Se non visualizzi un segmento in uno dei [!UICONTROL Overlap] rapporti, potrebbe
  </tbody> 
 </table>
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Rapporto di sovrapposizione caratteristica-caratteristica](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
 >* [Rapporto di sovrapposizione segmento-caratteristica](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
