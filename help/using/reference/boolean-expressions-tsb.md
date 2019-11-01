@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Espressioni booleane in Generatore di caratteristiche e segmenti
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -76,7 +76,7 @@ L' [!UICONTROL OR] operatore è utile quando si desidera creare segnali con requ
 
 L' [!UICONTROL AND NOT] operatore è utile quando è più facile definire un'audience per *esclusione* piuttosto che per *inclusione*. Ad esempio, supponiamo di avere una vendita e di voler segmentare i visitatori in clienti che guardano solo gli articoli a prezzo pieno. Invece di creare un elenco di segnali per tutti gli articoli completi o a prezzo di vendita idonei, potrebbe essere più semplice qualificare i visitatori se *non* hanno visto un articolo di prezzo di vendita. Questo è efficiente dal punto di vista amministrativo perché di solito si hanno meno articoli di prezzo di vendita rispetto a quelli offerti a prezzo pieno. Con un valore booleano, [!UICONTROL NOT]i visitatori non *devono mostrare* il segnale di vendita per poter partecipare a un pubblico a prezzo pieno. Al contrario, [!UICONTROL AND NOT] è l'opposto del caso di [!UICONTROL AND] utilizzo, che mostra come l'appartenenza al pubblico sia determinata dall'inclusione (ovvero, il visitatore qualificato in base a 2 segnali esplicitamente dichiarati).
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Utilizzo degli operatori di confronto in TraitBuilder](../features/traits/trait-comparison-operators.md)
 >* [Ordine delle operazioni nelle espressioni TraitBuilder](../features/traits/trait-operator-precedence.md)
