@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Modificare la chiamata API GPT setTargeting
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -57,7 +57,7 @@ Definisce le variabili chiave utilizzate nell' `if` istruzione.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getKey </code> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>Restituisce la chiave nella coppia di segmenti chiave-valore. Ad esempio, se la coppia chiave-valore è costituita da <code> color=blue </code>, restituisce <code> colore </code>. </p> </td> 
+   <td colname="col3"> <p>Restituisce la chiave nella coppia di segmenti chiave-valore. Ad esempio, se la coppia chiave-valore è costituita da <code> color=blue </code>, restituisce <code> color </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getValues </code> </p> </td> 
@@ -72,7 +72,7 @@ Definisce le variabili chiave utilizzate nell' `if` istruzione.
  </tbody>
 </table>
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Creare una destinazione GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 >* [Codice Audience Manager per i tag di Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
