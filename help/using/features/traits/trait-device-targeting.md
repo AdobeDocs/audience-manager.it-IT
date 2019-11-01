@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Targeting dei dispositivi con chiavi a livello di piattaforma
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,7 +43,7 @@ I valori di [!UICONTROL Data Collection Servers] queste chiavi vengono estratti 
 >
 >Anche se uno o più segnali non possono essere recuperati dall'intestazione dell'agente utente, gli altri segnali verranno comunque trasmessi al [!UICONTROL Data Collection Servers].
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Requisiti del prefisso per le variabili chiave](../../features/traits/trait-variable-prefixes.md)
 
