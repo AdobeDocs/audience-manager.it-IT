@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tempo segmento per vivere spiegato
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 translation-type: tm+mt
-source-git-commit: 17906734132813984437216f2a6cbc1c7bf14937
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -50,7 +50,7 @@ Ad esempio, supponiamo che il segmento 1 sia composto dalla caratteristica A (30
 
 Il [!DNL TTL] set sul [!DNL Audience Manager] pixel funziona indipendentemente dal [!DNL TTL] set sugli altri pixel utilizzati da terze parti ([!DNL DSP]s, ad network, ecc.).
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Imposta un intervallo di scadenza caratteristica](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
 
