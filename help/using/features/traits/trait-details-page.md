@@ -7,20 +7,29 @@ title: Pagina Dettagli caratteristica
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: suddivisione del tipo di identità, analisi dell'identità, segnalazione dell'identità dell'audience
 translation-type: tm+mt
-source-git-commit: 345042673a9ee7abdac994d774e5c4c893a78749
+source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
 
 ---
 
 
 # Pagina Dettagli caratteristica {#trait-details-page}
 
-La pagina dei dettagli di una caratteristica specifica fornisce una panoramica delle informazioni come il nome della caratteristica, l’ID, le metriche delle prestazioni, le espressioni che definiscono la caratteristica, i segmenti a cui appartiene e il registro di controllo delle caratteristiche. Per visualizzare questi dettagli, passate a [!UICONTROL Audience Data > Traits] e fate clic sul nome della caratteristica con cui desiderate lavorare.
+La pagina dei dettagli di una caratteristica specifica fornisce una panoramica dei dettagli della caratteristica, come il nome della caratteristica, l’ID, le metriche delle prestazioni, le espressioni che definiscono la caratteristica, i segmenti a cui appartiene e il registro di controllo della caratteristica. Per visualizzare questi dettagli, passate a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Traits]** e fate clic sul nome della caratteristica con cui desiderate lavorare.
 
-## Informazioni di base {#basics}
+## Strumenti di gestione delle caratteristiche {#trait-management-tools}
 
-La [!UICONTROL Basic Information] sezione mostra i dettagli sui campi obbligatori e facoltativi completati al momento della creazione della caratteristica. Questo include caratteristiche come il tipo di caratteristica, l'ID caratteristica, la descrizione, l'origine dati e altri metadati. Tali dettagli variano a seconda del tipo di caratteristica (cartella, scheda aziendale o basata su regole).
+Nella parte superiore della pagina dei dettagli sulle caratteristiche sono disponibili gli strumenti che puoi utilizzare per gestire le caratteristiche:
 
-![](assets/basicInfo.png)
+1. **[!UICONTROL Add New]**: Utilizzate questa opzione per creare nuove caratteristiche basate su regola, algoritmiche o registrate.
+2. **[!UICONTROL Edit]**: Utilizzare questa opzione per modificare la configurazione della caratteristica corrente.
+3. **[!UICONTROL Delete]**: Utilizzate questa opzione per rimuovere la caratteristica corrente dall'account Audience Manager.
+4. **[!UICONTROL Marketplace Recommendations]**: Utilizzate questa opzione per trovare caratteristiche simili a quelle che state visualizzando, dalle tariffe [!UICONTROL Audience Marketplace] dati alle quali non siete iscritti. Consulta [Audience Marketplace per gli acquirenti](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) di dati per scoprire come navigare nel mercato e trovare caratteristiche simili.
+
+![informazioni sulle caratteristiche di base](assets/basic-trait-information.png)
+
+## Informazioni sulle caratteristiche {#basics}
+
+La [!UICONTROL Trait Information] sezione mostra i dettagli sui campi obbligatori e facoltativi completati al momento della creazione della caratteristica. Questo include caratteristiche come il tipo di caratteristica, l'ID caratteristica, la descrizione, l'origine dati e altri metadati. Tali dettagli variano a seconda del tipo di caratteristica (cartella, scheda aziendale o basata su regole).
 
 ## Grafico caratteristiche {#trait-graph}
 
