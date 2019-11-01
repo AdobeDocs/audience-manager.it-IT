@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informazioni sulle chiamate al dominio demdex
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -25,11 +25,11 @@ Audience Manager e il servizio Experience Cloud ID effettuano chiamate al domini
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> demdex.net</code> </p> </td> 
-   <td colname="col2"> <p>This is a legacy domain controlled by <span class="keyword"> Adobe</span>. Riflette il nome originale e pre-acquisizione di <span class="keyword"> Audience Manager</span>(<span class="keyword"> Demdex</span>). <span class="keyword"> Adobe</span> ha acquisito <span class="keyword"> Demdex</span> nel 2011 e ha rinominato la società come <span class="keyword"> Audience Manager</span>. È difficile cambiare questo dominio perché è strettamente connesso con <span class="keyword"> Audience Manager</span>, con il servizio <span class="wintitle"></span>ID e con la nostra base di utenti installata. Vedere <a href="../overview/aam-overview.md#history-and-background"> Cronologia e sfondo</a>. </p> <p>Potrebbero essere presenti altri prefissi associati alle chiamate <code> demdex.net</code> precedenti (ad esempio, <code> dcs.demdex.net</code>, <code> fast.demdex.net</code>ecc.). Indipendentemente dal prefisso, una chiamata a <code><i>qualcosa</i>.demdex.net</code> è sempre una chiamata ad <span class="keyword"> Adobe</span> e non a un dominio di terze parti sconosciuto o sospetto. </p> </td> 
+   <td colname="col2"> <p>This is a legacy domain controlled by <span class="keyword"> Adobe</span>. Riflette il nome originale e pre-acquisizione di <span class="keyword"> Audience Manager</span>(<span class="keyword"> Demdex</span>). <span class="keyword"> Adobe</span> ha acquisito <span class="keyword"> Demdex</span> nel 2011 e ha rinominato la società come <span class="keyword"> Audience Manager</span>. È difficile cambiare questo dominio perché è strettamente connesso con <span class="keyword"> Audience Manager</span>, con il servizio <span class="wintitle"></span>ID e con la nostra base di utenti installata. Vedere <a href="../overview/aam-overview.md#history-and-background"> Cronologia e sfondo</a>. </p> <p>Potrebbero essere presenti altri prefissi collegati alle <code> demdex.net</code> chiamate precedenti (ad esempio, <code> dcs.demdex.net</code>, <code> fast.demdex.net</code>ecc.). Indipendentemente dal prefisso, una chiamata a <code><i>something</i>.demdex.net</code> è sempre una chiamata ad <span class="keyword"> Adobe</span> e non ad alcuni domini di terze parti sconosciuti o sospetti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dpm</code> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> DPM</span> è un'abbreviazione di <span class="wintitle"> Data Provider Match</span>. Indica ai sistemi interni <span class="keyword"> Adobe</span> che una chiamata da <span class="keyword"> Audience Manager</span> o dal servizio <span class="wintitle"></span> ID trasmette i dati del cliente per la sincronizzazione o richiede un ID. Questa è la chiamata <code> demdex.net</code> più comune che troverai da <span class="keyword"> Audience Manager</span> o dal servizio <span class="wintitle"></span>ID. </p> <p><span class="wintitle"> Nozioni di base sulle chiamate DPM</span> : </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> DPM</span> è un'abbreviazione di <span class="wintitle"> Data Provider Match</span>. Indica ai sistemi interni <span class="keyword"> Adobe</span> che una chiamata da <span class="keyword"> Audience Manager</span> o dal servizio <span class="wintitle"></span> ID trasmette i dati del cliente per la sincronizzazione o richiede un ID. Questa è la <code> demdex.net</code> chiamata più comune che vedrai da <span class="keyword"> Audience Manager</span> o dal servizio <span class="wintitle"></span>ID. </p> <p><span class="wintitle"> Nozioni di base sulle chiamate DPM</span> : </p> <p> 
      <ul id="ul_44023BB060774518BE414EE10820C141"> 
       <li id="li_0F94D1988A6944BA885FD40AB26FC49F"> <b> <span class="keyword"> Audience Manager</span> </b>: Una chiamata <span class="wintitle"> DPM</span> da <span class="keyword"> Audience Manager</span> invia dati ai server <span class="wintitle"> di raccolta dati e ai server</span> cache dei <span class="wintitle"></span>profili. Consulta Componenti <a href="../reference/system-components/components-data-collection.md"></a>per la raccolta dei dati. </li> 
       <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b> Servizio <span class="wintitle"> ID</span> </b>: Una chiamata <span class="wintitle"> DPM</span> dal servizio <span class="wintitle"></span> ID è una richiesta per un ID visitatore. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookie e il servizio</a> Experience Cloud ID e <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_id_request.html" format="https" scope="external"> Come il servizio Experience Cloud ID richiede e imposta gli ID</a>. </li> 
@@ -38,7 +38,7 @@ Audience Manager e il servizio Experience Cloud ID effettuano chiamate al domini
  </tbody> 
 </table>
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Servizio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 >* [Cookie di Audience Manager](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html)
