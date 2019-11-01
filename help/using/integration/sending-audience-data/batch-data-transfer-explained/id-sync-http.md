@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sincronizzazione ID per trasferimenti di dati in entrata
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: 0fac081c93be36d2aa40023c7323ef1886b3860a
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -48,24 +48,24 @@ La chiamata [!DNL URL] per la sincronizzazione ID in entrata deve contenere le v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <code> <i>&lt;ID_VENDOR&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
    <td colname="col2"> <p>ID univoco per il fornitore del contenuto (assegnato da <span class="keyword"> Audience Manager</span>). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i></code> </td> 
+   <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
    <td colname="col2"> <p>URL (percentuale) Rappresentazione codificata dell’ID utente univoco. Oltre alla codifica di caratteri ASCII riservati, tutti i caratteri non ASCII devono essere codificati in percentuale in base alla tabella di codifica dei caratteri UTF-8. </p> <p>Per ulteriori informazioni, consultate il sito Web <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL Encode/Decode Online</a> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> <i>&lt;URL_REDIRECT&gt;</i></code> </td> 
-   <td colname="col2"> <p>Un reindirizzamento URL codificato con la macro <code> ${DD_UUID}</code> incorporata al suo interno. </p> <p>Nota:  Aggiunto solo quando il fornitore del contenuto avvia la chiamata. </p> </td> 
+   <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
+   <td colname="col2"> <p>Un URL codificato viene reindirizzato con la macro <code> ${DD_UUID}</code> incorporata al suo interno. </p> <p>Nota:  Aggiunto solo quando il fornitore del contenuto avvia la chiamata. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i></code> </td> 
-   <td colname="col2"> <p>Facoltativo. Aggiungi questo parametro se utilizzi il plug-in <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager per IAB TCF.</a></p> <p><code> gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR). </p> <p> <b></b> Nota: Questo parametro può essere utilizzato solo con <code>gdpr_assenso</code>.</p></td> 
+   <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
+   <td colname="col2"> <p>Facoltativo. Aggiungi questo parametro se utilizzi il plug-in <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager per IAB TCF.</a></p> <p><code> gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR). </p> <p> <b></b> Nota: Questo parametro può essere utilizzato solo insieme a <code>gdpr_consent</code>.</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <code><i>gdpr_assenso=&lt;ENCODED STRING&gt;</i></code> </td> 
-   <td colname="col2"> <p>Facoltativo. Aggiungi questo parametro se utilizzi il plug-in <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager per IAB TCF.</a></p> <p><code>gdpr_assenso</code> è la stringa di consenso GDPR con codifica URL-safe base64 (consultate <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> Specifica</a>IAB). </p> <p> <b></b> Nota: Questo parametro può essere utilizzato solo con <code>gdpr</code>.</p> </td> 
+   <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
+   <td colname="col2"> <p>Facoltativo. Aggiungi questo parametro se utilizzi il plug-in <a href="../../../overview/aam-gdpr/aam-iab-plugin.md">Audience Manager per IAB TCF.</a></p> <p><code>gdpr_consent</code> è la stringa di consenso GDPR con codifica URL-safe base64 (consultate la specifica <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"></a>IAB). </p> <p> <b></b> Nota: Questo parametro può essere utilizzato solo insieme a <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ Per ulteriori informazioni, vedi ID [dichiarati](../../../features/declared-ids.
 
 Il formato per gli ID corrispondenti tramite un'immagine e-mail è lo stesso mostrato sopra. Tuttavia, le immagini contenute in un messaggio e-mail devono essere abilitate affinché questo funzioni. Questo può influenzare la sincronizzazione ID tramite e-mail perché la maggior parte dei sistemi di posta elettronica disattiva le immagini per impostazione predefinita.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Componenti per la raccolta dati](../../../reference/system-components/components-data-collection.md)
 
