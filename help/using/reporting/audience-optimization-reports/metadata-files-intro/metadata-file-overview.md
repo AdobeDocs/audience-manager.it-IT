@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Panoramica e mappature per i file di metadati
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 translation-type: tm+mt
-source-git-commit: 1ff46970470eae4bc30760468013d994c976e549
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -136,7 +136,7 @@ Consultate Formato [contenuto per i file](../../../reporting/audience-optimizati
 
 Dopo aver assegnato un nome e aggiunto dati a un file, lo si invia a una directory di memorizzazione Amazon S3 fornita da [!DNL Audience Manager]. Consultate Metodi di [consegna per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)di metadati.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [File di dati per report di ottimizzazione dell'audience](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Acquisizione dei dati di clic sulla campagna tramite chiamate pixel](../../../integration/media-data-integration/click-data-pixels.md)
