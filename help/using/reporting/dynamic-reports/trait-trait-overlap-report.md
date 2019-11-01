@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapporto di sovrapposizione caratteristica-caratteristica
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: 4dc8aad623198cbc24c5c76ac3818d7ee00e9a5e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -93,7 +93,7 @@ La finestra a comparsa per il [!UICONTROL Trait-to-Trait Overlap] rapporto conti
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Sovrapponi</span></b> </td> 
-   <td colname="col2"> <p>Per ottenere la sovrapposizione %, Audience Manager utilizza la seguente formula:</p> <p>Sovrapposizione Di Uniche / (Uniche Segmenti Di Base + Sovrapposizione Di Segmenti - Sovrapposizione Di Uniche Analisi)</p> </td> 
+   <td colname="col2"> <p>Per ottenere la sovrapposizione %, Audience Manager utilizza la seguente formula:</p> <p> Sovrapposizione Di Uniche / (Uniche Segmenti Di Base + Sovrapposizione Di Segmenti - Sovrapposizione Di Uniche Analisi)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Caratteristiche tecniche</span></b> </td> 
@@ -102,7 +102,7 @@ La finestra a comparsa per il [!UICONTROL Trait-to-Trait Overlap] rapporto conti
  </tbody> 
 </table>
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Filtra i risultati dei report con i cursori dei dati](../../reporting/dynamic-reports/data-sliders.md)
 >* [Forme, colori e dimensioni utilizzati nei report dinamici](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
