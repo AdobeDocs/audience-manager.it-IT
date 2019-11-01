@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casi d'uso dei grafici dei dispositivi esterni
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 translation-type: tm+mt
-source-git-commit: 54ae5956a34c193d42d4ff9a231249d56cce87aa
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -123,7 +123,7 @@ Utilizzando il **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adob
 
 ![espansione a grafico avanzato](assets/advanced-device-graph-expansion.png)
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Casi di utilizzo del grafico dei collegamenti profilo](profile-link-use-case.md)
 >* [Casi di utilizzo generali per le regole di unione dei profili](merge-rule-targeting-options.md)
