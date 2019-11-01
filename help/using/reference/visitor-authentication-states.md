@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Stati di autenticazione dei visitatori in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -100,7 +100,7 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
 >
 >[!DNL Audience Manager] esegue una sincronizzazione ID tra [CID e UUID](../reference/ids-in-aam.md) in tutti e tre i casi.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [ID cliente e stati di autenticazione](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
 
