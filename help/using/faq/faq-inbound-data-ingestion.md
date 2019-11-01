@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Domande frequenti sull'inserimento dei dati dei clienti in entrata
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -268,7 +268,7 @@ Come procedura ottimale, consigliamo [!DNL Amazon S3] perché il processo è pi�
 
 Dipende. [!DNL Audience Manager] legge fino a 119000 voci dalla [!DNL Amazon SQS] coda e le divide in fino a 3 batch. I file verranno elaborati simultaneamente solo se finiscono nello stesso batch. Tuttavia, a causa dell'elevata quantità di dati acquisiti [!DNL Audience Manager] su base giornaliera, non possiamo garantire alcun ordine di elaborazione dei file.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Processo di trasferimento dati batch descritto](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
