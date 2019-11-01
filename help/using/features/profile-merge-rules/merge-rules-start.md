@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Guida introduttiva alle regole di unione dei profili
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -54,11 +54,6 @@ Per completare la [!UICONTROL Data Source Details] sezione:
 * **[!UICONTROL Data retention for inactive Customer IDs]**: Questo controllo consente di impostare il periodo di conservazione dei dati per gli ID cliente inattivi. Questo determina per quanto tempo Audience Manager mantiene gli ID cliente nel nostro database dopo che sono stati visti per l’ultima volta sulla piattaforma Audience Manager. Il valore predefinito è 24 mesi (720 giorni). Il valore minimo è 1 mese e il valore massimo è 5 anni. Teniamo presente che contiamo tutti i mesi come 30 giorni. Audience Manager esegue un processo che elimina gli ID cliente inattivi una volta alla settimana, in conformità con la conservazione dei dati impostata per gli ID cliente inattivi.
 
 I campi di testo associati a queste impostazioni consentono di rinominare l'oggetto [!UICONTROL Data Source] con un alias visualizzato nelle opzioni [Regola unione](merge-rule-definitions.md)profilo. Ad esempio, se aggiungete un alias a **[!UICONTROL Use as Authenticated Profile]**, il nome verrà visualizzato nell' [!UICONTROL Authenticated Profile Options] elenco. Se aggiungete un alias a **[!UICONTROL Use as a Device Graph]**, il nome verrà visualizzato nell' [!UICONTROL Device Options] elenco.
-
->[!MORE_LIKE_this]
->
->* [Creazione di un'origine dati](../manage-datasources.md#create-data-source)
-
 
 ## Creare una regola di unione dei profili {#create-profile-merge-rule}
 
@@ -214,3 +209,8 @@ Controllate i metodi nel [!DNL SDK] codice che consentono di passare [!UICONTROL
 </table>
 
 Vedi anche Metodi [Audience Manager per Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) e Metodi [Audience Manager per iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html).
+
+>[!MORELIKETHIS]
+>
+>* [Creazione di un'origine dati](../manage-datasources.md#create-data-source)
+
