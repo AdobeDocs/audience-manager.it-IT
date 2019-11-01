@@ -7,7 +7,7 @@ title: Creazione, prezzo e gestione dei feed di dati
 topic: API DIL
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -59,11 +59,6 @@ Nella [!UICONTROL Settings] sezione, spostare il cursore in:
 * **[!UICONTROL Private]** e **[!UICONTROL Unbranded]**: L'elenco dell' [!UICONTROL Marketplace] acquirente mostra solo il nome e la descrizione del feed di dati. Il nome del provider di dati viene visualizzato come [!UICONTROL Private Seller].
 
 Per vedere come si presenta un feed privato agli acquirenti, consulta la sezione relativa agli acquirenti in Feed [dati](../../../features/audience-marketplace/marketplace-private-feeds.md)privati.
-
->[!MORE_LIKE_this]
->
->* [Feed dati privati](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
 
 ## Disattivazione dei feed dati di un abbonato {#deactivate-data-feed}
 
@@ -183,12 +178,7 @@ Per esaminare, approvare o rifiutare le richieste dell'acquirente, vai a [!UICON
 3. Nella [!UICONTROL Allow Access] sezione di ogni casella di richiesta, fate clic sul segno di spunta per approvare una richiesta o sulla X per negare l’accesso.
 4. Conferma o annulla l’azione selezionata nella finestra a comparsa di conferma.
 
->[!MORE_LIKE_this]
->
->* [Feed dati privati](../../../features/audience-marketplace/marketplace-private-feeds.md)
-
-
-## Sconti per provider di dati {#discounts}
+##  Sconti per provider di dati {#discounts}
 
 Inoltre, [!UICONTROL Audience Marketplace]gli sconti consentono di ridurre il prezzo pubblicato di un feed di dati per singoli utenti. Potete offrire sconti agli abbonati che hanno inoltrato una richiesta di iscrizione o agli abbonati che hanno richiesto dettagli su un feed di dati. Gli sconti si applicano ai feed [!DNL CPM] e ai feed a tasso fisso. Gli sconti possono essere utili quando si desidera offrire incentivi per l'abbonamento ai nuovi clienti o premiare la fedeltà dei clienti.
 
@@ -212,3 +202,8 @@ In questi esempi, il venditore ha aggiunto uno sconto del 10% al feed di [!UICON
 I provider di dati possono vedere tutti i loro abbonati e feed scontati in **[!UICONTROL Audience Marketplace > My Shared Data > Current Subscribers]**.
 
 ![](assets/subscribers.png)
+
+>[!MORELIKETHIS]
+>
+>* [Feed dati privati](../../../features/audience-marketplace/marketplace-private-feeds.md)
+
