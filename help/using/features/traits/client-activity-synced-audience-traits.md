@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Caratteristiche di pubblico attive e caratteristiche sincronizzate dell'origine dati
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,13 +29,13 @@ Una [!UICONTROL Active Audience] caratteristica contiene tutti i dispositivi in 
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] tenere traccia di tutti gli utenti associati a un'origine dati. Puoi usare caratteristiche [!UICONTROL Data Source Synched Trait] simili a quelle di altri tipi quando crei o modifichi segmenti. Quando si crea una caratteristica, il nome [!UICONTROL Data Source Synced Trait]corrisponde al nome utilizzato dall'origine dati. Modificare l'origine dati per modificare il nome della caratteristica. Queste caratteristiche non possono essere eliminate.
+[!UICONTROL Data Source Synced Traits] tenere traccia di tutti gli utenti associati a un'origine dati. Puoi usare caratteristiche [!UICONTROL Data Source Synched Trait] simili a quelle di altri tipi quando crei o modifichi segmenti. Quando si crea una caratteristica [!UICONTROL Data Source Synced Trait], il nome corrisponde al nome utilizzato dall'origine dati. Modificare l'origine dati per modificare il nome della caratteristica. Queste caratteristiche non possono essere eliminate.
 
 >[!TIP]
 >
 >[!UICONTROL Data Source Synced Traits] sono utili per la risoluzione dei problemi. Fai clic sul nome di una caratteristica per controllare le metriche nella pagina di riepilogo delle caratteristiche. Se la caratteristica selezionata restituisce dei dati, ciò indica che il processo di sincronizzazione ID è impostato correttamente e a cui vengono inviati i dati [!DNL Audience Manager].
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Pubblico di riferimento](../../features/addressable-audiences.md)
 
