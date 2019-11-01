@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Come la consegna dei dati e i tempi di elaborazione dei file influiscono sui report
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,7 +67,7 @@ Nella tabella seguente sono elencati e descritti gli intervalli temporali nei no
  </tbody> 
 </table>
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Domande frequenti sull'inserimento dei dati dei clienti in entrata](../faq/faq-inbound-data-ingestion.md)
 
