@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Acquisizione dei dati di impressione della campagna attraverso Pixel Calls (Chiamate pixel)
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: f072c5328ac75bf3376f80e86418d25d4f10df23
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -69,8 +69,8 @@ Le chiamate dell'evento Impression accettano i dati formati in coppie chiave-val
    <td colname="col1"> <code> d_cid </code> </td> 
    <td colname="col2"> <p>In questo contesto, <code> d_cid </code> crea un'istanza della coppia chiave-valore che consente di associare un tipo di dispositivo mobile a un ID utente univoco (DPUUID). Un ID fisso determina il tipo di dispositivo mobile. Il valore, che è l'ID utente, può variare. Separare la coppia chiave-valore con <code> %01 </code>, che è un carattere di controllo non stampabile. Questo parametro accetta le chiavi seguenti: </p> 
     <ul id="ul_4D5D696D10B34615867AF3B64A938878"> 
-     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">2014: Identifica un dispositivo Android (GAID). Ad esempio, <code> d_cid = 20914 %01 1234 </code> indica che l'utente 1234 è associato a un dispositivo Android. </li> 
-     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">2015: Identifica un dispositivo iOS (IDFA). Ad esempio, <code> d_cid = 20915 %01 5678 </code> indica che l'utente 5678 è associato a un dispositivo iOS. </li> 
+     <li id="li_A4BD4B0C8C9443BF99075CDFACC013F6">2014: Identifica un dispositivo Android (GAID). Ad esempio, <code> d_cid = 20914 %01 1234 </code> dice che l'utente 1234 è associato a un dispositivo Android. </li> 
+     <li id="li_F83D7B3EC4D24D0187BFE639E2812B36">2015: Identifica un dispositivo iOS (IDFA). Ad esempio, <code> d_cid = 20915 %01 5678 </code> dice che l'utente 5678 è associato a un dispositivo iOS. </li> 
     </ul> <p>Facoltativo. </p> </td> 
   </tr> 
   <tr> 
@@ -94,12 +94,12 @@ Le chiamate dell'evento Impression accettano i dati formati in coppie chiave-val
    <td colname="col2"> <p>ID origine dati o codice di integrazione della piattaforma che fornisce i metadati (ad esempio, DFA, Atlas, GBM, Media Math, ecc.). </p> <p>Obbligatorio per <span class="wintitle"> i report di ottimizzazione dell'audience </span> . </p> </td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <code><i>dpr</i></code>  </td> 
+   <td colname="col1"> <code><i>gdpr</i></code>  </td> 
    <td colname="col2"> <p>Correlato al <a href="../../overview/aam-gdpr/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p> <p><code>gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p> </td> 
   </tr>
    <tr> 
-   <td colname="col1"> <code>gdpr_assenso</code> </td> 
-   <td colname="col2"> <p>Correlato al <a href="../../overview/aam-gdpr/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p><p> Se <code>gdpr=1</code>, <code>%gdpr_permission%</code> viene sostituito dalla stringa <code>gdpr_permission</code> (consulta la <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">Specifica IAB</a>).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p> </td> 
+   <td colname="col1"> <code>gdpr_consent</code> </td> 
+   <td colname="col2"> <p>Correlato al <a href="../../overview/aam-gdpr/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p><p> Se <code>gdpr=1</code>, allora <code>%gdpr_consent%</code> viene sostituito dalla stringa <code>gdpr_consent</code> (vedi le <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> specifiche IAB</a>).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,7 +108,7 @@ Le chiamate dell'evento Impression accettano i dati formati in coppie chiave-val
 >
 >Contatta il consulente di Adobe Audience Manager o il lead dell'account per ottenere l'URL esatto specifico per il dominio client.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [File di dati e metadati per report di ottimizzazione dell'audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
