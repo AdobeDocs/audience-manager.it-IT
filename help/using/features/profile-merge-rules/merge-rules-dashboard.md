@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dashboard regole di unione profilo
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 translation-type: tm+mt
-source-git-commit: f53e091b8c069221837af01ad54deeb731cd48e2
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -29,7 +29,7 @@ Quando lavorate con [!UICONTROL Profile Merge Rules], potete:
 * Consente di tenere traccia del numero medio di dispositivi per ogni utente.
 * Utilizzare i controlli di base per creare, modificare ed eliminare le regole. Solo gli amministratori possono gestire le regole, ma altri utenti possono visualizzarle e applicarle ai segmenti. Consulta Opzioni regola di unione [profilo definite](merge-rule-definitions.md) e Casi di [utilizzo per le regole](merge-rule-targeting-options.md)di unione.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Domande frequenti sulle regole di unione dei profili](../../faq/faq-profile-merge.md)
 
