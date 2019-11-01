@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Inviare dati al DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 translation-type: tm+mt
-source-git-commit: 9c692ae41a309b4f1d8323a501619c02d2aef6a0
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -67,8 +67,8 @@ La tabella seguente definisce i componenti di base di una semplice [!UICONTROL D
    <td colname="col1"> <p> <code> val</code> </p> </td> 
    <td colname="col2"> <p>Un valore variabile che appartiene a un insieme definito da una chiave nella coppia chiave-valore. </p> <p>Quando si utilizzano i valori: </p> <p> 
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
-      <li id="li_091E5B4820EC4A93B775433E428E74AB">Racchiudere i dati stringa tra virgolette (ad esempio, <code> age="da 41 a 55"</code>). </li> 
-      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">Potete passare più chiavi in un singolo valore (ad esempio, <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </i></li> 
+      <li id="li_091E5B4820EC4A93B775433E428E74AB">Racchiudere i dati stringa tra virgolette (ad esempio, <code> age="41 to 55"</code>). </li> 
+      <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">È possibile passare più chiavi in un singolo valore (ad esempio, <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
      </ul> </p> <p>Vedere <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formattazione delle coppie chiave-valore nelle chiamate</a>DCS. </p> </td>
   </tr> 
   <tr> 
@@ -95,7 +95,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 Ora che hai familiarità con l'invio dei dati al [!UICONTROL DCS]sito, è ora di vedere come recuperare i dati e analizzare le informazioni. Consultate [Ricevere dati dal DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Spiegazione delle coppie chiave-valore](../../../reference/key-value-pairs-explained.md)
 
