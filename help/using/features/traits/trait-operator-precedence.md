@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Ordine delle operazioni nel Generatore di caratteristiche
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
  </tbody>
 </table>
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Utilizzo di espressioni booleane (AND, OR, NOT) in TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Utilizzo degli operatori di confronto in TraitBuilder](../../features/traits/trait-comparison-operators.md)
