@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casi di utilizzo generali per le regole di unione dei profili
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: 532c69981ebc082bd411a9232e9ef207b59dace5
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -112,7 +112,7 @@ Guardate il video seguente per una panoramica dei possibili casi di utilizzo per
 
 >[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=ita)
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Casi di utilizzo del grafico dei collegamenti profilo](profile-link-use-case.md)
 >* [Casi d'uso dei grafici dei dispositivi esterni](external-graph-use-cases.md)
