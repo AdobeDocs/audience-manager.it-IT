@@ -5,7 +5,7 @@ seo-title: Aggiungi controlli di esportazione dati a una destinazione
 solution: Audience Manager
 title: Aggiungi controlli di esportazione dati a una destinazione
 translation-type: tm+mt
-source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: f67ab906bfbd9900941649c4d9045ea94f1e7f4c
 Per aggiungere etichette di esportazione a una destinazione:
 
 1. Fai clic su **[!UICONTROL Audience Data]**:
-   * Per le nuove destinazioni: Fate clic **[!UICONTROL Create New Destination]**. Completare la [!UICONTROL Basic Information] sezione prima di selezionare un'etichetta di esportazione dei dati. Per informazioni, consultate [Creare una destinazione](../../features/destinations/create-cookie-destination.md) cookie o [Creare una destinazione](../../features/destinations/create-url-destination.md) URL.
+   * Per le nuove destinazioni:Fate clic **[!UICONTROL Create New Destination]**. Completare la [!UICONTROL Basic Information] sezione prima di selezionare un'etichetta di esportazione dei dati. Per informazioni, consultate [Creare una destinazione](../../features/destinations/create-cookie-destination.md) cookie o [Creare una destinazione](../../features/destinations/create-url-destination.md) URL.
    * Per le destinazioni esistenti: Utilizzare la [!DNL Search] casella per trovare la destinazione o scorrere l'elenco e fare clic sul nome della destinazione per aprirlo.
 1. Seleziona una [!DNL Data Export Label]. Se non si desidera impostare alcuna limitazione all’esportazione, lasciare le caselle di controllo vuote. Le etichette di esportazione includono le seguenti opzioni:
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
@@ -36,6 +36,6 @@ Per aggiungere etichette di esportazione a una destinazione:
    >Le restrizioni all'esportazione non funzioneranno se non imposti un controllo [](../../features/data-export-controls.md) di esportazione corrispondente su un'origine dati.
 1. Fai clic su **[!UICONTROL Save]**.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Creazione di un'origine dati](../../features/manage-datasources.md#create-data-source)
