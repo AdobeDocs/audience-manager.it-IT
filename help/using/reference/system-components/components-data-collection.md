@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Componenti per la raccolta dati
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 translation-type: tm+mt
-source-git-commit: 5730b94d7f72cdc406c2be6c063edf65886044e3
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -30,7 +30,7 @@ Audience Manager contiene i seguenti componenti di raccolta dati:
 
 ## Server di raccolta dati (DCS) e cache dei profili (PCS) {#dcs-pcs}
 
-Il DCS e il PCS collaborano e forniscono separatamente servizi correlati alla realizzazione delle caratteristiche, alla segmentazione del pubblico e all'archiviazione dei dati.
+DCS e PCS collaborano e forniscono separatamente servizi correlati alla realizzazione delle caratteristiche, alla segmentazione del pubblico e all'archiviazione dei dati.
 
 **[!UICONTROL Data Collection Servers (DCS)]Funzione**
 
@@ -93,7 +93,7 @@ Si tratta di sistemi che ricevono i dati inviati da varie integrazioni server-to
 
 Il file [!UICONTROL PCS] crea e scrive i dati nei file di registro. Questi vengono inviati ad altri sistemi di database per l'elaborazione, il reporting e l'archiviazione.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Centro per la privacy Adobe](https://www.adobe.com/privacy.html)
 
