@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Macro di destinazione definite
 uuid: 982CAB05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ---
 
@@ -43,13 +43,13 @@ Durante la creazione di una [!DNL URL] destinazione, è possibile inserire le se
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
    <td colname="col2"> <p>L'ID <i>origine</i> dati corrisponde all'identificatore di un'origine dati passata alla macro. </p> <p>Vediamo come funziona in un semplice esempio. In questo caso, abbiamo un partner <span class="keyword"> Audience Manager</span> con i seguenti ID e condizioni: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
-     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID origine dati: 11221222122122122122122121221212212121221221221222222222222222222222111111111222222222112222222211222222222222212222222222222 <code></code> </li> 
+     <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID origine dati: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Un ID cliente interno: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID dichiarato: Il partner desidera trasmettere questi valori come ID dichiarato <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>A questo scopo, con l'ID <code>%dpid_<i>data dell'origine</i>%</code>, il partner <span class="keyword"> Audience Manager</span> formatta la macro come segue: </p> 
+    </ul> <p>A tal fine, il partner <code>%dpid_<i>data source id</i>%</code>Audience Manager <span class="keyword"></span> formatta la macro come segue: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>La macro sostituirà <code> 1</code> con <code> CustomerABC</code>. </p> <p> 
+    </ul> <p>La macro verrà sostituita <code> 1</code> con <code> CustomerABC</code>. </p> <p> 
      <draft-comment>
        Basato su AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
@@ -101,6 +101,6 @@ La funzione cache impedisce ai browser di salvare e riutilizzare il contenuto. Q
 
 Entrambe le macro impediscono il caching, ma `%rnd%` possono essere più efficienti. Ad esempio, con `%timestamp%`, se più utenti visualizzano una pagina contemporaneamente, avranno lo stesso valore di data/ora. Di conseguenza, le chiamate non [!DNL URL] sono univoche e più chiamate vengono conteggiate solo una volta. Tuttavia, `%rnd%` genera un valore numerico univoco per ogni chiamata (anche quando gli utenti vedono la stessa pagina contemporaneamente). Ciò significa che la [!DNL URL] stringa contiene valori diversi e viene conteggiata come univoca.
 
->[!MORE_LIKE_this]
+>[!MORELIKETHIS]
 >
 >* [Macro di destinazione definite](../../features/destinations/destination-macros.md#destination-macros-defined)
