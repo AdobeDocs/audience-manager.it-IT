@@ -1,13 +1,13 @@
 ---
 description: Gli strumenti di gestione di massa consentono di creare e gestire più oggetti contemporaneamente con un'unica operazione. Puoi utilizzare Strumenti di gestione di massa per lavorare con origini dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
-keywords: baam;BAAAM
+keywords: baaam;BAAAM
 seo-description: Gli strumenti di gestione di massa consentono di creare e gestire più oggetti contemporaneamente con un'unica operazione. Puoi utilizzare Strumenti di gestione di massa per lavorare con origini dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
 seo-title: Guida Introduttiva Alla Gestione Di Gruppi
 solution: Audience Manager
 title: Guida Introduttiva Alla Gestione Di Gruppi
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 963d765845dae6abe107be04d5aae2c49e7fb575
 
 ---
 
@@ -39,7 +39,7 @@ Scarica il foglio di lavoro più recente **[qui](assets/BAAAM_V2_20191015.xlsm)*
 Per utilizzare il [!DNL Bulk Management Tools], è necessario disporre dei seguenti elementi:
 
 * Il vostro [!DNL Experience Cloud] login. In qualità di cliente, dovreste già avere queste credenziali.
-* Il [!DNL Bulk Management Tools] foglio di lavoro. [Scaricate il foglio di lavoro](/help/using/reference/bulk-management-tools/bulk-management-intro.md#download) per ottenere la versione più recente.
+* Il [!DNL Bulk Management Tools] foglio di lavoro. [Scaricate il foglio di lavoro](assets/BAAAM_V2_20191015.xlsm) per ottenere la versione più recente.
 * Microsoft Excel eseguito a [!DNL macOS] o a 64 bit [!DNL Microsoft Windows].
 * Quando si apre il foglio di lavoro, è necessario **abilitare le macro** per il [!DNL Bulk Management Tools] funzionamento.
 
@@ -118,10 +118,4 @@ Ad esempio, vediamo come creare più caratteristiche contemporaneamente. Per cre
 >[!NOTE]
 >
 >Quando si utilizzano richieste di grandi dimensioni, il foglio di lavoro potrebbe non rispondere e risultare inattivo. In questi casi, lasciamo perdere. Il foglio di lavoro diventa reattivo al completamento della richiesta in blocco. Se il foglio di lavoro non risponde per un lungo periodo di tempo, consultare la sezione [](../../reference/bulk-management-tools/bulk-troubleshooting.md)Risoluzione dei problemi.
-
-
-
->[!MORELIKETHIS]
->
->* [Scarica il foglio di lavoro Gestione di massa](assets/BAAAM_August_2018.xlsm)
 
