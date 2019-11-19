@@ -4,9 +4,9 @@ seo-description: Questo articolo descrive come i tipi di pubblico vengono condiv
 seo-title: Condivisione dell'audience tra Audience Manager e Adobe Experience Platform
 solution: Audience Manager
 title: Condivisione dell'audience tra Audience Manager e Adobe Experience Platform
-keywords: Condivisione di audience AEP, segmenti AEP, segmenti piattaforma, condivisione di segmenti, condivisione di audience
+keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing
 translation-type: tm+mt
-source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
+source-git-commit: b3f7ee5730ed91c656f0dea1bacfabad703755fd
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 897cc523aa52b1594e1c53f48459ddd7fd33d033
 
 >[!NOTE]
 >
->Questa pagina contiene la documentazione beta che descrive le funzionalità disponibili per i clienti di Audience Manager *e Adobe Experience Platform* . Questa documentazione è soggetta a modifiche prima del rilascio finale del prodotto.
+> La funzionalità descritta in questa pagina è disponibile per i clienti di Audience Manager e Adobe Experience Platform.
 >
 > Per accedere a questa funzionalità, contattate il vostro rappresentante commerciale Adobe.
 
