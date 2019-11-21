@@ -5,7 +5,7 @@ seo-title: Destinazioni basate su persone Prerequisiti e considerazioni
 solution: Audience Manager
 title: Prerequisiti e considerazioni
 translation-type: tm+mt
-source-git-commit: d70b77b082078d4122f8b902b089d8c4a3fb923a
+source-git-commit: d83f4dae563c9c49ae8d46c28aa41168d746f92c
 
 ---
 
@@ -77,7 +77,7 @@ Poiché [!DNL People-Based Destinations] consente di attivare i dati del pubblic
 
 Prima di iscriversi, [!DNL People-Based Destinations]assicuratevi di ottenere il consenso dei clienti prima di utilizzare le loro informazioni a scopo pubblicitario.
 
-Nel caso in cui i clienti desiderino rinunciare alle campagne pubblicitarie, consulta Gestione [del](../../overview/data-security-and-privacy/opt-out-management.md) rifiuto per informazioni su come impedire ad Audience Manager di raccogliere ulteriori dati.
+Nel caso in cui i clienti desiderino rinunciare alle campagne pubblicitarie, consulta Gestione [del](../../overview/data-security-and-privacy/data-privacy-requests.md) rifiuto per informazioni su come impedire ad Audience Manager di raccogliere ulteriori dati.
 
 ## Applicazione dell'attivazione dei dati di prime parti {#enforcing-first-party-activation}
 
