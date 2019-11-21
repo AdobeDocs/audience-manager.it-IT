@@ -1,10 +1,10 @@
 ---
-product: audience manager
-audience: utente finale
-user-guide-title: Guida utente di Audience Manager
+product: audience-manager
+audience: end-user
+user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
+source-git-commit: a5411ff8ff852cc02607e4a624075bf0e1828ee9
 
 ---
 
@@ -15,16 +15,20 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
 + Panoramica{#overview}
    + [Panoramica di Audience Manager](overview/aam-overview.md)
    + [Tipi di dati raccolti](overview/data-types-collected.md)
-   + Protezione dei dati e privacy {#data-security-and-privacy}
-      + [Panoramica](overview/data-security-and-privacy/data-security-privacy-overview.md)
-      + [Protezione dei dati](overview/data-security-and-privacy/data-security.md)
-      + [Privacy dei dati](overview/data-security-and-privacy/data-privacy.md)
-      + [Gestione del rifiuto](overview/data-security-and-privacy/opt-out-management.md)
-   + Regolamento generale sulla protezione dei dati (GDPR){#gdpr}
-      + [GDPR in Audience Manager](overview/aam-gdpr/aam-gdpr-details.md)
-      + [Considerazioni sul GDPR per le destinazioni](overview/aam-gdpr/aam-gdpr-partners.md)
-      + [Domande frequenti sul GDPR](overview/aam-gdpr/aam-gdpr-faq.md)
-      + [Plug-in di Audience Manager per IAB TCF](/help/using/overview/aam-gdpr/aam-iab-plugin.md)
+   + [Protezione dei dati](overview/data-security-and-privacy/data-security.md)
+   + Privacy dei dati {#data-privacy}
+      + [Panoramica sulla privacy dei dati](overview/data-security-and-privacy/data-privacy.md)
+      + [Richieste sulla privacy dei dati](overview/data-security-and-privacy/data-privacy-requests.md)
+      + Riferimento sulla privacy dei dati {#data-privacy-reference}
+         + [Identificatori di Audience Manager](overview/data-security-and-privacy/data-privacy-ids.md)
+         + [Glossario CCPA](overview/data-security-and-privacy/aam-ccpa-glossary.md)
+         + [Glossario GDPR](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+         + [Considerazioni sul GDPR per le destinazioni](overview/data-security-and-privacy/aam-gdpr-partners.md)
+         + [Guida alla preparazione del GDPR per i clienti di Audience Manager](overview/data-security-and-privacy/aam-gdpr-readiness.md)
+      + Gestione del consenso {#consent-management}
+         + [Gestione del consenso](overview/data-security-and-privacy/data-privacy-consent.md)
+         + [Plug-in di Audience Manager per IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
+   + [Governance dei dati](overview/data-security-and-privacy/data-governance.md)
 + Funzioni{#features}
    + [Pubblico di riferimento](features/addressable-audiences.md)
    + Amministrazione{#administration}
@@ -295,7 +299,7 @@ source-git-commit: e081e31380d4600883f927b5ecef3b38be2a676e
          + [Integrazione OAuth 2.0 per trasferimenti in uscita in tempo reale](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + Trasferimenti di dati in uscita batch{#batch-outbound-data-transfers}
          + [Panoramica sui trasferimenti di dati in uscita batch](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
-         + [Nome file dati in uscita: Sintassi ed esempi](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
+         + [Nome file dati in uscita:Sintassi ed esempi](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [File di trasferimento di controllo per trasferimenti di file di registro](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [Macro sui modelli in uscita](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
          + [Esempi di macro in uscita](integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
