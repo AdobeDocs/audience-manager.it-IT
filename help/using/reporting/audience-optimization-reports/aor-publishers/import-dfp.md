@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Importazione di file di dati DFP in Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
 
 ---
 
@@ -23,8 +23,8 @@ Per utilizzare i file di registro DFP ( [!DNL DoubleClick For Publishers]) in [!
 
 Ecco come impostare l’ [!DNL Audience Manager] ID nella chiamata del tag dell’annuncio, come spiegato nella nostra documentazione:
 
-* [Tramite Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
-* [Tramite una destinazione di cookie](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Tramite Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [Tramite una destinazione di cookie](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
 Devi impostare tu stesso l' [!DNL Audience Manager] ID e puoi collaborare con [!DNL Audience Manager] la consulenza per verificare se tutto funziona. Hai impostato correttamente l’ [!DNL Audience Manager] ID se:
 
