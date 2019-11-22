@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapporto di sovrapposizione caratteristica-caratteristica
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -68,36 +68,44 @@ La finestra a comparsa per il [!UICONTROL Trait-to-Trait Overlap] rapporto conti
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nome provider dati</span></b> </td> 
-   <td colname="col2"> Nome del proprietario della caratteristica. </td> 
+   <td colname="col1"><b><span class="wintitle"> % sovrapposizione</span></b> </td> 
+   <td colname="col2"> Mostra la percentuale di sovrapposizione univoca tra le caratteristiche confrontate (sovrapposizione di univoche/uniche caratteristiche). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Tipo provider dati</span></b> </td> 
-   <td colname="col2">Definisce il tipo di provider a cui appartiene una caratteristica. Può essere: 
+   <td colname="col1"><b><span class="wintitle"> Tipo origine dati</span></b> </td> 
+   <td colname="col2">Definisce il tipo di origine dati a cui una caratteristica appartiene. Può essere: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Prima parte (caratteristica propria). </li> 
      <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Terza parte (da un partner/fornitore esterno di dati). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> ID caratteristica</span></b> </td> 
-   <td colname="col2"> ID numerico univoco per tale caratteristica. </td> 
+   <td colname="col1"><b><span class="wintitle"> ID caratteristica sovrapposto</span></b> </td> 
+   <td colname="col2"> ID numerico univoco per la caratteristica sovrapposta. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nome caratteristica</span></b> </td> 
-   <td colname="col2"> Nome della caratteristica. </td> 
+   <td colname="col1"><b><span class="wintitle"> Nome caratteristica sovrapposto</span></b> </td> 
+   <td colname="col2"> Nome della caratteristica sovrapposta. </td> 
+  </tr>
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> Trait ID 2</span></b> </td> 
+   <td colname="col2"> ID numerico univoco per la caratteristica nell'origine dati di base. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> % sovrapposizione</span></b> </td> 
-   <td colname="col2"> Mostra la percentuale di sovrapposizione univoca tra le caratteristiche confrontate (sovrapposizione di univoche/uniche caratteristiche). </td> 
+   <td colname="col1"><b><span class="wintitle"> Nome caratteristica 2</span></b> </td> 
+   <td colname="col2"> Nome della caratteristica nell'origine dati di base. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Sovrapponi</span></b> </td> 
-   <td colname="col2"> <p>Per ottenere la sovrapposizione %, Audience Manager utilizza la seguente formula:</p> <p> Sovrapposizione Di Uniche / (Uniche Segmenti Di Base + Sovrapposizione Di Segmenti - Sovrapposizione Di Uniche Analisi)</p> </td> 
+   <td colname="col2"> <p>Per ottenere la sovrapposizione %, Audience Manager utilizza la seguente formula:</p> <p>Sovrapposizione di imperfezioni / (Uniche caratteristiche di base + Sovrapposizione di feature Uniche - Sovrapposizione di imperfezioni)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Caratteristiche tecniche</span></b> </td> 
-   <td colname="col2"> Numero di visitatori univoci nella caratteristica. </td> 
+   <td colname="col1"><b><span class="wintitle"> Sovrapposizione delle caratteristiche</span></b> </td> 
+   <td colname="col2"> Numero di visitatori univoci della caratteristica sovrapposta. </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"><b><span class="wintitle"> Uniche caratteristiche di base</span></b> </td> 
+   <td colname="col2"> Il numero di visitatori unici dalla caratteristica di base. </td> 
   </tr> 
  </tbody> 
 </table>
