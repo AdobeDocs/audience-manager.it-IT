@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentazione prodotto Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 9f72ad7132f698458acf8a552d8e74195300b4d9
+source-git-commit: 4cebba536cd44b7ef72f5b16cf5deeeea3445e0b
 
 ---
 
@@ -20,7 +20,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
   <tr> 
    <td colname="col1"> <p> <b>Novità e funzioni</b> </p> <p>Scopri le funzionalità più recenti di Audience Manager:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="overview/data-security-and-privacy/data-privacy.md">California Consumer Privacy Act (CCPA) - Supporto e revisione della privacy</a></li>
+     <li><a href="overview/data-security-and-privacy/data-privacy.md">Aggiornamento della documentazione relativa al supporto e alla privacy dell'Atto sulla privacy dei consumatori della California</a></li>
      <li><a href="features/segments/trait-recommendations.md">Raccomandazioni intelligenti per i dati Audience Marketplace, basate su Adobe Sensei</a></li>
     <li><a href="features/profile-merge-rules/merge-rules-overview.md">Miglioramenti delle regole di unione dei profili</a></li>
     <li><a href="reference/bulk-management-tools/bulk-management-intro.md">Aggiornamento degli strumenti di gestione in blocco</a></li>
