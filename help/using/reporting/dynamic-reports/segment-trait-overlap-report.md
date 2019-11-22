@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapporto di sovrapposizione segmento-caratteristica
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
 
 ---
 
@@ -134,11 +134,11 @@ La finestra a comparsa per il [!UICONTROL Segment-to-Trait Overlap] rapporto con
    <td colname="col2"> ID numerico univoco per il segmento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nome provider dati</span></b> </td> 
-   <td colname="col2"> Nome del proprietario del segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> Origine dati caratteristica </span></b> </td> 
+   <td colname="col2"> Nome del proprietario della caratteristica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Tipo provider dati</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Tipo origine dati</span></b> </td> 
    <td colname="col2">Definisce il tipo di provider a cui appartiene una caratteristica. Può essere: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Prima parte (caratteristica propria). </li> 
@@ -146,12 +146,12 @@ La finestra a comparsa per il [!UICONTROL Segment-to-Trait Overlap] rapporto con
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> SID</span></b> </td> 
-   <td colname="col2"> ID numerico univoco per il segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> ID caratteristica</span></b> </td> 
+   <td colname="col2"> ID numerico univoco per la caratteristica. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Nome SID</span></b> </td> 
-   <td colname="col2"> Nome del segmento. </td> 
+   <td colname="col1"><b><span class="wintitle"> Nome caratteristica</span></b> </td> 
+   <td colname="col2"> Nome della caratteristica. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Sovrapposizione caratteristica</span></b> </td> 
