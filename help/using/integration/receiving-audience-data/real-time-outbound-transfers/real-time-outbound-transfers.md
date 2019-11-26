@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Trasferimenti dati in uscita in tempo reale
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: 4e84682dea46f5b6c76464c66199f7a468bec334
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
 
-# Real-Time Outbound Data Transfers {#real-time-outbound-data-transfers}
+# Trasferimenti dati in uscita in tempo reale {#real-time-outbound-data-transfers}
 
-The outbound real-time data transfer process delivers user data as a series of  formatted messages to a destination platform.[!DNL JSON]
+Il processo di trasferimento dei dati in tempo reale in uscita fornisce i dati utente come una serie di messaggi [!DNL JSON] formattati a una piattaforma di destinazione.
 
 <!-- c_outbound_json.xml -->
 
@@ -23,7 +23,7 @@ Per utilizzare questo metodo, la piattaforma di destinazione deve soddisfare i s
 
 * Deve fornire un endpoint [!DNL URL] che possa essere ridimensionato in modo da ricevere un volume elevato di messaggi da Audience Manager;
 * Accetta i dati nel [!DNL JSON] formato (`Content-type: application/json`);
-* It must accept secure  data transfers. `HTTPS` [!DNL Audience Manager] will not send messages through the unsecure  protocol.`HTTP`
+* Deve accettare trasferimenti `HTTPS` di dati sicuri. [!DNL Audience Manager] non invierà messaggi tramite il `HTTP` protocollo non sicuro.
 
 ## Frequenza
 
@@ -31,15 +31,15 @@ Questo metodo di trasferimento dei dati può inviare dati in tempo quasi reale, 
 
 ## Trasferimenti batch
 
-Both real-time and batch transfers are sent to the same endpoint and use the same message format. When batch transfers are enabled, the destination platform will see a spike in message volume while the batch messages are delivered. Many of the segment qualifications sent through real-time messages will be repeated in the batch messages. Batch transfers will include only the segment qualifications (or un-qualifications) that have changed since the last batch was delivered.
+I trasferimenti in tempo reale e in batch vengono inviati allo stesso endpoint e utilizzano lo stesso formato di messaggio. Quando sono abilitati i trasferimenti batch, la piattaforma di destinazione visualizzerà un picco nel volume dei messaggi mentre i messaggi batch vengono inviati. Molte delle qualifiche del segmento inviate tramite messaggi in tempo reale verranno ripetute nei messaggi batch. I trasferimenti batch includeranno solo le qualifiche del segmento (o le qualifiche non qualificate) che sono state modificate dall'ultima consegna del batch.
 
-## Rate Limits
+## Limiti di velocità
 
-There are no rate limits set on the throughput of delievered messages. Setting rate limits could lead to data loss.
+Non sono impostati limiti di velocità per il throughput dei messaggi eliminati. La fissazione di limiti di velocità potrebbe comportare una perdita di dati.
 
 ## Risposte richieste
 
-By default, the recipient server must return the  code to indicate successful receipt. `200 OK` Other codes will be interpreted as failures. This response is expected within 3000 milliseconds. In risposta a un errore, [!DNL Audience Manager] verrà eseguito un nuovo tentativo solo.
+Per impostazione predefinita, il server destinatario deve restituire il `200 OK` codice per indicare l'avvenuta ricezione. Altri codici saranno interpretati come errori. Questa risposta è prevista entro 3000 millisecondi. In risposta a un errore, [!DNL Audience Manager] verrà eseguito un nuovo tentativo solo.
 
 ## Parametri
 
@@ -64,8 +64,8 @@ La tabella seguente definisce gli elementi nel file di [!DNL JSON] dati che si i
    <td colname="col2"> <p>Intero </p> </td> 
    <td colname="col3"> <p>Un ID che indica il tipo di ID dispositivo contenuto nel messaggio, nella proprietà User.DataPartner_UUID. </p> 
     <ul id="ul_159306B0CF304DE0B9A9836D41263E70"> 
-     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">ID Android (GAID): <code> 2014</code> </li> 
-     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">ID iOS (IDFA): <code> 2015</code> </li>
+     <li id="li_46F9F4F9DDC34AB683AE2DF0317FBCAC">ID Android (GAID): <code> 20914</code> </li> 
+     <li id="li_57DEB2A7B9024A94A0E302EEA967AB0B">ID iOS (IDFA): <code> 20915</code> </li>
      <li>ID Web/cookie: varia in base alla piattaforma di destinazione</li>
     </ul> </td> 
   </tr> 
@@ -80,19 +80,19 @@ La tabella seguente definisce gli elementi nel file di [!DNL JSON] dati che si i
    <td colname="col3"> <p>ID dell’oggetto "destinazione" di Audience Manager. Questo ID proviene da Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Numero_utente</i></code> </td> 
+   <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
-   <td colname="col3"> <p>Numero totale di utenti nella richiesta <code> POST</code> . </p> </td> 
+   <td colname="col3"> <p>Numero totale di utenti nella <code> POST</code> richiesta. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Utenti</i></code> </td> 
+   <td colname="col1"><code><i>Users</i></code> </td> 
    <td colname="col2"> <p>Array </p> </td> 
    <td colname="col3"> <p>Un array di oggetti utente. Per impostazione predefinita, ogni messaggio contiene da 1 a 10 utenti, per ottimizzare la dimensione del messaggio. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>The  Audience Manager UUID.<span class="keyword"></span> </p> </td> 
+   <td colname="col3"> <p>L’UUID <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -100,34 +100,34 @@ La tabella seguente definisce gli elementi nel file di [!DNL JSON] dati che si i
    <td colname="col3"> <p>UUID piattaforma di destinazione o ID dispositivo globale. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Utente.AAM_Region</i></code> </td> 
+   <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
    <td colname="col3"> L'ID di regione di <span class="keyword"> Audience Manager</span> in cui abbiamo visto questo dispositivo. Ad esempio, se il dispositivo aveva qualche attività a Parigi (Europa), l'ID di regione sarebbe <code> 6</code>. Consulta <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID regioni DCS, posizioni e nomi host</a>. </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segmenti</i></code> </td> 
+   <td colname="col1"><code><i>Segments</i></code> </td> 
    <td colname="col2"> <p>Array </p> </td> 
-   <td colname="col3"> <p>An array of segment objects. For real-time messages, the array contains all of the segments the user belongs to. Per i messaggi batch, l'array contiene solo le modifiche al segmento dall'ultimo batch.</p> </td> 
+   <td colname="col3"> <p>Un array di oggetti segmento. Per i messaggi in tempo reale, l'array contiene tutti i segmenti a cui appartiene l'utente. Per i messaggi batch, l'array contiene solo le modifiche al segmento dall'ultimo batch.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
+   <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
    <td colname="col3"> <p>Identificatore per il segmento. Nella maggior parte dei casi, si tratta dell’ID del segmento generato da Audience Manager (un numero intero). In alcuni casi, se la piattaforma di destinazione lo consente, i clienti possono definire l’identificatore del segmento nell’interfaccia utente di Audience Manager (campo di testo aperto), che rifletterebbe in questa proprietà. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
-   <td colname="col3"> <p>Defines the status of a user in the segment. Accepts the following values: </p> 
+   <td colname="col3"> <p>Definisce lo stato di un utente nel segmento. Accetta i seguenti valori: </p> 
     <ul id="ul_42C4625E9543494586CF6D851A94E048"> 
-     <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1: Active (default)</code> </li> 
-     <li id="li_10952C8DF7AF4593805FA29028257E38"><code> 0: Inactive, opted-out, or unsegmented.</code> </li> 
-    </ul> <p>Users are unsegmented when they are: </p> 
+     <li id="li_6F13809ECD78403FB3BDA626403E4B57"><code> 1</code>: Attivo (predefinito) </li> 
+     <li id="li_10952C8DF7AF4593805FA29028257E38"><code> 0</code>: Inattivo, escluso o non segmentato. </li> 
+    </ul> <p>Gli utenti non sono segmentati quando: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
-     <li id="li_8352B919A87242E68716FB9EC0443407">Removed from a segment based on the segment rule. </li> 
+     <li id="li_8352B919A87242E68716FB9EC0443407">Rimosso da un segmento in base alla regola del segmento. </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Rimosso da un segmento in base all'intervallo <a href="../../../features/traits/segment-ttl-explained.md"> time-to-live del segmento</a>. </li> 
-     <li id="li_F48D1052BA2B45108225641292CC748D">Moved to an inactive state if they have not been seen for the last 120-days. </li>
-     <li>Removed due to a privacy change request (i.e. [!DNL GDPR])</li>
-    </ul> <p>Tutti gli ID partner sincronizzati con un ID <span class="keyword"> Audience Manager</span> riceveranno il flag <code> "Status":"0"</code> quando un utente non è segmentato. </p> </td> 
+     <li id="li_F48D1052BA2B45108225641292CC748D">Spostato in uno stato inattivo se non è stato visualizzato negli ultimi 120 giorni. </li>
+     <li>Rimosso a causa di una richiesta di modifica della privacy (ad es. <span class="keyword"> GDPR</span>)</li>
+    </ul> <p>Tutti gli ID partner sincronizzati con un ID <span class="keyword"> Audience Manager</span> riceveranno il <code> "Status":"0"</code> flag quando un utente non è segmentato. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
