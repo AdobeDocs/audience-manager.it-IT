@@ -4,9 +4,9 @@ seo-description: Codici di errore e messaggi generati dai Data Collection Server
 seo-title: Codici errore DCS, messaggi ed esempi
 solution: Audience Manager
 title: Codici errore DCS, messaggi ed esempi
-uuid: d3290038-567b-4c00-bc95-2set683da5ec
+uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 8478a28cd1b18d878d6938d77ee4f975deb524ef
+source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
 
 ---
 
@@ -80,7 +80,7 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
     <tr> 
    <td colname="col1"> <p>109</p> </td> 
    <td colname="col2"> <p>Referente non <code>HTTP referer</code> consentito per il partner <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>L'intestazione [!DNL HTTP referer] nella chiamata non è consentita per l'ID partner nella chiamata. Verificate che l'intestazione [!DNL HTTP referer] sia corretta.</p> </td>
+   <td colname="col3"> <p>L’ <code>HTTP referer</code> intestazione della chiamata non è consentita per l’ID partner nella chiamata. Verificate che l’ <code>HTTP referer</code> intestazione sia corretta.</p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>111 </p> </td> 
