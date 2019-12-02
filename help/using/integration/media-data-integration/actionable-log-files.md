@@ -1,13 +1,13 @@
 ---
 description: I file di registro fruibili consentono di acquisire i segnali multimediali dai file di registro ad server per creare caratteristiche in Audience Manager. Cattura come caratteristiche impression, clic e conversioni dai server di annunci senza dover aggiungere pixel.
-keywords: log fruibili, alf, ALF
+keywords: actionable logs, alf, ALF
 seo-description: I file di registro fruibili consentono di acquisire i segnali multimediali dai file di registro ad server per creare caratteristiche in Audience Manager. Cattura come caratteristiche impression, clic e conversioni dai server di annunci senza dover utilizzare i pixel aggiunti.
 seo-title: File di registro fruibili
 solution: Audience Manager
 title: File di registro fruibili
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 1c14d2a6b5f1d092f4323d4471425e11f7860f25
 
 ---
 
@@ -160,7 +160,7 @@ Per un file di [!DNL DCM] registro di dimensioni medie di 2 milioni di righe, tu
 
 ### Segnali fruibili dai registri Ad Server Generici {#generic-logs-signals}
 
-Innanzitutto, devi rilasciare i tuoi registri del server di annunci nei nostri bucket Amazon S3. A tal fine, leggete File [di dati per Report di ottimizzazione dell'audience e File](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) di registro fruibili *e contattate* il vostro [!DNL Audience Manager] consulente. Nella tabella sono elencati i segnali utilizzabili provenienti da file di registro generici:
+Innanzitutto, devi depositare i registri del server di annunci nei nostri bucket Amazon S3. A tal fine, leggete File [di dati per Report di ottimizzazione dell'audience e File](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) di registro fruibili *e contattate* il vostro [!DNL Audience Manager] consulente. Nella tabella sono elencati i segnali utilizzabili provenienti da file di registro generici:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -186,8 +186,8 @@ Innanzitutto, devi rilasciare i tuoi registri del server di annunci nei nostri b
   <tr> 
    <td colname="col1"> <p> <code>Time-Stamp</code> </p> </td> 
    <td colname="col2"> <p> <code> d_time</code> </p> </td> 
-   <td colname="col3"> <p> Una data e un'ora UTC per l'evento di impression, clic o conversione. Utilizza la funzionalità   <code>yyyy-dd-mm hh:mm:ss format.</code> </p></td> 
-   <td colname="col4"> <p> <code>2019-30-08 11:23:00</code> </p> </td> 
+   <td colname="col3"> <p> Una data e un'ora UTC per l'evento di impression, clic o conversione. Utilizzate il <code>yyyy-MM-dd HH:mm:ss</code> formato. </p></td> 
+   <td colname="col4"> <p> <code>2019-03-26 11:23:10</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
