@@ -6,7 +6,7 @@ solution: Audience Manager
 title: File di dati per report di ottimizzazione dell'audience e file di registro fruibili
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: b46fc71ca62c4426732bd6d396637d02206b7c97
+source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
 
 ---
 
@@ -35,7 +35,7 @@ In un nome file:
 
 Dati questi requisiti, assegnare un nome ai file di dati in base al contenuto come segue:
 
-* Dati di impressione: <pre>impression_<i>yymmdd<i>.gz</code></pre>
+* Dati di impressione: <pre>impression_<i>yymmdd</i>.gz</code></pre>
 * Fare clic su dati: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
 * Dati di conversione: <pre>conversioni_<i>yyyymmdd</i>.gz</code></pre>
 
@@ -67,7 +67,7 @@ La tabella seguente elenca e descrive le intestazioni delle colonne per il file 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Timestamp </p> </td> 
-   <td colname="col2"> <p>Una data e un'ora UTC per l'evento di impression, clic o conversione. Utilizzate il <code> yyyy-dd-mm hh:mm:ss</code> formato. </p> </td> 
+   <td colname="col2"> <p>Una data e un'ora UTC per l'evento di impression, clic o conversione. Utilizzate il <code> yyyy-MM-dd HH:mm:ss</code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID utente </p> </td> 
