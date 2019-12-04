@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Acquisizione dei dati di clic sulla campagna tramite chiamate pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
 
 ---
 
@@ -20,7 +20,7 @@ Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei v
 Le chiamate di tracciamento dei clic richiedono i seguenti parametri:
 
 * `d_event=click`: Coppia chiave-valore che identifica una chiamata evento come evento click.
-* `d_rd=redirect URL`: Coppia chiave-valore contenente un reindirizzamento codificato [!DNL URL].
+* `d_rd=redirect URL`: Coppia chiave-valore contenente un reindirizzamento con doppia codifica [!DNL URL]. Se si utilizza uno strumento di codifica online, eseguire la stringa attraverso il codificatore, quindi codificare di nuovo il risultato, in modo che il reindirizzamento funzioni.
 
 Inoltre, la chiamata può contenere coppie chiave-valore che possono essere utilizzate per la qualifica delle caratteristiche o per fornire dati e metadati per altri rapporti.
 
@@ -150,8 +150,7 @@ Questo esempio illustra come passare le macro creative, adgroup e placement. Pre
 
 ```
 https://client.demdex.net/event?d_event=click&d_creative=1235&d_src=203&d_campaign=4709&d_adgroup=3408&d_placement=1001&
-d_rd=http%3A%2F%2Fadobe.com%2Fcallback%3Fcreative%3D%25d_creative%25%26campaign%3D%25d_campaign%25%26adgroup%3D%25
-d_adgroup%25%26d_placement%3D%25placement%25%26src%3D%25d_src%25
+d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creative%2525%2526campaign%253D%2525d_campaign%2525%2526adgroup%253D%2525%0Ad_adgroup%2525%2526d_placement%253D%2525placement%2525%2526src%253D%2525d_src%2525
 ```
 
 ## Risposta
