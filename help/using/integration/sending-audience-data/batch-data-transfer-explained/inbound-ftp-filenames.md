@@ -4,9 +4,9 @@ seo-description: Descrive i campi, la sintassi, le convenzioni di denominazione 
 seo-title: Requisiti di nome e dimensione file FTP per i file di dati in entrata
 solution: Audience Manager
 title: Requisiti di nome e dimensione file FTP per i file di dati in entrata
-uuid: 49eaface-5cb0-482f-872a-84c056016bdb
+uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 881ccf512e9776948e4507e321e972dd2079e21a
 
 ---
 
@@ -17,7 +17,7 @@ Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni d
 
 >[!WARNING]
 >
->Il trasferimento FTP per i file di dati in entrata non è più supportato. Utilizzate Amazon S3 per inserire dati offline. Per informazioni dettagliate, consultate [Amazon S3 Name and File Size Requirements for Inbound Data Files (Requisiti di nome e dimensione file Amazon S3 per i file](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) in entrata).
+>Stiamo gradualmente eliminando il supporto per le configurazioni FTP. Anche se l'assimilazione dei file di dati in entrata è ancora supportata nelle integrazioni FTP esistenti, si consiglia vivamente di utilizzare Amazon S3 per incorporare dati offline per nuove integrazioni. Per informazioni dettagliate, consultate [Amazon S3 Name and File Size Requirements for Inbound Data Files (Requisiti di nome e dimensione file Amazon S3 per i file](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) in entrata).
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ La tabella definisce gli elementi in un nome di [!DNL FTP] file.
    <td colname="col2"> <p>Un numero intero. Utilizzato quando si suddividono file di grandi dimensioni in più parti per migliorare i tempi di elaborazione. Il numero indica quale parte del file originale viene inviata. </p> <p>Per un'elaborazione efficiente dei file, suddividere i file di dati come indicato: </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Non compresso: 1 GB </li> 
-     <li id="li_A9638EB46ED14E0680B6575D5457E32F">Compresso:200-300 MB </li> 
+     <li id="li_A9638EB46ED14E0680B6575D5457E32F">Compresso: 200-300 MB </li> 
     </ul> <p>Vedere i primi due esempi <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#file-name-examples"></a> di nome file riportati di seguito. </p> </td> 
   </tr> 
   <tr> 
@@ -126,7 +126,7 @@ Considerare le figure riportate di seguito per l'elaborazione più rapida/rapida
  <tbody> 
   <tr> 
    <td colname="col1"><b>Compresso</b> </td> 
-   <td colname="col2"> <p>200-300 MB </p> </td> 
+   <td colname="col2"> <p> 200-300 MB </p> </td> 
    <td colname="col3"> <p>3 GB </p> </td> 
   </tr> 
   <tr> 
