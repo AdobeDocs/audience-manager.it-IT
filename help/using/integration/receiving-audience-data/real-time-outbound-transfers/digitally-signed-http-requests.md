@@ -1,25 +1,25 @@
 ---
-description: Audience Manager richiede la firma digitale per la validità delle richieste server-to-server HTTP. Questo documento descrive come firmare le richieste HTTP con chiavi private.
-seo-description: Audience Manager richiede la firma digitale per la validità delle richieste server-to-server HTTP. Questo documento descrive come firmare le richieste HTTP con chiavi private.
+description: Audience Manager richiede la firma digitale per la validità delle richieste HTTP(S) da server a server. Questo documento descrive come firmare le richieste HTTP con chiavi private.
+seo-description: Audience Manager richiede la firma digitale per la validità delle richieste HTTP(S) da server a server. Questo documento descrive come firmare le richieste HTTP(S) con chiavi private.
 seo-title: Richieste HTTP con firma digitale
 solution: Audience Manager
 title: Richieste HTTP con firma digitale
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: 9bf1f3771b6a4b9bb9a52149e812b37d1c8e27f8
+source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
 
 ---
 
 
-# Richieste con firma digitale `HTTP`{#digitally-signed-http-requests}
+# Richieste con firma digitale `HTTP(S)`{#digitally-signed-http-requests}
 
-Audience Manager richiede la firma digitale per la validità delle richieste da `HTTP` server a server. Questo documento descrive come firmare `HTTP` le richieste con chiavi private.
+Audience Manager richiede la firma digitale per la validità delle richieste da `HTTP(S)` server a server. Questo documento descrive come firmare `HTTP(S)` le richieste con chiavi private.
 
 ## Panoramica {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
-Utilizzando una chiave privata fornita dall'utente e condivisa con [!DNL Audience Manager], possiamo firmare digitalmente le `HTTP` richieste inviate tra [IRIS](../../../reference/system-components/components-data-action.md#iris) e il server HTTP. Ciò assicura:
+Utilizzando una chiave privata fornita dall'utente e condivisa con [!DNL Audience Manager], possiamo firmare digitalmente le `HTTP(S)` richieste inviate tra [IRIS](../../../reference/system-components/components-data-action.md#iris) e il server HTTP(S). Ciò assicura:
 
 * **Autenticità**: solo il mittente con la chiave privata ([!UICONTROL IRIS]) può inviare `HTTP(S)` messaggi validi al partner.
 * **Integrità** del messaggio: con questo approccio, anche su `HTTP`, si è protetti da un uomo in attacco medio dove i messaggi vengono distorti.
@@ -28,10 +28,10 @@ Utilizzando una chiave privata fornita dall'utente e condivisa con [!DNL Audienc
 
 ## Informazioni da fornire {#info-to-provide}
 
-Per una destinazione server-to-server in tempo `HTTP` reale, contattate il vostro [!DNL Audience Manager] consulente e specificate:
+Per una destinazione server-to-server in tempo `HTTP(S)` reale, contattate il vostro [!DNL Audience Manager] consulente e specificate:
 
 * Chiave utilizzata per firmare la richiesta.
-* Nome dell' `HTTP` intestazione che contiene la firma generata (firma X nell'intestazione di esempio seguente).
+* Nome dell' `HTTP(S)` intestazione che contiene la firma generata (firma X nell'intestazione di esempio seguente).
 * Facoltativo: il tipo di hash utilizzato per la firma (md5, sha1, sha256).
 
 ```
@@ -47,8 +47,8 @@ POST message content
 
 ## How it works {#how-it-works}
 
-1. [!UICONTROL IRIS] crea il `HTTP` messaggio da inviare al partner.
-1. [!UICONTROL IRIS] crea una firma basata sul `HTTP` messaggio e sulla chiave privata comunicata dal partner.
+1. [!UICONTROL IRIS] crea il `HTTP(S)` messaggio da inviare al partner.
+1. [!UICONTROL IRIS] crea una firma basata sul `HTTP(S)` messaggio e sulla chiave privata comunicata dal partner.
 1. [!UICONTROL IRIS] invia la `HTTP(S)` richiesta al partner. Questo messaggio contiene la firma e il messaggio effettivo, come mostrato nell'esempio precedente.
 1. Il server partner riceve la `HTTP(S)` richiesta. Legge il corpo del messaggio e la firma ricevuta da [!UICONTROL IRIS].
 1. In base al corpo del messaggio ricevuto e alla chiave privata, il server partner ricalcola la firma. Per ulteriori informazioni, vedere [Come calcolare la sezione relativa alla firma](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) , vedere di seguito.
@@ -63,8 +63,8 @@ POST message content
 
 ```
 // Message to be signed.
-// For GET type HTTP destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
-// For POST type HTTP destinations, the message used for signing will be the REQUEST_BODY.
+// For GET type HTTP(S) destinations, the message used for signing will be the REQUEST_PATH + QUERY_STRING
+// For POST type HTTP(S) destinations, the message used for signing will be the REQUEST_BODY.
 // String getData = "/from-aam-s2s?sids=1,2,3";
 String postData = "POST message content";
 // Algorithm used. Currently supported: HmacSHA1, HmacSHA256, HmacMD5.
@@ -95,6 +95,6 @@ Per motivi di sicurezza, si consiglia di ruotare periodicamente la chiave privat
 
 ## Dati utilizzati per la firma {#data-signing}
 
-Per `GET` le destinazioni dei tipi, il messaggio utilizzato per la firma sarà *REQUEST_PATH + QUERY STRING* (ad esempio */from-aam-s2s?sids=1,2,3*). IRIS non prende in considerazione il nome host o `HTTP` le intestazioni, che possono essere modificati/non configurati lungo il percorso o riportati in modo errato.
+Per `GET` le destinazioni dei tipi, il messaggio utilizzato per la firma sarà *REQUEST_PATH + QUERY STRING* (ad esempio */from-aam-s2s?sids=1,2,3*). IRIS non prende in considerazione il nome host o `HTTP(S)` le intestazioni, che possono essere modificati/non configurati lungo il percorso o riportati in modo errato.
 
 Per `POST` i tipi di destinazioni, il messaggio utilizzato per la firma è il *REQUEST BODY*. Anche in questo caso, le intestazioni o altri parametri di richiesta vengono ignorati.
