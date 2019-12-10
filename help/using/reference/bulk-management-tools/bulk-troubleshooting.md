@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Suggerimenti per la risoluzione dei problemi per gli strumenti di gestione di massa
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 6f13cefb2f56bbc2e0bfff9a6d31925001403c50
+source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
 
 ---
 
@@ -34,7 +34,7 @@ Fattori come il traffico di rete pesante, l'utilizzo del server e i set di dati 
 * Elimina tutte le righe che sono già state aggiornate.
 * Riprovare la richiesta in massa.
 
-## Tempi lunghi o comportamenti poco reattivi {#delays-behavior}
+## Errori di autenticazione, ritardi prolungati o comportamento non reattivo {#delays-behavior}
 
 Nella tabella seguente sono elencati alcuni problemi comuni che si possono incontrare quando si effettuano richieste in massa con i fogli di lavoro. Provate a risolvere questi problemi con le soluzioni consigliate. Se le soluzioni consigliate non risolvono il problema, è necessario salvare il lavoro, riavviare il computer e riprovare senza avviare o utilizzare altre applicazioni.
 
@@ -46,6 +46,12 @@ Nella tabella seguente sono elencati alcuni problemi comuni che si possono incon
   </tr> 
  </thead>
  <tbody> 
+  <tr> 
+   <td colname="col1"> <b>Errore di autenticazione</b> </td> 
+   <td colname="col2"> 
+    <b>Aggiornamento all'ultima versione di Microsoft Excel</b>: Quando viene rilasciata una nuova versione di Microsoft Excel e si utilizza una versione precedente, potrebbe verificarsi un errore di autenticazione nel foglio di lavoro Gestione in blocco. Aggiornate alla versione più recente di Microsoft Excel per risolvere l'errore di autenticazione.
+</td> 
+  </tr> 
   <tr> 
    <td colname="col1"> <b>Lunghi ritardi</b> </td> 
    <td colname="col2"> 
