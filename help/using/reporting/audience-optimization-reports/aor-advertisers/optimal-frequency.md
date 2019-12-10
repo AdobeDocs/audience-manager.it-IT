@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapporto di frequenza ottimale
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -14,6 +14,8 @@ source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
 # Rapporto di frequenza ottimale{#optimal-frequency-report}
 
 Il report Optimal Frequency (Frequenza ottimale) consente di scoprire l'equilibrio ottimale tra il numero di impression e di conversioni servite. Consente di regolare il numero di impression che si desidera visualizzare prima di iniziare a vedere i rendimenti diminuiti.
+
+Il rapporto ha un intervallo di lookback di 30 giorni, dalla data scelta nel [!UICONTROL Date Through] selettore.
 
 Il volume di conversione diminuisce in genere con intervalli di frequenza ad alta impressione. Meno utenti visualizzano il numero più elevato di impression. Questo significa che i secchi a frequenza più alta hanno meno conversioni.
 
@@ -23,5 +25,4 @@ Come mostrato nel rapporto campione, l'intersezione dei 2 grafici a 2 linee forn
 
 ## Report di esempio
 
-![](assets/optimal-frequency.png)
-
+![frequenza ottimale](assets/optimal-frequency.png)
