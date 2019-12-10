@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Opzioni Regola di unione profilo definite
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
 
 ---
 
@@ -31,7 +31,7 @@ Le regole di unione dei profili consentono una serie di combinazioni di regole, 
 | Ultimi profili autenticati | Profilo dispositivo | Tutti i clienti | Tempo reale e batch | Sì | [Targeting online/offline](merge-rule-targeting-options.md#device-household-targeting) |
 | Ultimi profili autenticati | Grafico dispositivo di collegamento profilo | Tutti i clienti | Tempo reale e batch | Sì | [Targeting tra dispositivi](profile-link-use-case.md#cross-device-personalization) |
 | Ultimi profili autenticati | Device Graph esterno (include Co-op Device Graph) | Tutti i clienti | Tempo reale e batch | No | [Targeting cross-device avanzato](external-graph-use-cases.md#advanced-graph-expansion) |
-|  Tutti i profili multi-dispositivo | N/D | Esclusivo ai clienti delle destinazioni [basate sulle](../destinations/people-based-destinations-overview.md) persone | Solo batch | No | [Targeting per destinazioni basate su persone](merge-rule-targeting-options.md#all-cross-device) |
+| Tutti i profili multi-dispositivo | N/D | Esclusivo ai clienti delle destinazioni [basate sulle](../destinations/people-based-destinations-overview.md) persone | Solo batch | No | [Targeting per destinazioni basate su persone](merge-rule-targeting-options.md#all-cross-device) |
 
 ## Valutazione segmento regola unione profilo {#segment-evaluation}
 
@@ -126,6 +126,10 @@ Consente [!UICONTROL Device Options] di selezionare il tipo di *`device profile`
   </tr>
  </tbody>
 </table>
+
+## Criteri di unione esterni {#external-merge-policies}
+
+I segmenti di pubblico creati automaticamente da altre soluzioni Experience Cloud, in base a regole di unione definite al di fuori di Audience Manager, sono contrassegnati come utilizzando un [!UICONTROL External Merge Policy]. Ad esempio, vedi Condivisione [dell'audience tra Audience Manager e Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >
