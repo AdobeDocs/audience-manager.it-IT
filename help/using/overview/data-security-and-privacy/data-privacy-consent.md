@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy, consent
 title: Gestione del consenso
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: fbe4e8c912093c495f27ca887a44ac31d394811a
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: fbe4e8c912093c495f27ca887a44ac31d394811a
 
 ## Panoramica {#overview}
 
-Nei casi in cui è necessario il consenso per determinate attività di marketing, il consenso dei consumatori deve essere attivo (ad esempio, non devono essere sottoposte a pre-controllo o a silenzio per consenso), disaggregato e le offerte di servizi non possono essere subordinate al consenso dell'interessato. Potrebbero addirittura verificarsi casi in cui è necessario aggiornare alcuni assetti per poter continuare a utilizzare i dati in corso di elaborazione.
+Nei casi in cui è necessario il consenso per determinate attività di marketing, i clienti di Audience Manager devono determinare l’ambito e se è necessario aggiornare alcuni assetti per poter continuare a utilizzare i dati in futuro.
 
 Audience Manager offre gli strumenti necessari per ottenere il consenso richiesto dagli utenti, in modo da poter fornire loro esperienze personalizzate tra i canali.
 
@@ -24,7 +24,7 @@ Audience Manager offre gli strumenti necessari per ottenere il consenso richiest
 >
 > Il contenuto del presente documento non è un parere giuridico e non è destinato a sostituire la consulenza legale.
 >
-> In qualità di titolare del trattamento, Adobe non è in grado di fornire consulenza legale per ottenere il consenso. Consigliamo di lavorare con un provider di soluzioni per la gestione del consenso, come [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) o [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/), per ricevere le migliori raccomandazioni e di consultare l'ufficio legale della tua azienda per consigli su consenso e pratiche al momento della configurazione dell'implementazione di consenso.
+> In qualità di titolare del trattamento, Adobe non è in grado di fornire consulenza legale per ottenere il consenso. Potresti anche considerare di lavorare con un provider di soluzioni per la gestione del consenso, come [Evidon](https://theblog.adobe.com/evidon-builds-gdpr-universal-consent-integration-with-launch-by-adobe/) o [TrustArc](https://theblog.adobe.com/trustarc-builds-consent-integration-launch-adobe/), per ricevere le migliori raccomandazioni, e consulta l'ufficio legale della tua azienda per consigli su consenso e pratiche al momento della configurazione dell'implementazione di consenso.
 
 ## Servizio di consenso Experience Cloud
 
@@ -36,7 +36,7 @@ Il servizio [di consenso di](https://docs.adobe.com/content/help/en/id-service/u
 
 ## Gestione del consenso/ottenimento del consenso
 
-I clienti di Audience Manager possono memorizzare il consenso degli utenti per vari casi d’uso, ad esempio pubblicità o personalizzazione come caratteristiche in Audience Manager. La creazione di segmenti con queste caratteristiche includerà quindi solo gli utenti che forniscono il rispettivo consenso per ciascuno di questi casi d'uso. L'utilizzo di questo approccio non interrompe la raccolta dei dati, ma influisce solo sull'utilizzo dei dati quando invii segmenti per l'attivazione. Quando gli utenti revocano il loro consenso, puoi rimuovere queste caratteristiche dal profilo utente utilizzando il processo [batch in](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) entrata di Audience Manager o il processo di rifiuto di Audience Manager come descritto di seguito.
+I clienti di Audience Manager possono memorizzare il consenso degli utenti per vari casi d’uso, ad esempio pubblicità o personalizzazione come caratteristiche in Audience Manager. I segmenti creati con queste caratteristiche includeranno quindi solo gli utenti che forniscono il rispettivo consenso per ciascuno di questi casi di utilizzo. L'utilizzo di questo approccio non interrompe la raccolta dei dati, ma influisce solo sull'utilizzo dei dati quando invii segmenti per l'attivazione. Quando gli utenti revocano il loro consenso, puoi rimuovere queste caratteristiche dal profilo utente utilizzando il processo [batch in](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) entrata di Audience Manager o il processo di rifiuto di Audience Manager come descritto di seguito.
 
 ## Gestione del rifiuto/ritiro del consenso
 
@@ -46,6 +46,6 @@ Il rifiuto può essere gestito per Adobe Experience Cloud tramite la pagina [del
 
 I provider di dati di seconda parte sono generalmente anche i soggetti incaricati del trattamento dei dati e possiedono la procedura per ottenere il consenso necessario da parte dell'interessato per condividere i dati con i loro partner di dati di seconda parte. È responsabilità dell'utente, in qualità di cliente Audience Manager, determinare se il fornitore di dati di seconda parte ha ottenuto il consenso necessario per il caso d'uso. Ulteriori dettagli su come ottenere il consenso sono trattati sopra.
 
-## Gestione del consenso per provider di dati di terze parti
+## Gestione del consenso per fornitori di dati di terze parti di Audience Marketplace
 
-I provider di dati di terze parti sono anche i Controllori di dati e possiedono il proprio processo per ottenere il consenso e gestire le richieste di accesso/eliminazione/correzione. Adobe richiede in modo proattivo che i provider di dati aggiornino le informazioni sul profilo aziendale in [Adobe Audience Finder](https://www.adobe-audience-finder.com/) con informazioni aggiuntive sulla raccolta di dati utente. Le informazioni verranno fornite dai provider dei dati e saranno aggiornate regolarmente. Tuttavia, spetta a ciascun cliente Audience Manager determinare che il fornitore di dati di terze parti ha ottenuto il consenso necessario per il caso di utilizzo del cliente. Adobe non presenta osservazioni sull'ambito o sulla validità del consenso ottenuto o segnalato da un fornitore di dati di terze parti per un dato caso di utilizzo.
+Audience Marketplace I provider di dati di terze parti sono anche i controller di dati e possiedono il proprio processo per ottenere il consenso e gestire le richieste di accesso/eliminazione/correzione. Adobe richiede in modo proattivo che i provider di dati di terze parti di Audience Marketplace aggiornino le informazioni del profilo aziendale in [Adobe Audience Finder](https://www.adobe-audience-finder.com/) con informazioni aggiuntive sulla raccolta di dati utente. Le informazioni verranno fornite dai provider di dati di terze parti di Audience Marketplace e vengono aggiornate regolarmente. Tuttavia, spetta a ciascun cliente Audience Manager determinare che il provider di dati di terze parti Audience Marketplace ha ottenuto il consenso necessario per il caso di utilizzo del cliente. Adobe non presenta osservazioni sull'ambito o sulla validità del consenso ottenuto o segnalato da fornitori di dati di terze parti di Audience Marketplace per un dato caso di utilizzo.
