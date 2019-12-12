@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossario GDPR
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -31,7 +31,7 @@ Conoscere i termini chiave utilizzati in relazione al GDPR. Di seguito sono ripo
 
  
 
-**** Processore dati: Il "Processore" è "la ... persona giuridica ... che tratta dati personali per conto del titolare del trattamento". Nell'ambito di Audience Manager, Adobe, nell'ambito del servizio, agisce come un "processore dati" per tutti i dati personali che elabora per conto del Controller. Adobe elabora solo i dati personali in conformità alle istruzioni del Titolare del trattamento (come indicato nel nostro contratto con il cliente o attraverso azioni eseguite in Audience Manager).
+**** Processore dati: Il "Processore" è "la ... persona giuridica ... che tratta dati personali per conto del titolare del trattamento". Nel contesto di Audience Manager, Adobe, nell'eseguire il servizio, agisce come un "processore dati" per tutti i dati personali che elabora per conto del Controller, tramite Audience Manager. Adobe elabora solo i dati personali in conformità alle istruzioni del Titolare del trattamento (come indicato nel nostro contratto con il cliente o attraverso azioni eseguite in Audience Manager).
 
  
 
@@ -39,7 +39,7 @@ Conoscere i termini chiave utilizzati in relazione al GDPR. Di seguito sono ripo
 
  
 
-**** Consenso: Consenso: "qualsiasi indicazione liberamente data, specifica, informata e senza ambiguità della volontà dell’interessato, mediante una dichiarazione o un’azione chiaramente affermativa, che significhi l’accettazione del trattamento dei dati personali che lo riguardano". Il consenso è responsabilità del controller dei dati, non di Adobe tramite Audience Manager.
+**** Consenso: Consenso: "qualsiasi indicazione liberamente data, specifica, informata e senza ambiguità della volontà dell’interessato, mediante una dichiarazione o un’azione chiaramente affermativa, che significhi l’accettazione del trattamento dei dati personali che lo riguardano". Il consenso è responsabilità del controller dei dati, non di Adobe (tramite Audience Manager).
 
  
 
