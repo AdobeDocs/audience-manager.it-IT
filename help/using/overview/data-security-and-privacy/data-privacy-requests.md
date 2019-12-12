@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Richieste sulla privacy dei dati
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: caa5207bc2955ee18b40d6a51613340001cbd92f
+source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
 
 ---
 
@@ -49,16 +49,16 @@ L’interfaccia utente [del servizio](https://gdprui.cloud.adobe.io/) Privacy co
 
 Per verificare l’aspetto di un [!DNL JSON] file valido, puoi [scaricare un JSON](../data-security-and-privacy/assets/access_request.json)di esempio.
 
-Comprendiamo il tuo impegno a soddisfare le richieste dei clienti sulla privacy dei dati entro 30 giorni dalla ricezione. Per questo motivo, cerchiamo di elaborare la richiesta di eliminazione dei dati il prima possibile.
+Adobe ha compreso il tuo impegno a soddisfare le richieste dei clienti relative alla privacy dei dati entro 30 giorni dalla ricezione. Per questo motivo, Adobe si impegna a elaborare la richiesta di eliminazione dei dati il prima possibile.
 
-In risposta alle richieste di eliminazione dei dati, eliminiamo caratteristiche e segmenti associati all’identificatore Audience Manager incluso nella richiesta. Inoltre, i rispettivi identificatori di Audience Manager per l'oggetto dati verranno definitivamente esclusi dall'ulteriore raccolta di dati da Audience Manager e le rispettive mappature ID verranno rimosse.
+In risposta alle richieste di eliminazione dei dati del consumatore, Audience Manager elimina le caratteristiche e i segmenti associati all’identificatore Audience Manager incluso nella richiesta. Inoltre, i rispettivi identificatori di Audience Manager per il singolo oggetto di rifiuto di ulteriore raccolta dati da parte di Audience Manager e le rispettive mappature ID verranno rimossi.
 
 Quando invii ID dichiarati, come [!DNL CRM] ID di dispositivi diversi o ID di cookie, nelle richieste di privacy dei dati, Audience Manager eseguirà l'eliminazione necessaria su tutti i dispositivi collegati (fino a 100 dispositivi per ID dichiarato).
 
-Audience Manager avvisa i partner di attivazione delle richieste di eliminazione inviando loro informazioni di non segmentazione per gli oggetti dati che richiedono l’eliminazione di alcuni dati. Tuttavia, alcuni partner per l'attivazione:
+Audience Manager tenterà di notificare ai partner di attivazione le richieste di eliminazione inviando loro informazioni di non segmentazione per gli oggetti dati che richiedono l'eliminazione di alcuni dati. Tuttavia, alcuni partner per l'attivazione:
 
-1. Impossibile supportare richieste non segmentate (o rimuovere segmenti) da Adobe e/o
-2. Non sono in grado di ricevere aggiornamenti da noi con una frequenza inferiore a 30 giorni. In questi casi, i clienti di Audience Manager non possono inviare le richieste di eliminazione ai partner di attivazione in modo automatico tramite Audience Manager.
+1. Impossibile supportare richieste non segmentate (o rimuovere segmenti) da Audience Manager e/o
+2. Non sono in grado di ricevere aggiornamenti da Audience Manager con una frequenza inferiore a 30 giorni. In questi casi, i clienti di Audience Manager non possono inviare le richieste di eliminazione ai partner di attivazione in modo automatico tramite Audience Manager.
 
 In questi casi, non è possibile inviare le richieste di eliminazione ai partner di attivazione in modo automatico tramite Audience Manager.
 
@@ -66,7 +66,7 @@ Scarica il nostro foglio [Excel per](assets/AAM-Partners-October2019.xlsx) partn
 
 ## Richieste di rifiuto {#opt-out-requests}
 
-Adobe rispetta tutti gli standard di settore per la gestione delle rinunce. Continua a leggere per informazioni complete sui tipi di rinuncia supportati da Audience Manager.
+Audience Manager supporta gli standard di settore per la gestione delle rinunce. Continua a leggere per informazioni complete sui tipi di rinuncia supportati da Audience Manager.
 
 Mentre le richieste di accesso ed eliminazione dei dati vengono gestite tramite il servizio [](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)Privacy, le richieste di rifiuto sono attualmente supportate tramite l'API DCS. Continua a leggere per capire come dovrebbero essere le chiamate API per la rinuncia.
 
@@ -108,7 +108,7 @@ Gli utenti finali possono anche scegliere di non partecipare alla raccolta dati 
 
 In base alle richieste di rifiuto descritte sopra:
 
-* Audience Manager cesserà tutte le attività di raccolta, segmentazione o attivazione dei dati.
+* Audience Manager cesserà tutte le attività di raccolta, segmentazione o attivazione dei dati in futuro, purché l'utente non cancelli i cookie del browser.
 * I dati storici vengono rimossi dal profilo utente dopo 120 giorni.
 
 ### Rinuncia a livello di partner con chiamate ID dichiarate
@@ -161,12 +161,12 @@ In seguito a una rinuncia a livello di partner con una chiamata ID dispositivo:
 
 ## Partner Audience Manager Con Funzionalità Di Separazione {#aam-partners-with-unsegmentation}
 
-Per aiutare i nostri clienti ad automatizzare le richieste di privacy dei dati, Audience Manager avvisa i nostri partner di attivazione sulle richieste di eliminazione da oggetti dati inviando loro informazioni non segmentate (o rimuovendo segmenti).
+Per facilitare l'automazione delle richieste di privacy dei dati dei consumatori, Audience Manager tenterà di inviare ai partner di attivazione notifiche sulle richieste di eliminazione da oggetti dati inviando loro informazioni non segmentate (o rimuovendo segmenti).
 
 Tuttavia, alcuni dei nostri partner per l'attivazione:
 
-1. Impossibile supportare richieste non segmentate da Adobe e/o
-1. Non sono in grado di ricevere aggiornamenti da noi più spesso di una volta in 30 giorni.
+1. Impossibile supportare richieste non segmentate da Audience Manager e/o
+2. Non sono in grado di ricevere gli aggiornamenti da Audience Manager più spesso di una volta in 30 giorni.
 
 In questi casi, non è possibile inviare le richieste di eliminazione ai partner di attivazione in modo automatico tramite Audience Manager.
 
@@ -174,6 +174,6 @@ Scarica il nostro foglio [Excel per](assets/AAM-Partners-October2019.xlsx) partn
 
 ## Richieste di correzione dati {#correction}
 
-Poiché Audience Manager non è l’origine dei dati, in Audience Manager esiste un ruolo limitato per la correzione dei dati. La correzione potrebbe significare che l'Oggetto dati ha richiesto di essere squalificato da una caratteristica/segmento non corretta o qualificato per la caratteristica/segmento desiderata.
+Poiché Audience Manager non è l’origine dei dati, in Audience Manager esiste un ruolo limitato per la correzione dei dati. La correzione potrebbe significare che il consumatore ha chiesto di essere squalificato da una caratteristica/segmento non corretta o qualificato per la caratteristica/segmento desiderata.
 
 I clienti di Audience Manager possono scegliere di catturare i segnali/tratti/segmenti pertinenti in base ai profili utente e inviare tali informazioni tramite l’inserimento [di dati](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) offline ad Audience Manager. L'utente continuerà a essere qualificato per la caratteristica e i segmenti originali se ripeterà il proprio comportamento.
