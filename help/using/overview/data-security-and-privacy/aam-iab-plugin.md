@@ -5,7 +5,7 @@ seo-title: Plug-in di Audience Manager per IAB TCF
 solution: Audience Manager
 title: Plug-in di Audience Manager per IAB TCF
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
 
 ---
 
@@ -129,7 +129,7 @@ Il caso d’uso è descritto nell’immagine e nei passaggi seguenti. Iniziate d
 
 ## Partner di attivazione che supportano IAB TCF {#aam-activation-partners}
 
-Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa di consenso IAB TCF ai partner di attivazione, nel rispetto delle scelte sulla privacy degli utenti. Per informazioni su quali partner di attivazione supportano IAB TCF, consultare il nostro **[Partner Excel sheet](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-October2019.xlsx)**.
+Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa di consenso IAB TCF ai partner di attivazione, nel rispetto delle scelte sulla privacy degli utenti. Per informazioni su quali partner di attivazione supportano IAB TCF, consultare il nostro **[Partner Excel sheet](/help/using/overview/data-security-and-privacy/assets/AAM-Partners-December2019.xlsx)**.
 
 ## Test dell’implementazione IAB {#test-iab-implementation}
 
