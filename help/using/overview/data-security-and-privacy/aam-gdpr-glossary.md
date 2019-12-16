@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossario GDPR
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -35,7 +35,7 @@ Conoscere i termini chiave utilizzati in relazione al GDPR. Di seguito sono ripo
 
  
 
-**** Oggetto dati: L'individuo a cui si riferiscono i dati personali. Nel contesto di Audience Manager, gli oggetti dati sono i consumatori o gli utenti finali di Audience Manager. Se Audience Manager riceve le richieste direttamente dagli oggetti dati, queste vengono inoltrate ai rispettivi clienti Adobe.
+**** Oggetto dati: L'individuo a cui si riferiscono i dati personali. Nel contesto di Audience Manager, gli oggetti dati sono i consumatori o gli utenti finali di Audience Manager. Se Adobe riceve richieste direttamente da Data Subject, queste vengono inoltrate ai rispettivi clienti Audience Manager.
 
  
 
