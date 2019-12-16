@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Richieste sulla privacy dei dati
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 09ac547f22bc07e5b8609226ddd736cb79cbc700
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -39,7 +39,7 @@ L’interfaccia utente [del servizio](https://gdprui.cloud.adobe.io/) Privacy co
 
 Per verificare l’aspetto di un [!DNL JSON] file valido, puoi [scaricare un JSON](../data-security-and-privacy/assets/access_request.json)di esempio.
 
-Comprendiamo il tuo impegno a rispettare le richieste dei tuoi clienti sulla privacy dei dati entro il periodo di tempo stabilito dalla normativa.
+Comprendiamo il tuo impegno a rispettare le tue richieste sulla privacy dei dati entro il termine stabilito dalla normativa.
 
 ## Richieste di eliminazione dati{#delete-data}
 
@@ -49,7 +49,7 @@ L’interfaccia utente [del servizio](https://gdprui.cloud.adobe.io/) Privacy co
 
 Per verificare l’aspetto di un [!DNL JSON] file valido, puoi [scaricare un JSON](../data-security-and-privacy/assets/access_request.json)di esempio.
 
-Adobe ha compreso il tuo impegno a soddisfare le richieste dei clienti relative alla privacy dei dati entro 30 giorni dalla ricezione. Per questo motivo, Adobe si impegna a elaborare la richiesta di eliminazione dei dati il prima possibile.
+Adobe comprende il tuo impegno a rispettare le richieste dei clienti sulla privacy dei dati entro 30 giorni. Per questo motivo, Adobe si impegna a elaborare la richiesta di eliminazione dei dati il prima possibile.
 
 In risposta alle richieste di eliminazione dei dati del consumatore, Audience Manager elimina le caratteristiche e i segmenti associati all’identificatore Audience Manager incluso nella richiesta. Inoltre, i rispettivi identificatori di Audience Manager per il singolo oggetto di rifiuto di ulteriore raccolta dati da parte di Audience Manager e le rispettive mappature ID verranno rimossi.
 
@@ -108,7 +108,7 @@ Gli utenti finali possono anche scegliere di non partecipare alla raccolta dati 
 
 In base alle richieste di rifiuto descritte sopra:
 
-* Audience Manager cesserà tutte le attività di raccolta, segmentazione o attivazione dei dati in futuro, purché l'utente non cancelli i cookie del browser.
+* Audience Manager cesserà tutte le attività di raccolta, segmentazione o attivazione dei dati, purché l'utente non cancelli i cookie del browser.
 * I dati storici vengono rimossi dal profilo utente dopo 120 giorni.
 
 ### Rinuncia a livello di partner con chiamate ID dichiarate
