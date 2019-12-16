@@ -6,7 +6,7 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
 title: Governance dei dati
 translation-type: tm+mt
-source-git-commit: b47819d5e6394e78d744ada1bb7090d337938983
+source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
 
 ---
 
@@ -21,7 +21,7 @@ La governance dei dati in Audience Manager si riferisce al ciclo di vita dei dat
 
 The [!DNL IP] address of a visitor to a customer’s website is transmitted to an Adobe [!DNL Data Processing Center] ([!DNL DPC]) where the [!DNL IP] address may be stored. Depending on the network configuration for the visitor, the [!DNL IP] address may not necessarily represent the [!DNL IP] address of the visitor’s computer. For example, the [!DNL IP] address could be the external [!DNL IP] address of a Network Address Translation (NAT) firewall, [!DNL HTTP] proxy, or Internet gateway.
 
-**** Metodologia di offuscamento IP: In base ai principi di "Privacy By Design", Adobe Audience Manager consente ai clienti di abilitare l’ [!DNL IP] offuscamento dall’interfaccia utente, sia a livello globale che per specifiche aree geografiche. Quando abilitate questa impostazione, l’ultimo ottetto (l’ultima parte) dell’ [!DNL IP] indirizzo viene eliminato immediatamente quando l’ [!DNL IP] indirizzo viene assimilato in Audience Manager. Audience Manager elimina questa parte dell' [!DNL IP] indirizzo prima dell'elaborazione (inclusa la prima di qualsiasi ricerca geografica facoltativa o registrazione dell' [!DNL IP] indirizzo). Ad esempio:
+**** Metodologia di offuscamento IP: In base ai principi di "Privacy By Design", Adobe Audience Manager consente ai clienti di abilitare l’ [!DNL IP] offuscamento dall’interfaccia utente, sia a livello globale che in tutte le aree geografiche o per specifici paesi. Quando abilitate questa impostazione, l’ultimo ottetto (l’ultima parte) dell’ [!DNL IP] indirizzo viene eliminato immediatamente quando l’ [!DNL IP] indirizzo viene assimilato in Audience Manager. Audience Manager elimina questa parte dell' [!DNL IP] indirizzo prima dell'elaborazione (inclusa la prima di qualsiasi ricerca geografica facoltativa o registrazione dell' [!DNL IP] indirizzo). Ad esempio:
 
 * Prima: `255.255.255.255`
 * Dopo: `255.255.255.0`
@@ -42,4 +42,4 @@ L'applicazione di criteri di conservazione dei dati appropriati, sicuri e tempes
 
 ## Trasferimenti di dati transfrontalieri {#data-transfers}
 
-Il GDPR non vieta il trasferimento di dati al di fuori dell’Europa. Essa richiede che le tutele sulla privacy relative ai dati europei persistano ovunque i dati vengano trasferiti. Per ulteriori informazioni, visitare l' [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) . CCPA non ha restrizioni per il trasferimento transfrontaliero dei dati.
+Quando Audience Manager trasferisce dati personali dai clienti oltre i confini nazionali, Audience Manager lo fa in conformità con la legge applicabile. Per ulteriori informazioni, visitare l' [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) .
