@@ -5,7 +5,7 @@ seo-title: Plug-in di Audience Manager per IAB TCF
 solution: Audience Manager
 title: Plug-in di Audience Manager per IAB TCF
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 25ca7a44e9b4a67ec025d63da1395fc30789597c
 
 ---
 
@@ -44,7 +44,7 @@ Per utilizzare lo IAB TCF con Audience Manager dovete soddisfare i seguenti prer
 
 ## Raccomandazioni e modalità di implementazione {#recommendations}
 
-Per abilitare il supporto IAB TCF in Audience Manager, consulta la nostra documentazione su [come configurare IAB con il consenso](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html).
+Per abilitare il supporto IAB TCF in Audience Manager, consulta la nostra documentazione su [come configurare IAB con il consenso](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
 Ciò è più semplice grazie all'utilizzo di [Adobe Launch](https://docs.adobelaunch.com/) per lo strumento di consenso ECID sulle proprietà. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
 
@@ -133,7 +133,7 @@ Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa di cons
 
 ## Test dell’implementazione IAB {#test-iab-implementation}
 
-Per verificare di aver implementato correttamente il plug-in Audience Manager per IAB TCF, leggi [Caso d’uso 4 in Metodi di convalida per l’implementazione](https://marketing.adobe.com/resources/help/en_US/mcvid/testing-optin-and-iab-plugin.html)di tipoOpt-in e IAB.
+Per verificare di aver implementato correttamente il plug-in Audience Manager per IAB TCF, leggi [Caso d’uso 4 in Metodi di convalida per l’implementazione](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/testing-optin-and-iab-plugin.html#section-64331998954d4892960dcecd744a6d88)di tipoOpt-in e IAB.
 
 ## IAB e rinuncia in Audience Manager. Ordine di precedenza. {#iab-and-optout}
 
