@@ -6,22 +6,22 @@ solution: Audience Manager
 title: Report Segnali non utilizzati
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
 
 ---
 
 
 # Report Segnali non utilizzati{#unused-signals-report}
 
-Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell’inventario e inviate ad Audience Manager.
+Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell’inventario e inviate ad Audience Manager. Per accedere a questo rapporto, passa a **Analytics > Audience Reports (Report audience) > Other Reports (Altri report) > Unused Signals (Segnali** non utilizzati).
 
-<!-- 
+>[!NOTE]
+>
+>Se ricevi il messaggio &quot;Non hai accesso ai report Audience&quot;, contatta il tuo consulente Audience Manager o l&#39;Assistenza clienti per fornirti il rapporto.
 
-c_unused_signals.xml
+![Screenshot del report sui segnali inutilizzati](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
- -->
-
-## Report Segnali non utilizzati
+## Panoramica
 
 Un segnale è costituito dalle informazioni trasmesse dal sito Web [!DNL Audience Manager] sotto forma di coppie [](../../reference/key-value-pairs-explained.md) chiave-valore (ad esempio, `color=blue, price>100, gender=female`ecc.).
 
@@ -33,7 +33,7 @@ Leggi questo report per identificare i segnali orfani che possono essere mappati
 >
 >Specificate una chiave o un nome di valore nei campi di ricerca per limitare i risultati a record specifici.
 
-## Casi d'uso
+## Casi d&#39;uso
 
 <table id="table_E5EE0EC078E14EF4B197243488517A2D"> 
  <thead> 
@@ -45,7 +45,7 @@ Leggi questo report per identificare i segnali orfani che possono essere mappati
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Uniformità delle caratteristiche o aggiunta di valori correlati a una chiave singola</b> </p> </td> 
-   <td colname="col2"> <p>Rivedete il rapporto per tenere conto delle diverse variazioni di valore per un particolare segnale. </p> <p>Ad esempio, supponiamo che lo stato "Carolina del Nord" sia definito in una coppia chiave-valore come <code> c_state = Carolina</code>del Nord. Il rapporto può aiutare a trovare varianti di nomi e aggiungerle alla caratteristica (ad esempio, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). In alternativa, è possibile individuare le varianti dei nomi con il rapporto e sostituirle con un valore uniforme in tutti i siti. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Rivedete il rapporto per tenere conto delle diverse variazioni di valore per un particolare segnale. </p> <p>Ad esempio, supponiamo di avere una caratteristica per lo stato "North Carolina" definito in una coppia chiave-valore come <code> c_state = North Carolina</code>. Il rapporto può essere utile per individuare varianti di nomi e aggiungerle alla caratteristica (ad esempio, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). In alternativa, è possibile individuare le varianti dei nomi con il rapporto e sostituirle con un valore uniforme in tutti i siti. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Crea nuove caratteristiche</b> </p> </td> 
@@ -63,7 +63,7 @@ Leggi questo report per identificare i segnali orfani che possono essere mappati
 Esegui e controlla il [!UICONTROL Unused Signals] rapporto:
 
 * Dopo aver creato una caratteristica o aggiornato le regole di caratteristica. Questo consente di garantire che le caratteristiche e le regole siano impostate correttamente. Il numero 1 nei risultati indica che una nuova caratteristica potrebbe non essere configurata correttamente.
-* Bicicletta o mensile. Le revisioni pianificate garantiscono l'aggiornamento delle mappature delle caratteristiche.
+* Bicicletta o mensile. Le revisioni pianificate garantiscono l&#39;aggiornamento delle mappature delle caratteristiche.
 
 >[!NOTE]
 >
