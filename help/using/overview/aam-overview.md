@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Panoramica di Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 translation-type: tm+mt
-source-git-commit: 77b13fc37aa0a61b0740ff8c2694e11e2349ec12
+source-git-commit: aebdeb953153f4d1028871966f8da9ee27f58d35
 
 ---
 
@@ -15,18 +15,43 @@ source-git-commit: 77b13fc37aa0a61b0740ff8c2694e11e2349ec12
 
 Audience Manager consente di unire le risorse dei dati sul pubblico, semplificando la raccolta di informazioni rilevanti dal punto di vista commerciale sui visitatori del sito, la creazione di segmenti commerciabili e la distribuzione di contenuti e pubblicità mirati al pubblico giusto. Audience Manager offre inoltre una facile implementazione e gestione dei tag con funzioni affidabili di raccolta, controllo e protezione dei dati.
 
-Con Audience Manager, non sei legato a un venditore di dati, a uno scambio o a una piattaforma lato domanda. Inoltre, Audience Manager è completamente agnostico quando si tratta delle risorse dati dei nostri partner. Con l'accesso a più origini dati, Audience Manager offre agli editori digitali la possibilità di utilizzare un'ampia gamma di dati di terze parti e la nostra cooperativa privata di dati. Consulta il nostro team di soluzioni per i partner per informazioni su come prendere decisioni intelligenti e accurate sul pubblico di riferimento.
+Con Audience Manager, non sei legato a un venditore di dati, a uno scambio o a una piattaforma lato domanda. Inoltre, Audience Manager è completamente agnostico quando si tratta delle risorse dati dei nostri partner. Con l&#39;accesso a più origini dati, Audience Manager offre agli editori digitali la possibilità di utilizzare un&#39;ampia gamma di dati di terze parti e la nostra cooperativa privata di dati. Consulta il nostro team di soluzioni per i partner per informazioni su come prendere decisioni intelligenti e accurate sul pubblico di riferimento.
 
-## Cronologia e sfondo {#history-and-background}
+## Tre funzioni di una piattaforma di gestione dati (DMP) {#dmp-three-functions}
 
-Audience Manager è stato avviato come Demdex nel 2008. È stato acquisito da Adobe Systems nel 2011 e successivamente classificato come Audience Manager.
+Le funzioni di una piattaforma di gestione dati (DMP) possono essere riassunte in tre categorie, come illustrato di seguito.
 
-## Cronologia {#history}
+![Immagine di tre funzioni DMP: Ingresso dati, creazione audience, uscita dati](/help/using/overview/assets/dmp-functions.png)
 
-Dal 2008, Audience Manager (già [!UICONTROL Demdex]) è stato un pioniere nel mercato della gestione dell'audience online. I servizi di Audience Manager alimentano strategie di dati online multicanale e dinamiche. La nostra piattaforma e i nostri servizi sono utilizzati da una serie di industrie diverse, dalle automobili (AutoTrader) alle compagnie aeree (American Airlines) e alle compagnie di servizi finanziari (American Express). Audience Manager utilizza la tecnologia a livello aziendale per fornire scalabilità, affidabilità, analisi e prestazioni per garantire il successo della tua attività online. Audience Manager si integra con Adobe Experience Cloud per consentirti di centralizzare, gestire e intervenire sulle risorse di dati su un numero crescente di canali con indirizzo digitale.
+**I dati In** Audience Manager raccolgono dati di prime parti da canali e dispositivi (analisi Web, CRM, dati dispositivo, e-commerce, ecc.).
 
-## Audience Manager e la relativa piattaforma di gestione dati (DMP) {#aam-dmp}
+**Creazione** di audience unifica i dati in profili di audience, offrendovi una visione completa del cliente tra dispositivi e canali. Crea modelli simili, crea segmenti di pubblico e gruppi di profili e completa con origini dati di seconda e terza parte.
 
-Audience Manager consente di gestire la pipeline dei dati. Il nostro servizio è un catalizzatore che trasforma utenti generici e segnali grezzi di dati in segmenti di pubblico effettivi utilizzati per le attività di marketing multicanale. Audience Manager offre inoltre strumenti per la gestione dei tag e l'analisi dell'audience, rispondendo allo stesso tempo alle esigenze di privacy e sicurezza dei dati di clienti e consumatori.
+**Data Out** Attiva i segmenti di pubblico spingendoli verso piattaforme lato domanda (DSP), sistemi di gestione delle campagne e altre piattaforme di marketing.
+
+## More Information {#more-information}
+
+Per ulteriori informazioni, consulta le risorse seguenti:
+* [Panoramica di Audience Manager](https://www.adobe.com/analytics/audience-manager.html)
+* [Vantaggi di Audience Manager](https://www.adobe.com/analytics/audience-manager/benefits.html)
+* [Funzioni di Audience Manager](https://www.adobe.com/analytics/audience-manager/features.html)
+
+
+<!--
+
+## History and Background {#history-and-background}
+
+Audience Manager started as Demdex in 2008. It was acquired by Adobe Systems in 2011 and subsequently rebranded as Audience Manager.
+
+## History {#history}
+
+Since 2008, Audience Manager (formerly, [!UICONTROL Demdex]) has been a pioneer in the on-line audience management market. Audience Manager services power dynamic, multi-channel online data strategies. Our platform and services are used by an array of diverse industries from automobiles (AutoTrader), to airlines (American Airlines), and financial services companies (American Express). Audience Manager uses enterprise-level technology to provide the scale, reliability, analytics, and performance to help your business succeed online. Audience Manager integrates with the Adobe Experience Cloud to help you centralize, manage, and take action on your data assets across a growing number of digitally addressable channels.
+
+## Audience Manager and its Data Management Platform (DMP) {#aam-dmp}
+
+Audience Manager helps you manage your data pipeline. Our service is a catalyst that transforms generic users and raw data signals into actual audience segments used for multi-channel marketing efforts. Additionally, Audience Manager provides tools for tag management and audience analytics while simultaneously meeting the privacy and data security needs of clients and consumers.
 
 ![](assets/am_overview_80.png)
+
+
+-->
