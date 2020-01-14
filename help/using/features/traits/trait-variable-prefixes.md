@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Requisiti del prefisso per le variabili chiave
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
 
 ---
 
@@ -19,7 +19,7 @@ In questo articolo vengono descritti i prefissi da associare alle variabili chia
 
 ## Finalità dei predefiniti per variabili chiave
 
-Quando create [!UICONTROL Trait Builder] delle regole, è importante che la variabile key venga anteposta con un prefisso consigliato. Questi prefissi identificano il tipo di dati passati e aiutano a evitare conflitti tra i namespace all'interno [!DNL Audience Manager]. In genere è possibile assegnare a una variabile qualsiasi nome, ma i dati per una regola non vengono elaborati se il nome della variabile chiave non corrisponde al nome della variabile in una chiamata dell'evento.
+Quando create [!UICONTROL Trait Builder] delle regole, è importante che la variabile key venga anteposta con un prefisso consigliato. Questi prefissi identificano il tipo di dati passati e aiutano a evitare conflitti tra i namespace all&#39;interno [!DNL Audience Manager]. In genere è possibile assegnare a una variabile qualsiasi nome, ma i dati per una regola non vengono elaborati se il nome della variabile chiave non corrisponde al nome della variabile in una chiamata dell&#39;evento.
 
 ## Prefissi per variabili chiave
 
@@ -39,11 +39,11 @@ La tabella seguente definisce i prefissi comuni utilizzati da [!UICONTROL Trait 
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>A livello di <span class="keyword"> Audience Manager</span> . Questi dati sono uniformi nell’ecosistema <span class="keyword"> Audience Manager</span> . Per un elenco più completo, consultate <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Attributi supportati per le chiamate</a> API DCS. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p>A livello di <span class="keyword"> Audience Manager</span> . Questi dati sono uniformi nell’ecosistema <span class="keyword"> Audience Manager</span> . Per un elenco più completo, consultate <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Attributi supportati per le chiamate</a> API DCS. <p>I segnali che utilizzano questo prefisso non vengono visualizzati in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Ricerca</a>segnale.</p></p> </td> 
+  </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Contiene informazioni di intestazione <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"></a> HTTP. Include parametri di intestazione come <code> referer</code>,<code> IP</code>ad esempio <code> accept-language</code>, </p> <p> <p>Nota: Per i clienti che utilizzano versioni DIL precedenti alla 9.0, la raccolta dei dati utilizzando il <code> h_referer</code> segnale non funzionerà sui browser Safari. Con l’introduzione di <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, i browser Safari possono classificare il dominio demdex.net come tracciatore e troncare il referente nella richiesta di raccolta dati per contenere solo l’origine invece dell’URL completo. Consultate <a href="../../dil/dil-overview.md#get-implement-dil-code">Ottenere e implementare il codice</a> DIL per l’ultima versione di DIL. </p> </p> </td> 
+   <td colname="col2"> <p>Contiene informazioni di intestazione <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"></a> HTTP. Include parametri di intestazione come <code> referer</code>,<code> IP</code>ad esempio <code> accept-language</code>, </p> <p> <p>Nota: Per i clienti che utilizzano versioni DIL precedenti alla 9.0, la raccolta dei dati utilizzando il <code> h_referer</code> segnale non funzionerà sui browser Safari. Con l’introduzione di <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, i browser Safari possono classificare il dominio demdex.net come tracciatore e troncare il referente nella richiesta di raccolta dati per contenere solo l’origine invece dell’URL completo. Consultate <a href="../../dil/dil-overview.md#get-implement-dil-code">Ottenere e implementare il codice</a> DIL per l’ultima versione di DIL.<p>I segnali che utilizzano questo prefisso non vengono visualizzati in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Ricerca</a>segnale.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
