@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Implementazione del modulo Gestione dell'audience
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: dddc67e80e2b8c2e5e3ec76912a030e52d2206f5
+source-git-commit: 7e8ba292f2f901b1323d30d682066b49df885a0c
 
 ---
 
@@ -19,10 +19,6 @@ Seguite i passaggi di questa esercitazione per inoltrare [!DNL Analytics] i dati
 >[!TIP]
 >
 >È consigliabile utilizzare [!UICONTROL Adobe Launch] per inoltrare [!UICONTROL Analytics] i dati ad Audience Manager. Utilizzando [!UICONTROL Launch], non è necessario copiare manualmente il codice in [!UICONTROL AppMeasurement], come mostrato in questa pagina.
-
->[!NOTE]
->
->Le istruzioni riportate in questa pagina fanno riferimento alle implementazioni tramite [Adobe Digital Tag Manager (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) o qualsiasi altra soluzione di gestione tag, *ad eccezione* di [Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html). È consigliabile utilizzare Adobe Launch. Utilizzando [!DNL Launch], non è necessario copiare manualmente il codice in [!UICONTROL AppMeasurement], come mostrato in questa pagina.
 
 ## Prerequisiti {#prereqs}
 
