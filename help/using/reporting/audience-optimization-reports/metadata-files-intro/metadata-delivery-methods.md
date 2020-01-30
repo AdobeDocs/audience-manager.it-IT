@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Metodi di consegna per i file di metadati
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 translation-type: tm+mt
-source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -14,6 +14,10 @@ source-git-commit: de51f27cac0d165d043e90db978a6949d6a43761
 # Metodi di consegna per i file di metadati{#delivery-methods-for-metadata-files}
 
 Inviate o aggiornate i file di metadati inviandoli a una [!DNL Amazon S3] directory speciale per il vostro account Audience Manager. Fare riferimento a questa sezione per informazioni sui percorsi di consegna/directory, sui tempi di elaborazione dei file e sugli aggiornamenti.
+
+>[!IMPORTANT]
+>
+> Contatta il tuo consulente Audience Manager o l’Assistenza clienti per iniziare e configurare una [!DNL Amazon S3] directory per i file di metadati.
 
 ## Sintassi percorso di consegna ed esempio {#syntax}
 
