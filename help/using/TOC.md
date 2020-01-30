@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
+source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
 
 ---
 
@@ -37,6 +37,7 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
       + [Modifica delle impostazioni dell&#39;account](features/administration/edit-account-settings.md)
       + [Offuscamento dell’indirizzo IP](features/administration/ip-obfuscation.md)
       + [Limiti di utilizzo](features/administration/usage-limits.md)
+      + [Report sull&#39;utilizzo dell&#39;attività](features/administration/activity-usage-reporting.md)
    + Modelli algoritmici{#algorithmic-models}
       + [Modelli algoritmici](features/algorithmic-models/understanding-models.md)
       + [Creare un modello algoritmico](features/algorithmic-models/create-model.md)
@@ -98,6 +99,7 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
          + [Pubblico condivisibile](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Destinazioni basate su dispositivo (da server a server) {#device-based}
          + [Aggiungi nuove destinazioni basate su dispositivo](features/destinations/add-device-based-destinations.md)
+         + [Elenco delle destinazioni basate su dispositivo di Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
          + [Aggiunta o modifica di segmenti per le destinazioni tra server](features/destinations/add-edit-segments.md)
          + [Configurare l&#39;audience personalizzata di Twitter come destinazione autonoma basata su dispositivo](features/destinations/twitter-tailored-audiences.md)
       + Destinazioni personalizzate {#custom-destinations}
@@ -371,6 +373,7 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
    + [Domande frequenti sulle API](faq/faq-api.md)
    + [Domande frequenti su Audience Lab](faq/faq-audience-lab.md)
    + [Domande frequenti sui feed di dati cliente](faq/faq-cdf.md)
+   + [Assistenza clienti - Problemi segnalati più di frequente](/help/using/faq/faq-top-customer-care-issues.md)
    + [Domande frequenti sulla raccolta dei dati e l&#39;integrazione dei prodotti](faq/faq-data-collection.md)
    + [Domande frequenti sull&#39;inserimento dei dati dei clienti in entrata](faq/faq-inbound-data-ingestion.md)
    + [Domande frequenti sulla privacy e sulla conservazione dei dati](faq/faq-privacy.md)
@@ -383,6 +386,11 @@ source-git-commit: 8999d056068e5b17f73ef53927279255a6949cbd
    + [Panoramica](/help/using/help-legal/help-legal-overview.md)
    + [Se c&#39;è un problema](/help/using/help-legal/help-problem.md)
    + [Contatti e informazioni legali](/help/using/help-legal/help-legal-contact.md)
++ Principali problemi di assistenza clienti{#top-support-issues}
+   + [Panoramica](/help/using/support-issues/support-issues-overview.md)
+   + [Perché la mia popolazione di tratti caricati su un tablet è scesa a 0 intorno al 15 ottobre? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina Rapporti sovrapposizione?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [Perché i nostri utenti di sola lettura possono creare, modificare o eliminare tratti e segmenti?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
 + Aggiornamenti alla documentazione{#documentation-updates}
    + [Aggiornamenti alla documentazione del 2020](docs-updates/docs-2020.md)
    + [Aggiornamenti alla documentazione del 2019](docs-updates/docs-2019.md)
