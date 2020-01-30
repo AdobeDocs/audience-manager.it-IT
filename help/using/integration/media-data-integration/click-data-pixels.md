@@ -6,14 +6,22 @@ solution: Audience Manager
 title: Acquisizione dei dati di clic sulla campagna tramite chiamate pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 8d31bc79fd221cffd33969278eade93a4b32a4d5
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei visitatori durante l’intera campagna, registrando l’attività basata sui clic per i creativi di terze parti. Analogamente all'insieme impression, una chiamata evento viene inviata ai server di raccolta dati ([!UICONTROL DCS]) di Audience Manager per l'elaborazione. Il visitatore viene quindi reindirizzato all'indirizzo Web desiderato.
+Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei visitatori durante l’intera campagna, registrando l’attività basata sui clic per i creativi di terze parti. Analogamente all&#39;insieme impression, una chiamata evento viene inviata ai server di raccolta dati ([!UICONTROL DCS]) di Audience Manager per l&#39;elaborazione. Il visitatore viene quindi reindirizzato all&#39;indirizzo Web desiderato.
+
+>[!IMPORTANT]
+>
+>Affinché Audience Manager interpreti correttamente i campi ricevuti nelle chiamate degli eventi ed esegua il rendering dei dati della campagna nei rapporti [di ottimizzazione](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)dell&#39;audience, dovete inviare file di metadati che mappino questi campi a valori leggibili dall&#39;uomo. Consulta [Panoramica e mappature per i file](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) di metadati e contatta il tuo consulente Audience Manager o l’assistenza clienti per configurare una directory Amazon S3 per i file di metadati.
+
+>[!NOTE]
+>
+>Contatta il consulente di Adobe Audience Manager o il lead dell&#39;account per ottenere l&#39;URL esatto specifico per il dominio client.
 
 ## Requisiti
 
@@ -34,13 +42,13 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 La risposta reindirizzerà il browser a [!DNL URL] quello specificato nel `d_rd` parametro. La stringa di risposta può includere valori generati da una delle macro supportate elencate di seguito.
 
-In base all'esempio precedente, il browser viene reindirizzato a quanto segue [!DNL URL]:
+In base all&#39;esempio precedente, il browser viene reindirizzato a quanto segue [!DNL URL]:
 
-[!DNL `https://adobe.com/callback?creative=123`]
+`https://adobe.com/callback?creative=123`
 
 ## Macro supportate
 
-Gli eventi Click supportano le macro elencate nella tabella seguente. Una macro è una piccola unità di codice standalone che si attiva quando il tag dell'annuncio viene caricato per la campagna e il tracciamento dell'utente. Le macro verranno trasmesse insieme alla destinazione [!DNL URL]purché siano contrassegnate con il seguente formato: `%macro%`. Alcune chiavi non dispongono di macro e accettano un valore ID hardcoded. Le chiavi che accettano valori hardcoded sono necessarie se desiderate analizzare i dati nei report [di ottimizzazione dell'](../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience.
+Gli eventi Click supportano le macro elencate nella tabella seguente. Una macro è una piccola unità di codice standalone che si attiva quando il tag dell&#39;annuncio viene caricato per la campagna e il tracciamento dell&#39;utente. Le macro verranno trasmesse insieme alla destinazione [!DNL URL]purché siano contrassegnate con il seguente formato: `%macro%`. Alcune chiavi non dispongono di macro e accettano un valore ID hardcoded. Le chiavi che accettano valori hardcoded sono necessarie se desiderate analizzare i dati nei report [di ottimizzazione dell&#39;](../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -85,7 +93,7 @@ Gli eventi Click supportano le macro elencate nella tabella seguente. Una macro 
    <td colname="col1"> <p> <code> d_dpuuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_dpuuid%</code> </p> </td> 
    <td colname="col2"> <p>ID utente univoco fornito dal provider di dati. </p> <p>Spesso utilizzato con <code> d_dpid</code> per collegare un ID utente a un ID fornitore di dati. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
@@ -155,11 +163,11 @@ d_rd%3Dhttp%253A%252F%252Fadobe.com%252Fcallback%253Fcreative%253D%2525d_creativ
 
 ## Risposta
 
-In base all'esempio precedente, il browser viene reindirizzato a quanto segue [!DNL URL]:
+In base all&#39;esempio precedente, il browser viene reindirizzato a quanto segue [!DNL URL]:
 
-[!DNL `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`]
+`https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
 >[!MORELIKETHIS]
 >
->* [File di dati e metadati per report di ottimizzazione dell'audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [File di dati e metadati per report di ottimizzazione dell&#39;audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
