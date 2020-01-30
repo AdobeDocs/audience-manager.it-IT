@@ -1,18 +1,18 @@
 ---
 description: Domande frequenti su come portare dati offline in Audience Manager.
-keywords: ftp o s3;s3 o ftp
+keywords: ftp or s3;s3 or ftp
 seo-description: Domande frequenti su come portare dati offline in Audience Manager.
 seo-title: Domande frequenti sull'inserimento dei dati dei clienti in entrata
 solution: Audience Manager
 title: Domande frequenti sull'inserimento dei dati dei clienti in entrata
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 22336b052af1c438136e4a6cfd6ad88393503f16
 
 ---
 
 
-# Domande frequenti sull'inserimento dei dati dei clienti in entrata{#inbound-customer-data-ingestion-faq}
+# Domande frequenti sull&#39;inserimento dei dati dei clienti in entrata{#inbound-customer-data-ingestion-faq}
 
 Domande frequenti su come portare dati offline in Audience Manager.
 
@@ -41,7 +41,7 @@ Di seguito è riportato un elenco di domande e risposte che potreste trovare uti
 
 >[!NOTE]
 >
->Gli esempi di questa sezione sono semplificati o abbreviati a scopo di brevità e dimostrazione. Per informazioni dettagliate sui formati dei file e sulla sintassi, consultare la documentazione relativa all'inserimento dei dati in entrata.
+>Gli esempi di questa sezione sono semplificati o abbreviati a scopo di brevità e dimostrazione. Per informazioni dettagliate sui formati dei file e sulla sintassi, consultare la documentazione relativa all&#39;inserimento dei dati in entrata.
 
 <br> 
 
@@ -51,7 +51,7 @@ Consigliamo quanto segue:
 
 * Collabora con il provider di dati per formattare il file di dati in entrata giornaliero in base alle [!DNL Adobe] specifiche.
 * Trasferire un file di dati di prova [!DNL Adobe] per la verifica del formato.
-* Consultate il vostro [!DNL Adobe] consulente per produrre una tassonomia adatta all'interpretazione del contenuto del file di dati.
+* Consultate il vostro [!DNL Adobe] consulente per produrre una tassonomia adatta all&#39;interpretazione del contenuto del file di dati.
 * Nell’ambiente di pre-produzione/sviluppo, verifica che la sincronizzazione ID sia configurata in modo da raccogliere correttamente l’ID visitatore del provider di dati e trasferirlo ai [!DNL Audience Manager] server in tempo reale.
 * Distribuisci la sincronizzazione DIL/ID in produzione. La sincronizzazione ID sarà già configurata come modulo all’interno del codice DIL dal tuo consulente Adobe.
 * Trasferisci i file di dati di produzione in [!DNL Audience Manager]. Considerate le dipendenze dalle mappature di sincronizzazione ID, potrebbe essere utile iniziare a trasferire i dati fino a una settimana dopo la distribuzione del codice di produzione, anche se è possibile iniziare a trasferire i file di dati non appena il codice va in produzione.
@@ -64,65 +64,73 @@ Consulta [Compressione file per i file](../integration/sending-audience-data/bat
 
 <br> 
 
-**Posso caricare un file di dati in entrata (file[!DNL .sync]o[!DNL .overwrite]) prima di distribuire il codice[!DNL Audience Manager]in produzione?**
+**Posso caricare un file di dati in entrata (file [!DNL .sync] o [!DNL .overwrite]) prima di distribuire il codice [!DNL Audience Manager] in produzione?**
 
-* Se il fornitore di dati è configurato per utilizzare Collegamento [](../features/profile-merge-rules/merge-rules-overview.md) profilo per il targeting tra dispositivi, i dati disponibili per il targeting poco dopo che una sincronizzazione ID si identifica con l’ID [!DNL Audience Manager] visitatore corrispondente.
+Sì. Finché utilizzi un&#39;origine dati multi-dispositivo per memorizzare i dati CRM caricati, Audience Manager memorizza sempre i dati. Infatti, in seguito ai miglioramenti apportati alle regole di unione dei profili che Audience Manager ha avviato a ottobre 2019 e che consentono l’utilizzo in modalità non in linea, potete caricare e intervenire sui dati senza distribuire il codice Audience Manager in produzione. Consulta:
 
-* Se il provider di dati non è configurato per utilizzare la [!UICONTROL Profile Link] funzione, [!DNL Audience Manager] elabora solo i dati per gli ID visitatore presenti nel file di dati in entrata che sono stati precedentemente sincronizzati/associati a un ID [!DNL Audience Manager] visitatore.
+* [Panoramica dei miglioramenti delle regole di unione dei profili](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* Destinazioni basate sulle persone - [Personalizzazione basata su dati solo offline](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
-Tenere in considerazione i seguenti casi di utilizzo in cui il provider di dati non è configurato per l'utilizzo [!UICONTROL Profile Merge]:
+<!---
+* If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
+
+* If the data provider is not configured to use the [!UICONTROL Profile Link] feature, [!DNL Audience Manager] processes only the data for visitor IDs in the inbound data file that have been previously synced/matched back to an [!DNL Audience Manager] visitor ID.
+
+Consider the following use cases in which the data provider is not configured to use [!UICONTROL Profile Merge]:
 
 <table id="table_1A367ED6D016428FB21B3F3BC261BA98"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Caso d'uso </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
+   <th colname="col1" class="entry"> Use Case </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Caso 1</b> </p> </td> 
-   <td colname="col2"> <p>Lunedì, un visitatore identificato nel database CRM come visitor ABC effettua l'accesso, che avvia una sincronizzazione ID lato client. <span class="keyword"> Audience Manager</span> memorizza la mappatura del visitatore ABC al visitatore <span class="keyword"> Audience Manager</span> 123. </p> <p>Martedì, il database CRM trasferisce un file di dati (<span class="filepath"> .sync</span>) al <span class="keyword"> server </span>Audience Manager con il seguente record: </p> <p> 
+   <td colname="col1"> <p><b>Case 1</b> </p> </td> 
+   <td colname="col2"> <p>On Monday, a visitor identified in the CRM database as visitor ABC logs in, which initiates a client-side ID sync. <span class="keyword"> Audience Manager</span> stores the mapping of visitor ABC to <span class="keyword"> Audience Manager</span> visitor 123. </p> <p>On Tuesday, the CRM database transfers a data file (<span class="filepath"> .sync</span>) to the <span class="keyword"> Audience Manager </span>server with the following record: </p> <p> 
      <ul class="simplelist"> 
       <li><code> ABC "gender"="male","luxury_shopper"="yes"</code> </li> 
-     </ul> </p> <p>In questo caso, <span class="keyword"> Audience Manager</span>: </p> <p> 
+     </ul> </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> <p> 
      <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
-      <li id="li_DC4F5E63D8134A29B703BDF264F02F65">Riconosce l’ABC del visitatore dalla mappatura della sincronizzazione ID memorizzata. </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> Associa le caratteristiche <code> male</code> e <code> luxury_shopper</code> con il profilo visitatore 123. </li> 
+      <li id="li_DC4F5E63D8134A29B703BDF264F02F65">Recognizes visitor ABC from the stored ID sync mapping. </li> 
+      <li id="li_62E085FC184D41C3863B1CE832F77946"> Associates the traits <code> male</code> and <code> luxury_shopper</code> with the visitor 123 profile. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Caso 2</b> </p> </td> 
-   <td colname="col2"> <p>Lunedì, il database CRM invia un file di dati (<span class="filepath"> .sync</span>) al server <span class="keyword"> Audience Manager</span> con il seguente record: </p> <p> 
+   <td colname="col1"> <p><b>Case 2</b> </p> </td> 
+   <td colname="col2"> <p>On Monday, the CRM database pushes a data file (<span class="filepath"> .sync</span>) to the <span class="keyword"> Audience Manager</span> server with the following record: </p> <p> 
      <ul class="simplelist"> 
       <li><code> DEF "gender"="female","wine_enthusiast"="yes"</code> </li> 
-     </ul> </p> <p> <span class="keyword"> Audience Manager</span> non dispone di un record di questo visitatore (o di un ID visitatore associato), pertanto questo record non viene elaborato. </p> <p>Martedì, il DEF visitatore accede. Questa azione avvia la prima sincronizzazione ID lato client per quel visitatore. Questa azione mappa DEF visitatore su ID <span class="keyword"> Audience Manager</span> 456. Tuttavia, a questo visitatore non sono associati dati CRM con il relativo profilo. Di conseguenza, <span class="keyword"> Audience Manager</span> non torna indietro e non rielabora i file precedenti. </p> <p>Mercoledì, il database CRM invia un altro file di dati al server <span class="keyword"> Audience Manager</span> con il seguente record: </p> <p> 
+     </ul> </p> <p> <span class="keyword"> Audience Manager</span> does not have a record of this visitor (or an associated visitor ID) so this record is not processed. </p> <p>On Tuesday, visitor DEF logs in. This action initiates the first client-side ID sync for that visitor. This action maps visitor DEF to <span class="keyword"> Audience Manager</span> ID 456. However, this visitor does not have CRM data associated with their profile. As a result, <span class="keyword"> Audience Manager</span> does not go back and reprocess old files. </p> <p>On Wednesday, the CRM database pushes another data file to the <span class="keyword"> Audience Manager</span> server with the following record: </p> <p> 
      <ul class="simplelist"> 
       <li><code> DEF "gender"="female","wine_enthusiast"="yes","dma"="paris"</code> </li> 
-     </ul> </p> <p>In questo caso, <span class="keyword"> Audience Manager</span>: </p> 
+     </ul> </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> 
     <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
-     <li id="li_64D64A16E99E492BAAE1080867F854A9">Riconosce il DEF visitatore dalla mappatura della sincronizzazione ID memorizzata. </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Associa le caratteristiche <code> female</code>, <code> paris</code>, e <code> wine_enthusiast</code> con il profilo visitatore 456. </li> 
+     <li id="li_64D64A16E99E492BAAE1080867F854A9">Recognizes visitor DEF from the stored ID sync mapping. </li> 
+     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Associates the traits <code> female</code>, <code> paris</code>, and <code> wine_enthusiast</code> with the visitor 456 profile. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Caso 3</b> </p> </td> 
-   <td colname="col2"> <p>Lunedì, il server <span class="keyword"> Audience Manager</span> riceve due file con i seguenti record: </p> <p> <code> .sync</code> file contenente: </p> <p> 
+   <td colname="col1"> <p><b>Case 3</b> </p> </td> 
+   <td colname="col2"> <p>On Monday, the <span class="keyword"> Audience Manager</span> server receives two files with the following records: </p> <p> <code> .sync</code> file containing: </p> <p> 
      <ul class="simplelist"> 
       <li><code> GHI 123456789</code> </li> 
-     </ul> </p> <p> <code> .overwrite</code> file contenente: </p> 
+     </ul> </p> <p> <code> .overwrite</code> file containing: </p> 
     <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
      <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthusiast"="no"</code> </li> 
      <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthusiast"="yes"</code> </li> 
-    </ul> <p><span class="keyword"> Audience Manager</span> contiene un record mappato di JKL visitatore a ID 789, da una sincronizzazione ID precedente. </p> <p>In questo caso, <span class="keyword"> Audience Manager</span>: </p> 
+    </ul> <p><span class="keyword"> Audience Manager</span> holds a mapped record of visitor JKL to ID 789, from a previous ID sync. </p> <p>In this case, <span class="keyword"> Audience Manager</span>: </p> 
     <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
-     <li id="li_6DABD380311D49738DAD98F5E6DE45B8">Riconosce il JKL del visitatore dalla mappatura della sincronizzazione ID memorizzata. </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Associa le caratteristiche <code> female</code> e <code> wine_enthusiast</code> il profilo dell’ID visitatore 789. </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignora l’associazione di caratteristiche per il GHI visitatore, poiché il relativo ID è stato sincronizzato solo nel batch corrente. Per associare caratteristiche con GHI visitatore, è necessario includerle in <code> .overwrite</code> file futuri. </li> 
+     <li id="li_6DABD380311D49738DAD98F5E6DE45B8">Recognizes visitor JKL from the stored ID sync mapping. </li> 
+     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Associates the traits <code> female</code> and <code> wine_enthusiast</code> with visitor ID 789's profile. </li> 
+     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignores the trait association for visitor GHI, since its ID was only synced in the current batch. To associate traits with visitor GHI, you need to include them in future <code> .overwrite</code> files. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 <br> 
 
@@ -134,7 +142,7 @@ Tenere in considerazione i seguenti casi di utilizzo in cui il provider di dati 
 
 **Quanto tempo ci vuole prima che i dati da un file caricato siano disponibili per il targeting?**
 
-I dati sono disponibili per il targeting dopo 48 ore. Inoltre, non interpretate l’e-mail di "caricamento riuscito" come un’istruzione che indica che i dati sono disponibili. Ciò significa solo che [!DNL Audience Manager] ha prelevato il file e completato il primo passaggio di elaborazione.
+I dati sono disponibili per il targeting dopo 48 ore. Inoltre, non interpretate l’e-mail di &quot;caricamento riuscito&quot; come un’istruzione che indica che i dati sono disponibili. Ciò significa solo che [!DNL Audience Manager] ha prelevato il file e completato il primo passaggio di elaborazione.
 
 <br> 
 
@@ -146,7 +154,7 @@ Come procedura ottimale, inviate un file incrementale una volta al giorno per i 
 
 **Per quanto tempo Audience Manager conserva i miei file sul server?**
 
-I file FTP vengono rimossi dopo l'elaborazione. [!DNL S3] i file vengono rimossi dopo 30 giorni. I file che non possono essere elaborati a causa di formato, sintassi o altri errori vengono rimossi. Vedi anche Domande frequenti sulla [privacy e sulla conservazione dei dati](../faq/faq-privacy.md).
+I file FTP vengono rimossi dopo l&#39;elaborazione. [!DNL S3] i file vengono rimossi dopo 30 giorni. I file che non possono essere elaborati a causa di formato, sintassi o altri errori vengono rimossi. Vedi anche Domande frequenti sulla [privacy e sulla conservazione dei dati](../faq/faq-privacy.md).
 
 <br> 
 
@@ -158,7 +166,7 @@ I file FTP vengono rimossi dopo l'elaborazione. [!DNL S3] i file vengono rimossi
    >
    >I [!DNL .overwrite] file sovrascrivono solo i dati [!DNL Audience Manager] del profilo associati a questo provider di dati. In altre parole, tutti [!DNL Adobe Analytics] i dati associati al visitatore rimangono intatti dopo l’elaborazione di un [!DNL .overwrite] file.
 
-* **** Incrementale: Un file incrementale aggiunge nuovi dati ai profili visitatore esistenti. I file incrementali sono identificati dal `.sync` tag aggiunto al nome del file. L'invio in un file incrementale non cancella o sovrascrive i profili esistenti.
+* **** Incrementale: Un file incrementale aggiunge nuovi dati ai profili visitatore esistenti. I file incrementali sono identificati dal `.sync` tag aggiunto al nome del file. L&#39;invio in un file incrementale non cancella o sovrascrive i profili esistenti.
 
 I seguenti casi di utilizzo dimostrano come questi tipi di file influiscono sui profili dei visitatori memorizzati.
 
@@ -199,11 +207,11 @@ Per ulteriori informazioni sui tipi di file completi e incrementali, vedi:
 
 **Cosa succede se invio un file con ID per i visitatori che non hanno mai eseguito la sincronizzazione ID sulla pagina?**
 
-Durante l'elaborazione, [!DNL Audience Manager] ignora semplicemente la registrazione e passa alla fase successiva. Se un DPID (ID provider dati) è configurato come DPID per più dispositivi, i dati acquisiti prima del salvataggio della sincronizzazione ID sono disponibili per l’uso poco dopo la sincronizzazione ID.
+Durante l&#39;elaborazione, [!DNL Audience Manager] ignora semplicemente la registrazione e passa alla fase successiva. Se un DPID (ID provider dati) è configurato come DPID per più dispositivi, i dati acquisiti prima del salvataggio della sincronizzazione ID sono disponibili per l’uso poco dopo la sincronizzazione ID.
 
 <br> 
 
-**Qual è l'indicazione di data e ora, a cosa serve e potete fornire un esempio?**
+**Qual è l&#39;indicazione di data e ora, a cosa serve e potete fornire un esempio?**
 
 I timestamp vengono utilizzati per la registrazione e la conservazione dei record. Sono richiesti dalla sintassi utilizzata per il nome di un file in entrata formattato correttamente. Consulta:
 
@@ -234,7 +242,7 @@ Sì, vedi:
 
 <br> 
 
-**La chiave primaria nel database dell'origine dati è un indirizzo e-mail. Sono considerate informazioni personali?**
+**La chiave primaria nel database dell&#39;origine dati è un indirizzo e-mail. Sono considerate informazioni personali?**
 
 Sì. [!DNL Audience Manager] non memorizza gli indirizzi e-mail nel nostro database. Prima di avviare la sincronizzazione ID, è necessario assegnare ai visitatori un ID casuale o una versione con hash unidirezionale dell’indirizzo e-mail.
 
@@ -246,15 +254,15 @@ Esistono due componenti di base di un file di dati: Un ID utente (vedere ID uten
 
 <br> 
 
-**Devo utilizzare l'FTP o[!DNL Amazon S3]per trasferire i file?**
+**Devo utilizzare l&#39;FTP o[!DNL Amazon S3]per trasferire i file?**
 
-Come procedura ottimale, consigliamo [!DNL Amazon S3] perché il processo è più semplice. [!DNL Audience Manager] trasferisce i file FTP a [!DNL S3] prescindere, in modo che il processo sia più semplice se rilasci i file da [!DNL Amazon S3] solo. Inoltre, i clienti che caricano simultaneamente su FTP condividono la larghezza di banda dell'FTP, quindi dovrebbero aspettarsi una velocità di caricamento più lenta. [!DNL Amazon S3] viene anche replicato e distribuito, quindi in genere è più sicuro e affidabile di un server FTP. Per ulteriori informazioni, consultate [Informazioni su Amazon S3](../reference/amazon-s3.md).
+Come procedura ottimale, consigliamo [!DNL Amazon S3] perché il processo è più semplice. [!DNL Audience Manager] trasferisce i file FTP a [!DNL S3] prescindere, in modo che il processo sia più semplice se rilasci i file da [!DNL Amazon S3] solo. Inoltre, i clienti che caricano simultaneamente su FTP condividono la larghezza di banda dell&#39;FTP, quindi dovrebbero aspettarsi una velocità di caricamento più lenta. [!DNL Amazon S3] viene anche replicato e distribuito, quindi in genere è più sicuro e affidabile di un server FTP. Per ulteriori informazioni, consultate [Informazioni su Amazon S3](../reference/amazon-s3.md).
 
 <br> 
 
 **In che modo Audience Manager elabora i file in entrata?**
 
-[!DNL Audience Manager] utilizza [!DNL Amazon Simple Queue Service (SQS)] per l'elaborazione dati in entrata. Come funziona:
+[!DNL Audience Manager] utilizza [!DNL Amazon Simple Queue Service (SQS)] per l&#39;elaborazione dati in entrata. Come funziona:
 
 1. [!DNL Audience Manager] i clienti caricano i dati in entrata in un [!DNL Amazon S3] bucket.
 
@@ -266,7 +274,7 @@ Come procedura ottimale, consigliamo [!DNL Amazon S3] perché il processo è pi�
 
 **È necessario caricare più file contemporaneamente. I file verranno elaborati contemporaneamente?**
 
-Dipende. [!DNL Audience Manager] legge fino a 119000 voci dalla [!DNL Amazon SQS] coda e le divide in fino a 3 batch. I file verranno elaborati simultaneamente solo se finiscono nello stesso batch. Tuttavia, a causa dell'elevata quantità di dati acquisiti [!DNL Audience Manager] su base giornaliera, non possiamo garantire alcun ordine di elaborazione dei file.
+Dipende. [!DNL Audience Manager] legge fino a 119000 voci dalla [!DNL Amazon SQS] coda e le divide in fino a 3 batch. I file verranno elaborati simultaneamente solo se finiscono nello stesso batch. Tuttavia, a causa dell&#39;elevata quantità di dati acquisiti [!DNL Audience Manager] su base giornaliera, non possiamo garantire alcun ordine di elaborazione dei file.
 
 >[!MORELIKETHIS]
 >
