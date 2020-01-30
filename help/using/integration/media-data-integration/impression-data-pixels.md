@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Acquisizione dei dati di impressione della campagna attraverso Pixel Calls (Chiamate pixel)
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
@@ -15,7 +15,11 @@ source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
 
 Un approccio per l’invio di dati multimediali ad Audience Manager utilizza macro di server ad per inviare attributi della campagna ad Audience Manager.
 
-Questa metodologia viene spesso definita come "pixeling the creative." Tali punti dati vengono inseriti dinamicamente nel codice [!DNL Audience Manager] in pixel dalle macro di terze parti e server, che vengono utilizzate per mappare e segnalare tutte le impression e i clic in base agli attributi di reporting chiave della campagna. I dati aggregati forniscono una visualizzazione unificata delle prestazioni della campagna, aiutano a identificare percorsi di conversione personalizzati e aiutano i clienti a migliorare la sequenza di eventi del server di annunci che portano alle conversioni.
+Questa metodologia viene spesso definita come &quot;pixeling the creative.&quot; Tali punti dati vengono inseriti dinamicamente nel codice [!DNL Audience Manager] in pixel dalle macro di terze parti e server, che vengono utilizzate per mappare e segnalare tutte le impression e i clic in base agli attributi di reporting chiave della campagna. I dati aggregati forniscono una visualizzazione unificata delle prestazioni della campagna, aiutano a identificare percorsi di conversione personalizzati e aiutano i clienti a migliorare la sequenza di eventi del server di annunci che portano alle conversioni.
+
+>[!IMPORTANT]
+>
+>Affinché Audience Manager interpreti correttamente i campi ricevuti nelle chiamate degli eventi ed esegua il rendering dei dati della campagna nei rapporti [di ottimizzazione](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)dell&#39;audience, dovete inviare file di metadati che mappino questi campi a valori leggibili dall&#39;uomo. Consulta [Panoramica e mappature per i file](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) di metadati e contatta il tuo consulente Audience Manager o l’assistenza clienti per configurare una directory Amazon S3 per i file di metadati.
 
 ## Sintassi chiamata evento
 
@@ -23,7 +27,7 @@ Questa metodologia viene spesso definita come "pixeling the creative." Tali punt
 >
 >Gli stili di testo (`monospaced text`, *corsivo*, parentesi `[ ]` `( )`, ecc.) indicano gli elementi del codice e le opzioni. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../reference/code-style-elements.md).
 
-La chiamata dell'evento raccoglie i dati sulle impression e di conversione e li invia ai [!DNL Audience Manager]server di raccolta dati[ di ](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). Questo processo si basa su server di annunci di terze parti che inseriscono la chiamata nella grafica per controllare quale contenuto viene inserito nel codice. I server di annunci di terze parti (ad esempio, [!DNL DFA]) possono inserire questo codice all'interno di ogni impression pubblicitaria. Inoltre, una ad call non utilizza [!DNL JavaScript] o impiega tecniche di suddivisione dei fotogrammi per accedere ai dati del publisher all'esterno dell'ad tag.
+La chiamata dell&#39;evento raccoglie i dati sulle impression e di conversione e li invia ai [!DNL Audience Manager]server di raccolta dati[ di ](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). Questo processo si basa su server di annunci di terze parti che inseriscono la chiamata nella grafica per controllare quale contenuto viene inserito nel codice. I server di annunci di terze parti (ad esempio, [!DNL DFA]) possono inserire questo codice all&#39;interno di ogni impression pubblicitaria. Inoltre, una ad call non utilizza [!DNL JavaScript] o impiega tecniche di suddivisione dei fotogrammi per accedere ai dati del publisher all&#39;esterno dell&#39;ad tag.
 
 Le chiamate evento sono composte da coppie chiave-valore che utilizzano la sintassi seguente:
 
@@ -31,11 +35,11 @@ Le chiamate evento sono composte da coppie chiave-valore che utilizzano la sinta
 http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
 ```
 
-Nella coppia chiave-valore, la variabile valore è un ID o una macro inserita dal server di annunci. Quando il tag dell'annuncio viene caricato, `%macro%` viene sostituito con i valori richiesti e corrispondenti. Questa chiamata non restituisce una risposta.
+Nella coppia chiave-valore, la variabile valore è un ID o una macro inserita dal server di annunci. Quando il tag dell&#39;annuncio viene caricato, `%macro%` viene sostituito con i valori richiesti e corrispondenti. Questa chiamata non restituisce una risposta.
 
 ## Coppie chiave-valore supportate {#supported-key-value-pairs}
 
-Le chiamate dell'evento Impression accettano i dati formati in coppie chiave-valore. Nella tabella seguente sono elencati e descritti i tasti utilizzati per contenere tali variabili. Molti di questi sono necessari se desiderate acquisire e analizzare i dati nei report [di ottimizzazione dell'](../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience.
+Le chiamate dell&#39;evento Impression accettano i dati formati in coppie chiave-valore. Nella tabella seguente sono elencati e descritti i tasti utilizzati per contenere tali variabili. Molti di questi sono necessari se desiderate acquisire e analizzare i dati nei report [di ottimizzazione dell&#39;](../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience.
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -51,7 +55,7 @@ Le chiamate dell'evento Impression accettano i dati formati in coppie chiave-val
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_adsrc </code> </td> 
-   <td colname="col2"> <p>ID origine dati o codice di integrazione per l'inserzionista. </p> <p>Obbligatorio per <span class="wintitle"> i report di ottimizzazione dell'audience </span> . </p> </td> 
+   <td colname="col2"> <p>ID origine dati o codice di integrazione per l'inserzionista. </p> <p>Obbligatorio per <span class="wintitle"> i report di ottimizzazione dell'audience </span> . </p> <p>Facoltativo.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_bu </code> </td> 
@@ -106,9 +110,9 @@ Le chiamate dell'evento Impression accettano i dati formati in coppie chiave-val
 
 >[!NOTE]
 >
->Contatta il consulente di Adobe Audience Manager o il lead dell'account per ottenere l'URL esatto specifico per il dominio client.
+>Contatta il consulente di Adobe Audience Manager o il lead dell&#39;account per ottenere l&#39;URL esatto specifico per il dominio client.
 
 >[!MORELIKETHIS]
 >
->* [File di dati e metadati per report di ottimizzazione dell'audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [File di dati e metadati per report di ottimizzazione dell&#39;audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
