@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Richieste sulla privacy dei dati
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: ff4bf70c9012f99289ea82824a552db97430fbf2
+source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ---
 
@@ -25,9 +25,9 @@ Prima di leggere questo articolo, consigliamo di consultare il Glossario [GDPR](
 Potete inviare singole richieste per accedere ed eliminare i dati dei consumatori da Audience Manager in due modi:
 
 * Tramite l’interfaccia utente del servizio [Privacy](https://gdprui.cloud.adobe.io/). Consulta la documentazione [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Attraverso il **[!DNL Privacy Service API]**. Consulta la documentazione [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) e il riferimento API [qui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* Attraverso il **[!DNL Privacy Service API]**. Consulta la documentazione[qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)e il riferimento API[qui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-Quando inviate singole richieste di privacy dei dati, potete inviare qualsiasi ID Audience Manager, come descritto nella sezione Identificatori **[di](data-privacy-ids.md)** Audience Manager, insieme ai rispettivi ID dello spazio nomi (ID origine dati).
+Quando inviate singole richieste di privacy dei dati, potete inviare qualsiasi ID Audience Manager, come descritto nella sezione Identificatori **[di](data-privacy-ids.md)**Audience Manager, insieme ai rispettivi ID dello spazio nomi (ID origine dati).
 
 Il servizio [](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) Privacy supporta due tipi di richieste: richieste di accesso ai dati e di eliminazione dei dati.
 
@@ -53,9 +53,9 @@ Adobe comprende il tuo impegno a rispettare le richieste dei clienti sulla priva
 
 In risposta alle richieste di eliminazione dei dati del consumatore, Audience Manager elimina le caratteristiche e i segmenti associati all’identificatore Audience Manager incluso nella richiesta. Inoltre, i rispettivi identificatori di Audience Manager per il singolo oggetto di rifiuto di ulteriore raccolta dati da parte di Audience Manager e le rispettive mappature ID verranno rimossi.
 
-Quando invii ID dichiarati, come [!DNL CRM] ID di dispositivi diversi o ID di cookie, nelle richieste di privacy dei dati, Audience Manager eseguirà l'eliminazione necessaria su tutti i dispositivi collegati (fino a 100 dispositivi per ID dichiarato).
+Quando invii ID dichiarati, come [!DNL CRM] ID di dispositivi diversi o ID di cookie, nelle richieste di privacy dei dati, Audience Manager eseguirà l&#39;eliminazione necessaria su tutti i dispositivi collegati (fino a 100 dispositivi per ID dichiarato).
 
-Audience Manager tenterà di notificare ai partner di attivazione le richieste di eliminazione inviando loro informazioni di non segmentazione per gli oggetti dati che richiedono l'eliminazione di alcuni dati. Tuttavia, alcuni partner per l'attivazione:
+Audience Manager tenterà di notificare ai partner di attivazione le richieste di eliminazione inviando loro informazioni di non segmentazione per gli oggetti dati che richiedono l&#39;eliminazione di alcuni dati. Tuttavia, alcuni partner per l&#39;attivazione:
 
 1. Impossibile supportare richieste non segmentate (o rimuovere segmenti) da Audience Manager e/o
 2. Non sono in grado di ricevere aggiornamenti da Audience Manager con una frequenza inferiore a 30 giorni. In questi casi, i clienti di Audience Manager non possono inviare le richieste di eliminazione ai partner di attivazione in modo automatico tramite Audience Manager.
@@ -68,7 +68,7 @@ Scarica il nostro foglio [Excel per](assets/AAM-Partners-October2019.xlsx) partn
 
 Audience Manager supporta gli standard di settore per la gestione delle rinunce. Continua a leggere per informazioni complete sui tipi di rinuncia supportati da Audience Manager.
 
-Mentre le richieste di accesso ed eliminazione dei dati vengono gestite tramite il servizio [](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)Privacy, le richieste di rifiuto sono attualmente supportate tramite l'API DCS. Continua a leggere per capire come dovrebbero essere le chiamate API per la rinuncia.
+Mentre le richieste di accesso ed eliminazione dei dati vengono gestite tramite il servizio [](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html)Privacy, le richieste di rifiuto sono attualmente supportate tramite l&#39;API DCS. Continua a leggere per capire come dovrebbero essere le chiamate API per la rinuncia.
 
 ### Richieste di rifiuto globali
 
@@ -108,7 +108,7 @@ Gli utenti finali possono anche scegliere di non partecipare alla raccolta dati 
 
 In base alle richieste di rifiuto descritte sopra:
 
-* Audience Manager cesserà tutte le attività di raccolta, segmentazione o attivazione dei dati, purché l'utente non cancelli i cookie del browser.
+* Audience Manager cesserà tutte le attività di raccolta, segmentazione o attivazione dei dati, purché l&#39;utente non cancelli i cookie del browser.
 * I dati storici vengono rimossi dal profilo utente dopo 120 giorni.
 
 ### Rinuncia a livello di partner con chiamate ID dichiarate
@@ -117,11 +117,11 @@ La rinuncia a livello di partner consente di rifiutare la raccolta di dati da pa
 
 A seguito di una rinuncia a livello di partner con una chiamata ID dichiarata:
 
-* L'ID [](../../reference/ids-in-aam.md) CRM è escluso dalla raccolta dei dati;
-* L'ultimo ID dispositivo (ID[utente univoco di](../../reference/ids-in-aam.md)Audience Manager) collegato all'ID [](../../reference/ids-in-aam.md) CRM viene escluso dalla raccolta dati.
-* Audience Manager cesserà tutte le attività di raccolta, segmentazione o attivazione dei dati in corso per l'ID CRM e l'ultimo ID dispositivo collegato all'ID CRM;
+* L&#39;ID [](../../reference/ids-in-aam.md) CRM è escluso dalla raccolta dei dati;
+* L&#39;ultimo ID dispositivo (ID[utente univoco di](../../reference/ids-in-aam.md)Audience Manager) collegato all&#39;ID [](../../reference/ids-in-aam.md) CRM viene escluso dalla raccolta dati.
+* Audience Manager cesserà tutte le attività di raccolta, segmentazione o attivazione dei dati in corso per l&#39;ID CRM e l&#39;ultimo ID dispositivo collegato all&#39;ID CRM;
 * Audience Manager analizza l’ID CRM e l’ultimo ID dispositivo a cui è stata optata per la rinuncia da tutti i segmenti;
-* I partner di destinazione ricevono la richiesta di segmento per l'ID CRM e l'ultimo ID dispositivo. La segmentazione funziona sia per le destinazioni in tempo [](data-privacy-requests.md#aam-partners-with-unsegmentation) reale che per quelle batch.
+* I partner di destinazione ricevono la richiesta di segmento per l&#39;ID CRM e l&#39;ultimo ID dispositivo. La segmentazione funziona sia per le destinazioni in tempo [](data-privacy-requests.md#aam-partners-with-unsegmentation) reale che per quelle batch.
 * Nessun dato storico viene eliminato.
 
 Quando Audience Manager riceve una richiesta di rifiuto a livello di partner, il JSON restituito dal DCS contiene il codice di [errore 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), con il messaggio [!UICONTROL "Encountered opt out tag"], invece dell’ID utente di Audience Manager.
@@ -142,7 +142,7 @@ Per una descrizione e una sintassi, consultate Variabili [URL e sintassi per ID]
 
 ### Rinuncia a livello di partner con chiamate ID dispositivo
 
-La rinuncia a livello di partner consente di rifiutare la raccolta di dati da parte di partner Audience Manager specifici. Puoi rifiutare la raccolta di dati su un determinato ID dispositivo per un marchio effettuando le seguenti chiamate all'API [](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)DCS:
+La rinuncia a livello di partner consente di rifiutare la raccolta di dati da parte di partner Audience Manager specifici. Puoi rifiutare la raccolta di dati su un determinato ID dispositivo per un marchio effettuando le seguenti chiamate all&#39;API [](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)DCS:
 
 | Rifiuto tramite | Esempio di codice |
 |--- |--- |
@@ -153,27 +153,27 @@ Ulteriori informazioni `uuid`e informazioni `mid` e `imsOrgId` informazioni sull
 
 In seguito a una rinuncia a livello di partner con una chiamata ID dispositivo:
 
-* L'ID dispositivo viene escluso dalla raccolta dati.
-* Audience Manager cesserà tutte le attività di raccolta, segmentazione o attivazione dei dati per il partner, andando avanti per l'ID dispositivo.
-* Audience Manager svincola l'ID dispositivo da tutti i segmenti;
-* I partner di destinazione ricevono la richiesta di segmento per l'ID dispositivo. La segmentazione funziona sia per le destinazioni in tempo [](data-privacy-requests.md#aam-partners-with-unsegmentation) reale che per quelle batch.
+* L&#39;ID dispositivo viene escluso dalla raccolta dati.
+* Audience Manager cesserà tutte le attività di raccolta, segmentazione o attivazione dei dati per il partner, andando avanti per l&#39;ID dispositivo.
+* Audience Manager svincola l&#39;ID dispositivo da tutti i segmenti;
+* I partner di destinazione ricevono la richiesta di segmento per l&#39;ID dispositivo. La segmentazione funziona sia per le destinazioni in tempo [](data-privacy-requests.md#aam-partners-with-unsegmentation) reale che per quelle batch.
 * Nessun dato storico viene eliminato.
 
 ## Partner Audience Manager Con Funzionalità Di Separazione {#aam-partners-with-unsegmentation}
 
-Per facilitare l'automazione delle richieste di privacy dei dati dei consumatori, Audience Manager tenterà di inviare ai partner di attivazione notifiche sulle richieste di eliminazione da oggetti dati inviando loro informazioni non segmentate (o rimuovendo segmenti).
+Per facilitare l&#39;automazione delle richieste di privacy dei dati dei consumatori, Audience Manager tenterà di inviare ai partner di attivazione notifiche sulle richieste di eliminazione da oggetti dati inviando loro informazioni non segmentate (o rimuovendo segmenti).
 
-Tuttavia, alcuni dei nostri partner per l'attivazione:
+Tuttavia, alcuni dei nostri partner per l&#39;attivazione:
 
 1. Impossibile supportare richieste non segmentate da Audience Manager e/o
 2. Non sono in grado di ricevere gli aggiornamenti da Audience Manager più spesso di una volta in 30 giorni.
 
 In questi casi, non è possibile inviare le richieste di eliminazione ai partner di attivazione in modo automatico tramite Audience Manager.
 
-Scarica il nostro foglio [Excel per](assets/AAM-Partners-December2019.xlsx) partner per vedere quali partner di attivazione di Audience Manager supportano il segmento.
+Consulta l’ [elenco delle destinazioni](/help/using/features/destinations/device-based-destinations-list.md) basate su dispositivo per vedere quali partner di attivazione di Audience Manager supportano il segmento.
 
 ## Richieste di correzione dati {#correction}
 
 Poiché Audience Manager non è l’origine dei dati, in Audience Manager esiste un ruolo limitato per la correzione dei dati. La correzione potrebbe significare che il consumatore ha chiesto di essere squalificato da una caratteristica/segmento non corretta o qualificato per la caratteristica/segmento desiderata.
 
-I clienti di Audience Manager possono scegliere di catturare i segnali/tratti/segmenti pertinenti in base ai profili utente e inviare tali informazioni tramite l’inserimento [di dati](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) offline ad Audience Manager. L'utente continuerà a essere qualificato per la caratteristica e i segmenti originali se ripeterà il proprio comportamento.
+I clienti di Audience Manager possono scegliere di catturare i segnali/tratti/segmenti pertinenti in base ai profili utente e inviare tali informazioni tramite l’inserimento [di dati](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) offline ad Audience Manager. L&#39;utente continuerà a essere qualificato per la caratteristica e i segmenti originali se ripeterà il proprio comportamento.
