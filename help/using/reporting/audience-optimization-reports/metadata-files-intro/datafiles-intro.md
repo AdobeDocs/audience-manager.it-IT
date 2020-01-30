@@ -6,18 +6,18 @@ solution: Audience Manager
 title: File di dati per report di ottimizzazione dell'audience e file di registro fruibili
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 translation-type: tm+mt
-source-git-commit: 342a511b414ac682d8eb3c6547d725431d8828d6
+source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 
 ---
 
 
-# File di dati per report di ottimizzazione dell'audience e file di registro fruibili {#data-files-for-audience-optimization-reports}
+# File di dati per report di ottimizzazione dell&#39;audience e file di registro fruibili {#data-files-for-audience-optimization-reports}
 
-Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager per visualizzarli nei report [di ottimizzazione dell'](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) audience e creare caratteristiche utilizzando i dati tramite i file [di registro](/help/using/integration/media-data-integration/actionable-log-files.md)fruibili. Formattare i file di dati in base alle seguenti specifiche in questa sezione.
+Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager per visualizzarli nei report [di ottimizzazione dell&#39;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) audience e creare caratteristiche utilizzando i dati tramite i file [di registro](/help/using/integration/media-data-integration/actionable-log-files.md)fruibili. Formattare i file di dati in base alle seguenti specifiche in questa sezione.
 
 ## Panoramica {#overview}
 
-Un file di dati con nome e formattazione corretti consente di importare dati di impression, clic o conversione nei report [di ottimizzazione dell'](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience. Questa funzione è utile quando si lavora con un partner non integrato [!DNL Audience Manager] e si desidera lavorare con i propri dati in quella suite di rapporti. Questo processo richiede file separati per ottenere dati di impression, clic e conversione. Non mescolate questi eventi in un singolo file.
+Un file di dati con nome e formattazione corretti consente di importare dati di impression, clic o conversione nei report [di ottimizzazione dell&#39;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience. Questa funzione è utile quando si lavora con un partner non integrato [!DNL Audience Manager] e si desidera lavorare con i propri dati in quella suite di rapporti. Questo processo richiede file separati per ottenere dati di impression, clic e conversione. Non mescolate questi eventi in un singolo file.
 
 Un file di dati deve essere accompagnato da un file di metadati. I contenuti dei file di metadati corrispondono alle informazioni sui file di dati e alle relative etichette leggibili dai menu dei report. Per ulteriori informazioni, consultate [Panoramica e mappature per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)di metadati.
 
@@ -33,7 +33,7 @@ In un nome file:
 * Un carattere di sottolineatura separa il tipo di evento e la marca temporale di un mese.
 * Prima di caricare i file, comprimeteli utilizzando il file gzip e salvateli con l’estensione del `.gz` file.
 
-Dati questi requisiti, assegnare un nome ai file di dati in base al contenuto come segue:
+Dati questi requisiti, assegnare ai file di dati un nome in base al contenuto come indicato di seguito:
 
 * Dati di impressione: <pre>impression_<i>yymmdd</i>.gz</code></pre>
 * Fare clic su dati: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
@@ -41,17 +41,17 @@ Dati questi requisiti, assegnare un nome ai file di dati in base al contenuto co
 
 ## Formato contenuto per i file di dati {#content-format}
 
-La sintassi seguente definisce la struttura del contenuto in un file di dati formato correttamente. Nota: il *corsivo* indica un segnaposto variabile e viene sostituito con un'etichetta in un file di dati effettivo.
+La sintassi seguente definisce la struttura del contenuto in un file di dati formato correttamente. Nota: il *corsivo* indica un segnaposto variabile e viene sostituito con un&#39;etichetta in un file di dati effettivo.
 
 **Sintassi:** <pre><i>etichetta di intestazione 1</i> | Etichetta <i>intestazione 2</i> ... Etichetta <i>intestazione n</i> | <i>versione</i></code></pre>
 
 Nel contenuto del file:
 
-* Le etichette di intestazione devono essere visualizzate nell'ordine indicato nella tabella seguente. Le impression e i clic utilizzano le stesse etichette. I file di conversione contengono intestazioni aggiuntive.
+* Le etichette di intestazione devono essere visualizzate nell&#39;ordine indicato nella tabella seguente. Le impression e i clic utilizzano le stesse etichette. I file di conversione contengono intestazioni aggiuntive.
 * Se non si dispone di dati per una particolare colonna, compilare il campo con un `-1`.
 
 * I file *devono* terminare con un numero di versione. La versione corrente è 1.1.
-* Intestazioni e contenuti del file separati con il carattere ASCII 001 non stampabile. Se non è possibile utilizzare ASCII 001, separare le intestazioni e i dati con un delimitatore di tabulazione. Poiché si tratta di caratteri non stampabili, l'esempio di sintassi riportato sopra mostra una barra verticale solo `"|"` a scopo di visualizzazione.
+* Intestazioni e contenuti del file separati con il carattere ASCII 001 non stampabile. Se non è possibile utilizzare ASCII 001, separare le intestazioni e i dati con un delimitatore di tabulazione. Poiché si tratta di caratteri non stampabili, l&#39;esempio di sintassi riportato sopra mostra una barra verticale solo `"|"` a scopo di visualizzazione.
 
 **Etichette campo**
 
@@ -141,9 +141,13 @@ La tabella seguente elenca e descrive le intestazioni delle colonne per il file 
 
 Caricate i file di dati di impression, clic o conversione in una directory Amazon S3 per il vostro [!DNL Audience Manager] account. Fare riferimento a questa sezione per informazioni sui percorsi di consegna/directory, sui tempi di elaborazione dei file e sugli aggiornamenti.
 
+>[!IMPORTANT]
+>
+> Contatta il tuo consulente Audience Manager o l’Assistenza clienti per iniziare e configurare una [!DNL Amazon S3] directory per i file di dati.
+
 **Sintassi percorso di consegna ed esempi**
 
-I dati vengono memorizzati in uno spazio dei nomi separato per ciascun cliente in una directory Amazon S3. Il percorso del file segue la sintassi indicata di seguito. Note, *italics* indicates a variable placeholder. Altri elementi sono costanti o chiavi e non vengono modificati.
+I dati vengono memorizzati in uno spazio dei nomi separato per ciascun cliente in una [!DNL Amazon S3] directory. Il percorso del file segue la sintassi indicata di seguito. Note, *italics* indicates a variable placeholder. Altri elementi sono costanti o chiavi e non vengono modificati.
 
 **Sintassi:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
@@ -163,7 +167,7 @@ La tabella seguente definisce ciascuno di questi elementi in un percorso di cons
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Questa coppia chiave-valore che contiene l'ID cliente <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>Questa coppia chiave-valore contiene l'ID cliente <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
@@ -190,7 +194,7 @@ Quando caricate un file, il percorso sarà simile al seguente:
 
 I file di dati vengono elaborati quattro volte al giorno, a intervalli regolari.
 
-Per aggiornare i dati, invia un file contenente tutte le impression, i clic o le conversioni per un giorno particolare. In questo caso, un giorno è il periodo di 24 ore compreso tra una mezzanotte e l’altra. È consigliabile utilizzare l'ora UTC per definire l'intervallo di giorni.
+Per aggiornare i dati, invia un file contenente tutte le impression, i clic o le conversioni per un giorno particolare. In questo caso, un giorno è il periodo di 24 ore compreso tra una mezzanotte e l’altra. È consigliabile utilizzare l&#39;ora UTC per definire l&#39;intervallo di giorni.
 
 ## Passaggi successivi {#next-steps}
 
