@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Domande frequenti sull'inserimento dei dati dei clienti in entrata
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: f2f3e40e7866c7610de520952f5dfd65823554f3
+source-git-commit: 6b9afa7c53f5bc2738f185440160f62a87e0bda1
 
 ---
 
@@ -66,63 +66,10 @@ Consulta [Compressione file per i file](../integration/sending-audience-data/bat
 
 **Posso caricare un file di dati in entrata (file [!DNL .sync] o [!DNL .overwrite]) prima di distribuire il codice [!DNL Audience Manager] in produzione?**
 
-* Se il fornitore di dati è configurato per utilizzare Collegamento [](../features/profile-merge-rules/merge-rules-overview.md) profilo per il targeting tra dispositivi, i dati disponibili per il targeting poco dopo che una sincronizzazione ID si identifica con l’ID [!DNL Audience Manager] visitatore corrispondente.
+Sì. Finché utilizzi un&#39;origine dati multi-dispositivo per memorizzare i dati CRM caricati, Audience Manager memorizza sempre i dati. Infatti, in seguito ai miglioramenti apportati alle regole di unione dei profili che Audience Manager ha avviato a ottobre 2019 e che consentono l’utilizzo in modalità non in linea, potete caricare e intervenire sui dati senza distribuire il codice Audience Manager in produzione. Consulta:
 
-* Se il provider di dati non è configurato per utilizzare la [!UICONTROL Profile Link] funzione, [!DNL Audience Manager] elabora solo i dati per gli ID visitatore presenti nel file di dati in entrata che sono stati precedentemente sincronizzati/associati a un ID [!DNL Audience Manager] visitatore.
-
-Tenere in considerazione i seguenti casi di utilizzo in cui il provider di dati non è configurato per l&#39;utilizzo [!UICONTROL Profile Merge]:
-
-<table id="table_1A367ED6D016428FB21B3F3BC261BA98"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Caso d'uso </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Caso 1</b> </p> </td> 
-   <td colname="col2"> <p>Lunedì, un visitatore identificato nel database CRM come visitor ABC effettua l'accesso, che avvia una sincronizzazione ID lato client. <span class="keyword"> Audience Manager</span> memorizza la mappatura del visitatore ABC al visitatore <span class="keyword"> Audience Manager</span> 123. </p> <p>Martedì, il database CRM trasferisce un file di dati (<span class="filepath"> .sync</span>) al <span class="keyword"> server </span>Audience Manager con il seguente record: </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> ABC "gender"="male","luxury_shopper"="yes"</code> </li> 
-     </ul> </p> <p>In questo caso, <span class="keyword"> Audience Manager</span>: </p> <p> 
-     <ul id="ul_7616432BF9874E7D94F3101C71F73C81"> 
-      <li id="li_DC4F5E63D8134A29B703BDF264F02F65">Riconosce l’ABC del visitatore dalla mappatura della sincronizzazione ID memorizzata. </li> 
-      <li id="li_62E085FC184D41C3863B1CE832F77946"> Associa le caratteristiche <code> male</code> e <code> luxury_shopper</code> con il profilo visitatore 123. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Caso 2</b> </p> </td> 
-   <td colname="col2"> <p>Lunedì, il database CRM invia un file di dati (<span class="filepath"> .sync</span>) al server <span class="keyword"> Audience Manager</span> con il seguente record: </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> DEF "gender"="female","wine_enthusiast"="yes"</code> </li> 
-     </ul> </p> <p> <span class="keyword"> Audience Manager</span> non dispone di un record di questo visitatore (o di un ID visitatore associato), pertanto questo record non viene elaborato. </p> <p>Martedì, il DEF visitatore accede. Questa azione avvia la prima sincronizzazione ID lato client per quel visitatore. Questa azione mappa DEF visitatore su ID <span class="keyword"> Audience Manager</span> 456. Tuttavia, a questo visitatore non sono associati dati CRM con il relativo profilo. Di conseguenza, <span class="keyword"> Audience Manager</span> non torna indietro e non rielabora i file precedenti. </p> <p>Mercoledì, il database CRM invia un altro file di dati al server <span class="keyword"> Audience Manager</span> con il seguente record: </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> DEF "gender"="female","wine_enthusiast"="yes","dma"="paris"</code> </li> 
-     </ul> </p> <p>In questo caso, <span class="keyword"> Audience Manager</span>: </p> 
-    <ul id="ul_E853DA091D9042DAB19774383841D3A3"> 
-     <li id="li_64D64A16E99E492BAAE1080867F854A9">Riconosce il DEF visitatore dalla mappatura della sincronizzazione ID memorizzata. </li> 
-     <li id="li_9CEE7A7B1A954FF6AEEBF8844074CFBB">Associa le caratteristiche <code> female</code>, <code> paris</code>, e <code> wine_enthusiast</code> con il profilo visitatore 456. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Caso 3</b> </p> </td> 
-   <td colname="col2"> <p>Lunedì, il server <span class="keyword"> Audience Manager</span> riceve due file con i seguenti record: </p> <p> <code> .sync</code> file contenente: </p> <p> 
-     <ul class="simplelist"> 
-      <li><code> GHI 123456789</code> </li> 
-     </ul> </p> <p> <code> .overwrite</code> file contenente: </p> 
-    <ul id="ul_084AE448C60447ACA9B1E0C30EAA3E3E"> 
-     <li id="li_C68B7BBFE7CA4D22B606D939E32FF4FB"><code> GHI "gender"="male" "wine_enthusiast"="no"</code> </li> 
-     <li id="li_FDBCAAFBD606477E8690EA80AD455A81"><code> JKL "gender"="female" "wine_enthusiast"="yes"</code> </li> 
-    </ul> <p><span class="keyword"> Audience Manager</span> contiene un record mappato di JKL visitatore a ID 789, da una sincronizzazione ID precedente. </p> <p>In questo caso, <span class="keyword"> Audience Manager</span>: </p> 
-    <ul id="ul_4D083CEA7F1B4F6BBBBB841C21293751"> 
-     <li id="li_6DABD380311D49738DAD98F5E6DE45B8">Riconosce il JKL del visitatore dalla mappatura della sincronizzazione ID memorizzata. </li> 
-     <li id="li_CCEF77240E5C4A03AAE347440D73F0BB">Associa le caratteristiche <code> female</code> e <code> wine_enthusiast</code> il profilo dell’ID visitatore 789. </li> 
-     <li id="li_273F8FD7C6214488A26AAFFA6DE043E5">Ignora l’associazione di caratteristiche per il GHI visitatore, poiché il relativo ID è stato sincronizzato solo nel batch corrente. Per associare caratteristiche con GHI visitatore, è necessario includerle in <code> .overwrite</code> file futuri. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [Panoramica dei miglioramenti delle regole di unione dei profili](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* Destinazioni basate sulle persone - [Personalizzazione basata su dati solo offline](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -186,8 +133,6 @@ Consider the following use cases in which the data provider is not configured to
 </table>
 
 -->
-
-<br> 
 
 **A che ora devo trasferire il file?**
 
