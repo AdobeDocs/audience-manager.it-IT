@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Acquisizione dei dati di impressione della campagna attraverso Pixel Calls (Chiamate pixel)
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
 
 ---
 
@@ -16,10 +16,6 @@ source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
 Un approccio per l’invio di dati multimediali ad Audience Manager utilizza macro di server ad per inviare attributi della campagna ad Audience Manager.
 
 Questa metodologia viene spesso definita come &quot;pixeling the creative.&quot; Tali punti dati vengono inseriti dinamicamente nel codice [!DNL Audience Manager] in pixel dalle macro di terze parti e server, che vengono utilizzate per mappare e segnalare tutte le impression e i clic in base agli attributi di reporting chiave della campagna. I dati aggregati forniscono una visualizzazione unificata delle prestazioni della campagna, aiutano a identificare percorsi di conversione personalizzati e aiutano i clienti a migliorare la sequenza di eventi del server di annunci che portano alle conversioni.
-
->[!IMPORTANT]
->
->Affinché Audience Manager interpreti correttamente i campi ricevuti nelle chiamate degli eventi ed esegua il rendering dei dati della campagna nei rapporti [di ottimizzazione](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)dell&#39;audience, dovete inviare file di metadati che mappino questi campi a valori leggibili dall&#39;uomo. Consulta [Panoramica e mappature per i file](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) di metadati e contatta il tuo consulente Audience Manager o l’assistenza clienti per configurare una directory Amazon S3 per i file di metadati.
 
 ## Sintassi chiamata evento
 
@@ -111,6 +107,10 @@ Le chiamate dell&#39;evento Impression accettano i dati formati in coppie chiave
 >[!NOTE]
 >
 >Contatta il consulente di Adobe Audience Manager o il lead dell&#39;account per ottenere l&#39;URL esatto specifico per il dominio client.
+
+## Funzionalità aggiuntive - Report di ottimizzazione dell&#39;audience
+
+Potete utilizzare chiamate in pixel per alimentare i report di ottimizzazione dell&#39; [audience](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultate [Panoramica e mappature per i file](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) di metadati per usare i pixel per alimentare i rapporti.
 
 >[!MORELIKETHIS]
 >
