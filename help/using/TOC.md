@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
+source-git-commit: 3cda1eb649ee8ae0c522682503fa591e7bff9e35
 
 ---
 
@@ -373,7 +373,6 @@ source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
    + [Domande frequenti sulle API](faq/faq-api.md)
    + [Domande frequenti su Audience Lab](faq/faq-audience-lab.md)
    + [Domande frequenti sui feed di dati cliente](faq/faq-cdf.md)
-   + [Assistenza clienti - Problemi segnalati più di frequente](/help/using/faq/faq-top-customer-care-issues.md)
    + [Domande frequenti sulla raccolta dei dati e l&#39;integrazione dei prodotti](faq/faq-data-collection.md)
    + [Domande frequenti sull&#39;inserimento dei dati dei clienti in entrata](faq/faq-inbound-data-ingestion.md)
    + [Domande frequenti sulla privacy e sulla conservazione dei dati](faq/faq-privacy.md)
@@ -386,11 +385,6 @@ source-git-commit: 17c994d9bb818b72f23e336f9433495c2bcdbbb5
    + [Panoramica](/help/using/help-legal/help-legal-overview.md)
    + [Se c&#39;è un problema](/help/using/help-legal/help-problem.md)
    + [Contatti e informazioni legali](/help/using/help-legal/help-legal-contact.md)
-+ Principali problemi di assistenza clienti{#top-support-issues}
-   + [Panoramica](/help/using/support-issues/support-issues-overview.md)
-   + [Perché la mia popolazione di tratti caricati su un tablet è scesa a 0 intorno al 15 ottobre? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
-   + [Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina Rapporti sovrapposizione?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
-   + [Perché i nostri utenti di sola lettura possono creare, modificare o eliminare tratti e segmenti?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
 + Aggiornamenti alla documentazione{#documentation-updates}
    + [Aggiornamenti alla documentazione del 2020](docs-updates/docs-2020.md)
    + [Aggiornamenti alla documentazione del 2019](docs-updates/docs-2019.md)
