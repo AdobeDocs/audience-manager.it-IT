@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipi di dati raccolti
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: 9cbfb90ec4293bf44b1915c3c1c9698e0326136f
+source-git-commit: f44b765836bf744f566ae51bdf3eaa1b87d8a90c
 
 ---
 
@@ -39,8 +39,14 @@ L&#39;esempio seguente illustra come è possibile acquisire gli elementi di dati
 
 ![shopping-cart-data](assets/shopping-cart-data.png)
 
-|Articolo|Descrizione||—|—||1|**Genere**. Il nome di un cliente indica in genere il suo genere. Nel nostro esempio, il nome dell&#39;acquirente è Mary, quindi sappiamo che l&#39;acquirente è una donna. I nomi non vengono mai memorizzati da Audience Manager. ||2|**Interessi**. Gli articoli nel carrello possono indicare diversi interessi. Nel nostro esempio, Mary spende molto sull&#39;attrezzatura fitness. ||3|Tipo ****abitazione. In base agli indirizzi di spedizione e/o fatturazione, è possibile determinare se Mary compra attrezzature fitness per se stessa o per una società.|
-|4|**Location**. I codici ZIP sono più affidabili rispetto agli indirizzi IP quando si tratta di identificare una posizione. ||5|**Affinità** di promozione. Se un acquirente utilizza codici promozionali o carte regalo, probabilmente sono un cacciatore di occasioni alla ricerca delle migliori offerte. ||6|**Potenza** di spesa. I dati di prezzo relativi ai codici ZIP+4 indicano la potenza di spesa di una determinata posizione.|
+| Elemento | Descrizione |
+|---|---|
+| 1 | **Genere**. Il nome di un cliente indica in genere il suo genere. Nel nostro esempio, il nome dell&#39;acquirente è Mary, quindi sappiamo che l&#39;acquirente è una donna. I nomi non vengono mai memorizzati da Audience Manager. |
+| 2 | **Interessi**. Gli articoli nel carrello possono indicare diversi interessi. Nel nostro esempio, Mary spende molto sull&#39;attrezzatura fitness. |
+| 3 | **Tipo** di alloggiamento. In base agli indirizzi di spedizione e/o fatturazione, è possibile determinare se Mary compra attrezzature fitness per se stessa o per una società. |
+| 4 | **Posizione**. I codici ZIP sono più affidabili rispetto agli indirizzi IP quando si tratta di identificare una posizione. |
+| 5 | **Affinità** di promozione. Se un acquirente utilizza codici promozionali o carte regalo, probabilmente sono un cacciatore di occasioni alla ricerca delle migliori offerte. |
+| 6 | **Potenza** di spesa. I dati di prezzo relativi ai codici ZIP+4 indicano la potenza di spesa di una determinata posizione. |
 
 Una volta raccolti i dati non elaborati, questi vengono mappati sulle caratteristiche definite dal cliente all&#39;interno della piattaforma Audience Manager. Sia la tassonomia che le mappature dei dati possono essere regolate in qualsiasi momento senza apportare modifiche al codice di raccolta dei dati.
 
