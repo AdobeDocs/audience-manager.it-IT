@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Tipi di dati raccolti
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 translation-type: tm+mt
-source-git-commit: cee17904aa5ece54d1df7ad482505515846349b5
+source-git-commit: f37f5c3747357205fa35bff6bb2322b8b909cb3c
 
 ---
 
@@ -62,7 +62,7 @@ c_2nd_party_data.xml
 
 In uno scenario con dati di seconda parte, gli inserzionisti inviano le proprie risorse dati agli editori in modo che possano combinarle con i dati dell&#39;editore ed eseguire un programma pubblicitario più mirato. Inoltre, gli editori possono ampliare il proprio pool di destinatari collaborando con gli inserzionisti. Nella maggior parte dei casi, questi accordi comportano relazioni contrattuali limitate a inserire il tag contenitore Audience Manager sul sito partner per facilitare la raccolta e la condivisione dei dati.
 
-Un esempio di raccolta e remarketing di dati di seconda parte potrebbe includere una vendita al dettaglio di abbigliamento che raccoglie dati sui suoi prodotti e quindi condivide queste informazioni con i partner chiave. In questo caso, il messaggio di vendita al dettaglio potrebbe servire diversi annunci in un sito partner Audience Manager per i consumatori che scelgono diversi colori e dimensioni della giacca.
+Un esempio di raccolta e remarketing di dati di seconda parte potrebbe coinvolgere un rivenditore di abbigliamento che raccoglie dati sui suoi prodotti e quindi condivide queste informazioni con i partner chiave. In questo caso, il messaggio di vendita al dettaglio potrebbe servire diversi annunci in un sito partner Audience Manager per i consumatori che scelgono diversi colori e dimensioni della giacca.
 
 ![](assets/shopping-cart-traits.png)
 
