@@ -1,21 +1,25 @@
 ---
-description: Transport Layer Security (TLS) è un protocollo crittografico utilizzato per stabilire un canale di comunicazione sicuro tra due sistemi. Viene utilizzato per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l'integrità delle informazioni che passano tra i sistemi. A maggio 2018, esistono tre versioni del protocollo TLS in uso TLS 1.0, 1.1 e 1.2.
-seo-description: Transport Layer Security (TLS) è un protocollo crittografico utilizzato per stabilire un canale di comunicazione sicuro tra due sistemi. Viene utilizzato per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l'integrità delle informazioni che passano tra i sistemi. A maggio 2018, esistono tre versioni del protocollo TLS in uso TLS 1.0, 1.1 e 1.2.
-seo-title: Obsolescenza di TLS 1.0
+description: Transport Layer Security (TLS) è un protocollo crittografico utilizzato per stabilire un canale di comunicazione sicuro tra due sistemi. Viene utilizzato per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l'integrità delle informazioni che passano tra i sistemi. Nel maggio 2018, c'erano tre versioni del protocollo TLS in uso TLS 1.0, 1.1 e 1.2.
+seo-description: Transport Layer Security (TLS) è un protocollo crittografico utilizzato per stabilire un canale di comunicazione sicuro tra due sistemi. Viene utilizzato per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l'integrità delle informazioni che passano tra i sistemi. Nel maggio 2018, c'erano tre versioni del protocollo TLS in uso TLS 1.0, 1.1 e 1.2.
+seo-title: Sprecazione TLS 1.0 e 1.1
 solution: Audience Manager
-title: Obsolescenza di TLS 1.0
+title: Sprecazione TLS 1.0 e 1.1
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 translation-type: tm+mt
-source-git-commit: f54064793aac81e3dd58e3b8966760f74c962880
+source-git-commit: 5f572a414f27bd8eea20a1c0596a02b1250b50fe
 
 ---
 
 
-# Obsolescenza di TLS 1.0{#tls-deprecation}
+# Sprecazione TLS 1.0 e 1.1{#tls-deprecation}
 
-Transport Layer Security (TLS) è un protocollo crittografico utilizzato per stabilire un canale di comunicazione sicuro tra due sistemi. Viene utilizzato per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l'integrità delle informazioni che passano tra i sistemi. A maggio 2018, sono in uso tre versioni del protocollo TLS: TLS 1.0, 1.1 e 1.2.
+Transport Layer Security (TLS) è un protocollo crittografico utilizzato per stabilire un canale di comunicazione sicuro tra due sistemi. Viene utilizzato per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l&#39;integrità delle informazioni che passano tra i sistemi. Nel maggio 2018 erano in uso tre versioni del protocollo TLS: TLS 1.0, 1.1 e 1.2.
 
-Nel marzo 2019 [!DNL Adobe] è cessato il sostegno al [!DNL TLS 1.0] protocollo. La funzionalità di Adobe Audience Manager non funziona per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.0]. In realtà, consigliamo l'uso di [!DNL TLS 1.2], che è, al momento della scrittura, l'ultima versione del protocollo. Tutti i browser moderni utilizzano [!DNL TLS 1.2]. Abbiamo raccolto per voi un elenco di browser, versioni e il loro [!DNL TLS] supporto. Per maggiori informazioni, visita [questo collegamento](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)Wikipedia.
+Nel marzo 2019 [!DNL Adobe] è cessato il sostegno al [!DNL TLS 1.0] protocollo. La funzionalità di Adobe Audience Manager non funziona per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.0].
+
+Nel marzo 2020 [!DNL Adobe] cesserà il sostegno al [!DNL TLS 1.1] protocollo. La funzionalità di Adobe Audience Manager smetterà di funzionare per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.1].
+
+Raccomandiamo vivamente l&#39;uso di [!DNL TLS 1.2], che è, al momento della scrittura, l&#39;ultima versione del protocollo. Tutti i browser moderni utilizzano [!DNL TLS 1.2]. Abbiamo raccolto per voi un elenco di browser, versioni e il loro [!DNL TLS] supporto. Per maggiori informazioni, visita [questo collegamento](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)Wikipedia.
 
 <table id="table_C273E20039074BB7B6CFB1B877A086B8"> 
  <thead> 
