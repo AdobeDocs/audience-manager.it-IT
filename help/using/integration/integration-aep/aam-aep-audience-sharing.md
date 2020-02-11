@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Condivisione dell'audience tra Audience Manager e Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: 08e0a97faa74b97bf42d5729b76ea2caa14193da
+source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 08e0a97faa74b97bf42d5729b76ea2caa14193da
 
 La funzionalità di condivisione dell&#39;audience tra Audience Manager e Adobe Experience Platform consente di condividere le caratteristiche e i segmenti di Audience Manager con Adobe Experience Platform e viceversa.
 
-Puoi utilizzare le caratteristiche e i segmenti di Audience Manager in Experience Platform per aggiungere dati di Audience Manager ai tuoi profili cliente e per trarre vantaggio dal servizio [di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)segmentazione della piattaforma Experience.
+Puoi utilizzare le caratteristiche e i segmenti di Audience Manager in Experience Platform per aggiungere dati di Audience Manager ai tuoi profili cliente e per trarre vantaggio dal servizio [di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentazione della piattaforma Experience.
 
 In Audience Manager puoi utilizzare i segmenti della piattaforma Experience per i casi di utilizzo della piattaforma di gestione dati, come:
 * Aggiungi dati [di](/help/using/overview/data-types-collected.md#third-party-data) terze parti ai tuoi segmenti;
@@ -46,7 +46,7 @@ Consulta la tabella seguente per una panoramica dei casi di utilizzo della condi
 
 Le caratteristiche e i segmenti di Audience Manager vengono visualizzati in Experience Platform come **Audiences** nel flusso di lavoro dei segmenti. Per ulteriori informazioni sui segmenti e sulle caratteristiche di Audience Manager in Experience Platform, vedi:
 
-* [Panoramica del servizio di segmentazione](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!end-user/markdown/segmentation_overview/segmentation.md)
+* [Panoramica del servizio di segmentazione](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)
 * [Guida utente di Experience Platform Segment Builder](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
 
 <br> 
