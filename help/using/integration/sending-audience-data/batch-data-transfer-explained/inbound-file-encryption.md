@@ -4,22 +4,24 @@ seo-description: Come opzione, potete crittografare i file di dati con crittogra
 seo-title: Crittografia PGP file per i tipi di dati in entrata
 solution: Audience Manager
 title: Crittografia PGP file per i tipi di dati in entrata
-uuid: 89cache1-0259-48fc-865b-d525ec7822f7
+uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8d2d841f8e94fd67c2165eb280b85ab18001d77e
 
 ---
 
 
 # Crittografia PGP file per i tipi di dati in entrata{#file-pgp-encryption-for-inbound-data-types}
 
-Come opzione, potete crittografare i file di dati con [!DNL PGP] crittografia al momento dell'invio ad Audience Manager.
+Come opzione, potete crittografare i file di dati con [!DNL PGP] crittografia al momento dell&#39;invio ad Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
 >Al momento non è supportata la crittografia e la compressione sullo stesso file di dati in entrata. È possibile selezionare per cifrare o [comprimere](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) i file in entrata.
+>
+> Tuttavia, tenete presente che la crittografia PGP include la compressione integrata.
 
 Seguire i passaggi descritti di seguito per cifrare i file di dati in entrata.
 
@@ -50,4 +52,4 @@ Seguire i passaggi descritti di seguito per cifrare i file di dati in entrata.
 
    >[!NOTE]
    >
-   >Audience Manager supporta solo l'algoritmo di cifratura [!DNL Advanced Encryption Standard (AES)] dei dati. Audience Manager supporta qualsiasi dimensione chiave.
+   >Audience Manager supporta solo l&#39;algoritmo di cifratura [!DNL Advanced Encryption Standard (AES)] dei dati. Audience Manager supporta qualsiasi dimensione chiave.
