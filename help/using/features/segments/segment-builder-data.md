@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Dati sulle caratteristiche e sulla popolazione dei segmenti nel Generatore di segmenti
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
 
 ---
 
@@ -93,11 +93,11 @@ La tabella seguente definisce le metriche della popolazione stimata.
 
 ## Dati popolazione segmenti esistenti (effettivi) definiti {#existing-segment-population}
 
-[!UICONTROL Profile Merge Rules] influiscono sul numero effettivo di popolazione in tempo reale e totale. Questi totali variano a seconda che il segmento [!UICONTROL Profile Merge Rule] appartenga o meno a un'opzione di grafico del dispositivo. Vedi anche Opzioni Regola di unione [profilo definite](../../features/profile-merge-rules/merge-rule-definitions.md).
+[!UICONTROL Profile Merge Rules] influiscono sul numero effettivo di popolazione in tempo reale e totale. Questi totali variano a seconda che il segmento [!UICONTROL Profile Merge Rule] appartenga o meno a un&#39;opzione di grafico del dispositivo. Vedi anche Opzioni Regola di unione [profilo definite](../../features/profile-merge-rules/merge-rule-definitions.md).
 
-### Dati di popolazione del segmento per le regole di unione senza un'opzione Device Graph
+### Dati di popolazione del segmento per le regole di unione senza un&#39;opzione Device Graph
 
-La tabella seguente definisce le metriche effettive della popolazione in tempo reale e totale quando i segmenti vengono utilizzati da un [!UICONTROL Profile Merge Rule] utente creato senza l'opzione di grafico del dispositivo. Queste sono le impostazioni delle opzioni del dispositivo **[!UICONTROL No Device Options]** e **[!UICONTROL Current Device Proflie]**.
+La tabella seguente definisce le metriche effettive della popolazione in tempo reale e totale quando i segmenti vengono utilizzati da un [!UICONTROL Profile Merge Rule] utente creato senza l&#39;opzione di grafico del dispositivo. Queste sono le impostazioni delle opzioni del dispositivo **[!UICONTROL No Device Options]** e **[!UICONTROL Current Device Proflie]**.
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -122,9 +122,9 @@ La tabella seguente definisce le metriche effettive della popolazione in tempo r
  </tbody> 
 </table>
 
-### Dati di popolazione del segmento per le regole di unione con un'opzione Device Graph
+### Dati di popolazione del segmento per le regole di unione con un&#39;opzione Device Graph
 
-La tabella seguente definisce le metriche effettive della popolazione in tempo reale e totale quando i segmenti vengono utilizzati da un [!UICONTROL Profile Merge Rule] utente creato con un'opzione di grafico del dispositivo. Queste sono le impostazioni delle opzioni del dispositivo per [!UICONTROL Profile Link Device Graph], il grafico del [!DNL Adobe] dispositivo e altre opzioni del grafico del dispositivo di terze parti disponibili.
+La tabella seguente definisce le metriche effettive della popolazione in tempo reale e totale quando i segmenti vengono utilizzati da un [!UICONTROL Profile Merge Rule] utente creato con un&#39;opzione di grafico del dispositivo. Queste sono le impostazioni delle opzioni del dispositivo per [!UICONTROL Profile Link Device Graph], il grafico del [!DNL Adobe] dispositivo e altre opzioni del grafico del dispositivo di terze parti disponibili.
 
 <table id="table_157EC6E5B5C44EB899854CA10B090F60"> 
  <thead> 
@@ -136,11 +136,11 @@ La tabella seguente definisce le metriche effettive della popolazione in tempo r
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Popolazione in tempo reale (esistente)</span> </p> </td> 
-   <td colname="col2"> <p>Il numero effettivo di dispositivi visti in tempo reale con i profili correnti che, se uniti con un massimo di 3 altri profili dispositivo collegati dal grafico del dispositivo, contengono le caratteristiche per qualificarsi per il segmento nel momento in cui è stato visto da <span class="keyword"> Audience Manager</span>. </p> </td>
+   <td colname="col2"> <p>Il numero effettivo di dispositivi visti in tempo reale con i profili correnti che, se uniti con fino a 100 altri profili dispositivo collegati dal grafico del dispositivo, contengono le caratteristiche per qualificarsi per il segmento nel momento in cui è stato visto da <span class="keyword"> Audience Manager</span>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Popolazione totale (esistente)</span> </p> </td> 
-   <td colname="col2"> <p>Il numero totale di dispositivi con profili che, se uniti con un massimo di 3 altri profili dispositivo collegati dal grafico del dispositivo, erano tutti idonei per il segmento. </p> </td>
+   <td colname="col2"> <p>Il numero totale di dispositivi con profili che, se uniti con un massimo di 100 altri profili dispositivo collegati dal grafico del dispositivo, erano tutti idonei per il segmento. </p> </td>
   </tr>
  </tbody>
 </table>
