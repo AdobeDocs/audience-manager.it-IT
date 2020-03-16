@@ -2,19 +2,19 @@
 description: Gli strumenti di gestione di massa consentono di creare e gestire più oggetti contemporaneamente con un'unica operazione. Puoi utilizzare Strumenti di gestione di massa per lavorare con origini dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
 keywords: baaam;BAAAM
 seo-description: Gli strumenti di gestione di massa consentono di creare e gestire più oggetti contemporaneamente con un'unica operazione. Puoi utilizzare Strumenti di gestione di massa per lavorare con origini dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
-seo-title: Guida Introduttiva Alla Gestione Di Gruppi
+seo-title: Guida Introduttiva Alla Gestione Di Massa
 solution: Audience Manager
-title: Guida Introduttiva Alla Gestione Di Gruppi
+title: Guida Introduttiva Alla Gestione Di Massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: c9dfddf728045bf2cbc01d5467a64ae95b449664
+source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
 
 ---
 
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-Gli strumenti di gestione di massa consentono di creare e gestire più oggetti contemporaneamente con un'unica operazione. Puoi utilizzare Strumenti di gestione di massa per lavorare con origini dati, segnali derivati, destinazioni, cartelle, modelli, segmenti e caratteristiche.
+Gli strumenti di gestione di massa consentono di creare e gestire più oggetti contemporaneamente con un&#39;unica operazione. Puoi utilizzare Strumenti di gestione di massa per lavorare con origini dati, segnali derivati, destinazioni, cartelle, modelli, segmenti e caratteristiche.
 
 <!-- 
 
@@ -24,11 +24,11 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->Le [!UICONTROL Bulk Management Tools] opzioni non *sono supportate da* [!DNL Audience Manager]. Questo strumento è fornito per comodità e solo come cortesia. Per modifiche di massa, consigliamo di lavorare con le API [](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>Le proprietà non [!UICONTROL Bulk Management Tools]*sono* supportate da [!DNL Audience Manager]. Questo strumento è fornito per comodità e solo come cortesia. Per modifiche di massa, consigliamo di lavorare con le API [](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
 
 ## Panoramica {#overview}
 
-Questa funzione utilizza un foglio di calcolo di Microsoft Excel con macro che eseguono chiamate sicure e autenticate alle [!DNL Audience Manager] API. L'API fornisce i metodi e i servizi che consentono di apportare modifiche in blocco. Non è necessario sapere come codificare o utilizzare le nostre API. Il foglio di lavoro contiene intestazioni e schede di colonna che eseguono specifiche funzioni di modifica collettiva. Per apportare modifiche collettive, è sufficiente aggiungere le intestazioni predefinite a fogli di lavoro specifici, fornire le informazioni che si desidera modificare in massa e fare clic su un pulsante di azione. Il foglio di lavoro e le API eseguono il resto del lavoro.
+Questa funzione utilizza un foglio di calcolo di Microsoft Excel con macro che eseguono chiamate sicure e autenticate alle [!DNL Audience Manager] API. L&#39;API fornisce i metodi e i servizi che consentono di apportare modifiche in blocco. Non devi sapere come codificare o lavorare con le nostre API per utilizzarle. Il foglio di lavoro contiene intestazioni e schede di colonna che eseguono specifiche funzioni di modifica collettiva. Per apportare modifiche collettive, è sufficiente aggiungere le intestazioni predefinite a fogli di lavoro specifici, fornire le informazioni che si desidera modificare in massa e fare clic su un pulsante di azione. Il foglio di lavoro e le API eseguono il resto del lavoro.
 
 ## Scarica {#download}
 
@@ -39,13 +39,13 @@ Scarica il foglio di lavoro più recente **[qui](assets/BAAAM_V2_20191205.xlsm)*
 Per utilizzare il [!DNL Bulk Management Tools], è necessario disporre dei seguenti elementi:
 
 * Il vostro [!DNL Experience Cloud] login. In qualità di cliente, dovreste già avere queste credenziali.
-* Il [!DNL Bulk Management Tools] foglio di lavoro. [Scaricate il foglio di lavoro](assets/BAAAM_V2_20191205.xlsm) per ottenere la versione più recente.
+* Il [!DNL Bulk Management Tools] foglio di lavoro. [Scaricate il foglio di lavoro](assets/BAAAM_V2_20200311.xlsm) per ottenere la versione più recente.
 * Microsoft Excel eseguito a [!DNL macOS] o a 64 bit [!DNL Microsoft Windows]. È consigliabile utilizzare la versione più recente di Microsoft Excel.
 * Quando si apre il foglio di lavoro, è necessario **abilitare le macro** per il [!DNL Bulk Management Tools] funzionamento.
 
 ## Requisiti e opzioni di autenticazione {#auth-reqs}
 
-Le modifiche di massa richiedono l'autenticazione. Prima di eseguire qualsiasi azione, è necessario effettuare il login. Poiché il foglio di lavoro esegue chiamate API, è necessario configurarlo per l'autenticazione nell'account utente.
+Le modifiche di massa richiedono l&#39;autenticazione. Prima di eseguire qualsiasi azione, è necessario effettuare il login. Poiché il foglio di lavoro esegue chiamate API, è necessario configurarlo per l&#39;autenticazione nell&#39;account utente.
 
 **Requisiti di autenticazione API**
 
@@ -56,20 +56,20 @@ La seconda versione di Strumenti di gestione di massa, rilasciata a ottobre 2019
    ![](assets/baaam-authentication.png)
 3. Dopo aver completato i passaggi, siete autorizzati a apportare modifiche collettive.
 
-Durante le modifiche di massa, dovrete comunque confermare di essere autorizzati a effettuare le modifiche, ma l'autenticazione API è automatica.
+Durante le modifiche di massa, dovrete comunque confermare di essere autorizzati a effettuare le modifiche, ma l&#39;autenticazione API è automatica.
 
 **Opzioni di autenticazione del dominio**
 
-L'autenticazione del dominio consente di sottoporre a test le richieste in massa o di applicarle direttamente al proprio account di produzione. Apportare modifiche collettive all'ambiente Beta non influisce sull'account di produzione. Le modifiche alla produzione diventano immediatamente effettive. Il foglio di gestione di massa consente di lavorare nei seguenti ambienti:
+L&#39;autenticazione del dominio consente di sottoporre a test le richieste in massa o di applicarle direttamente al proprio account di produzione. Apportare modifiche collettive all&#39;ambiente Beta non influirà sull&#39;account di produzione. Le modifiche alla produzione diventano immediatamente effettive. Il foglio di gestione di massa consente di lavorare nei seguenti ambienti:
 
 * Beta
 * Produzione
 
 ## Azioni e operazioni {#actions-ops}
 
-Il [!UICONTROL Bulk Management Tools] foglio di lavoro è costituito da pulsanti di autenticazione, schede azioni, pulsanti di azione e una **[!UICONTROL Headers]** scheda. La **[!UICONTROL Headers]** scheda contiene le intestazioni di colonna preformattate utilizzate dalle schede delle azioni. Le schede delle azioni contengono macro che eseguono l'operazione in blocco selezionata. Per eseguire un'operazione in blocco, copiare un set di intestazioni nella scheda delle azioni appropriata, immettere i dati dell'intestazione e fare clic su un pulsante di azione.
+Il [!UICONTROL Bulk Management Tools] foglio di lavoro è costituito da pulsanti di autenticazione, schede azioni, pulsanti di azione e una **[!UICONTROL Headers]** scheda. La **[!UICONTROL Headers]** scheda contiene le intestazioni di colonna preformattate utilizzate dalle schede delle azioni. Le schede delle azioni contengono macro che eseguono l&#39;operazione in blocco selezionata. Per eseguire un&#39;operazione in blocco, copiare un set di intestazioni nella scheda delle azioni appropriata, immettere i dati dell&#39;intestazione e fare clic su un pulsante di azione.
 
-Dopo l' [autenticazione](#auth-reqs), fai clic su un pulsante di azione per iniziare.
+Dopo l&#39; [autenticazione](#auth-reqs), fai clic su un pulsante di azione per iniziare.
 
 ![](assets/baaam-worksheet.png)
 
@@ -108,11 +108,11 @@ Nella tabella seguente sono elencate le operazioni che è possibile eseguire e g
 
 **Esempio di operazione in blocco**
 
-Ad esempio, vediamo come creare più caratteristiche contemporaneamente. Per creare più caratteristiche in un'operazione in blocco, è necessario:
+Ad esempio, vediamo come creare più caratteristiche contemporaneamente. Per creare più caratteristiche in un&#39;operazione in blocco, è necessario:
 
-1. Fare clic sulla **[!UICONTROL Headers]** scheda e copiare tutte le etichette sotto l' [!UICONTROL Create a Trait] opzione.
+1. Fare clic sulla **[!UICONTROL Headers]** scheda e copiare tutte le etichette sotto l&#39; [!UICONTROL Create a Trait] opzione.
 2. Fare clic sulla **[!UICONTROL Create]** scheda e incollare le etichette a partire dalla riga 1, colonna A.
-3. Fornire informazioni relative a ciascuna intestazione di colonna e fare clic su **[!UICONTROL Create Traits]**. Questa azione richiede di confermare l’autenticazione. Il processo di massa viene eseguito dopo aver confermato l’autenticazione. Verificare che nell'angolo inferiore sinistro del foglio di lavoro sia presente una notifica dello stato del processo.
+3. Fornire informazioni relative a ciascuna intestazione di colonna e fare clic su **[!UICONTROL Create Traits]**. Questa azione richiede di confermare l’autenticazione. Il processo di massa viene eseguito dopo aver confermato l’autenticazione. Verificare che nell&#39;angolo inferiore sinistro del foglio di lavoro sia presente una notifica dello stato del processo.
 
 
 >[!NOTE]
