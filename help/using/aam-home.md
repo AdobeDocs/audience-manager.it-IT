@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Documentazione prodotto Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: df33d16269101fd8d9c1dbb791c5a1f5ef647a0b
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -19,7 +19,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
 ## Utilizzo di questa guida alla documentazione del prodotto
 
 * Esplorate il contenuto per argomento e argomento secondario nella navigazione **a** sinistra.
-* Se sai cosa cerchi, usa il campo di **ricerca** nella parte superiore della pagina.
+* Se sai cosa stai cercando, usa il campo di **ricerca** nella parte superiore della pagina.
 * Utilizzate il pulsante **Registra un problema** in alto a destra della pagina per segnalare qualsiasi documentazione errata o obsoleta. Per informazioni su come iniziare a contribuire, consulta la guida [alla](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) collaborazione.
 
 ## Come leggere questa pagina
@@ -89,7 +89,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Guida introduttiva alle API REST</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Introduzione all'API DCS</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Aggiungere l’estensione Audience Manager ad Adobe Launch</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Aggiungere l’estensione Audience Manager ad Adobe Experience Platform Launch</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Aggiunta di Audience Manager all'app</a></li>
      </ul> </p>
     </td>
@@ -118,7 +118,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html">Getting Started with REST APIs</a></li>
      <li><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-event-calls/dcs-event-calls.html">Get started with the DCS API</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Add the Audience Manager extension to Adobe Launch</a></li>
+     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">Add the Audience Manager extension to Adobe Experience Platform Launch</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Add Audience Manager to your app</a></li>
      </ul> </p>
     </td>
@@ -201,7 +201,7 @@ Read about the latest Audience Manager features:
       <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Esercitazioni su Audience Manager</a> </li> 
       <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Centro per la privacy Adobe</a> </li>  
       <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Formazione e certificazioni Adobe</a> </li> 
-      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Documentazione del prodotto Experience Cloud</a> </li> 
+      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Documentazione del prodotto Experience Cloud - Pagina principale</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external">Informazioni e supporto per Audience Manager</a> </li> 
      </ul> </p> 
      <br> 
