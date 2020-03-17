@@ -1,13 +1,13 @@
 ---
 description: Le API DIL a livello di istanza consentono di creare e utilizzare in modo programmatico oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
-keywords: creare caratteristiche;creare caratteristiche
+keywords: create traits;create trait
 seo-description: Le API DIL a livello di istanza consentono di creare e utilizzare in modo programmatico oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
 seo-title: Metodi DIL a livello di istanza
 solution: Audience Manager
 title: Metodi DIL a livello di istanza
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -26,7 +26,7 @@ c_api_overview.xml
 
 Quando si utilizzano le [!UICONTROL DIL] API a livello di istanza:
 
-* L'accesso richiede un nome partner e un ID spazio nomi contenitore (NSID). Contatta il tuo account manager Audience Manager per ottenere queste informazioni.
+* L&#39;accesso richiede un nome partner e un ID spazio nomi contenitore (NSID). Contatta il tuo account manager Audience Manager per ottenere queste informazioni.
 * Sostituite eventuale testo *in corsivo* di esempio nella documentazione API con valore, ID o altra variabile, come richiesto dal metodo con cui state lavorando.
 
 <!-- 
@@ -45,7 +45,7 @@ r_dil_signals.xml
 
  -->
 
-**** Firma funzione: `signals: function ({key1:value1, key2:value2},prefix){}`
+**Firma funzione:** `signals: function ({key1:value1, key2:value2},prefix){}`
 
 >[!NOTE]
 >
@@ -68,13 +68,13 @@ Le seguenti chiavi di richiesta sono riservate e non possono essere sovrascritte
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `obj` | Oggetto | Un oggetto che rappresenta le coppie chiave-valore per le mappature a livello di piattaforma. Il parametro accetta stringhe e array come valori di proprietà nell'oggetto. |
-| `prefix` | Stringa | Facoltativo. Il valore stringa con il prefisso di ogni chiave di oggetto (sostituisce la chiave originale). |
-| `return` | DIL.api | Restituisce l'oggetto API dell'istanza DIL corrente. |
+| `obj` | Oggetto | Un oggetto che rappresenta le coppie chiave-valore per le mappature a livello di piattaforma. Il parametro accetta stringhe e array come valori di proprietà nell&#39;oggetto. |
+| `prefix` | Stringa | Facoltativo. Il valore della stringa con il prefisso di ogni chiave di oggetto (sostituisce la chiave originale). |
+| `return` | DIL.api | Restituisce l&#39;oggetto API dell&#39;istanza DIL corrente. |
 
 **Risposta**
 
-Restituisce l'oggetto API dell' [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
 
 **Codice di esempio**
 
@@ -107,7 +107,7 @@ r_dil_traits.xml
 
  -->
 
-**** Firma funzione: `traits:function (sids){}`
+**Firma funzione:** `traits:function (sids){}`
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ r_dil_traits.xml
 
 **Risposta**
 
-Restituisce l'oggetto API dell' [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
 
 **Codice di esempio**
 
@@ -143,11 +143,11 @@ r_dil_logs.xml
 
  -->
 
-**** Firma funzione: `logs: function {key1:value1, key2:value2}`
+**Firma funzione:** `logs: function {key1:value1, key2:value2}`
 
 **Risposta**
 
-Restituisce l'oggetto API dell' [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
 
 **Codice di esempio**
 
@@ -172,7 +172,7 @@ r_dil_submit.xml
 
  -->
 
-**** Firma funzione: `submit: function () {}`
+**Firma funzione:** `submit: function () {}`
 
 >[!NOTE]
 >
@@ -180,7 +180,7 @@ r_dil_submit.xml
 
 **Risposta**
 
-Restituisce l'oggetto API dell' [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
 
 **Codice di esempio**
 
@@ -210,7 +210,7 @@ r_dil_after_result.xml
 
  -->
 
-**** Firma funzione: `afterResult: function (fn) {}`
+**Firma funzione:** `afterResult: function (fn) {}`
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ r_dil_after_result.xml
 
 **Risposta**
 
-Restituisce un oggetto API dell' [!UICONTROL DIL] istanza corrente.
+Restituisce un oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
 
 **Codice di esempio**
 
@@ -252,7 +252,7 @@ r_dil_clear_data.xml
 
  -->
 
-**** Firma funzione: `clearData: function () {}`
+**Firma funzione:** `clearData: function () {}`
 
 >[!NOTE]
 >
@@ -260,7 +260,7 @@ r_dil_clear_data.xml
 
 **Risposta**
 
-Restituisce l'oggetto API dell' [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
 
 **Codice di esempio**
 
@@ -292,7 +292,7 @@ r_dil_custom_query_params.xml
 
  -->
 
-**** Firma funzione: `customQueryParams: function (obj) {}`
+**Firma funzione:** `customQueryParams: function (obj) {}`
 
 >[!NOTE]
 >
@@ -311,7 +311,7 @@ Le seguenti chiavi di richiesta sono riservate e non possono essere sovrascritte
 
 **Risposta**
 
-Restituisce l'oggetto API dell'istanza DIL corrente.
+Restituisce l&#39;oggetto API dell&#39;istanza DIL corrente.
 
 **Codice di esempio**
 
@@ -328,7 +328,7 @@ partnerObject.api.customQueryParams({
 
 ## getContainerNSID {#getcontainernsid}
 
-Restituisce il valore del NSID contenitore per l' [!UICONTROL DIL] istanza. Utile per il debug e la risoluzione dei problemi.
+Restituisce il valore del NSID contenitore per l&#39; [!UICONTROL DIL] istanza. Utile per il debug e la risoluzione dei problemi.
 
 <!-- 
 
@@ -336,7 +336,7 @@ r_dil_get_container_nsid.xml
 
  -->
 
-**** Firma funzione: `dil.api.getContainerNSID: function () {}`
+**Firma funzione:** `dil.api.getContainerNSID: function () {}`
 
 **Codice di esempio**
 
@@ -360,7 +360,7 @@ r_dil_get_event_log.xml
 
  -->
 
-**** Firma funzione: `dil.api.getEventLog: function () {}`
+**Firma funzione:** `dil.api.getEventLog: function () {}`
 
 **Codice di esempio**
 
@@ -389,7 +389,7 @@ if (log && log.length) {
 
 ## getPartner {#getpartner}
 
-Restituisce il nome del partner per un' [!UICONTROL DIL] istanza. Utile per il debug e la risoluzione dei problemi.
+Restituisce il nome del partner per un&#39; [!UICONTROL DIL] istanza. Utile per il debug e la risoluzione dei problemi.
 
 <!-- 
 
@@ -397,7 +397,7 @@ r_dil_get_partner.xml
 
  -->
 
-**** Firma funzione: `dil.api.getPartner: function () {}`
+**Firma funzione:** `dil.api.getPartner: function () {}`
 
 **Codice di esempio**
 
@@ -413,7 +413,7 @@ var partner = dataLib.api.getPartner();
 
 ## getState {#getstate}
 
-Restituisce lo stato dell' [!UICONTROL DIL] istanza corrente. Utile per il debug e la risoluzione dei problemi.
+Restituisce lo stato dell&#39; [!UICONTROL DIL] istanza corrente. Utile per il debug e la risoluzione dei problemi.
 
 <!-- 
 
@@ -421,7 +421,7 @@ r_dil_get_state.xml
 
  -->
 
-**** Firma funzione: `dil.api.getState: function () {}`
+**Firma funzione:** `dil.api.getState: function () {}`
 
 **Codice di esempio**
 
@@ -505,11 +505,11 @@ Funziona con [!UICONTROL DIL] versioni 2.10 e 3.1 o successive.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Tra partner di dati diversi e Audience Manager. Ad esempio, il partner x lo utilizza per sincronizzare un ID utente con il partner y e quindi inviarlo ad Audience Manager. </p> <p> <p><b></b> Importante:  Questo metodo è obsoleto. Utilizza il <code> idSyncByURL </code> metodo dell’istanza del servizio Experience Cloud ID. </p> </p> </td> 
+   <td colname="col2"> <p>Tra partner di dati diversi e Audience Manager. Ad esempio, il partner x lo utilizza per sincronizzare un ID utente con il partner y e quindi inviarlo ad Audience Manager. </p> <p> <p><b>Importante:</b>  Questo metodo è obsoleto. Utilizzate il <code> idSyncByURL </code> metodo dell’istanza del servizio di identità Adobe Experience Platform. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Quando conosci già l’ID utente e vuoi inviarlo ad Audience Manager. </p> <p> <p><b></b> Importante:  Questo metodo è obsoleto. Utilizza il <code> idSyncByDataSource </code> metodo dell’istanza del servizio Experience Cloud ID. </p> </p> </td> 
+   <td colname="col2"> <p>Quando conosci già l’ID utente e vuoi inviarlo ad Audience Manager. </p> <p> <p><b>Importante:</b>  Questo metodo è obsoleto. Utilizzate il <code> idSyncByDataSource </code> metodo dell’istanza del servizio di identità Adobe Experience Platform. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -554,9 +554,9 @@ Funziona con [!UICONTROL DIL] versioni 2.10 e 3.1 o successive.
 
 `idSync` accetta le macro seguenti:
 
-* **`%TIMESTAMP%`:** genera una marca temporale (in millisecondi). Utilizzato per svuotare la cache.
-* **`%DID%`:** inserisce l'ID di Audience Manager per l'utente.
-* **`%HTTP_PROTO%`** : Imposta il protocollo di pagina ( `http` o `https`).
+* **`%TIMESTAMP%`:**genera una marca temporale (in millisecondi). Utilizzato per svuotare la cache.
+* **`%DID%`:**inserisce l&#39;ID di Audience Manager per l&#39;utente.
+* **`%HTTP_PROTO%`:**Imposta il protocollo di pagina (`http`o`https`).
 
 **Risposta**
 
@@ -597,7 +597,7 @@ r_dil_result.xml
 
  -->
 
-**** Firma funzione: `result: function (callback) {}`
+**Firma funzione:** `result: function (callback) {}`
 
 Questo callback sostituisce il callback predefinito che gestisce la pubblicazione delle destinazioni.
 
@@ -613,7 +613,7 @@ Questo callback sostituisce il callback predefinito che gestisce la pubblicazion
 
 **Risposta**
 
-Restituisce l'oggetto API dell' [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
 
 **Codice di esempio**
 
@@ -694,7 +694,7 @@ r_dil_use_image_request.xml
 
  -->
 
-**** Firma funzione: `useImageRequest: function () {}`
+**Firma funzione:** `useImageRequest: function () {}`
 
 >[!NOTE]
 >
@@ -702,7 +702,7 @@ r_dil_use_image_request.xml
 
 **Risposta**
 
-Restituisce un oggetto API dell' [!UICONTROL DIL] istanza corrente.
+Restituisce un oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
 
 **Codice di esempio**
 
@@ -719,8 +719,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Requisiti del nome per le variabili chiave](../features/traits/trait-key-name-requirements.md)
 >* [Requisiti del prefisso per le variabili chiave](../features/traits/trait-variable-prefixes.md)
->* [Funzioni di sincronizzazione nel servizio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
+>* [Funzioni di sincronizzazione in Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-idsync.html)
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Servizio Experience Cloud ID: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Supporto per CORS nel servizio Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Adobe Experience Platform Identity Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Supporto CORS nel servizio Adobe Experience Platform Identity](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
