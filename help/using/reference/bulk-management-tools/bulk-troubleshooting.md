@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Suggerimenti per la risoluzione dei problemi per gli strumenti di gestione di massa
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 translation-type: tm+mt
-source-git-commit: 994b12fd442a08da3b606dabca1f9382a7bd6f74
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -25,9 +25,9 @@ Cosa fare quando i fogli di lavoro restituiscono un errore o la richiesta in blo
 
 >[!NOTE]
 >
->Le [!UICONTROL Bulk Management Tools] opzioni non *sono supportate da* [!DNL Audience Manager]. Questo strumento è fornito per comodità e solo come cortesia. Per modifiche di massa, consigliamo di lavorare con le API [](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
 
-Fattori come il traffico di rete pesante, l'utilizzo del server e i set di dati di grandi dimensioni possono causare il fallimento di una richiesta in massa o il timeout. In caso di problemi, il foglio di lavoro interrompe la scrittura dei dati e visualizza un messaggio di errore. In questo caso, devi:
+Fattori come il traffico di rete pesante, l&#39;utilizzo del server e i set di dati di grandi dimensioni possono causare il fallimento di una richiesta in massa o il timeout. In caso di problemi, il foglio di lavoro interrompe la scrittura dei dati e visualizza un messaggio di errore. In questo caso, devi:
 
 * Leggete il messaggio di errore.
 * Risolvi il problema.
@@ -49,7 +49,7 @@ Nella tabella seguente sono elencati alcuni problemi comuni che si possono incon
   <tr> 
    <td colname="col1"> <b>Errore di autenticazione</b> </td> 
    <td colname="col2"> 
-    <b>Aggiornamento all'ultima versione di Microsoft Excel</b>: Quando viene rilasciata una nuova versione di Microsoft Excel e si utilizza una versione precedente, potrebbe verificarsi un errore di autenticazione nel foglio di lavoro Gestione in blocco. Aggiornate alla versione più recente di Microsoft Excel per risolvere l'errore di autenticazione.
+    <b>Aggiornamento all'ultima versione di Microsoft Excel</b>: Quando viene rilasciata una nuova versione di Microsoft Excel e si utilizza una versione precedente, è possibile che si verifichi un errore di autenticazione nel foglio di lavoro Gestione in blocco. Aggiornate alla versione più recente di Microsoft Excel per risolvere l'errore di autenticazione.
 </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Nella tabella seguente sono elencati alcuni problemi comuni che si possono incon
     <ul id="ul_142E63CDD556414AB639E51734FEDBCF"> 
      <li id="li_DBB6C819603D46B5AECC9C854FDAFDF1">Accertatevi di disporre del set di intestazioni corretto per l’azione di selezione. </li> 
      <li id="li_391C9031907A4085BDAD42054960045C">Assicurarsi di utilizzare il foglio di lavoro corretto per le intestazioni copiate. </li> 
-     <li id="li_76A7241989204933858621FAAB5C3408">Verificare la posizione dei dati da utilizzare in un'operazione in blocco. Tutte le intestazioni iniziano nella colonna A, riga 1. Tutti i dati vanno nelle intestazioni corrispondenti a partire dalla colonna A, riga 2 (immediatamente sotto le intestazioni). </li> 
+     <li id="li_76A7241989204933858621FAAB5C3408">Verificare la posizione dei dati che si desidera utilizzare in un'operazione in blocco. Tutte le intestazioni iniziano nella colonna A, riga 1. Tutti i dati vanno nelle intestazioni corrispondenti a partire dalla colonna A, riga 2 (immediatamente sotto le intestazioni). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
