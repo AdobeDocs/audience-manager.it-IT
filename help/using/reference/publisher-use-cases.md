@@ -4,9 +4,9 @@ seo-description: Scopri le esigenze più comuni degli editori soddisfatti da Ado
 seo-title: Casi di utilizzo di Publisher
 solution: Audience Manager
 title: Casi di utilizzo di Publisher
-uuid: 5f571d60-d902-4958-b5d3-8d09dda42c7
+uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -39,7 +39,7 @@ c_pub_use_case.xml
       <li id="li_45C12198EDDE4107AE59947BBAA51A60">Scopri i tipi di pubblico, gestisci campagne pubblicitarie o di vendita più intelligenti e gestisci le opinioni dei clienti. </li> 
       <li id="li_53727E7A3D494299B4631439612AC226">Aggrega informazioni sui clienti correlate tra tutti i tuoi canali. </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Potenzia il tuo team Ad Sales Research a monetizzare i profili degli editori, evidenziando gli appassionati di "fai da te" come rilevanti per una prossima campagna Home Depot. </p> </td> 
+   <td colname="col3"> <p>Potenzia il tuo team Ad Sales Research a monetizzare i profili degli editori, evidenziando gli appassionati di "fai da te" come rilevanti per una prossima campagna di Home Depot. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +96,7 @@ c_pub_use_case.xml
  </tbody> 
 </table>
 
-**Miglioramento dell'estensione di accesso esterno al sito**
+**Miglioramento dell&#39;estensione di accesso esterno al sito**
 
 Questo caso d’uso funziona con dati di prime parti di Analytics inviati a una piattaforma lato domanda (DSP).
 
@@ -115,7 +115,7 @@ Questo caso d’uso funziona con dati di prime parti di Analytics inviati a una 
    <td colname="col3"> <p> 
      <ul id="ul_EE7A86BFFE534A59A9F8C7CAF46A31E5"> 
       <li id="li_D399592D9D904865BD319DC3621B832B">Crea un segmento "Ricercatori di imposta sul reddito". </li> 
-      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Allinea campagna pubblicitaria on-side venduta a Turbo Tax con una campagna di estensione della portata fuori sito tramite un DSP come Adobe Media Optimizer. </li> 
+      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Allinea la campagna pubblicitaria on-side venduta a Turbo Tax con una campagna di estensione off-site tramite un DSP come Adobe Advertising Cloud. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -123,7 +123,7 @@ Questo caso d’uso funziona con dati di prime parti di Analytics inviati a una 
 
 **Creazione di segmenti di alto valore e miglioramento del raggiungimento con la modellazione simile**
 
-La documentazione [](../features/algorithmic-models/understanding-models.md) Modelli contiene informazioni dettagliate sul processo di modellazione [!DNL Audience Manager] algoritmica.
+La documentazione relativa ai [modelli](../features/algorithmic-models/understanding-models.md) contiene informazioni dettagliate sul processo di modellazione [!DNL Audience Manager] algoritmica.
 
 <table id="table_A10E4656E2A74EF5BCCA42A7AAA94416"> 
  <thead> 
@@ -155,7 +155,7 @@ La documentazione [](../features/algorithmic-models/understanding-models.md) Mod
  </tbody> 
 </table>
 
-**Raggiungi le informazioni demografiche richieste dall'inserzionista con dati di prime e terze parti**
+**Raggiungi le informazioni demografiche richieste dall&#39;inserzionista con dati di prime e terze parti**
 
 <table id="table_63E19A09F1254D83A84F741CFB68A684"> 
  <thead> 
@@ -170,7 +170,7 @@ La documentazione [](../features/algorithmic-models/understanding-models.md) Mod
    <td colname="col1"> <p> 
      <ul id="ul_DB5B31FB1C7D4D36B9C32912921B39B5"> 
       <li id="li_7B750D619A8F40329B027559DDC5CFB0">Combinate dati di prime e terze parti per creare segmenti di pubblico più pertinenti e fruibili. </li> 
-      <li id="li_E0BC69F4F1BC4A2FA8B1807815072642">Crea pacchetti e vendi segmenti avanzati per gli inserzionisti che cercano dati demografici specifici come età, genere, reddito, ecc. </li> 
+      <li id="li_E0BC69F4F1BC4A2FA8B1807815072642">Crea pacchetti e vendi segmenti avanzati per gli inserzionisti alla ricerca di dati demografici specifici come età, genere, reddito, ecc. </li> 
       <li id="li_87FD5150D9F74FC9973FECD5DA363C34">Crea i segmenti di tipi giusti per le vendite di annunci per qualsiasi strategia di campagna. </li> 
      </ul> </p> </td> 
    <td colname="col2"> <p> 
