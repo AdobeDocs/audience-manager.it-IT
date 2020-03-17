@@ -1,13 +1,13 @@
 ---
 description: Domande e problemi comuni relativi a prodotti e funzioni.
-keywords: cookie di Audience Manager
+keywords: audience manager cookies
 seo-description: Domande e problemi comuni relativi a prodotti e funzioni.
 seo-title: Domande frequenti su funzioni e funzionalità del prodotto
 solution: Audience Manager
 title: Domande frequenti su funzioni e funzionalità del prodotto
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -30,7 +30,7 @@ L’ID *`Organization ID`* è univoco e identifica l’organizzazione [!DNL Audi
 
 Esempio: *`Organization ID`* `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-L’ *`Organization ID`* app viene utilizzata dall’API [DIL](../dil/dil-overview.md) di Audience Manager, dal servizio [](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud ID e da altre [!DNL Experience Cloud] soluzioni. Gli utenti con autorizzazioni di amministratore possono trovare *`Organization ID`* il collegamento nel [!DNL Adobe Admin Console]. Consultate le Domande frequenti [Amministrazione - Gestione utente](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
+L’ *`Organization ID`* API viene utilizzata dall’API [DIL](../dil/dil-overview.md) di Audience Manager, dal servizio [identità](https://marketing.adobe.com/resources/help/en_US/mcvid/)Adobe Experience Platform e da altre [!DNL Experience Cloud] soluzioni. Gli utenti con autorizzazioni di amministratore possono trovare *`Organization ID`* il collegamento nel [!DNL Adobe Admin Console]. Consultate le Domande frequenti [Amministrazione - Gestione utente](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html).
 
 <br> 
 
@@ -58,11 +58,11 @@ Il feed di dati e tutte le caratteristiche contenute nel feed vengono visualizza
 
 **Che cosa è[!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager utilizzato [!UICONTROL Tag Insertion Manager] (TIM) per creare e gestire [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Launch]. For more information, see [Adobe Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
+Audience Manager utilizzato [!UICONTROL Tag Insertion Manager] (TIM) per creare e gestire [!UICONTROL data collection code (DIL)]. This feature is obsolete and has been replaced first by [!UICONTROL Dynamic Tag Manager (DTM)], and later by [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
 
 <br> 
 
-**Quali sono le differenze tra i modelli algoritmici e le raccomandazioni sulle caratteristiche? Quando dovrei usarli tutti?**
+**Quali sono le differenze tra i modelli algoritmici e le raccomandazioni sulle caratteristiche? Quando dovrei usare ognuna di esse?**
 
 **Modelli algoritmici**
 
@@ -84,6 +84,6 @@ Dovresti utilizzare le raccomandazioni sulle caratteristiche quando:
 
 <br> 
 
-**Esiste una differenza tra i segmenti di Adobe Analytics e Audience Manager?**
+**C&#39;è qualche differenza tra i segmenti di Adobe Analytics e Audience Manager?**
 
 Sì, leggi [Comprensione dei segmenti in Analytics e Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.
