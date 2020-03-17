@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Guida Introduttiva Alla Gestione Di Massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -24,7 +24,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->Le proprietà non [!UICONTROL Bulk Management Tools]*sono* supportate da [!DNL Audience Manager]. Questo strumento è fornito per comodità e solo come cortesia. Per modifiche di massa, consigliamo di lavorare con le API [](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
 
 ## Panoramica {#overview}
 
@@ -32,7 +32,7 @@ Questa funzione utilizza un foglio di calcolo di Microsoft Excel con macro che e
 
 ## Scarica {#download}
 
-Scarica il foglio di lavoro più recente **[qui](assets/BAAAM_V2_20191205.xlsm)**.
+Scarica il foglio di lavoro più recente **[qui](assets/BAAAM_V2_20200311.xlsm)**.
 
 ## Prerequisiti {#prereqs}
 
