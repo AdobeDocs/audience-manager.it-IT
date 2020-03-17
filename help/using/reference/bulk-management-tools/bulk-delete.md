@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Elimina in blocco
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 translation-type: tm+mt
-source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
 
 # Elimina in blocco{#bulk-delete}
 
-L'eliminazione in blocco consente di rimuovere segmenti, caratteristiche, cartelle, segnali derivati, origini dati, modelli e destinazioni multipli con un'unica operazione. Seguite queste istruzioni per effettuare una richiesta di eliminazione in blocco.
+L&#39;eliminazione in blocco consente di rimuovere segmenti, caratteristiche, cartelle, segnali derivati, origini dati, modelli e destinazioni multipli con un&#39;unica operazione. Seguite queste istruzioni per effettuare una richiesta di eliminazione in blocco.
 
 <!-- 
 
@@ -23,16 +23,16 @@ L'eliminazione in blocco consente di rimuovere segmenti, caratteristiche, cartel
 
 >[!NOTE]
 >
->Le [!UICONTROL Bulk Management Tools] opzioni non *sono supportate da* [!DNL Audience Manager]. Questo strumento è fornito per comodità e solo come cortesia. Per modifiche di massa, consigliamo di lavorare con le API [](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
->Un'eliminazione in blocco per le mappature di destinazione non riesce se i segmenti sono mappati sulla destinazione. Rimuovere i segmenti da tale destinazione nell'interfaccia utente prima di tentare di eliminare in massa le destinazioni. Inoltre, le cartelle relative alle caratteristiche e ai segmenti devono essere vuote prima di poter essere eliminate.
+>Un&#39;eliminazione in blocco per le mappature di destinazione non riuscirà se i segmenti sono mappati sulla destinazione. Rimuovere i segmenti da tale destinazione nell&#39;interfaccia utente prima di tentare di eliminare in massa le destinazioni. Inoltre, le cartelle relative alle caratteristiche e ai segmenti devono essere vuote prima di poter essere eliminate.
 
 Per eliminare più elementi, aprire il [!UICONTROL Bulk Management Tools] foglio di lavoro e:
 
 1. Fate clic sulla **[!UICONTROL Headers]** scheda e copiate le intestazioni create per l’elemento da aggiungere.
-2. Click the **[!UICONTROL Delete]** tab.
+2. Fate clic sulla **[!UICONTROL Delete]** scheda.
 3. Incolla le intestazioni di eliminazione nella prima riga del foglio di lavoro di aggiornamento.
 4. Incollate o digitate gli ID per gli oggetti da eliminare nella colonna sotto l’intestazione.
 5. Fornite le informazioni [di](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) accesso richieste e fate clic su **[!UICONTROL Submit]**.
@@ -42,4 +42,4 @@ Prima di immettere i dati, il foglio di lavoro di aggiornamento in blocco deve e
 
 ![](assets/delete.png)
 
-Se l'aggiornamento in blocco restituisce un errore o non riesce, consultate Risoluzione dei [problemi relativi agli strumenti](../../reference/bulk-management-tools/bulk-troubleshooting.md)di gestione in blocco.
+Se l&#39;aggiornamento in blocco restituisce un errore o un errore, consulta Risoluzione dei [problemi relativi agli strumenti](../../reference/bulk-management-tools/bulk-troubleshooting.md)di gestione in blocco.
