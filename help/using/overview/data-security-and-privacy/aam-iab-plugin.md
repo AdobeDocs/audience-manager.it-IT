@@ -5,7 +5,7 @@ seo-title: Plug-in di Audience Manager per IAB TCF
 solution: Audience Manager
 title: Plug-in di Audience Manager per IAB TCF
 translation-type: tm+mt
-source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -20,7 +20,7 @@ Adobe consente di gestire e comunicare le scelte degli utenti in materia di rise
 
 In questo articolo vengono descritti i casi di utilizzo di Audience Manager che supportano IAB TCF e come implementare tale supporto in Audience Manager. Audience Manager è registrato nell&#39;IAB TCF con l&#39;ID fornitore 565.
 
-Il plug-in Audience Manager per IAB TCF utilizza la funzionalità [](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)di consenso, che a sua volta fa parte della libreria del servizio Adobe [Experience Cloud ID (ECID)](https://marketing.adobe.com/resources/help/en_US/mcvid/) .
+Il plug-in Audience Manager per IAB TCF utilizza la funzionalità [](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)di consenso, che a sua volta fa parte della libreria Adobe Experience Platform Identity Service (ECID) [](https://marketing.adobe.com/resources/help/en_US/mcvid/) .
 
 ## Ambito di applicazione e limitazioni {#scope-and-limitations}
 
@@ -30,14 +30,14 @@ Il supporto IAB TCF descritto in questo articolo rappresenta la prima fase del s
 
 * Flussi di lavoro per dispositivi mobili;
 * Gestione del consenso tra dispositivi;
-* l’approvazione dell’approvazione degli URL inviati alle destinazioni [](../../features/destinations/create-url-destination.md)URL;
+* l’approvazione dell’aggiunta agli URL inviati alle destinazioni [](../../features/destinations/create-url-destination.md)URL;
 * Aggiunta del consenso ai segmenti.
 
 ## Prerequisiti {#prerequisites}
 
 Per utilizzare lo IAB TCF con Audience Manager dovete soddisfare i seguenti prerequisiti:
 
-1. Devi usare la versione 4.1 o successiva del servizio Experience Cloud ID. [Scarica](https://github.com/Adobe-Marketing-Cloud/id-service/releases) la versione più recente di ECID.
+1. Devi usare Adobe Experience Platform Identity Service (ECID) versione 4.1 o successiva. [Scarica](https://github.com/Adobe-Marketing-Cloud/id-service/releases) la versione più recente di ECID.
 1. Devi utilizzare la libreria di integrazione dati di Audience Manager (DIL) versione 9.0 o successiva, scaricabile da [qui](https://github.com/Adobe-Marketing-Cloud/dil/releases). Leggi [DIL nella documentazione](../..//dil/dil-overview.md)di Audience Manager.
 1. In alternativa, se utilizzate l&#39;inoltro lato server (SSF) per importare dati in Audience Manager, dovete eseguire l&#39;aggiornamento alla versione più recente di AppMeasurement. Scarica AppMeasurement tramite [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
 1. È necessario utilizzare una piattaforma di gestione del consenso (CMP), commerciale o propria, che supporti la IAB TCF ed è registrata con la IAB TCF. Consultate l’elenco dei [CMP registrati nel framework](https://advertisingconsent.eu/cmp-list/)IAB.
@@ -46,7 +46,7 @@ Per utilizzare lo IAB TCF con Audience Manager dovete soddisfare i seguenti prer
 
 Per abilitare il supporto IAB TCF in Audience Manager, consulta la nostra documentazione su [come configurare IAB con il consenso](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
-Ciò è più semplice grazie all&#39;utilizzo di [Adobe Launch](https://docs.adobelaunch.com/) per lo strumento di consenso ECID sulle proprietà. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
+Ciò è più semplice grazie all’utilizzo di [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) per lo strumento di consenso ECID sulle proprietà. Read the documentation for the [ECID Opt-in extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension#opt-in) to learn how to set up the Launch extension.
 
 ## Flusso di lavoro di scelta dell’utente quando si utilizza il framework IAB {#user-choice-workflow}
 
@@ -54,7 +54,7 @@ Quando si visita una proprietà Web, gli utenti possono scegliere in che modo i 
 
 ![Finestra di dialogo CMP](assets/cmp.png)
 
-Le finalità standard del quadro IAB sono:
+Gli obiettivi standard nel quadro dell’IAB sono:
 
 * Archiviazione delle informazioni e accesso
 * Personalizzazione
@@ -75,7 +75,7 @@ Audience Manager valuta le scelte degli utenti memorizzate nella stringa di cons
 * Archivio delle informazioni e accesso (ID scopo 1 nell&#39;elenco [dei fornitori](https://vendorlist.consensu.org/vendorlist.json)globali)
 * Personalizzazione (ID scopo 2)
 * Misurazione (scopo ID 5)
-* Il fornitore di Audience Manager acconsente a archiviare, elaborare o attivare i dati per un editore.
+* Il fornitore di Audience Manager acconsente a memorizzare, elaborare o attivare i dati di un editore.
 
 >[!IMPORTANT]
 >
@@ -147,7 +147,7 @@ Audience Manager risolve le richieste di rifiuto in un articolo [separato nella 
 
 ## Risorse aggiuntive {#additional-resources}
 
-* [Consenso del servizio Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html)
-* [IAB Europe GDPR Trasparenza e quadro di consenso](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
+* [Consenso del servizio di identità Adobe Experience Platform](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html)
+* [IAB Europe GDPR Trasparenza e Quadro di Consenso](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
 * [IAB Europe GDPR Trasparenza e Consenso Quadro Tecnico](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md)
 * [plugin IAB TCF - dimostrazione video](https://helpx.adobe.com/audience-manager/kt/using/iab-tcf-support-audience-manager-technical-video-implement.html)
