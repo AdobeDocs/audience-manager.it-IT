@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Creare o aggiornare regole di caratteristica e regole di segmento
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
 
 # Creare o aggiornare regole di caratteristica e regole di segmento{#create-or-update-trait-rules-and-segment-rules}
 
-I fogli di lavoro per la creazione e l'aggiornamento accettano un'intestazione traitRule che consente di applicare più regole in un'unica operazione. Seguite queste istruzioni per eseguire richieste di regole in blocco.
+I fogli di lavoro per la creazione e l&#39;aggiornamento accettano un&#39;intestazione traitRule che consente di applicare più regole in un&#39;unica operazione. Seguite queste istruzioni per eseguire richieste di regole in blocco.
 
 <!-- 
 
@@ -23,7 +23,7 @@ I fogli di lavoro per la creazione e l'aggiornamento accettano un'intestazione t
 
 >[!NOTE]
 >
->Le [!UICONTROL Bulk Management Tools] opzioni non *sono supportate da* [!DNL Audience Manager]. Questo strumento è fornito per comodità e solo come cortesia. Per modifiche di massa, consigliamo di lavorare con le API [](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
 
 ## Utilizzo delle regole sulle caratteristiche {#trait-rules}
 
@@ -31,7 +31,7 @@ Nel foglio di lavoro, la colonna regola caratteristica restituisce e accetta reg
 
 ## Esempio di generatore di regole {#rule-builder-example}
 
-Esaminiamo un esempio che illustra come utilizzare [!UICONTROL Segment Builder] per creare una regola per il foglio di lavoro di massa. Tuttavia, non si tratta di una serie di istruzioni dettagliate per tali strumenti. Cominceremo con una semplice regola già creata. Per istruzioni sull'utilizzo dei generatore di regole, consultate Generatore [di](../../features/segments/segment-builder.md) segmenti e Generatore [di](../../features/traits/about-trait-builder.md)caratteristiche.
+Esaminiamo un esempio che illustra come utilizzare [!UICONTROL Segment Builder] per creare una regola per il foglio di lavoro di massa. Tuttavia, non si tratta di una serie di istruzioni dettagliate per tali strumenti. Cominceremo con una semplice regola già creata. Per istruzioni sull&#39;utilizzo dei generatore di regole, consultate Generatore [di](../../features/segments/segment-builder.md) segmenti e Generatore [di](../../features/traits/about-trait-builder.md)caratteristiche.
 
 Con il generatore di regole visive, abbiamo creato una regola di segmento con 3 caratteristiche e un [!UICONTROL AND] operatore booleano.
 
@@ -51,7 +51,7 @@ Incolla la regola nel [!UICONTROL Bulk Management Tools] foglio di lavoro e conf
 
 ## Creazione di regole personalizzate {#create-rules}
 
-Potete scrivere le vostre regole fuori da [!UICONTROL Rule Builder]. Prima di iniziare, leggete la documentazione che tratta argomenti quali operatori, espressioni e variabili obbligatorie. È consigliabile rivedere quanto segue:
+Puoi scrivere le tue regole al di fuori di [!UICONTROL Rule Builder]. Prima di iniziare, leggete la documentazione che tratta argomenti quali operatori, espressioni e variabili obbligatorie. È consigliabile rivedere quanto segue:
 
 * [Utilizzo Degli Operatori Di Confronto Nel Generatore Di Caratteristiche](../../features/traits/trait-comparison-operators.md)
 * [Ordine delle operazioni](../../features/traits/trait-operator-precedence.md)
