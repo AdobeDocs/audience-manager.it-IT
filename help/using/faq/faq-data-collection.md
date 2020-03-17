@@ -6,12 +6,12 @@ solution: Audience Manager
 title: Domande frequenti sulla raccolta dei dati e l'integrazione dei prodotti
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 translation-type: tm+mt
-source-git-commit: 0921cd69ffcb75768acee99685b0d80b8bef0be6
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
 
-# Domande frequenti sulla raccolta dei dati e l'integrazione dei prodotti{#data-collection-and-product-integration-faq}
+# Domande frequenti sulla raccolta dei dati e l&#39;integrazione dei prodotti{#data-collection-and-product-integration-faq}
 
 Domande e problemi comuni in materia di raccolta e integrazione dei dati.
 
@@ -35,7 +35,7 @@ Le caratteristiche registrate tramite [!UICONTROL Inbound] sono popolate [!UICON
 
 **Puoi fornirmi un elenco di indirizzi IP che posso inserire nella whitelist per dpm.demdex.net?**
 
-Sfortunatamente non possiamo. Questi IP vengono assegnati in modo dinamico, per area geografica, attraverso [!DNL Amazon Web Services]. Di conseguenza, [!DNL Audience Manager] non controlla l'intervallo di IP che è possibile assegnare a questo indirizzo.
+Sfortunatamente non possiamo. Questi IP vengono assegnati in modo dinamico, per area geografica, attraverso [!DNL Amazon Web Services]. Di conseguenza, [!DNL Audience Manager] non controlla l&#39;intervallo di IP che è possibile assegnare a questo indirizzo.
 
 <br> 
 
@@ -45,14 +45,14 @@ Sì, vedi sotto.
 
 | Elemento | Indirizzo |
 ---------|----------|
-|  ftp-in.demdex.com | 54.225.117.163 |
+| ftp-in.demdex.com | 54.225.117.163 |
 | ftp-out.demdex.com | 23.23.188.76 |
 
 <br> 
 
-**Quali sono i requisiti di posizionamento del codice e di caricamento della pagina per un'integrazione[!UICONTROL DIL]/[!DNL Analytics]dati?**
+**Quali sono i requisiti di posizionamento del codice e di caricamento della pagina per un&#39;integrazione[!UICONTROL DIL]/[!DNL Analytics]dati?**
 
-Per inserire [!DNL Analytics] i dati in [!DNL Audience Manager], caricarli [!UICONTROL DIL] dopo il `s_code` modulo ma *prima* della `s.t()` funzione. Ad esempio, inserite il codice o assicuratevi che venga caricato nell'ordine seguente:
+Per inserire [!DNL Analytics] i dati in [!DNL Audience Manager], caricarli [!UICONTROL DIL] dopo il `s_code` modulo ma *prima* della `s.t()` funzione. Ad esempio, inserite il codice o assicuratevi che venga caricato nell&#39;ordine seguente:
 
 1. [!DNL Analytics] `s_code`
 
@@ -60,11 +60,11 @@ Per inserire [!DNL Analytics] i dati in [!DNL Audience Manager], caricarli [!UIC
 
 3. [!DNL Analytics] `s.t()` funzione
 
-Come procedura ottimale, configurate l' [!DNL Audience Manager]- [!DNL Analytics] integrazione con uno dei due metodi seguenti:
+Come procedura ottimale, configurate l&#39; [!DNL Audience Manager]- [!DNL Analytics] integrazione con uno dei due metodi seguenti:
 
 * Metta [!UICONTROL DIL] direttamente nella `s_code`.
 
-* Servire [!UICONTROL DIL] e il `s_code` passante [!DNL Adobe Launch] o [!DNL Adobe DTM].
+* Servire [!UICONTROL DIL] e il `s_code` passante [!DNL Adobe Experience Platform Launch] o [!DNL Adobe DTM].
 
 See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
@@ -106,7 +106,7 @@ Sì. Il [!UICONTROL DIL] modulo consente di raccogliere i dati di pagina anche s
 * Tipi di motori di ricerca
 * Parole chiave
 
-Inoltre, i client possono distribuire un semplice oggetto onsite e compilarlo con coppie chiave-valore su cui si desidera [!UICONTROL DIL] raccogliere i dati. Questo consente di aggiungere e rimuovere punti di dati di audience specifici sul sito senza [!DNL Audience Management] aggiornamenti. Collabora con il rappresentante delle soluzioni partner per configurare correttamente questa configurazione e assicurati che il [!DNL DIL] modulo faccia riferimento correttamente all'oggetto della pagina.
+Inoltre, i client possono distribuire un semplice oggetto onsite e compilarlo con coppie chiave-valore su cui si desidera [!UICONTROL DIL] raccogliere i dati. Questo consente di aggiungere e rimuovere punti di dati di audience specifici sul sito senza [!DNL Audience Management] aggiornamenti. Collabora con il rappresentante delle soluzioni partner per configurare correttamente questa configurazione e assicurati che il [!DNL DIL] modulo faccia riferimento correttamente all&#39;oggetto della pagina.
 
 <br> 
 
@@ -123,7 +123,7 @@ Sì. [!UICONTROL DIL] può raccogliere alcuni elementi [!DNL Google Analytics] (
 
 Sì, [!DNL Audience Manager] puoi fornire i dati raccolti per gli utenti che abbiamo visto nel tuo inventario. Ciò include:
 
-* L'ID utente univoco (UUID) assegnato da [!DNL Audience Manager]
+* L&#39;ID utente univoco (UUID) assegnato da [!DNL Audience Manager]
 * ID di caratteristiche e segmenti
 * Segnali inutilizzati
 * Timestamp
@@ -131,9 +131,9 @@ Sì, [!DNL Audience Manager] puoi fornire i dati raccolti per gli utenti che abb
 
 <br> 
 
-**Desidero raccogliere i dati su un sito e indirizzare gli utenti tramite DFP su un sito diverso. È necessario distribuire il codice sull'altra proprietà se non si desidera raccogliere i dati da tale posizione?**
+**Desidero raccogliere i dati su un sito e indirizzare gli utenti tramite DFP su un sito diverso. È necessario distribuire il codice sull&#39;altra proprietà se non si desidera raccogliere i dati da tale posizione?**
 
-No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL. Se si dispone dell'accesso all'inventario sul secondo sito tramite DFP, è possibile utilizzare la raccolta dati dal sito iniziale e il targeting tramite DFP.
+No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL. Se si dispone dell&#39;accesso all&#39;inventario sul secondo sito tramite DFP, è possibile utilizzare la raccolta dati dal sito iniziale e il targeting tramite DFP.
 
 <br> 
 
@@ -145,7 +145,7 @@ Ogni provider porta qualcosa di unico al tavolo, quindi la risposta dipende da c
 
 **Come[!DNL Audience Manager]impostare i cookie e trasmettere le variabili a DFP?**
 
-[!DNL Audience Manager] imposta 2 cookie: Una invia le variabili del segmento al tag dell’annuncio DFP e l’altra imposta il nostro ID utente univoco (UUID), che viene letto anche da DFP. L'aggiunta dell'UUID al tag dell'annuncio consente di creare report a livello di utente e di individuare l'audience.
+[!DNL Audience Manager] imposta 2 cookie: Una invia le variabili del segmento al tag dell’annuncio DFP e l’altra imposta il nostro ID utente univoco (UUID), che viene letto anche da DFP. L&#39;aggiunta dell&#39;UUID al tag dell&#39;annuncio consente di creare report a livello di utente e di individuare l&#39;audience.
 
 <br> 
 
@@ -161,7 +161,7 @@ Un file è stato prelevato quando l’estensione cambia da `.sync` a `.processed
 
 <br> 
 
-**Voglio testare la funzionalità dell'API[](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)DCS. Sto inviando chiamate evento come quella mostrata di seguito. Le chiamate contengono ID[](../features/declared-ids.md)dichiarati e segnali, che dovrebbero comprendere alcune caratteristiche e segmenti che ho già configurato. Posso usare il[!UICONTROL General Reports]e[!UICONTROL Trend Reports]per verificare se le caratteristiche e le popolazioni di segmenti stanno aumentando?**
+**Voglio testare la funzionalità dell&#39;API[](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)DCS. Sto inviando chiamate evento come quella mostrata di seguito. Le chiamate contengono ID[](../features/declared-ids.md)dichiarati e segnali, che dovrebbero comprendere alcune caratteristiche e alcuni segmenti che ho già configurato. Posso usare il[!UICONTROL General Reports]e[!UICONTROL Trend Reports]per verificare se le caratteristiche e le popolazioni di segmenti stanno aumentando?**
 
 ```
 https://apse2.demdex.net/event?d_rtbd=json&d_cid=123456%01abc123&c_events=placed-an-order
@@ -175,7 +175,7 @@ In una prima chiamata al [!UICONTROL DCS], gli ID dichiarati *non* sono collegat
 
 >[!NOTE]
 >
->L'UUID generato verrà materializzato nella memorizzazione dei dati di back-end solo dopo che il dispositivo su cui è impostato il cookie attiverà un'ulteriore attività.
+>L&#39;UUID generato verrà materializzato nella memorizzazione dei dati di back-end solo dopo che il dispositivo su cui è impostato il cookie attiverà un&#39;ulteriore attività.
 
 Per questo motivo, i report non rifletteranno gli eventi attivati dagli ID dichiarati nella chiamata. È consigliabile utilizzare UUID, ECID (già MID) o ID dispositivo mobile nelle chiamate di test evento al [!UICONTROL DCS]. Quindi puoi verificare le realizzazioni di caratteristiche e segmenti nella [!UICONTROL General Reports] e nella [!UICONTROL Trend Reports].
 
