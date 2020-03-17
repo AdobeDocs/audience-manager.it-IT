@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Creazione in blocco
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 3051ca9f7c4039dafdfa01b89226c1fa8717e610
 
 ---
 
 
 # Creazione in blocco{#bulk-create}
 
-La creazione in blocco consente di creare più origini dati, segnali derivati, segmenti, caratteristiche e altri elementi con un'unica operazione. Seguite queste istruzioni per effettuare una richiesta di creazione in blocco.
+La creazione in blocco consente di creare più origini dati, segnali derivati, segmenti, caratteristiche e altri elementi con un&#39;unica operazione. Seguite queste istruzioni per effettuare una richiesta di creazione in blocco.
 
 <!-- 
 
@@ -23,7 +23,7 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->Le [!UICONTROL Bulk Management Tools] opzioni non *sono supportate da* [!DNL Audience Manager]. Questo strumento è fornito per comodità e solo come cortesia. Per modifiche di massa, consigliamo di lavorare con le API [](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
 
 >[!CAUTION]
 >
@@ -32,16 +32,15 @@ t_bulk_create.xml
 Per creare oggetti in blocco, aprire il [!UICONTROL Bulk Management Tools] foglio di lavoro e:
 
 1. Fate clic sulla **[!UICONTROL Headers]** scheda e copiate le intestazioni create per l’elemento da aggiungere.
-1. Click the **[!UICONTROL Create]** tab.
-1. Incolla le intestazioni create nella prima riga del foglio di lavoro di aggiornamento.
-1. Incollate o digitate i dati da modificare in una colonna corrispondente in base all'etichetta dell'intestazione.
-1. Nella barra degli strumenti del foglio di lavoro, fare clic sul pulsante Crea che corrisponde all’elemento da aggiornare.
+2. Fate clic sulla **[!UICONTROL Create]** scheda.
+3. Incolla le intestazioni create nella prima riga del foglio di lavoro di aggiornamento.
+4. Incollate o digitate i dati da modificare in una colonna corrispondente in base all&#39;etichetta dell&#39;intestazione.
+5. Nella barra degli strumenti del foglio di lavoro, fare clic sul pulsante Crea che corrisponde all’elemento da aggiornare.
 Questa azione consente di aprire la [!UICONTROL Account Information] finestra di dialogo.
+6. Fornite le informazioni [di](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) accesso richieste e fate clic su **[!UICONTROL Submit]**.
 
-1. Fornite le informazioni [di](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) accesso richieste e fate clic su **[!UICONTROL Submit]**.
-
-Il foglio di lavoro crea una [!UICONTROL Results] colonna. La [!UICONTROL Results] colonna restituisce la risposta JSON per un'operazione riuscita. Per gli esempi, consultate [REST API](../../api/rest-api-main/rest-api-main.md) . Prima di immettere i dati, il foglio di lavoro creato in blocco deve essere simile al seguente esempio. Nota: qui non vengono visualizzate tutte le diverse opzioni di creazione. Questa opzione è inclusa per comprendere l'aspetto di un foglio di lavoro completato.
+Il foglio di lavoro crea una [!UICONTROL Results] colonna. La [!UICONTROL Results] colonna restituisce la risposta JSON per un&#39;operazione riuscita. Per gli esempi, consultate [REST API](../../api/rest-api-main/rest-api-main.md) . Prima di immettere i dati, il foglio di lavoro creato in blocco deve essere simile al seguente esempio. Nota: qui non vengono visualizzate tutte le diverse opzioni di creazione. Questa opzione è inclusa per comprendere l&#39;aspetto di un foglio di lavoro completato.
 
 ![](assets/cretetraits.png)
 
-Se l'aggiornamento in blocco restituisce un errore o non riesce, consultate Risoluzione dei [problemi relativi agli strumenti](../../reference/bulk-management-tools/bulk-troubleshooting.md)di gestione in blocco.
+Se l&#39;aggiornamento in blocco restituisce un errore o un errore, consulta Risoluzione dei [problemi relativi agli strumenti](../../reference/bulk-management-tools/bulk-troubleshooting.md)di gestione in blocco.
