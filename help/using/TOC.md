@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -100,7 +100,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + Destinazioni basate su dispositivo (da server a server) {#device-based}
          + [Aggiungi nuove destinazioni basate su dispositivo](features/destinations/add-device-based-destinations.md)
          + [Elenco delle destinazioni basate su dispositivo di Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
-         + [Aggiunta o modifica di segmenti per le destinazioni tra server](features/destinations/add-edit-segments.md)
+         + [Aggiunta o modifica di segmenti per le destinazioni da server a server](features/destinations/add-edit-segments.md)
          + [Configurare l&#39;audience personalizzata di Twitter come destinazione autonoma basata su dispositivo](features/destinations/twitter-tailored-audiences.md)
       + Destinazioni personalizzate {#custom-destinations}
          + [Configurare una destinazione URL](features/destinations/create-url-destination.md)
@@ -118,7 +118,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + [Dashboard regole di unione profilo](features/profile-merge-rules/merge-rules-dashboard.md)
       + [Opzioni Regola di unione profilo definite](features/profile-merge-rules/merge-rule-definitions.md)
       + [Casi di utilizzo generali per le regole di unione dei profili](features/profile-merge-rules/merge-rule-targeting-options.md)
-      + [Casi di utilizzo del grafico dei collegamenti profilo](features/profile-merge-rules/profile-link-use-case.md)
+      + [Casi di utilizzo del grafico del dispositivo di collegamento profilo](features/profile-merge-rules/profile-link-use-case.md)
       + [Casi d&#39;uso dei grafici dei dispositivi esterni](features/profile-merge-rules/external-graph-use-cases.md)
       + [Metriche dei rapporti per le regole di unione dei profili](features/profile-merge-rules/profile-link-metrics.md)
       + [Regole di unione dei profili e processi di rimozione della segmentazione del dispositivo](features/profile-merge-rules/merge-rule-unsegment.md)
@@ -143,7 +143,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + [Gestisci caratteristiche cartella](features/traits/manage-folder-traits.md)
       + Generatore di caratteristiche{#trait-builder}
          + [Informazioni su Generatore di caratteristiche](features/traits/about-trait-builder.md)
-         + [Creare caratteristiche basate su regole o registrate](features/traits/create-onboarded-rule-based-traits.md)
+         + [Creazione di caratteristiche basate su regole o registrate](features/traits/create-onboarded-rule-based-traits.md)
          + [Gestione delle regole delle caratteristiche](features/traits/manage-trait-rules.md)
          + [Creare caratteristiche algoritmiche](features/traits/create-algorithmic-traits.md)
          + [Utilizzo degli operatori di confronto in Generatore di caratteristiche](features/traits/trait-comparison-operators.md)
@@ -190,7 +190,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
          + [File di dati per report di ottimizzazione dell&#39;audience e file di registro fruibili](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [Panoramica e mappature per i file di metadati](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [Convenzioni di denominazione per i file di metadati](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
-         + [Formato contenuto per i file di metadati](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
+         + [Formato del contenuto per i file di metadati](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
          + [Metodi di consegna per i file di metadati](reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)
       + [Report Variazione caratteristica giornaliera](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Rapporti interattivi e sovrapposizione {#interactive-and-overlap-reports}
@@ -221,7 +221,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + API DCS{#dcs-apis}
          + [API DCS per trasferimenti di dati da server a server](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [Ottenere ID utente e aree geografiche da una risposta DCS](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-         + [Ottenere gli ID utente e le aree geografiche tramite il servizio Experience Cloud ID](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+         + [Ottenere gli ID utente e le aree geografiche tramite il servizio di identità Adobe Experience Platform](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [Esecuzione di chiamate API DCS da server a server](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + Riferimento API DCS{#dcs-api-reference}
          + [Panoramica di riferimento API DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
@@ -236,7 +236,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + [Panoramica delle API REST](api/rest-api-main/rest-api-main.md)
       + [Guida introduttiva alle API REST](api/rest-api-main/aam-api-getting-started.md)
       + [Metodi API algoritmici](api/rest-api-main/aam-api-algo-methods.md)
-      + [Metodi API della libreria di integrazione dati](api/rest-api-main/aam-api-dil-methods.md)
+      + [Metodi API della libreria di integrazione dei dati](api/rest-api-main/aam-api-dil-methods.md)
       + [Metodi API origine dati](api/rest-api-main/aam-api-data-sources.md)
       + [Metodi API dei segnali derivati](api/rest-api-main/aam-api-derived-signals.md)
       + Metodi API di destinazione{#destination-api-methods}
@@ -286,7 +286,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
       + [OAS come destinazione di Audience Manager](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX come destinazione di Audience Manager](integration/integrating-third-party/openx-destination.md)
       + [DFP come destinazione di Audience Manager](integration/aam-dfp.md)
-      + [Invia segmenti a un elenco di note di Google AdWords](integration/integrating-third-party/rlsa-integration.md)
+      + [Invia segmenti a un elenco di commenti di Google AdWords](integration/integrating-third-party/rlsa-integration.md)
    + [Implementazione di Audience Manager](integration/implement-audience-manager.md)
    + Integrazione dei dati multimediali{#media-data-integration}
       + [Panoramica sull’integrazione dei dati multimediali](integration/media-data-integration/media-data-integration.md)
@@ -339,7 +339,7 @@ source-git-commit: 475603733f9695aa3baae5ed02c8a13c8d867081
    + [Ambiente beta](reference/beta-environment.md)
    + [Espressioni booleane in Generatore di caratteristiche e segmenti](reference/boolean-expressions-tsb.md)
    + Strumenti di gestione di massa{#bulk-management-tools}
-      + [Guida Introduttiva Alla Gestione Di Gruppi](reference/bulk-management-tools/bulk-management-intro.md)
+      + [Guida Introduttiva Alla Gestione Di Massa](reference/bulk-management-tools/bulk-management-intro.md)
       + [Richieste in blocco](reference/bulk-management-tools/bulk-requests.md)
       + [Aggiornamenti di massa](reference/bulk-management-tools/bulk-updates.md)
       + [Creazione in blocco](reference/bulk-management-tools/bulk-create.md)
