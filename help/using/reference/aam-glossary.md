@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossario
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: d5a8b763d2d0d1ceebe2252ebd283943dcbc1754
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -19,7 +19,7 @@ Definizioni e collegamenti per ulteriori letture.
 
 **Modellazione algoritmica**
 
-Utilizzate [!UICONTROL Algorithmic Modeling] come mezzo per estendere la portata oltre il nucleo di utenti identificato. Questa funzione consente di scoprire audience nuove e uniche tramite l'analisi automatizzata dei dati. Gestisci [!UICONTROL Algorithmic Models] in **[!UICONTROL Audience Data > Models]**.
+Utilizzate [!UICONTROL Algorithmic Modeling] come mezzo per estendere la portata oltre il nucleo di utenti identificato. Questa funzione consente di scoprire audience nuove e uniche tramite l&#39;analisi automatizzata dei dati. Gestisci [!UICONTROL Algorithmic Models] in **[!UICONTROL Audience Data > Models]**.
 
 Consulta [I modelli](../features/algorithmic-models/understanding-models.md#understanding-models)algoritmici.
 
@@ -43,7 +43,7 @@ Consultate Feed [dati](../features/cdf-files.md)cliente.
 
 **ID CRM**
 
-L'ID CRM è l'ID tramite il quale i clienti identificano gli utenti nel proprio sistema CRM. Invece dell'ID CRM, utilizziamo il termine DPUUID in Audience Manager.
+L&#39;ID CRM è l&#39;ID tramite il quale i clienti identificano gli utenti nel proprio sistema CRM. Invece dell&#39;ID CRM, utilizziamo il termine DPUUID in Audience Manager.
 
 Consulta DPUUID nell’ [indice degli ID in Audience Manager](../reference/ids-in-aam.md).
 
@@ -78,7 +78,7 @@ In [Pubblico](/help/using/features/addressable-audiences.md)indirizzabile, quest
 
 **demdex.net**
 
-Demdex.net è un dominio legacy controllato da [!DNL Adobe]. Riflette [!DNL Audience Manager]il nome originale pre-acquisizione ( [!DNL Demdex]). [!DNL Adobe] acquisita [!DNL Demdex] nel 2011 e ridenominata l'azienda come [!DNL Audience Manager]. Tutte le chiamate HTTP ai `demdex.net` domini sono chiamate inviate a [!DNL Adobe].
+Demdex.net è un dominio legacy controllato da [!DNL Adobe]. Riflette [!DNL Audience Manager]il nome originale pre-acquisizione ( [!DNL Demdex]). [!DNL Adobe] acquisita [!DNL Demdex] nel 2011 e ridenominata l&#39;azienda come [!DNL Audience Manager]. Tutte le chiamate HTTP ai `demdex.net` domini sono chiamate inviate a [!DNL Adobe].
 
 Vedi [Informazioni sulle chiamate al dominio demdex](../reference/demdex-calls.md).
 
@@ -100,7 +100,7 @@ In [!DNL Audience Manager], una destinazione è qualsiasi altro sistema (ad serv
 
 **DIL**
 
-Si [!UICONTROL Data Integration Library] tratta di una libreria API utilizzata da [!DNL Audience Manager] per raccogliere i dati di interazione dell'utente. See [Data Integration Library (DIL) API](../dil/dil-overview.md).
+Si [!UICONTROL Data Integration Library] tratta di una libreria API utilizzata da [!DNL Audience Manager] per raccogliere i dati di interazione dell&#39;utente. See [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
 <br> 
 
@@ -112,7 +112,7 @@ Si [!UICONTROL Data Integration Library] tratta di una libreria API utilizzata d
 
 **Experience Cloud ID (ECID)**
 
-Precedentemente denominato [!DNL Marketing Cloud] ID (MID o MCID). L’ [!DNL Experience Cloud] ID è fondamentale per il servizio ID. È un identificatore univoco e permanente per i visitatori del sito. See Cookies and the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html).
+Precedentemente denominato [!DNL Marketing Cloud] ID (MID o MCID). L’ [!DNL Experience Cloud] ID è fondamentale per il servizio ID. È un identificatore univoco e permanente per i visitatori del sito. Consulta Cookie e il servizio [identità](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html)Adobe Experience Platform.
 
 <br> 
 
@@ -120,7 +120,7 @@ Precedentemente denominato [!DNL Marketing Cloud] ID (MID o MCID). L’ [!DNL Ex
 
 Raggruppamento automatico delle caratteristiche all’interno della tassonomia delle cartelle. Ogni cartella nella gerarchia crea automaticamente una caratteristica che può essere utilizzata per definire i segmenti.
 
-Consulta Caratteristiche [cartella: Informazioni](../features/traits/about-folder-traits.md).
+Consulta Caratteristiche [della cartella: Informazioni](../features/traits/about-folder-traits.md).
 
 <br> 
 
@@ -134,7 +134,7 @@ Vedere [Recency e Frequenza](../features/segments/recency-and-frequency.md).
 
 **GAID**
 
-Google Advertising ID, l'ID dispositivo univoco che Google assegna ai dispositivi hardware che eseguono il sistema operativo Android. Vedi l’ [indice degli ID in Audience Manager](../reference/ids-in-aam.md).
+Google Advertising ID, l&#39;ID dispositivo univoco che Google assegna ai dispositivi hardware che eseguono il sistema operativo Android. Vedi l’ [indice degli ID in Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -147,7 +147,7 @@ Consulta [Indice degli ID in Audience Manager](../reference/ids-in-aam.md).
 
 **IDFA**
 
-Identificatore per gli inserzionisti, l'ID dispositivo univoco assegnato da Apple ai suoi prodotti. Vedi l’ [indice degli ID in Audience Manager](../reference/ids-in-aam.md).
+Identificatore per gli inserzionisti, l&#39;ID dispositivo univoco assegnato da Apple ai suoi prodotti. Vedi l’ [indice degli ID in Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -159,11 +159,11 @@ Il processo tramite il quale è possibile inviare dati di audience da altre orig
 
 **Codice integrazione**
 
-Quando lavori con l' [!DNL Audience Manager] interfaccia utente o l'API, puoi aggiungere un codice di integrazione quando crei caratteristiche, segmenti o origini dati. I codici di integrazione hanno finalità diverse in questi casi:
+Quando lavori con l&#39; [!DNL Audience Manager] interfaccia utente o l&#39;API, puoi aggiungere un codice di integrazione quando crei caratteristiche, segmenti o origini dati. I codici di integrazione hanno finalità diverse in questi casi:
 
 * [!UICONTROL Traits]: un codice di integrazione è un campo per un ID, uno SKU o altro valore utilizzato dai processi aziendali interni. Facoltativo.
 * [!UICONTROL Segments]: un codice di integrazione è un campo per un ID definito dall’utente o per altre informazioni specifiche per la società. Facoltativo.
-* [!UICONTROL Data Sources]: i codici di integrazione sono richiesti per creare origini dati multi-dispositivo, utilizzare il servizio Experience Cloud ID o lavorare con [!UICONTROL Profile Merge Rules]. Per ulteriori informazioni, consulta [Creazione di un'origine](../features/manage-datasources.md#create-data-source) dati.
+* [!UICONTROL Data Sources]: i codici di integrazione sono necessari per creare origini dati multi-dispositivo, utilizzare Adobe Experience Platform Identity Service o lavorare con [!UICONTROL Profile Merge Rules]. Per ulteriori informazioni, consulta [Creazione di un&#39;origine](../features/manage-datasources.md#create-data-source) dati.
 
 ## K-L {#k-l}
 
@@ -183,7 +183,7 @@ Vedi il [Experience Cloud ID](../reference/aam-glossary.md#e-f).
 
 [!UICONTROL Profile Cache Server]. Il database [!UICONTROL PCS] è grande, in esecuzione su Apache Cassandra. Memorizza i dati ricevuti dagli utenti attivi dai trasferimenti server-to-server e [!UICONTROL DCS]. [!UICONTROL PCS] i dati sono costituiti dagli ID dispositivo, dagli ID profilo autenticati e dalle caratteristiche associate.
 
-Vedi Componenti [per la raccolta](../reference/system-components/components-data-collection.md)dati.
+Consulta Componenti [per la raccolta](../reference/system-components/components-data-collection.md)dati.
 
 <br> 
 
@@ -203,7 +203,7 @@ See [Profile Merge Rule Options Defined](../features/profile-merge-rules/merge-r
 
 **Realizzazione**
 
-L'azione con cui un visitatore sul sito si qualifica per una caratteristica. Potete usare lo strumento visualizzatore [profilo](../features/visitor-profile-viewer.md) visitatore per ottenere informazioni sulla realizzazione delle caratteristiche da parte di un utente specifico.
+L&#39;azione con cui un visitatore sul sito si qualifica per una caratteristica. Potete usare lo strumento visualizzatore [profilo](../features/visitor-profile-viewer.md) visitatore per ottenere informazioni sulla realizzazione delle caratteristiche da parte di un utente specifico.
 
 ## S-T {#s-t}
 
@@ -217,7 +217,7 @@ Consulta [Segmenti: Finalità, composizione e regole](../features/segments/segme
 
 **Pubblico indirizzabile al segmento**
 
-In Pubblico di [riferimento](/help/using/features/addressable-audiences.md), questa metrica rappresenta il numero di utenti che sono apparsi al segmento durante il periodo di look-back del report e hanno una sincronizzazione ID attiva sul sito. I segmenti possono includere dati di prime parti e dati di seconda e terza parte, attraverso caratteristiche acquisite in [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
+In Pubblico di [riferimento](/help/using/features/addressable-audiences.md), questa metrica rappresenta il numero di utenti che sono apparsi al segmento durante il periodo di look-back del report e hanno una sincronizzazione ID attiva sul sito. I segmenti possono includere dati di prime parti e dati di seconda e terza parte, attraverso le caratteristiche acquisite in [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
 <br> 
 
@@ -253,7 +253,7 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
 **TTL (Time-to-Live)**
 
-TTL definisce quanti giorni un visitatore qualificato rimane in una caratteristica. TTL è impostato sulle caratteristiche e non sui segmenti. I visitatori non rientrano in un segmento se non vedono una caratteristica valida prima della fine dell'intervallo TTL. Leggi tutto in [Segment (Segmento) e Trait Time-to-Live](/help/using/features/traits/segment-ttl-explained.md).
+TTL definisce quanti giorni un visitatore qualificato rimane in una caratteristica. TTL è impostato sulle caratteristiche e non sui segmenti. I visitatori non rientrano in un segmento se non vedono una caratteristica valida prima della fine dell&#39;intervallo TTL. Leggi tutto in [Segment (Segmento) e Trait Time-to-Live](/help/using/features/traits/segment-ttl-explained.md).
 
 <br> 
 
@@ -269,7 +269,7 @@ TTL definisce quanti giorni un visitatore qualificato rimane in una caratteristi
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-See the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) documentation.
+Consulta la documentazione di [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) .
 
 ## W-X-Y-Z {#w-z}
 
