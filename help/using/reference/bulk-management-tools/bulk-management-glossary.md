@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossario degli strumenti di gestione di massa
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,7 +23,7 @@ Definite le etichette di intestazione delle colonne.
 
 >[!NOTE]
 >
->Le [!UICONTROL Bulk Management Tools] opzioni non *sono supportate da* [!DNL Audience Manager]. Questo strumento è fornito per comodità e solo come cortesia. Per modifiche di massa, consigliamo di lavorare con le API [](../../api/rest-api-main/aam-api-getting-started.md) Audience Manager. [Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -67,7 +67,7 @@ Definite le etichette di intestazione delle colonne.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sid</span> </p> </td> 
-   <td colname="col2"> <p> ID segmento. </p> </td> 
+   <td colname="col2"> <p>ID segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
@@ -101,9 +101,9 @@ Definite le etichette di intestazione delle colonne.
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
    <td colname="col2"> <p>Stringa che identifica il tipo di caratteristica. Le opzioni includono: </p> 
     <ul id="ul_AB5B4F87B14241DCBBE44B0B7BD4EF72"> 
-     <li id="li_21F9412CDDC64FAA888C6542E284C436"> <code> Rule_BASED_TRAIT</code> </li> 
+     <li id="li_21F9412CDDC64FAA888C6542E284C436"> <code> RULE_BASED_TRAIT</code> </li> 
      <li id="li_5A5EA9A1EC5C45C991875EBBE7979A5A"> <code> ON_BOARDED_TRAIT </code> </li> 
-     <li id="li_F38B58ADE3324E97A71E3F94F11945BE"> <code> SEGMENTO</code> </li> 
+     <li id="li_F38B58ADE3324E97A71E3F94F11945BE"> <code> SEGMENT</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
