@@ -7,7 +7,7 @@ solution: Audience Manager
 title: ID dichiarati
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 Funzionamento degli ID dichiarati, configurazione di procedure, esempi di codice e variabili.
 
-##  Targeting degli ID dichiarati {#declared-id-targeting}
+## Targeting degli ID dichiarati {#declared-id-targeting}
 
 Scambiate e sincronizzate gli ID utente con Audience Manager da dispositivi o browser che non utilizzano o accettano meccanismi di memorizzazione persistenti, ad esempio cookie di terze parti.
 
@@ -24,7 +24,7 @@ Scambiate e sincronizzate gli ID utente con Audience Manager da dispositivi o br
 
 ## Finalità del targeting con ID dichiarato {#declared-id-targeting-purpose}
 
-Alcuni browser e la maggior parte dei dispositivi mobili non accettano i cookie di terze parti. Ciò rende difficile conservare le informazioni sui visitatori del sito o assegnare ID persistenti. Per risolvere questo problema, Audience Manager utilizza [!UICONTROL DIL] per consentirvi di passare [!UICONTROL declared IDs] a una chiamata dell'evento. Inoltre, un [!UICONTROL declared ID] può fungere da ID universale applicabile allo stesso utente in tutte le soluzioni del [!DNL Experience Cloud]. La tabella seguente descrive il processo di targeting degli ID/corrispondenza:
+Alcuni browser e la maggior parte dei dispositivi mobili non accettano i cookie di terze parti. Ciò rende difficile conservare le informazioni sui visitatori del sito o assegnare ID persistenti. Per risolvere questo problema, Audience Manager utilizza [!UICONTROL DIL] per consentirvi di passare [!UICONTROL declared IDs] a una chiamata dell&#39;evento. Inoltre, un [!UICONTROL declared ID] può fungere da ID universale applicabile allo stesso utente in tutte le soluzioni del [!DNL Experience Cloud]. La tabella seguente descrive il processo di targeting degli ID/corrispondenza:
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 
@@ -36,7 +36,7 @@ Alcuni browser e la maggior parte dei dispositivi mobili non accettano i cookie 
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Chiamata evento</b> </td> 
-   <td colname="col2"> <p>Per funzionare, hai bisogno di <span class="wintitle"> DIL </span> e del codice del servizio <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Experience Cloud ID </a> sulla pagina. <span class="wintitle"> DIL </span> riceve gli ID <span class="wintitle"> dichiarati </span> dalla <code> setVisitorID </code> funzione fornita dal servizio <span class="keyword"> Experience Cloud ID </span> e li trasmette ad <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Per funzionare, è necessario disporre di <span class="wintitle"> DIL </span> e del codice di servizio identità <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Platform </a> sulla pagina. <span class="wintitle"> DIL </span> riceve gli ID <span class="wintitle"> dichiarati </span> dalla <code> setVisitorID </code> funzione fornita dal servizio <span class="keyword"> Adobe Experience Platform Identity Service </span> e li trasmette ad <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID corrispondenza</b> </td> 
@@ -57,10 +57,10 @@ Per iniziare, devi configurare il servizio [!DNL Experience Cloud] ID e [!UICONT
 
 ## Chiamate di rifiuto {#opt-out-calls}
 
-Il [!UICONTROL declared ID] processo rispetta le preferenze dei visitatori del sito per rinunciare al targeting di Audience Manager dal sito Web. Quando Audience Manager riceve una richiesta di rifiuto, il [!DNL JSON] restituito dal [!UICONTROL DCS] feed contiene il codice di errore 171, con il messaggio "Incontrato tag di rifiuto", invece dell’ID utente di Audience Manager.
+Il [!UICONTROL declared ID] processo rispetta le preferenze dei visitatori del sito per rinunciare al targeting di Audience Manager dal sito Web. Quando Audience Manager riceve una richiesta di rifiuto, il [!DNL JSON] restituito dal [!UICONTROL DCS] feed contiene il codice di errore 171, con il messaggio &quot;Incontrato tag di rifiuto&quot;, invece dell’ID utente di Audience Manager.
 
 * Audience Manager può trasmettere una [!UICONTROL declared ID] rinuncia insieme a Audience Manager [!UICONTROL UUID] nella [!DNL URL].
-* Il [!UICONTROL declared ID] rifiuto viene memorizzato nel server cache del profilo [!UICONTROL ([!UICONTROL PCS]) su base individuale. Non esiste un rifiuto a livello di piattaforma tramite [!UICONTROL declared IDs]. Inoltre, Audience Manager esclude l'utente da quella particolare area sul margine (la rinuncia non attraversa [!UICONTROL DCS] aree geografiche).
+* Il [!UICONTROL declared ID] rifiuto viene memorizzato nel server cache del profilo [!UICONTROL ([!UICONTROL PCS]) su base individuale. Non è disponibile l&#39;opzione di rifiuto a livello di piattaforma tramite [!UICONTROL declared IDs]. Inoltre, Audience Manager esclude l&#39;utente da quella particolare area sul margine (la rinuncia non attraversa [!UICONTROL DCS] aree geografiche).
 
 Consulta Privacy [dei](../overview/data-security-and-privacy/data-privacy.md) dati per ulteriori informazioni sul rifiuto della raccolta dei dati.
 
@@ -81,7 +81,7 @@ Per una descrizione e una sintassi, consultate Variabili [URL e sintassi per ID]
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>ID provider di dati e ID utente. </p> </td> 
+   <td colname="col1"> <p>Un ID provider di dati e un ID utente. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
@@ -165,7 +165,7 @@ Considerate queste coppie chiave-valore e la sintassi richiesta, effettuerete le
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>ID provider di dati e ID utente. </p> </td> 
+   <td colname="col1"> <p>Un ID provider di dati e un ID utente. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
@@ -183,11 +183,11 @@ Considerate queste coppie chiave-valore e la sintassi richiesta, effettuerete le
 
 Descrive le variabili di configurazione utilizzate per trasmettere gli ID dichiarati [!UICONTROL DIL] a [!DNL Audience Manager.]
 
-## DIL usa il servizio Experience Cloud ID per trasmettere gli ID dichiarati {#dil-id-service-pass-declared-ids}
+## DIL utilizza il servizio Adobe Experience Platform Identity per trasmettere gli ID dichiarati {#dil-id-service-pass-declared-ids}
 
 <!-- r_dil_declared_id_vars.xml -->
 
-Quando viene utilizzato con il servizio [](https://marketing.adobe.com/resources/help/en_US/mcvid/)Experience Cloud ID, non è più necessario passare [!UICONTROL declared IDs] con le variabili `dpid` e `dpuuid` obsolete. Al contrario, le versioni correnti di [!UICONTROL DIL] si basano sulla `visitorService` funzione per ottenere il [!UICONTROL declared IDs] dalla `setCustomerIDs` funzione in [!UICONTROL Experience Cloud ID Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). Puoi effettuare una chiamata `visitorService` in `DIL.create` base a quanto indicato di seguito.
+Se utilizzato con [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), non è più necessario passare [!UICONTROL declared IDs] con le variabili `dpid` e `dpuuid` obsolete. Al contrario, le versioni correnti di [!UICONTROL DIL] si basano sulla `visitorService` funzione per ottenere il [!UICONTROL declared IDs] dalla `setCustomerIDs` funzione in [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). Puoi effettuare una chiamata `visitorService` in `DIL.create` base a quanto indicato di seguito.
 
 ```js
 var vDil = DIL.create({
@@ -202,8 +202,8 @@ Nella coppia chiave-valore `namespace` è il tuo `MCORG` [!DNL Experience Cloud]
 
 ## Funzioni obsolete {#deprecated-functions}
 
-Con le versioni più recenti di [!UICONTROL DIL] (6.2+), non è necessario utilizzare queste coppie chiave-valore per passare [!UICONTROL declared IDs]. Questo perché [!UICONTROL DIL] ora si basa sulla `visitorService` funzione mostrata nel codice di esempio sopra. Questa funzione viene [!UICONTROL declared IDs] dal [!UICONTROL Experience Cloud ID Service]. Tuttavia, stiamo facendo riferimento a queste variabili per scopi storici e legacy. Consulta il codice seguente per un esempio di come configurare `DIL.create` per ottenere un [!UICONTROL declared ID] da [!UICONTROL Visitor ID Service].
-La tabella seguente descrive le variabili legacy utilizzate dall' `declaredId` oggetto:
+Con le versioni più recenti di [!UICONTROL DIL] (6.2+), non è necessario utilizzare queste coppie chiave-valore per passare [!UICONTROL declared IDs]. Questo perché [!UICONTROL DIL] ora si basa sulla `visitorService` funzione mostrata nel codice di esempio sopra. Questa funzione viene [!UICONTROL declared IDs] dal [!UICONTROL Adobe Experience Platform Identity Service]. Tuttavia, stiamo facendo riferimento a queste variabili per scopi storici e legacy. Consulta il codice seguente per un esempio di come configurare `DIL.create` per ottenere un [!UICONTROL declared ID] da [!UICONTROL Visitor ID Service].
+La tabella seguente descrive le variabili legacy utilizzate dall&#39; `declaredId` oggetto:
 
 <table id="table_A1884B72950F4BBDA87F17DDFF173628"> 
  <thead> 
@@ -229,9 +229,9 @@ La tabella seguente descrive le variabili legacy utilizzate dall' `declaredId` o
 
 ### `DPID` e `DPUUID`
 
-Audience Manager confronta e corrisponde al combinato `DPID` e `DPUUID` a un ID utente corrispondente nel nostro sistema. Se un ID non esiste, Audience Manager crea un nuovo ID utente e lo sincronizza con la `DPID/DPUUID` combinazione. Quando Audience Manager corrisponde o crea un ID utente (il `UUID`), restituisce tale ID nella [!DNL JSON] risposta al cookie nel dominio del client (cookie di prima parte) o in altro archivio locale.
+Audience Manager confronta e corrisponde all’ID utente combinato `DPID` e `DPUUID` a quello corrispondente nel nostro sistema. Se un ID non esiste, Audience Manager crea un nuovo ID utente e lo sincronizza con la `DPID/DPUUID` combinazione. Quando Audience Manager corrisponde o crea un ID utente (il `UUID`), restituisce tale ID nella [!DNL JSON] risposta al cookie nel dominio del client (cookie di prima parte) o in altro archivio locale.
 
-Chiama questa funzione quando utilizzi [!UICONTROL DIL] v6.1 o versioni precedenti. Tuttavia, questa funzione è stata sconsigliata a favore della nuova versione che viene [!UICONTROL declared IDs] dalla [!UICONTROL Experience Cloud ID Service].
+Chiama questa funzione quando utilizzi [!UICONTROL DIL] v6.1 o versioni precedenti. Tuttavia, questa funzione è stata sconsigliata a favore della nuova versione che viene [!UICONTROL declared IDs] dalla [!UICONTROL Adobe Experience Platform Identity Service].
 
 ```js
 DIL.create({
