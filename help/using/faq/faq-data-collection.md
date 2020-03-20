@@ -5,8 +5,9 @@ seo-title: Domande frequenti sulla raccolta dei dati e l'integrazione dei prodot
 solution: Audience Manager
 title: Domande frequenti sulla raccolta dei dati e l'integrazione dei prodotti
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
+keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
 
 ---
 
@@ -39,7 +40,7 @@ Sfortunatamente non possiamo. Questi IP vengono assegnati in modo dinamico, per 
 
 <br> 
 
-**Puoi fornirmi un indirizzo IP che posso inserire nella lista bianca per il tuo server FTP in entrata e in uscita?**
+**Puoi fornirmi un indirizzo IP che posso inserire nella whitelist per il server sFTP in entrata e in uscita?**
 
 Sì, vedi sotto.
 
