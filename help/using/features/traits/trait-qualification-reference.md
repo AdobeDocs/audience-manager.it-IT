@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Riferimento per la qualifica delle caratteristiche
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: ceda75d2bc57aa164cb048c20e3fcff33000cddb
+source-git-commit: bd0ebcddc89c2141e9ce55d7fa2e68b5ca1cbb22
 
 ---
 
@@ -34,13 +34,13 @@ A seconda del tipo di risultati che si desidera visualizzare nel grafico (filtra
 
 Quando filtrate i risultati tramite [!UICONTROL Device ID]:
 
-* Il [!UICONTROL Unique Trait Realizations] numero di visitatori anonimi del dispositivo che hanno aggiunto la caratteristica al proprio profilo, entro intervalli di tempo diversi.
-* Il [!UICONTROL Total Trait Population] numero totale dei visitatori anonimi del dispositivo che hanno la caratteristica sul loro profilo.
+* [!UICONTROL Unique Trait Realizations] è il numero di visitatori anonimi del dispositivo che hanno aggiunto la caratteristica al proprio profilo entro intervalli di tempo diversi.
+* [!UICONTROL Total Trait Population] è il numero di visitatori anonimi del dispositivo che hanno questa caratteristica sul loro profilo.
 
 Quando filtrate i risultati tramite [!UICONTROL Cross-Device ID]:
 
-* Il [!UICONTROL Unique Trait Realizations] numero di visitatori autenticati che hanno aggiunto la caratteristica al proprio profilo, entro intervalli di tempo diversi.
-* Il [!UICONTROL Total Trait Population] numero totale dei visitatori autenticati che hanno questa caratteristica sul loro profilo.
+* [!UICONTROL Unique Trait Realizations] è il numero di visitatori autenticati che hanno aggiunto la caratteristica al proprio profilo, entro intervalli di tempo diversi.
+* [!UICONTROL Total Trait Population] è il numero di visitatori autenticati che hanno questa caratteristica sul loro profilo.
 
 Pensate ai numeri in questo modo. Nell&#39;immagine qui sopra, dalla vista Dettagli [](../../features/traits/trait-details-page.md) caratteristica, 90.173 rappresenta il numero di dispositivi attivi che hanno visitato le vostre proprietà ieri. Il valore [!UICONTROL Total Trait Population] di 55.757 rappresenta la quantità di utenti attualmente qualificati per questa caratteristica. La [!UICONTROL Total Trait Population] figura mostra la quantità totale di utenti che potrebbero essere utilizzati per la segmentazione/il targeting. In genere, gli utenti restano parte di una caratteristica per 120 giorni.
 
