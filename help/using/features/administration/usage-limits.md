@@ -1,29 +1,29 @@
 ---
 description: Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell'interfaccia utente, sia che siano stati impostati in modo programmatico tramite i metodi API. I limiti di utilizzo contribuiscono a proteggere Audience Manager dai processi automatizzati che potrebbero tentare di compromettere le nostre API o interfaccia utente.
 seo-description: Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell'interfaccia utente, sia che siano stati impostati in modo programmatico tramite i metodi API. I limiti di utilizzo contribuiscono a proteggere Audience Manager dai processi automatizzati che potrebbero tentare di compromettere le nostre API o interfaccia utente.
-seo-title: ' Limiti di utilizzo'
+seo-title: Limiti di utilizzo
 solution: Audience Manager
-title: ' Limiti di utilizzo'
-keywords: Mappatura ID, mappature ID, mappature cookie
-uuid: 50ca4647-0b5c-409c-89fa-4fa1799b322
+title: Limiti di utilizzo
+keywords: ID mapping, ID mappings, cookie mappings
+uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
-source-git-commit: d893998e9e59dbce64195a167e267c6f7ed16f90
+source-git-commit: f9f201824accdde18efafa0a8c389af48423534d
 
 ---
 
 
-#  Limiti di utilizzo {#usage-limits}
+# Limiti di utilizzo {#usage-limits}
 
-Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell'interfaccia utente, sia che siano impostati in modo programmatico tramite [!DNL API] metodi. I limiti di utilizzo contribuiscono a proteggere Audience Manager dai processi automatizzati che potrebbero tentare di compromettere la nostra interfaccia [!DNL API]o quella dell'utente.
+Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell&#39;interfaccia utente, sia che siano impostati in modo programmatico tramite [!DNL API] metodi. I limiti di utilizzo contribuiscono a proteggere Audience Manager dai processi automatizzati che potrebbero tentare di compromettere la nostra interfaccia [!DNL API]o quella dell&#39;utente.
 
 ## Limiti di mappatura degli ID {#id-mapping-limits}
 
-Nella tabella seguente sono elencati i limiti di mappatura [](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) degli ID per gli ID dispositivo. Quando un ID raggiunge uno dei limiti seguenti, Audience Manager aggiunge nuove mappature ID basate su una logica [!DNL FIFO] (primo in, primo out), rimuovendo la mappatura ID memorizzata più antica e aggiungendo la nuova mappatura. Per informazioni sugli ID supportati da Audience Manager, consultate [Indice degli ID](../../reference/ids-in-aam.md) in Audience Manager.
+Nella tabella seguente sono elencati i limiti di mappatura [](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) degli ID per gli ID dispositivo. Quando un ID raggiunge uno dei limiti seguenti, Audience Manager aggiunge nuove mappature ID basate su una logica [!DNL FIFO] (primo in, primo out), rimuovendo la mappatura ID memorizzata più vecchia e aggiungendo la nuova mappatura. Per informazioni sugli ID supportati da Audience Manager, consultate [Indice degli ID](../../reference/ids-in-aam.md) in Audience Manager.
 
 | Mappatura ID | Limite massimo |
 |-----------|-------------- |
-| Device Advertising ID (DAID) to Cross-device ID (ID CRM) | 100 ID pubblicità dispositivo (DAID) a 1 ID cross-device (CRM ID) |
-| ID cross-device (CRM ID) per Device Advertising ID (DAID) | 10 ID multi-dispositivo (ID CRM) per 1 ID pubblicità dispositivo (DAID) |
+| Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to 1 Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) |
+| ID cross-device ([DPUUID](../../reference/ids-in-aam.md)) per Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 ID cross-device ([DPUUID](../../reference/ids-in-aam.md)) a 1 ID pubblicitario dispositivo ([DAID](../../reference/ids-in-aam.md)), per ogni [DPID](../../reference/ids-in-aam.md) |
 | Cookie/ID browser per cookie/ID browser | 1000 cookie/ID browser a 1 cookie/ID browser |
 
 ## Limiti elemento {#item-limits}
@@ -39,7 +39,7 @@ Le tabelle elencano i limiti correnti per tipo di articolo. Non puoi creare nuov
 | Algoritmo | 50 |
 | Basato su regola | 100,000 |
 | Onboard | 100,000 |
-|  Caratteristiche cartella | 2,000 |
+| Caratteristiche delle cartelle | 2,000 |
 
 ### Limiti segmento
 
@@ -69,7 +69,7 @@ Le tabelle elencano i limiti correnti per tipo di articolo. Non puoi creare nuov
 
 | Elemento | Limite massimo |
 | ------------- | ------------------ |
-|  Cartelle caratteristiche | 2,000.  La struttura delle cartelle può avere una profondità massima di 5 livelli. |
+| Cartelle caratteristiche | 2,000.  La struttura delle cartelle può avere una profondità massima di 5 livelli. |
 
 ### Limiti dei segnali derivati
 
@@ -85,10 +85,10 @@ Le tabelle elencano i limiti correnti per tipo di articolo. Non puoi creare nuov
 
 ## Utilizzo monitor {#monitor-usage}
 
-Potete visualizzare l'utilizzo e i limiti dell'account andando **[!UICONTROL Administration > Limits]**. L'accesso richiede autorizzazioni dell'amministratore.
+Potete visualizzare l&#39;utilizzo e i limiti dell&#39;account andando **[!UICONTROL Administration > Limits]**. L&#39;accesso richiede autorizzazioni dell&#39;amministratore.
 
 ![immagine con limiti di utilizzo](assets/usage-limits.png)
 
 ## Aumenta limiti articolo {#increase-item-limits}
 
-I limiti predefiniti elencati qui dovrebbero fornire capacità sufficiente per le esigenze aziendali. Se la vostra organizzazione raggiunge regolarmente questi limiti, contattate il rappresentante commerciale di riferimento per discutere di un aumento.
+I limiti predefiniti elencati qui dovrebbero fornire capacità sufficiente per le vostre esigenze aziendali. Se la vostra organizzazione raggiunge regolarmente questi limiti, contattate il rappresentante commerciale di riferimento per discutere di un aumento.
