@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Report sull'utilizzo dell'attività
 topic: Activity Usage Reporting
 translation-type: tm+mt
-source-git-commit: 7a3914af8fb225508f57724a75fe2547aac3f241
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -24,9 +24,9 @@ Inoltre, puoi scaricare il file [!UICONTROL Activity Usage Report] ogni volta ch
 
 Il [!UICONTROL Activity Usage Report] componente è disponibile per tutti gli utenti di Audience Manager con privilegi di [amministratore](edit-account-settings.md).
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> Il riquadro [!UICONTROL Activity Usage Report] mostra le statistiche di utilizzo dell&#39;attività dell&#39;istanza Audience Manager. Per qualsiasi richiesta di fatturazione relativa all&#39;utilizzo dell&#39;attività, contattate il vostro rappresentante Adobe.
+>Il riquadro [!UICONTROL Activity Usage Report] mostra le statistiche sull&#39;utilizzo dell&#39;attività dell&#39;istanza Audience Manager. Per qualsiasi richiesta di fatturazione relativa all&#39;utilizzo dell&#39;attività, contattate il vostro rappresentante Adobe.
 
 ## Casi d&#39;uso {#use-cases}
 
@@ -37,23 +37,24 @@ Esistono due casi d’uso principali di [!UICONTROL Activity Usage Report]:
 
 ## Utilizzo del rapporto Utilizzo dell&#39;attività {#using}
 
-Per visualizzare il [!UICONTROL Activity Usage Report]collegamento, accedi al tuo account Audience Manager e vai a **[!UICONTROL Administration]**>**[!UICONTROL Usage]**.
+Per visualizzare il [!UICONTROL Activity Usage Report]collegamento, accedi al tuo account Audience Manager e vai a **[!UICONTROL Administration]** > **[!UICONTROL Usage]**.
 
 ![aur-ui](assets/aur-ui.png)
 
-Quindi, utilizzate il **[!UICONTROL Reporting Interval]**filtro per selezionare l&#39;intervallo di tempo per il quale generare il rapporto. Puoi scegliere tra 30, 60, 90 giorni o un intervallo di date personalizzato.
+Quindi, utilizzate il **[!UICONTROL Reporting Interval]** filtro per selezionare l&#39;intervallo di tempo per il quale generare il rapporto. Puoi scegliere tra 30, 60, 90 giorni o un intervallo di date personalizzato.
 
 Una volta caricato il rapporto, potete visualizzare una suddivisione del periodo [!UICONTROL Activities] selezionato.
 
-[!UICONTROL Activities] definite il totale complessivo di tutte le interazioni in sito e offsite con Audience Manager, suddivise nelle seguenti categorie:
+[!UICONTROL Activities] Definite il totale complessivo di tutte le interazioni in sito e offsite con Audience Manager, suddivise nelle seguenti categorie:
 
 * **[!UICONTROL Server Calls]**: Qualsiasi evento di raccolta o recupero dei dati inviato ad Audience Manager da siti Web, server, e-mail, applicazioni mobili o altri sistemi.
-* **[!UICONTROL Pixel Calls](precedentemente noto come[!UICONTROL Impression Server Calls])**: Dati raccolti dagli annunci (come volume di impression da una piattaforma di targeting) o dalle chiamate di impression e-mail effettuate ad Audience Manager. Questi richiedono la presenza del `d_event` parametro nella stringa di query.
+* **[!UICONTROL Pixel Calls](precedentemente noto come[!UICONTROL Impression Server Calls])**: Dati raccolti dagli annunci (come volume di impression da una piattaforma di targeting) o dalle chiamate di impression e-mail effettuate ad Audience Manager. Questi richiedono la presenza del`d_event`parametro nella stringa di query.
 * **[!UICONTROL On-Boarded Records]**: Record univoci acquisiti dal sistema CRM (Customer Relationship Management System) o da altri file di dati offline, come record del call center, ID dispositivo e feed di dati personalizzati da fornitori di dati esterni.
 * **[!UICONTROL Log File Records]**: Record univoci dai file di registro inviati ad Audience Manager da una piattaforma di destinazione.
 
-> [!NOTE]
-> Un record univoco definisce ogni singolo record di dati in un file memorizzato da Adobe per conto di un cliente Audience Manager.
+>[!NOTE]
+>
+>Un record univoco definisce ogni singolo record di dati in un file memorizzato da Adobe per conto di un cliente Audience Manager.
 
 Inoltre, potete usare i tipi di [!UICONTROL Activity Usage Trends] grafico per passare da un tipo di grafico all’altro.
 
@@ -69,7 +70,7 @@ Per una migliore panoramica del livello di utilizzo dell&#39;attività di Audien
 
 ![aur-export](assets/aur-export.png)
 
-I **[!UICONTROL Onboarded Records Breakdown]**rapporti e**[!UICONTROL Onsite Server Calls Breakdown]** le informazioni più dettagliate sui dati di origine disponibili per queste attività. Il volume attribuito a queste suddivisioni è basato sull&#39;implementazione.
+I **[!UICONTROL Onboarded Records Breakdown]** rapporti e **[!UICONTROL Onsite Server Calls Breakdown]** le informazioni più dettagliate sui dati di origine disponibili per queste attività. Il volume attribuito a queste suddivisioni è basato sull&#39;implementazione.
 
 ### Suddivisione record caricati {#onboarded-breakdown}
 
@@ -81,4 +82,4 @@ Questo rapporto contiene una suddivisione delle chiamate server da tre origini: 
 
 * **[!UICONTROL Analytics]**: Si tratta di chiamate server fatturabili passate da tutte le istanze di Adobe Analytics ad Audience Manager, incluso l&#39;inoltro lato server. Le chiamate server secondarie o le chiamate server duplicate (come nel caso dell&#39;inoltro lato server da più suite di rapporti) non sono attività fatturabili, pertanto non sono incluse in questa suddivisione.
 * **[!UICONTROL Target]**: Si tratta di chiamate lato server da Adobe Target ad Audience Manager per recuperare i dati del segmento di Audience Manager come parte di un&#39;integrazione tra server.
-* **[!UICONTROL Other]**: Include chiamate da qualsiasi altro sito Web o sistema (siti partner, chiamate server dirette, ecc.), browser mobile/chiamate app tramite[!DNL SDK],[!DNL DIL], chiamate evento e[!DNL DCS]chiamate. Sono incluse anche le chiamate da[!DNL Target]se configurate come integrazione dei cookie (anziché da server a server).
+* **[!UICONTROL Other]**: Include le chiamate da qualsiasi altro sito Web o sistema (siti partner, chiamate server dirette, ecc.), browser mobile/chiamate app tramite [!DNL SDK], [!DNL DIL], chiamate evento e [!DNL DCS] chiamate. Include anche le chiamate da [!DNL Target] se configurate come integrazione dei cookie (anziché da server a server).
