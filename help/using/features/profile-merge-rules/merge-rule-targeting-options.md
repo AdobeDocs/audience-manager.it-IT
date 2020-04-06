@@ -1,19 +1,19 @@
 ---
-description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirati i tipi di pubblico in base a esigenze o obiettivi aziendali specifici. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
-seo-description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirati i tipi di pubblico in base a esigenze o obiettivi aziendali specifici. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
+description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirato il pubblico a specifici tipi di pubblico in base a esigenze o obiettivi aziendali. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
+seo-description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirato il pubblico a specifici tipi di pubblico in base a esigenze o obiettivi aziendali. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
 seo-title: Casi di utilizzo generali per le regole di unione dei profili
 solution: Audience Manager
 title: Casi di utilizzo generali per le regole di unione dei profili
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
 
 # Casi di utilizzo generali per le regole di unione dei profili {#general-use-cases-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rules] le opzioni consentono di espandere o restringere l'attenzione del pubblico su audience specifiche in base a esigenze o obiettivi aziendali. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi. [!UICONTROL Profile Merge Rules] lavorare con destinazioni in tempo reale e batch.
+[!UICONTROL Profile Merge Rules] le opzioni consentono di espandere o restringere l&#39;attenzione del pubblico su audience specifiche in base a esigenze o obiettivi aziendali. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi. [!UICONTROL Profile Merge Rules] lavorare con destinazioni in tempo reale e batch.
 
 >[!TIP]
 >
@@ -21,7 +21,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## Targeting dei dispositivi {#device-personalization}
 
-Questo scenario si applica agli addetti al marketing che desiderano valutare un profilo dispositivo singolo per un segmento di pubblico definito in Audience Manager, al fine di fornire un'esperienza coerente al dispositivo utilizzando piattaforme di targeting che supportano gli ID dispositivo (DSP, piattaforme di personalizzazione del sito e altre piattaforme di targeting basate su dispositivi), senza tenere conto dell'autenticazione utente.
+Questo scenario si applica agli addetti al marketing che desiderano valutare un profilo dispositivo singolo per un segmento di pubblico definito in Audience Manager, al fine di fornire un&#39;esperienza coerente al dispositivo utilizzando piattaforme di targeting che supportano gli ID dispositivo (DSP, piattaforme di personalizzazione del sito e altre piattaforme di targeting basate su dispositivi), senza tenere conto dell&#39;autenticazione utente.
 
 Per creare una regola che abbia come destinazione solo i profili dispositivo, selezionate **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
 
@@ -43,17 +43,17 @@ Il team marketing del negozio può utilizzare la regola **[!UICONTROL Current Au
 
 ![current-no-device](assets/current-no-device.png)
 
-Utilizzando questa regola, Audience Manager ignora completamente il profilo del dispositivo, qualifica l'ID CRM di John per il segmento e non l'ID CRM di Jane qualificato.
+Utilizzando questa regola, Audience Manager ignora completamente il profilo del dispositivo, qualifica l&#39;ID CRM di John per il segmento e non l&#39;ID CRM di Jane qualificato.
 
 ![shared-device-targeting](assets/shared-device-targeting.png)
 
 ## Targeting online/offline {#device-household-targeting}
 
-Questo caso d’uso riguarda la gestione dell’identità della famiglia. Una società può unire un singolo profilo dispositivo all'ultimo profilo autenticato su tale dispositivo, utilizzando la regola **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Profile]** .
+Questo caso d’uso riguarda la gestione dell’identità della famiglia. Un&#39;azienda può unire un singolo profilo dispositivo all&#39;ultimo profilo autenticato su tale dispositivo, utilizzando la regola **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Profile]** .
 
 ![last-device-profile](assets/last-device-profile.png)
 
-Consideriamo un segmento fatto di famiglie con redditi superiori a 100.000 dollari l'anno, contenente almeno un dispositivo [!DNL iPhone 7] [!DNL Data Plan B]attivato. Abbiamo due profili domestici (profili cross-device), ciascuno dei quali è collegato a due diversi profili dispositivo. Le caratteristiche richieste per qualificarsi per il segmento sono distribuite nei profili dispositivo e cross-device.
+Prendiamo in considerazione un segmento fatto di famiglie con redditi superiori a 100.000 dollari l&#39;anno, contenente almeno un dispositivo [!DNL iPhone 7] [!DNL Data Plan B]attivato. Abbiamo due profili domestici (profili cross-device), ciascuno dei quali è collegato a due diversi profili dispositivo. Le caratteristiche richieste per qualificarsi per il segmento sono distribuite nei profili dispositivo e cross-device.
 
 Audience Manager unisce ogni coppia di profili dispositivo + dispositivo per verificare se il set di caratteristiche unito è idoneo per il segmento. Poiché Audience Manager valuta ogni profilo incluso nell’unione, è possibile segmentare sia un profilo dispositivo che un profilo familiare.
 
@@ -63,9 +63,9 @@ Il collegamento tra il dispositivo e il profilo della famiglia consente ad Audie
 
 ## Targeting per destinazioni basate su persone {#all-cross-device}
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell'utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per assistenza legale.
+>Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell&#39;utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per ottenere assistenza legale.
 
 Questo scenario di targeting è disponibile solo per i clienti che hanno acquistato il [!DNL People-Based Destinations] componente aggiuntivo. Questa regola consente agli esperti di marketing di raggiungere i clienti in base ai propri dati autenticati.
 
@@ -77,7 +77,7 @@ Per ulteriori informazioni su questa opzione, consulta Destinazioni [basate sull
 
 ## Opzioni di Device Graph {#device-graph-options}
 
-La scelta di un' [!UICONTROL device graph] opzione per una [!UICONTROL Profile Merge] regola dipende da condizioni specifiche per le proprietà digitali e gli obiettivi aziendali. Queste linee guida generali consentono di comprendere quando utilizzare un tipo di grafico anziché un altro. Nota, devi essere membro di [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) o avere una relazione contrattuale con un grafico del dispositivo esterno per utilizzare queste opzioni. Per informazioni generali su quando scegliere un'opzione per il grafico del dispositivo, fare riferimento alla tabella seguente. Per casi d’uso specifici, consulta Casi [d’uso di Device Graph per collegamenti di](profile-link-use-case.md) profilo e Casi [d’uso di Device Graph](external-graph-use-cases.md)esterni.
+La scelta di un&#39; [!UICONTROL device graph] opzione per una [!UICONTROL Profile Merge] regola dipende da condizioni specifiche per le proprietà digitali e gli obiettivi aziendali. Queste linee guida generali possono aiutarti a capire quando utilizzare un tipo di grafico piuttosto che un altro. Nota, devi essere membro di [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) o avere una relazione contrattuale con un grafico del dispositivo esterno per utilizzare queste opzioni. Per informazioni generali su quando scegliere un&#39;opzione per il grafico del dispositivo, fare riferimento alla tabella seguente. Per casi d’uso specifici, consulta Casi [d’uso di Device Graph per collegamenti di](profile-link-use-case.md) profilo e Casi [d’uso di Device Graph](external-graph-use-cases.md)esterni.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -110,11 +110,11 @@ La scelta di un' [!UICONTROL device graph] opzione per una [!UICONTROL Profile M
 
 Guardate il video seguente per una panoramica dei possibili casi di utilizzo per [!UICONTROL Profile Merge Rules].
 
->[!VIDEO](https://video.tv.adobe.com/v/28975/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
 >[!MORELIKETHIS]
 >
->* [Casi di utilizzo del grafico dei collegamenti profilo](profile-link-use-case.md)
->* [Casi d'uso dei grafici dei dispositivi esterni](external-graph-use-cases.md)
+>* [Casi di utilizzo del grafico del dispositivo di collegamento profilo](profile-link-use-case.md)
+>* [Casi d&#39;uso dei grafici dei dispositivi esterni](external-graph-use-cases.md)
 >* [Domande frequenti sulle regole di unione dei profili](../../faq/faq-profile-merge.md)
 
