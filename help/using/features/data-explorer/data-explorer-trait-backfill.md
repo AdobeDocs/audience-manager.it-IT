@@ -5,7 +5,7 @@ seo-title: Realizzazioni caratteristica backfill
 title: Realizzazioni caratteristica backfill
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -16,7 +16,7 @@ Realizzazioni delle caratteristiche di backfill per catturare i tipi di pubblico
 
 >[!IMPORTANT]
 >
-> [!UICONTROL Data Explorer Trait Backfill] è una funzionalità premium che migliora l&#39;esperienza di Audience Manager sbloccando altri casi di utilizzo. Il backfill richiede ulteriore potenza di elaborazione ed è disponibile per tutti i clienti di Audience Manager a un costo incrementale. Per ulteriori informazioni, contattate il vostro rappresentante commerciale Adobe.
+>[!UICONTROL Data Explorer Trait Backfill] è una funzionalità premium che migliora l&#39;esperienza di Audience Manager sbloccando altri casi di utilizzo. Il backfill richiede ulteriore potenza di elaborazione ed è disponibile per tutti i clienti di Audience Manager a un costo incrementale. Per ulteriori informazioni, contattate il vostro rappresentante commerciale Adobe.
 
 Quando create caratteristiche da segnali non utilizzati, potete scegliere di recuperare le realizzazioni delle caratteristiche in un periodo di tempo specifico. [!DNL Audience Manager] acquisisce i dati storici sulle audience idonee per la nuova caratteristica e le memorizza sul profilo corrispondente. Potete visualizzarlo **[!UICONTROL Backfill Options]** nella [!UICONTROL Trait Expression] sezione del **[Generatore](../../features/traits/about-trait-builder.md)**di caratteristiche.
 
