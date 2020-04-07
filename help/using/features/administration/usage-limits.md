@@ -7,7 +7,7 @@ title: Limiti di utilizzo
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
-source-git-commit: f9f201824accdde18efafa0a8c389af48423534d
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -35,7 +35,7 @@ Le tabelle elencano i limiti correnti per tipo di articolo. Non puoi creare nuov
 | Tipo di caratteristica | Limite massimo |
 | -------------------------- | ------------------------------------- |
 | Caratteristiche totali | 100,000 |
-| Totale qualifiche caratteristiche | 150,000. Per ulteriori informazioni sulla qualificazione delle caratteristiche, vedere Limite di qualifica delle caratteristiche in Riferimento [alle qualifiche](/help/using/features/traits/trait-qualification-reference.md#trait-qualification-limit)delle caratteristiche. |
+| Totale qualifiche caratteristiche | 150,000. Per ulteriori informazioni sulla qualificazione delle caratteristiche, vedere Limite di qualifica delle caratteristiche in Riferimento [alle qualifiche](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit)delle caratteristiche. |
 | Algoritmo | 50 |
 | Basato su regola | 100,000 |
 | Onboard | 100,000 |
