@@ -2,10 +2,10 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Manager User Guide
+user-guide-title: Guida utente di Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -134,6 +134,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [Sintassi del codice utilizzata nell&#39;Editor di espressioni di segmento](features/segments/segment-code-syntax.md)
       + [Dati sulle caratteristiche e sulla popolazione dei segmenti nel Generatore di segmenti](features/segments/segment-builder-data.md)
       + [Consigli sulle caratteristiche](features/segments/trait-recommendations.md)
+      + [Riferimento per la qualifica di caratteristica e segmento](features/traits/trait-and-segment-qualification-reference.md)
    + Caratteristiche{#traits}
       + [Panoramica sulle caratteristiche](/help/using/features/traits/traits-overview.md)
       + [Pagina Dettagli caratteristica](features/traits/trait-details-page.md)
@@ -158,7 +159,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [Geotargeting con chiavi a livello di piattaforma](features/traits/trait-geotarget-keys.md)
       + [Targeting dei dispositivi con chiavi a livello di piattaforma](features/traits/trait-device-targeting.md)
       + [Espressioni di esempio con operatori booleani e di confronto](features/traits/trait-expression-samples.md)
-      + [Riferimento per la qualifica delle caratteristiche](features/traits/trait-qualification-reference.md)
+      + [Riferimento per la qualifica di caratteristica e segmento](features/traits/trait-and-segment-qualification-reference.md)
    + [Visualizzatore profilo visitatori](features/visitor-profile-viewer.md)
 + Generazione di rapporti  {#reporting}
    + [Panoramica dei report](reporting/reports-overview.md)
