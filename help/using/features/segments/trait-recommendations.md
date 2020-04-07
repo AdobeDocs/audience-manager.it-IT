@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Consigli sulle caratteristiche
 uuid: null
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 019396917482340f15b4eb23736b15322815bd84
 
 ---
 
@@ -80,9 +80,9 @@ Durante la creazione o la modifica di un segmento in Generatore [di](segment-bui
 ### Nuovi segmenti
 
 1. Vai a Dati **audience > Segmenti** e fai clic su **Aggiungi nuovo**.
-2. Nella casella a discesa **Caratteristiche** , aggiungi almeno una caratteristica alla regola del segmento.
-3. Potete visualizzare le caratteristiche consigliate di prima parte e le raccomandazioni sulle [!UICONTROL Audience Marketplace] caratteristiche dai feed a cui siete iscritti, nella **[!UICONTROL Recommendations]** sezione. La **[!UICONTROL Recommendations from Marketplace]** sezione mostra le raccomandazioni di caratteristiche dai feed a cui non si è iscritti. Tutte queste raccomandazioni sono simili alle caratteristiche aggiunte alla regola del segmento. Scorrete verso il basso per visualizzare tutte le caratteristiche consigliate.
-4. (Facoltativo) Per escludere caratteristiche di prime parti consigliate da determinate origini dati, fare clic sul simbolo **X** relativo alle origini dati da escludere.
+1. Nella casella a discesa **Caratteristiche** , aggiungi almeno una caratteristica alla regola del segmento.
+1. Potete visualizzare le caratteristiche consigliate di prima parte e le raccomandazioni sulle [!UICONTROL Audience Marketplace] caratteristiche dai feed a cui siete iscritti, nella **[!UICONTROL Recommendations]** sezione. La **[!UICONTROL Recommendations from Marketplace]** sezione mostra le raccomandazioni di caratteristiche dai feed a cui non si è iscritti. Tutte queste raccomandazioni sono simili alle caratteristiche aggiunte alla regola del segmento. Scorrete verso il basso per visualizzare tutte le caratteristiche consigliate.
+1. (Facoltativo) Per escludere caratteristiche di prime parti consigliate da determinate origini dati, fare clic sul simbolo **X** relativo alle origini dati da escludere.
 
    >[!NOTE]
    >
