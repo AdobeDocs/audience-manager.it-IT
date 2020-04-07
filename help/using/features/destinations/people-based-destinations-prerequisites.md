@@ -5,7 +5,7 @@ seo-title: Destinazioni basate su persone Prerequisiti e considerazioni
 solution: Audience Manager
 title: Prerequisiti e considerazioni
 translation-type: tm+mt
-source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -101,5 +101,5 @@ Quando si utilizza [!UICONTROL People-Based Destinations], utilizzare [Controlli
 
 Esistono due modi per trasferire i dati offline ad Audience Manager per [!DNL People-Based Destinations].
 
-* [Invia dati](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) batch ad Audience Manager per il caricamento di indirizzi e-mail con hash. Con questo metodo, potete scegliere di utilizzare gli indirizzi e-mail con hash del [!DNL CRM] database in [!DNL People-Based Destinations]. Inoltre, quando utilizzate questo metodo, potete anche qualificare gli indirizzi e-mail con hash per le caratteristiche [registrate](../traits/trait-qualification-reference.md).
+* [Invia dati](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) batch ad Audience Manager per il caricamento di indirizzi e-mail con hash. Con questo metodo, potete scegliere di utilizzare gli indirizzi e-mail con hash del [!DNL CRM] database in [!DNL People-Based Destinations]. Inoltre, quando utilizzate questo metodo, potete anche qualificare gli indirizzi e-mail con hash per le caratteristiche [registrate](../traits/trait-and-segment-qualification-reference.md).
 * Usate gli ID [dichiarati](../declared-ids.md) per dichiarare gli indirizzi e-mail con hash quando trasmettete gli ID cliente autenticati. Quando si utilizza questo metodo, Audience Manager, per vostro conto, invia solo agli indirizzi e-mail con [!DNL People-Based Destinations] hash degli utenti che hanno eseguito l&#39;autenticazione online. Gli indirizzi e-mail attivati attraverso i canali basati sulle persone sono solo quelli nelle chiamate dell&#39;evento ID dichiarate. Gli altri indirizzi e-mail associati all&#39;ID cliente non vengono inviati in tempo reale.
