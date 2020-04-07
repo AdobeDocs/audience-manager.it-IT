@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Campionamento dei dati e tassi di errore nei report Audience Manager selezionati
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -23,17 +23,17 @@ Questi report utilizzano dati campionati perché necessitano di una notevole qua
 
 I report che utilizzano il campionamento escludono caratteristiche e segmenti quando non soddisfano i requisiti minimi di visitatore univoco. Tali requisiti minimi sono i seguenti:
 
-* Caratteristiche: 28.000 realizzazioni [di caratteristiche](/help/using/features/traits/trait-qualification-reference.md#unique-trait-realizations) uniche in un periodo di 14 giorni.
+* Caratteristiche: 28.000 realizzazioni [di caratteristiche](/help/using/features/traits/trait-and-segment-qualification-reference.md#unique-trait-realizations) univoche per un periodo di 14 giorni.
 * Segmenti: 70.000 utenti in tempo reale per un periodo di 14 giorni.
 
-## Tassi errore {#error-rates}
+## Tassi di errore {#error-rates}
 
 Gli errori possono verificarsi nei report che generano dati di sovrapposizione. Un errore è definito come la percentuale di record che:
 
 * Non avrebbe dovuto essere incluso in un rapporto ma sarebbe stato comunque aggiunto.
 * Avrebbe dovuto essere incluso in una relazione, ma sono stati esclusi.
 
-È importante notare che i nostri test e modelli mostrano che il tasso di errore *diminuisce* in proporzione inversa rispetto al numero di record nel set di dati. I set di dati con molti record generano meno errori rispetto ai set con un numero limitato di record. Vediamo questa affermazione in modo più quantitativo. Come mostrato nella tabella seguente, per un numero impostato di record, il 95% dei risultati del rapporto sarà inferiore a un tasso di errore specifico.
+È importante notare che i nostri test e modelli mostrano che il tasso di errore *diminuisce* in proporzione inversa rispetto al numero di record nel set di dati. I set di dati con molti record generano meno errori rispetto ai set con un numero limitato di record. Guardiamo a questa affermazione in modo più quantitativo. Come mostrato nella tabella seguente, per un numero impostato di record, il 95% dei risultati del rapporto sarà inferiore a un tasso di errore specifico.
 
 | Numero di record | Frequenza errori |
 |--- |--- |
