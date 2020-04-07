@@ -7,7 +7,7 @@ title: Gestisci sottoscrizioni feed dati
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
+source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
 
 ---
 
@@ -26,22 +26,22 @@ Per effettuare la sottoscrizione a un feed di dati pubblico:
 
 1. Vai a **[!UICONTROL Audience Marketplace > Marketplace]**. Utilizzate la funzione di ricerca o sfogliate l&#39;elenco per trovare un feed di dati.
 
-   ![](assets/subscribe1.png)
+   ![subscription](assets/subscribe1.png)
 
 1. Fare clic sul nome del feed di dati che si desidera utilizzare. Viene visualizzata la pagina [dei dettagli del](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) piano per il feed selezionato.
 
-   ![](assets/plan-details.png)
+   ![piano-dettagli](assets/plan-details.png)
 
 1. Scegliete un caso di utilizzo dalla tabella Iscrizioni e:
    * Spostate il **[!UICONTROL Subscription]** cursore su **[!UICONTROL On]**.
    * Clic **[!UICONTROL Review & Subscribe]**. Questo apre la [!UICONTROL Terms and Conditions] finestra.
-   ![](assets/subscribe3.png)
+   ![subscription](assets/subscribe3.png)
 
 1. Nella [!UICONTROL Terms and Conditions] finestra:
 
    * **Importante:** Lasciate selezionata la **[!UICONTROL ID sync]** casella di controllo. Questa impostazione consente di migliorare le percentuali di corrispondenza con il provider di dati.
    * Selezionate la casella Termini e condizioni e fate clic **[!UICONTROL Accept]** per completare il processo di iscrizione.
-   ![](assets/subscribe4.png)
+   ![subscription](assets/subscribe4.png)
 
 ### Passaggi successivi
 
