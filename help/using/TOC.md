@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guida utente di Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
 
 ---
 
@@ -387,6 +387,13 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
    + [Panoramica](/help/using/help-legal/help-legal-overview.md)
    + [Se c&#39;è un problema](/help/using/help-legal/help-problem.md)
    + [Contatti e informazioni legali](/help/using/help-legal/help-legal-contact.md)
++ Principali problemi di assistenza clienti{#top-support-issues}
+   + [Panoramica](/help/using/support-issues/support-issues-overview.md)
+   + [Perché la mia popolazione di tratti caricati su un tablet è scesa a 0 intorno al 15 ottobre? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina Rapporti sovrapposizione?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [Perché i nostri utenti di sola lettura sono in grado di creare, modificare o eliminare tratti e segmenti?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+   + [Non siamo un cliente Audience Manager, ma consulta le chiamate Javascript di Audience Manager sul nostro sito](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [Dovrei visualizzare i segmenti mappati di Audience Manager Audience Lab sulla pagina dei dettagli di destinazione?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Aggiornamenti alla documentazione{#documentation-updates}
    + [Aggiornamenti alla documentazione del 2020](docs-updates/docs-2020.md)
    + [Aggiornamenti alla documentazione del 2019](docs-updates/docs-2019.md)
