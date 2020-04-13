@@ -5,7 +5,7 @@ seo-title: Non stiamo utilizzando Audience Manager, ma le chiamate Javascript di
 solution: Audience Manager
 title: Non stiamo utilizzando Audience Manager, ma le chiamate Javascript di Audience Manager sono visibili nel debugger Javascript - Perché?
 translation-type: tm+mt
-source-git-commit: 7206b43562eded19bfb30f8aea3bcad946a3f834
+source-git-commit: 1f5c1a91f0b5df5291d3143d297e25128b5bb716
 
 ---
 
@@ -14,10 +14,12 @@ source-git-commit: 7206b43562eded19bfb30f8aea3bcad946a3f834
 
 ## domande
 
-Non stiamo utilizzando Adobe Audience Manager, ma le chiamate Javascript di Audience Manager sono visibili nel debugger Javascript.  Perché succederebbe?
+Non stiamo utilizzando Adobe Audience Manager, ma le chiamate Javascript di Audience Manager sono visibili nel debugger Javascript.
+
+Perché sta succedendo questo?
 
 ## Risposta
 
-È probabile che tu stia eseguendo il servizio ID visitatore sulla tua proprietà. In caso affermativo, il riferimento AAM non fa necessariamente riferimento alla proprietà che esegue Audience Manager, ma significa che Audience Manager sta di fatto abilitando questo servizio.
+È probabile che tu stia eseguendo il servizio [identità](https://docs.adobe.com/content/help/en/id-service/using/home.html) Experience Cloud sulla tua proprietà. In caso affermativo, questo riferimento a Audience Manager non fa necessariamente riferimento alla proprietà che esegue Audience Manager. Significa, invece, che Audience Manager fornisce questo servizio.
 
-La chiamata AAM solitamente viene eseguita per sincronizzare gli ID cliente del set.
+La chiamata al server Audience Manager solitamente viene eseguita per [sincronizzare gli ID](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)cliente.
