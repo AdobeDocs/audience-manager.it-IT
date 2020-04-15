@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Riferimento per la qualifica delle caratteristiche
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
 
 ---
 
@@ -34,7 +34,7 @@ Per ulteriori informazioni sulla qualifica del segmento, consulta Popolazione se
 
 ![realizzazione unica-caratteristica](assets/trait-graph.png)
 
-A seconda del tipo di risultati che si desidera visualizzare nel grafico (filtrato per [!UICONTROL Device ID] o ID [!UICONTORL ]multi-dispositivo), le metriche hanno significati diversi:
+A seconda del tipo di risultati che desiderate mostrare nel grafico (filtrato da [!UICONTROL Device ID] o [!UICONTROL Cross-Device ID]), le metriche hanno significati diversi:
 
 Quando filtrate i risultati tramite [!UICONTROL Device ID]:
 
