@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Condivisione dell'audience tra Audience Manager e Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
+source-git-commit: efc07cb0aacc31f3708c98e1c82c195c202c10ef
 
 ---
 
@@ -15,13 +15,11 @@ source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
 
 >[!NOTE]
 >
-> La funzionalità descritta in questa pagina è disponibile per i clienti di Audience Manager e Adobe Experience Platform.
->
 > Per accedere a questa funzionalità, contattate il vostro rappresentante commerciale Adobe.
 
 ## Panoramica {#overview}
 
-La funzionalità di condivisione dell&#39;audience tra Audience Manager e Adobe Experience Platform consente di condividere le caratteristiche e i segmenti di Audience Manager con Adobe Experience Platform e viceversa.
+La funzionalità di condivisione dell&#39;audience tra Audience Manager e Adobe Experience Platform consente di condividere le caratteristiche e i segmenti di Audience Manager con Adobe Experience Platform e viceversa. È necessario disporre del connettore [](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html) Audience Manager per abilitare la condivisione dell&#39;audience tra Audience Manager e Adobe Experience Platform.
 
 Puoi utilizzare le caratteristiche e i segmenti di Audience Manager in Experience Platform per aggiungere dati di Audience Manager ai tuoi profili cliente e per trarre vantaggio dal servizio [di](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentazione della piattaforma Experience.
 
@@ -46,8 +44,9 @@ Consulta la tabella seguente per una panoramica dei casi di utilizzo della condi
 
 Le caratteristiche e i segmenti di Audience Manager vengono visualizzati in Experience Platform come **Audiences** nel flusso di lavoro dei segmenti. Per ulteriori informazioni sui segmenti e sulle caratteristiche di Audience Manager in Experience Platform, vedi:
 
-* [Panoramica del servizio di segmentazione](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)
-* [Guida utente di Experience Platform Segment Builder](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+* [Panoramica del servizio di segmentazione](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+* [Guida utente di Experience Platform Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+* [Connettore Audience Manager](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
 
 <br> 
 
@@ -73,7 +72,7 @@ Per un esempio di caratteristica creata automaticamente da un segmento della pia
 | Numero articolo | Nome | Descrizione |
 ---------|----------|---------
 | 1 | Tipo di caratteristica | Le caratteristiche create dai segmenti della piattaforma Experience vengono create come caratteristiche registrate in Audience Manager. |
-| 2 | Origine dati | Creazione automatica. Tutte le caratteristiche e i segmenti creati automaticamente dai segmenti della piattaforma Experience vengono memorizzati nell’origine dati **Adobe Experience Platform Audience Sharing**. |
+| 2 | Origine dati | Creazione automatica. Tutte le caratteristiche e i segmenti creati automaticamente dai segmenti della piattaforma Experience vengono memorizzati nell’origine dati Condivisione **pubblico** Adobe Experience Platform. |
 | 3 | Codice integrazione | Il codice di integrazione corrisponde all’ID del segmento in Experience Platform. |
 | 4 | Espressione caratteristica | L&#39;espressione trait è `segID = segment ID in Experience Platform`. |
 | 5 | Segmenti con questa caratteristica | Segmento creato automaticamente che utilizza questa caratteristica come composizione. |
@@ -82,7 +81,7 @@ Per un esempio di caratteristica creata automaticamente da un segmento della pia
 
 ### Segmenti {#aep-segments-as-aam-segments}
 
-Audience Manager crea automaticamente una cartella di segmenti denominata Segmenti **della piattaforma** Experience nel tuo archivio segmenti.
+Audience Manager crea automaticamente una cartella di segmenti denominata Segmenti **della piattaforma** Experience nel sistema di memorizzazione dei segmenti.
 
 ![Screenshot del dashboard](/help/using/integration/integration-aep/assets/aep-segments-dashboard.png)
 
@@ -93,6 +92,6 @@ Per un esempio di segmento creato automaticamente da un segmento di Experience P
 | Numero articolo | Nome | Descrizione |
 ---------|----------|---------
 | 1 | Codice integrazione | Il codice di integrazione corrisponde all’ID del segmento in Experience Platform. |
-| 2 | Origine dati | Creazione automatica. Tutte le caratteristiche e i segmenti creati automaticamente dai segmenti della piattaforma Experience vengono memorizzati nell’origine dati **Adobe Experience Platform Audience Sharing**. |
-| 3 | Regola di unione profilo | **Criteri** di unione esterna indica che i segmenti creati automaticamente seguono il criterio di unione impostato in Experience Platform. |
+| 2 | Origine dati | Creazione automatica. Tutte le caratteristiche e i segmenti creati automaticamente dai segmenti della piattaforma Experience vengono memorizzati nell’origine dati Condivisione **pubblico** Adobe Experience Platform. |
+| 3 | Regola di unione dei profili | **Criteri** di unione esterna indica che i segmenti creati automaticamente seguono il criterio di unione impostato in Experience Platform. |
 | 4 | Regola segmento | Il segmento è costituito dalla caratteristica descritta nella sezione [Caratteristiche](#aep-segments-as-aam-traits). |
