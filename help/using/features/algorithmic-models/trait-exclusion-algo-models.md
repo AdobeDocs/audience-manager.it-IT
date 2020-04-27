@@ -5,22 +5,22 @@ seo-title: Esclusione dei modelli algoritmici
 title: Esclusione dei modelli algoritmici
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# Modelli algoritmici: Esclusione caratteristica {#algorithmic-models-trait-exclusion}
+# Modellazione Simile: Esclusione caratteristica {#algorithmic-models-trait-exclusion}
 
-[!UICONTROL Trait Exclusion] fornisce controlli aggiuntivi nel flusso di lavoro di modellazione, consentendo di aggiungere al modello le guide necessarie, in base alle competenze del dominio e ai requisiti normativi. Utilizzare l' [!UICONTROL Exclusions] opzione per selezionare le caratteristiche da ignorare durante la creazione di modelli da una o più origini dati.
+[!UICONTROL Trait Exclusion] fornisce controlli aggiuntivi nel flusso di lavoro di modellazione, consentendo di aggiungere al modello le guide necessarie, in base alle competenze del dominio e ai requisiti normativi. Utilizzare l&#39; [!UICONTROL Exclusions] opzione per selezionare le caratteristiche da ignorare durante la creazione di modelli da una o più origini dati.
 
-## Casi d'uso {#use-cases}
+## Casi d&#39;uso {#use-cases}
 
 Di seguito sono riportati alcuni esempi di casi d’uso con [!UICONTROL Trait Exclusion]:
 
 * [!UICONTROL Trait Exclusion] consente di escludere alcune caratteristiche catch-all, come le caratteristiche del visitatore del sito, in modo da non alterare il modello, generando risultati semplici.
-* È possibile rimuovere le caratteristiche che non si conoscono o che non si fida di un'origine dati per comprendere meglio le caratteristiche influenti.
-* È possibile escludere alcune caratteristiche, come caratteristiche demografiche, per facilitare l'adempimento di eventuali obblighi di conformità.
+* È possibile rimuovere le caratteristiche che non si conoscono o che non si fida di un&#39;origine dati per comprendere meglio le caratteristiche influenti.
+* È possibile escludere alcune caratteristiche, come caratteristiche demografiche, per facilitare l&#39;adempimento di eventuali obblighi di conformità.
 
 >[!IMPORTANT]
 >
@@ -42,9 +42,9 @@ Utilizzate il flusso di lavoro [Crea un modello](../../features/algorithmic-mode
 >
 >Potete escludere intere cartelle escludendo la caratteristica della cartella invece di escludere le caratteristiche della cartella, una per una. Ad esempio, in una cartella con 20 caratteristiche, è sufficiente escludere la caratteristica della cartella anziché tutte le caratteristiche una per una.
 
-Se preferite le esercitazioni video, guardate la nostra dimostrazione video per l'esclusione delle caratteristiche:
+Se preferite le esercitazioni video, guardate la nostra dimostrazione video per l&#39;esclusione delle caratteristiche:
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
 
 ## Aspetti e limitazioni importanti {#important-aspects-and-limitations}
 
@@ -87,7 +87,7 @@ Prendete nota dei seguenti aspetti e limitazioni relativi a [!UICONTROL Trait Ex
 
 Guardate il video seguente per scoprire come e perché escludere tratti specifici da un [!UICONTROL Look-Alike Model].
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
 ## Collegamenti correlati
 
