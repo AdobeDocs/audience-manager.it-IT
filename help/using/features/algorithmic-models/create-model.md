@@ -1,29 +1,24 @@
 ---
 description: Descrive i passaggi obbligatori e facoltativi che consentono di creare un modello algoritmico in Model Builder.
-keywords: algo come funziona
+keywords: algo how works
 seo-description: Descrive i passaggi obbligatori e facoltativi che consentono di creare un modello algoritmico in Model Builder.
 seo-title: Creare un modello algoritmico
 solution: Audience Manager
 title: Creare un modello algoritmico
-topic: API DIL
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# Creare un modello algoritmico {#create-an-algorithmic-model}
+# Creare un modello simile all&#39;aspetto {#create-an-algorithmic-model}
 
-Descrive i passaggi obbligatori e facoltativi che consentono di creare un modello algoritmico in [!UICONTROL Model Builder].
+Descrive i passaggi obbligatori e facoltativi che consentono di creare un [!UICONTROL Look-Alike Model].
 
-## Creare un modello {#build-model}
+## Sezione Generatore modelli
 
-<!-- t_model_build.xml -->
-
-### Sezione Generatore modelli
-
-[!UICONTROL Model Builder] è costituito dalle sezioni [!UICONTROL Basic Information] e [!UICONTROL Configuration] . Per creare un modello, completare i campi richiesti in queste due sezioni. Salvate il modello per avviare l'algoritmo. [!DNL Audience Manager] invia una notifica automatica al termine della prima esecuzione dei dati. Dopo aver ricevuto l'e-mail, puoi andare a [Trait Builder](../../features/traits/about-trait-builder.md) e creare caratteristiche algoritmiche.
+[!UICONTROL Model Builder] è costituito dalle sezioni [!UICONTROL Basic Information] e [!UICONTROL Configuration] . Per creare un modello, completare i campi richiesti in queste due sezioni. Salvate il modello per avviare l&#39;algoritmo. [!DNL Audience Manager] invia una notifica automatica al termine della prima esecuzione dei dati. Dopo aver ricevuto l&#39;e-mail, puoi andare a [Trait Builder](../../features/traits/about-trait-builder.md) e creare caratteristiche algoritmiche.
 
 >[!NOTE]
 >
@@ -33,26 +28,30 @@ Descrive i passaggi obbligatori e facoltativi che consentono di creare un modell
 >* La notifica e-mail automatica viene inviata una sola volta (dopo la prima esecuzione dei dati).
 
 
-### Creare il modello
+## Creare il modello
 
-Per creare un modello, andate alla [!UICONTROL Models] sezione e fate clic **[!UICONTROL Add New]** e seguite la procedura seguente:
+Per creare un [!UICONTROL Look-Alike Model]:
 
-1. Nella sezione [Informazioni](../../features/algorithmic-models/create-model.md#basic-information) di base
+1. Vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** e fai clic **[!UICONTROL Add New]** nella [!UICONTROL Look-Alike Modeling] sezione.
+   ![sosia-add](assets/look-alike-add.png)
+2. Nella sezione [Informazioni](../../features/algorithmic-models/create-model.md#basic-information) di base
    * Denominate il modello.
    * *(Facoltativo)* Fornire una breve descrizione del modello.
    * Impostare lo stato del modello su **[!UICONTROL Active]** o **[!UICONTROL Inactive]**. I modelli inattivi non verranno eseguiti e non produrranno alcun dato.
-1. Nella sezione [Configurazione](../../features/algorithmic-models/create-model.md#configuration) :
-   * Fare clic **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** per selezionare una caratteristica o un segmento rispetto al quale si desidera creare il modello.   Seleziona come linea di base una caratteristica integrata, una caratteristica basata su regole o un segmento. In caso contrario, i modelli non verranno eseguiti.
+      ![sosia-base](assets/look-alike-basic.png)
+3. Nella sezione [Configurazione](../../features/algorithmic-models/create-model.md#configuration) :
+   * Fare clic **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** per selezionare una caratteristica o un segmento rispetto al quale si desidera creare il modello. Seleziona come linea di base una caratteristica costruita, una caratteristica basata su regole o un segmento. In caso contrario, i modelli non verranno eseguiti.
    * Scegliete un periodo di look-back di 30, 60 o 90 giorni. Questo imposta un intervallo di tempo per il modello.
    * The [!UICONTROL TraitWeight] algorithm is selected by default.
-   * Selezionare un'origine dati dall' [!UICONTROL Available Data] elenco.
-   * Click **[!UICONTROL Save]** when done.
+   * Selezionare un&#39;origine dati dall&#39; [!UICONTROL Available Data] elenco.
+   * Al **[!UICONTROL Save]** termine, fate clic.
+      ![configurazione simile](assets/look-alike-configuration.png)
 
 ## Informazioni di base per i modelli algoritmici {#basic-information}
 
 <!-- r_model_basic.xml -->
 
-In [!UICONTROL Model Builder], le [!UICONTROL Basic Information] impostazioni consentono di creare nuovi modelli o di modificarli esistenti. Per creare un nuovo modello, immettete un nome e passate alle [!UICONTROL Configuration] impostazioni. Il campo di descrizione è facoltativo.
+In [!UICONTROL Model Builder], le [!UICONTROL Basic Information] impostazioni consentono di creare nuovi modelli o di modificarne quelli esistenti. Per creare un nuovo modello, immettete un nome e passate alle [!UICONTROL Configuration] impostazioni. Il campo di descrizione è facoltativo.
 
 | Campo | Descrizione |
 |---|---|
@@ -82,7 +81,7 @@ Compila prima i campi richiesti nella [!UICONTROL Basic Information] sezione.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Selezionare una caratteristica o un segmento della linea di base (1)</b> </p> </td> 
-   <td colname="col2"> <p>Fai clic sul pulsante tratto o segmento per visualizzare un elenco di tutte le caratteristiche o i segmenti. Il segmento o la caratteristica selezionata diventa la linea di base utilizzata dagli algoritmi di sistema per la modellazione. </p> <p> <p><b>Nota</b>:  Seleziona come linea di base una caratteristica integrata, una caratteristica basata su regole o un segmento. In caso contrario, i modelli non verranno eseguiti. </p> </p> </td> 
+   <td colname="col2"> <p>Fai clic sul pulsante tratto o segmento per visualizzare un elenco di tutte le caratteristiche o i segmenti. Il segmento o la caratteristica selezionata diventa la linea di base utilizzata dagli algoritmi di sistema per la modellazione. </p> <p> <p><b>Nota</b>:  Seleziona come linea di base una caratteristica costruita, una caratteristica basata su regole o un segmento. In caso contrario, i modelli non verranno eseguiti. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Seleziona periodo di look back (2)</b> </p> </td> 
@@ -105,7 +104,7 @@ Compila prima i campi richiesti nella [!UICONTROL Basic Information] sezione.
 
 Guardate il video qui sotto per scoprire come creare un modello simile di prima parte, in modo da poter trovare più visitatori che somigliano ai vostri convertitori.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >
