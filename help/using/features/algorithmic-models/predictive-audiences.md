@@ -5,7 +5,7 @@ seo-title: Predictive Audiences Panoramica
 solution: Audience Manager
 title: Audience Manager Predictive
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 ---
 
@@ -97,7 +97,7 @@ Durante la valutazione dei tipi di pubblico di prime parti e l&#39;assegnazione 
 ## Considerazioni e limitazioni {#considerations}
 
 >[!IMPORTANT]
-> Leggi attentamente questo articolo prima di passare alla fase di implementazione.
+> Leggi attentamente questa sezione prima di passare alla fase di implementazione.
 
 Durante la configurazione dei [!UICONTROL Predictive Audiences] modelli, tenere presente le considerazioni e le limitazioni seguenti:
 
