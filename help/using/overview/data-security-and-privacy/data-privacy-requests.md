@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Richieste sulla privacy dei dati
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
+source-git-commit: 39e0224d97d1d27c2b1dcee8e3b0d2d21847551b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ## Panoramica {#overview}
 
-Questo documento fornisce una panoramica sulla gestione della privacy dei singoli dati e delle richieste di rifiuto che potete inviare ad Audience Manager tramite l’interfaccia utente [del servizio](https://gdprui.cloud.adobe.io/) Privacy e l’ **[!DNL Privacy Service API]**.
+Questo documento fornisce una panoramica sulla gestione della privacy dei singoli dati e delle richieste di rifiuto che potete inviare ad Audience Manager tramite l’interfaccia utente [del servizio](https://privacyui.cloud.adobe.io/) Privacy e l’ **[!DNL Privacy Service API]**.
 
 Questi strumenti ti consentono di inviare richieste sulla privacy dei dati dei consumatori effettuate in conformità ai requisiti GDPR e CCPA.
 
@@ -24,8 +24,8 @@ Prima di leggere questo articolo, consigliamo di consultare il Glossario [GDPR](
 
 Potete inviare singole richieste per accedere ed eliminare i dati dei consumatori da Audience Manager in due modi:
 
-* Tramite l’interfaccia utente del servizio [Privacy](https://gdprui.cloud.adobe.io/). Consulta la documentazione [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Attraverso il **[!DNL Privacy Service API]**. Consulta la documentazione[qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)e il riferimento API[qui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* Tramite l’interfaccia utente del servizio [Privacy](https://privacyui.cloud.adobe.io/). Consulta la documentazione [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
+* Attraverso il **[!DNL Privacy Service API]**. Consulta la documentazione [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) e il riferimento API [qui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
 Quando inviate singole richieste di privacy dei dati, potete inviare qualsiasi ID Audience Manager, come descritto nella sezione Identificatori **[di](data-privacy-ids.md)**Audience Manager, insieme ai rispettivi ID dello spazio nomi (ID origine dati).
 
@@ -33,9 +33,9 @@ Il servizio [](https://www.adobe.io/apis/experienceplatform/home/services/privac
 
 ## Richieste di accesso ai dati {#access-data}
 
-Puoi inviare singole richieste di accesso ai dati tramite l’interfaccia utente [del servizio](https://gdprui.cloud.adobe.io/) Privacy ( [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)la documentazione) o chiamando [!DNL Privacy Service API] ( [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) la documentazione e [!DNL API] qui [](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)il riferimento).
+Puoi inviare singole richieste di accesso ai dati tramite l’interfaccia utente [del servizio](https://privacyui.cloud.adobe.io/) Privacy ( [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)la documentazione) o chiamando [!DNL Privacy Service API] ( [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) la documentazione e [!DNL API] qui [](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)il riferimento).
 
-L’interfaccia utente [del servizio](https://gdprui.cloud.adobe.io/) Privacy consente di creare nuove richieste di processo utilizzando il [!UICONTROL Request Builder] file o caricando un [!DNL JSON] file.
+L’interfaccia utente [del servizio](https://privacyui.cloud.adobe.io/) Privacy consente di creare nuove richieste di processo utilizzando il [!UICONTROL Request Builder] file o caricando un [!DNL JSON] file.
 
 Per verificare l’aspetto di un [!DNL JSON] file valido, puoi [scaricare un JSON](../data-security-and-privacy/assets/access_request.json)di esempio.
 
@@ -43,9 +43,9 @@ Comprendiamo il tuo impegno a rispettare le tue richieste sulla privacy dei dati
 
 ## Richieste di eliminazione dati{#delete-data}
 
-Puoi inviare richieste di eliminazione dei dati tramite l’interfaccia utente [del servizio](https://gdprui.cloud.adobe.io/) Privacy ( [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)la documentazione) o chiamando [!DNL Privacy Service API] ( [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) la documentazione e [qui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)il riferimento API).
+Puoi inviare richieste di eliminazione dei dati tramite l’interfaccia utente [del servizio](https://privacyui.cloud.adobe.io/) Privacy ( [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)la documentazione) o chiamando [!DNL Privacy Service API] ( [qui](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) la documentazione e [qui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)il riferimento API).
 
-L’interfaccia utente [del servizio](https://gdprui.cloud.adobe.io/) Privacy consente di creare nuove richieste di processo utilizzando il [!UICONTROL Request Builder] file o caricando un [!DNL JSON] file.
+L’interfaccia utente [del servizio](https://privacyui.cloud.adobe.io/) Privacy consente di creare nuove richieste di processo utilizzando il [!UICONTROL Request Builder] file o caricando un [!DNL JSON] file.
 
 Per verificare l’aspetto di un [!DNL JSON] file valido, puoi [scaricare un JSON](../data-security-and-privacy/assets/access_request.json)di esempio.
 
@@ -134,7 +134,7 @@ Per una descrizione e una sintassi, consultate Variabili [URL e sintassi per ID]
 
 | Rifiuto tramite | Esempio di codice |
 |--- |--- |
-| ID provider di dati e ID utente. | `https://yourcompany.demdex.net/demoptout.jpg?d_cid=123%01987...` |
+| Un ID provider di dati e un ID utente. | `https://yourcompany.demdex.net/demoptout.jpg?d_cid=123%01987...` |
 | Un codice di integrazione e un ID utente. | `https://yourcompany.demdex.net/demoptout?d_cid_ic=456%01321...` |
 | Più coppie d_cid e d_cid_ic chiave-valore. | `https://yourcompany.demdex.net/demoptout?d_cid=123%01987&d_cid_ic=456%01321...` |
 
@@ -174,6 +174,6 @@ Consulta l’ [elenco delle destinazioni](/help/using/features/destinations/devi
 
 ## Richieste di correzione dati {#correction}
 
-Poiché Audience Manager non è l’origine dei dati, in Audience Manager esiste un ruolo limitato per la correzione dei dati. La correzione potrebbe significare che il consumatore ha chiesto di essere squalificato da una caratteristica/segmento non corretta o qualificato per la caratteristica/segmento desiderata.
+Dato che Audience Manager non è l’origine dei dati, esiste un ruolo limitato per la correzione dei dati in Audience Manager. La correzione potrebbe significare che il consumatore ha chiesto di essere squalificato da una caratteristica/segmento non corretta o qualificato per la caratteristica/segmento desiderata.
 
 I clienti di Audience Manager possono scegliere di catturare i segnali/tratti/segmenti pertinenti in base ai profili utente e inviare tali informazioni tramite l’inserimento [di dati](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) offline ad Audience Manager. L&#39;utente continuerà a essere qualificato per la caratteristica e i segmenti originali se ripeterà il proprio comportamento.
