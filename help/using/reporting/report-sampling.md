@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Campionamento dei dati e tassi di errore nei report Audience Manager selezionati
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
 
 ---
 
@@ -51,3 +51,4 @@ I [!DNL Audience Manager] rapporti che utilizzano i dati campionati includono:
 * [Report](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) di sovrapposizione (caratteristiche, caratteristiche, caratteristiche e segmento per segmento).
 * [Dati Pubblico](../features/addressable-audiences.md) indirizzabili (dati a livello di cliente e segmento).
 * La metrica Dispositivi [](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) totali per un [!UICONTROL Profile Merge Rule].
+* [Esplora](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) dati utilizza i dati campionati nella [!UICONTROL Search] scheda ed eventuali [!UICONTROL Saved Searches].
