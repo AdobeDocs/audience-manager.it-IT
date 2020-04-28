@@ -5,7 +5,7 @@ seo-title: Esclusione dei modelli algoritmici
 title: Esclusione dei modelli algoritmici
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
+source-git-commit: ee291fd9a06261afb71cc393fff0f4a1ee5cf7f4
 
 ---
 
@@ -35,8 +35,10 @@ Utilizzate il flusso di lavoro [Crea un modello](../../features/algorithmic-mode
 1. La [!UICONTROL Exclusions] selezione è disattivata fino a quando non si selezionano una o più origini dati per la modellazione.
 2. Dopo aver selezionato una o più origini dati per la modellazione, premere **[!UICONTROL Browse All Traits]**.
 3. Nella **[!UICONTROL Select Traits to Exclude]** finestra sono visualizzate tutte le caratteristiche associate alle origini dati selezionate in precedenza. Selezionate le caratteristiche da escludere.
-4. Potete filtrare le caratteristiche in base al tipo di caratteristica oppure sfogliare le cartelle delle caratteristiche. Nelle cartelle delle caratteristiche vengono visualizzate solo le caratteristiche associate alle origini dati selezionate.
+4. Potete filtrare le caratteristiche in base al tipo di caratteristica, al tipo di popolazione delle caratteristiche oppure potete sfogliare le cartelle delle caratteristiche. Nelle cartelle delle caratteristiche vengono visualizzate solo le caratteristiche associate alle origini dati selezionate.
 5. Premere **[!UICONTROL Exclude Selected Traits]**.
+
+![esclusioni di caratteristiche](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
