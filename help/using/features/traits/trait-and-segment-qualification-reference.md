@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Riferimento per la qualifica delle caratteristiche
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
+source-git-commit: 22780105bc356100af8b64b50e3c92137adeb83a
 
 ---
 
@@ -71,3 +71,4 @@ Per portare ulteriormente a casa il punto, se avete sperimentato un picco di 10.
 ## Limite di qualifica caratteristica {#trait-qualification-limit}
 
 Per ciascun profilo utente viene applicato un limite di 150.000 qualifiche di caratteristica, che si tratti di un profilo autenticato ([DPUUID](../../reference/ids-in-aam.md)) o di un ID dispositivo ([UUID](../../reference/ids-in-aam.md)). Sebbene i DPUUID siano univoci per un’istanza specifica di [!DNL Audience Manager], gli UUID vengono condivisi tra le diverse [!DNL Audience Manager] piattaforme. Per [!UICONTROL UUID]esempio, imponiamo una politica di equità quando si memorizzano le qualifiche di caratteristiche. Un algoritmo garantisce che una quota uguale del [!UICONTROL UUID] profilo sia disponibile per ogni istanza di [!DNL Audience Manager].
+
