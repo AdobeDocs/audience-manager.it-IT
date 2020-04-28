@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Guida introduttiva alle API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: afaaaa50bdbe1dd0104af7e715d76985cb3d443c
+source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ---
 
@@ -45,18 +45,7 @@ Ad esempio, per questo tipo di account, supponiamo che tu voglia cambiare molti 
 
 Consultate il vostro consulente Audience Manager per configurare un account utente generico [!DNL API]solo.
 
-## Autenticazione JWT (account di servizio) {#jwt}
-
-Per stabilire una sessione dell&#39;API Adobe I/O di servizio protetta, dovete creare un token Web JSON (JWT) che racchiuda l&#39;identità della vostra integrazione, quindi scambiarlo per un token di accesso. Ogni richiesta a un servizio Adobe deve includere il token di accesso nell’intestazione Autorizzazione, insieme alla chiave API (ID client) generata al momento della creazione dell’integrazione [dell’account di](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) servizio nella console [I/O di](https://console.adobe.io/)Adobe.
-
-Per istruzioni dettagliate sulla configurazione dell&#39;autenticazione, consultate Autenticazione [](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) JWT (account di servizio).
-
-## Autenticazione OAuth (obsoleta) {#oauth}
-
->[!WARNING]
-> L&#39;autenticazione e il rinnovo dei [!UICONTROL REST API] token di Audience Manager tramite [!DNL OAuth 2.0] è ora obsoleto.
->
-> Utilizzare invece l&#39;autenticazione [](#jwt-service-account-authentication-jwt) JWT (Service Account).
+## Autenticazione OAuth {#oauth}
 
 Audience Manager [!UICONTROL REST API] segue [!DNL OAuth 2.0] gli standard per l’autenticazione e il rinnovo dei token. Le sezioni seguenti descrivono come autenticarsi e iniziare a lavorare con gli [!DNL API]s.
 
@@ -80,7 +69,7 @@ Nota: Se desiderate ricevere un token di aggiornamento, specificatelo quando ric
 
 Passa una richiesta di token con il [!DNL JSON] client preferito. Al momento della creazione della richiesta:
 
-* Utilizza un `POST` metodo per chiamare `https://aam.adobe.io/oauth/token`.
+* Utilizza un `POST` metodo per chiamare `https://api.demdex.com/oauth/token`.
 * Converti l&#39;ID client e il segreto in una stringa con codifica base 64. Separate l’ID e il segreto con due punti durante il processo di conversione. Ad esempio, le credenziali `testId : testSecret` vengono convertite in `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Trasmettere le [!DNL HTTP] intestazioni `Authorization:Basic <base-64 clientID:clientSecret>` e `Content-Type: application/x-www-form-urlencoded` . Ad esempio, l’intestazione potrebbe essere simile al seguente: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * Impostate il corpo della richiesta come segue:
@@ -118,7 +107,7 @@ Nei passaggi seguenti viene delineato il flusso di lavoro per l’utilizzo di un
 
 Passa una richiesta di aggiornamento token con il [!DNL JSON] client preferito. Al momento della creazione della richiesta:
 
-* Utilizza un `POST` metodo per chiamare `https://aam.adobe.io/oauth/token`.
+* Utilizza un `POST` metodo per chiamare `https://api.demdex.com/oauth/token`.
 * Converti l&#39;ID client e il segreto in una stringa con codifica base 64. Separate l’ID e il segreto con due punti durante il processo di conversione. Ad esempio, le credenziali `testId : testSecret` vengono convertite in `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Trasmettere le intestazioni `Authorization:Basic <base-64 clientID:clientSecret>` e `Content-Type: application/x-www-form-urlencoded`. Ad esempio, l’intestazione potrebbe essere simile al seguente: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * Nel corpo della richiesta, specificate il token di aggiornamento `grant_type:refresh_token` e trasmettetelo nella richiesta di accesso precedente. La richiesta deve essere simile alla seguente: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
@@ -139,7 +128,7 @@ La [!DNL JSON] risposta contiene il nuovo token di accesso. La risposta dovrebbe
 
 ## Codice di autorizzazione e autenticazione implicita {#authentication-code-implicit}
 
-Audience Manager [!UICONTROL REST API] supporta il codice di autorizzazione e l&#39;autenticazione implicita. Per utilizzare questi metodi di accesso, gli utenti devono effettuare l&#39;accesso per `https://aam.adobe.io/oauth/authorize` ottenere l&#39;accesso e aggiornare i token.
+Audience Manager [!UICONTROL REST API] supporta il codice di autorizzazione e l&#39;autenticazione implicita. Per utilizzare questi metodi di accesso, gli utenti devono effettuare l&#39;accesso per `https://api.demdex.com/oauth/authorize` ottenere l&#39;accesso e aggiornare i token.
 
 ## Richieste di autenticazione API {#authenticated-api-requests}
 
@@ -166,7 +155,7 @@ Impostare i parametri facoltativi disponibili per i metodi che restituiscono tut
 | pageSize | Imposta il numero di risultati della risposta restituiti dalla richiesta (il valore predefinito è 10). |
 | sortBy | Ordina e restituisce i risultati in base alla [!DNL JSON] proprietà specificata. |
 | decrescente | Ordina e restituisce risultati in ordine decrescente. Ascendente è il valore predefinito. |
-| search | Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare risultati per tutti i modelli con la parola &quot;Test&quot; in uno qualsiasi dei campi di valore per l&#39;elemento. Esempio di richiesta:   `GET https://aam.adobe.io/v1/models/?search=Test`.  È possibile cercare qualsiasi valore restituito da un metodo &quot;get all&quot;. |
+| search | Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare risultati per tutti i modelli con la parola &quot;Test&quot; in uno qualsiasi dei campi di valore per l&#39;elemento. Esempio di richiesta:   `GET https://api.demdex.com/v1/models/?search=Test`.  È possibile cercare qualsiasi valore restituito da un metodo &quot;get all&quot;. |
 | folderId | Restituisce tutti gli ID per le caratteristiche all’interno della cartella specificata. Non disponibile per tutti i metodi. |
 | permissions | Restituisce un elenco di segmenti in base all&#39;autorizzazione specificata.  READ è il valore predefinito. Le autorizzazioni includono:<ul><li>`READ` : Restituisce e visualizza informazioni su un segmento.</li><li>`WRITE` : Utilizzare `PUT` per aggiornare un segmento.</li><li>`CREATE` : Utilizzate `POST` per creare un segmento.</li><li>`DELETE` : Elimina un segmento. Richiede l&#39;accesso alle caratteristiche sottostanti, se presenti. Ad esempio, avrai bisogno di diritti per eliminare le caratteristiche che appartengono a un segmento se desideri rimuoverlo.</li></ul><br>Specificate più autorizzazioni con coppie chiave-valore separate. Ad esempio, per restituire un elenco di segmenti con `READ` e `WRITE` autorizzazioni, passate in `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | includePermissions | (Booleano) Impostate su true per restituire le autorizzazioni per il segmento. Il valore predefinito è false. |
@@ -176,7 +165,7 @@ Impostare i parametri facoltativi disponibili per i metodi che restituiscono tut
 Quando le informazioni sulla pagina non *sono* specificate, la richiesta restituisce [!DNL JSON] risultati semplici in un array. Se *sono* specificate le informazioni sulla pagina, l&#39;elenco restituito viene racchiuso in un [!DNL JSON] oggetto che contiene informazioni sul risultato totale e sulla pagina corrente. La richiesta di esempio con le opzioni di pagina potrebbe essere simile alla seguente:
 
 ```
-GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
+GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ```
 
 ## URL dell&#39;API {#api-urls}
@@ -191,17 +180,17 @@ Nella tabella seguente sono elencati gli URL di richiesta utilizzati per trasmet
 
 | [!DNL API] Metodi | Richiesta [!DNL URL] |
 |--- |--- |
-| Modellazione algoritmica | `https://aam.adobe.io/v1/models/` |
-| Origine dati | `https://aam.adobe.io/v1/datasources/` |
-| Segnali derivati | `https://aam.adobe.io/v1/signals/derived/` |
-| Destinazioni  | `https://aam.adobe.io/v1/destinations/` |
-| Domains (Domini) | `https://aam.adobe.io/v1/partner-sites/` |
-| Cartelle | Caratteristiche:  `https://aam.adobe.io/v1/folders/traits /`<br>Segmenti:  `https://aam.adobe.io/v1/folders/segments /` |
-| Schema | `https://aam.adobe.io/v1/schemas/` |
-| Segmenti | `https://aam.adobe.io/v1/segments/` |
-| Caratteristiche | `https://aam.adobe.io/v1/traits/` |
-| Tipi di caratteristiche | `https://aam.adobe.io/v1/customer-trait-types` |
-| Tassonomia | `https://aam.adobe.io/v1/taxonomies/0/` |
+| Modellazione algoritmica | `https://api.demdex.com/v1/models/` |
+| Origine dati | `https://api.demdex.com/v1/datasources/` |
+| Segnali derivati | `https://api.demdex.com/v1/signals/derived/` |
+| Destinazioni  | `https://api.demdex.com/v1/destinations/` |
+| Domains (Domini) | `https://api.demdex.com/v1/partner-sites/` |
+| Cartelle | Caratteristiche:  `https://api.demdex.com/v1/folders/traits /`<br>Segmenti:  `https://api.demdex.com/v1/folders/segments /` |
+| Schema | `https://api.demdex.com/v1/schemas/` |
+| Segmenti | `https://api.demdex.com/v1/segments/` |
+| Caratteristiche | `https://api.demdex.com/v1/traits/` |
+| Tipi di caratteristiche | `https://api.demdex.com/v1/customer-trait-types` |
+| Tassonomia | `https://api.demdex.com/v1/taxonomies/0/` |
 
 ## Ambienti {#environments}
 
@@ -209,7 +198,7 @@ Gli [!DNL Audience Manager] strumenti [!DNL API]consentono l&#39;accesso a diver
 
 | Ambiente | Nome host |
 |---|---|
-| **Produzione** | `https://aam.adobe.io/...` |
+| **Produzione** | `https://api.demdex.com/...` |
 | **Beta** | `https://api-beta.demdex.com/...` |
 
 >[!NOTE]
