@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Guida introduttiva alle API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
+source-git-commit: 1bbfa4b537a344d58f20763bb40ebe0827ad8698
 
 ---
 
@@ -242,10 +242,11 @@ Gli [!DNL Audience Manager] strumenti [!DNL API]consentono l&#39;accesso a diver
 
 A seconda del metodo di autenticazione utilizzato, è necessario regolare gli URL dell’ambiente in base alla tabella seguente.
 
-| Ambiente | Nome host per autenticazione OAuth | Nome host per l&#39;autenticazione JWT |
+| Ambiente | Nome host per l&#39;autenticazione JWT | Nome host per autenticazione OAuth |
 |---|---|---|
-| **Produzione** | `https://api.demdex.com/...` | `https://aam.adobe.io/...` |
-| **Beta** | `https://api-beta.demdex.com/...` | `https://aam-beta.adobe.io/...` |
+| **Produzione** | `https://aam.adobe.io/...` | `https://api.demdex.com/...` |
+| **Beta** | `https://aam-beta.adobe.io/...` | `https://api-beta.demdex.com/...` |
+
 
 >[!NOTE]
 >
