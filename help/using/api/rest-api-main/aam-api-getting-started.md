@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Guida introduttiva alle API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: d086b0cacd93f126ae7b362f4a2632bdccfcb1c2
+source-git-commit: 184f9c298f776977c375e4c7a918c5a131c4bcd1
 
 ---
 
@@ -34,6 +34,17 @@ Tenete presente quanto segue quando lavorate con il codice API [di](https://bank
 
 * **Documentazione ed esempi di codice:** Il testo in *corsivo* rappresenta una variabile fornita o passata durante la creazione o la ricezione di [!DNL API] dati. Sostituite il testo *in corsivo* con codice, parametri o altre informazioni personali.
 
+## Autenticazione {#authentication}
+
+Le API REST di Audience Manager supportano due metodi di autenticazione.
+
+* [L&#39;autenticazione](#jwt) JWT (Service Account) è il metodo di autenticazione consigliato.
+* [Autenticazione OAuth (obsoleta)](#oauth). I clienti con integrazioni OAuth esistenti possono continuare a utilizzare questo metodo.
+
+>[!IMPORTANT]
+>
+>A seconda del metodo di autenticazione, è necessario regolare gli URL della richiesta di conseguenza. Consulta la sezione [Ambienti](#environments) per informazioni dettagliate sui nomi host da utilizzare.
+
 ## Autenticazione JWT (account di servizio) {#jwt}
 
 Per stabilire una sessione dell&#39;API Adobe I/O di servizio protetta, dovete creare un token Web JSON (JWT) che racchiuda l&#39;identità della vostra integrazione, quindi scambiarlo per un token di accesso. Ogni richiesta a un servizio Adobe deve includere il token di accesso nell’intestazione Autorizzazione, insieme alla chiave API (ID client) generata al momento della creazione dell’integrazione [dell’account di](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) servizio nella console [I/O di](https://console.adobe.io/)Adobe.
@@ -49,7 +60,7 @@ Per istruzioni dettagliate sulla configurazione dell&#39;autenticazione, consult
 
 Audience Manager [!UICONTROL REST API] segue [!DNL OAuth 2.0] gli standard per l’autenticazione e il rinnovo dei token. Le sezioni seguenti descrivono come autenticarsi e iniziare a lavorare con gli [!DNL API]s.
 
-## Creare un utente API generico {#requirements}
+### Creare un utente API generico {#requirements}
 
 È consigliabile creare un account utente tecnico separato per l&#39;utilizzo con Audience Manager [!DNL API]s. Si tratta di un account generico che non è associato o associato a un utente specifico nell&#39;organizzazione. Questo tipo di account [!DNL API] utente consente di realizzare 2 operazioni:
 
@@ -60,7 +71,7 @@ Ad esempio, per questo tipo di account, supponiamo che tu voglia cambiare molti 
 
 Consultate il vostro consulente Audience Manager per configurare un account utente generico [!DNL API]solo.
 
-## Flusso di lavoro di autenticazione della password {#password-authentication-workflow}
+### Flusso di lavoro di autenticazione della password {#password-authentication-workflow}
 
 <!-- oath-authentication.xml -->
 
@@ -70,13 +81,13 @@ Accesso sicuro tramite autenticazione tramite password [!DNL REST API]. I passag
 >
 >Cifra i token di accesso e di aggiornamento se li si archivia in un database.
 
-### Passaggio 1: Richiedi accesso API
+#### Passaggio 1: Richiedi accesso API
 
 Contatta il tuo Partner Solutions Manager. Forniranno un ID [!DNL API] cliente e un segreto. L’ID e il segreto vi autenticano nel [!DNL API]sito.
 
 Nota: Se desiderate ricevere un token di aggiornamento, specificatelo quando richiedete [!DNL API] l&#39;accesso.
 
-### Passaggio 2: Richiedi il token
+#### Passaggio 2: Richiedi il token
 
 Passa una richiesta di token con il [!DNL JSON] client preferito. Al momento della creazione della richiesta:
 
@@ -86,7 +97,7 @@ Passa una richiesta di token con il [!DNL JSON] client preferito. Al momento del
 * Impostate il corpo della richiesta come segue:
    <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
-### Passaggio 3: Ricevere il token
+#### Passaggio 3: Ricevere il token
 
 La [!DNL JSON] risposta contiene il token di accesso. La risposta dovrebbe essere simile alla seguente:
 
@@ -102,7 +113,7 @@ La [!DNL JSON] risposta contiene il token di accesso. La risposta dovrebbe esser
 
 La `expires_in` chiave rappresenta il numero di secondi fino alla scadenza del token di accesso. Come procedura ottimale, utilizzate brevi tempi di scadenza per limitare l&#39;esposizione se il token è mai esposto.
 
-## Aggiorna token {#refresh-token}
+### Aggiorna token {#refresh-token}
 
 Aggiorna token: [!DNL API] l&#39;accesso viene rinnovato dopo la scadenza del token originale. Se richiesto, la risposta [!DNL JSON] nel flusso di lavoro della password include un token di aggiornamento. Se non ricevete un token di aggiornamento, createne uno nuovo tramite il processo di autenticazione tramite password.
 
@@ -114,17 +125,17 @@ Se il token di accesso è scaduto, nella risposta riceverete una `401 Status Cod
 
 Nei passaggi seguenti viene delineato il flusso di lavoro per l’utilizzo di un token di aggiornamento per creare un nuovo token di accesso da un [!DNL JSON] client nel browser.
 
-### Passaggio 1: Richiedi il nuovo token
+#### Passaggio 1: Richiedi il nuovo token
 
 Passa una richiesta di aggiornamento token con il [!DNL JSON] client preferito. Al momento della creazione della richiesta:
 
 * Utilizza un `POST` metodo per chiamare `https://api.demdex.com/oauth/token`.
-* Intestazioni richiesta: quando utilizzate i token di I/O [di](https://www.adobe.io/) Adobe, dovete fornire l’ `x-api-key` intestazione. Puoi ottenere la chiave API seguendo le istruzioni riportate nella pagina Integrazione [account](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) servizio.
+<!-- * Request headers: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page. -->
 * Converti l&#39;ID client e il segreto in una stringa con codifica base 64. Separate l’ID e il segreto con due punti durante il processo di conversione. Ad esempio, le credenziali `testId : testSecret` vengono convertite in `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Trasmettere le intestazioni `Authorization:Basic <base-64 clientID:clientSecret>` e `Content-Type: application/x-www-form-urlencoded`. Ad esempio, l’intestazione potrebbe essere simile al seguente: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * Nel corpo della richiesta, specificate il token di aggiornamento `grant_type:refresh_token` e trasmettetelo nella richiesta di accesso precedente. La richiesta deve essere simile alla seguente: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
-### Passaggio 2: Ricevi il nuovo token
+#### Passaggio 2: Ricevi il nuovo token
 
 La [!DNL JSON] risposta contiene il nuovo token di accesso. La risposta dovrebbe essere simile alla seguente:
 
@@ -138,7 +149,7 @@ La [!DNL JSON] risposta contiene il nuovo token di accesso. La risposta dovrebbe
 }
 ```
 
-## Codice di autorizzazione e autenticazione implicita {#authentication-code-implicit}
+### Codice di autorizzazione e autenticazione implicita {#authentication-code-implicit}
 
 Audience Manager [!UICONTROL REST API] supporta il codice di autorizzazione e l&#39;autenticazione implicita. Per utilizzare questi metodi di accesso, gli utenti devono effettuare l&#39;accesso per `https://api.demdex.com/oauth/authorize` ottenere l&#39;accesso e aggiornare i token.
 
@@ -151,6 +162,7 @@ Requisiti per i [!DNL API] metodi di chiamata dopo la ricezione di un token di a
 Per effettuare chiamate ai [!DNL API] metodi disponibili:
 
 * Nell’ `HTTP` intestazione, impostate `Authorization: Bearer <token>`.
+* Quando si utilizza l&#39;autenticazione [](#jwt)JWT (Service Account), è necessario fornire l&#39; `x-api-key` intestazione, che sarà la stessa dell&#39; `client_id`utente. Puoi ottenere informazioni `client_id` dalla pagina di integrazione [I/O di](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Adobe.
 * Chiama il [!DNL API] metodo richiesto.
 
 ## Parametri query API opzionali {#optional-api-query-parameters}
@@ -167,7 +179,7 @@ Impostare i parametri facoltativi disponibili per i metodi che restituiscono tut
 | pageSize | Imposta il numero di risultati della risposta restituiti dalla richiesta (il valore predefinito è 10). |
 | sortBy | Ordina e restituisce i risultati in base alla [!DNL JSON] proprietà specificata. |
 | decrescente | Ordina e restituisce risultati in ordine decrescente. Ascendente è il valore predefinito. |
-| search | Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare risultati per tutti i modelli con la parola &quot;Test&quot; in uno qualsiasi dei campi di valore per l&#39;elemento. Esempio di richiesta:   `GET https://api.demdex.com/v1/models/?search=Test`.  È possibile cercare qualsiasi valore restituito da un metodo &quot;get all&quot;. |
+| search | Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare risultati per tutti i modelli con la parola &quot;Test&quot; in uno qualsiasi dei campi di valore per l&#39;elemento. Esempio di richiesta:   `GET https://aam.adobe.io/v1/models/?search=Test`.  È possibile cercare qualsiasi valore restituito da un metodo &quot;get all&quot;. |
 | folderId | Restituisce tutti gli ID per le caratteristiche all’interno della cartella specificata. Non disponibile per tutti i metodi. |
 | permissions | Restituisce un elenco di segmenti in base all&#39;autorizzazione specificata.  READ è il valore predefinito. Le autorizzazioni includono:<ul><li>`READ` : Restituisce e visualizza informazioni su un segmento.</li><li>`WRITE` : Utilizzare `PUT` per aggiornare un segmento.</li><li>`CREATE` : Utilizzate `POST` per creare un segmento.</li><li>`DELETE` : Elimina un segmento. Richiede l&#39;accesso alle caratteristiche sottostanti, se presenti. Ad esempio, avrai bisogno di diritti per eliminare le caratteristiche che appartengono a un segmento se desideri rimuoverlo.</li></ul><br>Specificate più autorizzazioni con coppie chiave-valore separate. Ad esempio, per restituire un elenco di segmenti con `READ` e `WRITE` autorizzazioni, passate in `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | includePermissions | (Booleano) Impostate su true per restituire le autorizzazioni per il segmento. Il valore predefinito è false. |
@@ -177,7 +189,7 @@ Impostare i parametri facoltativi disponibili per i metodi che restituiscono tut
 Quando le informazioni sulla pagina non *sono* specificate, la richiesta restituisce [!DNL JSON] risultati semplici in un array. Se *sono* specificate le informazioni sulla pagina, l&#39;elenco restituito viene racchiuso in un [!DNL JSON] oggetto che contiene informazioni sul risultato totale e sulla pagina corrente. La richiesta di esempio con le opzioni di pagina potrebbe essere simile alla seguente:
 
 ```
-GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
+GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 ```
 
 ## URL dell&#39;API {#api-urls}
@@ -189,6 +201,26 @@ GET https://api.demdex.com/v1/models/?page=1&pageSize=2&search=Test
 ## Richiedi URL {#request-urls}
 
 Nella tabella seguente sono elencati gli URL di richiesta utilizzati per trasmettere [!DNL API] le richieste, per metodo.
+
+A seconda del metodo di autenticazione utilizzato, è necessario regolare gli URL di richiesta in base alle tabelle riportate di seguito.
+
+### Richiedi URL per autenticazione JWT {#request-urls-jwt}
+
+| [!DNL API] Metodi | Richiesta [!DNL URL] |
+|--- |--- |
+| Modellazione algoritmica | `https://aam.adobe.io/v1/models/` |
+| Origine dati | `https://aam.adobe.io/v1/datasources/` |
+| Segnali derivati | `https://aam.adobe.io/v1/signals/derived/` |
+| Destinazioni  | `https://aam.adobe.io/v1/destinations/` |
+| Domains (Domini) | `https://aam.adobe.io/v1/partner-sites/` |
+| Cartelle | Caratteristiche:  `https://aam.adobe.io/v1/folders/traits /`<br>Segmenti:  `https://aam.adobe.io/v1/folders/segments /` |
+| Schema | `https://aam.adobe.io/v1/schemas/` |
+| Segmenti | `https://aam.adobe.io/v1/segments/` |
+| Caratteristiche | `https://aam.adobe.io/v1/traits/` |
+| Tipi di caratteristiche | `https://aam.adobe.io/v1/customer-trait-types` |
+| Tassonomia | `https://aam.adobe.io/v1/taxonomies/0/` |
+
+### Richiedi URL per autenticazione OAuth (obsoleto) {#request-urls-oauth}
 
 | [!DNL API] Metodi | Richiesta [!DNL URL] |
 |--- |--- |
@@ -208,10 +240,12 @@ Nella tabella seguente sono elencati gli URL di richiesta utilizzati per trasmet
 
 Gli [!DNL Audience Manager] strumenti [!DNL API]consentono l&#39;accesso a diversi ambienti di lavoro. Questi ambienti consentono di sottoporre a test il codice su database separati senza influire sui dati live di produzione. Nella tabella seguente sono elencati gli [!DNL API] ambienti disponibili e i nomi host delle risorse corrispondenti.
 
-| Ambiente | Nome host |
-|---|---|
-| **Produzione** | `https://api.demdex.com/...` |
-| **Beta** | `https://api-beta.demdex.com/...` |
+A seconda del metodo di autenticazione utilizzato, è necessario regolare gli URL dell’ambiente in base alla tabella seguente.
+
+| Ambiente | Nome host per autenticazione OAuth | Nome host per l&#39;autenticazione JWT |
+|---|---|---|
+| **Produzione** | `https://api.demdex.com/...` | `https://aam.adobe.io/...` |
+| **Beta** | `https://api-beta.demdex.com/...` | `https://aam-beta.adobe.io/...` |
 
 >[!NOTE]
 >
@@ -242,6 +276,7 @@ Le nuove versioni [!DNL API]vengono rilasciate secondo una pianificazione regola
 
 >[!MORELIKETHIS]
 >
+>* [Autenticazione JWT (account di servizio)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 >* [Autenticazione OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
 >* [OAuth 2.0](https://oauth.net/2/)
 >* [OAuth 2 semplificato](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
