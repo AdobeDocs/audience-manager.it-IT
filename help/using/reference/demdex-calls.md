@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Informazioni sulle chiamate al dominio demdex
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -31,15 +31,15 @@ Audience Manager e Adobe Experience Platform Identity Service effettuano chiamat
    <td colname="col1"> <p> <code> dpm</code> </p> </td> 
    <td colname="col2"> <p><span class="wintitle"> DPM</span> è un'abbreviazione di <span class="wintitle"> Data Provider Match</span>. Indica ai sistemi interni <span class="keyword"> Adobe</span> che una chiamata da <span class="keyword"> Audience Manager</span> o dal servizio <span class="wintitle"></span> ID trasmette i dati del cliente per la sincronizzazione o richiede un ID. Questa è la <code> demdex.net</code> chiamata più comune che vedrai da <span class="keyword"> Audience Manager</span> o dal servizio <span class="wintitle"></span>ID. </p> <p><span class="wintitle"> Nozioni di base sulle chiamate DPM</span> : </p> <p> 
      <ul id="ul_44023BB060774518BE414EE10820C141"> 
-      <li id="li_0F94D1988A6944BA885FD40AB26FC49F"> <b> <span class="keyword"> Audience Manager</span> </b>: Una chiamata <span class="wintitle"> DPM</span> da <span class="keyword"> Audience Manager</span> invia i dati ai server <span class="wintitle"> di raccolta dati e ai server</span> cache dei <span class="wintitle"></span>profili. Consulta Componenti <a href="../reference/system-components/components-data-collection.md"></a>per la raccolta dei dati. </li> 
-      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b> Servizio <span class="wintitle"> ID</span> </b>: Una chiamata <span class="wintitle"> DPM</span> dal servizio <span class="wintitle"></span> ID è una richiesta per un ID visitatore. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookie e Adobe Experience Platform Identity Service</a> e <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_id_request.html" format="https" scope="external"> How the Adobe Experience Platform Identity Service Request and Sets ID</a>(Richiesta e impostazione di ID da parte del servizio identità Adobe Experience Platform). </li> 
-     </ul> </p> <p> <p>Nota:  I clienti del servizio <span class="wintitle"></span> ID possono modificare il prefisso <span class="wintitle"> DPM</span> nel nome del dominio. Vedi <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-subdomain-config.html" format="https" scope="external"> audienceManager Server e audienceManagerServerSecure</a>. </p> </p> </td> 
+      <li id="li_0F94D1988A6944BA885FD40AB26FC49F"> <b> <span class="keyword"> Audience Manager</span></b>: Una chiamata <span class="wintitle"> DPM</span> da <span class="keyword"> Audience Manager</span> invia dati ai server <span class="wintitle"> di raccolta dati e ai server</span> cache dei <span class="wintitle"></span>profili. Consulta Componenti <a href="../reference/system-components/components-data-collection.md"></a>per la raccolta dei dati. </li> 
+      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b> <span class="wintitle"> Servizio</span> ID </b>: Una chiamata <span class="wintitle"> DPM</span> dal servizio <span class="wintitle"></span> ID è una richiesta per un ID visitatore. Consulta <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e Adobe Experience Platform Identity Service</a> e <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/id-request.html" format="https" scope="external"> How the Adobe Experience Platform Identity Service Request and Sets ID</a>(Richiesta e impostazione di ID da parte del servizio identità Adobe Experience Platform). </li> 
+     </ul> </p> <p> <p>Nota:  <span class="wintitle"> I clienti del servizio</span> ID possono modificare il prefisso <span class="wintitle"> DPM</span> nel nome del dominio. Vedi <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/subdomain-config.html" format="https" scope="external"> audienceManager Server e audienceManagerServerSecure</a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)
->* [Cookie di Audience Manager](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html)
+>* [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+>* [Cookie di Audience Manager](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html)
 
