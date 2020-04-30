@@ -6,7 +6,7 @@ solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
 title: ID (Audience Manager Identifiers)
 translation-type: tm+mt
-source-git-commit: 30352749e926d5730e9cc8beef3936c9ed6d2986
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 30352749e926d5730e9cc8beef3936c9ed6d2986
 
 Quando invii ad Adobe Audience Manager le richieste [di privacy dei](data-privacy-requests.md) dati, devi includere uno degli identificatori (ID) elencati di seguito. Puoi trovare ulteriori informazioni sui formati ID nel nostro [indice degli ID](../../reference/ids-in-aam.md)di Audience Manager.
 
-##  ID utente univoco di Adobe Audience Manager
+## ID utente univoco di Adobe Audience Manager
 
 * **ID utente**: `aam_uuid`
 * **Definizione**: ID utente univoco di Adobe Audience Manager
@@ -214,7 +214,7 @@ Per ulteriori informazioni, consulta [Origini](../../features/global-data-source
 
 **ID utente**: `d_cid_ic`
 
-**Definizione**: Un codice di integrazione per l'origine dati. Può essere utilizzato al posto dell'ID origine dati/ID spazio nomi nella [!DNL API] richiesta di [!DNL Adobe Experience Cloud Privacy Core Service].
+**Definizione**: Un codice di integrazione per l&#39;origine dati. Questo può essere utilizzato al posto dell&#39;ID origine dati/ID spazio nomi nella [!DNL API] richiesta di [!DNL Adobe Experience Cloud Privacy Core Service].
 
 **ID** spazio nomi: Non applicabile
 
