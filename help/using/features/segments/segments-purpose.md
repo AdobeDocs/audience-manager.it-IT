@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Finalità, composizione e regole dei segmenti
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -25,7 +25,7 @@ Un *`segment`* (o *`audience`*) è un insieme di utenti che condividono attribut
 
 ## Composizione segmento
 
-Un segmento di Audience Manager è una regola lato server che consiste di singole caratteristiche o gruppi di caratteristiche. Le caratteristiche sono composte da elementi di dati denominati coppie chiave-valore. Insieme alle regole impostate a livello di segmento, queste coppie chiave-valore contengono i criteri che qualificano i visitatori per la caratteristica e l'appartenenza al segmento.
+Un segmento di Audience Manager è una regola lato server che consiste di singole caratteristiche o gruppi di caratteristiche. Le caratteristiche sono composte da elementi di dati denominati coppie chiave-valore. Insieme alle regole impostate a livello di segmento, queste coppie chiave-valore contengono i criteri che qualificano i visitatori per la caratteristica e l&#39;appartenenza al segmento.
 
 ## Considerazioni sulla mappatura dei segmenti di Adobe Analytics
 
@@ -33,7 +33,7 @@ Quando mappate segmenti o suite di rapporti di Adobe Analytics alla vostra organ
 
 >[!TIP]
 >
->I segmenti di Audience Manager sono diversi dai [!DNL Adobe Analytics] segmenti. Leggi [Informazioni sui segmenti in Analytics e Audience Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.
+>I segmenti di Audience Manager sono diversi dai [!DNL Adobe Analytics] segmenti. Leggi [Informazioni sui segmenti in Analytics e Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.
 
 ## Creazione di segmenti basati su regole con Segment Builder
 
@@ -41,10 +41,10 @@ A differenza dei pixel tradizionali attivati in risposta a semplici condizioni s
 
 ## Vantaggi
 
-I segmenti migliorano i processi standard di creazione/segmentazione dell'audience basati su pixel, perché consentono di:
+I segmenti migliorano i processi standard di creazione/segmentazione dell&#39;audience basati su pixel, perché consentono di:
 
 * Crea segmenti utili e pertinenti con caratteristiche di prime e terze parti.
-* Create regole di segmentazione sofisticate e complesse con operatori booleani, espressioni di confronto e criteri di aggiornamento/frequenza.
+* Create regole di segmentazione sofisticate e complesse con operatori booleani, espressioni di confronto e criteri di recency/frequenza.
 * Invia i dati del segmento a un partner di destinazione.
 * Monitorate le prestazioni con i rapporti di Audience Manager.
 
