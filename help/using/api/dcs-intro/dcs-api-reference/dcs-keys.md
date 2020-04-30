@@ -7,7 +7,7 @@ title: Attributi supportati per le chiamate API DCS
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -77,7 +77,7 @@ Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta d
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Disabilitare l'uso di cookie di terze parti per conformarsi alle norme sulla protezione dei bambini. Questo parametro viene impostato dinamicamente da Adobe Experience Platform Identity Service e dipende dalla <code> idSyncDisable3rdPartySyncing</code> configurazione. Consulta <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> Supporto COPPA nel servizio</a>Adobe Experience Platform Identity. </p> </td>
+   <td colname="col2"> <p>Disabilitare l'uso di cookie di terze parti per conformarsi alle norme sulla protezione dei bambini. Questo parametro viene impostato dinamicamente da Adobe Experience Platform Identity Service e dipende dalla <code> idSyncDisable3rdPartySyncing</code> configurazione. Consulta <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> Supporto COPPA nel servizio</a>Adobe Experience Platform Identity. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -119,7 +119,7 @@ Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta d
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Specifica l’Experience Cloud ID impostato e utilizzato dal servizio <span class="keyword"> Experience Cloud</span> ID. For more information about the ECID, see <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> </td> 
+   <td colname="col2"> <p>Specifica l’Experience Cloud ID impostato e utilizzato dal servizio <span class="keyword"> Experience Cloud</span> ID. Per ulteriori informazioni sull’ECID, vedi <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il servizio</a>Experience Cloud Identity. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
