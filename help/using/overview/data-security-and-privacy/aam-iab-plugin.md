@@ -5,7 +5,7 @@ seo-title: Plug-in di Audience Manager per IAB TCF
 solution: Audience Manager
 title: Plug-in di Audience Manager per IAB TCF
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 Un aspetto importante degli obblighi sulla riservatezza nei confronti degli utenti è l’acquisizione e la diffusione delle scelte utente su come (ad esempio, “scopo”) e da parte di chi (ad esempio, “aziende”) vengono utilizzati i dati personali. 
 
-Adobe consente di gestire e comunicare le scelte degli utenti in materia di riservatezza, tramite la [Funzionalità di consenso](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html) e il supporto del [Transparency and Consent Framework (TCF) di IAB](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/).
+Adobe consente di gestire e comunicare le scelte degli utenti in materia di riservatezza, tramite la [Funzionalità di consenso](hhttps://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) e il supporto del [Transparency and Consent Framework (TCF) di IAB](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/).
 
 In questo articolo vengono descritti i casi di utilizzo di Audience Manager che supportano IAB TCF e come implementare tale supporto in Audience Manager. Audience Manager è registrato nell&#39;IAB TCF con l&#39;ID fornitore 565.
 
-Il plug-in Audience Manager per IAB TCF utilizza la funzionalità [](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)di consenso, che a sua volta fa parte della libreria Adobe Experience Platform Identity Service (ECID) [](https://marketing.adobe.com/resources/help/en_US/mcvid/) .
+Il plug-in Audience Manager per IAB TCF utilizza la funzionalità [](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html)di consenso, che a sua volta fa parte della libreria Adobe Experience Platform Identity Service (ECID) [](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
 
 ## Ambito di applicazione e limitazioni {#scope-and-limitations}
 
@@ -39,7 +39,7 @@ Per utilizzare lo IAB TCF con Audience Manager dovete soddisfare i seguenti prer
 
 1. Devi usare Adobe Experience Platform Identity Service (ECID) versione 4.1 o successiva. [Scarica](https://github.com/Adobe-Marketing-Cloud/id-service/releases) la versione più recente di ECID.
 1. Devi utilizzare la libreria di integrazione dati di Audience Manager (DIL) versione 9.0 o successiva, scaricabile da [qui](https://github.com/Adobe-Marketing-Cloud/dil/releases). Leggi [DIL nella documentazione](../..//dil/dil-overview.md)di Audience Manager.
-1. In alternativa, se utilizzate l&#39;inoltro lato server (SSF) per importare dati in Audience Manager, dovete eseguire l&#39;aggiornamento alla versione più recente di AppMeasurement. Scarica AppMeasurement tramite [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
+1. In alternativa, se utilizzate l&#39;inoltro lato server (SSF) per importare dati in Audience Manager, dovete eseguire l&#39;aggiornamento alla versione più recente di AppMeasurement. Scarica AppMeasurement tramite [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 1. È necessario utilizzare una piattaforma di gestione del consenso (CMP), commerciale o propria, che supporti la IAB TCF ed è registrata con la IAB TCF. Consultate l’elenco dei [CMP registrati nel framework](https://advertisingconsent.eu/cmp-list/)IAB.
 
 ## Raccomandazioni e modalità di implementazione {#recommendations}
@@ -98,7 +98,7 @@ Implementando lo IAB TCF, non è necessario mantenere il codice personalizzato p
 3. Audience Manager controlla se il GDPR è applicabile (`gdpr = 1`) e se è presente un CMP registrato con IAB nella proprietà Web. Ad esempio, questo vale per gli utenti che visitano dall&#39;area dell&#39;Unione europea. È responsabilità dell&#39;editore impostare il flag GDPR.
 4. Se GDPR è applicabile, Audience Manager controlla la stringa di consenso IAB TCF, passata nel parametro `gdpr_consent`, per le autorizzazioni necessarie. Audience Manager necessita di autorizzazioni per l&#39;archiviazione, la personalizzazione, la misurazione e il consenso del fornitore di Audience Manager per archiviare, elaborare o attivare i dati.
 5. Se la stringa di consenso IAB TCF è presente e contiene le autorizzazioni richieste, Audience Manager trasmette la stringa di consenso IAB TCF ai nostri server [di raccolta](../../reference/system-components/components-data-collection.md) dati (DCS).
-6. Audience Manager risponde impostando un cookie [demdex](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) sul browser. Audience Manager inoltre avvia e rispetta le sincronizzazioni ID di terze parti.
+6. Audience Manager risponde impostando un cookie [demdex](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) sul browser. Audience Manager inoltre avvia e rispetta le sincronizzazioni ID di terze parti.
 7. In alternativa, se la stringa di consenso IAB TCF passata nel passaggio 5 non contiene tutte le autorizzazioni necessarie, Audience Manager non raccoglie, elabora o attiva i dati e non rispetta o avvia sincronizzazioni ID.
 
 ![Caso di utilizzo di Publisher](assets/publisher-use-case.png)
@@ -147,7 +147,7 @@ Audience Manager risolve le richieste di rifiuto in un articolo [separato nella 
 
 ## Risorse aggiuntive {#additional-resources}
 
-* [Consenso del servizio di identità Adobe Experience Platform](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html)
+* [Consenso del servizio di identità Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html)
 * [IAB Europe GDPR Trasparenza e Quadro di Consenso](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
 * [IAB Europe GDPR Trasparenza e Consenso Quadro Tecnico](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md)
 * [plugin IAB TCF - dimostrazione video](https://helpx.adobe.com/audience-manager/kt/using/iab-tcf-support-audience-manager-technical-video-implement.html)
