@@ -1,12 +1,12 @@
 ---
-description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirato il pubblico a specifici tipi di pubblico in base a esigenze o obiettivi aziendali. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
+description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirati i tipi di pubblico in base a esigenze o obiettivi aziendali specifici. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
 seo-description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirato il pubblico a specifici tipi di pubblico in base a esigenze o obiettivi aziendali. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
 seo-title: Casi di utilizzo generali per le regole di unione dei profili
 solution: Audience Manager
 title: Casi di utilizzo generali per le regole di unione dei profili
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -98,7 +98,7 @@ La scelta di un&#39; [!UICONTROL device graph] opzione per una [!UICONTROL Profi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opzioni di Device Graph esterno </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Le regole di unione</span> dei profili create con <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> Experience Cloud Device Co-op</a> o con qualsiasi grafico di dispositivi esterno integrato con <span class="keyword"> Audience Manager</span> sono ideali per: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Le regole di unione</span> dei profili create con <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> o con qualsiasi grafico di dispositivi esterno integrato con <span class="keyword"> Audience Manager</span> sono ideali per: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Proprietà digitali con un basso livello di autenticazione dei clienti. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Campagne di marchio ampie e di grande portata. </li> 
