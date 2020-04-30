@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Stati di autenticazione dei visitatori in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 Lo stato di autenticazione del visitatore in Audience Manager determina se le nuove informazioni sulle caratteristiche vengono scritte nel profilo autenticato del visitatore o nel profilo del dispositivo da cui sono stati raccolti i dati. Audience Manager gestisce allo stesso modo gli stati di autenticazione dell’ID visitatore UNKNOWN e LOGGED_OUT nelle chiamate dell’evento.
 
-A partire dalla versione 1.5 del servizio [!DNL Experience Cloud] ID, il `setCustomerID` metodo include l’ `AuthState` oggetto facoltativo. `AuthState` identifica i visitatori in base al loro stato [di](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)autenticazione. [!DNL Audience Manager] gestisce le caratteristiche realizzate in modo diverso, a seconda dello stato di autenticazione passato nella chiamata e della regola [di unione dei](../features/profile-merge-rules/merge-rules-dashboard.md) profili utilizzata per la segmentazione.
+A partire dalla versione 1.5 del servizio [!DNL Experience Cloud] ID, il `setCustomerID` metodo include l’ `AuthState` oggetto facoltativo. `AuthState` identifica i visitatori in base al loro stato [di](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)autenticazione. [!DNL Audience Manager] gestisce le caratteristiche realizzate in modo diverso, a seconda dello stato di autenticazione passato nella chiamata e della regola [di unione dei](../features/profile-merge-rules/merge-rules-dashboard.md) profili utilizzata per la segmentazione.
 
 ## Stato autenticazione: SCONOSCIUTO {#auth-status-unknown}
 
@@ -24,7 +24,7 @@ A partire dalla versione 1.5 del servizio [!DNL Experience Cloud] ID, il `setCus
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leggi</b> informazioni dal profilo autenticato </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Leggere</b> le informazioni dal profilo autenticato </p> </th> 
    <th colname="col3" class="entry"> <p> <b>Scrivere</b> nuove caratteristiche al profilo autenticato </p> </th> 
   </tr> 
  </thead>
@@ -50,7 +50,7 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leggi</b> informazioni dal profilo autenticato </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Leggere</b> le informazioni dal profilo autenticato </p> </th> 
    <th colname="col3" class="entry"> <p> <b>Scrivere</b> nuove caratteristiche al profilo autenticato </p> </th> 
   </tr> 
  </thead>
@@ -76,7 +76,7 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leggi</b> informazioni dal profilo autenticato </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Leggere</b> le informazioni dal profilo autenticato </p> </th> 
    <th colname="col3" class="entry"> <p> <b>Scrivere</b> nuove caratteristiche al profilo autenticato </p> </th> 
   </tr> 
  </thead>
@@ -102,5 +102,5 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
 
 >[!MORELIKETHIS]
 >
->* [ID cliente e stati di autenticazione](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
+>* [ID cliente e stati di autenticazione](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
 
