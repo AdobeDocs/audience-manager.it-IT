@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 translation-type: tm+mt
-source-git-commit: d72460ee33be0bfffe56eff04286284b2e5f3918
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -40,16 +40,16 @@ c_flash_dil_intro.xml
 * La libreria [!UICONTROL DIL] di classi ( `dil.swc`). Ottenete la libreria delle [!UICONTROL DIL] classi dal contatto Soluzioni partner.
 
 * Codice di raccolta dati JavaScript [!UICONTROL DIL] sulla pagina.
-* [Libreria](../dil/dil-flash.md#flash-dil-actionscript) DIL ActionScript caricata nell'oggetto Flash da cui si desidera raccogliere i dati.
-* La [!DNL AppMeasurement] libreria Adobe (versione 3.5.2 o successiva) ha caricato l' [!DNL AS] [!DNL Flash] oggetto da cui si desidera raccogliere i dati.
+* [Libreria](../dil/dil-flash.md#flash-dil-actionscript) DIL ActionScript caricata nell&#39;oggetto Flash da cui si desidera raccogliere i dati.
+* La [!DNL AppMeasurement] libreria Adobe (versione 3.5.2 o successiva) ha caricato l&#39; [!DNL AS] [!DNL Flash] oggetto da cui si desidera raccogliere i dati.
 
-**Imposta AllowScriptAccess su`Always`o`sameDomain`**
+**Impostate AllowScriptAccess su`Always`o`sameDomain`**
 
-Il codice HTML `AllowScriptAccess` in cui viene caricato un file SWF controlla la capacità di eseguire l'accesso URL in uscita dall'interno del file SWF. Quando configurate un'integrazione dei [!UICONTROL Flash DIL] dati, accertatevi che il `AllowScriptAccess` parametro Flash sia impostato su `always` o `sameDomain`. [!UICONTROL Flash DIL] la raccolta dei dati non funzionerà se `AllowScriptAccess` è impostata su `never`. Vedere [Controllo dell'accesso agli script o alla pagina](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html)Web dell'host.
+Il codice HTML `AllowScriptAccess` in cui viene caricato un file SWF controlla la capacità di eseguire l&#39;accesso URL in uscita dall&#39;interno del file SWF. Quando configurate un&#39;integrazione dei [!UICONTROL Flash DIL] dati, accertatevi che il `AllowScriptAccess` parametro Flash sia impostato su `always` o `sameDomain`. [!UICONTROL Flash DIL] la raccolta dei dati non funzionerà se `AllowScriptAccess` è impostata su `never`. Vedere [Controllo dell&#39;accesso agli script o alla pagina](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html)Web dell&#39;host.
 
 **Posizionamento[!UICONTROL DIL]del codice JS**
 
-Provare a inserire il modulo di raccolta [!UICONTROL DIL] dati JS nella pagina in modo che venga caricato prima del [!DNL FLA] file. Quando il [!DNL FLA] file viene caricato per primo, prima che la raccolta [!UICONTROL DIL] dei dati sia pronta, è possibile che non vengano visualizzati i segnali di dati iniziali [!UICONTROL Flash DIL] inviati al modulo. Tuttavia, una volta creata l'istanza, il modulo di raccolta dei [!UICONTROL DIL] dati acquisirà tutti i dati del file SWF passati successivamente da [!UICONTROL Flash DIL].
+Provare a inserire il modulo di raccolta [!UICONTROL DIL] dati JS nella pagina in modo che venga caricato prima del [!DNL FLA] file. Quando il [!DNL FLA] file viene caricato per primo, prima che la raccolta [!UICONTROL DIL] dei dati sia pronta, è possibile che non vengano visualizzati i segnali di dati iniziali [!UICONTROL Flash DIL] inviati al modulo. Tuttavia, una volta creata l&#39;istanza, il modulo di raccolta dei [!UICONTROL DIL] dati acquisirà tutti i dati del file SWF passati successivamente da [!UICONTROL Flash DIL].
 
 ## Dati raccolti da Flash DIL {#data-collected}
 
@@ -91,11 +91,11 @@ I dati provenienti da questi parametri vengono raccolti per impostazione predefi
 
 * `mediaName` (nome elemento multimediale/video)
 * `mediaAdName` (Nome annuncio)
-* `mediaAdParentName` (Nome del contenuto multimediale principale in cui è nidificato l'annuncio)
-* `mediaAdParentPod` (Il contenitore o l'interruzione dell'annuncio all'interno del contenuto principale in cui viene riprodotto l'annuncio)
-* `mediaAdParentPodPos` (La posizione numerica all'interno del contenitore in cui viene riprodotto l'annuncio. Più annunci possono essere riprodotti all'interno di un contenitore.
+* `mediaAdParentName` (Nome del contenuto multimediale principale in cui è nidificato l&#39;annuncio)
+* `mediaAdParentPod` (Il contenitore o l&#39;interruzione dell&#39;annuncio all&#39;interno del contenuto principale in cui viene riprodotto l&#39;annuncio)
+* `mediaAdParentPodPos` (La posizione numerica all&#39;interno del contenitore in cui viene riprodotto l&#39;annuncio. Più annunci possono essere riprodotti all&#39;interno di un contenitore.
 
-## Dati DIL Flash in Audience Manager {#flash-dil-data}
+## Dati DIL di Flash in Audience Manager {#flash-dil-data}
 
 Il [!UICONTROL Flash DIL] modulo trasforma i dati Adobe AppMeasurement in caratteristiche e segnali non utilizzati di Audience Manager.
 
@@ -135,7 +135,7 @@ r_flash_dil_actionscript.xml
 
 >[!NOTE]
 >
->* Per ogni [!DNL Flash] oggetto, il codice supporta solo un'istanza partner ( `d.partner`).
+>* Per ciascun [!DNL Flash] oggetto, il codice supporta solo un&#39;istanza partner ( `d.partner`).
    >
    >
 * Richiede la versione della [!UICONTROL AppMeasurement] libreria Adobe [!DNL AS] 3.5.2 o successiva.
@@ -158,5 +158,8 @@ s.loadModule(d);
 >* [Segnali, caratteristiche e segmenti](../reference/signal-trait-segment.md)
 >* [Spiegazione delle coppie chiave-valore](../reference/key-value-pairs-explained.md)
 >* [Requisiti del prefisso per le variabili chiave](../features/traits/trait-variable-prefixes.md)
->* [Guida all'implementazione di AppMeasurement Flash, Flex e OSMF](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
 
+
+<!-- Victor/Vlad: Do we still need this link? It doesn't look like this content has been migrated.
+>* [AppMeasurement Flash, Flex, and OSMF Implementation Guide](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/)
+-->
