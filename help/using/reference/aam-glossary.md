@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossario
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -60,7 +60,7 @@ In Pubblico [indirizzabile](/help/using/features/addressable-audiences.md), ques
 
 **Attributi del cliente**
 
-See [Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) in the [!DNL Experience Cloud Core Services] product documentation.
+See [Customer Attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the [!DNL Experience Cloud Core Services] product documentation.
 
 <br> 
 
@@ -112,7 +112,7 @@ Si [!UICONTROL Data Integration Library] tratta di una libreria API utilizzata d
 
 **Experience Cloud ID (ECID)**
 
-Precedentemente denominato [!DNL Marketing Cloud] ID (MID o MCID). L’ [!DNL Experience Cloud] ID è fondamentale per il servizio ID. È un identificatore univoco e permanente per i visitatori del sito. Consulta Cookie e il servizio [identità](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html)Adobe Experience Platform.
+Precedentemente denominato [!DNL Marketing Cloud] ID (MID o MCID). L’ [!DNL Experience Cloud] ID è fondamentale per il servizio ID. È un identificatore univoco e permanente per i visitatori del sito. Consulta Cookie e il servizio [identità](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)Adobe Experience Platform.
 
 <br> 
 
@@ -269,7 +269,7 @@ TTL definisce quanti giorni un visitatore qualificato rimane in una caratteristi
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-Consulta la documentazione di [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) .
+Consulta la documentazione di [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
 
 ## W-X-Y-Z {#w-z}
 
