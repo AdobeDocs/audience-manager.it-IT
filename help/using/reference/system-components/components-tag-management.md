@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Componenti per la gestione dei tag
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -35,7 +35,7 @@ Il portale client è l&#39;interfaccia utente principale per la gestione di tag 
 
 ## Contenitore DIL/TIM {#dil-tim}
 
-Il [!UICONTROL DIL] contenitore consente di distribuire [!DNL Audience Manager] il codice di raccolta dati al sito Web. [!UICONTROL TIM] è Gestione dell&#39;inserimento tag obsoleta. Non viene più utilizzato da [!DNL Audience Manager]. Al contrario, puoi utilizzare Gestione [tag](https://marketing.adobe.com/resources/help/en_US/dtm/) dinamica o l’ [!DNL Audience Manager] estensione in [Adobe Experience Platform Launch](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) per configurare e generare il codice contenitore che inserisci nelle pagine del tuo inventario. Il [!UICONTROL DTM] contenitore funziona con [!UICONTROL Data Information Library (DIL)] per raccogliere i dati dal sito e inviarli al [!DNL Audience Manager].
+Il [!UICONTROL DIL] contenitore consente di distribuire [!DNL Audience Manager] il codice di raccolta dati al sito Web. [!UICONTROL TIM] è Gestione dell&#39;inserimento tag obsoleta. Non viene più utilizzato da [!DNL Audience Manager]. Al contrario, puoi utilizzare Gestione [tag](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) dinamica o l’ [!DNL Audience Manager] estensione in [Adobe Experience Platform Launch](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) per configurare e generare il codice contenitore che inserisci nelle pagine del tuo inventario. Il [!UICONTROL DTM] contenitore funziona con [!UICONTROL Data Information Library (DIL)] per raccogliere i dati dal sito e inviarli al [!DNL Audience Manager].
 
 ## Libreria di integrazione dei dati (DIL) {#dil}
 
