@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Guida introduttiva alle regole di unione dei profili
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -135,7 +135,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Per ulteriori informazioni, vedi [Creare un&#39;origine](#create-data-source) dati e ID [cliente tra dispositivi e stati](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html)di autenticazione.
+Per ulteriori informazioni, vedi [Creare un&#39;origine](#create-data-source) dati e ID [cliente tra dispositivi e stati](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)di autenticazione.
 
 ### Configura `DIL.create` funzione
 
@@ -150,7 +150,7 @@ var vDil = DIL.create({
 });
 ```
 
-Nella coppia chiave-valore dello spazio dei nomi, la variabile `*`MCORG`*` è l’ID [!DNL Experience Cloud] organizzazione. Se non disponete di questo ID, potete trovarlo nella [!UICONTROL Administration] sezione del [!DNL Experience Cloud] dashboard. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+Nella coppia chiave-valore dello spazio dei nomi, la variabile `*`MCORG`*` è l’ID [!DNL Experience Cloud] organizzazione. Se non disponete di questo ID, potete trovarlo nella [!UICONTROL Administration] sezione del [!DNL Experience Cloud] dashboard. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configurare gli SDK
 
@@ -208,7 +208,7 @@ Controllate i metodi nel [!DNL SDK] codice che consentono di passare [!UICONTROL
  </tbody>
 </table>
 
-Vedi anche Metodi [Audience Manager per Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) e Metodi [Audience Manager per iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html).
+Vedi anche Metodi [Audience Manager per Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e Metodi [Audience Manager per iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
