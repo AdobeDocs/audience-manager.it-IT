@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Codici errore DCS, messaggi ed esempi
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -41,7 +41,7 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>Valore non valido <code> d_orgid</code> (impossibile trovare una configurazione per questo ID organizzazione): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>L'ID organizzazione non è corretto. </p> <p>Controlla l’ID e riprova la richiesta. Se non conosci o non conosci il tuo ID organizzazione, consulta la sezione "Pagina di amministrazione" in Amministrazione <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"></a> Experience Cloud per informazioni su come trovarlo. </p> </td> 
+   <td colname="col3"> <p>L'ID organizzazione non è corretto. </p> <p>Controlla l’ID e riprova la richiesta. Se non conosci o non disponi del tuo ID organizzazione, consulta la sezione "Pagina di amministrazione" in <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organizzazioni e collegamento</a> dell’account per informazioni su come trovarlo. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -180,7 +180,7 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
  </tbody> 
 </table>
 
-## Codici di avviso dell'integrazione {#integration-warning-codes}
+## Codici di avviso dell&#39;integrazione {#integration-warning-codes}
 
 <table id="table_31F1593C46804DDBA2E9BEDE83F2417F"> 
  <thead> 
@@ -198,7 +198,7 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   </tr> 
   <tr> 
    <td colname="col1"> <p>301 </p> </td> 
-   <td colname="col2"> <p>Numero massimo di ID cliente superato. Il valore massimo consentito è <code><i>maximum allowed</i></code>. Trovato <code><i>maximum found</i></code>.</p> </td> 
+   <td colname="col2"> <p>Numero massimo di ID cliente superato. Il valore massimo consentito è <code><i>maximum allowed</i></code>. Trovato è <code><i>maximum found</i></code>.</p> </td> 
    <td colname="col3"> <p>Il numero di ID cliente associati a un'origine dati multi-dispositivo supera il numero consentito di ID cross-device per richiesta. Questi ID includono ID per dispositivi diversi, dispositivi mobili o cookie. Il limite è attualmente impostato su 10. </p> </td>
   </tr> 
   <tr> 
@@ -255,9 +255,9 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
 
 ## Messaggi di codice di errore di esempio {#sample-error-codes}
 
-Il metodo [!UICONTROL DCS] restituisce i codici di errore e i messaggi in un [!DNL JSON] oggetto o in un'intestazione X nella stringa di risposta HTTP.
+Il metodo [!UICONTROL DCS] restituisce i codici di errore e i messaggi in un [!DNL JSON] oggetto o in un&#39;intestazione X nella stringa di risposta HTTP.
 
-### Codice errore e messaggio DCS di esempio
+### Codice di errore e messaggio DCS di esempio
 
 ```
 { 
@@ -276,6 +276,6 @@ Il metodo [!UICONTROL DCS] restituisce i codici di errore e i messaggi in un [!D
 
 ### X-Error
 
-I codici di errore acquisiti dall'intestazione X vengono visualizzati nella stringa URL come questa, `X-Error: 101,102`.
+I codici di errore acquisiti dall&#39;intestazione X vengono visualizzati nella stringa URL come questa, `X-Error: 101,102`.
 
 [Condizioni di gara e gestione errori](../../../api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
