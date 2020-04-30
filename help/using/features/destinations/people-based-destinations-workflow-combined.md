@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro A - Personalizzazione basata su tutte le attività o
 solution: Audience Manager
 title: Flusso di lavoro A - Personalizzazione basata su tutte le attività online combinate con dati offline
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -13,32 +13,32 @@ source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
 # Flusso di lavoro A - Personalizzazione basata su tutte le attività online combinate con dati offline {#workflow-a}
 
 >[!IMPORTANT]
->Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell'utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per assistenza legale.
+>Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell&#39;utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per ottenere assistenza legale.
 
 Questa pagina include istruzioni dettagliate su come combinare [!DNL CRM] dati offline con dati comportamentali già presenti in Audience Manager per creare nuovi segmenti di pubblico e quindi inviare tali segmenti a [!DNL People-Based Destinations].
 
 ## Passaggio 1 - Configura impostazioni origine dati {#configure-data-source-settings}
 
-A seconda che i vostri [DPUUID](../../reference/ids-in-aam.md) siano minuscoli, indirizzi e-mail con hash, potrebbe essere necessario configurare l'origine dati che memorizzerà gli indirizzi e-mail con hash.
+A seconda che i vostri [DPUUID](../../reference/ids-in-aam.md) siano minuscoli, indirizzi e-mail con hash, potrebbe essere necessario configurare l&#39;origine dati che memorizzerà gli indirizzi e-mail con hash.
 
  
 
 **Scenario 1: gli indirizzi e-mail[DPUUID](../../reference/ids-in-aam.md)sono già minuscoli e con hash.**
 
-In questo caso, è necessario etichettare l'origine dati corrispondente come tale:
+In questo caso, è necessario etichettare l&#39;origine dati corrispondente come tale:
 
-1. Vai a [!UICONTROL Audience Data] -&gt; [!UICONTROL Data Sources].
+1. Vai a [!UICONTROL Audience Data] -> [!UICONTROL Data Sources].
 1. Individua l’origine dati che contiene i tuoi [DPUUID](../../reference/ids-in-aam.md)e fai clic su di essa.
 1. Nel **[!UICONTROL ID Type]** menu a discesa, selezionate **[!UICONTROL Cross Device]**.
 1. Accertatevi che l’opzione [!UICONTROL Cannot be tied to personally identifiable information] sia deselezionata.
-1. Nella **[!UICONTROL Data Source Settings]** sezione, selezionate sia le **[!UICONTROL Inbound]** opzioni che le **[!UICONTROL Outbound]** opzioni e abilitate l' **[!UICONTROL Share associated cross-device IDs in people-based destinations]** opzione.
-1. Utilizzare il menu a discesa per selezionare l' **[!UICONTROL Emails(SHA256, lowercased)]** etichetta per questa origine dati.
+1. Nella **[!UICONTROL Data Source Settings]** sezione, selezionate sia le **[!UICONTROL Inbound]** opzioni che le **[!UICONTROL Outbound]** opzioni, quindi abilitate l&#39; **[!UICONTROL Share associated cross-device IDs in people-based destinations]** opzione.
+1. Utilizzare il menu a discesa per selezionare l&#39; **[!UICONTROL Emails(SHA256, lowercased)]** etichetta per questa origine dati.
    >[!IMPORTANT]
    >
-   >Questa opzione etichetta solo l'origine dati come contenente i dati con hash con tale algoritmo specifico. Audience Manager non esegue l'hash dei dati in questo passaggio. Assicurati che gli indirizzi e-mail che intendi memorizzare in questa origine dati siano già crittografati con l' [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
+   >Questa opzione etichetta solo l&#39;origine dati come contenente i dati con hash con tale algoritmo specifico. Audience Manager non esegue l&#39;hash dei dati in questo passaggio. Assicurati che gli indirizzi e-mail che intendi memorizzare in questa origine dati siano già crittografati con l&#39; [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
-1. Salvare le impostazioni dell'origine dati.
+1. Salvare le impostazioni dell&#39;origine dati.
 
  
 
@@ -46,21 +46,21 @@ In questo caso, è necessario etichettare l'origine dati corrispondente come tal
 
 In questo caso, è necessario creare una nuova origine dati cross-device in cui memorizzare gli indirizzi e-mail con hash. Come procedere:
 
-1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**, quindi fai clic su **[!UICONTROL Add New]**.
+1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**, quindi fai clic su **[!UICONTROL Add New]**.
 1. Immettere un [!UICONTROL Name] e [!UICONTROL Description] per la nuova origine dati.
 1. Nel **[!UICONTROL ID Type]** menu a discesa, selezionate **[!UICONTROL Cross Device]**.
-1. Nella **[!UICONTROL Data Source Settings]** sezione, selezionate sia le **[!UICONTROL Inbound]** opzioni che le **[!UICONTROL Outbound]** opzioni e abilitate l' **[!UICONTROL Share associated cross-device IDs in people-based destinations]** opzione.
-1. Utilizzare il menu a discesa per selezionare l' **[!UICONTROL Emails(SHA256, lowercased)]** etichetta per questa origine dati.
+1. Nella **[!UICONTROL Data Source Settings]** sezione, selezionate sia le **[!UICONTROL Inbound]** opzioni che le **[!UICONTROL Outbound]** opzioni, quindi abilitate l&#39; **[!UICONTROL Share associated cross-device IDs in people-based destinations]** opzione.
+1. Utilizzare il menu a discesa per selezionare l&#39; **[!UICONTROL Emails(SHA256, lowercased)]** etichetta per questa origine dati.
    >[!IMPORTANT]
    >
-   >Questa opzione etichetta solo l'origine dati come contenente i dati con hash con tale algoritmo specifico. Audience Manager non esegue l'hash dei dati in questo passaggio. Assicurati che gli indirizzi e-mail che intendi memorizzare in questa origine dati siano già crittografati con l' [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
+   >Questa opzione etichetta solo l&#39;origine dati come contenente i dati con hash con tale algoritmo specifico. Audience Manager non esegue l&#39;hash dei dati in questo passaggio. Assicurati che gli indirizzi e-mail che intendi memorizzare in questa origine dati siano già crittografati con l&#39; [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
-1. Salvare le impostazioni dell'origine dati.
+1. Salvare le impostazioni dell&#39;origine dati.
 
-Guardate il video seguente per un'esercitazione video su come creare un'origine dati per [!UICONTROL People-Based Destinations].
+Guardate il video seguente per un&#39;esercitazione video su come creare un&#39;origine dati per [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Guardate il video seguente per un'esercitazione video su come creare un'origine 
 >
 > Questo passaggio si applica solo allo [scenario 2](people-based-destinations-workflow-combined.md#configure-data-source-settings) sopra descritto. Se i [DPUUID](../../reference/ids-in-aam.md) esistenti sono già indirizzi e-mail con hash, passa al [Passaggio 3 - Crea una regola di unione dei profili per la segmentazione](people-based-destinations-workflow-combined.md#create-merge-rule).
 
-Supponiamo che tu voglia far corrispondere i tuoi [DPUUID](../../reference/ids-in-aam.md) esistenti agli indirizzi e-mail con hash della tabella seguente (colonna a destra), e memorizzare gli indirizzi e-mail con hash nella nuova origine dati creata al [Passaggio 1 - Configura impostazioni](people-based-destinations-workflow-combined.md#configure-data-source-settings)origine dati.
+Supponiamo che tu voglia far corrispondere i tuoi [DPUUID](../../reference/ids-in-aam.md) esistenti agli indirizzi e-mail con hash della tabella seguente (colonna a destra), e memorizzare gli indirizzi e-mail con hash nella nuova origine dati che hai creato al [Passaggio 1 - Configura impostazioni](people-based-destinations-workflow-combined.md#configure-data-source-settings)origine dati.
 
 | DPUUID (ID CRM) | Indirizzo e-mail | Indirizzo e-mail con hash |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
@@ -82,7 +82,7 @@ Supponiamo che tu voglia far corrispondere i tuoi [DPUUID](../../reference/ids-i
 
  
 
-Potete collegare fino a 10 indirizzi e-mail con hash a un singolo [DPUUID](../../reference/ids-in-aam.md). A questo scopo, separate gli indirizzi e-mail con hash con una virgola all'interno del file di sincronizzazione.
+Potete collegare fino a 10 indirizzi e-mail con hash a un singolo [DPUUID](../../reference/ids-in-aam.md). A questo scopo, separate gli indirizzi e-mail con hash con una virgola all&#39;interno del file di sincronizzazione.
 
 Nel nostro esempio, ora ci sono due origini dati.
 
@@ -109,10 +109,12 @@ Il file [di sincronizzazione](../../integration/sending-audience-data/batch-data
 
  
 
-Nell'esempio precedente, il nome del file sarà simile al seguente:
+Nell&#39;esempio precedente, il nome del file sarà simile al seguente:
 `c2c_id_999999_987654_1560431657.sync`
 
 [Scarica il file di esempio qui](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
+
+<!-- Victor/Vlad: Please check the above link. Any way you can move this download to Git? I'm concerned about the plans to decommission marketing.adobe.com -Bob -->
 
 Dopo aver creato il file di sincronizzazione ID, devi caricarlo in un [!DNL Amazon S3] bucket. Per informazioni su come caricare i file di sincronizzazione ID, consulta [Inviare dati batch ad Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
@@ -122,44 +124,44 @@ Il passo successivo consiste nella creazione di una nuova regola di unione che t
 
 >[!IMPORTANT]
 >
-> Se hai già una regola definita con le [!UICONTROL Current Authenticated Profiles] opzioni o [!UICONTROL Last Authenticated Profiles] , puoi passare al [Passaggio 4 - Crea segmenti](people-based-destinations-workflow-combined.md#create-audience-segments)di pubblico.
+> Se hai già una regola definita con le [!UICONTROL Current Authenticated Profiles] o [!UICONTROL Last Authenticated Profiles] le opzioni, puoi passare al [Passaggio 4 - Crea segmenti](people-based-destinations-workflow-combined.md#create-audience-segments)di pubblico.
 
-1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Profile Merge Rules]**.
-1. Fai clic su **[!UICONTROL Add New Rule]**.
+1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**.
+1. Clic **[!UICONTROL Add New Rule]**.
 1. Immettete una regola di unione dei profili **[!UICONTROL Name]** e **[!UICONTROL Description]**.
 1. Nella **[!UICONTROL Profile Merge Rule Setup]** sezione selezionare le **[!UICONTROL Current Authenticated Profiles]** opzioni o **[!UICONTROL Last Authenticated Profiles]** .
-1. Nell' **[!UICONTROL Cross-Device Profile Options]** elenco, selezionare le origini dati sulle quali eseguire la segmentazione. Devono essere le origini dati che contengono i [DPUUID](../../reference/ids-in-aam.md)esistenti.
+1. Nell&#39; **[!UICONTROL Cross-Device Profile Options]** elenco, selezionare le origini dati sulle quali si desidera eseguire la segmentazione. Devono essere le origini dati che contengono i [DPUUID](../../reference/ids-in-aam.md)esistenti.
 
 ## Passaggio 4 - Creazione di segmenti di pubblico {#create-audience-segments}
 
 Per creare nuovi segmenti di pubblico, utilizza il Generatore di [segmenti](../segments/segment-builder.md). Se hai segmenti di pubblico esistenti a cui vuoi inviare [!DNL People-Based Destinations], passa al [Passaggio 5 - Configura autenticazione](people-based-destinations-workflow-combined.md#configure-authentication)della piattaforma basata sulle persone.
 
-## Passaggio 5 - Configurare l'autenticazione della piattaforma basata sulle persone {#configure-authentication}
+## Passaggio 5 - Configurare l&#39;autenticazione della piattaforma basata sulle persone {#configure-authentication}
 
-1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Administration]** &gt; **[!UICONTROL Integrated Accounts]**. Se avete già configurato un'integrazione con una piattaforma social, visualizzatela in questa pagina. In caso contrario, la pagina è vuota.
+1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Se avete già configurato un&#39;integrazione con una piattaforma social, visualizzatela in questa pagina. In caso contrario, la pagina è vuota.
    ![integrazione basata sulle persone](assets/pbd-config.png)
-1. Fai clic su **[!UICONTROL Add Account]**.
-1. Utilizzate il menu a **[!UICONTROL People-Based Platform]** discesa per selezionare la piattaforma con cui desiderate configurare l'integrazione.
+1. Clic **[!UICONTROL Add Account]**.
+1. Utilizzate il menu a **[!UICONTROL People-Based Platform]** discesa per selezionare la piattaforma con cui desiderate configurare l&#39;integrazione.
    ![piattaforma basata sulle persone](assets/pbd-add.png)
 1. Fare clic per **[!UICONTROL Confirm]** essere reindirizzato alla pagina di autenticazione della piattaforma selezionata.
-1. Dopo aver eseguito l'autenticazione sull'account della piattaforma social, verrete reindirizzati ad Audience Manager, dove dovrebbero essere visualizzati gli account degli inserzionisti associati. Selezionate l’account dell’inserzionista da usare e fate clic su **[!UICONTROL Confirm]**.
-1. Audience Manager visualizza una notifica nella parte superiore della pagina per informarvi se l'account è stato aggiunto correttamente. La notifica consente inoltre di aggiungere un indirizzo e-mail di contatto per ricevere le notifiche quando l'autenticazione della piattaforma social sta per scadere.
+1. Dopo aver eseguito l&#39;autenticazione sull&#39;account della piattaforma social, verrete reindirizzati ad Audience Manager, dove dovrebbero essere visualizzati gli account dell&#39;inserzionista associato. Selezionate l’account dell’inserzionista da usare e fate clic su **[!UICONTROL Confirm]**.
+1. Audience Manager visualizza una notifica nella parte superiore della pagina per informarvi se l&#39;account è stato aggiunto correttamente. La notifica consente inoltre di aggiungere un indirizzo e-mail di contatto per ricevere le notifiche quando l&#39;autenticazione della piattaforma social sta per scadere.
 
 >[!IMPORTANT]
 >
->Un Audience Manager gestisce l'integrazione con le piattaforme social tramite token di autenticazione che scadono dopo un certo periodo di tempo. Consulta Rinnovo token di autenticazione per informazioni dettagliate su come rinnovare i token scaduti.
+>Un Audience Manager gestisce l&#39;integrazione con le piattaforme social tramite token di autenticazione che scadono dopo un certo periodo di tempo. Consulta Rinnovo token di autenticazione per informazioni dettagliate su come rinnovare i token scaduti.
 
 ## Passaggio 6 - Creare una destinazione basata sulle persone {#create-destination}
 
-1. Accedi al tuo account Audience Manager, vai a **[!UICONTROL Audience Data]** &gt; **[!UICONTROL Destinations]** e fai clic su **[!UICONTROL Create Destination]**.
+1. Accedi al tuo account Audience Manager, vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** e fai clic su **[!UICONTROL Create Destination]**.
 1. Nella **[!UICONTROL Basic Information]** sezione immettere una **[!UICONTROL Name]** e **[!UICONTROL Description]** per la nuova origine dati e utilizzare le seguenti impostazioni:
    * **[!UICONTROL Category]**: Piattaforme integrate;
    * **[!UICONTROL Type]**: Persone;
    * **[!UICONTROL Platform]**: selezionate la piattaforma basata sulle persone a cui desiderate inviare i segmenti di pubblico;
-   * **[!UICONTROL Account]**: selezionate l'account dell'inserzionista desiderato associato alla piattaforma selezionata.
+   * **[!UICONTROL Account]**: selezionate l&#39;account dell&#39;inserzionista desiderato associato alla piattaforma selezionata.
       ![create-Destination](assets/pbd-create-destination.png)
-1. Fai clic su **[!UICONTROL Next]**.
-1. Scegliere l' **[!UICONTROL Data Export Labels]** impostazione da impostare per la destinazione.
-1. Nella **[!UICONTROL Configuration]** sezione, selezionare l'origine dati che contiene le origini dati con hash.
+1. Clic **[!UICONTROL Next]**.
+1. Scegliere l&#39; **[!UICONTROL Data Export Labels]** impostazione da impostare per la destinazione.
+1. Nella **[!UICONTROL Configuration]** sezione, selezionare l&#39;origine dati che contiene le origini dati con hash.
 1. Nella **[!UICONTROL Segment Mappings]** sezione, selezionate i segmenti che desiderate inviare a questa destinazione. Si tratta dei segmenti creati al [Passaggio 4 - Creazione di segmenti](people-based-destinations-workflow-combined.md#create-audience-segments)di pubblico.
 1. Salva la destinazione.
