@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Gestisci origini dati
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -33,7 +33,7 @@ Per completare la [!UICONTROL Data Source Details] sezione:
 1. Fornite un codice di integrazione. In genere, i codici di integrazione sono facoltativi. Sono necessari per:
 
    * [Crea un&#39;origine](../features/profile-merge-rules/merge-rules-start.md#create-data-source)dati multi-dispositivo.
-   * Utilizzate [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+   * Utilizzate [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
    * Utilizzare le regole [di unione dei](../features/profile-merge-rules/merge-rules-start.md)profili.
 
 1. Scegliete un **[!UICONTROL ID Type]**. Le opzioni per il tipo di ID includono:
@@ -74,7 +74,7 @@ Eliminare un&#39;origine dati non più necessaria.
 >Prendete nota delle seguenti limitazioni:
 >
 >* Non puoi eliminare un [Pubblico attivo o una caratteristica](../features/traits/client-activity-synced-audience-traits.md)sincronizzata origine dati.
->* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di [!DNL Analytics] rapporti. Utilizzate il servizio [](https://marketing.adobe.com/resources/help/en_US/mcloud/) core per annullare la mappatura di queste origini dati.
+>* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di [!DNL Analytics] rapporti. Utilizzate il servizio [](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) core per annullare la mappatura di queste origini dati.
 
 
 1. Clic **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
