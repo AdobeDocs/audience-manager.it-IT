@@ -4,9 +4,9 @@ seo-description: Domande e problemi comuni relativi al targeting.
 seo-title: Domande frequenti sul targeting
 solution: Audience Manager
 title: Domande frequenti sul targeting
-uuid: e96ef71-b903-4953-afc4-8ec8e48bd49e
+uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -25,7 +25,7 @@ faq_targeting.xml
 
 **Dove posso trovare un elenco completo dei fornitori di dati di terze parti supportati da Audience Manager?**
 
-Per un elenco completo dei provider di dati di terze parti che supportano, consultate [Adobe Exchange Marketplace](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) (https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) [!DNL Audience Manager] .
+Consulta [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.html) per un elenco completo dei provider di dati di terze parti che [!DNL Audience Manager] supporta.
 
 <br> 
 
@@ -49,7 +49,7 @@ Audience Manager consente di aggregare utenti e commercializzarli in base ad att
 
 **L’ID utente univoco di Audience Manager (UUID) è associato all’ID utente univoco di un server di annunci tramite la sincronizzazione ID direttamente sulla pagina?**
 
-No. Le sincronizzazioni ID non vengono effettuate sulla pagina per gli editori o i server sul sito. L'UUID di Audience Manager viene inserito nel `u=` campo dei file di registro del server di annunci. Questo accade quando il segmento viene passato per il targeting. Il modulo di codice DIL esegue questa funzione. Questo è lo stesso meccanismo che ci consente di mappare l'ID utente del server a un utente Audience Manager per la generazione di rapporti sulle prestazioni dei segmenti. Tuttavia, se sul sito è presente un server di annunci, gli ID vengono sincronizzati direttamente sulla pagina.
+No. Le sincronizzazioni ID non vengono effettuate sulla pagina per gli editori o i server interni al sito. L&#39;UUID di Audience Manager viene inserito nel `u=` campo dei file di registro del server di annunci. Questo accade quando il segmento viene passato per il targeting. Il modulo di codice DIL esegue questa funzione. Questo è lo stesso meccanismo che ci consente di mappare l&#39;ID utente del server a un utente Audience Manager per la generazione di rapporti sulle prestazioni dei segmenti. Tuttavia, se sul sito è presente un server di annunci, gli ID vengono sincronizzati direttamente sulla pagina.
 
 <br> 
 
@@ -73,19 +73,19 @@ Sì. Audience Manager può fornire file di dati che consentono di valutare gli u
 
 **Quali sono i tassi di cancellazione dei cookie in un dato periodo di 1 - 2 mesi?**
 
-L'eliminazione dei cookie è difficile da misurare. La maggior parte dell'eliminazione dei cookie proviene da alcuni visitatori che eliminano i cookie di frequente. Tuttavia, la maggior parte dei cookie del browser sono stabili per almeno 30 giorni, anche se alcuni possono avere una durata limitata. Alcuni studi suggeriscono targeting con funnel superiore superiore a 30 giorni che in effetti eliminerebbe il 7% del pubblico target del browser in un periodo di 30 giorni. Come sapete, le campagne di 30 giorni per un determinato messaggio creativo sono standard nel settore. Da quanto abbiamo visto, il 7% di sconto è accurato.
+L&#39;eliminazione dei cookie è difficile da misurare. La maggior parte dell&#39;eliminazione dei cookie proviene da alcuni visitatori che eliminano i cookie di frequente. Tuttavia, la maggior parte dei cookie del browser sono stabili per almeno 30 giorni, anche se alcuni possono avere una durata limitata. Alcuni studi suggeriscono targeting con funnel superiore superiore a 30 giorni che in effetti eliminerebbe il 7% del pubblico target del browser in un periodo di 30 giorni. Come sapete, le campagne di 30 giorni per un determinato messaggio creativo sono standard nel settore. Da quanto abbiamo visto, il 7% di sconto è accurato.
 
-L'eliminazione dei cookie ha un effetto negativo sui calcoli di portata e frequenza. Di conseguenza, sottolineiamo il valore dei dati comportamentali quando cerchiamo di capire la vera natura delle tendenze dei consumatori per la pianificazione delle campagne di visualizzazione. I nostri clienti possono sfruttare i rapporti di sovrapposizione dei segmenti di Audience Manager, i rapporti sulle frequenze di impression ottimali e le tendenze dell’utente univoche su intervalli di date specifici per essere più scientifici sulla pianificazione delle campagne e sugli intervalli di date ottimali per le campagne in esecuzione.
+L&#39;eliminazione dei cookie ha un effetto negativo sui calcoli di portata e frequenza. Di conseguenza, sottolineiamo il valore dei dati comportamentali quando cerchiamo di capire la vera natura delle tendenze dei consumatori per la pianificazione delle campagne di visualizzazione. I nostri clienti possono sfruttare i rapporti di sovrapposizione dei segmenti di Audience Manager, i rapporti sulle frequenze di impression ottimali e le tendenze dell’utente univoche su intervalli di date specifici per essere più scientifici sulla pianificazione delle campagne e sugli intervalli di date ottimali per le campagne in esecuzione.
 
 <br> 
 
 **Qual è la finestra di scadenza per i cookie di Audience Manager?**
 
-L'interfaccia utente consente di determinare l'intervallo di scadenza del cookie. Puoi impostare la scadenza dei cookie dopo *un numero* di giorni o mai.
+L&#39;interfaccia utente consente di determinare l&#39;intervallo di scadenza del cookie. È possibile impostare i cookie affinché scadano dopo *un numero* di giorni o mai.
 
 <br> 
 
-**Implementare una campagna creativa in una chiamata all'evento ci costa di più?**
+**Implementare una campagna creativa in una chiamata all&#39;evento ci costa di più?**
 
 Dipende. Il costo si basa su utenti univoci. Se una campagna genera nuovi utenti netti, allora sì, costerà di più. Se la campagna raggiunge luoghi in cui stiamo già raccogliendo dati, non ci sono costi aggiuntivi. Se la campagna viene eseguita su siti correlati in cui vi è una sovrapposizione significativa, i nuovi utenti univoci che visualizziamo avranno un costo aggiuntivo.
 
@@ -93,6 +93,6 @@ Dipende. Il costo si basa su utenti univoci. Se una campagna genera nuovi utenti
 
 **Audience Manager visualizza[!UICONTROL Addressable Audiences]metriche e percentuali di corrispondenza solo per[!UICONTROL Server-to-Server]le destinazioni. Puoi spiegare perché non vediamo queste cifre per Cookie e destinazioni URL?**
 
-Si riduce alle sincronizzazioni ID. Per [!UICONTROL Server-to-Server] le destinazioni, trasferiamo i dati offline (in tempo reale o in batch) e dobbiamo inviare l'ID che il partner di destinazione comprende, in modo che possano mapparlo nuovamente al browser. Il numero indirizzabile del segmento è un sottoinsieme della popolazione totale del segmento.
+Si riduce alle sincronizzazioni ID. Per [!UICONTROL Server-to-Server] le destinazioni, trasferiamo i dati offline (in tempo reale o in batch) e dobbiamo inviare l&#39;ID che il partner di destinazione comprende, in modo che possano mapparlo nuovamente al browser. Il numero indirizzabile del segmento è un sottoinsieme della popolazione totale del segmento.
 
-Nel caso dei cookie e delle destinazioni URL, l'utente è già nel browser e ciò che [!DNL Audience Manager] invia sono solo i segmenti per i quali l'utente ha i requisiti necessari. Il partner di destinazione può semplicemente raccogliere le mappature dei segmenti e lavorare con tali informazioni. Considerate quindi le percentuali di corrispondenza per cookie e destinazioni URL sempre al 100%.
+Nel caso dei cookie e delle destinazioni URL, l&#39;utente è già nel browser e ciò che [!DNL Audience Manager] invia sono solo i segmenti per i quali l&#39;utente ha i requisiti necessari. Il partner di destinazione può semplicemente raccogliere le mappature dei segmenti e lavorare con tali informazioni. Considerate quindi le percentuali di corrispondenza per cookie e destinazioni URL sempre al 100%.
