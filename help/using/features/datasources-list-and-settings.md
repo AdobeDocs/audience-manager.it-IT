@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Elenco e impostazioni origini dati
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -21,11 +21,11 @@ Visualizza un elenco delle origini dati attualmente configurate, aggiungi nuove 
 
 ## Visualizzazione elenco Origini dati {#list-view}
 
-Il [!UICONTROL Data Sources] dashboard è un'area di lavoro centralizzata per la gestione delle origini dati.
+Il [!UICONTROL Data Sources] dashboard è un&#39;area di lavoro centralizzata per la gestione delle origini dati.
 
 <!-- c_datasources_list.xml -->
 
-Il [!UICONTROL Data Sources] dashboard (**[!UICONTROL Audience Data]** &gt; **[!UICONTROL Data Sources]**) contiene funzioni e strumenti utili per:
+Il [!UICONTROL Data Sources] dashboard (**[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**) contiene funzioni e strumenti utili per:
 
 * Visualizza tutte le origini dati esistenti, inclusa la descrizione, lo stato di ciascuna origine dati, e se si tratta [!UICONTROL Inbound], [!UICONTROL Outbound], entrambe o [!UICONTROL Shared Provider].
 * Cerca origini dati per nome.
@@ -33,7 +33,7 @@ Il [!UICONTROL Data Sources] dashboard (**[!UICONTROL Audience Data]** &gt; **[!
 
 ## Impostazioni origine dati e opzioni menu {#settings-menu-options}
 
-Le impostazioni nelle diverse sezioni dell'interfaccia di [!UICONTROL Data Source] gestione identificano l'origine dati, determinano come viene utilizzata o condivisa e consentono di abilitare la segnalazione degli errori per l' [!UICONTROL Onboarding Status Report].
+Le impostazioni nelle diverse sezioni dell&#39;interfaccia di [!UICONTROL Data Source] gestione identificano l&#39;origine dati, determinano come viene utilizzata o condivisa e consentono di abilitare la segnalazione degli errori per l&#39; [!UICONTROL Onboarding Status Report].
 
 ## Dettagli origine dati {#details}
 
@@ -54,11 +54,11 @@ Oltre ai campi di testo, la [!UICONTROL Data Source Details] sezione contiene i 
    <td colname="col2"> <p> 
      <ul id="ul_8ADCD4C5CBE543BEAA8FFE0462B74198"> 
       <li id="li_1FC97E2B3E2A4289AFB4A3C2F8E84FEF"> <b><span class="uicontrol"> Cookie</span></b>: ID cookie che identifica un dispositivo. Selezionare questa opzione quando l'origine dati è un browser Web o quando si utilizzano dati o dati anonimi che non possono essere associati a una singola persona. </li> 
-      <li id="li_4B2C9A7F2A5D49448E6D0A2B354D7EE7"> <b><span class="uicontrol"> ID</span></b>pubblicità dispositivo: Identificatore del dispositivo mobile. Selezionare questa opzione quando l'origine dati è un dispositivo mobile o Internet abilitato. </li> 
+      <li id="li_4B2C9A7F2A5D49448E6D0A2B354D7EE7"> <b><span class="uicontrol"> ID</span></b>pubblicità dispositivo: Identificatore del dispositivo mobile. Selezionare questa opzione quando l'origine dati è un dispositivo mobile o un dispositivo Internet abilitato. </li> 
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol"> Dispositivo</span></b>incrociato: Un ID autenticato fornito dal cliente. Selezionate questa opzione per creare: 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
-        <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">Un'origine dati multi-dispositivo e crea una regola <span class="wintitle"></span>di unione profilo. </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Un'origine dati che utilizza i collegamenti forniti da <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> o un altro grafico di dispositivi di terze parti integrato con <span class="keyword"> Audience Manager</span>. </li> 
+        <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">Un'origine dati multi-dispositivo e crea una regola <span class="wintitle"></span>di unione dei profili. </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Un'origine dati che utilizza i collegamenti forniti da <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> o un altro grafico di dispositivi di terze parti integrato con <span class="keyword"> Audience Manager</span>. </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -66,20 +66,20 @@ Oltre ai campi di testo, la [!UICONTROL Data Source Details] sezione contiene i 
    <td colname="col1"> <p> <b><span class="uicontrol"> Definizione ID</span></b> </p> </td> 
    <td colname="col2"> <p>Le opzioni di definizione <b><span class="uicontrol"> dell'</span></b> ID definiscono il rapporto tra un'origine dati e un ID utente di <span class="keyword"> Audience Manager</span> e i dispositivi associati collegati da <span class="keyword"> Adobe Experience Cloud Device Co-op</span> o da un altro grafico di dispositivi di terze parti integrato con <span class="keyword"> Audience Manager</span>. Le opzioni includono: </p> <p> 
      <ul id="ul_718ADABF0C0C44E29643C85C69CE294F"> 
-      <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol"></span></b> Persona: ID utilizzato per definire una singola persona. Questo ID può essere mappato su più ID <span class="keyword"> Audience Manager</span> . </li> 
-      <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol"></span></b> Famiglia: L’ID usato per definire un gruppo di persone. Questo ID può essere mappato su più ID Audience Manager. </li> 
+      <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol"> Persona:</span></b> ID utilizzato per definire una singola persona. Questo ID può essere mappato su più ID <span class="keyword"> Audience Manager</span> . </li> 
+      <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol"> Famiglia:</span></b> L’ID usato per definire un gruppo di persone. Questo ID può essere mappato su più ID Audience Manager. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Controlli sull'esportazione dei dati {#export-controls}
+## Controlli sull&#39;esportazione dei dati {#export-controls}
 
-[I Controlli](../features/data-export-controls.md) sull'esportazione dei dati sono regole di classificazione facoltative applicabili a un'origine dati e a una destinazione. Impediscono l'invio di dati a una destinazione in caso di violazione della privacy dei dati o dell'accordo di utilizzo. Saltate questa sezione se non utilizzate [!UICONTROL Data Export Controls].
+[I Controlli](../features/data-export-controls.md) sull&#39;esportazione dei dati sono regole di classificazione facoltative applicabili a un&#39;origine dati e a una destinazione. Impediscono l&#39;invio di dati a una destinazione in caso di violazione della privacy dei dati o dell&#39;accordo di utilizzo. Saltate questa sezione se non utilizzate [!UICONTROL Data Export Controls].
 
 >[!IMPORTANT]
 >
->Le restrizioni all'esportazione non funzioneranno se non imposti un'etichetta di esportazione corrispondente su una destinazione.
+>Le restrizioni all&#39;esportazione non funzioneranno se non imposti un&#39;etichetta di esportazione corrispondente su una destinazione.
 
 Le opzioni includono:
 
@@ -91,11 +91,11 @@ Le opzioni includono:
 
 ## Data Source Settings {#data-source-settings}
 
-Il pannello [!UICONTROL Data Source Settings] contiene i controlli e le opzioni elencati di seguito. Alcune di queste impostazioni includono opzioni secondarie e voci di menu aggiuntive che è possibile selezionare per modificare un'origine dati.
+Il pannello [!UICONTROL Data Source Settings] contiene i controlli e le opzioni elencati di seguito. Alcune di queste impostazioni includono opzioni secondarie e voci di menu aggiuntive che è possibile selezionare per modificare un&#39;origine dati.
 
 ### Impostazioni origine dati in entrata
 
-Selezionare la **[!UICONTROL Inbound]** casella di controllo quando l'origine dati è progettata per ricevere i dati in ingresso. Selezionando la **[!UICONTROL Inbound]** casella di controllo vengono visualizzati altri due gruppi di controlli descritti di seguito.
+Selezionare la **[!UICONTROL Inbound]** casella di controllo quando l&#39;origine dati è progettata per ricevere i dati in ingresso. Selezionando la **[!UICONTROL Inbound]** casella di controllo vengono visualizzati altri due gruppi di controlli descritti di seguito.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
@@ -111,7 +111,7 @@ Selezionare la **[!UICONTROL Inbound]** casella di controllo quando l'origine da
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID</span></b>cliente: Identifica i dati in entrata con un ID cliente. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> ID</span></b>Audience Manager: Identifica i dati in entrata con un ID <span class="keyword"> Audience Manager</span> . </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identifica i dati in entrata con un ID <span class="keyword"> Experience Cloud</span> . See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identifica i dati in entrata con un ID <span class="keyword"> Experience Cloud</span> . See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -145,7 +145,7 @@ Selezionare la **[!UICONTROL Inbound]** casella di controllo quando l'origine da
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Usa come Device Graph</span></b> </p> </td> 
-   <td colname="col2"> <p>Crea un'origine dati come grafico del dispositivo che puoi fornire ad altri clienti <span class="keyword"> Audience Manager</span> . Prima di selezionare questa opzione, indicate al vostro consulente <span class="keyword"> Audience Manager</span> con quali clienti deve essere condivisa questa <span class="wintitle"> Origine</span> dati. Il consulente dovrà fornire tali aziende attraverso i nostri processi interni. </p> <p>Questa opzione espone un campo di testo che consente di rinominare l'origine dati con un alias. Se utilizzi un alias, questo nuovo nome ha la precedenza sul nome dell'origine dati e viene visualizzato in Opzioni <span class="wintitle"> dispositivo quando</span> crei una regola <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"></a>Unione profilo. </p> </td> 
+   <td colname="col2"> <p>Crea un'origine dati come grafico del dispositivo che puoi fornire ad altri clienti <span class="keyword"> Audience Manager</span> . Prima di selezionare questa opzione, indicate con il vostro consulente <span class="keyword"> Audience Manager</span> con quali clienti deve essere condivisa questa <span class="wintitle"> Origine</span> dati. Il tuo consulente dovrà fornire queste aziende attraverso i nostri processi interni. </p> <p>Questa opzione espone un campo di testo che consente di rinominare l'origine dati con un alias. Se utilizzi un alias, questo nuovo nome ha la precedenza sul nome dell'origine dati e viene visualizzato in Opzioni <span class="wintitle"> dispositivo quando</span> crei una regola <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"></a>Unione profilo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Condivisione di ID visitatore o dispositivo associati con clienti Audience Manager specifici</span></b> </p> </td> 
@@ -157,7 +157,7 @@ Selezionare la **[!UICONTROL Inbound]** casella di controllo quando l'origine da
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Conservazione dei dati per gli ID cliente inattivi</span></b> </p> </td> 
-   <td colname="col2"> <p>Consente di impostare il periodo di conservazione dei dati per gli ID cliente inattivi. Questo determina per quanto tempo Audience Manager mantiene gli ID cliente nel nostro database dopo che sono stati visti per l’ultima volta sulla piattaforma Audience Manager.</p> <p>Il valore predefinito è 24 mesi (720 giorni). Il valore minimo è 1 mese e il valore massimo è 5 anni. Teniamo presente che contiamo tutti i mesi come 30 giorni.</p> <p>Audience Manager esegue un processo che elimina gli ID cliente inattivi una volta alla settimana, in conformità con la conservazione dei dati impostata per gli ID cliente inattivi.</p> <p>Audience Manager esegue un processo che elimina gli ID cliente inattivi una volta alla settimana, in conformità con la conservazione dei dati impostata per gli ID cliente inattivi.</p> <p><b>Nota</b>: Questo controllo è disponibile solo per le origini dati cross-device. Vedi anche <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Creazione di un'origine dati multi-dispositivo </a>.</p></td> 
+   <td colname="col2"> <p>Consente di impostare il periodo di conservazione dei dati per gli ID cliente inattivi. Questo determina per quanto tempo Audience Manager mantiene gli ID cliente nel nostro database dopo che sono stati visti per l’ultima volta sulla piattaforma Audience Manager.</p> <p>Il valore predefinito è 24 mesi (720 giorni). Il valore minimo che potete impostare è 1 mese e il valore massimo è 5 anni. Teniamo presente che contiamo tutti i mesi come 30 giorni.</p> <p>Audience Manager esegue un processo che elimina gli ID cliente inattivi una volta alla settimana, in conformità con la conservazione dei dati impostata per gli ID cliente inattivi.</p> <p>Audience Manager esegue un processo che elimina gli ID cliente inattivi una volta alla settimana, in conformità con la conservazione dei dati impostata per gli ID cliente inattivi.</p> <p><b>Nota</b>: Questo controllo è disponibile solo per le origini dati cross-device. Vedi anche <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Creazione di un'origine dati multi-dispositivo </a>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Codici di integrazione delle caratteristiche univoci</span></b> </p> </td> 
