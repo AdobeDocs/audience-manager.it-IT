@@ -7,7 +7,7 @@ solution: Audience Manager
 title: ID dichiarati
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -36,7 +36,7 @@ Alcuni browser e la maggior parte dei dispositivi mobili non accettano i cookie 
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Chiamata evento</b> </td> 
-   <td colname="col2"> <p>Per funzionare, è necessario disporre di <span class="wintitle"> DIL </span> e del codice di servizio identità <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Adobe Experience Platform </a> sulla pagina. <span class="wintitle"> DIL </span> riceve gli ID <span class="wintitle"> dichiarati </span> dalla <code> setVisitorID </code> funzione fornita dal servizio <span class="keyword"> Adobe Experience Platform Identity Service </span> e li trasmette ad <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Per funzionare, è necessario disporre di <span class="wintitle"> DIL </span> e del codice di servizio identità <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a> sulla pagina. <span class="wintitle"> DIL </span> riceve gli ID <span class="wintitle"> dichiarati </span> dalla <code> setVisitorID </code> funzione fornita dal servizio <span class="keyword"> Adobe Experience Platform Identity Service </span> e li trasmette ad <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID corrispondenza</b> </td> 
@@ -187,7 +187,7 @@ Descrive le variabili di configurazione utilizzate per trasmettere gli ID dichia
 
 <!-- r_dil_declared_id_vars.xml -->
 
-Se utilizzato con [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), non è più necessario passare [!UICONTROL declared IDs] con le variabili `dpid` e `dpuuid` obsolete. Al contrario, le versioni correnti di [!UICONTROL DIL] si basano sulla `visitorService` funzione per ottenere il [!UICONTROL declared IDs] dalla `setCustomerIDs` funzione in [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). Puoi effettuare una chiamata `visitorService` in `DIL.create` base a quanto indicato di seguito.
+Se utilizzato con [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), non è più necessario passare [!UICONTROL declared IDs] con le variabili `dpid` e `dpuuid` obsolete. Al contrario, le versioni correnti di [!UICONTROL DIL] si basano sulla `visitorService` funzione per ottenere il [!UICONTROL declared IDs] dalla `setCustomerIDs` funzione in [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Puoi effettuare una chiamata `visitorService` in `DIL.create` base a quanto indicato di seguito.
 
 ```js
 var vDil = DIL.create({
@@ -198,7 +198,7 @@ var vDil = DIL.create({
 });
 ```
 
-Nella coppia chiave-valore `namespace` è il tuo `MCORG` [!DNL Experience Cloud] ID organizzazione. Se non disponete di questo ID, potete trovarlo nella [!UICONTROL Administration] sezione del [!DNL Experience Cloud] dashboard. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. See [Administration: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+Nella coppia chiave-valore `namespace` è il tuo `MCORG` [!DNL Experience Cloud] ID organizzazione. Se non disponete di questo ID, potete trovarlo nella [!UICONTROL Administration] sezione del [!DNL Experience Cloud] dashboard. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html).
 
 ## Funzioni obsolete {#deprecated-functions}
 
