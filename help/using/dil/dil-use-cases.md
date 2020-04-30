@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Casi di utilizzo DIL ed esempi di codice
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -37,7 +37,7 @@ Il codice seguente illustra come raccogliere i dati della pagina e inviarli ad A
 
 **Mantieni costanti le proprietà del valore**
 
-Durante il trasferimento dei dati, ricordare di mantenere le proprietà del valore uguali. Ad esempio, in presenza di due chiavi identiche con valori diversi, il valore dell'ultima coppia chiave-valore ha la precedenza sugli oggetti valore precedenti. Ad esempio, passando `color:blue` e `color:red` impostando il valore restituito su rosso (sovrascrive il blu).
+Durante il trasferimento dei dati, ricordare di mantenere le proprietà del valore invariate. Ad esempio, in presenza di due chiavi identiche con valori diversi, il valore dell&#39;ultima coppia chiave-valore ha la precedenza sugli oggetti valore precedenti. Ad esempio, passando `color:blue` e `color:red` impostando il valore restituito su rosso (sovrascrive il blu).
 
 **Esempio 1: Invia dati come coppie chiave-valore**
 
@@ -102,7 +102,7 @@ c_dil_hrefer_over_https.xml
 
 >[!NOTE]
 >
->Questo metodo funziona solo quando gli utenti si spostano tra pagine con protocolli simili (HTTP e HTTPS). Ad esempio, il browser mantiene un URL di provenienza quando si passa da un sito protetto a un altro sito protetto. I browser non conservano l'URL di provenienza quando si passa da un sito sicuro a un altro. Questo comportamento è normale funzionalità del browser e non può essere eluso da [!UICONTROL DIL].
+>Questo metodo funziona solo quando gli utenti si spostano tra pagine con protocolli simili (HTTP e HTTPS). Ad esempio, il browser mantiene un URL di provenienza quando si passa da un sito protetto a un altro sito protetto. I browser non conservano l&#39;URL di provenienza quando si passa da un sito sicuro a un altro. Questo comportamento è normale funzionalità del browser e non può essere eluso da [!UICONTROL DIL].
 
 **Esempio di codice**
 
@@ -133,11 +133,11 @@ Per impostazione predefinita, `DIL.getSearchReferrer` riconosce le ricerche effe
 
 **Descrizione**
 
-Il codice seguente illustra come ottenere il referente di ricerca per uno qualsiasi dei motori di ricerca supportati. In questo caso, supponiamo che un utente abbia cercato il termine "case" dal [!DNL Google] Canada ( `www.google.ca`). Questo codice ti aiuterà a catturare quei termini di ricerca e a inviarli ad Audience Manager.
+Il codice seguente illustra come ottenere il referente di ricerca per uno qualsiasi dei motori di ricerca supportati. In questo caso, supponiamo che un utente abbia cercato il termine &quot;case&quot; dal [!DNL Google] Canada ( `www.google.ca`). Questo codice ti aiuterà a catturare quei termini di ricerca e a inviarli ad Audience Manager.
 
 **Codice di base**
 
-Il codice di base per ottenere il referente di ricerca (ad `google.com`esempio, da) è simile al seguente:
+Il codice di base per ottenere il referente di ricerca (ad esempio, `google.com`da) è simile al seguente:
 
 ```java
 var search_referrer = DIL.tools.getSearchReferrer();
@@ -145,7 +145,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Esempio di codice del motore di ricerca elencato**
 
-In questo caso, supponiamo che un utente abbia cercato il termine "case" dal [!DNL Google] Canada ( `www.google.ca`). Il codice prefissa il `c_` parametro richiesto al motore di ricerca ( `c_se`) e al termine di ricerca ( `c_st`). `c_` è un prefisso [](../features/traits/trait-variable-prefixes.md) obbligatorio che identifica queste variabili come definite dal cliente in Audience Manager.
+In questo caso, supponiamo che un utente abbia cercato il termine &quot;case&quot; dal [!DNL Google] Canada ( `www.google.ca`). Il codice prefissa il `c_` parametro richiesto al motore di ricerca ( `c_se`) e al termine di ricerca ( `c_st`). `c_` è un prefisso [](../features/traits/trait-variable-prefixes.md) obbligatorio che identifica queste variabili come definite dal cliente in Audience Manager.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -161,7 +161,7 @@ if (search_referrer && search_referrer.valid) {
 
 **Esempio di codice del motore di ricerca non elencato**
 
-In questo caso, supponiamo che un utente abbia cercato il termine "case" da `dogpile.com`. Poiché non [!DNL Dogpile] è supportato per impostazione predefinita, puoi configurare DIL per riconoscere questo motore di ricerca e restituire i termini di ricerca ad Audience Manager. Il codice potrebbe essere simile al seguente:
+In questo caso, supponiamo che un utente abbia cercato il termine &quot;case&quot; da `dogpile.com`. Poiché non [!DNL Dogpile] è supportato per impostazione predefinita, puoi configurare DIL per riconoscere questo motore di ricerca e restituire i termini di ricerca ad Audience Manager. Il codice potrebbe essere simile al seguente:
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -180,7 +180,7 @@ if (search_referrer && search_referrer.valid) {
 
 ## Mappa valori chiave su altre chiavi {#map-key-values}
 
-Associare il valore da una coppia chiave-valore a un'altra chiave.
+Associare il valore da una coppia chiave-valore a un&#39;altra chiave.
 
 <!-- 
 
@@ -190,9 +190,9 @@ c_dil_map_keys.xml
 
 **Descrizione**
 
-In una coppia chiave-valore, il `c_` prefisso aggiunto alla chiave identifica il segnale come dati definiti dal cliente. I dati definiti dal cliente vengono utilizzati per il targeting sul sito specifico che ha passato i dati in una chiamata all'evento. Tuttavia, a volte tali informazioni sono disponibili per tutte le proprietà dell'account Audience Manager. A tal fine, mappate il valore in una coppia chiave-valore su una chiave a livello di piattaforma. `c_` Una chiave a livello di piattaforma ha il prefisso `d_` e rende il segnale disponibile per il targeting tra tutte le proprietà dell'account.
+In una coppia chiave-valore, il `c_` prefisso aggiunto alla chiave identifica il segnale come dati definiti dal cliente. I dati definiti dal cliente vengono utilizzati per il targeting sul sito specifico che ha passato i dati in una chiamata all&#39;evento. Tuttavia, a volte desiderate che queste informazioni siano disponibili in tutte le proprietà dell&#39;account Audience Manager. A tal fine, mappate il valore in una coppia chiave-valore su una chiave a livello di piattaforma. `c_` Una chiave a livello di piattaforma ha il prefisso `d_` e rende il segnale disponibile per il targeting tra tutte le proprietà dell&#39;account.
 
-Ad esempio, raccogliete i dati del codice ZIP da un particolare sito ma desiderate indirizzarli a tutte le proprietà di Audience Manager. Per rendere disponibile il codice ZIP a livello di piattaforma, potete mappare la chiave del codice ZIP definita dal cliente (ad esempio `c_zip`) a una chiave definita dalla piattaforma come mostrato di seguito.
+Ad esempio, raccogliete i dati del codice ZIP da un particolare sito ma desiderate indirizzarli a tutte le proprietà di Audience Manager. Per rendere disponibile il codice ZIP a livello di piattaforma, potete mappare la chiave del codice ZIP definita dal cliente (ad es. `c_zip`) a una chiave definita dalla piattaforma come mostrato di seguito.
 
 **Esempio di codice**
 
@@ -230,15 +230,15 @@ Per eseguire il traffico del `dil.js` file in GTM:
 
    * Denominate il tag .
    * Selezionate **[!UICONTROL Custom HTML Tag]** dall’elenco a **[!UICONTROL Tag Type]** discesa.
-   * Nel campo HTML, inserite il [!UICONTROL DIL] codice (libreria + il codice personalizzato) all'interno dei tag di script `<script>DIL code</script>`.
-   * Fai clic su **[!UICONTROL Save]**.
+   * Nel campo HTML, inserite il [!UICONTROL DIL] codice (libreria + il codice personalizzato) all&#39;interno dei tag di script `<script>DIL code</script>`.
+   * Clic **[!UICONTROL Save]**.
 
 1. Pubblicate il contenitore.
-1. Generare il codice del tag del contenitore e inserirlo nel magazzino.
+1. Generate il codice del tag del contenitore e inseritelo nell&#39;inventario.
 
 >[!MORELIKETHIS]
 >
 >* [Guida di Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
 >* [Segnali](../dil/dil-instance-methods.md#signals)
->* [Requisiti del prefisso per le variabili chiave](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
+>* [Requisiti del prefisso per le variabili chiave](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
