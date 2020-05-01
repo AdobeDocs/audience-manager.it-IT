@@ -6,7 +6,7 @@ solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -20,13 +20,13 @@ Configurazione booleana opzionale che consente di determinare se il servizio DIL
 To use `isCoopSafe` you must:
 
 * Utilizzate [!UICONTROL DIL] v6.11 o versione successiva.
-* Partecipare a [Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/). Anche i potenziali membri co-op devono consultare questa documentazione per stabilire se `isCoopSafe` si occupa di possibili problemi relativi al modo in cui i dati vengono utilizzati per creare il grafico del dispositivo.
+* Partecipare a [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html). Anche i potenziali membri co-op devono consultare questa documentazione per stabilire se `isCoopSafe` si occupa di possibili problemi relativi al modo in cui i dati vengono utilizzati per creare il grafico del dispositivo.
 
-* Definisci un flag whitelist o blacklist sul tuo account Device Co-op avvalendoti dell'aiuto del tuo consulente [!DNL Adobe]. Nessun percorso self-service per abilitare questi flag.
+* Definisci un flag whitelist o blacklist sul tuo account Device Co-op avvalendoti dell&#39;aiuto del tuo consulente [!DNL Adobe]. Nessun percorso self-service per abilitare questi flag.
 
-## Casi d'uso {#use-cases}
+## Casi d&#39;uso {#use-cases}
 
-`isCoopSafe` aiuta a risolvere 2 casi d'uso relativi alla raccolta di dati da parte di membri attuali o potenziali di Device Co-op. Questi casi d'uso si riferiscono al modo in cui i dati dei visitatori del sito vengono trasmessi al Device Co-op per aiutare a costruire il grafico del dispositivo. La tabella seguente descrive come `isCoopSafe` funziona con questi casi d'uso per bloccare o inviare dati al grafico del dispositivo
+`isCoopSafe` aiuta a risolvere 2 casi d&#39;uso relativi alla raccolta di dati da parte di membri attuali o potenziali di Device Co-op. Questi casi d&#39;uso si riferiscono al modo in cui i dati dei visitatori del sito vengono trasmessi al Device Co-op per aiutare a costruire il grafico del dispositivo. La tabella seguente descrive come `isCoopSafe` funziona con questi casi d&#39;uso per bloccare o inviare dati al grafico del dispositivo
 
 <table id="table_A24C63D2A21F47EDBAC8FA5E7BE888D8"> 
  <thead> 
@@ -72,14 +72,14 @@ var dilInstance = DIL.create({
 });
 ```
 
-## Parametri POST della chiamata dell'evento {#post-parameters}
+## Parametri POST della chiamata dell&#39;evento {#post-parameters}
 
 Depending on the flag you set ( `true` or `false`), [!UICONTROL DIL] translates `isCoopSafe` into these POST parameters and sends them to [!DNL Adobe] in an event call:
 
 * `d_coop_safe=1`
 * `d_coop_unsafe=1`
 
-I parametri POST dicono all'[!DNL Experience Cloud] Device Co-op se può o meno includere i dati degli utenti nel grafico del dispositivo. La tabella seguente definisce il rapporto tra i flag booleani `isCoopSafe` e i parametri POST trasmessi durante una chiamata dell'evento. Se non usi `isCoopSafe`, nessuno dei due verrà trasmesso durante una chiamata dell'evento.
+I parametri POST dicono all&#39;[!DNL Experience Cloud] Device Co-op se può o meno includere i dati degli utenti nel grafico del dispositivo. La tabella seguente definisce il rapporto tra i flag booleani `isCoopSafe` e i parametri POST trasmessi durante una chiamata dell&#39;evento. Se non usi `isCoopSafe`, nessuno dei due verrà trasmesso durante una chiamata dell&#39;evento.
 
 <table id="table_0A544534CA904F4D9836A34B8C1EACBB"> 
  <thead> 
@@ -102,7 +102,7 @@ I parametri POST dicono all'[!DNL Experience Cloud] Device Co-op se può o meno 
 
 ## API di post-istanziazione {#post-instantiation}
 
-Questi API ti consentono di ignorare lo stato `isCoopSafe`. Questi sono necessarie perché ti permettono di modificare lo stato di post-istanziazione/post-login di un visitatore su un sito o in un'app a pagina singola in cui la pagina non viene aggiornata. Ad esempio, avrai bisogno di chiamare queste API se un utente si autentica sul tuo sito o sulla tua app e successivamente accetta una policy sulle Condizioni d'uso che consente al Device Co-op di usare i propri dati.
+Questi API ti consentono di ignorare lo stato `isCoopSafe`. Questi sono necessarie perché ti permettono di modificare lo stato di post-istanziazione/post-login di un visitatore su un sito o in un&#39;app a pagina singola in cui la pagina non viene aggiornata. Ad esempio, avrai bisogno di chiamare queste API se un utente si autentica sul tuo sito o sulla tua app e successivamente accetta una policy sulle Condizioni d&#39;uso che consente al Device Co-op di usare i propri dati.
 
 <table id="table_BAA96B1F82BE48C3A61A1AF1367BA45C"> 
  <thead> 
@@ -114,11 +114,11 @@ Questi API ti consentono di ignorare lo stato `isCoopSafe`. Questi sono necessar
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Imposta il parametro POST <code>d_coop_safe=1</code> in tutte le chiamate dell'evento successive. </p> </td> 
+   <td colname="col2"> <p>Sets POST parameter <code> d_coop_safe=1 </code> in all subsequent event calls. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Imposta il parametro POST <code>d_coop_unsafe=1</code> in tutte le chiamate dell'evento successive. </p> </td> 
+   <td colname="col2"> <p>Sets POST parameter <code> d_coop_unsafe=1 </code> in all subsequent event calls. </p> </td> 
   </tr> 
  </tbody> 
 </table>
