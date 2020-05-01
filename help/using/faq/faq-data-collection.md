@@ -7,7 +7,7 @@ title: Domande frequenti sulla raccolta dei dati e l'integrazione dei prodotti
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -57,9 +57,9 @@ Per inserire [!DNL Analytics] i dati in [!DNL Audience Manager], caricarli [!UIC
 
 1. [!DNL Analytics] `s_code`
 
-2. [!DNL Audience Manager] modulo [!UICONTROL DIL]
+2. [!DNL Audience Manager] [!UICONTROL DIL] module
 
-3. [!DNL Analytics] `s.t()` funzione
+3. [!DNL Analytics] `s.t()` function
 
 Come procedura ottimale, configurate l&#39; [!DNL Audience Manager]- [!DNL Analytics] integrazione con uno dei due metodi seguenti:
 
@@ -172,7 +172,7 @@ No, non fate affidamento sul [!UICONTROL General Reports] e [!UICONTROL Trend Re
 
 I report calcolano le popolazioni in base ai record di profilo non autenticati (UUID) visualizzati nel backend al momento della generazione dei report.
 
-In una prima chiamata al [!UICONTROL DCS], gli ID dichiarati *non* sono collegati ad alcun UUID (ovvero nessun cookie [](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) demdex è presente sul lato client). L’utente [!UICONTROL DCS] genererà un UUID in modo casuale, imposterà un [!DNL demdex] cookie e lo trasmetterà nella chiamata di risposta, ma non trasmetterà l’UUID al backend.
+In una prima chiamata al [!UICONTROL DCS], gli ID dichiarati *non* sono collegati ad alcun UUID (ovvero nessun cookie [](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) demdex è presente sul lato client). L’utente [!UICONTROL DCS] genererà un UUID in modo casuale, imposterà un [!DNL demdex] cookie e lo trasmetterà nella chiamata di risposta, ma non trasmetterà l’UUID al backend.
 
 >[!NOTE]
 >
