@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Domande frequenti sulla privacy e sulla conservazione dei dati
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -25,7 +25,7 @@ Risposte alle domande o ai problemi più comuni relativi alla privacy e ai dati.
 
 **In che modo Audience Manager utilizza i cookie e quali cookie imposta?**
 
-Consultate Cookie [Audience Manager](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html).
+Consultate Cookie [Audience Manager](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html).
 
 **I clienti di Audience Manager negli Stati Uniti possono rivolgersi agli utenti in base alle proprietà UE?**
 
