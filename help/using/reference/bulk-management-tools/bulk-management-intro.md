@@ -1,13 +1,13 @@
 ---
 description: Gli strumenti di gestione di massa consentono di creare e gestire più oggetti contemporaneamente con un'unica operazione. Puoi utilizzare Strumenti di gestione di massa per lavorare con origini dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
-keywords: baaam;BAAAM
+keywords: baaam;BAAAM;download baaam
 seo-description: Gli strumenti di gestione di massa consentono di creare e gestire più oggetti contemporaneamente con un'unica operazione. Puoi utilizzare Strumenti di gestione di massa per lavorare con origini dati, segnali derivati, destinazioni, cartelle, segmenti e caratteristiche.
 seo-title: Guida Introduttiva Alla Gestione Di Massa
 solution: Audience Manager
 title: Guida Introduttiva Alla Gestione Di Massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
 
 ---
 
@@ -32,14 +32,14 @@ Questa funzione utilizza un foglio di calcolo di Microsoft Excel con macro che e
 
 ## Scarica {#download}
 
-Scarica il foglio di lavoro più recente **[qui](assets/BAAAM_V2_20200311.xlsm)**.
+Scarica il foglio di lavoro più recente **[qui](assets/BAAAM_V2_20200502.xlsm)**.
 
 ## Prerequisiti {#prereqs}
 
 Per utilizzare il [!DNL Bulk Management Tools], è necessario disporre dei seguenti elementi:
 
 * Il vostro [!DNL Experience Cloud] login. In qualità di cliente, dovreste già avere queste credenziali.
-* Il [!DNL Bulk Management Tools] foglio di lavoro. [Scaricate il foglio di lavoro](assets/BAAAM_V2_20200311.xlsm) per ottenere la versione più recente.
+* Il [!DNL Bulk Management Tools] foglio di lavoro. [Scaricate il foglio di lavoro](assets/BAAAM_V2_20200502.xlsm) per ottenere la versione più recente.
 * Microsoft Excel eseguito a [!DNL macOS] o a 64 bit [!DNL Microsoft Windows]. È consigliabile utilizzare la versione più recente di Microsoft Excel.
 * Quando si apre il foglio di lavoro, è necessario **abilitare le macro** per il [!DNL Bulk Management Tools] funzionamento.
 
