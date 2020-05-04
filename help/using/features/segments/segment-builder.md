@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Generatore di segmenti
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -25,7 +25,7 @@ Per iniziare, guarda il video [](https://images-tv.adobe.com/avp/vr/b7f88801-efe
 
 <!-- t_create_segment.xml -->
 
-[!UICONTROL Segment Builder] è costituito da 3 sezioni distinte: [!UICONTROL Basic Information], [!UICONTROL Traits], e [!UICONTROL Destinations Mapping]. Per creare un segmento, completa i campi richiesti nelle [!UICONTROL Basic Information] sezioni e [!UICONTROL Traits] . [!UICONTROL Destinations Mapping] sono facoltative. Per ulteriore assistenza, consulta le istruzioni riportate di seguito.
+[!UICONTROL Segment Builder] è costituito da 3 sezioni distinte: [!UICONTROL Basic Information], [!UICONTROL Traits]e [!UICONTROL Destinations Mapping]. Per creare un segmento, completa i campi richiesti nelle [!UICONTROL Basic Information] sezioni e [!UICONTROL Traits] . [!UICONTROL Destinations Mapping] sono facoltative. Per ulteriore assistenza, consulta le istruzioni riportate di seguito.
 
 1. Nella sezione [Informazioni](../../features/segments/segment-builder.md#segment-builder-controls-basics) di base:
 
@@ -52,6 +52,10 @@ Per iniziare, guarda il video [](https://images-tv.adobe.com/avp/vr/b7f88801-efe
 1. *(Facoltativo)* Mappare un segmento a una destinazione nella sezione Mappatura [](../../features/segments/segment-builder.md#segment-builder-controls-destinations) destinazione:
    * Cerca la destinazione e fai clic su **[!UICONTROL Add Destination]**. Nota: la destinazione deve già esistere prima di poter essere aggiunta a un segmento.
    * Al **[!UICONTROL Save]** termine, fate clic.
+
+Guardate il video seguente per vedere in dettaglio come funzionano le metriche tra dispositivi.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Controlli Generatore di segmenti: Sezione Informazioni di base {#segment-builder-controls-basics}
 
