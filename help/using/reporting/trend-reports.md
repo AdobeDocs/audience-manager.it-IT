@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Report tendenze
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 translation-type: tm+mt
-source-git-commit: 760818663ff3eb32c6de876c756697e1d9034369
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -49,7 +49,7 @@ L&#39;illustrazione seguente fornisce una panoramica di alto livello degli eleme
 
 ## Eseguire un report di tendenze {#run-trend-report}
 
-Questa procedura descrive come eseguire un [!UICONTROL Trend] report.
+Questa procedura descrive come eseguire un [!UICONTROL Trend] rapporto.
 
 <!-- 
 
@@ -95,6 +95,10 @@ Quando filtrate i risultati tramite [!UICONTROL Cross-Device ID]:
 ![trend-report-traits](assets/trend-report-traits.png)
 
 Gli zero indicano che [!DNL Audience Manager] non hanno raccolto i dati per quel giorno. Voci vuote indicano che la caratteristica non esisteva.
+
+Guardate il video seguente per vedere in dettaglio come funzionano le metriche tra dispositivi.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Risultati report sulle tendenze per i segmenti {#segment-report-results-traits}
 
