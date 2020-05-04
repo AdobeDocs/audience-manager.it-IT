@@ -5,7 +5,7 @@ seo-title: Flusso di lavoro B - Personalizzazione basata su dati solo offline
 solution: Audience Manager
 title: Flusso di lavoro B - Personalizzazione basata su dati solo offline
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 
 ---
 
@@ -132,9 +132,7 @@ Il file [di sincronizzazione](../../integration/sending-audience-data/batch-data
 Nell&#39;esempio precedente, il nome del file sarà simile al seguente:
 `c2c_id_999999_987654_1560431657.sync`
 
-[Scarica il file di esempio qui](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync).
-
-<!-- Victor/Vlad: Please check the above link. Any way you can move this download to Git? I'm concerned about the plans to decommission marketing.adobe.com -Bob -->
+[Scarica il file di esempio qui](assets/c2c_id_999999_987654_1560431657.sync).
 
 Dopo aver creato il file di sincronizzazione ID, devi caricarlo in un [!DNL Amazon S3] bucket. Per informazioni su come caricare i file di sincronizzazione ID, consulta [Inviare dati batch ad Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
