@@ -5,7 +5,7 @@ seo-title: Esclusione dei modelli algoritmici
 title: Esclusione dei modelli algoritmici
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: e6e22c0c4a8f1374d3d8d18cb7b242e18a29571f
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -47,6 +47,10 @@ Utilizzate il flusso di lavoro [Crea un modello](../../features/algorithmic-mode
 Se preferite le esercitazioni video, guardate la nostra dimostrazione video per l&#39;esclusione delle caratteristiche:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+
+Inoltre, guardate il video seguente per vedere in dettaglio come funzionano le metriche su più dispositivi.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Aspetti e limitazioni importanti {#important-aspects-and-limitations}
 
