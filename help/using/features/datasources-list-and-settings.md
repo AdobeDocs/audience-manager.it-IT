@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Elenco e impostazioni origini dati
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 0%
 
 ---
 
@@ -96,6 +99,10 @@ Il pannello [!UICONTROL Data Source Settings] contiene i controlli e le opzioni 
 ### Impostazioni origine dati in entrata
 
 Selezionare la **[!UICONTROL Inbound]** casella di controllo quando l&#39;origine dati è progettata per ricevere i dati in ingresso. Selezionando la **[!UICONTROL Inbound]** casella di controllo vengono visualizzati altri due gruppi di controlli descritti di seguito.
+
+>[!NOTE]
+>
+>La **[!UICONTROL Inbound]** casella di controllo è destinata solo a visualizzare o nascondere i controlli dell&#39;origine dati descritti di seguito. Se si deseleziona l’ **[!UICONTROL Inbound]** opzione, l’assimilazione dei dati non verrà modificata. I dati caricati verranno elaborati indipendentemente da questa opzione selezionata.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
