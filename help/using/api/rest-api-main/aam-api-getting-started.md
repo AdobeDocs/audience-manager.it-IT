@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Guida introduttiva alle API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 680c4491176755915d2d45ee64f5d88410cb7072
+source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 2%
+source-wordcount: '1891'
+ht-degree: 3%
 
 ---
 
@@ -51,12 +51,22 @@ Le API REST di Audience Manager supportano due metodi di autenticazione.
 
 ## Autenticazione JWT (account di servizio) {#jwt}
 
-Per stabilire una sessione dell&#39;API Adobe I/O di servizio protetta, dovete creare un token Web JSON (JWT) che racchiuda l&#39;identità della vostra integrazione, quindi scambiarlo per un token di accesso. Ogni richiesta a un servizio Adobe deve includere il token di accesso nell’intestazione Autorizzazione, insieme alla chiave API (ID client) generata al momento della creazione dell’integrazione [dell’account di](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) servizio nella console [I/O di](https://console.adobe.io/)Adobe.
+### Prerequisiti {#prerequisites}
 
-Per configurare l&#39;autenticazione JWT (Service Account), effettuate le seguenti operazioni:
+Prima di configurare l&#39;autenticazione JWT, accertatevi di disporre dell&#39;accesso ad [Adobe Developer Console](https://console.adobe.io/). Contattate l’amministratore dell’organizzazione per le richieste di accesso.
 
-1. Accedete a [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) e seguite tutti i passaggi per configurare la connessione dell&#39;account di servizio e generare il token JWT.
-2. Andate a Autenticazione [](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) JWT (account di servizio) e seguite i passaggi per scambiare il token JWT (creato al punto 1) per un token di accesso.
+### Autenticazione {authentication}
+
+Per configurare l&#39;autenticazione JWT (Service Account), effettuate le operazioni seguenti:
+
+1. Accedete ad [Adobe Developer Console](https://console.adobe.io/).
+1. Seguite i passaggi in Connessione [account di](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)servizio.
+   * Durante il [passaggio 2: Aggiungi un&#39;API al tuo progetto utilizzando l&#39;autenticazione](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)dell&#39;account di servizio, scegli l&#39;opzione API Audience Manager.
+1. Prova la connessione effettuando la tua prima chiamata API in base alle istruzioni del [passaggio 3](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.).
+
+>[!NOTE]
+>
+>Per configurare e utilizzare le API REST di Audience Manager in modo automatico, potete generare il JWT a livello di programmazione. Per istruzioni dettagliate, consultate Autenticazione [](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) JWT (Service Account).
 
 ## Autenticazione OAuth (obsoleta) {#oauth}
 
