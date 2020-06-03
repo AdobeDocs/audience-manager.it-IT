@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Guida introduttiva alle regole di unione dei profili
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+workflow-type: tm+mt
+source-wordcount: '1327'
+ht-degree: 1%
 
 ---
 
@@ -99,6 +102,19 @@ Per completare la [!UICONTROL Proflie Merge Rule Setup] sezione:
    * **[!UICONTROL Device Co-op]**
 4. Clic **[!UICONTROL Save]**.
 
+### Considerazioni sulle destinazioni di Adobe Campaign utilizzando gli ID multi-dispositivo come chiavi ID utente {#considerations}
+
+Alla fine del 2019, è disponibile una serie di miglioramenti delle regole di unione dei profili per migliorare la precisione dei file batch generati utilizzando ID cross-device. Questi miglioramenti verranno rispettati in modo rigoroso nell’istanza di Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando ID cross-device cesseranno di produrre esportazioni in alcune configurazioni di regole di unione profilo.
+
+Per garantire la corretta integrazione tra l’istanza e le destinazioni di Audience Manager utilizzando ID cross-device, come Adobe Campaign, accertati di soddisfare i seguenti requisiti:
+
+1. Controlla la regola di unione dei profili utilizzata dai segmenti mappati alla destinazione ID dichiarato di Adobe Campaign. La regola di unione dei profili deve utilizzare l&#39; [!UICONTROL Last Authenticated Profile] opzione, in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione dei profili utilizza un&#39;altra opzione, selezionatela [!UICONTROL Last Authenticated Profile].
+2. Seleziona l&#39;origine dati ID dichiarato di Adobe Campaign nelle impostazioni Regola unione profilo.
+
+>[!NOTE]
+>
+> Per i clienti che si trovano in questa situazione è stato aumentato il limite della regola di unione profilo di 1, in modo da poter creare una regola di unione profilo dedicata per i segmenti mappati alla destinazione ID dichiarata di Adobe Campaign, senza modificare le regole di unione profilo per altri casi di utilizzo.
+
 ## Configurare il codice della regola di unione {#configure-merge-rule-code}
 
 Seguire queste istruzioni per impostare il [!UICONTROL Adobe Experience Platform Identity Service]codice mobile [!UICONTROL DIL]e il [!DNL SDK] codice mobile in modo che funzioni con le regole di unione.
@@ -135,7 +151,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Per ulteriori informazioni, vedi [Creare un&#39;origine](#create-data-source) dati e ID [cliente tra dispositivi e stati](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)di autenticazione.
+Per ulteriori informazioni, vedi [Creare un&#39;origine](#create-data-source) dati multi-dispositivo e ID [cliente e stati](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)di autenticazione.
 
 ### Configura `DIL.create` funzione
 
