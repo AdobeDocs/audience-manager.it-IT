@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Domande frequenti su Regole di unione dei profili e Device Graph
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1548'
 ht-degree: 2%
 
 ---
@@ -259,7 +259,7 @@ Sì. La metrica della popolazione totale del segmento include i dispositivi aggi
 
 No.
 
-**Perché le esportazioni del mio segmento in Adobe Campaign sono indicate a 0 dopo il 16 marzo 2020?**
+**Perché visualizzo una popolazione di segmento pari a zero per le esportazioni di segmenti in Adobe Campaign dopo il 16 marzo 2020?**
 
 Alla fine del 2019, è disponibile una serie di miglioramenti delle regole di unione dei profili per migliorare la precisione dei file batch generati utilizzando ID cross-device. Questi miglioramenti verranno rispettati in modo rigoroso nell’istanza di Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando ID cross-device cesseranno di produrre esportazioni in alcune configurazioni di regole di unione profilo.
 
