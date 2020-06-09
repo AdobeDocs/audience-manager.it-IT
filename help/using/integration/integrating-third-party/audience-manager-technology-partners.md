@@ -6,20 +6,23 @@ keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Partner tecnologici di Adobe Audience Manager
 translation-type: tm+mt
-source-git-commit: fab074926de1ff5e42092b9f7f8b0d5585fe2edc
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1178'
+ht-degree: 59%
 
 ---
 
 
 # Partner di attivazione di Audience Manager
 
-Questa pagina include solo le integrazioni tra [server e server correnti di Audience Manager](/help/using/features/destinations/add-edit-segments.md) .  Per ulteriori informazioni sull'integrazione, fare riferimento all'elenco di [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (dove disponibile) o contattare il consulente Adobe o l'Assistenza clienti.
+Questa pagina include solo le integrazioni tra [server e server correnti di Audience Manager](/help/using/features/destinations/add-edit-segments.md) .  Per ulteriori informazioni sull&#39;integrazione, fare riferimento all&#39;elenco di [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (dove disponibile) o contattare il consulente Adobe o l&#39;Assistenza clienti.
 
 <br> 
 
-* **Aggiornato** = mostra l'ultima data in cui è stato aggiornato il partner di attivazione.
-* **Unsegment** = Unsegmentation descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall'opzione del dispositivo utilizzata per creare una regola di unione dei profili. La segmentazione viene utilizzata anche nel contesto delle richieste di eliminazione GDPR, le regole di unione dei [profili di lettura e i processi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) di segmentazione dei dispositivi e i partner di [Audience Manager con funzionalità](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)di segmentazione. Audience Manager invia le informazioni di segmento alle destinazioni contrassegnate con Sì di seguito.
-* **Ricevere i segnali** di consenso IAB TCF = Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa di consenso IAB TCF ai partner di attivazione nel rispetto delle scelte sulla privacy degli utenti. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **Aggiornato** = mostra l&#39;ultima data in cui è stato aggiornato il partner di attivazione.
+* **Unsegment** = Unsegmentation descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall&#39;opzione del dispositivo utilizzata per creare una regola di unione dei profili. La segmentazione viene utilizzata anche nel contesto delle richieste di eliminazione GDPR, le regole di unione dei [profili di lettura e i processi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) di segmentazione dei dispositivi e i partner di [Audience Manager con funzionalità](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)di segmentazione. Audience Manager invia le informazioni di segmento alle destinazioni contrassegnate con Sì di seguito.
+* **Ricevere i segnali** di consenso IAB TCF = Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa IAB TC ai partner di attivazione rispettando le scelte sulla privacy degli utenti. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = In questa colonna sono elencati i partner che supportano la soppressione immediata tra dispositivi. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **ID** dispositivo mobile = Questa colonna elenca i partner che possono ricevere gli ID dispositivo mobile da Audience Manager.
 
@@ -48,7 +51,7 @@ Questa pagina include solo le integrazioni tra [server e server correnti di Audi
 | Atedra/AdStand | 02/03/2017 | Sì | No | Sì | No |
 | Avocent | 06/12/2017 | No | No | No | No |
 | Bidtellect | 03/03/2017 | Sì | No | No | No |
-| cera d'api | 25/05/2018 | No | No | No | Sì |
+| cera d&#39;api | 25/05/2018 | No | No | No | Sì |
 | Brandscreen | 03/03/2017 | No | No | No | No |
 | Brightroll | 03/03/2017 | No | Sì | No | No |
 | Pulsante | 18/12/2017 | Sì | No | No | Sì |
@@ -67,7 +70,7 @@ Questa pagina include solo le integrazioni tra [server e server correnti di Audi
 | DoubleVerify | 06/09/2017 | Sì | No | No | No |
 | Drawbridge | 02/03/2017 | No | No | No | Sì |
 | Dstillery (FKA Media6) | 02/03/2017 | Sì | No | No | Sì |
-| Conversante Epsilon | 03/03/2017 | No | No | No | No |
+| Conversante di Epsilon | 03/03/2017 | No | No | No | No |
 | Esponenziale | 27/02/2017 | Sì | No | Sì | No |
 | Marketing Eyereturn | 11/04/2017 | Sì | No | No | No |
 | EyeView Digital | 14/06/2018 | Sì | No | No | Sì |
