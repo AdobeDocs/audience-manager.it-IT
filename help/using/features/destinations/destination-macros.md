@@ -4,9 +4,12 @@ seo-description: Descrive le macro che è possibile aggiungere a un URL di desti
 seo-title: Macro di destinazione definite
 solution: Audience Manager
 title: Macro di destinazione definite
-uuid: 982CAB05-8a3f-4f96-b4d0-291709712ad1
+uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +20,7 @@ Descrive le macro che è possibile aggiungere a una destinazione [!DNL URL].
 
 <!-- destination-macros.xml -->
 
-Durante la creazione di una [!DNL URL] destinazione, è possibile inserire le seguenti macro nella [!DNL URL] stringa. Consultare il partner di dati/destinazione per informazioni sulla corretta posizione delle macro all'interno della destinazione [!DNL URL].
+Durante la creazione di una [!DNL URL] destinazione, è possibile inserire le seguenti macro nella [!DNL URL] stringa. Consultare il partner di dati/destinazione per informazioni sulla corretta posizione delle macro all&#39;interno della destinazione [!DNL URL].
 
 >[!NOTE]
 >
@@ -54,9 +57,17 @@ Durante la creazione di una [!DNL URL] destinazione, è possibile inserire le se
        Basato su AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
   </tr> 
+  <tr>
+    <td><p><code>${GDPR}</code></p></td>
+    <td><p>Indica se le regole GDPR si applicano o meno al visitatore. Utilizzare questa macro per includere il consenso nei segmenti inviati a destinazioni URL integrate con IAB. Per informazioni dettagliate, consultate Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager per IAB TCF</a> .</p></td>
+  </tr>
+   <tr>
+    <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
+    <td><p>La stringa di consenso (incluso l’ID fornitore IAB) raccolta quando i visitatori forniscono o negano il consenso sul sito. Utilizzare questa macro per includere la stringa di consenso nei segmenti inviati a destinazioni URL integrate con IAB. Sostituire <code>XXXX</code> con l’ID partner di destinazione. Per informazioni dettagliate, consultate Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager per IAB TCF</a> . </p></td>
+  </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
-   <td colname="col2"> <p>Rileva il protocollo utilizzato nella pagina Web padre e lo inserisce nell’URL di destinazione. Ad esempio: 
+   <td colname="col2"> <p>Rileva il protocollo utilizzato nella pagina Web padre e lo inserisce nell’URL di destinazione. Ad esempio:
      <br> 
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
       <li id="li_B41EF140CC274CB68FE7213DD8B908C0">se la pagina Web è <b>https</b>://aam_client.com, la macro verrà sostituita con <b>https</b>://url-destination.com </li> 
@@ -77,7 +88,7 @@ Durante la creazione di una [!DNL URL] destinazione, è possibile inserire le se
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %timestamp%</code> </p> </td> 
-   <td colname="col2"> <p>Inserisce una marca temporale UNIX nell'URL di destinazione per evitare che i browser distribuiscano contenuto nella cache. </p> </td> 
+   <td colname="col2"> <p>Inserisce una marca temporale UNIX nell'URL di destinazione per evitare che i browser distribuiscano contenuto memorizzato nella cache. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,18 +97,18 @@ Durante la creazione di una [!DNL URL] destinazione, è possibile inserire le se
 
 Le `%rnd%` macro e `%timestamp%` le macro inseriscono valori univoci in una [!DNL URL] stringa per impedire il caching del browser.
 
-## Busting cache con `%rnd%` e `%timestamp%`{#dest-cache-busting}
+## Busting cache con `%rnd%` e `%timestamp%` {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
-La cache dei browser (salva) del contenuto richiesto di frequente nella memoria. Quando una pagina viene caricata, il contenuto salvato viene distribuito dalla cache anziché da un server remoto. Questo processo consente di mantenere tempi di download efficienti perché i dati vengono inviati localmente anziché da un'altra posizione. Tuttavia, poiché il caching non richiede una chiamata al server, può distorcere i rapporti riducendo artificialmente il numero di richieste univoche.
+La cache dei browser (salva) del contenuto richiesto di frequente nella memoria. Quando una pagina viene caricata, il contenuto salvato viene distribuito dalla cache anziché da un server remoto. Questo processo consente di mantenere tempi di download efficienti perché i dati vengono inviati localmente anziché da un&#39;altra posizione. Tuttavia, poiché il caching non richiede una chiamata al server, può distorcere i rapporti riducendo artificialmente il numero di richieste univoche.
 
-La funzione cache impedisce ai browser di salvare e riutilizzare il contenuto. Questa tecnica utilizza codice che inserisce un numero casuale o una marca temporale in una stringa URL, rendendola univoca per il browser. Di conseguenza, ogni `HTTP` chiamata viene conteggiata come una richiesta separata al server. Forzare una nuova chiamata al server per ogni richiesta consente di mantenere la precisione dei rapporti e ridurre le discrepanze. [!DNL Audience Manager] fornisce due macro per l'avvio della cache:
+La funzione cache impedisce ai browser di salvare e riutilizzare il contenuto. Questa tecnica utilizza codice che inserisce un numero casuale o una marca temporale in una stringa URL, rendendola univoca per il browser. Di conseguenza, ogni `HTTP` chiamata viene conteggiata come una richiesta separata al server. Forzare una nuova chiamata al server per ogni richiesta consente di mantenere la precisione dei rapporti e ridurre le discrepanze. [!DNL Audience Manager] fornisce due macro per l&#39;avvio della cache:
 
 * `%rnd%`: Inserisce un numero casuale in un URL.
 * `%timestamp%`: Inserisce la data/ora Unix in un URL.
 
-## Confronto `%rnd%` e `%timestamp%`{#compare-rnd-timestamp}
+## Confronto `%rnd%` e `%timestamp%` {#compare-rnd-timestamp}
 
 Entrambe le macro impediscono il caching, ma `%rnd%` possono essere più efficienti. Ad esempio, con `%timestamp%`, se più utenti visualizzano una pagina contemporaneamente, avranno lo stesso valore di data/ora. Di conseguenza, le chiamate non [!DNL URL] sono univoche e più chiamate vengono conteggiate solo una volta. Tuttavia, `%rnd%` genera un valore numerico univoco per ogni chiamata (anche quando gli utenti vedono la stessa pagina contemporaneamente). Ciò significa che la [!DNL URL] stringa contiene valori diversi e viene conteggiata come univoca.
 
