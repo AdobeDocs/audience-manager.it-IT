@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Documentazione prodotto Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
+source-git-commit: 54d108d3ab2a5476e919d706be74821d6ef8c2bd
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 15%
 
 ---
 
@@ -156,7 +159,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
      <br> 
      <p> <b>Funzioni più recenti</b> </p> <p> 
      Scopri le funzionalità più recenti di Audience Manager:</p>
-     <p><ul><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Report sull'utilizzo dell'attività</a></li>
+     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in Audience Manager per IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Report sull'utilizzo dell'attività</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">Aggiornamento della documentazione relativa al supporto e alla privacy dell'Atto sulla privacy dei consumatori della California</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Raccomandazioni intelligenti per i dati Audience Marketplace, basate su Adobe Sensei</a></li>
      <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Miglioramenti delle regole di unione dei profili</a></li></ul><p>
@@ -205,7 +208,7 @@ Read about the latest Audience Manager features:
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external">Informazioni e supporto per Audience Manager</a> </li> 
      </ul> </p> 
      <br> 
-     <p>Vedere anche, Aggiornamenti <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/documentation-updates/docs-2020.html"> alla documentazione di</a>2020. </p> </td>
+     <p>Vedere anche, Aggiornamenti <a href="https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/documentation-updates/docs-2020.html"> alla documentazione di</a>2020. </p> </td>
   </tr> 
  </tbody> 
 </table>
