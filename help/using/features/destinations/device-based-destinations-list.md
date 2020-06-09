@@ -6,7 +6,10 @@ keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Destinazioni server-to-server di Adobe Audience Manager
 translation-type: tm+mt
-source-git-commit: 7a2a42ed3b591e1466adf93f3fd31ce6555775a2
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1389'
+ht-degree: 58%
 
 ---
 
@@ -20,7 +23,7 @@ Questa pagina include solo le destinazioni [correnti basate sui](/help/using/fea
 * **Ultimo aggiornamento** = mostra l&#39;ultima data in cui è stato eseguito un aggiornamento per questa destinazione basata sul dispositivo.
 * **Aggiornamenti** = Indica se Audience Manager invia dati in tempo reale o in batch (1 giorno) a questa destinazione.
 * **Unsegment** = Unsegmentation descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall&#39;opzione del dispositivo utilizzata per creare una regola di unione dei profili. La segmentazione viene utilizzata anche nel contesto delle richieste di eliminazione GDPR. Leggi le regole di unione dei [profili e i processi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) di segmentazione dei dispositivi e i partner [Audience Manager con funzionalità](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)di segmentazione. Audience Manager invia le informazioni di segmento alle destinazioni contrassegnate con **Sì** di seguito.
-* **Ricevere i segnali** di consenso IAB TCF = Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa di consenso IAB TCF ai partner di attivazione nel rispetto delle scelte sulla privacy degli utenti. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **Ricevere i segnali** di consenso IAB TCF = Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa IAB TC ai partner di attivazione rispettando le scelte sulla privacy degli utenti. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **ICDS** = In questa colonna sono elencati i partner che supportano la soppressione immediata tra dispositivi. Leggi [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **ID** dispositivo mobile = Questa colonna elenca i partner che possono ricevere gli ID dispositivo mobile da Audience Manager.
 
@@ -71,7 +74,7 @@ Questa pagina include solo le destinazioni [correnti basate sui](/help/using/fea
 | Dstillery (FKA Media6) | 02/03/2017 | Real-time | Sì | No | No | Sì |
 | Dunnhumby | 21/11/2019 | 1xday | No | No | No | No |
 | easyfundraising | 27/06/2019 | 1xday | No | No | No | Sì |
-| Conversante Epsilon | 03/03/2017 | Real-time | No | No | No | No |
+| Conversante di Epsilon | 03/03/2017 | Real-time | No | No | No | No |
 | Esponenziale | 27/02/2017 | Real-time | Sì | No | Sì | No |
 | Marketing Eyereturn | 11/04/2017 | 1xday | Sì | No | No | No |
 | EyeView Digital | 14/06/2018 | 1xday | Sì | No | No | Sì |
