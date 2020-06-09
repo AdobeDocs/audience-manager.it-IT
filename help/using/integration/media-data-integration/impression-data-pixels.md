@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Acquisizione dei dati di impressione della campagna attraverso Pixel Calls (Chiamate pixel)
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
+source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +28,7 @@ Questa metodologia viene spesso definita come &quot;pixeling the creative.&quot;
 
 La chiamata dell&#39;evento raccoglie i dati sulle impression e di conversione e li invia ai [!DNL Audience Manager]server di raccolta dati[ di ](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). Questo processo si basa su server di annunci di terze parti che inseriscono la chiamata nella grafica per controllare quale contenuto viene inserito nel codice. I server di annunci di terze parti (ad esempio, [!DNL DFA]) possono inserire questo codice all&#39;interno di ogni impression pubblicitaria. Inoltre, una ad call non utilizza [!DNL JavaScript] o impiega tecniche di suddivisione dei fotogrammi per accedere ai dati del publisher all&#39;esterno dell&#39;ad tag.
 
-Le chiamate evento sono composte da coppie chiave-valore che utilizzano la sintassi seguente:
+Le chiamate all&#39;evento sono composte da coppie chiave-valore che utilizzano la sintassi seguente:
 
 ```
 http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
@@ -94,23 +97,23 @@ Le chiamate dell&#39;evento Impression accettano i dati formati in coppie chiave
    <td colname="col2"> <p>ID origine dati o codice di integrazione della piattaforma che fornisce i metadati (ad esempio, DFA, Atlas, GBM, Media Math, ecc.). </p> <p>Obbligatorio per <span class="wintitle"> i report di ottimizzazione dell'audience </span> . </p> </td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <code><i>gdpr</i></code>  </td> 
+   <td colname="col1"> <code>gdpr</code>  </td> 
    <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p> <p><code>gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
-   <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p><p> Se <code>gdpr=1</code>, allora <code>%gdpr_consent%</code> viene sostituito dalla stringa <code>gdpr_consent</code> (vedi le <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> specifiche IAB</a>).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p> </td> 
+   <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p><p> Se <code>gdpr=1</code>, <code>${gdpr_consent_XXXX}</code> viene sostituita dalla <code>gdpr_consent</code> stringa e dall'ID fornitore (vedere la specifica <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"></a>IAB).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Contatta il consulente di Adobe Audience Manager o il lead dell&#39;account per ottenere l&#39;URL esatto specifico per il dominio client.
+>Contatta il tuo consulente di Adobe Audience Manager o il lead dell&#39;account per ottenere l&#39;URL esatto specifico per il dominio client.
 
 ## Funzionalità aggiuntive - Report di ottimizzazione dell&#39;audience
 
-Potete utilizzare chiamate in pixel per alimentare i report di ottimizzazione dell&#39; [audience](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultate [Panoramica e mappature per i file](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) di metadati per usare i pixel per alimentare i rapporti.
+Potete utilizzare chiamate in pixel per alimentare i report di ottimizzazione dell&#39; [audience](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultate [Panoramica e mappature per i file](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) di metadati se desiderate utilizzare i pixel per alimentare i rapporti.
 
 >[!MORELIKETHIS]
 >
