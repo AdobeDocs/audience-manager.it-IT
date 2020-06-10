@@ -5,12 +5,15 @@ audience: end-user
 user-guide-title: Guida utente di Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1711'
+ht-degree: 9%
 
 ---
 
 
-# Guida utente di Audience Manager {#user-guide}
+# Audience Manager User Guide {#user-guide}
 
 + [Documentazione prodotto Audience Manager](aam-home.md)
 + Panoramica{#overview}
@@ -167,7 +170,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
       + [Espressioni di esempio con operatori booleani e di confronto](features/traits/trait-expression-samples.md)
       + [Riferimento per la qualifica di caratteristica e segmento](features/traits/trait-and-segment-qualification-reference.md)
    + [Visualizzatore profilo visitatori](features/visitor-profile-viewer.md)
-+ Generazione di rapporti  {#reporting}
++ Generazione di rapporti {#reporting}
    + [Panoramica dei report](reporting/reports-overview.md)
    + [Pannello Rapporti](reporting/reports-dashboard.md)
    + [Rapporti generali](reporting/general-reports.md)
@@ -233,7 +236,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
          + [Panoramica di riferimento API DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Metodi API DCS](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Codici errore DCS, messaggi ed esempi](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [Monitoraggio ID e Blacklist](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+         + [Monitoraggio ID e denylist](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [ID regione DCS, posizioni e nomi host](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formattazione delle coppie chiave-valore nelle chiamate DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Condizioni di gara e gestione errori](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
