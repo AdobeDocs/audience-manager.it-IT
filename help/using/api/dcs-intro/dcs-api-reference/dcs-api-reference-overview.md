@@ -4,7 +4,10 @@ seo-description: Informazioni concettuali, descrizioni e definizioni per codice,
 seo-title: Panoramica di riferimento API DCS in Adobe Audience Manager (AAM)
 title: Panoramica di riferimento API DCS
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
@@ -15,15 +18,15 @@ Informazioni concettuali, descrizioni e definizioni per codice, metodi e process
 
 * [Metodi API DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Inviare i dati all'API DCS utilizzando i metodi GET o POST.
+   Inviare i dati all&#39;API DCS utilizzando i metodi GET o POST.
 
 * [Codici errore DCS, messaggi ed esempi](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
-   Codici di errore e messaggi generati dai Data Collection Servers (DCS) elencati in ordine numerico in base all'ID del codice.
+   Codici di errore e messaggi generati dai Data Collection Servers (DCS) elencati in ordine numerico in base all&#39;ID del codice.
 
-* [Monitoraggio ID e Blacklist](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+* [Monitoraggio ID e denylist](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   Il DCS controlla gli ID ricevuti ed elenca in blacklist quelli inviati a un tasso insolitamente elevato in un breve periodo di tempo.
+   Il DCS controlla gli ID ricevuti e aggiunge a un elenco di negazioni quelli inviati a un tasso insolitamente elevato in un breve periodo di tempo.
 
 * [ID regione DCS, posizioni e nomi host](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
