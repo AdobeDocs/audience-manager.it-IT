@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Utilizzo delle autorizzazioni bucket tra account diversi di Amazon S3 per i file un uscita
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 14%
 
 ---
 
@@ -15,4 +18,4 @@ source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
 
 Il [!UICONTROL Outbound Data Transfer] processo per i clienti che utilizzano [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) richiede che noi chiediamo la tua chiave di [!DNL Amazon S3] accesso e la chiave segreta, al fine di consegnare i file di dati in uscita al tuo bucket.
 
-Se preferisci non condividere con noi la tua chiave [!DNL Amazon S3] di accesso e la chiave segreta, contatta il tuo [!DNL Audience Manager] consulente o l'Assistenza clienti e ti installeranno [!DNL Cross-Account Bucket Permissions] . Devi solo inserire il nostro [!DNL Amazon S3] ID account per il [!DNL S3] bucket in cui desideri ricevere i file di dati in uscita, come descritto nella documentazione [di](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)Amazon S3. Il tuo [!DNL Audience Manager] consulente o l'Assistenza clienti ti fornirà il nostro [!DNL Amazon S3] ID account.
+Se preferisci non condividere con noi la tua chiave [!DNL Amazon S3] di accesso e la chiave segreta, contatta il tuo [!DNL Audience Manager] consulente o l&#39;Assistenza clienti e ti installeranno [!DNL Cross-Account Bucket Permissions] . È sufficiente aggiungere il nostro [!DNL Amazon S3] ID account a un elenco di consenso per il [!DNL S3] bucket in cui si desidera ricevere i file di dati in uscita, come descritto nella documentazione [di](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html)Amazon S3. Il tuo [!DNL Audience Manager] consulente o l&#39;Assistenza clienti ti fornirà il nostro [!DNL Amazon S3] ID account.
