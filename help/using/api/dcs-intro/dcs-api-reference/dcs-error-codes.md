@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Codici errore DCS, messaggi ed esempi
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1545'
 ht-degree: 4%
 
 ---
@@ -212,22 +212,22 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>ID cliente bloccato <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Restituito quando l’ID cliente è stato identificato come dannoso ed è stato inserito in blacklist. </p> </td> 
+   <td colname="col3"> <p>Restituito quando l’ID cliente è stato identificato come dannoso ed è stato aggiunto a una denylist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>ID origine dati bloccata <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Restituito quando l’ID origine dati è stato identificato come dannoso ed è stato inserito in blacklist. </p> </td> 
+   <td colname="col3"> <p>Restituito quando l’ID dell’origine dati è stato identificato come dannoso ed è stato aggiunto a un elenco di indirizzi </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>ID dispositivo dichiarato bloccato <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>L'ID dispositivo è stato identificato come dannoso ed è stato inserito in blacklist. Questo può accadere quando riceviamo una quantità estrema di richieste <span class="wintitle"> DCS</span> contenenti questo ID dispositivo in poco tempo. </p> </td>
+   <td colname="col3"> <p>L'ID dispositivo è stato identificato come dannoso ed è stato aggiunto a un elenco di valori consentiti Questo può verificarsi quando riceviamo una quantità estrema di richieste <span class="wintitle"> DCS</span> contenenti questo ID dispositivo in poco tempo. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Operazione profilo bloccato per <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Un'azione di lettura/scrittura è stata bloccata perché un ID è stato identificato come dannoso ed è stato inserito in blacklist. Vedere codice di errore 306. </p> </td> 
+   <td colname="col3"> <p>Un'azione di lettura/scrittura è stata bloccata perché un ID è stato identificato come dannoso ed è stato aggiunto a un elenco di indirizzi non validi Vedere il codice di errore 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
