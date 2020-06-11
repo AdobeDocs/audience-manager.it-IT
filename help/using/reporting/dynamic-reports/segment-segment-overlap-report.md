@@ -1,19 +1,22 @@
 ---
-description: Restituisce dati sul numero di utenti univoci condivisi tra i segmenti.
-seo-description: Restituisce dati sul numero di utenti univoci condivisi tra i segmenti.
+description: Restituisce i dati sul numero di utenti univoci condivisi tra i segmenti.
+seo-description: Restituisce i dati sul numero di utenti univoci condivisi tra i segmenti.
 seo-title: Rapporto di sovrapposizione segmento-segmento
 solution: Audience Manager
 title: Rapporto di sovrapposizione segmento-segmento
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 translation-type: tm+mt
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 4%
 
 ---
 
 
 # Rapporto di sovrapposizione segmento-segmento{#segment-to-segment-overlap-report}
 
-Restituisce dati sul numero di utenti univoci condivisi tra i segmenti.
+Restituisce i dati sul numero di utenti univoci condivisi tra i segmenti.
 
 >[!NOTE]
 >
@@ -34,7 +37,7 @@ Il [!UICONTROL Segment-to-Segment Overlap] rapporto può essere utile:
 
 ## Report di esempio
 
-L'illustrazione seguente fornisce una panoramica di alto livello del [!UICONTROL Segment-to-Segment Overlap] rapporto.
+L&#39;illustrazione seguente fornisce una panoramica di alto livello del [!UICONTROL Segment-to-Segment Overlap] rapporto.
 
 >[!NOTE]
 >
@@ -58,10 +61,10 @@ La finestra a comparsa per il [!UICONTROL Segment-to-Segment Overlap] rapporto c
 
 | Metrica | Descrizione |
 |---|---|
-| **[!UICONTROL Base Segment ID]** | ID numerico univoco per il segmento visualizzato nei risultati del rapporto. Viene visualizzato come ID riga per il segmento. |
+| **[!UICONTROL Base Segment ID]** | ID numerico univoco per il segmento che viene visualizzato nei risultati del rapporto. Viene visualizzato come ID riga per il segmento. |
 | **[!UICONTROL Base Segment Name]** | Nome del segmento visualizzato nella riga dei risultati del rapporto. |
-| **[!UICONTROL Overlapping Segment ID]** | ID numerico univoco per il segmento selezionato durante l'esecuzione del rapporto. Viene visualizzato come ID colonna per il segmento. |
-| **[!UICONTROL Overlapping Segment Name]** | Nome del segmento selezionato durante l'esecuzione del rapporto. Viene visualizzata nella colonna dei risultati del rapporto. |
+| **[!UICONTROL Overlapping Segment ID]** | ID numerico univoco per il segmento selezionato durante l&#39;esecuzione del rapporto. Viene visualizzato come ID colonna per il segmento. |
+| **[!UICONTROL Overlapping Segment Name]** | Nome del segmento selezionato durante l&#39;esecuzione del rapporto. Viene visualizzata nella colonna dei risultati del rapporto. |
 | **[!UICONTROL Base Segment Uniques]** | Il numero di visitatori unici nel segmento di base. |
 | **[!UICONTROL Base Segment Uniques]** | Numero di visitatori univoci nel segmento sovrapposto. |
 | **[!UICONTROL Overlapping Uniques]** | Il numero di visitatori univoci condivisi tra segmenti confrontati. |
