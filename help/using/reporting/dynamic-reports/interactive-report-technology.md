@@ -6,14 +6,17 @@ solution: Audience Manager
 title: Tecnologia di report
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
-source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
+source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 0%
 
 ---
 
 
 # Tecnologia di report{#report-technology}
 
-Descrive il software sottostante che abilita i report interattivi e la pianificazione dell'aggiornamento dei dati.
+Descrive il software sottostante che abilita i report interattivi e la pianificazione dell&#39;aggiornamento dei dati.
 
 <!-- 
 
@@ -32,11 +35,11 @@ c_report_technology.xml
 
 ## Pianificazione aggiornamento dati
 
-I dati del rapporto vengono aggiornati ogni domenica. L'aggiornamento elabora i dati da sabato (il giorno precedente) alla domenica precedente.
+I dati del rapporto vengono aggiornati ogni domenica. L&#39;aggiornamento elabora i dati da sabato (il giorno precedente) alla domenica precedente.
 
 ## Forme, colori e dimensioni utilizzati nei rapporti interattivi {#shapes-colors-sizes}
 
-La maggior parte dei rapporti interattivi visualizza i risultati utilizzando forme di dimensioni e colori diversi. Questo formato di visualizzazione è progettato per aiutarti a comprendere i dati visivamente, senza dover scorrere righe e colonne di numeri.
+La maggior parte dei rapporti interattivi visualizza i risultati utilizzando forme di dimensioni e colori diversi. Questo formato di visualizzazione è progettato per aiutarti a dare un senso ai dati visivamente, senza dover scorrere righe e colonne di numeri.
 
 <!-- 
 
@@ -79,52 +82,6 @@ La tabella seguente definisce le forme, le dimensioni e i colori utilizzati nei 
  </tbody> 
 </table>
 
-## Informazioni su icone e strumenti del rapporto {#icons-tools-explained}
+## Documentazione di Tableau {#tableau-documentation}
 
-Descrive come cercare e utilizzare i vari strumenti per le icone utilizzati nei rapporti dinamici.
-
-<!-- 
-
-r_icons.xml
-
- -->
-
-### Icone e strumenti dati
-
-Le icone e gli strumenti riportati di seguito sono disponibili nella parte inferiore di ogni finestra di rapporto dinamico. L'illustrazione seguente fornisce ulteriori informazioni su questi strumenti.
-
-![](assets/tools_icons90.png)
-
-### Esporta dati
-
-Questi strumenti consentono di esportare i dati dal rapporto in 4 formati diversi.
-
-| Opzione di esportazione | Esporta dati |
-|---|---|
-| **[!UICONTROL Image]** | Come file di immagine (.png). Utile per scaricare e condividere i dati dei rapporti nel formato grafico originale. |
-| **[!UICONTROL PDF]** | Come file PDF. |
-| **[!UICONTROL Data]** | In una nuova finestra del browser come dati numerici in colonne e righe. |
-| **[!UICONTROL Crosstab]** | Come file .csv. |
-
-### Ripristino modifiche
-
-Selezionare questo strumento per annullare eventuali modifiche interattive apportate al clic sul rapporto.
-
-### Aggiornamenti automatici
-
-I [!UICONTROL Delivery-Performance] [!UICONTROL Trait-to-Trait Overlap] rapporti e i rapporti sono rapporti dinamici che rispondono e cambiano in base alle azioni di clic dell'utente.
-
-Ad esempio, supponiamo di voler selezionare diversi inserzionisti nel [!UICONTROL Overlap] rapporto. Quando questa opzione è attivata, gli aggiornamenti automatici iniziano a restituire i dati non appena si seleziona una casella di controllo. Questo comportamento dinamico può interrompere il flusso di lavoro perché è necessario attendere il termine dell'elaborazione del rapporto prima di selezionare un altro inserzionista. Utilizzate questo strumento per disattivare (e riattivare) la funzione come necessario.
-
-### Aggiorna dati
-
-Fate clic sull'icona di aggiornamento per eseguire un rapporto o ricaricare il set di dati. Quando gli aggiornamenti automatici sono disattivati, fai clic su Aggiorna per eseguire o aggiornare il rapporto.
-
-### Strumento Ricerca
-
-La ricerca è rappresentata da un'icona generica di lente di ingrandimento (non mostrata). Il campo di ricerca viene nascosto finché non si fa clic sulle etichette di selezione sul lato sinistro dello schermo. La tabella seguente descrive la posizione dello strumento di ricerca per ciascun rapporto.
-
-| Report | Per trovare una ricerca, passa il mouse sopra |
-|---|---|
-| [!UICONTROL Delivery and Performance] rapporto | Etichetta "Advertiser Name". |
-| [!UICONTROL Overlap] report | Etichetta "SID Name". |
+Per ulteriori informazioni sui controlli Tableau che potete vedere nei nostri rapporti interattivi, consultate la documentazione ufficiale per [Tableau Server su Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm.)
