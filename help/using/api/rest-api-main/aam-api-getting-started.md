@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Guida introduttiva alle API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
+source-git-commit: e51a4302808958093342170d513701ac1547c275
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 3%
@@ -20,7 +20,7 @@ Informazioni su requisiti generali, autenticazione, parametri di query facoltati
 
 <!-- c_rest_api_overview.xml -->
 
-## Requisiti API e raccomandazioni {#api-requirements-recommendations}
+## Raccomandazioni e requisiti per l’utilizzo delle API {#api-requirements-recommendations}
 
 Cose che devi e che devi fare quando lavori con Audience Manager [!DNL API]s.
 
@@ -57,7 +57,7 @@ Prima di configurare l&#39;autenticazione JWT, accertatevi di disporre dell&#39;
 
 ### Autenticazione
 
-Per configurare l&#39;autenticazione JWT (Service Account), effettuate le operazioni seguenti:
+Per configurare l&#39;autenticazione JWT (Service Account), effettuate le seguenti operazioni:
 
 1. Accedete ad [Adobe Developer Console](https://console.adobe.io/).
 1. Seguite i passaggi in Connessione [account di](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)servizio.
