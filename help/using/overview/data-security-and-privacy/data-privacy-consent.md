@@ -7,7 +7,10 @@ keywords: GDPR UI, GDPR API, CCPA, privacy, consent
 title: Gestione del consenso
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 34af220db2cf23ccde225eb1e05af7ce0e1513b7
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +31,11 @@ Audience Manager offre strumenti che consentono di ottenere il consenso richiest
 
 ## Servizio di consenso Experience Cloud
 
-The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) lets you set up protocols for the visitor to assist you in determining if you can set a cookie on the individual&#39;s device or browser when visiting your site.
+The [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) lets you set up protocols for the visitor to assist you in determining if you can set a cookie on the individual&#39;s device or browser when visiting your site.
 
 This is an extension of the [!DNL Experience Cloud ID (ECID) Service], designed to let you control whether and which Experience Cloud solutions can place cookies on web pages for visitors prior to user consent.
 
-Il servizio [di consenso di](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) Experience Cloud consente inoltre di impostare i protocolli da integrare con la piattaforma di gestione dei contenuti (CMP) e i sistemi esistenti come parte di un progetto più ampio.
+Il servizio [di consenso di](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) Experience Cloud consente inoltre di impostare i protocolli da integrare con la piattaforma di gestione dei contenuti (CMP) e i sistemi esistenti come parte di un progetto più ampio.
 
 ## Gestione del consenso/ottenimento del consenso
 
