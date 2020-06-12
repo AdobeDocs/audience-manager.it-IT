@@ -7,7 +7,10 @@ solution: Audience Manager
 title: File di registro fruibili
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
+source-git-commit: 8f5dadb44ada3822b7336827c8863a7277b687c3
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 3%
 
 ---
 
@@ -29,13 +32,14 @@ source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
 Per iniziare, [!UICONTROL Actionable Log Files]devi importare i dati di registro in [!DNL Audience Manager]. I seguenti collegamenti sono utili per iniziare:
 
 * Per [!UICONTROL Google DCM] i registri, consulta [Importare file di dati DCM in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *e contatta* il tuo [!DNL Audience Manager] consulente.
+* Per [!UICONTROL Google DFP] i registri, consulta [Importare file di dati DFP in Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *e contatta* il tuo [!DNL Audience Manager] consulente.
 * Per altri registri del server di annunci, consulta [Dati e file](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) di metadati *e contatta* il tuo [!DNL Audience Manager] consulente.
 
-Se state già importando i dati di registro in [!DNL Audience Manager], chiedete al vostro [!DNL Audience Manager] consulente o all&#39;Assistenza [](https://helpx.adobe.com/contact/enterprise-support.ec.html) clienti di effettuare [!UICONTROL Actionable Log Files] l&#39;operazione.
+Se state già importando i dati di registro in [!DNL Audience Manager], chiedete al vostro [!DNL Audience Manager] consulente o all&#39;Assistenza [](https://helpx.adobe.com/it/contact/enterprise-support.ec.html) clienti di effettuare [!UICONTROL Actionable Log Files] l&#39;operazione.
 
 >[!IMPORTANT]
 >
-> Alla fine del 2019, [!UICONTROL Actionable Log Files] ha iniziato ad ampliare la disponibilità per nuovi server di annunci. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
+> Alla fine del 2019, [!UICONTROL Actionable Log Files] ha iniziato ad ampliare la disponibilità per nuovi server di annunci. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/it/contact/enterprise-support.ec.html) to get started.
 
 ## Utilizzo dei file di registro fruibili {#working-with-actionable-log-files}
 
@@ -55,7 +59,7 @@ Ricordate che, per utilizzare queste informazioni per la creazione e la segmenta
 
 ### Segnali fruibili dai registri Google DCM {#dcm-logs-signals}
 
-Nella tabella sono elencati i segnali utilizzabili dai file di [!DNL DCM] registro:
+Nella tabella sono elencati i segnali attivabili dai file di [!DNL DCM] registro:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -70,7 +74,7 @@ Nella tabella sono elencati i segnali utilizzabili dai file di [!DNL DCM] regist
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>Disponibile solo per gli eventi di conversione. </p> <p>Rappresenta l'ID numerico per l'attività di conversione in DCM. Questo campo viene mappato sull'ID attività da DCM. </p> <p> <p>Suggerimento: È possibile acquisire attività di conversione multiple o specifiche da DCM. Crea caratteristiche utilizzando <code> d_conversion = activity ID</code> per ogni attività di conversione da DCM. </p> </p> </td> 
+   <td colname="col3"> <p>Disponibile solo per gli eventi di conversione. </p> <p>Rappresenta l'ID numerico per l'attività di conversione in DCM. Questo campo viene mappato sull'ID attività da DCM. </p> <p> <p>Suggerimento: È possibile acquisire più attività di conversione o attività specifiche da DCM. Crea caratteristiche utilizzando <code> d_conversion = activity ID</code> per ogni attività di conversione da DCM. </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
@@ -140,7 +144,7 @@ Nella tabella sono elencati i segnali utilizzabili dai file di [!DNL DCM] regist
  </tbody>
 </table>
 
-I segnali descritti nella tabella vengono acquisiti in [!DNL Audience Manager] modo simile a una `HTTP` chiamata in tempo reale. La seguente chiamata di esempio contiene informazioni su un evento di conversione da [!DNL DCM]. Le chiamate non devono necessariamente includere *tutti* i segnali nella chiamata di esempio.
+I segnali descritti nella tabella vengono catturati in [!DNL Audience Manager] modo simile a una `HTTP` chiamata in tempo reale. La seguente chiamata di esempio contiene informazioni su un evento di conversione da [!DNL DCM]. Le chiamate non devono necessariamente includere *tutti* i segnali nella chiamata di esempio.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
@@ -239,7 +243,7 @@ Innanzitutto, devi depositare i registri del server di annunci nei nostri bucket
  </tbody>
 </table>
 
-I segnali descritti nella tabella vengono acquisiti in [!DNL Audience Manager] modo simile a una `HTTP` chiamata in tempo reale. Le chiamate non devono necessariamente includere *tutti* i segnali nella chiamata di esempio.
+I segnali descritti nella tabella vengono catturati in [!DNL Audience Manager] modo simile a una `HTTP` chiamata in tempo reale. Le chiamate non devono necessariamente includere *tutti* i segnali nella chiamata di esempio.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
