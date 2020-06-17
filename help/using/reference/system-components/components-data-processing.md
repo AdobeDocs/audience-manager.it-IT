@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Componenti di elaborazione dati
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 translation-type: tm+mt
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+source-git-commit: 9a92420b1f0116c0fd71db56895720e0ee894f30
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +24,13 @@ c_comproc.xml
 
  -->
 
-Audience Manager utilizza i seguenti componenti per elaborare i dati:
+ Audience Manager utilizza i seguenti componenti per elaborare i dati:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager], Hadoop è il database master che contiene tutto ciò che [!DNL Audience Manager] sa su un utente. Ad esempio, quando i server [cache](../../reference/system-components/components-data-collection.md) profilo creano file di registro contenenti dati sugli utenti, questi li inviano ad Hadoop per l&#39;archiviazione. Altri importanti elementi Hadoop:
+In [!DNL Audience Manager], Hadoop è il database principale che contiene tutto ciò che [!DNL Audience Manager] sa su un utente. Ad esempio, quando i server [cache](../../reference/system-components/components-data-collection.md) profilo creano file di registro contenenti dati sugli utenti, questi li inviano ad Hadoop per l&#39;archiviazione. Altri importanti elementi Hadoop:
 
-* **Alveare:** Un data warehouse per Hadoop. Hive gestisce le query ad hoc ai dati memorizzati in Hadoop.
+* **Alveare:** Una data warehouse per Hadoop. Hive gestisce le query ad hoc ai dati memorizzati in Hadoop.
 
 * **HBase:** Un database Hadoop molto grande. Elabora e gestisce dati in entrata e in uscita, regole sulle caratteristiche, informazioni sulla modellazione algoritmica ed esegue molte altre funzioni relative alla memorizzazione e allo spostamento dei dati in sistemi diversi.
 
