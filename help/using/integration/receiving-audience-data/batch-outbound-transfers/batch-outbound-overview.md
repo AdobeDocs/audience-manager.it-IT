@@ -1,25 +1,32 @@
 ---
-description: Audience Manager invia dati batch a fornitori di contenuti di terze parti in base alle seguenti specifiche.
-seo-description: Adobe Audience Manager (AAM) invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.
-seo-title: Trasferimenti di dati in uscita in batch in Adobe Audience Manager (AAM)
+description: ' Audience Manager invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.'
+seo-description: ' Adobe Audience Manager (AAM) invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.'
+seo-title: Trasferimenti di dati in uscita in batch in  Adobe Audience Manager (AAM)
 title: Trasferimenti di dati in uscita batch
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
 
 
 # Trasferimenti di dati in uscita batch
 
-Audience Manager invia dati batch a fornitori di contenuti di terze parti in base alle seguenti specifiche.
+ Audience Manager invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.
 
 * [Nome file dati in uscita: Sintassi ed esempi](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
 
    Descrive i campi, la sintassi e le convenzioni necessari per assegnare un nome a un file di dati in uscita.
 
+* [Configurare l&#39;integrazione del trasferimento dati batch](batch-server-configuration.md)
+
+   Descrive i metodi attraverso i quali è possibile configurare l&#39;integrazione del trasferimento di dati batch.
+
 * [File di trasferimento di controllo per trasferimenti di file di registro](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
-   I file .info (Transfer-control) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che Audience Manager abbia gestito correttamente i trasferimenti di file.
+   I file di controllo del trasferimento (.info) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che  i trasferimenti di file Audience Manager siano gestiti correttamente.
 
 * [Macro sui modelli in uscita](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 
