@@ -3,14 +3,17 @@ description: Le audience predittive ti aiutano a classificare audience sconosciu
 seo-description: Le audience predittive ti aiutano a classificare audience sconosciute in persone distinte in tempo reale, utilizzando la scienza dei dati.
 seo-title: Predictive Audiences Panoramica
 solution: Audience Manager
-title: Audience Manager Predictive
+title: ' Audience Manager Predictive Audiences'
 translation-type: tm+mt
-source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
+source-git-commit: 4df2a7536155d42133c0873ed4e3376eb24cba1a
+workflow-type: tm+mt
+source-wordcount: '1275'
+ht-degree: 0%
 
 ---
 
 
-# Predictive Audiences Panoramica {#predictive-audiences}
+# [!UICONTROL Predictive Audiences] Panoramica {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] consente di classificare un pubblico sconosciuto in persone distinte, in tempo reale, utilizzando tecniche avanzate di scienza dei dati.
 
@@ -19,11 +22,11 @@ source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 In un contesto di marketing, un soggetto è un segmento di pubblico definito da visitatori, utenti o potenziali acquirenti, che condividono un set specifico di caratteristiche, come demografiche, abitudini di navigazione, cronologia acquisti, ecc.
 
-[!UICONTROL Predictive Audiences] i modelli fanno di questo concetto un passo avanti, consentendovi di utilizzare le funzionalità di machine learning di Audience Manager per classificare audience sconosciute in persone distinte. Audience Manager consente di ottenere questo risultato calcolando la propensione dell&#39;audience di prime parti sconosciuta per un set di audience di prime parti note.
+[!UICONTROL Predictive Audiences] questo concetto viene ulteriormente sviluppato grazie alla possibilità di utilizzare  funzionalità di machine learning di Audience Manager per classificare i tipi di pubblico sconosciuti in persone distinte.  Audience Manager consente di ottenere questo risultato calcolando la propensione del pubblico di prime parti sconosciuto per un set di audience di prime parti note.
 
 Quando create un [!UICONTROL Predictive Audiences] modello, il primo passo consiste nella scelta delle caratteristiche o dei segmenti di base per i quali desiderate classificare il pubblico di destinazione. Queste caratteristiche o segmenti definiranno le tue personalità.
 
-Durante la fase di valutazione, il modello crea un nuovo [!UICONTROL Predictive Audiences] segmento per ogni caratteristica o segmento definito come linea di base. La volta successiva che Audience Manager visualizzerà un visitatore dal pubblico di destinazione che non è classificato per un soggetto (non era idoneo per nessuna delle caratteristiche o dei segmenti di base), il [!UICONTROL Predictive Audiences] modello determinerà a quale dei segmenti predittivi dovrebbe appartenere il visitatore e aggiungerà il visitatore a tale segmento.
+Durante la fase di valutazione, il modello crea un nuovo [!UICONTROL Predictive Audiences] segmento per ogni caratteristica o segmento definito come linea di base. La volta successiva  Audience Manager visualizzerà un visitatore dal pubblico di destinazione che non è classificato per un soggetto (non era idoneo per nessuna delle caratteristiche o dei segmenti di base), il [!UICONTROL Predictive Audiences] modello determinerà a quale dei segmenti predittivi dovrebbe appartenere il visitatore e aggiungerà il visitatore a tale segmento.
 
 Potete identificare i segmenti predittivi creati dal modello, nella [!UICONTROL Segments] pagina. Ogni [!UICONTROL Predictive Audiences] modello ha una propria cartella sotto la [!UICONTROL Predictive Audiences] cartella, e potete vedere i segmenti di ciascun modello facendo clic sulla cartella del modello.
 
@@ -31,7 +34,7 @@ Potete identificare i segmenti predittivi creati dal modello, nella [!UICONTROL 
 
 ## Casi d&#39;uso {#use-cases}
 
-Per aiutarti a capire meglio come e quando potresti usare [!UICONTROL Predictive Audiences], ecco alcuni casi d’uso che i clienti di Audience Manager possono risolvere utilizzando questa funzione.
+Per aiutarti a capire meglio come e quando potresti usare [!UICONTROL Predictive Audiences], ecco alcuni casi d’uso che  clienti Audience Manager possono risolvere utilizzando questa funzione.
 
 ### Caso di utilizzo n. 1
 
@@ -75,7 +78,7 @@ Puoi scegliere una qualsiasi delle caratteristiche o dei segmenti di prime parti
 * Scegliete caratteristiche o segmenti della linea di base con sovrapposizione minima.
 * Accertatevi di acquisire caratteristiche granulari nelle proprietà digitali.
 
-### Criteri di selezione per l&#39;audience di Target {#selection-audience}
+### Criteri di selezione per il pubblico Target {#selection-audience}
 
 Simile alla selezione di persona, è necessario scegliere la caratteristica o il segmento che definisce il pubblico di destinazione in modo che abbia utenti in tempo reale con set di caratteristiche avanzate, da classificare nel soggetto giusto.
 
@@ -111,7 +114,7 @@ Durante la configurazione dei [!UICONTROL Predictive Audiences] modelli, tenere 
 * La valutazione del segmento per [!UICONTROL Predictive Audiences] utilizza l’impostazione predefinita **[!UICONTROL Profile Merge Rule]** definita nel vostro account. Per ulteriori informazioni, [!UICONTROL Profile Merge Rules] consulta la [documentazione](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)dedicata.
 * Alcune caratteristiche e segmenti non sono supportati come linee di base o come audience di destinazione. [!UICONTROL Predictive Audiences] i modelli non verranno salvati quando si sceglie uno dei seguenti tipi di base o di pubblico target:
    * Caratteristiche predittive e segmenti creati con caratteristiche predittive;
-   * [Caratteristiche o segmenti della piattaforma](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) Adobe Experience;
+   * [caratteristiche o segmenti Adobi Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
    * caratteristiche algoritmiche;
    * Caratteristiche di seconda e terza parte.
 
@@ -128,6 +131,6 @@ Le caratteristiche con restrizioni aggiuntive che non fanno parte delle restrizi
 
 ## Controlli di accesso basati sul ruolo{#rbac}
 
-Le caratteristiche e i segmenti scelti per le persone e la classificazione dell&#39;audience sono soggetti ai controlli [di accesso basati sul](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)ruolo di Audience Manager.
+Le caratteristiche e i segmenti scelti per le persone e la classificazione dell&#39;audience sono soggetti  controlli [di accesso basati sul](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)ruolo di Audience Manager.
 
-Gli utenti di Audience Manager possono selezionare solo caratteristiche o segmenti per le persone e i tipi di pubblico di destinazione, che dispongono dell&#39; [autorizzazione per visualizzare](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+ utenti Audience Manager possono selezionare solo caratteristiche o segmenti per le persone e i tipi di pubblico target, che dispongono dell&#39; [autorizzazione per visualizzare](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
