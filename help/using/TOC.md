@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guida utente  Audience Manager
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 3ca199ec386d812f53e03508353763d31badbd29
+source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
 workflow-type: tm+mt
-source-wordcount: '1735'
+source-wordcount: '1740'
 ht-degree: 8%
 
 ---
@@ -311,6 +311,7 @@ ht-degree: 8%
          + [Integrazione OAuth 2.0 per trasferimenti in uscita in tempo reale](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + Trasferimenti di dati in uscita batch{#batch-outbound-data-transfers}
          + [Panoramica sui trasferimenti di dati in uscita batch](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
+         + [Configurare l&#39;integrazione del trasferimento dati batch](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
          + [Nome file dati in uscita: Sintassi ed esempi](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [File di trasferimento di controllo per trasferimenti di file di registro](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [Macro sui modelli in uscita](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
