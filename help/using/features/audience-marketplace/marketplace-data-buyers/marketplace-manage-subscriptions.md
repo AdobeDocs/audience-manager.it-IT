@@ -7,7 +7,10 @@ title: Gestisci sottoscrizioni feed dati
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 1%
 
 ---
 
@@ -278,7 +281,7 @@ Questa pagina fornisce le seguenti informazioni:
    * Fare clic **[!UICONTROL Request More Details]** per porre domande al provider di dati sul feed di dati selezionato o per richiedere uno sconto. Questa funzione invia commenti e domande direttamente al provider di dati.
 
 1. Metriche del report Feed dati. Il diagramma di Venn (e le relative metriche) mostra i dati di sovrapposizione delle caratteristiche degli ultimi 30 giorni. Vedere [Il Marketplace: Informazioni](marketplace-data-buyers.md#about-marketplace) per i dettagli.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: Il numero di utenti univoci nel vostro account che si sovrappongono con gli utenti nell&#39;account del fornitore. Per una definizione di utenti univoci, vedi AAM UUID nell’ [indice degli ID in Audience Manager](/help/using/reference/ids-in-aam.md).
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: Il numero di utenti univoci nel vostro account che si sovrappongono con gli utenti nell&#39;account del fornitore. Per una definizione di utenti univoci, vedi AAM UUID nell’ [indice degli ID in  Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: Numero di utenti univoci che provengono dall&#39;account del provider.
    * **[!UICONTROL Your Unique Users]**: Il numero di utenti univoci che provengono dal vostro account.
 
@@ -309,7 +312,7 @@ Questo caso di utilizzo consente di valutare le caratteristiche dei fornitori ri
 
 ### Activation
 
-Questo caso di utilizzo consente di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In [!UICONTROL Audience Manager], una destinazione è qualsiasi sistema di terze parti (server di annunci, [!DNL DSP], [!DNL DMP], Exchange ecc.) con cui condividere i dati. Tuttavia, con un caso di [!UICONTROL Activation] utilizzo, non potete eseguire rapporti di sovrapposizione o testare i dati in un modello algoritmico.
+Questo caso di utilizzo consente di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In [!DNL Audience Manager], una destinazione è qualsiasi sistema di terze parti (server di annunci, [!DNL DSP], [!DNL DMP], Exchange ecc.) con cui condividere i dati. Tuttavia, con un caso di [!UICONTROL Activation] utilizzo, non potete eseguire rapporti di sovrapposizione o testare i dati in un modello algoritmico.
 
 >[!MORELIKETHIS]
 >
