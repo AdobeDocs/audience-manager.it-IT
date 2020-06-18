@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Metodi di integrazione dei dati
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -18,26 +18,26 @@ ht-degree: 1%
 
 Panoramica di alto livello sulle modalità di scambio  Audience Manager delle informazioni con altri fornitori e sistemi di dati.
 
-## Metodi di integrazione dei dati supportati: Real-Time e da server a server {#supported-methods}
+## Metodi di integrazione dei dati supportati: Real-Time e [!DNL Server-to-Server] {#supported-methods}
 
 La scelta del metodo di integrazione corretto dipende dalla combinazione di requisiti aziendali e capacità tecniche del partner dati.  Audience Manager scambia informazioni sui visitatori con altri provider di dati tramite uno dei seguenti metodi:
 
 * **In Tempo Reale:** Trasferisce i dati immediatamente quando un utente visita il sito. Questo metodo è noto anche come *`synchronous`* integrazione.
-* **Batch (da server a server):** Trasferisce i dati tra i server in una pianificazione impostata dopo che un visitatore ha lasciato la pagina. Questo metodo è noto anche come integrazione *`out-of-band`* o *`asynchronous`* .
+* **Batch ([!DNL Server-to-Server]):** Trasferisce i dati tra i server in una pianificazione impostata dopo che un visitatore ha lasciato la pagina. Questo metodo è noto anche come integrazione *`out-of-band`* o *`asynchronous`* .
 
 ## Prerequisiti: Creare una tassonomia delle caratteristiche {#prereqs}
 
-Prima dell’inizio del processo di integrazione, ricordate di [creare caratteristiche](../features/traits/create-onboarded-rule-based-traits.md) e una struttura [di](../features/traits/trait-storage.md#create-trait-storage-folder) cartelle nell’ [!DNL Audience Manager] interfaccia utente. La tassonomia conterrà tutte le caratteristiche organizzate in una gerarchia logica.
+Prima dell’inizio del processo di integrazione, ricordate di [creare caratteristiche](../features/traits/create-onboarded-rule-based-traits.md) e una struttura [di](../features/traits/trait-storage.md#create-trait-storage-folder) cartelle nell’ [!DNL Audience Manager] interfaccia utente. La tassonomia conterrà tutti i dati [!UICONTROL traits] organizzati in una gerarchia logica.
 
 ## Casi di utilizzo dell&#39;integrazione {#integration-use-cases}
 
 Un riepilogo caso d&#39;uso  metodi di integrazione dei dati Audience Manager con i vantaggi e gli svantaggi di ciascuno.
 
-### Integrazioni server-to-server in tempo reale
+### Integrazioni in tempo reale [!DNL Server-to-Server]
 
 <!-- c_int_types_use_cases.xml -->
 
-Un&#39;integrazione di dati server-to-server in tempo reale sincronizza rapidamente i dati utente tra  server Audience Manager e un altro sistema di targeting. Nella maggior parte dei casi, lo scambio di dati avviene entro pochi secondi o minuti, a seconda della frequenza di aggiornamento del sistema di targeting. Tuttavia, il sistema di destinazione determina questo intervallo di aggiornamento, non  Audience Manager. Inoltre, la frequenza di aggiornamento può variare da un sistema all&#39;altro. L&#39;integrazione server-to-server in tempo reale è il tipo di integrazione preferito per gli scambi di dati.  Audience Manager utilizza questo metodo ogni volta che i partner di targeting possono supportarlo.
+Un&#39;integrazione dei [!DNL server-to-server] dati in tempo reale sincronizza rapidamente i dati utente tra  server Audience Manager e un altro sistema di targeting. Nella maggior parte dei casi, lo scambio di dati avviene entro pochi secondi o minuti, a seconda della frequenza di aggiornamento del sistema di targeting. Tuttavia, il sistema di destinazione determina questo intervallo di aggiornamento, non  Audience Manager. Inoltre, la frequenza di aggiornamento può variare da un sistema all&#39;altro. L&#39;integrazione in tempo reale [!UICONTROL server-to-server] è il tipo di integrazione preferito per lo scambio di dati.  Audience Manager utilizza questo metodo ogni volta che i partner di targeting possono supportarlo.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -56,9 +56,9 @@ Un&#39;integrazione di dati server-to-server in tempo reale sincronizza rapidame
  </tr>
 </table>
 
-### Integrazioni batch server-to-server
+### [!DNL Server-to-Server] Integrazioni batch
 
-L&#39;integrazione batch server-to-server raccoglie i dati e li invia ad altri sistemi a intervalli prestabiliti anziché in tempo quasi reale. Gli intervalli di trasferimento dei dati iniziano da 24 ore. Alcuni provider di dati supportano solo questo tipo di integrazione. Tuttavia, abbiamo assistito a una tendenza generale che va dalle integrazioni batch alle metodologie di integrazione in tempo reale.
+Un&#39;integrazione [!DNL server-to-server] batch raccoglie i dati e li invia ad altri sistemi a intervalli prestabiliti anziché in tempo quasi reale. Gli intervalli di trasferimento dei dati iniziano da 24 ore. Alcuni provider di dati supportano solo questo tipo di integrazione. Tuttavia, abbiamo assistito a una tendenza generale che va dalle integrazioni batch alle metodologie di integrazione in tempo reale.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
@@ -77,7 +77,7 @@ L&#39;integrazione batch server-to-server raccoglie i dati e li invia ad altri s
 
 ### Chiamate in tempo reale
 
-Le chiamate in tempo reale scambiano immediatamente dati con  Audience Manager, quando un utente visita il sito o agisce sulla pagina. Con questo metodo, i sistemi di targeting ottengono i dati di qualificazione del segmento più aggiornati e possono tenere conto di tali informazioni durante una decisione di distribuzione di contenuti o annunci. Inoltre, questo processo funziona con server di pubblicazione e server in cui i segmenti qualificati vengono aggiornati a un cookie di prime parti che viene letto in una chiamata ad annunci come coppie chiave-valore. Attualmente,  Audience Manager utilizza chiamate in tempo reale per l&#39;integrazione con [!DNL Target] e altri sistemi di gestione dei contenuti.
+Le chiamate in tempo reale scambiano immediatamente dati con  Audience Manager, quando un utente visita il sito o agisce sulla pagina. Con questo metodo, i sistemi di targeting ottengono i dati di qualificazione del segmento più aggiornati e possono tenere conto di tali informazioni durante una decisione di distribuzione di contenuti o annunci. Inoltre, questo processo funziona con server di pubblicazione e server in cui i segmenti qualificati vengono aggiornati a un cookie di prime parti che viene letto in una chiamata ad annunci come coppie chiave-valore. Attualmente,  Audience Manager utilizza chiamate in tempo reale per l&#39;integrazione con [!DNL Adobe Target] e altri sistemi di gestione dei contenuti.
 
 <table> 
  <tr>
@@ -151,7 +151,7 @@ Panoramica generale del modo in cui  Audience Manager scambia i dati in modo sin
 
 <!-- c_int_overview_async.xml -->
 
-Il processo di integrazione dei dati batch (server-to-server) segue la maggior parte dei passaggi descritti nel processo di trasferimento dei dati in tempo reale. Tuttavia, invece di restituire immediatamente gli ID del segmento, le informazioni utente vengono salvate nei nostri server e sincronizzate con un fornitore di dati di terze parti a intervalli regolari. Il processo di trasferimento dati asincrono è utile quando:
+Il processo di integrazione dei dati batch ([!DNL server-to-server]) segue la maggior parte dei passaggi descritti nel processo di trasferimento dei dati in tempo reale. Tuttavia, invece di restituire immediatamente gli ID del segmento, le informazioni utente vengono salvate nei nostri server e sincronizzate con un fornitore di dati di terze parti a intervalli regolari. Il processo di trasferimento dati asincrono è utile quando:
 
 * Non sono necessari trasferimenti di dati immediati.
 * Raccolta di dati per creare un ampio pool di utenti segmentati.
@@ -166,4 +166,4 @@ Il processo di integrazione dei dati batch (server-to-server) segue la maggior p
 
 ![](assets/s2s_70.png)
 
-Per informazioni che descrivono i tempi in cui  Audience Manager elabora i trasferimenti di file da server a server ([!UICONTROL S2S]) in entrata e in uscita, vedere [Reporting and File Transfer Time-Frame Guidelines](../reference/reporting-file-transfer-timeframe.md)(Linee guida sui tempi di trasferimento dei file e dei rapporti).
+Per informazioni che descrivono i tempi in cui  Audience Manager elabora i trasferimenti di file in entrata e in uscita [!DNL Server-to-Server] ([!UICONTROL S2S]), vedere [Reporting and File Transfer Time-Frame Guidelines](../reference/reporting-file-transfer-timeframe.md)(Linee guida per i tempi di trasferimento dei file e dei rapporti).
