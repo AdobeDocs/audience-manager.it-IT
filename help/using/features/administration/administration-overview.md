@@ -1,14 +1,17 @@
 ---
-description: Le opzioni del menu Amministrazione consentono di creare utenti Audience Manager e assegnarli ai gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
+description: Le opzioni del menu Amministrazione consentono di creare  utenti Audience Manager e di assegnarli ai gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
 keywords: rbac;RBAC;role based;role-based;role-based access controls
-seo-description: Le opzioni del menu Amministrazione consentono di creare utenti Audience Manager e assegnarli ai gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
+seo-description: Le opzioni del menu Amministrazione consentono di creare  utenti Audience Manager e di assegnarli ai gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
 seo-title: Amministrazione
 solution: Audience Manager
 title: Amministrazione
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1068'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +20,11 @@ source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 ![](assets/rbac-controls.png)
 
-Le opzioni del [!UICONTROL Administration] menu consentono di creare utenti Audience Manager e assegnarli ai gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
+Le opzioni del [!UICONTROL Administration] menu consentono di creare  utenti Audience Manager e di assegnarli ai gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
 
 I clienti Enterprise che utilizzano [!DNL Audience Manager] necessitano di una piattaforma di gestione dati per tutti i loro dati, ma devono essere in grado di controllare la visibilità dei diversi elementi di dati a specifiche unità aziendali. A tal fine potete utilizzare le autorizzazioni di gruppo, denominate anche [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]).
 
-[!DNL Audience Manager] utilizza i gruppi per assegnare le autorizzazioni. Le autorizzazioni non vengono assegnate a livello di utente. Le autorizzazioni del gruppo sono associate a oggetti (caratteristiche, segmenti, ecc.) e alle azioni che è possibile eseguire su tali oggetti (modifica, visualizzazione, ecc.). Questi controlli sono disponibili anche tramite le API REST di Audience Manager. Consultate [Gestione](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md)utente, Gestione dei [gruppi](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)e Metodi API per la gestione delle [autorizzazioni](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) .
+[!DNL Audience Manager] utilizza i gruppi per assegnare le autorizzazioni. Le autorizzazioni non vengono assegnate a livello di utente. Le autorizzazioni del gruppo sono associate a oggetti (caratteristiche, segmenti, ecc.) e alle azioni che è possibile eseguire su tali oggetti (modifica, visualizzazione, ecc.). Questi controlli sono disponibili anche tramite le  API REST di Audience Manager. Consultate [Gestione](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md)utente, Gestione dei [gruppi](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)e Metodi API per la gestione delle [autorizzazioni](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) .
 
 ## Crea utenti {#create-users}
 
@@ -32,18 +35,18 @@ Create gli utenti in [!DNL Audience Manager] e specificate i dettagli utente, lo
 1. Clic **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Fate clic ![](assets/icon_add.png) per visualizzare la [!UICONTROL Create New User] pagina.
 1. Under **[!UICONTROL User Details]**, fill in the fields:
-   * **** Nome utente: Specificate un nome utente univoco per Audience Manager.
-   * **** Nome: Specificate il nome dell&#39;utente.
-   * **** Cognome: Specificate il cognome dell’utente.
-   * **** Indirizzo e-mail: Specificate l&#39;indirizzo e-mail dell&#39;utente. [!DNL Audience Manager] non invia notifiche regolari agli utenti. [!DNL Audience Manager] gli amministratori hanno accesso agli indirizzi e-mail degli utenti e possono inviare manualmente gli utenti come necessario. Ad esempio, se un utente dimentica la password, l&#39;indirizzo e-mail specificato in questo campo viene utilizzato per inviare una password temporanea e le istruzioni per reimpostare la password.
-   * **** Numero di telefono: Specificate il numero di telefono dell&#39;utente.
-   * **** Amministratore Is: Specificate se questo utente è un [!DNL Audience Manager] amministratore. Gli utenti amministratori possono gestire gli utenti (creare, modificare, ecc.) e i gruppi (creare, assegnare le autorizzazioni, ecc.). Gli utenti non amministratori possono controllare solo i propri profili utente, inclusi la modifica degli indirizzi e-mail e la reimpostazione delle proprie password. Per ulteriori informazioni, consultate [Modificare le impostazioni](../../features/administration/edit-account-settings.md)dell&#39;account.
+   * **Nome utente:** Specificate un nome utente univoco per  Audience Manager.
+   * **Nome:** Specificate il nome dell&#39;utente.
+   * **Cognome:** Specificate il cognome dell’utente.
+   * **Indirizzo e-mail:** Specificate l&#39;indirizzo e-mail dell&#39;utente. [!DNL Audience Manager] non invia notifiche regolari agli utenti. [!DNL Audience Manager] gli amministratori hanno accesso agli indirizzi e-mail degli utenti e possono inviare manualmente gli utenti come necessario. Ad esempio, se un utente dimentica la password, l&#39;indirizzo e-mail specificato in questo campo viene utilizzato per inviare una password temporanea e le istruzioni per reimpostare la password.
+   * **Numero di telefono:** Specificate il numero di telefono dell&#39;utente.
+   * **Amministratore Is:** Specificate se questo utente è un [!DNL Audience Manager] amministratore. Gli utenti amministratori possono gestire gli utenti (creare, modificare, ecc.) e i gruppi (creare, assegnare le autorizzazioni, ecc.). Gli utenti non amministratori possono controllare solo i propri profili utente, inclusi la modifica degli indirizzi e-mail e la reimpostazione delle proprie password. Per ulteriori informazioni, consultate [Modificare le impostazioni](../../features/administration/edit-account-settings.md)dell&#39;account.
 1. In **[!UICONTROL Login]**, selezionate lo stato desiderato:
-   * **** Attivo:  Gli utenti attivi possono accedere [!DNL Audience Manager] e disporre delle autorizzazioni concesse per appartenenza al gruppo.
-   * **** Disattivato:  Gli utenti disattivati non possono accedere [!DNL Audience Manager] e non dispongono di alcuna autorizzazione. Se disattivate gli utenti, le relative informazioni restano invariate [!DNL Audience Manager] e potete semplicemente riattivarle, se necessario. Se rimuovete degli utenti, dovete ricrearli se dovranno riutilizzarli [!DNL Audience Manager] in futuro.
-   * **** Scaduto: La password di un utente supera i 90 giorni.
-   * **** In sospeso: L&#39;utente dispone di una password temporanea, come dopo il ripristino della password o come nuovo account, e non ha ancora impostato una password permanente.
-   * **** Bloccato: 5 tentativi di accesso errati bloccheranno un utente.
+   * **Attivo:**  Gli utenti attivi possono accedere [!DNL Audience Manager] e disporre delle autorizzazioni concesse per appartenenza al gruppo.
+   * **Disattivato:**  Gli utenti disattivati non possono accedere [!DNL Audience Manager] e non dispongono di alcuna autorizzazione. Se disattivate gli utenti, le relative informazioni restano invariate [!DNL Audience Manager] e potete semplicemente riattivarle, se necessario. Se rimuovete degli utenti, dovete ricrearli se dovranno riutilizzarli [!DNL Audience Manager] in futuro.
+   * **Scaduto:** La password di un utente supera i 90 giorni.
+   * **In sospeso:** L&#39;utente dispone di una password temporanea, come dopo il ripristino della password o come nuovo account, e non ha ancora impostato una password permanente.
+   * **Bloccato:** 5 tentativi di accesso errati bloccheranno un utente.
 1. Nell&#39;elenco **[!UICONTROL Assigned Groups]**a discesa, selezionate i gruppi a cui desiderate assegnare l&#39;utente.
 Per ulteriori informazioni su gruppi e autorizzazioni, consultate [Creare un gruppo](../../features/administration/administration-overview.md#create-group).
 1. Clic **[!UICONTROL Save]**.
@@ -94,7 +97,7 @@ Di seguito è riportata una descrizione del significato di ciascuna autorizzazio
 
 **Rapporti**
 
-* `PTRREPORTS` - Questa autorizzazione per i caratteri jolly fa riferimento a funzionalità obsolete e verrà rimossa presto dall’interfaccia utente di Audience Manager.
+* `PTRREPORTS` - Questa autorizzazione per i caratteri jolly si riferisce a funzionalità obsolete e verrà rimossa dall&#39;interfaccia utente  Audience Manager a breve.
 
 **Modelli**
 
@@ -139,7 +142,7 @@ Di seguito è riportata una descrizione del significato di ciascuna autorizzazio
 
 ### Monitoraggio dell&#39;accesso utente {#monitoring-user-access}
 
-[!UICONTROL Role-Based Access Control] può aiutarti a monitorare lo stato di accesso degli utenti, fornendo un&#39;immagine chiara di chi può accedere all&#39;istanza Audience Manager.
+[!UICONTROL Role-Based Access Control] può essere utile per monitorare lo stato di accesso degli utenti, fornendo un&#39;immagine chiara di chi può accedere all&#39;istanza di Audience Manager .
 
 A seconda delle esigenze aziendali, potete attivare e disattivare gli account utente in base alle esigenze.
 
