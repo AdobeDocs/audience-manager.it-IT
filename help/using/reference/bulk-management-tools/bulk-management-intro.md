@@ -7,14 +7,17 @@ solution: Audience Manager
 title: Guida Introduttiva Alla Gestione Di Massa
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 1%
 
 ---
 
 
 # Getting Started With Bulk Management{#getting-started-with-bulk-management}
 
-Gli strumenti di gestione di massa consentono di creare e gestire più oggetti contemporaneamente con un&#39;unica operazione. Puoi utilizzare Strumenti di gestione di massa per lavorare con origini dati, segnali derivati, destinazioni, cartelle, modelli, segmenti e caratteristiche.
+Consente di [!DNL Bulk Management Tools] creare e gestire più oggetti contemporaneamente con un&#39;unica operazione. È possibile utilizzare [!DNL Bulk Management Tools] per lavorare con [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments]e [!UICONTROL traits].
 
 <!-- 
 
@@ -24,11 +27,11 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’interfaccia [!DNL Audience Manager] utente sono rispettate nella [!UICONTROL Bulk Management Tools].
 
 ## Panoramica {#overview}
 
-Questa funzione utilizza un foglio di calcolo di Microsoft Excel con macro che eseguono chiamate sicure e autenticate alle [!DNL Audience Manager] API. L&#39;API fornisce i metodi e i servizi che consentono di apportare modifiche in blocco. Non devi sapere come codificare o lavorare con le nostre API per utilizzarle. Il foglio di lavoro contiene intestazioni e schede di colonna che eseguono specifiche funzioni di modifica collettiva. Per apportare modifiche collettive, è sufficiente aggiungere le intestazioni predefinite a fogli di lavoro specifici, fornire le informazioni che si desidera modificare in massa e fare clic su un pulsante di azione. Il foglio di lavoro e le API eseguono il resto del lavoro.
+Questa funzione utilizza un [!DNL Microsoft Excel] foglio di calcolo con macro che eseguono chiamate sicure e autenticate alle [!DNL Audience Manager] API. L&#39;API fornisce i metodi e i servizi che consentono di apportare modifiche in blocco. Non devi sapere come codificare o lavorare con le nostre API per utilizzarle. Il foglio di lavoro contiene intestazioni e schede di colonna che eseguono specifiche funzioni di modifica collettiva. Per apportare modifiche collettive, è sufficiente aggiungere le intestazioni predefinite a fogli di lavoro specifici, fornire le informazioni che si desidera modificare in massa e fare clic su un pulsante di azione. Il foglio di lavoro e le API eseguono il resto del lavoro.
 
 ## Scarica {#download}
 
@@ -40,7 +43,7 @@ Per utilizzare il [!DNL Bulk Management Tools], è necessario disporre dei segue
 
 * Il vostro [!DNL Experience Cloud] login. In qualità di cliente, dovreste già avere queste credenziali.
 * Il [!DNL Bulk Management Tools] foglio di lavoro. [Scaricate il foglio di lavoro](assets/BAAAM_V2_20200502.xlsm) per ottenere la versione più recente.
-* Microsoft Excel eseguito a [!DNL macOS] o a 64 bit [!DNL Microsoft Windows]. È consigliabile utilizzare la versione più recente di Microsoft Excel.
+* [!DNL Microsoft Excel] su [!DNL macOS] o a 64 bit [!DNL Microsoft Windows]. È consigliabile utilizzare la versione più recente di [!DNL Microsoft Excel].
 * Quando si apre il foglio di lavoro, è necessario **abilitare le macro** per il [!DNL Bulk Management Tools] funzionamento.
 
 ## Requisiti e opzioni di autenticazione {#auth-reqs}
@@ -49,9 +52,9 @@ Le modifiche di massa richiedono l&#39;autenticazione. Prima di eseguire qualsia
 
 **Requisiti di autenticazione API**
 
-La seconda versione di Strumenti di gestione di massa, rilasciata a ottobre 2019, semplifica il processo di autenticazione. I passaggi di autenticazione di questa versione sono descritti di seguito:
+La seconda versione del [!DNL Bulk Management Tools], rilasciata a ottobre 2019, semplifica il processo di autenticazione. I passaggi di autenticazione di questa versione sono descritti di seguito:
 
-1. Aprite il foglio di calcolo e passate al foglio di **configurazione** .
+1. Aprite il foglio di calcolo e passate al **[!UICONTROL Config]** foglio.
 2. Seguire i passaggi descritti nel foglio.
    ![](assets/baaam-authentication.png)
 3. Dopo aver completato i passaggi, siete autorizzati a apportare modifiche collettive.
