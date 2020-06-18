@@ -6,47 +6,50 @@ solution: Audience Manager
 title: Finalità, composizione e regole dei segmenti
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '328'
+ht-degree: 0%
 
 ---
 
 
 # Segmenti: Finalità, composizione e regole {#segments-purpose-composition-and-rules}
 
-Descrive i segmenti, le relative parti costitutive e la creazione di regole con [!UICONTROL Segment Builder].
+Descrive [!UICONTROL segments]le parti che li compongono e la creazione di regole con [!UICONTROL Segment Builder].
 
-## Scopo dei segmenti
+## Finalità [!UICONTROL Segments]
 
-Un *`segment`* (o *`audience`*) è un insieme di utenti che condividono attributi comuni. In Audience Manager, puoi creare segmenti con regole lato server. Queste regole consentono di creare gruppi di audience in base agli attributi del visitatore del sito, come:
+Un *`segment`* (o *`audience`*) è un insieme di utenti che condividono attributi comuni. In  Audience Manager, potete creare [!UICONTROL segments] con regole sul lato server. Queste regole consentono di creare gruppi di audience in base agli attributi del visitatore del sito, come:
 
 * Comportamento;
 * Demografia (età, genere, reddito, ecc.);
 * Altre caratteristiche definite nell’interfaccia utente.
 
-## Composizione segmento
+## [!UICONTROL Segment] Composizione
 
-Un segmento di Audience Manager è una regola lato server che consiste di singole caratteristiche o gruppi di caratteristiche. Le caratteristiche sono composte da elementi di dati denominati coppie chiave-valore. Insieme alle regole impostate a livello di segmento, queste coppie chiave-valore contengono i criteri che qualificano i visitatori per la caratteristica e l&#39;appartenenza al segmento.
+Un Audience Manager  [!UICONTROL segment] è una regola lato server che consiste di singoli o gruppi di caratteristiche. Le caratteristiche sono composte da elementi di dati denominati coppie chiave-valore. Insieme alle regole impostate a [!UICONTROL segment] livello, queste coppie chiave-valore contengono i criteri che qualificano i visitatori per le caratteristiche e [!UICONTROL segment] l&#39;appartenenza.
 
-## Considerazioni sulla mappatura dei segmenti di Adobe Analytics
+## Considerazioni sulla [!UICONTROL Adobe Analytics][!UICONTROL Segment] mappatura
 
-Quando mappate segmenti o suite di rapporti di Adobe Analytics alla vostra organizzazione Experience Cloud, Audience Manager crea automaticamente nuovi segmenti e caratteristiche di sola lettura corrispondenti. Non puoi modificare o modificare la posizione di archiviazione di questi segmenti da Audience Manager. Tuttavia, qualsiasi modifica eseguita sui segmenti Adobe Analytics o sulle suite di rapporti mappati viene visualizzata in Audience Manager.
+Quando mappate Adobe  Analytics [!UICONTROL segments] o suite di rapporti sulla vostra organizzazione Experience Cloud ,  Audience Manager crea automaticamente nuove caratteristiche [!UICONTROL segments] e caratteristiche corrispondenti e di sola lettura. Non è possibile modificare o modificare il percorso di memorizzazione di questi [!UICONTROL segments] da  Audience Manager. Tuttavia, qualsiasi modifica eseguita su Adobe  Analytics o suite di rapporti mappate viene visualizzata in  Audience Manager. [!UICONTROL segments]
 
 >[!TIP]
 >
->I segmenti di Audience Manager sono diversi dai [!DNL Adobe Analytics] segmenti. Leggi [Informazioni sui segmenti in Analytics e Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.
+> Audience Manager [!UICONTROL segments] è diverso da [!DNL Adobe Analytics] [!UICONTROL segments]. Leggi [Comprensione dei segmenti in  Analytics e  Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.
 
-## Creazione di segmenti basati su regole con Segment Builder
+## Crea regole [!UICONTROL Segments] con [!UICONTROL Segment Builder]
 
-A differenza dei pixel tradizionali attivati in risposta a semplici condizioni sì/no, Generatore di segmenti consente di creare requisiti di segmento complessi. Caratteristiche simili, i segmenti valutano i dati utilizzando [!DNL Boolean] espressioni ([!DNL AND], [!DNL OR], [!DNL NOT]), operatori di confronto (maggiore di, minore, uguale a, ecc.) e criteri di recency/frequenza. Queste funzioni aiutano a creare segmenti di pubblico mirati in base alle esigenze aziendali.
+A differenza dei pixel tradizionali attivati in risposta a semplici condizioni sì/no, [!UICONTROL Segment Builder] potete creare [!UICONTROL segment] requisiti complessi. Come [!UICONTROL traits], [!UICONTROL segments] valuta i dati utilizzando [!DNL Boolean] espressioni ([!DNL AND], [!DNL OR], [!DNL NOT]), operatori di confronto (maggiore di, minore, uguale a, ecc.) e criteri di recency/frequenza. Queste funzioni aiutano a creare un pubblico mirato [!UICONTROL segments] in base alle esigenze aziendali.
 
 ## Vantaggi
 
-I segmenti migliorano i processi standard di creazione/segmentazione dell&#39;audience basati su pixel, perché consentono di:
+[!UICONTROL Segments] ottimizza i processi standard di creazione/segmentazione dei tipi di pubblico basati su pixel, in quanto consentono di:
 
-* Crea segmenti utili e pertinenti con caratteristiche di prime e terze parti.
+* Crea caratteristiche pertinenti e utili [!UICONTROL segments] con caratteristiche di prime e terze parti.
 * Create regole di segmentazione sofisticate e complesse con operatori booleani, espressioni di confronto e criteri di recency/frequenza.
-* Invia i dati del segmento a un partner di destinazione.
-* Monitorate le prestazioni con i rapporti di Audience Manager.
+* Invia [!UICONTROL segment] dati a un partner di destinazione.
+* Monitorare le prestazioni con  report Audience Manager.
 
 >[!MORELIKETHIS]
 >
