@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Domande frequenti sulla generazione di rapporti
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 1%
 
 ---
 
@@ -25,9 +28,9 @@ faq_reports.xml
 
 **Per le nuove caratteristiche registrate, perché[!UICONTROL Trait Graph]talvolta vengono visualizzati numeri inferiori a quelli previsti o 0?**
 
-A volte, dopo il caricamento delle caratteristiche, [!UICONTROL Trait Graph] non vengono visualizzati risultati o numeri inferiori a quelli previsti. Ciò si verifica quando il volume di dati ricevuti è talmente elevato che il processo di elaborazione in entrata non può completare l'acquisizione di queste informazioni fino a dopo la scadenza del rapporto per quel giorno.
+A volte, dopo il caricamento delle caratteristiche, [!UICONTROL Trait Graph] non vengono visualizzati risultati o numeri inferiori a quelli previsti. Ciò si verifica quando il volume di dati ricevuti è talmente elevato che il processo di elaborazione in entrata non può completare l&#39;acquisizione di queste informazioni fino a dopo la scadenza del rapporto per quel giorno.
 
-Di conseguenza, questi dati vengono inviati al sistema di reporting in ritardo e non vengono visualizzati nell'intervallo di reporting di 1 giorno utilizzato per tracciare il [!UICONTROL Trait Graph]. Tuttavia, potete visualizzare questi dati negli intervalli di rapporti di 7, 14, 30 e 60 giorni in un rapporto [Tendenza](../reporting/trend-reports.md#trend-report-overview) o Rapporto [](../reporting/general-reports.md#general-reports-overview) generale il giorno successivo.
+Di conseguenza, questi dati vengono inviati al sistema di reporting in ritardo e non vengono visualizzati nell&#39;intervallo di reporting di 1 giorno utilizzato per tracciare il [!UICONTROL Trait Graph]. Tuttavia, potete visualizzare questi dati negli intervalli di rapporti di 7, 14, 30 e 60 giorni in un rapporto [Tendenza](../reporting/trend-reports.md#trend-report-overview) o Rapporto [](../reporting/general-reports.md#general-reports-overview) generale il giorno successivo.
 
 <br> 
 
@@ -48,9 +51,9 @@ Aggiungete una stringa di query specifica per la campagna all’URL della sezion
 
 **Qual è la differenza tra il conteggio della popolazione del segmento in tempo reale e totale?**
 
-* **** In tempo reale: Il numero di utenti univoci che fanno parte del segmento e sono attivi sulle proprietà durante un periodo di tempo impostato (ovvero, [!DNL Audience Manager] devono avere un'attività registrata per quell'utente per il periodo di tempo specifico).
+* **In tempo reale:** Il numero di utenti univoci che fanno parte del segmento e sono attivi sulle proprietà durante un periodo di tempo impostato (ovvero, [!DNL Audience Manager] devono avere un&#39;attività registrata per quell&#39;utente per il periodo di tempo specifico).
 
-* **** Popolazione del segmento totale: Un'aggregazione di tutti gli utenti attualmente classificati in quel segmento.
+* **Popolazione del segmento totale:** Un&#39;aggregazione di tutti gli utenti attualmente classificati in quel segmento.
 
 <!-- 
 
@@ -80,29 +83,29 @@ See [Trait and Segment Population Data in Segment Builder](../features/segments/
 
 **In entrata un file e la ricevuta in entrata mostra un numero elevato di record elaborati correttamente, ma il rapporto mostra numeri molto più bassi. Perché?**
 
-Nel backend, i dati caricati vengono collegati solo agli utenti che sono ancora attivi in AAM (l'utente deve aver avuto [!UICONTROL DCS] attività recente negli ultimi 120 giorni). Di conseguenza, se a bordo dei dati per gli utenti che sono già scaduti in [!DNL Audience Manager], [!UICONTROL Inbound] potrebbe essere indicato che un certo numero di record utente sono stati registrati, ma se questi utenti non hanno avuto alcuna attività recente, questi dati vengono ignorati quando raggiungono il nostro [!UICONTROL User Profile Store] e i rapporti risulteranno tali.
+Nel backend, i dati caricati vengono collegati solo agli utenti che sono ancora attivi in AAM (l&#39;utente deve aver avuto [!DNL DCS] attività recente negli ultimi 120 giorni). Di conseguenza, se a bordo dei dati per gli utenti che sono già scaduti in [!DNL Audience Manager], [!UICONTROL Inbound] potrebbe essere indicato che un certo numero di record utente sono stati registrati, ma se questi utenti non hanno avuto alcuna attività recente, questi dati vengono ignorati quando raggiungono il nostro [!UICONTROL User Profile Store] e i rapporti risulteranno tali.
 
 <br> 
 
 **Perché le uniche caratteristiche per i miei tratti a bordo cross-device sono molto più elevate del numero totale di record a bordo?**
 
-Se caricate un file per un provider di dati multi-dispositivo con un ID cliente disattivato, Audience Manager esegue una ricerca per ottenere tutti gli ID dispositivo associati a ciascuno degli ID cliente caricati. Audience Manager quindi assegna le caratteristiche registrate all'ID dispositivo associato all'ID cliente.
+Se a bordo di un file per un provider di dati multi-dispositivo si preme l&#39;ID cliente,  Audience Manager esegue una ricerca per ottenere tutti gli ID dispositivo associati a ciascuno degli ID cliente caricati.  Audience Manager assegna quindi le caratteristiche registrate all&#39;ID dispositivo associato all&#39;ID cliente.
 
 Ad esempio, supponiamo che siano stati caricati 100 record. Per ciascuno di questi ID cliente, in media, AAM ha associato tre ID dispositivo. Di conseguenza, la caratteristica impostata viene assegnata a 300 ID dispositivo.
 
 Esistono due motivi per cui un singolo ID cliente cross-device può essere associato a più ID dispositivo:
 
 * Gli utenti accedono allo stesso account cross-device da più computer/browser.
-* Gli utenti stanno cancellando i loro cookie. Nota: I cookie "Abbandonati" vengono eliminati dopo 120 giorni di inattività dell’utente.
+* Gli utenti stanno cancellando i loro cookie. Nota: I cookie &quot;Abbandonati&quot; vengono eliminati dopo 120 giorni di inattività dell’utente.
 
 <br> 
 
 **Perché[!UICONTROL Total Trait Realizations]le mie caratteristiche integrate sono sempre 0?**
 
-[!UICONTROL Total Trait Realizations] corrispondono ai caricamenti di pagina. [!UICONTROL Total Trait Realizations] specificare quante volte la caratteristica specifica è stata attivata in tempo reale. Questo numero è calcolato solo per le caratteristiche basate su regola. I tratti caricati vengono sempre visualizzati [!UICONTROL Total Trait Realizations] come 0.
+[!UICONTROL Total Trait Realizations] corrispondono ai caricamenti di pagina. [!UICONTROL Total Trait Realizations] fornire il numero di volte in cui la caratteristica specifica è stata attivata in tempo reale. Questo numero è calcolato solo per le caratteristiche basate su regola. I tratti caricati vengono sempre visualizzati [!UICONTROL Total Trait Realizations] come 0.
 
 <br> 
 
 **Ho creato una caratteristica e[!UICONTROL Trait Graph]mostra un numero maggiore di[!UICONTROL Unique Trait Realizations]rispetto alla[!UICONTROL Total Trait Population]. Questo è normale?**
 
-Questo accade perché [!UICONTROL Unique Trait Realizations] si tratta di metriche in tempo reale, ma i processi di reporting che facciamo per calcolare l'operazione non [!UICONTROL Total Trait Population] sono in tempo reale. Le dimensioni [!UICONTROL Total Trait Population] dovrebbero essere maggiori di quelle [!UICONTROL Unique Trait Realizations] entro un paio di giorni.
+Questo accade perché [!UICONTROL Unique Trait Realizations] si tratta di metriche in tempo reale, ma i processi di reporting che facciamo per calcolare l&#39;operazione non [!UICONTROL Total Trait Population] sono in tempo reale. Le dimensioni [!UICONTROL Total Trait Population] dovrebbero essere maggiori di quelle [!UICONTROL Unique Trait Realizations] entro un paio di giorni.
