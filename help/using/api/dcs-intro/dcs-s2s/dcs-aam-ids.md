@@ -6,21 +6,24 @@ solution: Audience Manager
 title: Ottenere ID utente e aree geografiche da una risposta DCS
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 6%
 
 ---
 
 
 # Get User IDs and Regions From a DCS Response {#get-user-ids-and-regions-from-a-dcs-response}
 
-Questa sezione descrive come analizzare una [!UICONTROL DCS] risposta per recuperare gli ID visitatore e regione richiesti per effettuare chiamate in tempo reale al visitatore [!UICONTROL DCS].
+Questa sezione descrive come analizzare una [!DNL DCS] risposta per recuperare gli ID visitatore e regione richiesti per effettuare chiamate in tempo reale al visitatore [!DNL DCS].
 
 ## ID utente e regione {#user-region-ids}
 
-Una [!UICONTROL DCS] risposta contiene i dati sui visitatori del sito. Prima di effettuare chiamate server-to-server al [!UICONTROL DCS], è necessario disporre dell’ID visitatore e dell’ID di regione.
+Una [!DNL DCS] risposta contiene i dati sui visitatori del sito. Prima di effettuare chiamate server-to-server al [!DNL DCS], è necessario disporre dell’ID visitatore e dell’ID di regione.
 
-* L'ID utente è necessario per identificare e associare i dati a un particolare visitatore.
-* L'ID di regione è obbligatorio perché è associato a un nome di server regionale, che è necessario inviare ai [!UICONTROL DCS]. Le informazioni [!UICONTROL DCS] vengono memorizzate nei centri dati geograficamente più vicini ai visitatori del sito. Consulta [ID regioni DCS, posizioni e nomi host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* L&#39;ID utente è necessario per identificare e associare i dati a un particolare visitatore.
+* L&#39;ID di regione è obbligatorio perché è associato a un nome di server regionale, che è necessario inviare ai [!DNL DCS]. Le informazioni [!DNL DCS] vengono memorizzate nei centri dati geograficamente più vicini ai visitatori del sito. Consulta [ID regioni DCS, posizioni e nomi host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 Questi parametri sono descritti di seguito. Il codice in *corsivo* rappresenta un segnaposto variabile.
 
@@ -34,12 +37,12 @@ Questi parametri sono descritti di seguito. Il codice in *corsivo* rappresenta u
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code>"uuid": ID <i>utente</i></code></span> </p> </td> 
+   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
    <td colname="col3"> <p> <code> "uuid":"123456789"</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><code>"dcs_region":ID<i>regione</i></code> </p> </td> 
+   <td colname="col1"> <p><code>"dcs_region":<i>region ID</i></code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
    <td colname="col3"> <p> <code> "dcs_region":9</code> </p> </td> 
   </tr> 
@@ -61,4 +64,4 @@ Questa semplice risposta mostra la `UUID` regione `ID`. Nota: si tratta solo di 
 
 ## Passaggi successivi {#next-steps}
 
-Una volta ottenuto l'ID utente e il nome del server regionale, potete iniziare a inviare e ricevere [!UICONTROL DCS] i dati. Consultate [Effettuare chiamate](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)DCS API.
+Una volta ottenuto l&#39;ID utente e il nome del server regionale, potete iniziare a inviare e ricevere [!DNL DCS] i dati. Consultate [Effettuare chiamate](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)DCS API.
