@@ -1,27 +1,30 @@
 ---
-description: Aggiungete un'istruzione if per controllare i cookie di Audience Manager prima di chiamare il metodo Google Publisher Tag .setTargeting.
-seo-description: Aggiungete un'istruzione if per controllare i cookie di Audience Manager prima di chiamare il metodo Google Publisher Tag .setTargeting.
+description: Aggiungete un'istruzione if per verificare  cookie Audience Manager prima di chiamare il metodo Google Publisher Tag .setTargeting.
+seo-description: Aggiungete un'istruzione if per verificare  cookie Audience Manager prima di chiamare il metodo Google Publisher Tag .setTargeting.
 seo-title: Modificare la chiamata API GPT setTargeting
 solution: Audience Manager
 title: Modificare la chiamata API GPT setTargeting
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 1%
 
 ---
 
 
 # Modifica della chiamata `setTargeting` API GPT {#modify-the-gpt-settargeting-api-call}
 
-Aggiungete un'istruzione if per controllare i cookie di Audience Manager prima di chiamare il [!DNL Google Publisher Tag] metodo `.setTargeting` .
+Aggiungete un&#39;istruzione if per verificare  cookie Audience Manager prima di chiamare il [!DNL Google Publisher Tag] metodo `.setTargeting` .
 
-## Verifica dei cookie di Audience Manager con un' `IF` istruzione
+## Verifica  cookie Audience Manager con un&#39; `IF` istruzione
 
-Il `.setTargeting` metodo ottiene i dati dal cookie di destinazione di Audience Manager e dal cookie ID utente univoco ( `aam_uuid`). Tuttavia, se `.setTargeting` viene richiamato prima di [!UICONTROL DIL] scrivere questi cookie, o se i cookie sono vuoti, potrebbero verificarsi degli errori durante il caricamento della pagina. Per evitare questo problema, racchiudere il `.setTargeting` metodo in un' `if` istruzione che controlla questi cookie. Se non sono impostati, questa istruzione impedisce `.setTargeting` di chiamare la `AamGpt` funzione.
+Il `.setTargeting` metodo ottiene i dati dal cookie di destinazione Audience Manager  e dal cookie ID utente univoco ( `aam_uuid`). Tuttavia, se `.setTargeting` viene richiamato prima di [!UICONTROL DIL] scrivere questi cookie, o se i cookie sono vuoti, potrebbero verificarsi degli errori durante il caricamento della pagina. Per evitare questo problema, racchiudere il `.setTargeting` metodo in un&#39; `if` istruzione che controlla questi cookie. Se non sono impostati, questa istruzione impedisce `.setTargeting` di chiamare la `AamGpt` funzione.
 
 ### `IF` Esempio di codice istruzioni
 
-In questo esempio, il nome del cookie di destinazione di Audience Manager è `Sample`. Questo nome viene impostato quando create il cookie di destinazione nell’interfaccia utente di Audience Manager. [!UICONTROL DIL] imposta il `aam_uuid` cookie e il nome non può essere modificato.
+In questo esempio, il nome del cookie di destinazione  Audience Manager è `Sample`. Questo nome viene impostato al momento della creazione del cookie di destinazione nell&#39;interfaccia utente  Audience Manager. [!UICONTROL DIL] imposta il `aam_uuid` cookie e il nome non può essere modificato.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -43,7 +46,7 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 ### `AamGpt` Funzioni e tipi di dati
 
-Definisce le variabili chiave utilizzate nell' `if` istruzione.
+Definisce le variabili chiave utilizzate nell&#39; `if` istruzione.
 
 <table id="table_881391C9BDDF4FACAFC37A47B14B31A1"> 
  <thead> 
@@ -67,7 +70,7 @@ Definisce le variabili chiave utilizzate nell' `if` istruzione.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Restituisce l’ID utente di Audience Manager, ad esempio <code> 12345 </code>. </p> </td> 
+   <td colname="col3"> <p>Restituisce l’ID utente Audience Manager , ad esempio <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -75,5 +78,5 @@ Definisce le variabili chiave utilizzate nell' `if` istruzione.
 >[!MORELIKETHIS]
 >
 >* [Creare una destinazione GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Codice Audience Manager per i tag di Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+>* [codice Audience Manager per i tag di Google Publisher](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
