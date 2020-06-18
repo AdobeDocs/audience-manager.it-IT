@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Guida introduttiva alle API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1781'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Sono [!DNL Audience Manager] supportati due metodi di autenticazione [!DNL REST 
 >
 >A seconda del metodo di autenticazione, è necessario regolare la richiesta [!DNL URLs] di conseguenza. Consulta la sezione [Ambienti](#environments) per informazioni dettagliate sui nomi host da utilizzare.
 
-## Autenticazione JWT (account di servizio) {#jwt}
+## Autenticazione JWT ([!DNL Service Account]autenticazione) {#jwt}
 
 ### Prerequisiti {#prerequisites}
 
@@ -278,14 +278,14 @@ Le nuove versioni [!DNL API]vengono rilasciate secondo una pianificazione regola
 
 | ID codice di risposta | Testo della risposta | Definizione |
 |---|---|---|
-| 200 | `OK` | La richiesta è stata elaborata correttamente. Se necessario, restituirà il contenuto o i dati previsti. |
-| 201 | `Created` | La risorsa è stata creata. Restituisce per `PUT` e `POST` le richieste. |
-| 204 | `No Content` | La risorsa è stata eliminata. Il corpo della risposta sarà vuoto. |
-| 400 | `Bad Request` | Il server non ha capito la richiesta. Solitamente a causa di sintassi non corretta. Controlla la richiesta e riprova. |
-| 403 | `Forbidden` | Non si dispone dell&#39;accesso alla risorsa. |
-| 404 | `Not Found` | Impossibile trovare la risorsa per il percorso specificato. |
-| 409 | `Conflict` | Impossibile completare la richiesta a causa di un conflitto con lo stato della risorsa. |
-| 500 | `Server Error` | Il server ha rilevato un errore imprevisto che gli ha impedito di soddisfare la richiesta. |
+| `200` | `OK` | La richiesta è stata elaborata correttamente. Se necessario, restituirà il contenuto o i dati previsti. |
+| `201` | `Created` | La risorsa è stata creata. Restituisce per `PUT` e `POST` le richieste. |
+| `204` | `No Content` | La risorsa è stata eliminata. Il corpo della risposta sarà vuoto. |
+| `400` | `Bad Request` | Il server non ha capito la richiesta. Solitamente a causa di sintassi non corretta. Controlla la richiesta e riprova. |
+| `403` | `Forbidden` | Non si dispone dell&#39;accesso alla risorsa. |
+| `404` | `Not Found` | Impossibile trovare la risorsa per il percorso specificato. |
+| `409` | `Conflict` | Impossibile completare la richiesta a causa di un conflitto con lo stato della risorsa. |
+| `500` | `Server Error` | Il server ha rilevato un errore imprevisto che gli ha impedito di soddisfare la richiesta. |
 
 >[!MORELIKETHIS]
 >
