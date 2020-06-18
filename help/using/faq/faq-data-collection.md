@@ -7,7 +7,7 @@ title: Domande frequenti sulla raccolta dei dati e l'integrazione dei prodotti
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -27,9 +27,9 @@ faq_data_collection_integration.xml
 
  -->
 
-**Come è possibile distinguere il traffico in entrata dal[!UICONTROL DCS]traffico nelle esportazioni dei file di[!UICONTROL DCS]registro?**
+**Come è possibile distinguere il traffico in entrata dal[!DNL DCS]traffico nelle esportazioni dei file di[!DNL DCS]registro?**
 
-Le caratteristiche registrate tramite [!UICONTROL Inbound] sono popolate [!UICONTROL Inbound] nello stesso modo in cui vengono popolate [!UICONTROL DCS]. Ci sono alcuni modi diversi per dire che il traffico proveniva da [!UICONTROL Inbound]:
+Le caratteristiche registrate tramite [!UICONTROL Inbound] sono popolate [!UICONTROL Inbound] nello stesso modo in cui vengono popolate [!DNL DCS]. Ci sono alcuni modi diversi per dire che il traffico proveniva da [!UICONTROL Inbound]:
 
 * IP remoto sarà impostato su 68.67.173.18
 * DomainID verrà impostato su 5325
@@ -175,15 +175,15 @@ No, non fate affidamento sul [!UICONTROL General Reports] e [!UICONTROL Trend Re
 
 I report calcolano le popolazioni in base ai record di profilo non autenticati (UUID) visualizzati nel backend al momento della generazione dei report.
 
-In una prima chiamata al [!UICONTROL DCS], gli ID dichiarati *non* sono collegati ad alcun UUID (ovvero nessun cookie [](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) demdex è presente sul lato client). L’utente [!UICONTROL DCS] genererà un UUID in modo casuale, imposterà un [!DNL demdex] cookie e lo trasmetterà nella chiamata di risposta, ma non trasmetterà l’UUID al backend.
+In una prima chiamata al [!DNL DCS], gli ID dichiarati *non* sono collegati ad alcun UUID (ovvero nessun cookie [](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) demdex è presente sul lato client). L’utente [!DNL DCS] genererà un UUID in modo casuale, imposterà un [!DNL demdex] cookie e lo trasmetterà nella chiamata di risposta, ma non trasmetterà l’UUID al backend.
 
 >[!NOTE]
 >
 >L&#39;UUID generato verrà materializzato nella memorizzazione dei dati di back-end solo dopo che il dispositivo su cui è impostato il cookie attiverà un&#39;ulteriore attività.
 
-Per questo motivo, i report non rifletteranno gli eventi attivati dagli ID dichiarati nella chiamata. È consigliabile utilizzare UUID, ECID (già MID) o ID dispositivo mobile nelle chiamate di test evento al [!UICONTROL DCS]. Quindi puoi verificare le realizzazioni di caratteristiche e segmenti nella [!UICONTROL General Reports] e nella [!UICONTROL Trend Reports].
+Per questo motivo, i report non rifletteranno gli eventi attivati dagli ID dichiarati nella chiamata. È consigliabile utilizzare UUID, ECID (già MID) o ID dispositivo mobile nelle chiamate di test evento al [!DNL DCS]. Quindi puoi verificare le realizzazioni di caratteristiche e segmenti nella [!UICONTROL General Reports] e nella [!UICONTROL Trend Reports].
 
-Vedi anche [Indice degli ID](../reference/ids-in-aam.md)di Audience Manager.
+Vedi anche [Indice degli ID](../reference/ids-in-aam.md)Audience Manager .
 
 <br> 
 
