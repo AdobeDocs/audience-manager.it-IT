@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Panoramica delle regole di unione dei profili
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 Grazie a [!UICONTROL Profile Merge Rules] questa opzione è possibile controllare i set di dati utilizzati per la segmentazione e indirizzare gli utenti in modo accurato su più dispositivi.
 
->[!VIDEO](https://video.tv.adobe.com/v/28974?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28974)
 
 ## Raccolta e targeting dei dati con profili anonimi e autenticati {#data-collection-targeting}
 
@@ -52,7 +55,7 @@ In genere, la segmentazione del pubblico e il targeting si basano sui dati racco
  </tbody>
 </table>
 
-Questi profili differenti controllano i dati che potete utilizzare per la segmentazione. Ad esempio, con un profilo [](../../reference/visitor-authentication-states.md)autenticato puoi creare segmenti precisi basati su dati provenienti da più dispositivi per un singolo utente. Questo significa che puoi offrire ai clienti un'esperienza di marchio coerente su più dispositivi. Audience Manager ottiene questo risultato memorizzando la mappatura dei diversi dispositivi utilizzati da una persona per le sue attività online sul suo profilo [](../../reference/visitor-authentication-states.md)autenticato. Tali mappature sono denominate [!UICONTROL Profile Link Device Graph].
+Questi profili differenti controllano i dati che potete utilizzare per la segmentazione. Ad esempio, con un profilo [](../../reference/visitor-authentication-states.md)autenticato puoi creare segmenti precisi basati su dati provenienti da più dispositivi per un singolo utente. Questo significa che puoi offrire ai clienti un&#39;esperienza di marchio coerente su più dispositivi. [!DNL Audience Manager] per ottenere questo risultato, è necessario memorizzare la mappatura dei diversi dispositivi utilizzati da una persona per le proprie attività online sul proprio profilo [](../../reference/visitor-authentication-states.md)autenticato. Tali mappature sono denominate [!UICONTROL Profile Link Device Graph].
 
 ![](assets/authenticated2.png)
 
@@ -60,8 +63,8 @@ Questi profili differenti controllano i dati che potete utilizzare per la segmen
 
 È [!UICONTROL Profile Merge Rules] possibile:
 
-* Esegue il targeting degli utenti in base a profili [](../../reference/visitor-authentication-states.md)autenticati, profili anonimi o combinazioni di entrambi.
-* Esegue il targeting di un cliente specifico tra i suoi dispositivi.
+* Utenti Target basati su profilo [](../../reference/visitor-authentication-states.md)autenticato, profili anonimi o combinazioni di entrambi.
+* Target un cliente specifico tra i loro dispositivi.
 * Crea un grafico del dispositivo basato su dati deterministici.
 * Ottimizza i dati nei tuoi segmenti in base a diversi profili.
 * Ulteriori informazioni sul pubblico.
