@@ -1,19 +1,22 @@
 ---
-description: Descrive i componenti di un segmento di Audience Manager, le espressioni utilizzate per impostare i criteri di qualificazione dell'audience e il modo in cui i dati vengono trasmessi in una chiamata dell'evento.
-seo-description: Descrive i componenti di un segmento di Audience Manager, le espressioni utilizzate per impostare i criteri di qualificazione dell'audience e il modo in cui i dati vengono trasmessi in una chiamata dell'evento.
+description: Descrive i componenti di un segmento Audience Manager , le espressioni utilizzate per impostare i criteri di qualificazione dell'audience e il modo in cui i dati vengono trasmessi in una chiamata dell'evento.
+seo-description: Descrive i componenti di un segmento Audience Manager , le espressioni utilizzate per impostare i criteri di qualificazione dell'audience e il modo in cui i dati vengono trasmessi in una chiamata dell'evento.
 seo-title: Segnali, caratteristiche e segmenti
 solution: Audience Manager
 title: Segnali, caratteristiche e segmenti
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
 
 # Segnali, caratteristiche e segmenti{#signals-traits-and-segments}
 
-Descrive i componenti di un segmento di Audience Manager, le espressioni utilizzate per impostare i criteri di qualificazione dell'audience e il modo in cui i dati vengono trasmessi in una chiamata dell'evento.
+Descrive i componenti di un [!DNL Audience Manager] segmento, le espressioni utilizzate per impostare i criteri di qualificazione dell&#39;audience e il modo in cui i dati vengono trasmessi in una chiamata dell&#39;evento.
 
 <!-- 
 
@@ -23,7 +26,7 @@ c_signal_trait_segment.xml
 
 **Composizione e finalità**
 
-[!DNL Audience Manager] i dati sono costituiti da segnali, caratteristiche, segmenti e regole di qualifica correlate. Gli elementi di dati e le regole si combinano per creare segmenti. I segmenti organizzano i visitatori del sito in gruppi correlati. La tabella seguente definisce i tre componenti principali in un [!DNL Audience Manager] segmento.
+[!DNL Audience Manager] i dati sono costituiti da segnali, caratteristiche, segmenti e regole di qualifica correlate. Gli elementi di dati e le regole si combinano per creare segmenti. I segmenti organizzano i visitatori del sito in gruppi correlati. Nella tabella seguente sono definiti i tre componenti principali di un [!DNL Audience Manager] segmento.
 
 <table id="table_E8373A01C3414C42B4983A59BF0F0669"> 
  <thead> 
@@ -36,7 +39,7 @@ c_signal_trait_segment.xml
  <tbody> 
   <tr> 
    <td colname="col1"><b>Segnale</b> </td> 
-   <td colname="col2"> <p>I segnali sono le unità dati più piccole di <span class="keyword"> Audience Manager</span> e sono espressi come coppie <a href="../reference/key-value-pairs-explained.md"></a>chiave-valore. </p> 
+   <td colname="col2"> <p>I segnali sono le unità dati più piccole in <span class="keyword"> Audience Manager</span> e sono espressi come coppie <a href="../reference/key-value-pairs-explained.md"></a>chiave-valore. </p> 
     <ul id="ul_728347E325284B9FA0B4E05DE8CF4570"> 
      <li id="li_89574A3B4A734726AD43405AE6D85FF5">La chiave è una costante che definisce un set di dati (ad esempio, genere, colore, prezzo). </li> 
      <li id="li_D35601B33EE24EC5857F45D9577254D4">Il valore è una variabile correlata alla costante (ad esempio, maschio/femmina, verde, 100). </li> 
@@ -65,17 +68,15 @@ Utilizzate il diagramma seguente per tenere traccia della relazione tra segnali,
 
 ![](assets/signals-traits-segments.png)
 
-**Creazione di caratteristiche e regole di segmento con Visual Tools ed Editor di codice**
+**Creazione di caratteristiche e regole di segmento con gli strumenti visivi e gli editor di codice**
 
-I client gestiscono caratteristiche e segmenti con strumenti visivi ed editor di codice nell'interfaccia [!DNL Audience Manager] utente. Gli strumenti visivi consentono di creare regole utilizzando funzioni di ricerca, opzioni a comparsa, menu a discesa e funzionalità di trascinamento. Gli editor di codice forniscono agli utenti avanzati la possibilità di sviluppare criteri di segmentazione del pubblico a livello di programmazione.
+I client gestiscono caratteristiche e segmenti con strumenti visivi ed editor di codice nell&#39;interfaccia [!DNL Audience Manager] utente. Gli strumenti visivi consentono di creare regole utilizzando funzioni di ricerca, opzioni a comparsa, menu a discesa e funzionalità di trascinamento. Gli editor di codice forniscono agli utenti avanzati la possibilità di sviluppare criteri di segmentazione del pubblico a livello di programmazione.
 
-**Chiamate evento Inviare dati ad Audience Manager**
+**Chiamate evento Invia dati a  Audience Manager**
 
-Una chiamata evento invia i dati dal sito Web a [!DNL Audience Manager]. La chiamata contiene dati di segnale, caratteristiche e segmento in una richiesta HTTP. L’evento stesso è tutto dopo la parte `/event` di una stringa URL. Come illustrato nell'esempio seguente, questo processo richiede solo una singola chiamata di evento per passare più variabili a [!DNL Audience Manager].
+Una chiamata evento invia i dati dal sito Web a [!DNL Audience Manager]. La chiamata contiene dati di segnale, caratteristiche e segmento in una [!DNL HTTP] richiesta. L&#39;evento stesso è tutto dopo la `/event` parte di una [!DNL URL] stringa. Come illustrato nell&#39;esempio seguente, questo processo richiede solo una singola chiamata di evento per passare più variabili a [!DNL Audience Manager].
 
-```
-https://<domain>/event?product=camera&price>100
-```
+`https://<domain>/event?product=camera&price>100`
 
 >[!MORELIKETHIS]
 >
