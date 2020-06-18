@@ -1,26 +1,29 @@
 ---
-description: Domande frequenti su come portare dati offline in Audience Manager.
+description: Domande frequenti su come portare dati offline in  Audience Manager.
 keywords: ftp or s3;s3 or ftp
-seo-description: Domande frequenti su come portare dati offline in Audience Manager.
+seo-description: Domande frequenti su come portare dati offline in  Audience Manager.
 seo-title: Domande frequenti sull'inserimento dei dati dei clienti in entrata
 solution: Audience Manager
 title: Domande frequenti sull'inserimento dei dati dei clienti in entrata
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: 187874fb5d0c4363f771297766f3c4bc9d967c9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '1355'
+ht-degree: 3%
 
 ---
 
 
 # Domande frequenti sull&#39;inserimento dei dati dei clienti in entrata{#inbound-customer-data-ingestion-faq}
 
-Domande frequenti su come portare dati offline in Audience Manager.
+Domande frequenti su come portare dati offline in  Audience Manager.
 
  
 
 **Potete riepilogare il processo di onboarding?**
 
-Il processo di registrazione consiste di due passaggi descritti in [Invia dati batch a Audience Manager Overview](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md):
+Il processo di onboarding consiste di due passaggi descritti in [Invia dati batch a  Panoramica](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)di Audience Manager:
 
 * Passaggio 1: sincronizzare gli ID utente;
 * Passaggio 2: creare e trasferire il file di dati in entrata, rispettando i requisiti di formato del file.
@@ -55,10 +58,10 @@ Consulta [Compressione file per i file](../integration/sending-audience-data/bat
 
 **Posso caricare un file di dati in entrata (file [!DNL .sync] o [!DNL .overwrite]) prima di distribuire il codice [!DNL Audience Manager] in produzione?**
 
-Sì. Finché utilizzi un&#39;origine dati multi-dispositivo per memorizzare i dati CRM caricati, Audience Manager memorizza sempre i dati. Infatti, in seguito ai miglioramenti apportati alle regole di unione dei profili che Audience Manager ha avviato a ottobre 2019 e che consentono l’utilizzo in modalità non in linea, potete caricare e intervenire sui dati senza distribuire il codice Audience Manager in produzione. Consulta:
+Sì. Se utilizzi un [!UICONTROL cross-device data source] per memorizzare i dati CRM caricati,  Audience Manager memorizza sempre i dati. Infatti, in seguito ai [!UICONTROL Profile Merge Rules] miglioramenti che  Audience Manager ha avviato a ottobre 2019 e che consentono casi di utilizzo esclusivamente offline, potete caricare e intervenire sui dati senza distribuire  codice Audience Manager in produzione. Consulta:
 
 * [Panoramica dei miglioramenti delle regole di unione dei profili](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* Destinazioni basate sulle persone - [Personalizzazione basata su dati solo offline](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - [Personalizzazione basata su dati solo offline](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -141,7 +144,7 @@ Come procedura ottimale, inviate un file incrementale una volta al giorno per i 
 
  
 
-**Per quanto tempo Audience Manager conserva i miei file sul server?**
+**Per quanto tempo  Audience Manager mantiene i miei file sul server?**
 
 I file FTP vengono rimossi dopo l&#39;elaborazione. [!DNL S3] i file vengono rimossi dopo 30 giorni. I file che non possono essere elaborati a causa di formato, sintassi o altri errori, vengono rimossi. Vedi anche Domande frequenti sulla [privacy e sulla conservazione dei dati](../faq/faq-privacy.md).
 
@@ -153,7 +156,7 @@ I file FTP vengono rimossi dopo l&#39;elaborazione. [!DNL S3] i file vengono rim
 
    >[!NOTE]
    >
-   >I [!DNL .overwrite] file sovrascrivono solo i dati [!DNL Audience Manager] del profilo associati a questo provider di dati. In altre parole, tutti [!DNL Adobe Analytics] i dati associati al visitatore rimangono intatti dopo l’elaborazione di un [!DNL .overwrite] file.
+   >I [!DNL .overwrite] file sovrascrivono solo i dati [!DNL Audience Manager] del profilo associati a questo provider di dati. In altre parole, tutti [!DNL Audience Manager] i dati associati al visitatore rimangono intatti dopo l’elaborazione di un [!DNL .overwrite] file.
 
 * **Incrementale:** Un file incrementale aggiunge nuovi dati ai profili visitatore esistenti. I file incrementali sono identificati dal `.sync` tag aggiunto al nome del file. L&#39;invio in un file incrementale non cancella o sovrascrive i profili esistenti.
 
@@ -184,7 +187,7 @@ I timestamp vengono utilizzati per la registrazione e la conservazione dei recor
 
  
 
-**Che cos’è un ID provider di dati (DPID) e come si ottiene?**
+**Cos&#39;è un[!DNL Data Provider ID (DPID)]e come lo ottengo?**
 
 Il tuo consulente Adobe assegnerà un [DPID (ID provider dati)](../reference/ids-in-aam.md) di tre o quattro cifre alla tua particolare origine dati. Questo ID è univoco e non viene modificato.
 
@@ -207,7 +210,7 @@ Sì, vedi:
 
 **La chiave primaria nel database dell&#39;origine dati è un indirizzo e-mail. Sono considerate informazioni personali?**
 
-Sì. [!DNL Audience Manager] non memorizza gli indirizzi e-mail nel database. Prima di avviare la sincronizzazione ID, è necessario assegnare ai visitatori un ID generato in modo casuale o una versione con hash unidirezionale dell’indirizzo e-mail.
+Sì. [!DNL Audience Manager] non memorizza gli indirizzi e-mail nel database. Prima di avviare la sincronizzazione degli ID, ai visitatori deve essere assegnato un ID generato in modo casuale o una versione con hash unidirezionale dell’indirizzo e-mail.
 
  
 
@@ -223,7 +226,7 @@ Come procedura ottimale, consigliamo [!DNL Amazon S3] perché il processo è pi�
 
 >[!WARNING]
 >
->Stiamo gradualmente eliminando il supporto per le configurazioni FTP. Anche se l&#39;assimilazione dei file di dati in entrata è ancora supportata nelle integrazioni FTP esistenti, si consiglia vivamente di utilizzare Amazon S3 per incorporare dati offline per nuove integrazioni. Per informazioni dettagliate, consultate [Amazon S3 Name and File Size Requirements for Inbound Data Files (Requisiti di nome e dimensione file Amazon S3 per i file](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) in entrata).
+>Stiamo gradualmente eliminando il supporto per le configurazioni FTP. Anche se l&#39;assimilazione dei file di dati in entrata è ancora supportata nelle integrazioni FTP esistenti, si consiglia vivamente di utilizzare [!DNL Amazon S3] per le nuove integrazioni dati offline. Per informazioni dettagliate, consultate [Amazon S3 Name and File Size Requirements for Inbound Data Files (Requisiti di nome e dimensione file Amazon S3 per i file](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) in entrata).
 
  
 
