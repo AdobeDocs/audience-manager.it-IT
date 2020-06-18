@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Acquisizione dei dati di clic sulla campagna tramite chiamate pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '657'
 ht-degree: 7%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 7%
 
 # Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
 
-Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei visitatori durante l’intera campagna, registrando l’attività basata sui clic per i creativi di terze parti. Analogamente all&#39;insieme [](/help/using/integration/media-data-integration/impression-data-pixels.md)impression, una chiamata evento viene inviata ai server di raccolta dati ([!UICONTROL DCS]) di Audience Manager per l&#39;elaborazione. Il visitatore viene quindi reindirizzato all&#39;indirizzo Web desiderato.
+Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei visitatori durante l’intera campagna, registrando l’attività basata sui clic per i creativi di terze parti. Analogamente all&#39;insieme [](/help/using/integration/media-data-integration/impression-data-pixels.md)impression, una chiamata evento viene inviata ai server di raccolta dati ([!DNL DCS]) Audience Manager  per l&#39;elaborazione. Il visitatore viene quindi reindirizzato all&#39;indirizzo Web desiderato.
 
 >[!NOTE]
 >
->Contatta il tuo consulente di Adobe Audience Manager o il lead dell&#39;account per ottenere l&#39;URL esatto specifico per il dominio client.
+>Contatta il tuo [!DNL Audience Manager] consulente o il lead dell&#39;account per conoscere [!DNL URL] il dominio del cliente.
 
 ## Requisiti
 
@@ -66,7 +66,7 @@ Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macr
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Nessuna macro. </p> <p>Accetta un valore ID hardcoded. </p> </td> 
-   <td colname="col2"> <p>ID inserzionista.</p> <p>Un codice di integrazione per l'origine dati dell'inserzionista. Questo non è correlato alle origini dati di Audience Manager.</p> <p> Obbligatorio per i report <span class="wintitle"> Audience Optimization</span> . </p> </td> 
+   <td colname="col2"> <p>ID inserzionista.</p> <p>Un codice di integrazione per l'origine dati dell'inserzionista. Questo non è correlato alle origini dati  Audience Manager.</p> <p> Obbligatorio per i report <span class="wintitle"> Audience Optimization</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
@@ -121,7 +121,7 @@ Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macr
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>DPID dell’origine da cui Audience Manager estrae i metadati. </p> <p>Obbligatorio. </p> </td> 
+   <td colname="col2"> <p>DPID dell'origine da cui  Audience Manager estrae i metadati. </p> <p>Obbligatorio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
