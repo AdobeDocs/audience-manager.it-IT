@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Glossario
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 2%
@@ -46,9 +46,9 @@ Consultate Feed [dati](../features/cdf-files.md)cliente.
 
 **ID CRM**
 
-L&#39;ID CRM è l&#39;ID tramite il quale i clienti identificano gli utenti nel proprio sistema CRM. Invece dell&#39;ID CRM, utilizziamo il termine DPUUID in Audience Manager.
+L&#39;ID CRM è l&#39;ID tramite il quale i clienti identificano gli utenti nel proprio sistema CRM. Invece dell&#39;ID CRM, utilizziamo il termine DPUUID in  Audience Manager.
 
-Consulta DPUUID nell’ [indice degli ID in Audience Manager](../reference/ids-in-aam.md).
+Consulta DPUUID nell’ [indice degli ID in  Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -91,7 +91,7 @@ Vedi [Informazioni sulle chiamate al dominio demdex](../reference/demdex-calls.m
 
 [!UICONTROL Device Advertising IDs] sono identificatori di dispositivo univoci, utilizzati per identificare un dispositivo mobile. Tali ID vengono assegnati dal produttore del dispositivo, non da Adobe. Supportiamo gli ID dispositivo iOS e Android in [!DNL Audience Manager].
 
-Vedi l’ [indice degli ID in Audience Manager](../reference/ids-in-aam.md).
+Vedi l’ [indice degli ID in  Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -137,20 +137,20 @@ Vedere [Recency e Frequenza](../features/segments/recency-and-frequency.md).
 
 **GAID**
 
-Google Advertising ID, l&#39;ID dispositivo univoco che Google assegna ai dispositivi hardware che eseguono il sistema operativo Android. Vedi l’ [indice degli ID in Audience Manager](../reference/ids-in-aam.md).
+Google Advertising ID, l&#39;ID dispositivo univoco che Google assegna ai dispositivi hardware che eseguono il sistema operativo Android. Vedi l’ [indice degli ID in  Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
 **GUID**
 
 Un acronimo per l’identificatore univoco globale. Il termine GUID non viene utilizzato in [!DNL Audience Manager]. Nel nostro caso, il GUID è l’ [!DNL Audience Manager] UUID.
-Consulta [Indice degli ID in Audience Manager](../reference/ids-in-aam.md).
+Consulta [Indice degli ID in  Audience Manager](../reference/ids-in-aam.md).
 
 ## I-J {#i-j}
 
 **IDFA**
 
-Identificatore per gli inserzionisti, l&#39;ID dispositivo univoco assegnato da Apple ai suoi prodotti. Vedi l’ [indice degli ID in Audience Manager](../reference/ids-in-aam.md).
+Identificatore per gli inserzionisti, l&#39;ID dispositivo univoco assegnato da Apple ai suoi prodotti. Vedi l’ [indice degli ID in  Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -166,7 +166,7 @@ Quando lavori con l&#39; [!DNL Audience Manager] interfaccia utente o l&#39;API,
 
 * [!UICONTROL Traits]: un codice di integrazione è un campo per un ID, uno SKU o altro valore utilizzato dai processi aziendali interni. Facoltativo.
 * [!UICONTROL Segments]: un codice di integrazione è un campo per un ID definito dall’utente o per altre informazioni specifiche per la società. Facoltativo.
-* [!UICONTROL Data Sources]: i codici di integrazione sono necessari per creare origini dati multi-dispositivo, utilizzare Adobe Experience Platform Identity Service o lavorare con [!UICONTROL Profile Merge Rules]. Per ulteriori informazioni, consulta [Creazione di un&#39;origine](../features/manage-datasources.md#create-data-source) dati.
+* [!UICONTROL Data Sources]: i codici di integrazione sono necessari per creare origini dati multi-dispositivo, utilizzare il servizio identità Adobe Experience Platform  o lavorare con [!UICONTROL Profile Merge Rules]. Per ulteriori informazioni, consulta [Creazione di un&#39;origine](../features/manage-datasources.md#create-data-source) dati.
 
 ## K-L {#k-l}
 
@@ -178,13 +178,13 @@ Consulta Modellazione [algoritmica](../reference/aam-glossary.md#a-b).
 
 **MCID**, **MID**
 
-Vedi il [Experience Cloud ID](../reference/aam-glossary.md#e-f).
+Vedi l&#39; [Experience Cloud ID](../reference/aam-glossary.md#e-f).
 
 ## O-P {#o-p}
 
 **PCS**
 
-[!UICONTROL Profile Cache Server]. Il database [!UICONTROL PCS] è grande, in esecuzione su Apache Cassandra. Memorizza i dati ricevuti dagli utenti attivi dai trasferimenti server-to-server e [!UICONTROL DCS]. [!UICONTROL PCS] i dati sono costituiti dagli ID dispositivo, dagli ID profilo autenticati e dalle caratteristiche associate.
+[!UICONTROL Profile Cache Server]. Il database [!UICONTROL PCS] è grande, in esecuzione su Apache Cassandra. Memorizza i dati ricevuti dagli utenti attivi dai trasferimenti server-to-server e [!DNL DCS]. [!UICONTROL PCS] i dati sono costituiti dagli ID dispositivo, dagli ID profilo autenticati e dalle caratteristiche associate.
 
 Consulta Componenti [per la raccolta](../reference/system-components/components-data-collection.md)dati.
 
@@ -220,7 +220,7 @@ Consulta [Segmenti: Finalità, composizione e regole](../features/segments/segme
 
 **Pubblico indirizzabile al segmento**
 
-In Pubblico di [riferimento](/help/using/features/addressable-audiences.md), questa metrica rappresenta il numero di utenti che sono apparsi al segmento durante il periodo di look-back del report e hanno una sincronizzazione ID attiva sul sito. I segmenti possono includere dati di prime parti e dati di seconda e terza parte, attraverso le caratteristiche acquisite in [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
+In Pubblico di [riferimento](/help/using/features/addressable-audiences.md), questa metrica rappresenta il numero di utenti che sono apparsi al segmento durante il periodo di look-back del report e hanno una sincronizzazione ID attiva sul sito. I segmenti possono includere dati di prime parti e dati di seconda e terza parte, attraverso le caratteristiche acquisite nell&#39; [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
 
 <br> 
 
@@ -264,7 +264,7 @@ TTL definisce quanti giorni un visitatore qualificato rimane in una caratteristi
 
 **UUID**
 
-[!DNL Audience Manager] ID utente univoco. Vedi l’ [indice degli ID in Audience Manager](../reference/ids-in-aam.md).
+[!DNL Audience Manager] ID utente univoco. Vedi l’ [indice degli ID in  Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -272,7 +272,7 @@ TTL definisce quanti giorni un visitatore qualificato rimane in una caratteristi
 
 The [!DNL Experience Cloud] ID Service (formerly visitor ID) provides a universal, persistent ID that identifies your visitors across all the solutions in the [!DNL Experience Cloud].
 
-Consulta la documentazione di [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
+Consulta la documentazione [Servizio](https://docs.adobe.com/content/help/en/id-service/using/home.html) identità Adobe Experience Platform.
 
 ## W-X-Y-Z {#w-z}
 
