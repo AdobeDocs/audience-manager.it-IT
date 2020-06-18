@@ -1,15 +1,15 @@
 ---
-description: I file di registro fruibili consentono di acquisire i segnali multimediali dai file di registro ad server per creare caratteristiche in Audience Manager. Cattura come caratteristiche impression, clic e conversioni dai server di annunci senza dover aggiungere pixel.
+description: I file di registro fruibili consentono di acquisire i segnali multimediali dai file di registro dei server di annunci per creare caratteristiche in  Audience Manager. Cattura come caratteristiche impression, clic e conversioni dai server di annunci senza dover aggiungere pixel.
 keywords: actionable logs, alf, ALF
-seo-description: I file di registro fruibili consentono di acquisire i segnali multimediali dai file di registro ad server per creare caratteristiche in Audience Manager. Cattura come caratteristiche impression, clic e conversioni dai server di annunci senza dover aggiungere pixel.
+seo-description: I file di registro fruibili consentono di acquisire i segnali multimediali dai file di registro dei server di annunci per creare caratteristiche in  Audience Manager. Cattura come caratteristiche impression, clic e conversioni dai server di annunci senza dover aggiungere pixel.
 seo-title: File di registro fruibili
 solution: Audience Manager
 title: File di registro fruibili
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 8f5dadb44ada3822b7336827c8863a7277b687c3
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1378'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # File di registro fruibili {#actionable-log-files}
 
-[!UICONTROL Actionable Log Files] consente di acquisire i dati multimediali dai file di registro del server di annunci e di utilizzare i dati per creare caratteristiche in Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append [pixels](../../integration/media-data-integration/impression-data-pixels.md).
+[!UICONTROL Actionable Log Files] consente di acquisire i dati multimediali dai file di registro del server di annunci e di utilizzare i dati per creare caratteristiche in  Audience Manager. Capture impressions, clicks, and conversions from ad servers as traits without having to append [pixels](../../integration/media-data-integration/impression-data-pixels.md).
 
 >[!NOTE]
 >
@@ -31,8 +31,8 @@ ht-degree: 3%
 
 Per iniziare, [!UICONTROL Actionable Log Files]devi importare i dati di registro in [!DNL Audience Manager]. I seguenti collegamenti sono utili per iniziare:
 
-* Per [!UICONTROL Google DCM] i registri, consulta [Importare file di dati DCM in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *e contatta* il tuo [!DNL Audience Manager] consulente.
-* Per [!UICONTROL Google DFP] i registri, consulta [Importare file di dati DFP in Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *e contatta* il tuo [!DNL Audience Manager] consulente.
+* Per [!UICONTROL Google DCM] i registri, consulta [Importare file di dati DCM in  Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *e* contatta il tuo [!DNL Audience Manager] consulente.
+* Per [!UICONTROL Google DFP] i registri, consulta [Importare file di dati DFP in  Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *e* contatta il tuo [!DNL Audience Manager] consulente.
 * Per altri registri del server di annunci, consulta [Dati e file](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) di metadati *e contatta* il tuo [!DNL Audience Manager] consulente.
 
 Se state già importando i dati di registro in [!DNL Audience Manager], chiedete al vostro [!DNL Audience Manager] consulente o all&#39;Assistenza [](https://helpx.adobe.com/it/contact/enterprise-support.ec.html) clienti di effettuare [!UICONTROL Actionable Log Files] l&#39;operazione.
@@ -45,7 +45,7 @@ Se state già importando i dati di registro in [!DNL Audience Manager], chiedete
 
 Con [!UICONTROL Actionable Log Files], le informazioni provenienti dai registri dei server di annunci vengono acquisite nello [!DNL Audience Manager] stesso modo in cui si acquisiscono i dati dalle interazioni in tempo reale dei siti Web. [!DNL Audience Manager] si connette alla memorizzazione del registro del server di annunci, analizza le informazioni dai registri e invia i dati del registro come segnali fruibili ai nostri server [di raccolta](../../reference/system-components/components-data-collection.md#dcs-pcs)dati.
 
-È comunque necessario impostare caratteristiche basate su regola per acquisire i segnali fruibili. Scopri come impostare caratteristiche basate su regola nell’interfaccia utente [di](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) Audience Manager o tramite i nostri strumenti [di gestione](../../reference/bulk-management-tools/bulk-create.md)in blocco. Scorri verso il basso fino alla sezione [Segnali](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) fruibili per visualizzare un elenco di tutte le chiavi utilizzabili nelle caratteristiche basate su regola.
+È comunque necessario impostare caratteristiche basate su regola per acquisire i segnali fruibili. Scoprite come impostare caratteristiche basate su regola nell&#39;interfaccia [utente](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) Audience Manager o utilizzando i nostri strumenti [di gestione](../../reference/bulk-management-tools/bulk-create.md)di massa. Scorri verso il basso fino alla sezione [Segnali](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) fruibili per visualizzare un elenco di tutte le chiavi utilizzabili nelle caratteristiche basate su regola.
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ Nella tabella sono elencati i segnali attivabili dai file di [!DNL DCM] registro
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>Un codice di integrazione per l'origine dati dell'inserzionista. Questo non è correlato alle origini dati di Audience Manager.</p> <p>Questo campo viene mappato sull’ID del gruppo di inserzionisti da DCM. </p> </td> 
+   <td colname="col3"><p>Un codice di integrazione per l'origine dati dell'inserzionista. Questo non è correlato alle origini dati  Audience Manager.</p> <p>Questo campo viene mappato sull’ID del gruppo di inserzionisti da DCM. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -127,7 +127,7 @@ Nella tabella sono elencati i segnali attivabili dai file di [!DNL DCM] registro
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indica il tipo di evento. Audience Manager legge il tipo di evento dal nome del file di registro di DCM e lo trasforma in un segnale fruibile. </p> <p>I valori accettati sono: </p> <p> 
+   <td colname="col3"> <p>Indica il tipo di evento.  Audience Manager legge il tipo di evento dal nome del file di registro di DCM e lo trasforma in un segnale fruibile. </p> <p>I valori accettati sono: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> per impression. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> per clic. </li> 
@@ -196,7 +196,7 @@ Innanzitutto, devi depositare i registri del server di annunci nei nostri bucket
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"> <p>Un codice di integrazione per l'origine dati dell'inserzionista. Questo campo non è correlato alle origini dati di <a href="../../features/datasources-list-and-settings.md">Audience Manager.</a></p></td> 
+   <td colname="col3"> <p>Un codice di integrazione per l'origine dati dell'inserzionista. Questo campo non è correlato alle origini dati <a href="../../features/datasources-list-and-settings.md">Audience Manager.</a></p></td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -226,7 +226,7 @@ Innanzitutto, devi depositare i registri del server di annunci nei nostri bucket
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Indica il tipo di evento. Audience Manager legge il tipo di evento dal nome del file di registro e lo trasforma in un segnale fruibile. Consultate convenzioni <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">di denominazione dei file di</a>registro. </p> <p>I valori accettati sono: </p> <p> 
+   <td colname="col3"> <p>Indica il tipo di evento.  Audience Manager legge il tipo di evento dal nome del file di registro e lo trasforma in un segnale fruibile. Consultate convenzioni <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">di denominazione dei file di</a>registro. </p> <p>I valori accettati sono: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> per impression. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> per clic. </li> 
@@ -249,7 +249,7 @@ I segnali descritti nella tabella vengono catturati in [!DNL Audience Manager] m
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
-## Utilizzo dei segnali fruibili nell’interfaccia utente di Audience Manager {#actionable-signals-in-ui}
+## Utilizzo dei segnali fruibili nell&#39;interfaccia utente  Audience Manager {#actionable-signals-in-ui}
 
 Puoi visualizzare i segnali attivabili in ingresso nell&#39;interfaccia di ricerca [](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) segnali.
 
@@ -292,12 +292,12 @@ Riavviate gli utenti che hanno visto creative 123 ma non hanno fatto clic o conv
 
    `d_event == conv AND d_conversion == 123`
 
-   Quando create la caratteristica in Audience Manager [!UICONTROL UI], selezionate [!UICONTROL Conversion] come [!UICONTROL Event Type].
+   Quando create la caratteristica nell&#39;Audience Manager  [!UICONTROL UI], selezionate [!UICONTROL Conversion] come [!UICONTROL Event Type].
 
 2. Una volta creata la caratteristica, la conversione inizierà a essere segnalata nel [!UICONTROL Audience Optimization Reports] e in [!UICONTROL Audience Lab].
 
 >[!MORELIKETHIS]
 >
->* [Importa file di dati DCM in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Importa file di dati DCM in  Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Report di ottimizzazione dell&#39;audience](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
