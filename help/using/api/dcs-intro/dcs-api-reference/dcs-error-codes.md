@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Codici errore DCS, messaggi ed esempi
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ff245c2cca417e9b1fd51460ddbadd25d5696006
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 4%
+source-wordcount: '1509'
+ht-degree: 3%
 
 ---
 
@@ -22,76 +22,22 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
 
 ## Codici di errore del sistema {#system-error-codes}
 
-<table id="table_43F4321BEA6A4D1BBDFE2E9FB4402914"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> ID codice </th> 
-   <th colname="col2" class="entry"> Messaggio di errore </th> 
-   <th colname="col3" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>0 </p> </td> 
-   <td colname="col2"> <p>Errore non specificato </p> </td> 
-   <td colname="col3"> <p>Si tratta di un errore catch-all che gestisce gli eventi non coperti dagli altri gestori di errori. È difficile risolvere questo errore. Può essere causato da una serie di azioni o eventi sconosciuti. </p> <p>Se ricevete questo errore, riprovate la richiesta <span class="wintitle"> DCS</span> . Se il problema persiste, contattate il rappresentante Adobe. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Impossibile trovare la configurazione per il nome host: <code><i>hostname</i></code> </p> </td> 
-   <td colname="col3"> <p>Il nome host inviato nella richiesta non è stato configurato dal nostro team di provisioning partner. Se ricevete questo messaggio di errore, contattate il vostro rappresentante Adobe. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Valore non valido <code> d_orgid</code> (impossibile trovare una configurazione per questo ID organizzazione): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>L'ID organizzazione non è corretto. </p> <p>Controlla l’ID e riprova la richiesta. Se non conosci o non disponi del tuo ID organizzazione, consulta la sezione "Pagina di amministrazione" in <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organizzazioni e collegamento</a> dell’account per informazioni su come trovarlo. </p> </td> 
-  </tr>
- </tbody>
-</table>
+|Codice errore|Messaggio di errore|Descrizione|
+|—|—|—|
+|0|Errore non specificato|Si tratta di un errore catch-all che gestisce gli eventi non coperti dagli altri gestori di errori. È difficile risolvere questo errore. Può essere causato da una serie di azioni o eventi sconosciuti. Se ricevete questo errore, riprovate [!DNL DCS] la richiesta. Se il problema persiste, contattate [!DNL Adobe] il rappresentante.|
+|1|Impossibile trovare la configurazione per il nome host: `hostname`|Il nome host inviato nella richiesta non è stato configurato dal team di provisioning partner. Se viene visualizzato questo messaggio di errore, contattate [!DNL Adobe] il rappresentante.|
+|2|Valore non valido `d_orgid` (impossibile trovare una configurazione per questo ID organizzazione): `ID`|L&#39;ID organizzazione non è corretto. Controlla l’ID e riprova la richiesta. Se non conosci o non hai il tuo ID organizzazione, consulta la sezione &quot;Pagina di amministrazione&quot; [Organizzazioni e collegamento](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) dell&#39;account per informazioni su come trovarlo.|
 
 ## Codici errore di integrazione {#integration-error-codes}
 
-<table id="table_EFF06FB3D045459BA7802872AF22DF79"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> ID codice </th> 
-   <th colname="col2" class="entry"> Messaggio </th> 
-   <th colname="col3" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>100 </p> </td> 
-   <td colname="col2"> <p>Impossibile recuperare il nome host per la richiesta </p> </td> 
-   <td colname="col3"> <p>Una chiamata API non ha inviato l'intestazione HTTP dell'host nella richiesta. </p> <p>Aggiungete l’intestazione host alla chiamata e riprovate. Nota: la maggior parte dei browser e dei client API lo fanno automaticamente. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>ID Experience Cloud  passato non valido <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>La chiamata <span class="wintitle"> DCS</span> contiene un ID Experience Cloud <span class="keyword"></span>  non valido. </p> <p>Controllare la coppia chiave-valore nella stringa di intestazione. <code> d_mid=</code> Accertatevi di trasmettere l'ID Experience Cloud <span class="keyword"> corretto</span> e riprovate. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>ID aam non valido passato nella richiesta <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>La chiamata <span class="wintitle"> DCS</span> contiene un ID Audience Manager <span class="keyword"></span>  non valido. </p> <p>Controllare la coppia chiave-valore nella stringa di intestazione. <code> d_uuid=</code> Accertatevi di trasmettere l'ID Audience Manager <span class="keyword"> corretto</span> e riprovate. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>104 </p> </td> 
-   <td colname="col2"> <p>Tutti gli ID cliente non sono validi </p> </td> 
-   <td colname="col3"> <p>Tutti gli ID cliente nella chiamata non sono validi. Controlla gli ID e riprova. </p> </td> 
-  </tr>
-    <tr> 
-   <td colname="col1"> <p>109</p> </td> 
-   <td colname="col2"> <p>Referente non <code>HTTP referer</code> consentito per il partner <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>L’ <code>HTTP referer</code> intestazione della chiamata non è consentita per l’ID partner nella chiamata. Verificate che l’ <code>HTTP referer</code> intestazione sia corretta.</p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>111 </p> </td> 
-   <td colname="col2"> <p>Token <span class="wintitle"> IMS</span> non valido ricevuto </p> </td> 
-   <td colname="col3"> <p>Restituito per  integrazioni Audience Manager -  Adobe Target. L'errore viene generato quando viene effettuata una chiamata al DCS contenente un token IMS non valido. Il token potrebbe essere danneggiato, scaduto o l'utente potrebbe non essere autorizzato ad accedere alla risorsa richiesta. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Codice errore|Messaggio di errore|Descrizione|
+|—|—|—|
+|100|Impossibile recuperare il nome host per la richiesta|Una [!DNL API] chiamata non ha inviato l&#39; [!DNL HTTP] intestazione host nella richiesta. Aggiungete l’intestazione dell’host alla chiamata e riprovate. La maggior parte dei browser e [!DNL API] dei client lo fanno automaticamente. |
+|101|ID [!DNL Experience Cloud] non valido passato `ID`|La [!DNL DCS] chiamata contiene un [!DNL Experience Cloud] ID non valido. Controllare la coppia chiave-valore nella stringa di intestazione. `d_mid=` Accertatevi di trasmettere l&#39; [!DNL Experience Cloud] ID corretto e riprovate. |
+|102|Richiesta [!DNL AAM ID] passata non valida `ID`|La [!DNL DCS] chiamata contiene un [!DNL Audience Manager] ID non valido. Controllare la coppia chiave-valore nella stringa di intestazione. `d_uuid=` Accertatevi di trasmettere l&#39; [!DNL Audience Manager] ID corretto e riprovate. |
+|104|Tutti gli ID cliente non sono validi | Tutti gli ID cliente nella chiamata non sono validi. Controlla gli ID e riprova.|
+|109|Referente non `HTTP referer` consentito per il partner `Partner ID`|L&#39; `HTTP referer` intestazione della chiamata non è consentita per l&#39;ID partner nella chiamata. Verificate che l’ `HTTP referer` intestazione sia corretta.|
+|111|Token non valido ricevuto `IMS` |Restituito per [!DNL Audience Manager] - [!DNL Adobe Target] integrazioni. L&#39;errore viene generato quando viene effettuata una chiamata al [!DNL DCS], contenente un token non valido [!DNL IMS] . Il token potrebbe essere danneggiato, scaduto o l&#39;utente potrebbe non essere autorizzato ad accedere alla risorsa richiesta.|
 
 ## Codici di errore di rifiuto {#opt-out-error-codes}
 
