@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Feed dati cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1890'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ Informazioni di base sui [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) file
 
 <!-- cdf-intro.xml -->
 
-Un [!UICONTROL CDF] file contiene gli stessi dati che una chiamata [!DNL Audience Manager] evento ( `/event`) invia ai nostri server. Ciò include dati come ID utente, ID caratteristica, ID segmento e tutti gli altri parametri acquisiti da una chiamata evento. I [!DNL Audience Manager] sistemi interni elaborano i dati evento in un [!UICONTROL CDF] file con il contenuto organizzato in campi che vengono visualizzati in un ordine impostato. [!DNL Audience Manager] tenta di generare [!UICONTROL CDF] i file ogni ora e li memorizza in un bucket sicuro e specifico per il cliente su un [!DNL Amazon S3] server. Forniamo questi file in modo che possiate lavorare con [!DNL Audience Manager] i dati al di fuori dei limiti imposti dalla nostra interfaccia utente.
+Un [!UICONTROL CDF] file contiene gli stessi dati che una chiamata [!DNL Audience Manager] evento (`/event`) invia ai nostri server. Ciò include dati come ID utente, ID caratteristica, ID segmento e tutti gli altri parametri acquisiti da una chiamata evento. I [!DNL Audience Manager] sistemi interni elaborano i dati evento in un [!UICONTROL CDF] file con il contenuto organizzato in campi che vengono visualizzati in un ordine impostato. [!DNL Audience Manager] tenta di generare [!UICONTROL CDF] i file ogni ora e li memorizza in un bucket sicuro e specifico per il cliente su un [!DNL Amazon S3] server. Forniamo questi file in modo che possiate lavorare con [!DNL Audience Manager] i dati al di fuori dei limiti imposti dalla nostra interfaccia utente.
 
 >[!NOTE]
 >
@@ -70,7 +73,7 @@ Un [!UICONTROL CDF] file include alcuni o tutti i campi definiti di seguito. Per
   <tr> 
    <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>Si tratta dell’ <span class="wintitle"> ID</span> utente univoco (UUID), un ID dispositivo di 38 cifre per il visitatore del sito. Vedi anche, <a href="../reference/ids-in-aam.md"> Indice degli ID in Audience Manager</a>. </p> </td> 
+   <td colname="col3"> <p>Si tratta dell’ <span class="wintitle"> ID</span> utente univoco (UUID), un ID dispositivo di 38 cifre per il visitatore del sito. Vedi anche <a href="../reference/ids-in-aam.md"> Indice degli ID in  Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
@@ -105,7 +108,7 @@ Un [!UICONTROL CDF] file include alcuni o tutti i campi definiti di seguito. Per
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>L’ <span class="keyword"> Experience Cloud</span> ID (MID) assegnato al visitatore del sito. Vedi anche <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il servizio</a>Adobe Experience Platform Identity. </p> </td> 
+   <td colname="col3"> <p>L’ <span class="keyword"> ID Experience Cloud</span> (MID)  assegnato al visitatore del sito. Vedi anche <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies e Adobe  Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -149,7 +152,7 @@ Elenca e definisce la struttura dati di un [!UICONTROL CDF] file. Sono inclusi s
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sequenza campi </p> </td> 
-   <td colname="col2"> <p> <p>Importante: <span class="keyword"> Audience Manager</span> si riserva il diritto di aggiungere nuovi campi alla fine del file CDF nelle release future. Ciò significa che la progettazione tecnica del sistema di analisi dei file non deve assumere un numero fisso di colonne (anche se può assumere un ordine fisso per le colonne esistenti). </p> </p> <p>I dati nel file CDF vengono visualizzati nell'ordine indicato di seguito. </p> <p> 
+   <td colname="col2"> <p> <p>Importante: <span class="keyword">  Audience Manager</span> si riserva il diritto di aggiungere nuovi campi alla fine del file CDF nelle release future. Ciò significa che la progettazione tecnica del sistema di analisi dei file non deve assumere un numero fisso di colonne (anche se può assumere un ordine fisso per le colonne esistenti). </p> </p> <p>I dati nel file CDF vengono visualizzati nell'ordine indicato di seguito. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Ora evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
@@ -159,7 +162,7 @@ Elenca e definisce la struttura dati di un [!UICONTROL CDF] file. Sono inclusi s
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parametri di richiesta </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referente </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Indirizzo IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (o MID). Vedi anche, <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e Adobe Experience Platform Identity Service</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8"> ID dispositivo Experience Cloud (o MID). Vedi anche, <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e  Adobe Experience Platform Identity Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Tutti i segmenti </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Tutte le caratteristiche </li> 
      </ol> </p> <p>Per le descrizioni dei campi, vedi <a href="#cdf-defined"> Contenuto feed dati cliente definito</a>. </p> </td> 
@@ -241,7 +244,7 @@ Nella tabella seguente sono elencati e definiti gli elementi presenti nel nome d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
-   <td colname="col2"> <p>Un ID processo interno <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>Un ID di processo Audience Manager <span class="keyword"></span>  interno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
@@ -373,8 +376,8 @@ La tabella seguente fornisce ulteriori dettagli sulle marche temporali [!UICONTR
 
 | Posizione timestamp | Descrizione |
 |--- |--- |
-| Nome file | La marca temporale nel nome del file CDF indica l’ora in cui è [!DNL Audience Manager] iniziata la preparazione del file per la consegna. Questa marca temporale è impostata nel fuso orario UTC. Utilizza il `hour=` parametro, con il tempo formattato come ora a 2 cifre nella notazione a 24 ore. Questa ora può essere diversa dall&#39;ora dell&#39;evento registrata nel contenuto del file. BREAKWquando si lavora con file CDF, a volte si noterà che il bucket S3 è vuoto per un&#39;ora particolare. Un bucket vuoto può indicare una delle seguenti situazioni:<ul><li>Non ci sono dati per quella particolare ora. </li><li> I nostri server sono sottoposti a carichi pesanti e non possono elaborare i file per un&#39;ora particolare. Quando il server raggiunge, inserisce i file che avrebbero dovuto passare in un bucket di tempo precedente in un bucket con un valore di ora successivo. Ad esempio, questo verrà visualizzato quando un file che avrebbe dovuto essere nel bucket ore 17 viene visualizzato nel bucket ore 18 (con `hour=18` nel nome del file). In questo caso, il server probabilmente ha iniziato l&#39;elaborazione del file nell&#39;ora 17 ma non è stato possibile completarlo entro tale intervallo di tempo. Al contrario, il file viene inviato al bucket orario successivo.</li></ul><br>**Importante **: Non utilizzate la marca temporale del nome del file per raggruppare gli eventi per ora. Per raggruppare in base all’ora, usate la`EventTime`marca temporale nel contenuto del file. |
-| Sommario file | La marca temporale nel contenuto del file CDF indica l&#39;ora in cui i server di raccolta dati hanno iniziato a elaborare il file. Questa marca temporale è impostata nel fuso orario UTC. Utilizza il `EventTime` campo, con il tempo formattato come *`yyyy-mm-dd hh:mm:ss`*. Questa ora è vicina all&#39;ora effettiva dell&#39;evento sulla pagina, ma può essere diversa dall&#39;indicatore dell&#39;ora nel nome del file. <br> **Suggerimento**: A differenza della `hour=` marca temporale nel nome del file, è possibile raggruppare i dati `EventTime` per ora. |
+| Nome file | La marca temporale nel nome del [!DNL CDF] file indica l’ora in cui è [!DNL Audience Manager] iniziata la preparazione del file per la consegna. Questa marca temporale è impostata nel fuso [!DNL UTC] orario. Utilizza il `hour=` parametro, con il tempo formattato come ora a 2 cifre nella notazione a 24 ore. Questa ora può essere diversa dall&#39;ora dell&#39;evento registrata nel contenuto del file. Quando lavorate con [!DNL CDF] i file, talvolta noterete che il [!DNL S3] bucket è vuoto per un&#39;ora particolare. Un bucket vuoto può indicare una delle seguenti situazioni:<ul><li>Non ci sono dati per quella particolare ora. </li><li> I nostri server sono sottoposti a carichi pesanti e non possono elaborare i file per un&#39;ora particolare. Quando il server raggiunge, inserisce i file che avrebbero dovuto passare in un bucket di tempo precedente in un bucket con un valore di ora successivo. Ad esempio, questo verrà visualizzato quando un file che avrebbe dovuto essere nel bucket ore 17 viene visualizzato nel bucket ore 18 (con `hour=18` nel nome del file). In questo caso, il server probabilmente ha iniziato l&#39;elaborazione del file nell&#39;ora 17 ma non è stato possibile completarlo entro tale intervallo di tempo. Al contrario, il file viene inviato al bucket orario successivo.</li></ul><br>**Importante **: Non utilizzate la marca temporale del nome del file per raggruppare gli eventi per ora. Per raggruppare in base all’ora, usate la`EventTime`marca temporale nel contenuto del file. |
+| Sommario file | La marca temporale nel contenuto del [!DNL CDF] file indica l&#39;ora in cui il file è stato [!DNL Data Collection Servers] avviato. Questa marca temporale è impostata nel fuso [!DNL UTC] orario. Utilizza il `EventTime` campo, con il tempo formattato come *`yyyy-mm-dd hh:mm:ss`*. Questa ora è vicina all&#39;ora effettiva dell&#39;evento sulla pagina, ma può essere diversa dall&#39;indicatore dell&#39;ora nel nome del file. <br> **Suggerimento**: A differenza della `hour=` marca temporale nel nome del file, è possibile raggruppare i dati `EventTime` per ora. |
 
 >[!MORELIKETHIS]
 >
