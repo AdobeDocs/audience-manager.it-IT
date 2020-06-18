@@ -1,78 +1,80 @@
 ---
-description: Questa pagina illustra il processo di creazione dei pixel del pubblico personalizzato del sito Web Facebook (WCA) allo scopo di inviare segmenti di pubblico di Audience Manager basati su Web a Facebook, per il targeting degli annunci online con una migliore trasparenza.
-seo-description: Questa pagina illustra il processo di creazione dei pixel del pubblico personalizzato del sito Web Facebook (WCA) allo scopo di inviare segmenti di pubblico di Audience Manager basati su Web a Facebook, per il targeting degli annunci online con una migliore trasparenza.
+description: Questa pagina illustra il processo di creazione dei pixel del pubblico personalizzato del sito Web Facebook (WCA) allo scopo di inviare a Facebook segmenti di pubblico Audience Manager basati sul Web, per il targeting di annunci online con una migliore trasparenza.
+seo-description: Questa pagina illustra il processo di creazione dei pixel del pubblico personalizzato del sito Web Facebook (WCA) allo scopo di inviare a Facebook segmenti di pubblico Audience Manager basati sul Web, per il targeting di annunci online con una migliore trasparenza.
 seo-title: Integrazione WCA Facebook
 solution: Audience Manager
 title: Integrazione WCA Facebook
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 2%
 
 ---
 
 
 # Integrazione WCA Facebook {#facebook-wca-integration}
 
-Questa pagina illustra il processo di creazione dei pixel del pubblico personalizzato del sito Web Facebook (WCA) allo scopo di inviare segmenti di pubblico di Audience Manager basati su Web a Facebook, per il targeting degli annunci online con una migliore trasparenza.
+Questa pagina illustra il processo di creazione di [!DNL Facebook Website Custom Audiences] ([!DNL WCA]) pixel per l’invio di segmenti di [!DNL Audience Manager] pubblico basati sul Web a [!DNL Facebook], per il targeting di annunci online con maggiore trasparenza.
 
 ## Panoramica {#overview}
 
-[Il sito Web di Facebook Custom Audiences (WCA)](https://www.facebook.com/business/help/449542958510885) consente di creare un elenco di persone che hanno visitato determinate pagine o che hanno effettuato particolari azioni sul sito Web. Audience Manager abilita l&#39;attivazione in WCA utilizzando destinazioni URL, con le quali puoi configurare un&#39;integrazione personalizzata basata sui pixel per inviare audience basate sul Web a Facebook per il targeting.
+[Il sito Web di Facebook Custom Audiences (WCA)](https://www.facebook.com/business/help/449542958510885) consente di creare un elenco di persone che hanno visitato determinate pagine o che hanno effettuato particolari azioni sul sito Web. [!DNL Audience Manager] abilita l&#39;attivazione utilizzando [!DNL WCA] le [!DNL URL] destinazioni, con cui puoi configurare un&#39;integrazione personalizzata basata su pixel per inviare audience basate sul Web [!DNL Facebook] per il targeting.
 
 ![Integrazione WCA Facebook](/help/using/integration/assets/facebook-wca-integration.png)
 
 >[!IMPORTANT]
 >
-> Questa funzionalità richiede la selezione dell&#39;opzione Pubblico del sito Web per le piattaforme social nelle destinazioni [](/help/using/features/destinations/create-url-destination.md)URL. Le piattaforme social richiedono che le informazioni sul referente vengano smascherate quando inviate alla propria piattaforma. Questo significa che la piattaforma o il partner di destinazione sarà in grado di visualizzare le informazioni nell’URL del referente.
+> Questa funzionalità richiede la selezione dell&#39;opzione Pubblico del sito Web per le piattaforme social nelle destinazioni [](/help/using/features/destinations/create-url-destination.md)URL. Le piattaforme social richiedono che le informazioni sul referente vengano smascherate quando inviate alla propria piattaforma. Questo significa che la piattaforma/il partner di destinazione sarà in grado di visualizzare le informazioni nel referente [!DNL URL].
 
 ## Prerequisiti {#prerequisites}
 
-1. Account annuncio Facebook
-2. Segmenti di Audience Manager, pronti per essere assegnati alla nuova destinazione Facebook. Di seguito [viene illustrato come creare un segmento](/help/using/features/segments/segment-builder.md) nell’interfaccia utente di Audience Manager.
-3. Adobe Experience Platform Identity Service (ECID) versione 4.1.0 o successiva. Scarica la versione più recente **[qui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. Libreria di integrazione dei dati di Audience Manager (DIL) versione 9.0 o successiva, scaricabile da **[qui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. In alternativa, se utilizzate[Server-Side Forwarding (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)per importare dati in Audience Manager, dovete utilizzare AppMeasurement versione 2.12 o successiva. Scarica AppMeasurement tramite[Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
+1. [!DNL Facebook Ad Account]
+2. [!DNL Audience Manager] segmenti, pronti per essere assegnati alla nuova [!DNL Facebook] destinazione. Questo è [come creare un segmento](/help/using/features/segments/segment-builder.md) nell&#39; [!DNL Audience Manager] interfaccia utente.
+3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versione 4.1.0 o successiva. Scarica la versione più recente **[qui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versione 9.0 o successiva, scaricabile da **[qui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. In alternativa, se per importare i dati in un file SSF ([Server-Side Forwarding)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)[!DNL Audience Manager]utilizzate la versione 2.12 o successiva di AppMeasurement, devi usare la versione 2.12 o successiva. Scarica[!DNL AppMeasurement]utilizzando[Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 
-È consigliabile installare o aggiornare le librerie nei passaggi 3 e 4 tramite [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) o [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
+È consigliabile installare o aggiornare le librerie nei passaggi 3 e 4 tramite [Launch](https://docs.adobelaunch.com/) Adobe Experience Platform o Gestione [tag dinamica](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)Adobe.
 
-## Passaggio 1 - Creare una destinazione Facebook in Audience Manager {#step-1-create-facebook-destination}
+## Passaggio 1 - Creare una destinazione Facebook in  Audience Manager {#step-1-create-facebook-destination}
 
-Create una nuova destinazione URL in Audience Manager e denominatela Facebook Website Custom Audiences. Durante la creazione della destinazione, usate le impostazioni riportate di seguito. Potete anche fare riferimento alla pagina [Configura una destinazione](/help/using/features/destinations/create-url-destination.md) URL.
+Create un nuovo [!UICONTROL URL Destination] in [!DNL Audience Manager] e denominatelo [!DNL Facebook Website Custom Audiences]. Durante la creazione della destinazione, usate le impostazioni riportate di seguito. Potete anche fare riferimento alla pagina [Configura una destinazione](/help/using/features/destinations/create-url-destination.md) URL.
 
-**Informazioni di base**
+### Informazioni di base
 
-* **Categoria**: Personalizzato
-* **Tipo**: URL
-* Selezionate la casella di controllo Mappatura **destinazione di riempimento** automatico, quindi selezionate ID **** segmento.
+* **[!UICONTROL Category]**: Personalizzato
+* **[!UICONTROL Type]**: URL
+* Selezionare la **[!UICONTROL Auto-fill Destination Mapping]** casella di controllo, quindi selezionare **[!UICONTROL Segment ID]**.
 
-**Etichette esportazione dati**
+### Etichette esportazione dati
 
-Selezionare l&#39;opzione **Questa destinazione può abilitare una combinazione con informazioni personali (PII)**.
+Selezionate l’opzione **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**.
 
 >[!NOTE]
 >
 > Questa etichetta di esportazione impedisce l&#39;inclusione nei segmenti di dati e dati di terze parti derivati dai grafici dei dispositivi.
 
-**Configurazione**
+### Configurazione
 
-* **Tipo** URL: Selezionate **Pubblico del sito Web per le piattaforme** social. Selezionando questa opzione Tipo URL, Audience Manager non oscura le informazioni dell’URL del referente quando si attiva un pixel WCA di Facebook.
-* **Serializza**: Selezionate **Abilita**.
-* Nel campo URL **di** base e URL **** sicuro, immettete il pixel WCA di Facebook.
-* **Delimitatore**: ,
+* **[!UICONTROL URL type]**: Select **[!UICONTROL Website audience for social platforms]**. Selezionando questa [!UICONTROL URL Type] opzione, [!DNL Audience Manager] non nasconde [!DNL URL] le informazioni del referente quando si attiva un [!DNL Facebook WCA] pixel.
+* **[!UICONTROL Serialize]**: Select **[!UICONTROL Enable]**.
+* Nel campo **[!UICONTROL Base URL]** e **[!UICONTROL Secure URL]** , inserite il [!DNL Facebook WCA] pixel.
+* **[!UICONTROL Delimiter]**: ,
 
-Esempio di URL di base: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
+Esempio [!DNL URL] di base: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
 
-Esempio di pixel generato dalla pagina. Questo esempio mostra un utente idoneo per tre segmenti di Audience Manager, con gli ID 3401321, 2993399, 3263410:
+Esempio di pixel generato dalla pagina. Questo esempio mostra un utente idoneo per tre [!DNL Audience Manager] segmenti, con gli ID 3401321, 2993399, 3263410:
 
 `https://www.facebook.com/tr/?id=6876666666662303&ev=Adobe-Audience-Manager-Segment&cd[segID]=3401321,2993399,3263410&noscript=1`
 
-
 | Parametro | Descrizione |
 ---------|----------|
-| `id` | L’ID pixel di Facebook, che potete trovare nell’interfaccia di Facebook Ad Manager quando create i pixel del pubblico. |
-| `ev` | Evento. Si tratta di un valore arbitrario che verrà visualizzato nell’interfaccia utente di Facebook Ad Manager una volta che il pixel inizia a essere attivato sul sito. Per ulteriori informazioni, consulta l’articolo Includi nel [passaggio 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience). |
-| `cd[segID]` | Un parametro aggiuntivo, che inizierà a essere popolato nell’interfaccia utente di Facebook Ad Manager una volta che il pixel inizia a essere attivato sul sito. `segID` è anche arbitrario. |
-| `%ALIAS%` | Una macro di Audience Manager, che verrà sostituita dinamicamente con gli ID del segmento di Audience Manager per i quali il visitatore del sito si qualifica, delimitata da virgola , |
+| `id` | L’ID [!DNL Facebook] pixel, che potete trovare nell’interfaccia [!DNL Facebook Ad Manager] utente quando create i pixel del pubblico. |
+| `ev` | Event.     Si tratta di un valore arbitrario, che verrà visualizzato nell&#39;interfaccia [!DNL Facebook Ad Manager] utente quando il pixel inizia a essere attivato sul sito. Per ulteriori informazioni, vedi [!UICONTROL Include] l&#39;elemento nel [Passaggio 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience). |
+| `cd[segID]` | Un parametro aggiuntivo, che inizierà a essere popolato all&#39;interno dell&#39;interfaccia [!DNL Facebook Ad Manager] utente una volta che il pixel inizia a essere attivato sul sito. `segID` è anche arbitrario. |
+| `%ALIAS%` | Una [!DNL Audience Manager] macro, che verrà sostituita dinamicamente con gli ID [!DNL Audience Manager] del segmento per i quali il visitatore del sito può usufruire, delimitata da virgola , |
 
-La configurazione della destinazione URL deve essere simile a quella dell’immagine seguente:
+La [!UICONTROL URL destination] configurazione dovrebbe essere simile a quella dell&#39;immagine seguente:
 
 ![Configurazione della destinazione](/help/using/integration/assets/facebook-wca.png)
 
@@ -80,32 +82,30 @@ Salva la destinazione. Quindi, puoi procedere al passaggio **Mappature** segment
 
 ## Passaggio 2 - Mappature segmento - Mappa segmento a destinazione {#step-2-segment-mappings}
 
-Nel flusso di lavoro [Configura destinazione](/help/using/features/destinations/create-url-destination.md) URL, mappate il segmento applicabile alla destinazione appena creata. Il valore di mappatura viene popolato automaticamente con l’ID del segmento di Audience Manager.
+Nel flusso di lavoro [Configura destinazione](/help/using/features/destinations/create-url-destination.md) URL, mappate il segmento applicabile alla destinazione appena creata. Il valore di mappatura viene popolato automaticamente con l’ID del [!DNL Audience Manager] segmento.
 
 Se applicabile, inserire una data di fine. In caso contrario lasciare vuoto il campo per nessuna data di fine.
 
 ## Passaggio 3 - Creazione di un pubblico in Facebook Ads Manager {#step-3-create-audience}
 
-Consultate [Creare un pubblico](https://www.facebook.com/business/help/666509013483225) personalizzato per il sito Web nella documentazione di Facebook. Seleziona le opzioni Crea pubblico nella tabella seguente:
-
+Consultate [Creare un pubblico](https://www.facebook.com/business/help/666509013483225) personalizzato per il sito Web nella documentazione dell&#39; [!DNL Facebook] Aiuto. Selezionare le [!UICONTROL Create Audience] opzioni nella tabella seguente:
 
 | Elemento | Descrizione |
 ---------|----------|
 | Traffico sito Web | Combinazione personalizzata |
-| Includi | <ul><li>Selezionate **Evento** > Seleziona segmento **Adobe-Audience-Manager**. Questo è il valore del parametro ev nel pixel di esempio nel passaggio 1. Se il pixel deve ancora essere attivato, l’opzione **Evento** o **Adobe-Audience-Manager-Segment** potrebbero non essere visualizzate nell’interfaccia utente di Facebook.</li><li>Aggiungete un parametro: Selezionare `segID`.</li><li><p>Selezionare l&#39;operatore **contains** .</p><p>Ciò è importante, poiché i visitatori possono essere idonei per più segmenti, nel parametro pixel possono essere presenti più ID segmento. L&#39;utilizzo dell&#39;operatore uguale a (=) potrebbe non essere adatto ai visitatori per il pubblico, e si osserverà un volume inferiore.</p></li><li>Aggiungete un valore: Immettete l’ID del segmento di Audience Manager.</li></ul> |
+| Includi | <ul><li>Selezionate **Evento** > Seleziona segmento **Adobe-Audience-Manager**. Questo è il valore del parametro ev nel pixel di esempio nel passaggio 1. Se il pixel deve ancora essere attivato, l’opzione **Evento** o **Adobe-Audience-Manager-Segment** potrebbero non essere visualizzate nell’interfaccia utente di Facebook.</li><li>Aggiungete un parametro: Selezionare `segID`.</li><li><p>Selezionare l&#39;operatore **contains** .</p><p>Ciò è importante, poiché i visitatori possono essere idonei per più segmenti, nel parametro pixel possono essere presenti più ID segmento. L&#39;utilizzo dell&#39;operatore uguale a (=) potrebbe non essere adatto ai visitatori per il pubblico, e si osserverà un volume inferiore.</p></li><li>Aggiungete un valore: Immettete l’ID del [!DNL Audience Manager] segmento.</li></ul> |
 | Aggiungi nuova condizione | Impostazione opzionale. |
 | Nell&#39;ultimo | Impostazione opzionale. |
-| Nome audience | È consigliabile utilizzare lo stesso nome del segmento di Audience Manager per garantire la coerenza, a meno che non vengano aggiunte condizioni aggiuntive a questo pubblico. |
+| Nome audience | È consigliabile utilizzare lo stesso nome di [!DNL Audience Manager] segmento per coerenza, a meno che non vengano aggiunte condizioni aggiuntive a questo pubblico. |
 
 ## Passaggio 4 - Assegnare l&#39;audience a una campagna in Facebook Ads Manager {#step-4-assign-audience-to-campaign}
 
-Dopo aver creato l&#39;audience personalizzata, assegnatela a una campagna pubblicitaria. Crea una nuova campagna o ne modifichi una esistente e troverai che il pubblico appena creato è elencato nell&#39;interfaccia utente di Facebook. La tua campagna pubblicitaria sarà indirizzata agli utenti che hanno visto il pixel in fiamme sul loro browser quando visitano il tuo sito, se Audience Manager li include nel segmento.
+Dopo aver creato il [!DNL Custom Audience], assegnatelo a una campagna pubblicitaria. Crea una nuova campagna o ne modifichi una esistente e troverai che il pubblico appena creato è elencato nell&#39;interfaccia [!DNL Facebook] utente. La campagna pubblicitaria verrà indirizzata agli utenti che hanno visto l’attivazione dei pixel nel browser durante la visita al sito, se [!DNL Audience Manager] li include nel segmento.
 
 ## Riepilogo {#summary}
 
-Ora che hai assegnato il segmento Audience Manager alla destinazione Facebook WCA, Audience Manager attiverà selettivamente il pixel Facebook WCA per gli utenti di un dato segmento con il rispettivo ID segmento nel pixel per popolare il pubblico Facebook. Questo comporta un aumento graduale dell&#39;audience di Facebook più il tag viene usato per l&#39;audience applicabile sul sito.
+Dopo aver assegnato il [!DNL Audience Manager] segmento alla [!DNL Facebook WCA] destinazione, [!DNL Audience Manager] attiva selettivamente il [!DNL Facebook WCA] pixel per gli utenti di un dato segmento con il rispettivo ID di segmento nel pixel per la compilazione [!DNL Facebook Audience]. Ciò comporta un aumento graduale [!DNL Facebook Audience] quanto più il tag viene trasmesso al pubblico applicabile sul sito.
 
 >[!NOTE]
 >
-> Se un utente non rientra nel segmento di Audience Manager, al momento Audience Manager non può informare Facebook per rimuovere l’utente dal pubblico personalizzato.
-
+> Se un utente non rientra nel [!DNL Audience Manager] segmento, al momento non è possibile [!DNL Audience Manager] informare [!DNL Facebook] per rimuovere l&#39;utente dal [!DNL Custom Audience].
