@@ -6,14 +6,17 @@ solution: Audience Manager
 title: Formattazione delle coppie chiave-valore nelle chiamate DCS
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 1%
 
 ---
 
 
 # Formattazione delle coppie chiave-valore nelle chiamate DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-Quando si effettua una chiamata, l'utente [!UICONTROL DCS] accetta dati chiave-valore in formato standard o serializzato. Leggere questa sezione per informazioni su come formattare dati chiave-valore standard e serializzati.
+Quando si effettua una chiamata, l&#39;utente [!DNL DCS] accetta dati chiave-valore in formato standard o serializzato. Leggere questa sezione per informazioni su come formattare dati chiave-valore standard e serializzati.
 
 ## Coppie chiave e valore serializzato {#standard-serialized}
 
@@ -41,7 +44,7 @@ Quando si effettua una chiamata, l'utente [!UICONTROL DCS] accetta dati chiave-v
 
 ## Delimitatori e separatori per coppie chiave-valore serializzate {#delimiters-separators}
 
-Con coppie chiave-valore serializzate, dovete specificare gli indicatori che separano i valori all'interno e tra queste variabili. Audience Manager richiede i seguenti delimitatori e separatori:
+Con coppie chiave-valore serializzate, dovete specificare gli indicatori che separano i valori all&#39;interno e tra queste variabili.  Audience Manager richiede i seguenti delimitatori e separatori:
 
 <table id="table_8FD4E6B9506943AEA619D4089913ECBC"> 
  <thead> 
