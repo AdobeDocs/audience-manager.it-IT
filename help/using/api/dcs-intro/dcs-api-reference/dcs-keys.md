@@ -7,18 +7,21 @@ title: Attributi supportati per le chiamate API DCS
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 2%
 
 ---
 
 
 # Attributi supportati per le chiamate API DCS {#supported-attributes-for-dcs-api-calls}
 
-Elenca e descrive la sintassi e gli attributi supportati (o coppie chiave-valore) che potete trasmettere al [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). Queste informazioni sono utili per formattare [!UICONTROL DCS] le richieste e comprendere i parametri restituiti dal sistema.
+Elenca e descrive la sintassi e gli attributi supportati (o coppie chiave-valore) che potete trasmettere al [!UICONTROL Data Collection Servers] ([!DNL DCS]). Queste informazioni sono utili per formattare [!DNL DCS] le richieste e comprendere i parametri restituiti dal sistema.
 
 ## Prefissi di attributi {#attribute-prefixes}
 
-Per classificare il tipo di dati che si sta trasmettendo, le chiavi [!UICONTROL DCS] si basano su specifici prefissi aggiunti alle chiavi in coppie chiave-valore.
+Per classificare il tipo di dati che si sta trasmettendo, le chiavi [!DNL DCS] si basano su specifici prefissi aggiunti alle chiavi in coppie chiave-valore.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -34,7 +37,7 @@ Per classificare il tipo di dati che si sta trasmettendo, le chiavi [!UICONTROL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Attributi di Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p><span class="keyword">  gli attributi Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> h_</code> </p> </td> 
@@ -42,14 +45,14 @@ Per classificare il tipo di dati che si sta trasmettendo, le chiavi [!UICONTROL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Attributi privati definiti dal cliente. </p> <p> Il DCS accetta dati personali e privati quando la chiave ha un <code> p_</code> prefisso. I dati privati vengono utilizzati per la valutazione delle caratteristiche, ma non vengono registrati o memorizzati nel nostro sistema. Ad esempio, consente di specificare che la caratteristica è definita come <code> customers = p_age&lt;25</code> e di passare <code> p_age=23</code> in una chiamata all'evento. Date queste condizioni, l'utente che soddisfa i criteri di qualifica basati sull'età si qualifica per la caratteristica, ma la coppia chiave-valore viene eliminata dopo che <span class="keyword"> Audience Manager</span> riceve la richiesta e non viene registrato. </p> </td>
+   <td colname="col2"> <p>Attributi privati definiti dal cliente. </p> <p> Il DCS accetta dati personali e privati quando la chiave ha un <code> p_</code> prefisso. I dati privati vengono utilizzati per la valutazione delle caratteristiche, ma non vengono registrati o memorizzati nel nostro sistema. Ad esempio, consente di specificare che la caratteristica è definita come <code> customers = p_age&lt;25</code> e di passare <code> p_age=23</code> in una chiamata all'evento. Date queste condizioni, l'utente che soddisfa i criteri di qualifica basati sull'età si qualifica per la caratteristica, ma la coppia chiave-valore viene eliminata dopo che <span class="keyword"> Audience Manager</span> riceve la richiesta e non viene registrata. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ## d_Attributes {#d-attributes}
 
-Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta da parte del [!UICONTROL DCS]. Se si desidera che [!UICONTROL DCS] restituisca una risposta, `d_rtbd=json` è necessario.
+Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta da parte del [!DNL DCS]. Se si desidera che [!DNL DCS] restituisca una risposta, `d_rtbd=json` è necessario.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
@@ -77,11 +80,11 @@ Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta d
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Disabilitare l'uso di cookie di terze parti per conformarsi alle norme sulla protezione dei bambini. Questo parametro viene impostato dinamicamente da Adobe Experience Platform Identity Service e dipende dalla <code> idSyncDisable3rdPartySyncing</code> configurazione. Consulta <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> Supporto COPPA nel servizio</a>Adobe Experience Platform Identity. </p> </td>
+   <td colname="col2"> <p>Disabilitare l'uso di cookie di terze parti per conformarsi alle norme sulla protezione dei bambini. Questo parametro viene impostato dinamicamente da Adobe  Adobe Experience Platform Identity Service e dipende dalla <code> idSyncDisable3rdPartySyncing</code> configurazione. Consulta <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> Supporto COPPA nel servizio</a>identità Adobe Experience Platform . </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
-   <td colname="col2"> <p>Facoltativo. Abilitato su richiesta del cliente. Contatta il tuo consulente Adobe Audience Manager o l'Assistenza clienti. </p> <p>Indica che le caratteristiche e i segmenti devono essere restituiti all'interno della <code> JSON</code> risposta. </p> <p> 
+   <td colname="col2"> <p>Facoltativo. Abilitato su richiesta del cliente. Contatta il tuo consulente  Adobe Audience Manager o l'Assistenza clienti. </p> <p>Indica che le caratteristiche e i segmenti devono essere restituiti all'interno della <code> JSON</code> risposta. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
       <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> restituisce ID segmento <a href="../../../reference/ids-in-aam.md"> legacy</a> per i segmenti. </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> restituisce gli ID del segmento per i segmenti. </p> </li>
@@ -111,7 +114,7 @@ Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta d
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst_filter</code> </p> </td> 
-   <td colname="col2"> <p><code> d_dst_filter</code> è un attributo riservato, utilizzato nell'integrazione tra Adobe Analytics e Audience Manager. </p> <p>È consigliabile non creare caratteristiche che utilizzano attributi riservati. Adobe può modificare gli attributi riservati in qualsiasi momento. </p> </td> 
+   <td colname="col2"> <p><code> d_dst_filter</code> è un attributo riservato, utilizzato nell'integrazione tra Adobe  Analytics e  Audience Manager. </p> <p>È consigliabile non creare caratteristiche che utilizzano attributi riservati. Adobe può modificare gli attributi riservati in qualsiasi momento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_jsonv=1|0</code> </p> </td> 
@@ -119,7 +122,7 @@ Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta d
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Specifica l’Experience Cloud ID impostato e utilizzato dal servizio <span class="keyword"> Experience Cloud</span> ID. Per ulteriori informazioni sull’ECID, vedi <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il servizio</a>Experience Cloud Identity. </p> </td> 
+   <td colname="col2"> <p>Specifica l’ID Experience Cloud  impostato e utilizzato dal servizio <span class="keyword">  ID Experience Cloud</span> . Per ulteriori informazioni sull’ECID, consulta <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il  Experience Cloud Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -127,7 +130,7 @@ Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta d
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
-   <td colname="col2"> <p>Consente a Audience Manager di distinguere le richieste per dispositivi mobili dalle richieste desktop. I valori supportati includono: </p> <p> 
+   <td colname="col2"> <p>Consente  Audience Manager di distinguere le richieste per dispositivi mobili dalle richieste desktop. I valori supportati includono: </p> <p> 
      <ul id="ul_A01D4B15C89F4713A39E08377924D632"> 
       <li id="li_E17CC839265B4EB9AC44A3DA31A23857"> <code> ios</code> </li> 
       <li id="li_468F5903CD3048B5AE02A3FDA9B3C4F1"> <code> android</code> </li> 
@@ -137,7 +140,7 @@ Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta d
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rs</code> </p> </td> 
-   <td colname="col2"> <p>Obsoleto. <code> d_rs</code> è un attributo riservato, utilizzato nell'integrazione legacy tra <span class="keyword"> Adobe Analytics</span> e <span class="keyword"> Audience Manager</span>. </p> <p>È consigliabile non creare caratteristiche che utilizzano attributi riservati. Adobe può modificare gli attributi riservati in qualsiasi momento. </p> </td> 
+   <td colname="col2"> <p>Obsoleto. <code> d_rs</code> è un attributo riservato, utilizzato nell'integrazione legacy tra <span class="keyword"> Adobe  Analytics</span> e <span class="keyword">  Audience Manager</span>. </p> <p>È consigliabile non creare caratteristiche che utilizzano attributi riservati. Adobe può modificare gli attributi riservati in qualsiasi momento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
