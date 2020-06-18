@@ -1,19 +1,22 @@
 ---
-description: Metodi che consentono di elencare a livello di programmazione le aree DCS di Audience Manager.
-seo-description: Metodi che consentono di elencare a livello di programmazione le aree DCS di Audience Manager.
+description: Metodi che consentono di elencare a livello di programmazione  aree DCS Audience Manager.
+seo-description: Metodi che consentono di elencare a livello di programmazione  aree DCS Audience Manager.
 seo-title: Metodi API per regione DCS
 solution: Audience Manager
 title: Metodi API per regione DCS
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
 
 # Metodi API per regione DCS {#dcs-region-api-methods}
 
-Metodi che consentono di elencare a livello di programmazione [!UICONTROL DCS] le aree di Audience Manager.
+Metodi che consentono di elencare a livello di programmazione  aree Audience Manager [!DNL DCS] .
 
 <!-- c_rest_api_regions.xml -->
 
@@ -21,7 +24,7 @@ For a list of regions and their corresponding integers, see [DCS Region IDs, Loc
 
 ## Elenca una specifica area DCS {#list-specific-dcs-region}
 
-Un `GET` metodo per elencare una [!UICONTROL DCS] regione specifica.
+Un `GET` metodo per elencare una [!DNL DCS] regione specifica.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -51,7 +54,7 @@ For a list of regions and their corresponding integers, see [DCS Region IDs, Loc
 
 ## Elenca regioni DCS {#list-dcs-regions}
 
-Un `GET` metodo per elencare [!UICONTROL DCS] le aree.
+Un `GET` metodo per elencare [!DNL DCS] le aree.
 
 <!-- r_rest_api_regions_list.xml -->
 
