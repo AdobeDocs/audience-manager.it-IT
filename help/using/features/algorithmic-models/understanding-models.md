@@ -7,7 +7,10 @@ solution: Audience Manager
 title: La Modellazione Con Aspetto
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1685'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +72,7 @@ A ogni utente delle origini dati selezionate viene assegnata una valutazione ute
 
 ### Passaggio 5: Visualizzazione e utilizzo dei risultati
 
-Audience Manager visualizza i risultati del modello ponderato in [!UICONTROL Trait Builder]. Per creare una caratteristica algoritmica, [!UICONTROL Trait Builder] è possibile creare caratteristiche basate sulla valutazione ponderata generata dall&#39;algoritmo durante un&#39;esecuzione dei dati. Potete scegliere una precisione più elevata per qualificare solo gli utenti con un punteggio utente molto elevato e quindi molto simile al pubblico previsto, anziché il resto del pubblico. Se desiderate raggiungere un pubblico più vasto (portata), potete ridurre la precisione.
+[!DNL Audience Manager] visualizza i risultati ponderati del modello in [!UICONTROL Trait Builder]. Per creare una caratteristica algoritmica, [!UICONTROL Trait Builder] è possibile creare caratteristiche basate sulla valutazione ponderata generata dall&#39;algoritmo durante un&#39;esecuzione dei dati. Potete scegliere una precisione più elevata per qualificare solo gli utenti con un punteggio utente molto elevato e quindi molto simile al pubblico previsto, anziché il resto del pubblico. Se desiderate raggiungere un pubblico più vasto (portata), potete ridurre la precisione.
 
 ### Passaggio 6: Rivalutare l&#39;importanza di una caratteristica nei cicli di elaborazione
 
