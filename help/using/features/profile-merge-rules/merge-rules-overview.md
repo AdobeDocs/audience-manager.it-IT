@@ -6,15 +6,15 @@ solution: Audience Manager
 title: Panoramica delle regole di unione dei profili
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: a077726fe4878aeb7722586654c27769e92e0665
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
 
 
-# Panoramica delle regole di unione dei profili {#profile-merge-rules-overview}
+# [!UICONTROL Profile Merge Rules] Panoramica {#profile-merge-rules-overview}
 
 Grazie a [!UICONTROL Profile Merge Rules] questa opzione è possibile controllare i set di dati utilizzati per la segmentazione e indirizzare gli utenti in modo accurato su più dispositivi.
 
@@ -28,34 +28,12 @@ In genere, la segmentazione del pubblico e il targeting si basano sui dati racco
 
 [!UICONTROL Profile Merge Rules] modifica in modo sostanziale il modo in cui [!DNL Audience Manager] raccoglie dati e segmenti gli utenti per il targeting. Consente di lavorare con due tipi distinti di profili, un profilo dispositivo e un profilo [](../../reference/visitor-authentication-states.md)autenticato.
 
-<table id="table_CE98C0E32A964B27804736A896233869"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Tipo di profilo </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Dispositivo profile </td> 
-   <td colname="col2"> <p>Un profilo dispositivo è associato a un ID per un determinato dispositivo, ad esempio un ID cookie o un ID dispositivo mobile. Include: </p> <p>
-     <ul id="ul_0420875DE65E44FFAC76E0DD205CFEC4"> 
-      <li id="li_044AD85C644A41FB8EF48164BAC0CE34">Caratteristiche basate su regole realizzate quando un utente non è autenticato. </li> 
-      <li id="li_984D9790A6984139AFCFC2DFE4DF1BFC">Caratteristiche registrate associate a un ID dispositivo, ad esempio dati di terze parti basati su cookie. </li>
-     </ul> </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> Profilo autenticato </td> 
-   <td colname="col2"> <p>Il profilo autenticato è associato a un ID utente passato quando una persona accede al sito. Include </p>
-    <ul id="ul_18319CAA875148DBAE095134D42637B3"> 
-     <li id="li_E24BD33E049849E5A594B0750F530475">Caratteristiche basate su regole raccolte tra dispositivi quando un utente viene autenticato. </li>
-     <li id="li_531AC9E0EC9D45108457FEC8E8D4E66C">Caratteristiche registrate in un file offline collegato allo stesso ID utente. </li>
-    </ul> </td>
-  </tr>
- </tbody>
-</table>
+| Tipo di profilo | Descrizione |
+|---|---|
+| [!UICONTROL Device Profile] | Un ID [!UICONTROL device profile] è associato a un ID per un determinato dispositivo, ad esempio un ID [!UICONTROL cookie] o un ID dispositivo mobile.<br><br> Include:<ul><li>[!UICONTROL Rule-based traits] realizzato quando un utente non è autenticato.</li><li>[!UICONTROL Onboarded traits] legato a un ID dispositivo, ad esempio dati di [!UICONTROL cookie-based]terze parti.</li></ul> |
+| [!UICONTROL Authenticated Profile] | Il collegamento [!UICONTROL authenticated profile] viene associato a un ID utente passato quando una persona accede al sito.<br><br>Include:<ul><li>[!UICONTROL Rule-based traits] raccolti tra dispositivi quando un utente è autenticato.</li><li>[!UICONTROL Onboarded traits] in un file offline collegato allo stesso ID utente.</li></ul> |
 
-Questi profili differenti controllano i dati che potete utilizzare per la segmentazione. Ad esempio, con un profilo [](../../reference/visitor-authentication-states.md)autenticato puoi creare segmenti precisi basati su dati provenienti da più dispositivi per un singolo utente. Questo significa che puoi offrire ai clienti un&#39;esperienza di marchio coerente su più dispositivi. [!DNL Audience Manager] per ottenere questo risultato, è necessario memorizzare la mappatura dei diversi dispositivi utilizzati da una persona per le proprie attività online sul proprio profilo [](../../reference/visitor-authentication-states.md)autenticato. Tali mappature sono denominate [!UICONTROL Profile Link Device Graph].
+Questi profili differenti controllano i dati che potete utilizzare per la segmentazione. Ad esempio, con un profilo [](../../reference/visitor-authentication-states.md)autenticato, puoi creare dati precisi [!UICONTROL segments] basati su dati provenienti da più dispositivi per un singolo utente. Questo significa che puoi offrire ai clienti un&#39;esperienza di marchio coerente su più dispositivi. [!DNL Audience Manager] per ottenere questo risultato, è necessario memorizzare la mappatura dei diversi dispositivi utilizzati da una persona per le proprie attività online sul proprio profilo [](../../reference/visitor-authentication-states.md)autenticato. Tali mappature sono denominate [!UICONTROL Profile Link Device Graph].
 
 ![](assets/authenticated2.png)
 
@@ -66,5 +44,5 @@ Questi profili differenti controllano i dati che potete utilizzare per la segmen
 * Utenti Target basati su profilo [](../../reference/visitor-authentication-states.md)autenticato, profili anonimi o combinazioni di entrambi.
 * Target un cliente specifico tra i loro dispositivi.
 * Crea un grafico del dispositivo basato su dati deterministici.
-* Ottimizza i dati nei tuoi segmenti in base a diversi profili.
+* Ottimizzate i dati in [!UICONTROL segments] base a diversi profili.
 * Ulteriori informazioni sul pubblico.
