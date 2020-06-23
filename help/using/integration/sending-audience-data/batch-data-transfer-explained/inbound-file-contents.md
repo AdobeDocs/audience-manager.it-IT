@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Sintassi contenuto file di dati in entrata, caratteri non validi, variabili ed esempi
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1193'
 ht-degree: 3%
 
 ---
@@ -78,9 +78,9 @@ La tabella elenca e definisce le variabili utilizzate in un file di dati in entr
  </tbody> 
 </table>
 
-## Formattazione degli ID caratteristica {#formatting-trait-ids}
+## Formattazione [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-Nella tabella seguente sono descritti i prefissi che identificano i nomi o gli ID delle caratteristiche in un file di dati in entrata. Per esempi, consultate i file [di](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) esempio.
+Nella tabella seguente sono descritti i prefissi che identificano [!UICONTROL trait] nomi o ID in un file di dati in entrata. Per esempi, consultate i file [di](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) esempio.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -124,13 +124,13 @@ Nella tabella seguente sono descritti i prefissi che identificano i nomi o gli I
  </tbody>
 </table>
 
-## Caratteri non validi negli ID caratteristica, negli ID utente e nelle coppie chiave-valore {#invalid-chars}
+## Caratteri non validi nelle coppie [!UICONTROL Trait IDs], [!UICONTROL User IDs] e chiave-valore {#invalid-chars}
 
-### ID caratteristica
+### [!UICONTROL Trait IDs]
 
-Gli ID caratteristica sono costituiti solo da caratteri numerici. Vi chiediamo di includere *solo le caratteristiche* registrate nei file di dati in entrata. Non vengono elaborati altri tipi di caratteristiche nel trasferimento dati in entrata.
+[!UICONTROL Trait IDs] sono costituiti solo da caratteri numerici. Vi chiediamo di includere *solo[!UICONTROL onboarded traits]*nei file di dati in entrata. Non vengono elaborati altri[!UICONTROL trait]tipi nel trasferimento dati in entrata.
 
-### ID utente
+### [!UICONTROL User IDs]
 
 <table id="table_8C5C7271B813441EA2D45CA2FE2A6C59"> 
  <thead> 
@@ -237,7 +237,7 @@ Anche i nomi di valori formattati in modo errato in una coppia chiave-valore cau
 
 ## Esempio di matrice {#examples-matrix}
 
-Il grafico seguente illustra alcuni esempi del modo corretto di formattare i file in entrata, a seconda del [tipo di ID](../../../reference/ids-in-aam.md) e del metodo con cui si desidera aggiungere caratteristiche ai profili.
+Il grafico seguente mostra alcuni esempi del modo corretto di formattare i file in entrata, a seconda del [tipo di ID](../../../reference/ids-in-aam.md) e del metodo con cui si desidera aggiungere [!UICONTROL traits] i profili.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -275,7 +275,7 @@ Il grafico seguente illustra alcuni esempi del modo corretto di formattare i fil
    <td colname="col1"> <p>Il tuo ID CRM (DPUUID) </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-13"> Esempio 13 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-14"> Esempio 14 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Esempio 15 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Esempio 14 </a> </p> </td> 
    <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-16"> Esempio 16 </a> </p> </td> 
   </tr> 
  </tbody> 
@@ -283,7 +283,7 @@ Il grafico seguente illustra alcuni esempi del modo corretto di formattare i fil
 
 ### Example 1 {#example-1}
 
-Usa gli ID caratteristica per inviare informazioni sulla qualifica delle caratteristiche [!DNL Audience Manager] a [!DNL UUIDs].
+Utilizzare [!UICONTROL trait IDs] per inviare [!UICONTROL trait] informazioni sui criteri di qualifica per [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -291,7 +291,7 @@ Usa gli ID caratteristica per inviare informazioni sulla qualifica delle caratte
 
 ### Example 2 {#example-2}
 
-Utilizzate gli ID caratteristica per inviare informazioni sull&#39;esclusione delle caratteristiche per [!DNL Audience Manager][!DNL UUIDs].
+Utilizzare [!UICONTROL trait IDs] per inviare [!UICONTROL trait] informazioni di interdizione per [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -311,7 +311,7 @@ Utilizzate gli ID caratteristica per inviare informazioni sull&#39;esclusione de
 
 ### Example 3 {#example-3}
 
-Invia coppie chiave-valore per aggiungere informazioni sulla qualifica delle caratteristiche per [!DNL Audience Manager][!DNL UUIDs].
+Inviate coppie chiave-valore per aggiungere [!UICONTROL trait] informazioni sulla qualifica per [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -325,7 +325,7 @@ Invia coppie chiave-valore per aggiungere informazioni sulla qualifica delle car
 
 ### Example 4 {#example-4}
 
-Utilizzate il prefisso ic per inviare informazioni sulla qualifica delle caratteristiche per [!DNL Audience Manager][!DNL UUIDs].
+Usate il `ic` prefisso per inviare [!UICONTROL trait] le informazioni sulla qualifica per [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -339,7 +339,7 @@ Utilizzate il prefisso ic per inviare informazioni sulla qualifica delle caratte
 
 ### Example 5 {#example-5}
 
-Utilizzate gli ID caratteristica per inviare informazioni sulla qualifica delle caratteristiche per [!DNL Android] i dispositivi.
+Da utilizzare [!UICONTROL trait IDs] per inviare [!UICONTROL trait] informazioni sui criteri di qualifica per [!DNL Android] i dispositivi.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -347,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 6 {#example-6}
 
-Utilizzate gli ID caratteristica per inviare informazioni sull&#39;esclusione delle caratteristiche per [!DNL Android] i dispositivi.
+Utilizzare [!UICONTROL trait IDs] per inviare informazioni [!UICONTROL trait] di squalifica per [!DNL Android] i dispositivi.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -367,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 7 {#example-7}
 
-Invia coppie chiave-valore per aggiungere informazioni sulla qualifica delle caratteristiche per [!DNL Android] i dispositivi.
+Inviate coppie chiave-valore per aggiungere [!UICONTROL trait] informazioni di qualifica per [!DNL Android] i dispositivi.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -381,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Example 8 {#example-8}
 
-Usate il prefisso ic per inviare informazioni sulla qualifica delle caratteristiche ai [!DNL Android] dispositivi.
+Usate il `ic` prefisso per inviare [!UICONTROL trait] le informazioni sulla qualifica per [!DNL Android] i dispositivi.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -395,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Example 9 {#example-9}
 
-Utilizzate gli ID caratteristica per inviare informazioni sulla qualifica delle caratteristiche per [!DNL iOS] i dispositivi.
+Da utilizzare [!UICONTROL trait IDs] per inviare [!UICONTROL trait] informazioni sui criteri di qualifica per [!DNL iOS] i dispositivi.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -403,7 +403,7 @@ Utilizzate gli ID caratteristica per inviare informazioni sulla qualifica delle 
 
 ### Example 10 {#example-10}
 
-Utilizzate gli ID caratteristica per inviare informazioni sull&#39;esclusione delle caratteristiche per [!DNL iOS] i dispositivi.
+Utilizzare [!UICONTROL trait IDs] per inviare informazioni [!UICONTROL trait] di squalifica per [!DNL iOS] i dispositivi.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -423,7 +423,7 @@ Utilizzate gli ID caratteristica per inviare informazioni sull&#39;esclusione de
 
 ### Example 11 {#example-11}
 
-Invia coppie chiave-valore per aggiungere informazioni sulla qualifica delle caratteristiche per [!DNL iOS] i dispositivi.
+Inviate coppie chiave-valore per aggiungere [!UICONTROL trait] informazioni di qualifica per [!DNL iOS] i dispositivi.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -437,7 +437,7 @@ Invia coppie chiave-valore per aggiungere informazioni sulla qualifica delle car
 
 ### Example 12 {#example-12}
 
-Usate il prefisso ic per inviare informazioni sulla qualifica delle caratteristiche ai [!DNL iOS] dispositivi.
+Usate il `ic` prefisso per inviare [!UICONTROL trait] le informazioni sulla qualifica per [!DNL iOS] i dispositivi.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -451,7 +451,7 @@ Usate il prefisso ic per inviare informazioni sulla qualifica delle caratteristi
 
 ### Example 13 {#example-13}
 
-Usa gli ID caratteristica per inviare informazioni sulla qualifica delle caratteristiche [!DNL DPUUIDs].
+Utilizzare [!UICONTROL trait IDs] per inviare [!UICONTROL trait] informazioni sui criteri di qualifica per [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -459,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Example 14 {#example-14}
 
-Utilizzate gli ID caratteristica per inviare informazioni sull&#39;esclusione delle caratteristiche per [!DNL DPUUIDs].
+Utilizzare [!UICONTROL trait IDs] per inviare [!UICONTROL trait] informazioni di interdizione per [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -479,7 +479,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Example 15 {#example-15}
 
-Invia coppie chiave-valore per aggiungere informazioni sulla qualifica delle caratteristiche [!DNL DPUUIDs].
+Inviate coppie chiave-valore per aggiungere [!UICONTROL trait] informazioni di qualifica a [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -493,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Example 16 {#example-16}
 
-Utilizzate il `ic` prefisso per inviare informazioni sulla qualifica delle caratteristiche per [!DNL DPUUIDs].
+Utilizzate il `ic` prefisso per inviare [!UICONTROL trait] le informazioni sulla qualifica per [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
