@@ -7,15 +7,15 @@ title: ' Audience Marketplace per gli acquirenti di dati'
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
 
 
-#  Audience Marketplace per gli acquirenti di dati {#audience-marketplace-for-data-buyers}
+# [!UICONTROL Audience Marketplace] per gli acquirenti di dati {#audience-marketplace-for-data-buyers}
 
 Panoramica e flusso di lavoro per gli acquirenti di dati che desiderano acquistare dati di terze parti dall&#39;interno [!DNL Audience Manager].
 
@@ -26,13 +26,11 @@ Panoramica e flusso di lavoro per gli acquirenti di dati che desiderano acquista
 >* Gli utenti possono cercare e visualizzare solo i feed.
 
 
-## Marketplace: Informazioni {#about-marketplace}
-
-<!-- c_marketplace_about.xml -->
+## Il [!UICONTROL Marketplace]seguente indirizzo: Informazioni {#about-marketplace}
 
 Questa [!UICONTROL Marketplace] è una [!DNL Audience Manager] funzione per gli acquirenti di dati in cui sono elencati i feed di dati a cui puoi iscriverti. Elenca i feed di dati flat rate [!DNL CPM]e privati. Questi feed vengono forniti da fornitori di terze parti che utilizzano [!DNL Audience Manager] per vendere i dati.
 
-Gli strumenti di [!UICONTROL Marketplace]reporting consentono di tenere traccia dell’utilizzo dei feed e della sovrapposizione tra le caratteristiche e quelle di un feed di dati con sottoscrizione. Infine, con [!UICONTROL Audience Marketplace], [!DNL Adobe] si prende cura delle fatture e dei pagamenti delle tariffe (anche se è necessario eseguire autoreport sull&#39;utilizzo quando si sottoscrive un [!DNL CPM] feed). Queste funzioni consentono di trovare origini dati efficaci senza perdere tempo a cercare un provider di dati.
+Gli strumenti di [!UICONTROL Marketplace]reporting consentono di tenere traccia dell’utilizzo dei feed e della sovrapposizione tra i feed di dati [!UICONTROL traits] e quelli sottoscritti. Infine, con [!UICONTROL Audience Marketplace], [!DNL Adobe] si prende cura delle fatture e dei pagamenti delle tariffe (anche se è necessario eseguire autoreport sull&#39;utilizzo quando si sottoscrive un [!DNL CPM] feed). Queste funzioni consentono di trovare origini dati efficaci senza perdere tempo a cercare un provider di dati.
 
 >[!TIP]
 >
@@ -43,11 +41,11 @@ Gli strumenti di [!UICONTROL Marketplace]reporting consentono di tenere traccia 
 L&#39; [!UICONTROL Marketplace] elenco contiene informazioni che è possibile ordinare e cercare per individuare il feed di dati più adatto alle proprie esigenze. Gli elementi nell&#39;elenco dell&#39; [!UICONTROL Marketplace] acquirente includono:
 
 * **[!UICONTROL Search]**: Trova feed di dati per nome o descrizione del testo.
-* **[!UICONTROL Similar Traits]**: Mostra il numero di caratteristiche simili da un feed di dati. Questa colonna viene visualizzata dopo l’immissione di una caratteristica o segmento per il quale applicare il filtro nella **[!UICONTROL Similarity To]** sezione.
+* **[!UICONTROL Similar Traits]**: Mostra il numero di elementi simili [!UICONTROL traits] da un feed di dati. Questa colonna viene visualizzata dopo l’immissione di un [!UICONTROL trait] filtro o [!UICONTROL segment] per nella **[!UICONTROL Similarity To]** sezione.
 * **[!UICONTROL Name]**: Nome del feed di dati.
 * **[!UICONTROL Description]**: Informazioni sul contenuto di un feed di dati.
 * **[!UICONTROL Provider]**: Nome del provider di dati.
-* **[!UICONTROL Traits]**: Il numero di caratteristiche in un feed di dati.
+* **[!UICONTROL Traits]**: Il numero di [!UICONTROL traits] contenuti in un feed di dati.
 * **[!UICONTROL 30 Day Provider Unique Users]**: Numero di utenti univoci visti negli ultimi 30 giorni.
 * **[!UICONTROL 30 Day Overlapped Uniques]**: Il numero di utenti nell&#39;account che si sovrappongono con gli utenti nell&#39;account del fornitore.
 * **[!UICONTROL Feed Overlap]**: Il valore di univocità sovrapposto di 30 giorni, visualizzato in percentuale, calcolato come segue: Acquirente dati 30 giorni sovrapposti unques / acquirente dati 30 giorni (uniche) x 100.
@@ -58,36 +56,36 @@ L&#39; [!UICONTROL Marketplace] elenco contiene informazioni che è possibile or
 
 Per trovare facilmente i feed di dati migliori per le vostre esigenze, utilizzate i seguenti filtri disponibili sul lato sinistro della [!UICONTROL Marketplace] pagina:
 
-* **[!UICONTROL Similarity To]**: Filtrare i feed di dati in base alla loro somiglianza con una caratteristica o segmento scelto. Quando immetti la caratteristica o il segmento con cui confrontarti, puoi usare la caratteristica o l’ID segmento, o i rispettivi nomi.
-* **[!UICONTROL Similarity Cutoff]**: Trascinate il cursore per filtrare i feed di dati in base alle caratteristiche simili a quelle del tratto o segmento selezionato. Per ulteriori informazioni sui punteggi per similarità dei tratti, consulta Punteggio per similarità delle [caratteristiche](../../segments/trait-recommendations.md#trait-similarity-score)
+* **[!UICONTROL Similarity To]**: Filtrare i feed di dati in base alla loro somiglianza con uno [!UICONTROL trait] o [!UICONTROL segment] dell&#39;utente scelto. Quando immetti il segmento o [!UICONTROL trait] il segmento con cui confrontarti, puoi utilizzare l’ [!UICONTROL trait] ID o [!UICONTROL segment] l’ID o i rispettivi nomi.
+* **[!UICONTROL Similarity Cutoff]**: Trascinate il cursore per filtrare i feed di dati in base alla loro similarità [!UICONTROL traits] con quelli selezionati [!UICONTROL trait] o [!UICONTROL segment]. Per ulteriori informazioni sui punteggi per [!UICONTROL trait] similarità, consulta Valutazione per [affinità caratteristica](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]**: Filtrate i feed di dati in base al vostro stato di iscrizione.
 * **[!UICONTROL Plan Use Case]**: Filtrare i feed di dati in base ai casi di utilizzo supportati: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]** e **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: Filtrare i feed di dati in base al tipo di prezzo.
 
-## Ricerca di caratteristiche simili {#finding-similar-traits}
+## Ricerca di valori simili [!UICONTROL Traits] {#finding-similar-traits}
 
-[!UICONTROL Audience Marketplace] consente di trovare caratteristiche da vari feed di dati, in base alla loro similarità con le caratteristiche o i segmenti esistenti. Come procedere:
+[!UICONTROL Audience Marketplace] consente di trovare [!UICONTROL traits] da vari feed di dati, in base alla loro similarità con i segmenti [!UICONTROL traits] o gli elementi esistenti. Come procedere:
 
 1. Vai a **[!UICONTROL Audience Marketplace]** > **[!UICONTROL Marketplace]**.
-2. Utilizzate il **[!UICONTROL Similarity To]** selettore per scegliere tra un filtro basato su una caratteristica o segmento. Puoi filtrare in base alla caratteristica/all’ID segmento o al nome. Nella casella di ricerca vengono visualizzati automaticamente i suggerimenti pertinenti in base all’input immesso.
+2. Usate il **[!UICONTROL Similarity To]** selettore per scegliere tra un filtro basato su un [!UICONTROL trait] filtro o [!UICONTROL segment]. Puoi filtrare in base a [!UICONTROL trait]/[!UICONTROL segment] ID o nome. Nella casella di ricerca vengono visualizzati automaticamente i suggerimenti pertinenti in base all’input immesso.
 3. Dopo aver identificato la caratteristica o il segmento per il quale si desidera filtrare, fate clic su di esso nell&#39;elenco dei suggerimenti.
-4. Per restringere i risultati, usate il **[!UICONTROL Similarity Cutoff]** cursore per passare da caratteristiche meno simili a caratteristiche più simili.
+4. Per restringere i risultati, usate il **[!UICONTROL Similarity Cutoff]** cursore per passare da meno simili [!UICONTROL traits]a più simili.
 
-Una volta completato il filtro, nella pagina dei risultati verrà visualizzata una nuova colonna: **[!UICONTROL Similar Traits]**. Questa colonna mostra il numero di caratteristiche simili a quelle filtrate da ogni feed di dati che soddisfa i criteri di filtro.
+Una volta completato il filtro, nella pagina dei risultati verrà visualizzata una nuova colonna: **[!UICONTROL Similar Traits]**. Questa colonna mostra il numero di elementi simili [!UICONTROL traits] a quelli filtrati da ciascun feed di dati che soddisfa i criteri di filtro.
 
 Per visualizzare l&#39;elenco completo delle caratteristiche simili, fare clic sul numero nella **[!UICONTROL Similar Traits]** colonna.
 
 >[!NOTE]
 >
->  Audience Marketplace visualizza i primi 500 risultati con caratteristiche simili provenienti dai vari feed di dati.
+>  Audience Marketplace visualizza i primi 500 risultati simili [!UICONTROL trait] dai vari feed di dati.
 
-Guarda il video seguente per una panoramica completa su come trovare caratteristiche simili.
+Guardate il video sottostante per una panoramica completa su come trovare simili [!UICONTROL traits].
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/)
 
 ## Feed dati privati {#private-data-feeds}
 
-Nell&#39; [!UICONTROL Marketplace] elenco, a volte i dati relativi a nome e caratteristiche del provider sono contrassegnati come privati. Indica un feed [di dati](../../../features/audience-marketplace/marketplace-private-feeds.md)privato. Un feed di dati privato consente ai venditori di limitare l&#39;accesso dell&#39;acquirente ai propri dati. I venditori possono rendere privati i propri feed quando offrono offerte speciali, sconti o quando per loro è importante avere il controllo sulla privacy e sull&#39;accesso. In qualità di acquirente, è necessario inviare una richiesta di iscrizione al venditore se si desidera accedere a un feed privato. Per informazioni, consulta [Iscrizione a feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) dati privati.
+Nell&#39; [!UICONTROL Marketplace] elenco, a volte il nome e [!UICONTROL trait] i dati del provider sono contrassegnati come privati. Indica un feed [di dati](../../../features/audience-marketplace/marketplace-private-feeds.md)privato. Un feed di dati privato consente ai venditori di limitare l&#39;accesso dell&#39;acquirente ai propri dati. I venditori possono rendere privati i propri feed quando offrono offerte speciali, sconti o quando per loro è importante avere il controllo sulla privacy e sull&#39;accesso. In qualità di acquirente, è necessario inviare una richiesta di iscrizione al venditore se si desidera accedere a un feed privato. Per informazioni, consulta [Iscrizione a feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) dati privati.
 
 >[!MORELIKETHIS]
 >
