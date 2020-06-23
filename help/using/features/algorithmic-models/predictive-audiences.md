@@ -5,9 +5,9 @@ seo-title: Predictive Audiences Panoramica
 solution: Audience Manager
 title: ' Audience Manager Predictive Audiences'
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: f52321f3621d9eb6b9c5b643a3516f39f35466c2
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Durante la configurazione dei [!UICONTROL Predictive Audiences] modelli, tenere 
    >[!IMPORTANT]
    > Al momento, i segmenti [!UICONTROL Total Segment Population] predittivi sono visualizzati come 0 e i trasferimenti [di dati in uscita](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) batch non sono supportati per [!UICONTROL Predictive Audiences]. Questo comportamento verrà modificato in un aggiornamento futuro.
 * [!UICONTROL Predictive Audiences] esegue la classificazione dell&#39;audience in base alle caratteristiche di prime parti, da tutte le origini dati di prime parti.
-* La valutazione del segmento per [!UICONTROL Predictive Audiences] utilizza l’impostazione predefinita **[!UICONTROL Profile Merge Rule]** definita nel vostro account. Per ulteriori informazioni, [!UICONTROL Profile Merge Rules] consulta la [documentazione](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html)dedicata.
+* La valutazione del segmento per [!UICONTROL Predictive Audiences] utilizza l’impostazione predefinita **[!UICONTROL Profile Merge Rule]** definita nel vostro account. Per ulteriori informazioni, [!UICONTROL Profile Merge Rules] consulta la [documentazione](../profile-merge-rules/merge-rules-overview.md)dedicata.
 * Alcune caratteristiche e segmenti non sono supportati come linee di base o come audience di destinazione. [!UICONTROL Predictive Audiences] i modelli non verranno salvati quando si sceglie uno dei seguenti tipi di base o di pubblico target:
    * Caratteristiche predittive e segmenti creati con caratteristiche predittive;
    * [caratteristiche o segmenti Adobi Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
