@@ -6,14 +6,17 @@ seo-title: Panoramica sulle caratteristiche
 solution: Audience Manager
 title: Panoramica sulle caratteristiche
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 0b173db313053bb9c1d90b681d00ad4bd6fb8b34
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
 
-# Panoramica sulle caratteristiche {#traits-overview}
+# [!UICONTROL Traits] Panoramica {#traits-overview}
 
-Gestisci la raccolta dati e la creazione di audience con caratteristiche basate su regole, registrate, algoritmiche o cartelle. Leggi le pagine collegate di seguito per iniziare a usare le caratteristiche:
+Gestisci la raccolta dati e la creazione di audience con [!UICONTROL rules-based], [!UICONTROL onboarded]o [!UICONTROL algorithmic] [!UICONTROL folder traits]. Leggi le pagine collegate di seguito per iniziare con [!UICONTROL traits]:
 
 * [Pagina Dettagli caratteristica](/help/using/features/traits/trait-details-page.md)
 * [Generatore di caratteristiche](/help/using/features/traits/about-trait-builder.md)
