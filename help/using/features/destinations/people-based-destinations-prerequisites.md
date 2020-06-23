@@ -5,7 +5,10 @@ seo-title: Destinazioni basate su persone Prerequisiti e considerazioni
 solution: Audience Manager
 title: Prerequisiti e considerazioni
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 8b72a42f9458fba97d02d2f16228e7d985ca3463
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Leggi di seguito per una panoramica dei requisiti dei clienti che devi soddisfar
 >[!IMPORTANT]
 > Leggi attentamente questo articolo prima di passare alla fase di implementazione.
 
-## Registrazione alle destinazioni basate sulle persone {#signing-up}
+## Registrazione [!UICONTROL People-Based Destinations] {#signing-up}
 
-[!DNL People-Based Destinations] è una funzionalità premium che migliora l&#39;esperienza di Audience Manager consentendo di attivare i segmenti di pubblico di prime parti in ambienti basati su persone, indirizzando il pubblico con offerte personalizzate sui social network o tramite il marketing e-mail.
+[!DNL People-Based Destinations] è una funzionalità premium che migliora l&#39;esperienza Audience Manager  consentendo di attivare i segmenti di pubblico di prime parti in ambienti basati su persone, rivolgendosi al pubblico con offerte personalizzate sui social network o tramite il marketing e-mail.
 
 Contattate il vostro rappresentante Adobe per sfruttare questa funzione premium.
 
@@ -40,48 +43,42 @@ Prima di poter utilizzare [!DNL People-Based Destinations] per inviare segmenti 
 
 ### [!DNL LinkedIn]
 
->[!IMPORTANT]
->
-> L&#39; [!DNL People-Based Destinations] integrazione con [!DNL LinkedIn] è attualmente in fase di test beta ed è disponibile solo per un numero limitato di clienti.
-> 
-> Al termine del test beta, questa integrazione sarà disponibile per tutti i clienti di Audience Manager che si sono registrati [!DNL People-Based Destinations].
-
 Prima di poter utilizzare [!DNL People-Based Destinations] per inviare segmenti di pubblico di prime parti a [!DNL LinkedIn], accertati che il tuo [!DNL LinkedIn Campaign Manager] account disponga di un livello di autorizzazione [!DNL Creative Manager] o superiore.
 
 Per informazioni su come modificare le autorizzazioni [!DNL LinkedIn Campaign Manager] utente, consultate [Aggiungi, Modifica e Rimuovi autorizzazioni utente sugli account pubblicitari](https://www.linkedin.com/help/lms/answer/5753)
 
 ## Onboarding dei dati {#data-onboarding}
 
-L&#39;assimilazione dei dati per [!DNL People-Based Destinations] ora supporta fino a 10 indirizzi e-mail con hash collegati a un ID cliente ([!DNL CRM ID]), per trasferimento batch. Il caricamento di più di 10 indirizzi e-mail con hash collegati a un ID cliente causa l’inserimento di 10 indirizzi da parte di Audience Manager, senza un ordine specifico.
+L&#39;assimilazione dei dati per [!DNL People-Based Destinations] ora supporta fino a 10 indirizzi e-mail con hash collegati a un ID cliente ([!DNL CRM ID]), per trasferimento batch. Se si caricano più di 10 indirizzi e-mail con hash collegati a un ID cliente,  Audience Manager ne acquisirà 10, in nessun ordine specifico.
 
-Se si caricano più di 10 indirizzi e-mail con hash collegati a un ID cliente in più trasferimenti batch, Audience Manager conserva i 10 indirizzi e-mail aggiunti più di recente.
+Se si caricano più di 10 indirizzi e-mail con hash collegati a un ID cliente in più trasferimenti batch,  Audience Manager conserva i 10 indirizzi e-mail aggiunti più di recente.
 
 ## Privacy dei dati {#data-privacy}
 
-Anche se [!DNL People-Based Destinations] consentite di eseguire il targeting dei tipi di pubblico in base agli indirizzi e-mail con hash caricati dall&#39;utente, non potete caricare in Audience Manager eventuali informazioni sui visitatori direttamente identificabili. Nella fase di onboarding dei dati, devi accertarti che gli indirizzi e-mail che intendi utilizzare siano crittografati con l&#39; [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarli in [!DNL People-Based Destinations].
+Anche se [!DNL People-Based Destinations] consentite di eseguire il targeting dei tipi di pubblico basati su indirizzi e-mail con hash caricati dall&#39;utente, non potete caricare in  Audience Manager eventuali informazioni sui visitatori direttamente identificabili. Nella fase di onboarding dei dati, devi accertarti che gli indirizzi e-mail che intendi utilizzare siano crittografati con l&#39; [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarli in [!DNL People-Based Destinations].
 
 ## Hashing dati contro crittografia {#data-hashing-encryption}
 
-La crittografia è una funzione bidirezionale. È inoltre possibile decrittografare qualsiasi informazione cifrata utilizzando la chiave di decrittazione corretta. La cifratura dei dati nel contesto di Audience Manager comporta seri rischi, poiché è possibile decifrare anche qualsiasi forma crittografata di informazioni personali. Invece della cifratura, [!DNL People-Based Destinations] sono progettati per funzionare con dati con hash.
+La crittografia è una funzione bidirezionale. È inoltre possibile decrittografare qualsiasi informazione cifrata utilizzando la chiave di decrittazione corretta. La cifratura dei dati nel contesto di  Audience Manager comporta seri rischi, poiché è possibile decifrare anche qualsiasi forma crittografata di informazioni personali. Invece della cifratura, [!DNL People-Based Destinations] sono progettati per funzionare con dati con hash.
 
-Hashing è una funzione unidirezionale che scorre l&#39;input per produrre un risultato unico. Utilizzando gli algoritmi di hashing appropriati, come [!DNL SHA256], non c&#39;è modo di invertire la funzione di hashing e rivelare le informazioni non scorrevoli. Gli indirizzi e-mail che si desidera inserire in Audience Manager devono essere crittografati con l’ [!DNL SHA256] algoritmo. In questo modo, potete assicurarvi che nessun indirizzo e-mail senza hash arrivi ad Audience Manager.
+Hashing è una funzione unidirezionale che scorre l&#39;input per produrre un risultato unico. Utilizzando gli algoritmi di hashing appropriati, come [!DNL SHA256], non c&#39;è modo di invertire la funzione di hashing e rivelare le informazioni non scorrevoli. Gli indirizzi e-mail che verranno visualizzati su  Audience Manager devono essere collegati all&#39; [!DNL SHA256] algoritmo. In questo modo, potete assicurarvi che nessun indirizzo e-mail senza hash arrivi  Audience Manager.
 
 ## Requisiti di hash {#hashing-requirements}
 
 Quando eseguite l&#39;hashing degli indirizzi e-mail, accertatevi di rispettare i seguenti requisiti:
 
-* Rifila tutti gli spazi iniziali e finali dalla stringa e-mail; esempio: `johndoe@example.com`, non `<space>johndoe@example.com<space>`;
+* Rifila tutti gli spazi iniziali e finali dalla stringa e-mail; esempio: `johndoe@example.com`, not `<space>johndoe@example.com<space>`;
 * Durante l&#39;hashing delle stringhe e-mail, assicurarsi di eseguire l&#39;hash della stringa minuscola;
-   * Esempio: `example@email.com`, non `EXAMPLE@EMAIL.COM`;
+   * Esempio: `example@email.com`, not `EXAMPLE@EMAIL.COM`;
 * Verificate che la stringa con hash sia in lettere minuscole
-   * Esempio: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, non `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
+   * Esempio: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, not `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
 * Non saldare la stringa.
 
 Guardate il video seguente per comprendere i requisiti di hashing di [!UICONTROL People-Based Destinations].
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud ti offre la possibilità di hash degli ID cliente tramite il servizio Adobe Experience Platform Identity Service. Per informazioni dettagliate sull’utilizzo di ECID per l’hash degli ID cliente, consultate Supporto hash [SHA256 per setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
+Adobe Experience Cloud ti offre la possibilità di hash degli ID cliente tramite il  Adobe Experience Platform Identity Service. Per informazioni dettagliate sull’utilizzo di ECID per l’hash degli ID cliente, consultate Supporto hash [SHA256 per setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) .
 
 ## Ottenimento dell&#39;autorizzazione utente {#obtaining-user-permission}
 
@@ -89,7 +86,7 @@ Poiché [!DNL People-Based Destinations] consente di attivare i dati del pubblic
 
 Prima di iscriversi, [!DNL People-Based Destinations]assicuratevi di ottenere il consenso dei clienti prima di utilizzare le loro informazioni a scopo pubblicitario.
 
-Nel caso in cui i clienti desiderino rinunciare alle campagne pubblicitarie, consulta Gestione [del](../../overview/data-security-and-privacy/data-privacy-requests.md) rifiuto per informazioni su come impedire ad Audience Manager di raccogliere ulteriori dati.
+Nel caso in cui i clienti desiderino rinunciare alle campagne pubblicitarie, consulta Gestione [del](../../overview/data-security-and-privacy/data-privacy-requests.md) rifiuto per informazioni su come impedire a  Audience Manager di raccogliere i dati.
 
 ## Applicazione dell&#39;attivazione dei dati di prime parti {#enforcing-first-party-activation}
 
@@ -99,7 +96,7 @@ Quando si utilizza [!UICONTROL People-Based Destinations], utilizzare [Controlli
 
 ## ID con hash autenticati a bordo tramite targeting ID dichiarato {#onboard-authenticated-declared-id}
 
-Esistono due modi per trasferire i dati offline ad Audience Manager per [!DNL People-Based Destinations].
+Esistono due modi per portare i dati offline  Audience Manager per [!DNL People-Based Destinations].
 
-* [Invia dati](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) batch ad Audience Manager per il caricamento di indirizzi e-mail con hash. Con questo metodo, potete scegliere di utilizzare gli indirizzi e-mail con hash del [!DNL CRM] database in [!DNL People-Based Destinations]. Inoltre, quando utilizzate questo metodo, potete anche qualificare gli indirizzi e-mail con hash per le caratteristiche [registrate](../traits/trait-and-segment-qualification-reference.md).
-* Usate gli ID [dichiarati](../declared-ids.md) per dichiarare gli indirizzi e-mail con hash quando trasmettete gli ID cliente autenticati. Quando si utilizza questo metodo, Audience Manager, per vostro conto, invia solo agli indirizzi e-mail con [!DNL People-Based Destinations] hash degli utenti che hanno eseguito l&#39;autenticazione online. Gli indirizzi e-mail attivati attraverso i canali basati sulle persone sono solo quelli nelle chiamate dell&#39;evento ID dichiarate. Gli altri indirizzi e-mail associati all&#39;ID cliente non vengono inviati in tempo reale.
+* [Inviare dati](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) batch a  Audience Manager agli indirizzi e-mail con hash. Con questo metodo, potete scegliere di utilizzare gli indirizzi e-mail con hash del [!DNL CRM] database in [!DNL People-Based Destinations]. Inoltre, quando utilizzate questo metodo, potete anche qualificare gli indirizzi e-mail con hash per le caratteristiche [registrate](../traits/trait-and-segment-qualification-reference.md).
+* Usate gli ID [dichiarati](../declared-ids.md) per dichiarare gli indirizzi e-mail con hash quando trasmettete gli ID cliente autenticati. Quando si utilizza questo metodo,  Audience Manager, a nome dell&#39;utente, invia solo [!DNL People-Based Destinations] gli indirizzi e-mail con hash degli utenti che hanno eseguito l&#39;autenticazione online. Gli indirizzi e-mail attivati attraverso i canali basati sulle persone sono solo quelli nelle chiamate dell&#39;evento ID dichiarate. Gli altri indirizzi e-mail associati all&#39;ID cliente non vengono inviati in tempo reale.
