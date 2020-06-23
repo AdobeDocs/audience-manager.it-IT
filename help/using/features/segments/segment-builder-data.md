@@ -6,40 +6,31 @@ solution: Audience Manager
 title: Dati sulle caratteristiche e sulla popolazione dei segmenti nel Generatore di segmenti
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: 63d89cac2f18538f56e2f6d0f64257ea9b5788bd
+source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
 
 
-# Trait and Segment Population Data in Segment Builder {#trait-and-segment-population-data-in-segment-builder}
+# [!UICONTROL Trait] e dati sulla [!UICONTROL Segment] popolazione in [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
 
-Aggiungi e rimuovi caratteristiche per [!UICONTROL Segment Builder] visualizzare le popolazioni di caratteristiche effettive insieme ai dati sulla popolazione del segmento effettivi e stimati. I dati stimati sulla dimensione della popolazione consentono di creare il segmento giusto per la campagna.
+Aggiungi e rimuovi [!UICONTROL traits] in [!UICONTROL Segment Builder] per visualizzare [!UICONTROL trait] le popolazioni effettive insieme ai dati sulla popolazione del segmento effettivi e stimati. I dati stimati sulla dimensione della popolazione consentono di creare il segmento giusto per la campagna.
 
-## Dati sulla popolazione delle caratteristiche {#trait-population-data}
+## [!UICONTROL Trait] Dati popolazione {#trait-population-data}
 
-[!UICONTROL Segment Builder] viene visualizzato [!UICONTROL Total Trait Population] per l’ultimo giorno in cui si aggiunge una caratteristica a un segmento. Questi dati vengono visualizzati nel campo blu intorno alla caratteristica selezionata nella [!UICONTROL Basic View] sezione.
+[!UICONTROL Segment Builder] viene visualizzato [!UICONTROL Total Trait Population] per l’ultimo giorno in cui si aggiunge un segmento [!UICONTROL trait] . Questi dati vengono visualizzati nel campo blu intorno al campo selezionato [!UICONTROL trait] nella [!UICONTROL Basic View] sezione.
 
 ![](assets/trait-size.png)
 
-La tabella seguente definisce le metriche della popolazione delle caratteristiche
+La tabella seguente definisce le metriche della popolazione delle caratteristiche:
 
-<table id="table_9D837CF9ACA04D04BEE5925EC0B4A5D2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metrica </th> 
-   <th colname="col2" class="entry"> Descrizione </th>
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Totale popolazione caratteristiche</span> </p> </td>
-   <td colname="col2"> <p>Numero di ID univoci con la caratteristica selezionata nel relativo profilo. </p> </td>
-  </tr> 
- </tbody> 
-</table>
+
+| Metrica | Descrizione |
+---------|----------|
+| [!UICONTROL Total Trait Population] | Numero di ID univoci con la caratteristica selezionata nel relativo profilo. |
+
 
 ## Calcolo della popolazione di segmenti reale e stimata {#calculating-real-estimated-populations}
 
@@ -98,9 +89,9 @@ La tabella seguente definisce le metriche della popolazione stimata.
 
 [!UICONTROL Profile Merge Rules] influiscono sul numero effettivo di popolazione in tempo reale e totale. Questi totali variano a seconda che il segmento [!UICONTROL Profile Merge Rule] appartenga o meno a un&#39;opzione di grafico del dispositivo. Vedi anche Opzioni Regola di unione [profilo definite](../../features/profile-merge-rules/merge-rule-definitions.md).
 
-### Dati di popolazione del segmento per le regole di unione senza un&#39;opzione Device Graph
+### Dati popolazione segmento per [!UICONTROL Merge Rules] senza un [!UICONTROL Device Graph Option]
 
-La tabella seguente definisce le metriche effettive della popolazione in tempo reale e totale quando i segmenti vengono utilizzati da un [!UICONTROL Profile Merge Rule] utente creato senza l&#39;opzione di grafico del dispositivo. Queste sono le impostazioni delle opzioni del dispositivo **[!UICONTROL No Device Options]** e **[!UICONTROL Current Device Proflie]**.
+La tabella seguente definisce le metriche effettive della popolazione in tempo reale e totale quando i segmenti vengono utilizzati da un [!UICONTROL Profile Merge Rule] utente creato senza un&#39; [!UICONTROL device graph] opzione. Queste sono le impostazioni delle opzioni del dispositivo **[!UICONTROL No Device Options]** e **[!UICONTROL Current Device Proflie]**.
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -125,36 +116,23 @@ La tabella seguente definisce le metriche effettive della popolazione in tempo r
  </tbody> 
 </table>
 
-### Dati di popolazione del segmento per le regole di unione con un&#39;opzione Device Graph
+### Dati popolazione segmento per [!UICONTROL Merge Rules] con un&#39; [!UICONTROL Device Graph] opzione
 
-La tabella seguente definisce le metriche effettive della popolazione in tempo reale e totale quando i segmenti vengono utilizzati da un [!UICONTROL Profile Merge Rule] utente creato con un&#39;opzione di grafico del dispositivo. Queste sono le impostazioni delle opzioni del dispositivo per [!UICONTROL Profile Link Device Graph], il grafico del [!DNL Adobe] dispositivo e altre opzioni del grafico del dispositivo di terze parti disponibili.
+La tabella seguente definisce le metriche effettive della popolazione in tempo reale e totale quando i segmenti vengono utilizzati da un [!UICONTROL Profile Merge Rule] utente creato con un’ [!DNL device graph] opzione. Queste sono le impostazioni delle opzioni dispositivo per [!UICONTROL Profile Link Device Graph], le opzioni [!DNL Adobe] , [!DNL device graph]e altre [!DNL device graph] scelte di terze parti disponibili.
 
-<table id="table_157EC6E5B5C44EB899854CA10B090F60"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metrica </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Popolazione in tempo reale (esistente)</span> </p> </td> 
-   <td colname="col2"> <p>Il numero effettivo di dispositivi visti in tempo reale con i profili correnti che, se uniti con fino a 100 altri profili dispositivo collegati dal grafico del dispositivo, contengono le caratteristiche per qualificarsi per il segmento nel momento in cui è stato visto da <span class="keyword"> Audience Manager</span>. </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Popolazione totale (esistente)</span> </p> </td> 
-   <td colname="col2"> <p>Il numero totale di dispositivi con profili che, se uniti con un massimo di 100 altri profili dispositivo collegati dal grafico del dispositivo, erano tutti idonei per il segmento. </p> </td>
-  </tr>
- </tbody>
-</table>
+
+| Colonna A | Colonna B |
+---------|----------|
+| [!UICONTROL Real-Time Population (Existing) ] | Il numero effettivo di dispositivi visti in tempo reale con i profili correnti che, se uniti con fino a 100 altri profili dispositivo collegati dal grafico del dispositivo, contengono le caratteristiche per qualificarsi per il segmento nel momento in cui è stato visto da  Audience Manager. |
+| [!UICONTROL Total Population (Existing)] | Il numero totale di dispositivi con profili che, se uniti con un massimo di 100 altri profili dispositivo collegati dal grafico del dispositivo, erano tutti idonei per il segmento. |
 
 ### Limitazioni dovute a espressioni di aggiornamento e frequenza durante la stima delle popolazioni di segmenti
 
 [!UICONTROL Segment Builder] supporta le stime delle dimensioni del segmento per le regole del segmento che contengono fino a 4 espressioni di recency e di frequenza. Se si scelgono più di 4 espressioni di recency e frequenza al momento della creazione di una regola di segmento, lo stimatore del segmento mostra un errore durante la stima della popolazione.
 
-### Limitazioni dovute alle regole di unione durante la stima delle popolazioni di segmenti
+### Limitazioni dovute alla [!UICONTROL Merge Rules] stima delle popolazioni di segmenti
 
-Al momento esiste una limitazione nota perché il nostro stimatore delle dimensioni del segmento non tiene conto delle regole di unione del profilo. Ad esempio, osserva i segmenti con la regola di **unione Nessun profilo autenticato + Profilo** dispositivo corrente[Regola](../../features/profile-merge-rules/merge-rule-definitions.md)di unione. A causa del modo in cui attualmente calcoliamo i numeri di stima dei segmenti, le popolazioni stimate includeranno profili autenticati. Tuttavia, le popolazioni di segmenti esistenti ignoreranno correttamente i profili autenticati.
+Al momento esiste un limite noto perché il nostro stimatore delle dimensioni del segmento non tiene conto di [!UICONTROL profile merge rules]. Ad esempio, osservare i segmenti con la regola di **[!UICONTROL No Authenticated Profile + Current Device Profile]**[ unione](../../features/profile-merge-rules/merge-rule-definitions.md). A causa del modo in cui attualmente calcoliamo i numeri di stima dei segmenti, le popolazioni stimate includeranno profili autenticati. Tuttavia, le popolazioni di segmenti esistenti ignoreranno correttamente i profili autenticati.
 
 >[!MORELIKETHIS]
 >
