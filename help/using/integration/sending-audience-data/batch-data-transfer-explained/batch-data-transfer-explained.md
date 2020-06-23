@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Processo di trasferimento dati batch descritto
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Il processo di integrazione dei dati batch salva le informazioni dei visitatori 
 ## Passaggi di integrazione dei dati
 
 1. Un utente visita un sito cliente.
-1.  Audience Manager e il provider di dati di terze parti assegnano al visitatore un ID univoco (in genere con un cookie).
-1.  Audience Manager chiama il provider di dati di terze parti per far corrispondere gli ID visitatore.
-1. Una richiesta pianificata, in genere a intervalli giornalieri, scambia i dati del segmento dei visitatori tra  Audience Manager e il provider di dati di terze parti.
+1. [!DNL Audience Manager] e il fornitore di dati di terze parti assegna al visitatore un ID univoco (in genere con un cookie).
+1. [!DNL Audience Manager] chiama il provider di dati di terze parti per far corrispondere gli ID visitatore.
+1. Una richiesta pianificata, in genere a intervalli giornalieri, scambia i dati del segmento del visitatore tra [!DNL Audience Manager] e il provider di dati di terze parti.
 1. Ogni volta che viene elaborato un [!UICONTROL Server-to-Server] file in entrata, una ricevuta viene inviata via e-mail alle soluzioni partner e, se configurata, al partner. Per ulteriori informazioni, vedi [Esempio di messaggio ai partner dopo l&#39;elaborazione](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)in ingresso.
