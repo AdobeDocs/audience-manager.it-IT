@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Dati sulle caratteristiche e sulla popolazione dei segmenti nel Generatore di segmenti
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
+source-git-commit: 63d89cac2f18538f56e2f6d0f64257ea9b5788bd
+workflow-type: tm+mt
+source-wordcount: '1294'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ Aggiungi e rimuovi caratteristiche per [!UICONTROL Segment Builder] visualizzare
 
 ## Dati sulla popolazione delle caratteristiche {#trait-population-data}
 
-[!UICONTROL Segment Builder] mostra [!UICONTROL Total Trait Population] l’ultimo giorno in cui si aggiunge una caratteristica a un segmento. Questi dati vengono visualizzati nel campo blu intorno alla caratteristica selezionata nella [!UICONTROL Basic View] sezione.
+[!UICONTROL Segment Builder] viene visualizzato [!UICONTROL Total Trait Population] per l’ultimo giorno in cui si aggiunge una caratteristica a un segmento. Questi dati vengono visualizzati nel campo blu intorno alla caratteristica selezionata nella [!UICONTROL Basic View] sezione.
 
 ![](assets/trait-size.png)
 
@@ -40,9 +43,9 @@ La tabella seguente definisce le metriche della popolazione delle caratteristich
 
 ## Calcolo della popolazione di segmenti reale e stimata {#calculating-real-estimated-populations}
 
-Quando create un nuovo segmento o ne modificate uno esistente, Audience Manager impiega fino a 24 ore per visualizzare i risultati per le popolazioni effettive di segmenti in tempo reale e totale.
+Quando create un nuovo segmento o ne modificate uno esistente,  Audience Manager impiega fino a 24 ore per visualizzare i risultati per le popolazioni effettive di segmenti in tempo reale e totale.
 
-Tuttavia, Audience Manager può stimare immediatamente la dimensione della popolazione in tempo reale e totale del segmento. Tali stime si basano su dati storici campionati e su risultati di ritorno a un intervallo di confidenza del 95%.
+Tuttavia,  Audience Manager può stimare immediatamente la dimensione della popolazione in tempo reale e totale del segmento. Tali stime si basano su dati storici campionati e su risultati di ritorno a un intervallo di confidenza del 95%.
 
 ![](assets/confidence-interval.png)
 
@@ -74,10 +77,10 @@ La tabella seguente definisce le metriche della popolazione stimata.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Popolazione stimata in tempo reale (potenziale) </span> </p> </td> 
-   <td colname="col2"> <p>Numero stimato di visitatori univoci visti in tempo reale per l’intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da Audience Manager. </p> <p>In <span class="wintitle"> Segment Builder (Generatore</span>di segmenti), le ultime 30 giornate di popolazione per le caratteristiche (<span class="wintitle"> Totale popolazione</span>caratteristiche) possono essere diverse per le caratteristiche e i segmenti valutati in tempo reale. </p> <p>
+   <td colname="col2"> <p>Il numero stimato di visitatori univoci visti in tempo reale per l'intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da  Audience Manager. </p> <p>In <span class="wintitle"> Segment Builder (Generatore</span>di segmenti), le ultime popolazioni di 30 giorni per le caratteristiche (<span class="wintitle"> Totale popolazione</span>caratteristiche) possono essere diverse per le caratteristiche e i segmenti valutati in tempo reale. </p> <p>
      <ul id="ul_CAE803D09913462CAD413A665D85C1A2"> 
       <li id="li_3E64330D6F5B4D2F8F3456730A86894F">Per le caratteristiche, l'ultima metrica di 30 giorni include il numero di utenti univoci che hanno acquisito la caratteristica in questione negli ultimi 30 giorni. </li>
-      <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">Per i segmenti valutati in tempo reale, l’ultima metrica di 30 giorni conta il numero di utenti che hanno acquisito le qualifiche per una caratteristica (in quel segmento) in un determinato momento in passato e che sono stati nuovamente visualizzati da Audience Manager negli ultimi 30 giorni. Ad esempio, supponiamo che tu abbia un utente qualificato per una caratteristica 60 giorni fa e che sia stato nuovamente visto 10 giorni fa. Nei dati, l'utente non verrà aggiunto al conteggio delle caratteristiche perché è stato qualificato per la caratteristica più di 30 giorni fa. Tuttavia, saranno inclusi nell'ultimo conteggio di 30 giorni per i segmenti valutati in tempo reale. Questo perché sono qualificati per il segmento entro l'intervallo di 30 giorni. </li>
+      <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">Per i segmenti valutati in tempo reale, l'ultima metrica di 30 giorni conta il numero di utenti che hanno acquisito le qualifiche per una caratteristica (in quel segmento) in un certo punto del passato e che sono stati visti nuovamente da  Audience Manager negli ultimi 30 giorni. Ad esempio, supponiamo che tu abbia un utente qualificato per una caratteristica 60 giorni fa e che sia stato nuovamente visto 10 giorni fa. Nei dati, l'utente non verrà aggiunto al conteggio delle caratteristiche perché è stato qualificato per la caratteristica più di 30 giorni fa. Tuttavia, saranno inclusi nell'ultimo conteggio di 30 giorni per i segmenti valutati in tempo reale. Questo perché sono qualificati per il segmento entro l'intervallo di 30 giorni. </li>
      </ul> </p> <p> <p>Nota: La metrica Popolazione <span class="wintitle"> in tempo reale</span> stimata non include dispositivi qualificati per un segmento in base alle connessioni fornite da una regola <span class="wintitle"> di unione dei profili che utilizza un'opzione</span> grafico <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"></a>dispositivo. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -109,10 +112,10 @@ La tabella seguente definisce le metriche effettive della popolazione in tempo r
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Popolazione in tempo reale (esistente)</span> </p> </td> 
-   <td colname="col2"> <p>Numero effettivo di visitatori univoci visti in tempo reale per l’intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da Audience Manager. </p> <p>In <span class="wintitle"> Segment Builder</span>, le ultime 30 giornate di popolazione per caratteristiche (<span class="wintitle"> Totale popolazione</span>caratteristiche) possono essere diverse per le caratteristiche e i segmenti valutati in tempo reale. </p> <p> 
+   <td colname="col2"> <p>Il numero effettivo di visitatori univoci visti in tempo reale per l'intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da  Audience Manager. </p> <p>In <span class="wintitle"> Segment Builder</span>, le ultime 30 giornate di popolazione per caratteristiche (<span class="wintitle"> Totale popolazione</span>caratteristiche) possono essere diverse per le caratteristiche e i segmenti valutati in tempo reale. </p> <p> 
      <ul id="ul_50D1528DDDF347858F17DA3C033B0E3F"> 
       <li id="li_ABA2BFE68FF4430DBB425C4661E1836A">Per le caratteristiche, l'ultima metrica di 30 giorni include il numero di utenti univoci che hanno acquisito la caratteristica in questione negli ultimi 30 giorni. </li> 
-      <li id="li_1519068CBB1445E893657D12E8FE42AC">Per i segmenti valutati in tempo reale, l’ultima metrica di 30 giorni conta il numero di utenti che hanno acquisito le qualifiche per una caratteristica (in quel segmento) in un determinato momento in passato e che sono stati nuovamente visualizzati da Audience Manager negli ultimi 30 giorni. Ad esempio, supponiamo che tu abbia un utente qualificato per una caratteristica 60 giorni fa e che sia stato nuovamente visto 10 giorni fa. Nei dati, l'utente non verrà aggiunto al conteggio delle caratteristiche perché è stato qualificato per la caratteristica più di 30 giorni fa. Tuttavia, saranno inclusi nell'ultimo conteggio di 30 giorni per i segmenti valutati in tempo reale. Questo perché sono qualificati per il segmento entro l'intervallo di 30 giorni. </li> 
+      <li id="li_1519068CBB1445E893657D12E8FE42AC">Per i segmenti valutati in tempo reale, l'ultima metrica di 30 giorni conta il numero di utenti che hanno acquisito le qualifiche per una caratteristica (in quel segmento) in un certo punto del passato e che sono stati visti nuovamente da  Audience Manager negli ultimi 30 giorni. Ad esempio, supponiamo che tu abbia un utente qualificato per una caratteristica 60 giorni fa e che sia stato nuovamente visto 10 giorni fa. Nei dati, l'utente non verrà aggiunto al conteggio delle caratteristiche perché è stato qualificato per la caratteristica più di 30 giorni fa. Tuttavia, saranno inclusi nell'ultimo conteggio di 30 giorni per i segmenti valutati in tempo reale. Questo perché sono qualificati per il segmento entro l'intervallo di 30 giorni. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -147,7 +150,7 @@ La tabella seguente definisce le metriche effettive della popolazione in tempo r
 
 ### Limitazioni dovute a espressioni di aggiornamento e frequenza durante la stima delle popolazioni di segmenti
 
-[!UICONTROL Segment Builder] supporta le stime delle dimensioni del segmento per le regole del segmento che contengono fino a 4 espressioni di aggiornamento e frequenza. Se si scelgono più di 4 espressioni di recency e frequenza al momento della creazione di una regola di segmento, lo stimatore del segmento mostra un errore durante la stima della popolazione.
+[!UICONTROL Segment Builder] supporta le stime delle dimensioni del segmento per le regole del segmento che contengono fino a 4 espressioni di recency e di frequenza. Se si scelgono più di 4 espressioni di recency e frequenza al momento della creazione di una regola di segmento, lo stimatore del segmento mostra un errore durante la stima della popolazione.
 
 ### Limitazioni dovute alle regole di unione durante la stima delle popolazioni di segmenti
 
@@ -156,5 +159,5 @@ Al momento esiste una limitazione nota perché il nostro stimatore delle dimensi
 >[!MORELIKETHIS]
 >
 >* [Domande frequenti su Regole di unione dei profili e Device Graph](../../faq/faq-profile-merge.md)
->* [Collegamento profilo](../../features/profile-merge-rules/merge-rules-overview.md)
+>* [Collegamento profilo](../profile-merge-rules/merge-rules-overview.md)
 
