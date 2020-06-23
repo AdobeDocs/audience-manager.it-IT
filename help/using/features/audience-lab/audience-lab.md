@@ -4,23 +4,26 @@ seo-description: Crea segmenti di test che si escludono a vicenda in Gruppi di t
 seo-title: Audience Lab
 solution: Audience Manager
 title: Audience Lab
-topic: API DIL
+topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 2%
 
 ---
 
 
-# Audience Lab {#audience-lab}
+# [!UICONTROL Audience Lab] {#audience-lab}
 
-Crea segmenti di test che si escludono a vicenda per [!UICONTROL Segment Test Groups] confrontare e misurare l'efficacia di diverse destinazioni. È possibile impostare un gruppo di controllo e suddividere il segmento in percentuali di un intero, al fine di verificare l'efficacia.
+Crea segmenti di test che si escludono a vicenda per [!UICONTROL Segment Test Groups] confrontare e misurare l&#39;efficacia di diverse destinazioni. È possibile impostare un gruppo di controllo e suddividere il segmento in percentuali di un intero, al fine di verificare l&#39;efficacia.
 
 ## Panoramica {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] utilizza Collegamento [](../../features/profile-merge-rules/merge-rules-overview.md) profilo per il test cross-device. In questo modo l'utente si qualifica per lo stesso segmento di test e riceve lo stesso trattamento tra i dispositivi. I segmenti di test nei gruppi di test erediteranno la regola [di unione dei](../../features/profile-merge-rules/merge-rules-dashboard.md) profili assegnata al segmento di base.
+[!UICONTROL Audience Lab] utilizza Collegamento [](../../features/profile-merge-rules/merge-rules-overview.md) profilo per il test cross-device. In questo modo l&#39;utente si qualifica per lo stesso segmento di test e riceve lo stesso trattamento tra i dispositivi. I segmenti di test nei gruppi di test erediteranno la regola [di unione dei](../../features/profile-merge-rules/merge-rules-dashboard.md) profili assegnata al segmento di base.
 
-La visualizzazione [!UICONTROL Audience Lab] predefinita visualizza una scheda per ciascun gruppo di test. Fate clic su una scheda per accedere alla **[!UICONTROL Test Group]** vista. Questa visualizzazione include le informazioni seguenti:
+La visualizzazione [!UICONTROL Audience Lab] predefinita visualizza una scheda per ciascuno dei gruppi di test. Fate clic su una scheda per accedere alla **[!UICONTROL Test Group]** vista. Questa visualizzazione include le informazioni seguenti:
 
 * **[Test Group Information](../../features/audience-lab/audience-lab-information-view.md)**
 * **[Report gruppo di test](../../features/audience-lab/audience-lab-reporting-view.md)**
@@ -34,14 +37,14 @@ Potete creare **fino a 10 gruppi** di test, ciascuno con **fino a 15 segmenti** 
 Dopo aver iniziato a creare più gruppi di test con più segmenti, potrebbe essere più semplice utilizzare la casella di ricerca per trovare un gruppo di test specifico. Potete cercare un gruppo di test per:
 
 * il nome del gruppo di prova;
-* Nome di uno qualsiasi dei segmenti di test nel gruppo di test;
+* Il nome di uno qualsiasi dei segmenti di test nel gruppo di test;
 * Descrizione del gruppo di test.
 
 ![](assets/search_and_filter_audience_lab.png)
 
 Potete anche filtrare i gruppi di test per stato. Tutti gli stati disponibili sono descritti nella sezione [Stato](../../features/audience-lab/audience-lab.md#status) di seguito.
 
-## Stato {#status}
+## [!UICONTROL Status] {#status}
 
 Lo stato di un gruppo di test può essere attivo, pianificato, messo in pausa, bozza o completato. Ulteriori informazioni su ciascuno di essi nella tabella seguente:
 
@@ -63,7 +66,7 @@ Lo stato di un gruppo di test può essere attivo, pianificato, messo in pausa, b
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> In pausa </span></b> </p> </td> 
-   <td colname="col2"> <p>Un gruppo di test <i>messo in pausa</i> al momento non invia dati alle destinazioni. Premere <b><span class="uicontrol"> Rendi attivo </span></b> nella scheda <b><span class="uicontrol"> Test Group </span></b> per riprendere le caratteristiche di invio. </p> </td> 
+   <td colname="col2"> <p>Un gruppo di test <i>messo in pausa</i> al momento non invia dati alle destinazioni. Premere <b><span class="uicontrol"> Rendi attivo </span></b> nella scheda <b><span class="uicontrol"> Test Group (Gruppo di test) </span></b> per riprendere le caratteristiche di invio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Bozza </span></b> </p> </td> 
@@ -76,7 +79,7 @@ Lo stato di un gruppo di test può essere attivo, pianificato, messo in pausa, b
  </tbody>
 </table>
 
-## Azioni {#actions}
+## [!UICONTROL Actions] {#actions}
 
 <table id="table_481A411E2D2F4FE891595D00E775CF60"> 
  <thead> 
@@ -88,7 +91,7 @@ Lo stato di un gruppo di test può essere attivo, pianificato, messo in pausa, b
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Modifica </span></b> </p> </td>
-   <td colname="col2"> <p>Disponibile <b>solo</b> per i gruppi di test bozza. Consente di riprendere la procedura guidata <b><span class="uicontrol"> Crea nuovo gruppo di test </span></b> . </p> </td>
+   <td colname="col2"> <p>Disponibile <b>solo</b> per i gruppi di test delle bozze. Consente di riprendere la procedura guidata <b><span class="uicontrol"> Crea nuovo gruppo di test </span></b> . </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pausa </span></b> </p> </td>
