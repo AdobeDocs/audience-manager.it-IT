@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Panoramica sulla privacy dei dati
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 2%
+source-wordcount: '485'
+ht-degree: 1%
 
 ---
 
@@ -27,13 +27,13 @@ La documentazione sulla privacy dei dati descrive [!DNL Audience Manager] l&#39;
 
 Nel nostro continuo supporto a questo modello, [!DNL Audience Manager] continua a impegnarci a fornirti gli strumenti per aiutare a supportare la tua capacità di fornire trasparenza e controllo ai tuoi consumatori, mentre distribuisci annunci personalizzati soggetti ai principi [di autoregolamentazione della pubblicità comportamentale](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/)online (OBA).
 
-## GDPR {#gdpr}
+## [!DNL GDPR] {#gdpr}
 
-Il regolamento [generale sulla protezione dei dati (GDPR)](https://eugdpr.org/) ha introdotto diversi nuovi diritti alla privacy dei dati per i membri dell&#39;Unione europea, tra cui il **diritto di accesso** e il **diritto di essere dimenticato**. Ciò significa che qualsiasi cittadino dell&#39;UE i cui dati personali siano stati raccolti dalla tua azienda può richiedere l&#39;accesso o l&#39;eliminazione dei dati in qualsiasi momento. Il mancato rispetto di queste richieste può comportare multe per più milioni di dollari per la tua organizzazione.
+Il regolamento [generale sulla protezione dei dati (GDPR)](https://eugdpr.org/) ha introdotto diversi nuovi diritti alla privacy dei dati per i membri dell&#39;Unione europea, tra cui il **diritto di accesso** e il **diritto di essere dimenticato**. Ciò significa che qualsiasi [!DNL EU] cittadino i cui dati personali siano stati raccolti dalla tua azienda può richiedere l&#39;accesso o l&#39;eliminazione dei dati in qualsiasi momento. Il mancato rispetto di queste richieste può comportare multe per più milioni di dollari per la tua organizzazione.
 
 Per soddisfare [!DNL GDPR], [!DNL Audience Manager] supporta l&#39;accesso ai dati e [le richieste](data-privacy-requests.md)di eliminazione.
 
-## CCPA {#ccpa}
+## [!DNL CCPA] {#ccpa}
 
 La [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), entrata in vigore il 1° gennaio 2020, conferisce ai residenti californiani nuovi diritti in merito alle loro informazioni personali e impone loro responsabilità in materia di protezione dei dati a determinate entità che conducono attività commerciali in California.
 
