@@ -7,16 +7,19 @@ solution: Audience Manager
 title: Gestisci origini dati
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 1%
 
 ---
 
 
-# Manage Data Sources {#manage-data-sources}
+# Gestire i  [!UICONTROL Data Sources]{#manage-data-sources}
 
-## Create a Data Source {#create-data-source}
+## Crea un [!UICONTROL Data Source] {#create-data-source}
 
-Per creare una nuova origine dati, passare a **[!UICONTROL Audience Data > Data Sources > Add New]** e completare i passaggi descritti di seguito. Per creare un&#39;origine dati è necessario disporre delle autorizzazioni di amministratore.
+Per creare una nuova sezione, [!UICONTROL data source]andate a **[!UICONTROL Audience Data > Data Sources > Add New]** completare i passaggi descritti di seguito. Per creare un account è necessario disporre delle autorizzazioni di amministratore [!UICONTROL data source].
 
 <!-- create-datasource.xml -->
 
@@ -24,19 +27,19 @@ Per creare una nuova origine dati, passare a **[!UICONTROL Audience Data > Data 
 >
 >Per una descrizione di questi diversi controlli, vedere Impostazioni origine [dati e Opzioni](../features/datasources-list-and-settings.md#settings-menu-options) menu.
 
-## Dettagli origine dati {#details}
+## [!UICONTROL Data Source] Dettagli {#details}
 
 Per completare la [!UICONTROL Data Source Details] sezione:
 
-1. Denominare l&#39;origine dati.
-1. *(Facoltativo)* Descrivere l&#39;origine dati. Una breve descrizione consente di definire il ruolo o lo scopo dell&#39;origine dati.
-1. Fornite un codice di integrazione. In genere, i codici di integrazione sono facoltativi. Sono necessari per:
+1. Denominate il [!UICONTROL data source].
+1. *(Facoltativo)* Descrivete il [!UICONTROL data source]. Una breve descrizione consente di definire il ruolo o lo scopo dell’ [!UICONTROL data source].
+1. Fornisci un [!UICONTROL integration code]. In genere [!UICONTROL integration codes] sono facoltative. Sono necessari per:
 
    * [Crea un&#39;origine](../features/profile-merge-rules/merge-rules-start.md#create-data-source)dati multi-dispositivo.
-   * Utilizzate [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+   * Utilizzate il [Servizio](https://docs.adobe.com/content/help/en/id-service/using/home.html)identità Adobe Experience Platform.
    * Utilizzare le regole [di unione dei](../features/profile-merge-rules/merge-rules-start.md)profili.
 
-1. Scegliete un **[!UICONTROL ID Type]**. Le opzioni per il tipo di ID includono:
+1. Scegliete un **[!UICONTROL ID Type]**. [!UICONTROL ID Type] le opzioni includono:
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -47,37 +50,37 @@ Per completare la [!UICONTROL Data Source Details] sezione:
    * **[!UICONTROL Person]**
    * **[!UICONTROL Household]**
 
-## Controlli sull&#39;esportazione dei dati {#export-controls}
+## [!UICONTROL Data Export Controls] {#export-controls}
 
-[I Controlli](../features/data-export-controls.md) sull&#39;esportazione dei dati sono regole di classificazione facoltative applicabili a un&#39;origine dati e a una destinazione. Impediscono l&#39;invio di dati a una destinazione in caso di violazione della privacy dei dati o dell&#39;accordo di utilizzo. Saltate questa sezione se non utilizzate [!UICONTROL Data Export Controls].
+[I controlli](../features/data-export-controls.md) di esportazione dei dati sono regole di classificazione facoltative applicabili a un [!UICONTROL data source] e [!UICONTROL destination]. Impediscono l&#39;invio di dati a un [!UICONTROL destination] utente in caso di violazione della privacy dei dati o dell&#39;accordo di utilizzo. Saltate questa sezione se non utilizzate [!UICONTROL Data Export Controls].
 
-## Data Source Settings {#settings}
+## [!UICONTROL Data Source] Impostazioni {#settings}
 
-Queste impostazioni determinano il modo in cui un&#39;origine dati viene identificata, utilizzata e condivisa. È inoltre possibile abilitare la segnalazione degli errori per i file di dati in entrata. Per completare la [!UICONTROL Data Source Settings] sezione:
+Queste impostazioni determinano il modo in cui un utente [!UICONTROL data source] viene identificato, utilizzato e condiviso. È inoltre possibile abilitare la segnalazione degli errori per i file di dati in entrata. Per completare la [!UICONTROL Data Source Settings] sezione:
 
-1. Selezionare una [!UICONTROL Data Source Setting] casella di controllo per applicare un&#39;opzione all&#39;origine dati.
+1. Selezionate una [!UICONTROL Data Source Setting] casella di controllo per applicare un’opzione al vostro [!UICONTROL data source].
 2. Clic **[!UICONTROL Save]**.
-
->[!MORELIKETHIS]
->
->* [Impostazioni origine dati e opzioni menu](../features/datasources-list-and-settings.md#settings-menu-options)
-
 
 ## Eliminazione di un&#39;origine dati {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Eliminare un&#39;origine dati non più necessaria.
+Eliminare un elemento [!UICONTROL data source] che non è più necessario.
 
 >[!NOTE]
 >
 >Prendete nota delle seguenti limitazioni:
 >
 >* Non puoi eliminare un [Pubblico attivo o una caratteristica](../features/traits/client-activity-synced-audience-traits.md)sincronizzata origine dati.
->* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di [!DNL Analytics] rapporti. Utilizzate il servizio [](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) core per annullare la mappatura di queste origini dati.
+>* Per i clienti che utilizzano Adobe  Analytics:  Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di [!DNL Analytics] rapporti. Utilizzate il servizio [](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) core per annullare la mappatura di queste origini dati.
 
 
 1. Clic **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Selezionare la casella di controllo accanto a una o più origini dati.
 È possibile utilizzare la [!UICONTROL Search] casella per individuare le origini dati desiderate se si dispone di un elenco lungo.
 1. Fare clic ![](assets/icon_trash.png), quindi confermare l&#39;eliminazione.
+
+
+>[!MORELIKETHIS]
+>
+>* [Impostazioni origine dati e opzioni menu](../features/datasources-list-and-settings.md#settings-menu-options)
