@@ -6,17 +6,17 @@ solution: Audience Manager
 title: Requisiti di nome e dimensione file FTP per i file di dati in entrata
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '896'
 ht-degree: 3%
 
 ---
 
 
-# Requisiti di nome e dimensione file FTP per i file di dati in entrata{#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP] Requisiti di nome e dimensione file per i file di dati in entrata {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni di file richiesti per l&#39;invio di dati a  Audience Manager. Impostate i nomi e le dimensioni dei file in base alle seguenti specifiche quando inviate i dati a una  directory Audience Manager [!DNL FTP] .
+Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni di file richiesti per l&#39;invio dei dati a [!DNL Audience Manager]. Impostate i nomi e le dimensioni dei file in base alle seguenti specifiche quando inviate i dati a una  directory Audience Manager [!DNL FTP] .
 
 >[!WARNING]
 >
