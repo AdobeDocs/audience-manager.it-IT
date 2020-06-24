@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Acquisizione dei dati di impressione della campagna attraverso Pixel Calls (Chiamate pixel)
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: aefd0a0798797b8bbe9cadc1af9f2e86e772bb4c
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 21%
+source-wordcount: '735'
+ht-degree: 20%
 
 ---
 
@@ -98,7 +98,7 @@ Le chiamate dell&#39;evento Impression accettano i dati formati in coppie chiave
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
-   <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p> <p><code>gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p> </td> 
+   <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p> <p><code>gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p><p>Se <code>gdpr=1</code>, il <code>gdpr_consent</code> parametro deve contenere il parametro di consenso del TC IAB per elaborare correttamente i dati. In caso contrario, tutti i dati verranno ignorati.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
