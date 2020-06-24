@@ -5,9 +5,9 @@ seo-title: Destinazioni basate su persone Prerequisiti e considerazioni
 solution: Audience Manager
 title: Prerequisiti e considerazioni
 translation-type: tm+mt
-source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
+source-git-commit: 02bde5060d50ba581937c504331397dfbbcdc19f
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,8 @@ Prima di poter utilizzare [!UICONTROL People-Based Destinations] per inviare il 
 Prima di poter utilizzare [!UICONTROL People-Based Destinations] per inviare segmenti di pubblico di prime parti a [!DNL LinkedIn], accertati che il tuo [!DNL LinkedIn Campaign Manager] account disponga di un livello di autorizzazione [!DNL Creative Manager] o superiore.
 
 Per informazioni su come modificare le autorizzazioni [!DNL LinkedIn Campaign Manager] utente, consulta [Aggiungi, Modifica e Rimuovi autorizzazioni utente sugli account](https://www.linkedin.com/help/lms/answer/5753) pubblicitari nella documentazione di LinkedIn.
+
+Per istruzioni video, consultate [Informazioni e configurazione della destinazione](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) basata sulle persone di LinkedIn.
 
 ## Onboarding dei dati {#data-onboarding}
 
