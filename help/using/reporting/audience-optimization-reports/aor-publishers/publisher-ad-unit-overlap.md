@@ -5,8 +5,12 @@ seo-title: Sovrapposizione unità annuncio
 solution: Audience Manager
 title: Sovrapposizione unità annuncio
 uuid: e4467e81-acbf-474e-b501-89d57395651f
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
 
 Il **[!UICONTROL Ad Unit Overlap]** rapporto viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio.
 
-## Caso d'uso {#use-cases}
+## Caso d&#39;uso {#use-cases}
 
 Con il **[!UICONTROL Ad Unit Overlap]** rapporto, puoi capire dove il pubblico si sovrappone tra le tue proprietà Web. Il rapporto considera le 100 proprietà principali correlate e mostra la sovrapposizione tra di esse.
 
@@ -29,7 +33,7 @@ Utilizzate i controlli **[!UICONTROL Base Ad Unit]** e **[!UICONTROL Overlap Ad 
 
 >[!IMPORTANT]
 >
->Quando [!UICONTROL Audience Optimization for Publishers]abilitate, dovete includere metadati descrittivi per [!UICONTROL Ad Unit IDs], come descritto nel passaggio 3 di [Importazione di file di dati DFP in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Ad Unit] anziché come [!UICONTROL Ad Unit ID].
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Ad Unit IDs], come descritto nel Passaggio 3 di [Importa file di dati DFP in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Ad Unit] anziché come [!UICONTROL Ad Unit ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
