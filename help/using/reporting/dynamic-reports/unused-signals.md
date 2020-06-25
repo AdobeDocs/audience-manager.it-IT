@@ -1,23 +1,27 @@
 ---
-description: Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell’inventario e inviate ad Audience Manager.
-seo-description: Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell’inventario e inviate ad Audience Manager.
+description: Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell'inventario e inviate a  Audience Manager.
+seo-description: Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell'inventario e inviate a  Audience Manager.
 seo-title: Report Segnali non utilizzati
 solution: Audience Manager
 title: Report Segnali non utilizzati
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 1%
 
 ---
 
 
 # Report Segnali non utilizzati{#unused-signals-report}
 
-Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell’inventario e inviate ad Audience Manager. Per accedere a questo rapporto, passa a **Analytics > Audience Reports (Report audience) > Other Reports (Altri report) > Unused Signals (Segnali** non utilizzati).
+Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell&#39;inventario e inviate a  Audience Manager. Per accedere a questo rapporto, passa a **Analytics > Audience Reports > Other Reports (Rapporti sul pubblico) > Unused Signals (Segnali** non utilizzati).
 
 >[!NOTE]
 >
->Se ricevi il messaggio &quot;Non hai accesso ai report Audience&quot;, contatta il tuo consulente Audience Manager o l&#39;Assistenza clienti per fornirti il rapporto.
+>Se ricevi il messaggio &quot;Non hai accesso ai report Audience&quot;, contatta il tuo consulente Audience Manager  o l&#39;Assistenza clienti per fornirti il rapporto.
 
 ![Screenshot del report sui segnali inutilizzati](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
@@ -27,7 +31,7 @@ Un segnale è costituito dalle informazioni trasmesse dal sito Web [!DNL Audienc
 
 I segnali non utilizzati sono dati raccolti ma non mappati a una caratteristica. Il [!UICONTROL Unused Signals] rapporto mostra i dati in una tabella per data, chiave, valore e conteggio delle frequenze. Qualsiasi segnale non mappato trasmesso ad [!DNL Audience Manager] almeno 100 volte al giorno si qualifica per il [!UICONTROL Unused Signals] report.
 
-Leggi questo report per identificare i segnali orfani che possono essere mappati su caratteristiche nuove o esistenti.
+Rivedete questo rapporto per identificare i segnali orfani che possono essere mappati su caratteristiche nuove o esistenti.
 
 >[!NOTE]
 >
@@ -62,8 +66,8 @@ Leggi questo report per identificare i segnali orfani che possono essere mappati
 
 Esegui e controlla il [!UICONTROL Unused Signals] rapporto:
 
-* Dopo aver creato una caratteristica o aggiornato le regole di caratteristica. Questo consente di garantire che le caratteristiche e le regole siano impostate correttamente. Il numero 1 nei risultati indica che una nuova caratteristica potrebbe non essere configurata correttamente.
-* Bicicletta o mensile. Le revisioni pianificate garantiscono l&#39;aggiornamento delle mappature delle caratteristiche.
+* Dopo aver creato una caratteristica o aggiornato le regole per la caratteristica. Questo consente di garantire che le caratteristiche e le regole siano impostate correttamente. Il numero 1 nei risultati indica che una nuova caratteristica potrebbe non essere configurata correttamente.
+* Bicicletta o mensile. Le revisioni pianificate consentono di garantire che le mappature delle caratteristiche siano aggiornate.
 
 >[!NOTE]
 >
