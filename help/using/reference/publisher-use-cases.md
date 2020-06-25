@@ -1,19 +1,23 @@
 ---
-description: Scopri le esigenze più comuni degli editori soddisfatti da Adobe Audience Manager.
-seo-description: Scopri le esigenze più comuni degli editori soddisfatti da Adobe Audience Manager.
+description: Un'occhiata ad alcune esigenze editoriali comuni soddisfatte dal  Adobe Audience Manager.
+seo-description: Un'occhiata ad alcune esigenze editoriali comuni soddisfatte dal  Adobe Audience Manager.
 seo-title: Casi di utilizzo di Publisher
 solution: Audience Manager
 title: Casi di utilizzo di Publisher
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
+feature: reference
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 2%
 
 ---
 
 
 # Casi di utilizzo di Publisher{#publisher-use-cases}
 
-Scopri le esigenze più comuni degli editori soddisfatti da Adobe Audience Manager.
+Un&#39;occhiata ad alcune esigenze editoriali comuni soddisfatte dal  Adobe Audience Manager.
 
 <!-- 
 
@@ -33,7 +37,7 @@ c_pub_use_case.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Crea un singolo archivio di audience che ti fornisce una panoramica di tutti i tuoi utenti e punti dati. Questo include informazioni come il comportamento del sito (potenzialmente da Analytics), impression della visualizzazione, database di registrazione offline, database CRM, consumo video, iniziative e-mail e promozioni. </p> </td> 
+   <td colname="col1"> <p>Crea un singolo archivio di audience che ti fornisce una panoramica di tutti i tuoi utenti e punti dati. Questo include informazioni come il comportamento del sito (potenzialmente da  Analytics), impression della visualizzazione, database di registrazione offline, database CRM, consumo video, iniziative e-mail e promozioni. </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_FB6683152C7D4D65AF951BA55E123427"> 
       <li id="li_45C12198EDDE4107AE59947BBAA51A60">Scopri i tipi di pubblico, gestisci campagne pubblicitarie o di vendita più intelligenti e gestisci le opinioni dei clienti. </li> 
@@ -44,7 +48,7 @@ c_pub_use_case.xml
  </tbody> 
 </table>
 
-**Creare Segmenti Pubblico Pubblicitari Con Dati Di Analytics Di Prime Parti**
+**Creare Segmenti Pubblico Pubblicitari Con Dati Analytics Di Prime Parti**
 
 <table id="table_EE77D9F5BAD1473C8E058EE778AF2C3F"> 
  <thead> 
@@ -85,12 +89,12 @@ c_pub_use_case.xml
       <li id="li_0714139FF2F5492DA32FB95456699E54">Aumenta la dimensione del segmento, le visualizzazioni della pagina e le impression. </li> 
       <li id="li_2CA4DFF2836D4F71A137829074F46D17">Crea un'esperienza più rilevante per quel visitatore del sito. </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> L'analisi in tempo reale di Audience Manager</span>consente di migliorare il riconoscimento dell'audience, migliorando l'esperienza in loco fornendo contenuti pertinenti e personalizzati. </p> <p>Questo vi offre l'opportunità di aggiungere la personalizzazione dei contenuti come elemento di riga ai vostri prodotti premium per il pubblico. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> 'analisi in tempo reale di Audience Manager</span>consente di migliorare il riconoscimento dell'audience, migliorando l'esperienza in loco fornendo contenuti pertinenti e personalizzati. </p> <p>Questo vi offre l'opportunità di aggiungere la personalizzazione dei contenuti come elemento di riga ai vostri prodotti premium per il pubblico. </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EEED2DAD504C486F8C00992219C893F7"> 
-      <li id="li_E536F7C79824484DA3DC895809B849F4">Analytics fornisce dati di prime parti sull'interesse del pubblico per i contenuti di viaggio. In base a queste informazioni, create un segmento denominato "Viaggi entusiasti". </li> 
+      <li id="li_E536F7C79824484DA3DC895809B849F4"> Analytics fornisce dati di prime parti sull'interesse del pubblico per i contenuti di viaggio. In base a queste informazioni, create un segmento denominato "Viaggi entusiasti". </li> 
       <li id="li_DCB3A5F3772C4DCEB757A4AB6CABFBE3">Integrare <span class="keyword"> Audience Manager</span> con un sistema come Adobe CQ per gestire le campagne di personalizzazione dei contenuti. </li> 
-      <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">Eseguite il targeting del segmento di viaggio per una compagnia aerea, un hotel o un inserzionista di ospitalità per migliorare le entrate pubblicitarie generate dal vostro inventario. </li> 
+      <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">Target il segmento di viaggio a una compagnia aerea, un hotel o un inserzionista di ospitalità per migliorare le entrate pubblicitarie generate dal tuo inventario. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +102,7 @@ c_pub_use_case.xml
 
 **Miglioramento dell&#39;estensione di accesso esterno al sito**
 
-Questo caso d’uso funziona con dati di prime parti di Analytics inviati a una piattaforma lato domanda (DSP).
+Questo caso di utilizzo funziona con dati Analytics di prime parti  inviati a una piattaforma lato domanda (DSP).
 
 <table id="table_F88329D45D9441F1A8EDB9D6140FD02D"> 
  <thead> 
@@ -115,7 +119,7 @@ Questo caso d’uso funziona con dati di prime parti di Analytics inviati a una 
    <td colname="col3"> <p> 
      <ul id="ul_EE7A86BFFE534A59A9F8C7CAF46A31E5"> 
       <li id="li_D399592D9D904865BD319DC3621B832B">Crea un segmento "Ricercatori di imposta sul reddito". </li> 
-      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Allinea la campagna pubblicitaria on-side venduta a Turbo Tax con una campagna di estensione off-site tramite un DSP come Adobe Advertising Cloud. </li> 
+      <li id="li_D28AC8BA5E194176BB8736B089B3C2F7">Allinea la campagna pubblicitaria on-side venduta a Turbo Tax con una campagna di estensione off-site tramite un DSP come Adobe  Advertising Cloud. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -149,7 +153,7 @@ La documentazione relativa ai [modelli](../features/algorithmic-models/understan
      <ul id="ul_51091241D6B94A849A383538045D797C"> 
       <li id="li_88798E58BA574FA196CFC02C9C55A293">Identifica i "giocatori Xbox" nel tuo database di clienti. </li> 
       <li id="li_1136BBC68C8242CE9F116F2C70A4C164">Eseguite un modello simile per individuare e identificare gli utenti più influenti in quel segmento. </li> 
-      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">Eseguite il targeting di questi segmenti per ottimizzare la pubblicità sulla visualizzazione sul sito con Test&amp;Target. </li> 
+      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">Target questi segmenti per ottimizzare la pubblicità sul sito con Test&amp;Target. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
