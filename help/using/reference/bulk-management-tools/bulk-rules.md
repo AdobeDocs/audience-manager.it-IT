@@ -5,8 +5,12 @@ seo-title: Creare o aggiornare regole di caratteristica e regole di segmento
 solution: Audience Manager
 title: Creare o aggiornare regole di caratteristica e regole di segmento
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 0%
 
 ---
 
