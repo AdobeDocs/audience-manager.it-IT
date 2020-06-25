@@ -5,8 +5,12 @@ seo-title: Importazione di file di dati DFP in Audience Manager
 solution: Audience Manager
 title: Importazione di file di dati DFP in Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 20%
 
 ---
 
@@ -15,24 +19,24 @@ source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
 
 Prima che Audience Manager possa abilitare l’ottimizzazione del pubblico per gli editori, assicurati che siano soddisfatti tutti i prerequisiti definiti in questo articolo. Dopo aver verificato i prerequisiti, contatta l’Assistenza clienti.
 
-## Prerequisiti per l'inserimento del registro DFP {#prereqs-dfp-ingestion}
+## Prerequisiti per l&#39;inserimento del registro DFP {#prereqs-dfp-ingestion}
 
 Il processo descritto in questa sezione deve essere completato *prima* di passare ai prerequisiti per l’abilitazione dell’assimilazione del registro.
 
-Per utilizzare i file di registro DFP ( [!DNL DoubleClick For Publishers]) in [!DNL Audience Manager], devi prima impostare il nostro ID utente univoco di [Audience Manager (UUID)](../../../reference/ids-in-aam.md) nella chiamata del tag dell’annuncio. In questo modo, il nostro ID è incluso nei registri DFP e possiamo far corrispondere gli ID tra DFP e [!DNL Audience Manager]. Utilizzate [!DNL Audience Manager][!UICONTROL DIL] il codice o [!UICONTROL Audience Management Module] per impostare l' [!DNL Audience Manager] UUID in un cookie di prime parti.
+Per utilizzare i file di registro DFP ( [!DNL DoubleClick For Publishers]) in [!DNL Audience Manager], devi prima impostare il nostro ID utente univoco [Audience Manager (UUID)](../../../reference/ids-in-aam.md) nella chiamata dei tag degli annunci. In questo modo, il nostro ID è incluso nei registri DFP e possiamo far corrispondere gli ID tra DFP e [!DNL Audience Manager]. Utilizzate [!DNL Audience Manager][!UICONTROL DIL] il codice o [!UICONTROL Audience Management Module] per impostare l&#39; [!DNL Audience Manager] UUID in un cookie di prime parti.
 
 Ecco come impostare l’ [!DNL Audience Manager] ID nella chiamata del tag dell’annuncio, come spiegato nella nostra documentazione:
 
 * [Tramite Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [Tramite una destinazione di cookie](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-Devi impostare tu stesso l' [!DNL Audience Manager] ID e puoi collaborare con [!DNL Audience Manager] la consulenza per verificare se tutto funziona. Hai impostato correttamente l’ [!DNL Audience Manager] ID se:
+Devi impostare tu stesso l&#39; [!DNL Audience Manager] ID e puoi collaborare con [!DNL Audience Manager] la consulenza per verificare se tutto funziona. Hai impostato correttamente l’ [!DNL Audience Manager] ID se:
 
 * `'aamid'` è la chiave utilizzata come identificatore.
-* Il valore ID utente è formattato correttamente come [!DNL Audience Manager] UUID, come descritto nel nostro [Indice ID in Audience Manager](../../../reference/ids-in-aam.md).
-* Hai incluso l’ [!DNL Audience Manager] UUID in un campo definito nei registri DFP (ad esempio CustomTargeting).
+* Il valore ID utente è formattato correttamente come [!DNL Audience Manager] UUID, come descritto nel nostro [Indice di ID in  Audience Manager](../../../reference/ids-in-aam.md).
+* Hai incluso l’ [!DNL Audience Manager] UUID in un campo definito nei registri DFP (ad es. CustomTargeting).
 
-## Prerequisiti per l'abilitazione dell'inserimento del registro {#prereqs-ingestion-enablement}
+## Prerequisiti per l&#39;abilitazione dell&#39;inserimento del registro {#prereqs-ingestion-enablement}
 
 <table id="table_C980A9F9B0FB4157B4908A64768B1571"> 
  <thead> 
@@ -45,8 +49,8 @@ Devi impostare tu stesso l' [!DNL Audience Manager] ID e puoi collaborare con [!
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Passaggio 1 </p> </td> 
-   <td colname="col2"> <p>Conferma che i passaggi necessari per impostare <span class="keyword"> Audience Manager</span> UUID (come indicato sopra) sono stati completati prima di passare al punto 2 </p> </td> 
-   <td colname="col3"> <p><span class="keyword"> Assistenza clienti o consulenza di Audience Manager</span> </p> </td> 
+   <td colname="col2"> <p>Conferma che i passaggi necessari per impostare il <span class="keyword"> Audience Manager</span> UUID (come indicato sopra) sono stati completati prima di passare al Passaggio 2 </p> </td> 
+   <td colname="col3"> <p><span class="keyword">  Assistenza clienti o consulenza Audience Manager</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passaggio 2 </p> </td> 
@@ -60,7 +64,7 @@ Devi impostare tu stesso l' [!DNL Audience Manager] ID e puoi collaborare con [!
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passaggio 3 </p> </td> 
-   <td colname="col2"> <p>L'amministratore DFP concede l'accesso API all'account del servizio. Questo passaggio consente di accedere ai metadati per delineare le dimensioni (elementi di linea, ordini, creatività). <p>Nota:  Utilizzate l'accesso e-mail all'account del servizio configurato nel passaggio 2 per concedere l'autorizzazione per accedere all'API. </p> </p> </td> 
+   <td colname="col2"> <p>L'amministratore DFP concede l'accesso API all'account del servizio. Questo passaggio consente di accedere ai metadati per delineare le dimensioni (elementi di linea, ordini, creatività). <p>Nota:  Utilizzate l'accesso e-mail all'account del servizio configurato nel passaggio 2 per concedere l'autorizzazione per l'accesso all'API. </p> </p> </td> 
    <td colname="col3"> <p>Amministratore DFP </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +84,7 @@ Devi impostare tu stesso l' [!DNL Audience Manager] ID e puoi collaborare con [!
   <tr> 
    <td colname="col1"> <p>Passaggio 6 </p> </td> 
    <td colname="col2"> <p>Compilate i prerequisiti in un messaggio e-mail all'Assistenza clienti AAM (aamsupport@adobe.com) per avviare il processo di caricamento del registro. Bozza il messaggio e-mail utilizzando il modello nella sezione successiva. </p> </td> 
-   <td colname="col3"> <p>Voi o <span class="keyword"> Audience Manager</span> Consulenza per vostro conto </p> </td> 
+   <td colname="col3"> <p>Voi o <span class="keyword"> Audience Manager</span> Consulting per vostro conto </p> </td> 
   </tr> 
  </tbody> 
 </table>
