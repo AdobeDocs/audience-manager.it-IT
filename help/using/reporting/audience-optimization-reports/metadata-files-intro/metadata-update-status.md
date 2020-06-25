@@ -5,8 +5,12 @@ seo-title: Aggiornamenti di stato per i file di metadati
 solution: Audience Manager
 title: Aggiornamenti di stato per i file di metadati
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 1%
 
 ---
 
@@ -60,7 +64,7 @@ Il contenuto del `.info` file sarà simile a questo esempio.
 
 Le tabelle seguenti elencano e definiscono le chiavi nelle `Files` sezioni e nelle `Summary` sezioni di un file di stato dei metadati.
 
-**Tasti nell'array dei file**
+**Tasti nell&#39;array dei file**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -71,7 +75,7 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle `Files` sezioni e nel
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Descrizione</code> </p> </td> 
+   <td colname="col1"> <p> <code> Description</code> </p> </td> 
    <td colname="col2"> <p>Contiene una breve descrizione del motivo per cui l'elaborazione non è riuscita. Questo campo è vuoto se l'elaborazione ha esito positivo. </p> </td> 
   </tr> 
   <tr> 
@@ -80,32 +84,32 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle `Files` sezioni e nel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Il checksum MD 5 per il file di metadati caricato nella <code> directory meta</code> . </p> </td> 
+   <td colname="col2"> <p>Il checksum MD 5 per il file di metadati caricato nella <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> NomeFile</code> </p> </td> 
-   <td colname="col2"> <p>Nome del file di metadati caricato nella <code> directory meta</code> . </p> </td> 
+   <td colname="col1"> <p> <code> FileName</code> </p> </td> 
+   <td colname="col2"> <p>Nome del file di metadati caricato nella <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
    <td colname="col2"> <p>Nome leggibile per il tipo di dati contenuto nel file. Si basa sull’ID figlio nel nome del file. </p> <p>Consultate <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file</a>di metadati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Elemento padre</code> </p> </td> 
+   <td colname="col1"> <p> <code> Parent</code> </p> </td> 
    <td colname="col2"> <p>Nome leggibile per il tipo di dati contenuto nel file. Si basa sull’ID principale nel nome del file. </p> <p>Consultate <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file</a>di metadati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> Stato</code> </p> </td> 
+   <td colname="col1"> <p> <code> Status</code> </p> </td> 
    <td colname="col2"> <p>Restituisce 2 valori di testo che descrivono lo stato di elaborazione del file di metadati: </p> 
     <ul id="ul_3814EBB6B42B4EB294B1ABA5782190B6"> 
-     <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <code> SUCCESSO</code> </li> 
-     <li id="li_3109F4E254374117A89CB989F221CB18"> <code> ERRORE</code> </li> 
+     <li id="li_92AAECE7E9A44B1193A1D93ABBCE46B0"> <code> SUCCESS</code> </li> 
+     <li id="li_3109F4E254374117A89CB989F221CB18"> <code> FAILURE</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Tasti nell'oggetto di riepilogo**
+**Tasti nell&#39;oggetto di riepilogo**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
@@ -117,18 +121,18 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle `Files` sezioni e nel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Data di elaborazione file in formato <code><i>aaaa-mm-gg</i></code> . </p> </td> 
+   <td colname="col2"> <p>Data di elaborazione file in <code><i>yyyy-mm-dd</i></code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
    <td colname="col2"> <p>Restituisce 2 valori di testo che descrivono lo stato di elaborazione di tutti i file per un'intera giornata: </p> 
     <ul id="ul_3FC092CA043A486C9C79FECF71FAF8FB"> 
-     <li id="li_754B32D8267D44BBBD6EC354C459C566"> <code> SUCCESSO</code> </li> 
-     <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <code> ERRORE</code> </li> 
+     <li id="li_754B32D8267D44BBBD6EC354C459C566"> <code> SUCCESS</code> </li> 
+     <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <code> FAILURE</code> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> NumberFailed</code> </p> </td> 
+   <td colname="col1"> <p> <code> NumberFailure</code> </p> </td> 
    <td colname="col2"> <p>Numero di file elaborati non correttamente. </p> </td> 
   </tr> 
   <tr> 
