@@ -1,27 +1,31 @@
 ---
-description: Il rapporto sullo stato di onboarding verifica i tassi di successo e di errore per l'elaborazione dei record nei file di origine dati in ingresso. Questo rapporto visualizza i dati sotto forma di grafico a barre interattivo e fornisce metriche di riepilogo sotto forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. Potete trovare questo rapporto in Analytics > Onboarding Status Report (Rapporto sullo stato di onboarding). Questo rapporto è disponibile anche quando si crea un'origine dati in ingresso.
-seo-description: Il rapporto sullo stato di onboarding verifica i tassi di successo e di errore per l'elaborazione dei record nei file di origine dati in ingresso. Questo rapporto visualizza i dati sotto forma di grafico a barre interattivo e fornisce metriche di riepilogo sotto forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. Potete trovare questo rapporto in Analytics > Onboarding Status Report (Rapporto sullo stato di onboarding). Questo rapporto è disponibile anche quando si crea un'origine dati in ingresso.
-seo-title: Onboarding Status Report About
+description: Il rapporto sullo stato di onboarding verifica i tassi di successo e di errore per l'elaborazione dei record nei file di origine dati in ingresso. Questo rapporto visualizza i dati sotto forma di grafico a barre interattivo e fornisce metriche di riepilogo sotto forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. Potete trovare questo rapporto in  Analytics > Onboarding Status Report (Rapporto sullo stato di onboarding). Questo rapporto è disponibile anche quando si crea un'origine dati in ingresso.
+seo-description: Il rapporto sullo stato di onboarding verifica i tassi di successo e di errore per l'elaborazione dei record nei file di origine dati in ingresso. Questo rapporto visualizza i dati sotto forma di grafico a barre interattivo e fornisce metriche di riepilogo sotto forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. Potete trovare questo rapporto in  Analytics > Onboarding Status Report (Rapporto sullo stato di onboarding). Questo rapporto è disponibile anche quando si crea un'origine dati in ingresso.
+seo-title: Rapporto sullo stato di onboarding
 solution: Audience Manager
-title: Onboarding Status Report About
+title: Rapporto sullo stato di onboarding
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
+feature: inbound and outbound reports
 translation-type: tm+mt
-source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '1498'
+ht-degree: 8%
 
 ---
 
 
 # Rapporto sullo stato di onboarding{#onboarding-status-report-about}
 
-Il rapporto sullo stato di onboarding verifica i tassi di successo e di errore per l'elaborazione dei record nei file di origine dati in ingresso. Questo rapporto visualizza i dati sotto forma di grafico a barre interattivo e fornisce metriche di riepilogo sotto forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. Potete trovare questo rapporto in Analytics &gt; Onboarding Status Report (Rapporto sullo stato di onboarding). Questo rapporto è disponibile anche quando si crea un'origine dati in ingresso.
+Il rapporto sullo stato di onboarding verifica i tassi di successo e di errore per l&#39;elaborazione dei record nei file di origine dati in ingresso. Questo rapporto visualizza i dati sotto forma di grafico a barre interattivo e fornisce metriche di riepilogo sotto forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. Potete trovare questo rapporto in  Analytics > Onboarding Status Report (Rapporto sullo stato di onboarding). Questo rapporto è disponibile anche quando si crea un&#39;origine dati in ingresso.
 
 >[!NOTE]
 >
->Questo rapporto può essere visualizzato solo dagli utenti con privilegi di amministratore nell’interfaccia utente di Audience Manager. Potete fare in modo che gli utenti non amministratori ricevano una notifica dello stato dei file in entrata caricati aggiungendo le loro e-mail al rapporto. Consultate [Ricevere notifiche](/help/using/reporting/onboarding-status-report.md#receive-email-notifications)e-mail.
+>Solo gli utenti con privilegi di amministratore possono visualizzare questo rapporto nell&#39;interfaccia  utente di Audience Manager. Potete fare in modo che gli utenti non amministratori ricevano una notifica dello stato dei file in entrata caricati aggiungendo le loro e-mail al rapporto. Consultate [Ricevere notifiche](/help/using/reporting/onboarding-status-report.md#receive-email-notifications)e-mail.
 
 ## Rapporto sullo stato di onboarding: Informazioni {#onboarding-status-about}
 
-Il [!UICONTROL Onboarding Status Report] (Report errori campione) verifica i tassi d’errore e di successo nell’elaborazione dei record nei propri file di origine dei dati in ingresso. Questo rapporto visualizza i dati sotto forma di grafico a barre interattivo e fornisce metriche di riepilogo sotto forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. Puoi trovare questo rapporto in **[!UICONTROL Analytics > Onboarding Status Report]**. Questo rapporto è disponibile anche quando si crea un'origine dati in ingresso.
+Il [!UICONTROL Onboarding Status Report] (Report errori campione) verifica i tassi d’errore e di successo nell’elaborazione dei record nei propri file di origine dei dati in ingresso. Questo rapporto visualizza i dati sotto forma di grafico a barre interattivo e fornisce metriche di riepilogo sotto forma di tabella. Prevede inoltre un’opzione per il campionamento dei file per un intervallo di tempo prefissato e la visualizzazione degli errori più comuni per ogni tipo di errore. Puoi trovare questo rapporto in **[!UICONTROL Analytics > Onboarding Status Report]**. Questo rapporto è disponibile anche quando si crea un&#39;origine dati in ingresso.
 
 ## Segnalazione errori e campionamento errori {#error-reporting-sampling}
 
@@ -37,24 +41,24 @@ La segnalazione degli errori e il campionamento degli errori sono due funzioni d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Segnalazione errori</b> </p> </td>
-   <td colname="col2"> <p>La segnalazione degli errori mostra i tassi di successo e di errore per il numero di record elaborati in un'origine dati in entrata. Restituisce i dati in un grafico a barre interattivo sovrapposto e sotto forma di metriche di riepilogo nelle tabelle sotto il grafico. </p> <p>La segnalazione degli errori è automatica. Viene eseguito in modo continuo per tutte le origini dati in entrata. Restituisce i dati in base all'intervallo di intervalli di tempo preimpostati o a un intervallo di tempo personalizzato impostato con un widget calendario. </p> </td> 
+   <td colname="col2"> <p>La segnalazione degli errori mostra i tassi di successo e di errore per il numero di record elaborati in un'origine dati in entrata. Restituisce i dati in un grafico a barre interattivo sovrapposto e sotto forma di metriche di riepilogo nelle tabelle sotto il grafico. </p> <p>La segnalazione degli errori è automatica. Viene eseguito in modo continuo per tutte le origini dati in entrata. Restituisce i dati in base all'intervallo di intervalli di tempo preimpostati o a un intervallo di tempo personalizzato impostato con un widget del calendario. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Campionamento errori</b> </p> </td>
-   <td colname="col2"> <p>Il campionamento degli errori analizza il contenuto dei file di dati e restituisce i 10 errori più comuni per ogni tipo di errore. Gli errori nei file di dati in entrata impediscono l'elaborazione di singoli record. Utilizzate questo rapporto come strumento di risoluzione dei problemi per ridurre il numero di errori dei file e migliorare la frequenza di elaborazione. </p> <p>È necessario attivare manualmente il campionamento degli errori. Viene eseguito per 14 giorni dal giorno dell'attivazione e si disattiva. Potete riattivare il campionamento degli errori dopo la scadenza dell’intervallo di 14 giorni. È possibile attivare il campionamento degli errori quando si <a href="../features/manage-datasources.md#create-data-source"> crea un'origine</a> dati in ingresso o selezionando la casella di controllo <b><span class="uicontrol"> Campionamento</span></b> errori dalla sezione <span class="wintitle"> Impostazioni</span> origine dati di un'origine dati in entrata esistente. </p> <p>Il campionamento degli errori è un processo che richiede calcoli. Di conseguenza, restituisce solo i primi 10 errori per ciascuna categoria di errori. Non è progettato per restituire tutti gli errori contenuti in un'origine dati in ingresso. Questi errori sono un esempio rappresentativo di un gruppo potenzialmente più ampio di errori simili. Rivedete l'intero file per i tipi di errori che questo rapporto contrassegna, riformattate il file e inviatelo di nuovo. </p> <p>Consulta Contenuti del file di dati <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> in entrata: Sintassi, variabili ed esempi</a> per ulteriori informazioni su come formattare correttamente un file di dati per un'origine dati in entrata. </p> </td> 
+   <td colname="col2"> <p>Il campionamento degli errori analizza il contenuto dei file di dati e restituisce i 10 errori più comuni per ogni tipo di errore. Gli errori nei file di dati in entrata impediscono l'elaborazione di singoli record. Utilizzate questo rapporto come strumento di risoluzione dei problemi per ridurre il numero di errori dei file e migliorare la frequenza di elaborazione. </p> <p>È necessario attivare manualmente il campionamento degli errori. Viene eseguito per 14 giorni dal giorno dell'attivazione e poi si spegne. Potete riattivare il campionamento degli errori dopo la scadenza dell’intervallo di 14 giorni. È possibile attivare il campionamento degli errori quando si <a href="../features/manage-datasources.md#create-data-source"> crea un'origine</a> dati in ingresso o selezionando la casella di controllo <b><span class="uicontrol"> Campionamento</span></b> errori dalla sezione <span class="wintitle"> Impostazioni</span> origine dati di un'origine dati in entrata esistente. </p> <p>Il campionamento degli errori è un processo che richiede calcoli. Di conseguenza, restituisce solo i primi 10 errori per ciascuna categoria di errori. Non è progettato per restituire tutti gli errori contenuti in un'origine dati in ingresso. Questi errori sono un esempio rappresentativo di un gruppo potenzialmente più ampio di errori simili. Rivedete l'intero file per i tipi di errori che questo rapporto contrassegna, riformattate il file e inviatelo di nuovo. </p> <p>Consulta Contenuti del file di dati <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> in entrata: Sintassi, variabili ed esempi</a> per ulteriori informazioni su come formattare correttamente un file di dati per un'origine dati in entrata. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Grafico a barre dei rapporti di errore {#error-report-bar-chart}
 
-Il rapporto sugli errori rappresenta i tassi di successo e di errore per l'elaborazione dei record in un grafico a barre sovrapposto come illustrato nell'esempio seguente. Il grafico è interattivo. Facendo clic su una barra vengono visualizzate le metriche di riepilogo relative al giorno specificato in una tabella sotto il grafico.
+Il rapporto sugli errori rappresenta i tassi di successo e di errore per l&#39;elaborazione dei record in un grafico a barre sovrapposto, come illustrato nell&#39;esempio seguente. Il grafico è interattivo. Facendo clic su una barra vengono visualizzate le metriche di riepilogo relative al giorno specificato in una tabella sotto il grafico.
 
 ![](assets/stacked-graph.png)
 
 ## Tabelle dei rapporti di errore {#error-report-tables}
 
-Il rapporto sugli errori visualizza i dati di tabella sotto il grafico a barre. La tabella mostra i tassi di successo e di errore insieme ai totali e alle percentuali.
+Il rapporto sugli errori visualizza i dati tabulari sotto il grafico a barre. La tabella mostra i tassi di successo e di errore insieme ai totali e alle percentuali.
 
 **Record con esito positivo e non riuscito**
 
@@ -68,13 +72,13 @@ Fate clic **[!UICONTROL Totals & Percentages]** per vedere la percentuale di fil
 
 ![](assets/totals-percentages.png)
 
-## Rapporto di campionamento errori per 14 giorni {#error-reporting-14-days}
+## Report di campionamento degli errori per 14 giorni {#error-reporting-14-days}
 
 Con il campionamento degli errori attivo, il rapporto mostra i primi 10 errori per ogni tipo di errore. Fate clic sul pulsante del tipo di errore nella parte superiore del rapporto per visualizzare ogni insieme di dati campionati.
 
 >[!NOTE]
 >
->Il rapporto non evidenzia gli errori dei record con questa versione corrente. Per individuare e correggere gli errori dei file, è necessario esaminare i risultati e confrontarli con le specifiche indicate nella documentazione Contenuti [file dati](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) in entrata.
+>Il rapporto non evidenzia gli errori dei record con questa versione corrente. Per individuare e correggere gli errori dei file, è necessario esaminare i risultati e confrontarli con le specifiche indicate nella documentazione Contenuti [file di dati](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) in entrata.
 
 ![](assets/error-samples.png)
 
@@ -86,7 +90,7 @@ Potete aggiungere gli indirizzi e-mail dei destinatari ai quali desiderate ricev
 
 ## Creare un rapporto sullo stato di onboarding {#create-onboard-status-report}
 
-A [!UICONTROL Sample Error Report] restituisce il numero di record elaborati correttamente in un'origine dati e il numero di record che hanno avuto esito negativo. Per generare un [!UICONTROL Sample Error Report]oggetto, effettuate le seguenti operazioni.
+A [!UICONTROL Sample Error Report] restituisce il numero di record elaborati correttamente in un&#39;origine dati e il numero di record che hanno avuto esito negativo. Per generare un [!UICONTROL Sample Error Report]oggetto, effettuate le seguenti operazioni.
 
 <!-- 
 
@@ -95,14 +99,14 @@ create-onboarding-status-report.xml
  -->
 
 
-1. Vai a **[!UICONTROL Analytics > Onboarding Status Report]**. Cercare un'origine dati o sceglierne una dall'elenco.
+1. Vai a **[!UICONTROL Analytics > Onboarding Status Report]**. Cercare un&#39;origine dati o sceglierne una dall&#39;elenco.
 
 2. Seleziona un intervallo di date. Le opzioni includono:
 
    * Un insieme di intervalli di rapporti fissi.
    * widget calendario che consentono di creare un intervallo di date personalizzato.
 
-3. Fai clic su **[!UICONTROL OK]**.
+3. Clic **[!UICONTROL OK]**.
 
 ## Termini e definizioni del rapporto sullo stato di onboarding {#report-terms-conditions}
 
@@ -118,7 +122,7 @@ Guida di riferimento per le etichette e i termini utilizzati in questo rapporto.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Nome file sincronizzazione dati</b> </p> </td> 
-   <td colname="col2"> <p>Elenca i file ricevuti e elaborati da <span class="keyword"> Audience Manager</span> dall'origine dati in ingresso selezionata. </p> <p>L'elaborazione del file non riuscirà se il nome del file viene formattato in modo errato. I requisiti del nome del file variano a seconda di come si inviano questi dati ad <span class="keyword"> Audience Manager</span>. I metodi di consegna includono <span class="keyword"> Amazon S3</span> e FTP. Per istruzioni su come assegnare un nome ai file, consultate: </p> <p> 
+   <td colname="col2"> <p>Elenca i file che <span class="keyword"> Audience Manager</span> ha ricevuto ed elaborato dall'origine dati in ingresso selezionata. </p> <p>L'elaborazione del file non riuscirà se il nome del file viene formattato in modo errato. I requisiti relativi al nome del file variano a seconda di come vengono inviati i dati a <span class="keyword"> Audience Manager</span>. I metodi di consegna includono <span class="keyword"> Amazon S3</span> e FTP. Per istruzioni su come assegnare un nome ai file, consultate: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Requisiti di nome di Amazon S3 per file di dati in entrata </a> </li> 
      </ul> </p> </td> 
@@ -138,7 +142,7 @@ Guida di riferimento per le etichette e i termini utilizzati in questo rapporto.
 
 <tr> 
    <td colname="col1"> <p> <b>ID dispositivo non valido</b> </p> </td> 
-   <td colname="col2"> <p>Mostra il numero di ID dispositivo globale formattati in modo errato. Consulta <a href="../reference/ids-in-aam.md">Indice degli ID in Audience Manager</a> e Origini <a href="../features/global-data-sources.md">dati</a> globali per informazioni dettagliate sulla formattazione degli ID dispositivo e sulle origini dati globali da utilizzare in base al tipo di dispositivo.</p>
+   <td colname="col2"> <p>Mostra il numero di ID dispositivo globale formattati in modo errato. Consulta <a href="../reference/ids-in-aam.md">Indice degli ID in  Audience Manager</a> e Origini <a href="../features/global-data-sources.md">dati</a> globali per informazioni dettagliate sulla formattazione degli ID dispositivo e sulle origini dati globali da utilizzare in base al tipo di dispositivo.</p>
   <p>La sezione relativa al campionamento degli errori del rapporto include informazioni dettagliate sugli ID dispositivo non validi, ad esempio:</p>
    <ul>
     <li>ID origine dati corrispondente all'ID dispositivo non valido;</li>
@@ -151,7 +155,7 @@ Guida di riferimento per le etichette e i termini utilizzati in questo rapporto.
 
 <tr> 
    <td colname="col1"> <p> <b>Nessun ID AAM corrispondente</b> </p> </td> 
-   <td colname="col2"> <p>Si tratta di ID caricati. <span class="keyword"> Audience Manager</span> non può corrispondere a un ID esistente. Gli ID caricati possono avere questo stato quando <span class="keyword"> Audience Manager</span> non ha ancora eseguito una sincronizzazione ID o non può ancora corrispondere all’ID anche dopo una sincronizzazione. </p> <p>Nel caso di ID mobili non associati, <span class="keyword"> Audience Manager</span> : </p> 
+   <td colname="col2"> <p>Si tratta di ID caricati <span class="keyword">  Audience Manager</span> non può corrispondere a un ID esistente. Gli ID caricati possono avere questo stato quando <span class="keyword"> Audience Manager</span> non ha ancora eseguito la sincronizzazione ID o se non può comunque corrispondere all’ID anche dopo una sincronizzazione. </p> <p>Nel caso di ID mobili non associati, <span class="keyword">  Audience Manager</span> : </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">Continuate a memorizzare e provate a sincronizzare questo ID. </li> 
      <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Registralo come Record <span class="wintitle"></span> memorizzato nel rapporto se l’ID non può essere sincronizzato. </li> 
@@ -159,7 +163,7 @@ Guida di riferimento per le etichette e i termini utilizzati in questo rapporto.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Nessuna caratteristica realizzata</b> </p> </td> 
-   <td colname="col2"> <p>Elenca le caratteristiche che <span class="keyword"> Audience Manager</span> non può corrispondere a una caratteristica integrata. Ciò potrebbe essere il risultato di: </p> 
+   <td colname="col2"> <p>Elenca le caratteristiche che <span class="keyword"> Audience Manager</span> non possono corrispondere a una caratteristica integrata. Ciò potrebbe essere il risultato di: </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
      <li id="li_D4C6306BF2B143198108702B309CE8CF">Caratteristiche formattate in modo errato nel file di dati in entrata. Per informazioni su come formattare il file di dati, vedere Contenuti del file di dati <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> in entrata: Sintassi, variabili ed esempi</a>. </li> 
      <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Caratteristiche non ancora definite in <span class="keyword"> Audience Manager</span>. </li> 
@@ -179,7 +183,7 @@ Guida di riferimento per le etichette e i termini utilizzati in questo rapporto.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Totale caratteristiche realizzate</b> </p> </td> 
-   <td colname="col2"> <p>Il numero di caratteristiche per tutti gli utenti in tutti i file in entrata che vengono memorizzati nella piattaforma <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>Il numero di caratteristiche per tutti gli utenti in tutti i file in entrata che vengono memorizzati nella piattaforma Audience Manager <span class="keyword"></span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Totale segnali non utilizzati</b> </p> </td> 
