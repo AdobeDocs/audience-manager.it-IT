@@ -5,8 +5,12 @@ seo-title: Report tendenze segmento
 solution: Audience Manager
 title: Report tendenze segmento
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 0%
 
 ---
 
@@ -17,9 +21,9 @@ Il rapporto Trend segmento restituisce i dati sulle impression e i tassi di clic
 
 Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting.
 
-Confronta tendenze e volume per le metriche selezionate per ottenere un'immagine migliore del comportamento dell'audience nel tempo.
+Confronta tendenze e volume per le metriche selezionate per ottenere un&#39;immagine migliore del comportamento dell&#39;audience nel tempo.
 
-## Caso d'uso {#use-cases}
+## Caso d&#39;uso {#use-cases}
 
 Utilizzate il [!UICONTROL Segment Trend] rapporto per convalidare le prestazioni di un segmento nel tempo e per individuare le tendenze in base a elevate prestazioni o scala.
 
@@ -31,7 +35,7 @@ Passa da **[!UICONTROL Mapped]** a **[!UICONTROL Unmapped]** selezionare i segme
 
 Regolare la finestra di look-back con il **[!UICONTROL Date Through]** cursore.
 
-Fai clic su uno dei segmenti sotto il **[!UICONTROL Date Through]** cursore per visualizzare l'opzione per mantenere solo quel segmento nel rapporto o escluderlo.
+Fai clic su uno dei segmenti sotto il **[!UICONTROL Date Through]** cursore per visualizzare l&#39;opzione per mantenere solo quel segmento nel rapporto o escluderlo.
 
 Utilizzate la casella a **[!UICONTROL Line Item]** discesa per selezionare le proprietà del portfolio per le quali desiderate restituire informazioni.
 
@@ -41,7 +45,7 @@ Utilizzate la casella a **[!UICONTROL Segment]** discesa per selezionare i segme
 
 >[!IMPORTANT]
 >
->Quando attivi [!UICONTROL Audience Optimization for Publishers], devi includere metadati descrittivi per [!UICONTROL Line Item] gli ID, come descritto al Passaggio 3 di [Importa file di dati DFP in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo, assicuratevi che il rapporto descriva la proprietà Web come [!UICONTROL Line Item] invece dell' [!UICONTROL Line Item] ID.
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Line Item] gli ID, come descritto nel passaggio 3 di [Importa file di dati DFP in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo, assicuratevi che il rapporto descriva la proprietà Web come [!UICONTROL Line Item] invece dell&#39; [!UICONTROL Line Item] ID.
 
 ## Interpretazione dei risultati {#interpreting-results}
 
@@ -61,7 +65,7 @@ Passa il cursore sopra una riga per ottenere ulteriori informazioni su quella pa
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Segmento</span> </p> </td> 
-   <td colname="col2"> <p>Nome alfanumerico assegnato al segmento. </p> </td> 
+   <td colname="col2"> <p>Il nome alfanumerico assegnato a questo segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> ID segmento</span> </p> </td> 
