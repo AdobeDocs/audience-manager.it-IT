@@ -4,20 +4,24 @@ seo-description: Denominate il file di metadati di ottimizzazione dell'audience 
 seo-title: Convenzioni di denominazione per i file di metadati
 solution: Audience Manager
 title: Convenzioni di denominazione per i file di metadati
-uuid: CAB55b2a-2e54-45f6-aeea-3735b911f821
+uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 1%
 
 ---
 
 
 # Convenzioni di denominazione per i file di metadati{#naming-conventions-for-metadata-files}
 
-Denominate il file di metadati di ottimizzazione dell'audience in base alle seguenti specifiche.
+Denominate il file di metadati di ottimizzazione dell&#39;audience in base alle seguenti specifiche.
 
 ## Sintassi e categorie ID {#syntax}
 
-La sintassi seguente definisce la struttura di un nome file di metadati ben formato. Note, *italics* indicates a variable placeholder. Gli altri elementi sono costanti e non cambiano.
+La sintassi seguente definisce la struttura di un nome file di metadati ben formato. Note, *italics* indicates a variable placeholder. Gli altri elementi sono costanti e non vengono modificati.
 
 **Sintassi:** *`yyyymmdd_0_childID`*
 
@@ -32,16 +36,16 @@ La sintassi seguente definisce la struttura di un nome file di metadati ben form
 
 ## Dimensioni ID figlio {#child-dimension}
 
-Nel nome del file di metadati, l’ID figlio è un identificatore che classifica il tipo di dati in un file e lo inserisce in una gerarchia. Puoi assegnare un tag all’ID figlio nel nome file con i seguenti ID categoria:
+Nel nome del file di metadati, l’ID figlio è un identificatore che classifica il tipo di dati in un file e lo inserisce in una gerarchia. Puoi assegnare un tag all’ID figlio nel nome del file con i seguenti ID categoria:
 
 1. Campagna
 1. Creative
 1. Posizionamento
 1. Exchange
 1. Sito
-1. Inserzionista (se si utilizzano codici di integrazione in un'origine [](../../../features/manage-datasources.md#details)dati)
+1. Inserzionista (se si utilizzano codici di integrazione in un&#39;origine [](../../../features/manage-datasources.md#details)dati)
 1. Ordine di inserimento (IO)
-1. Verticale (ad esempio, una specifica categoria di settore o di business come "computer", "automobili", "immobili", ecc.)
+1. Verticale (ad esempio, una specifica categoria di settore o di business come &quot;computer&quot;, &quot;automobili&quot;, &quot;immobili&quot;, ecc.)
 1. Tattico
 1. Unità aziendale o marchio
 
