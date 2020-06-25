@@ -1,32 +1,36 @@
 ---
-description: L’ambiente beta è destinato a verificare l’implementazione di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Contatta il tuo rappresentante per le soluzioni partner di Audience Manager se sei interessato a utilizzare l’ambiente Beta.
+description: L’ambiente beta è destinato a verificare l’implementazione  di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se ti interessa utilizzare l'ambiente Beta, contatta il tuo  Audience Manager Partner Solutions.
 keywords: sandbox
-seo-description: L’ambiente beta è destinato a verificare l’implementazione di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Contatta il tuo rappresentante per le soluzioni partner di Audience Manager se sei interessato a utilizzare l’ambiente Beta.
+seo-description: L’ambiente beta è destinato a verificare l’implementazione  di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se ti interessa utilizzare l'ambiente Beta, contatta il tuo  Audience Manager Partner Solutions.
 seo-title: Ambiente beta
 solution: Audience Manager
 title: Ambiente beta
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
+feature: reference
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 4%
 
 ---
 
 
 # Ambiente beta {#beta-environment}
 
-L’ambiente beta è destinato a verificare l’implementazione di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Contatta il tuo rappresentante per le soluzioni partner di Audience Manager se sei interessato a utilizzare l’ambiente Beta.
+L’ambiente beta è destinato a verificare l’implementazione  di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se ti interessa utilizzare l&#39;ambiente Beta, contatta il tuo  Audience Manager Partner Solutions.
 
 ## Panoramica
 
-L'ambiente beta è una replica esatta dell'ambiente di produzione, senza alcuna caratteristica sperimentale o non rilasciata. Le credenziali di accesso dall'ambiente di produzione sono valide nell'ambiente Beta.
+L&#39;ambiente beta è una replica esatta dell&#39;ambiente di produzione, senza alcuna caratteristica sperimentale o non rilasciata. Le credenziali di accesso dall&#39;ambiente di produzione sono valide nell&#39;ambiente Beta.
 
 **Aggiorna pianificazione**
 
-L'ambiente beta viene aggiornato alla fine di ogni mese durante le ore di punta.
+L&#39;ambiente beta viene aggiornato alla fine di ogni mese durante le ore di punta.
 
 **Traffico in uscita**
 
-Il traffico in uscita non è abilitato per l'ambiente Beta.
+Il traffico in uscita non è abilitato per l&#39;ambiente Beta.
 
 <!-- 
 
@@ -38,12 +42,12 @@ Added re: AAM-30826.
 
 
 
-| Servizio | URL/Nome host | Come ottenere l'accesso |
+| Servizio | URL/Nome host | Come ottenere l&#39;accesso |
 |--- |--- | --- |
-| S3 | Contatta il tuo rappresentante delle soluzioni per i partner Audience Manager o l’assistenza clienti | Contatta il tuo rappresentante delle soluzioni partner di Audience Manager o l'Assistenza clienti per configurare un bucket Amazon S3 per la tua istanza beta. Scoprite i [vantaggi dell'utilizzo di Amazon S3](../reference/amazon-s3.md). |
+| S3 | Contatta il tuo rappresentante  Audience Manager Partner Solutions o l&#39;Assistenza clienti | Contatta il tuo  Audience Manager Partner Solutions o l&#39;Assistenza clienti per configurare un bucket Amazon S3 per la tua istanza beta. Scoprite i [vantaggi dell&#39;utilizzo di Amazon S3](../reference/amazon-s3.md). |
 | DCS | `https://dcs-beta.demdex.net/...` | Consultate [Accesso al DCS in ambiente](../reference/beta-environment.md#access-dcs-beta-environment)Beta. |
-| Interfaccia | `https://bank-beta.demdex.com` | Le credenziali dell'ambiente di produzione sono valide per l'ambiente Beta. |
-| API | `https://api-beta.demdex.com/...` | Le credenziali dell'ambiente di produzione sono valide per l'ambiente Beta. Vi consigliamo di creare un utente API generico, [consultate i dettagli](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| Interfaccia | `https://bank-beta.demdex.com` | Le credenziali dell&#39;ambiente di produzione sono valide per l&#39;ambiente Beta. |
+| API | `https://api-beta.demdex.com/...` | Le credenziali dell&#39;ambiente di produzione sono valide per l&#39;ambiente Beta. Vi consigliamo di creare un utente API generico, [consultate i dettagli](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Accesso al DCS in ambiente Beta {#access-dcs-beta-environment}
 
@@ -53,7 +57,7 @@ Added re: AAM-30826.
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Verificate che la richiesta sia stata trasmessa dalla versione beta del DCS cercando "sandbox" nell’intestazione della risposta del DCS.
+1. Verificate che la richiesta sia stata trasmessa dalla versione beta del DCS cercando &quot;sandbox&quot; nell’intestazione della risposta del DCS.
 
    Ad esempio:
 
