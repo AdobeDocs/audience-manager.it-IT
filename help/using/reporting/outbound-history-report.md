@@ -1,19 +1,23 @@
 ---
-description: Visualizza le informazioni sulla cronologia processi batch in uscita per una destinazione e un periodo di tempo specificati.
-seo-description: Visualizza le informazioni sulla cronologia processi batch in uscita per una destinazione e un periodo di tempo specificati.
+description: Visualizzare le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
+seo-description: Visualizzare le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
 seo-title: Cronologia file in uscita
 solution: Audience Manager
 title: Cronologia file in uscita
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
+feature: inbound and outbound reports
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
 
 # Cronologia file in uscita {#outbound-file-history}
 
-Visualizza le informazioni sulla cronologia processi batch in uscita per una destinazione e un periodo di tempo specificati.
+Visualizzare le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
 
 <!-- 
 
@@ -21,12 +25,12 @@ t_reports_outbound_history.xml
 
  -->
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Outbound File History]**.
+1. Clic **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]**.
 
    ![Risultato del passaggio](assets/outbound_history.png)
 
 1. Nella **[!UICONTROL Search for a Destination]** casella, iniziate a digitare e selezionate la destinazione desiderata.
-1. Nella **[!UICONTROL Select a Date Range]** casella, specifica le date di inizio e fine del rapporto, quindi fai clic su **[!UICONTROL Apply Date Filter]**.
+1. Nella **[!UICONTROL Select a Date Range]** casella, specifica le date di inizio e di fine del rapporto, quindi fai clic su **[!UICONTROL Apply Date Filter]**.
 
    ![Risultato del passaggio](assets/outbound_history_stats.png)
 
