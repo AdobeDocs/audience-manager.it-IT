@@ -5,8 +5,12 @@ seo-title: Componenti azione dati
 solution: Audience Manager
 title: Componenti azione dati
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
+feature: system components
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +25,7 @@ c_compact.xml
 
  -->
 
-I componenti azione sono sistemi e processi che consentono di spostare i dati all'interno e all'esterno [!DNL Audience Manager] (per mancanza di una frase migliore). Questi [!DNL Audience Manager] componenti includono:
+I componenti azione sono sistemi e processi che consentono di spostare i dati all&#39;interno e all&#39;esterno [!DNL Audience Manager] (per mancanza di una frase migliore). Questi [!DNL Audience Manager] componenti includono:
 
 ## Feed dati cliente (CDF) {#cdf}
 
@@ -29,11 +33,11 @@ I componenti azione sono sistemi e processi che consentono di spostare i dati al
 
 ## Data Collection Server (DCS) {#dcs}
 
-Vedi Componenti [per la raccolta](../../reference/system-components/components-data-collection.md)dati.
+Consulta Componenti [per la raccolta](../../reference/system-components/components-data-collection.md)dati.
 
 ## SFTP/S3 {#sftp-s3}
 
-Gli [!UICONTROL SFTP/S3] editori ricevono i dati ID sincronizzati dall' [!UICONTROL Outbound Feed Converter]. Quando questi file sono pronti, l' [!UICONTROL SFTP/S3 publishers] invio di questi dati a una destinazione specificata dal client. Questi file contengono dati ID sincronizzati con una mappatura uno-molti degli ID [!DNL Audience Manager] utente (UUID) per:
+Gli [!UICONTROL SFTP/S3] editori ricevono i dati ID sincronizzati dall&#39; [!UICONTROL Outbound Feed Converter]. Quando questi file sono pronti, l&#39; [!UICONTROL SFTP/S3 publishers] invio di questi dati a una destinazione specificata dal client. Questi file contengono dati ID sincronizzati con una mappatura uno-molti degli ID [!DNL Audience Manager] utente (UUID) per:
 
 * ID dispositivo/ID provider di dati (DPUUID)
 * ID segmento qualificati
@@ -52,7 +56,7 @@ Non sono disponibili controlli per l’interfaccia utente che consentono ai clie
 Esempi di [!UICONTROL IRIS] servizi e funzionalità:
 
 * Sincronizzazione rapida (entro 30 secondi) per cookie e segmenti. Può sincronizzare il [!DNL Audience Manager] cookie, i cookie del partner o entrambi.
-* Trasferimenti di dati in tempo reale. [!UICONTROL IRIS] è responsabile dell'invio di eventi di qualificazione del segmento in tempo reale a un partner o a un'altra destinazione. Questi dati sono in formato JSON e inviati tramite una `POST` richiesta HTTP.
+* Trasferimenti di dati in tempo reale. [!UICONTROL IRIS] è responsabile dell&#39;invio di eventi di qualificazione del segmento in tempo reale a un partner o a un&#39;altra destinazione. Questi dati sono in formato JSON e inviati tramite una `POST` richiesta HTTP.
 
 * Trasferimenti di dati in massa da server a server: Se si scambiano grandi quantità di dati con [!DNL Audience Manager], [!UICONTROL IRIS] è il sistema con cui i server interagiscono per trasferire i dati.
 
@@ -66,17 +70,17 @@ Per ottimizzare il traffico tra destinazioni [!UICONTROL IRIS] e segmenti, [!UIC
 
 1. **Nuova squalifica** segmento: quando un dispositivo non si qualifica più per un segmento, [!UICONTROL IRIS] invia tutte le qualifiche del segmento e le interdizioni associate a tale dispositivo a tutte le destinazioni mappate a tali segmenti.
 
-1. **Aggiornamenti** della mappatura di destinazione: quando viene aggiornata una mappatura di destinazione, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a tali segmenti, la prossima volta che Audience Manager visualizza il dispositivo.
+1. **Aggiornamenti** della mappatura di destinazione: quando viene aggiornata una mappatura di destinazione, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a questi segmenti, la volta successiva  Audience Manager vede il dispositivo.
 
-1. **Aggiornamenti** del grafico del dispositivo: quando un ID dispositivo viene aggiunto o rimosso dal grafico del dispositivo utilizzato per valutare un segmento, [!UICONTROL IRIS] invia tutti i segmenti associati a tale dispositivo a tutte le destinazioni mappate a tali segmenti, la prossima volta che Audience Manager visualizza il dispositivo.
+1. **Aggiornamenti** del grafico del dispositivo: quando un ID dispositivo viene aggiunto o rimosso dal grafico del dispositivo utilizzato per valutare un segmento, [!UICONTROL IRIS] invia tutti i segmenti associati a tale dispositivo a tutte le destinazioni mappate a tali segmenti, la prossima volta che Audience Manager vede il dispositivo .
 
 >[!IMPORTANT]
 >
->Se Audience Manager non rileva nessuno degli aggiornamenti di cui sopra per 3 giorni consecutivi, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a questi segmenti, alla successiva visualizzazione del dispositivo da parte di Audience Manager.
+>Se  Audience Manager non rileva nessuno degli aggiornamenti precedenti per 3 giorni consecutivi, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a questi segmenti, la prossima volta che  Audience Manager visualizzerà il dispositivo.
 
 **Esempio di file di dati**
 
-L'esempio seguente contiene i dati del segmento in tempo reale provenienti da [!UICONTROL IRIS]. Tenere presente che si tratta solo di dati di esempio. Ogni cliente può avere requisiti di formattazione diversi, in modo che i contenuti possano variare.
+L&#39;esempio seguente contiene i dati del segmento in tempo reale provenienti da [!UICONTROL IRIS]. Tenere presente che si tratta solo di dati di esempio. Ogni cliente può avere requisiti di formattazione diversi, in modo che i contenuti possano variare.
 
 ```
 {
@@ -146,4 +150,4 @@ L'esempio seguente contiene i dati del segmento in tempo reale provenienti da [!
 
 ## Server cache profilo (PCS) {#pcs}
 
-Vedi Componenti [per la raccolta](../../reference/system-components/components-data-collection.md)dati.
+Consulta Componenti [per la raccolta](../../reference/system-components/components-data-collection.md)dati.
