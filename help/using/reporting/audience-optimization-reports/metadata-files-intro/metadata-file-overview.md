@@ -5,8 +5,12 @@ seo-title: Panoramica e mappature per i file di metadati
 solution: Audience Manager
 title: Panoramica e mappature per i file di metadati
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
+feature: log files
 translation-type: tm+mt
-source-git-commit: 13882a8f9300344e1bb0a3079666a67166945a83
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +33,7 @@ La chiamata dell’evento organizza le informazioni in set di coppie chiave-valo
 
 ### ID dei collegamenti ai metadati per nomi leggibili
 
-Il file di metadati è necessario per associare un ID numerico a un nome leggibile. Ad esempio, una chiamata evento contiene un ID creativo in una coppia chiave-valore come la seguente: `d_creative:1234`. Senza un file di metadati, questo creativo apparirebbe a 1234 in un menu delle opzioni.
+Il file di metadati è necessario per associare un ID numerico a un nome leggibile. Ad esempio, supponiamo che una chiamata evento contenga un ID creativo in una coppia chiave-valore come questa: `d_creative:1234`. Senza un file di metadati, questo creativo apparirebbe a 1234 in un menu delle opzioni.
 
 Tuttavia, un file di metadati formattato correttamente può collegare questo creativo a un nome reale come &quot;Advertiser Creative A&quot;, un nome che potete leggere e riconoscere in un rapporto.
 
@@ -43,7 +47,7 @@ In secondo luogo, è necessario un file di metadati se si inviano dati personali
 
 ## Mappature file {#file-mappings}
 
-Nella tabella seguente sono elencate le coppie chiave-valore che contengono i dati utilizzati dai [!UICONTROL Audience Optimization] report. Se è necessario utilizzare un file di metadati, questo contiene informazioni leggibili dall&#39;utente che corrispondono ai valori di queste coppie chiave-valore. I valori di queste chiavi accettano solo numeri interi (tipo di dati INT). Note, *italics* indicates a variable placeholder. Altri elementi sono costanti o chiavi e non vengono modificati.
+Nella tabella seguente sono elencate le coppie chiave-valore che contengono i dati utilizzati dai [!UICONTROL Audience Optimization] report. Se è necessario utilizzare un file di metadati, questo contiene informazioni leggibili dall&#39;utente che corrispondono ai valori di queste coppie chiave-valore. I valori di queste chiavi accettano solo numeri interi (tipo di dati INT). Note, *italics* indicates a variable placeholder. Gli altri elementi sono costanti o chiavi e non vengono modificati.
 
 >[!IMPORTANT]
 >
@@ -87,7 +91,7 @@ Nella tabella seguente sono elencate le coppie chiave-valore che contengono i da
   </tr> 
   <tr> 
    <td colname="col1"> <p>Piattaforma </p> </td> 
-   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Si tratta dell'ID origine <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></a> dati della piattaforma che fornisce informazioni sui metadati (ad esempio, DFA, Atlas, GBM, MediaMath, ecc.). </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Si tratta dell'ID origine <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></a> dati per la piattaforma che fornisce informazioni sui metadati (ad esempio, DFA, Atlas, GBM, MediaMath, ecc.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tattico </p> </td> 
@@ -102,7 +106,7 @@ Nella tabella seguente sono elencate le coppie chiave-valore che contengono i da
 
 ## Come gli ID delle chiamate evento definiscono i nomi dei file, il contenuto e i percorsi di consegna {#how-ids-shape-file-names}
 
-Gli ID trasmessi da queste coppie chiave-valore aiutano a creare il nome e il contenuto del file di metadati. Le sezioni e le illustrazioni seguenti illustrano come funziona. Questi esempi creano un file che contiene il nome di un creativo in una campagna, ma altre combinazioni sono possibili.
+Gli ID trasmessi da queste coppie chiave-valore aiutano a creare il nome del file di metadati e il relativo contenuto. Le sezioni e le illustrazioni seguenti illustrano come funziona. Questi esempi creano un file che contiene il nome di un creativo in una campagna, ma altre combinazioni sono possibili.
 
 ### Chiamata evento
 
@@ -112,7 +116,7 @@ In questo esempio creeremo un file di metadati che inserirà nomi creativi in un
 
 ### Nome file
 
-Il nome del file si basa sugli ID creativi, della campagna e dell’origine dati. In questo caso, confrontate le differenze tra i dati chiave-valore presenti in una chiamata dell&#39;evento e il modo in cui vengono utilizzati in un nome file.
+Il nome del file è basato sugli ID creativi, della campagna e dell’origine dati. In questo caso, confrontate le differenze tra i dati chiave-valore presenti in una chiamata dell&#39;evento e il modo in cui vengono utilizzati in un nome file.
 
 In un nome file:
 
@@ -124,7 +128,7 @@ In un nome file:
 
 Consultate [Convenzioni di denominazione per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)di metadati.
 
-### Contenuto file
+### Sommario file
 
 In questo esempio, il contenuto del file riflette gli ID creativi e della campagna trasmessi durante la chiamata dell’evento. Il nuovo elemento è un nome leggibile. Una volta elaborato, il nome in questo file verrà visualizzato come opzione nel menu Creative di un [!UICONTROL Audience Optimization] rapporto.
 
