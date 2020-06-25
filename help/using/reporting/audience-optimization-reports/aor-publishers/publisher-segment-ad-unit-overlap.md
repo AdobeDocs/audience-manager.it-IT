@@ -1,25 +1,29 @@
 ---
-description: Il rapporto Segment to Ad Unit Overlap (Segmento su unità annuncio) viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio e i segmenti Audience Manager.
-seo-description: Il rapporto Segment to Ad Unit Overlap (Segmento su unità annuncio) viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio e i segmenti Audience Manager.
+description: Il rapporto Segment to Ad Unit Overlap (Segmento su unità annuncio) viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio e  segmenti Audience Manager.
+seo-description: Il rapporto Segment to Ad Unit Overlap (Segmento su unità annuncio) viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio e  segmenti Audience Manager.
 seo-title: Sovrapposizione segmento a unità annuncio
 solution: Audience Manager
 title: Sovrapposizione segmento a unità annuncio
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 0%
 
 ---
 
 
 # Sovrapposizione segmento a unità annuncio{#segment-to-ad-unit-overlap}
 
-Il rapporto Segment to Ad Unit Overlap (Segmento su unità annuncio) viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio e i segmenti Audience Manager.
+Il rapporto Segment to Ad Unit Overlap (Segmento su unità annuncio) viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio e  segmenti Audience Manager.
 
-## Caso d'uso {#use-cases}
+## Caso d&#39;uso {#use-cases}
 
 Con il [!UICONTROL Segment to Ad Unit Overlap] rapporto puoi capire quali tipi di pubblico visitano le tue proprietà web. Il rapporto mostra la sovrapposizione tra i membri dei [!DNL Audience Manager] segmenti e il numero di visitatori delle proprietà Web. Una sovrapposizione più elevata indica che molti membri di un segmento visitano la proprietà Web.
 
-## Utilizzo del report Segmento per l'overlap delle unità di annuncio {#using-the-report}
+## Utilizzo del report Segmento per l&#39;overlap delle unità di annuncio {#using-the-report}
 
 Utilizzate i controlli **[!UICONTROL Top N Ad Units]** e **[!UICONTROL Top N Segments]** per selezionare il numero desiderato di unità e segmenti di annuncio per la sovrapposizione. Potete selezionare un numero massimo di 100 elementi per ciascuno.
 
@@ -29,7 +33,7 @@ Utilizzate le **[!UICONTROL Segment Name]** caselle e le **[!UICONTROL Ad Unit]*
 
 >[!IMPORTANT]
 >
->Quando [!UICONTROL Audience Optimization for Publishers]abilitate, dovete includere metadati descrittivi per [!UICONTROL Ad Unit IDs], come descritto nel passaggio 3 di [Importazione di file di dati DFP in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Ad Unit] anziché come [!UICONTROL Ad Unit ID].
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Ad Unit IDs], come descritto nel Passaggio 3 di [Importa file di dati DFP in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Ad Unit] anziché come [!UICONTROL Ad Unit ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
@@ -51,7 +55,7 @@ Il tuo [!UICONTROL Segment to Ad Unit Overlap] rapporto potrebbe essere simile a
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Conteggio delle analisi in tempo reale del segmento</span> </p> </td> 
-   <td colname="col2"> <p>Il numero di visitatori univoci visti in tempo reale per l’intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>Il numero di visitatori univoci visti in tempo reale per l'intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Conteggio Uniche Unità Annunci</span> </p> </td> 
