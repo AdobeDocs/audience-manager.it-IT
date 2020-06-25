@@ -5,8 +5,12 @@ seo-title: Convenzioni di stile per gli elementi di codice e testo
 solution: Audience Manager
 title: Convenzioni di stile per gli elementi di codice e testo
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
+feature: reference
 translation-type: tm+mt
-source-git-commit: 8e4afebaa2035fca6f8535314be5f072f26e0217
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +28,11 @@ Questi elementi identificano le opzioni di codice e le variabili utilizzate nell
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> <i>variable</i></code> </p> </td> 
+   <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
    <td colname="col2"> <p>Le variabili vengono visualizzate in <i>corsivo</i>. Sostituire il valore appropriato per il nome della variabile. </p> <p>Per chiarezza visiva, talvolta le variabili e altri elementi di codice appaiono tra &lt; &gt; parentesi. Non è necessario utilizzare questi simboli nel codice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> [opzionale]</code> </p> </td> 
+   <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
    <td colname="col2"> <p>Gli elementi tra parentesi quadre sono facoltativi. </p> </td> 
   </tr> 
   <tr> 
@@ -36,7 +40,7 @@ Questi elementi identificano le opzioni di codice e le variabili utilizzate nell
    <td colname="col2"> <p>Gli elementi tra parentesi indicano una scelta booleana <span class="wintitle"> OR</span> . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code> letterale</code> </p> </td> 
+   <td colname="col1"> <p> <code> literal</code> </p> </td> 
    <td colname="col2"> <p>Include testo o codice esattamente come mostrato. </p> </td> 
   </tr> 
   <tr> 
