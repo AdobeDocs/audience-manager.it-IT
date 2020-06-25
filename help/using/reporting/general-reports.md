@@ -1,12 +1,16 @@
 ---
 description: Un rapporto Generale restituisce dati sulle prestazioni su caratteristiche, segmenti e destinazioni.
-seo-description: Un rapporto Generale in Audience Manager restituisce dati sulle prestazioni su caratteristiche, segmenti e destinazioni.
-seo-title: Report generali in Audience Manager
+seo-description: Un rapporto Generale in  Audience Manager restituisce dati sulle prestazioni su caratteristiche, segmenti e destinazioni.
+seo-title: Rapporti generali in  Audience Manager
 solution: Audience Manager
 title: Rapporti generali
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
+feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 0%
 
 ---
 
@@ -126,11 +130,11 @@ Le metriche riportate di seguito sono disponibili quando si esegue un rapporto G
 
 ### Popolazione segmenti in tempo reale
 
-Questa metrica rappresenta il numero effettivo di visitatori univoci visti in tempo reale per l’intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da Audience Manager.
+Questa metrica rappresenta il numero effettivo di visitatori univoci visti in tempo reale per l&#39;intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da  Audience Manager.
 
 ### Popolazione segmento totale
 
-Questa metrica rappresenta il numero totale di UUID Audience Manager qualificati per il segmento nel periodo di look-back selezionato. La popolazione totale di segmenti di 1 giorno rappresenta la base utente più precisa per il targeting.
+Questa metrica rappresenta il numero totale di UUID Audience Manager  qualificati per il segmento nel periodo di look-back selezionato. La popolazione totale di segmenti di 1 giorno rappresenta la base utente più precisa per il targeting.
 
 >[!NOTE]
 >
@@ -146,11 +150,11 @@ Le metriche riportate di seguito sono disponibili quando si esegue un rapporto G
 
 **Popolazione segmenti in tempo reale**
 
-Questa metrica rappresenta il numero effettivo di visitatori univoci visti in tempo reale per l’intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da Audience Manager.
+Questa metrica rappresenta il numero effettivo di visitatori univoci visti in tempo reale per l&#39;intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da  Audience Manager.
 
 **Popolazione segmento totale**
 
-Questa metrica rappresenta il numero totale di UUID Audience Manager appartenenti a un segmento nel periodo di look-back, che sono stati inviati a una destinazione.
+Questa metrica rappresenta il numero totale di UUID Audience Manager  appartenenti a un segmento nel periodo di look-back, che sono stati inviati a una destinazione.
 
 L&#39;illustrazione seguente mostra i risultati dell&#39;esecuzione di un rapporto generale per il tipo di rapporto Destinazioni.
 
