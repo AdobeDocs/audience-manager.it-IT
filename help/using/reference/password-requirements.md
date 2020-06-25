@@ -1,19 +1,23 @@
 ---
-description: Audience Manager può essere configurato per scadere di una password ogni 30 giorni. Per abilitare la scadenza della password, rivolgiti al tuo consulente Audience Manager o all'Assistenza clienti. Fare riferimento a questa sezione per i requisiti di password e come recuperare una password perduta o dimenticata.
-seo-description: Audience Manager può essere configurato per scadere di una password ogni 30 giorni. Per abilitare la scadenza della password, rivolgiti al tuo consulente Audience Manager o all'Assistenza clienti. Fare riferimento a questa sezione per i requisiti di password e come recuperare una password perduta o dimenticata.
+description: ' Audience Manager può essere configurato per scadere di una password ogni 30 giorni. Per consentire la scadenza della password, rivolgiti al tuo consulente Audience Manager  o all''Assistenza clienti. Fare riferimento a questa sezione per i requisiti di password e come recuperare una password perduta o dimenticata.'
+seo-description: ' Audience Manager può essere configurato per scadere di una password ogni 30 giorni. Per consentire la scadenza della password, rivolgiti al tuo consulente Audience Manager  o all''Assistenza clienti. Fare riferimento a questa sezione per i requisiti di password e come recuperare una password perduta o dimenticata.'
 seo-title: Requisiti della password, account bloccati e password dimenticate
 solution: Audience Manager
 title: Requisiti della password, account bloccati e password dimenticate
 uuid: bca892eb-3577-4382-8110-131f78d23069
+feature: reference
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 1%
 
 ---
 
 
 # Password Requirements, Locked Accounts, and Forgotten Passwords{#password-requirements-locked-accounts-and-forgotten-passwords}
 
-Audience Manager può essere configurato per scadere di una password ogni 30 giorni. Per abilitare la scadenza della password, rivolgiti al tuo consulente Audience Manager o all'Assistenza clienti. Fare riferimento a questa sezione per i requisiti di password e come recuperare una password perduta o dimenticata.
+ Audience Manager può essere configurato per scadere di una password ogni 30 giorni. Per consentire la scadenza della password, rivolgiti al tuo consulente Audience Manager  o all&#39;Assistenza clienti. Fare riferimento a questa sezione per i requisiti di password e come recuperare una password perduta o dimenticata.
 
 <!-- 
 
@@ -64,15 +68,15 @@ Per essere valida, la [!DNL Audience Manager] password deve soddisfare i seguent
  </tbody> 
 </table>
 
-Per informazioni sul ripristino della password, consultate [Modificare le impostazioni](../features/administration/edit-account-settings.md)dell'account.
+Per informazioni sul ripristino della password, consultate [Modificare le impostazioni](../features/administration/edit-account-settings.md)dell&#39;account.
 
 **Blocco account**
 
-Gli account vengono bloccati dopo 5 tentativi di accesso non riusciti. Contatta l'amministratore della tua azienda [!DNL Audience Manager] o un rappresentante dei Servizi partner per sbloccare il tuo account.
+Gli account vengono bloccati dopo 5 tentativi di accesso non riusciti. Contatta l&#39;amministratore della tua azienda [!DNL Audience Manager] o un rappresentante dei Servizi partner per sbloccare il tuo account.
 
 **Password perduta/dimenticata**
 
-Fate clic sul **[!UICONTROL Forgot password]** collegamento dalla pagina di accesso per ripristinare la password. Riceverete un'e-mail automatizzata con una password temporanea che scade tra 24 ore. Fate clic sul collegamento nell'e-mail per accedere all'account e reimpostare la password.
+Fate clic sul **[!UICONTROL Forgot password]** collegamento dalla pagina di accesso per ripristinare la password. Riceverete un&#39;e-mail automatizzata con una password temporanea che scade tra 24 ore. Fate clic sul collegamento nell&#39;e-mail per accedere all&#39;account e reimpostare la password.
 
 >[!MORELIKETHIS]
 >
