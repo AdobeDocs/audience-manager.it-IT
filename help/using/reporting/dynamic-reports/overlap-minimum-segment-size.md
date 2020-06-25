@@ -5,8 +5,12 @@ seo-title: Sovrapponi rapporti Programma di aggiornamento e Dimensione minima de
 solution: Audience Manager
 title: Sovrapponi rapporti Programma di aggiornamento e Dimensione minima del segmento
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +25,7 @@ Descrive le dimensioni del segmento e i requisiti relativi al tempo di creazione
 
 * Un segmento deve contenere almeno 70.000 utenti in tempo reale totali negli ultimi 14 giorni. Ulteriori informazioni sui requisiti [minimi di univoci per visitatori per caratteristiche e segmenti](../../reporting/report-sampling.md#data-sampling-ratio).
 * Un segmento deve essere stato creato prima delle 12:00 del giovedì UTC (2 giorni interi prima dell’inizio del processo di aggiornamento settimanale del rapporto di sovrapposizione).
-* La tua azienda deve essere un [!DNL Audience Manager] cliente completo. Contatta il tuo [!DNL Audience Manager] consulente o l'Assistenza clienti per saperne di più.
+* La tua azienda deve essere un [!DNL Audience Manager] cliente completo. Contatta il tuo [!DNL Audience Manager] consulente o l&#39;Assistenza clienti per saperne di più.
 
 ## Dimensione del segmento e/o tempo di creazione influisce sui rapporti {#segment-size}
 
@@ -37,7 +41,7 @@ Se non visualizzi un segmento in uno dei [!UICONTROL Overlap] rapporti, potrebbe
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Dimensione segmento troppo piccola</b> </p> </td> 
-   <td colname="col2"> <p>Supponiamo che tu crei un segmento prima delle 12:00 del giovedì UTC, ma contiene meno di 70.000 utenti in tempo reale. Questo segmento non verrà visualizzato in un report <span class="wintitle"></span> di sovrapposizione finché non soddisfa i requisiti di soglia dell'utente. Inoltre, il segmento deve soddisfare il numero di utenti richiesto o prima del periodo di interruzione di giovedì. Se non soddisfa la scadenza settimanale, il segmento verrà visualizzato nei report <span class="wintitle"></span> di sovrapposizione per la settimana successiva all'esecuzione dei dati della domenica successiva. </p> </td> 
+   <td colname="col2"> <p>Supponiamo che tu crei un segmento prima delle 12:00 del giovedì UTC, ma contiene meno di 70.000 utenti in tempo reale totali. Questo segmento non verrà visualizzato in un report <span class="wintitle"></span> di sovrapposizione finché non soddisfa i requisiti di soglia dell'utente. Inoltre, il segmento deve soddisfare il numero di utenti richiesto o prima del periodo di interruzione di giovedì. Se non soddisfa la scadenza settimanale, il segmento verrà visualizzato nei rapporti <span class="wintitle"></span> di sovrapposizione per la settimana successiva all'esecuzione dei dati della domenica successiva. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Segmento creato troppo tardi</b> </p> </td> 
