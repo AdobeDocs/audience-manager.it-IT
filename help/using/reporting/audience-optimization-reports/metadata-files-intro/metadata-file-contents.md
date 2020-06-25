@@ -1,25 +1,29 @@
 ---
 description: Formattate il contenuto del file di metadati di ottimizzazione dell'audience in base alle seguenti specifiche.
 seo-description: Formattate il contenuto del file di metadati di ottimizzazione dell'audience in base alle seguenti specifiche.
-seo-title: Formato contenuto per i file di metadati
+seo-title: Formato del contenuto per i file di metadati
 solution: Audience Manager
-title: Formato contenuto per i file di metadati
+title: Formato del contenuto per i file di metadati
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 0%
 
 ---
 
 
-# Formato contenuto per i file di metadati{#content-format-for-metadata-files}
+# Formato del contenuto per i file di metadati{#content-format-for-metadata-files}
 
-Formattate il contenuto del file di metadati di ottimizzazione dell'audience in base alle seguenti specifiche.
+Formattate il contenuto del file di metadati di ottimizzazione dell&#39;audience in base alle seguenti specifiche.
 
 ## Sintassi {#syntax}
 
 La sintassi seguente definisce la struttura dei contenuti correttamente formati in un file di metadati. Note, *italics* indicates a variable placeholder.
 
-**** Sintassi:  ID ** contenuto| *nome* | *-1*
+**Sintassi:**  *content ID* | *Nome* | *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
@@ -31,7 +35,7 @@ La terza colonna **-1** è tecnicamente l’ID principale, che è un campo legac
 
 **Voci di file separate con ^a (control-A o ASCII 001)**
 
-Usate `^a` (control-A o ASCII 001) per separare i contenuti nei file di metadati. Poiché si tratta di caratteri non stampabili, l'esempio di sintassi riportato sopra mostra una pipe "|" solo a scopo di visualizzazione.
+Usate `^a` (control-A o ASCII 001) per separare i contenuti nei file di metadati. Poiché si tratta di caratteri non stampabili, l&#39;esempio di sintassi riportato sopra mostra una pipe &quot;|&quot; solo a scopo di visualizzazione.
 
 Se necessario, potete scaricare il file di esempio - [20181105_0_1](assets/20181105_0_1.zip). Decomprimetelo e modificatelo nell’editor preferito e regolatelo in base al contenuto effettivo dei metadati, in quanto contiene già il delimitatore richiesto.
 
