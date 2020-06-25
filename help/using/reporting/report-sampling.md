@@ -1,17 +1,21 @@
 ---
 description: Riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, tassi di errore di campionamento e un elenco di rapporti che restituiscono informazioni basate su dati campionati.
 seo-description: Riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, tassi di errore di campionamento e un elenco di rapporti che restituiscono informazioni basate su dati campionati.
-seo-title: Campionamento dei dati e tassi di errore nei report Audience Manager selezionati
+seo-title: Campionamento dei dati e tassi di errore nei report Audience Manager  selezionati
 solution: Audience Manager
-title: Campionamento dei dati e tassi di errore nei report Audience Manager selezionati
+title: Campionamento dei dati e tassi di errore nei report Audience Manager  selezionati
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
 
-# Campionamento dei dati e tassi di errore nei report Audience Manager selezionati{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Campionamento dei dati e tassi di errore nei report Audience Manager  selezionati{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, tassi di errore di campionamento e un elenco di rapporti che restituiscono informazioni basate su dati campionati.
 
