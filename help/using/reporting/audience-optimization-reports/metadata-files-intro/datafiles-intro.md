@@ -1,19 +1,23 @@
 ---
-description: Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager e utilizzarli nei rapporti di ottimizzazione dell'audience e per i file di registro fruibili. Formattare i file di dati in base alle specifiche di questa sezione.
-seo-description: Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager e utilizzarli nei rapporti di ottimizzazione dell'audience e per i file di registro fruibili. Formattare i file di dati in base alle specifiche di questa sezione.
+description: Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in  Audience Manager e usarli nei rapporti di ottimizzazione per l'audience e per i file di registro fruibili. Formattare i file di dati in base alle specifiche di questa sezione.
+seo-description: Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in  Audience Manager e usarli nei rapporti di ottimizzazione per l'audience e per i file di registro fruibili. Formattare i file di dati in base alle specifiche di questa sezione.
 seo-title: File di dati per report di ottimizzazione dell'audience e file di registro fruibili
 solution: Audience Manager
 title: File di dati per report di ottimizzazione dell'audience e file di registro fruibili
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
+feature: log files
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 1%
 
 ---
 
 
 # File di dati per report di ottimizzazione dell&#39;audience e file di registro fruibili {#data-files-for-audience-optimization-reports}
 
-Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager per visualizzarli nei report [di ottimizzazione dell&#39;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) audience e creare caratteristiche utilizzando i dati tramite i file [di registro](/help/using/integration/media-data-integration/actionable-log-files.md)fruibili. Formattare i file di dati in base alle seguenti specifiche in questa sezione.
+Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in  Audience Manager per visualizzarli nei report [di ottimizzazione dell&#39;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) audience e creare caratteristiche utilizzando i dati tramite i file [di registro](/help/using/integration/media-data-integration/actionable-log-files.md)fruibili. Formattare i file di dati in base alle seguenti specifiche in questa sezione.
 
 ## Panoramica {#overview}
 
@@ -23,7 +27,7 @@ Un file di dati deve essere accompagnato da un file di metadati. I contenuti dei
 
 ## Convenzioni di denominazione per i file di dati {#naming-conventions}
 
-La sintassi seguente definisce la struttura di un nome file di dati ben formato. Nota: il *corsivo* indica un segnaposto variabile che cambia a seconda del contenuto del file.
+La sintassi seguente definisce la struttura di un nome di file di dati ben formato. Nota: il *corsivo* indica un segnaposto variabile che cambia a seconda del contenuto del file.
 
 **Sintassi:** <pre><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
@@ -43,7 +47,7 @@ Dati questi requisiti, assegnare ai file di dati un nome in base al contenuto co
 
 La sintassi seguente definisce la struttura del contenuto in un file di dati formato correttamente. Nota: il *corsivo* indica un segnaposto variabile e viene sostituito con un&#39;etichetta in un file di dati effettivo.
 
-**Sintassi:** <pre><i>etichetta di intestazione 1</i> | Etichetta <i>intestazione 2</i> ... Etichetta <i>intestazione n</i> | <i>versione</i></code></pre>
+**Sintassi:** <pre><i>etichetta di intestazione 1</i> | Etichetta <i>intestazione 2</i> ... <i>etichetta di intestazione n</i> | <i>versione</i></code></pre>
 
 Nel contenuto del file:
 
@@ -75,7 +79,7 @@ La tabella seguente elenca e descrive le intestazioni delle colonne per il file 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertiser-ID </p> </td> 
-   <td colname="col2"> <p>ID origine dati o codice di integrazione per l'inserzionista. </p> </td> 
+   <td colname="col2"> <p>L'ID origine dati o il codice di integrazione per l'inserzionista. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>BU-ID </p> </td> 
@@ -143,11 +147,11 @@ Caricate i file di dati di impression, clic o conversione in una directory Amazo
 
 >[!IMPORTANT]
 >
-> Contatta il tuo consulente Audience Manager o l’Assistenza clienti per iniziare e configurare una [!DNL Amazon S3] directory per i file di dati.
+> Contatta il tuo consulente Audience Manager  o l&#39;Assistenza clienti per iniziare e configurare una [!DNL Amazon S3] directory per i file di dati.
 
 **Sintassi percorso di consegna ed esempi**
 
-I dati vengono memorizzati in uno spazio dei nomi separato per ciascun cliente in una [!DNL Amazon S3] directory. Il percorso del file segue la sintassi indicata di seguito. Note, *italics* indicates a variable placeholder. Altri elementi sono costanti o chiavi e non vengono modificati.
+I dati vengono memorizzati in uno spazio dei nomi separato per ciascun cliente in una [!DNL Amazon S3] directory. Il percorso del file segue la sintassi indicata di seguito. Note, *italics* indicates a variable placeholder. Gli altri elementi sono costanti o chiavi e non vengono modificati.
 
 **Sintassi:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
@@ -190,7 +194,7 @@ Quando caricate un file, il percorso sarà simile al seguente:
 
 `.../log_ingestion/pid=1234/dpid=567/logs/impressions_20150902`
 
-**Tempi e aggiornamenti di elaborazione file**
+**Tempi e aggiornamenti dell&#39;elaborazione dei file**
 
 I file di dati vengono elaborati quattro volte al giorno, a intervalli regolari.
 
@@ -198,4 +202,4 @@ Per aggiornare i dati, invia un file contenente tutte le impression, i clic o le
 
 ## Passaggi successivi {#next-steps}
 
-Esaminate i requisiti per denominare e creare file di metadati. Per iniziare, consultate [Panoramica e mappature per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)di metadati.
+Esaminate i requisiti per la denominazione e la creazione di file di metadati. Per iniziare, consultate [Panoramica e mappature per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)di metadati.
