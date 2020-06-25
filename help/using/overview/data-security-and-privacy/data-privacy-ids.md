@@ -1,24 +1,28 @@
 ---
-description: Questo documento descrive i tipi di ID Audience Manager che potete utilizzare nelle richieste di privacy dei dati.
-seo-description: Questo documento descrive i tipi di ID Audience Manager che potete utilizzare nelle richieste di privacy dei dati.
-seo-title: ID (Audience Manager Identifiers)
+description: Questo documento descrive i tipi di ID Audience Manager  che potete utilizzare nelle richieste di privacy dei dati.
+seo-description: Questo documento descrive i tipi di ID Audience Manager  che potete utilizzare nelle richieste di privacy dei dati.
+seo-title: ' ID (Audience Manager Identifiers)'
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
-title: ID (Audience Manager Identifiers)
+title: ' ID (Audience Manager Identifiers)'
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 10%
 
 ---
 
 
-# ID (Audience Manager Identifiers) {#aam-ids}
+#  ID (Audience Manager Identifiers) {#aam-ids}
 
-Quando invii ad Adobe Audience Manager le richieste [di privacy dei](data-privacy-requests.md) dati, devi includere uno degli identificatori (ID) elencati di seguito. Puoi trovare ulteriori informazioni sui formati ID nel nostro [indice degli ID](../../reference/ids-in-aam.md)di Audience Manager.
+Quando si inviano richieste [di privacy](data-privacy-requests.md) dei dati a  Adobe Audience Manager, è necessario includere uno degli identificatori (ID) elencati di seguito. Puoi trovare ulteriori informazioni sui formati ID nel nostro [Indice  ID](../../reference/ids-in-aam.md)Audience Manager.
 
-## ID utente univoco di Adobe Audience Manager
+## ID utente univoco Adobe Audience Manager 
 
 * **ID utente**: `aam_uuid`
-* **Definizione**: ID utente univoco di Adobe Audience Manager
+* **Definizione**: ID utente univoco Adobe Audience Manager 
 * **ID** spazio nomi: 0
 
 **Esempio JSON**:
@@ -137,7 +141,7 @@ Quando invii ad Adobe Audience Manager le richieste [di privacy dei](data-privac
 
 **Definizione**: ID cliente, ad esempio un cookie impostato per i visitatori anonimi del sito o un [!DNL CRM] ID da un sistema offline o un nome utente con hash.
 
-**ID** spazio nomi: Specifico per il cliente. Trovalo dalla tua istanza Audience Manager.
+**ID** spazio nomi: Specifico per il cliente. Lo trovi dalla tua istanza  Audience Manager.
 
 **Esempio JSON**:
 
@@ -183,7 +187,7 @@ Per ulteriori informazioni, consulta [Origini](../../features/global-data-source
 
 >[!IMPORTANT]
 >
-> Se utilizzi Mobile [!DNL SDK], devi anche inviare l’Experience Cloud ID (`MID`) insieme agli ID pubblicitari per dispositivi mobili per ricevere risposte complete su Accesso ed Elimina.
+> Se utilizzi Mobile [!DNL SDK], devi anche inviare l&#39;ID Experience Cloud (`MID`)  insieme agli ID pubblicitari per dispositivi mobili per ricevere risposte complete su Accesso ed Elimina.
 
 **Esempio JSON**:
 
