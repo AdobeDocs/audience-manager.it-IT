@@ -5,8 +5,12 @@ seo-title: Rapporto di sovrapposizione caratteristica-caratteristica
 solution: Audience Manager
 title: Rapporto di sovrapposizione caratteristica-caratteristica
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +21,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra tutte le caratteri
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione in Audience Manager rispettano i principi RBAC. Potete visualizzare solo le caratteristiche provenienti da origini dati a cui avete accesso in base al gruppo [di utenti](/help/using/features/administration/administration-overview.md) RBAC a cui appartenete.
+>I rapporti di sovrapposizione in  Audience Manager rispettano i principi RBAC. Potete visualizzare solo le caratteristiche provenienti da origini dati a cui avete accesso in base al gruppo [di utenti](/help/using/features/administration/administration-overview.md) RBAC a cui appartenete.
 
 <!-- 
 
@@ -30,12 +34,12 @@ c_overlap_reports.xml
 Il [!UICONTROL Trait-to-Trait Overlap] rapporto restituisce i dati sulla percentuale di utenti univoci condivisi tra tutte le caratteristiche proprie e quelle di terze parti. Come strumento di ottimizzazione, questo rapporto consente di:
 
 * Crea segmenti con sovrapposizione alta o bassa, a seconda delle tue esigenze. Le caratteristiche con sovrapposizione elevata ti consentono di ottenere un pubblico mirato, ma meno visitatori unici. Le caratteristiche con una sovrapposizione ridotta possono essere utili per raggiungere un set di visitatori unico e più grande.
-* Convalida dei dati di caratteristiche di terze parti: Una forte sovrapposizione tra caratteristiche simili di prime e terze parti suggerisce che la caratteristica del partner dati è accurata e affidabile. Al contrario, una sovrapposizione bassa può indicare che una caratteristica di terze parti potrebbe non contenere le stesse informazioni della caratteristica di prime parti propria, simile.
+* Convalida dei dati di caratteristiche di terze parti: Una forte sovrapposizione tra caratteristiche simili di prime e terze parti suggerisce che il tratto del partner dati è accurato e affidabile. Al contrario, una sovrapposizione bassa può indicare che una caratteristica di terze parti potrebbe non contenere le stesse informazioni della caratteristica di prime parti propria, simile.
 * Trova una sovrapposizione imprevista tra caratteristiche e usa tali informazioni per creare segmenti innovativi.
 
 ## Report di esempio
 
-L'illustrazione seguente fornisce una panoramica di alto livello degli elementi nel [!UICONTROL Trait-to-Trait Overlap] rapporto.
+L&#39;illustrazione seguente fornisce una panoramica di alto livello degli elementi nel [!UICONTROL Trait-to-Trait Overlap] rapporto.
 
 >[!NOTE]
 >
@@ -75,7 +79,7 @@ La finestra a comparsa per il [!UICONTROL Trait-to-Trait Overlap] rapporto conti
    <td colname="col1"><b><span class="wintitle"> Tipo origine dati</span></b> </td> 
    <td colname="col2">Definisce il tipo di origine dati a cui una caratteristica appartiene. Può essere: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
-     <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Prima parte (caratteristica propria). </li> 
+     <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">First-party (caratteristica propria). </li> 
      <li id="li_4F6148EDAEFE43FA8D505944E9FE3855">Terza parte (da un partner/fornitore esterno di dati). </li> 
     </ul> </td> 
   </tr> 
@@ -96,12 +100,12 @@ La finestra a comparsa per il [!UICONTROL Trait-to-Trait Overlap] rapporto conti
    <td colname="col2"> Nome della caratteristica nell'origine dati di base. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Sovrapponi</span></b> </td> 
-   <td colname="col2"> <p>Per ottenere la sovrapposizione %, Audience Manager utilizza la seguente formula:</p> <p>Sovrapposizione di imperfezioni / (Uniche caratteristiche di base + Sovrapposizione di feature Uniche - Sovrapposizione di imperfezioni)</p> </td> 
+   <td colname="col1"><b><span class="wintitle"> Sovrapponi anomalie</span></b> </td> 
+   <td colname="col2"> <p>Per ottenere la sovrapposizione %,  Audience Manager utilizza la seguente formula:</p> <p>Sovrapposizione di imperfezioni / (Uniche caratteristiche di base + Sovrapposizione di feature Uniche - Sovrapposizione di imperfezioni)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Sovrapposizione delle caratteristiche</span></b> </td> 
-   <td colname="col2"> Numero di visitatori univoci della caratteristica sovrapposta. </td> 
+   <td colname="col2"> Il numero di visitatori univoci della caratteristica sovrapposta. </td> 
   </tr> 
     <tr> 
    <td colname="col1"><b><span class="wintitle"> Uniche caratteristiche di base</span></b> </td> 
@@ -116,5 +120,5 @@ La finestra a comparsa per il [!UICONTROL Trait-to-Trait Overlap] rapporto conti
 >* [Forme, colori e dimensioni utilizzati nei report dinamici](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Informazioni su icone e strumenti del rapporto](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapporti di sovrapposizione: Aggiorna pianificazione e dimensione minima del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Campionamento dei dati e tassi di errore nei report Audience Manager selezionati...](../../reporting/report-sampling.md)
+>* [Campionamento dei dati e tassi di errore in report selezionati  Audience Manager...](../../reporting/report-sampling.md)
 >* [File CSV per rapporti di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
