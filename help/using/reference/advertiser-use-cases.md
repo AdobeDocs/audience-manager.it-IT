@@ -1,19 +1,23 @@
 ---
-description: Scopri le esigenze più comuni degli inserzionisti soddisfatti da Adobe Audience Manager.
-seo-description: Scopri le esigenze più comuni degli inserzionisti soddisfatti da Adobe Audience Manager.
+description: Uno sguardo ad alcune esigenze comuni degli inserzionisti soddisfatti dal Adobe Audience Manager .
+seo-description: Uno sguardo ad alcune esigenze comuni degli inserzionisti soddisfatti dal Adobe Audience Manager .
 seo-title: Casi di utilizzo dell'inserzionista
 solution: Audience Manager
 title: Casi di utilizzo dell'inserzionista
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
+feature: reference
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 3%
 
 ---
 
 
-# Casi di utilizzo dell'inserzionista {#advertiser-use-cases}
+# Casi di utilizzo dell&#39;inserzionista {#advertiser-use-cases}
 
-Scopri le esigenze più comuni degli inserzionisti soddisfatti da Adobe Audience Manager.
+Uno sguardo ad alcune esigenze comuni degli inserzionisti soddisfatti dal Adobe Audience Manager .
 
 <!-- c_adv_use_case.xml -->
 
@@ -67,15 +71,15 @@ La documentazione [Modelli](../features/algorithmic-models/understanding-models.
    <td colname="col3"> 
     <ul id="ul_EB3707C4449E44F195EE5655B724A9B4"> 
      <li id="li_268E6A408C634E5EAF2D536930EE77C7">Identificare i clienti che effettuano acquisti costosi. </li> 
-     <li id="li_217F8D97449D40E798601C904D66FE5A">Eseguite un modello simile di <span class="keyword"> Audience Manager</span> per identificare i membri dell'audience più influenti in quel segmento. </li> 
-     <li id="li_FC9CF9B3FE554032AF66E1C3721C83C9">Eseguite il targeting di questi segmenti per migliorare la pubblicità sul display corrente o attraverso la personalizzazione sul sito tramite Adobe Target. </li> 
-     <li id="li_14F94E368C5142718BF6707622D3D8DE">Includi i nuovi dati nelle campagne di visualizzazione future tramite Adobe Target. </li> 
+     <li id="li_217F8D97449D40E798601C904D66FE5A">Eseguite un modello <span class="keyword"> simile a Audience Manager</span> per identificare i membri del pubblico più influenti in quel segmento. </li> 
+     <li id="li_FC9CF9B3FE554032AF66E1C3721C83C9">Target questi segmenti per migliorare la pubblicità sul display attuale o attraverso la personalizzazione sul sito tramite  Adobe Target. </li> 
+     <li id="li_14F94E368C5142718BF6707622D3D8DE">Includi i nuovi dati nelle campagne di visualizzazione future attraverso  Adobe Target. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Retarget dati di prime parti tramite una piattaforma lato domanda (DSP)
+## Ritardare i dati di prime parti tramite un Platform lato domanda (DSP)
 
 <table id="table_26697DC988BD4A6493B4867B903132D7"> 
  <thead> 
@@ -98,7 +102,7 @@ La documentazione [Modelli](../features/algorithmic-models/understanding-models.
      <li id="li_40B53340C38743A785159D886392EFD6">Crea un segmento "Vacanze - Ricerche Nessuna Conversione". </li> 
      <li id="li_10366F799CDC483BA9B6AAD9CAD68EA2">Aggiungete una regola per escludere convertitori recenti. </li> 
      <li id="li_65B5C367AFBB4C3394AFBB07138320A8">Eseguire il retarget attraverso un DSP con un'offerta speciale e la successiva personalizzazione in loco. </li> 
-     <li id="li_C88D7C3D72504BBBAA24B09CB805A38F">Continua a mostrare il contenuto richiesto tramite Adobe Target. </li> 
+     <li id="li_C88D7C3D72504BBBAA24B09CB805A38F">Continuate a mostrare il contenuto richiesto tramite  Adobe Target. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -128,7 +132,7 @@ La documentazione [Modelli](../features/algorithmic-models/understanding-models.
     </ul> </td> 
    <td colname="col3"> 
     <ul id="ul_12770CC183E5433999ED8C055E91DC78"> 
-     <li id="li_4CAFD2A7F0F54225ADDCD3C94E8CCEF7">Importa i segmenti di dati dei partner, combinali con i tuoi e offri esperienze pertinenti con Adobe Target. </li> 
+     <li id="li_4CAFD2A7F0F54225ADDCD3C94E8CCEF7">Importa i segmenti di dati dei partner, combinali con i tuoi e offri esperienze rilevanti con  Adobe Target. </li> 
      <li id="li_65F1C7812FC24D44BB41DE6B7276F6AF">Aumenta la dimensione delle iniziative di marketing e-mail o l'allineamento alla campagna DSP. </li> 
     </ul> </td> 
   </tr> 
@@ -147,17 +151,17 @@ La documentazione [Modelli](../features/algorithmic-models/understanding-models.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Integra i set di dati separati in <span class="keyword"> Audience Manager</span> per gestire le offerte dei clienti in base a comportamenti stagionali o di acquisto di altro tipo. </td> 
+   <td colname="col1">Integrare i set di dati separati in <span class="keyword"> Audience Manager</span> per gestire le offerte dei clienti in base a comportamenti stagionali o di acquisto di altro tipo. </td> 
    <td colname="col2"> 
     <ul id="ul_CFE6F446C287464B9141C7B6E2581A84"> 
-     <li id="li_4308DD38DC014622A08CB0425A9E98F1">Sfruttate le funzionalità di integrazione di <span class="keyword"> Audience Manager</span>per supportare l'utilizzo di dati offline. </li> 
+     <li id="li_4308DD38DC014622A08CB0425A9E98F1">Sfruttate <span class="keyword"> funzionalità di integrazione di Audience Manager</span>per supportare l'utilizzo di dati offline. </li> 
      <li id="li_B55C9849C43C483781DC5C3AEAA861F1">Aumento dei tassi di conversione e della fedeltà offrendo ai clienti esperienze creative rilevanti. </li> 
     </ul> </td> 
    <td colname="col3"> 
     <ul id="ul_739F56A9703F418BBD6F391C2A8A25CA"> 
      <li id="li_24C0DF2B23284764B48B0B4FC2808248">In <span class="keyword"> Audience Manager</span>, crea un segmento per i viaggiatori autunnali. </li> 
-     <li id="li_C8FE060793AA400CBDF33251B21B79C7">In Adobe Target, create una campagna per offrire punti di riferimento alle compagnie aeree per acquisti stagionali. </li> 
-     <li id="li_84D729B9AA2E40F8B3EFF6E53C8AA39A">Utilizzate Analytics per tenere traccia dell'attività del cliente attraverso il funnel di conversione. Se un cliente non effettua la conversione, riavviate l'acquisizione con l'e-mail marketing. </li> 
+     <li id="li_C8FE060793AA400CBDF33251B21B79C7">Nel  Adobe Target, create una campagna per offrire punti di riferimento alle compagnie aeree per gli acquisti stagionali. </li> 
+     <li id="li_84D729B9AA2E40F8B3EFF6E53C8AA39A">Utilizzate  Analytics per monitorare l'attività dei clienti attraverso il funnel di conversione. Se un cliente non effettua la conversione, riavviate l'acquisizione con l'e-mail marketing. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -175,18 +179,18 @@ La documentazione [Modelli](../features/algorithmic-models/understanding-models.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Utilizzate il comportamento di ricerca di Analytics per inviare messaggi di e-mail marketing. </td> 
+   <td colname="col1"> Utilizzate  comportamento di ricerca Analytics per eseguire il targeting dei messaggi di marketing per le e-mail. </td> 
    <td colname="col2"> 
     <ul id="ul_19D86C5CEE13479BA8C860438B82E943"> 
-     <li id="li_D7E369BC066841AD80485A1FC7948E1D">Allineare i dati di analisi alle iniziative di marketing. </li> 
-     <li id="li_E905F43E93DD44AB9DB117AED9A4951A">Combinate i dati di Analytics con i dati dei clienti. </li> 
+     <li id="li_D7E369BC066841AD80485A1FC7948E1D">Allineamento dei dati di analisi con le iniziative di marketing. </li> 
+     <li id="li_E905F43E93DD44AB9DB117AED9A4951A">Combinare  dati Analytics con i dati dei clienti. </li> 
      <li id="li_02085338F74E4348981D538B5C060DAA">Migliorate la gestione delle offerte collaborative. </li> 
     </ul> </td> 
    <td colname="col3"> 
     <ul id="ul_018543C7DACD47849F303BC8C26A0A08"> 
      <li id="li_37AB19716B3D4C7BA4106C007A534689">Crea un segmento "Purchase Intender - No Conversion" (Offerte di acquisto - Nessuna conversione). </li> 
-     <li id="li_DA5EA7CC922C47788D4D0AED5FEC5164">Esegue il targeting di quel segmento con le relative e-mail. </li> 
-     <li id="li_40085E5A5E2744EEBC38CD19F0F77076">Continuate a offrire contenuto in loco tramite Adobe Target. </li> 
+     <li id="li_DA5EA7CC922C47788D4D0AED5FEC5164">Target quel segmento con le relative e-mail. </li> 
+     <li id="li_40085E5A5E2744EEBC38CD19F0F77076">Continuate a offrire contenuti sul sito attraverso  Adobe Target. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -208,9 +212,9 @@ La documentazione [Modelli](../features/algorithmic-models/understanding-models.
    <td colname="col2"> <p>L'esperienza cliente personalizzata contribuisce ad aumentare i tassi di conversione. Presentare i prodotti, le offerte e le esperienze creative giusti può stimolare l'attività di acquisto e migliorare il coinvolgimento o la fedeltà dei clienti. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_837B290D45DB412CA0CA3457EDCC4125"> 
-     <li id="li_CA85D32FD7F54490859B92B1E4A2DACB">In <span class="keyword"> Audience Manager</span>, assimilate i dati dei segmenti di terze parti destinati ai proprietari di piccole imprese. </li> 
-     <li id="li_E8FDBD2D67724FE497A496E907EDC45A">In Adobe Target, crea una campagna on-site che offre ai piccoli proprietari di aziende messaggi e offerte mirati. </li> 
-     <li id="li_B303975755D44E03A8C22832D8198564">Monitora le prestazioni con i report <span class="keyword"> Audience Manager</span> . </li> 
+     <li id="li_CA85D32FD7F54490859B92B1E4A2DACB">In <span class="keyword"> Audience Manager</span>, acquisisci dati di segmento di terze parti destinati ai proprietari di piccole imprese. </li> 
+     <li id="li_E8FDBD2D67724FE497A496E907EDC45A"> Adobe Target, crea una campagna on-site che offre ai piccoli proprietari di aziende messaggi e offerte mirati. </li> 
+     <li id="li_B303975755D44E03A8C22832D8198564">Monitora le prestazioni con <span class="keyword"> report Audience Manager</span> . </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -232,12 +236,12 @@ La documentazione [Modelli](../features/algorithmic-models/understanding-models.
    <td colname="col2"> 
     <ul id="ul_D2E2EAD1656E4AF09840C79694C5ABE3"> 
      <li id="li_6006974EC2EA467CACA914174FF59F4D">Singolo punto di gestione per i dati di prime parti. </li> 
-     <li id="li_C9B2F0BC1CA344CF9F461B144E8EAFB6">Allineare i dati di Analytics ai segmenti di audience. </li> 
+     <li id="li_C9B2F0BC1CA344CF9F461B144E8EAFB6">Allineare  dati Analytics ai segmenti di pubblico. </li> 
     </ul> </td> 
    <td colname="col3"> 
     <ul id="ul_65D91F5E29D04750AB81682FC4E44E5F"> 
-     <li id="li_69832257582342C7A026B1474E1A4286">Lavora con i dati di prime parti in Analytics per creare un segmento di appassionati di viaggi. </li> 
-     <li id="li_FDFFA55B0B7D46398A5A640EB5E56788">Eseguite il targeting e monetizzare questo segmento off-site attraverso piattaforme lato domanda e lato vendita e uffici di negoziazione. </li> 
+     <li id="li_69832257582342C7A026B1474E1A4286">Puoi lavorare con dati di prime parti in  Analytics per creare un segmento di appassionati di viaggi. </li> 
+     <li id="li_FDFFA55B0B7D46398A5A640EB5E56788">Target e monetizzare questo segmento off-site attraverso piattaforme e uffici di trading lato domanda e vendita. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
