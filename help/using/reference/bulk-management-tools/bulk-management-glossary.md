@@ -5,8 +5,12 @@ seo-title: Glossario degli strumenti di gestione di massa
 solution: Audience Manager
 title: Glossario degli strumenti di gestione di massa
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 1%
 
 ---
 
@@ -71,7 +75,7 @@ Definite le etichette di intestazione delle colonne.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>I segnali sono bit di dati passati ad <span class="keyword"> Audience Manager</span> in base all'attività dell'utente. Questi vengono trasmessi come coppie <a href="../../reference/key-value-pairs-explained.md"></a>chiave-valore. La chiave di origine è una costante che non viene modificata. Consente di classificare il valore di origine che può essere modificato. Consulta <a href="../../features/derived-signals.md"> Segnali</a>derivati. </p> </td> 
+   <td colname="col2"> <p>I segnali sono bit di dati passati a <span class="keyword"> Audience Manager</span> in base all'attività dell'utente. Questi vengono trasmessi come coppie <a href="../../reference/key-value-pairs-explained.md"></a>chiave-valore. La chiave di origine è una costante che non viene modificata. Consente di classificare il valore di origine che può essere modificato. Consulta <a href="../../features/derived-signals.md"> Segnali</a>derivati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
