@@ -1,29 +1,33 @@
 ---
-description: Il rapporto Prestazioni segmento confronta i segmenti mappati e non mappati per impression e tassi di conversione. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all'interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
-seo-description: Il rapporto Prestazioni segmento confronta i segmenti mappati e non mappati per impression e tassi di conversione. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all'interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
+description: Il rapporto Prestazioni segmento confronta i segmenti mappati e non mappati in base alle impression e ai tassi di conversione. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all'interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
+seo-description: Il rapporto Prestazioni segmento confronta i segmenti mappati e non mappati in base alle impression e ai tassi di conversione. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all'interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
 seo-title: Report Prestazioni segmento
 solution: Audience Manager
 title: Report Prestazioni segmento
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: ad4721cd2ff1f4b2b7cb814cbafdef1f59138a26
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '643'
+ht-degree: 0%
 
 ---
 
 
 # Report Prestazioni segmento{#segment-performance-report}
 
-Il [!UICONTROL Segment Performance] rapporto confronta i segmenti mappati e non mappati per impression e tassi di conversione. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all'interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
+Il [!UICONTROL Segment Performance] rapporto confronta i segmenti mappati e non mappati per impression e tassi di conversione. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all&#39;interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
 
 ## Come leggere i risultati dei segmenti mappati {#read-mapped-segment-results}
 
 Il [!UICONTROL Segment Performance] rapporto mappato visualizza tutti i segmenti creati e inviati a una destinazione per il targeting. La posizione dei segmenti mappati in un rapporto può fornire informazioni dettagliate sui segmenti che hanno prestazioni migliori e sui punti in cui potrebbe essere necessario apportare alcune modifiche.
 
-Per leggere il rapporto, esso aiuta a dividere i risultati in 4 sezioni con linee immaginarie (in rosso) e le categorie mostrate nel rapporto campione sottostante.
+Per leggere il rapporto, esso aiuta a dividere i risultati in 4 sezioni con linee immaginarie (in rosso) e le categorie mostrate nel rapporto di esempio riportato di seguito.
 
 ![](assets/mapped-segment-performance.png)
 
-Le etichette contenute nell'esempio e nella tabella seguente consentono di comprendere le prestazioni dei segmenti e come rispondere a tali risultati.
+Le etichette contenute nell&#39;esempio e nella tabella seguente consentono di comprendere le prestazioni dei segmenti e come rispondere a tali risultati.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
