@@ -4,8 +4,12 @@ seo-description: Perché le caratteristiche o i segmenti non vengono visualizzat
 seo-title: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina Rapporti sovrapposizione?
 solution: Audience Manager
 title: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina Rapporti sovrapposizione?
+feature: support
 translation-type: tm+mt
-source-git-commit: 0487a15c5fcd0e653bedf0e7fd8326f5cc363660
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 1%
 
 ---
 
