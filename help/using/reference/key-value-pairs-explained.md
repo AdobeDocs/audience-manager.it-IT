@@ -6,8 +6,12 @@ seo-title: Spiegazione delle coppie chiave-valore
 solution: Audience Manager
 title: Spiegazione delle coppie chiave-valore
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
+feature: reference
 translation-type: tm+mt
-source-git-commit: cb3819192c523f9c20e9a15ca5d43ef36c49e900
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +34,7 @@ Una coppia chiave-valore è costituita da due elementi dati correlati: Una chiav
 
 ## Coppie chiave e valore serializzato {#standard-serialized-pairs}
 
-Le destinazioni accettano i dati chiave-valore in *`standard`* o in *`serialized`* formato. La formattazione standard organizza i dati in coppie chiave-valore separate. Ogni chiave è specificata in modo esplicito, anche se utilizzata di nuovo per definire un valore diverso. Per contro, la formattazione serializzata condensa più valori in un unico set definito da un singolo tasto. Inoltre, in una coppia serializzata, viene utilizzato un indicatore speciale per separare i valori all'interno del set di valori chiave. Infine, i valori chiave standard e serializzati possono contenere uno o più valori. Nella tabella seguente sono riportati alcuni esempi di formati chiave standard e seriali.
+Le destinazioni accettano i dati chiave-valore in *`standard`* o in *`serialized`* formato. La formattazione standard organizza i dati in coppie chiave-valore separate. Ogni chiave è specificata in modo esplicito, anche se utilizzata di nuovo per definire un valore diverso. Per contro, la formattazione serializzata condensa più valori in un unico set definito da un singolo tasto. Inoltre, in una coppia serializzata, viene utilizzato un indicatore speciale per separare i valori all&#39;interno dell&#39;insieme chiave-valore. Infine, i valori chiave standard e serializzati possono contenere uno o più valori. Nella tabella seguente sono riportati alcuni esempi di formati chiave standard e seriali.
 
 | Formattazione | Chiave singola | Coppie chiave-valore |
 |---|---|---|
@@ -41,14 +45,14 @@ Le destinazioni accettano i dati chiave-valore in *`standard`* o in *`serialized
 
 ## Tasti, delimitatori e separatori {#keys-delimiters-separators}
 
-Quando si utilizzano dati serializzati, è necessario specificare i caratteri che separano i valori *all'interno* e *tra* le coppie chiave-valore. Gli elementi nelle coppie chiave-valore sono definiti come segue:
+Quando si utilizzano dati serializzati, è necessario specificare i caratteri che separano i valori *all&#39;interno* e *tra* le coppie chiave-valore. Gli elementi nelle coppie chiave-valore sono definiti come segue:
 
-* **** Chiave:Identificatore univoco nella coppia chiave-valore.
-* **** Delimitatore di valori: Separa singole coppie chiave-valore.
-* **** Separatore chiave-valore: Separa una chiave dai valori all'interno di una coppia chiave-valore.
-* **** Separatore seriale: Separa i singoli valori all'interno delle coppie chiave-valore serializzate.
+* **Chiave:** Identificatore univoco nella coppia chiave-valore.
+* **Delimitatore di valori:** Separa singole coppie chiave-valore.
+* **Separatore chiave-valore:** Separa una chiave dai valori all&#39;interno di una coppia chiave-valore.
+* **Separatore seriale:** Separa i singoli valori all&#39;interno delle coppie chiave-valore serializzate.
 
-## Elementi chiave e valore serializzati standard {#standard-serialized-key-value-elements}
+## Elementi standard e serializzati del valore chiave {#standard-serialized-key-value-elements}
 
 <table id="table_62B0498441034A719C9DB57276777D40"> 
  <thead> 
