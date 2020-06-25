@@ -5,8 +5,12 @@ seo-title: Sprecazione TLS 1.0 e 1.1
 solution: Audience Manager
 title: Sprecazione TLS 1.0 e 1.1
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
+feature: reference
 translation-type: tm+mt
-source-git-commit: 5f572a414f27bd8eea20a1c0596a02b1250b50fe
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 28%
 
 ---
 
@@ -15,9 +19,9 @@ source-git-commit: 5f572a414f27bd8eea20a1c0596a02b1250b50fe
 
 Transport Layer Security (TLS) è un protocollo crittografico utilizzato per stabilire un canale di comunicazione sicuro tra due sistemi. Viene utilizzato per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l&#39;integrità delle informazioni che passano tra i sistemi. Nel maggio 2018 erano in uso tre versioni del protocollo TLS: TLS 1.0, 1.1 e 1.2.
 
-Nel marzo 2019 [!DNL Adobe] è cessato il sostegno al [!DNL TLS 1.0] protocollo. La funzionalità di Adobe Audience Manager non funziona per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.0].
+Nel marzo 2019 [!DNL Adobe] è cessato il sostegno al [!DNL TLS 1.0] protocollo.  funzionalità di Adobe Audience Manager non funziona per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.0].
 
-Nel marzo 2020 [!DNL Adobe] cesserà il sostegno al [!DNL TLS 1.1] protocollo. La funzionalità di Adobe Audience Manager smetterà di funzionare per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.1].
+Nel marzo 2020 [!DNL Adobe] cesserà il sostegno al [!DNL TLS 1.1] protocollo.  funzionalità di Adobe Audience Manager smetterà di funzionare per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.1].
 
 Raccomandiamo vivamente l&#39;uso di [!DNL TLS 1.2], che è, al momento della scrittura, l&#39;ultima versione del protocollo. Tutti i browser moderni utilizzano [!DNL TLS 1.2]. Abbiamo raccolto per voi un elenco di browser, versioni e il loro [!DNL TLS] supporto. Per maggiori informazioni, visita [questo collegamento](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)Wikipedia.
 
