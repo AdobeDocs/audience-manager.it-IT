@@ -5,23 +5,27 @@ seo-title: Principali caratteristiche non utilizzate
 solution: Audience Manager
 title: Principali caratteristiche non utilizzate
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
 
 # Principali caratteristiche non utilizzate{#top-unused-traits}
 
-Le caratteristiche principali non utilizzate sono rappresentate come un diagramma a dispersione delle caratteristiche che non sono ancora membri di un segmento, in base al tipo di caratteristica, all'origine dati e alle prestazioni.
+Le caratteristiche principali non utilizzate sono rappresentate come un diagramma a dispersione delle caratteristiche che non sono ancora membri di un segmento, in base al tipo di caratteristica, all&#39;origine dati e alle prestazioni.
 
-## Caso d'uso {#use-cases}
+## Caso d&#39;uso {#use-cases}
 
-Con il [!UICONTROL Top Unused Traits] rapporto, puoi analizzare e confrontare le prestazioni di caratteristiche di prime e terze parti che attualmente non sono mappate a un segmento. Questa visualizzazione può evidenziare le caratteristiche migliori da utilizzare in un segmento di pubblico per l'ottimizzazione delle campagne o per la rete di nuove opportunità.
+Con il [!UICONTROL Top Unused Traits] rapporto, puoi analizzare e confrontare le prestazioni di caratteristiche di prime e terze parti che attualmente non sono mappate a un segmento. Questa visualizzazione può evidenziare le caratteristiche migliori da utilizzare in un segmento di pubblico per l&#39;ottimizzazione delle campagne o per la rete di nuove opportunità.
 
 ## Utilizzo del report Caratteristiche principali non utilizzate {#using-the-report}
 
-Usate i **[!UICONTROL Data Provider Type]** controlli per alternare tra caratteristiche di prime parti e terze parti. Selezionare **[!UICONTROL All]** per restituire caratteristiche di prima e terza parte nel rapporto.
+Usate i **[!UICONTROL Data Provider Type]** controlli per alternare tra caratteristiche di prime parti e di terze parti. Selezionare **[!UICONTROL All]** per restituire le caratteristiche di prima e terza parte nel rapporto.
 
 Con il **[!UICONTROL Impressions]** cursore, potete selezionare un valore minimo e massimo per le impression restituite. Eventuali caratteristiche responsabili di un numero inferiore o superiore ai limiti impostati non vengono visualizzate nel rapporto.
 
@@ -35,7 +39,7 @@ Utilizzate la casella a **[!UICONTROL Traits]** discesa per selezionare le carat
 
 >[!IMPORTANT]
 >
->Quando [!UICONTROL Audience Optimization for Publishers]abilitate, dovete includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel passaggio 3 di [Importazione di file di dati DFP in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Order] anziché come [!UICONTROL Order ID].
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel Passaggio 3 di [Importa file di dati DFP in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Order] anziché come [!UICONTROL Order ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
@@ -88,7 +92,7 @@ La posizione delle caratteristiche in un report può fornire informazioni dettag
 
 Le caratteristiche situate più in alto sull’asse Impressioni sono quelle che desiderate usare nelle campagne. Per le caratteristiche con un numero limitato di impression, è improbabile che si stia raggiungendo questo pubblico sulla proprietà Web, in base ai dati DFP.
 
-Osservate a sinistra dell' [!UICONTROL Unique Trait Realizations] asse per ottenere caratteristiche estremamente precise e a destra per quelle che possono essere ridimensionate.
+Osservate a sinistra dell&#39; [!UICONTROL Unique Trait Realizations] asse per ottenere caratteristiche estremamente precise e a destra per quelle che possono essere ridimensionate.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
@@ -100,7 +104,7 @@ Osservate a sinistra dell' [!UICONTROL Unique Trait Realizations] asse per otten
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>In alto a sinistra</b> </p> </td> 
-   <td colname="col2"> <p>Numero elevato di impression, numero ridotto di realizzazioni di caratteristiche. </p> <p>Si tratta di un pubblico altamente preciso che non è ancora membro di un segmento. Considerate la possibilità di eseguire il targeting. </p> </td> 
+   <td colname="col2"> <p>Numero elevato di impression, numero ridotto di realizzazioni di caratteristiche. </p> <p>Si tratta di un'audience altamente accurata che non è ancora membro di un segmento. Considerate l'opportunità di eseguire il targeting. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>In basso a sinistra</b> </p> </td> 
