@@ -5,8 +5,12 @@ seo-title: Utilizzo degli operatori di confronto in Generatore di caratteristich
 solution: Audience Manager
 title: Utilizzo degli operatori di confronto in Generatore di caratteristiche
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +27,7 @@ Gli operatori di confronto (o operatori relazionali) vengono utilizzati per conf
 
 ## Vantaggi degli operatori di confronto
 
-Gli operatori di confronto sono utili per valutare e creare caratteristiche basate su più valori. La valutazione dei prezzi dei beni e dei servizi può illustrare tale condizione. Ad esempio, l'azienda potrebbe voler identificare i visitatori in base ai prezzi dei prodotti visualizzati. Tuttavia, può risultare inefficiente dal punto di vista amministrativo definire singoli segmenti in base a valori specifici. Gli operatori di confronto contribuiscono a superare questo ostacolo stabilendo attivatori di segmentazione in base a soglie o intervalli di prezzo.
+Gli operatori di confronto sono utili per valutare e creare caratteristiche basate su più valori. La valutazione dei prezzi dei beni e dei servizi può illustrare tale condizione. Ad esempio, l&#39;azienda potrebbe voler identificare i visitatori in base ai prezzi dei prodotti visualizzati. Tuttavia, può risultare inefficiente dal punto di vista amministrativo definire singoli segmenti in base a valori specifici. Gli operatori di confronto contribuiscono a superare questo ostacolo stabilendo attivatori di segmentazione in base a soglie o intervalli di prezzo.
 
 ## Operatori di confronto
 
@@ -33,9 +37,9 @@ Gli operatori di confronto sono utili per valutare e creare caratteristiche basa
 |---|---|
 | **==** | Uguale a |
 | **!=** | Non uguale a |
-| **&gt;** | Maggiore di |
+| **>** | Maggiore di |
 | **&lt;** | Minore di |
-| **=&gt;** | Maggiore di/uguale a |
+| **=>** | Maggiore di/uguale a |
 | **&lt;=** | Minore di/uguale a |
 
 ## Operatori denominati
@@ -45,10 +49,10 @@ Gli operatori di confronto sono utili per valutare e creare caratteristiche basa
 | Operatore | Valuta in [!DNL True] Quando |
 |---|---|
 | **[!UICONTROL Contains]** | Il valore in una coppia chiave-valore *contiene* i caratteri specificati da questo operatore. |
-| **[!UICONTROL Matcheswords]** | Il valore di una coppia chiave-valore *corrisponde* al pattern specificato dall'operatore. |
+| **[!UICONTROL Matcheswords]** | Il valore di una coppia chiave-valore *corrisponde* al pattern specificato dall&#39;operatore. |
 | **[!UICONTROL Startswith]** | Il valore in una coppia chiave-valore *inizia con* i caratteri specificati da questo operatore. |
 | **[!UICONTROL Endswith]** | Il valore in una coppia chiave-valore *termina con* i caratteri specificati da questo operatore. |
-| **[!UICONTROL Matchesregex]** | Il valore in una coppia chiave-valore *corrisponde* al pattern specificato da un'espressione regolare. [Ulteriori](../../features/traits/trait-builder-regex.md) informazioni sull'utilizzo delle espressioni regolari in [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Matchesregex]** | Il valore in una coppia chiave-valore *corrisponde* al pattern specificato da un&#39;espressione regolare. [Ulteriori](../../features/traits/trait-builder-regex.md) informazioni sull&#39;utilizzo delle espressioni regolari in [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >
