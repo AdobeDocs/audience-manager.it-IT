@@ -6,8 +6,12 @@ seo-title: Creare un modello algoritmico
 solution: Audience Manager
 title: Creare un modello algoritmico
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 0%
 
 ---
 
@@ -94,7 +98,7 @@ Compila prima i campi richiesti nella [!UICONTROL Basic Information] sezione.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Seleziona algoritmo (3)</b> </p> </td> 
-   <td colname="col2"> <p>Al momento, Model Builder funziona solo con il nostro algoritmo proprietario <span class="keyword"> Trait Weight</span> . <span class="keyword"> Audience Manager</span> potrebbe aggiungere altre funzioni algoritmiche nelle release successive. </p> </td>
+   <td colname="col2"> <p>Al momento, Model Builder funziona solo con il nostro algoritmo proprietario <span class="keyword"> Trait Weight</span> . <span class="keyword">  Audience Manager</span> potrebbe aggiungere altre funzioni algoritmiche nelle versioni successive. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Seleziona dati modello da origine dati (4)</b> </p> </td> 
