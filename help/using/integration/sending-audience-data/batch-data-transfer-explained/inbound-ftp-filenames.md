@@ -5,8 +5,9 @@ seo-title: Requisiti di nome e dimensione file FTP per i file di dati in entrata
 solution: Audience Manager
 title: Requisiti di nome e dimensione file FTP per i file di dati in entrata
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 3%
@@ -52,7 +53,7 @@ La tabella definisce gli elementi in un nome di [!DNL FTP] file.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>Percorso e nome della directory <span class="keyword"> Audience Manager</span> FTP. Contatta il tuo Account Manager per conoscere la directory e le credenziali FTP. </p> </td> 
+   <td colname="col2"> <p>Percorso e nome della directory <span class="keyword"> Audience Manager</span> FTP. Contatta il tuo Account Manager per conoscere la directory e le credenziali dell'FTP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
