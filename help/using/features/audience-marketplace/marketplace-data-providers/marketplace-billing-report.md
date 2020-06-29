@@ -1,27 +1,31 @@
 ---
-description: Genera un rapporto di fatturazione di Audience Marketplace per visualizzare l'utilizzo dei feed di dati per il mese precedente per ciascun utente iscritto. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10° giorno del mese corrente o dopo di esso.
-seo-description: Genera un rapporto di fatturazione di Audience Marketplace per visualizzare l'utilizzo dei feed di dati per il mese precedente per ciascun utente iscritto. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10° giorno del mese corrente o dopo di esso.
+description: Generate un rapporto  fatturazione Audience Marketplace per visualizzare l'utilizzo dei feed di dati per il mese precedente per ciascun utente iscritto. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10° giorno del mese corrente o dopo di esso.
+seo-description: Generate un rapporto  fatturazione Audience Marketplace per visualizzare l'utilizzo dei feed di dati per il mese precedente per ciascun utente iscritto. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10° giorno del mese corrente o dopo di esso.
 seo-title: Fatturazione per fornitori di feed di dati
 solution: Audience Manager
 title: Fatturazione per fornitori di feed di dati
-topic: API DIL
+topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 0%
 
 ---
 
 
 # Fatturazione per fornitori di feed di dati {#billing-for-data-feed-providers}
 
-Generate un rapporto di [!DNL Audience Marketplace] fatturazione per visualizzare l'utilizzo del feed di dati per il mese precedente per ciascun utente iscritto. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10° giorno del mese corrente o dopo di esso.
+Generate un rapporto di [!DNL Audience Marketplace] fatturazione per visualizzare l&#39;utilizzo del feed di dati per il mese precedente per ciascun utente iscritto. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10° giorno del mese corrente o dopo di esso.
 
 ## Download di un rapporto di fatturazione {#download-billing-report}
 
 Per scaricare un rapporto:
 
 1. Vai a **[!UICONTROL Audience Marketplace > Receivables]**.
-1. Fai clic su **[!UICONTROL Generate Billing Report]**.
+1. Clic **[!UICONTROL Generate Billing Report]**.
 
 ## Campi report definiti {#report-fields-defined}
 
@@ -36,7 +40,7 @@ Un rapporto di fatturazione contiene le informazioni seguenti.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> PID provider dati</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> PID del provider di dati</span></b> </p> </td> 
    <td colname="col2"> <p>Your <span class="keyword"> Audience Manager</span> data provider ID. </p> </td> 
   </tr> 
   <tr> 
@@ -90,7 +94,7 @@ Un rapporto di fatturazione contiene le informazioni seguenti.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Costo totale</span></b> </p> </td> 
-   <td colname="col2"> <p>L'importo delle fatture di <span class="keyword"> Audience Manager</span> per un acquirente. </p> </td> 
+   <td colname="col2"> <p>L'importo <span class="keyword"> Audience Manager</span> addebita un acquirente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Periodo di fatturazione</span></b> </p> </td> 
@@ -105,15 +109,15 @@ Un rapporto di fatturazione contiene le informazioni seguenti.
    <td colname="col2"> <p>Data in cui un acquirente ha avviato la sottoscrizione al feed di dati. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Data fine iscrizione</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Data di fine iscrizione</span></b> </p> </td> 
    <td colname="col2"> <p>Data in cui un acquirente ha terminato la sottoscrizione al feed di dati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Flag</span></b> </p> </td> 
    <td colname="col2"> <p> <i>Solo</i>per i feed CPM. Le opzioni di contrassegno includono: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica che un utente iscritto ha segnalato informazioni sull’utilizzo ad <span class="keyword"> Audience Manager</span>. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indica che un utente iscritto non ha segnalato le informazioni di utilizzo ad <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Indica che un utente iscritto ha segnalato le informazioni di utilizzo a <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Indica che un utente iscritto non ha segnalato le informazioni di utilizzo a <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
