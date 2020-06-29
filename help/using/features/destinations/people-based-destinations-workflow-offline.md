@@ -4,8 +4,12 @@ seo-description: 'Questa pagina include istruzioni dettagliate su come creare se
 seo-title: Flusso di lavoro B - Personalizzazione basata su dati solo offline
 solution: Audience Manager
 title: Flusso di lavoro B - Personalizzazione basata su dati solo offline
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1170'
+ht-degree: 5%
 
 ---
 
@@ -19,17 +23,17 @@ Questa pagina include istruzioni dettagliate su come creare segmenti di pubblico
 
 ## Passaggio 1 - Caratteristiche offline di bordo {#step-1-onboard-traits}
 
-Il primo passo per la creazione di segmenti di pubblico in questo scenario consiste nel portare i dati dei clienti offline in Audience Manager.
+Il primo passo per la creazione di segmenti di pubblico in questo scenario è portare i dati dei clienti offline in  Audience Manager.
 
 >[!IMPORTANT]
 >
-> Prima di continuare, accertatevi che l’attività del cliente che state per imbarcare sia già definita in Audience Manager con le caratteristiche [registrate corrispondenti](../traits/trait-and-segment-qualification-reference.md).
+> Prima di continuare, accertatevi che l&#39;attività del cliente che state per imbarcare sia già definita in  Audience Manager con le caratteristiche [integrate corrispondenti](../traits/trait-and-segment-qualification-reference.md).
 
-Indipendentemente dal fatto che gli ID cliente esistenti di Audience Manager ([DPUUID](../../reference/ids-in-aam.md)) siano o meno indirizzi e-mail con hash, devi eseguire l’onboarding delle caratteristiche rispetto all’origine dati che contiene i tuoi [DPUUID](../../reference/ids-in-aam.md).
+Indipendentemente dal fatto che gli ID cliente Audience Manager esistenti  ([DPUUID](../../reference/ids-in-aam.md)) siano o meno indirizzi e-mail con hash, è necessario eseguire l&#39;onboarding delle caratteristiche rispetto all&#39;origine dati che contiene i [DPUUID](../../reference/ids-in-aam.md).
 
 ### Esempio 
 
-Desiderate qualificare gli ID cliente dalla tabella seguente per gli ID caratteristica caricati corrispondenti. Consideriamo che i tuoi [DPUUID](../../reference/ids-in-aam.md) sono memorizzati in un&#39;origine dati con l&#39;ID 999999 e l&#39;ID partner Audience Manager è 123.
+Desiderate qualificare gli ID cliente dalla tabella seguente per gli ID caratteristica caricati corrispondenti. Consideriamo che i tuoi [DPUUID](../../reference/ids-in-aam.md) sono memorizzati in un&#39;origine dati con l&#39;ID 9999999, e il tuo ID partner Audience Manager  è 123.
 
 | ID cliente (DPUUID) | ID caratteristica integrato |
 | -------------------------------------- | ------------------- |
@@ -71,20 +75,20 @@ In questo caso, è necessario etichettare l&#39;origine dati corrispondente come
 
 In questo caso, è necessario creare una nuova origine dati cross-device in cui memorizzare gli indirizzi e-mail con hash. Come procedere:
 
-1. Accedete al vostro account Audience Manager e andate a **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]**, quindi fate clic su **[!UICONTROL Add New]**.
+1. Accedete al vostro account Audience Manager  e andate a **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]**, quindi fate clic su **[!UICONTROL Add New]**.
 1. Immettere un **[!UICONTROL Name]** e **[!UICONTROL Description]** per la nuova origine dati.
 1. Nel **[!UICONTROL ID Type]** menu a discesa, selezionate **[!UICONTROL Cross Device]**.
 1. Nella **[!UICONTROL Data Source Settings]** sezione, selezionate sia le **[!UICONTROL Inbound]** opzioni che le **[!UICONTROL Outbound]** opzioni, quindi abilitate l&#39; **[!UICONTROL Share associated cross-device IDs in people-based destinations]** opzione.
 1. Utilizzare il menu a discesa per selezionare l&#39; **[!UICONTROL Emails(SHA256, lowercased)]** etichetta per questa origine dati.
    >[!IMPORTANT]
    >
-   >Questa opzione etichetta solo l&#39;origine dati come contenente i dati con hash con tale algoritmo specifico. Audience Manager non esegue l&#39;hash dei dati in questo passaggio. Assicurati che gli indirizzi e-mail che intendi memorizzare in questa origine dati siano già crittografati con l&#39; [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
+   >Questa opzione etichetta solo l&#39;origine dati come contenente i dati con hash con tale algoritmo specifico.  Audience Manager non esegue l&#39;hash dei dati in questo passaggio. Assicurati che gli indirizzi e-mail che intendi memorizzare in questa origine dati siano già crittografati con l&#39; [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
    >[!NOTE]
    >
-   > Consulta [Data onboarding](people-based-destinations-prerequisites.md#data-onboarding) per domande frequenti su come portare i dati offline in Audience Manager per le destinazioni basate su persone.
+   > Consulta [Data onboarding](people-based-destinations-prerequisites.md#data-onboarding) per le domande frequenti su come portare i dati offline in  Audience Manager per le destinazioni basate sulle persone.
 
 Guardate il video seguente per un&#39;esercitazione video su come creare un&#39;origine dati per [!UICONTROL People-Based Destinations].
 
@@ -134,13 +138,13 @@ Nell&#39;esempio precedente, il nome del file sarà simile al seguente:
 
 [Scarica il file di esempio qui](assets/c2c_id_999999_987654_1560431657.sync).
 
-Dopo aver creato il file di sincronizzazione ID, devi caricarlo in un [!DNL Amazon S3] bucket. Per informazioni su come caricare i file di sincronizzazione ID, consulta [Inviare dati batch ad Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
+Dopo aver creato il file di sincronizzazione ID, devi caricarlo in un [!DNL Amazon S3] bucket. Per informazioni su come caricare i file di sincronizzazione ID, consulta [Inviare dati batch a  Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Passaggio 4 - Crea una regola di unione dei profili per la segmentazione {#create-profile-merge-rule}
 
 Il passo successivo consiste nella creazione di una nuova regola di unione che ti aiuterà a creare i segmenti di pubblico da inviare al tuo [!DNL People-Based Destinations].
 
-1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
+1. Accedete al vostro account Audience Manager  e andate a **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
 2. Clic [!UICONTROL Add New Rule].
 3. Immettete una regola di unione dei profili **[!UICONTROL Name]** e **[!UICONTROL Description]**.
 4. Nella **[!UICONTROL Profile Merge Rule Setup]** sezione, selezionare la **[!UICONTROL All Cross-Device Profiles]** regola dall&#39; **[!UICONTROL Cross-Device Options]** elenco.
@@ -151,24 +155,24 @@ Il passo successivo consiste nella creazione di una nuova regola di unione che t
 
 Per creare nuovi segmenti da dati esclusivamente offline, utilizza il Generatore [di](../segments/segment-builder.md) segmenti e accertati di utilizzare la nuova regola di unione di profilo creata nel passaggio precedente al momento della creazione del segmento.
 
-## Passaggio 6 - Configurare l&#39;autenticazione della piattaforma basata sulle persone {#configure-authentication}
+## Passaggio 6 - Configurare l&#39;autenticazione Platform basata sulle persone {#configure-authentication}
 
-1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Se avete già configurato un&#39;integrazione con una piattaforma social, visualizzatela in questa pagina. In caso contrario, la pagina è vuota.
+1. Accedete al vostro account Audience Manager  e andate a **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Se avete già configurato un&#39;integrazione con una piattaforma social, visualizzatela in questa pagina. In caso contrario, la pagina è vuota.
    ![integrazione basata sulle persone](assets/pbd-config.png)
 1. Clic **[!UICONTROL Add Account]**.
 1. Utilizzate il menu a **[!UICONTROL People-Based Platform]** discesa per selezionare la piattaforma con cui desiderate configurare l&#39;integrazione.
    ![piattaforma basata sulle persone](assets/pbd-add.png)
 1. Fare clic per **[!UICONTROL Confirm]** essere reindirizzato alla pagina di autenticazione della piattaforma selezionata.
-1. Dopo aver eseguito l&#39;autenticazione sull&#39;account della piattaforma social, verrete reindirizzati ad Audience Manager, dove dovrebbero essere visualizzati gli account dell&#39;inserzionista associato. Selezionate l’account dell’inserzionista da usare e fate clic su **[!UICONTROL Confirm]**.
-1. Audience Manager visualizza una notifica nella parte superiore della pagina per informarvi se l&#39;account è stato aggiunto correttamente. La notifica consente inoltre di aggiungere un indirizzo e-mail di contatto per ricevere le notifiche quando l&#39;autenticazione della piattaforma social sta per scadere.
+1. Dopo aver eseguito l&#39;autenticazione sull&#39;account della tua piattaforma social, verrai reindirizzato a  Audience Manager, dove potrai vedere gli account dell&#39;inserzionista associato. Selezionate l’account dell’inserzionista da usare e fate clic su **[!UICONTROL Confirm]**.
+1.  Audience Manager visualizza una notifica nella parte superiore della pagina per informarvi se l’account è stato aggiunto correttamente. La notifica consente inoltre di aggiungere un indirizzo e-mail di contatto per ricevere le notifiche quando l&#39;autenticazione della piattaforma social sta per scadere.
 
 >[!IMPORTANT]
 >
->Audience Manager gestisce l&#39;integrazione con le piattaforme social tramite token di autenticazione che scadono dopo un certo periodo di tempo. Consulta Rinnovo token di autenticazione per informazioni dettagliate su come rinnovare i token scaduti.
+> Audience Manager gestisce l&#39;integrazione con le piattaforme social tramite token di autenticazione che scadono dopo un certo periodo di tempo. Consulta Rinnovo token di autenticazione per informazioni dettagliate su come rinnovare i token scaduti.
 
 ## Passaggio 7 - Creare una destinazione basata sulle persone {#create-destination}
 
-1. Accedi al tuo account Audience Manager, vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** e fai clic su **[!UICONTROL Create Destination]**.
+1. Accedete al vostro account Audience Manager , andate a **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** e fate clic su **[!UICONTROL Create Destination]**.
 1. Nella **[!UICONTROL Basic Information]** sezione immettere una **[!UICONTROL Name]** e **[!UICONTROL Description]** per la nuova origine dati e utilizzare le seguenti impostazioni:
    * **[!UICONTROL Category]**: Piattaforme integrate;
    * **[!UICONTROL Type]**: Persone;
