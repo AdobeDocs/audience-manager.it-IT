@@ -1,19 +1,23 @@
 ---
-description: Generatore di caratteristiche valuta le espressioni in base all'ordine delle operazioni elencate di seguito, da alta a bassa precedenza. Gli elementi di caratteristica definiti dagli operatori con precedenza elevata vengono valutati prima di altri operatori con precedenza. Questa sezione classifica ciascun operatore in base alla precedenza, da alto a basso.
-seo-description: Generatore di caratteristiche valuta le espressioni in base all'ordine delle operazioni elencate di seguito, da alta a bassa precedenza. Gli elementi di caratteristica definiti dagli operatori con precedenza elevata vengono valutati prima di altri operatori con precedenza. Questa sezione classifica ciascun operatore in base alla precedenza, da alto a basso.
+description: Generatore di caratteristiche valuta le espressioni in base all'ordine delle operazioni elencate di seguito, da alta a bassa precedenza. Gli elementi di caratteristica definiti dagli operatori con precedenza elevata vengono valutati per primi, prima degli altri operatori con precedenza. Questa sezione classifica ciascun operatore in base alla precedenza, da alto a basso.
+seo-description: Generatore di caratteristiche valuta le espressioni in base all'ordine delle operazioni elencate di seguito, da alta a bassa precedenza. Gli elementi di caratteristica definiti dagli operatori con precedenza elevata vengono valutati per primi, prima degli altri operatori con precedenza. Questa sezione classifica ciascun operatore in base alla precedenza, da alto a basso.
 seo-title: Ordine delle operazioni nel Generatore di caratteristiche
 solution: Audience Manager
 title: Ordine delle operazioni nel Generatore di caratteristiche
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
 
 # Ordine delle operazioni nel Generatore di caratteristiche {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] valuta le espressioni in base all'ordine delle operazioni elencate di seguito, da alta a bassa precedenza. Gli elementi di caratteristica definiti dagli operatori con precedenza elevata vengono valutati prima di altri operatori con precedenza. Questa sezione classifica ciascun operatore in base alla precedenza, da alto a basso.
+[!UICONTROL Trait Builder] valuta le espressioni in base all&#39;ordine delle operazioni elencate di seguito, da alta a bassa precedenza. Gli elementi di caratteristica definiti dagli operatori con precedenza elevata vengono valutati per primi, prima degli altri operatori con precedenza. Questa sezione classifica ciascun operatore in base alla precedenza, da alto a basso.
 
 <!-- c_tb_operator_precedence.xml -->
 
@@ -42,7 +46,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
    <td colname="col3"> Uguale a, non uguale a vengono valutati dopo gli operatori precedenti. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolean <span class="wintitle"> AND</span> </td> 
+   <td colname="col1">Booleano <span class="wintitle"> AND</span> </td> 
    <td colname="col2"><span class="wintitle"> AND</span> </td> 
    <td colname="col3" morerows="1"> n/d </td> 
   </tr> 
