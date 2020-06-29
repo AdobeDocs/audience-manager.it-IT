@@ -5,8 +5,12 @@ seo-title: Requisiti del prefisso per le variabili chiave
 solution: Audience Manager
 title: Requisiti del prefisso per le variabili chiave
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +43,7 @@ La tabella seguente definisce i prefissi comuni utilizzati da [!UICONTROL Trait 
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>A livello di <span class="keyword"> Audience Manager</span> . Questi dati sono uniformi nell’ecosistema <span class="keyword"> Audience Manager</span> . Per un elenco più completo, consultate <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Attributi supportati per le chiamate</a> API DCS. <p>I segnali che utilizzano questo prefisso non vengono visualizzati in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Ricerca</a>segnale.</p></p> </td> 
+   <td colname="col2"> <p>A livello di <span class="keyword"> Audience Manager</span> . Questi dati sono uniformi nell' <span class="keyword"> ecosistema Audience Manager</span> . Per un elenco più completo, consultate <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Attributi supportati per le chiamate</a> API DCS. <p>I segnali che utilizzano questo prefisso non vengono visualizzati in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Ricerca</a>segnale.</p></p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
