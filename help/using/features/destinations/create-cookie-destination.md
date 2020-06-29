@@ -4,15 +4,19 @@ seo-description: Una destinazione di cookie restituisce e scrive i dati in un co
 seo-title: Configurare una destinazione cookie
 solution: Audience Manager
 title: Configurare una destinazione cookie
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 6e2b5842ad3ca52f7ed0fb72231deb6fa614b70b
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 1%
 
 ---
 
 
 # Configurare una destinazione cookie {#create-cookie-destination}
 
-Una destinazione di cookie restituisce e scrive i dati in un cookie nel browser dell'utente. Il cookie contiene dati che possono essere letti da altre piattaforme che hanno accesso alla pagina. Seguite queste istruzioni per creare una destinazione di cookie con [!UICONTROL Destination Builder].
+Una destinazione di cookie restituisce e scrive i dati in un cookie nel browser dell&#39;utente. Il cookie contiene dati che possono essere letti da altre piattaforme che hanno accesso alla pagina. Seguite queste istruzioni per creare una destinazione di cookie con [!UICONTROL Destination Builder].
 
 <!-- create-cookie-destination.xml -->
 
@@ -26,8 +30,8 @@ Questa sezione contiene campi e opzioni che avviano il processo di creazione del
 2. Denominate la destinazione. Evitare abbreviazioni e caratteri speciali.
 3. *(Facoltativo)* Descrivere la destinazione. Una descrizione sintetica è un modo efficace per definire o fornire ulteriori informazioni su una destinazione.
 4. Nell’ **[!UICONTROL Category]** elenco, scegliete **[!UICONTROL Custom]**.
-5. Nell' **[!UICONTROL Environment]** elenco, selezionare **[!UICONTROL Browser]**. Non potete configurare le destinazioni dei cookie per gli ambienti mobili nativi, ad esempio le app Android o iOS.
-6. Nell' **[!UICONTROL Type]** elenco, fare clic su **[!UICONTROL Cookie]**.
+5. Nell&#39; **[!UICONTROL Environment]** elenco, selezionare **[!UICONTROL Browser]**. Non potete configurare le destinazioni dei cookie per gli ambienti mobili nativi, ad esempio le app Android o iOS.
+6. Nell&#39; **[!UICONTROL Type]** elenco, fare clic su **[!UICONTROL Cookie]**.
 7. *(Facoltativo)* Selezionate un **[!UICONTROL Auto-fill Destination Mapping]**. Le opzioni includono:
    * **[!UICONTROL Segment ID]**: Aggiunge e invia automaticamente l’ID del segmento alla destinazione.
    * **[!UICONTROL Integration Code Value]**: Aggiunge e invia automaticamente il codice di integrazione del segmento alla mappatura di destinazione. Il codice di integrazione è un identificatore univoco creato e utilizzato dal cliente. È limitato a 255 caratteri, al massimo.
@@ -38,8 +42,8 @@ Questa sezione contiene campi e opzioni che avviano il processo di creazione del
 Questa sezione contiene opzioni che applicano controlli [di esportazione](../../features/data-export-controls.md) dati a una destinazione di cookie. Salta questo passaggio se non utilizzi i controlli di esportazione dei dati. Per completare questa sezione:
 
 1. Fare clic **[!UICONTROL Data Export Labels]** per esporre i controlli.
-2. Selezionare un'etichetta che corrisponde al controllo di esportazione dei dati applicato alla destinazione (per informazioni dettagliate, vedere [Aggiungi etichette di esportazione a una destinazione](/help/using/features/destinations/add-data-export-labels.md) ).
-3. Fai clic su **[!UICONTROL Save]**.
+2. Selezionare un&#39;etichetta che corrisponde al controllo di esportazione dei dati applicato alla destinazione (per informazioni dettagliate, vedere [Aggiungi etichette di esportazione a una destinazione](/help/using/features/destinations/add-data-export-labels.md) ).
+3. Clic **[!UICONTROL Save]**.
 
 ## Configurazione {#configuration}
 
@@ -54,14 +58,14 @@ Per completare questa sezione:
 1. Fare clic **[!UICONTROL Configuration]** per esporre i controlli
 1. Denominate il cookie. Evitare abbreviazioni e caratteri speciali.
 1. Scegliete un’opzione per il formato dei dati. Queste opzioni consentono di scegliere i delimitatori e i separatori per le coppie chiave-valore che inviano i dati del segmento a una destinazione. Le opzioni di formato includono:
-   * **** Chiave singola: Consente di impostare la chiave in una coppia chiave-valore. Il valore verrà impostato dopo aver selezionato un segmento nella [!UICONTROL Segment Mappings] sezione seguente.
-   * **** Più chiavi: Consente di impostare la chiave e il valore per una coppia chiave-valore. Dopo aver selezionato un segmento nella sezione Mappature segmenti, creerai la coppia chiave-valore qui sotto.
+   * **Chiave singola:** Consente di impostare la chiave in una coppia chiave-valore. Il valore verrà impostato dopo aver selezionato un segmento nella [!UICONTROL Segment Mappings] sezione seguente.
+   * **Più chiavi:** Consente di impostare la chiave e il valore per una coppia chiave-valore. Dopo aver selezionato un segmento nella sezione Mappature segmenti, creerai la coppia chiave-valore qui sotto.
 Per ulteriori informazioni su questi elementi di dati, vedere Coppie chiave-valore [](../../features/destinations/key-value-pairs.md) standard e seriale.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 Tutte le altre impostazioni sono facoltative. Per ulteriori informazioni sulle **[!UICONTROL Cookie Domain]** impostazioni e sulle **[!UICONTROL Publish data to]** impostazioni, vedi Impostazioni [facoltative per le destinazioni](/help/using/features/destinations/cookie-destination-options.md)dei cookie.
 
-## Mappature segmenti {#segments-mapping}
+## Mappature dei segmenti {#segments-mapping}
 
 Questa sezione consente di cercare e aggiungere segmenti alla destinazione. Per completare questa sezione:
 
@@ -71,5 +75,5 @@ Questa sezione consente di cercare e aggiungere segmenti alla destinazione. Per 
 1. Nella [!UICONTROL Edit Mapping] finestra di dialogo:
    * **[!UICONTROL Mapping]** consente di impostare un valore per la chiave specificata nella sezione Configurazione precedente.
    * **[!UICONTROL Publish from]** consente di impostare la data di inizio e di fine per la destinazione. Se la data di fine è vuota, la destinazione non scade mai.
-1. Fai clic su **[!UICONTROL Save]**.
-1. Fai clic su **[!UICONTROL Done]**.
+1. Clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Done]**.
