@@ -5,8 +5,12 @@ seo-title: Mappare i segmenti su una destinazione
 solution: Audience Manager
 title: Mappare i segmenti su una destinazione
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +23,7 @@ Mappatura dei segmenti sulle destinazioni con questi [!DNL RESTful API] metodi.
 
 ## Tipi di destinazione supportati: Solo URL e cookie
 
-I `POST` metodi disponibili consentono di mappare i segmenti [!UICONTROL URL] solo su e [!UICONTROL cookie destinations] solo. Al momento non è possibile mappare i segmenti [!UICONTROL server-to-server destinations] con questi [!DNL REST API] metodi. Utilizzate invece l'interfaccia utente. Tuttavia, i `GET` metodi di destinazione correlati consentono di recuperare le informazioni [!UICONTROL server-to-server destinations] create nell'interfaccia utente.
+I `POST` metodi disponibili consentono di mappare i segmenti [!UICONTROL URL] solo su e [!UICONTROL cookie destinations] solo. Al momento non è possibile mappare i segmenti [!UICONTROL server-to-server destinations] con questi [!DNL REST API] metodi. Utilizzate invece l&#39;interfaccia utente. Tuttavia, i `GET` metodi di destinazione correlati consentono di recuperare le informazioni [!UICONTROL server-to-server destinations] create nell&#39;interfaccia utente.
 
 ## Mappatura di un segmento su una destinazione URL non serializzata {#map-segment-non-serial}
 
@@ -266,7 +270,7 @@ Nella richiesta, la chiave `traitAlias` e `valueAlias` il valore vengono imposta
 
 ## Mappatura di un segmento su una destinazione da server a server {#map-segment-s2s}
 
-Metodo `POST` che consente di mappare un segmento a una destinazione esistente [!UICONTROL server-to-server] . Tuttavia, non è possibile creare [!UICONTROL server-to-server] destinazioni con questi [!DNL API] metodi attualmente disponibili.
+Un `POST` metodo che consente di mappare un segmento a una destinazione esistente [!UICONTROL server-to-server] . Tuttavia, non è possibile creare [!UICONTROL server-to-server] destinazioni con questi [!DNL API] metodi attualmente disponibili.
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -343,7 +347,7 @@ Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ### Risposta
 
-Una risposta corretta restituisce l'array di mappature create.
+Una risposta corretta restituisce l&#39;array di mappature create.
 
 ```
 [
