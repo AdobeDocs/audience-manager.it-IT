@@ -1,23 +1,27 @@
 ---
 description: Metodi che consentono di utilizzare in modo programmatico la Data Integration Library (DIL).
 seo-description: Metodi che consentono di utilizzare in modo programmatico la Data Integration Library (DIL).
-seo-title: Metodi API della libreria di integrazione dati
+seo-title: Metodi API della libreria di integrazione dei dati
 solution: Audience Manager
-title: Metodi API della libreria di integrazione dati
+title: Metodi API della libreria di integrazione dei dati
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
+feature: API
 translation-type: tm+mt
-source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 4%
 
 ---
 
 
-# Metodi API della libreria di integrazione dati {#data-integration-library-api-methods}
+# Metodi API della libreria di integrazione dei dati {#data-integration-library-api-methods}
 
 Metodi che consentono di utilizzare in modo programmatico [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->L'API Data Integration Library è stata rimossa. Questa API è stata utilizzata per generare DIL, che ora potete scaricare autonomamente qui: Download [DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>L&#39;API Data Integration Library (Libreria integrazione dati) è stata rimossa. Questa API è stata utilizzata per generare DIL, che ora potete scaricare autonomamente qui: [Download](https://github.com/Adobe-Marketing-Cloud/dil/releases)DIL.
 
 <!-- c_data_integr_library_api.xml -->
 
@@ -41,7 +45,7 @@ Una richiesta di successo restituisce il codice di risposta `["4.0", "4.1"]` com
 
 ## Restituisce lo schema JSON per la versione {#return-json-schema-version}
 
-Un `GET` metodo che restituisce lo [!DNL JSON] schema per la [!UICONTROL DIL] versione. Supporta l'utilizzo di alias [!UICONTROL LATEST] per la versione per ottenere la versione più recente di [!UICONTROL DIL].
+Un `GET` metodo che restituisce lo [!DNL JSON] schema per la [!UICONTROL DIL] versione. Supporta l&#39;utilizzo di alias [!UICONTROL LATEST] per la versione per ottenere la versione più recente di [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
