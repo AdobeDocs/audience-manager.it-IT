@@ -1,12 +1,16 @@
 ---
-description: Descrive i modelli algoritmici disponibili in Audience Manager.
+description: Descrive i modelli algoritmici disponibili in  Audience Manager.
 keywords: algo models how works predictive audiences
-seo-description: Descrive i modelli algoritmici disponibili in Audience Manager.
+seo-description: Descrive i modelli algoritmici disponibili in  Audience Manager.
 seo-title: Panoramica sui modelli algoritmici
 solution: Audience Manager
 title: Panoramica sui modelli algoritmici
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 82e649c93664b32d62123112802fed66bbf24ae4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 82e649c93664b32d62123112802fed66bbf24ae4
 
 ## Che cos&#39;è la modellazione algoritmica{#what-algo-modeling}
 
-La modellazione algoritmica in Audience Manager fa riferimento all’utilizzo della scienza dei dati per espandere le audience esistenti o classificarle in figure.
+La modellazione algoritmica in  Audience Manager fa riferimento all&#39;utilizzo della scienza dei dati per espandere i tipi di pubblico esistenti o classificarli in soggetti.
 
 Questo avviene tramite due tipi di algoritmi: [!UICONTROL Look-Alike Modeling] e [!UICONTROL Predictive Audiences].
 
@@ -35,6 +39,6 @@ Per ulteriori informazioni, [!UICONTROL Look-Alike Modeling]consulta [Nozioni di
 
 In un contesto di marketing, un soggetto è un segmento di pubblico definito da visitatori, utenti o potenziali acquirenti, che condividono un set specifico di caratteristiche, come demografiche, abitudini di navigazione, cronologia acquisti, ecc.
 
-[!UICONTROL Predictive Audiences] i modelli fanno di questo concetto un passo avanti, utilizzando le funzionalità di machine learning di Audience Manager per classificare automaticamente i tipi di pubblico sconosciuti in persone distinte. Audience Manager ottiene questo risultato calcolando la propensione del pubblico sconosciuto per un insieme di audience note.
+[!UICONTROL Predictive Audiences] i modelli fanno di questo concetto un passo avanti, utilizzando  capacità di machine learning di Audience Manager per classificare automaticamente i tipi di pubblico sconosciuti in persone distinte.  Audience Manager ottiene questo risultato calcolando la propensione del pubblico sconosciuto per un insieme di tipi di pubblico noti.
 
 Per ulteriori informazioni [!UICONTROL Predictive Audiences], consulta [Predictive Audiences Overview (Panoramica](predictive-audiences.md)sulle audience predittive).
