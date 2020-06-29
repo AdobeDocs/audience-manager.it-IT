@@ -4,8 +4,9 @@ seo-description: Questo articolo spiega come configurare l'audience personalizza
 seo-title: Configurare l'audience personalizzata di Twitter come destinazione autonoma basata su dispositivo
 solution: Audience Manager
 title: Configurare l'audience personalizzata di Twitter come destinazione autonoma basata su dispositivo
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 1%
