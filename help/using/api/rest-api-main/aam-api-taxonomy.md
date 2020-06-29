@@ -1,19 +1,23 @@
 ---
-description: Metodi che consentono di visualizzare la tassonomia comune di Audience Manager. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
-seo-description: Metodi che consentono di visualizzare la tassonomia comune di Audience Manager. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
+description: Metodi che consentono di visualizzare la tassonomia comune  Audience Manager. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
+seo-description: Metodi che consentono di visualizzare la tassonomia comune  Audience Manager. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
 seo-title: Metodi API tassonomici
 solution: Audience Manager
 title: Metodi API tassonomici
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
 
 # Metodi API tassonomici {#taxonomic-api-methods}
 
-Metodi che consentono di visualizzare la tassonomia comune di Audience Manager. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
+Metodi che consentono di visualizzare la tassonomia comune  Audience Manager. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
 
 <!-- c_rest_api_taxonomy.xml -->
 
@@ -21,7 +25,7 @@ Metodi che consentono di visualizzare la tassonomia comune di Audience Manager. 
 >
 >Non è possibile creare nuove categorie tassonomiche o classificare le caratteristiche con questi metodi. Per classificare una caratteristica, specificate la caratteristica appropriata `categoryId` con un metodo di creazione o aggiornamento della caratteristica.
 
-## Restituire una tassonomia specifica {#return-specific-taxonomy}
+## Restituzione di una specifica tassonomia {#return-specific-taxonomy}
 
 Un `GET` metodo che restituisce dettagli sulla categoria tassonomica specificata.
 
@@ -89,7 +93,7 @@ Troncato per brevità.
 ]
 ```
 
-## Sottocategorie tassonomiche {#return-taxonomy-sub-categories}
+## Sottocategorie tassonomiche di ritorno {#return-taxonomy-sub-categories}
 
 Un `GET` metodo che restituisce sottocategorie per la categoria principale specificata in un array.
 
