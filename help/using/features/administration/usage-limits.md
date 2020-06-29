@@ -1,24 +1,28 @@
 ---
-description: Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell'interfaccia utente, sia che siano stati impostati in modo programmatico tramite i metodi API. I limiti di utilizzo contribuiscono a proteggere Audience Manager dai processi automatizzati che potrebbero tentare di compromettere le nostre API o interfaccia utente.
-seo-description: Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell'interfaccia utente, sia che siano stati impostati in modo programmatico tramite i metodi API. I limiti di utilizzo contribuiscono a proteggere Audience Manager dai processi automatizzati che potrebbero tentare di compromettere le nostre API o interfaccia utente.
+description: ' Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell''interfaccia utente, sia che siano stati impostati in modo programmatico tramite i metodi API. I limiti di utilizzo contribuiscono a proteggere  Audience Manager dai processi automatizzati che potrebbero tentare di compromettere le nostre API o interfaccia utente.'
+seo-description: ' Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell''interfaccia utente, sia che siano stati impostati in modo programmatico tramite i metodi API. I limiti di utilizzo contribuiscono a proteggere  Audience Manager dai processi automatizzati che potrebbero tentare di compromettere le nostre API o interfaccia utente.'
 seo-title: Limiti di utilizzo
 solution: Audience Manager
 title: Limiti di utilizzo
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
+feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 4%
 
 ---
 
 
 # Limiti di utilizzo {#usage-limits}
 
-Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell&#39;interfaccia utente, sia che siano impostati in modo programmatico tramite [!DNL API] metodi. I limiti di utilizzo contribuiscono a proteggere Audience Manager dai processi automatizzati che potrebbero tentare di compromettere la nostra interfaccia [!DNL API]o quella dell&#39;utente.
+ Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell&#39;interfaccia utente, sia che siano impostati in modo programmatico tramite [!DNL API] metodi. I limiti di utilizzo contribuiscono a proteggere  Audience Manager dai processi automatizzati che potrebbero tentare di compromettere la nostra interfaccia [!DNL API]o quella dell&#39;utente.
 
 ## Limiti di mappatura degli ID {#id-mapping-limits}
 
-Nella tabella seguente sono elencati i limiti di mappatura [](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) degli ID per gli ID dispositivo. Quando un ID raggiunge uno dei limiti seguenti, Audience Manager aggiunge nuove mappature ID basate su una logica [!DNL FIFO] (primo in, primo out), rimuovendo la mappatura ID memorizzata più vecchia e aggiungendo la nuova mappatura. Per informazioni sugli ID supportati da Audience Manager, consultate [Indice degli ID](../../reference/ids-in-aam.md) in Audience Manager.
+Nella tabella seguente sono elencati i limiti di mappatura [](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) degli ID per gli ID dispositivo. Quando un ID raggiunge uno dei limiti seguenti,  Audience Manager aggiunge nuove mappature ID basate su una logica [!DNL FIFO] (primo in, primo out), rimuovendo la mappatura ID memorizzata più vecchia e aggiungendo la nuova. Per informazioni sugli ID supportati da  Audience Manager, consultate [Indice degli ID](../../reference/ids-in-aam.md) in  Audience Manager.
 
 | Mappatura ID | Limite massimo |
 |-----------|-------------- |
