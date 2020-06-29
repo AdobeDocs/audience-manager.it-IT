@@ -6,8 +6,12 @@ solution: Audience Manager
 title: Domande frequenti su Audience Lab
 topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +40,7 @@ Sì, è permesso. Si consideri un caso di un test utilizzando un segmento maschi
 
 <br> 
 
-**Supponiamo che un gruppo di test stia utilizzando un profilo autenticato per la divisione del segmento di test. Il profilo autenticato è collegato a 4 UUID[di](../reference/ids-in-aam.md)Audience Manager. Quando il visitatore mostra una caratteristica di conversione da uno dei quattro UUID,[!UICONTROL Audience Lab]conteggia questa come una o quattro conversioni?**
+**Supponiamo che un gruppo di test stia utilizzando un profilo autenticato per la divisione del segmento di test. Il profilo autenticato è collegato a 4[Audience Manager UUID](../reference/ids-in-aam.md). Quando il visitatore mostra una caratteristica di conversione da uno dei quattro UUID,[!UICONTROL Audience Lab]conteggia questa come una o quattro conversioni?**
 
 In questo caso, viene conteggiata [!UICONTROL Audience Lab] solo una conversione.
 
