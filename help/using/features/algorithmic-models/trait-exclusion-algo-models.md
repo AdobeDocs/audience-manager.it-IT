@@ -4,8 +4,12 @@ seo-description: Trait Exclusion offre controlli aggiuntivi nel flusso di lavoro
 seo-title: Esclusione dei modelli algoritmici
 title: Esclusione dei modelli algoritmici
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 0%
 
 ---
 
