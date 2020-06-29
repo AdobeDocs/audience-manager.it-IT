@@ -6,8 +6,9 @@ seo-title: 'Destinazioni '
 solution: Audience Manager
 title: 'Destinazioni '
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 1%
@@ -44,7 +45,7 @@ Le decisioni aziendali relative alla selezione di un metodo di consegna rispetto
 
 ## [!UICONTROL Destination] Tipi e usi tipici {#destination-types}
 
-Gli esempi riportati nella tabella seguente consentono di comprendere quando utilizzare un particolare tipo [!UICONTROL destination] e le differenze tra i vari tipi.
+Gli esempi riportati nella tabella seguente consentono di comprendere quando utilizzare un particolare [!UICONTROL destination] e le differenze tra i vari tipi.
 
 | [!UICONTROL Destination]Type (Tipo) | Generalmente utilizzato quando | Esempio  | Considerazioni |
 |--- |--- |--- |--- |
