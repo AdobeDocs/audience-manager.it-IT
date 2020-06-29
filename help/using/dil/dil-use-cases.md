@@ -5,8 +5,12 @@ seo-title: Casi di utilizzo DIL ed esempi di codice
 solution: Audience Manager
 title: Casi di utilizzo DIL ed esempi di codice
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '920'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +25,9 @@ c_dil_use_case.xml
 
  -->
 
-## Invia elementi dati ad Audience Manager con DIL {#send-data-elements-dil}
+## Invia elementi dati a  Audience Manager con DIL {#send-data-elements-dil}
 
-Create una variabile oggetto che invia informazioni sugli elementi della pagina ad Audience Manager. Questo è utile per la raccolta dati generale o come alternativa alla raccolta di dati con variabili Analytics.
+Creare una variabile oggetto che invia informazioni sugli elementi di pagina a  Audience Manager. Questa funzione è utile per la raccolta dati generale o come alternativa alla raccolta di dati con  variabili Analytics.
 
 <!-- 
 
@@ -33,7 +37,7 @@ c_dil_send_page_objects.xml
 
 **Descrizione**
 
-Il codice seguente illustra come raccogliere i dati della pagina e inviarli ad Audience Manager con [!UICONTROL DIL]. Questi esempi utilizzano una variabile per contenere gli elementi di dati in un elenco semplice o in un array. Ricorda, trasmetti le variabili come coppie [](../reference/key-value-pairs-explained.md)chiave-valore. Inoltre, prendete nota del `c_` prefisso prima del tasto nella coppia chiave-valore. Questo prefisso [](../features/traits/trait-variable-prefixes.md) obbligatorio identifica le informazioni come dati definiti dall’utente. Nel primo esempio, è necessario aggiungere manualmente `c_` la chiave. Nel secondo esempio, [!UICONTROL DIL] esegue automaticamente questa operazione.
+Il codice seguente illustra come raccogliere i dati della pagina e inviarli ad  Audience Manager con [!UICONTROL DIL]. Questi esempi utilizzano una variabile per contenere gli elementi di dati in un elenco semplice o in un array. Ricorda, trasmetti le variabili come coppie [](../reference/key-value-pairs-explained.md)chiave-valore. Inoltre, prendete nota del `c_` prefisso prima del tasto nella coppia chiave-valore. Questo prefisso [](../features/traits/trait-variable-prefixes.md) obbligatorio identifica le informazioni come dati definiti dall’utente. Nel primo esempio, è necessario aggiungere manualmente `c_` la chiave. Nel secondo esempio, [!UICONTROL DIL] esegue automaticamente questa operazione.
 
 **Mantieni costanti le proprietà del valore**
 
@@ -41,7 +45,7 @@ Durante il trasferimento dei dati, ricordare di mantenere le proprietà del valo
 
 **Esempio 1: Invia dati come coppie chiave-valore**
 
-Questo esempio di base invia dati su colore e prezzo ad Audience Manager sotto forma di coppie chiave-valore. Il codice potrebbe essere simile al seguente:
+In questo esempio di base vengono inviati dati relativi a colori e prezzi a  Audience Manager sotto forma di coppie chiave-valore. Il codice potrebbe essere simile al seguente:
 
 <pre class="&ldquo;java&rdquo;"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -54,7 +58,7 @@ sample_dil.api.submit();
 
 **Esempio 2: Invio di dati in un oggetto**
 
-Questo esempio avanzato illustra come inviare dati in un oggetto ad Audience Manager. Quando si utilizza questo metodo, [!UICONTROL DIL] consente di trasmettere un oggetto come parametro di funzione al [!DNL signals()] metodo. [!UICONTROL DIL] Il codice potrebbe essere simile al seguente:
+Questo esempio avanzato illustra come inviare dati in un oggetto a  Audience Manager. Quando si utilizza questo metodo, [!UICONTROL DIL] consente di trasmettere un oggetto come parametro di funzione al [!DNL signals()] metodo. [!UICONTROL DIL] Il codice potrebbe essere simile al seguente:
 
 <pre class="java"><code>
 var my_object = { 
@@ -92,7 +96,7 @@ sample_dil.api.submit();
 
 ## Acquisisci URL di riferimento {#capture-referring-url}
 
-Acquisisci e invia un URL di provenienza ad Audience Manager.
+Acquisite e inviate un URL di provenienza a  Audience Manager.
 
 <!-- 
 
@@ -115,7 +119,7 @@ adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 
 ## Acquisisci tipi di motore di ricerca e termini di ricerca parole chiave {#capture-search-engine-types}
 
-Inviate ad Audience Manager informazioni sul tipo di motore di ricerca e sulle ricerche di parole chiave.
+Inviare informazioni sul tipo di motore di ricerca e sulle ricerche di parole chiave a  Audience Manager.
 
 >[!IMPORTANT]
 >
@@ -133,7 +137,7 @@ Per impostazione predefinita, `DIL.getSearchReferrer` riconosce le ricerche effe
 
 **Descrizione**
 
-Il codice seguente illustra come ottenere il referente di ricerca per uno qualsiasi dei motori di ricerca supportati. In questo caso, supponiamo che un utente abbia cercato il termine &quot;case&quot; dal [!DNL Google] Canada ( `www.google.ca`). Questo codice ti aiuterà a catturare quei termini di ricerca e a inviarli ad Audience Manager.
+Il codice seguente illustra come ottenere il referente di ricerca per uno qualsiasi dei motori di ricerca supportati. In questo caso, supponiamo che un utente abbia cercato il termine &quot;case&quot; dal [!DNL Google] Canada ( `www.google.ca`). Questo codice consente di acquisire i termini di ricerca e inviarli a  Audience Manager.
 
 **Codice di base**
 
@@ -145,7 +149,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Esempio di codice del motore di ricerca elencato**
 
-In questo caso, supponiamo che un utente abbia cercato il termine &quot;case&quot; dal [!DNL Google] Canada ( `www.google.ca`). Il codice prefissa il `c_` parametro richiesto al motore di ricerca ( `c_se`) e al termine di ricerca ( `c_st`). `c_` è un prefisso [](../features/traits/trait-variable-prefixes.md) obbligatorio che identifica queste variabili come definite dal cliente in Audience Manager.
+In questo caso, supponiamo che un utente abbia cercato il termine &quot;case&quot; dal [!DNL Google] Canada ( `www.google.ca`). Il codice prefissa il `c_` parametro richiesto al motore di ricerca ( `c_se`) e al termine di ricerca ( `c_st`). `c_` è un prefisso [](../features/traits/trait-variable-prefixes.md) obbligatorio che identifica queste variabili come definite dal cliente per  Audience Manager.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -161,7 +165,7 @@ if (search_referrer && search_referrer.valid) {
 
 **Esempio di codice del motore di ricerca non elencato**
 
-In questo caso, supponiamo che un utente abbia cercato il termine &quot;case&quot; da `dogpile.com`. Poiché non [!DNL Dogpile] è supportato per impostazione predefinita, puoi configurare DIL per riconoscere questo motore di ricerca e restituire i termini di ricerca ad Audience Manager. Il codice potrebbe essere simile al seguente:
+In questo caso, supponiamo che un utente abbia cercato il termine &quot;case&quot; da `dogpile.com`. Poiché non [!DNL Dogpile] è supportato per impostazione predefinita, puoi configurare DIL per riconoscere questo motore di ricerca e restituire i termini di ricerca ad  Audience Manager. Il codice potrebbe essere simile al seguente:
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -190,9 +194,9 @@ c_dil_map_keys.xml
 
 **Descrizione**
 
-In una coppia chiave-valore, il `c_` prefisso aggiunto alla chiave identifica il segnale come dati definiti dal cliente. I dati definiti dal cliente vengono utilizzati per il targeting sul sito specifico che ha passato i dati in una chiamata all&#39;evento. Tuttavia, a volte desiderate che queste informazioni siano disponibili in tutte le proprietà dell&#39;account Audience Manager. A tal fine, mappate il valore in una coppia chiave-valore su una chiave a livello di piattaforma. `c_` Una chiave a livello di piattaforma ha il prefisso `d_` e rende il segnale disponibile per il targeting tra tutte le proprietà dell&#39;account.
+In una coppia chiave-valore, il `c_` prefisso aggiunto alla chiave identifica il segnale come dati definiti dal cliente. I dati definiti dal cliente vengono utilizzati per il targeting sul sito specifico che ha passato i dati in una chiamata all&#39;evento. Tuttavia, a volte tali informazioni sono disponibili per tutte le proprietà dell&#39;account Audience Manager . A tal fine, mappate il valore in una coppia chiave-valore su una chiave a livello di piattaforma. `c_` Una chiave a livello di piattaforma ha il prefisso `d_` e rende il segnale disponibile per il targeting tra tutte le proprietà dell&#39;account.
 
-Ad esempio, raccogliete i dati del codice ZIP da un particolare sito ma desiderate indirizzarli a tutte le proprietà di Audience Manager. Per rendere disponibile il codice ZIP a livello di piattaforma, potete mappare la chiave del codice ZIP definita dal cliente (ad es. `c_zip`) a una chiave definita dalla piattaforma come mostrato di seguito.
+Ad esempio, potete raccogliere i dati del codice ZIP da un particolare sito, ma desiderate indirizzarli a tutte le vostre proprietà Audience Manager . Per rendere disponibile il codice ZIP a livello di piattaforma, potete mappare la chiave del codice ZIP definita dal cliente (ad es. `c_zip`) a una chiave definita dalla piattaforma come mostrato di seguito.
 
 **Esempio di codice**
 
@@ -220,7 +224,7 @@ t_dil_google_tagmanager.xml
 
  -->
 
-Questa procedura presuppone che possiate disporre di un [!DNL Google Tag Manager] account, di una certa conoscenza del prodotto e del `dil.js` file Audience Manager.
+Questa procedura presuppone che possiate disporre di un [!DNL Google Tag Manager] account, di una certa conoscenza operativa del prodotto e del vostro `dil.js` file Audience Manager .
 
 Per eseguire il traffico del `dil.js` file in GTM:
 
