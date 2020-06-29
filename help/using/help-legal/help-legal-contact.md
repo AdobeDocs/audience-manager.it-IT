@@ -4,8 +4,12 @@ seo-description: Informazioni utili su come contattare Adobe e sulle questioni l
 seo-title: Contatti e informazioni legali
 solution: Audience Manager
 title: Contatti e informazioni legali
+feature: Support
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 88%
 
 ---
 
