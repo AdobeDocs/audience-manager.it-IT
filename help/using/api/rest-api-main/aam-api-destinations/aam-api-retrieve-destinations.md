@@ -5,15 +5,19 @@ seo-title: Restituisci una destinazione per ID destinazione
 solution: Audience Manager
 title: Restituisci una destinazione per ID destinazione
 uuid: abce7426-55a5-4045-93a7-0487652a7189
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 4%
 
 ---
 
 
 # Restituisci una destinazione per ID destinazione {#return-a-destination-by-destination-id}
 
-Un `GET` metodo che restituisce la destinazione per l'oggetto specificato `destinationId`.
+Un `GET` metodo che restituisce la destinazione per l&#39;oggetto specificato `destinationId`.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -23,7 +27,7 @@ Un `GET` metodo che restituisce la destinazione per l'oggetto specificato `desti
 
 >[!NOTE]
 >
->Per compilare il `mappings` campo passato `includeMappings=true` nell’URL.
+>Per compilare il `mappings` campo passato `includeMappings=true` nell&#39;URL.
 
 ## Risposta
 
@@ -68,12 +72,12 @@ Un `GET` metodo che restituisce tutte le destinazioni per il partner specificato
 >* *(Facoltativo)* Passare `containsSegment=<sid>` per restituire un array di tutte le destinazioni mappate al segmento specificato. Ad esempio, la query potrebbe essere simile alla seguente: `GET .../destinations/?containsSegment=4321`.
    >
    >
-* Non restituisce l'oggetto di destinazione completo. Ottenere la destinazione per ordine di dati se è necessario un oggetto completamente popolato.
+* Non restituisce l&#39;oggetto di destinazione completo. Ottenere la destinazione per ordine di dati se è necessario un oggetto completamente popolato.
 
 
 ### Parametri query opzionali
 
-È possibile utilizzare questi parametri facoltativi con metodi API che restituiscono *tutte* le proprietà di un oggetto. Impostate queste opzioni nella stringa di richiesta quando passate la query al [!DNL API]. Consultate Parametri [](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)opzionali.
+È possibile utilizzare questi parametri facoltativi con metodi API che restituiscono *tutte* le proprietà di un oggetto. Impostate queste opzioni nella stringa di richiesta quando la query viene passata alla [!DNL API]. Consultate Parametri [](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)opzionali.
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -96,12 +100,12 @@ Un `GET` metodo che restituisce tutte le destinazioni per il partner specificato
    <td colname="col2">Ordina e restituisce i risultati in base alla proprietà <span class="keyword"> JSON</span> specificata. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> decrescente</code> </td>
+   <td colname="col1"><code> descending</code> </td>
    <td colname="col2"> Ordina e restituisce risultati in ordine decrescente. Ascendente è il valore predefinito. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare risultati per tutti i modelli con la parola "Test" in uno qualsiasi dei campi di valore per l'elemento. Esempio di richiesta: <p><code> SCEGLIETE https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>È possibile cercare qualsiasi valore restituito da un metodo "get all". </p> </td>
+   <td colname="col2">Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare risultati per tutti i modelli con la parola "Test" in uno qualsiasi dei campi di valore per l'elemento. Esempio di richiesta: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>È possibile cercare qualsiasi valore restituito da un metodo "get all". </p> </td>
   </tr>
  </tbody>
 </table>
@@ -277,7 +281,7 @@ Un `GET` metodo che restituisce informazioni sulla cronologia dei processi di de
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Parametri di query richiesti: `startDate` = *&lt;`epochtime`&gt;* e `endDate` = *&lt;`epochtime`&gt;*.
+Parametri di query richiesti: `startDate` = *&lt;`epochtime`>* e `endDate` = *&lt;`epochtime`>*.
 
 ### Risposta
 
