@@ -1,20 +1,24 @@
 ---
-description: La sezione report del gruppo di test restituisce informazioni sulle conversioni del gruppo di test, consentendo un semplice confronto dell'efficacia del segmento di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
-seo-description: La sezione report del gruppo di test restituisce informazioni sulle conversioni del gruppo di test, consentendo un semplice confronto dell'efficacia del segmento di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
+description: La sezione di reporting del gruppo di test restituisce informazioni sulle conversioni del gruppo di test, consentendo un semplice confronto dell'efficacia del segmento di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
+seo-description: La sezione di reporting del gruppo di test restituisce informazioni sulle conversioni del gruppo di test, consentendo un semplice confronto dell'efficacia del segmento di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
 seo-title: Report gruppo di test
 solution: Audience Manager
 title: Report gruppo di test
-topic: API DIL
+topic: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 0%
 
 ---
 
 
 # Report gruppo di test {#test-group-reporting}
 
-La sezione report del gruppo di test restituisce informazioni sulle conversioni del gruppo di test, consentendo un semplice confronto dell'efficacia del segmento di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
+La sezione di reporting del gruppo di test restituisce informazioni sulle conversioni del gruppo di test, consentendo un semplice confronto dell&#39;efficacia del segmento di test. Sono disponibili numerosi filtri e dimensioni per la visualizzazione dei dati.
 
 [!UICONTROL Audience Lab] restituisce informazioni di reporting dettagliate per i segmenti di test creati e consente di salvare i dati di reporting come [!DNL CSV] file. Potete scegliere tra **[!UICONTROL Aggregate Reporting]** e **[!UICONTROL Trend Reporting]**.
 
@@ -41,7 +45,7 @@ La sezione report del gruppo di test restituisce informazioni sulle conversioni 
    <td colname="col2"> <p>Restituisce il numero di conversioni generate dai segmenti di test. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Test dei segmenti</span></b> </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Test dei segmenti di popolazione</span></b> </p> </td> 
    <td colname="col2"> <p>Restituisce il numero di dispositivi appartenenti ai segmenti di test. Passa dalla popolazione <b><span class="uicontrol"> totale a quella</span></b> in tempo reale <b><span class="uicontrol"></span></b>. La differenza è spiegata nelle domande frequenti relative ai <a href="../../faq/faq-reporting.md"> rapporti</a> . </p> </td>
   </tr>
  </tbody>
