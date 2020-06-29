@@ -1,13 +1,17 @@
 ---
-description: Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed vengono disattivati fino al salvataggio e all’attivazione del feed. Configurate feed di dati pubblici o privati in Audience Marketplace > I miei dati condivisi. Disponibile solo per i venditori di dati.
-seo-description: Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed vengono disattivati fino al salvataggio e all’attivazione del feed. Configurate feed di dati pubblici o privati in Audience Marketplace > I miei dati condivisi. Disponibile solo per i venditori di dati.
+description: Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed vengono disattivati fino al salvataggio e all’attivazione del feed. Configurate feed di dati pubblici o privati in  Audience Marketplace > Dati personali condivisi. Disponibile solo per i venditori di dati.
+seo-description: Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed vengono disattivati fino al salvataggio e all’attivazione del feed. Configurate feed di dati pubblici o privati in  Audience Marketplace > Dati personali condivisi. Disponibile solo per i venditori di dati.
 seo-title: Creazione, prezzo e gestione dei feed di dati
 solution: Audience Manager
 title: Creazione, prezzo e gestione dei feed di dati
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1304'
+ht-degree: 1%
 
 ---
 
@@ -100,14 +104,14 @@ Le [!UICONTROL Use Case] impostazioni consentono ai venditori di controllare in 
 
 ### Segmenti e sovrapposizione
 
-Un caso **[!UICONTROL Segments and Overlap]** d’uso crea un piano che consente agli acquirenti di confrontare i dati delle caratteristiche in un rapporto [di sovrapposizione](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)caratteristiche-caratteristiche. Inoltre, gli acquirenti possono aggiungere i tuoi dati ai segmenti e fare confronti con i rapporti [segmento-tratto](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) .
+Un caso **[!UICONTROL Segments and Overlap]** d’uso crea un piano che consente agli acquirenti di confrontare i dati delle caratteristiche in un rapporto [di sovrapposizione](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)caratteristiche-caratteristiche. Inoltre, gli acquirenti possono aggiungere i tuoi dati ai segmenti e fare confronti con i rapporti [segmento-caratteristica](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [segmento-segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) .
 
 Ogni feed di dati deve includere almeno un caso di [!UICONTROL Segments and Overlap] utilizzo. Gli acquirenti non possono sottoscrivere altri piani in un feed di dati se il feed non contiene un caso di [!UICONTROL Segments and Overlap] utilizzo, né in se stesso né in combinazione con un altro caso di utilizzo.
 
 I confronti di sovrapposizione possono aiutare gli acquirenti:
 
-* **** Amplia il pubblico: Una sovrapposizione bassa indica che le caratteristiche contengono utenti che l&#39;acquirente non ha visto prima. Di conseguenza, gli acquirenti potrebbero desiderare che queste caratteristiche aggiungessero nuovi utenti ai loro segmenti di pubblico.
-* **** Ottimizzazione dell&#39;audience esistente: Un&#39;elevata sovrapposizione suggerisce che le caratteristiche contengono utenti simili a quelli già noti da un acquirente. Di conseguenza, gli acquirenti potrebbero desiderare che queste caratteristiche contribuissero a migliorare in modo mirato e incrementale le audience sviluppate.
+* **Amplia la portata del pubblico:** Una sovrapposizione bassa indica che le caratteristiche contengono utenti che l&#39;acquirente non ha mai visto prima. Di conseguenza, gli acquirenti potrebbero desiderare che queste caratteristiche aggiungessero nuovi utenti ai loro segmenti di pubblico.
+* **Ottimizzazione dell&#39;audience esistente:** Un&#39;elevata sovrapposizione suggerisce che le tue caratteristiche contengono utenti simili a quelli già noti da un acquirente. Di conseguenza, gli acquirenti potrebbero desiderare che queste caratteristiche contribuissero a migliorare in modo mirato e incrementale le audience sviluppate.
 
 Prezzo questo caso di utilizzo come segue:
 
@@ -123,7 +127,7 @@ Un caso di **[!UICONTROL Modeling]** utilizzo crea un piano che consente agli ac
 
 ### Activation
 
-Un **[!UICONTROL Activation]** esempio di utilizzo consente agli acquirenti di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In questo caso di utilizzo, gli acquirenti non possono confrontare i dati con un rapporto di sovrapposizione o in un modello algoritmico. Prezzo questo caso di utilizzo come segue:
+Un **[!UICONTROL Activation]** esempio di utilizzo consente agli acquirenti di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In questo caso d&#39;uso, gli acquirenti non possono confrontare i dati con un rapporto di sovrapposizione o in un modello algoritmico. Prezzo questo caso di utilizzo come segue:
 
 * Unità di misura: [!DNL CPM]
 * Prezzo: [!DNL CPM] tasso di mercato
@@ -178,7 +182,7 @@ Per esaminare, approvare o rifiutare le richieste dell&#39;acquirente, vai a [!U
 
 ## Sconti per provider di dati {#discounts}
 
-Inoltre, [!UICONTROL Audience Marketplace]gli sconti consentono di ridurre il prezzo pubblicato di un feed di dati per singoli utenti. Potete offrire sconti agli abbonati che hanno inoltrato una richiesta di iscrizione o agli abbonati che hanno richiesto dettagli su un feed di dati. Gli sconti si applicano ai feed [!DNL CPM] e ai feed a tasso fisso. Gli sconti possono essere utili quando si desidera offrire incentivi per l&#39;abbonamento ai nuovi clienti o premiare la fedeltà dei clienti.
+Inoltre, [!UICONTROL Audience Marketplace]gli sconti consentono di ridurre il prezzo pubblicato di un feed di dati per i singoli utenti. Potete offrire sconti agli abbonati che hanno inoltrato una richiesta di iscrizione o agli abbonati che hanno richiesto dettagli su un feed di dati. Gli sconti si applicano ai feed [!DNL CPM] e ai feed a tasso fisso. Gli sconti possono essere utili quando si desidera offrire incentivi per l&#39;abbonamento ai nuovi clienti o premiare la fedeltà dei clienti.
 
 ## Applicazione di sconti a un feed di dati {#apply-discounts}
 
