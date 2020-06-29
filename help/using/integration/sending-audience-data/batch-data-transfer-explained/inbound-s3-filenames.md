@@ -5,8 +5,9 @@ seo-title: Requisiti di nome e dimensione file Amazon S3 per i file di dati in e
 solution: Audience Manager
 title: Requisiti di nome e dimensione file Amazon S3 per i file di dati in entrata
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 620730ab1596d4777a768de4453b73538671279d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 2%
