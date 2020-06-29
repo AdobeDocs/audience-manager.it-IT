@@ -5,8 +5,12 @@ seo-title: Segmento e tempo di caratteristiche per vivere spiegati
 solution: Audience Manager
 title: Tempo segmento per vivere spiegato
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
@@ -19,17 +23,17 @@ L’intervallo di caratteristiche [!UICONTROL time-to-live] ([!DNL TTL]) influis
 
 ## Tempo di vita
 
-[!DNL TTL] Definisce per quanto tempo un visitatore del sito rimane in un segmento dopo l’ultimo evento di qualificazione delle caratteristiche. [!DNL TTL] è impostato sulle caratteristiche e non sui segmenti. I visitatori non rientrano in un segmento se non sono idonei per una caratteristica prima della fine dell' [!DNL TTL] intervallo. Il valore predefinito [!DNL TTL] per le nuove caratteristiche è 120 giorni. Se è impostata su 0 giorni, la caratteristica non scade mai. [Impostate il valore](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL quando create o modificate una caratteristica nella [!UICONTROL Advanced Options] sezione dell’interfaccia di creazione delle caratteristiche.
+[!DNL TTL] Definisce per quanto tempo un visitatore del sito rimane in un segmento dopo l’ultimo evento di qualificazione delle caratteristiche. [!DNL TTL] è impostato sulle caratteristiche e non sui segmenti. I visitatori non rientrano in un segmento se non sono idonei per una caratteristica prima della fine dell&#39; [!DNL TTL] intervallo. Il valore predefinito [!DNL TTL] per le nuove caratteristiche è 120 giorni. Se è impostata su 0 giorni, la caratteristica non scade mai. [Impostate il valore](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL quando create o modificate una caratteristica nella [!UICONTROL Advanced Options] sezione dell’interfaccia di creazione delle caratteristiche.
 
 ### 1 giorno TTL spiegato
 
 Quando si imposta [!DNL TTL] su 1 giorno, il timer TTL inizia il giorno successivo alla realizzazione della caratteristica, senza contare le ore rimanenti nel giorno di realizzazione della caratteristica.
 
-Audience Manager calcola [!DNL TTL] la scadenza per le caratteristiche con 1 giorno [!DNL TTL] in base alla seguente formula:
+ Audience Manager calcola [!DNL TTL] la scadenza per le caratteristiche con 1 giorno [!DNL TTL] in base alla seguente formula:
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **Esempio 1**: Un tratto realizzato all'1:00 [!DNL UTC], con 1 giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 1 = 47 ore dopo.
+* **Esempio 1**: Un tratto realizzato all&#39;1:00 [!DNL UTC], con 1 giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 1 = 47 ore dopo.
 * **Esempio 2**: Un tratto realizzato alle 23:00 [!DNL UTC], con 1 giorno [!DNL TTL]. [!DNL TTL] Scadrà 24 + 24 - 23 = 25 ore dopo.
 
 ## [!DNL TTL] e per uscire da un segmento
@@ -40,9 +44,9 @@ Un utente esce da un segmento se non è idoneo per nessuna delle sue caratterist
 
 ## [!DNL TTL] e rinnovo dei segmenti
 
-Il [!DNL TTL] ripristino e l’utente rimane in un segmento, se soddisfa le caratteristiche di quel segmento entro il [!DNL TTL] periodo. Inoltre, poiché la maggior parte dei segmenti contiene caratteristiche multiple con [!DNL TTL] intervalli propri, un utente può restare in un segmento e reimpostare l’ [!DNL TTL] intervallo, purché mantengano le caratteristiche idonee per qualsiasi caratteristica associata al segmento.
+Il [!DNL TTL] ripristino, e l&#39;utente resta in un segmento, se soddisfa le caratteristiche di quel segmento entro il [!DNL TTL] periodo. Inoltre, poiché la maggior parte dei segmenti contiene caratteristiche multiple con [!DNL TTL] intervalli propri, un utente può restare in un segmento e reimpostare l’ [!DNL TTL] intervallo, purché mantengano le caratteristiche idonee per qualsiasi caratteristica associata al segmento.
 
-Ad esempio, supponiamo che il segmento 1 sia composto dalla caratteristica A (30 giorni [!DNL TTL]) e dalla caratteristica B (15 giorni [!DNL TTL]). Se un visitatore si qualifica per ogni caratteristica solo una volta, l'illustrazione seguente delinea il processo di [!DNL TTL] rinnovo e la durata totale del segmento.
+Ad esempio, supponiamo che il segmento 1 sia composto dalla caratteristica A (30 giorni [!DNL TTL]) e dalla caratteristica B (15 giorni [!DNL TTL]). Se un visitatore si qualifica per ogni caratteristica solo una volta, l&#39;illustrazione seguente delinea il processo di [!DNL TTL] rinnovo e la durata totale del segmento.
 
 ![](assets/ttl-renewal.png)
 
