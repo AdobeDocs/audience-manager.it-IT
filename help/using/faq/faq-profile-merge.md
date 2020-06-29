@@ -6,8 +6,9 @@ seo-title: Domande frequenti su Regole di unione dei profili e Device Graph
 solution: Audience Manager
 title: Domande frequenti su Regole di unione dei profili e Device Graph
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 2%
@@ -41,7 +42,7 @@ L&#39;obiettivo principale di utilizzare un grafico del dispositivo in un [!UICO
 
  
 
-**Audience Manager fornisce supporto globale per grafici per dispositivi esterni?**
+**Audience Manager fornisce supporto globale per i grafici dei dispositivi esterni?**
 
 No. I grafici dei dispositivi esterni sono disponibili solo negli Stati Uniti e in Canada.
 
@@ -73,7 +74,7 @@ Attualmente, potete creare un massimo di 4 [!UICONTROL Profile Merge Rules]. La 
 
 **Quanti profili dispositivo vengono[!DNL Audience Manager]uniti e letti quando si utilizza un grafico del dispositivo in un[!UICONTROL Profile Merge Rule]?**
 
-Quando si qualifica un dispositivo per un segmento utilizzando un [!UICONTROL Profile Merge Rule], Audience Manager unisce e legge il profilo del dispositivo corrente e un massimo di 99 altri profili dispositivo collegati dall&#39;opzione di grafico del dispositivo selezionata.
+Quando si qualifica un dispositivo per un segmento utilizzando un [!UICONTROL Profile Merge Rule],  Audience Manager unisce e legge il profilo del dispositivo corrente e un massimo di 99 altri profili dispositivo collegati dall&#39;opzione di grafico del dispositivo selezionata.
 
  
 
@@ -93,7 +94,7 @@ Le [!DNL Audience Manager] unioni e le letture dei dispositivi sono gli stessi d
 
 **In che modo[!DNL Audience Manager]non segmentare un dispositivo quando non è più qualificato per un segmento con un grafico[!UICONTROL Profile Merge Rule]di dispositivi?**
 
-Audience Manager unisce fino a 100 dispositivi durante la valutazione dei segmenti con un grafico [!UICONTROL Profile Merge Rule] che utilizza un dispositivo. Se viene emesso il segnale di dissegmento, il dispositivo corrente e fino a 99 dispositivi aggiuntivi verranno rimossi dal segmento nella destinazione. Per ulteriori informazioni sull&#39;annullamento della segmentazione, consulta Regole di unione [profilo e Processi](../features/profile-merge-rules/merge-rule-unsegment.md)di annullamento della segmentazione del dispositivo.
+ Audience Manager unisce fino a 100 dispositivi durante la valutazione dei segmenti con un grafico [!UICONTROL Profile Merge Rule] che utilizza un dispositivo. Se viene emesso il segnale di dissegmento, il dispositivo corrente e fino a 99 dispositivi aggiuntivi verranno rimossi dal segmento nella destinazione. Per ulteriori informazioni sull&#39;annullamento della segmentazione, consulta Regole di unione [profilo e Processi](../features/profile-merge-rules/merge-rule-unsegment.md)di annullamento della segmentazione del dispositivo.
 
  
 
@@ -123,7 +124,7 @@ Sì.
 
 **Se un segmento utilizza un[!UICONTROL Profile Merge Rule]con[!UICONTROL No Cross-Device Profile]e le caratteristiche che qualificano i dispositivi per il segmento sono memorizzate solo nel profilo cross-device, la popolazione totale del segmento sarà 0?**
 
-Sì. Audience Manager non conteggerà le caratteristiche memorizzate nel profilo cross-device nella valutazione del segmento quando la regola di unione dei profili è impostata su [!UICONTROL No Cross-Device Profile].
+Sì.  Audience Manager non conteggerà le caratteristiche memorizzate nel profilo cross-device nella valutazione del segmento quando la regola di unione profilo è impostata su [!UICONTROL No Cross-Device Profile].
 
  
 
@@ -147,12 +148,12 @@ La frequenza delle caratteristiche è definita dalla somma del numero di qualifi
      <ul id="ul_52EA0F142E3F488CAAC7CF541E7F3472"> 
       <li id="li_11228EC0266A4A02BB4057B77FE93A8A">Il dispositivo A e il dispositivo B sono collegati da un grafico del dispositivo. </li> 
       <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">Avete una regola <span class="wintitle"></span> di unione profilo che utilizza un'opzione per il grafico del dispositivo. </li> 
-      <li id="li_B46C4DE6CBD44D44B0F02EC9987140A5">Un singolo segmento (segmento 1) composto da un unico tratto (caratteristica 1), dove il tratto 1 ha una frequenza di 8. </li> 
+      <li id="li_B46C4DE6CBD44D44B0F02EC9987140A5">Un singolo segmento (segmento 1) composto da un singolo tratto (caratteristica 1), dove la caratteristica 1 ha una frequenza di 8. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Azioni</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> legge e unisce i profili dei dispositivi per i dispositivi A e B. Di seguito sono riportati i seguenti elementi: </p> <p> 
+   <td colname="col2"> <p> <span class="keyword">  Audience Manager</span> legge e unisce i profili dei dispositivi per i dispositivi A e B. Di seguito sono riportati i seguenti elementi: </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
       <li id="li_5760BEE513C94152AA307AEE10894718">Il dispositivo A è qualificato per la caratteristica 1 tre volte. Ha una frequenza di 3 per la caratteristica 1. </li> 
       <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">Il dispositivo B è qualificato per la caratteristica 1 cinque volte. Ha una frequenza di 5 per la caratteristica 1. </li> 
@@ -160,7 +161,7 @@ La frequenza delle caratteristiche è definita dalla somma del numero di qualifi
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Risultati</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> somma la frequenza per la caratteristica 1 e utilizza 8 (3 + 5 = 8) per decidere la qualifica del segmento. Il dispositivo A e il dispositivo B sono idonei per il segmento 1 perché ha una frequenza di 8. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">  Audience Manager</span> somma la frequenza per la caratteristica 1 e utilizza 8 (3 + 5 = 8) per decidere la qualifica del segmento. Il dispositivo A e il dispositivo B sono idonei per il segmento 1 perché ha una frequenza di 8. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -208,7 +209,7 @@ Sì. La metrica popolazione in tempo reale acquisisce le qualifiche del segmento
    <td colname="col1"> <p> <b>Risultati</b> </p> </td> 
    <td colname="col2"> <p>Dati gli elementi precedenti, la popolazione totale per il segmento 1 è una. </p> <p>In questo caso, la regola <span class="wintitle"></span> Unione profilo utilizza tutti i dispositivi e le loro caratteristiche per decidere la qualifica del segmento. Ciò significa che i dispositivi 1, 2 e 3 sono idonei per il segmento 1, ma, come indicato in precedenza, solo il dispositivo 1 è incluso nella popolazione del segmento in tempo reale. Ciò è dovuto al fatto che: </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
-      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Device 1 è il dispositivo corrente che interagisce con i server <span class="wintitle"> di raccolta dati di Audience Manager (</span> DCS<span class="wintitle"></span>) in tempo reale. </li> 
+      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Il dispositivo 1 è il dispositivo corrente che interagisce con i  Audience Manager <span class="wintitle"> Data Collection Servers</span> (<span class="wintitle"> DCS</span>) in tempo reale. </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">I dispositivi 2 e 3 sono associati al Dispositivo 1 da un grafico del dispositivo ma non interagiscono con il DCS contemporaneamente al Dispositivo 1. </li> 
      </ul> </p> <p>Di conseguenza, i dispositivi 2 e 3 non sono inclusi nella metrica popolazione del segmento in tempo reale. </p> </td> 
   </tr> 
@@ -259,18 +260,18 @@ Sì. La metrica della popolazione totale del segmento include i dispositivi aggi
 
 No.
 
-**Perché visualizzo una popolazione di segmento pari a zero per le esportazioni di segmenti in Adobe Campaign dopo il 16 marzo 2020?**
+**Perché vedo una popolazione di segmento pari a zero per le esportazioni di segmenti  Adobe Campaign dopo il 16 marzo 2020?**
 
-Alla fine del 2019, è disponibile una serie di miglioramenti delle regole di unione dei profili per migliorare la precisione dei file batch generati utilizzando ID cross-device. Questi miglioramenti verranno rispettati in modo rigoroso nell’istanza di Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando ID cross-device cesseranno di produrre esportazioni in alcune configurazioni di regole di unione profilo.
+Alla fine del 2019, è disponibile una serie di miglioramenti delle regole di unione dei profili per migliorare la precisione dei file batch generati utilizzando ID cross-device. Questi miglioramenti saranno rigorosamente rispettati nell&#39;istanza di Audience Manager  a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando ID cross-device cesseranno di produrre esportazioni in alcune configurazioni di regole di unione profilo.
 
-Per garantire la corretta integrazione tra l’istanza e le destinazioni di Audience Manager utilizzando ID cross-device, come Adobe Campaign, accertati di soddisfare i seguenti requisiti:
+Per garantire la corretta integrazione tra l&#39;istanza  Audience Manager e le destinazioni utilizzando ID cross-device, come  Adobe Campaign, accertatevi di soddisfare i seguenti requisiti:
 
-1. Controlla la regola di unione dei profili utilizzata dai segmenti mappati alla destinazione ID dichiarato di Adobe Campaign. La regola di unione dei profili deve utilizzare l&#39; [!UICONTROL Last Authenticated Profile] opzione, in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione dei profili utilizza un&#39;altra opzione, selezionatela [!UICONTROL Last Authenticated Profile].
-2. Seleziona l&#39;origine dati ID dichiarato di Adobe Campaign nelle impostazioni Regola unione profilo.
+1. Controlla la regola di unione dei profili utilizzata dai segmenti mappati alla destinazione ID dichiarata del Adobe Campaign . La regola di unione dei profili deve utilizzare l&#39; [!UICONTROL Last Authenticated Profile] opzione, in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione dei profili utilizza un&#39;altra opzione, selezionatela [!UICONTROL Last Authenticated Profile].
+2. Seleziona l&#39;origine dati ID dichiarato del Adobe Campaign  nelle impostazioni Regola unione profilo.
 
 >[!NOTE]
 >
-> Per i clienti che si trovano in questa situazione è stato aumentato il limite della regola di unione profilo di 1, in modo da poter creare una regola di unione profilo dedicata per i segmenti mappati alla destinazione ID dichiarata di Adobe Campaign, senza modificare le regole di unione profilo per altri casi di utilizzo.
+> È stato aumentato il limite della regola di unione profilo di 1 per i clienti che si trovano in questa situazione, in modo da poter creare una regola di unione profilo dedicata per i segmenti mappati alla destinazione ID dichiarata del Adobe Campaign , senza modificare le regole di unione profilo per altri casi di utilizzo.
 
 >[!MORELIKETHIS]
 >
