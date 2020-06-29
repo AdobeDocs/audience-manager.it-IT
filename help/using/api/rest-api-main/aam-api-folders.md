@@ -5,8 +5,12 @@ seo-title: Metodi API cartella
 solution: Audience Manager
 title: Metodi API cartella
 uuid: ebb6290e-98c0-472e-ba04-eb5dac036425
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +23,6 @@ Metodi che consentono di utilizzare in modo programmatico le cartelle di caratte
 
 >[!IMPORTANT]
 >
->I [!DNL API] metodi cartella sono stati riscritti con [!DNL Swagger] e migrati. Consulta:  &gt;
->* [Documenti API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
->* [Migrazione dei codici API di Audience Manager](../../api/api-swagger-migration.md)
+>I [!DNL API] metodi cartella sono stati riscritti con [!DNL Swagger] e migrati. Consulta:  >
+>* [Adobi Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
+>* [Migrazione  codice API Audience Manager](../../api/api-swagger-migration.md)
