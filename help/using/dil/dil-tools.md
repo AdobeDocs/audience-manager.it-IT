@@ -5,8 +5,12 @@ seo-title: Strumenti DIL
 solution: Audience Manager
 title: Strumenti DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +37,7 @@ r_dil_get_search_referrer.xml
 
 ### Finalità `getSearchReferrer`
 
-In DIL, `getSearchReferrer` restituisce i risultati di ricerca (nomi e parole chiave) utilizzati per raggiungere il sito. È possibile passare termini di ricerca specifici a questa funzione o lasciarla cercare nei motori di ricerca supportati ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]e [!DNL Yahoo]) rispetto `document.referrer` all'impostazione predefinita.
+In DIL, `getSearchReferrer` restituisce i risultati di ricerca (nomi e parole chiave) utilizzati per raggiungere il sito. È possibile passare termini di ricerca specifici a questa funzione o lasciarla cercare nei motori di ricerca supportati ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]e [!DNL Yahoo]) rispetto `document.referrer` all&#39;impostazione predefinita.
 
 ### Firma funzione
 
@@ -43,7 +47,7 @@ Firma funzione: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` accetta:
 
-* *`{string}`*: *(Facoltativo)* Una stringa contenente l'URL di ricerca (utilizza `document.referrer` se non definito).
+* *`{string}`*: *(Facoltativo)* Una stringa contenente l’URL di ricerca (utilizza `document.referrer` se non è definito).
 * *`{object}`*: *(Facoltativo)* Un oggetto contenente la configurazione per il `hostPattern`, `queryParam`o `queryPattern`.
 
 E restituisce:
@@ -65,7 +69,7 @@ E restituisce:
    <td> Ricerca predefinita</td> 
    <td> Restituisce i termini di ricerca delle parole chiave utilizzati dai motori di ricerca AOL, Ask, Bing, Google e Yahoo. </td> 
    <td>
-      <code>var&amp;nbsp;result&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
+      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
@@ -73,8 +77,8 @@ E restituisce:
    <td>Restituisce il referente di ricerca in base a un URL personalizzato.</td> 
    <td> 
   <code>
-        var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
+        var&nbsp;results&nbsp;= 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules");
   </code>
 </td> 
   </tr> 
@@ -84,23 +88,23 @@ E restituisce:
    <td> 
   <code>
       var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/
-    search.aspx?q=adobe+rules",{ 
-       hostPattern:/ehow\./, 
-         queryParam:"p" 
+        DIL.tools.getSearchReferrer("https://www.ehow.com/
+      search.aspx?q=adobe+rules",{ 
+      &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+      &nbsp;&nbsp;&nbsp;queryParam:"p" 
       }); 
   </code>
   </td></tr> 
   <tr> 
    <td> <b>Corrispondenza di pattern di ricerca con un regex personalizzato</b> </td> 
-   <td> Passa un regex personalizzato per eseguire una ricerca personalizzata. </td> 
+   <td> Passa in un regex personalizzato per eseguire una ricerca personalizzata. </td> 
    <td> 
     <code>
-      var results = 
-    DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-    {
-       hostPattern:/ehow\./, 
-           search_pattern:/[&amp;\?]p=([^&amp;]+/ 
+      var&nbsp;results&nbsp;= 
+      DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
+      {
+        &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
+        &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
       });
     </code>
    </td> 
@@ -124,7 +128,7 @@ Firma funzione: `DIL.tools.decomposeURI`
 
 `decomposeURI` accetta:
 
-* *`uri {string}`*: *(Facoltativo)* Una stringa contenente l'URI. Defaults to `document.location.href` if not specified.
+* *`uri {string}`*: *(Facoltativo)* Una stringa contenente l’URI. Defaults to `document.location.href` if not specified.
 
 E restituisce:
 
@@ -171,9 +175,12 @@ Firma funzione: `DIL.tools.getMetaTags( 1 or more parameters)`
 ### Codice di esempio
 
 <pre class="&ldquo;javascript&rdquo;"><code>
-var dataLib = DIL.create({ partner: '<i>partnerName'</i>, containerNSID: <i>containerNSID</i> }); 
+var dataLib = DIL.create({ 
+     partner: '<i>partnerName'</i>, 
+     containerNSID: <i>containerNSID</i> 
+}); 
 
-dataLib.api.signal(DIL.tools.getMetaTags('<i>applicazione</i>', '<i>parole</i>chiave', '<i>descrizione</i>'), 'c_').submit();
+dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
@@ -181,5 +188,6 @@ var dataLib = DIL.create({
      partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
 }); 
+
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>
