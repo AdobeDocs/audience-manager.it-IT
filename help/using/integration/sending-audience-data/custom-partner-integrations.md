@@ -4,8 +4,12 @@ seo-description: Questa pagina elenca le integrazioni personalizzate tra Audienc
 seo-title: Integrazioni partner personalizzate
 solution: Audience Manager
 title: Integrazioni partner personalizzate
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: c069c901df6d8737f611d27ce7dffd4072e50adf
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 19%
 
 ---
 
@@ -32,7 +36,7 @@ I nomi dei file ODC sono strutturati come:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-L&#39;elemento nome `odc` file identifica il file come importato da Oracle Data Cloud e indica al validatore file in ingresso di Audience Manager di elaborarlo come tale.
+L&#39;elemento nome `odc` file identifica il file come importato da Oracle Data Cloud e indica al  di convalida file in ingresso Audience Manager di elaborarlo come tale.
 
 ### Contenuto file
 
