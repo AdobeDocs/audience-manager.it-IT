@@ -1,21 +1,25 @@
 ---
-title: ' Metodi e codice API per Data Collection Server (DCS)'
-seo-title: Metodi e codice API per Data Collection Server (DCS) per Adobe Audience Manager (AAM)
-description: Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati di Audience Manager (DCS).
-seo-description: Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati di Audience Manager (DCS).
+title: Metodi e codice API per Data Collection Server (DCS)
+seo-title: Metodi e codice API di Data Collection Server (DCS) per  Adobe Audience Manager (AAM)
+description: Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS) di  Audience Manager.
+seo-description: Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS) di  Audience Manager.
+feature: DCS
 translation-type: tm+mt
-source-git-commit: bbb28802ae70d5e547bd87b1be9ae3149671f5d5
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
 
 # Metodi e codice API per Data Collection Server (DCS)
 
-Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati di Audience Manager (DCS).
+Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS) di  Audience Manager.
 
 * [API DCS Event Call](/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 
-   Se le politiche aziendali o altri problemi tecnici non consentono di inserire il codice JavaScript nelle pagine, puoi comunque lavorare con Audience Manager per inviare e restituire dati da DCS con queste API per le chiamate agli eventi.
+   Se le politiche aziendali o altri problemi tecnici non consentono di inserire il codice JavaScript nelle pagine, puoi comunque lavorare con  Audience Manager per inviare e restituire dati da DCS con queste API per le chiamate agli eventi.
 
 * [API DCS per trasferimenti di dati da server a server](/help/using/api/dcs-intro/dcs-s2s/dcs-s2s.md)
 
