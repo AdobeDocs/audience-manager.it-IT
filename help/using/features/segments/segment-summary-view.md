@@ -6,8 +6,9 @@ solution: Audience Manager
 title: Pagina Dettagli segmento
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -26,8 +27,8 @@ Nella parte superiore della pagina dei dettagli del segmento sono inclusi gli st
 1. **[!UICONTROL Add New]**: Utilizzare questa opzione per attivare [!UICONTROL Segment Builder] e creare nuovi segmenti.
 2. **[!UICONTROL Edit]**: Utilizzare questa opzione per modificare la configurazione del segmento corrente.
 3. **[!UICONTROL Duplicate]**: Utilizzare questa opzione per creare una copia del segmento corrente.
-4. **[!UICONTROL Delete]**: Utilizzate questa opzione per rimuovere il segmento corrente dal vostro account Audience Manager.
-5. **[!UICONTROL Marketplace Recommendations]**: Utilizzate questa opzione per trovare segmenti simili a quelli che state visualizzando, dai feed di [!UICONTROL Audience Marketplace] dati a cui non siete iscritti. Consulta [Audience Marketplace per gli acquirenti](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) di dati per scoprire come navigare nel mercato e trovare segmenti simili.
+4. **[!UICONTROL Delete]**: Utilizzate questa opzione per rimuovere il segmento corrente dall&#39;account Audience Manager .
+5. **[!UICONTROL Marketplace Recommendations]**: Utilizzate questa opzione per trovare segmenti simili a quelli che state visualizzando, dai feed di [!UICONTROL Audience Marketplace] dati a cui non siete iscritti. Consulta [Audience Marketplace for Data Buyers](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) per scoprire come navigare nel mercato e trovare segmenti simili.
 
 ![base-segmento-informazioni](assets/basic-segment-information.png)
 
@@ -46,7 +47,7 @@ Sotto gli strumenti di gestione dei segmenti potete trovare le seguenti informaz
 
    >[!NOTE]
    >
-   >Audience Manager visualizza il [!UICONTROL Identity Type Breakdown] rapporto solo se disponi di ID cross-device qualificati per il segmento.
+   > Audience Manager visualizza il [!UICONTROL Identity Type Breakdown] rapporto solo se disponete di ID cross-device qualificati per il segmento.
 
    Guardate il video sottostante per una panoramica di [!UICONTROL Identity Type Breakdown].
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
