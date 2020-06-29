@@ -3,9 +3,13 @@ description: Le audience predittive ti aiutano a classificare audience sconosciu
 seo-description: Le audience predittive ti aiutano a classificare audience sconosciute in persone distinte in tempo reale, utilizzando la scienza dei dati.
 seo-title: Predictive Audiences - Domande frequenti
 solution: Audience Manager
-title: Audience Manager Predictive
+title: ' Audience Manager Predictive Audiences'
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +73,7 @@ Se il modello non produce risultati entro 24 ore, contattate il rappresentante A
 
 Per ottenere risultati rilevanti, l’ [!UICONTROL Predictive Audiences] algoritmo valuta le realizzazioni di caratteristiche e segmenti in base all’attività utente in tempo reale rilevata dal DCS. Se selezioni nuove caratteristiche di base e segmenti che non hanno ancora abbastanza utenti, l&#39;algoritmo potrebbe richiedere un paio di giorni per classificare il pubblico.
 
-Per risultati ottimali, seguite le linee guida suggerite dai criteri di [selezione per le persone](../features/algorithmic-models/predictive-audiences.md#selection-personas) e dai criteri di [selezione per il pubblico](../features/algorithmic-models/predictive-audiences.md#selection-audience)di Target.
+Per risultati ottimali, seguite le linee guida suggerite dai criteri di [selezione per le persone](../features/algorithmic-models/predictive-audiences.md#selection-personas) e dai criteri di [selezione per il pubblico](../features/algorithmic-models/predictive-audiences.md#selection-audience)Target.
 
  
 
