@@ -4,8 +4,9 @@ seo-description: 'Utilizza destinazioni basate sulle persone per inviare segment
 seo-title: Casi di utilizzo e panoramica delle destinazioni basate sulle persone
 solution: Audience Manager
 title: Casi di utilizzo e panoramica
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
