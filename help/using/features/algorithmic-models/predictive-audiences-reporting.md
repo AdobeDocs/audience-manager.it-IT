@@ -3,16 +3,20 @@ description: Le audience predittive ti aiutano a classificare audience sconosciu
 seo-description: Le audience predittive ti aiutano a classificare audience sconosciute in persone distinte in tempo reale, utilizzando la scienza dei dati.
 seo-title: Report Predictive Audiences
 solution: Audience Manager
-title: Audience Manager Predictive
+title: ' Audience Manager Predictive Audiences'
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8259f07c91efa0efd88e8f7c87cb1829ffadd77d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
 
 ---
 
 
 # Report Predictive Audiences
 
-Dopo aver salvato un [!UICONTROL Predictive Audiences] modello, Audience Manager ne avvia la formazione. Entro un paio d&#39;ore, il modello calcolato inizierà ad analizzare i tipi di pubblico sui server [di raccolta](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)dati. La generazione dei rapporti sarà disponibile il giorno successivo.
+Dopo aver salvato un [!UICONTROL Predictive Audiences] modello,  Audience Manager avvia la formazione. Entro un paio d&#39;ore, il modello calcolato inizierà ad analizzare i tipi di pubblico sui server [di raccolta](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)dati. La generazione dei rapporti sarà disponibile il giorno successivo.
 
 Per visualizzare i risultati della [!UICONTROL Predictive Audiences] classificazione, passare a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** e fare clic sul modello nell&#39;elenco.
 
@@ -22,7 +26,7 @@ Utilizzate le opzioni di filtro a sinistra per cercare il nome del modello o per
 
 La tabella Modelli mostra le informazioni seguenti:
 
-* **[!UICONTROL ID]**: l’ID modello identifica in modo univoco ciascun modello nel vostro account Audience Manager;
+* **[!UICONTROL ID]**: l&#39;ID modello identifica in modo univoco ciascun modello nel vostro account Audience Manager ;
 * **[!UICONTROL Name]**: il nome fornito nel passaggio di creazione del modello;
 * **[!UICONTROL Description]**: la descrizione fornita nel passaggio di creazione del modello;
 * **[!UICONTROL Model Type]**: il tipo di ciascun modello ([!UICONTROL Look-Alike Modeling] o [!UICONTROL Predictive Audiences]);
@@ -36,7 +40,7 @@ La tabella Modelli mostra le informazioni seguenti:
 
 Una volta scelto un modello, la relativa pagina di reporting verrà caricata. Nella parte superiore della pagina puoi vedere i primi 5 segmenti predittivi più grandi, basati sulla realizzazione in tempo reale di 1 giorno, per cui il modello ha classificato il pubblico di destinazione. La **[!UICONTROL Other]** categoria include le altre persone, che non erano incluse nei primi cinque segmenti predittivi più grandi.
 
-Audience Manager visualizza sia un grafico a ciambella con colori codificati che un grafico a linee temporali per [!UICONTROL Predictive Audiences].
+ Audience Manager visualizza sia un grafico a torta con colori codificati che un grafico a linee temporali per il [!UICONTROL Predictive Audiences]cliente.
 
 Facendo clic sulle schede delle persone nella parte superiore della pagina, queste vengono aggiunte o rimosse dal grafico e dal grafico.
 
