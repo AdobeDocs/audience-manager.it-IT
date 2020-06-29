@@ -3,9 +3,13 @@ description: Le audience predittive ti aiutano a classificare audience sconosciu
 seo-description: Le audience predittive ti aiutano a classificare audience sconosciute in persone distinte in tempo reale, utilizzando la scienza dei dati.
 seo-title: Gestione dell'audience predittiva
 solution: Audience Manager
-title: Audience Manager Predictive
+title: ' Audience Manager Predictive Audiences'
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8259f07c91efa0efd88e8f7c87cb1829ffadd77d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '464'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +47,7 @@ Una volta ottenuta l&#39;origine dati da utilizzare, segui i passaggi descritti 
 
 ## Modifica di audience predittive {#edit-predictive-audiences}
 
-Audience Manager non supporta la modifica di [!UICONTROL Predictive Audiences] modelli esistenti. Per modificare la configurazione di un modello, è necessario creare un nuovo modello. Se avete raggiunto il limite di 10 [!UICONTROL Predictive Audiences] modelli e avete l&#39;esigenza di modificarne uno, dovete eliminare un modello e crearne uno nuovo.
+ Audience Manager non supporta la modifica di [!UICONTROL Predictive Audiences] modelli esistenti. Per modificare la configurazione di un modello, è necessario creare un nuovo modello. Se avete raggiunto il limite di 10 [!UICONTROL Predictive Audiences] modelli e avete l&#39;esigenza di modificarne uno, dovete eliminare un modello e crearne uno nuovo.
 
 ## Eliminazione di audience predittive {#delete-predictive-audiences}
 
