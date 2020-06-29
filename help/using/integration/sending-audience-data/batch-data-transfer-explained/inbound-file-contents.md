@@ -5,8 +5,9 @@ seo-title: Sintassi contenuto file di dati in entrata, caratteri non validi, var
 solution: Audience Manager
 title: Sintassi contenuto file di dati in entrata, caratteri non validi, variabili ed esempi
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 620730ab1596d4777a768de4453b73538671279d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 3%
@@ -275,7 +276,7 @@ Il grafico seguente mostra alcuni esempi del modo corretto di formattare i file 
    <td colname="col1"> <p>Il tuo ID CRM (DPUUID) </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-13"> Esempio 13 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-14"> Esempio 14 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Esempio 14 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Esempio 15 </a> </p> </td> 
    <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-16"> Esempio 16 </a> </p> </td> 
   </tr> 
  </tbody> 
