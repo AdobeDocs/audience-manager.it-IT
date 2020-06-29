@@ -4,9 +4,12 @@ seo-description: Ricevi raccomandazioni sulle caratteristiche dal vivo mentre cr
 seo-title: Consigli sulle caratteristiche
 solution: Audience Manager
 title: Consigli sulle caratteristiche
-uuid: null
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 019396917482340f15b4eb23736b15322815bd84
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1573'
+ht-degree: 4%
 
 ---
 
@@ -27,10 +30,10 @@ Il video successivo illustra il flusso di lavoro per [!UICONTROL Marketplace Rec
 
 ## Panoramica
 
-[!UICONTROL Trait Recommendations], basato su [!DNL Adobe Sensei], integra la scienza dei dati nei flussi di lavoro quotidiani di Audience Manager.
+[!UICONTROL Trait Recommendations], basato su [!DNL Adobe Sensei], introduce la scienza dei dati nei flussi di lavoro quotidiani  Audience Manager.
 With [!UICONTROL Trait Recommendations], when you build or edit a segment in [Segment Builder](segment-builder.md), you get recommendations on additional traits you can include, that are similar to the traits in the segment rule.
 
-Audience Manager mostra le raccomandazioni relative alle caratteristiche sia dalle caratteristiche di prime parti, nella **[!UICONTROL Recommendations]** sezione, sia **[!UICONTROL Audience Marketplace]** nella **[!UICONTROL Recommendations from Marketplace]** sezione.
+ Audience Manager mostra le raccomandazioni relative alle caratteristiche sia dalle caratteristiche di prime parti, nella **[!UICONTROL Recommendations]** sezione e **[!UICONTROL Audience Marketplace]** nella **[!UICONTROL Recommendations from Marketplace]** sezione.
 
 Aggiungi le caratteristiche consigliate al segmento per aumentare il pubblico di destinazione.
 
@@ -38,18 +41,18 @@ Aggiungi le caratteristiche consigliate al segmento per aumentare il pubblico di
 
 **In sintesi:**
 
-* Audience Manager mostra le caratteristiche della prima parte nella [!UICONTROL Recommendations] sezione. Le raccomandazioni di Marketplace dai feed pubblici e privati per i quali non sei iscritto sono visibili nella [!UICONTROL Recommendations from Marketplace] sezione. Fate clic sul nome del feed per andare a [!UICONTROL Audience Marketplace] e iscrivervi.
-* Audience Manager mostra un massimo di cinquanta caratteristiche simili a quella della regola del segmento.
+*  Audience Manager mostra caratteristiche di prime parti nella [!UICONTROL Recommendations] sezione. Le raccomandazioni di Marketplace dai feed pubblici e privati per i quali non sei iscritto sono visibili nella [!UICONTROL Recommendations from Marketplace] sezione. Fate clic sul nome del feed per andare a [!UICONTROL Audience Marketplace] e iscrivervi.
+*  Audience Manager mostra un massimo di cinquanta caratteristiche simili a quella della regola del segmento.
 * Potete filtrare le origini dati da cui non desiderate visualizzare alcuna raccomandazione.
-* Nel calcolo delle similarità, Audience Manager considera gli [UUID](../../reference/ids-in-aam.md) idonei per la caratteristica negli ultimi 30 giorni.
-* Se viene visualizzato il messaggio di errore &quot;Nessuna caratteristica simile trovata. Caratteristiche potrebbero essere troppo nuove.&quot;, significa che non c&#39;è stata alcuna attività per quella caratteristica negli ultimi 30 giorni, oppure Audience Manager non ha ancora aggiornato le raccomandazioni per quella caratteristica. Riprova tra 24 ore.
+* Nel calcolo delle similarità,  Audience Manager considera gli [UUID](../../reference/ids-in-aam.md) idonei per la caratteristica negli ultimi 30 giorni.
+* Se viene visualizzato il messaggio di errore &quot;Nessuna caratteristica simile trovata. Caratteristiche potrebbero essere troppo nuove.&quot;, ciò significa che o non c&#39;è stata alcuna attività per quel tratto negli ultimi 30 giorni, o  Audience Manager non ha ancora aggiornato le raccomandazioni per quel tratto. Riprova tra 24 ore.
 
 ## Casi d&#39;uso
 
-Con [!UICONTROL Trait Recommendations], puoi migliorare i flussi di lavoro, a seconda di come usi Audience Manager:
+Con [!UICONTROL Trait Recommendations], puoi migliorare i flussi di lavoro, a seconda di come utilizzi  Audience Manager:
 
 * Come esperto di marketing, puoi trovare rapidamente audience interessate a prodotti complementari con l&#39;aiuto di caratteristiche simili, in modo da aumentare la tua portata.
-* Se usi Audience Manager come editore, [!UICONTROL Trait Recommendations]puoi comprendere il comportamento dell&#39;audience e creare segmenti migliori per le vendite di annunci pubblicitari o l&#39;acquisizione di utenti.
+* Se utilizzi  Audience Manager come editore, [!UICONTROL Trait Recommendations]puoi comprendere il comportamento del pubblico e creare segmenti migliori per le vendite di annunci pubblicitari o l&#39;acquisizione di utenti.
 * In qualità di [!UICONTROL Audience Marketplace] data buyer, voglio scoprire dati rilevanti di terze parti senza consultare un gran numero di feed.
 * Come fornitore di [!UICONTROL Audience Marketplace] dati, voglio raccomandare dati rilevanti agli acquirenti in modo da poter beneficiare di abbonamenti ottimali e rilevanti.
 
@@ -109,7 +112,7 @@ Durante la creazione o la modifica di un segmento in Generatore [di](segment-bui
    >Le origini dati escluse sono visualizzate appena sopra l&#39;elenco delle caratteristiche consigliate. Fare clic su **X** nella casella grigia per rimuovere le esclusioni e visualizzare di nuovo i risultati dalle rispettive origini dati.
 1. Per aggiungere caratteristiche consigliate alla regola del segmento, fate clic sul simbolo **+** .
 
-Quando create o modificate un segmento e aggiungete una caratteristica alla regola del segmento, viene visualizzato un massimo di cinquanta caratteristiche consigliate, simili a quelle aggiunte. Se la regola del segmento contiene più caratteristiche, Audience Manager utilizza un metodo round robin per mostrare la corrispondenza migliore per ogni caratteristica, la seconda migliore per ogni caratteristica e così via, per le più grandi cinquanta caratteristiche per popolazione, nella regola del segmento.
+Quando create o modificate un segmento e aggiungete una caratteristica alla regola del segmento, viene visualizzato un massimo di cinquanta caratteristiche consigliate, simili a quelle aggiunte. Se la regola del segmento contiene più caratteristiche,  Audience Manager utilizza un metodo round robin per mostrare la corrispondenza migliore per ogni caratteristica, la seconda migliore per ogni caratteristica, e così via, per le più grandi cinquanta caratteristiche per popolazione, nella regola del segmento.
 
 ![Tre caratteristiche di base](assets/three-base-traits.png)
 
@@ -139,11 +142,11 @@ Facendo clic su una caratteristica di prima parte si apre una finestra a compars
 
 ## Come funziona
 
-Per produrre le raccomandazioni sulle caratteristiche, Audience Manager calcola la similarità [](https://en.wikipedia.org/wiki/Jaccard_index) Jaccard tra la caratteristica di destinazione e ogni altra caratteristica a cui l&#39;account ha accesso, compresi i dati di terze parti. Audience Manager visualizza quindi fino a cinquanta caratteristiche con la somiglianza più elevata.
+Per produrre le raccomandazioni sulle caratteristiche,  Audience Manager calcola la similarità [](https://en.wikipedia.org/wiki/Jaccard_index) Jaccard tra la caratteristica di destinazione e ogni altra caratteristica a cui l&#39;account ha accesso, compresi i dati di terze parti.  Audience Manager visualizza quindi fino a cinquanta caratteristiche con la somiglianza più elevata.
 
 ## Punteggio per similarità caratteristica {#trait-similarity-score}
 
-Audience Manager calcola il [!UICONTROL Trait Similarity Score] tra due caratteristiche calcolando l&#39;intersezione e l&#39;unione in termini di numero di [!UICONTROL UUID]s e quindi dividendo i due. Per due caratteristiche A e B, il calcolo si presenta come segue:
+ Audience Manager calcola la [!UICONTROL Trait Similarity Score] tra due caratteristiche calcolando l&#39;intersezione e l&#39;unione in termini di numero di [!UICONTROL UUID]s e quindi dividendo i due. Per due caratteristiche A e B, il calcolo si presenta come segue:
 
 ![jaccard-similarity](assets/jaccard_similarity.png)
 
@@ -186,5 +189,5 @@ Ulteriori informazioni sui [!UICONTROL RBAC] controlli sono disponibili [qui](..
 
 ## Limitazioni
 
-* Al momento, Audience Manager non mostra le caratteristiche delle cartelle come caratteristiche consigliate. Ulteriori informazioni sulle caratteristiche delle cartelle [qui](../traits/manage-folder-traits.md).
-* Quando visualizzate le raccomandazioni sulle caratteristiche, Audience Manager non tiene conto [!DNL Boolean] degli operatori ([!DNL AND], [!DNL OR], [!DNL NOT]) nelle regole dei segmenti.
+* Al momento,  Audience Manager non mostra le caratteristiche delle cartelle come caratteristiche consigliate. Ulteriori informazioni sulle caratteristiche delle cartelle [qui](../traits/manage-folder-traits.md).
+* Quando visualizzate le raccomandazioni sulle caratteristiche,  Audience Manager non tiene conto [!DNL Boolean] degli operatori ([!DNL AND], [!DNL OR], [!DNL NOT]) nelle regole dei segmenti.
