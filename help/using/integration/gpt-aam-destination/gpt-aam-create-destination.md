@@ -1,23 +1,27 @@
 ---
-description: Puoi inviare segmenti qualificati a DFP tramite un'integrazione lato client (lato browser) o lato server. Se scegliete l’integrazione lato client, dovete creare una destinazione basata su cookie per i tag di Google Publisher in Audience Manager.
-seo-description: Puoi inviare segmenti qualificati a DFP tramite un'integrazione lato client (lato browser) o lato server. Se scegliete l’integrazione lato client, dovete creare una destinazione basata su cookie per i tag di Google Publisher in Audience Manager.
+description: Puoi inviare segmenti qualificati a DFP tramite un'integrazione lato client (lato browser) o lato server. Se scegliete l’integrazione sul lato client, dovete creare una destinazione basata su cookie per i tag Google Publisher in  Audience Manager.
+seo-description: Puoi inviare segmenti qualificati a DFP tramite un'integrazione lato client (lato browser) o lato server. Se scegliete l’integrazione sul lato client, dovete creare una destinazione basata su cookie per i tag Google Publisher in  Audience Manager.
 seo-title: Creare una destinazione GPT
 solution: Audience Manager
 title: Creare una destinazione GPT
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 1%
 
 ---
 
 
 # Creare una destinazione GPT {#create-a-gpt-destination}
 
-Puoi inviare segmenti qualificati [!DNL DFP] tramite un'integrazione lato client (lato browser) o lato server. Se scegliete l’integrazione lato client, dovete creare una destinazione basata su cookie per [!DNL Google Publisher Tags] Audience Manager.
+Puoi inviare segmenti qualificati [!DNL DFP] tramite un&#39;integrazione lato client (lato browser) o lato server. Se scegliete l&#39;integrazione lato client, dovete creare una destinazione basata su cookie per [!DNL Google Publisher Tags] Audience Manager.
 
-## Destinazioni
+## Destinazioni 
 
-In Audience Manager, un *`destination`* è qualsiasi altro sistema (server di annunci, [!DNL DSP]rete di annunci ecc.) con cui condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire tali processi di consegna dei dati. Le funzioni di destinazione di Audience Manager si trovano in *[!UICONTROL Audience Data]&gt;[!UICONTROL Destinations]*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]** e segui i passaggi descritti di seguito.
+In  Audience Manager, un *`destination`* è qualsiasi altro sistema (server di annunci, [!DNL DSP]rete di annunci, ecc.) con cui condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire tali processi di consegna dei dati.  funzioni di destinazione Audience Manager si trovano in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]**e segui i passaggi descritti di seguito.
 
 ## Informazioni di base
 
@@ -31,21 +35,21 @@ Per completare la [!UICONTROL Basic Information] sezione:
 
 Fornire quanto segue per completare la [!UICONTROL Configuration] sezione (gli altri campi sono facoltativi):
 
-1. **** Nome cookie: Fornite un nome breve e descrittivo per il cookie.
-1. **** Formato dati: Selezionate l’ **[!UICONTROL "Single Key"]** opzione.
-1. **** Chiave: Specificate un nome di chiave.
-1. **** Serializza: Selezionate la **[!UICONTROL Enable]** casella di controllo.
-1. **** Delimitatore seriale: Utilizzate solo una virgola.
+1. **Nome cookie:** Fornite un nome breve e descrittivo per il cookie.
+1. **Formato dati:** Selezionate l’ **[!UICONTROL "Single Key"]** opzione.
+1. **Chiave:** Specificate un nome di chiave.
+1. **Serializza:** Selezionate la **[!UICONTROL Enable]** casella di controllo.
+1. **Delimitatore seriale:** Utilizzate solo una virgola.
 
-##  Mappature segmenti
+## Mappature dei segmenti
 
 Per aggiungere un segmento a una destinazione di cookie:
 
 1. Trova segmenti: La [!UICONTROL Segment Mappings] sezione fornisce due strumenti di ricerca per individuare i segmenti. Per trovare un segmento:
 
    * Opzione 1: Inizia a digitare il nome di un segmento nel campo di ricerca. Il campo si aggiorna automaticamente in base al testo immesso. Fate clic **[!UICONTROL Add]** una volta trovato il segmento da utilizzare.
-   * Opzione 2: Fare clic **[!UICONTROL Browse All Segments]** per aprire una finestra che consente di individuare i segmenti in base al nome o alla posizione di archiviazione. Click **[!UICONTROL Add Selected Segments]** when done.
+   * Opzione 2: Fare clic **[!UICONTROL Browse All Segments]** per aprire una finestra che consente di individuare i segmenti in base al nome o alla posizione di archiviazione. Al **[!UICONTROL Add Selected Segments]** termine, fate clic.
 
-1. **** Aggiungi mappature: Nel menu a comparsa delle mappature, immetti l’ID del segmento nel campo delle mappature e fai clic su **[!UICONTROL Save]**.
+1. **Aggiungi mappature:** Nel menu a comparsa delle mappature, immetti l’ID del segmento nel campo delle mappature e fai clic su **[!UICONTROL Save]**.
 
-1. Fai clic su **[!UICONTROL Done]**.
+1. Clic **[!UICONTROL Done]**.
