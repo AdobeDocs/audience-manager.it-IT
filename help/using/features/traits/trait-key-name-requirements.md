@@ -5,8 +5,12 @@ seo-title: Requisiti del nome per le variabili chiave
 solution: Audience Manager
 title: Requisiti del nome per le variabili chiave
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
+feature: Traits
 translation-type: tm+mt
-source-git-commit: bdbc2525a13eb04898b0a844ba478cde07e83252
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +27,8 @@ In [!UICONTROL Expression Builder], il nome di una variabile chiave in una coppi
 
 * Nomi chiave validi: `price123`, `123price`, `price-123`, `c_price123`.
 
-* Nomi chiave non validi: `123`, `price!123`..
+* Nomi chiave non validi: `123`, `price!123`.
 
 ## Prefisso delle variabili chiave con `c_`
 
-Il `c_` prefisso è *sempre* richiesto se i parametri che inviano dati in un URL di chiamata dell'evento utilizzano tale sintassi.
+Il `c_` prefisso è *sempre* richiesto se i parametri che inviano dati in un URL di chiamata dell&#39;evento utilizzano tale sintassi.
