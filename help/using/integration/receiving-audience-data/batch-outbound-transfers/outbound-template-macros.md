@@ -5,8 +5,12 @@ seo-title: Macro sui modelli in uscita
 solution: Audience Manager
 title: Macro sui modelli in uscita
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 2%
 
 ---
 
@@ -70,7 +74,7 @@ La tabella elenca e descrive le macro utilizzabili nel nome del file e per defin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_TYPE </code> </p> </td> 
-   <td colname="col2"> <p>Indica il metodo di trasferimento dati e include: </p> 
+   <td colname="col2"> <p>Indica il metodo di trasferimento dei dati e include: </p> 
     <ul id="ul_24DD8DCA18B34A8590FC66431FD720AB"> 
      <li id="li_88EC08F7406641698920F879EB5E9520"> <code> ftp </code> </li> 
      <li id="li_188CE2FDA31949BBB141F57B574301BC"> <code> http </code> </li> 
@@ -169,7 +173,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: ID segmento cliente. Obsoleto. Utilizza gli <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: ID segmento </li> 
      <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Restituisce <code> 5 </code>, un valore statico e hardcoded che identifica i dati come dati del segmento. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>:Obsoleto. Non utilizzare. </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Obsoleto. Non utilizzare. </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Una marca temporale Unix che indica l’ultima volta che un segmento è stato realizzato. </li> 
     </ul> <p>Inserire queste variabili tra parentesi graffe dopo la macro. Ad esempio, questo codice separa i risultati con un carattere "|" pipe: <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
@@ -187,7 +191,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_TYPE </code> </p> </td> 
-   <td colname="col2"> <p>Indica il metodo di trasferimento dati e include: </p> 
+   <td colname="col2"> <p>Indica il metodo di trasferimento dei dati e include: </p> 
     <ul id="ul_13BE35BBBF7C4C67AEFC514C5D192902"> 
      <li id="li_195FE9B4C5494600BD17D7172A8FB630"> <code> ftp </code> </li> 
      <li id="li_751AD59C4C934D66BC530D9806B500AF"> <code> http </code> </li> 
@@ -213,7 +217,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> ID </span> utente di Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">  ID </span> utente Audience Manager. </p> </td> 
   </tr> 
  </tbody> 
 </table>
