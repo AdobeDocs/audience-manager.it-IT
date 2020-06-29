@@ -5,8 +5,12 @@ seo-title: Metodi API di gestione dei gruppi
 solution: Audience Manager
 title: Metodi API di gestione dei gruppi
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 6%
 
 ---
 
@@ -204,6 +208,6 @@ Un `PUT` metodo per aggiornare le autorizzazioni del gruppo. Questo metodo sovra
 ]
 ```
 
-La risposta di esempio rappresenta l'elenco aggiornato di oggetti autorizzazione.
+La risposta di esempio rappresenta l&#39;elenco aggiornato di oggetti autorizzazione.
 
-Restituisce `200 OK` se ha esito positivo. Restituisce `400` se un'autorizzazione specificata non è valida. Può anche restituire `403` se l'oggetto non è accessibile dall'utente che ha eseguito l'accesso.
+Restituisce `200 OK` se ha esito positivo. Restituisce `400` se un&#39;autorizzazione specificata non è valida. Può anche restituire `403` se l&#39;oggetto non è accessibile dall&#39;utente che ha eseguito l&#39;accesso.
