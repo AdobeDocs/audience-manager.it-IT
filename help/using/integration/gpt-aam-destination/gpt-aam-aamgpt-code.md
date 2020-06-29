@@ -1,23 +1,27 @@
 ---
-description: AamGpt è una funzione JavaScript che legge i dati dei cookie di Audience Manager e invia tali informazioni ai tag di Google Publisher.
-seo-description: AamGpt è una funzione JavaScript che legge i dati dei cookie di Audience Manager e invia tali informazioni ai tag di Google Publisher.
-seo-title: Codice Audience Manager per i tag di Google Publisher
+description: AamGpt è una funzione JavaScript che legge  i dati dei cookie Audience Manager e invia tali informazioni ai tag di Google Publisher.
+seo-description: AamGpt è una funzione JavaScript che legge  i dati dei cookie Audience Manager e invia tali informazioni ai tag di Google Publisher.
+seo-title: ' codice Audience Manager per i tag di Google Publisher'
 solution: Audience Manager
-title: Codice Audience Manager per i tag di Google Publisher
+title: ' codice Audience Manager per i tag di Google Publisher'
 uuid: 24ff5d16-b360-46cc-a4c6-6db34d7fda75
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 1%
 
 ---
 
 
-# Codice Audience Manager per i tag di Google Publisher {#audience-manager-code-for-google-publisher-tags}
+#  codice Audience Manager per i tag di Google Publisher {#audience-manager-code-for-google-publisher-tags}
 
-`AamGpt` è una [!DNL JavaScript] funzione che legge i dati dei cookie di Audience Manager e invia tali informazioni a [!DNL Google Publisher Tags].
+`AamGpt` è una [!DNL JavaScript] funzione che legge  dati del cookie Audience Manager e invia tali informazioni a [!DNL Google Publisher Tags].
 
 >[!NOTE]
 >
->Questa funzione non è necessaria se disponete di un codice personalizzato per leggere i dati dei cookie di Audience Manager dai cookie [!UICONTROL UUID] e di destinazione.
+>Questa funzione non è necessaria se disponete di un codice personalizzato per leggere  dati dei cookie Audience Manager dai cookie [!UICONTROL UUID] e di destinazione.
 
 ## Codice di esempio
 
