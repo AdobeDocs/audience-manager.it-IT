@@ -1,19 +1,23 @@
 ---
-description: Descrive la sintassi e i parametri utilizzati nella chiamata HTTP iniziale per sincronizzare gli ID utente tra Audience Manager e un provider di dati di terze parti. Contatta il tuo consulente Adobe Audience Manager prima di tentare la prima sincronizzazione ID.
-seo-description: Descrive la sintassi e i parametri utilizzati nella chiamata HTTP iniziale per sincronizzare gli ID utente tra Audience Manager e un provider di dati di terze parti. Contatta il tuo consulente Adobe Audience Manager prima di tentare la prima sincronizzazione ID.
+description: Descrive la sintassi e i parametri utilizzati nella chiamata HTTP iniziale per sincronizzare gli ID utente tra  Audience Manager e un provider di dati di terze parti. Contatta il tuo consulente  Adobe Audience Manager prima di tentare la tua prima sincronizzazione ID.
+seo-description: Descrive la sintassi e i parametri utilizzati nella chiamata HTTP iniziale per sincronizzare gli ID utente tra  Audience Manager e un provider di dati di terze parti. Contatta il tuo consulente  Adobe Audience Manager prima di tentare la tua prima sincronizzazione ID.
 seo-title: Sincronizzazione ID per trasferimenti di dati in uscita
 solution: Audience Manager
 title: Sincronizzazione ID per trasferimenti di dati in uscita
 uuid: f3849be8-1094-47db-9296-7482f020af18
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 4%
 
 ---
 
 
 # Sincronizzazione ID per trasferimenti di dati in uscita{#id-synchronization-for-outbound-data-transfers}
 
-Descrive la sintassi e i parametri utilizzati nella `HTTP` chiamata iniziale per sincronizzare gli ID utente tra Audience Manager e un provider di dati di terze parti. Contatta il tuo consulente Adobe Audience Manager prima di tentare la prima sincronizzazione ID.
+Descrive la sintassi e i parametri utilizzati nella `HTTP` chiamata iniziale per sincronizzare gli ID utente tra  Audience Manager e un provider di dati di terze parti. Contatta il tuo consulente  Adobe Audience Manager prima di tentare la tua prima sincronizzazione ID.
 
 <!-- c_id_sync_out.xml -->
 
@@ -55,17 +59,17 @@ La chiamata [!DNL URL] per la sincronizzazione ID in entrata deve contenere le v
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
-   <td colname="col2">Un URL codificato viene reindirizzato con la macro <code> ${DD_UUID}</code> incorporata al suo interno. <p><b></b> Nota: Aggiunto solo quando il provider di dati avvia la chiamata. </p> </td> 
+   <td colname="col2">Un URL codificato viene reindirizzato con la macro <code> ${DD_UUID}</code> incorporata al suo interno. <p><b>Nota:</b> Aggiunto solo quando il provider di dati avvia la chiamata. </p> </td> 
   </tr> 
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR).</p><p><b>Nota:</b> <ul><li>I parametri <code>gdpr</code> e <code>gdpr_consent</code> i parametri vengono implementati gradualmente negli URL di sincronizzazione ID con i partner di attivazione. Consulta Partner di attivazione che supportano IAB TCF nel plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager per IAB TCF.</a></li><li>Questo parametro può essere utilizzato solo insieme a <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR).</p><p><b>Nota:</b> <ul><li>I parametri <code>gdpr</code> e <code>gdpr_consent</code> i parametri vengono implementati gradualmente negli URL di sincronizzazione ID con i partner di attivazione. Consulta Partner di attivazione che supportano IAB TCF in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager Plug-in per IAB TCF.</a></li><li>Questo parametro può essere utilizzato solo insieme a <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"><p><code>gdpr_consent</code> è la stringa di consenso GDPR con codifica URL-safe base64 (consultate la specifica <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"></a>IAB).</p><p><b></b> Nota: Questo parametro può essere utilizzato solo insieme a <code>gdpr</code>.</p> </td> 
+   <td colname="col2"><p><code>gdpr_consent</code> è la stringa di consenso GDPR con codifica URL-safe base64 (consultate la specifica <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"></a>IAB).</p><p><b>Nota:</b> Questo parametro può essere utilizzato solo insieme a <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
