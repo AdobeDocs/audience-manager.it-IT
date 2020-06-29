@@ -5,8 +5,12 @@ seo-title: Metodi API di gestione del dominio
 solution: Audience Manager
 title: Metodi API di gestione del dominio
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 3%
 
 ---
 
@@ -73,7 +77,7 @@ Un `GET` metodo che restituisce dettagli sul dominio specificato (solo per le de
 
 ### Risposta
 
-Una risposta corretta restituisce `200 OK` e dati come mostrato nell'esempio seguente. Restituisce `404 Not found` se l’ID del sito o del partner non è stato trovato.
+Una risposta corretta restituisce `200 OK` e dati come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l’ID del sito o del partner non è stato trovato.
 
 ```
 {
@@ -95,7 +99,7 @@ Un `GET` metodo che restituisce informazioni su tutti i domini (solo per le dest
 
 ### Parametri query opzionali
 
-È possibile utilizzare questi parametri facoltativi con [!DNL API] metodi che restituiscono *tutte* le proprietà di un oggetto. Impostate queste opzioni nella stringa di richiesta quando passate la query al [!DNL API]. Consultate Parametri [](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)opzionali.
+È possibile utilizzare questi parametri facoltativi con [!DNL API] metodi che restituiscono *tutte* le proprietà di un oggetto. Impostate queste opzioni nella stringa di richiesta quando la query viene passata alla [!DNL API]. Consultate Parametri [](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)opzionali.
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -118,7 +122,7 @@ Un `GET` metodo che restituisce informazioni su tutti i domini (solo per le dest
    <td colname="col2"> Ordina e restituisce i risultati in base alla proprietà JSON specificata. </td>
   </tr>
   <tr valign="top"> 
-   <td colname="col1"><code> decrescente</code> </td>
+   <td colname="col1"><code> descending</code> </td>
    <td colname="col2"> Ordina e restituisce risultati in ordine decrescente. Ascendente è il valore predefinito. </td>
   </tr>
   <tr valign="top">
@@ -130,7 +134,7 @@ Un `GET` metodo che restituisce informazioni su tutti i domini (solo per le dest
 
 ### Risposta
 
-Una risposta di successo restituisce `200 OK` e dati in un array come mostrato nell'esempio seguente. Restituisce `404 Not found` se l’ID del sito o del partner non è stato trovato.
+Una risposta di successo restituisce `200 OK` e dati in un array come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l’ID del sito o del partner non è stato trovato.
 
 ```
 [
