@@ -4,8 +4,12 @@ seo-description: Realizzazioni delle caratteristiche di backfill per catturare i
 seo-title: Realizzazioni caratteristica backfill
 title: Realizzazioni caratteristica backfill
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +20,7 @@ Realizzazioni delle caratteristiche di backfill per catturare i tipi di pubblico
 
 >[!IMPORTANT]
 >
->[!UICONTROL Data Explorer Trait Backfill] è una funzionalità premium che migliora l&#39;esperienza di Audience Manager sbloccando altri casi di utilizzo. Il backfill richiede ulteriore potenza di elaborazione ed è disponibile per tutti i clienti di Audience Manager a un costo incrementale. Per ulteriori informazioni, contattate il vostro rappresentante commerciale Adobe.
+>[!UICONTROL Data Explorer Trait Backfill] è una funzionalità premium che migliora l&#39;esperienza di Audience Manager  sbloccando casi di utilizzo aggiuntivi. Il backfill richiede ulteriore potenza di elaborazione ed è disponibile per tutti  clienti Audience Manager a un costo incrementale. Per ulteriori informazioni, contattate il vostro rappresentante commerciale Adobe.
 
 Quando create caratteristiche da segnali non utilizzati, potete scegliere di recuperare le realizzazioni delle caratteristiche in un periodo di tempo specifico. [!DNL Audience Manager] acquisisce i dati storici sulle audience idonee per la nuova caratteristica e le memorizza sul profilo corrispondente. Potete visualizzarlo **[!UICONTROL Backfill Options]** nella [!UICONTROL Trait Expression] sezione del **[Generatore](../../features/traits/about-trait-builder.md)**di caratteristiche.
 
@@ -55,7 +59,7 @@ Guardate il video seguente per un video che illustra come tornare a capo delle c
 
 Le caratteristiche create di recente iniziano a catturare i tipi di pubblico due o tre ore dopo la creazione. Tuttavia, a causa dell&#39;elevato volume di dati che [!DNL Audience Manager] esegue su base giornaliera, la popolazione con backfill non si riflette immediatamente nei [!UICONTROL Unique Trait Realizations] grafici e [!UICONTROL Total Trait Population] nei grafici.
 
-Audience Manager aggiorna i contenuti [!UICONTROL Trait Graph] con la popolazione con backfill entro 48 ore dalla creazione delle caratteristiche.
+ Audience Manager aggiorna i [!UICONTROL Trait Graph] contenuti con la popolazione ripiena entro 48 ore dalla creazione delle caratteristiche.
 
 ## Limite di recupero caratteristiche {#trait-backfilling-limit}
 
