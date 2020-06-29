@@ -5,8 +5,9 @@ seo-title: Metodi di integrazione dei dati
 solution: Audience Manager
 title: Metodi di integrazione dei dati
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 1%
@@ -37,7 +38,7 @@ Un riepilogo caso d&#39;uso  metodi di integrazione dei dati Audience Manager co
 
 <!-- c_int_types_use_cases.xml -->
 
-Un&#39;integrazione dei [!DNL server-to-server] dati in tempo reale sincronizza rapidamente i dati utente tra  server Audience Manager e un altro sistema di targeting. Nella maggior parte dei casi, lo scambio di dati avviene entro pochi secondi o minuti, a seconda della frequenza di aggiornamento del sistema di targeting. Tuttavia, il sistema di destinazione determina questo intervallo di aggiornamento, non  Audience Manager. Inoltre, la frequenza di aggiornamento può variare da un sistema all&#39;altro. L&#39;integrazione in tempo reale [!UICONTROL server-to-server] è il tipo di integrazione preferito per lo scambio di dati.  Audience Manager utilizza questo metodo ogni volta che i partner di targeting possono supportarlo.
+Un&#39;integrazione [!DNL server-to-server] dei dati in tempo reale consente di sincronizzare rapidamente i dati utente tra  server Audience Manager e un altro sistema di targeting. Nella maggior parte dei casi, lo scambio di dati avviene entro pochi secondi o minuti, a seconda della frequenza di aggiornamento del sistema di targeting. Tuttavia, il sistema di destinazione determina questo intervallo di aggiornamento, non  Audience Manager. Inoltre, la frequenza di aggiornamento può variare da un sistema all&#39;altro. L&#39;integrazione in tempo reale [!UICONTROL server-to-server] è il tipo di integrazione preferito per lo scambio di dati.  Audience Manager utilizza questo metodo ogni volta che i partner di targeting possono supportarlo.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
