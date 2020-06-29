@@ -1,20 +1,24 @@
 ---
-description: Le API DIL a livello di istanza consentono di creare e utilizzare in modo programmatico oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
+description: Le API DIL a livello di istanza consentono di creare e utilizzare in modo programmatico  oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
 keywords: create traits;create trait
-seo-description: Le API DIL a livello di istanza consentono di creare e utilizzare in modo programmatico oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
+seo-description: Le API DIL a livello di istanza consentono di creare e utilizzare in modo programmatico  oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
 seo-title: Metodi DIL a livello di istanza
 solution: Audience Manager
 title: Metodi DIL a livello di istanza
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1105'
+ht-degree: 13%
 
 ---
 
 
 # Metodi DIL a livello di istanza{#instance-level-dil-methods}
 
-Le [!UICONTROL DIL] API a livello di istanza consentono di creare e utilizzare in modo programmatico oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
+Le [!UICONTROL DIL] API a livello di istanza consentono di creare e utilizzare in modo programmatico  oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
 
 ## Guida introduttiva ai metodi DIL a livello di istanza {#get-started-dil-methods}
 
@@ -26,7 +30,7 @@ c_api_overview.xml
 
 Quando si utilizzano le [!UICONTROL DIL] API a livello di istanza:
 
-* L&#39;accesso richiede un nome partner e un ID spazio nomi contenitore (NSID). Contatta il tuo account manager Audience Manager per ottenere queste informazioni.
+* L&#39;accesso richiede un nome partner e un ID spazio nomi contenitore (NSID). Contattate il vostro account manager  Audience Manager per ottenere queste informazioni.
 * Sostituite eventuale testo *in corsivo* di esempio nella documentazione API con valore, ID o altra variabile, come richiesto dal metodo con cui state lavorando.
 
 <!-- 
@@ -164,7 +168,7 @@ partnerObject.api.logs({
 
 ## submit {#submit}
 
-Invia tutti i dati in sospeso ad Audience Manager per l’ [!UICONTROL DIL] istanza.
+Invia tutti i dati in sospeso a  Audience Manager per l&#39; [!UICONTROL DIL] istanza.
 
 <!-- 
 
@@ -483,7 +487,7 @@ state = {
 
 ## idSync {#idsync}
 
-È composta da due funzioni che consentono ai partner di dati di scambiare e sincronizzare gli ID utente tra loro e Audience Manager.
+È composta da due funzioni che consentono ai partner di dati di scambiare e sincronizzare gli ID utente tra loro e  Audience Manager.
 
 <!-- 
 
@@ -505,11 +509,11 @@ Funziona con [!UICONTROL DIL] versioni 2.10 e 3.1 o successive.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Tra partner di dati diversi e Audience Manager. Ad esempio, il partner x lo utilizza per sincronizzare un ID utente con il partner y e quindi inviarlo ad Audience Manager. </p> <p> <p><b>Importante:</b>  Questo metodo è obsoleto. Utilizzate il <code> idSyncByURL </code> metodo dell’istanza del servizio di identità Adobe Experience Platform. </p> </p> </td> 
+   <td colname="col2"> <p>Tra partner di dati diversi e  Audience Manager. Ad esempio, il partner x lo utilizza per sincronizzare un ID utente con il partner y e inviarlo a  Audience Manager. </p> <p> <p><b>Importante:</b>  Questo metodo è obsoleto. Utilizzare il <code> idSyncByURL </code> metodo dell'istanza  Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Quando conosci già l’ID utente e vuoi inviarlo ad Audience Manager. </p> <p> <p><b>Importante:</b>  Questo metodo è obsoleto. Utilizzate il <code> idSyncByDataSource </code> metodo dell’istanza del servizio di identità Adobe Experience Platform. </p> </p> </td> 
+   <td colname="col2"> <p>Quando già conosci l’ID utente e vuoi inviarlo a  Audience Manager. </p> <p> <p><b>Importante:</b>  Questo metodo è obsoleto. Utilizzare il <code> idSyncByDataSource </code> metodo dell'istanza  Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -719,8 +723,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Requisiti del nome per le variabili chiave](../features/traits/trait-key-name-requirements.md)
 >* [Requisiti del prefisso per le variabili chiave](../features/traits/trait-variable-prefixes.md)
->* [Funzioni di sincronizzazione in Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
+>* [Funzioni di sincronizzazione nel servizio identità Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Adobe Experience Platform Identity Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Supporto CORS nel servizio Adobe Experience Platform Identity](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Servizio identità Adobe Experience Platform : UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Supporto CORS nel servizio identità Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
