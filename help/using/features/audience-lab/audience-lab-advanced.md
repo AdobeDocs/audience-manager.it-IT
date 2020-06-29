@@ -5,8 +5,12 @@ seo-title: Funzionalità avanzata di Audience Lab
 solution: Audience Manager
 title: Funzionalità avanzata di Audience Lab
 uuid: 0f57d634-caa0-40da-81a2-c23fbd299bfd
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
 
 ---
 
@@ -25,8 +29,8 @@ In [!DNL Audience Lab], [!DNL Allocation Template] rappresenta le varie selezion
 
 * La distribuzione dei dispositivi tra i segmenti di prova;
 * Mappatura dei segmenti di prova alle destinazioni;
-* Caratteristiche di conversione utilizzate per un gruppo di test;
-* Intervallo di date in cui il gruppo di test pubblica nelle destinazioni selezionate.
+* Le caratteristiche di conversione utilizzate per un gruppo di test;
+* L&#39;intervallo di date in cui il gruppo di test pubblica nelle destinazioni selezionate.
 
 Duplicando un modello di allocazione, puoi riutilizzare la stessa distribuzione di segmenti di test e destinazioni per un segmento di base diverso, in un nuovo gruppo di test. Un esempio di modello di allocazione è illustrato di seguito. L’immagine viene tratta dal [!UICONTROL Summary & Finalize] passaggio del flusso di lavoro **Crea gruppo** di test.
 
@@ -38,7 +42,7 @@ With the option to duplicate allocation templates, you can increase your product
 
 ### Utilizzo di un modello di allocazione duplicato
 
-Create un gruppo di test iniziale, quindi selezionate **[!UICONTROL Duplicate Allocation Template]** per riutilizzare le stesse impostazioni tra più gruppi di test. Ad esempio, puoi utilizzare questa funzione se esegui un test in cui vuoi determinare l'efficacia di diverse destinazioni per più segmenti.
+Create un gruppo di test iniziale, quindi selezionate **[!UICONTROL Duplicate Allocation Template]** per riutilizzare le stesse impostazioni tra più gruppi di test. Ad esempio, puoi utilizzare questa funzione se esegui un test in cui vuoi determinare l&#39;efficacia di diverse destinazioni per più segmenti.
 
 1. Nella vista principale di Audience Lab, cercate il gruppo di test di cui desiderate riprodurre il modello di allocazione in un nuovo gruppo di test. Nella casella a discesa, selezionate **[!UICONTROL Duplicate Allocation Template]**.
 
@@ -48,13 +52,13 @@ Create un gruppo di test iniziale, quindi selezionate **[!UICONTROL Duplicate Al
 3. Non *è possibile* modificare:
 
    * La distribuzione dei dispositivi tra i segmenti di prova;
-   * caratteristiche di conversione;
+   * il/i tratto/i di conversione;
    * Mappatura dei segmenti di test alle destinazioni. Puoi compilare solo la chiave di mappatura, per le destinazioni che ne richiedono una.
    * Intervallo di date in cui il gruppo di test pubblicherà le destinazioni selezionate.
 
 4. Rivedete le informazioni aggiunte nei passaggi precedenti e selezionate **[!UICONTROL Finalize Group]**.
 
-## Esclusione segmento test {#test-segment-holdout}
+## Esclusione segmento di test {#test-segment-holdout}
 
 >[!NOTE]
 >
@@ -69,7 +73,7 @@ Utilizzate questa funzione per impedire che parte del pubblico venga inclusa nel
 ### Utilizzo del blocco del segmento di test
 
 1. Create un nuovo gruppo di test utilizzando la [!UICONTROL Create Test Group] procedura guidata.
-1. Nel **[!UICONTROL Allocate Test Segment]** passaggio, potete selezionare una parte dell'audience da escludere dai test.
+1. Nel **[!UICONTROL Allocate Test Segment]** passaggio, potete selezionare una parte dell&#39;audience da escludere dai test.
 
    ![Voce di elenco](assets/test-segment-holdout.png)
 
