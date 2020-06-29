@@ -1,12 +1,16 @@
 ---
 description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirati i tipi di pubblico in base a esigenze o obiettivi aziendali specifici. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
-seo-description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirato il pubblico a specifici tipi di pubblico in base a esigenze o obiettivi aziendali. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
+seo-description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirati i tipi di pubblico in base a esigenze o obiettivi aziendali specifici. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
 seo-title: Casi di utilizzo generali per le regole di unione dei profili
 solution: Audience Manager
 title: Casi di utilizzo generali per le regole di unione dei profili
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '997'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ## Targeting dei dispositivi {#device-personalization}
 
-Questo scenario si applica agli addetti al marketing che desiderano valutare un profilo dispositivo singolo per un segmento di pubblico definito in Audience Manager, al fine di fornire un&#39;esperienza coerente al dispositivo utilizzando piattaforme di targeting che supportano gli ID dispositivo (DSP, piattaforme di personalizzazione del sito e altre piattaforme di targeting basate su dispositivi), senza tenere conto dell&#39;autenticazione utente.
+Questo scenario si applica agli addetti al marketing che desiderano valutare un profilo dispositivo singolo per un segmento di pubblico definito in  Audience Manager, al fine di fornire un&#39;esperienza coerente al dispositivo utilizzando piattaforme di targeting che supportano gli ID dispositivo (DSP, piattaforme di personalizzazione del sito e altre piattaforme di targeting basate su dispositivi), senza tenere conto dell&#39;autenticazione utente.
 
 Per creare una regola che abbia come destinazione solo i profili dispositivo, selezionate **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
 
@@ -43,7 +47,7 @@ Il team marketing del negozio può utilizzare la regola **[!UICONTROL Current Au
 
 ![current-no-device](assets/current-no-device.png)
 
-Utilizzando questa regola, Audience Manager ignora completamente il profilo del dispositivo, qualifica l&#39;ID CRM di John per il segmento e non l&#39;ID CRM di Jane qualificato.
+Utilizzando questa regola,  Audience Manager ignora completamente il profilo del dispositivo, qualifica l&#39;ID CRM di John per il segmento e non qualifica l&#39;ID CRM di Jane.
 
 ![shared-device-targeting](assets/shared-device-targeting.png)
 
@@ -55,9 +59,9 @@ Questo caso d’uso riguarda la gestione dell’identità della famiglia. Un&#39
 
 Prendiamo in considerazione un segmento fatto di famiglie con redditi superiori a 100.000 dollari l&#39;anno, contenente almeno un dispositivo [!DNL iPhone 7] [!DNL Data Plan B]attivato. Abbiamo due profili domestici (profili cross-device), ciascuno dei quali è collegato a due diversi profili dispositivo. Le caratteristiche richieste per qualificarsi per il segmento sono distribuite nei profili dispositivo e cross-device.
 
-Audience Manager unisce ogni coppia di profili dispositivo + dispositivo per verificare se il set di caratteristiche unito è idoneo per il segmento. Poiché Audience Manager valuta ogni profilo incluso nell’unione, è possibile segmentare sia un profilo dispositivo che un profilo familiare.
+ Audience Manager unisce ogni coppia di profili dispositivo + dispositivo per verificare se il set di caratteristiche unito è idoneo per il segmento. Poiché  Audience Manager valuta ogni profilo incluso nell&#39;unione, è possibile segmentare sia un profilo dispositivo che un profilo domestico.
 
-Il collegamento tra il dispositivo e il profilo della famiglia consente ad Audience Manager di qualificarsi [!DNL Household 2] per il segmento, ma non [!DNL Household 1]. Da [!DNL Household 2], solo [!DNL Device 3] per il segmento. Questo [!UICONTROL Profile Merge Rule] ha permesso agli esperti di marketing di inviare un messaggio di marketing coerente a un singolo dispositivo ([!DNL Device 3]) e a una famiglia ([!DNL Household 2]) più ampia.
+Il collegamento tra il dispositivo e il profilo della famiglia consente  Audience Manager di qualificarsi [!DNL Household 2] per il segmento, ma non [!DNL Household 1]. Da [!DNL Household 2], solo [!DNL Device 3] per il segmento. Questo [!UICONTROL Profile Merge Rule] ha permesso agli esperti di marketing di inviare un messaggio di marketing coerente a un singolo dispositivo ([!DNL Device 3]) e a una famiglia ([!DNL Household 2]) più ampia.
 
 ![gestione familiare](assets/household-management.png)
 
@@ -69,7 +73,7 @@ Il collegamento tra il dispositivo e il profilo della famiglia consente ad Audie
 
 Questo scenario di targeting è disponibile solo per i clienti che hanno acquistato il [!DNL People-Based Destinations] componente aggiuntivo. Questa regola consente agli esperti di marketing di raggiungere i clienti in base ai propri dati autenticati.
 
-Supponiamo che un rivenditore online voglia raggiungere i clienti esistenti tramite piattaforme social e mostrare loro offerte personalizzate in base ai loro ordini precedenti. Con [!UICONTROL People-Based Destinations], possono trasferire indirizzi e-mail con hash da [!DNL CRM] propri ad Audience Manager, creare segmenti dai dati offline e inviare questi segmenti alle piattaforme social sulle quali desiderano pubblicizzare, utilizzando questo identificatore con hash, ottimizzando le spese pubblicitarie.
+Supponiamo che un rivenditore online voglia raggiungere i clienti esistenti tramite piattaforme social e mostrare loro offerte personalizzate in base ai loro ordini precedenti. Con [!UICONTROL People-Based Destinations], possono trasferire indirizzi e-mail con hash da [!DNL CRM] propri a  Audience Manager, creare segmenti dai dati offline e inviare questi segmenti alle piattaforme social su cui desiderano pubblicizzare, utilizzando questo identificatore con hash, ottimizzando le spese pubblicitarie.
 
 Per ulteriori informazioni su questa opzione, consulta Destinazioni [basate sulle](../destinations/people-based-destinations-overview.md)persone.
 
@@ -98,12 +102,12 @@ La scelta di un&#39; [!UICONTROL device graph] opzione per una [!UICONTROL Profi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opzioni di Device Graph esterno </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Le regole di unione</span> dei profili create con <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> o con qualsiasi grafico di dispositivi esterno integrato con <span class="keyword"> Audience Manager</span> sono ideali per: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Le regole di unione</span> dei profili create con <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external">  Experience Cloud Device Co-op</a> o qualsiasi grafico di dispositivi esterni integrato con <span class="keyword">  Audience Manager</span> sono ideali per: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Proprietà digitali con un basso livello di autenticazione dei clienti. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Campagne di marchio ampie e di grande portata. </li> 
       <li id="li_14AEC54CE34440889A3A36324EC6F497">Casi di utilizzo in cui i clienti non devono essere autenticati per poter partecipare alla segmentazione. </li> 
-     </ul> </p> <p> <p>Suggerimento: Device Co-op <span class="keyword"> è la tua opzione migliore se sei un cliente</span> Experience Cloud <span class="keyword"></span> con bassa autenticazione e nessuna relazione con alcun provider di grafici di dispositivi. </p> </p> </td> 
+     </ul> </p> <p> <p>Suggerimento: Device Co-op <span class="keyword"> è la scelta migliore se sei un cliente Experience Cloud</span> <span class="keyword"></span>  con bassa autenticazione e nessuna relazione con un provider di grafici di dispositivi. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
