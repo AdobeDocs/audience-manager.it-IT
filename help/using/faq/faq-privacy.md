@@ -5,8 +5,9 @@ seo-title: Domande frequenti sulla privacy e sulla conservazione dei dati
 solution: Audience Manager
 title: Domande frequenti sulla privacy e sulla conservazione dei dati
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
+feature: Data Governance and Privacy
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -59,7 +60,7 @@ Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Server periferici </p> </td> 
-   <td colname="col2"> <p> 14 giorni. </p> <p> Audience Manager elimina i dati utente dai nostri server periferici 14 giorni dopo l'ultima visualizzazione di un utente sulla piattaforma Audience Manager . Se <span class="keyword"> Audience Manager</span> registra l'attività dell'utente in questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l'utente torna ad essere attivo dopo 14 giorni, si verifica un ritardo tra la prima visualizzazione della pagina e quando l'utente diventa fruibile. Ci vogliono 6-18 ore per riportare il profilo completo al centro del margine dopo più di 14 giorni di inattività. </p> </td> 
+   <td colname="col2"> <p> 14 giorni. </p> <p> Audience Manager elimina i dati utente dai nostri server periferici 14 giorni dopo l'ultima visualizzazione di un utente sulla piattaforma Audience Manager . Se <span class="keyword"> Audience Manager</span> registra l'attività dell'utente in questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l’utente torna ad essere attivo dopo 14 giorni, si verifica un ritardo tra la prima visualizzazione della pagina e quando l’utente diventa fruibile. Ci vogliono 6-18 ore per riportare il profilo completo al centro del margine dopo più di 14 giorni di inattività. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registri non elaborati </p> </td> 
