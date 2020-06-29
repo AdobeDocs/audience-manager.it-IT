@@ -5,8 +5,12 @@ seo-title: Sintassi ed esempi di file di dati in uscita
 solution: Audience Manager
 title: Sintassi ed esempi di file di dati in uscita
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +27,7 @@ Descrive i campi, la sintassi e le convenzioni necessari per assegnare un nome a
 
 ## Elementi di sintassi e nome file {#syntax-file-name}
 
-I nomi dei file in uscita contengono gli elementi seguenti. Tutti gli elementi seguenti sono facoltativi.
+I nomi dei file in uscita contengono gli elementi seguenti. Tutti gli elementi riportati di seguito sono facoltativi.
 
 ```
 [SYNC_TYPE][_DID][_MASTER_DPID][_PID_ALIAS][_SYNC-MODE][_TIMESTAMP]SPLITNUM.sync[.gz]
@@ -31,7 +35,7 @@ I nomi dei file in uscita contengono gli elementi seguenti. Tutti gli elementi s
 
 ### Parametri
 
-La tabella definisce gli elementi in un nome file di dati in uscita.
+La tabella definisce gli elementi in un nome di file di dati in uscita.
 
 <table id="table_1EA97D75004148CE85F702427DB7E97A"> 
  <thead> 
@@ -51,7 +55,7 @@ La tabella definisce gli elementi in un nome file di dati in uscita.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>ID destinazione. </p> <p>In <span class="keyword"> Audience Manager </span>, una destinazione è l’istanza dell’integrazione in cui potete mappare i segmenti di destinazione. I clienti possono avere più destinazioni, a seconda dei requisiti aziendali. </p> </td> 
+   <td colname="col2"> <p>ID destinazione. </p> <p>In <span class="keyword"> Audience Manager </span>, una destinazione è l'istanza dell'integrazione in cui è possibile mappare i segmenti di destinazione. I clienti possono avere più destinazioni, a seconda dei requisiti aziendali. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
@@ -157,7 +161,7 @@ Descrive i campi, la sintassi e le convenzioni necessari per organizzare le info
 
 ### Sintassi
 
-I campi nel file di dati vengono visualizzati nell'ordine seguente:
+I campi nel file di dati vengono visualizzati nell&#39;ordine seguente:
 
 `UUID<SPACE>SEGMENT_1,SEGMENT_2<SPACE>REMOVED_SEGMENT_,...`
 
@@ -194,7 +198,7 @@ Nella tabella sono elencate le variabili che definiscono il contenuto di un file
 
 ### Esempio: Formato file di base
 
-Un file di dati formattato correttamente potrebbe essere simile al seguente esempio. Questa voce di file indica che l'utente è idoneo per i segmenti 24, 26 e 27. Se necessario, uno spazio separa gli ID `UUID` e del segmento. Un altro spazio separa i set di ID segmento. In questo esempio, un utente appartiene ai segmenti 24, 26 e 27. Sono stati rimossi dai segmenti 25 e 28.
+Un file di dati formattato correttamente potrebbe essere simile al seguente esempio. Questa voce di file indica che l&#39;utente è idoneo per i segmenti 24, 26 e 27. Se necessario, uno spazio separa gli ID `UUID` e del segmento. Un altro spazio separa i set di ID segmento. In questo esempio, un utente appartiene ai segmenti 24, 26 e 27. Sono stati rimossi dai segmenti 25 e 28.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28
