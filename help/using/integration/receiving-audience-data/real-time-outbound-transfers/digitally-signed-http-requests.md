@@ -1,19 +1,23 @@
 ---
-description: Audience Manager richiede la firma digitale per la validità delle richieste HTTP(S) da server a server. Questo documento descrive come firmare le richieste HTTP con chiavi private.
-seo-description: Audience Manager richiede la firma digitale per la validità delle richieste HTTP(S) da server a server. Questo documento descrive come firmare le richieste HTTP(S) con chiavi private.
+description: ' Audience Manager richiede la firma digitale per la validità delle richieste HTTP(S) da server a server. Questo documento descrive come firmare le richieste HTTP con chiavi private.'
+seo-description: ' Audience Manager richiede la firma digitale per la validità delle richieste HTTP(S) da server a server. Questo documento descrive come firmare le richieste HTTP(S) con chiavi private.'
 seo-title: Richieste HTTP con firma digitale
 solution: Audience Manager
 title: Richieste HTTP con firma digitale
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 0%
 
 ---
 
 
-# Richieste con firma digitale `HTTP(S)`{#digitally-signed-http-requests}
+# Richieste con firma digitale `HTTP(S)` {#digitally-signed-http-requests}
 
-Audience Manager richiede la firma digitale per la validità delle richieste da `HTTP(S)` server a server. Questo documento descrive come firmare `HTTP(S)` le richieste con chiavi private.
+ Audience Manager richiede la firma digitale per la validità delle richieste `HTTP(S)` server-to-server. Questo documento descrive come firmare `HTTP(S)` le richieste con chiavi private.
 
 ## Panoramica {#overview}
 
@@ -95,4 +99,4 @@ Per motivi di sicurezza, si consiglia di ruotare periodicamente la chiave privat
 
 Per `GET` le destinazioni dei tipi, il messaggio utilizzato per la firma sarà *REQUEST_PATH + QUERY STRING* (ad esempio */from-aam-s2s?sids=1,2,3*). IRIS non prende in considerazione il nome host o `HTTP(S)` le intestazioni, che possono essere modificati/configurati in modo errato lungo il percorso o riportati in modo non corretto.
 
-Per `POST` i tipi di destinazioni, il messaggio utilizzato per la firma è il *REQUEST BODY*. Anche in questo caso, le intestazioni o altri parametri di richiesta vengono ignorati.
+Per `POST` le destinazioni dei tipi, il messaggio utilizzato per la firma è *REQUEST BODY*. Anche in questo caso, le intestazioni o altri parametri di richiesta vengono ignorati.
