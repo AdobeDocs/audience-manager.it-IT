@@ -5,15 +5,19 @@ seo-title: Metodi API di gestione utenti
 solution: Audience Manager
 title: Metodi API di gestione utenti
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
+feature: API
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 4%
 
 ---
 
 
 # Metodi API di gestione utenti {#user-management-api-methods}
 
-Metodi [!DNL API] di riposo per gestire gli utenti, inclusi creazione, aggiornamento, elenco, eliminazione e restituzione di oggetti utente.
+Metodi [!DNL API] di ripristino per gestire gli utenti, inclusi creazione, aggiornamento, elenco, eliminazione e restituzione di oggetti utente.
 
 <!-- c_rest_api_user_man_user.xml -->
 
@@ -62,7 +66,7 @@ Un `POST` metodo per creare un nuovo utente.
 }
 ```
 
-Se `isAdmin` è impostato su true, l'utente viene creato come amministratore partner. Questa proprietà consente inoltre di sapere se un utente è un amministratore di partner.
+Se `isAdmin` è impostato su true, l&#39;utente viene creato come amministratore partner. Questa proprietà consente inoltre di sapere se un utente è un amministratore di partner.
 
 Restituisce `409 Conflict` se il nome utente è già stato usato.
 
@@ -176,7 +180,7 @@ Restituisce `200 OK` se ha esito positivo. Restituisce `400 Bad Request` se si v
 
 ## Reimposta password utente di accesso {#reset-logged-in-user-pw}
 
-Un `PUT` metodo per ripristinare l’utente attualmente connesso. [!UICONTROL Audience Management] invia all'utente una password generata dal sistema.
+Un `PUT` metodo per ripristinare l’utente attualmente connesso. [!UICONTROL Audience Management] invia all&#39;utente una password generata dal sistema.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
