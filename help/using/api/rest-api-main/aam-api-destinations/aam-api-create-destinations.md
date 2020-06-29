@@ -5,8 +5,12 @@ seo-title: Crea destinazioni
 solution: Audience Manager
 title: Crea destinazioni
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +23,7 @@ Creare destinazioni con questi [!UICONTROL RESTful API] metodi.
 
 ## Tipi di destinazione supportati: Solo URL e cookie
 
-I `POST` metodi disponibili consentono di creare [!UICONTROL URL] e [!UICONTROL cookie destinations] solo. Al momento non è possibile creare [!UICONTROL server-to-server destinations] con questi [!DNL REST API] metodi. Tuttavia, i `GET` metodi di destinazione correlati consentono di recuperare le informazioni [!UICONTROL server-to-server destinations] create nell'interfaccia utente.
+I `POST` metodi disponibili consentono di creare [!UICONTROL URL] e [!UICONTROL cookie destinations] solo. Al momento non è possibile creare [!UICONTROL server-to-server destinations] con questi [!DNL REST API] metodi. Tuttavia, i `GET` metodi di destinazione correlati consentono di recuperare le informazioni [!UICONTROL server-to-server destinations] create nell&#39;interfaccia utente.
 
 ## Creare una destinazione URL non seriale {#create-nonserial-dest}
 
