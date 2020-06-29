@@ -1,25 +1,29 @@
 ---
-description: Come opzione, potete comprimere i file di dati quando li inviate ad Audience Manager.
-seo-description: Come opzione, potete comprimere i file di dati quando li inviate ad Audience Manager.
+description: Come opzione, è possibile comprimere i file di dati quando vengono inviati a  Audience Manager.
+seo-description: Come opzione, è possibile comprimere i file di dati quando vengono inviati a  Audience Manager.
 seo-title: Compressione file per i file di trasferimento dati in entrata
 solution: Audience Manager
 title: Compressione file per i file di trasferimento dati in entrata
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 392b17e5a97038169e2cd36f2e71f5b4b997070c
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 0%
 
 ---
 
 
 # Compressione file per i file di trasferimento dati in entrata{#file-compression-for-inbound-data-transfer-files}
 
-Potete comprimere i file di dati quando li inviate ad Audience Manager.
+È possibile comprimere i file di dati quando vengono inviati a  Audience Manager.
 
 <!-- inbound-file-compression.xml -->
 
-Audience Manager supporta la compressione gzip (`.gz`) per i trasferimenti di dati in entrata e asincrona.
+ Audience Manager supporta la compressione gzip (`.gz`) per i trasferimenti di dati in entrata e asincrona.
 
-Audience Manager supporta anche i file non compressi.
+ Audience Manager supporta anche i file non compressi.
 
 >[!IMPORTANT]
 >
