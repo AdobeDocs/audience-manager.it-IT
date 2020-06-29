@@ -1,12 +1,13 @@
 ---
-description: Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili geografiche per tutte le proprietà dell'account Audience Manager.
-seo-description: Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili geografiche per tutte le proprietà dell'account Audience Manager.
-seo-title: Geotargeting con chiavi a livello di piattaforma
+description: Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili geografiche per tutte le proprietà dell'account Audience Manager .
+seo-description: Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili geografiche per tutte le proprietà dell'account Audience Manager .
+seo-title: Geotargeting con chiavi di livello Platform
 solution: Audience Manager
-title: Geotargeting con chiavi a livello di piattaforma
+title: Geotargeting con chiavi di livello Platform
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 8959e0023f7663d7a20080aaf130d469ed8a4313
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 1%
@@ -16,19 +17,19 @@ ht-degree: 1%
 
 # Geotargeting With Platform-level Keys {#geotargeting-with-platform-level-keys}
 
-Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili geografiche per tutte le proprietà dell&#39;account Audience Manager.
+Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili geografiche per tutte le proprietà dell&#39;account Audience Manager .
 
 <!-- c_tb_platform_vars.xml -->
 
-## Scopo delle variabili a livello di piattaforma {#platform-variables}
+## Finalità delle variabili a livello di Platform {#platform-variables}
 
-Le variabili a livello di piattaforma consentono di prendere i dati passati da un particolare sito e renderli disponibili per il targeting tra tutte le proprietà dell&#39; [!DNL Audience Manager] account. Queste variabili sono costituite da coppie [chiave-valore con il prefisso key di](../../reference/key-value-pairs-explained.md) `d_` come mostrato di seguito.
+Le variabili a livello di Platform consentono di prendere i dati passati da un particolare sito e renderli disponibili per il targeting tra tutte le proprietà dell&#39; [!DNL Audience Manager] account. Queste variabili sono costituite da coppie [chiave-valore con il prefisso key di](../../reference/key-value-pairs-explained.md) `d_` come mostrato di seguito.
 
-## Aggiunta di valori alle chiavi a livello di piattaforma {#adding-values}
+## Aggiunta di valori alle chiavi di livello Platform {#adding-values}
 
 Per alcune chiavi a livello di piattaforma, potete specificare il valore. Con altri, le chiavi sono associate agli [!DNL IP] indirizzi corrispondenti passati in una chiamata dell&#39;evento. In entrambi i casi, è comunque necessario specificare il valore al momento della creazione delle caratteristiche in [!UICONTROL Trait Builder].
 
-## Chiavi a livello di piattaforma definite dall&#39;utente {#user-defined-keys}
+## Chiavi a livello di Platform definite dall&#39;utente {#user-defined-keys}
 
 È possibile specificare il valore quando si creano caratteristiche con le seguenti coppie chiave-valore:
 
@@ -36,7 +37,7 @@ Per alcune chiavi a livello di piattaforma, potete specificare il valore. Con al
 |---|---|
 | `d_zx` | Codice ZIP (ad esempio, `d_zx=10022`). |
 
-## Chiavi a livello di piattaforma definite dall&#39;indirizzo IP {#keys-ip-address}
+## Chiavi a livello di Platform definite dall&#39;indirizzo IP {#keys-ip-address}
 
 Lavoriamo con [Digital Envile](https://www.digitalenvoy.com/) per ottenere e aggiornare i dati demografici e geografici per le chiavi riportate di seguito. I valori di queste chiavi sono determinati dalla corrispondenza [!DNL IP] degli indirizzi con i dati geografici e demografici corrispondenti. Tuttavia, sarà comunque necessario inserire il parametro value durante la creazione della coppia chiave-valore in [!UICONTROL Trait Builder].
 
