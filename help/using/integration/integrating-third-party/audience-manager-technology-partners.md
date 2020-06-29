@@ -1,12 +1,13 @@
 ---
 description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni sull'integrazione, fare riferimento all'elenco di Adobe Exchange corrispondente (dove disponibile) o contattare il consulente Adobe o l'Assistenza clienti.
 seo-description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni sull'integrazione, fare riferimento all'elenco di Adobe Exchange corrispondente (dove disponibile) o contattare il consulente Adobe o l'Assistenza clienti.
-seo-title: Partner tecnologici di Adobe Audience Manager
+seo-title: Partner tecnologici  Adobe Audience Manager
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
-title: Partner tecnologici di Adobe Audience Manager
+title: Partner tecnologici  Adobe Audience Manager
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 59%
@@ -14,17 +15,17 @@ ht-degree: 59%
 ---
 
 
-# Partner di attivazione di Audience Manager
+#  Audience Manager Activation Partners
 
-Questa pagina include solo le integrazioni tra [server e server correnti di Audience Manager](/help/using/features/destinations/add-edit-segments.md) .  Per ulteriori informazioni sull&#39;integrazione, fare riferimento all&#39;elenco di [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (dove disponibile) o contattare il consulente Adobe o l&#39;Assistenza clienti.
+Questa pagina include  integrazioni [](/help/using/features/destinations/add-edit-segments.md) server-to-server Audience Manager correnti.  Per ulteriori informazioni sull&#39;integrazione, fare riferimento all&#39;elenco di [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (dove disponibile) o contattare il consulente Adobe o l&#39;Assistenza clienti.
 
 <br> 
 
 * **Aggiornato** = mostra l&#39;ultima data in cui è stato aggiornato il partner di attivazione.
-* **Unsegment** = Unsegmentation descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall&#39;opzione del dispositivo utilizzata per creare una regola di unione dei profili. La segmentazione viene utilizzata anche nel contesto delle richieste di eliminazione GDPR, le regole di unione dei [profili di lettura e i processi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) di segmentazione dei dispositivi e i partner di [Audience Manager con funzionalità](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)di segmentazione. Audience Manager invia le informazioni di segmento alle destinazioni contrassegnate con Sì di seguito.
-* **Ricevere i segnali** di consenso IAB TCF = Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa IAB TC ai partner di attivazione rispettando le scelte sulla privacy degli utenti. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **Unsegment** = Unsegmentation descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall&#39;opzione del dispositivo utilizzata per creare una regola di unione dei profili. La segmentazione viene utilizzata anche nel contesto delle richieste di eliminazione GDPR, le regole di unione dei [profili di lettura e i processi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) di ssegmentazione dei dispositivi e [partner Audience Manager con funzionalità](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)di segmentazione.  Audience Manager invia le informazioni di segmento alle destinazioni contrassegnate con Sì di seguito.
+* **Ricevere segnali** di consenso IAB TCF = Il plug-in  Audience Manager per IAB TCF consente di inoltrare la stringa IAB TC ai partner di attivazione rispettando le scelte di privacy degli utenti. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = In questa colonna sono elencati i partner che supportano la soppressione immediata tra dispositivi. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **ID** dispositivo mobile = Questa colonna elenca i partner che possono ricevere gli ID dispositivo mobile da Audience Manager.
+* **ID** dispositivo mobile = Questa colonna elenca i partner che possono ricevere gli ID dispositivo mobile da  Audience Manager.
 
 <br> 
 
@@ -60,7 +61,7 @@ Questa pagina include solo le integrazioni tra [server e server correnti di Audi
 | Centro | 27/02/2017 | No | No | No | Sì |
 | ChoiceStream | 27/02/2017 | No | No | No | No |
 | Clearstream.tv | 27/02/2017 | Sì | No | No | No |
-| Piattaforma AMP collettiva | 27/02/2017 | No | No | No | No |
+| Platform AMP collettivo | 27/02/2017 | No | No | No | No |
 | Criteo | 27/02/2017 | No | Sì | No | Sì |
 | Trasversale | 27/02/2017 | Sì | No | No | No |
 | D.A.C. AudienceOne | 27/02/2017 | Sì | No | No | No |
@@ -116,7 +117,7 @@ Questa pagina include solo le integrazioni tra [server e server correnti di Audi
 | Opera mediaworks | 13/02/2017 | Sì | No | No | Sì |
 | Esterno | 03/04/2017 | Sì | No | No | No |
 | OwnerIQ | 13/02/2017 | Sì | No | Sì | No |
-| Piattaforma 161 | 28/11/2018 | Sì | No | No | Sì |
+| Platform 161 | 28/11/2018 | Sì | No | No | Sì |
 | PocketMath | 22/02/2017 | Sì | No | No | Sì |
 | Collegamenti | 17/05/2017 | Sì | No | No | No |
 | Pubmatico | 13/02/2017 | Sì | No | No | No |
