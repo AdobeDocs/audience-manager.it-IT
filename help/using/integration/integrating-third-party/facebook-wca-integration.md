@@ -4,8 +4,9 @@ seo-description: Questa pagina illustra il processo di creazione dei pixel del p
 seo-title: Integrazione WCA Facebook
 solution: Audience Manager
 title: Integrazione WCA Facebook
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 2%
@@ -56,7 +57,7 @@ Selezionate l’opzione **[!UICONTROL This destination may enable a combination 
 
 ### Configurazione
 
-* **[!UICONTROL URL type]**: Select **[!UICONTROL Website audience for social platforms]**. Selezionando questa [!UICONTROL URL Type] opzione, [!DNL Audience Manager] non nasconde [!DNL URL] le informazioni del referente quando si attiva un [!DNL Facebook WCA] pixel.
+* **[!UICONTROL URL type]**: Select **[!UICONTROL Website audience for social platforms]**. Selezionando questa [!UICONTROL URL Type] opzione, [!DNL Audience Manager] non oscura le [!DNL URL] informazioni del referente quando si attiva un [!DNL Facebook WCA] pixel.
 * **[!UICONTROL Serialize]**: Select **[!UICONTROL Enable]**.
 * Nel campo **[!UICONTROL Base URL]** e **[!UICONTROL Secure URL]** , inserite il [!DNL Facebook WCA] pixel.
 * **[!UICONTROL Delimiter]**: `,`
