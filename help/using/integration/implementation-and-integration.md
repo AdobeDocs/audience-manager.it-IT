@@ -4,8 +4,9 @@ seo-description: Lavora con i dati delle soluzioni Experience Cloud o altri sist
 seo-title: Lavora con i dati delle soluzioni Experience Cloud o altri sistemi esterni in Audience Manager.
 solution: Audience Manager
 title: Guide all’implementazione e all’integrazione
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 60%
