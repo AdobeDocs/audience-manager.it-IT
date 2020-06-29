@@ -4,8 +4,12 @@ seo-description: Cercare uno o più segnali, in base alle rispettive coppie chia
 seo-title: Ricerca segnali per coppie chiave-valore
 title: Ricerca segnali per coppie chiave-valore
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +33,13 @@ Durante la ricerca di segnali utilizzando più coppie chiave-valore, [!DNL Audie
 * [!DNL c_product == "smartphone"]
 * [!DNL c_location == "europe"]
 
-Questa ricerca restituisce solo i risultati idonei per tutti e tre i filtri nella stessa chiamata: `c_creative == "12345"``AND` `c_product == "smartphone"``AND``c_location == "europe"`.
+Questa ricerca restituisce solo i risultati idonei per tutti e tre i filtri nella stessa chiamata: `c_creative == "12345"` `AND` `c_product == "smartphone"` `AND` `c_location == "europe"`.
 
 ![](assets/signals-search.png)
 
 ## Segnali esclusi dalla ricerca del segnale {#excluded-signals}
 
-Le variabili chiave utilizzate da Audience Manager con il prefisso `d_` e `h_` i prefissi non vengono visualizzate da [!UICONTROL Signals Search]. Per informazioni dettagliate, consultate Requisiti [del prefisso per le variabili](../../traits/trait-variable-prefixes.md) chiave.
+Le variabili chiave utilizzate da  Audience Manager e con il prefisso `d_` e `h_` prefissi non vengono visualizzate da [!UICONTROL Signals Search]. Per informazioni dettagliate, consultate Requisiti [del prefisso per le variabili](../../traits/trait-variable-prefixes.md) chiave.
 
 ## Insensibilità alle maiuscole e ricerca Completamento automatico {#case-insensitivity}
 
@@ -50,7 +54,7 @@ Supponiamo di aver [!DNL Audience Manager] ricevuto i seguenti segnali:
 * `PRODUCT == phone`
 * `product == PHONE`
 
-Quando immettete `product` nel campo di ricerca delle chiavi, riceverete suggerimenti `productCategory`, `newProduct`, `PRODUCT`e `product`suggerimenti completati automaticamente.
+Quando immettete `product` nel campo di ricerca delle chiavi, riceverete suggerimenti `productCategory`, `newProduct`, `PRODUCT`e `product`suggerimenti con completamento automatico.
 
 Allo stesso modo, quando eseguite una ricerca `product == phone`, [!UICONTROL Data Explorer] restituisce i risultati sia per `PRODUCT == phone` che per `product == PHONE`.
 Le realizzazioni con tratti con backfill non fanno distinzione tra maiuscole e minuscole. Una caratteristica contenente il segnale con la coppia chiave-valore `PRODUCT == SMARTPHONE` qualifica anche il segnale con la coppia chiave-valore `product == smartphone`.
