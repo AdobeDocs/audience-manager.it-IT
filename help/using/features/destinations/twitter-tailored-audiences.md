@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Configurare l'audience personalizzata di Twitter come destinazione autonoma basata su dispositivo
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '553'
 ht-degree: 1%
 
 ---
@@ -73,5 +73,4 @@ Quando mappate i segmenti di pubblico su [!UICONTROL Twitter], accertatevi di so
 
 ## Considerazioni sui tassi di corrispondenza {#match-rates-considerations}
 
-* Quando si utilizza [!UICONTROL Twitter Tailored Audiences], le [!UICONTROL Segment Addressable Audience] metriche e quelle [!UICONTROL Segment Match Rate] della pagina di destinazione non visualizzeranno alcun valore. Si tratta di un comportamento normale, in quanto l&#39;audience che corrisponde con le percentuali di corrispondenza per questa destinazione viene gestita e ospitata da [!UICONTROL Twitter], non da Adobe.
 * L&#39;integrazione tra  Audience Manager e [!UICONTROL Twitter Tailored Audiences] supporta i backfill storici del pubblico. Tutte le qualifiche del segmento vengono inviate al [!UICONTROL Twitter] momento della creazione della destinazione.
