@@ -1,6 +1,6 @@
 ---
-description: Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l'utilizzo di questo prodotto e di questa documentazione.
-seo-description: Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l'utilizzo di questo prodotto e di questa documentazione.
+description: ' Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l’utilizzo di questo prodotto e di questa documentazione.'
+seo-description: ' Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l’utilizzo di questo prodotto e di questa documentazione.'
 seo-title: Contatti e informazioni legali
 solution: Audience Manager
 title: Contatti e informazioni legali
@@ -9,20 +9,21 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
 # Contatti e informazioni legali {#legal-contact}
 
-Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l&#39;utilizzo di questo prodotto e di questa documentazione.
+
+Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l’utilizzo di questo prodotto e di questa documentazione.
 
 ## Aiuto e supporto tecnico {#technical-support}
 
 Il team Assistenza clienti di Adobe Experience Cloud è a tua disposizione e può essere contattato in vari modi:
 
-* [Consulta le pagine dell’Aiuto di Experience Cloud per consigli, suggerimenti e domande frequenti](https://helpx.adobe.com/support.ec.html)
+* [Consulta le pagine dell’Aiuto di Experience Cloud per consigli, suggerimenti e domande frequenti](https://helpx.adobe.com/it/support.ec.html)
 * [Poni una domanda su Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
 * [Contatta direttamente il team di Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
 * [Verifica la disponibilità e lo stato delle soluzioni Experience Cloud](https://status.adobe.com/)
@@ -35,8 +36,8 @@ In base alla configurazione della soluzione, alcune opzioni descritte in questa 
 
 Published by Adobe Systems Incorporated.
 
-[Condizioni d&#39;uso](https://www.adobe.com/legal/terms.html) | [Centro per la privacy](https://www.adobe.com/privacy.html)
+[Condizioni d&#39;uso](https://www.adobe.com/it/legal/terms.html) | [Centro per la privacy](https://www.adobe.com/it/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [http://www.adobe.com/go/thirdparty_it](https://www.adobe.com/it/products/eula/third_party/).
