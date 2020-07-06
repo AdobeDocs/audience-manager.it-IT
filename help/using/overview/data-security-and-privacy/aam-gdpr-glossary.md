@@ -1,70 +1,70 @@
 ---
-description: Questo articolo illustra i concetti e la terminologia utilizzati dal Regolamento generale europeo sulla protezione dei dati (GDPR), e come  Adobe Audience Manager, in quanto elaboratore di dati, soddisfi i vari requisiti GDPR.
-seo-description: Questo articolo illustra i concetti e la terminologia utilizzati dal Regolamento generale europeo sulla protezione dei dati (GDPR), e come  Adobe Audience Manager, in quanto elaboratore di dati, soddisfi i vari requisiti GDPR.
-seo-title: Glossario GDPR
+description: Questo articolo descrive i concetti e la terminologia utilizzati dal Regolamento generale europeo sulla protezione dei dati (RGPD) e come Adobe Audience Manager, in quanto responsabile del trattamento dei dati, soddisfa i vari requisiti del RGPD.
+seo-description: Questo articolo descrive i concetti e la terminologia utilizzati dal Regolamento generale europeo sulla protezione dei dati (RGPD) e come Adobe Audience Manager, in quanto responsabile del trattamento dei dati, soddisfa i vari requisiti del RGPD.
+seo-title: Glossario RGPD
 solution: Audience Manager
-title: Glossario GDPR
+title: Glossario RGPD
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '724'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Glossario GDPR {#gdpr-glossary}
+# Glossario RGPD {#gdpr-glossary}
 
 ## Panoramica {#overview}
 
-Questo articolo illustra i concetti e la terminologia utilizzati dal Regolamento generale europeo sulla protezione dei dati (GDPR), e come  Adobe Audience Manager, in quanto elaboratore di dati, soddisfi i vari requisiti GDPR.
+Questo articolo descrive i concetti e la terminologia utilizzati dal Regolamento generale europeo sulla protezione dei dati (RGPD) e come Adobe Audience Manager, in quanto responsabile del trattamento dei dati, soddisfa i vari requisiti del RGPD.
 
-Il GDPR è entrato in vigore il 25 maggio 2018 con l&#39;obiettivo principale di dare ai singoli cittadini dell&#39;UE (soggetti di dati) un maggiore controllo sui propri dati personali, semplificando nel contempo il contesto normativo per le imprese internazionali, attraverso una migliore unificazione della regolamentazione all&#39;interno dell&#39;UE. Come parte della preparazione Adobe al GDPR, il team del Adobe Audience Manager  ha migliorato i servizi e i processi necessari per supportare l&#39;accesso e l&#39;eliminazione di richieste da parte di Data Subject, ovvero dei consumatori.
+Il RGPD è entrato in vigore il 25 maggio 2018 con gli obiettivi principali di dare ai singoli utenti dell’UE (gli interessati) un maggiore controllo sui propri dati personali e al tempo stesso semplificare il contesto normativo per le imprese internazionali attraverso una migliore unificazione della regolamentazione all’interno dell’UE. Come parte della preparazione di Adobe al RGPD, il team di Adobe Audience Manager dispone di servizi e processi avanzati necessari per supportare le richieste di accesso ed eliminazione da parte degli interessati, cioè i tuoi consumatori.
 
-Controlla anche di aver letto le [domande frequenti su Experience Cloud GDPR.](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) per una migliore comprensione del funzionamento del GDPR in  Experience Cloud.
+Assicurati anche di aver letto [Experience Cloud RGPD FAQ](https://docs.adobe.com/content/help/it-IT/experience-platform/privacy/home.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) per comprendere meglio come funziona il RGPD in Experience Cloud.
 
-## Glossario GDPR {#gdpr-glossay}
+## Glossario RGPD {#gdpr-glossay}
 
-Acquisisci familiarità con i termini chiave utilizzati in relazione al GDPR. Di seguito sono riportati alcuni dei termini più comunemente utilizzati.
-
- 
-
-**Controller dati:** Il GDPR definisce il &quot;Titolare del trattamento&quot; come &quot;la ... persona giuridica ... che, da sola o congiuntamente con altri, determina le finalità e i mezzi del trattamento dei dati personali.&quot;  clienti Audience Manager sono i Data Controller. I clienti controllano il modo in cui i dati vengono gestiti in  Audience Manager.
+Acquisisci familiarità con i termini chiave utilizzati relativi al RGPD. Di seguito sono riportati alcuni dei termini più comunemente utilizzati.
 
  
 
-**Processore dati:** Il &quot;Processore&quot; è &quot;la ... persona giuridica ... che tratta dati personali per conto del titolare del trattamento&quot;. Nel contesto di  Audience Manager, Adobe, nell&#39;ambito del servizio, agisce come un &quot;processore dati&quot; per tutti i dati personali che elabora per conto del Titolare del trattamento, tramite  Audience Manager. Adobe elabora solo i dati personali secondo le istruzioni del Titolare del trattamento (come indicato nel nostro contratto con il cliente o attraverso azioni intraprese in  Audience Manager).
+**Titolare del trattamento dei dati:** il RGPD definisce il “Titolare del trattamento” come “la ... persona giuridica ... che, singolarmente o insieme ad altri, determina le finalità e i mezzi del trattamento di dati personali.” I clienti di Audience Manager sono titolari del trattamento dei dati. I clienti controllano il modo in cui i dati vengono gestiti in Audience Manager.
 
  
 
-**Oggetto dati:** L&#39;individuo a cui si riferiscono i dati personali. Nel contesto di  Audience Manager, gli oggetti Dati sono  consumatori o utenti finali di Audience Manager. Se Adobe riceve richieste direttamente da Data Subject, queste verranno inoltrate ai rispettivi clienti Audience Manager .
+**Responsabile del trattamento dei dati:** il “Responsabile del trattamento” è “la ... persona giuridica ... che tratta dati personali per conto del titolare del trattamento”. Nel contesto di Audience Manager, Adobe, nel gestire il servizio, agisce come un “responsabile del trattamento dei dati” per tutti i dati personali che tratta per conto del titolare del trattamento tramite Audience Manager. Adobe tratta i dati personali rispettando sempre le istruzioni del titolare del trattamento (come indicato nel nostro contratto con il cliente o attraverso azioni eseguite in Audience Manager).
 
  
 
-**Consenso:** Consenso: &quot;qualsiasi indicazione liberamente data, specifica, informata e senza ambiguità della volontà dell’interessato, mediante una dichiarazione o un’azione chiaramente affermativa, che significhi l’accettazione del trattamento dei dati personali che lo riguardano&quot;. Il consenso è responsabilità del Titolare dei Dati, non di Adobe (tramite  Audience Manager).
+**Interessato:** l’individuo a cui i dati personali si riferiscono. Nel contesto di Audience Manager, gli interessati sono i consumatori o gli utenti finali dei clienti di Audience Manager. Se Adobe riceve richieste direttamente dagli interessati, queste vengono inoltrate ai rispettivi clienti di Audience Manager.
 
  
 
-**Accesso:** Gli interessati hanno il diritto di chiedere al Titolare del trattamento di confermare se il Titolare del trattamento tratta i propri dati personali. Se il Titolare del trattamento tratta i dati personali dell&#39;interessato, deve fornire l&#39;accesso ai dati personali e una copia di essi. I soggetti incaricati del controllo dei dati possono chiedere ad Adobe di fornire assistenza per le richieste di accesso da parte degli interessati.
+**Consenso:** il consenso si riferisce a “qualsiasi manifestazione di volontà libera, specifica, informata e inequivocabile dell’interessato, con la quale lo stesso manifesta il proprio assenso, mediante dichiarazione o azione positiva inequivocabile, che i dati personali che lo riguardano siano oggetto di trattamento”. Il consenso è responsabilità del titolare del trattamento dei dati, non di Adobe (tramite Audience Manager).
 
  
 
-**Elimina:** Il GDPR delinea il &quot;diritto di essere dimenticati&quot; o il &quot;diritto di indire&quot;. Gli interessati hanno il diritto di richiedere ai Controllori dati di cancellare i propri dati personali. I controller dei dati collaborano con i rispettivi processori, incluso Adobe, per supportare le richieste di eliminazione dagli oggetti dati.
+**Accesso:** gli interessati hanno il diritto di chiedere al titolare del trattamento dei dati di comunicare se tratta i loro dati personali. Se il Titolare del trattamento dei dati tratta i dati personali dell’interessato, deve fornire l’accesso ai dati personali e una copia di essi. I titolari del trattamento dei dati possono chiedere ad Adobe di fornire assistenza per le richieste di accesso da parte degli interessati.
 
  
 
-**Correzione:** I soggetti incaricati del trattamento dei dati hanno il diritto di richiedere ai soggetti incaricati del controllo dei dati di rettificare i dati personali inesatti. I controller dei dati collaborano con i processori, incluso Adobe, per supportare le richieste di correzione da parte degli oggetti dati.
+**Cancellazione:** Il RGPD descrive il “diritto all’oblio” o “diritto alla cancellazione”. Gli interessati hanno il diritto di richiedere ai titolari del trattamento dei dati di cancellare i propri dati personali. I titolari del trattamento dei dati collaborano con i rispettivi responsabili del trattamento, incluso Adobe, per supportare le richieste di cancellazione da parte degli interessati.
 
  
 
-**ID Audience Manager:**  Adobe Audience Manager memorizza vari tipi di ID. La pagina [ID](data-privacy-ids.md) Audience Manager fornisce un riepilogo di questi ID, le relative origini dati e brevi descrizioni. Quando invii delle richieste al Adobe Experience Platform Privacy Service [](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html), fai riferimento a tali ID per effettuare richieste di eliminazione o di accesso per i tuoi soggetti dati.
+**Correzione:** gli interessati hanno il diritto di richiedere ai titolari del trattamento dei dati di rettificare i dati personali inesatti. I titolari del trattamento dei dati collaborano con i responsabili del trattamento, incluso Adobe, per supportare le richieste di correzione da parte degli interessati.
 
  
 
-**Dati personali:** Il GDPR amplia la definizione di dati personali. In GDPR, qualsiasi dato presente in  Audience Manager può essere classificato come dato personale a seconda del caso d&#39;uso da parte del cliente.
+**ID (identificatori di Audience Manager):** Adobe Audience Manager memorizza vari tipi di ID. La pagina [Audience Manager Identifiers](data-privacy-ids.md) fornisce un riepilogo di questi ID, le loro sorgenti di dati corrispondenti e brevi descrizioni. Quando invii delle richieste al servizio [Adobe Experience Platform Privacy](https://docs.adobe.com/content/help/it-IT/experience-platform/privacy/home.html), fai riferimento a tali ID per effettuare richieste di cancellazione o di accesso per gli interessati.
 
  
 
-**Dati proibiti:**  Audience Manager impedisce ai clienti di acquisire informazioni direttamente identificabili come nome e cognome, ID e-mail, ID CRM, che possono essere utilizzate per identificare direttamente un individuo. Le soluzioni Adobe Experience Cloud vietano inoltre le informazioni riservate. Per informazioni dettagliate su questi requisiti, fate riferimento al contratto con Adobe. Se questi tipi di punti dati devono essere trasferiti  Audience Manager, consulta il team di consulenza Adobe per consigli su come hashing di questi ID prima dell’assimilazione.
+**Dati personali:** il RGPD amplia la definizione di dati personali. Secondo il RGPD, qualsiasi dato in Audience Manager può essere classificato come dato personale a seconda del caso d’uso del cliente.
+
+ 
+
+**Dati proibiti:** Audience Manager non consente ai clienti di acquisire informazioni direttamente identificabili, come nome e cognome, ID e-mail e ID del sistema di gestione delle relazioni con i clienti, che possono essere utilizzate per identificare direttamente un singolo utente. Le soluzioni Adobe Experience Cloud proibiscono anche le informazioni sensibili. Per informazioni dettagliate su questi requisiti, fai riferimento al contratto con Adobe. Se è necessario che Audience Manager acquisisca questi tipi di punti dati, consulta il team di consulenza di Adobe per raccomandazioni sull’aggiunta di hash a tali ID prima dell’acquisizione.
