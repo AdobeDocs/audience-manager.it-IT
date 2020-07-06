@@ -1,25 +1,26 @@
 ---
-description: Risorse per l'assistenza clienti e problemi legali relativi all'utilizzo di questo prodotto e della documentazione.
-seo-description: Risorse per l'assistenza clienti e problemi legali relativi all'utilizzo di questo prodotto e della documentazione.
-seo-title: Assistenza e legale
+description: Risorse per l’assistenza clienti e problemi legali relativi all’utilizzo di questo prodotto e di questa documentazione.
+seo-description: Risorse per l’assistenza clienti e problemi legali relativi all’utilizzo di questo prodotto e di questa documentazione.
+seo-title: Assistenza e questioni legali
 solution: Audience Manager
-title: Assistenza e legale
+title: Assistenza e questioni legali
 uuid: 522c9b17-3712-4619-9197-15d50eb97045
 feature: Support
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Assistenza e legale{#help-and-legal}
+# Assistenza e questioni legali {#help-and-legal}
 
-Risorse per l&#39;assistenza clienti e problemi legali relativi all&#39;utilizzo di questo prodotto e della documentazione.
+Risorse per l’assistenza clienti e problemi legali relativi all’utilizzo di questo prodotto e di questa documentazione.
 
-* [Se si verifica un problema](/help/using/help-legal/help-problem.md)l&#39;Assistenza clienti è pronta a aiutarti a risolvere eventuali problemi. Fornisci tutte queste informazioni possibili quando contatta l&#39;Assistenza clienti. Questo aiuterà il team a capire e risolvere il problema.
+* [In caso di problemi](/help/using/help-legal/help-problem.md), l’Assistenza clienti è pronta ad aiutarti a risolverli. Fornisci più informazioni possibili tra le seguenti quando contatti l’Assistenza clienti. In questo modo aiuterai il team a capire e risolvere il problema.
 
 
-* [Informazioni](/help/using/help-legal/help-legal-contact.md)legali e di contatto per contattare Adobe e per comprendere i problemi legali relativi all’utilizzo di questo prodotto e della documentazione.
+* [Contact and Legal Information](/help/using/help-legal/help-legal-contact.md)
+Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l’utilizzo di questo prodotto e di questa documentazione.
