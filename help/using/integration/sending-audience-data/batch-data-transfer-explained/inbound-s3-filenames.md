@@ -1,21 +1,21 @@
 ---
 description: Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni di file richiesti per l'invio di dati a  Audience Manager. Impostate i nomi e le dimensioni dei file in base alle seguenti specifiche quando inviate i dati a una directory Audience Manager / Amazon S3 .
 seo-description: Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni di file richiesti per l'invio di dati a  Audience Manager. Impostate i nomi e le dimensioni dei file in base alle seguenti specifiche quando inviate i dati a una directory Audience Manager / Amazon S3 .
-seo-title: Requisiti di nome e dimensione file Amazon S3 per i file di dati in entrata
+seo-title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 solution: Audience Manager
-title: Requisiti di nome e dimensione file Amazon S3 per i file di dati in entrata
+title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 2%
+source-wordcount: '1152'
+ht-degree: 6%
 
 ---
 
 
-# [!DNL Amazon S3] Requisiti di nome e dimensione file per i file di dati in entrata {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3]Requisiti di nome e dimensione file per i file di dati in entrata{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni di file richiesti per l&#39;invio dei dati a [!DNL Audience Manager]. Impostate i nomi e le dimensioni dei file in base alle seguenti specifiche quando inviate i dati a una [!DNL Audience Manager] / [!DNL Amazon S3] directory.
 
@@ -33,7 +33,11 @@ Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni d
 
 Per altri formati di file accettati, consulta Integrazioni [partner](/help/using/integration/sending-audience-data/custom-partner-integrations.md)personalizzate.
 
->[!NOTE] {important=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >[!DNL Audience Manager] elabora solo file [!DNL ASCII] e file [!DNL UTF-8] codificati.
 
@@ -66,7 +70,7 @@ La tabella definisce gli elementi in un nome di [!DNL S3] file.
       <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>ID Android (GAID):</b> Utilizzate l'ID 20914 in un nome file di dati se contiene un ID Android. Ad esempio, <code>...ftp_dpm_20914_21_123456789.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Android. Nota: ID 21 </li> 
       <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID iOS (IDFA):</b> Usa l'ID 20915 in un nome file di dati se contiene ID iOS. Ad esempio, <code>...ftp_dpm_20915_123456789.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID iOS. </li> 
      </ul> 
-    </draft-comment> <p> <p>Nota:  Non utilizzare tipi di ID misti nei file di dati. Ad esempio, se il nome file include l'identificatore Android, non inserire gli ID iOS o i tuoi ID nel file di dati. </p> </p><p>Per ulteriori informazioni, consulta <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Origini</a> dati globali.</p> <p>Vedere anche la <code><i>_DPID_TARGET_DATA_OWNER</i></code> voce seguente. </p> </td> 
+    </draft-comment> <p> <p>Nota:  Non utilizzare tipi di ID misti nei file di dati. Ad esempio, se il nome file include l'identificatore Android, non inserire gli ID iOS o i tuoi ID nel file di dati. </p> </p><p>Per ulteriori informazioni, consulta <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Global Data Sources</a>.</p> <p>Vedere anche la <code><i>_DPID_TARGET_DATA_OWNER</i></code> voce seguente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
@@ -106,7 +110,7 @@ La tabella definisce gli elementi in un nome di [!DNL S3] file.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Quando inviate i file ad Amazon S3, utilizzate solo la compressione gzip. Se compressi, questi file ottengono l' <code> .gz</code> estensione. Non utilizzate la compressione .zip. </p> <p>I file compressi devono essere di almeno 3 GB. Se i file sono più grandi, rivolgiti all'Assistenza clienti. Anche se  Audience Manager può gestire file di grandi dimensioni, possiamo aiutarti a ridurre le dimensioni dei file e rendere più efficiente il trasferimento dei dati. Consulta <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> Compressione file per i file</a>di trasferimento dati in entrata. </p> </td> 
+   <td colname="col2"> <p>Quando inviate i file ad Amazon S3, utilizzate solo la compressione gzip. Se compressi, questi file ottengono l' <code> .gz</code> estensione. Non utilizzate la compressione .zip. </p> <p>I file compressi devono essere di almeno 3 GB. Se i file sono più grandi, rivolgiti all'Assistenza clienti. Anche se  Audience Manager può gestire file di grandi dimensioni, possiamo aiutarti a ridurre le dimensioni dei file e rendere più efficiente il trasferimento dei dati. Consulta <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">File Compression for Inbound Data Transfer Files</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
