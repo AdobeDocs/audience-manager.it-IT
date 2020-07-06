@@ -1,25 +1,25 @@
 ---
-description: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina Rapporti sovrapposizione?
-seo-description: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina Rapporti sovrapposizione?
-seo-title: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina Rapporti sovrapposizione?
+description: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina dei report di sovrapposizione?
+seo-description: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina dei report di sovrapposizione?
+seo-title: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina dei report di sovrapposizione?
 solution: Audience Manager
-title: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina Rapporti sovrapposizione?
+title: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina dei report di sovrapposizione?
 feature: support
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Perché i nostri utenti di sola lettura sono in grado di creare, modificare o eliminare tratti e segmenti?
+# Perché i nostri utenti con accesso in sola lettura sono in grado di creare, modificare o eliminare caratteristiche e segmenti?
 
-## domande
+## Domanda
 
-Perché i nostri utenti di sola lettura sono in grado di creare, modificare o eliminare tratti e segmenti?
+Perché i nostri utenti con accesso in sola lettura sono in grado di creare, modificare o eliminare caratteristiche e segmenti?
 
 ## Risposta
 
-Oltre a creare gruppi e autorizzazioni nella sezione Amministrazione, è necessario contattare l&#39;Assistenza clienti (`amsupport@adobe.com`) per consentire a un rappresentante di abilitare i controlli di accesso basati sul [ruolo (RBAC)](../features/administration/administration-overview.md) per il proprio account.
+Oltre a creare gruppi e autorizzazioni nella sezione amministrazione, devi contattare l’Assistenza clienti (`amsupport@adobe.com`) affinché un rappresentante possa abilitare i [Role Based Access Controls (RBAC)](../features/administration/administration-overview.md) per il tuo account.
