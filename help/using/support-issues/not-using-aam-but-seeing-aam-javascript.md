@@ -1,29 +1,29 @@
 ---
-description: Non stiamo utilizzando  Audience Manager, ma  chiamate Audience Manager Javascript nel debugger Javascript - Perché?
-seo-description: Non stiamo utilizzando, ma  le chiamate Audience Manager Javascript nel debugger Javascript - Perché?
-seo-title: Non stiamo utilizzando  Audience Manager, ma  chiamate Audience Manager Javascript nel debugger Javascript - Perché?
+description: 'Non utilizzo Audience Manager, ma visualizzo chiamate Javascript di Audience Manager nel debugger Javascript: perché?'
+seo-description: 'Non lo utilizzo, ma visualizzo chiamate Javascript di Audience Manager nel debugger Javascript: perché?'
+seo-title: 'Non utilizzo Audience Manager, ma visualizzo chiamate Javascript di Audience Manager nel debugger Javascript: perché?'
 solution: Audience Manager
-title: Non stiamo utilizzando  Audience Manager, ma  chiamate Audience Manager Javascript nel debugger Javascript - Perché?
+title: 'Non utilizzo Audience Manager, ma visualizzo chiamate Javascript di Audience Manager nel debugger Javascript: perché?'
 feature: support
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Non siamo un cliente Audience Manager , ma vedi le  chiamate Audience Manager Javascript sul nostro sito
+# Non sono cliente di Audience Manager, ma visualizzo chiamate Javascript di Audience Manager sul mio sito
 
-## domande
+## Domanda
 
-Non stiamo utilizzando  Adobe Audience Manager, ma  le chiamate Audience Manager Javascript nel debugger Javascript.
+Non utilizzo Adobe Audience Manager, ma visualizzo chiamate Javascript di Audience Manager nel debugger Javascript.
 
-Perché sta succedendo questo?
+Perché succede?
 
 ## Risposta
 
-È probabile che tu stia eseguendo il [Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) sulla tua proprietà. In caso affermativo, se si dispone di questo riferimento  Audience Manager non si fa necessariamente riferimento alla proprietà in esecuzione  Audience Manager. Significa che  Audience Manager sta fornendo questo servizio.
+È probabile che tu stia eseguendo il servizio [Experience Cloud Identity Service](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) sulla tua proprietà. Se è così, questo riferimento a Audience Manager non fa necessariamente riferimento alla proprietà che esegue Audience Manager. Significa, invece, che il tuo servizio è basato su Audience Manager.
 
-La chiamata al server Audience Manager  solitamente viene eseguita per [sincronizzare gli ID](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)cliente.
+La chiamata al server Audience Manager solitamente viene eseguita per [sincronizzare gli ID cliente](https://docs.adobe.com/content/help/it-IT/id-service/using/id-service-api/methods/setcustomerids.html).
