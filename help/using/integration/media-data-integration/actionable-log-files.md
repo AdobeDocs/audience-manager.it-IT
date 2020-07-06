@@ -8,10 +8,10 @@ title: File di registro fruibili
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 3%
+source-wordcount: '1376'
+ht-degree: 4%
 
 ---
 
@@ -153,7 +153,11 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Per un file di [!DNL DCM] registro di dimensioni medie di 2 milioni di righe, tutte le caratteristiche create dai segnali attivabili vengono realizzate entro circa un&#39;ora dopo l&#39;elaborazione dei registri.
 
->[!NOTE] {important=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >La marca temporale dell&#39;evento fornita nei [!DNL DCM] registri verrà rispettata e trasmessa al [!UICONTROL Data Collection Servers].
 >
@@ -299,6 +303,6 @@ Riavviate gli utenti che hanno visto creative 123 ma non hanno fatto clic o conv
 
 >[!MORELIKETHIS]
 >
->* [Importa file di dati DCM in  Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
->* [Report di ottimizzazione dell&#39;audience](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+>* [Importare file di dati DCM in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Rapporti di Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
