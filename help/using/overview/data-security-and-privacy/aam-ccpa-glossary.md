@@ -1,6 +1,6 @@
 ---
-description: In questo articolo vengono illustrati i concetti e la terminologia utilizzati dalla California Consumer Privacy Act (CCPA) e vengono illustrati  Adobe Audience Manager per i vari requisiti CCPA.
-seo-description: In questo articolo vengono illustrati i concetti e la terminologia utilizzati dalla California Consumer Privacy Act (CCPA) e vengono illustrati  Adobe Audience Manager per i vari requisiti CCPA.
+description: In questo articolo vengono illustrati i concetti e la terminologia utilizzati dal California Consumer Privacy Act (CCPA) e i modi in cui Adobe Audience Manager soddisfa i vari requisiti del CCPA.
+seo-description: In questo articolo vengono illustrati i concetti e la terminologia utilizzati dal California Consumer Privacy Act (CCPA) e i modi in cui Adobe Audience Manager soddisfa i vari requisiti del CCPA.
 seo-title: Glossario CCPA
 solution: Audience Manager
 title: Glossario CCPA
@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 ## Panoramica {#overview}
 
-In questo articolo vengono illustrati i concetti e la terminologia utilizzati dalla California Consumer Privacy Act (CCPA), e viene illustrato in che modo  Adobe Audience Manager, in qualità di fornitore di servizi, soddisfa i vari requisiti CCPA.
+In questo articolo vengono illustrati i concetti e la terminologia utilizzati dal California Consumer Privacy Act (CCPA) e i modi in cui Adobe Audience Manager, in qualità di service provider, soddisfa i vari requisiti del CCPA.
 
-La California Consumer Privacy Act (CCPA), entrata in vigore il 1° gennaio 2020, è un&#39;altra opportunità per rendere la privacy una parte integrante della vostra esperienza di consumo.  Audience Manager sta sfruttando l&#39;infrastruttura esistente per la privacy per aiutarvi a rispettare gli obblighi previsti da CCPA quando utilizzate  Audience Manager, consentendo di essere pronti per l&#39;uso di CCPA.
+Il California Consumer Privacy Act (CCPA), entrato in vigore il 1° gennaio 2020, è un’altra opportunità per rendere la privacy una parte integrante dell’esperienza dei consumatori. Audience Manager sfrutta l’infrastruttura esistente a tutela della privacy per aiutarti a rispettare gli obblighi derivanti dal CCPA quando usi Audience Manager, consentendoti di essere preparato al CCPA.
 
- Audience Manager è ansiosa di collaborare con voi per far fronte a eventuali nuovi obblighi attraverso l&#39;uso della governance dei dati e della privacy da parte delle funzionalità di progettazione.
+Audience Manager collabora volentieri con te nella gestione di nuovi obblighi attraverso l’utilizzo di funzionalità di governance dei dati e privacy by design.
 
 ## Glossario CCPA {#CCPA-glossary}
 
-Conoscere i termini chiave utilizzati in relazione all&#39;CCPA. Di seguito sono riportati alcuni dei termini più comunemente utilizzati.
+Acquisisci familiarità con i termini chiave utilizzati relativi al CCPA. Di seguito sono riportati alcuni dei termini più comunemente utilizzati.
 
 **California Consumer Privacy Act (CCPA)**: un disegno di legge che migliora i diritti sulla privacy e la tutela dei consumatori per i residenti dello stato della California, Stati Uniti.
 
@@ -36,23 +36,23 @@ Conoscere i termini chiave utilizzati in relazione all&#39;CCPA. Di seguito sono
 
  
 
-**Informazioni** personali: informazioni che identificano, si riferiscono, descrivono, possono essere associate o ragionevolmente collegate, direttamente o indirettamente, con un particolare consumatore o famiglia. Le informazioni personali comprendono, tra l&#39;altro, informazioni che identificano, si riferiscono, descrivono, possono essere associate o possono essere ragionevolmente collegate, direttamente o indirettamente, a un particolare consumatore.
+**Informazioni personali**: informazioni che identificano, si riferiscono, descrivono, possono essere associate o ragionevolmente collegate, direttamente o indirettamente, a uno specifico consumatore o famiglia. Le informazioni personali comprendono, tra l’altro, informazioni che identificano, si riferiscono, descrivono, possono essere associate o ragionevolmente collegate, direttamente o indirettamente, a uno specifico consumatore.
 
  
 
-**Vendita/Vendita/Vendita/Vendita**: vendere, affittare, divulgare, divulgare, rendere disponibili, trasferire o altrimenti comunicare oralmente, per iscritto, o con mezzi elettronici o di altro tipo, le informazioni personali di un consumatore da parte dell&#39;azienda a un&#39;altra impresa o a terzi, a fini monetari o di altro valore.
+**Vendita**: vendita, affitto, diffusione, divulgazione, messa a disposizione, trasferimento o comunicazione orale, per iscritto o con mezzi elettronici o di altro tipo delle informazioni personali di un consumatore da parte di un’azienda a un’altra o a terzi in cambio di un compenso monetario o di altro valore.
 
  
 
-**Fornitore** di servizi: un&#39;impresa individuale, un&#39;associazione, una società a responsabilità limitata, una società, un&#39;associazione o un&#39;altra persona giuridica che sia organizzata o gestita a beneficio o finanziario dei suoi azionisti o altri proprietari, che tratta informazioni per conto di un&#39;impresa e a cui l&#39;impresa comunica le informazioni personali di un consumatore a fini commerciali ai sensi di un contratto scritto, a condizione che il contratto vieti all&#39;entità che riceve le informazioni di conservare, utilizzare o divulgare le informazioni personali per qualsiasi scopo diverso da quello specifico scopo dell&#39;esecuzione dei servizi specificati nel contratto per l&#39;attività, o come altrimenti consentito dal presente titolo, compresi la conservazione, l&#39;uso o la divulgazione delle informazioni personali a fini commerciali diversi dalla fornitura dei servizi specificati nel contratto con l&#39;attività.
+**Service provider**: un’impresa individuale, partnership, società a responsabilità limitata, società per azioni, associazione o altra persona giuridica che sia organizzata o gestita a fini di profitto o beneficio finanziario dei suoi azionisti o altri proprietari, che tratta informazioni per conto di un’azienda e a cui l’azienda comunica le informazioni personali di un consumatore a fini commerciali ai sensi di un contratto scritto, a condizione che il contratto vieti all’entità che riceve le informazioni di conservare, utilizzare o divulgare le informazioni personali per qualsiasi scopo diverso da quello specifico dell’esecuzione dei servizi indicati nel contratto per l’azienda o altrimenti consentito dal presente titolo, compresi la conservazione, l’uso o la divulgazione delle informazioni personali a fini commerciali diversi dalla fornitura dei servizi specificati nel contratto con l’azienda.
 
  
 
-**Identificatore univoco/Identificatore** personale univoco: un identificatore permanente che può essere utilizzato per riconoscere un consumatore, una famiglia o un dispositivo collegato a un consumatore o a una famiglia, nel tempo e tra servizi diversi, compreso, ma non limitato, un identificatore del dispositivo; un indirizzo del protocollo Internet; cookie, beacon, tag pixel, identificatori di annunci mobili o tecnologia simile; numero cliente, pseudonimo univoco o alias utente; numeri di telefono o altre forme di identificatori persistenti o probabilistici che possono essere utilizzati per identificare un particolare consumatore o dispositivo.
+**Identificatore univoco/Identificatore personale univoco**: un identificatore permanente che può essere utilizzato per riconoscere un consumatore, una famiglia o un dispositivo collegato a un consumatore o a una famiglia, nel corso del tempo e tra servizi diversi, compresi, a titolo esemplificativo, un identificatore del dispositivo; un indirizzo IP (Internet Protocol address); cookie, beacon, tag di pixel, identificatori di annunci per dispositivi mobili o tecnologia simile; numero cliente, pseudonimo univoco o alias utente; numeri di telefono o altre forme di identificatori persistenti o probabilistici che possono essere utilizzati per identificare un particolare consumatore o dispositivo.
 
  
 
 >[!MORELIKETHIS]
 >
->[Panoramica sulla privacy dei dati](/help/using/overview/data-security-and-privacy/data-privacy.md)
+>[Data Privacy Overview](/help/using/overview/data-security-and-privacy/data-privacy.md)
 
