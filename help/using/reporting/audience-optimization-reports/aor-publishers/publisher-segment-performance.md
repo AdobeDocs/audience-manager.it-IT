@@ -1,21 +1,21 @@
 ---
 description: Il rapporto Prestazioni segmento confronta i segmenti mappati e non mappati in base alle impression e alle analisi dei segmenti in tempo reale. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all'interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
 seo-description: Il rapporto Prestazioni segmento confronta i segmenti mappati e non mappati in base alle impression e alle analisi dei segmenti in tempo reale. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confrontando questi diversi tipi di segmenti all'interno e tra i rapporti è possibile ottimizzare le campagne esistenti e individuare i segmenti trascurati che è possibile inviare a una destinazione per il targeting.
-seo-title: Report Prestazioni segmento
+seo-title: Rapporto sulle prestazioni dei segmenti
 solution: Audience Manager
-title: Report Prestazioni segmento
+title: Rapporto sulle prestazioni dei segmenti
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 0%
+source-wordcount: '722'
+ht-degree: 2%
 
 ---
 
 
-# Report Prestazioni segmento{#segment-performance-report}
+# Rapporto sulle prestazioni dei segmenti{#segment-performance-report}
 
 Il rapporto Prestazioni segmento confronta i segmenti mappati e non mappati in base alle impression e alle analisi dei segmenti in tempo reale.
 
@@ -44,7 +44,7 @@ Utilizzate la casella a **[!UICONTROL Segment]** discesa per selezionare i segme
 
 >[!IMPORTANT]
 >
->Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Line Item IDs], come descritto nel Passaggio 3 di [Importa file di dati DFP in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Line Item] anziché come [!UICONTROL Line Item ID].
+>Quando [!UICONTROL Audience Optimization for Publishers]abilitate, dovete includere metadati descrittivi per [!UICONTROL Line Item IDs], come descritto nel Passaggio 3 di [Importa file di dati Google Ad Manager (ex DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Line Item] anziché come [!UICONTROL Line Item ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
