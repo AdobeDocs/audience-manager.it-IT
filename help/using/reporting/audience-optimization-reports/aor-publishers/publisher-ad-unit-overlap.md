@@ -1,21 +1,21 @@
 ---
 description: Il rapporto Overlap unità annuncio viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio.
 seo-description: Il rapporto Overlap unità annuncio viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio.
-seo-title: Sovrapposizione unità annuncio
+seo-title: Sovrapposizione di unità annunci
 solution: Audience Manager
-title: Sovrapposizione unità annuncio
+title: Sovrapposizione di unità annunci
 uuid: e4467e81-acbf-474e-b501-89d57395651f
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
 
-# Sovrapposizione unità annuncio{#ad-unit-overlap}
+# Sovrapposizione di unità annunci{#ad-unit-overlap}
 
 Il **[!UICONTROL Ad Unit Overlap]** rapporto viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio.
 
@@ -33,7 +33,7 @@ Utilizzate i controlli **[!UICONTROL Base Ad Unit]** e **[!UICONTROL Overlap Ad 
 
 >[!IMPORTANT]
 >
->Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Ad Unit IDs], come descritto nel Passaggio 3 di [Importa file di dati DFP in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Ad Unit] anziché come [!UICONTROL Ad Unit ID].
+>Quando [!UICONTROL Audience Optimization for Publishers]abilitate, dovete includere metadati descrittivi per [!UICONTROL Ad Unit IDs], come descritto nel Passaggio 3 di [Importa file di dati Google Ad Manager (ex DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Ad Unit] anziché come [!UICONTROL Ad Unit ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
@@ -59,11 +59,11 @@ Il tuo [!UICONTROL Ad Unit Overlap] rapporto potrebbe essere simile a quello rip
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Sovrapponi numero di analisi delle unità annuncio</span> </p> </td> 
-   <td colname="col2"> <p>Il numero di utenti che hanno visitato gli annunci 9 - 18. Queste informazioni vengono estratte dai registri DFP. </p> </td> 
+   <td colname="col2"> <p>Il numero di utenti che hanno visitato gli annunci 9 - 18. Queste informazioni vengono estratte dai registri di Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Conteggio Uniche Unità Annunci Base</span> </p> </td> 
-   <td colname="col2"> <p>Numero di utenti che hanno visitato gli elementi dell'unità pubblicitaria 1 - 8. Queste informazioni vengono estratte dai registri DFP. </p> </td> 
+   <td colname="col2"> <p>Numero di utenti che hanno visitato gli elementi dell'unità pubblicitaria 1 - 8. Queste informazioni vengono estratte dai registri di Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Sovrapponi numero di uniche</span> </p> </td> 
