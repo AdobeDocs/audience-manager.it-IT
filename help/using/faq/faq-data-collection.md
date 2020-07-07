@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 96%
+source-wordcount: '1066'
+ht-degree: 93%
 
 ---
 
@@ -136,9 +136,9 @@ Sì, [!DNL Audience Manager] può fornirti i dati raccolti per gli utenti che vi
 
 <br> 
 
-**Desidero raccogliere i dati su un sito ed effettuare il targeting degli utenti tramite DFP su un sito diverso. Devo distribuire codice sull’altra proprietà se non desidero raccogliere i dati da tale posizione?**
+**[!DNL Google Ad Manager]Desidero raccogliere i dati su un sito ed effettuare il targeting degli utenti tramite su un sito diverso. Devo distribuire codice sull’altra proprietà se non desidero raccogliere i dati da tale posizione?**
 
-No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL lì. Se disponi dell’accesso all’inventario sul secondo sito tramite DFP, puoi utilizzare la raccolta dati dal sito iniziale ed effettuare il targeting tramite DFP.
+No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL lì. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
 
 <br> 
 
@@ -148,9 +148,9 @@ Ogni provider offre qualcosa di unico, quindi la risposta dipende da cosa stai c
 
 <br> 
 
-**In che modo [!DNL Audience Manager] imposta i cookie e trasmette le variabili a DFP?**
+**In che modo [!DNL Audience Manager] imposta i cookie e trasmette le variabili a[!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] imposta 2 cookie: uno invia le variabili del segmento al tag dell’annuncio DFP e l’altro imposta il nostro ID utente univoco (UUID), che viene letto anche da DFP. L’aggiunta dell’UUID al tag dell’annuncio consente di effettuare reporting e individuare pubblico a livello di utente.
+[!DNL Audience Manager][!DNL Google Ad Manager] imposta 2 cookie: uno invia le variabili del segmento al tag dell’annuncio e l’altro imposta il nostro ID utente univoco (UUID), che viene letto anche da [!DNL Google Ad Manager]. L’aggiunta dell’UUID al tag dell’annuncio consente di effettuare reporting e individuare pubblico a livello di utente.
 
 <br> 
 
