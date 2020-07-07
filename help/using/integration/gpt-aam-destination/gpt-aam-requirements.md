@@ -1,23 +1,23 @@
 ---
-description: Puoi inviare segmenti qualificati a DFP tramite un'integrazione lato client o lato server. I requisiti e le relative informazioni su entrambi i metodi sono elencati di seguito.
-seo-description: Puoi inviare segmenti qualificati a DFP tramite un'integrazione lato client o lato server. I requisiti e le relative informazioni su entrambi i metodi sono elencati di seguito.
-seo-title: Requisiti e metodi per l’invio di segmenti a DFP utilizzando Google Publisher Tag (GPT)
+description: Puoi inviare segmenti qualificati a Google Ad Manager tramite un'integrazione lato client o lato server. I requisiti e le relative informazioni su entrambi i metodi sono elencati di seguito.
+seo-description: Puoi inviare segmenti qualificati a Google Ad Manager tramite un'integrazione lato client o lato server. I requisiti e le relative informazioni su entrambi i metodi sono elencati di seguito.
+seo-title: Requisiti e metodi per l'invio di segmenti a Google Ad Manager tramite i tag Google Publisher (GPT)
 solution: Audience Manager
-title: Requisiti e metodi per l’invio di segmenti a DFP utilizzando Google Publisher Tag (GPT)
+title: Requisiti e metodi per l'invio di segmenti a Google Ad Manager tramite i tag Google Publisher (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 7%
+source-wordcount: '524'
+ht-degree: 0%
 
 ---
 
 
-# Requisiti e metodi per l’invio di segmenti a DFP utilizzando Google Publisher Tag (GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Requirements and Methods of Sending Segments to Google Ad Manager Using Google Publisher Tags ( GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-Puoi inviare segmenti qualificati [!DNL DFP] sia tramite client che tramite un&#39;integrazione lato server. I requisiti e le relative informazioni su entrambi i metodi sono elencati di seguito.
+Puoi inviare segmenti qualificati a [!DNL Google Ad Manager] (già DFP) sia tramite client che tramite un&#39;integrazione lato server. I requisiti e le relative informazioni su entrambi i metodi sono elencati di seguito.
 
 ## Integrazione lato client {#client-side-integration}
 
@@ -47,7 +47,7 @@ La quantità di dati passati dipende [!DNL GPT] dal numero di segmenti per i qua
 
 ## Integrazione lato server {#server-side-integration}
 
-Rivolgiti al tuo consulente Audience Manager  o all&#39;Assistenza clienti per configurare un&#39;integrazione lato server con [!DNL DFP], utilizzando [!DNL GPT]. Dovrai fornire il tuo ID di rete [!DNL DFP] dell&#39;account e l&#39;ID collegamento pubblico.
+Rivolgiti al tuo consulente Audience Manager  o all&#39;Assistenza clienti per configurare un&#39;integrazione lato server con [!DNL Google Ad Manager], utilizzando [!DNL GPT]. Dovrai fornire il tuo ID di rete [!DNL Google Ad Manager] dell&#39;account e l&#39;ID collegamento pubblico.
 
 >[!IMPORTANT]
 >
