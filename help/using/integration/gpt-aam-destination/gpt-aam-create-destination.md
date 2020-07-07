@@ -1,27 +1,27 @@
 ---
-description: Puoi inviare segmenti qualificati a DFP tramite un'integrazione lato client (lato browser) o lato server. Se scegliete l’integrazione sul lato client, dovete creare una destinazione basata su cookie per i tag Google Publisher in  Audience Manager.
-seo-description: Puoi inviare segmenti qualificati a DFP tramite un'integrazione lato client (lato browser) o lato server. Se scegliete l’integrazione sul lato client, dovete creare una destinazione basata su cookie per i tag Google Publisher in  Audience Manager.
+description: Puoi inviare segmenti qualificati a Google Ad Manager tramite un'integrazione lato client (lato browser) o lato server. Se scegliete l’integrazione sul lato client, dovete creare una destinazione basata su cookie per i tag Google Publisher in  Audience Manager.
+seo-description: Puoi inviare segmenti qualificati a Google Ad Manager tramite un'integrazione lato client (lato browser) o lato server. Se scegliete l’integrazione sul lato client, dovete creare una destinazione basata su cookie per i tag Google Publisher in  Audience Manager.
 seo-title: Creare una destinazione GPT
 solution: Audience Manager
 title: Creare una destinazione GPT
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 1%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
 
 # Creare una destinazione GPT {#create-a-gpt-destination}
 
-Puoi inviare segmenti qualificati [!DNL DFP] tramite un&#39;integrazione lato client (lato browser) o lato server. Se scegliete l&#39;integrazione lato client, dovete creare una destinazione basata su cookie per [!DNL Google Publisher Tags] Audience Manager.
+Puoi inviare segmenti qualificati [!DNL Google Ad Manager] tramite un&#39;integrazione lato client (lato browser) o lato server. Se scegliete l&#39;integrazione lato client, dovete creare una destinazione basata su cookie per [!DNL Google Publisher Tags] Audience Manager.
 
 ## Destinazioni 
 
-In  Audience Manager, un *`destination`* è qualsiasi altro sistema (server di annunci, [!DNL DSP]rete di annunci, ecc.) con cui condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire tali processi di consegna dei dati.  funzioni di destinazione Audience Manager si trovano in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]**e segui i passaggi descritti di seguito.
+In  Audience Manager, un *`destination`* è qualsiasi altro sistema (server di annunci, [!DNL DSP]rete di annunci, ecc.) con cui desideri condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire tali processi di consegna dei dati.  funzioni di destinazione Audience Manager si trovano in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]**e segui i passaggi descritti di seguito.
 
 ## Informazioni di base
 
