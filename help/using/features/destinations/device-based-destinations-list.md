@@ -7,7 +7,7 @@ solution: Audience Manager
 title: ' Destinazioni server-to-server di Adobe Audience Manager'
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 71%
@@ -30,7 +30,7 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] correnti basa
 
  
 
-| Integrazione | Ultimo aggiornamento | Aggiornamenti | Separa | Ricezione dei segnali di [!DNL IAB TCF] consenso | [!DNL ICDS] | ID dispositivo mobile |
+| Integrazione | Ultimo aggiornamento | Aggiornamenti | Separa | Ricezione dei segnali di [!DNL IAB TCF] consenso | [!DNL ICDS] | ID di dispositivi mobili |
 |---------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 26/09/2018 | 1xday | Sì | No | No | Sì |
 | [!DNL 4info] | 09/02/2017 | 1xday | No | No | No | Sì |
