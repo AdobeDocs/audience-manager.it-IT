@@ -7,10 +7,10 @@ title: Principali caratteristiche non utilizzate
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Utilizzate la casella a **[!UICONTROL Traits]** discesa per selezionare le carat
 
 >[!IMPORTANT]
 >
->Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel Passaggio 3 di [Importa file di dati DFP in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Order] anziché come [!UICONTROL Order ID].
+>Quando [!UICONTROL Audience Optimization for Publishers]abilitate, dovete includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel Passaggio 3 di [Importa file di dati Google Ad Manager (ex DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Order] anziché come [!UICONTROL Order ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
@@ -90,7 +90,7 @@ Vedere le descrizioni per le informazioni aggiuntive nella tabella sotto il rapp
 
 La posizione delle caratteristiche in un report può fornire informazioni dettagliate sulle caratteristiche che è possibile utilizzare per ottimizzare i segmenti di pubblico esistenti.
 
-Le caratteristiche situate più in alto sull’asse Impressioni sono quelle che desiderate usare nelle campagne. Per le caratteristiche con un numero limitato di impression, è improbabile che si stia raggiungendo questo pubblico sulla proprietà Web, in base ai dati DFP.
+Le caratteristiche situate più in alto sull’asse Impressioni sono quelle che desiderate usare nelle campagne. Per le caratteristiche con un numero limitato di impression, è improbabile che si stia raggiungendo questo pubblico sulla vostra proprietà Web, in base ai [!DNL Google Ad Manager] dati.
 
 Osservate a sinistra dell&#39; [!UICONTROL Unique Trait Realizations] asse per ottenere caratteristiche estremamente precise e a destra per quelle che possono essere ridimensionate.
 
