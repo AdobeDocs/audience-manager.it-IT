@@ -1,22 +1,22 @@
 ---
 description: Configurate DFP come destinazione e inviate  dati del segmento Audience Manager a tale piattaforma.
-seo-description: Configurate DFP come destinazione e inviate  dati del segmento Audience Manager a tale piattaforma.
-seo-title: DFP come destinazione  Audience Manager
+seo-description: Configurate Google Ad Manager come destinazione e inviate  dati del segmento Audience Manager a tale piattaforma.
+seo-title: Google Ad Manager come destinazione  Audience Manager
 solution: Audience Manager
-title: DFP come destinazione  Audience Manager
+title: Google Ad Manager come destinazione  Audience Manager
 uuid: 12d6c2ce-f0fa-4a2c-8b88-fdad634df435
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
 
-# DFP come destinazione  Audience Manager {#dfp-as-an-audience-manager-destination}
+# Google Ad Manager (già DFP) come destinazione Audience Manager  {#dfp-as-an-audience-manager-destination}
 
-Configurate [!DNL DFP] come destinazione e inviate  dati del segmento Audience Manager a tale piattaforma.
+Configurate [!DNL Google Ad Manager] come destinazione e inviate  dati del segmento Audience Manager a tale piattaforma.
 
-La documentazione di questa sezione descrive il metodo obsoleto di integrazione con [!DNL DFP] ed è stata rimossa. Per [!DNL DFP] le integrazioni, consultate [Integrare DFP utilizzando i tag GPT (Google Publisher Tags)](../integration/gpt-aam-destination/gpt-aam-requirements.md).
+La documentazione di questa sezione descrive il metodo obsoleto di integrazione con [!DNL Google Ad Manager] ed è stata rimossa. Per [!DNL Google Ad Manager] le integrazioni, consultate [Integrazione di Google Ad Manager con i tag GPT (Google Publisher Tags)](../integration/gpt-aam-destination/gpt-aam-requirements.md).
