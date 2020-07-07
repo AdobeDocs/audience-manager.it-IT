@@ -1,21 +1,21 @@
 ---
 description: Il rapporto Segment to Ad Unit Overlap (Segmento su unità annuncio) viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio e  segmenti Audience Manager.
 seo-description: Il rapporto Segment to Ad Unit Overlap (Segmento su unità annuncio) viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio e  segmenti Audience Manager.
-seo-title: Sovrapposizione segmento a unità annuncio
+seo-title: Sovrapposizione di segmenti su unità annunci
 solution: Audience Manager
-title: Sovrapposizione segmento a unità annuncio
+title: Sovrapposizione di segmenti su unità annunci
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
 
-# Sovrapposizione segmento a unità annuncio{#segment-to-ad-unit-overlap}
+# Sovrapposizione di segmenti su unità annunci{#segment-to-ad-unit-overlap}
 
 Il rapporto Segment to Ad Unit Overlap (Segmento su unità annuncio) viene visualizzato come grafico a caldo che evidenzia sovrapposizioni elevate e basse tra le unità annuncio e  segmenti Audience Manager.
 
@@ -33,7 +33,7 @@ Utilizzate le **[!UICONTROL Segment Name]** caselle e le **[!UICONTROL Ad Unit]*
 
 >[!IMPORTANT]
 >
->Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Ad Unit IDs], come descritto nel Passaggio 3 di [Importa file di dati DFP in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Ad Unit] anziché come [!UICONTROL Ad Unit ID].
+>Quando [!UICONTROL Audience Optimization for Publishers]abilitate, dovete includere metadati descrittivi per [!UICONTROL Ad Unit IDs], come descritto nel Passaggio 3 di [Importa file di dati Google Ad Manager (ex DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Ad Unit] anziché come [!UICONTROL Ad Unit ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
@@ -59,7 +59,7 @@ Il tuo [!UICONTROL Segment to Ad Unit Overlap] rapporto potrebbe essere simile a
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Conteggio Uniche Unità Annunci</span> </p> </td> 
-   <td colname="col2"> <p>Numero di visitatori per questa specifica unità pubblicitaria. Queste informazioni vengono estratte dai registri DFP. </p> </td> 
+   <td colname="col2"> <p>Numero di visitatori per questa specifica unità pubblicitaria. Queste informazioni vengono estratte dai registri di Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Sovrapponi numero di uniche</span> </p> </td> 
