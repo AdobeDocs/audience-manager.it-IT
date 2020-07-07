@@ -1,21 +1,21 @@
 ---
 description: Il rapporto Trend segmento restituisce i dati sulle impression e i tassi di click-through dei segmenti mappati e non mappati nel tempo. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confronta tendenze e volume per le metriche selezionate per ottenere un'immagine migliore del comportamento dell'audience nel tempo.
 seo-description: Il rapporto Trend segmento restituisce i dati sulle impression e i tassi di click-through dei segmenti mappati e non mappati nel tempo. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Confronta tendenze e volume per le metriche selezionate per ottenere un'immagine migliore del comportamento dell'audience nel tempo.
-seo-title: Report tendenze segmento
+seo-title: Rapporto sulle tendenze dei segmenti
 solution: Audience Manager
-title: Report tendenze segmento
+title: Rapporto sulle tendenze dei segmenti
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 0%
+source-wordcount: '609'
+ht-degree: 2%
 
 ---
 
 
-# Report tendenze segmento{#segment-trend-report}
+# Rapporto sulle tendenze dei segmenti{#segment-trend-report}
 
 Il rapporto Trend segmento restituisce i dati sulle impression e i tassi di click-through dei segmenti mappati e non mappati nel tempo.
 
@@ -45,7 +45,7 @@ Utilizzate la casella a **[!UICONTROL Segment]** discesa per selezionare i segme
 
 >[!IMPORTANT]
 >
->Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Line Item] gli ID, come descritto nel passaggio 3 di [Importa file di dati DFP in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo, assicuratevi che il rapporto descriva la proprietà Web come [!UICONTROL Line Item] invece dell&#39; [!UICONTROL Line Item] ID.
+>Quando attivi [!UICONTROL Audience Optimization for Publishers], devi includere metadati descrittivi per [!UICONTROL Line Item] gli ID, come descritto nel passaggio 3 di [Importa file di dati Google Ad Manager (ex DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo, assicuratevi che il rapporto descriva la proprietà Web come [!UICONTROL Line Item] invece dell&#39; [!UICONTROL Line Item] ID.
 
 ## Interpretazione dei risultati {#interpreting-results}
 
