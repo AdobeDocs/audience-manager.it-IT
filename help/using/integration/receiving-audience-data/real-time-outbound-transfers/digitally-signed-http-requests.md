@@ -7,15 +7,15 @@ title: Richieste HTTP con firma digitale
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4877aa5391193ee2187609fdc9cb3740c91feb96
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
 
-# Richieste con firma digitale `HTTP(S)` {#digitally-signed-http-requests}
+# Digitally Signed `HTTP(S)` Requests {#digitally-signed-http-requests}
 
  Audience Manager richiede la firma digitale per la validità delle richieste `HTTP(S)` server-to-server. Questo documento descrive come firmare `HTTP(S)` le richieste con chiavi private.
 
@@ -90,10 +90,7 @@ La RFC per l&#39;implementazione [!DNL HMAC] hash è [https://www.ietf.org/rfc/r
 
 ## Rotazione della chiave privata {#rotate-private-key}
 
-Per motivi di sicurezza, si consiglia di ruotare periodicamente la chiave privata. Sta a voi decidere la chiave privata e il periodo di rotazione. Per ottenere la rotazione chiave senza tempi di inattività, [!UICONTROL IRIS] è possibile aggiungere più intestazioni firma. Un&#39;intestazione contiene la firma generata con la chiave precedente, un&#39;altra contiene la firma generata con la nuova chiave privata. Consulta i passaggi descritti di seguito:
-
-1. Il partner comunica la nuova chiave privata a [!DNL Adobe Audience Manager].
-1. La vecchia chiave viene rimossa [!DNL Audience Manager] e invia [!UICONTROL IRIS] solo la nuova intestazione della firma. I tasti sono stati ruotati.
+Per ruotare la chiave privata, i partner devono comunicare la nuova chiave privata al loro [!DNL Adobe Audience Manager] consulente. La vecchia chiave viene rimossa [!DNL Audience Manager] e invia [!UICONTROL IRIS] solo la nuova intestazione della firma. I tasti sono stati ruotati.
 
 ## Dati utilizzati per la firma {#data-signing}
 
