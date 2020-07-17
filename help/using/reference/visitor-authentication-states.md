@@ -2,21 +2,21 @@
 description: Lo stato di autenticazione del visitatore in  Audience Manager determina se le nuove informazioni sulle caratteristiche vengono scritte nel profilo autenticato del visitatore o nel profilo del dispositivo da cui sono stati raccolti i dati.  Audience Manager gestisce allo stesso modo gli stati di autenticazione dell’ID visitatore UNKNOWN e LOGGED_OUT nelle chiamate dell’evento.
 keywords: dpm.demdex.net
 seo-description: Lo stato di autenticazione del visitatore in  Audience Manager determina se le nuove informazioni sulle caratteristiche vengono scritte nel profilo autenticato del visitatore o nel profilo del dispositivo da cui sono stati raccolti i dati.  Audience Manager gestisce allo stesso modo gli stati di autenticazione dell’ID visitatore UNKNOWN e LOGGED_OUT nelle chiamate dell’evento.
-seo-title: Stati di autenticazione dei visitatori in  Audience Manager
+seo-title: Stati di autenticazione dei visitatori in Audience Manager
 solution: Audience Manager
-title: Stati di autenticazione dei visitatori in  Audience Manager
+title: Stati di autenticazione dei visitatori in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# Stati di autenticazione dei visitatori in  Audience Manager{#visitor-authentication-states-in-audience-manager}
+# Stati di autenticazione dei visitatori in Audience Manager{#visitor-authentication-states-in-audience-manager}
 
 Lo stato di autenticazione del visitatore in  Audience Manager determina se le nuove informazioni sulle caratteristiche vengono scritte nel profilo autenticato del visitatore o nel profilo del dispositivo da cui sono stati raccolti i dati.  Audience Manager gestisce allo stesso modo gli stati di autenticazione dell’ID visitatore UNKNOWN e LOGGED_OUT nelle chiamate dell’evento.
 
