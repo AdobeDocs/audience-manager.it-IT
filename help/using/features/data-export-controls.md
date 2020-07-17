@@ -1,9 +1,9 @@
 ---
 description: Controlli sull'esportazione dei dati non consentono l'invio di dati alle destinazioni in caso di violazione della privacy dei dati o degli accordi sull'uso dei dati.
 seo-description: Controlli sull'esportazione dei dati non consentono l'invio di dati alle destinazioni in caso di violazione della privacy dei dati o degli accordi sull'uso dei dati.
-seo-title: Controlli sull'esportazione dei dati
+seo-title: Controlli sull’esportazione dei dati
 solution: Audience Manager
-title: Controlli sull'esportazione dei dati
+title: Controlli sull’esportazione dei dati
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 1%
 ---
 
 
-# Controlli sull&#39;esportazione dei dati {#data-export-controls}
+# Controlli sull’esportazione dei dati {#data-export-controls}
 
 [!UICONTROL Data Export Controls] impedire l&#39;invio di dati alle destinazioni in caso di violazione della privacy dei dati o degli accordi sull&#39;utilizzo dei dati.
 
@@ -113,5 +113,5 @@ Inoltre, almeno un&#39;etichetta di esportazione deve corrispondere a un control
 
 Per iniziare, consulta la documentazione sull’origine dati e sulla destinazione. Questi articoli forniscono istruzioni su come aggiungere controlli ed etichette di esportazione alle origini dati e alle destinazioni.
 
-* [Creazione di un&#39;origine dati](../features/manage-datasources.md#create-data-source)
+* [Creare una sorgente di dati](../features/manage-datasources.md#create-data-source)
 * [Aggiungi etichette di esportazione dati a una destinazione](../features/destinations/add-data-export-labels.md)
