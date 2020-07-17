@@ -1,16 +1,16 @@
 ---
 description: Visualizza un elenco delle origini dati attualmente configurate, aggiungi nuove origini dati e modifica le origini dati esistenti.
 seo-description: Visualizza un elenco delle origini dati attualmente configurate, aggiungi nuove origini dati e modifica le origini dati esistenti.
-seo-title: Elenco e impostazioni origini dati
+seo-title: Elenco e impostazioni delle sorgenti di dati
 solution: Audience Manager
-title: Elenco e impostazioni origini dati
+title: Elenco e impostazioni delle sorgenti di dati
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -113,7 +113,7 @@ Selezionare la **[!UICONTROL Inbound]** casella di controllo quando l&#39;origin
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID</span></b>cliente: Identifica i dati in entrata con un ID cliente. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> ID</span></b>Audience Manager : Identifica i dati in entrata con un <span class="keyword"> ID Audience Manager</span> . </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID</span></b>Experience Cloud : Identifica i dati in entrata con un <span class="keyword"> ID Experience Cloud</span> . See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID</span></b>Experience Cloud : Identifica i dati in entrata con un <span class="keyword"> ID Experience Cloud</span> . See <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
