@@ -1,16 +1,16 @@
 ---
 description: Audience Optimization per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per  segmenti Audience Manager nelle tue campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con  metriche dei segmenti Audience Manager per informare le ottimizzazioni incentrate sui segmenti e un mix efficace di canali.
 seo-description: Audience Optimization per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per  segmenti Audience Manager nelle tue campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con  metriche dei segmenti Audience Manager per informare le ottimizzazioni incentrate sui segmenti e un mix efficace di canali.
-seo-title: Ottimizzazione dell'audience per gli inserzionisti
+seo-title: Audience Optimization per gli inserzionisti
 solution: Audience Manager
-title: Ottimizzazione dell'audience per gli inserzionisti
+title: Audience Optimization per gli inserzionisti
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
