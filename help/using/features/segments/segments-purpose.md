@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Segmenti: Finalità, composizione e regole {#segments-purpose-composition-and-rules}
+# Segmenti: finalità, composizione e regole {#segments-purpose-composition-and-rules}
 
 Descrive [!UICONTROL segments]le parti che li compongono e la creazione di regole con [!UICONTROL Segment Builder].
 
 ## Finalità [!UICONTROL Segments]
 
-Un *`segment`* (o *`audience`*) è un insieme di utenti che condividono attributi comuni. In  Audience Manager, potete creare [!UICONTROL segments] con regole sul lato server. Queste regole consentono di creare gruppi di audience in base agli attributi del visitatore del sito, come:
+A *`segment`* (or an *`audience`*) is a set of users who share common attributes. In  Audience Manager, potete creare [!UICONTROL segments] con regole sul lato server. Queste regole consentono di creare gruppi di audience in base agli attributi del visitatore del sito, come:
 
 * Comportamento;
 * Demografia (età, genere, reddito, ecc.);
@@ -37,7 +37,7 @@ Quando mappate Adobe  Analytics [!UICONTROL segments] o suite di rapporti sulla 
 
 >[!TIP]
 >
-> Audience Manager [!UICONTROL segments] è diverso da [!DNL Adobe Analytics] [!UICONTROL segments]. Leggi [Comprensione dei segmenti in  Analytics e  Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.
+> Audience Manager [!UICONTROL segments] è diverso da [!DNL Adobe Analytics] [!UICONTROL segments]. Read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/it-IT/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
 
 ## Crea regole [!UICONTROL Segments] con [!UICONTROL Segment Builder]
 
