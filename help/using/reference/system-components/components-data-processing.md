@@ -1,21 +1,21 @@
 ---
 description: I componenti per l’elaborazione dei dati includono Hadoop, Snowflake, SOLR e Tableau.
 seo-description: I componenti per l’elaborazione dei dati includono Hadoop, Snowflake, SOLR e Tableau.
-seo-title: Componenti di elaborazione dati
+seo-title: Componenti di elaborazione dei dati
 solution: Audience Manager
-title: Componenti di elaborazione dati
+title: Componenti di elaborazione dei dati
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Componenti di elaborazione dati{#data-processing-components}
+# Componenti di elaborazione dei dati{#data-processing-components}
 
 I componenti per l’elaborazione dei dati includono Hadoop, Snowflake, SOLR e Tableau.
 
@@ -47,9 +47,9 @@ I clienti non hanno accesso diretto a questi sistemi. Tuttavia, i clienti collab
 
 Non si tratta di un elenco completo, ma alcuni report comuni della dashboard che [!UICONTROL Snowflake] sono responsabili includono:
 
-* [Report Variazione caratteristica giornaliera](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
+* [Rapporto sulla variazione giornaliera delle caratteristiche](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
 * Tutti i rapporti di sovrapposizione (consultate la sezione Rapporti [](/help/using/reporting/dynamic-reports/dynamic-reports.md) interattivi per informazioni su ciascun rapporto di sovrapposizione).
-* [Report Segnali non utilizzati](/help/using/reporting/dynamic-reports/unused-signals.md)
+* [Rapporto su segnali non utilizzati](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 
