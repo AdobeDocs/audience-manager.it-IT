@@ -1,6 +1,9 @@
 ---
 source-git-commit: dee392312d8e0381c714a99b5d537c767107c9bc
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '329'
+ht-degree: 2%
 
 ---
 # Istruzioni
@@ -9,7 +12,7 @@ translation-type: tm+mt
 
 ## Sommario
 
-+ `TOC.md` nella parte principale della guida utente è disponibile l'organizzazione degli argomenti contenuti nella guida per questa soluzione.
++ `TOC.md` nella parte principale della guida utente è disponibile l&#39;organizzazione degli argomenti contenuti nella guida per questa soluzione.
 + Ogni guida utente avrà una propria guida univoca `TOC.md`, in cui potete ordinare tutte le pagine/gli argomenti in base alle vostre esigenze.
 + La prima pagina di tutte le guide utente è `overview.md`.
 
@@ -20,7 +23,7 @@ translation-type: tm+mt
    + Se nella guida è presente un argomento denominato *Implementazione*, la directory corrispondente è `/implementation`
 + Tutte le risorse immagine sono memorizzate nella `/assets` directory principale della guida utente.
    + Tutte le immagini nella `/assets` directory verranno localizzate.
-   + Tutte le immagini nella `/no-localize` directory non verranno localizzate (c'è una sorpresa!). Questo può essere utilizzato per garantire che nelle versioni localizzate non vengano riprodotte risorse specifiche inutilmente.
+   + Tutte le immagini nella `/no-localize` directory non verranno localizzate (c&#39;è una sorpresa!). Questo può essere utilizzato per garantire che nelle versioni localizzate non vengano riprodotte risorse specifiche inutilmente.
 
 ## Metadati a livello di guida utente
 
@@ -35,7 +38,7 @@ translation-type: tm+mt
 + I metadati necessari per descrivere un documento vengono memorizzati come parte di ogni singola pagina. Ciò include:
    + title - titolo della pagina.
    + descrizione - descrizione della pagina.
-   + seo-title - titolo alternativo.
+   + seo-title - seo titolo alternativo.
    + seo-description - titolo alternativo ai fini del SEO.
    + short-title - (campo facoltativo).
    + index - yes / no - la pagina verrà indicizzata dalla piattaforma di ricerca di Adobe.
