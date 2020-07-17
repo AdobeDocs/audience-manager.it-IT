@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -73,11 +73,11 @@ Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta d
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Contiene una o più coppie di ID provider di dati (<code> DPID</code>) e ID utente provider di dati (<code> DPUUID</code>) assegnati da <span class="keyword"> Audience Manager</span>. Se utilizzate più coppie di <code> DPID</code>s e <code> DPUUID</code>s, separate ogni coppia con il carattere non stampabile <code> %01</code>. Ad esempio: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> sostituisce <code> d_dpid</code> e <code> d_dpuuid</code>, che sono obsoleti ma sono ancora supportati. Consultate <a href="../../../reference/cid.md">CID sostituisce DPID e DPUUID</a> </p> </td>
+   <td colname="col2"> <p>Contiene una o più coppie di ID provider di dati (<code> DPID</code>) e ID utente provider di dati (<code> DPUUID</code>) assegnati da <span class="keyword"> Audience Manager</span>. Se utilizzate più coppie di <code> DPID</code>s e <code> DPUUID</code>s, separate ogni coppia con il carattere non stampabile <code> %01</code>. Ad esempio: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> sostituisce <code> d_dpid</code> e <code> d_dpuuid</code>, che sono obsoleti ma sono ancora supportati. Consulta <a href="../../../reference/cid.md">CID Replaces DPID and DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
-   <td colname="col2"> <p>Contiene un codice di integrazione e un ID utente univoco associato in una coppia chiave-valore singola. </p> <p><code> d_cid_ic</code> sostituisce <code> d_dpid</code> e <code> d_dpuuid</code>, che sono obsoleti ma sono ancora supportati. Consultate <a href="../../../reference/cid.md">CID sostituisce DPID e DPUUID</a> </p> </td>
+   <td colname="col2"> <p>Contiene un codice di integrazione e un ID utente univoco associato in una coppia chiave-valore singola. </p> <p><code> d_cid_ic</code> sostituisce <code> d_dpid</code> e <code> d_dpuuid</code>, che sono obsoleti ma sono ancora supportati. Consulta <a href="../../../reference/cid.md">CID Replaces DPID and DPUUID</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
@@ -123,7 +123,7 @@ Tutte queste opzioni sono facoltative, a meno che non desideriate una risposta d
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Specifica l’ID Experience Cloud  impostato e utilizzato dal servizio <span class="keyword">  ID Experience Cloud</span> . Per ulteriori informazioni sull’ECID, consulta <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il  Experience Cloud Identity Service</a>. </p> </td> 
+   <td colname="col2"> <p>Specifica l’ID Experience Cloud  impostato e utilizzato dal servizio <span class="keyword">  ID Experience Cloud</span> . Per ulteriori informazioni sull’ECID, consulta <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il  Experience Cloud Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
