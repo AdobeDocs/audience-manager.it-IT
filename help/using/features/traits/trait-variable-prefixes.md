@@ -1,21 +1,21 @@
 ---
 description: In questo articolo vengono descritti i prefissi da associare alle variabili chiave per la creazione di regole per le caratteristiche.
 seo-description: In questo articolo vengono descritti i prefissi da associare alle variabili chiave per la creazione di regole per le caratteristiche.
-seo-title: Requisiti del prefisso per le variabili chiave
+seo-title: Requisiti di prefisso delle variabili chiave
 solution: Audience Manager
-title: Requisiti del prefisso per le variabili chiave
+title: Requisiti di prefisso delle variabili chiave
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Requisiti del prefisso per le variabili chiave {#prefix-requirements-for-key-variables}
+# Requisiti di prefisso delle variabili chiave {#prefix-requirements-for-key-variables}
 
 In questo articolo vengono descritti i prefissi da associare alle variabili chiave per la creazione di regole per le caratteristiche.
 
