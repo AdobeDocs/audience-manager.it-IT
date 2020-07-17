@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
 
-# Get User IDs and Regions From a DCS Response {#get-user-ids-and-regions-from-a-dcs-response}
+# Ottenere ID utente e aree geografiche da una risposta DCS {#get-user-ids-and-regions-from-a-dcs-response}
 
 Questa sezione descrive come analizzare una [!DNL DCS] risposta per recuperare gli ID visitatore e regione richiesti per effettuare chiamate in tempo reale al visitatore [!DNL DCS].
 
@@ -33,7 +33,7 @@ Questi parametri sono descritti di seguito. Il codice in *corsivo* rappresenta u
   <tr> 
    <th colname="col1" class="entry"> Parametro </th> 
    <th colname="col2" class="entry"> Tipo di dati </th> 
-   <th colname="col3" class="entry"> Esempio  </th> 
+   <th colname="col3" class="entry"> Esempio </th> 
   </tr> 
  </thead>
  <tbody> 
