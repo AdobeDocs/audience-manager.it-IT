@@ -1,21 +1,21 @@
 ---
 description: Le metriche Collegamento profilo forniscono dati sulle persone e sui dispositivi che eseguono l'autenticazione sul sito. I dati e i grafici in Collegamento profilo si aggiornano dinamicamente durante la creazione di regole di unione o quando si fa clic su una regola esistente dal dashboard Regole di unione profilo. Queste metriche possono includere grafico del dispositivo da Adobe Experience Cloud Device Co-op o da altre origini di grafico del dispositivo di terze parti.
 seo-description: Le metriche Collegamento profilo forniscono dati sulle persone e sui dispositivi che eseguono l'autenticazione sul sito. I dati e i grafici in Collegamento profilo si aggiornano dinamicamente durante la creazione di regole di unione o quando si fa clic su una regola esistente dal dashboard Regole di unione profilo. Queste metriche possono includere grafico del dispositivo da Adobe Experience Cloud Device Co-op o da altre origini di grafico del dispositivo di terze parti.
-seo-title: Metriche dei rapporti per le regole di unione dei profili
+seo-title: Metriche di report per le regole di unione profili
 solution: Audience Manager
-title: Metriche dei rapporti per le regole di unione dei profili
+title: Metriche di report per le regole di unione profili
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Metriche dei rapporti per le regole di unione dei profili {#report-metrics-for-profile-merge-rules}
+# Metriche di report per le regole di unione profili {#report-metrics-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rule] le metriche forniscono dati sulle persone e sui dispositivi che eseguono l&#39;autenticazione sul sito. I dati e i grafici in [!UICONTROL Profile Merge Rule Reports] questione si aggiornano in modo dinamico durante la creazione di una regola di unione o quando si fa clic su una regola esistente dal [!UICONTROL Profile Merge Rules] dashboard. Queste metriche possono includere grafici dispositivo da origini di grafici dispositivo [!DNL Adobe Experience Cloud Device Co-op] o da altre origini di grafici dispositivo di terze parti.
 
