@@ -1,21 +1,21 @@
 ---
 description: In questo articolo viene illustrato come gli strumenti  tratto e segmento Audience Manager utilizzano le espressioni booleane AND, OR e NOT.
 seo-description: In questo articolo viene illustrato come gli strumenti  tratto e segmento Audience Manager utilizzano le espressioni booleane AND, OR e NOT.
-seo-title: Espressioni booleane in Generatore di caratteristiche e segmenti
+seo-title: Espressioni booleane nel Generatore di caratteristiche e segmenti
 solution: Audience Manager
-title: Espressioni booleane in Generatore di caratteristiche e segmenti
+title: Espressioni booleane nel Generatore di caratteristiche e segmenti
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Espressioni booleane in Generatore di caratteristiche e segmenti{#boolean-expressions-in-trait-and-segment-builder}
+# Espressioni booleane nel Generatore di caratteristiche e segmenti{#boolean-expressions-in-trait-and-segment-builder}
 
 In questo articolo viene illustrato come gli strumenti  tratto e segmento Audience Manager utilizzano le espressioni booleane AND, OR e NOT.
 
@@ -51,7 +51,7 @@ Le regole di qualificazione delle caratteristiche e dei segmenti vengono create 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b><span class="wintitle"> AND</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="wintitle"> E</span></b> </p> </td> 
    <td colname="col2"> <p>Requisiti di qualifica per l'audience ridotti e mirati. </p> </td> 
    <td colname="col3"> <p>Gli utenti <i>devono</i> appartenere a tutti i tratti o segmenti specificati. </p> </td> 
   </tr> 
