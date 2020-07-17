@@ -29,7 +29,7 @@ Questa pagina include  integrazioni [](/help/using/features/destinations/add-edi
 
 <br> 
 
-| Integrazione | Aggiornata | Separa | Ricevere segnali di consenso IAB TCF | ICDS | ID dispositivo mobile |
+| Integrazione | Aggiornata | Separa | Ricevere segnali di consenso IAB TCF | ICDS | ID di dispositivi mobili |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
 | Approfondimenti 4C | 26/09/2018 | Sì | No | No | Sì |
 | 4info | 09/02/2017 | No | No | No | Sì |
