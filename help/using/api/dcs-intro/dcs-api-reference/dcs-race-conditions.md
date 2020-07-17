@@ -1,21 +1,21 @@
 ---
 description: Descrive come impedire le condizioni di gara e la gestione degli errori DCS.
 seo-description: Descrive come impedire le condizioni di gara e la gestione degli errori DCS.
-seo-title: Condizioni di gara e gestione errori
+seo-title: Race condition e gestione degli errori
 solution: Audience Manager
-title: Condizioni di gara e gestione errori
+title: Race condition e gestione degli errori
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Condizioni di gara e gestione errori {#race-conditions-and-error-handling}
+# Race condition e gestione degli errori {#race-conditions-and-error-handling}
 
 Descrive come impedire le condizioni di gara e la gestione degli [!DNL DCS] errori.
 
