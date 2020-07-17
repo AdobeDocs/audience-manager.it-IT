@@ -1,9 +1,9 @@
 ---
 description: Utilizzate Origini dati globali per importare ID pubblicitari per dispositivi.
 seo-description: Utilizzate Origini dati globali per importare ID pubblicitari per dispositivi.
-seo-title: Fonti di dati globali
+seo-title: Sorgenti di dati globali
 solution: Audience Manager
-title: Fonti di dati globali
+title: Sorgenti di dati globali
 feature: Data Sources
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
@@ -14,7 +14,7 @@ ht-degree: 5%
 ---
 
 
-# Fonti di dati globali {#global-data-sources}
+# Sorgenti di dati globali {#global-data-sources}
 
 ## Panoramica
 
