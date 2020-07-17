@@ -1,21 +1,21 @@
 ---
 description: Ogni volta che viene elaborato un file da server a server in ingresso, una ricevuta viene inviata via e-mail alle soluzioni partner e, se configurato, al partner.
 seo-description: Ogni volta che viene elaborato un file da server a server in ingresso, una ricevuta viene inviata via e-mail alle soluzioni partner e, se configurato, al partner.
-seo-title: Messaggio di esempio ai partner dopo l'elaborazione in ingresso
+seo-title: Messaggio di esempio ai partner dopo l’elaborazione in entrata
 solution: Audience Manager
-title: Messaggio di esempio ai partner dopo l'elaborazione in ingresso
+title: Messaggio di esempio ai partner dopo l’elaborazione in entrata
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Messaggio di esempio ai partner dopo l&#39;elaborazione in ingresso{#sample-message-to-partners-after-inbound-processing}
+# Messaggio di esempio ai partner dopo l’elaborazione in entrata{#sample-message-to-partners-after-inbound-processing}
 
 Ogni volta che viene elaborato un [!UICONTROL Server-to-Server] file in entrata, una ricevuta viene inviata via e-mail alle soluzioni partner e, se configurata, al partner.
 
