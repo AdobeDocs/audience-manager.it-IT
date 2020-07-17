@@ -1,21 +1,21 @@
 ---
 description: Le etichette di esportazione dei dati funzionano con i controlli di esportazione impostati su un'origine dati. Le etichette di esportazione dei dati non consentono di aggiungere caratteristiche limitate a un segmento e di inviare dati del segmento a una destinazione. Potete impostare più etichette di esportazione su una destinazione di cookie o URL nuova o esistente.
 seo-description: Le etichette di esportazione dei dati funzionano con i controlli di esportazione impostati su un'origine dati. Le etichette di esportazione dei dati non consentono di aggiungere caratteristiche limitate a un segmento e di inviare dati del segmento a una destinazione. Potete impostare più etichette di esportazione su una destinazione di cookie o URL nuova o esistente.
-seo-title: Aggiungi controlli di esportazione dati a una destinazione
+seo-title: Aggiungere controlli sull’esportazione dei dati a una destinazione
 solution: Audience Manager
-title: Aggiungi controlli di esportazione dati a una destinazione
+title: Aggiungere controlli sull’esportazione dei dati a una destinazione
 feature: Data Export Controls
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
 
-# Aggiungi etichette di esportazione dati a una destinazione {#add-data-export-labels}
+# Add Data Export Labels to a Destination {#add-data-export-labels}
 
 [!DNL Data Export Labels] lavorare con l&#39; [!DNL Export Controls] impostazione su un&#39;origine dati. [!DNL Data Export Labels] impedisci di aggiungere caratteristiche limitate a un segmento e di inviare dati di segmento a una destinazione. Potete impostare più etichette di esportazione su una nuova o esistente [!DNL cookie] o su una [!DNL URL] destinazione.
 
@@ -35,6 +35,7 @@ Per aggiungere etichette di esportazione a una destinazione:
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
    >Le restrizioni all&#39;esportazione non funzioneranno se non imposti un controllo [](../../features/data-export-controls.md) di esportazione corrispondente su un&#39;origine dati.
@@ -42,4 +43,4 @@ Per aggiungere etichette di esportazione a una destinazione:
 
 >[!MORELIKETHIS]
 >
->* [Creazione di un&#39;origine dati](../../features/manage-datasources.md#create-data-source)
+>* [Creare una sorgente di dati](../../features/manage-datasources.md#create-data-source)
