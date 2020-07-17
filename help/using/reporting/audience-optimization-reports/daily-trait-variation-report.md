@@ -1,21 +1,21 @@
 ---
 description: Questo rapporto restituisce un elenco di caratteristiche che sono state realizzate almeno 10.000 volte nei 30 giorni precedenti le date selezionate e hanno una deviazione standard maggiore o uguale a 1,7 in entrambe le direzioni nello stesso intervallo di tempo. Il rapporto consente di valutare il modo in cui il numero di impression di utenti univoci in una caratteristica varia nel tempo.
 seo-description: Questo rapporto restituisce un elenco di caratteristiche che sono state realizzate almeno 10.000 volte nei 30 giorni precedenti le date selezionate e hanno una deviazione standard maggiore o uguale a 1,7 in entrambe le direzioni nello stesso intervallo di tempo. Il rapporto consente di valutare il modo in cui il numero di impression di utenti univoci in una caratteristica varia nel tempo.
-seo-title: Report Variazione caratteristica giornaliera
+seo-title: Rapporto sulla variazione giornaliera delle caratteristiche
 solution: Audience Manager
-title: Report Variazione caratteristica giornaliera
+title: Rapporto sulla variazione giornaliera delle caratteristiche
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Report Variazione caratteristica giornaliera {#daily-trait-variation-report}
+# Rapporto sulla variazione giornaliera delle caratteristiche {#daily-trait-variation-report}
 
 Questo rapporto restituisce un elenco di caratteristiche che sono state realizzate almeno 10.000 volte nei 30 giorni precedenti le date selezionate e hanno una deviazione standard maggiore o uguale a 1,7 in entrambe le direzioni nello stesso intervallo di tempo. Il rapporto consente di valutare il modo in cui il numero di impression di utenti univoci in una caratteristica varia nel tempo.
 
