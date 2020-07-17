@@ -1,16 +1,16 @@
 ---
 description: Questi report restituiscono dati sulle impression, i tassi di click-through e le conversioni per un'ampia gamma di dimensioni pubblicitarie. Confronta tendenze e volume per le metriche selezionate per ottenere un quadro migliore delle prestazioni della campagna nel tempo.
 seo-description: Questi report restituiscono dati sulle impression, i tassi di click-through e le conversioni per un'ampia gamma di dimensioni pubblicitarie. Confronta tendenze e volume per le metriche selezionate per ottenere un quadro migliore delle prestazioni della campagna nel tempo.
-seo-title: Report Analisi delle tendenze e analisi del volume
+seo-title: Rapporto sull’analisi delle tendenze e dei volumi
 solution: Audience Manager
-title: Report Analisi delle tendenze e analisi del volume
+title: Rapporto sull’analisi delle tendenze e dei volumi
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
