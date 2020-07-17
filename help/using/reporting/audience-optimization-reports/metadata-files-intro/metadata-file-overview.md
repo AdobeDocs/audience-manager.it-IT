@@ -1,21 +1,21 @@
 ---
 description: Un file di metadati collega gli ID numerici con nomi comprensibili e leggibili. I rapporti di ottimizzazione dell'audience visualizzano nomi leggibili nei menu delle varie opzioni del rapporto.
 seo-description: Un file di metadati collega gli ID numerici con nomi comprensibili e leggibili. I rapporti di ottimizzazione dell'audience visualizzano nomi leggibili nei menu delle varie opzioni del rapporto.
-seo-title: Panoramica e mappature per i file di metadati
+seo-title: Panoramica e mappature dei file di metadati
 solution: Audience Manager
-title: Panoramica e mappature per i file di metadati
+title: Panoramica e mappature dei file di metadati
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Panoramica e mappature per i file di metadati{#overview-and-mappings-for-metadata-files}
+# Panoramica e mappature dei file di metadati{#overview-and-mappings-for-metadata-files}
 
 Un file di metadati collega gli ID numerici con nomi comprensibili e leggibili. I rapporti di ottimizzazione dell&#39;audience visualizzano nomi leggibili nei menu delle varie opzioni del rapporto.
 
@@ -41,7 +41,7 @@ Tuttavia, un file di metadati formattato correttamente può collegare questo cre
 
 Innanzitutto, un file di metadati e tutti i parametri elencati di seguito sono richiesti in una chiamata dell&#39;evento quando desiderate utilizzare i rapporti [di ottimizzazione dell&#39;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience.
 
-In secondo luogo, è necessario un file di metadati se si inviano dati personali [!DNL Audience Manager] o se si desidera visualizzare i dati nei rapporti di altri fornitori con cui non siamo integrati. Ad esempio, [!DNL Audience Manager] dispone di un&#39;integrazione con Google’s [Double-click Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Grazie a questa relazione, [!DNL Audience Manager] è possibile associare gli ID ai nomi e alle descrizioni utilizzati dalle opzioni del rapporto. Senza un&#39;integrazione, è comunque possibile acquisire i dati, ma le opzioni del rapporto mostrano ID numerici invece del nome descrittivo.
+In secondo luogo, è necessario un file di metadati se si inviano dati personali [!DNL Audience Manager] o se si desidera visualizzare i dati nei rapporti di altri fornitori con cui non siamo integrati. Ad esempio, [!DNL Audience Manager] dispone di un&#39;integrazione con Google’s [Double-click Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Grazie a questa relazione, [!DNL Audience Manager] è possibile associare gli ID ai nomi e alle descrizioni utilizzati dalle opzioni del rapporto. Senza un&#39;integrazione, è comunque possibile acquisire i dati, ma le opzioni del rapporto mostreranno ID numerici invece del nome descrittivo.
 
 ![](assets/metadata_menu.png)
 
@@ -63,7 +63,7 @@ Nella tabella seguente sono elencate le coppie chiave-valore che contengono i da
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Inserzionista </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Si tratta dell'ID origine dati dell'inserzionista o del codice di integrazione fornito durante la creazione di un'origine dati. Vedi <a href="../../../features/manage-datasources.md#create-data-source"> Creazione di un'origine</a>dati. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Si tratta dell'ID origine dati dell'inserzionista o del codice di integrazione fornito durante la creazione di un'origine dati. See <a href="../../../features/manage-datasources.md#create-data-source"> Create a Data Source</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Business Unit (BU) </p> </td> 
@@ -126,7 +126,7 @@ In un nome file:
 
 ![](assets/metadata_file_name.png)
 
-Consultate [Convenzioni di denominazione per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)di metadati.
+See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Sommario file
 
@@ -134,15 +134,15 @@ In questo esempio, il contenuto del file riflette gli ID creativi e della campag
 
 ![](assets/metadata_file_contents.png)
 
-Consultate Formato [contenuto per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)di metadati.
+See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### Consegna file
 
-Dopo aver assegnato un nome e aggiunto dati a un file, lo si invia a una directory di memorizzazione Amazon S3 fornita da [!DNL Audience Manager]. Consultate Metodi di [consegna per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md)di metadati.
+Dopo aver assegnato un nome e aggiunto dati a un file, lo si invia a una directory di memorizzazione Amazon S3 fornita da [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
 >* [File di dati per report di ottimizzazione dell&#39;audience](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
->* [Acquisizione dei dati di clic sulla campagna tramite chiamate pixel](../../../integration/media-data-integration/click-data-pixels.md)
->* [Acquisizione dei dati di impressione della campagna attraverso Pixel Calls (Chiamate pixel)](../../../integration/media-data-integration/impression-data-pixels.md)
+>* [Acquisizione dei dati di clic delle campagne attraverso chiamate pixel](../../../integration/media-data-integration/click-data-pixels.md)
+>* [Acquisizione dei dati di impression delle campagne attraverso chiamate pixel](../../../integration/media-data-integration/impression-data-pixels.md)
 
