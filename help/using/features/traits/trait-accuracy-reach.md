@@ -1,21 +1,21 @@
 ---
 description: Descrive la relazione tra precisione e portata nelle caratteristiche algoritmiche.
 seo-description: Descrive la relazione tra precisione e portata nelle caratteristiche algoritmiche.
-seo-title: Precisione e raggiungimento
+seo-title: Precisione e portata
 solution: Audience Manager
-title: Precisione e raggiungimento
+title: Precisione e portata
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Precisione e raggiungimento {#accuracy-and-reach}
+# Precisione e portata {#accuracy-and-reach}
 
 Descrive la relazione tra precisione e portata nelle caratteristiche algoritmiche.
 
