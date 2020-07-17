@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# CID Replaces DPID and DPUUID{#cid-replaces-dpid-and-dpuuid}
+# CID sostituisce DPID e DPUUID{#cid-replaces-dpid-and-dpuuid}
 
 Aggiornate il codice per utilizzare `d_cid` o `d_cid_ic` invece di `d_dpid` e `d_dpuuid`. Le variabili DPID e DPUUID continueranno a funzionare, ma devi considerarle obsolete. Questo include varianti DPID e DPUUID senza `d_ prefix`.
 
 ## DPID e DPUUID: Revisione {#dpid-dpuuid-review}
 
-Il DPID e il DPUUID sono coppie chiave-valore che contengono un ID provider di dati e un ID utente. Queste coppie chiave-valore collegano gli ID del fornitore agli ID utente. Essi inviano dati durante le chiamate dell&#39;evento, per gli eventi di sincronizzazione in ingresso e per le chiamate ID. Senza di essi, [!DNL Audience Manager]e altri servizi o funzionalità, non avrebbe modo di far corrispondere e sincronizzare gli ID. Queste variabili vengono talvolta espresse con o senza il `d_` prefisso come mostrato di seguito. Nota: nel codice, il *corsivo* indica un segnaposto variabile.
+Il DPID e il DPUUID sono coppie chiave-valore che contengono un ID provider di dati e un ID utente. Queste coppie chiave-valore collegano gli ID del fornitore agli ID utente. Essi inviano dati durante le chiamate dell&#39;evento, per gli eventi di sincronizzazione in ingresso e per le chiamate ID. Senza di essi, [!DNL Audience Manager]e altri servizi o funzionalità, non avrebbe modo di far corrispondere e sincronizzare gli ID. Queste variabili vengono talvolta espresse con o senza il `d_` prefisso come mostrato di seguito. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -59,7 +59,7 @@ Le coppie chiave-valore CID e CID_IC sostituiscono DPID e DPUUID. Forniscono le 
 * Il simbolo = separa la chiave dai relativi valori.
 * Il carattere ASCII non stampabile %01 separa i valori.
 
-`d_cid` e `d_cid_ic` utilizzare la sintassi indicata di seguito. Nota: nel codice, il *corsivo* indica un segnaposto variabile.
+`d_cid` e `d_cid_ic` utilizzare la sintassi indicata di seguito. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
@@ -84,7 +84,7 @@ Vedi anche Variabili [URL e Sintassi per gli ID](../features/declared-ids.md#var
 
 >[!NOTE]
 >
->È possibile utilizzare codici di integrazione per le proprie origini dati e per le origini [dati](../features/datasources-list-and-settings.md#settings-menu-options)condivise globali a cui si ha accesso. Ad esempio, è possibile utilizzare i codici di integrazione quando si utilizzano le origini dati degli identificatori mobili. Utilizzate i seguenti codici di integrazione, esattamente come specificato di seguito:
+>È possibile utilizzare codici di integrazione per le origini dati personali e per le origini [dati](../features/datasources-list-and-settings.md#settings-menu-options)condivise globali a cui si ha accesso. Ad esempio, è possibile utilizzare i codici di integrazione quando si utilizzano le origini dati degli identificatori mobili. Utilizzate i seguenti codici di integrazione, esattamente come specificato di seguito:
 
 * **DSID_20914** per GAID, che rappresenta i dispositivi con sistema operativo Android.
 * **DSID_20915** per IDFA, che rappresenta i dispositivi con il sistema operativo iOS.
@@ -97,7 +97,7 @@ Nella tabella seguente sono riportati alcuni esempi per tipo di evento.
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Tipo evento </th> 
-   <th colname="col2" class="entry"> Esempio  </th> 
+   <th colname="col2" class="entry"> Esempio </th> 
   </tr>
  </thead>
  <tbody> 
