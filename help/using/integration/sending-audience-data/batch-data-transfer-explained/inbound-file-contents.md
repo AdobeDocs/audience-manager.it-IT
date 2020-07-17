@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 
-# Contenuto file dati in entrata: Sintassi, caratteri non validi, variabili ed esempi {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Campi, sintassi e regole obbligatori da seguire per la formattazione di un file di dati con caratteristiche in entrata.
 
@@ -64,8 +64,8 @@ La tabella elenca e definisce le variabili utilizzate in un file di dati in entr
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">Un ID dispositivo mobile Android o iOS nel modulo originale e non modificato come esposto dal sistema operativo mobile. </li> 
      </ul> </p> <p>Per gli ID mobili: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
-      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">Formato IDFA: Gli ID devono essere in lettere maiuscole e non con hash. Ad esempio: <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Formato Android: Gli ID devono essere in lettere maiuscole e non con hash. Ad esempio: <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">Formato IDFA: Gli ID devono essere maiuscoli e non con hash. Ad esempio, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Formato Android: Gli ID devono essere in lettere maiuscole e non con hash. Ad esempio, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -93,11 +93,11 @@ Nella tabella seguente sono descritti i prefissi che identificano [!UICONTROL tr
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>Il <code> d_sid </code> prefisso indica al sistema che l’ID è un <span class="keyword"> Audience Manager </span> Trait ID. Si tratta dello stesso ID mostrato nell'interfaccia utente. Potete inoltre restituire gli ID caratteristica con il <code> GET </code> metodo API. Consulta <a href="../../../api/rest-api-main/api-traits.md"> Metodi API per le caratteristiche </a>. </p> </td>
+   <td colname="col2"> <p>Il <code> d_sid </code> prefisso indica al sistema che l’ID è un <span class="keyword"> Audience Manager </span> Trait ID. Si tratta dello stesso ID mostrato nell'interfaccia utente. Potete inoltre restituire gli ID caratteristica con il <code> GET </code> metodo API. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>I dati con prefisso <code> d_unsid </code> rimuovono gli utenti da tale caratteristica. Il <code> d_unsid </code> prefisso viene ignorato in un <code> overwrite </code> file. </p> <p>Il <code> d_unsid= </code> prefisso indica al sistema che l’ID è un <span class="keyword"> Audience Manager </span> Trait ID. Si tratta dello stesso ID mostrato nell'interfaccia utente. Potete inoltre restituire gli ID caratteristica con il <code> GET </code> metodo API. Consulta <a href="../../../api/rest-api-main/api-traits.md"> Metodi API per le caratteristiche </a>. </p> </td>
+   <td colname="col2"> <p>I dati con prefisso <code> d_unsid </code> rimuovono gli utenti da tale caratteristica. Il <code> d_unsid </code> prefisso viene ignorato in un <code> overwrite </code> file. </p> <p>Il <code> d_unsid= </code> prefisso indica al sistema che l’ID è un <span class="keyword"> Audience Manager </span> Trait ID. Si tratta dello stesso ID mostrato nell'interfaccia utente. Potete inoltre restituire gli ID caratteristica con il <code> GET </code> metodo API. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -143,14 +143,14 @@ Nella tabella seguente sono descritti i prefissi che identificano [!UICONTROL tr
  <tbody> 
   <tr> 
    <td colname="col1"> <p>DPUUID </p> </td> 
-   <td colname="col2"> <p><i>Non</i> usate due punti codificati ( <code> %3A </code>) o due punti non codificati ( : ) in DPUUID. </p> </td> 
+   <td colname="col2"> <p><i>Non</i> utilizzate due punti codificati ( <code> %3A </code>) o due punti non codificati ( : ) in DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID dispositivo iOS (IDFA) mobile o Android </p> </td> 
    <td colname="col2"> <p>Gli ID dispositivo mobile devono essere formattati in modo rigoroso come illustrato di seguito: </p> <p> 
      <ul id="ul_6AEFB6CFA54444D9B75F03BCE7916696"> 
-      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">Formato IDFA: Gli ID devono essere in lettere maiuscole e non con hash. Ad esempio: <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Formato Android: Gli ID devono essere in lettere maiuscole e non con hash. Ad esempio: <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">Formato IDFA: Gli ID devono essere maiuscoli e non con hash. Ad esempio, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Formato Android: Gli ID devono essere in lettere maiuscole e non con hash. Ad esempio, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td>
   </tr>
  </tbody>
@@ -508,5 +508,5 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 
 >[!MORELIKETHIS]
 >
->* [Generatore di caratteristiche](../../../features/traits/about-trait-builder.md)
+>* [Generatore di caratteristiche ](../../../features/traits/about-trait-builder.md)
 
