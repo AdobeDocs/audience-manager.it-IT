@@ -1,21 +1,21 @@
 ---
 description: Metodi DELETE e POST che consentono di rimuovere destinazioni e mappature segmenti.
 seo-description: Metodi DELETE e POST che consentono di rimuovere destinazioni e mappature segmenti.
-seo-title: Elimina destinazioni
+seo-title: Eliminare destinazioni
 solution: Audience Manager
-title: Elimina destinazioni
+title: Eliminare destinazioni
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
 
-# Elimina destinazioni {#delete-destinations}
+# Eliminare destinazioni {#delete-destinations}
 
 `DELETE` e `POST` metodi che consentono di rimuovere le destinazioni e le mappature dei segmenti.
 
