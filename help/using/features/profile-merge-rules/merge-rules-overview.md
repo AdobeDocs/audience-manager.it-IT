@@ -1,16 +1,16 @@
 ---
 description: Le regole di unione dei profili consentono di controllare i set di dati utilizzati per la segmentazione e di eseguire il targeting accurato di una persona su più dispositivi.
 seo-description: Le regole di unione dei profili consentono di controllare i set di dati utilizzati per la segmentazione e di eseguire il targeting accurato di una persona su più dispositivi.
-seo-title: Panoramica delle regole di unione dei profili
+seo-title: Panoramica delle regole di unione profili
 solution: Audience Manager
-title: Panoramica delle regole di unione dei profili
+title: Panoramica delle regole di unione profili
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
