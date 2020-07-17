@@ -1,21 +1,21 @@
 ---
 description: Definite le etichette di intestazione delle colonne.
 seo-description: Definite le etichette di intestazione delle colonne.
-seo-title: Glossario degli strumenti di gestione di massa
+seo-title: Glossario degli strumenti di gestione in blocco
 solution: Audience Manager
-title: Glossario degli strumenti di gestione di massa
+title: Glossario degli strumenti di gestione in blocco
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Glossario degli strumenti di gestione di massa{#bulk-management-tools-glossary}
+# Glossario degli strumenti di gestione in blocco{#bulk-management-tools-glossary}
 
 Definite le etichette di intestazione delle colonne.
 
@@ -99,7 +99,7 @@ Definite le etichette di intestazione delle colonne.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule/segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>La caratteristica o la regola del segmento utilizzata per raccogliere i dati. Una richiesta in massa restituisce le regole create in <span class="keyword"> Audience Manager</span> con il generatore <a href="../../features/traits/about-trait-builder.md"> di regole di</a> caratteristica o con il generatore <a href="../../features/segments/segment-builder.md"> di regole di</a>segmento. Potete inoltre utilizzare questi strumenti per creare regole e applicarle in blocco quando aggiornate un segmento o una caratteristica. </p> <p>Vedi anche <a href="../../reference/bulk-management-tools/bulk-rules.md"> Crea o Aggiorna regole caratteristiche e regole</a>segmento. </p> </td> 
+   <td colname="col2"> <p>La caratteristica o la regola del segmento utilizzata per raccogliere i dati. Una richiesta in massa restituisce le regole create in <span class="keyword"> Audience Manager</span> con il generatore <a href="../../features/traits/about-trait-builder.md"> di regole di</a> caratteristica o con il generatore <a href="../../features/segments/segment-builder.md"> di regole di</a>segmento. Potete inoltre utilizzare questi strumenti per creare regole e applicarle in blocco quando aggiornate un segmento o una caratteristica. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
