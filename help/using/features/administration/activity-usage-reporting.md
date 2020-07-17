@@ -2,16 +2,16 @@
 description: La funzione di generazione dei rapporti sull'uso dell'attività consente di visualizzare e monitorare l'utilizzo dell'attività per l'istanza Audience Manager , in modo da poter confrontare l'utilizzo effettivo con l'impegno contrattuale.
 keywords: activity, usage, reporting, commitment
 seo-description: La funzione di generazione dei rapporti sull'uso dell'attività consente di visualizzare e monitorare l'utilizzo dell'attività per l'istanza Audience Manager , in modo da poter confrontare l'utilizzo effettivo con l'impegno contrattuale.
-seo-title: Report sull'utilizzo dell'attività
+seo-title: Reporting sull’utilizzo delle attività
 solution: Audience Manager
-title: Report sull'utilizzo dell'attività
+title: Reporting sull’utilizzo delle attività
 topic: Activity Usage Reporting
 feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Panoramica {#overview}
 
-Questo [!UICONTROL Activity Usage Report] consente di visualizzare e monitorare l&#39;utilizzo dell&#39;attività dell&#39;istanza Audience Manager , fornendo un&#39;idea chiara di come l&#39;utilizzo dell&#39;attività rispetto all&#39;impegno contrattuale.
+Il [!UICONTROL Activity Usage Report] ti consente di visualizzare e monitorare l’utilizzo delle attività dell’istanza di Audience Manager, fornendoti un’idea chiara dell’utilizzo delle attività in confronto all’impegno contrattuale.
 
 Inoltre, puoi scaricare il file [!UICONTROL Activity Usage Report] ogni volta che ti serve, per la conservazione dei record e l&#39;analisi personalizzata.
 
