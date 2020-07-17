@@ -1,15 +1,15 @@
 ---
-description: Le audience predittive ti aiutano a classificare audience sconosciute in persone distinte in tempo reale, utilizzando la scienza dei dati.
-seo-description: Le audience predittive ti aiutano a classificare audience sconosciute in persone distinte in tempo reale, utilizzando la scienza dei dati.
-seo-title: Predictive Audiences Panoramica
+description: Predictive Audiences ti aiuta a classificare tipi di pubblico sconosciuti in utenti tipo distinti in tempo reale utilizzando la scienza dei dati.
+seo-description: Predictive Audiences ti aiuta a classificare tipi di pubblico sconosciuti in utenti tipo distinti in tempo reale utilizzando la scienza dei dati.
+seo-title: Panoramica di Predictive Audiences
 solution: Audience Manager
-title: ' Audience Manager Predictive Audiences'
+title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 >[!IMPORTANT]
 >Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell&#39;utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per ottenere assistenza legale.
 
-In un contesto di marketing, un soggetto è un segmento di pubblico definito da visitatori, utenti o potenziali acquirenti, che condividono un set specifico di caratteristiche, come demografiche, abitudini di navigazione, cronologia acquisti, ecc.
+ In un contesto di marketing, un utente tipo è un segmento di pubblico definito da visitatori, utenti o potenziali acquirenti che condividono un set specifico di caratteristiche come dati demografici, abitudini di navigazione, cronologia acquisti, ecc..
 
-[!UICONTROL Predictive Audiences] questo concetto viene ulteriormente sviluppato grazie alla possibilità di utilizzare  funzionalità di machine learning di Audience Manager per classificare i tipi di pubblico sconosciuti in persone distinte.  Audience Manager consente di ottenere questo risultato calcolando la propensione del pubblico di prime parti sconosciuto per un set di audience di prime parti note.
+I modelli di [!UICONTROL Predictive Audiences] portano questo concetto a un livello successivo, consentendoti di utilizzare le funzionalità di machine learning di Audience Manager per classificare pubblici sconosciuti in utenti tipo distinti. Audience Manager ti consente di ottenere questo risultato calcolando la propensione del pubblico sconosciuto di prime parti per un set di pubblici noti di prime parti.
 
 Quando create un [!UICONTROL Predictive Audiences] modello, il primo passo consiste nella scelta delle caratteristiche o dei segmenti di base per i quali desiderate classificare il pubblico di destinazione. Queste caratteristiche o segmenti definiranno le tue personalità.
 
@@ -105,7 +105,7 @@ Durante la valutazione dei tipi di pubblico di prime parti e l&#39;assegnazione 
 
 Durante la configurazione dei [!UICONTROL Predictive Audiences] modelli, tenere presente le considerazioni e le limitazioni seguenti:
 
-* Potete creare fino a 10 [!UICONTROL Predictive Audiences] modelli.
+* Puoi creare fino a 10 modelli [!UICONTROL Predictive Audiences]. 
 * Per ciascun modello, potete scegliere fino a 50 tratti/segmenti di base.
 * I dati di seconda e terza parte non sono attualmente supportati in [!UICONTROL Predictive Audiences].
 * La classificazione dell&#39;audience viene effettuata solo per audience di prime parti in tempo reale. La classificazione dell&#39;audience di prime parti caricata potrebbe essere supportata in un aggiornamento futuro.
