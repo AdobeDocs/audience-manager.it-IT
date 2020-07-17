@@ -1,9 +1,9 @@
 ---
 description: La pagina dei dettagli di una caratteristica specifica fornisce una panoramica delle informazioni come il nome della caratteristica, l’ID, le metriche delle prestazioni, le espressioni che definiscono la caratteristica, i segmenti a cui appartiene e il registro di controllo delle caratteristiche. Per visualizzare questi dettagli, vai Dati pubblico > Caratteristiche e fai clic sul nome della caratteristica con cui vuoi lavorare.
 seo-description: La pagina dei dettagli di una caratteristica specifica fornisce una panoramica delle informazioni come il nome della caratteristica, l’ID, le metriche delle prestazioni, le espressioni che definiscono la caratteristica, i segmenti a cui appartiene e il registro di controllo delle caratteristiche. Per visualizzare questi dettagli, vai Dati pubblico > Caratteristiche e fai clic sul nome della caratteristica con cui vuoi lavorare.
-seo-title: Pagina Dettagli caratteristica
+seo-title: Pagina dei dettagli delle caratteristiche
 solution: Audience Manager
-title: Pagina Dettagli caratteristica
+title: Pagina dei dettagli delle caratteristiche
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 feature: Traits
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ Vengono [!UICONTROL Trait Graph] visualizzate le informazioni seguenti:
 * **[!UICONTROL Unique Trait Realizations]**: Numero di utenti univoci che lo hanno aggiunto [!UICONTROL trait] al proprio profilo nell&#39;intervallo di tempo specificato.
 * **[!UICONTROL Total Trait Population]**: Il numero di utenti univoci attualmente qualificati per questo [!UICONTROL trait].
 
-* **[!UICONTROL Identity Type Breakdown]**: Le prime tre voci mostrano i primi tre [!UICONTROL cross-device data sources] con il numero di popolazione più elevato che hanno qualificato per il [!UICONTROL trait], in ordine decrescente. La quarta voce mostra la somma di tutte le altre [!DNL DPUUIDs] ([!DNL CRM IDs]) qualificate per il [!UICONTROL trait], da quelle [!UICONTROL cross-device data sources] che non si trovano nelle prime tre. Questo rapporto viene visualizzato solo se selezionate [!UICONTROL Cross-device ID] nel menu a [!UICONTROL Show Results By] discesa in alto a destra della pagina. L&#39;opzione predefinita è [!UICONTROL Device ID], dove il rapporto non viene visualizzato.
+* **[!UICONTROL Identity Type Breakdown]**: Le prime tre voci mostrano i primi tre [!UICONTROL cross-device data sources] con il numero di popolazione più elevato che hanno aderito al progetto, in ordine decrescente [!UICONTROL trait]. La quarta voce mostra la somma di tutte le altre [!DNL DPUUIDs] ([!DNL CRM IDs]) qualificate per il [!UICONTROL trait], da quelle [!UICONTROL cross-device data sources] che non si trovano nelle prime tre. Questo rapporto viene visualizzato solo se selezionate [!UICONTROL Cross-device ID] nel menu a [!UICONTROL Show Results By] discesa in alto a destra della pagina. L&#39;opzione predefinita è [!UICONTROL Device ID], dove il rapporto non viene visualizzato.
 
    ![grafico a tratti](assets/trait-identity.png)
 
@@ -72,7 +72,7 @@ La [!UICONTROL Trait Expression] sezione mostra i criteri che gli utenti devono 
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait] Segmenti {#trait-segments}
+## [!UICONTROL Trait]Segmenti {#trait-segments}
 
 Nella [!UICONTROL Segments with this Trait] sezione sono elencati tutti i segmenti a cui [!UICONTROL trait] appartiene la selezione. Potete fare clic sul nome di un segmento per visualizzare i dettagli su di esso.
 
