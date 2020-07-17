@@ -1,20 +1,20 @@
 ---
 description: 'Questa pagina include istruzioni dettagliate su come creare segmenti di pubblico dai dati dei clienti esclusivamente offline e inviarli alle destinazioni basate sulle persone.  '
 seo-description: 'Questa pagina include istruzioni dettagliate su come creare segmenti di pubblico dai dati dei clienti esclusivamente offline e inviarli alle destinazioni basate sulle persone.  '
-seo-title: Flusso di lavoro B - Personalizzazione basata su dati solo offline
+seo-title: 'Flusso di lavoro B: personalizzazione basata su dati solo offline'
 solution: Audience Manager
-title: Flusso di lavoro B - Personalizzazione basata su dati solo offline
+title: 'Flusso di lavoro B: personalizzazione basata su dati solo offline'
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 
-# Flusso di lavoro B - Personalizzazione basata su dati solo offline {#workflow-b}
+# Flusso di lavoro B: personalizzazione basata su dati solo offline {#workflow-b}
 
 >[!IMPORTANT]
 >Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell&#39;utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per ottenere assistenza legale.
@@ -31,7 +31,7 @@ Il primo passo per la creazione di segmenti di pubblico in questo scenario è po
 
 Indipendentemente dal fatto che gli ID cliente Audience Manager esistenti  ([DPUUID](../../reference/ids-in-aam.md)) siano o meno indirizzi e-mail con hash, è necessario eseguire l&#39;onboarding delle caratteristiche rispetto all&#39;origine dati che contiene i [DPUUID](../../reference/ids-in-aam.md).
 
-### Esempio 
+### Esempio
 
 Desiderate qualificare gli ID cliente dalla tabella seguente per gli ID caratteristica caricati corrispondenti. Consideriamo che i tuoi [DPUUID](../../reference/ids-in-aam.md) sono memorizzati in un&#39;origine dati con l&#39;ID 9999999, e il tuo ID partner Audience Manager  è 123.
 
