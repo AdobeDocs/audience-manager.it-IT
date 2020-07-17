@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 12%
+ht-degree: 32%
 
 ---
 
@@ -21,10 +21,10 @@ Invia dati di audience da altre origini a  Audience Manager.
 
    Informazioni sull&#39;integrazione in tempo reale  Audience Manager.
 
-* [Processo di trasferimento dati batch descritto](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
+* [Batch Data Transfer Process Described](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
    Panoramica generale delle modalità in cui  Audience Manager esegue uno scambio di dati batch asincrono con un fornitore di terze parti.
 
-* [Integrazioni partner personalizzate](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
+* [Integrazioni di partner personalizzate](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
 
    Questa pagina elenca le integrazioni personalizzate tra Audience Manager e partner di dati.
