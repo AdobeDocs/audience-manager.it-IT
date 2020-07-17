@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Caratteristiche cartella: Informazioni {#folder-traits-about}
+# Informazioni sulle caratteristiche cartella {#folder-traits-about}
 
 [!UICONTROL Folder traits] consente di aggregare automaticamente le caratteristiche che risiedono nella stessa cartella e tutte le cartelle figlie in un segmento di targeting.
 
@@ -68,4 +68,4 @@ Scopri come assegnare [!UICONTROL RBAC] le autorizzazioni nella documentazione [
 | Tipo di caratteristica | [!UICONTROL Onboarded traits] e [!UICONTROL algorithmic traits] contribuire al massimo 1 realizzazione alla frequenza [!UICONTROL folder trait]di un |
 | Spostamento delle caratteristiche tra le cartelle | Se si sposta una caratteristica da una cartella a un’altra, la caratteristica specificata verrà rimossa dalla caratteristica della prima cartella e classificata per la seconda [!UICONTROL folder trait]. Questo significa che se eliminate o spostate una caratteristica dalla cartella, gli utenti nella popolazione della caratteristica verranno separati dai segmenti utilizzando la caratteristica della cartella come espressione di segmento. <br> Quando mappate segmenti Adobe  Analytics o suite di rapporti alla vostra organizzazione Experience Cloud ,  Audience Manager crea automaticamente nuovi segmenti e caratteristiche di sola lettura corrispondenti. Non è possibile modificare o modificare la posizione di memorizzazione di queste caratteristiche da  Audience Manager. Tuttavia, qualsiasi modifica eseguita sui segmenti Adobe  Analytics o sulle suite di rapporti mappati viene visualizzata in  Audience Manager. |
 | Variabili di sistema | [!UICONTROL Folder traits] non può essere eseguito nelle chiamate di eventi utilizzando il `d_sid` parametro. |
-| Generazione di rapporti | [!UICONTROL Folder traits] sono caratteristiche create automaticamente e non vengono visualizzate in **[!UICONTROL Overlap Reports]**. |
+| Generazione di report | [!UICONTROL Folder traits] sono caratteristiche create automaticamente e non vengono visualizzate in **[!UICONTROL Overlap Reports]**. |
