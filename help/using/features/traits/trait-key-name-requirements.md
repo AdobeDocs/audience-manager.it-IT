@@ -1,21 +1,21 @@
 ---
 description: Questo articolo descrive le convenzioni di denominazione utilizzate dalla variabile chiave in una coppia chiave-valore.
 seo-description: Questo articolo descrive le convenzioni di denominazione utilizzate dalla variabile chiave in una coppia chiave-valore.
-seo-title: Requisiti del nome per le variabili chiave
+seo-title: Requisiti di denominazione delle variabili chiave
 solution: Audience Manager
-title: Requisiti del nome per le variabili chiave
+title: Requisiti di denominazione delle variabili chiave
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
 
-# Requisiti del nome per le variabili chiave {#name-requirements-for-key-variables}
+# Requisiti di denominazione delle variabili chiave {#name-requirements-for-key-variables}
 
 Questo articolo descrive le convenzioni di denominazione utilizzate dalla variabile chiave in una coppia chiave-valore.
 
