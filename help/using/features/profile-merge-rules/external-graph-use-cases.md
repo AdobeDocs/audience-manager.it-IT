@@ -1,21 +1,21 @@
 ---
 description: Raccomandazioni e casi di utilizzo per la ricerca, il retargeting e la personalizzazione per utenti sconosciuti con un grafico del dispositivo esterno. Un grafico del dispositivo esterno è definito come un grafico del dispositivo separato da  Audience Manager. Questo include Adobe Experience Cloud Device Co-op e altre integrazioni di Adobe con società di grafici di dispositivi deterministici o probabilistici di terze parti.
 seo-description: Raccomandazioni e casi di utilizzo per la ricerca, il retargeting e la personalizzazione per utenti sconosciuti con un grafico del dispositivo esterno. Un grafico del dispositivo esterno è definito come un grafico del dispositivo separato da  Audience Manager. Questo include Adobe Experience Cloud Device Co-op e altre integrazioni di Adobe con società di grafici di dispositivi deterministici o probabilistici di terze parti.
-seo-title: Casi d'uso dei grafici dei dispositivi esterni
+seo-title: Casi d’uso del grafico dei dispositivi esterno
 solution: Audience Manager
-title: Casi d'uso dei grafici dei dispositivi esterni
+title: Casi d’uso del grafico dei dispositivi esterno
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Casi d&#39;uso dei grafici dei dispositivi esterni {#external-device-graph-use-cases}
+# Casi d’uso del grafico dei dispositivi esterno {#external-device-graph-use-cases}
 
 Raccomandazioni e casi di utilizzo per la ricerca, il retargeting e la personalizzazione per utenti sconosciuti con un grafico del dispositivo esterno. Un grafico del dispositivo esterno è definito come un grafico del dispositivo separato da  Audience Manager. Ciò include le [!DNL Adobe Experience Cloud Device Co-op] e altre integrazioni di cui Adobe dispone con società di grafici di dispositivi deterministici o probabilistici di terze parti.
 
@@ -129,7 +129,7 @@ Utilizzando il **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adob
 
 >[!MORELIKETHIS]
 >
->* [Casi di utilizzo del grafico del dispositivo di collegamento profilo](profile-link-use-case.md)
->* [Casi di utilizzo generali per le regole di unione dei profili](merge-rule-targeting-options.md)
+>* [Casi di utilizzo del grafico dei dispositivi di collegamento dei profili](profile-link-use-case.md)
+>* [Casi d’uso generali per le regole di unione profili](merge-rule-targeting-options.md)
 >* [Domande frequenti sulle regole di unione dei profili](../../faq/faq-profile-merge.md)
 
