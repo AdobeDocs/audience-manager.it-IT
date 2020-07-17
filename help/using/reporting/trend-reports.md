@@ -1,21 +1,21 @@
 ---
 description: Un report Trend restituisce dati di tendenza su caratteristiche e segmenti.
 seo-description: Un report Trend restituisce dati di tendenza su caratteristiche e segmenti.
-seo-title: Report tendenze
+seo-title: Rapporti sulle tendenze
 solution: Audience Manager
-title: Report tendenze
+title: Rapporti sulle tendenze
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: general & trend reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Report tendenze{#trend-reports}
+# Rapporti sulle tendenze{#trend-reports}
 
 Un report Trend restituisce dati di tendenza su caratteristiche e segmenti.
 
