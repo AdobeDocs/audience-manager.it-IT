@@ -1,21 +1,21 @@
 ---
 description: Mappatura dei segmenti sulle destinazioni con questi metodi RESTful API.
 seo-description: Mappatura dei segmenti sulle destinazioni con questi metodi RESTful API.
-seo-title: Mappare i segmenti su una destinazione
+seo-title: Mappare segmenti su una destinazione
 solution: Audience Manager
-title: Mappare i segmenti su una destinazione
+title: Mappare segmenti su una destinazione
 uuid: 35358ace-3082-4e86-a6eb-d77281af6d7e
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
 
-# Mappare i segmenti su una destinazione {#map-segments-to-a-destination}
+# Mappare segmenti su una destinazione {#map-segments-to-a-destination}
 
 Mappatura dei segmenti sulle destinazioni con questi [!DNL RESTful API] metodi.
 
@@ -482,7 +482,7 @@ Restituisce un array di mappature create.
 ]
 ```
 
-## Aggiornamento di una destinazione per ID destinazione {#update-dest-data-order}
+## Update a Destination by Destination ID {#update-dest-data-order}
 
 Metodo `PUT` che consente di aggiornare una destinazione esistente per `destinationId`.
 
@@ -584,7 +584,7 @@ Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 >[!MORELIKETHIS]
 >
->* [Destinazioni](../../../features/destinations/destinations.md)
+>* [Destinazioni ](../../../features/destinations/destinations.md)
 >* [Serializzazione delle destinazioni](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Spiegazione delle coppie chiave-valore](../../../reference/key-value-pairs-explained.md)
 
