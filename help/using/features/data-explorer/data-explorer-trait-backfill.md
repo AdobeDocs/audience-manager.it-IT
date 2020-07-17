@@ -1,20 +1,20 @@
 ---
 description: Realizzazioni delle caratteristiche di backfill per catturare i tipi di pubblico storici ed evitare la perdita di dati rilevanti prima di una data di creazione delle caratteristiche.
 seo-description: Realizzazioni delle caratteristiche di backfill per catturare i tipi di pubblico storici ed evitare la perdita di dati rilevanti prima di una data di creazione delle caratteristiche.
-seo-title: Realizzazioni caratteristica backfill
-title: Realizzazioni caratteristica backfill
+seo-title: Realizzazioni di caratteristiche di backfill
+title: Realizzazioni di caratteristiche di backfill
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Realizzazioni caratteristica backfill {#backfill-trait-realizations}
+# Realizzazioni di caratteristiche di backfill {#backfill-trait-realizations}
 
 Realizzazioni delle caratteristiche di backfill per catturare i tipi di pubblico storici ed evitare la perdita di dati rilevanti prima di una data di creazione delle caratteristiche.
 
