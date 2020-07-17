@@ -1,21 +1,21 @@
 ---
 description: Il dashboard Caratteristiche è un'area di lavoro centralizzata per la gestione delle caratteristiche.
 seo-description: Il dashboard Caratteristiche è un'area di lavoro centralizzata per la gestione delle caratteristiche.
-seo-title: Pannello Caratteristiche
+seo-title: Dashboard delle caratteristiche
 solution: Audience Manager
-title: Pannello Caratteristiche
+title: Dashboard delle caratteristiche
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Pannello Caratteristiche {#traits-dashboard}
+# Dashboard delle caratteristiche {#traits-dashboard}
 
 Il dashboard [Caratteristiche](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) è un&#39;area di lavoro centralizzata per la gestione delle caratteristiche. Per visualizzare il [!UICONTROL Traits] dashboard, passa a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
 
