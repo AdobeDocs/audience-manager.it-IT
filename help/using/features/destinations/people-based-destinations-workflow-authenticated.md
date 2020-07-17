@@ -1,20 +1,20 @@
 ---
 description: 'Questa pagina include istruzioni dettagliate su come combinare dati CRM offline con dati comportamentali in tempo reale per gli utenti autenticati per creare segmenti di pubblico, quindi inviare questi segmenti di pubblico a Destinazioni basate su persone. '
 seo-description: 'Questa pagina include istruzioni dettagliate su come combinare dati CRM offline con dati comportamentali in tempo reale per gli utenti autenticati per creare segmenti di pubblico, quindi inviare questi segmenti di pubblico a Destinazioni basate su persone.  '
-seo-title: Flusso di lavoro C - Personalizzazione basata su attività autenticata combinata con dati offline
+seo-title: 'Flusso di lavoro C: personalizzazione basata su attività autenticate combinate con dati offline'
 solution: Audience Manager
-title: Flusso di lavoro C - Personalizzazione basata su attività autenticata combinata con dati offline
+title: 'Flusso di lavoro C: personalizzazione basata su attività autenticate combinate con dati offline'
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Flusso di lavoro C - Personalizzazione basata su attività autenticata combinata con dati offline {#workflow-c}
+# Flusso di lavoro C: personalizzazione basata su attività autenticate combinate con dati offline {#workflow-c}
 
 >[!IMPORTANT]
 >Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell&#39;utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per ottenere assistenza legale.
@@ -60,7 +60,7 @@ Guardate il video seguente per un&#39;esercitazione video su come creare un&#39;
 
 Per qualificare gli utenti autenticati per le caratteristiche basate su regola, devi inviare la qualifica alla caratteristica tramite ID [](../declared-ids.md)dichiarati.
 
-### Esempio 
+### Esempio
 
 Supponiamo che siano state create le due seguenti origini dati.
 
@@ -73,7 +73,7 @@ Supponiamo che siano state create le due seguenti origini dati.
 
 Quindi, vuoi qualificare gli ID CRM di seguito per la caratteristica nella tabella.
 
-| DPUUID (ID CRM) | Indirizzo e-mail | Indirizzo e-mail con hash | Caratteristiche |
+| DPUUID (ID CRM) | Indirizzo e-mail | Indirizzo e-mail con hash | Caratteristica |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
