@@ -1,20 +1,20 @@
 ---
 description: Ottimizzate le attività di ricerca del segnale salvando fino a 10 set di criteri di ricerca da utilizzare ogni volta che ne avete bisogno, e teneteli traccia sul dashboard.  Audience Manager ricarica le ricerche salvate ogni volta che caricate il dashboard.
 seo-description: Ottimizzate le attività di ricerca del segnale salvando fino a 10 set di criteri di ricerca da utilizzare ogni volta che ne avete bisogno, e teneteli traccia sul dashboard.  Audience Manager ricarica le ricerche salvate ogni volta che caricate il dashboard.
-seo-title: Salva criteri di ricerca
-title: Salva criteri di ricerca
+seo-title: Salvare criteri di ricerca
+title: Salvare criteri di ricerca
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Salva criteri di ricerca {#save-search-criteria}
+# Salvare criteri di ricerca {#save-search-criteria}
 
 Ottimizzate le attività di ricerca del segnale salvando fino a 10 set di criteri di ricerca da utilizzare ogni volta che ne avete bisogno, e teneteli traccia sul [!UICONTROL Signals Dashboard].  Audience Manager ricarica le ricerche salvate ogni volta che caricate il [!UICONTROL Signals Dashboard].
 
