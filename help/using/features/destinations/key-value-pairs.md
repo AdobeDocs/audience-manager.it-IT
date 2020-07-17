@@ -1,21 +1,21 @@
 ---
 description: Una coppia chiave-valore è costituita da elementi correlati Una chiave, una costante che definisce il set di dati (ad esempio, genere, colore, prezzo) e un valore, che è una variabile che appartiene al set (ad esempio, maschio/femmina, verde, 100). Generatore di destinazione invia dati formattati come coppie chiave-valore.
 seo-description: Una coppia chiave-valore è costituita da elementi correlati Una chiave, una costante che definisce il set di dati (ad esempio, genere, colore, prezzo) e un valore, che è una variabile che appartiene al set (ad esempio, maschio/femmina, verde, 100). Generatore di destinazione invia dati formattati come coppie chiave-valore.
-seo-title: Coppie chiave standard e seriale
+seo-title: Coppie chiave-valore standard e seriali
 solution: Audience Manager
-title: Coppie chiave standard e seriale
+title: Coppie chiave-valore standard e seriali
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Coppie chiave standard e seriale {#standard-and-serial-key-value-pairs}
+# Coppie chiave-valore standard e seriali {#standard-and-serial-key-value-pairs}
 
 Una coppia chiave-valore è costituita da elementi correlati: Una chiave, che è una costante che definisce il set di dati (ad es., genere, colore, prezzo) e un valore, che è una variabile che appartiene al set (ad es., maschio/femmina, verde, 100). [!UICONTROL Destination Builder] invia dati formattati come coppie chiave-valore.
 
@@ -27,7 +27,7 @@ Completamente formato, un set di base di coppie chiave-valore potrebbe essere si
 * `color = green`
 * `price > 100`
 
-## Coppie chiave standard e seriale {#standard-serial-key-value-pairs}
+## Coppie chiave-valore standard e seriali {#standard-serial-key-value-pairs}
 
 Le destinazioni accettano i dati chiave-valore in *`standard`* o in *`serialized`* formato.
 
@@ -74,7 +74,7 @@ Grazie a [!UICONTROL Destination Builder] questa opzione è possibile formattare
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Esempi di coppia chiave-valore </th> 
-   <th colname="col2" class="entry"> Esempio  </th> 
+   <th colname="col2" class="entry"> Esempio </th> 
    <th colname="col3" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
