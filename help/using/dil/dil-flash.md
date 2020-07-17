@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,7 @@ c_flash_dil_intro.xml
 
 [!UICONTROL Flash] la raccolta dei dati richiede:
 
-* La libreria [!UICONTROL DIL] di classi ( `dil.swc`). Ottenete la libreria delle [!UICONTROL DIL] classi dal vostro contatto Soluzioni partner.
+* La libreria [!UICONTROL DIL] di classi ( `dil.swc`). Ottenete la libreria delle [!UICONTROL DIL] classi dal contatto Soluzioni partner.
 
 * Codice di raccolta dati JavaScript [!UICONTROL DIL] sulla pagina.
 * [Libreria](../dil/dil-flash.md#flash-dil-actionscript) DIL ActionScript caricata nell&#39;oggetto Flash da cui si desidera raccogliere i dati.
@@ -158,8 +158,8 @@ s.loadModule(d);
 
 >[!MORELIKETHIS]
 >
->* [Caratteristiche](../features/traits/trait-details-page.md)
+>* [Caratteristiche ](../features/traits/trait-details-page.md)
 >* [Segnali, caratteristiche e segmenti](../reference/signal-trait-segment.md)
 >* [Spiegazione delle coppie chiave-valore](../reference/key-value-pairs-explained.md)
->* [Requisiti del prefisso per le variabili chiave](../features/traits/trait-variable-prefixes.md)
+>* [Requisiti di prefisso delle variabili chiave](../features/traits/trait-variable-prefixes.md)
 
