@@ -1,21 +1,21 @@
 ---
 description: Utilizzate il dashboard per visualizzare informazioni sui conteggi dei visitatori univoci dei vostri partner suddivisi per tipi di caratteristiche e segmenti per un intervallo di tempo specificato.
 seo-description: Utilizzate il dashboard per visualizzare informazioni sui conteggi dei visitatori univoci dei vostri partner suddivisi per tipi di caratteristiche e segmenti per un intervallo di tempo specificato.
-seo-title: Pannello Rapporti
+seo-title: Dashboard dei report
 solution: Audience Manager
-title: Pannello Rapporti
+title: Dashboard dei report
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Pannello Rapporti {#reports-dashboard}
+# Dashboard dei report {#reports-dashboard}
 
 Utilizzate il dashboard per visualizzare informazioni sui conteggi dei visitatori univoci suddivisi per tipo di caratteristiche e segmenti, per un intervallo di tempo specificato.
 
