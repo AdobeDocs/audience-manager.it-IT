@@ -1,15 +1,15 @@
 ---
 description: Questo articolo spiega come configurare l'audience personalizzata per Twitter per le integrazioni nuove ed esistenti.
 seo-description: Questo articolo spiega come configurare l'audience personalizzata per Twitter per le integrazioni nuove ed esistenti.
-seo-title: Configurare l'audience personalizzata di Twitter come destinazione autonoma basata su dispositivo
+seo-title: Configurare pubblici personalizzati di Twitter come una destinazione self-service basata su dispositivi
 solution: Audience Manager
-title: Configurare l'audience personalizzata di Twitter come destinazione autonoma basata su dispositivo
+title: Configurare pubblici personalizzati di Twitter come una destinazione self-service basata su dispositivi
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -62,7 +62,7 @@ Quando mappate i segmenti di pubblico su [!UICONTROL Twitter], accertatevi di so
 * Fornisci nomi di mappatura dei segmenti leggibili dall’utente. È consigliabile utilizzare lo stesso nome utilizzato per i segmenti Audience Manager .
 * Non utilizzare caratteri speciali (`,``%` `:``;` `@``/``=` `?` `$`) nei nomi di mappatura segmenti e segmenti. Se il nome  segmento Audience Manager contiene questi caratteri, rimuoverli prima di mappare il segmento a una [!UICONTROL Twitter] destinazione.
 
-### Esempio 
+### Esempio
 
 * Correggi il nome del segmento o della mappatura: &quot;Acquirenti statunitensi ed europei&quot;;
 * Nome segmento o mappatura errato: &quot;US, European 5h0pP3rs&quot;.
