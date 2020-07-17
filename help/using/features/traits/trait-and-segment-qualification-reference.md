@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Riferimento per la qualifica di caratteristica e segmento {#trait-qualification-reference}
+# Riferimenti per la qualifica di caratteristiche e segmenti {#trait-qualification-reference}
 
 La qualifica di caratteristica, o realizzazione di caratteristiche, viene trattata in modo diverso in  Audience Manager, a seconda del tipo di caratteristica. Per informazioni dettagliate sulla qualifica del tipo di caratteristica, consulta Qualificazione [caratteristica per tipo](#trait-type) di caratteristica.
 
@@ -32,7 +32,7 @@ Per ulteriori informazioni sulla qualifica del segmento, consulta Popolazione se
 | Caratteristiche di bordo | La qualifica di caratteristica avviene dopo l&#39;elaborazione di un file in entrata, ovvero il file in ingresso viene [importato in  Audience Manager](../../faq/faq-inbound-data-ingestion.md) , ovvero quando si verifica la qualifica di caratteristica. Prima di caricare un file in entrata per l’elaborazione, è necessario attendere circa 4 ore dopo aver creato una caratteristica caricata. Per le caratteristiche registrate, il numero massimo di qualifiche per un profilo utente è 1. |
 | Caratteristiche algoritmiche | Per le caratteristiche algoritmiche, il numero massimo di qualifiche per un profilo utente è 1. |
 | Caratteristiche delle cartelle | Una caratteristica della cartella riassume le caratteristiche delle caratteristiche che contiene. Leggi caratteristiche [cartella: Informazioni](about-folder-traits.md) per ulteriori informazioni. |
-| Caratteristiche di pubblico attive e caratteristiche sincronizzate dell&#39;origine dati | Una [!UICONTROL Active Audience] caratteristica contiene tutti i dispositivi in gestione nel vostro account Audience Manager . [!UICONTROL Data Source Synced Traits] tenere traccia di tutti gli utenti associati a un&#39;origine dati. Ulteriori informazioni sulle caratteristiche [Active Audience e sulle caratteristiche](client-activity-synced-audience-traits.md)sincronizzate dell&#39;origine dati. |
+| Caratteristiche di pubblici attivi e caratteristiche sincronizzate con la sorgente dei dati | Una [!UICONTROL Active Audience] caratteristica contiene tutti i dispositivi in gestione nel vostro account Audience Manager . [!UICONTROL Data Source Synced Traits] tenere traccia di tutti gli utenti associati a un&#39;origine dati. Ulteriori informazioni sulle caratteristiche [Active Audience e sulle caratteristiche](client-activity-synced-audience-traits.md)sincronizzate dell&#39;origine dati. |
 
 ## Realizzazioni di caratteristiche univoche e popolazione di caratteristiche totali {#unique-trait-realizations}
 
