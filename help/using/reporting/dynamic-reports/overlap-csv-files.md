@@ -1,21 +1,21 @@
 ---
 description: È possibile richiedere un file .csv per rapporti di sovrapposizione quando tale rapporto raggiunge il limite di 1 milione di record. Un report potrebbe aver raggiunto questo limite quando viene visualizzato un messaggio di errore imprevisto. Contatta l’Assistenza clienti per richiedere un file .csv compresso, che puoi importare e utilizzare nel tuo sistema di database. I file sono disponibili per i rapporti di sovrapposizione segmento a segmento, segmento a tratto e tratto.
 seo-description: È possibile richiedere un file .csv per rapporti di sovrapposizione quando tale rapporto raggiunge il limite di 1 milione di record. Un report potrebbe aver raggiunto questo limite quando viene visualizzato un messaggio di errore imprevisto. Contatta l’Assistenza clienti per richiedere un file .csv compresso, che puoi importare e utilizzare nel tuo sistema di database. I file sono disponibili per i rapporti di sovrapposizione segmento a segmento, segmento a tratto e tratto.
-seo-title: File CSV per rapporti di sovrapposizione
+seo-title: File CSV per report di sovrapposizione
 solution: Audience Manager
-title: File CSV per rapporti di sovrapposizione
+title: File CSV per report di sovrapposizione
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
 
-# File CSV per rapporti di sovrapposizione{#csv-files-for-overlap-reports}
+# File CSV per report di sovrapposizione{#csv-files-for-overlap-reports}
 
 È possibile richiedere un file .csv per rapporti di sovrapposizione quando tale rapporto raggiunge il limite di 1 milione di record. Un report potrebbe aver raggiunto questo limite quando viene visualizzato un messaggio di errore imprevisto. Contatta l’Assistenza clienti per richiedere un file .csv compresso, che puoi importare e utilizzare nel tuo sistema di database. I file sono disponibili per i rapporti di sovrapposizione segmento a segmento, segmento a tratto e tratto.
 
@@ -39,7 +39,7 @@ Nella tabella seguente sono elencate le convenzioni di denominazione dei file e 
    <td colname="col1"> <p>Nome file </p> </td> 
    <td colname="col2"> <p>Sintassi nome file: </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
-      <li id="li_FFB104975D104050AB67FEEC903C6E2E">File di segmento a segmento: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_FFB104975D104050AB67FEEC903C6E2E">File segmento-segmento: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
       <li id="li_7DEC51D693FB4377840D652AF40386EF">File Segment-to-Trait: <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
       <li id="li_CCB35A2BCB714E518AB279D453740623">File di caratteristiche-caratteristiche: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
