@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1191'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -38,7 +38,7 @@ Alcuni browser, e la maggior parte dei dispositivi mobili, non accettano [!DNL c
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Chiamata evento</b> </td> 
-   <td colname="col2"> <p>Per funzionare, è necessario disporre di <span class="wintitle"> DIL </span> e del codice del servizio identità del <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a> sulla pagina. <span class="wintitle"> DIL </span> riceve gli ID <span class="wintitle"> dichiarati </span> dalla <code> setVisitorID </code> funzione fornita dal servizio <span class="keyword"> ID Adobe Experience Platform </span> e li trasmette a <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Per funzionare, è necessario disporre di <span class="wintitle"> DIL </span> e del codice del servizio identità del <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a> sulla pagina. <span class="wintitle"> DIL </span> riceve gli ID <span class="wintitle"> dichiarati </span> dalla <code> setVisitorID </code> funzione fornita dal servizio <span class="keyword"> ID Adobe Experience Platform </span> e li trasmette a <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID corrispondenza</b> </td> 
@@ -59,7 +59,7 @@ Per iniziare, devi configurare il servizio [!DNL Experience Cloud] ID e [!UICONT
 
 ## Chiamate di rifiuto {#opt-out-calls}
 
-Il [!UICONTROL declared ID] processo rispetta le preferenze dei visitatori del sito per rinunciare al [!DNL Audience Manager] targeting in base al sito Web. Quando [!DNL Audience Manager] riceve una richiesta di rifiuto, il [!DNL JSON] restituito dall&#39;utente [!DNL DCS] contiene il codice di errore 171, con il messaggio `Encountered opt out tag`, invece dell&#39;ID [!DNL Audience Manager] utente.
+Il [!UICONTROL declared ID] processo rispetta le preferenze dei visitatori del sito per rinunciare al [!DNL Audience Manager] targeting in base al sito Web. When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] può trasmettere un [!UICONTROL declared ID] opt-out insieme a un [!DNL Audience Manager][!UICONTROL UUID] in [!DNL URL].
 * Il [!UICONTROL declared ID] rifiuto viene memorizzato nel server cache del profilo [!UICONTROL ([!UICONTROL PCS]) su base individuale. Non è disponibile l&#39;opzione di rifiuto a livello di piattaforma tramite [!UICONTROL declared IDs]. Inoltre, [!DNL Audience Manager] esclude l’utente da quella particolare area sul margine (l’opzione di rifiuto non attraversa [!DNL DCS] aree geografiche).
@@ -68,16 +68,16 @@ Consulta Privacy [dei](../overview/data-security-and-privacy/data-privacy.md) da
 
 ## [!UICONTROL Declared ID] Esempi di rifiuto {#opt-out-examples}
 
-Potete effettuare una richiesta di [!UICONTROL declared ID] rifiuto con le coppie `d_cid` e `d_cid_ic` chiave-valore. I parametri legacy come `d_dpid` e `d_dpuuid` funzionano comunque, ma sono considerati obsoleti. Consultate [CID sostituisce DPID e DPUUID](../reference/cid.md) Negli esempi, il *corsivo* indica un segnaposto variabile.
+You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. I parametri legacy come `d_dpid` e `d_dpuuid` funzionano comunque, ma sono considerati obsoleti. Consulta [CID Replaces DPID and DPUUID](../reference/cid.md). Negli esempi, il *corsivo* indica un segnaposto variabile.
 
 ### Consenso con [!UICONTROL CID] e [!UICONTROL CID_IC]
 
-Per una descrizione e una sintassi, consultate Variabili [URL e sintassi per ID](../features/declared-ids.md#variables-and-syntax)dichiarati.
+Per una descrizione e una sintassi, consulta [URL Variables and Syntax for Declared IDs](../features/declared-ids.md#variables-and-syntax).
 
 <table id="table_159D92242D8F4FCBAC733295DE474CA6"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Rifiuto tramite </th> 
+   <th colname="col1" class="entry"> Rinuncia tramite </th> 
    <th colname="col2" class="entry"> Esempio di codice </th> 
   </tr> 
  </thead>
@@ -143,11 +143,11 @@ In ogni coppia chiave-valore:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_cid =<i>data provider ID</i> %01<i>user ID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Contiene un ID provider di dati e un ID utente univoco associato in una coppia chiave-valore singola. <code> d_cid </code> sostituisce <code> d_dpid </code> e <code> d_dpuuid </code>, che sono considerati obsoleti, ma sono ancora supportati. Consultate <a href="../reference/cid.md">CID sostituisce DPID e DPUUID</a> </p> </td> 
+   <td colname="col2"> <p>Contiene un ID provider di dati e un ID utente univoco associato in una coppia chiave-valore singola. <code> d_cid </code> sostituisce <code> d_dpid </code> e <code> d_dpuuid </code>, che sono considerati obsoleti, ma sono ancora supportati. Consulta <a href="../reference/cid.md">CID Replaces DPID and DPUUID </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_cid_ic =<i>integration code</i> %01<i>user ID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Contiene un codice di integrazione e un ID utente univoco associato in una coppia chiave-valore singola. <code> d_cid_ic </code> sostituisce <code> d_dpid </code> e <code> d_dpuuid </code>, che sono obsoleti, ma sono ancora supportati. Consultate <a href="../reference/cid.md">CID sostituisce DPID e DPUUID</a> </p> </td> 
+   <td colname="col2"> <p>Contiene un codice di integrazione e un ID utente univoco associato in una coppia chiave-valore singola. <code> d_cid_ic </code> sostituisce <code> d_dpid </code> e <code> d_dpuuid </code>, che sono obsoleti, ma sono ancora supportati. Consulta <a href="../reference/cid.md">CID Replaces DPID and DPUUID </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -185,7 +185,7 @@ Descrive le variabili di configurazione utilizzate per passare [!UICONTROL decla
 
 ## [!UICONTROL DIL] utilizza [!DNL Adobe Experience Platform Identity Service] per passare [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Se utilizzato con [Servizio](https://docs.adobe.com/content/help/en/id-service/using/home.html)identità Adobe Experience Platform, non è più necessario passare [!UICONTROL declared IDs] con le variabili `dpid` e `dpuuid` obsolete. Al contrario, le versioni correnti di [!UICONTROL DIL] si basano sulla `visitorService` funzione per ottenere il [!UICONTROL declared IDs] dalla `setCustomerIDs` funzione in [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Puoi effettuare una chiamata `visitorService` in `DIL.create` base a quanto indicato di seguito.
+Se utilizzato con [Servizio](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html)identità Adobe Experience Platform, non è più necessario passare [!UICONTROL declared IDs] con le variabili `dpid` e `dpuuid` obsolete. Al contrario, le versioni correnti di [!UICONTROL DIL] si basano sulla `visitorService` funzione per ottenere il [!UICONTROL declared IDs] dalla `setCustomerIDs` funzione in [!UICONTROL Adobe Experience Platform Identity Service]. For more information, see [Customer IDs and Authentication States](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Puoi effettuare una chiamata `visitorService` in `DIL.create` base a quanto indicato di seguito.
 
 ```js
 var vDil = DIL.create({
