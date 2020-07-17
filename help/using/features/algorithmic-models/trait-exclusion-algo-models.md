@@ -9,12 +9,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Modellazione Simile: Esclusione caratteristica {#algorithmic-models-trait-exclusion}
+# Modellazione lookalike: esclusione di caratteristiche {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] fornisce controlli aggiuntivi nel flusso di lavoro di modellazione, consentendo di aggiungere al modello le guide necessarie, in base alle competenze del dominio e ai requisiti normativi. Utilizzare l&#39; [!UICONTROL Exclusions] opzione per selezionare le caratteristiche da ignorare durante la creazione di modelli da una o più origini dati.
 
