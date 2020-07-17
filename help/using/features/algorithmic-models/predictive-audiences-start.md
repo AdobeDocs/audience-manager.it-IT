@@ -1,20 +1,20 @@
 ---
-description: Le audience predittive ti aiutano a classificare audience sconosciute in persone distinte in tempo reale, utilizzando la scienza dei dati.
-seo-description: Le audience predittive ti aiutano a classificare audience sconosciute in persone distinte in tempo reale, utilizzando la scienza dei dati.
+description: Predictive Audiences ti aiuta a classificare tipi di pubblico sconosciuti in utenti tipo distinti in tempo reale utilizzando la scienza dei dati.
+seo-description: Predictive Audiences ti aiuta a classificare tipi di pubblico sconosciuti in utenti tipo distinti in tempo reale utilizzando la scienza dei dati.
 seo-title: Gestione dell'audience predittiva
 solution: Audience Manager
-title: ' Audience Manager Predictive Audiences'
+title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
-# Guida introduttiva all&#39;audience predittiva {#predictive-audiences-getting-started}
+# Guida introduttiva di Predictive Audiences {#predictive-audiences-getting-started}
 
 >[!IMPORTANT]
 >Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell&#39;utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per ottenere assistenza legale.
