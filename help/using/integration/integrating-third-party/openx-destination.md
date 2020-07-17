@@ -1,21 +1,21 @@
 ---
 description: Impostate OpenX come destinazione e inviate  dati del segmento Audience Manager a tale piattaforma.
 seo-description: Impostate OpenX come destinazione e inviate  dati del segmento Audience Manager a tale piattaforma.
-seo-title: 'OpenX come destinazione Audience Manager '
+seo-title: OpenX come destinazione di Audience Manager
 solution: Audience Manager
-title: 'OpenX come destinazione Audience Manager '
+title: OpenX come destinazione di Audience Manager
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# OpenX come destinazione Audience Manager{#openx-as-an-audience-manager-destination}
+# OpenX come destinazione di Audience Manager{#openx-as-an-audience-manager-destination}
 
 Configurate [!DNL OpenX] come destinazione e inviate  dati del segmento Audience Manager a tale piattaforma.
 
@@ -54,7 +54,7 @@ Create una destinazione di cookie per [!DNL OpenX] in  Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
-In  Audience Manager, una *destinazione* è qualsiasi altro sistema (server di annunci pubblicitari, [!DNL DSP]reti di annunci ecc.) con cui condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire tali processi di consegna dei dati.  funzioni di destinazione Audience Manager si trovano in Dati *pubblico > Destinazioni*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]** e segui i passaggi descritti di seguito.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) con cui desideri condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire tali processi di consegna dei dati.  funzioni di destinazione Audience Manager si trovano in Dati *pubblico > Destinazioni*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]** e segui i passaggi descritti di seguito.
 
 ### Passaggio 1: Informazioni di base
 
