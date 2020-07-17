@@ -1,21 +1,21 @@
 ---
 description: Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell'inventario e inviate a  Audience Manager.
 seo-description: Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell'inventario e inviate a  Audience Manager.
-seo-title: Report Segnali non utilizzati
+seo-title: Rapporto su segnali non utilizzati
 solution: Audience Manager
-title: Report Segnali non utilizzati
+title: Rapporto su segnali non utilizzati
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Report Segnali non utilizzati{#unused-signals-report}
+# Rapporto su segnali non utilizzati{#unused-signals-report}
 
 Questo rapporto restituisce un conteggio delle frequenze di tutte le informazioni non utilizzate raccolte nell&#39;inventario e inviate a  Audience Manager. Per accedere a questo rapporto, passa a **Analytics > Audience Reports > Other Reports (Rapporti sul pubblico) > Unused Signals (Segnali** non utilizzati).
 
