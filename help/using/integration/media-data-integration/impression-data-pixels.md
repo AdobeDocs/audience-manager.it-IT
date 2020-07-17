@@ -1,21 +1,21 @@
 ---
 description: Un approccio per l'invio di dati multimediali a  Audience Manager utilizza le macro del server di annunci per inviare attributi della campagna a  Audience Manager.
 seo-description: Un approccio per l'invio di dati multimediali a  Audience Manager utilizza le macro del server di annunci per inviare attributi della campagna a  Audience Manager.
-seo-title: Acquisizione dei dati di impressione della campagna attraverso Pixel Calls (Chiamate pixel)
+seo-title: Acquisizione dei dati di impression delle campagne attraverso chiamate pixel
 solution: Audience Manager
-title: Acquisizione dei dati di impressione della campagna attraverso Pixel Calls (Chiamate pixel)
+title: Acquisizione dei dati di impression delle campagne attraverso chiamate pixel
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Integration with Campaign
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
 
-# Acquisizione dei dati di impressione della campagna attraverso Pixel Calls (Chiamate pixel){#capturing-campaign-impression-data-via-pixel-calls}
+# Acquisizione dei dati di impression delle campagne attraverso chiamate pixel{#capturing-campaign-impression-data-via-pixel-calls}
 
 Un approccio per l&#39;invio di dati multimediali a  Audience Manager utilizza le macro del server di annunci per inviare attributi della campagna a  Audience Manager.
 
@@ -99,7 +99,7 @@ Le chiamate dell&#39;evento Impression accettano i dati formati in coppie chiave
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
-   <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p> <p><code>gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p><p>Se <code>gdpr=1</code>, il <code>gdpr_consent</code> parametro deve contenere il parametro di consenso del TC IAB per elaborare correttamente i dati. In caso contrario, tutti i dati verranno ignorati.</p> </td> 
+   <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p> <p><code>gdpr</code> può essere 0 (non si applica il RGPD) o 1 (si applica il RGPD).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p><p>Se <code>gdpr=1</code>, il <code>gdpr_consent</code> parametro deve contenere il parametro di consenso del TC IAB per elaborare correttamente i dati. In caso contrario, tutti i dati verranno ignorati.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
