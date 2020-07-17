@@ -1,20 +1,20 @@
 ---
 description: Filtrare i risultati di una ricerca del segnale in base al tipo di segnale.
 seo-description: Filtrare i risultati di una ricerca del segnale in base al tipo di segnale.
-seo-title: Filtra risultati di ricerca
-title: Filtra risultati di ricerca
+seo-title: Filtrare risultati di ricerca
+title: Filtrare risultati di ricerca
 uuid: 7b764a5d-f8ae-4f7b-83f5-7f6c40de639b
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Filtra risultati di ricerca {#filter-search-results}
+# Filtrare risultati di ricerca {#filter-search-results}
 
 Filtrare i risultati di una ricerca del segnale in base al tipo di segnale.
 
