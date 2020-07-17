@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -31,6 +31,6 @@ Talk to your [!DNL Audience Manager] sales specialist to get started. Possono at
 > * Gli utenti possono cercare e visualizzare solo i feed.
 
 
-* [Audience Marketplace per i provider di dati](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
+* [Audience Marketplace per provider di dati](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
 * [Audience Marketplace per gli acquirenti di dati](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
-* [Feed dati privati](/help/using/features/audience-marketplace/marketplace-private-feeds.md)
+* [Feed di dati privati](/help/using/features/audience-marketplace/marketplace-private-feeds.md)
