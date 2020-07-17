@@ -1,20 +1,20 @@
 ---
 description: In Generatore di destinazione, la sezione Configurazione contiene i campi Dominio cookie e Pubblica dati su. che consentono di creare regole per determinare se una destinazione imposta un cookie o restituisce un cookie. Dominio cookie e Pubblica dati Per lavorare indipendentemente l'uno dall'altro e sono facoltativi. Potete creare una destinazione di cookie senza utilizzarne una o entrambe.
 seo-description: In Generatore di destinazione, la sezione Configurazione contiene i campi Dominio cookie e Pubblica dati su. che consentono di creare regole per determinare se una destinazione imposta un cookie o restituisce un cookie. Dominio cookie e Pubblica dati Per lavorare indipendentemente l'uno dall'altro e sono facoltativi. Potete creare una destinazione di cookie senza utilizzarne una o entrambe.
-seo-title: Impostazioni facoltative per le destinazioni dei cookie
+seo-title: Impostazioni facoltative per le destinazioni cookie
 solution: Audience Manager
-title: Impostazioni facoltative per le destinazioni dei cookie
+title: Impostazioni facoltative per le destinazioni cookie
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 
-# Impostazioni facoltative per le destinazioni dei cookie {#optional-settings-cookies}
+# Impostazioni facoltative per le destinazioni cookie {#optional-settings-cookies}
 
 In [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contiene i campi [!UICONTROL Cookie Domain] e [!UICONTROL Publish Data To] . che consentono di creare regole per determinare se una destinazione imposta un cookie o restituisce un cookie. [!UICONTROL Cookie Domain] e [!UICONTROL Publish Data To] lavorare indipendentemente l&#39;uno dall&#39;altro e sono opzionali. Potete creare una destinazione di cookie senza utilizzarne una o entrambe.
 
