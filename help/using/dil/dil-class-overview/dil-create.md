@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> containerNSID </code> </p> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
-   <td colname="col3"> <p>Questa proprietà imposta l'ID del contenitore utilizzato da <span class="keyword">Audience Manager</span> per la sincronizzazione degli ID. Impostate <code> containerNSID </code> se avete <span class="wintitle"> DIL </span> distribuito su più siti. Ciascuno di questi siti avrà un proprio ID contenitore e sincronizzazioni ID. Se disponete di un solo sito, l'ID del contenitore è 0 per impostazione predefinita e non è necessario impostarlo correttamente. Contatta il tuo consulente per ottenere un elenco dei tuoi siti e dei loro ID contenitore. </p> <p>Nel servizio <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> identità </a>, la proprietà <code> idSyncContainerID </code> corrisponde a <code> containerNSID </code> in <span class="wintitle"> DIL </span>. Nota quanto segue se utilizzi <span class="wintitle"> DIL </span> <i></i> e il servizio ID su più siti: </p> <p> 
+   <td colname="col3"> <p>Questa proprietà imposta l'ID del contenitore utilizzato da <span class="keyword">Audience Manager</span> per la sincronizzazione degli ID. Impostate <code> containerNSID </code> se avete <span class="wintitle"> DIL </span> distribuito su più siti. Ciascuno di questi siti avrà un proprio ID contenitore e sincronizzazioni ID. Se disponete di un solo sito, l'ID del contenitore è 0 per impostazione predefinita e non è necessario impostarlo correttamente. Contatta il tuo consulente per ottenere un elenco dei tuoi siti e dei loro ID contenitore. </p> <p>Nel servizio <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/home.html" format="https" scope="external"> identità </a>, la proprietà <code> idSyncContainerID </code> corrisponde a <code> containerNSID </code> in <span class="wintitle"> DIL </span>. Nota quanto segue se utilizzi <span class="wintitle"> DIL </span> <i></i> e il servizio ID su più siti: </p> <p> 
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
       <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">Per ogni sito, impostate gli stessi ID contenitore su <code> containerNSID </code> e <code> idSyncContainerID </code>. </li> 
       <li id="li_CC932D3A0D154F6C9566EF31260A14CF">Sia <span class="wintitle"> DIL </span> che il servizio ID cercheranno di inviare le sincronizzazioni ID al nostro iFrame di raccolta dati. Tuttavia, l’iFrame garantisce che <span class="wintitle"> DIL </span> non attivi la sincronizzazione ID. Ciò impedisce la duplicazione. </li> 
@@ -66,7 +66,7 @@ r_dil_create.xml
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: ID partner dati assegnato da <span class="keyword"> Audience Manager </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: L’ID univoco dell’utente. </li> 
-    </ul> <p> <p>Importante:  Usa solo valori non codificati per gli ID. La codifica crea identificatori con doppia codifica. </p> </p> <p> <p>Nota:  Se utilizzate il <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a>, impostate gli ID cliente con il <code> setCustomerIDs </code> metodo invece di <span class="wintitle"> DIL </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
+    </ul> <p> <p>Importante:  Usa solo valori non codificati per gli ID. La codifica crea identificatori con doppia codifica. </p> </p> <p> <p>Nota:  Se utilizzate il <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a>, impostate gli ID cliente con il <code> setCustomerIDs </code> metodo invece di <span class="wintitle"> DIL </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
