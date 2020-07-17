@@ -1,21 +1,21 @@
 ---
 description: Questo articolo descrive gli operatori di confronto utilizzati da Trait Builder.
 seo-description: Questo articolo descrive gli operatori di confronto utilizzati da Trait Builder.
-seo-title: Utilizzo degli operatori di confronto in Generatore di caratteristiche
+seo-title: Utilizzo degli operatori di confronto nel Generatore di caratteristiche
 solution: Audience Manager
-title: Utilizzo degli operatori di confronto in Generatore di caratteristiche
+title: Utilizzo degli operatori di confronto nel Generatore di caratteristiche
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Utilizzo degli operatori di confronto in Generatore di caratteristiche {#working-with-comparison-operators-in-trait-builder}
+# Utilizzo degli operatori di confronto nel Generatore di caratteristiche {#working-with-comparison-operators-in-trait-builder}
 
 Questo articolo descrive gli operatori di confronto utilizzati da [!UICONTROL Trait Builder].
 
@@ -56,7 +56,7 @@ Gli operatori di confronto sono utili per valutare e creare caratteristiche basa
 
 >[!MORELIKETHIS]
 >
->* [Espressioni booleane in Generatore di caratteristiche e segmenti](../../reference/boolean-expressions-tsb.md)
+>* [Espressioni booleane nel Generatore di caratteristiche e segmenti](../../reference/boolean-expressions-tsb.md)
 >* [Informazioni sulle espressioni booleane in TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Ordine delle operazioni nelle espressioni TraitBuilder](../../features/traits/trait-operator-precedence.md)
 >* [Espressioni di esempio con operatori booleani e di confronto](../../features/traits/trait-expression-samples.md)
