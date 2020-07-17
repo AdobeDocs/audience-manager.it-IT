@@ -2,22 +2,22 @@
 description: ' Audience Manager invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.'
 seo-description: ' Adobe Audience Manager (AAM) invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.'
 seo-title: Trasferimenti di dati in uscita in batch in  Adobe Audience Manager (AAM)
-title: Trasferimenti di dati in uscita batch
+title: 'Trasferimenti in batch di dati in uscita '
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 7%
+ht-degree: 17%
 
 ---
 
 
-# Trasferimenti di dati in uscita batch
+# Trasferimenti in batch di dati in uscita 
 
  Audience Manager invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.
 
-* [Nome file dati in uscita: Sintassi ed esempi](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
+* [Nome dei file di dati in uscita: sintassi ed esempi](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
 
    Descrive i campi, la sintassi e le convenzioni necessari per assegnare un nome a un file di dati in uscita.
 
@@ -25,7 +25,7 @@ ht-degree: 7%
 
    Descrive i metodi attraverso i quali è possibile configurare l&#39;integrazione del trasferimento di dati batch.
 
-* [File di trasferimento di controllo per trasferimenti di file di registro](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
+* [File di trasferimento del controllo per trasferimenti di file di registro](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
    I file di controllo del trasferimento (.info) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che  i trasferimenti di file Audience Manager siano gestiti correttamente.
 
