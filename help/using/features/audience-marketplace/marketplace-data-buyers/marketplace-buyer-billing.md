@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2027'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -181,7 +181,7 @@ Quando si [segnala l&#39;utilizzo di CPM a livello](#feed-level-report)di feed d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> AND</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> E</span> </p> </td> 
    <td colname="col2"> <p>Applicare il 100% dei totali impression forniti a tutte le caratteristiche del fornitore in un segmento basato su regole che utilizza una condizione <span class="wintitle"> AND booleana</span> . </p> </td> 
   </tr> 
   <tr> 
