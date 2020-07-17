@@ -1,21 +1,21 @@
 ---
 description: nulle
 seo-description: nulle
-seo-title: Acquisizione dei dati di clic sulla campagna tramite chiamate pixel
+seo-title: Acquisizione dei dati di clic delle campagne attraverso chiamate pixel
 solution: Audience Manager
-title: Acquisizione dei dati di clic sulla campagna tramite chiamate pixel
+title: Acquisizione dei dati di clic delle campagne attraverso chiamate pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
 
-# Capturing Campaign Click Data via Pixel Calls {#capturing-campaign-click-data-via-pixel-calls}
+# Acquisizione dei dati di clic delle campagne attraverso chiamate pixel {#capturing-campaign-click-data-via-pixel-calls}
 
 Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei visitatori durante l’intera campagna, registrando l’attività basata sui clic per i creativi di terze parti. Analogamente all&#39;insieme [](/help/using/integration/media-data-integration/impression-data-pixels.md)impression, una chiamata evento viene inviata ai server di raccolta dati ( [!DNL Audience Manager][!DNL DCS]) per l&#39;elaborazione. Il visitatore viene quindi reindirizzato all&#39;indirizzo Web desiderato.
 
@@ -97,7 +97,7 @@ Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macr
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud ID (ECID). </span> For more information about the ECID, see <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Facoltativo. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). For more information about the ECID, see <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </p> <p>Facoltativo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -132,7 +132,7 @@ Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macr
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
    <td colname="col02"> <p> <code>${gdpr}</code> </p> </td> 
-   <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a> </p><p><code>gdpr</code> può essere 0 (non si applica il GDPR) o 1 (si applica il GDPR).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p></td> 
+   <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a> </p><p><code>gdpr</code> può essere 0 (non si applica il RGPD) o 1 (si applica il RGPD).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p></td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
