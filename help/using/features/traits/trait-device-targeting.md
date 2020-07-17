@@ -1,21 +1,21 @@
 ---
 description: Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili relative al dispositivo in tutte le proprietà dell'account Audience Manager .
 seo-description: Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili relative al dispositivo in tutte le proprietà dell'account Audience Manager .
-seo-title: Targeting dei dispositivi con chiavi a livello di Platform
+seo-title: Targeting dei dispositivi con chiavi a livello di piattaforma
 solution: Audience Manager
-title: Targeting dei dispositivi con chiavi a livello di Platform
+title: Targeting dei dispositivi con chiavi a livello di piattaforma
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Device Targeting With Platform-level Keys {#device-targeting-with-platform-level-keys}
+# Targeting dei dispositivi con chiavi a livello di piattaforma {#device-targeting-with-platform-level-keys}
 
 Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili relative al dispositivo in tutte le proprietà dell&#39;account Audience Manager .
 
@@ -49,5 +49,5 @@ I valori di [!UICONTROL Data Collection Servers] queste chiavi vengono estratti 
 
 >[!MORELIKETHIS]
 >
->* [Requisiti del prefisso per le variabili chiave](../../features/traits/trait-variable-prefixes.md)
+>* [Requisiti di prefisso delle variabili chiave](../../features/traits/trait-variable-prefixes.md)
 
