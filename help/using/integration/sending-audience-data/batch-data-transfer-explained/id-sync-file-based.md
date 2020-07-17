@@ -1,9 +1,9 @@
 ---
 description: Descrive i campi, la sintassi e le convenzioni di denominazione richiesti per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti dei file in base alle seguenti specifiche.
 seo-description: Descrive i campi, la sintassi e le convenzioni di denominazione richiesti per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti dei file in base alle seguenti specifiche.
-seo-title: Requisiti di nome e contenuto per i file di sincronizzazione ID
+seo-title: Name and Content Requirements for ID Synchronization Files
 solution: Audience Manager
-title: Requisiti di nome e contenuto per i file di sincronizzazione ID
+title: Name and Content Requirements for ID Synchronization Files
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Inbound Data Transfers
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# Requisiti di nome e contenuto per i file di sincronizzazione ID {#name-and-content-requirements-for-id-synchronization-files}
+# Name and Content Requirements for ID Synchronization Files {#name-and-content-requirements-for-id-synchronization-files}
 
 Descrive i campi, la sintassi e le convenzioni di denominazione richiesti per la sincronizzazione ID basata su file. Denominate e organizzate i contenuti dei file in base alle seguenti specifiche.
 
