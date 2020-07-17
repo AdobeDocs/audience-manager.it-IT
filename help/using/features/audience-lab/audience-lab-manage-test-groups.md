@@ -1,21 +1,21 @@
 ---
 description: Questa procedura illustra i passaggi necessari per creare, modificare o eliminare un gruppo di test in Audience Lab
 seo-description: Questa procedura illustra i passaggi necessari per creare, modificare o eliminare un gruppo di test in Audience Lab
-seo-title: Gestisci gruppi di test
+seo-title: Gestire gruppi di test
 solution: Audience Manager
-title: Gestisci gruppi di test
+title: Gestire gruppi di test
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Gestisci gruppi di test {#manage-test-groups}
+# Gestire gruppi di test {#manage-test-groups}
 
 Questa procedura illustra i passaggi necessari per creare, modificare o eliminare un gruppo di test in [!UICONTROL Audience Lab].
 
@@ -74,6 +74,7 @@ To create a new [!UICONTROL Segment Test Group]:
    * Le destinazioni sono disabilitate se non sono disponibili per un determinato segmento di test in base ai controlli [di esportazione](../../features/data-export-controls.md)dei dati.
    * Gli utenti vedranno solo le destinazioni a cui hanno accesso in base al gruppo [di utenti](../../features/administration/administration-overview.md) RBAC a cui appartengono.
    * Infine, è necessario selezionare una data di inizio per il gruppo di test. Questa data indica l&#39;inizio del periodo in cui il gruppo di test verrà pubblicato nelle destinazioni. Selezionare **Nessuna data** di fine per un confronto indefinito dei segmenti di test.
+
    >[!NOTE]
    >
    >[!UICONTROL Profile Merge Rules] con un profilo autenticato sono supportati solo in destinazioni in tempo reale. Se un segmento di test con una regola di unione dei profili di tale configurazione viene inviato a una destinazione server-to-server basata su file, l&#39;audience potrebbe non essere popolata.
@@ -84,6 +85,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
    * Rivedete le informazioni aggiunte nei passaggi precedenti e selezionate **[!UICONTROL Finalize Group]**.
    * Una volta finalizzato un gruppo di test, questo può essere duplicato o eliminato, ma non modificato.
+
    >[!NOTE]
    >* È possibile salvare i gruppi di test in qualsiasi momento del processo di creazione e tornare alla procedura guidata in un secondo momento. Lo stato del gruppo di test sarà **[!UICONTROL Draft]** e il gruppo di test non invierà dati alle destinazioni fino a quando non finalizzerete il gruppo di test del segmento.
    >* Per le bozze di test, potete tornare indietro e modificare i gruppi di test facendo clic **[!UICONTROL Edit]** nella scheda del gruppo di test nella [!UICONTROL Audience Lab] vista principale.
