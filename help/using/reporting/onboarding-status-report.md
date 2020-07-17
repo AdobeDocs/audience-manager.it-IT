@@ -90,7 +90,7 @@ Potete aggiungere gli indirizzi e-mail dei destinatari ai quali desiderate ricev
 
 ## Creare un rapporto sullo stato di onboarding {#create-onboard-status-report}
 
-A [!UICONTROL Sample Error Report] restituisce il numero di record elaborati correttamente in un&#39;origine dati e il numero di record che hanno avuto esito negativo. Per generare un [!UICONTROL Sample Error Report]oggetto, effettuate le seguenti operazioni.
+A [!UICONTROL Sample Error Report] restituisce il numero di record elaborati correttamente in un&#39;origine dati e il numero di record che hanno avuto esito negativo. Per generare un [!UICONTROL Sample Error Report]file, effettuate le seguenti operazioni.
 
 <!-- 
 
