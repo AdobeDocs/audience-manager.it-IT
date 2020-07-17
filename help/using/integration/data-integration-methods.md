@@ -38,7 +38,7 @@ Un riepilogo caso d&#39;uso  metodi di integrazione dei dati Audience Manager co
 
 <!-- c_int_types_use_cases.xml -->
 
-Un&#39;integrazione [!DNL server-to-server] dei dati in tempo reale consente di sincronizzare rapidamente i dati utente tra  server Audience Manager e un altro sistema di targeting. Nella maggior parte dei casi, lo scambio di dati avviene entro pochi secondi o minuti, a seconda della frequenza di aggiornamento del sistema di targeting. Tuttavia, il sistema di destinazione determina questo intervallo di aggiornamento, non  Audience Manager. Inoltre, la frequenza di aggiornamento può variare da un sistema all&#39;altro. L&#39;integrazione in tempo reale [!UICONTROL server-to-server] è il tipo di integrazione preferito per lo scambio di dati.  Audience Manager utilizza questo metodo ogni volta che i partner di targeting possono supportarlo.
+Un&#39;integrazione dei [!DNL server-to-server] dati in tempo reale sincronizza rapidamente i dati utente tra  server Audience Manager e un altro sistema di targeting. Nella maggior parte dei casi, lo scambio di dati avviene entro pochi secondi o minuti, a seconda della frequenza di aggiornamento del sistema di targeting. Tuttavia, il sistema di destinazione determina questo intervallo di aggiornamento, non  Audience Manager. Inoltre, la frequenza di aggiornamento può variare da un sistema all&#39;altro. L&#39;integrazione in tempo reale [!UICONTROL server-to-server] è il tipo di integrazione preferito per lo scambio di dati.  Audience Manager utilizza questo metodo ogni volta che i partner di targeting possono supportarlo.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -122,7 +122,7 @@ Descrive i motivi tecnici e aziendali per l&#39;invio di dati tramite metodologi
 * **Considerazioni Tecniche:** La distribuzione dei dati dipende dalle capacità tecniche del partner dati.  Audience Manager può inviare/ricevere dati in tempo reale dal browser o mediante aggiornamenti batch attraverso processi di comunicazione da server a server offline.
 * **Considerazioni aziendali:** I motivi aziendali per la scelta di un metodo di consegna o di un altro dipendono dalle capacità tecniche del partner di destinazione e dalla modalità di utilizzo di tali dati. In genere, i trasferimenti di dati sincroni sono utili quando è necessario intervenire immediatamente sui dati utente. I trasferimenti di dati asincroni possono essere utili quando non è richiesta un&#39;azione immediata e quando si ha il tempo di creare profili utente più profondi per un utilizzo successivo.
 
-## Processo di trasferimento dati in tempo reale {#real-time-data-transfer-process}
+## Real-Time Data Transfer Process {#real-time-data-transfer-process}
 
 Panoramica generale delle modalità in cui  Audience Manager esegue uno scambio di dati sincrono con un fornitore di terze parti.
 
@@ -144,7 +144,7 @@ Il processo di integrazione dei dati in tempo reale funziona come segue:
 
 ![](assets/rt_reduce70.png)
 
-## Processo di trasferimento dati batch {#batch-data-transfer-process}
+## Processo di trasferimento di dati in batch {#batch-data-transfer-process}
 
 Panoramica generale del modo in cui  Audience Manager scambia i dati in modo sincrono (in tempo reale) con un fornitore di terze parti.
 
