@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Descrizione del processo di trasferimento dati in tempo reale{#real-time-data-transfer-process-described}
+# Real-Time Data Transfer Process Described{#real-time-data-transfer-process-described}
 
 Panoramica generale delle modalità in cui  Audience Manager esegue i trasferimenti di dati in tempo reale con un fornitore di contenuti di terze parti.
 
