@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 1%
+ht-degree: 23%
 
 ---
 
@@ -25,4 +25,4 @@ Metodi che consentono di utilizzare in modo programmatico le funzioni di modella
 >I metodi dei modelli algoritmici [!DNL API] sono stati riscritti con [!DNL Swagger] e migrati. Consulta:
 >
 >* [Adobi Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
->* [Migrazione  codice API Audience Manager](../../api/api-swagger-migration.md)
+>* [Migrazione del codice API di Audience Manager](../../api/api-swagger-migration.md)
