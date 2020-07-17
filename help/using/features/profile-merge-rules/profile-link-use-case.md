@@ -1,21 +1,21 @@
 ---
 description: Raccomandazioni e casi d’uso per il retargeting dei segmenti e la qualifica dei segmenti personalizzati con il grafico del dispositivo Collegamento profilo.
 seo-description: Raccomandazioni e casi d’uso per il retargeting dei segmenti e la qualifica dei segmenti personalizzati con il grafico del dispositivo Collegamento profilo.
-seo-title: Casi di utilizzo del grafico del dispositivo di collegamento profilo
+seo-title: Casi di utilizzo del grafico dei dispositivi di collegamento dei profili
 solution: Audience Manager
-title: Casi di utilizzo del grafico del dispositivo di collegamento profilo
+title: Casi di utilizzo del grafico dei dispositivi di collegamento dei profili
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
 
-# Casi di utilizzo del grafico del dispositivo di collegamento profilo {#profile-link-device-graph-use-cases}
+# Casi di utilizzo del grafico dei dispositivi di collegamento dei profili {#profile-link-device-graph-use-cases}
 
 Raccomandazioni e casi d’uso per il retargeting dei segmenti e la qualificazione dei segmenti personalizzati con l’ [!UICONTROL Profile Link Device Graph].
 
@@ -49,7 +49,7 @@ Questo [!UICONTROL Profile Merge Rule] consente agli esperti di marketing di for
 
 >[!MORELIKETHIS]
 >
->* [Casi d&#39;uso dei grafici dei dispositivi esterni](external-graph-use-cases.md)
->* [Casi di utilizzo generali per le regole di unione dei profili](merge-rule-targeting-options.md)
+>* [Casi d’uso del grafico dei dispositivi esterno](external-graph-use-cases.md)
+>* [Casi d’uso generali per le regole di unione profili](merge-rule-targeting-options.md)
 >* [Domande frequenti sulle regole di unione dei profili](../../faq/faq-profile-merge.md)
 
