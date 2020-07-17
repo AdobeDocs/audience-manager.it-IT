@@ -1,20 +1,20 @@
 ---
 description: 'Le destinazioni basate sulle persone introducono il concetto di pubblico condivisibile  Audience Manager. Questa metrica consente di comprendere quanti indirizzi e-mail con hash  Audience Manager possono essere condivisi con la piattaforma di destinazione. '
 seo-description: 'Le destinazioni basate sulle persone introducono il concetto di pubblico condivisibile  Audience Manager. Questa metrica consente di comprendere quanti indirizzi e-mail con hash  Audience Manager possono essere condivisi con la piattaforma di destinazione. '
-seo-title: Pubblico condivisibile
+seo-title: Pubblici condivisibili
 solution: Audience Manager
-title: Pubblico condivisibile
+title: Pubblici condivisibili
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Pubblico condivisibile {#shareable-audiences}
+# Pubblici condivisibili {#shareable-audiences}
 
 >[!IMPORTANT]
 >Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell&#39;utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per ottenere assistenza legale.
@@ -37,7 +37,7 @@ La [!DNL Destination Shareable Audience] metrica in una pagina di destinazione b
 
 Questa metrica ha un periodo di look-back del ciclo di vita. Questo ti aiuta a capire la portata del pubblico che puoi raggiungere dall&#39;origine dati degli indirizzi e-mail con hash.
 
-## Esempio 
+## Esempio
 
 Un cliente Audience Manager  dispone di un&#39;origine dati con 110.000 [DPUUID](../../reference/ids-in-aam.md) (ID CRM). Acquisiscono 100.000 indirizzi e-mail con hash in  Audience Manager, per utilizzarli con più destinazioni basate su persone ed eseguono una sincronizzazione ID per i 100.000 indirizzi e-mail con hash per gli ID CRM. Il cliente può utilizzare la regola di [!DNL All Cross-Device Profiles] unione per creare tre segmenti di pubblico:
 
