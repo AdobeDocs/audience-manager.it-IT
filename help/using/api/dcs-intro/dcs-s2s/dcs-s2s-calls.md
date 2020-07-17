@@ -1,19 +1,19 @@
 ---
-seo-title: Esecuzione di chiamate API DCS da server a server
+seo-title: Esecuzione di chiamate API DCS server-to-server
 solution: Audience Manager
-title: Esecuzione di chiamate API DCS da server a server
+title: Esecuzione di chiamate API DCS server-to-server
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
 
-# Esecuzione di chiamate API DCS da server a server {#making-server-to-server-dcs-api-calls}
+# Esecuzione di chiamate API DCS server-to-server {#making-server-to-server-dcs-api-calls}
 
 Le chiamate richiedono il nome host del server DCS regionale e l&#39;ID utente. Se non disponete degli ID utente e regione richiesti, consultate [Ottenere ID utente e regioni da una risposta](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) DCS e/o da [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Una volta ricevuti gli ID utente e regione, puoi effettuare chiamate server-to-server al DCS. Fare riferimento a questa sezione per sintassi ed esempi.
 
@@ -50,7 +50,7 @@ Una chiamata di esempio ha un aspetto simile al seguente esempio.
    <td colname="col2"> <p>Questa parte della chiamata contiene: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">L’alias di dominio assegnato da <span class="keyword"> Audience Manager</span> (ad esempio, <i><code> my_domain.demdex.net</code></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Il dominio di destinazione, che è sempre <i><code> demdex.net</code></i>. Vedi <a href="../../../reference/demdex-calls.md">Informazioni sulle chiamate al dominio demdex</a>. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Il dominio di destinazione, che è sempre <i><code> demdex.net</code></i>. Consulta <a href="../../../reference/demdex-calls.md">Understanding Calls to the Demdex Domain</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -87,4 +87,4 @@ Una chiamata di esempio ha un aspetto simile al seguente esempio.
 
 ## Risposta di esempio {#sample-response}
 
-Consultate [Ricevere dati dal DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
