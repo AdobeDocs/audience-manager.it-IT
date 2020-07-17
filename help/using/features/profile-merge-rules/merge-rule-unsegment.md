@@ -1,21 +1,21 @@
 ---
 description: La segmentazione descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall'opzione del dispositivo utilizzata per creare una regola di unione dei profili.
 seo-description: La segmentazione descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall'opzione del dispositivo utilizzata per creare una regola di unione dei profili.
-seo-title: Regole di unione dei profili e processi di rimozione della segmentazione del dispositivo
+seo-title: Regole di unione profili e processi di rimozione dei dispositivi dai segmenti
 solution: Audience Manager
-title: Regole di unione dei profili e processi di rimozione della segmentazione del dispositivo
+title: Regole di unione profili e processi di rimozione dei dispositivi dai segmenti
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Regole di unione dei profili e processi di rimozione della segmentazione del dispositivo {#profile-merge-rules-and-device-un-segmentation-processes}
+# Regole di unione profili e processi di rimozione dei dispositivi dai segmenti {#profile-merge-rules-and-device-un-segmentation-processes}
 
 La segmentazione descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall&#39;opzione del dispositivo utilizzata per creare un [!UICONTROL Profile Merge Rule].
 
@@ -28,7 +28,7 @@ Come promemoria, [!UICONTROL Device Options] sono disponibili nella [!UICONTROL 
 **[!UICONTROL Device Profile]** è l&#39;opzione di profilo dispositivo predefinita per un [!UICONTROL Profile Merge Rule]. [!DNL Audience Manager] può rimuovere un profilo dispositivo da un segmento quando [!UICONTROL Profile Merge Rule] si utilizza l&#39; **[!UICONTROL Device Profile]** opzione. In queste condizioni, la segmentazione si verifica quando:
 
 * Il profilo del dispositivo è rimasto inattivo per 120 giorni. Un processo settimanale di pulizia dei dati rimuove i profili dispositivo inattivi dai tuoi segmenti.
-* Il dispositivo non si qualifica più per un segmento perché gli aggiornamenti o le modifiche al profilo del dispositivo non lo qualificano più. Ciò si verifica quando i criteri di qualificazione del segmento cambiano, o si applica un [!DNL AND NOT] operatore a una regola del segmento, o si specificano le condizioni di [aggiornamento e frequenza](../segments/recency-and-frequency.md) che utilizzano le impostazioni minore di/uguale a. I casi di utilizzo sono descritti nella documentazione [Instant Cross-Device Suppression](instant-cross-device-suppression.md) .
+* Il dispositivo non si qualifica più per un segmento perché gli aggiornamenti o le modifiche al profilo del dispositivo lo qualificano. Ciò si verifica quando i criteri di qualificazione del segmento cambiano, o si applica un [!DNL AND NOT] operatore a una regola del segmento, o si specificano le condizioni di [aggiornamento e frequenza](../segments/recency-and-frequency.md) che utilizzano le impostazioni minore di/uguale a. I casi di utilizzo sono descritti nella documentazione [Instant Cross-Device Suppression](instant-cross-device-suppression.md) .
 
 ![solo dispositivo](assets/device-only.png)
 
@@ -51,6 +51,6 @@ Come promemoria, [!UICONTROL Device Options] sono disponibili nella [!UICONTROL 
 
 >[!MORELIKETHIS]
 >
->* [Domande frequenti su Regole di unione dei profili e Device Graph](../../faq/faq-profile-merge.md)
+>* [Domande frequenti su regole di unione profili e grafico dei dispositivi](../../faq/faq-profile-merge.md)
 >* [Soppressione immediata su diversi dispositivi](instant-cross-device-suppression.md)
 
