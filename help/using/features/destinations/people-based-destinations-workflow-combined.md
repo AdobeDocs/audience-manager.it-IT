@@ -1,20 +1,20 @@
 ---
 description: 'Questa pagina include istruzioni dettagliate su come combinare i dati CRM offline con i dati comportamentali già in uso in  Audience Manager per creare nuovi segmenti di pubblico, quindi inviare tali segmenti a Destinazioni basate su persone.  '
 seo-description: 'Questa pagina include istruzioni dettagliate su come combinare i dati CRM offline con i dati comportamentali già in uso in  Audience Manager per creare nuovi segmenti di pubblico, quindi inviare tali segmenti a Destinazioni basate su persone.   '
-seo-title: Flusso di lavoro A - Personalizzazione basata su tutte le attività online combinate con dati offline
+seo-title: 'Flusso di lavoro A: personalizzazione basata su tutte le attività online combinate con dati offline'
 solution: Audience Manager
-title: Flusso di lavoro A - Personalizzazione basata su tutte le attività online combinate con dati offline
+title: 'Flusso di lavoro A: personalizzazione basata su tutte le attività online combinate con dati offline'
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Flusso di lavoro A - Personalizzazione basata su tutte le attività online combinate con dati offline {#workflow-a}
+# Flusso di lavoro A: personalizzazione basata su tutte le attività online combinate con dati offline {#workflow-a}
 
 >[!IMPORTANT]
 >Questo articolo contiene la documentazione del prodotto destinata a guidarvi nella configurazione e nell&#39;utilizzo di questa funzione. Nulla di ciò è contenuto nella consulenza legale. Consulta il tuo consulente legale per ottenere assistenza legale.
