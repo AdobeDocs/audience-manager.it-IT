@@ -2,22 +2,22 @@
 description: Informazioni concettuali, descrizioni e definizioni per codice, metodi e processi API DCS.
 seo-description: Informazioni concettuali, descrizioni e definizioni per codice API DCS, metodi e processi in  Adobe Audience Manager (AAM).
 seo-title: Panoramica di riferimento API DCS in  Adobe Audience Manager (AAM)
-title: Panoramica di riferimento API DCS
+title: Panoramica dei riferimenti dell’API DCS
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
 
-# Panoramica di riferimento API DCS
+# Panoramica dei riferimenti dell’API DCS
 
 Informazioni concettuali, descrizioni e definizioni per [!DNL DCS API] codice, metodi e processi.
 
-* [Metodi API DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+* [Metodi dell’API DCS](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
    Inviare i dati ai [!DNL DCS API] destinatari utilizzando i metodi GET o POST.
 
@@ -25,11 +25,11 @@ Informazioni concettuali, descrizioni e definizioni per [!DNL DCS API] codice, m
 
    Codici di errore e messaggi generati dai Data Collection Servers (DCS) elencati in ordine numerico in base all&#39;ID del codice.
 
-* [Monitoraggio ID e denylist](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+* [Monitoraggio e Inserire nell&#39;elenco Bloccati ID](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   Il DCS controlla gli ID ricevuti e aggiunge a un elenco di negazioni quelli inviati a un tasso insolitamente elevato in un breve periodo di tempo.
+   Il DCS controlla gli ID ricevuti e aggiunge a un elenco Bloccati  quelli inviati a un tasso eccezionalmente elevato in un breve periodo di tempo.
 
-* [ID regione DCS, posizioni e nomi host](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
+* [ID dell’area geografica dei DCS, luoghi e nomi host](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
    Il nome host del server DCS regionale è richiesto per effettuare chiamate al DCS. Questo perché il DCS memorizza le informazioni in centri dati geograficamente vicini ai visitatori del sito. Le query funzioneranno se le inviate al DCS sbagliato, ma queste chiamate non sono efficienti e possono ritardare la risposta. Per effettuare una richiesta DCS, fate corrispondere l’ID di regione al nome host regionale corrispondente e create la query con il nome host corretto.
 
@@ -37,7 +37,7 @@ Informazioni concettuali, descrizioni e definizioni per [!DNL DCS API] codice, m
 
    Quando si effettua una chiamata, il DCS accetta dati chiave-valore in formato standard o serializzato. Leggere questa sezione per informazioni su come formattare dati chiave-valore standard e serializzati.
 
-* [Condizioni di gara e gestione errori](/help/using/api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
+* [Race condition e gestione degli errori](/help/using/api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
 
    Descrive come impedire le condizioni di gara e la gestione degli errori DCS.
 
