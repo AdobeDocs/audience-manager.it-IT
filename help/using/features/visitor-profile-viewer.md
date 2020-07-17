@@ -2,21 +2,21 @@
 description: Utilizzate il visualizzatore del profilo visitatore per visualizzare lo stato corrente di un profilo utente per il browser corrente, incluse le caratteristiche e i segmenti. Per ogni caratteristica, potete visualizzarne il SID, il nome, i dettagli su come sono state realizzate le caratteristiche del visitatore (di prima o di terza parte), la data di realizzazione e la frequenza delle realizzazioni. Per ciascun segmento, puoi visualizzarne il SID, il nome e la data di appartenenza del segmento. Puoi anche visualizzare il profilo del visitatore per un altro ID profilo Audience Manager (UUID) . Il visualizzatore del profilo del visitatore è utile per la risoluzione dei problemi.
 keywords: location;location parameter
 seo-description: Utilizzate il visualizzatore del profilo visitatore per visualizzare lo stato corrente di un profilo utente per il browser corrente, incluse le caratteristiche e i segmenti. Per ogni caratteristica, potete visualizzarne il SID, il nome, i dettagli su come sono state realizzate le caratteristiche del visitatore (di prima o di terza parte), la data di realizzazione e la frequenza delle realizzazioni. Per ciascun segmento, puoi visualizzarne il SID, il nome e la data di appartenenza del segmento. Puoi anche visualizzare il profilo del visitatore per un altro ID profilo Audience Manager (UUID) . Il visualizzatore del profilo del visitatore è utile per la risoluzione dei problemi.
-seo-title: Visualizzatore profilo visitatori
+seo-title: Visualizzatore dei profili dei visitatori
 solution: Audience Manager
-title: Visualizzatore profilo visitatori
+title: Visualizzatore dei profili dei visitatori
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Visualizzatore profilo visitatori {#visitor-profile-viewer}
+# Visualizzatore dei profili dei visitatori {#visitor-profile-viewer}
 
 Utilizzate l&#39;icona [!UICONTROL Visitor Profile Viewer] per visualizzare lo stato corrente di un profilo utente per il browser corrente, incluse le caratteristiche e i segmenti. Per ogni caratteristica, potete visualizzarne [!UICONTROL SID]il nome, i dettagli su come sono state realizzate le caratteristiche del visitatore (di prima o di terza parte), la data di realizzazione e la frequenza delle realizzazioni. Per ciascun segmento, puoi visualizzarne [!UICONTROL SID], il nome e la data di appartenenza al segmento. Potete anche visualizzare il profilo del visitatore per un altro ID profilo Audience Manager  ([!UICONTROL UUID]). È [!UICONTROL Visitor Profile Viewer] utile per la risoluzione dei problemi.
 
