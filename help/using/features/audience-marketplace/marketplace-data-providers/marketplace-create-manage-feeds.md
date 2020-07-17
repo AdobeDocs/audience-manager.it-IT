@@ -1,9 +1,9 @@
 ---
 description: Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed vengono disattivati fino al salvataggio e all’attivazione del feed. Configurate feed di dati pubblici o privati in  Audience Marketplace > Dati personali condivisi. Disponibile solo per i venditori di dati.
 seo-description: Un feed di dati richiede un nome, una descrizione, un'origine dati e un tipo di piano. I feed vengono disattivati fino al salvataggio e all’attivazione del feed. Configurate feed di dati pubblici o privati in  Audience Marketplace > Dati personali condivisi. Disponibile solo per i venditori di dati.
-seo-title: Creazione, prezzo e gestione dei feed di dati
+seo-title: Creare, assegnare un prezzo e gestire feed di dati
 solution: Audience Manager
-title: Creazione, prezzo e gestione dei feed di dati
+title: Creare, assegnare un prezzo e gestire feed di dati
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Creazione, prezzo e gestione dei feed di dati {#create-price-and-manage-data-feeds}
+# Creare, assegnare un prezzo e gestire feed di dati {#create-price-and-manage-data-feeds}
 
 ## Creare un feed di dati pubblico o privato {#create-public-private-data-feed}
 
@@ -46,6 +46,7 @@ Per creare un feed di dati:
 1. Per salvare e attivare un feed di dati:
    1. Spostate il **[!UICONTROL Availability]** cursore su **[!UICONTROL Active]**.
    1. Clic **[!UICONTROL Save]**.
+
    >[!NOTE]
    >
    >* I feed di dati salvati e attivati non possono essere eliminati.
@@ -207,5 +208,5 @@ I provider di dati possono vedere tutti i loro abbonati e feed scontati in **[!U
 
 >[!MORELIKETHIS]
 >
->* [Feed dati privati](../../../features/audience-marketplace/marketplace-private-feeds.md)
+>* [Feed di dati privati](../../../features/audience-marketplace/marketplace-private-feeds.md)
 
