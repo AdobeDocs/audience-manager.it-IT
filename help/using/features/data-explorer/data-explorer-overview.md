@@ -9,12 +9,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Esplora dati - Panoramica, vantaggi e casi di utilizzo {#overview-benefits-and-use-cases}
+# Data Explorer: panoramica, vantaggi e casi di utilizzo {#overview-benefits-and-use-cases}
 
 Utilizzare [!UICONTROL Data Explorer] per sfruttare i tipi di pubblico storici costruendo tratti basati su segnali usati e inutilizzati, e ricollegarli con dati storici per evitare la potenziale perdita di audience rilevanti.
 
