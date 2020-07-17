@@ -1,20 +1,20 @@
 ---
 description: Cercare uno o più segnali, in base alle rispettive coppie chiave-valore.
 seo-description: Cercare uno o più segnali, in base alle rispettive coppie chiave-valore.
-seo-title: Ricerca segnali per coppie chiave-valore
-title: Ricerca segnali per coppie chiave-valore
+seo-title: Ricerca di segnali per coppie chiave-valore
+title: Ricerca di segnali per coppie chiave-valore
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Ricerca segnali per coppie chiave-valore {#search-signals-by-key-value-pairs}
+# Ricerca di segnali per coppie chiave-valore {#search-signals-by-key-value-pairs}
 
 Cercare uno o più segnali, in base alle rispettive coppie chiave-valore.
 Per cercare più di un segnale, fare clic sul pulsante ![Aggiungi](assets/icon_add.png) . Inserite le coppie chiave-valore da cercare, quindi utilizzate i seguenti filtri per restringere i risultati.
@@ -37,9 +37,9 @@ Questa ricerca restituisce solo i risultati idonei per tutti e tre i filtri nell
 
 ![](assets/signals-search.png)
 
-## Segnali esclusi dalla ricerca del segnale {#excluded-signals}
+## Signals Excluded from Signal Search {#excluded-signals}
 
-Le variabili chiave utilizzate da  Audience Manager e con il prefisso `d_` e `h_` prefissi non vengono visualizzate da [!UICONTROL Signals Search]. Per informazioni dettagliate, consultate Requisiti [del prefisso per le variabili](../../traits/trait-variable-prefixes.md) chiave.
+Key variables used by Audience Manager and prefixed by the `d_` and `h_` prefixes are not surfaced by [!UICONTROL Signals Search]. Per informazioni dettagliate, consultate Requisiti [del prefisso per le variabili](../../traits/trait-variable-prefixes.md) chiave.
 
 ## Insensibilità alle maiuscole e ricerca Completamento automatico {#case-insensitivity}
 
