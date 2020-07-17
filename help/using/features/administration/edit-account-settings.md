@@ -1,9 +1,9 @@
 ---
 description: Gli utenti non amministratori possono modificare i propri profili, inclusi la modifica degli indirizzi e-mail e la reimpostazione della password.
 seo-description: Gli utenti non amministratori possono modificare i propri profili, inclusi la modifica degli indirizzi e-mail e la reimpostazione della password.
-seo-title: Modifica delle impostazioni dell'account
+seo-title: Modificare le impostazioni account
 solution: Audience Manager
-title: Modifica delle impostazioni dell'account
+title: Modificare le impostazioni account
 topic: DIL API
 uuid: 5cc04104-65db-4d48-ba13-3f344e03d6df
 feature: Administration
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Modifica delle impostazioni dell&#39;account {#edit-your-account-settings}
+# Modificare le impostazioni account {#edit-your-account-settings}
 
 Gli utenti non amministratori possono modificare i propri profili, inclusi la modifica degli indirizzi e-mail e la reimpostazione della password.
 
