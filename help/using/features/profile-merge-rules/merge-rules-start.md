@@ -1,27 +1,27 @@
 ---
 description: Per creare le regole di unione dei profili esaminare e completare i passaggi descritti in ciascuna delle procedure descritte in questa sezione.
 seo-description: Per creare le regole di unione dei profili esaminare e completare i passaggi descritti in ciascuna delle procedure descritte in questa sezione.
-seo-title: Guida introduttiva alle regole di unione dei profili
+seo-title: Guida introduttiva alle regole di unione profili
 solution: Audience Manager
-title: Guida introduttiva alle regole di unione dei profili
+title: Guida introduttiva alle regole di unione profili
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-# Guida introduttiva alle regole di unione dei profili {#getting-started-with-profile-merge-rules}
+# Guida introduttiva alle regole di unione profili {#getting-started-with-profile-merge-rules}
 
 Per creare [!UICONTROL Profile Merge Rules], esaminare e completare i passaggi descritti in ciascuna delle procedure descritte in questa sezione.
 
 <!-- merge-rules-start.xml -->
 
-## Creare un&#39;origine dati multi-dispositivo {#create-data-source}
+## Create a Cross-Device Data Source {#create-data-source}
 
 Per creare un&#39;origine dati multi-dispositivo, passare a **[!UICONTROL Audience Data > Data Sources > Add New]** e completare i passaggi per ciascuna sezione descritta qui. Per creare o modificare un&#39;origine dati multi-dispositivo sono necessarie autorizzazioni di amministratore.
 
@@ -43,7 +43,7 @@ Per completare la [!UICONTROL Data Source Details] sezione:
    * **[!UICONTROL Person]**: Un ID che definisce una singola persona. Questo ID può essere mappato su più [!DNL Audience Manager] ID.
    * **[!UICONTROL Household]**: Un ID che definisce un gruppo di persone. Questo ID può essere mappato su più [!DNL Audience Manager] ID.
 
-## Controlli sull&#39;esportazione dei dati {#export-controls}
+## Controlli sull’esportazione dei dati {#export-controls}
 
 [I Controlli](../data-export-controls.md) sull&#39;esportazione dei dati sono regole di classificazione facoltative applicabili a un&#39;origine dati e a una destinazione. Impediscono l&#39;invio di dati a una destinazione in caso di violazione della privacy dei dati o dell&#39;accordo di utilizzo. Saltate questa sezione se non utilizzate [!UICONTROL Data Export Controls].
 
@@ -69,7 +69,7 @@ Per creare, modificare o eliminare una regola è necessario disporre delle autor
 
 <!-- create-profile-merge-rule.xml -->
 
-**Prerequisiti:** Per creare un&#39;origine dati multi-dispositivo è necessaria un&#39;origine dati [!UICONTROL Profile Merge Rule]. Consulta [Creare un&#39;origine](../manage-datasources.md#create-data-source)dati.
+**Prerequisiti:** Per creare un&#39;origine dati multi-dispositivo è necessaria un&#39;origine dati [!UICONTROL Profile Merge Rule]. See [Create a Data Source](../manage-datasources.md#create-data-source).
 
 >[!TIP]
 >
@@ -83,7 +83,7 @@ Per completare la [!UICONTROL Basic Information] sezione:
 2. *(Facoltativo)* Descrivete il [!UICONTROL Profile Merge Rule]. Una breve descrizione consente di definire il ruolo o lo scopo della regola.
 3. *(Facoltativo)* Selezionate **[!UICONTROL Set as default]** se desiderate che questo sia il valore predefinito [!UICONTROL Profile Merge Rule]. I nuovi segmenti vengono associati automaticamente alla regola predefinita.
 
-## Controlli sull&#39;esportazione dei dati {#data-export-controls}
+## Controlli sull’esportazione dei dati {#data-export-controls}
 
 [I controlli](../data-export-controls.md) di esportazione dei dati sono regole di classificazione facoltative che puoi applicare al tuo [!UICONTROL Profile Merge Rule]. Impediscono l&#39;invio di dati a una destinazione in caso di violazione della privacy dei dati o dell&#39;accordo di utilizzo. Saltate questa sezione se non utilizzate [!UICONTROL Data Export Controls].
 
@@ -167,7 +167,7 @@ var vDil = DIL.create({
 });
 ```
 
-Nella coppia chiave-valore dello spazio dei nomi, la variabile `*`MCORG`*` è l’ID [!DNL Experience Cloud] organizzazione. Se non disponete di questo ID, potete trovarlo nella [!UICONTROL Administration] sezione del [!DNL Experience Cloud] dashboard. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. See [Administration: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Nella coppia chiave-valore dello spazio dei nomi, la variabile `*`MCORG`*` è l’ID [!DNL Experience Cloud] organizzazione. Se non disponete di questo ID, potete trovarlo nella [!UICONTROL Administration] sezione del [!DNL Experience Cloud] dashboard. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. See [Administration: Core Services](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configurare gli SDK
 
@@ -229,5 +229,5 @@ Vedi anche [Metodi Audience Manager per Android](hhttps://docs.adobe.com/content
 
 >[!MORELIKETHIS]
 >
->* [Creazione di un&#39;origine dati](../manage-datasources.md#create-data-source)
+>* [Creare una sorgente di dati](../manage-datasources.md#create-data-source)
 
