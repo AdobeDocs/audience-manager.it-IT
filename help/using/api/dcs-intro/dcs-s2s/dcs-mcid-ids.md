@@ -1,27 +1,27 @@
 ---
 description: I clienti del servizio ID devono fare riferimento a questa sezione per informazioni su come leggere il cookie del visitatore per gli ID richiesti per effettuare chiamate API DCS.
 seo-description: I clienti del servizio ID devono fare riferimento a questa sezione per informazioni su come leggere il cookie del visitatore per gli ID richiesti per effettuare chiamate API DCS.
-seo-title: Ottenere gli ID utente e le aree geografiche tramite il servizio identità  Adobe Experience Platform
+seo-title: Ottenere ID utente e aree geografiche tramite il servizio Adobe Experience Platform Identity
 solution: Audience Manager
-title: Ottenere gli ID utente e le aree geografiche tramite il servizio identità  Adobe Experience Platform
+title: Ottenere ID utente e aree geografiche tramite il servizio Adobe Experience Platform Identity
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
 
-# Ottenere gli ID utente e le aree geografiche tramite il servizio identità  Adobe Experience Platform {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
+# Ottenere ID utente e aree geografiche tramite il servizio Adobe Experience Platform Identity {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
 I clienti del servizio ID devono fare riferimento a questa sezione per informazioni su come leggere il cookie del visitatore per gli ID richiesti per effettuare chiamate [!DNL DCS] API.
 
 ## Ottenere l’ID utente dal cookie del servizio ID {#get-user-ids-from-service-cookie}
 
-Il [Servizio](https://docs.adobe.com/content/help/en/id-service/using/home.html) identità Adobe Experience Platform assegna gli ID visitatore e regione agli utenti che arrivano sul sito Web. Questi ID identificano gli utenti in tutte le soluzioni del [!DNL Experience Cloud] sito e sono richiesti se si desidera effettuare [!DNL DCS] chiamate.
+Il [Servizio](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html) identità Adobe Experience Platform assegna gli ID visitatore e regione agli utenti che arrivano sul sito Web. Questi ID identificano gli utenti in tutte le soluzioni del [!DNL Experience Cloud] sito e sono richiesti se si desidera effettuare [!DNL DCS] chiamate.
 
 * L’utente [!UICONTROL user ID] è tenuto a identificare e associare i dati a un particolare visitatore.
 * Il [!UICONTROL region ID] campo è obbligatorio perché è associato a un nome di server regionale, che è necessario inviare ai [!DNL DCS]. Le informazioni [!DNL DCS] vengono memorizzate nei centri dati geograficamente più vicini ai visitatori del sito. Consulta [ID regioni DCS, posizioni e nomi host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
@@ -48,7 +48,7 @@ Il codice in *corsivo* rappresenta un segnaposto variabile.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. Leggi il cookie del servizio <span class="keyword"></span> ID</b> </p> </td> 
-   <td colname="col2"> <p>Il servizio <span class="keyword"></span> ID memorizza l’ID utente e l’ID di regione nel cookie AMCV. Il nome completo del cookie è <code>AMCV_<i>###</i>@AdobeOrg</code>. Gli <code><i>###</i></code> elementi sono segnaposto per l'ID organizzazione. Consulta <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il  Experience Cloud ID</a> per ulteriori dettagli. </p> <p>Analizzare il cookie AMCV per le seguenti coppie chiave-valore: </p> <p> 
+   <td colname="col2"> <p>Il servizio <span class="keyword"></span> ID memorizza l’ID utente e l’ID di regione nel cookie AMCV. Il nome completo del cookie è <code>AMCV_<i>###</i>@AdobeOrg</code>. Gli <code><i>###</i></code> elementi sono segnaposto per l'ID organizzazione. Consulta <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il  Experience Cloud ID</a> per ulteriori dettagli. </p> <p>Analizzare il cookie AMCV per le seguenti coppie chiave-valore: </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
       <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>: Questa coppia chiave-valore contiene l’ID utente <span class="keyword"> Experience Cloud</span> . </li> 
       <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>: Questa coppia chiave-valore contiene l'ID di regione (talvolta denominato <span class="term"> hint</span>di posizione) associato a un nome server regionale. </li> 
