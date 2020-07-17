@@ -2,7 +2,7 @@
 description: Per creare una nuova origine dati, accedi a Audience Data > Origini dati > Aggiungi nuovo e completa i passaggi per ciascuna sezione descritta qui. Per creare un'origine dati è necessario disporre delle autorizzazioni di amministratore.
 keywords: data sources;manage data source;audience manager data source
 seo-description: Per creare una nuova origine dati, accedi a Audience Data > Origini dati > Aggiungi nuovo e completa i passaggi per ciascuna sezione descritta qui. Per creare un'origine dati è necessario disporre delle autorizzazioni di amministratore.
-seo-title: Creazione di un'origine dati
+seo-title: Creare una sorgente di dati
 solution: Audience Manager
 title: Gestisci origini dati
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Per completare la [!UICONTROL Data Source Details] sezione:
 1. Fornisci un [!UICONTROL integration code]. In genere [!UICONTROL integration codes] sono facoltative. Sono necessari per:
 
    * [Crea un&#39;origine](../features/profile-merge-rules/merge-rules-start.md#create-data-source)dati multi-dispositivo.
-   * Utilizzate il [Servizio](https://docs.adobe.com/content/help/en/id-service/using/home.html)identità Adobe Experience Platform.
+   * Use the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html).
    * Utilizzare le regole [di unione dei](../features/profile-merge-rules/merge-rules-start.md)profili.
 
 1. Scegliete un **[!UICONTROL ID Type]**. [!UICONTROL ID Type] le opzioni includono:
