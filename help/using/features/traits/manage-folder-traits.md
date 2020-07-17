@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -31,6 +31,7 @@ Una cartella [!UICONTROL folder trait] viene creata automaticamente quando creat
 
    * Testo &quot;Tutte le caratteristiche&quot; per aggiungere una nuova cartella di livello principale.
    * Una cartella principale esistente per aggiungere una nuova cartella subordinata.
+
    ![](assets/folder_traits_create.PNG)
 
 1. Fai clic sull&#39;icona + per creare la cartella. Puoi creare fino a un massimo di 2.000 cartelle nella tassonomia. Per ulteriori informazioni, consulta la documentazione sui [limiti di utilizzo](../../features/administration/usage-limits.md).
