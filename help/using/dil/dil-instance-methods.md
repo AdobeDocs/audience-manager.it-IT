@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1105'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -684,6 +684,7 @@ var dilInstance = DIL.create({
 >
 >* È consigliabile impostare `useCORSOnly: true` solo quando si è certi che i visitatori del sito dispongono di browser che supportano questa funzione.
 >* Quando `useCORSOnly: true`, [!UICONTROL DIL] non effettua chiamate ID da Internet Explorer versione 9 o versioni precedenti.
+
 >
 
 
@@ -721,8 +722,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 
 >[!MORELIKETHIS]
 >
->* [Requisiti del nome per le variabili chiave](../features/traits/trait-key-name-requirements.md)
->* [Requisiti del prefisso per le variabili chiave](../features/traits/trait-variable-prefixes.md)
+>* [Requisiti di denominazione delle variabili chiave](../features/traits/trait-key-name-requirements.md)
+>* [Requisiti di prefisso delle variabili chiave](../features/traits/trait-variable-prefixes.md)
 >* [Funzioni di sincronizzazione nel servizio identità Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Servizio identità Adobe Experience Platform : UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
