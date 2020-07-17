@@ -1,21 +1,21 @@
 ---
 description: Inserire i dati nei file di registro del report Performance di consegna nelle tabelle che contengono solo ID. Inserite i metadati non ID in tabelle di ricerca separate per ridurre le dimensioni dei file e i tempi di elaborazione.
 seo-description: Inserire i dati nei file di registro del report Performance di consegna nelle tabelle che contengono solo ID. Inserite i metadati non ID in tabelle di ricerca separate per ridurre le dimensioni dei file e i tempi di elaborazione.
-seo-title: Miglioramento dei tempi di elaborazione dei file di registro con le tabelle di ricerca
+seo-title: Migliorare i tempi di elaborazione dei file di registro con le tabelle di ricerca
 solution: Audience Manager
-title: Miglioramento dei tempi di elaborazione dei file di registro con le tabelle di ricerca
+title: Migliorare i tempi di elaborazione dei file di registro con le tabelle di ricerca
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
 
-# Miglioramento dei tempi di elaborazione dei file di registro con le tabelle di ricerca{#improve-log-file-processing-times-with-lookup-tables}
+# Migliorare i tempi di elaborazione dei file di registro con le tabelle di ricerca{#improve-log-file-processing-times-with-lookup-tables}
 
 Inserire i dati nei file di registro del report Performance di consegna nelle tabelle che contengono solo ID. Inserite i metadati non ID in tabelle di ricerca separate per ridurre le dimensioni dei file e i tempi di elaborazione.
 
