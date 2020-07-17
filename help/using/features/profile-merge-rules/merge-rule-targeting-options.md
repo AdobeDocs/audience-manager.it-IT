@@ -1,21 +1,21 @@
 ---
 description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirati i tipi di pubblico in base a esigenze o obiettivi aziendali specifici. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
 seo-description: Le opzioni Regole di unione dei profili consentono di espandere o rendere più mirati i tipi di pubblico in base a esigenze o obiettivi aziendali specifici. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi.
-seo-title: Casi di utilizzo generali per le regole di unione dei profili
+seo-title: Casi d’uso generali per le regole di unione profili
 solution: Audience Manager
-title: Casi di utilizzo generali per le regole di unione dei profili
+title: Casi d’uso generali per le regole di unione profili
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Casi di utilizzo generali per le regole di unione dei profili {#general-use-cases-for-profile-merge-rules}
+# Casi d’uso generali per le regole di unione profili {#general-use-cases-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rules] le opzioni consentono di espandere o restringere l&#39;attenzione del pubblico su audience specifiche in base a esigenze o obiettivi aziendali. Questi casi d’uso generali descrivono come utilizzare le opzioni disponibili e creare regole di unione per il targeting individuale, familiare e tra dispositivi. [!UICONTROL Profile Merge Rules] lavorare con destinazioni in tempo reale e batch.
 
@@ -81,7 +81,7 @@ Per ulteriori informazioni su questa opzione, consulta Destinazioni [basate sull
 
 ## Opzioni di Device Graph {#device-graph-options}
 
-La scelta di un&#39; [!UICONTROL device graph] opzione per una [!UICONTROL Profile Merge] regola dipende da condizioni specifiche per le proprietà digitali e gli obiettivi aziendali. Queste linee guida generali possono aiutarti a capire quando utilizzare un tipo di grafico piuttosto che un altro. Nota, devi essere membro di [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) o avere una relazione contrattuale con un grafico del dispositivo esterno per utilizzare queste opzioni. Per informazioni generali su quando scegliere un&#39;opzione per il grafico del dispositivo, fare riferimento alla tabella seguente. Per casi d’uso specifici, consulta Casi [d’uso di Device Graph per collegamenti di](profile-link-use-case.md) profilo e Casi [d’uso di Device Graph](external-graph-use-cases.md)esterni.
+La scelta di un&#39; [!UICONTROL device graph] opzione per una [!UICONTROL Profile Merge] regola dipende da condizioni specifiche per le proprietà digitali e gli obiettivi aziendali. Queste linee guida generali possono aiutarti a capire quando utilizzare un tipo di grafico piuttosto che un altro. Nota, devi essere membro di [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/it-IT/device-co-op/using/home.html) o avere una relazione contrattuale con un grafico del dispositivo esterno per utilizzare queste opzioni. Per informazioni generali su quando scegliere un&#39;opzione per il grafico del dispositivo, fare riferimento alla tabella seguente. Per casi d’uso specifici, consulta Casi [d’uso di Device Graph per collegamenti di](profile-link-use-case.md) profilo e Casi [d’uso di Device Graph](external-graph-use-cases.md)esterni.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -118,7 +118,7 @@ Guardate il video seguente per una panoramica dei possibili casi di utilizzo per
 
 >[!MORELIKETHIS]
 >
->* [Casi di utilizzo del grafico del dispositivo di collegamento profilo](profile-link-use-case.md)
->* [Casi d&#39;uso dei grafici dei dispositivi esterni](external-graph-use-cases.md)
+>* [Casi di utilizzo del grafico dei dispositivi di collegamento dei profili](profile-link-use-case.md)
+>* [Casi d’uso del grafico dei dispositivi esterno](external-graph-use-cases.md)
 >* [Domande frequenti sulle regole di unione dei profili](../../faq/faq-profile-merge.md)
 
