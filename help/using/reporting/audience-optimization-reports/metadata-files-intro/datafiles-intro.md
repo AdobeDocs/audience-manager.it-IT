@@ -1,21 +1,21 @@
 ---
 description: Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in  Audience Manager e usarli nei rapporti di ottimizzazione per l'audience e per i file di registro fruibili. Formattare i file di dati in base alle specifiche di questa sezione.
 seo-description: Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in  Audience Manager e usarli nei rapporti di ottimizzazione per l'audience e per i file di registro fruibili. Formattare i file di dati in base alle specifiche di questa sezione.
-seo-title: File di dati per report di ottimizzazione dell'audience e file di registro fruibili
+seo-title: File di dati per report di Audience Optimization e file di registro fruibili
 solution: Audience Manager
-title: File di dati per report di ottimizzazione dell'audience e file di registro fruibili
+title: File di dati per report di Audience Optimization e file di registro fruibili
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# File di dati per report di ottimizzazione dell&#39;audience e file di registro fruibili {#data-files-for-audience-optimization-reports}
+# File di dati per report di Audience Optimization e file di registro fruibili {#data-files-for-audience-optimization-reports}
 
 Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in  Audience Manager per visualizzarli nei report [di ottimizzazione dell&#39;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) audience e creare caratteristiche utilizzando i dati tramite i file [di registro](/help/using/integration/media-data-integration/actionable-log-files.md)fruibili. Formattare i file di dati in base alle seguenti specifiche in questa sezione.
 
@@ -25,7 +25,7 @@ Un file di dati con nome e formattazione corretti consente di importare dati di 
 
 Un file di dati deve essere accompagnato da un file di metadati. I contenuti dei file di metadati corrispondono alle informazioni sui file di dati e alle relative etichette leggibili dai menu dei report. Per ulteriori informazioni, consultate [Panoramica e mappature per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)di metadati.
 
-## Convenzioni di denominazione per i file di dati {#naming-conventions}
+## Naming Conventions for Data Files {#naming-conventions}
 
 La sintassi seguente definisce la struttura di un nome di file di dati ben formato. Nota: il *corsivo* indica un segnaposto variabile che cambia a seconda del contenuto del file.
 
@@ -43,7 +43,7 @@ Dati questi requisiti, assegnare ai file di dati un nome in base al contenuto co
 * Fare clic su dati: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
 * Dati di conversione: <pre>conversioni_<i>yyyymmdd</i>.gz</code></pre>
 
-## Formato contenuto per i file di dati {#content-format}
+## Content Format for Data Files {#content-format}
 
 La sintassi seguente definisce la struttura del contenuto in un file di dati formato correttamente. Nota: il *corsivo* indica un segnaposto variabile e viene sostituito con un&#39;etichetta in un file di dati effettivo.
 
@@ -141,7 +141,7 @@ La tabella seguente elenca e descrive le intestazioni delle colonne per il file 
  </tbody> 
 </table>
 
-## Metodi di consegna dei file di dati {#delivery-methods}
+## Delivery Methods for Data Files {#delivery-methods}
 
 Caricate i file di dati di impression, clic o conversione in una directory Amazon S3 per il vostro [!DNL Audience Manager] account. Fare riferimento a questa sezione per informazioni sui percorsi di consegna/directory, sui tempi di elaborazione dei file e sugli aggiornamenti.
 
