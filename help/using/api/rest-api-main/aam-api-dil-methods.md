@@ -1,21 +1,21 @@
 ---
 description: Metodi che consentono di utilizzare in modo programmatico la Data Integration Library (DIL).
 seo-description: Metodi che consentono di utilizzare in modo programmatico la Data Integration Library (DIL).
-seo-title: Metodi API della libreria di integrazione dei dati
+seo-title: Metodi dell’API Data Integration Library
 solution: Audience Manager
-title: Metodi API della libreria di integrazione dei dati
+title: Metodi dell’API Data Integration Library
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
 
-# Metodi API della libreria di integrazione dei dati {#data-integration-library-api-methods}
+# Metodi dell’API Data Integration Library {#data-integration-library-api-methods}
 
 Metodi che consentono di utilizzare in modo programmatico [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
