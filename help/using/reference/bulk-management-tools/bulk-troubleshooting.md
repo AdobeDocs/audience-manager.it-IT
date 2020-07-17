@@ -1,21 +1,21 @@
 ---
 description: Cosa fare quando i fogli di lavoro restituiscono un errore o la richiesta in blocco non riesce.
 seo-description: Cosa fare quando i fogli di lavoro restituiscono un errore o la richiesta in blocco non riesce.
-seo-title: Suggerimenti per la risoluzione dei problemi per gli strumenti di gestione di massa
+seo-title: Suggerimenti per la risoluzione dei problemi relativi agli strumenti di gestione in blocco
 solution: Audience Manager
-title: Suggerimenti per la risoluzione dei problemi per gli strumenti di gestione di massa
+title: Suggerimenti per la risoluzione dei problemi relativi agli strumenti di gestione in blocco
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Suggerimenti per la risoluzione dei problemi per gli strumenti di gestione di massa{#troubleshooting-tips-for-bulk-management-tools}
+# Suggerimenti per la risoluzione dei problemi relativi agli strumenti di gestione in blocco{#troubleshooting-tips-for-bulk-management-tools}
 
 Cosa fare quando i fogli di lavoro restituiscono un errore o la richiesta in blocco non riesce.
 
