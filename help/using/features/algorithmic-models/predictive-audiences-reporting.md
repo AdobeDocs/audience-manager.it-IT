@@ -1,20 +1,20 @@
 ---
-description: Le audience predittive ti aiutano a classificare audience sconosciute in persone distinte in tempo reale, utilizzando la scienza dei dati.
-seo-description: Le audience predittive ti aiutano a classificare audience sconosciute in persone distinte in tempo reale, utilizzando la scienza dei dati.
-seo-title: Report Predictive Audiences
+description: Predictive Audiences ti aiuta a classificare tipi di pubblico sconosciuti in utenti tipo distinti in tempo reale utilizzando la scienza dei dati.
+seo-description: Predictive Audiences ti aiuta a classificare tipi di pubblico sconosciuti in utenti tipo distinti in tempo reale utilizzando la scienza dei dati.
+seo-title: Reporting di Predictive Audiences
 solution: Audience Manager
-title: ' Audience Manager Predictive Audiences'
+title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Report Predictive Audiences
+# Reporting di Predictive Audiences
 
 Dopo aver salvato un [!UICONTROL Predictive Audiences] modello,  Audience Manager avvia la formazione. Entro un paio d&#39;ore, il modello calcolato inizierà ad analizzare i tipi di pubblico sui server [di raccolta](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)dati. La generazione dei rapporti sarà disponibile il giorno successivo.
 
@@ -33,12 +33,12 @@ La tabella Modelli mostra le informazioni seguenti:
 * **[!UICONTROL Status]**: lo stato di ciascun modello:
    * **[!UICONTROL Pending]**: il modello è in fase di inizializzazione e inizierà a produrre risultati a breve;
    * **[!UICONTROL Active]**: il modello è in esecuzione con successo e produce risultati;
-   * **[!UICONTROL Warning]**: il modello non è riuscito a produrre risultati, a causa di dati insufficienti (ad esempio, bassa popolazione di baseline, profili utente non ricchi);
+   * **[!UICONTROL Warning]**: il modello non è riuscito a produrre risultati, a causa di dati insufficienti (ad esempio, bassa popolazione di linee di base, profili utente non ricchi);
    * **[!UICONTROL Error]**: impossibile eseguire il modello. Contattate il rappresentante Adobe.
 
 ## Report Panoramica modello{#model-report}
 
-Una volta scelto un modello, la relativa pagina di reporting verrà caricata. Nella parte superiore della pagina puoi vedere i primi 5 segmenti predittivi più grandi, basati sulla realizzazione in tempo reale di 1 giorno, per cui il modello ha classificato il pubblico di destinazione. La **[!UICONTROL Other]** categoria include le altre persone, che non erano incluse nei primi cinque segmenti predittivi più grandi.
+Una volta scelto un modello, la pagina di reporting verrà caricata. Nella parte superiore della pagina puoi vedere i primi 5 segmenti predittivi più grandi, basati sulla realizzazione in tempo reale di 1 giorno, per cui il modello ha classificato il pubblico di destinazione. La **[!UICONTROL Other]** categoria include le altre persone, che non erano incluse nei primi cinque segmenti predittivi più grandi.
 
  Audience Manager visualizza sia un grafico a torta con colori codificati che un grafico a linee temporali per il [!UICONTROL Predictive Audiences]cliente.
 
