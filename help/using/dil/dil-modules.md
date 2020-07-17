@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '716'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -157,6 +157,7 @@ dil-google-universal-analytics.xml
    >
    >
 * Non puoi utilizzare `GA.submitUniversalAnalytics();` se stai ancora lavorando con il codice legacy di tracciamento delle analisi di Google (ad esempio, `ga.js` o `dc.js`). Vedi [GA.init](../dil/dil-modules.md#ga-init) .
+
 >
 
 
