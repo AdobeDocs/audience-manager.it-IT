@@ -135,7 +135,7 @@ In [!UICONTROL Segment Builder], la [!UICONTROL Traits] sezione consente di gest
 | Cerca | Consente di trovare [!UICONTROL traits] l’aggiunta a un [!UICONTROL segment]. |
 | Consigli | Ottenete raccomandazioni live per contenuti simili [!UICONTROL traits], dai feed di dati di prime parti [!UICONTROL traits] e [!UICONTROL Audience Marketplace] ai quali siete iscritti. Aggiungete queste raccomandazioni alla [!UICONTROL segment] regola per espandere il pubblico. Ulteriori informazioni in [Recommendations](trait-recommendations.md)sulle caratteristiche. |
 | **[!UICONTROL Marketplace Recommendations]** | Ottenete raccomandazioni live per contenuti simili [!UICONTROL traits], dai [!UICONTROL Audience Marketplace] feed di dati a cui non siete iscritti. Ulteriori informazioni in [Recommendations](trait-recommendations.md)sulle caratteristiche. |
-| Dati [!UICONTROL Segment] di dimensioni reali e stimate | See [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
+| Dati [!UICONTROL Segment] di dimensioni reali e stimate | Consulta [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
 ## Rimuovi [!UICONTROL Traits] da un [!UICONTROL Segment] {#remove-traits}
 
