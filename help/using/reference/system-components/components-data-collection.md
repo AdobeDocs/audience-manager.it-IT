@@ -1,21 +1,21 @@
 ---
 description: I componenti per la raccolta dei dati includono i server di raccolta dati, l'API DIL, i trasferimenti di dati da server a server in entrata e i file di registro.
 seo-description: I componenti per la raccolta dei dati includono i server di raccolta dati, l'API DIL, i trasferimenti di dati da server a server in entrata e i file di registro.
-seo-title: Componenti per la raccolta dati
+seo-title: Componenti di raccolta dei dati
 solution: Audience Manager
-title: Componenti per la raccolta dati
+title: Componenti di raccolta dei dati
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
 
-# Componenti per la raccolta dati{#data-collection-components}
+# Componenti di raccolta dei dati{#data-collection-components}
 
 I componenti per la raccolta dei dati includono i server di raccolta dati, l&#39;API DIL, i trasferimenti di dati da server a server in entrata e i file di registro.
 
@@ -58,11 +58,11 @@ In una chiamata dell&#39;evento, la posizione geografica viene acquisita in una 
 
 ![](assets/dcs-map.png)
 
-In qualità di cliente, l&#39;utente interagisce [!DNL DCS] indirettamente attraverso il nostro codice di raccolta dati. Potete anche lavorare direttamente con l&#39;API [!DNL DCS] tramite un set di API. Consulta Metodi e codice [API per](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)Data Collection Server (DCS).
+In qualità di cliente, l&#39;utente interagisce [!DNL DCS] indirettamente attraverso il nostro codice di raccolta dati. Potete anche lavorare direttamente con l&#39;API [!DNL DCS] tramite un set di API. See [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-Il database [!UICONTROL PCS] è grande (in pratica, un enorme cookie lato server). Memorizza i dati ricevuti dagli utenti attivi dai trasferimenti server-to-server e [!DNL DCS]. [!UICONTROL PCS] i dati sono costituiti dagli ID dispositivo, dagli ID profilo autenticati e dalle caratteristiche associate. Quando [!DNL DCS] riceve una chiamata in tempo reale, l’utente verifica la presenza [!UICONTROL PCS] di altre caratteristiche a cui l’utente può appartenere o essere idoneo. Inoltre, se una caratteristica viene aggiunta a un segmento in un momento successivo, tali ID caratteristica vengono aggiunti al segmento [!UICONTROL PCS] e gli utenti possono qualificarsi per quel segmento automaticamente, senza una visita a un particolare sito o app. Questo [!UICONTROL PCS] aiuta a comprendere meglio [!DNL Audience Manager]i vostri utenti perché può far corrispondere e segmentare gli utenti in tempo reale o dietro le quinte con dati sulle caratteristiche storiche e nuovi. Questo comportamento offre un&#39;immagine più completa e precisa degli utenti rispetto alle sole qualifiche in tempo reale.
+Il database [!UICONTROL PCS] è grande (in pratica, un enorme cookie lato server). Memorizza i dati ricevuti per gli utenti attivi dai trasferimenti server-to-server e dal [!DNL DCS]. I dati [!UICONTROL PCS] sono costituiti dagli ID dispositivo, dagli ID profilo autenticati e dalle caratteristiche a essi associate. Quando [!DNL DCS] riceve una chiamata in tempo reale, l’utente verifica la presenza [!UICONTROL PCS] di altre caratteristiche a cui l’utente può appartenere o essere idoneo. Inoltre, se una caratteristica viene aggiunta a un segmento in un momento successivo, tali ID caratteristica vengono aggiunti al segmento [!UICONTROL PCS] e gli utenti possono qualificarsi per quel segmento automaticamente, senza una visita a un particolare sito o app. Questo [!UICONTROL PCS] aiuta a comprendere meglio [!DNL Audience Manager]i vostri utenti perché può far corrispondere e segmentare gli utenti in tempo reale o dietro le quinte con dati sulle caratteristiche storiche e nuovi. Questo comportamento offre un&#39;immagine più completa e precisa degli utenti rispetto alle sole qualifiche in tempo reale.
 
 Non sono disponibili controlli per l’interfaccia utente che consentono ai clienti di lavorare direttamente con [!UICONTROL PCS]. L&#39;accesso del cliente al [!UICONTROL PCS] sistema è indiretto, attraverso il suo ruolo di archivio dati e trasferimenti di dati. La [!UICONTROL PCS] corse su Apache Cassandra.
 
@@ -83,9 +83,9 @@ Le caratteristiche [!UICONTROL PCS] di scaricamento vengono scaricate se sono in
 
 **Altri[!UICONTROL DCS/PCS]processi: Rifiuto privacy**
 
-Questi sistemi server gestiscono le richieste di privacy e di rinuncia degli utenti. Le informazioni sui cookie dell&#39;utente non vengono raccolte nel file di registro se un utente ha rinunciato alla raccolta dei dati. Per ulteriori informazioni sulle nostre politiche sulla privacy, consulta l&#39; [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html).
+Questi sistemi server gestiscono le richieste di privacy e di rinuncia degli utenti. Le informazioni sui cookie dell&#39;utente non vengono raccolte nel file di registro se un utente ha rinunciato alla raccolta dei dati. Per ulteriori informazioni sulle nostre politiche sulla privacy, consulta l&#39; [Adobe Privacy Center](https://www.adobe.com/it/privacy/advertising-services.html).
 
-## Libreria di integrazione dei dati (DIL) {#dil}
+##  Data Integration Library (DIL) {#dil}
 
 [!UICONTROL DIL] è il codice inserito nella pagina per la raccolta dei dati. Per ulteriori informazioni sui servizi e i metodi disponibili, vedi API [](../../dil/dil-overview.md) DIL.
 
@@ -99,5 +99,5 @@ Il file [!UICONTROL PCS] crea e scrive i dati nei file di registro. Questi vengo
 
 >[!MORELIKETHIS]
 >
->* [Centro per la privacy Adobe](https://www.adobe.com/privacy.html)
+>* [Centro per la privacy di Adobe](https://www.adobe.com/it/privacy.html)
 
