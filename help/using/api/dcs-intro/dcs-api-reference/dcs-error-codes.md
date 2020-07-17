@@ -159,22 +159,22 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>ID cliente bloccato <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Restituito quando l’ID cliente è stato identificato come dannoso ed è stato aggiunto a una denylist. </p> </td> 
+   <td colname="col3"> <p>Restituito quando l’ID cliente è stato identificato come dannoso ed è stato aggiunto a un elenco Bloccati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>ID origine dati bloccata <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Restituito quando l’ID dell’origine dati è stato identificato come dannoso ed è stato aggiunto a un elenco di indirizzi </p> </td> 
+   <td colname="col3"> <p>Restituito quando l’ID origine dati è stato identificato come dannoso ed è stato aggiunto a un elenco Bloccati </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>ID dispositivo dichiarato bloccato <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>L'ID dispositivo è stato identificato come dannoso ed è stato aggiunto a un elenco di valori consentiti Questo può verificarsi quando riceviamo una quantità estrema di richieste <span class="wintitle"> DCS</span> contenenti questo ID dispositivo in poco tempo. </p> </td>
+   <td colname="col3"> <p>L'ID dispositivo è stato identificato come dannoso ed è stato aggiunto a un elenco Bloccati. Questo può accadere quando riceviamo una quantità estrema di richieste <span class="wintitle"> DCS</span> contenenti questo ID dispositivo in poco tempo. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Operazione profilo bloccato per <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Un'azione di lettura/scrittura è stata bloccata perché un ID è stato identificato come dannoso ed è stato aggiunto a un elenco di indirizzi non validi Vedere il codice di errore 306. </p> </td> 
+   <td colname="col3"> <p>Un'azione di lettura/scrittura è stata bloccata perché un ID è stato identificato come dannoso ed è stato aggiunto a un elenco Bloccati. Vedere il codice di errore 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
@@ -245,4 +245,4 @@ Il metodo [!DNL DCS] restituisce i codici di errore e i messaggi in un [!DNL JSO
 
 I codici di errore acquisiti dall&#39;intestazione X vengono visualizzati nella stringa URL come questa, `X-Error: 101,102`.
 
-[Condizioni di gara e gestione errori](../../../api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
+[Race condition e gestione degli errori](../../../api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
