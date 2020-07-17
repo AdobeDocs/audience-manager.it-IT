@@ -1,21 +1,21 @@
 ---
 description: Descrive le macro che è possibile aggiungere a un URL di destinazione.
 seo-description: Descrive le macro che è possibile aggiungere a un URL di destinazione.
-seo-title: Macro di destinazione definite
+seo-title: Definizione delle macro delle destinazioni
 solution: Audience Manager
-title: Macro di destinazione definite
+title: Definizione delle macro delle destinazioni
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-# Macro di destinazione definite {#destination-macros-defined}
+# Definizione delle macro delle destinazioni {#destination-macros-defined}
 
 Descrive le macro che è possibile aggiungere a una destinazione [!DNL URL].
 
@@ -115,4 +115,4 @@ Entrambe le macro impediscono il caching, ma `%rnd%` possono essere più efficie
 
 >[!MORELIKETHIS]
 >
->* [Macro di destinazione definite](../../features/destinations/destination-macros.md#destination-macros-defined)
+>* [Definizione delle macro delle destinazioni](../../features/destinations/destination-macros.md#destination-macros-defined)
