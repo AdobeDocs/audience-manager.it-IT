@@ -1,21 +1,21 @@
 ---
 description: Una stima in massa restituisce i dati delle dimensioni del segmento in base alle regole del segmento. Seguite queste istruzioni per effettuare una richiesta di stima in massa.
 seo-description: Una stima in massa restituisce i dati delle dimensioni del segmento in base alle regole del segmento. Seguite queste istruzioni per effettuare una richiesta di stima in massa.
-seo-title: Stime di massa
+seo-title: Stime in blocco
 solution: Audience Manager
-title: Stime di massa
+title: Stime in blocco
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Stime di massa{#bulk-estimates}
+# Stime in blocco{#bulk-estimates}
 
 Una stima in massa restituisce i dati delle dimensioni del segmento in base alle regole del segmento. Seguite queste istruzioni per effettuare una richiesta di stima in massa.
 
