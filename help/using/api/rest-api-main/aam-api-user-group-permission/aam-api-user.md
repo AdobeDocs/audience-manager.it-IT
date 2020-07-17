@@ -1,21 +1,21 @@
 ---
 description: Resto di metodi API per gestire gli utenti, inclusi creazione, aggiornamento, elenco, eliminazione e restituzione di oggetti utente.
 seo-description: Resto di metodi API per gestire gli utenti, inclusi creazione, aggiornamento, elenco, eliminazione e restituzione di oggetti utente.
-seo-title: Metodi API di gestione utenti
+seo-title: Metodi API per la gestione degli utenti
 solution: Audience Manager
-title: Metodi API di gestione utenti
+title: Metodi API per la gestione degli utenti
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Metodi API di gestione utenti {#user-management-api-methods}
+# Metodi API per la gestione degli utenti {#user-management-api-methods}
 
 Metodi [!DNL API] di ripristino per gestire gli utenti, inclusi creazione, aggiornamento, elenco, eliminazione e restituzione di oggetti utente.
 
