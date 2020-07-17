@@ -1,21 +1,21 @@
 ---
 description: Il rapporto Raggiungi utente univoco restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione diretta al numero di utenti unici per le unità pubblicitarie selezionate. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola. Il rapporto Raggiungi utente univoco consente di trovare l'unità di annunci che offre la massima portata agli utenti con targeting.
 seo-description: Il rapporto Raggiungi utente univoco restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione diretta al numero di utenti unici per le unità pubblicitarie selezionate. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola. Il rapporto Raggiungi utente univoco consente di trovare l'unità di annunci che offre la massima portata agli utenti con targeting.
-seo-title: Raggiungimento utente univoco
+seo-title: Raggiungimento di utenti univoci
 solution: Audience Manager
-title: Raggiungimento utente univoco
+title: Raggiungimento di utenti univoci
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Raggiungimento utente univoco{#unique-user-reach}
+# Raggiungimento di utenti univoci{#unique-user-reach}
 
 Il rapporto Raggiungi utente univoco restituisce i dati sotto forma di grafico a bolle. Ogni bolla viene ridimensionata in proporzione diretta al numero di utenti unici per le unità pubblicitarie selezionate. Una bolla più grande indica una portata maggiore rispetto a una bolla più piccola. Il rapporto Raggiungi utente univoco consente di trovare l&#39;unità di annunci che offre la massima portata agli utenti con targeting.
 
