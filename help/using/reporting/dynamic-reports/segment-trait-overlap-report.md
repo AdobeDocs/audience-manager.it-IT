@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -104,7 +104,7 @@ Il [!UICONTROL Segment-to-Trait overlap] rapporto consente di utilizzare due cur
 * **[!UICONTROL Filter Trait Uniques %:]** Filtra i dati in base alla percentuale di visitatori univoci condivisi tra la caratteristica e il segmento.
 * **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtra i dati in base alla percentuale di visitatori univoci condivisi tra il segmento e la caratteristica.
 
-### Esempio 
+### Esempio
 
 Il diagramma seguente illustra la differenza tra l’uniques delle caratteristiche % e l’uniques del segmento %. In questo caso, la caratteristica e il segmento condividono 3 visitatori univoci. Come proporzioni:
 
@@ -182,9 +182,9 @@ La finestra a comparsa per il [!UICONTROL Segment-to-Trait Overlap] rapporto con
 
 >[!MORELIKETHIS]
 >
->* [Filtra i risultati dei report con i cursori dei dati](../../reporting/dynamic-reports/data-sliders.md)
+>* [Filtrare i risultati dei report con i cursori di dati](../../reporting/dynamic-reports/data-sliders.md)
 >* [Forme, colori e dimensioni utilizzati nei rapporti interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Informazioni su icone e strumenti del rapporto](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapporti di sovrapposizione: Aggiorna pianificazione e dimensione minima del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Campionamento dei dati e tassi di errore in report selezionati  Audience Manager...](../../reporting/report-sampling.md)
->* [File CSV per rapporti di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
+>* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager...](../../reporting/report-sampling.md)
+>* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
