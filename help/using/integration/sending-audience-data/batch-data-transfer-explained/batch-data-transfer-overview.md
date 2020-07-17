@@ -2,21 +2,21 @@
 description: Panoramica per i clienti tecnici e non tecnici che desiderano portare i dati di altri sistemi (offline) in  Audience Manager.
 keywords: inbound, batch, batch upload, batch data
 seo-description: Panoramica per i clienti tecnici e non tecnici che desiderano portare i dati di altri sistemi (offline) in  Audience Manager. A questo scopo, usate l’opzione di caricamento batch in  Audience Manager.
-seo-title: Invia dati batch a  Panoramica Audience Manager
+seo-title: Panoramica dell’invio di dati in batch ad Audience Manager
 solution: Audience Manager
-title: Invia dati batch a  Panoramica Audience Manager
+title: Panoramica dell’invio di dati in batch ad Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
 
-# Invia dati batch a [!DNL Audience Manager] panoramica {#send-batch-data-to-audience-manager-overview}
+# Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
 
 Una panoramica per i clienti tecnici e non tecnici che desiderano trasferire dati da altri sistemi (offline) in [!DNL Audience Manager].
 
@@ -41,7 +41,7 @@ See [ID Synchronization for Inbound Data Transfers](../../../integration/sending
 I nomi e il contenuto dei file seguono linee guida rigorose. In questa guida *è necessario* assegnare un nome e organizzare i file di dati in base alle seguenti specifiche. Consulta:
 
 * [Requisiti di nome di Amazon S3 per file di dati in entrata](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Contenuto file dati in entrata: Sintassi, variabili ed esempi](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+* [Inbound Data File Contents: Syntax, Variables, and Examples](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## I dati online sono disponibili per gli sforzi di marketing offline
 
