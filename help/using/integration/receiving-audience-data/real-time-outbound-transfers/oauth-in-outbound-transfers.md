@@ -1,16 +1,16 @@
 ---
 description: Quando si pubblicano segmenti nella destinazione partner tramite un'integrazione server-to-server in tempo reale,  Audience Manager può essere configurato per l'autenticazione tramite OAuth 2.0 quando si effettuano le richieste. Questo offre la possibilità di emettere richieste autenticate da  Audience Manager all'endpoint.
 seo-description: Quando si pubblicano segmenti nella destinazione partner tramite un'integrazione server-to-server in tempo reale,  Audience Manager può essere configurato per l'autenticazione tramite OAuth 2.0 quando si effettuano le richieste. Questo offre la possibilità di emettere richieste autenticate da  Audience Manager all'endpoint.
-seo-title: Integrazione OAuth 2.0 per trasferimenti in uscita in tempo reale
+seo-title: Integrazione di OAuth 2.0 per trasferimenti in uscita in tempo reale
 solution: Audience Manager
-title: Integrazione OAuth 2.0 per trasferimenti in uscita in tempo reale
+title: Integrazione di OAuth 2.0 per trasferimenti in uscita in tempo reale
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
