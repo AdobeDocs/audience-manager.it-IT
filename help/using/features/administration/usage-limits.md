@@ -11,28 +11,28 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
 
 # Limiti di utilizzo {#usage-limits}
 
- Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell&#39;interfaccia utente, sia che siano impostati in modo programmatico tramite [!DNL API] metodi. I limiti di utilizzo contribuiscono a proteggere  Audience Manager dai processi automatizzati che potrebbero tentare di compromettere la nostra interfaccia [!DNL API]o quella dell&#39;utente.
+Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through [!DNL API] methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our [!DNL API]s or user interface.
 
 ## Limiti di mappatura degli ID {#id-mapping-limits}
 
-Nella tabella seguente sono elencati i limiti di mappatura [](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) degli ID per gli ID dispositivo. Quando un ID raggiunge uno dei limiti seguenti,  Audience Manager aggiunge nuove mappature ID basate su una logica [!DNL FIFO] (primo in, primo out), rimuovendo la mappatura ID memorizzata più vecchia e aggiungendo la nuova. Per informazioni sugli ID supportati da  Audience Manager, consultate [Indice degli ID](../../reference/ids-in-aam.md) in  Audience Manager.
+The table below lists the [ID mapping](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) limits for device IDs. Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adding the new one. Refer to [Index of IDs](../../reference/ids-in-aam.md) in Audience Manager for details on the IDs supported by Audience Manager.
 
-| Mappatura ID | Limite massimo |
+| ID Mapping | Limite massimo |
 |-----------|-------------- |
-| Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to 1 Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) |
-| ID cross-device ([DPUUID](../../reference/ids-in-aam.md)) per Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 ID cross-device ([DPUUID](../../reference/ids-in-aam.md)) a 1 ID pubblicitario dispositivo ([DAID](../../reference/ids-in-aam.md)), per ogni [DPID](../../reference/ids-in-aam.md) |
-| Cookie/ID browser per cookie/ID browser | 1000 cookie/ID browser a 1 cookie/ID browser |
+| Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Device Advertising IDs ([DAID](../../reference/ids-in-aam.md)) to 1 Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) |
+| Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) to Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 Cross-device IDs ([DPUUID](../../reference/ids-in-aam.md)) to 1 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)), per each [DPID](../../reference/ids-in-aam.md) |
+| Cookie/browser ID to cookie/browser ID | 1000 cookie/browser  IDs to 1 cookie/browser ID |
 
-## Limiti elemento {#item-limits}
+## Item Limits {#item-limits}
 
-Le tabelle elencano i limiti correnti per tipo di articolo. Non puoi creare nuove caratteristiche, segmenti, destinazioni o [!UICONTROL Algorithmic Models] se raggiungi un limite specifico per uno di questi elementi. Se raggiungete un limite, dovete eliminare un elemento precedente prima di poterne creare uno nuovo.
+The tables list the current limits by item type. You cannot create new traits, segments, destinations, or [!UICONTROL Algorithmic Models] if you reach a specific limit for one of these items. Se raggiungete un limite, dovete eliminare un elemento precedente prima di poterne creare uno nuovo.
 
 ### Limiti di caratteristiche
 
