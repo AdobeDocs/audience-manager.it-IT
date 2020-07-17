@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Spiegazione dei tempi di trasmissione e delle caratteristiche {#segment-time-to-live-explained}
+# Spiegazione della durata di segmenti e caratteristiche {#segment-time-to-live-explained}
 
 L’intervallo di caratteristiche [!UICONTROL time-to-live] ([!DNL TTL]) influisce sull’appartenenza al segmento.
 
@@ -23,7 +23,7 @@ L’intervallo di caratteristiche [!UICONTROL time-to-live] ([!DNL TTL]) influis
 
 ## Tempo di vita
 
-[!DNL TTL] Definisce per quanto tempo un visitatore del sito rimane in un segmento dopo l’ultimo evento di qualificazione delle caratteristiche. [!DNL TTL] è impostato sulle caratteristiche e non sui segmenti. I visitatori non rientrano in un segmento se non sono idonei per una caratteristica prima della fine dell&#39; [!DNL TTL] intervallo. Il valore predefinito [!DNL TTL] per le nuove caratteristiche è 120 giorni. Se è impostata su 0 giorni, la caratteristica non scade mai. [Impostate il valore](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL quando create o modificate una caratteristica nella [!UICONTROL Advanced Options] sezione dell’interfaccia di creazione delle caratteristiche.
+[!DNL TTL] Definisce per quanto tempo un visitatore del sito rimane in un segmento dopo l’ultimo evento di qualificazione delle caratteristiche. [!DNL TTL]Il è impostato sulle caratteristiche e non sui segmenti. Visitors fall out of a segment if they do not qualify for a trait before the end of the [!DNL TTL] interval. Il valore predefinito [!DNL TTL] per le nuove caratteristiche è 120 giorni. Se è impostata su 0 giorni, la caratteristica non scade mai. [Impostate il valore](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) TTL quando create o modificate una caratteristica nella [!UICONTROL Advanced Options] sezione dell’interfaccia di creazione delle caratteristiche.
 
 ### 1 giorno TTL spiegato
 
