@@ -1,9 +1,9 @@
 ---
 description: Un feed di dati privato è un'opzione che consente ai fornitori di limitare l'accesso degli acquirenti ai loro dati. I provider di dati e gli acquirenti dovrebbero rivedere queste informazioni prima di creare e iscriversi ai feed di dati privati.
 seo-description: Un feed di dati privato è un'opzione che consente ai fornitori di limitare l'accesso degli acquirenti ai loro dati. I provider di dati e gli acquirenti dovrebbero rivedere queste informazioni prima di creare e iscriversi ai feed di dati privati.
-seo-title: Feed dati privati
+seo-title: Feed di dati privati
 solution: Audience Manager
-title: Feed dati privati
+title: Feed di dati privati
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
 feature: Audience Marketplace
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 1%
 ---
 
 
-# Feed dati privati {#private-data-feeds}
+# Feed di dati privati {#private-data-feeds}
 
 Un feed di dati privato è un&#39;opzione che consente ai fornitori di limitare l&#39;accesso degli acquirenti ai loro dati. I provider di dati e gli acquirenti dovrebbero rivedere queste informazioni prima di creare e iscriversi ai feed di dati privati.
 
