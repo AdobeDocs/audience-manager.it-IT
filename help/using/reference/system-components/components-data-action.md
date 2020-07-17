@@ -1,21 +1,21 @@
 ---
 description: I componenti delle azioni dati includono Feed dati cliente, Server di raccolta dati, editori SFTP/S3/HTTP, IRIS e Server cache profilo.
 seo-description: I componenti delle azioni dati includono Feed dati cliente, Server di raccolta dati, editori SFTP/S3/HTTP, IRIS e Server cache profilo.
-seo-title: Componenti azione dati
+seo-title: Componenti di azione sui dati
 solution: Audience Manager
-title: Componenti azione dati
+title: Componenti di azione sui dati
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Componenti azione dati{#data-action-components}
+# Componenti di azione sui dati{#data-action-components}
 
 I componenti delle azioni dati includono Feed dati cliente, Server di raccolta dati, editori SFTP/S3/HTTP, IRIS e Server cache profilo.
 
@@ -27,13 +27,13 @@ c_compact.xml
 
 I componenti azione sono sistemi e processi che consentono di spostare i dati all&#39;interno e all&#39;esterno [!DNL Audience Manager] (per mancanza di una frase migliore). Questi [!DNL Audience Manager] componenti includono:
 
-## Feed dati cliente (CDF) {#cdf}
+## Feed di dati cliente (CDF, Customer Data Feeds) {#cdf}
 
 [!UICONTROL CDF] sono file inviati ogni ora ai clienti. Questi contengono ID utente insieme agli ID del segmento, agli ID delle caratteristiche e ad altri dati associati. Per ulteriori informazioni, consulta Panoramica sui feed di dati [cliente](../../features/cdf-files.md).
 
 ## Data Collection Server (DCS) {#dcs}
 
-Consulta Componenti [per la raccolta](../../reference/system-components/components-data-collection.md)dati.
+Consulta [Data Collection Components](../../reference/system-components/components-data-collection.md).
 
 ## SFTP/S3 {#sftp-s3}
 
@@ -150,4 +150,4 @@ L&#39;esempio seguente contiene i dati del segmento in tempo reale provenienti d
 
 ## Server cache profilo (PCS) {#pcs}
 
-Consulta Componenti [per la raccolta](../../reference/system-components/components-data-collection.md)dati.
+Consulta [Data Collection Components](../../reference/system-components/components-data-collection.md).
