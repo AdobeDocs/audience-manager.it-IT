@@ -1,21 +1,21 @@
 ---
 description: Un metodo GET che restituisce la destinazione per l'ID destinazione specificato.
 seo-description: Un metodo GET che restituisce la destinazione per l'ID destinazione specificato.
-seo-title: Restituisci una destinazione per ID destinazione
+seo-title: Restituire una destinazione per ID destinazione
 solution: Audience Manager
-title: Restituisci una destinazione per ID destinazione
+title: Restituire una destinazione per ID destinazione
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
 
-# Restituisci una destinazione per ID destinazione {#return-a-destination-by-destination-id}
+# Restituire una destinazione per ID destinazione {#return-a-destination-by-destination-id}
 
 Un `GET` metodo che restituisce la destinazione per l&#39;oggetto specificato `destinationId`.
 
