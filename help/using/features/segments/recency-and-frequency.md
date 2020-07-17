@@ -1,21 +1,21 @@
 ---
 description: In Segment Builder (Generatore di segmenti), la frequenza e la frequenza consentono di segmentare i visitatori in base alle azioni che si verificano o si ripetono in un determinato intervallo giornaliero.
 seo-description: In Segment Builder (Generatore di segmenti), la frequenza e la frequenza consentono di segmentare i visitatori in base alle azioni che si verificano o si ripetono in un determinato intervallo giornaliero.
-seo-title: Recency e frequenza
+seo-title: Attualità e frequenza
 solution: Audience Manager
-title: Recency e frequenza
+title: Attualità e frequenza
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Recency e frequenza {#recency-and-frequency}
+# Attualità e frequenza {#recency-and-frequency}
 
 In [!UICONTROL Segment Builder]recency e frequenza potete segmentare i visitatori in base alle azioni che si verificano o si ripetono in un determinato intervallo giornaliero.
 
@@ -84,8 +84,8 @@ Controlla e comprendi questi limiti e queste regole quando vuoi applicare recenc
    <td colname="col2"> <p>Puoi configurare i requisiti di frequenza <i>senza</i> configurare i requisiti di aggiornamento. È sufficiente impostare un valore di frequenza e lasciare vuoto il campo Recency. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Regole di unione profilo</b> </p> </td> 
-   <td colname="col2"> <p>Consulta <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Frequenza caratteristiche, Grafici per dispositivi esterni e Regole</a>di unione dei profili. </p> </td> 
+   <td colname="col1"> <p><b>Regole di unione profili</b> </p> </td> 
+   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,5 +126,5 @@ Le espressioni di capping delle frequenze includono tutti gli utenti il cui nume
 >[!MORELIKETHIS]
 >
 >* [Controlli Generatore di segmenti: Sezione Caratteristiche](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [Sintassi del codice utilizzata nell&#39;Editor di espressioni di segmento](../../features/segments/segment-code-syntax.md)
+>* [Sintassi di codice utilizzata nell’editor di espressioni di segmenti](../../features/segments/segment-code-syntax.md)
 
