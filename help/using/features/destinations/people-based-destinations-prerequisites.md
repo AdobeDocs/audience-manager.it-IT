@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -37,10 +37,10 @@ Contattate il vostro rappresentante Adobe per sfruttare questa funzione premium.
 Prima di poter utilizzare [!UICONTROL People-Based Destinations] per inviare il pubblico di prime parti [!UICONTROL segments] a [!DNL Facebook], accertatevi di soddisfare i seguenti requisiti:
 
 1. Il tuo account [!DNL Facebook] utente deve avere l&#39;autorizzazione **Gestisci campagne** abilitata per l&#39;account annuncio che intendi utilizzare.
-2. Aggiungi l&#39;account aziendale di **Adobe Experience Cloud** come partner pubblicitario all&#39;interno dell&#39; [!DNL Facebook Ad Account]azienda. Utilizza gli `business ID=206617933627973`. Per informazioni, consulta [Aggiunta di partner al tuo Business Manager](https://www.facebook.com/business/help/1717412048538897) .
+2. Add the **Adobe Experience Cloud** business account as an advertising partner in your [!DNL Facebook Ad Account]. Utilizza `business ID=206617933627973`. See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/1717412048538897) for details.
    >[!IMPORTANT]
-   > Quando configuri le autorizzazioni per Adobe Experience Cloud, devi abilitare l&#39;autorizzazione **Gestisci campagne** . Questo è richiesto per l&#39; [!UICONTROL People-Based Destinations] integrazione.
-3. Leggi e firma le [!DNL Facebook Custom Audiences] Condizioni del servizio. Per fare questo, andate a `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, dov&#39; `accountID` è il vostro [!DNL Facebook Ad Account ID].
+   > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. Questa è richiesta per l’integrazione di [!UICONTROL People-Based Destinations].
+3. Leggi e firma le [!DNL Facebook Custom Audiences] Condizioni del servizio. Per fare questo, vai su `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, dove `accountID` è il tuo [!DNL Facebook Ad Account ID].
 
 ### [!DNL LinkedIn]
 
@@ -99,7 +99,7 @@ Durante l&#39;utilizzo [!UICONTROL People-Based Destinations], utilizzare [Contr
 
 ## ID con hash autenticati a bordo tramite targeting ID dichiarato {#onboard-authenticated-declared-id}
 
-Esistono due modi per portare i dati offline  Audience Manager per [!UICONTROL People-Based Destinations].
+Esistono due modi per trasferire i dati offline in Audience Manager per [!UICONTROL People-Based Destinations].
 
 * [Inviare dati](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) batch a  Audience Manager agli indirizzi e-mail con hash. Con questo metodo, potete scegliere di utilizzare gli indirizzi e-mail con hash del [!DNL CRM] database in [!UICONTROL People-Based Destinations]. Inoltre, quando utilizzate questo metodo, potete anche qualificare gli indirizzi e-mail con hash per le caratteristiche [registrate](../traits/trait-and-segment-qualification-reference.md).
-* Usate gli ID [dichiarati](../declared-ids.md) per dichiarare gli indirizzi e-mail con hash quando trasmettete gli ID cliente autenticati. Quando si utilizza questo metodo,  Audience Manager, a nome dell&#39;utente, invia solo [!UICONTROL People-Based Destinations] gli indirizzi e-mail con hash degli utenti che hanno eseguito l&#39;autenticazione online. Gli indirizzi e-mail attivati attraverso i canali basati sulle persone sono solo quelli nelle chiamate dell&#39;evento ID dichiarate. Gli altri indirizzi e-mail associati all&#39;ID cliente non vengono inviati in tempo reale.
+* Use [Declared IDs](../declared-ids.md) to declare hashed email addresses when passing in authenticated customer IDs. When using this method, Audience Manager, on your behalf, only sends to [!UICONTROL People-Based Destinations] the hashed email addresses from users who have authenticated online. Gli indirizzi e-mail attivati attraverso i canali basati sulle persone sono solo quelli nelle chiamate dell&#39;evento ID dichiarate. Gli altri indirizzi e-mail associati all&#39;ID cliente non vengono inviati in tempo reale.
