@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra i segmenti.
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione in  Audience Manager rispettano i principi RBAC. Puoi visualizzare solo i segmenti provenienti da origini dati a cui hai accesso in base al gruppo [di utenti](/help/using/features/administration/administration-overview.md) RBAC a cui appartieni.
+>I rapporti di sovrapposizione in  Audience Manager rispettano i principi RBAC. You can only see segments from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
 
 <!-- 
 
@@ -75,9 +75,9 @@ La finestra a comparsa per il [!UICONTROL Segment-to-Segment Overlap] rapporto c
 
 >[!MORELIKETHIS]
 >
->* [Filtra i risultati dei report con i cursori dei dati](../../reporting/dynamic-reports/data-sliders.md)
+>* [Filtrare i risultati dei report con i cursori di dati](../../reporting/dynamic-reports/data-sliders.md)
 >* [Forme, colori e dimensioni utilizzati nei rapporti interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Informazioni su icone e strumenti del rapporto](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapporti di sovrapposizione: Aggiorna pianificazione e dimensione minima del segmento](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Campionamento dei dati e tassi di errore in report selezionati  Audience Manager...](../../reporting/report-sampling.md)
->* [File CSV per rapporti di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
+>* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager...](../../reporting/report-sampling.md)
+>* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
