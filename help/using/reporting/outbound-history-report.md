@@ -1,21 +1,21 @@
 ---
 description: Visualizzare le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
 seo-description: Visualizzare le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
-seo-title: Cronologia file in uscita
+seo-title: Cronologia dei file in uscita
 solution: Audience Manager
-title: Cronologia file in uscita
+title: Cronologia dei file in uscita
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
 feature: inbound and outbound reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
 
-# Cronologia file in uscita {#outbound-file-history}
+# Cronologia dei file in uscita {#outbound-file-history}
 
 Visualizzare le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
 
