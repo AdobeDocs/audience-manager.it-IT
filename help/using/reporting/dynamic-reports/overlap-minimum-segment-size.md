@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Rapporti di sovrapposizione: Aggiorna pianificazione e dimensione minima del segmento{#overlap-reports-update-schedule-and-minimum-segment-size}
+# Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti{#overlap-reports-update-schedule-and-minimum-segment-size}
 
 Descrive le dimensioni del segmento e i requisiti relativi al tempo di creazione richiesti dal processo di aggiornamento del rapporto di sovrapposizione.
 
@@ -41,7 +41,7 @@ Se non visualizzi un segmento in uno dei [!UICONTROL Overlap] rapporti, potrebbe
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Dimensione segmento troppo piccola</b> </p> </td> 
-   <td colname="col2"> <p>Supponiamo che tu crei un segmento prima delle 12:00 del giovedì UTC, ma contiene meno di 70.000 utenti in tempo reale totali. Questo segmento non verrà visualizzato in un report <span class="wintitle"></span> di sovrapposizione finché non soddisfa i requisiti di soglia dell'utente. Inoltre, il segmento deve soddisfare il numero di utenti richiesto o prima del periodo di interruzione di giovedì. Se non soddisfa la scadenza settimanale, il segmento verrà visualizzato nei rapporti <span class="wintitle"></span> di sovrapposizione per la settimana successiva all'esecuzione dei dati della domenica successiva. </p> </td> 
+   <td colname="col2"> <p>Supponiamo che tu crei un segmento prima delle 12:00 del giovedì UTC, ma contiene meno di 70.000 utenti in tempo reale totali. Questo segmento non verrà visualizzato in un report <span class="wintitle"></span> di sovrapposizione finché non soddisfa i requisiti di soglia dell'utente. Inoltre, il segmento deve soddisfare il numero di utenti richiesto o prima del periodo di interruzione di giovedì. Se non soddisfa la scadenza settimanale, il segmento verrà visualizzato nei report <span class="wintitle"></span> di sovrapposizione per la settimana successiva all'esecuzione dei dati della domenica successiva. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Segmento creato troppo tardi</b> </p> </td> 
