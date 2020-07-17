@@ -2,16 +2,16 @@
 description: Descrive i passaggi e le funzionalità di configurazione specifici per il processo di creazione delle caratteristiche basato su regole e integrato.
 keywords: create trait;create traits
 seo-description: Descrive i passaggi e le funzionalità di configurazione specifici per il processo di creazione delle caratteristiche basato su regole e integrato.
-seo-title: Creazione di caratteristiche basate su regole o registrate
+seo-title: Creare caratteristiche basate su regole o onboarded
 solution: Audience Manager
-title: Creazione di caratteristiche basate su regole o registrate
+title: Creare caratteristiche basate su regole o onboarded
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -64,7 +64,7 @@ In [!UICONTROL Trait Builder], le [!UICONTROL Basic Information] impostazioni co
    <td colname="col2"> Assegna la caratteristica a un tipo o una categoria, in genere in base alla funzione (ad esempio conversione, visitatore del sito, partner, visualizzazione della pagina, ecc.). Facoltativo. <p> Per informazioni su come creare caratteristiche di conversione, consultate <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creazione di caratteristiche di conversione in  video</a>Audience Manager. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Codice integrazione</span></b> </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Codice di integrazione</span></b> </td> 
    <td colname="col2"> Campo per un ID, uno SKU o altro valore utilizzato dai processi aziendali interni. Facoltativo. </td> 
   </tr> 
   <tr> 
