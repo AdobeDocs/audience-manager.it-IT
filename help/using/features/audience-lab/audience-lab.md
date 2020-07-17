@@ -1,9 +1,9 @@
 ---
 description: Crea segmenti di test che si escludono a vicenda in Gruppi di test dei segmenti per confrontare e misurare l’efficacia delle diverse destinazioni. È possibile impostare un gruppo di controllo e suddividere il segmento in percentuali di un intero, al fine di verificare l'efficacia.
 seo-description: Crea segmenti di test che si escludono a vicenda in Gruppi di test dei segmenti per confrontare e misurare l’efficacia delle diverse destinazioni. È possibile impostare un gruppo di controllo e suddividere il segmento in percentuali di un intero, al fine di verificare l'efficacia.
-seo-title: Audience Lab
+seo-title: 'Audience Lab '
 solution: Audience Manager
-title: Audience Lab
+title: 'Audience Lab '
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -26,8 +26,8 @@ Crea segmenti di test che si escludono a vicenda per [!UICONTROL Segment Test Gr
 
 La visualizzazione [!UICONTROL Audience Lab] predefinita visualizza una scheda per ciascuno dei gruppi di test. Fate clic su una scheda per accedere alla **[!UICONTROL Test Group]** vista. Questa visualizzazione include le informazioni seguenti:
 
-* **[Test Group Information](../../features/audience-lab/audience-lab-information-view.md)**
-* **[Report gruppo di test](../../features/audience-lab/audience-lab-reporting-view.md)**
+* **[Informazioni sui gruppi di test](../../features/audience-lab/audience-lab-information-view.md)**
+* **[Reporting sui gruppi di test](../../features/audience-lab/audience-lab-reporting-view.md)**
 
 Potete creare **fino a 10 gruppi** di test, ciascuno con **fino a 15 segmenti** di test.
 
