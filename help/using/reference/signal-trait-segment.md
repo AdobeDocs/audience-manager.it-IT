@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Descrive i componenti di un [!DNL Audience Manager] evento, [!UICONTROL segment]
 
 [!DNL Audience Manager] i dati sono costituiti da [!UICONTROL signals], [!UICONTROL traits], [!UICONTROL segments]e regole di qualifica correlate. Gli elementi di dati e le regole si combinano per creare [!UICONTROL segments]. [!UICONTROL Segments] organizzare i visitatori del sito in gruppi correlati. Nella tabella seguente sono definiti i tre componenti principali di un [!DNL Audience Manager] oggetto [!UICONTROL segment].
 
-| Elemento | Consiste in | Esempio  |
+| Elemento | Consiste in | Esempio |
 |---|---|---|
 | [!UICONTROL Signal] | [!UICONTROL Signals] sono le unità di dati più piccole in [!DNL Audience Manager] e sono espresse come coppie [](../reference/key-value-pairs-explained.md)chiave-valore.<br><br><ul><li>La chiave è una costante che definisce un set di dati (ad esempio, genere, colore, prezzo).</li><li>Il valore è una variabile correlata alla costante (ad esempio, maschio/femmina, verde, 100).</li></ul>Gli operatori di confronto si uniscono alla coppia chiave-valore e impostano la relazione tra di essi. | <ul><li>`product=camera`</li><li>`price>1000`</li><li>`type=digital SLR`</li></ul> |
 | [!UICONTROL Trait] | Combinazioni di uno o più [!UICONTROL signals].<br><br> [!DNL Boolean] espressioni e operatori di confronto consentono di creare regole di [!UICONTROL trait] qualifica. <br><br>Crea requisiti di qualifica precisi con combinazioni di [!UICONTROL traits] e [!UICONTROL trait] gruppi. | Dalla versione disponibile [!UICONTROL signals], potete creare una `High End Camera Browser` regola espressa come segue: `product=camera AND price>1000` |
@@ -45,5 +45,5 @@ Una chiamata evento invia i dati dal sito Web a [!DNL Audience Manager]. La chia
 
 >[!MORELIKETHIS]
 >
->* [Segmenti: Finalità, composizione e regole](../features/segments/segments-purpose.md)
+>* [Segmenti: finalità, composizione e regole](../features/segments/segments-purpose.md)
 
