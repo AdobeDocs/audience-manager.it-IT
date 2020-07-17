@@ -1,15 +1,15 @@
 ---
 description: Questa pagina illustra il processo di creazione dei pixel del pubblico personalizzato del sito Web Facebook (WCA) allo scopo di inviare a Facebook segmenti di pubblico Audience Manager basati sul Web, per il targeting di annunci online con una migliore trasparenza.
 seo-description: Questa pagina illustra il processo di creazione dei pixel del pubblico personalizzato del sito Web Facebook (WCA) allo scopo di inviare a Facebook segmenti di pubblico Audience Manager basati sul Web, per il targeting di annunci online con una migliore trasparenza.
-seo-title: Integrazione WCA Facebook
+seo-title: Integrazione di Facebook WCA
 solution: Audience Manager
-title: Integrazione WCA Facebook
+title: Integrazione di Facebook WCA
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ Questa pagina illustra il processo di creazione di [!DNL Facebook Website Custom
 
 [Il sito Web di Facebook Custom Audiences (WCA)](https://www.facebook.com/business/help/449542958510885) consente di creare un elenco di persone che hanno visitato determinate pagine o che hanno effettuato particolari azioni sul sito Web. [!DNL Audience Manager] abilita l&#39;attivazione utilizzando [!DNL WCA] le [!DNL URL] destinazioni, con cui puoi configurare un&#39;integrazione personalizzata basata su pixel per inviare audience basate sul Web [!DNL Facebook] per il targeting.
 
-![Integrazione WCA Facebook](/help/using/integration/assets/facebook-wca-integration.png)
+![Integrazione di Facebook WCA](/help/using/integration/assets/facebook-wca-integration.png)
 
 >[!IMPORTANT]
 >
@@ -33,9 +33,9 @@ Questa pagina illustra il processo di creazione di [!DNL Facebook Website Custom
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] segmenti, pronti per essere assegnati alla nuova [!DNL Facebook] destinazione. Questo è [come creare un segmento](/help/using/features/segments/segment-builder.md) nell&#39; [!DNL Audience Manager] interfaccia utente.
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versione 4.1.0 o successiva. Scarica la versione più recente **[qui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versione 9.0 o successiva, scaricabile da **[qui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. In alternativa, se per importare i dati in un file SSF ([Server-Side Forwarding)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)[!DNL Audience Manager]utilizzate la versione 2.12 o successiva di AppMeasurement, devi usare la versione 2.12 o successiva. Scarica[!DNL AppMeasurement]utilizzando[Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versione 9.0 o successiva, scaricabile da **[qui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. In alternativa, se per importare i dati in un file SSF ([Server-Side Forwarding)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)[!DNL Audience Manager]utilizzate la versione 2.12 o successiva di AppMeasurement, devi usare la versione 2.12 o successiva. Download[!DNL AppMeasurement]using the[Analytics Code Manager](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/code-manager-admin.html).
 
-È consigliabile installare o aggiornare le librerie nei passaggi 3 e 4 tramite [Launch](https://docs.adobelaunch.com/) Adobe Experience Platform o Gestione [tag dinamica](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)Adobe.
+È consigliabile installare o aggiornare le librerie nei passaggi 3 e 4 tramite [Launch](https://docs.adobelaunch.com/) Adobe Experience Platform o Gestione [tag dinamica](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html)Adobe.
 
 ## Passaggio 1 - Creazione di un [!UICONTROL Facebook Destination] componente [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
