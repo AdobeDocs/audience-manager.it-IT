@@ -1,9 +1,9 @@
 ---
 description: Panoramica e flusso di lavoro per gli acquirenti di dati che desiderano acquistare dati di terze parti da  Audience Manager
 seo-description: Panoramica e flusso di lavoro per gli acquirenti di dati che desiderano acquistare dati di terze parti da  Audience Manager
-seo-title: ' Audience Marketplace per gli acquirenti di dati'
+seo-title: Audience Marketplace per gli acquirenti di dati
 solution: Audience Manager
-title: ' Audience Marketplace per gli acquirenti di dati'
+title: Audience Marketplace per gli acquirenti di dati
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -84,7 +84,7 @@ Guardate il video sottostante per una panoramica completa su come trovare simili
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/)
 
-## Feed dati privati {#private-data-feeds}
+## Feed di dati privati {#private-data-feeds}
 
 Nell&#39; [!UICONTROL Marketplace] elenco, a volte il nome e [!UICONTROL trait] i dati del provider sono contrassegnati come privati. Indica un feed [di dati](../../../features/audience-marketplace/marketplace-private-feeds.md)privato. Un feed di dati privato consente ai venditori di limitare l&#39;accesso dell&#39;acquirente ai propri dati. I venditori possono rendere privati i propri feed quando offrono offerte speciali, sconti o quando per loro è importante avere il controllo sulla privacy e sull&#39;accesso. In qualità di acquirente, è necessario inviare una richiesta di iscrizione al venditore se si desidera accedere a un feed privato. Per informazioni, consulta [Iscrizione a feed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) dati privati.
 
