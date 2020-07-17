@@ -1,21 +1,21 @@
 ---
 description: Metodi di gestione del dominio che consentono di creare e gestire i domini a cui si desidera inviare i dati (solo per le destinazioni dei cookie).
 seo-description: Metodi di gestione del dominio che consentono di creare e gestire i domini a cui si desidera inviare i dati (solo per le destinazioni dei cookie).
-seo-title: Metodi API di gestione del dominio
+seo-title: Metodi API di gestione dei domini
 solution: Audience Manager
-title: Metodi API di gestione del dominio
+title: Metodi API di gestione dei domini
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 
-# Metodi API di gestione del dominio {#domain-management-api-methods}
+# Metodi API di gestione dei domini {#domain-management-api-methods}
 
 Metodi di gestione del dominio che consentono di creare e gestire i domini a cui si desidera inviare i dati (solo per le destinazioni dei cookie).
 
