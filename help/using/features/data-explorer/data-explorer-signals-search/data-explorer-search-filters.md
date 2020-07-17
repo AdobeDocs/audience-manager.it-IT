@@ -1,20 +1,20 @@
 ---
 description: Lasciate vuoti i campi chiave-valore per cercare una gamma più ampia di segnali e utilizzate i filtri disponibili per restringere i risultati.
 seo-description: Lasciate vuoti i campi chiave-valore per cercare una gamma più ampia di segnali e utilizzate i filtri disponibili per restringere i risultati.
-seo-title: Ricerca segnali per filtri
-title: Ricerca segnali per filtri
+seo-title: Ricerca di segnali per filtri
+title: Ricerca di segnali per filtri
 uuid: 99b00d48-6415-4cb1-848a-5401b34c43a6
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Ricerca segnali per filtri {#search-signals-by-filters}
+# Ricerca di segnali per filtri {#search-signals-by-filters}
 
 Lasciate vuoti i campi chiave-valore per cercare una gamma più ampia di segnali e utilizzate i filtri disponibili per restringere i risultati.
 
