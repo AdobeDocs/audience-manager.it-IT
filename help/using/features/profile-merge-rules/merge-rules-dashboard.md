@@ -1,25 +1,25 @@
 ---
 description: Crea e gestisci tutte le regole di unione dal dashboard. Potete creare un massimo di 4 regole di unione dei profili.
 seo-description: Crea e gestisci tutte le regole di unione dal dashboard. Potete creare un massimo di 4 regole di unione dei profili.
-seo-title: Dashboard regole di unione profilo
+seo-title: Dashboard delle regole di unione profili
 solution: Audience Manager
-title: Dashboard regole di unione profilo
+title: Dashboard delle regole di unione profili
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# Dashboard regole di unione profilo {#profile-merge-rules-dashboard}
+# Dashboard delle regole di unione profili {#profile-merge-rules-dashboard}
 
-Crea e gestisci tutte le regole di unione dal dashboard. Potete creare un massimo di 4 [!UICONTROL Profile Merge Rules].
+Crea e gestisci tutte le regole di unione dal dashboard. You can create a maximum of 4 [!UICONTROL Profile Merge Rules].
 
-La quarta regola di unione dei profili ([!UICONTROL All Cross-Device Profiles]) è disponibile solo per i clienti che acquistano il [!UICONTROL People-Based Destinations] componente aggiuntivo.
+La quarta Regola di unione profili ([!UICONTROL All Cross-Device Profiles]) è disponibile solo per i clienti che acquistano il componente aggiuntivo [!UICONTROL People-Based Destinations].
 
 Il [!UICONTROL Profile Merge Rules] dashboard fornisce un&#39;area di lavoro unificata che consente di gestire il proprio [!UICONTROL Profile Merge Rules]. Il dashboard si trova in **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**. Il dashboard delle regole sarà simile a quello illustrato di seguito.
 
