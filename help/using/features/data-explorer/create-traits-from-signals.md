@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -46,6 +46,7 @@ Cercare segnali specifici e creare tratti basati su regole o caricati in base ai
 2. Identificare i segnali che si desidera utilizzare nella caratteristica, nell&#39;elenco dei risultati.
    * Per creare una caratteristica da un segnale, fare clic sul **[!UICONTROL Create Rule-Based Trait]** collegamento o **[!UICONTROL Create Onboarded Trait]** collegamento corrispondente.
    * Per creare una caratteristica da più segnali, fare clic sulla casella di controllo corrispondente di ciascun segnale, quindi fare clic **[!UICONTROL Create Trait from Multiple Signals]**.
+
    >[!NOTE]
    >È possibile creare caratteristiche solo da segnali dello stesso tipo. Non è possibile creare una caratteristica basata su una combinazione di un segnale in tempo reale e uno integrato.
    >
