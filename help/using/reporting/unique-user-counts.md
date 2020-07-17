@@ -3,19 +3,19 @@ description: Descrive la variazione dei totali utente univoci tra i rapporti per
 seo-description: Descrive la variazione dei totali utente univoci tra i rapporti per la stessa caratteristica e lo stesso periodo di tempo  Adobe Audience Manager
 seo-title: Conteggio di utenti univoci in sovrapposizione e rapporti generali in AAM
 solution: Audience Manager
-title: Conteggio di utenti univoci in sovrapposizione e rapporti generali
+title: Counting Unique Users in Overlap and General Reports
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Conteggio di utenti univoci in sovrapposizione e rapporti generali{#counting-unique-users-in-overlap-and-general-reports}
+# Counting Unique Users in Overlap and General Reports{#counting-unique-users-in-overlap-and-general-reports}
 
 Questa pagina descrive la variazione dei totali utente univoci tra i rapporti per la stessa caratteristica e lo stesso periodo di tempo.
 
