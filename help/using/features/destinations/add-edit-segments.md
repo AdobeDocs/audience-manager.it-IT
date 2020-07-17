@@ -1,20 +1,20 @@
 ---
 description: Le etichette di esportazione dei dati funzionano con i controlli di esportazione impostati su un'origine dati. Le etichette di esportazione dei dati non consentono di aggiungere caratteristiche limitate a un segmento e di inviare dati del segmento a una destinazione. Potete impostare più etichette di esportazione su una destinazione di cookie o URL nuova o esistente.
 seo-description: Le etichette di esportazione dei dati funzionano con i controlli di esportazione impostati su un'origine dati. Le etichette di esportazione dei dati non consentono di aggiungere caratteristiche limitate a un segmento e di inviare dati del segmento a una destinazione. Potete impostare più etichette di esportazione su una destinazione di cookie o URL nuova o esistente.
-seo-title: Aggiunta o modifica di segmenti per le destinazioni da server a server
+seo-title: Aggiungere o modificare segmenti per le destinazioni server-to-server
 solution: Audience Manager
-title: Aggiunta o modifica di segmenti per le destinazioni da server a server
+title: Aggiungere o modificare segmenti per le destinazioni server-to-server
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
-# Aggiunta o modifica di segmenti per le destinazioni da server a server {#add-edit-segments}
+# Aggiungere o modificare segmenti per le destinazioni server-to-server {#add-edit-segments}
 
 Puoi aggiungere o modificare solo segmenti per una destinazione da server a server ([!DNL S2S]). Non è possibile creare [!DNL S2S] destinazioni con [!UICONTROL [Destination Builder](/help/using/features/destinations/destination-builder.md)]. Contatta il tuo consulente per configurare [!DNL S2S] le destinazioni. Segui queste istruzioni per aggiungere o modificare segmenti per una [!DNL S2S] destinazione.
 
