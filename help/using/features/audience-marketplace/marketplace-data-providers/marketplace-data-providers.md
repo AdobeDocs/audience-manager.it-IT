@@ -2,9 +2,9 @@
 description: Panoramica e flusso di lavoro per i fornitori di dati che desiderano vendere dati direttamente da  Audience Manager.
 keywords: Google analytics
 seo-description: Panoramica e flusso di lavoro per i fornitori di dati che desiderano vendere dati direttamente da  Audience Manager.
-seo-title: ' Audience Marketplace per i provider di dati'
+seo-title: Audience Marketplace per provider di dati
 solution: Audience Manager
-title: ' Audience Marketplace per i provider di dati'
+title: Audience Marketplace per provider di dati
 topic: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 feature: Audience Marketplace
@@ -12,12 +12,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-#  Audience Marketplace per i provider di dati {#audience-marketplace-for-data-providers}
+# Audience Marketplace per provider di dati {#audience-marketplace-for-data-providers}
 
 Panoramica e flusso di lavoro per i provider di dati che desiderano vendere dati dall&#39;interno [!DNL Audience Manager].
 
@@ -51,7 +51,7 @@ Le funzioni includono:
 * **Iscritti:** Mostra quanti acquirenti utilizzano un feed di dati. Fate clic sul numero in questa colonna per visualizzare il nome della società, le iscrizioni, la fatturazione e lo stato dell&#39;iscrizione di un acquirente.
 * **Richieste:** Numero di richieste di accesso per un feed di dati.
 
-## Feed dati privati {#private-data-feeds}
+## Feed di dati privati {#private-data-feeds}
 
 In [!UICONTROL My Shared Data], a volte lo stato di un feed è contrassegnato come privato. Indica un feed di dati privato. Un feed di dati privato consente ai venditori di limitare l&#39;accesso dell&#39;acquirente ai propri dati e persino al nome del feed di dati. I venditori possono rendere privati i propri feed quando offrono offerte speciali, sconti o quando il controllo sulla privacy e l&#39;accesso sono importanti. Con i feed di dati privati, i fornitori rivedono e approvano tutte le richieste di accesso degli acquirenti. Per ulteriori informazioni, consultate Feed [di dati](../../../features/audience-marketplace/marketplace-private-feeds.md)privati. Per creare un feed di dati pubblico o privato, vedi [Creare un feed](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)di dati pubblico o privato.
 
