@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
 
-# Nome file dati in uscita: Sintassi ed esempi{#outbound-data-file-name-syntax-and-examples}
+# Nome dei file di dati in uscita: sintassi ed esempi{#outbound-data-file-name-syntax-and-examples}
 
 Descrive i campi, la sintassi e le convenzioni necessari per assegnare un nome a un file di dati in uscita.
 
@@ -64,7 +64,7 @@ La tabella definisce gli elementi in un nome di file di dati in uscita.
       <li id="li_94DAFA169380405981AFEF1B581997E6">2014 - <span class="keyword"> Google Advertiser ID </span> (raw, unhashed) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">2015 - <span class="keyword"> Apple ID per inserzionisti </span> (non elaborati, senza hash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID fornitore - ID utente di terze parti (web/cookie) </li> 
-     </ul> </p> <p>Per ulteriori informazioni, consulta <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Origini</a> dati globali.</p></td> 
+     </ul> </p> <p>Per ulteriori informazioni, consulta <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Global Data Sources</a>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -191,7 +191,7 @@ Nella tabella sono elencate le variabili che definiscono il contenuto di un file
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>L’ID del segmento da cui l’utente è stato squalificato. Separa più segmenti con una virgola. Con una sincronizzazione completa, puoi ignorare i segmenti rimossi perché il file di dati conterrà l'elenco completo dei segmenti correnti per l'utente. In genere, è necessario conoscere i segmenti a cui appartiene un utente anziché quelli da cui è stato rimosso. Vedere anche Nome file dati <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> in uscita: Sintassi ed esempi </a>. </p> </td> 
+   <td colname="col2"> <p>L’ID del segmento da cui l’utente è stato squalificato. Separa più segmenti con una virgola. Con una sincronizzazione completa, puoi ignorare i segmenti rimossi perché il file di dati conterrà l'elenco completo dei segmenti correnti per l'utente. In genere, è necessario conoscere i segmenti a cui appartiene un utente anziché quelli da cui è stato rimosso. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
