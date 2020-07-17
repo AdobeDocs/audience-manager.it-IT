@@ -1,21 +1,21 @@
 ---
 description: Rest Metodi API per gestire i gruppi, inclusi creazione, aggiornamento, elenco, eliminazione di gruppi.
 seo-description: Rest Metodi API per gestire i gruppi, inclusi creazione, aggiornamento, elenco, eliminazione di gruppi.
-seo-title: Metodi API di gestione dei gruppi
+seo-title: Metodi API per la gestione dei gruppi
 solution: Audience Manager
-title: Metodi API di gestione dei gruppi
+title: Metodi API per la gestione dei gruppi
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
 
-# Metodi API di gestione dei gruppi {#group-management-api-methods}
+# Metodi API per la gestione dei gruppi {#group-management-api-methods}
 
 Metodi [!DNL API] di riposo per gestire i gruppi, inclusi creazione, aggiornamento, elenco, eliminazione di gruppi.
 
