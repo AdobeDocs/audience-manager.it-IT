@@ -1,9 +1,9 @@
 ---
 description: Il report Optimal Frequency (Frequenza ottimale) consente di scoprire l'equilibrio ottimale tra il numero di impression e di conversioni servite. Consente di regolare il numero di impression che si desidera visualizzare prima di iniziare a vedere i rendimenti diminuiti.
 seo-description: Il report Optimal Frequency (Frequenza ottimale) consente di scoprire l'equilibrio ottimale tra il numero di impression e di conversioni servite. Consente di regolare il numero di impression che si desidera visualizzare prima di iniziare a vedere i rendimenti diminuiti.
-seo-title: 'Rapporto di frequenza ottimale '
+seo-title: Rapporto di frequenza ottimale
 solution: Audience Manager
-title: 'Rapporto di frequenza ottimale '
+title: Rapporto di frequenza ottimale
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 feature: audience optimization reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 3%
 ---
 
 
-# Rapporto di frequenza ottimale {#optimal-frequency-report}
+# Rapporto di frequenza ottimale{#optimal-frequency-report}
 
 Il report Optimal Frequency (Frequenza ottimale) consente di scoprire l&#39;equilibrio ottimale tra il numero di impression e di conversioni servite. Consente di regolare il numero di impression che si desidera visualizzare prima di iniziare a vedere i rendimenti diminuiti.
 
