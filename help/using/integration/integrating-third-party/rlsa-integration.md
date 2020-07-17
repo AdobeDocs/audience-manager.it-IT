@@ -1,21 +1,21 @@
 ---
 description: Questa procedura richiede un elenco di remarketing di AdWords, un codice in pixel e una destinazione URL  Audience Manager. È anche noto come elenco di remarketing per l'integrazione di Search ads (RLSA). Si applica solo alla ricerca a pagamento.
 seo-description: Questa procedura richiede un elenco di remarketing di AdWords, un codice in pixel e una destinazione URL  Audience Manager. È anche noto come elenco di remarketing per l'integrazione di Search ads (RLSA). Si applica solo alla ricerca a pagamento.
-seo-title: Invia segmenti a un elenco di commenti di Google AdWords
+seo-title: Inviare segmenti a un elenco per il remarketing di Google AdWords
 solution: Audience Manager
-title: Invia segmenti a un elenco di commenti di Google AdWords
+title: Inviare segmenti a un elenco per il remarketing di Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 0%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
 
-# Invia segmenti a un elenco di note di Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
+# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
 Questa procedura richiede un elenco [!DNL Google Ads] di remarketing, un codice in pixel e un Audience Manager  [!DNL URL] [!DNL destination]. È anche noto come elenco di remarketing per l&#39;integrazione[!DNL RLSA]degli annunci di ricerca. Si applica solo alla ricerca a pagamento.
 
@@ -31,7 +31,7 @@ Per impostare un elenco di [!DNL Google Ads] remarketing come [!DNL Audience Man
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. In  Audience Manager, [create una destinazione URL [!DNL]](../../features/destinations/create-url-destination.md) o modificate una destinazione esistente [!DNL destination]. Durante la creazione del [!DNL destination]:
+1. In  Audience Manager, [create [!DNL URL destination]](../../features/destinations/create-url-destination.md) o modificate un elemento esistente [!DNL destination]. Durante la creazione del [!DNL destination]:
    * Tipo: URL
    * Serializza: Abilitato
    * Delimitatore: Punto e virgola (;)
@@ -72,7 +72,7 @@ Un mapping completato potrebbe essere simile al seguente:
 >[!MORELIKETHIS]
 >
 >* [[!DNL Destinazioni]](../../features/destinations/destinations.md)
->* [Creare una destinazione URL [!DNL]](../../features/destinations/create-url-destination.md)
+>* [Crea un [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
 >* [Informazioni sugli elenchi di note di AdWords](https://support.google.com/adwords/answer/2472738)
 >* [Come funziona la ricomposizione di AdWords](https://support.google.com/adwords/answer/2454000)
 
