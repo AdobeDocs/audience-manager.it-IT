@@ -1,21 +1,21 @@
 ---
 description: L'eliminazione in blocco consente di rimuovere segmenti, caratteristiche, cartelle, segnali derivati, origini dati, modelli e destinazioni multipli con un'unica operazione. Seguite queste istruzioni per effettuare una richiesta di eliminazione in blocco.
 seo-description: L'eliminazione in blocco consente di rimuovere segmenti, caratteristiche, cartelle, segnali derivati, origini dati, modelli e destinazioni multipli con un'unica operazione. Seguite queste istruzioni per effettuare una richiesta di eliminazione in blocco.
-seo-title: Elimina in blocco
+seo-title: Eliminazione in blocco
 solution: Audience Manager
-title: Elimina in blocco
+title: Eliminazione in blocco
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Elimina in blocco{#bulk-delete}
+# Eliminazione in blocco{#bulk-delete}
 
 L&#39;eliminazione in blocco consente di rimuovere segmenti, caratteristiche, cartelle, segnali derivati, origini dati, modelli e destinazioni multipli con un&#39;unica operazione. Seguite queste istruzioni per effettuare una richiesta di eliminazione in blocco.
 
