@@ -1,9 +1,9 @@
 ---
 description: Generate un rapporto  fatturazione Audience Marketplace per visualizzare l'utilizzo dei feed di dati per il mese precedente per ciascun utente iscritto. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10° giorno del mese corrente o dopo di esso.
 seo-description: Generate un rapporto  fatturazione Audience Marketplace per visualizzare l'utilizzo dei feed di dati per il mese precedente per ciascun utente iscritto. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10° giorno del mese corrente o dopo di esso.
-seo-title: Fatturazione per fornitori di feed di dati
+seo-title: Fatturazione per provider di feed di dati
 solution: Audience Manager
-title: Fatturazione per fornitori di feed di dati
+title: Fatturazione per provider di feed di dati
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Fatturazione per fornitori di feed di dati {#billing-for-data-feed-providers}
+# Fatturazione per provider di feed di dati {#billing-for-data-feed-providers}
 
 Generate un rapporto di [!DNL Audience Marketplace] fatturazione per visualizzare l&#39;utilizzo del feed di dati per il mese precedente per ciascun utente iscritto. Puoi creare un rapporto per il mese precedente in qualsiasi momento. Tuttavia, il rapporto è più preciso quando viene generato il 10° giorno del mese corrente o dopo di esso.
 
