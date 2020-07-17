@@ -1,21 +1,21 @@
 ---
 description: Generatore di segmenti consente di creare regole per le caratteristiche di un segmento utilizzando un editor di codice. Fate clic sulla scheda Espressioni segmento (vista Codice) nel pannello Caratteristiche per accedere a questa funzione.
 seo-description: Generatore di segmenti consente di creare regole per le caratteristiche di un segmento utilizzando un editor di codice. Fate clic sulla scheda Espressioni segmento (vista Codice) nel pannello Caratteristiche per accedere a questa funzione.
-seo-title: Sintassi del codice utilizzata nell'Editor di espressioni di segmento
+seo-title: Sintassi di codice utilizzata nell’editor di espressioni di segmenti
 solution: Audience Manager
-title: Sintassi del codice utilizzata nell'Editor di espressioni di segmento
+title: Sintassi di codice utilizzata nell’editor di espressioni di segmenti
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
 
-# Sintassi del codice utilizzata nell&#39;Editor di espressioni di segmento {#code-syntax-used-in-the-segment-expression-editor}
+# Sintassi di codice utilizzata nell’editor di espressioni di segmenti {#code-syntax-used-in-the-segment-expression-editor}
 
 [!UICONTROL Segment Builder] consente di creare regole di caratteristiche per un segmento utilizzando un editor di codice. Fate clic sulla **[!UICONTROL Segment Expressions (Code View)]** scheda nel [!UICONTROL Traits] pannello per accedere a questa funzione.
 
@@ -79,8 +79,8 @@ Impostare gli intervalli di [aggiornamento e frequenza](../../features/segments/
 
 >[!MORELIKETHIS]
 >
->* [Recency e frequenza](../../features/segments/recency-and-frequency.md)
->* [Espressioni booleane in Generatore di caratteristiche e segmenti](../../reference/boolean-expressions-tsb.md)
+>* [Attualità e frequenza](../../features/segments/recency-and-frequency.md)
+>* [Espressioni booleane nel Generatore di caratteristiche e segmenti](../../reference/boolean-expressions-tsb.md)
 >* [Utilizzo degli operatori di confronto in TraitBuilder](../../features/traits/trait-comparison-operators.md)
 >* [Ordine delle operazioni nelle espressioni TraitBuilder](../../features/traits/trait-operator-precedence.md)
 
