@@ -1,27 +1,27 @@
 ---
 description: Metodi che consentono di utilizzare in modo programmatico le funzioni di destinazione.
 seo-description: Metodi che consentono di utilizzare in modo programmatico le funzioni di destinazione.
-seo-title: Metodi API di destinazione
+seo-title: 'Metodi API per le destinazioni '
 solution: Audience Manager
-title: Metodi API di destinazione
+title: 'Metodi API per le destinazioni '
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
 
-# Metodi API di destinazione {#destination-api-methods}
+# Metodi API per le destinazioni {#destination-api-methods}
 
 Metodi che consentono di utilizzare in modo programmatico le funzioni di destinazione.
 
 <!-- c_destinations_api.xml -->
 
-In  Audience Manager, una destinazione è qualsiasi altro sistema (server di annunci, [!DNL DSP]rete di annunci, scambio, cookie di prime parti, ecc.) con cui condividere i dati.
+In  Audience Manager, una destinazione è qualsiasi altro sistema (server di annunci, [!DNL DSP]rete di annunci, scambio, cookie di prime parti, ecc.) con cui desideri condividere i dati.
 
 ## Tipi di destinazione: URL e cookie {#destination-types}
 
