@@ -1,9 +1,9 @@
 ---
 description: In questa sezione sono visualizzate informazioni generali sul gruppo di test e sui segmenti di test in cui è diviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
 seo-description: In questa sezione sono visualizzate informazioni generali sul gruppo di test e sui segmenti di test in cui è diviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
-seo-title: Test Group Information
+seo-title: Informazioni sui gruppi di test
 solution: Audience Manager
-title: Test Group Information
+title: Informazioni sui gruppi di test
 topic: DIL API
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 feature: Audience Lab
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Test Group Information {#test-group-information}
+# Informazioni sui gruppi di test {#test-group-information}
 
 In questa sezione sono visualizzate informazioni generali sul gruppo di test e sui segmenti di test in cui è diviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
 
