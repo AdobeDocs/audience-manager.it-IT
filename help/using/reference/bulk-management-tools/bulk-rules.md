@@ -1,21 +1,21 @@
 ---
 description: I fogli di lavoro per la creazione e l'aggiornamento accettano un'intestazione traitRule che consente di applicare più regole in un'unica operazione. Seguite queste istruzioni per eseguire richieste di regole in blocco.
 seo-description: I fogli di lavoro per la creazione e l'aggiornamento accettano un'intestazione traitRule che consente di applicare più regole in un'unica operazione. Seguite queste istruzioni per eseguire richieste di regole in blocco.
-seo-title: Creare o aggiornare regole di caratteristica e regole di segmento
+seo-title: Creare o aggiornare regole di caratteristiche e di segmenti
 solution: Audience Manager
-title: Creare o aggiornare regole di caratteristica e regole di segmento
+title: Creare o aggiornare regole di caratteristiche e di segmenti
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Creare o aggiornare regole di caratteristica e regole di segmento{#create-or-update-trait-rules-and-segment-rules}
+# Creare o aggiornare regole di caratteristiche e di segmenti{#create-or-update-trait-rules-and-segment-rules}
 
 I fogli di lavoro per la creazione e l&#39;aggiornamento accettano un&#39;intestazione traitRule che consente di applicare più regole in un&#39;unica operazione. Seguite queste istruzioni per eseguire richieste di regole in blocco.
 
@@ -59,6 +59,6 @@ Puoi scrivere le tue regole al di fuori di [!UICONTROL Rule Builder]. Prima di i
 
 * [Utilizzo Degli Operatori Di Confronto Nel Generatore Di Caratteristiche](../../features/traits/trait-comparison-operators.md)
 * [Ordine delle operazioni](../../features/traits/trait-operator-precedence.md)
-* [Requisiti del prefisso per le variabili chiave](../../features/traits/trait-variable-prefixes.md)
+* [Requisiti di prefisso delle variabili chiave](../../features/traits/trait-variable-prefixes.md)
 * [Espressioni di esempio con operatori booleani e di confronto](../../features/traits/trait-expression-samples.md)
 
