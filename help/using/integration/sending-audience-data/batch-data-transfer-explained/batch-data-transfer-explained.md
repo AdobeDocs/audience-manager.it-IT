@@ -1,21 +1,21 @@
 ---
 description: Panoramica generale delle modalità in cui  Audience Manager esegue uno scambio di dati batch asincrono con un fornitore di terze parti.
 seo-description: Panoramica generale delle modalità in cui  Audience Manager esegue uno scambio di dati batch asincrono con un fornitore di terze parti.
-seo-title: Processo di trasferimento dati batch descritto
+seo-title: Batch Data Transfer Process Described
 solution: Audience Manager
-title: Processo di trasferimento dati batch descritto
+title: Batch Data Transfer Process Described
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 feature: null
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Processo di trasferimento dati batch descritto {#batch-data-transfer-process-described}
+# Batch Data Transfer Process Described {#batch-data-transfer-process-described}
 
 Panoramica generale delle [!DNL Audience Manager] prestazioni di uno scambio di dati batch asincrono con un fornitore di terze parti.
 
