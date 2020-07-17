@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ In [!UICONTROL Trait Builder], la [!UICONTROL Configuration] sezione consente di
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Creare un modello](../../features/algorithmic-models/create-model.md)simile a un look.
+* [Creare un modello lookalike](../../features/algorithmic-models/create-model.md).
 * Attendi il messaggio e-mail di notifica che ti consente di sapere che l&#39;esecuzione dei dati del modello è stata completata.
 * Compila i campi richiesti nella sezione Informazioni [di](../../features/traits/create-onboarded-rule-based-traits.md) base.
 
@@ -55,5 +55,5 @@ In [!UICONTROL Trait Builder], la [!UICONTROL Configuration] sezione consente di
 
 >[!MORELIKETHIS]
 >
->* [Precisione e raggiungimento](../../features/traits/trait-accuracy-reach.md)
+>* [Precisione e portata](../../features/traits/trait-accuracy-reach.md)
 
