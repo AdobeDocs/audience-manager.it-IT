@@ -1,21 +1,21 @@
 ---
 description: Descrive il software sottostante che abilita i report interattivi e la pianificazione dell'aggiornamento dei dati.
 seo-description: Descrive il software sottostante che abilita i report interattivi e la pianificazione dell'aggiornamento dei dati.
-seo-title: Tecnologia di report
+seo-title: Tecnologia dei report
 solution: Audience Manager
-title: Tecnologia di report
+title: Tecnologia dei report
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Tecnologia di report{#report-technology}
+# Tecnologia dei report{#report-technology}
 
 Descrive il software sottostante che abilita i report interattivi e la pianificazione dell&#39;aggiornamento dei dati.
 
