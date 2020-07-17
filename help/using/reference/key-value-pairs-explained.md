@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -32,7 +32,7 @@ Una coppia chiave-valore è costituita da due elementi dati correlati: Una chiav
 * `color = green`
 * `price > 100`
 
-## Coppie chiave e valore serializzato {#standard-serialized-pairs}
+## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
 
 Le destinazioni accettano i dati chiave-valore in *`standard`* o in *`serialized`* formato. La formattazione standard organizza i dati in coppie chiave-valore separate. Ogni chiave è specificata in modo esplicito, anche se utilizzata di nuovo per definire un valore diverso. Per contro, la formattazione serializzata condensa più valori in un unico set definito da un singolo tasto. Inoltre, in una coppia serializzata, viene utilizzato un indicatore speciale per separare i valori all&#39;interno dell&#39;insieme chiave-valore. Infine, i valori chiave standard e serializzati possono contenere uno o più valori. Nella tabella seguente sono riportati alcuni esempi di formati chiave standard e seriali.
 
@@ -58,7 +58,7 @@ Quando si utilizzano dati serializzati, è necessario specificare i caratteri ch
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Type (Tipo) </th> 
-   <th colname="col2" class="entry"> Esempio  </th> 
+   <th colname="col2" class="entry"> Esempio </th> 
    <th colname="col3" class="entry"> Chiave </th> 
    <th colname="col4" class="entry"> Separatore chiave-valore </th> 
    <th colname="col5" class="entry"> Delimitatore chiave-valore </th> 
