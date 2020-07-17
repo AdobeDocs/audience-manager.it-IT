@@ -1,21 +1,21 @@
 ---
 description: Le API da server a server (S2S) forniscono codice e metodi che consentono di inviare e ricevere dati utente DCS e di lavorare con tali informazioni nei propri sistemi o applicazioni.
 seo-description: Le API da server a server (S2S) forniscono codice e metodi che consentono di inviare e ricevere dati utente DCS e di lavorare con tali informazioni nei propri sistemi o applicazioni.
-seo-title: API DCS per trasferimenti di dati da server a server
+seo-title: API DCS per trasferimenti di dati server-to-server
 solution: Audience Manager
-title: API DCS per trasferimenti di dati da server a server
+title: API DCS per trasferimenti di dati server-to-server
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# API DCS per trasferimenti di dati da server a server{#dcs-apis-for-server-to-server-data-transfers}
+# API DCS per trasferimenti di dati server-to-server{#dcs-apis-for-server-to-server-data-transfers}
 
 Server-to-server ([!UICONTROL S2S]) [!DNL API]forniscono codice e metodi che consentono di inviare e ricevere dati [!DNL DCS] utente e di utilizzare tali informazioni nei propri sistemi o applicazioni.
 
@@ -46,9 +46,9 @@ Verranno aggiunti nuovi metodi non appena disponibili. Per iniziare, consulta le
 
 * [Ottenere ID utente e aree geografiche da una risposta DCS](dcs-aam-ids.md)
 * [Ottieni ID utente e aree geografiche tramite l’ID Experience Cloud ...](dcs-mcid-ids.md)
-* [Esecuzione di chiamate API DCS da server a server](dcs-s2s-calls.md)
+* [Esecuzione di chiamate API DCS server-to-server](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]
 >
->* [Riferimento API DCS](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [Riferimenti dell’API DCS ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
