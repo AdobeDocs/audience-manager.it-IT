@@ -1,20 +1,20 @@
 ---
 description: Questa pagina elenca le integrazioni personalizzate tra Audience Manager e partner di dati.
 seo-description: Questa pagina elenca le integrazioni personalizzate tra Audience Manager e partner di dati.
-seo-title: Integrazioni partner personalizzate
+seo-title: Integrazioni di partner personalizzate
 solution: Audience Manager
-title: Integrazioni partner personalizzate
+title: Integrazioni di partner personalizzate
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 19%
+ht-degree: 22%
 
 ---
 
 
-# Integrazioni partner personalizzate {#custom-partner-integrations}
+# Integrazioni di partner personalizzate {#custom-partner-integrations}
 
 Questa pagina elenca le integrazioni personalizzate tra Audience Manager e partner di dati.
 
