@@ -1,21 +1,21 @@
 ---
 description: Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili geografiche per tutte le proprietà dell'account Audience Manager .
 seo-description: Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili geografiche per tutte le proprietà dell'account Audience Manager .
-seo-title: Geotargeting con chiavi di livello Platform
+seo-title: Geotargeting con chiavi a livello di piattaforma
 solution: Audience Manager
-title: Geotargeting con chiavi di livello Platform
+title: Geotargeting con chiavi a livello di piattaforma
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Geotargeting With Platform-level Keys {#geotargeting-with-platform-level-keys}
+# Geotargeting con chiavi a livello di piattaforma {#geotargeting-with-platform-level-keys}
 
 Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili geografiche per tutte le proprietà dell&#39;account Audience Manager .
 
@@ -58,5 +58,5 @@ L&#39;elenco di [tutti i segnali](assets/all.txt) localizzati comprende tutti i 
 
 >[!MORELIKETHIS]
 >
->* [Requisiti del prefisso per le variabili chiave](../../features/traits/trait-variable-prefixes.md)
+>* [Requisiti di prefisso delle variabili chiave](../../features/traits/trait-variable-prefixes.md)
 
