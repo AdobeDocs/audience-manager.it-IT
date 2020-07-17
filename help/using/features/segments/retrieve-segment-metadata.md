@@ -1,21 +1,21 @@
 ---
 description: Quando  Audience Manager invia informazioni sui segmenti a un partner di dati, identifica questi oggetti con ID numerici. In qualità di partner dati, quando condividi queste informazioni con i tuoi clienti (o lavori con te stesso), un nome e una descrizione effettivi offrono ai clienti un'esperienza migliore in rapporti, dashboard o altre interfacce utente (interfaccia utente). I partner di dati possono rendere disponibili questi nomi descrittivi ai propri clienti con i metodi manuali o automatizzati descritti in questa sezione.
 seo-description: Quando  Audience Manager invia informazioni sui segmenti a un partner di dati, identifica questi oggetti con ID numerici. In qualità di partner dati, quando condividi queste informazioni con i tuoi clienti (o lavori con te stesso), un nome e una descrizione effettivi offrono ai clienti un'esperienza migliore in rapporti, dashboard o altre interfacce utente (interfaccia utente). I partner di dati possono rendere disponibili questi nomi descrittivi ai propri clienti con i metodi manuali o automatizzati descritti in questa sezione.
-seo-title: Recupero dei metadati del segmento
+seo-title: Recupero dei metadati dei segmenti
 solution: Audience Manager
-title: Recupero dei metadati del segmento
+title: Recupero dei metadati dei segmenti
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Recupero dei metadati del segmento {#retrieving-segment-metadata}
+# Recupero dei metadati dei segmenti {#retrieving-segment-metadata}
 
 Quando  Audience Manager invia informazioni sui segmenti a un partner di dati, identifica questi oggetti con ID numerici. In qualità di partner dati, quando condividi queste informazioni con i tuoi clienti (o lavori con te stesso), un nome e una descrizione effettivi offrono ai clienti un&#39;esperienza migliore in rapporti, dashboard o altre interfacce utente ([!DNL UI]). I partner di dati possono rendere disponibili questi nomi descrittivi ai propri clienti con i metodi manuali o automatizzati descritti in questa sezione.
 
