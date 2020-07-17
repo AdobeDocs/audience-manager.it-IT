@@ -80,7 +80,7 @@ Periodicamente, [!UICONTROL TraitWeight] rivaluta l&#39;importanza di un [!UICON
 Collegamenti correlati:
 
 * [Model Builder](../../features/algorithmic-models/create-model.md)
-* [Precisione e raggiungimento](../../features/traits/trait-accuracy-reach.md)
+* [Precisione e portata](../../features/traits/trait-accuracy-reach.md)
 
 ## Aggiorna pianificazione per [!UICONTROL Look-Alike Models] e [!UICONTROL Traits] {#update-schedule}
 
@@ -191,7 +191,7 @@ La pagina di riepilogo del modello include le sezioni seguenti.
 
 >[!MORELIKETHIS]
 >
->* [Destinazioni](../../features/destinations/destinations.md)
->* [Caratteristiche](../../features/traits/trait-details-page.md)
->* [Segmenti](../../features/segments/segments-purpose.md)
+>* [Destinazioni ](../../features/destinations/destinations.md)
+>* [Caratteristiche ](../../features/traits/trait-details-page.md)
+>* [Segmenti ](../../features/segments/segments-purpose.md)
 
