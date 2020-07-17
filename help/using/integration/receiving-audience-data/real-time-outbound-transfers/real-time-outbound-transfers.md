@@ -1,21 +1,21 @@
 ---
 description: Il processo di trasferimento dei dati in tempo reale in uscita restituisce i dati utente come una serie di oggetti JSON passati con un metodo POST.
 seo-description: Il processo di trasferimento dei dati in tempo reale in uscita restituisce i dati utente come una serie di oggetti JSON passati con un metodo POST.
-seo-title: Trasferimenti dati in uscita in tempo reale
+seo-title: Trasferimenti di dati in uscita in tempo reale
 solution: Audience Manager
-title: Trasferimenti dati in uscita in tempo reale
+title: Trasferimenti di dati in uscita in tempo reale
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Trasferimenti dati in uscita in tempo reale {#real-time-outbound-data-transfers}
+# Trasferimenti di dati in uscita in tempo reale {#real-time-outbound-data-transfers}
 
 Il processo di trasferimento dei dati in tempo reale in uscita fornisce i dati utente come una serie di messaggi [!DNL JSON] formattati a una piattaforma di destinazione.
 
