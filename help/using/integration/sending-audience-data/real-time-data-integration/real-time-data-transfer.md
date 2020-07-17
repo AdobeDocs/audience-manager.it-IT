@@ -1,21 +1,21 @@
 ---
 description: Il processo di assimilazione dei dati in entrata in tempo reale utilizza una serie di richieste HTTP dal browser di un utente per trasmettere i dati a  Audience Manager.
 seo-description: Il processo di assimilazione dei dati in entrata in tempo reale utilizza una serie di richieste HTTP dal browser di un utente per trasmettere i dati a  Audience Manager.
-seo-title: Ingestione dati in ingresso in tempo reale
+seo-title: Acquisizione di dati in entrata in tempo reale
 solution: Audience Manager
-title: Ingestione dati in ingresso in tempo reale
+title: Acquisizione di dati in entrata in tempo reale
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
 
-# Ingestione dati in ingresso in tempo reale {#real-time-inbound-data-ingestion}
+# Acquisizione di dati in entrata in tempo reale {#real-time-inbound-data-ingestion}
 
 Il processo di assimilazione dei dati in entrata in tempo reale utilizza una serie di `HTTP` richieste dal browser di un utente per trasmettere i dati a  Audience Manager.
 
