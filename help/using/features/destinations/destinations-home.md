@@ -9,13 +9,13 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 
-# Home page Destinazioni {#destinations-home}
+# Home page delle destinazioni {#destinations-home}
 
 Nella [!UICONTROL Destination] pagina di destinazione sono elencate tutte le destinazioni [!DNL URL], cookie e da server a server. Offre funzioni che consentono di creare, modificare, cercare e includere nei rapporti le destinazioni. La pagina di destinazione si trova in **[!UICONTROL Audience Data > Destinations]**.
 
@@ -26,7 +26,7 @@ Nella [!UICONTROL Destination] pagina di destinazione sono elencate tutte le des
 La pagina di destinazione predefinita elenca le destinazioni in base al tipo. Potete filtrare le destinazioni utilizzando le quattro schede disponibili:
 
 * **Tutti**: mostra tutti i tipi di destinazioni.
-* **Adobe Experience Cloud**: mostra le destinazioni che inviano dati ad altre soluzioni Adobe Experience Cloud. Attualmente, l&#39;unica opzione supportata è Adobe  Analytics. Consultate [Configurare una  destinazione](/help/using/features/destinations/create-analytics-destination.md)Analytics.
+* **Adobe Experience Cloud**: mostra le destinazioni che inviano dati ad altre soluzioni Adobe Experience Cloud. Attualmente, l&#39;unica opzione supportata è Adobe  Analytics. See [Configure an Analytics Destination](/help/using/features/destinations/create-analytics-destination.md).
 * **Piattaforme** integrate: mostra le destinazioni basate sulle persone e sui dispositivi (anche destinazioni denominate da server a server).
 * **Personalizzato**: mostra le destinazioni di cookie e URL.
 
