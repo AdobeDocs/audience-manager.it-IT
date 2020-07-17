@@ -1,21 +1,21 @@
 ---
 description: Esempi di codice e descrizioni per casi di utilizzo DIL specifici.
 seo-description: Esempi di codice e descrizioni per casi di utilizzo DIL specifici.
-seo-title: Casi di utilizzo DIL ed esempi di codice
+seo-title: Casi d’uso DIL ed esempi di codice
 solution: Audience Manager
-title: Casi di utilizzo DIL ed esempi di codice
+title: Casi d’uso DIL ed esempi di codice
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Casi di utilizzo DIL ed esempi di codice{#dil-use-cases-and-code-samples}
+# Casi d’uso DIL ed esempi di codice{#dil-use-cases-and-code-samples}
 
 Esempi di codice e descrizioni per casi di utilizzo DIL specifici.
 
@@ -244,5 +244,5 @@ Per eseguire il traffico del `dil.js` file in GTM:
 >
 >* [Guida di Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
 >* [Segnali](../dil/dil-instance-methods.md#signals)
->* [Requisiti del prefisso per le variabili chiave](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
+>* [Requisiti di prefisso delle variabili chiave](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
