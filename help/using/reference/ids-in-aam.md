@@ -2,21 +2,21 @@
 description: Consulta questo documento per l’elenco completo degli ID  Adobe Audience Manager.
 keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
 seo-description: Consulta questo documento per l’elenco completo degli ID  Adobe Audience Manager.
-seo-title: Indice degli ID in  Audience Manager
+seo-title: Indice degli ID in Audience Manager
 solution: Audience Manager
-title: Indice degli ID in  Audience Manager
+title: Indice degli ID in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Indice degli ID in [!DNL Audience Manager] {#index-of-ids-in-audience-manager}
+# Index of IDs in [!DNL Audience Manager] {#index-of-ids-in-audience-manager}
 
 ## Panoramica {#overview}
 
@@ -50,7 +50,7 @@ Per comprendere i prefissi utilizzati negli esempi seguenti, vedi Attributi [sup
 
 Gli ID dispositivo globali sono ID pubblicità dispositivo, univoci per ciascun dispositivo, forniti dal produttore del dispositivo o dal sistema operativo. Nella tabella seguente sono illustrati gli ID e il relativo formato. Per ulteriori informazioni sugli ID dispositivo globali e su come utilizzarli in [!DNL Audience Manager], consulta [Origini](/help/using/features/global-data-sources.md)dati globali.
 
-| ID | [!DNL Global Data Source ID] | Nome e descrizione | Esempio  |
+| ID | [!DNL Global Data Source ID] | Nome e descrizione | Esempio |
 | --------------------- | ------ | ------------ | ---------------- |
 | [!DNL IDFA] | 20915 | [!DNL Identifier for Advertisers] Gli ID sono identificatori del dispositivo mobile, forniti dal produttore del dispositivo. Questi ID rappresentano i dispositivi che eseguono il sistema [!DNL iOS] operativo. | Il formato è composto rigorosamente da 32 cifre esadecimali in caratteri maiuscoli, visualizzate in cinque gruppi e separate da trattini, nella forma 8-4-4-4-12, per un totale di 36 caratteri.<br> Esempio: `AEBE52E7-03EE-455A-B3C4-E57283966239`. |
 | [!DNL GAID] | 20914 | [!DNL Google Advertising ID]s sono identificatori di dispositivi mobili forniti dai produttori di dispositivi Android. Questi ID rappresentano i dispositivi che eseguono il sistema [!DNL Android] operativo. | Il formato è composto rigorosamente da 32 cifre esadecimali in lettere minuscole, visualizzate in cinque gruppi e separate da trattini, nella forma 8-4-4-4-12, per un totale di 36 caratteri. <br>Esempio: `e4fe9bde-caa0-47b6-908d-ffba3fa184f2`. |
