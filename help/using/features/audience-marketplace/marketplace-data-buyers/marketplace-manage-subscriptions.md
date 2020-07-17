@@ -1,9 +1,9 @@
 ---
 description: Il Marketplace è il luogo in cui gli acquirenti di dati vanno alla ricerca e si iscrivono ai feed di dati pubblici e privati. Seguite i passaggi indicati per effettuare la sottoscrizione a un feed di dati pubblico.
 seo-description: Il Marketplace è il luogo in cui gli acquirenti di dati vanno alla ricerca e si iscrivono ai feed di dati pubblici e privati. Seguite i passaggi indicati per effettuare la sottoscrizione a un feed di dati pubblico.
-seo-title: Gestisci sottoscrizioni feed dati
+seo-title: Gestire sottoscrizioni di feed di dati
 solution: Audience Manager
-title: Gestisci sottoscrizioni feed dati
+title: Gestire sottoscrizioni di feed di dati
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Gestisci sottoscrizioni feed dati {#manage-data-feed-subscriptions}
+# Gestire sottoscrizioni di feed di dati {#manage-data-feed-subscriptions}
 
 È [!UICONTROL Marketplace] il luogo dove gli acquirenti di dati vanno a ricerca e si iscrivono ai feed di dati pubblici e privati. Seguite i passaggi indicati per effettuare la sottoscrizione a un feed di dati pubblico.
 
@@ -39,12 +39,14 @@ Per effettuare la sottoscrizione a un feed di dati pubblico:
 1. Scegliete un caso di utilizzo dalla tabella Iscrizioni e:
    * Spostate il **[!UICONTROL Subscription]** cursore su **[!UICONTROL On]**.
    * Clic **[!UICONTROL Review & Subscribe]**. Questo apre la [!UICONTROL Terms and Conditions] finestra.
+
    ![subscription](assets/subscribe3.png)
 
 1. Nella [!UICONTROL Terms and Conditions] finestra:
 
    * **Importante:** Lasciate selezionata la **[!UICONTROL ID sync]** casella di controllo. Questa impostazione consente di migliorare le percentuali di corrispondenza con il provider di dati.
    * Selezionate la casella Termini e condizioni e fate clic **[!UICONTROL Accept]** per completare il processo di iscrizione.
+
    ![subscription](assets/subscribe4.png)
 
 ### Passaggi successivi
@@ -313,7 +315,7 @@ Questo caso di utilizzo consente di valutare le caratteristiche dei fornitori ri
 
 ### Activation
 
-Questo caso di utilizzo consente di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In [!DNL Audience Manager], una destinazione è qualsiasi sistema di terze parti (server di annunci, [!DNL DSP], [!DNL DMP], Exchange ecc.) con cui condividere i dati. Tuttavia, con un caso di [!UICONTROL Activation] utilizzo, non potete eseguire rapporti di sovrapposizione o testare i dati in un modello algoritmico.
+Questo caso di utilizzo consente di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In [!DNL Audience Manager], a destination is any third-party system (ad server, [!DNL DSP], [!DNL DMP], exchange, etc.) con cui desideri condividere i dati. Tuttavia, con un caso di [!UICONTROL Activation] utilizzo, non potete eseguire rapporti di sovrapposizione o testare i dati in un modello algoritmico.
 
 >[!MORELIKETHIS]
 >
