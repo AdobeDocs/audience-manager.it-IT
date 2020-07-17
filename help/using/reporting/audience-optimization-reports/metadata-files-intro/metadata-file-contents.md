@@ -1,21 +1,21 @@
 ---
 description: Formattate il contenuto del file di metadati di ottimizzazione dell'audience in base alle seguenti specifiche.
 seo-description: Formattate il contenuto del file di metadati di ottimizzazione dell'audience in base alle seguenti specifiche.
-seo-title: Formato del contenuto per i file di metadati
+seo-title: Formato del contenuto dei file di metadati
 solution: Audience Manager
-title: Formato del contenuto per i file di metadati
+title: Formato del contenuto dei file di metadati
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Formato del contenuto per i file di metadati{#content-format-for-metadata-files}
+# Formato del contenuto dei file di metadati{#content-format-for-metadata-files}
 
 Formattate il contenuto del file di metadati di ottimizzazione dell&#39;audience in base alle seguenti specifiche.
 
