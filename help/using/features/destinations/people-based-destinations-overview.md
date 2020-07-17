@@ -3,18 +3,18 @@ description: 'Utilizza destinazioni basate sulle persone per inviare segmenti di
 seo-description: 'Utilizza destinazioni basate sulle persone per inviare segmenti di pubblico di prime parti agli ambienti basati sulle persone. Questi ambienti sono ecosistemi chiusi appartenenti a un''entità che controlla il contenuto visualizzato al suo interno. Includono piattaforme social come Facebook e altre piattaforme che si basano sugli account dei clienti per personalizzare il contenuto visualizzato.  '
 seo-title: Casi di utilizzo e panoramica delle destinazioni basate sulle persone
 solution: Audience Manager
-title: Casi di utilizzo e panoramica
+title: Panoramica e casi di utilizzo
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '922'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Casi di utilizzo e panoramica {#overview-use-cases}
+# Panoramica e casi di utilizzo {#overview-use-cases}
 
 Da utilizzare [!DNL People-Based Destinations] per inviare segmenti di audience di prime parti ad ambienti basati sulle persone. Questi ambienti sono ecosistemi chiusi appartenenti a un&#39;entità che controlla il contenuto visualizzato al suo interno. Includono piattaforme social come [!DNL Facebook]e altre piattaforme che si affidano agli account dei clienti per personalizzare il contenuto visualizzato.
 
