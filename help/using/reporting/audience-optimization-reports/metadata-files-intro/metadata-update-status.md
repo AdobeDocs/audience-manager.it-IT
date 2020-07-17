@@ -92,11 +92,11 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle `Files` sezioni e nel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Nome leggibile per il tipo di dati contenuto nel file. Si basa sull’ID figlio nel nome del file. </p> <p>Consultate <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file</a>di metadati. </p> </td> 
+   <td colname="col2"> <p>Nome leggibile per il tipo di dati contenuto nel file. Si basa sull’ID figlio nel nome del file. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Nome leggibile per il tipo di dati contenuto nel file. Si basa sull’ID principale nel nome del file. </p> <p>Consultate <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file</a>di metadati. </p> </td> 
+   <td colname="col2"> <p>Nome leggibile per il tipo di dati contenuto nel file. Si basa sull’ID principale nel nome del file. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
