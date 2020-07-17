@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1">Booleano <span class="wintitle"> AND</span> </td> 
-   <td colname="col2"><span class="wintitle"> AND</span> </td> 
+   <td colname="col2"><span class="wintitle"> E</span> </td> 
    <td colname="col3" morerows="1"> n/d </td> 
   </tr> 
   <tr> 
