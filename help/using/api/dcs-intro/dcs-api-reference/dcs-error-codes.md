@@ -7,10 +7,10 @@ title: Codici errore DCS, messaggi ed esempi
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 11b79d46e7358c736c797bcf0809af4937717fc5
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 3%
+source-wordcount: '1518'
+ht-degree: 4%
 
 ---
 
@@ -23,22 +23,22 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
 
 ## Codici di errore del sistema {#system-error-codes}
 
-|Codice errore|Messaggio di errore|Descrizione|
-|—|—|—|
-|0|Errore non specificato|Si tratta di un errore catch-all che gestisce gli eventi non coperti dagli altri gestori di errori. È difficile risolvere questo errore. Può essere causato da una serie di azioni o eventi sconosciuti. Se ricevete questo errore, riprovate [!DNL DCS] la richiesta. Se il problema persiste, contattate [!DNL Adobe] il rappresentante.|
-|1|Impossibile trovare la configurazione per il nome host: `hostname`|Il nome host inviato nella richiesta non è stato configurato dal team di provisioning partner. Se viene visualizzato questo messaggio di errore, contattate [!DNL Adobe] il rappresentante.|
-|2|Valore non valido `d_orgid` (impossibile trovare una configurazione per questo ID organizzazione): `ID`|L&#39;ID organizzazione non è corretto. Controlla l’ID e riprova la richiesta. Se non conosci o non hai il tuo ID organizzazione, consulta la sezione &quot;Pagina di amministrazione&quot; [Organizzazioni e collegamento](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) dell&#39;account per informazioni su come trovarlo.|
+| Codice errore | Messaggio di errore | Descrizione |
+|---|---|---|
+| 0 | Errore non specificato | Si tratta di un errore catch-all che gestisce gli eventi non coperti dagli altri gestori di errori. È difficile risolvere questo errore. Può essere causato da una serie di azioni o eventi sconosciuti. Se ricevete questo errore, riprovate [!DNL DCS] la richiesta. Se il problema persiste, contattate [!DNL Adobe] il rappresentante. |
+| 1 | Impossibile trovare la configurazione per il nome host: `hostname` | Il nome host inviato nella richiesta non è stato configurato dal nostro team di provisioning partner. Se viene visualizzato questo messaggio di errore, contattate [!DNL Adobe] il rappresentante. |
+| 2 | Valore non valido `d_orgid` (impossibile trovare una configurazione per questo ID organizzazione): `ID` | L&#39;ID organizzazione non è corretto. Controlla l’ID e riprova la richiesta. Se non conosci o non disponi del tuo ID organizzazione, consulta la sezione &quot;Pagina di amministrazione&quot; [Organizzazioni e collegamento](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) dell’account per informazioni su come trovarlo. |
 
 ## Codici errore di integrazione {#integration-error-codes}
 
-|Codice errore|Messaggio di errore|Descrizione|
-|—|—|—|
-|100|Impossibile recuperare il nome host per la richiesta|Una [!DNL API] chiamata non ha inviato l&#39; [!DNL HTTP] intestazione host nella richiesta. Aggiungete l’intestazione dell’host alla chiamata e riprovate. La maggior parte dei browser e [!DNL API] dei client lo fanno automaticamente. |
-|101|ID [!DNL Experience Cloud] non valido passato `ID`|La [!DNL DCS] chiamata contiene un [!DNL Experience Cloud] ID non valido. Controllare la coppia chiave-valore nella stringa di intestazione. `d_mid=` Accertatevi di trasmettere l&#39; [!DNL Experience Cloud] ID corretto e riprovate. |
-|102|Richiesta [!DNL AAM ID] passata non valida `ID`|La [!DNL DCS] chiamata contiene un [!DNL Audience Manager] ID non valido. Controllare la coppia chiave-valore nella stringa di intestazione. `d_uuid=` Accertatevi di trasmettere l&#39; [!DNL Audience Manager] ID corretto e riprovate. |
-|104|Tutti gli ID cliente non sono validi | Tutti gli ID cliente nella chiamata non sono validi. Controlla gli ID e riprova.|
-|109|Referente non `HTTP referer` consentito per il partner `Partner ID`|L&#39; `HTTP referer` intestazione della chiamata non è consentita per l&#39;ID partner nella chiamata. Verificate che l’ `HTTP referer` intestazione sia corretta.|
-|111|Token non valido ricevuto `IMS` |Restituito per [!DNL Audience Manager] - [!DNL Adobe Target] integrazioni. L&#39;errore viene generato quando viene effettuata una chiamata al [!DNL DCS], contenente un token non valido [!DNL IMS] . Il token potrebbe essere danneggiato, scaduto o l&#39;utente potrebbe non essere autorizzato ad accedere alla risorsa richiesta.|
+| Codice errore | Messaggio di errore | Descrizione |
+|---|---|---|
+| 100 | Impossibile recuperare il nome host per la richiesta | Una [!DNL API] chiamata non ha inviato l&#39; [!DNL HTTP] intestazione dell&#39;host nella richiesta. Aggiungete l’intestazione dell’host alla chiamata e riprovate. La maggior parte dei browser e [!DNL API] dei client lo fanno automaticamente. |
+| 101 | ID [!DNL Experience Cloud] passato non valido `ID` | La [!DNL DCS] chiamata contiene un [!DNL Experience Cloud] ID non valido. Controllare la coppia chiave-valore nella stringa di intestazione. `d_mid=` Accertatevi di trasmettere l&#39; [!DNL Experience Cloud] ID corretto e riprovate. |
+| 102 | Richiesta [!DNL AAM ID] passata non valida `ID` | La [!DNL DCS] chiamata contiene un [!DNL Audience Manager] ID non valido. Controllare la coppia chiave-valore nella stringa di intestazione. `d_uuid=` Accertatevi di trasmettere l&#39; [!DNL Audience Manager] ID corretto e riprovate. |
+| 104 | Tutti gli ID cliente non sono validi | Tutti gli ID cliente nella chiamata non sono validi. Controlla gli ID e riprova. |
+| 109 | Referente non `HTTP referer` consentito per il partner `Partner ID` | L’ `HTTP referer` intestazione della chiamata non è consentita per l’ID partner nella chiamata. Verificate che l’ `HTTP referer` intestazione sia corretta. |
+| 111 | Token non valido `IMS` ricevuto | Restituito per [!DNL Audience Manager] - [!DNL Adobe Target] integrazioni. L&#39;errore viene generato quando viene effettuata una chiamata al [!DNL DCS], contenente un token non valido [!DNL IMS] . Il token potrebbe essere danneggiato, scaduto o l&#39;utente potrebbe non essere autorizzato ad accedere alla risorsa richiesta. |
 
 ## Codici di errore di rifiuto {#opt-out-error-codes}
 
@@ -120,12 +120,12 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>204 </p> </td> 
    <td colname="col2"> <p>Impossibile eseguire la migrazione perché la lettura del profilo non è riuscita per il dispositivo principale </p> </td> 
-   <td colname="col3"> <p>Se ricevi questo errore, potrebbero verificarsi problemi di scalabilità con il nostro archivio dati (<span class="wintitle"> PCS</span>). Se il problema persiste, contattate il rappresentante Adobe. </p> </td> 
+   <td colname="col3"> <p>Se ricevi questo errore, potrebbero verificarsi problemi di scalabilità con il nostro archivio dati (<span class="wintitle"> PCS</span>). Se il problema persiste, contattate il rappresentante  Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
    <td colname="col2"> <p>Impossibile eseguire la migrazione da <code><i>ID</i></code> a <code><i>ID</i></code>. Impossibile leggere il profilo per <code><i>ID</i></code> </p> </td>
-   <td colname="col3"> <p>Se ricevi questo errore, potrebbero verificarsi problemi di scalabilità con il nostro archivio dati (<span class="wintitle"> PCS</span>). Se il problema persiste, contattate il rappresentante Adobe. </p> </td> 
+   <td colname="col3"> <p>Se ricevi questo errore, potrebbero verificarsi problemi di scalabilità con il nostro archivio dati (<span class="wintitle"> PCS</span>). Se il problema persiste, contattate il rappresentante  Adobe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -194,7 +194,7 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>La richiesta contiene un ID dispositivo globale non valido </p> </td> 
-   <td colname="col3"> <p>Il <span class="wintitle">DCS</span> restituisce questo codice di errore quando la richiesta contiene un ID dispositivo globale non valido. Il DCS ignora l’ID non valido e genera un errore 312 con gli errori specifici dell’ID non valido. Per informazioni dettagliate sui formati ID pubblicitari dei dispositivi corretti e sulle origini dati globali corrispondenti, consulta <a href="../../../features/global-data-sources.md" format="dita" scope="local">Origini</a> dati globali e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Indice di ID in  Audience Manager</a> .</p>
+   <td colname="col3"> <p>Il <span class="wintitle">DCS</span> restituisce questo codice di errore quando la richiesta contiene un ID dispositivo globale non valido. Il DCS ignora l’ID non valido e genera un errore 312 con gli errori specifici dell’ID non valido. Per informazioni dettagliate sui formati ID pubblicitari dei dispositivi corretti e sulle origini dati globali corrispondenti, consulta Origini <a href="../../../features/global-data-sources.md" format="dita" scope="local">dati</a> globali e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Indice di ID  Audience Manager</a> .</p>
    <p>Esempio di chiamata non corretta: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Spiegazione: Un <span class="keyword">IDFA (DPID 2015)</span> deve essere un ID maiuscolo. L’ID fornito nella richiesta è minuscolo.</p>
    </td>
@@ -202,18 +202,18 @@ Nelle tabelle seguenti, il *corsivo* rappresenta un segnaposto variabile.
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>L’ID CMP non è presente in GCL</p> </td> 
-   <td colname="col3"> <p>Quando <code>gdpr=1</code> e la stringa IAB TC viene generata da un ID CMP che non è presente  versione cache Audience Manager dell’elenco CMP globale al momento della valutazione, il  Audience Manager Plug-in per IAB TCF elimina la stringa IAB TC ed elabora la richiesta come al solito. La macro IAB TCF v2.0 ${GDPR} è impostata su 0 e la macro ${GDPR_CONSENT_XXX} è vuota.</p>
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e la stringa IAB TC viene generata da un ID CMP che non è presente  versione  cache dell’elenco CMP globale al momento della valutazione, il plug-in  Audience Manager per IAB TCF elimina la stringa IAB TC ed elabora la richiesta come di consueto. La macro IAB TCF v2.0 ${GDPR} è impostata su 0 e la macro ${GDPR_CONSENT_XXX} è vuota.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>L’ID CMP è contrassegnato come eliminato in GCL</p> </td> 
-   <td colname="col3"> <p>Quando <code>gdpr=1</code> e la stringa IAB TC viene generata da un CMP contrassegnato come eliminato nella nostra versione memorizzata nella cache dell’Elenco CMP globale, il plug-in Audience Manager  per IAB TCF elimina la stringa TC ed elabora la richiesta come di consueto, se il tempo di valutazione supera il tempo di eliminazione dall’elenco CMP globale. La macro IAB TCF v2.0 ${GDPR} è impostata su 0 e la macro ${GDPR_CONSENT_XXX} è vuota.</p></td>
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e la stringa IAB TC viene generata da un CMP contrassegnato come eliminato nella nostra versione memorizzata nella cache dell’Elenco CMP globale, il plug-in del Audience Manager  per IAB TCF elimina la stringa TC ed elabora la richiesta come di consueto, se il tempo di valutazione supera il tempo di eliminazione dall’elenco CMP globale. La macro IAB TCF v2.0 ${GDPR} è impostata su 0 e la macro ${GDPR_CONSENT_XXX} è vuota.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 
    <td colname="col2"> <p>La stringa di consenso indica che non è stato raggiunto alcun consenso</p> </td> 
-   <td colname="col3"> <p>Se non viene fornito alcun consenso, il plug-in Audience Manager  per IAB TCF esclude l'utente da un'ulteriore raccolta di dati, oppure elimina completamente la chiamata se non viene rilevato alcun contesto partner.</p>
+   <td colname="col3"> <p>Se non viene fornito alcun consenso, il plug-in del Audience Manager  per IAB TCF esclude l'utente da un'ulteriore raccolta di dati, oppure elimina completamente la chiamata se non viene rilevato alcun contesto partner.</p>
    </td>
   </tr>
 
