@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29a2e0ec7859bec5658218fb5095b7bac74a3371
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 6%
@@ -26,21 +26,21 @@ Utilizzate le opzioni di filtro a sinistra per cercare il nome del modello o per
 
 La tabella Modelli mostra le informazioni seguenti:
 
-* **[!UICONTROL ID]**: l&#39;ID modello identifica in modo univoco ciascun modello nel vostro account Audience Manager ;
+* **[!UICONTROL ID]**: l&#39;ID modello identifica in modo univoco ciascun modello nel vostro account di Audience Manager ;
 * **[!UICONTROL Name]**: il nome fornito nel passaggio di creazione del modello;
 * **[!UICONTROL Description]**: la descrizione fornita nel passaggio di creazione del modello;
 * **[!UICONTROL Model Type]**: il tipo di ciascun modello ([!UICONTROL Look-Alike Modeling] o [!UICONTROL Predictive Audiences]);
 * **[!UICONTROL Status]**: lo stato di ciascun modello:
    * **[!UICONTROL Pending]**: il modello è in fase di inizializzazione e inizierà a produrre risultati a breve;
    * **[!UICONTROL Active]**: il modello è in esecuzione con successo e produce risultati;
-   * **[!UICONTROL Warning]**: il modello non è riuscito a produrre risultati, a causa di dati insufficienti (ad esempio, bassa popolazione di linee di base, profili utente non ricchi);
-   * **[!UICONTROL Error]**: impossibile eseguire il modello. Contattate il rappresentante Adobe.
+   * **[!UICONTROL Warning]**: il modello non è riuscito a produrre risultati, a causa di dati insufficienti (ad esempio, bassa popolazione di baseline, profili utente non ricchi);
+   * **[!UICONTROL Error]**: impossibile eseguire il modello. Contattate il rappresentante del Adobe .
 
 ## Report Panoramica modello{#model-report}
 
 Una volta scelto un modello, la pagina di reporting verrà caricata. Nella parte superiore della pagina puoi vedere i primi 5 segmenti predittivi più grandi, basati sulla realizzazione in tempo reale di 1 giorno, per cui il modello ha classificato il pubblico di destinazione. La **[!UICONTROL Other]** categoria include le altre persone, che non erano incluse nei primi cinque segmenti predittivi più grandi.
 
- Audience Manager visualizza sia un grafico a torta con colori codificati che un grafico a linee temporali per il [!UICONTROL Predictive Audiences]cliente.
+ Audience Manager visualizza sia un grafico a ciambella con colori codificati che un grafico a linee temporali per il [!UICONTROL Predictive Audiences]proprio.
 
 Facendo clic sulle schede delle persone nella parte superiore della pagina, queste vengono aggiunte o rimosse dal grafico e dal grafico.
 
@@ -69,7 +69,7 @@ Il segno indica se la presenza della caratteristica aumenta (+) o diminuisce (-)
 
 Per visualizzare le caratteristiche influenti di tutte le tue persone, fai clic su [!UICONTROL View All Influential Traits].
 
-La [!UICONTROL Influential Traits] finestra mostra le seguenti informazioni, per ogni persona del modello selezionato:
+La [!UICONTROL Influential Traits] finestra mostra le seguenti informazioni per ogni persona del modello selezionato:
 
 ![caratteristiche influenti](assets/predictive-audiences-influential-traits.png)
 
