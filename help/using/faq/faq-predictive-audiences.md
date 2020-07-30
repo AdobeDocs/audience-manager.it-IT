@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '985'
+ht-degree: 69%
 
 ---
 
@@ -66,28 +66,45 @@ Se il modello non produce risultati entro 24 ore, contatta il tuo rappresentante
 
 I modelli [!UICONTROL Predictive Audiences] potrebbero non riuscire a produrre risultati a causa di una serie di motivi:
 
-1. Nessuno tra i segmenti o le caratteristiche dell’utente tipo selezionati dispone di un numero sufficiente di profili utente. È consigliabile scegliere le caratteristiche o i segmenti in modo che ogni utente tipo abbia almeno un centinaio di profili utente.
-1. Nessuno tra i segmenti o le caratteristiche dell’utente tipo selezionati dispone di un numero sufficiente di dati nei profili utente (caratteristiche da analizzare insufficienti).
+1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
+1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
 1. La caratteristica o il segmento del pubblico di destinazione non aveva utenti attivi o onboarded negli ultimi 30 giorni.
 1. Gli utenti del pubblico di destinazione attivi o per i quali è stato effettuato l’onboarding negli ultimi 30 giorni non dispongono di un numero sufficiente di dati nei loro profili utente (caratteristiche da analizzare insufficienti).
+1. Il segmento di pubblico di destinazione usa un altro [!UICONTROL Profile Merge Rule] di quello scelto per il modello.
+1. L&#39;origine dati delle caratteristiche dell&#39;audience di destinazione potrebbe non essere inclusa nella [!UICONTROL Profile Merge Rule] scelta per il modello.
 
-Per ottenere risultati rilevanti, l’algoritmo [!UICONTROL Predictive Audiences] valuta le realizzazioni di caratteristiche e segmenti in base all’attività utente in tempo reale rilevata dal DCS. Se selezioni nuovi segmenti e caratteristiche di base che non hanno ancora abbastanza utenti, l’algoritmo potrebbe richiedere un paio di giorni per classificare il pubblico.
+Per ottenere risultati rilevanti, l’algoritmo [!UICONTROL Predictive Audiences] valuta le realizzazioni di caratteristiche e segmenti in base all’attività utente in tempo reale rilevata dal [!DNL DCS]. Se selezioni nuovi segmenti e caratteristiche di base che non hanno ancora abbastanza utenti, l’algoritmo potrebbe richiedere un paio di giorni per classificare il pubblico.
 
 Per risultati ottimali, segui le linee guida suggerite [Selection Criteria for Personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) e [Selection Criteria for Target Audience](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Perché il mio modello presenta lo stato Error?**
+**[!UICONTROL Error]Perché il mio modello presenta lo stato ?**
 
-Non è stato possibile eseguire il modello. In questi casi, contatta il tuo rappresentante Adobe.
+Non è stato possibile eseguire il modello. In such cases, please reach out to your [!DNL Adobe] representative.
+
+ 
+
+**Come posso cambiare il[!UICONTROL Profile Merge Rule]per un[!UICONTROL Predictive Audiences][!UICONTROL segment]?**
+
+Per creare un nuovo modello, selezionate le stesse persone e gli stessi destinatari del modello precedente. Durante la creazione del modello, assegnare un altro [!UICONTROL Profile Merge Rule].
+
+>[!WARNING]
+> In alternativa, puoi usare [Segment Builder](../features/segments/segment-builder.md) (Generatore [!UICONTROL segment] di segmenti) per creare manualmente un [!UICONTROL trait] inserto con un predittivo esistente [!UICONTROL Profile Merge Rule] e assegnargli unvalore prescelto.
+> 
+> Tuttavia, non consigliamo questa pratica, poiché predittiva [!UICONTROL traits] automaticamente eredita il modello a cui appartengono, e sono costruiti da influenti [!UICONTROL Profile Merge Rule] che rispettano il [!UICONTROL traits] [!UICONTROL Profile Merge Rule] modello.
 
  
 
-**Come posso modificare la Regola di unione profili per un segmento Predictive Audiences?**
+**Cosa[!UICONTROL Profile Merge Rule]dovrei scegliere?**
 
-Duplica il segmento [!UICONTROL Predictive Audiences] e modifica la [!UICONTROL Profile Merge Rule] del segmento duplicato.
+Quando si sceglie il modello [!UICONTROL Profile Merge Rule] desiderato, analizzare attentamente il caso d’uso.
 
- 
+Supponiamo che il pubblico di destinazione [!UICONTROL segment] utilizzi un [!UICONTROL Profile Merge Rule] criterio basato su profili autenticati + [!DNL Device Graph] profili, e che tu selezioni lo stesso [!UICONTROL Profile Merge Rule] per il preventivo [!UICONTROL segments]. In questo caso, sia il livello del dispositivo che il livello del dispositivo [!UICONTROL traits] saranno utilizzati per formare il modello e per posizionare l&#39;utente in un sistema predittivo [!UICONTROL segment].
+
+Se, tuttavia, selezionate un elemento [!UICONTROL Profile Merge Rule] basato solo sui profili dei dispositivi, nessuno dei vostri dispositivi cross-device [!UICONTROL traits] diventerà influente e non contribuirà al posizionamento degli utenti in un sistema predittivo [!UICONTROL segment]. Ciò può influire negativamente sull&#39;accuratezza e la portata del modello.
+
+Analizzare attentamente il caso di utilizzo e decidere [!UICONTROL trait] i tipi da cui il modello deve imparare e il tipo di dati da utilizzare per la classificazione.
 
 **Un utente del pubblico di destinazione che non fa parte di alcun segmento o caratteristica dell’utente tipo potrebbe non essere classificato?**
 
