@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '492'
 ht-degree: 8%
 
 ---
@@ -39,9 +39,10 @@ Una volta ottenuta l&#39;origine dati da utilizzare, segui i passaggi descritti 
    ![smart-persona-select-audience](assets/predictive-audiences-audience.png)
 1. Fate clic **[!UICONTROL Next]** dopo aver selezionato il pubblico.
 1. Compila i dettagli del modello:
-   1. **[!UICONTROL Model Name]**: Inserite un nome descrittivo per il modello, che vi aiuterà a identificarlo in un secondo momento. I nomi dei segmenti generati dal modello inizieranno con il nome del modello.
-   2. **[!UICONTROL Description]**: Inserire una descrizione del modello che consenta di identificare il relativo caso di utilizzo.
-   3. **[!UICONTROL Data Source]**: Selezionare l&#39;origine dati di prime parti a cui si desidera assegnare i [!UICONTROL Predictive Audiences] segmenti di questo modello.
+   * **[!UICONTROL Model Name]**: Inserite un nome descrittivo per il modello, che vi aiuterà a identificarlo in un secondo momento. I nomi dei segmenti generati dal modello inizieranno con il nome del modello.
+   * **[!UICONTROL Description]**: Inserire una descrizione del modello che consenta di identificare il relativo caso di utilizzo.
+   * **[!UICONTROL Data Source]**: Selezionare l&#39;origine dati di prime parti a cui si desidera assegnare i [!UICONTROL Predictive Audiences] segmenti di questo modello.
+   * **[!UICONTROL Profile Merge Rule]**: Selezionare l&#39;opzione [!UICONTROL Profile Merge Rule] da assegnare a tutti i predittivi [!UICONTROL segments] creati da questo modello. Se il pubblico di destinazione selezionato è un [!UICONTROL segment], si consiglia di selezionare lo stesso [!UICONTROL Profile Merge Rule] del pubblico di destinazione.
       ![predictive-audience-save](assets/predictive-audiences-save.png)
 1. Clic **[!UICONTROL Save]**.
 
