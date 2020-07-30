@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: aa583c0f2f8883249d7e8038b7bf2fb4c8951962
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 6%
 
 # Limiti di utilizzo {#usage-limits}
 
-Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through [!DNL API] methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our [!DNL API]s or user interface.
+ Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. Limiti si applicano a questi elementi, sia che siano creati nell&#39;interfaccia utente, sia che siano impostati in modo programmatico tramite [!DNL API] metodi. I limiti di utilizzo contribuiscono a proteggere  Audience Manager dai processi automatizzati che potrebbero tentare di compromettere la nostra interfaccia [!DNL API]o quella dell&#39;utente.
 
 ## Limiti di mappatura degli ID {#id-mapping-limits}
 
-The table below lists the [ID mapping](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) limits for device IDs. Once an ID reaches any of the limits below, Audience Manager adds new ID mappings based on a [!DNL FIFO] (first in, first out) logic, by removing the oldest stored ID mapping, and adding the new one. Refer to [Index of IDs](../../reference/ids-in-aam.md) in Audience Manager for details on the IDs supported by Audience Manager.
+Nella tabella seguente sono elencati i limiti di mappatura [](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) degli ID per gli ID dispositivo. Quando un ID raggiunge uno dei limiti riportati di seguito,  Audience Manager aggiunge nuove mappature ID basate su una logica [!DNL FIFO] (primo in, primo out), rimuovendo la mappatura ID memorizzata più vecchia e aggiungendo la nuova mappatura. Per informazioni sugli ID supportati da  Audience Manager, consultate [Indice degli ID](../../reference/ids-in-aam.md) in  Audience Manager.
 
-| ID Mapping | Limite massimo |
+| Mappatura ID | Limite massimo |
 |-----------|-------------- |
-| Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Device Advertising IDs ([DAID](../../reference/ids-in-aam.md)) to 1 Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) |
-| Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) to Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 Cross-device IDs ([DPUUID](../../reference/ids-in-aam.md)) to 1 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)), per each [DPID](../../reference/ids-in-aam.md) |
-| Cookie/browser ID to cookie/browser ID | 1000 cookie/browser  IDs to 1 cookie/browser ID |
+| Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to 1 Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) |
+| ID cross-device ([DPUUID](../../reference/ids-in-aam.md)) per Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 ID cross-device ([DPUUID](../../reference/ids-in-aam.md)) a 1 ID pubblicitario dispositivo ([DAID](../../reference/ids-in-aam.md)), per ogni [DPID](../../reference/ids-in-aam.md) |
+| Cookie/ID browser per cookie/ID browser | 1000 cookie/ID browser a 1 cookie/ID browser |
 
-## Item Limits {#item-limits}
+## Limiti elemento {#item-limits}
 
-The tables list the current limits by item type. You cannot create new traits, segments, destinations, or [!UICONTROL Algorithmic Models] if you reach a specific limit for one of these items. Se raggiungete un limite, dovete eliminare un elemento precedente prima di poterne creare uno nuovo.
+Le tabelle elencano i limiti correnti per tipo di articolo. Non puoi creare nuove caratteristiche, segmenti, destinazioni o [!UICONTROL Algorithmic Models] se raggiungi un limite specifico per uno di questi elementi. Se raggiungete un limite, dovete eliminare un elemento precedente prima di poterne creare uno nuovo.
 
 ### Limiti di caratteristiche
 
@@ -65,9 +65,11 @@ The tables list the current limits by item type. You cannot create new traits, s
 
 | Elemento | Limite massimo |
 | -------- | ----- |
-| Modelli algoritmici attivi | 20. Audience Manager only counts *active* algorithmic models against the limit. |
-| Algorithmic Models dimensione massima del pubblico | 25,000,000.  Tenete presente che questo limite non può essere aumentato. Potete ridurre le dimensioni del pubblico selezionando meno origini dati per il modello o selezionando una finestra di look-back più breve. |
-| Numero massimo di caratteristiche escluse per un modello | 500. Consulta Esclusione [caratteristica in Modellazione](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)algoritmica. |
+| Attivo [!UICONTROL Look-Alike Models] | 20. Audience Manager only counts *active* algorithmic models against the limit. |
+| [!UICONTROL Look-Alike Models] dimensione massima del pubblico | 25,000,000.  Tenete presente che questo limite non può essere aumentato. Potete ridurre le dimensioni del pubblico selezionando meno origini dati per il modello o selezionando una finestra di look-back più breve. |
+| Numero massimo di caratteristiche escluse per un [!UICONTROL Look-Alike Model] | 500. Consulta Esclusione [caratteristica in Modellazione](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md)algoritmica. |
+| Num [!UICONTROL Predictive Audiences Models] | 10 |
+| Numero massimo di figure di base per [!UICONTROL Predictive Audiences] i modelli | 50 |
 
 ### Limiti cartella
 
