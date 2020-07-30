@@ -8,9 +8,9 @@ title: Customer Data Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1893'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,13 @@ Informazioni di base sui [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) file
 
 Un file [!UICONTROL CDF] contiene gli stessi dati che una chiamata evento di [!DNL Audience Manager] (`/event`) invia ai nostri server. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. I [!DNL Audience Manager] sistemi interni elaborano i dati evento in un [!UICONTROL CDF] file con il contenuto organizzato in campi che vengono visualizzati in un ordine impostato. [!DNL Audience Manager] tenta di generare [!UICONTROL CDF] i file ogni ora e li memorizza in un bucket sicuro e specifico per il cliente su un [!DNL Amazon S3] server. Forniamo questi file in modo che possiate lavorare con [!DNL Audience Manager] i dati al di fuori dei limiti imposti dalla nostra interfaccia utente.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Non utilizzare [!UICONTROL CDF] i file come proxy per monitorare il traffico delle pagine, riconciliare le discrepanze dei rapporti, o per la fatturazione, ecc.
+>Tenete presenti le seguenti limitazioni quando lavorate con i file CDF:
+>
+>* Prima di configurare la distribuzione dei file CDF, accertatevi di disporre delle autorizzazioni appropriate da parte di fornitori di dati di terze parti per l&#39;esportazione di caratteristiche di terze parti.
+>* Non utilizzare [!UICONTROL CDF] i file come proxy per monitorare il traffico delle pagine, riconciliare le discrepanze dei rapporti, o per la fatturazione, ecc.
+
 
 ## Introduzione {#getting-started}
 
@@ -105,7 +109,7 @@ Un [!UICONTROL CDF] file include alcuni o tutti i campi definiti di seguito. Per
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>L’ <span class="keyword"> ID Experience Cloud</span> (MID)  assegnato al visitatore del sito. Vedi anche <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies e Adobe  Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col3"> <p>L’ID Experience Cloud <span class="keyword"></span> (MID) assegnato al visitatore del sito. Vedi anche <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il servizio</a>Adobe  ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -217,7 +221,7 @@ Nella tabella seguente sono elencati e definiti gli elementi presenti nel nome d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> s3://aam-cdf/</code> </p> </td> 
-   <td colname="col2"> <p>Si tratta del bucket di memorizzazione principale predefinito per il file CDF su un server Amazon S3. </p> </td> 
+   <td colname="col2"> <p>Si tratta del bucket di memorizzazione principale predefinito per il file CDF su un server Amazon S3 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>your S3 bucket name</i> </code> </p> </td> 
@@ -237,7 +241,7 @@ Nella tabella seguente sono elencati e definiti gli elementi presenti nel nome d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
-   <td colname="col2"> <p>Un ID di processo Audience Manager <span class="keyword"></span>  interno. </p> </td> 
+   <td colname="col2"> <p>Un ID di processo interno <span class="keyword">  Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
@@ -303,7 +307,7 @@ Le tabelle seguenti elencano e definiscono gli elementi in un [!UICONTROL CDF] `
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Amazon S3 ETag. Il numero che segue il trattino mostra il numero di parti utilizzate per creare il file durante il caricamento di più parti. Il valore non <code> ETag</code> è identico al checksum MD5 del file. </p> </td> 
+   <td colname="col2"> <p>Il  Amazon S3 ETag. Il numero che segue il trattino mostra il numero di parti utilizzate per creare il file durante il caricamento di più parti. Il valore non <code> ETag</code> è identico al checksum MD5 del file. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
