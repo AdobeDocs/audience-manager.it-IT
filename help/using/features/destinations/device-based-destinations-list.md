@@ -1,15 +1,15 @@
 ---
-description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni sull'integrazione, fare riferimento all'elenco di Adobe Exchange corrispondente (dove disponibile) o contattare il consulente Adobe o l'Assistenza clienti.
-seo-description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni sull'integrazione, fare riferimento all'elenco di Adobe Exchange corrispondente (dove disponibile) o contattare il consulente Adobe o l'Assistenza clienti.
+description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un'integrazione, consulta l'elenco  Exchange del Adobe (dove disponibile) o contatta il tuo consulente del Adobe  o l'Assistenza clienti.
+seo-description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un'integrazione, consulta l'elenco  Exchange del Adobe (dove disponibile) o contatta il tuo consulente del Adobe  o l'Assistenza clienti.
 seo-title: ' Destinazioni server-to-server di Adobe Audience Manager'
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: ' Destinazioni server-to-server di Adobe Audience Manager'
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1116'
 ht-degree: 71%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 71%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Questa pagina include solo le destinazioni [!DNL Audience Manager] correnti basate sul [](/help/using/features/destinations/add-device-based-destinations.md) dispositivo. In [!DNL Audience Manager], [!UICONTROL device-based destinations] sono chiamati anche [!UICONTROL server-to-server destinations]. Per ulteriori informazioni su un&#39;integrazione, consulta l&#39;elenco [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (dove disponibile) o contatta il tuo [!DNL Adobe] Consulente o l&#39;Assistenza clienti.
+Questa pagina include solo le destinazioni [!DNL Audience Manager] correnti basate sul [](/help/using/features/destinations/add-device-based-destinations.md) dispositivo. In [!DNL Audience Manager], [!UICONTROL device-based destinations] sono chiamati anche [!UICONTROL server-to-server destinations]. Per ulteriori informazioni su un&#39;integrazione, consulta l&#39;elenco [Exchange](https://www.adobeexchange.com/experiencecloud.html) di Adobe (dove disponibile) o contatta il tuo [!DNL Adobe] Consulente o l&#39;Assistenza clienti.
 
  
 
 * **Ultimo aggiornamento** = mostra l&#39;ultima data in cui è stato eseguito un aggiornamento per questo [!UICONTROL device-based destination].
 * **Aggiornamenti** = Indica se [!DNL Audience Manager] invia dati in tempo reale o in batch (1xday) a questo [!UICONTROL destination].
-* **Unsegment** = Unsegmentation descrive i processi che qualificano e rimuovono i profili dispositivo da [!UICONTROL segments]. La possibilità di rimuovere un profilo dispositivo da un [!UICONTROL segment] utente dipende dall’opzione del dispositivo utilizzata per creare un [!UICONTROL Profile Merge Rule]. La segmentazione viene utilizzata anche nel contesto delle richieste di [!DNL GDPR] eliminazione. Leggi le regole di unione dei [profili e i processi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) di segmentazione dei dispositivi e [partner Audience Manager con funzionalità](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)di segmentazione. [!DNL Audience Manager] invia le informazioni del segmento al [!UICONTROL destinations] contrassegnato con **Sì** di seguito.
+* **Unsegment** = Unsegmentation descrive i processi che qualificano e rimuovono i profili dispositivo da [!UICONTROL segments]. La possibilità di rimuovere un profilo dispositivo da un [!UICONTROL segment] utente dipende dall’opzione del dispositivo utilizzata per creare un [!UICONTROL Profile Merge Rule]. La segmentazione viene utilizzata anche nel contesto delle richieste di [!DNL GDPR] eliminazione. Leggi le regole di unione dei [profili e i processi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) di segmentazione dei dispositivi e i partner di [Audience Manager con funzionalità](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation)di segmentazione. [!DNL Audience Manager] invia le informazioni del segmento al [!UICONTROL destinations] contrassegnato con **Sì** di seguito.
 * **Ricevere i segnali[!DNL IAB TCF]di** consenso = La [!DNL Audience Manager Plug-in for IAB TCF] stringa consente di inoltrare la [!DNL IAB TC] stringa ai partner di attivazione, nel rispetto delle scelte sulla privacy degli utenti. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **[!DNL ICDS]** = In questa colonna sono elencati i partner supportati [!UICONTROL Instant Cross-Device Suppression]. Leggi [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **ID** dispositivo mobile = In questa colonna sono elencati i partner da cui è possibile ricevere gli ID del dispositivo mobile [!DNL Audience Manager].
@@ -84,7 +84,6 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] correnti basa
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Sì | No | No | No |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Sì | Sì | No | Sì |
 | [!DNL Gamut Media] | 03/03/2017 | Real-time |  | No | No |  |
-| [!DNL Google AdsWords Display] | 02/08/2018 | Real-time | Sì | Sì | No | Sì |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 24/04/2017 | Real-time | Sì | Sì | Sì | Sì |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | Real-time | Sì | Sì | Sì | Sì |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 24/04/2017 | Real-time | Sì | Sì | Sì | Sì |
