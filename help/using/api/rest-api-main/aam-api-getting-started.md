@@ -7,9 +7,9 @@ title: Guida introduttiva alle API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: 0fd2b2a58274199ecc2fd58738113165c804ceb8
+source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1860'
 ht-degree: 2%
 
 ---
@@ -27,10 +27,10 @@ Cose che devi e che devi fare quando lavori con gli [!DNL Audience Manager][!DNL
 
 <!-- aam-api-requirements.xml -->
 
-Quando lavorate con [codice API](https://bank.demdex.com/portal/swagger/index.html#/) Audience Manager, tenete presente quanto segue:
+Tenete presente quanto segue quando lavorate con il codice API [](https://bank.demdex.com/portal/swagger/index.html#/) Audience Manager:
 
 * **Parametri di richiesta:** tutti i parametri di richiesta sono obbligatori, se non diversamente specificato.
-* **Intestazioni** richieste: quando utilizzate i token di I/O [di](https://www.adobe.io/) Adobe, dovete fornire l’ `x-api-key` intestazione. Per ottenere la [!DNL API] chiave, segui le istruzioni riportate nella pagina [Integrazione](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) account di servizio.
+* **Intestazioni** richieste: quando usate [token I/O](https://www.adobe.io/) Adobe, dovete fornire l’ `x-api-key` intestazione. Per ottenere la [!DNL API] chiave, segui le istruzioni riportate nella pagina [Integrazione](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) account di servizio.
 * **[!DNL JSON]tipo di contenuto:**Specificate`content-type: application/json`e *inserite*`accept: application/json`nel codice.
 * **Richieste e risposte:** Invia le richieste come un [!DNL JSON] oggetto formattato correttamente. [!DNL Audience Manager] risponde con dati [!DNL JSON] formattati. Le risposte del server possono contenere i dati richiesti, un codice di stato o entrambi.
 * **Accesso:** Il [!DNL Audience Manager] consulente vi fornirà un ID cliente e una chiave che vi consentirà di effettuare [!DNL API] richieste.
@@ -40,33 +40,33 @@ Quando lavorate con [codice API](https://bank.demdex.com/portal/swagger/index.ht
 
 Sono [!DNL Audience Manager] supportati due metodi di autenticazione [!DNL REST APIs] .
 
-* [Autenticazione](#jwt) JWT (Service Account) tramite [Adobe I/O](https://www.adobe.io/). [!DNL Adobe I/O] è l&#39;ecosistema e la comunità di sviluppatori di Adobe. Include gli strumenti di sviluppo [Adobe I/O, le API](https://www.adobe.io/apis/experienceplatform.html) e [le API per tutti i prodotti](https://www.adobe.io/apis.html)Adobe. Questo è il metodo consigliato per configurare e utilizzare [!DNL Adobe] . [!DNL APIs]
+* [Autenticazione](#jwt) JWT (Service Account) tramite [I/O](https://www.adobe.io/)Adobe. [!DNL Adobe I/O] è  Adobe  ecosistema e comunità di sviluppatori. Include gli strumenti per gli sviluppatori di I/O di [Adobe, le API](https://www.adobe.io/apis/experienceplatform.html) e [le API per tutti  prodotti](https://www.adobe.io/apis.html)di Adobe. Questo è il metodo consigliato per configurare e utilizzare [!DNL Adobe] . [!DNL APIs]
 * [Autenticazione OAuth (obsoleta)](#oauth). Anche se questo metodo è obsoleto, i clienti con [!DNL OAuth] integrazioni esistenti possono continuare a utilizzare questo metodo.
 
 >[!IMPORTANT]
 >
 >A seconda del metodo di autenticazione, è necessario regolare la richiesta [!DNL URLs] di conseguenza. Consulta la sezione [Ambienti](#environments) per informazioni dettagliate sui nomi host da utilizzare.
 
-## [!DNL JWT] ([!DNL Service Account]Autenticazione tramite I/O Adobe {#jwt}
+## [!DNL JWT] ([!DNL Service Account]Autenticazione tramite I/O  Adobe {#jwt}
 
-### Panoramica di Adobe I/O {#adobeio}
+### Panoramica I/O Adobe  {#adobeio}
 
-[!DNL Adobe I/O] è l&#39;ecosistema e la comunità di sviluppatori di Adobe. Include gli strumenti di sviluppo [Adobe I/O, le API](https://www.adobe.io/apis/experienceplatform.html) e [le API per tutti i prodotti](https://www.adobe.io/apis.html)Adobe.
+[!DNL Adobe I/O] è  Adobe  ecosistema e comunità di sviluppatori. Include gli strumenti per gli sviluppatori di I/O di [Adobe, le API](https://www.adobe.io/apis/experienceplatform.html) e [le API per tutti  prodotti](https://www.adobe.io/apis.html)di Adobe.
 
 Questo è il metodo consigliato per configurare e utilizzare [!DNL Adobe] . [!DNL APIs]
 
 ### Prerequisiti {#prerequisites}
 
-Prima di configurare [!DNL JWT] l&#39;autenticazione, accertatevi di disporre dell&#39;accesso ad [Adobe Developer Console](https://console.adobe.io/) in [Adobe I/O](https://www.adobe.io/). Contattate l’amministratore dell’organizzazione per le richieste di accesso.
+Prima di configurare [!DNL JWT] l&#39;autenticazione, accertatevi di disporre dell&#39;accesso alla [console](https://console.adobe.io/) Sviluppatore di Adobi in [I/O](https://www.adobe.io/)Adobe. Contattate l’amministratore dell’organizzazione per le richieste di accesso.
 
 ### Autenticazione
 
 Per configurare l&#39; [!DNL JWT (Service Account)] autenticazione tramite [!DNL Adobe I/O]:
 
-1. Accedete ad [Adobe Developer Console](https://console.adobe.io/).
+1. Accedete alla [console](https://console.adobe.io/)Sviluppatore di Adobe.
 1. Seguite i passaggi in Connessione [account di](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)servizio.
-   * Durante il [passaggio 2: Aggiungete un&#39;API al progetto utilizzando l&#39;autenticazione](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)dell&#39;account di servizio, scegliete l&#39; [!DNL Audience Manager] opzione [!DNL API] .
-1. Prova la connessione effettuando la tua prima [!DNL API] chiamata in base alle istruzioni del [passaggio 3](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.).
+   * Durante il [passaggio 2: Aggiungete un&#39;API al progetto utilizzando l&#39;autenticazione](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)dell&#39;account di servizio, scegliete l&#39; [!DNL Audience Manager] opzione [!DNL API] .
+1. Prova la connessione effettuando la tua prima [!DNL API] chiamata in base alle istruzioni del [passaggio 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ Vi consigliamo di creare un account utente tecnico separato per l’utilizzo deg
 
 Ad esempio, per questo tipo di account, supponiamo che tu voglia cambiare molti segmenti alla volta con gli Strumenti [di gestione](../../reference/bulk-management-tools/bulk-management-intro.md)di massa. Per fare questo, il vostro account utente ha bisogno di [!DNL API] accesso. Invece di aggiungere autorizzazioni a un utente specifico, create un account utente non specifico [!DNL API] con le credenziali, la chiave e il segreto appropriati per effettuare [!DNL API] le chiamate. Questo è utile anche se si sviluppano applicazioni personalizzate che utilizzano [!DNL Audience Manager] gli [!DNL API]s.
 
-Consultate il vostro [!DNL Audience Manager] consulente per configurare un account utente generico [!DNL API]solo.
+Consultate il vostro [!DNL Audience Manager] consulente per configurare un account utente generico e [!DNL API]solo.
 
 ### Flusso di lavoro di autenticazione della password {#password-authentication-workflow}
 
@@ -178,7 +178,7 @@ Requisiti per i [!DNL API] metodi di chiamata dopo la ricezione di un token di a
 Per effettuare chiamate ai [!DNL API] metodi disponibili:
 
 * Nell’ `HTTP` intestazione, impostate `Authorization: Bearer <token>`.
-* Quando si utilizza l&#39;autenticazione [](#jwt)JWT (Service Account), è necessario fornire l&#39; `x-api-key` intestazione, che sarà la stessa dell&#39; `client_id`utente. Puoi ottenere informazioni `client_id` dalla pagina di integrazione [I/O di](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Adobe.
+* Quando si utilizza l&#39;autenticazione [](#jwt)JWT (Service Account), è necessario fornire l&#39; `x-api-key` intestazione, che sarà la stessa dell&#39; `client_id`utente. È possibile ottenere informazioni `client_id` dalla pagina di integrazione [I/O](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Adobe.
 * Chiama il [!DNL API] metodo richiesto.
 
 ## Parametri [!DNL API] query opzionali {#optional-api-query-parameters}
