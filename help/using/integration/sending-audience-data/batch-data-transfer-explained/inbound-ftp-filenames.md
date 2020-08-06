@@ -53,7 +53,7 @@ La tabella definisce gli elementi in un nome di [!DNL FTP] file.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>Percorso e nome della directory FTP del Audience Manager <span class="keyword"></span> . Contatta il tuo Account Manager per conoscere la directory e le credenziali dell'FTP. </p> </td> 
+   <td colname="col2"> <p>Percorso e nome della directory FTP del Audience Manager <span class="keyword"></span> . Contatta il tuo Account Manager per conoscere la directory e le credenziali FTP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
