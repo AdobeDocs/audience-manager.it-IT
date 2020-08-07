@@ -47,7 +47,7 @@ Sotto gli strumenti di gestione dei segmenti potete trovare le seguenti informaz
 
    >[!NOTE]
    >
-   > Audience Manager visualizza il [!UICONTROL Identity Type Breakdown] rapporto solo se disponete di ID cross-device qualificati per il segmento.
+   >Audience Manager visualizza il [!UICONTROL Identity Type Breakdown] rapporto solo se disponete di ID cross-device qualificati per il segmento.
 
    Guardate il video sottostante per una panoramica di [!UICONTROL Identity Type Breakdown].
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
