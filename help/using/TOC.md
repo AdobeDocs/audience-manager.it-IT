@@ -3,9 +3,10 @@ product: audience-manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Guida utente di Audience Manager
+user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: edeb7dba1cb83e19a910812d2d0a664a288b884a
+source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 94%
@@ -179,7 +180,7 @@ ht-degree: 94%
       + [Rapporti di Audience Optimization](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization per gli inserzionisti {#audience-optimization-advertisers}
          + [Panoramica di Audience Optimization per gli inserzionisti](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Importa i file di dati di Google Campaign Manager in  Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Importa file di dati Google Campaign Manager nel Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Rapporto sulle prestazioni dei segmenti](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Rapporto sull’analisi delle tendenze e dei volumi](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [Rapporto di frequenza ottimale](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -294,7 +295,7 @@ ht-degree: 94%
       + [Integrazione di Facebook WCA](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS come destinazione di Audience Manager](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX come destinazione di Audience Manager](integration/integrating-third-party/openx-destination.md)
-      + [Google Ad Manager (già DFP) come destinazione Audience Manager](integration/aam-dfp.md)
+      + [Google Ad Manager (ex DFP) come destinazione  Audience Manager](integration/aam-dfp.md)
       + [Inviare segmenti a un elenco per il remarketing di Google AdWords](integration/integrating-third-party/rlsa-integration.md)
    + [Implementazione di Audience Manager](integration/implement-audience-manager.md)
    + Integrazione di dati multimediali {#media-data-integration}
@@ -340,7 +341,7 @@ ht-degree: 94%
    + Integrazione con altre soluzioni Experience Cloud {#integration-other-solutions}
       + [Integrare  Audience Manager con  Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Inoltrare dati da Adobe Analytics ad Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Pubblicare un segmento Analytics  Adobe sull’Experience Cloud  (apre la documentazione di Adobe  Analytics)](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Pubblicare un segmento Adobe Analytics  nel Experience Cloud  (apre  documentazione Adobe Analytics)](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/t-publish-audience-segment.html)
       + [Integrare  Audience Manager con  Adobe Campaign (apre  documentazione Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Riferimenti {#reference}
    + [Panoramica dei riferimenti](reference/reference.md)
