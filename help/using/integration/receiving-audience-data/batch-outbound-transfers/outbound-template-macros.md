@@ -135,7 +135,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserisce un <code>{</code> carattere di parentesi graffe aperta. </p> </td> 
+   <td colname="col2"> <p>Inserisce una parentesi graffa aperta { carattere. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
