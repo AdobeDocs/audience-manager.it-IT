@@ -7,7 +7,7 @@ title: Macro sui modelli in uscita
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 31366fb83fc9aaeffc6d4a078dc2e07a0fd727a4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -107,7 +107,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserisce una parentesi graffa chiusa }. </p> </td> 
+   <td colname="col2"> <p>Inserisce una parentesi <code>}</code> graffa chiusa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -135,7 +135,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserisce una parentesi graffa aperta { carattere. </p> </td> 
+   <td colname="col2"> <p>Inserisce un <code>{</code> carattere di parentesi graffe aperta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -217,7 +217,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">  ID </span> utente Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">  ID utente Audience Manager </span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
