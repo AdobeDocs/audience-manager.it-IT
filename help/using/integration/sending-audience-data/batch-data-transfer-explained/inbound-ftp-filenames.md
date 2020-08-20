@@ -7,7 +7,7 @@ title: Requisiti FTP di nome e dimensione file per i file di dati in entrata
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
+source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 9%
@@ -53,7 +53,7 @@ La tabella definisce gli elementi in un nome di [!DNL FTP] file.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>Percorso e nome della directory FTP del Audience Manager <span class="keyword"></span> . Contatta il tuo Account Manager per conoscere la directory e le credenziali FTP. </p> </td> 
+   <td colname="col2"> <p>Percorso e nome della directory FTP del Audience Manager <span class="keyword"></span> . Contatta il tuo Account Manager per conoscere la directory e le credenziali dell'FTP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
@@ -82,7 +82,7 @@ La tabella definisce gli elementi in un nome di [!DNL FTP] file.
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i></code>] </p> </td> 
+   <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i>]</code> </p> </td> 
    <td colname="col2"> <p>Un numero intero. Utilizzato quando si suddividono file di grandi dimensioni in più parti per migliorare i tempi di elaborazione. Il numero indica quale parte del file originale viene inviata. </p> <p>Per un'elaborazione efficiente dei file, suddividere i file di dati come indicato: </p> 
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Non compresso: 1 GB </li> 
