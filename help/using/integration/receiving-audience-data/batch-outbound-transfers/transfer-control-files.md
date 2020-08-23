@@ -1,15 +1,15 @@
 ---
-description: I file di controllo del trasferimento (.info) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che  i trasferimenti di file Audience Manager siano gestiti correttamente.
-seo-description: I file di controllo del trasferimento (.info) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che  i trasferimenti di file Audience Manager siano gestiti correttamente.
+description: I file Transfer-control (.info) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che  Audience Manager gestisca correttamente i trasferimenti di file.
+seo-description: I file Transfer-control (.info) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che  Audience Manager gestisca correttamente i trasferimenti di file.
 seo-title: File di trasferimento del controllo per trasferimenti di file di registro
 solution: Audience Manager
 title: File di trasferimento del controllo per trasferimenti di file di registro
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '307'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # File di trasferimento del controllo per trasferimenti di file di registro {#transfer-control-files-for-log-file-transfers}
 
-I file con controllo del trasferimento ([!DNL .info]) forniscono informazioni sui metadati relativi ai trasferimenti di file, in modo che i partner possano verificare che  Audience Manager abbia gestito correttamente i trasferimenti di file.
+I file con controllo del trasferimento ([!DNL .info]) forniscono informazioni sui metadati relativi ai trasferimenti di file in modo che i partner possano verificare che  Audience Manager gestisca correttamente i trasferimenti di file.
 
 [!DNL Audience Manager] invia un file di trasferimento a un partner con ogni trasferimento di file. A causa della natura multithread dell&#39; [!DNL FTP] editore, il file di controllo del trasferimento potrebbe essere inviato prima del termine del trasferimento dei file effettivi.
 
@@ -76,10 +76,10 @@ Ad esempio, se il primo file della sequenza è stato denominato: [!DNL ftp_12345
 }
 ```
 
->[NOTA]
+>[!NOTE]
 >
 > I numeri totali del batch sono esclusi dal [!DNL .info] file stesso. In altre parole, i totali non includono il [!DNL .info] file, la dimensione dei byte o il conteggio delle righe.
 >
-> Le dimensioni byte dei file e dei conteggi delle righe sono comprese nelle righe/righe di intestazione e distanziatore (vuote). Per ottenere il conteggio delle righe/righe di dati effettive, sottrarre le intestazioni.
+> Le dimensioni dei byte dei file e dei conteggi delle righe sono comprensive di righe/righe di intestazione e distanziali (vuote). Per ottenere il conteggio delle righe/righe di dati effettive, sottrarre le intestazioni.
 >
 > Le righe totali in batch e le dimensioni totali in byte sono comprensive di qualsiasi riga di intestazione e di spazio.
