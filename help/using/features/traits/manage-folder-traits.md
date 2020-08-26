@@ -8,9 +8,9 @@ title: Gestisci caratteristiche cartella
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '362'
 ht-degree: 9%
 
 ---
@@ -36,7 +36,7 @@ Una cartella [!UICONTROL folder trait] viene creata automaticamente quando creat
 
 1. Fai clic sull&#39;icona + per creare la cartella. Puoi creare fino a un massimo di 2.000 cartelle nella tassonomia. Per ulteriori informazioni, consulta la documentazione sui [limiti di utilizzo](../../features/administration/usage-limits.md).
 1. Assegnate un nome alla cartella e fate clic su **Salva**. Ad esempio, una cartella denominata Electronics avrà una caratteristica cartella denominata &#39;Caratteristiche cartella elettronica&#39;. Potete visualizzare e selezionare la nuova caratteristica della cartella nel dashboard delle caratteristiche.
-1. La nuova caratteristica della cartella viene assegnata automaticamente all&#39;origine dati [!DNL Audience Manager] generata. Gli utenti con autorizzazioni [!UICONTROL Role-Based Access Control ([!DNL RBAC])] appropriate possono modificare l&#39;origine dati nel flusso di lavoro di modifica delle caratteristiche della cartella. Consultate [Modificare una caratteristica](../../features/traits/manage-folder-traits.md#edit-folder-trait)della cartella.
+1. La nuova caratteristica della cartella viene assegnata automaticamente all&#39;origine dati [!DNL Audience Manager] generata. Gli utenti con autorizzazioni [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) appropriate possono modificare l&#39;origine dati nel flusso di lavoro di modifica delle caratteristiche della cartella. Consultate [Modificare una caratteristica](../../features/traits/manage-folder-traits.md#edit-folder-trait)della cartella.
 
 ## Modifica di una caratteristica cartella {#edit-folder-trait}
 
