@@ -7,9 +7,9 @@ title: Guida introduttiva alle regole di unione profili
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dc22ed98b51b5633532bab45a79a14ee14dba5f5
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1304'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Per completare la [!UICONTROL Data Source Details] sezione:
 
 * **[!UICONTROL Use as a Device Graph]**: Questo controllo è disponibile solo per gli account elencati come provider di dati. Selezionando questa casella di controllo, l&#39;origine dati viene creata come grafico del dispositivo e puoi condividerla con altri [!DNL Audience Manager] clienti. Consultate il vostro [!DNL Audience Manager] consulente per ottenere la configurazione come fornitore di dati e per specificare con quali clienti [!UICONTROL Data Source] condividere questo servizio. Il consulente fornirà il vostro account e la condivisione del grafico del dispositivo attraverso un processo di provisioning interno.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**: Questo controllo consente di impostare il periodo di conservazione dei dati per gli ID cliente inattivi. Questo determina per quanto tempo  Audience Manager mantiene gli ID cliente nel nostro database dopo che sono stati visti per l&#39;ultima volta sulla piattaforma Audience Manager . Il valore predefinito è 24 mesi (720 giorni). Il valore minimo che potete impostare è 1 mese e il valore massimo è 5 anni. Teniamo presente che contiamo tutti i mesi come 30 giorni.  Audience Manager esegue un processo che elimina gli ID cliente inattivi una volta alla settimana, in conformità con la conservazione dei dati impostata per gli ID cliente inattivi.
+* **[!UICONTROL Data retention for inactive Customer IDs]**: Questo controllo consente di impostare il periodo di conservazione dei dati per gli ID cliente inattivi. Questo determina per quanto tempo  Audience Manager mantiene gli ID cliente nel nostro database dopo che sono stati visti per l&#39;ultima volta sulla piattaforma del Audience Manager . Il valore predefinito è 24 mesi (720 giorni). Il valore minimo che potete impostare è 1 mese e il valore massimo è 5 anni. Teniamo presente che contiamo tutti i mesi come 30 giorni.  Audience Manager esegue un processo che elimina gli ID cliente inattivi una volta alla settimana, in conformità con la conservazione dei dati impostata per gli ID cliente inattivi.
 
 I campi di testo associati a queste impostazioni consentono di rinominare l&#39;oggetto [!UICONTROL Data Source] con un alias visualizzato nelle opzioni [Regola unione](merge-rule-definitions.md)profilo. Ad esempio, se aggiungete un alias a **[!UICONTROL Use as Authenticated Profile]**, il nome verrà visualizzato nell&#39; [!UICONTROL Authenticated Profile Options] elenco. Se aggiungete un alias a **[!UICONTROL Use as a Device Graph]**, il nome verrà visualizzato nell&#39; [!UICONTROL Device Options] elenco.
 
@@ -103,18 +103,18 @@ Per completare la [!UICONTROL Proflie Merge Rule Setup] sezione:
    * **[!UICONTROL Device Co-op]**
 4. Clic **[!UICONTROL Save]**.
 
-### Considerazioni sulle destinazioni  Adobe Campaign che utilizzano ID multi-dispositivo come chiavi ID utente {#considerations}
+### Considerazioni per  destinazioni Adobe Campaign utilizzando ID multi-dispositivo come chiavi ID utente {#considerations}
 
-Alla fine del 2019, è disponibile una serie di miglioramenti delle regole di unione dei profili per migliorare la precisione dei file batch generati utilizzando ID cross-device. Questi miglioramenti saranno rigorosamente rispettati nell&#39;istanza di Audience Manager  a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando ID cross-device cesseranno di produrre esportazioni in alcune configurazioni di regole di unione profilo.
+Alla fine del 2019, è disponibile una serie di miglioramenti delle regole di unione dei profili per migliorare la precisione dei file batch generati utilizzando ID cross-device. Questi miglioramenti saranno rigorosamente rispettati nell&#39;istanza di  Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando ID cross-device cesseranno di produrre esportazioni in alcune configurazioni di regole di unione profilo.
 
-Per garantire la corretta integrazione tra l&#39;istanza  Audience Manager e le destinazioni utilizzando ID cross-device, come  Adobe Campaign, accertatevi di soddisfare i seguenti requisiti:
+Per garantire la corretta integrazione tra l’istanza del Audience Manager  e le destinazioni utilizzando ID cross-device, come  Adobe Campaign, accertatevi di soddisfare i seguenti requisiti:
 
-1. Controlla la regola di unione dei profili utilizzata dai segmenti mappati alla destinazione ID dichiarata del Adobe Campaign . La regola di unione dei profili deve utilizzare l&#39; [!UICONTROL Last Authenticated Profile] opzione, in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione dei profili utilizza un&#39;altra opzione, selezionatela [!UICONTROL Last Authenticated Profile].
-2. Seleziona l&#39;origine dati ID dichiarato del Adobe Campaign  nelle impostazioni Regola unione profilo.
+1. Rivedete la regola di unione dei profili utilizzata dai segmenti mappati alla destinazione ID dichiarata  Adobe Campaign. La regola di unione dei profili deve utilizzare l&#39; [!UICONTROL Last Authenticated Profile] opzione, in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione dei profili utilizza un&#39;altra opzione, selezionatela [!UICONTROL Last Authenticated Profile].
+2. Seleziona l&#39;origine dati ID dichiarato di Adobe Campaign  nelle impostazioni Regola unione profilo.
 
 >[!NOTE]
 >
-> È stato aumentato il limite della regola di unione profilo di 1 per i clienti che si trovano in questa situazione, in modo da poter creare una regola di unione profilo dedicata per i segmenti mappati alla destinazione ID dichiarata del Adobe Campaign , senza modificare le regole di unione profilo per altri casi di utilizzo.
+> Se hai raggiunto il numero massimo [!UICONTROL Profile Merge Rules] e hai bisogno di assistenza per configurarli in base alle istruzioni sopra riportate, contatta l&#39;Assistenza clienti.
 
 ## Configurare il codice della regola di unione {#configure-merge-rule-code}
 
@@ -126,9 +126,9 @@ Seguire queste istruzioni per impostare il [!UICONTROL Adobe Experience Platform
 
 È necessario impostare un&#39;origine [dati](#create-data-source) cross-device e regole [di unione](#create-profile-merge-rule) profilo *prima* di completare queste procedure.
 
-## Per  Clienti Del Servizio Identità Adobe Experience Platform {#id-service-customers}
+## Per i clienti di Adobe Experience Platform Identity Service {#id-service-customers}
 
-Quando si lavora con [!UICONTROL Adobe Experience Platform Identity Service] DIL [, si consiglia di utilizzare la versione più recente di](../../dil/dil-overview.md) DIL [!UICONTROL Profile Merge Rules]. Tuttavia, non è necessario utilizzare la funzione [!UICONTROL Adobe Experience Platform Identity Service] per utilizzarla. Se utilizzi solo [!UICONTROL DIL]questa opzione, consulta la sezione [DIL](#legacy-dil) precedente riportata di seguito.
+Quando lavorate con [!UICONTROL Adobe Experience Platform Identity Service] l&#39;DIL [e la versione più recente di tale versione, è consigliabile](../../dil/dil-overview.md) [!UICONTROL Profile Merge Rules]. Tuttavia, non è necessario utilizzare la funzione [!UICONTROL Adobe Experience Platform Identity Service] per utilizzarla. Se utilizzi solo [!UICONTROL DIL]questa funzione, consulta la sezione [DIL](#legacy-dil) precedente riportata di seguito.
 
 ### Configurare la funzione Imposta ID cliente
 
@@ -152,7 +152,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Per ulteriori informazioni, vedi [Creare un&#39;origine](#create-data-source) dati multi-dispositivo e ID [cliente e stati](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)di autenticazione.
+Per ulteriori informazioni, vedi [Creare un&#39;origine](#create-data-source) dati e ID [cliente tra dispositivi e stati](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)di autenticazione.
 
 ### Configura `DIL.create` funzione
 
@@ -173,7 +173,7 @@ Nella coppia chiave-valore dello spazio dei nomi, la variabile `*`MCORG`*` è l�
 
 Consulta la sezione [Configura SDK](#configure-sdks-legacy-dil) di seguito.
 
-## DIL legacy {#legacy-dil}
+## DIL precedente {#legacy-dil}
 
 Se non usi [!DNL Adobe Experience Platform Identity Service] ancora, dovresti davvero farlo. Ma sappiamo che per passare a un nuovo codice è necessario un attento esame e riflessione. In questi casi, controllare la `DIL.create` funzione per assicurarsi che sia impostata correttamente come mostrato nel codice di esempio riportato di seguito.
 
@@ -225,7 +225,7 @@ Controllate i metodi nel [!DNL SDK] codice che consentono di passare [!UICONTROL
  </tbody>
 </table>
 
-Vedi anche [Metodi Audience Manager per Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e [Metodi Audience Manager per iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Consultate anche Metodi di [Audience Manager per Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e Metodi di Audience Manager [per iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
