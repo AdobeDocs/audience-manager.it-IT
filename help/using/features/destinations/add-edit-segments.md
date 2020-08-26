@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Aggiungere o modificare segmenti per le destinazioni server-to-server
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 55925e803e16580e0d9357d973405cf39370a8fd
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 8%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 # Aggiungere o modificare segmenti per le destinazioni server-to-server {#add-edit-segments}
 
-Puoi aggiungere o modificare solo segmenti per una destinazione da server a server ([!DNL S2S]). Non è possibile creare [!DNL S2S] destinazioni con [!UICONTROL [Destination Builder](/help/using/features/destinations/destination-builder.md)]. Contatta il tuo consulente per configurare [!DNL S2S] le destinazioni. Segui queste istruzioni per aggiungere o modificare segmenti per una [!DNL S2S] destinazione.
+Puoi aggiungere o modificare solo segmenti per una destinazione da server a server ([!DNL S2S]). Non è possibile creare [!DNL S2S] destinazioni con [[!UICONTROL Destination Builder]](/help/using/features/destinations/destination-builder.md). Contatta il tuo consulente per configurare [!DNL S2S] le destinazioni. Segui queste istruzioni per aggiungere o modificare segmenti per una [!DNL S2S] destinazione.
 
 <!-- destination-s2s-edit.xml -->
 
