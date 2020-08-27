@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Sorgenti di dati globali
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
+source-git-commit: cb84f95d52c2e851cb0c016cb25f408f2d79d01b
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 6%
@@ -28,7 +28,7 @@ Nella tabella seguente sono descritte le origini dati globali supportate da  Aud
 | 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** Gli ID rappresentano i dispositivi che eseguono il sistema [!DNL iOS] operativo. |
 | 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** Gli ID rappresentano i dispositivi [!DNL Roku] di streaming. |
 | 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** Gli ID rappresentano i dispositivi che eseguono il sistema [!DNL Windows 10] operativo. |
-| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** gli ID rappresentano [!DNL Samsung] smart TV. |
+| 963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** gli ID rappresentano [!DNL Samsung] smart TV. |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** rappresenta i dispositivi in esecuzione [!DNL Amazon Fire OS] |
 
 ## Importazione di dati da origini dati globali
