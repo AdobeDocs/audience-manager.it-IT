@@ -7,9 +7,9 @@ title: Requisiti FTP di nome e dimensione file per i file di dati in entrata
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '863'
 ht-degree: 9%
 
 ---
@@ -92,9 +92,9 @@ La tabella definisce gli elementi in un nome di [!DNL FTP] file.
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Marca temporale UTC di 10 cifre in secondi. La marca temporale consente di rendere univoco ciascun nome file. </p> 
-    <draft-comment> 
-     <p> <p>Nota:   Audience Manager non utilizza la marca temporale durante l'elaborazione dei file in ingresso. Il timestamp nel nome del file è stato dichiarato obsoleto in  Audience Manager, ma è comunque richiesto per la compatibilità con le versioni precedenti. </p> </p> 
-    </draft-comment> </td> 
+    <!-- 
+     <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
+    --> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
@@ -113,7 +113,7 @@ Gli esempi seguenti mostrano nomi di file formattati correttamente. I nomi dei f
  <li> <code> ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-[Scaricate](assets/ftp_dpm_1234_1445374061.overwrite) il file di esempio se avete bisogno di ulteriori esempi. Questo file viene salvato con l&#39;estensione del `.overwrite` file. Aprite l’immagine con un semplice editor di testo.
+[Scaricate](assets/ftp_dpm_1234_1445374061.overwrite) il file di esempio se avete bisogno di ulteriori esempi. Questo file viene salvato con l&#39;estensione del `.overwrite` file. Aprite l’applicazione con un semplice editor di testo.
 
 ## Dimensioni file accettate {#accepted-file-sizes}
 
