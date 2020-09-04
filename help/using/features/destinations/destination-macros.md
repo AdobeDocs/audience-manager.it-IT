@@ -7,9 +7,9 @@ title: Definizione delle macro delle destinazioni
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '667'
 ht-degree: 3%
 
 ---
@@ -41,30 +41,30 @@ Durante la creazione di una [!DNL URL] destinazione, è possibile inserire le se
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
-   <td colname="col2"> <p>Inserisce l'ID Audience Manager <span class="keyword"></span>  dell'utente nell'URL di destinazione. </p> </td> 
+   <td colname="col2"> <p>Inserisce l'ID Audience Manager <span class="keyword"></span>  utente nell'URL di destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>L'ID <i>origine</i> dati corrisponde all'identificatore di un'origine dati passata alla macro. </p> <p>Vediamo come funziona in un semplice esempio. In questo caso, abbiamo un partner Audience Manager <span class="keyword"></span>  con i seguenti ID e condizioni: </p> 
+   <td colname="col2"> <p>L'ID <i>origine</i> dati corrisponde all'identificatore di un'origine dati passata alla macro. </p> <p>Vediamo come funziona in un semplice esempio. In questo caso, abbiamo un partner <span class="keyword"> Audience Manager</span> con i seguenti ID e condizioni: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">ID origine dati: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Un ID cliente interno: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">ID dichiarato: Il partner desidera trasmettere questi valori come ID dichiarato <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>A tal fine, il partner Audience Manager <code>%dpid_<i>data source id</i>%</code><span class="keyword"></span>  formatta la macro come segue: </p> 
+    </ul> <p>A tal fine, il partner del Audience Manager <code>%dpid_<i>data source id</i>%</code>di <span class="keyword"></span> formatta la macro come segue: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>La macro verrà sostituita <code> 1</code> con <code> CustomerABC</code>. </p> <p> 
-     <draft-comment>
-       Basato su AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
-     </draft-comment> </p> </td> 
+     <!--
+       Based on AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
+     --> </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
-    <td><p>Indica se le regole GDPR si applicano o meno al visitatore. Utilizzare questa macro per includere il consenso nei segmenti inviati a destinazioni URL integrate con IAB. Per informazioni dettagliate, consultate <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF</a> .</p></td>
+    <td><p>Indica se le regole GDPR si applicano o meno al visitatore. Utilizzare questa macro per includere il consenso nei segmenti inviati a destinazioni URL integrate con IAB. Per informazioni dettagliate, consultate <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in di Audience Manager per IAB TCF</a> .</p></td>
   </tr>
    <tr>
     <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
-    <td><p>La stringa di consenso (incluso l’ID fornitore IAB) raccolta quando i visitatori forniscono o negano il consenso sul sito. Utilizzare questa macro per includere la stringa di consenso nei segmenti inviati a destinazioni URL integrate con IAB. Sostituire <code>XXXX</code> con l’ID partner di destinazione. Per informazioni dettagliate, consultate <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF</a> . </p></td>
+    <td><p>La stringa di consenso (incluso l’ID fornitore IAB) raccolta quando i visitatori forniscono o negano il consenso sul sito. Utilizzare questa macro per includere la stringa di consenso nei segmenti inviati a destinazioni URL integrate con IAB. Sostituire <code>XXXX</code> con l’ID partner di destinazione. Per informazioni dettagliate, consultate <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in di Audience Manager per IAB TCF</a> . </p></td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
