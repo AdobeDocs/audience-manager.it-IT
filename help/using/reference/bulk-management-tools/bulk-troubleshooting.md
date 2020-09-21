@@ -7,7 +7,7 @@ title: Suggerimenti per la risoluzione dei problemi relativi agli strumenti di g
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: baaam
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 4%
@@ -60,7 +60,7 @@ Nella tabella seguente sono elencati alcuni problemi comuni che si possono incon
    <td colname="col1"> <b>Lunghi ritardi</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Disattiva modalità</b>compatibilità: Verificare se sono aperti altri fogli di lavoro in modalità di compatibilità di Microsoft Excel. La modalità di compatibilità può aumentare i tempi di esecuzione. Chiudete eventuali fogli di calcolo aperti in questa modalità e riprovate la richiesta in blocco. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Disattiva modalità</b>compatibilità: Verificare che siano aperti altri fogli di lavoro in modalità di compatibilità di Microsoft Excel. La modalità di compatibilità può aumentare i tempi di esecuzione. Chiudete eventuali fogli di calcolo aperti in questa modalità e riprovate la richiesta in blocco. </li> 
      <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Risorse</b>di sistema: Le limitate risorse del sistema contribuiscono a lunghi ritardi. Prova a chiudere tutti gli altri programmi prima di effettuare una richiesta in massa. </li> 
     </ul> </td> 
   </tr> 
@@ -78,5 +78,5 @@ Nella tabella seguente sono elencati alcuni problemi comuni che si possono incon
 
 ## Messaggi di errore
 
-A volte, è possibile ricevere messaggi di errore quando si apportano modifiche collettive. Per interpretare il messaggio di errore, consultate Codici di [risposta definiti](/help/using/api/rest-api-main/aam-api-getting-started.md) nella documentazione API.
+A volte, è possibile ricevere messaggi di errore quando si apportano modifiche collettive. Per interpretare il messaggio di errore, consultate Codici di [risposta definiti](/help/using/api/rest-api-main/aam-api-getting-started.md#response-codes-defined) nella documentazione API.
 
