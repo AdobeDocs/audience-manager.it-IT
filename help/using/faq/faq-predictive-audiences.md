@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 69%
+source-wordcount: '1024'
+ht-degree: 67%
 
 ---
 
@@ -70,7 +70,7 @@ I modelli [!UICONTROL Predictive Audiences] potrebbero non riuscire a produrre r
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
 1. La caratteristica o il segmento del pubblico di destinazione non aveva utenti attivi o onboarded negli ultimi 30 giorni.
 1. Gli utenti del pubblico di destinazione attivi o per i quali è stato effettuato l’onboarding negli ultimi 30 giorni non dispongono di un numero sufficiente di dati nei loro profili utente (caratteristiche da analizzare insufficienti).
-1. Il segmento di pubblico di destinazione usa un altro [!UICONTROL Profile Merge Rule] di quello scelto per il modello.
+1. Il segmento di pubblico di destinazione utilizza un altro [!UICONTROL Profile Merge Rule] di quello scelto per il modello.
 1. L&#39;origine dati delle caratteristiche dell&#39;audience di destinazione potrebbe non essere inclusa nella [!UICONTROL Profile Merge Rule] scelta per il modello.
 
 Per ottenere risultati rilevanti, l’algoritmo [!UICONTROL Predictive Audiences] valuta le realizzazioni di caratteristiche e segmenti in base all’attività utente in tempo reale rilevata dal [!DNL DCS]. Se selezioni nuovi segmenti e caratteristiche di base che non hanno ancora abbastanza utenti, l’algoritmo potrebbe richiedere un paio di giorni per classificare il pubblico.
@@ -115,6 +115,12 @@ Sì, se l’utente non ha alcuna caratteristica nel suo profilo. In tal caso, l�
 **Un utente classificato in uno dei segmenti predittivi può essere riclassificato in un segmento [!UICONTROL Predictive Audiences] diverso?**
 
 Sì. Poiché l’algoritmo viene addestrato su base giornaliera, applica le modifiche per ciascun utente tipo in termini di valutazione delle caratteristiche. Se un utente che fa parte di un segmento [!UICONTROL Predictive Audiences] è attivo, le modifiche nella valutazione delle caratteristiche possono modificare la classificazione in base all’attività degli ultimi 30 giorni.
+
+ 
+
+**Posso aggiungere caratteristiche predittive ai segmenti regolari?**
+
+Quando aggiungete una caratteristica predittiva a un segmento regolare, il segmento diventa un segmento predittivo. Di conseguenza, tutti i profili associati non sono segmentati. I segmenti predittivi possono essere inviati solo a destinazioni in tempo reale.
 
  
 
