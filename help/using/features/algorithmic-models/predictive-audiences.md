@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1be20c2412a272e6374b8b84e6a5c1628da18497
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 8%
+source-wordcount: '1551'
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ I modelli di [!UICONTROL Predictive Audiences] portano questo concetto a un live
 
 Quando create un [!UICONTROL Predictive Audiences] modello, il primo passo consiste nella scelta delle caratteristiche o dei segmenti di base per i quali desiderate classificare il pubblico di destinazione. Queste caratteristiche o segmenti definiranno le tue personalità.
 
-Durante la fase di valutazione, il modello crea un nuovo [!UICONTROL Predictive Audiences] segmento per ogni caratteristica o segmento definito come linea di base. La volta successiva  Audience Manager vede un visitatore dal pubblico di destinazione che non è classificato per un soggetto (non era idoneo per nessuna delle caratteristiche o dei segmenti di base), il [!UICONTROL Predictive Audiences] modello determinerà a quale dei segmenti predittivi dovrebbe appartenere il visitatore e aggiungerà il visitatore a tale segmento.
+Durante la fase di valutazione, il modello crea un nuovo [!UICONTROL Predictive Audiences] segmento per ogni caratteristica o segmento definito come linea di base. La volta successiva  Audience Manager vedrà un visitatore dal pubblico di destinazione che non è classificato per una persona (non era idoneo per nessuna delle caratteristiche o dei segmenti di base), il [!UICONTROL Predictive Audiences] modello determinerà a quale dei segmenti predittivi dovrebbe appartenere il visitatore e aggiungerà il visitatore a quel segmento.
 
 Potete identificare i segmenti predittivi creati dal modello, nella [!UICONTROL Segments] pagina. Ogni [!UICONTROL Predictive Audiences] modello ha una propria cartella sotto la [!UICONTROL Predictive Audiences] cartella, e potete vedere i segmenti di ciascun modello facendo clic sulla cartella del modello.
 
@@ -79,7 +79,7 @@ Puoi scegliere una qualsiasi delle caratteristiche o dei segmenti di prime parti
 * Scegliete caratteristiche o segmenti della linea di base con sovrapposizione minima.
 * Accertatevi di acquisire caratteristiche granulari nelle proprietà digitali.
 
-### Criteri di selezione per il pubblico Target {#selection-audience}
+### Criteri di selezione per l&#39;audience di Target {#selection-audience}
 
 Simile alla selezione di persona, è necessario scegliere il tipo [!UICONTROL trait] o [!UICONTROL segment] che definisce il pubblico di destinazione in modo che abbia utenti in tempo reale con set avanzati di [!UICONTROL traits], da classificare nel soggetto giusto.
 
@@ -114,12 +114,15 @@ Durante la configurazione dei [!UICONTROL Predictive Audiences] modelli, tenere 
 * I dati di seconda e terza parte non sono attualmente supportati in [!UICONTROL Predictive Audiences].
 * La classificazione dell&#39;audience viene effettuata solo per audience di prime parti in tempo reale. La classificazione dell&#39;audience di prime parti caricata potrebbe essere supportata in un aggiornamento futuro.
    >[!IMPORTANT]
+   > Se aggiungete una caratteristica predittiva a un segmento regolare, questo diventa un segmento predittivo. Di conseguenza, tutti i profili associati non sono segmentati.
+
+   >[!IMPORTANT]
    > Attualmente, i segmenti predittivi possono essere attivati solo in destinazioni in tempo reale. L&#39; [!UICONTROL Total Segment Population] e [!UICONTROL Addressable Audience] i segmenti predittivi sono visualizzati come 0, mentre i trasferimenti [di dati in uscita](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) batch non sono supportati per [!UICONTROL Predictive Audiences]. Questo comportamento verrà modificato in un aggiornamento futuro.
 * [!UICONTROL Predictive Audiences] esegue la classificazione dell&#39;audience in base alle caratteristiche di prime parti, da tutte le origini dati di prime parti.
 * La valutazione dei segmenti per [!UICONTROL Predictive Audiences] utilizza le opzioni **[!UICONTROL Profile Merge Rule]** scelte durante la creazione del modello. Per ulteriori informazioni, [!UICONTROL Profile Merge Rules] consulta la [documentazione](../profile-merge-rules/merge-rules-overview.md)dedicata.
 * Alcune caratteristiche e segmenti non sono supportati come linee di base o come audience di destinazione. [!UICONTROL Predictive Audiences] i modelli non verranno salvati quando si sceglie uno dei seguenti tipi di base o di pubblico target:
    * Caratteristiche predittive e segmenti creati con caratteristiche predittive;
-   * [caratteristiche o segmenti Adobi Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
+   * [caratteristiche o segmenti Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
    * caratteristiche algoritmiche;
    * Caratteristiche di seconda e terza parte.
 
@@ -137,7 +140,7 @@ Le caratteristiche con restrizioni aggiuntive che non fanno parte delle restrizi
 
 ## [!UICONTROL Profile Merge Rules] {#pmr}
 
-A tutti i segmenti predittivi verrà assegnato [!UICONTROL Profile Merge Rule] quello selezionato al momento della creazione del modello. La scelta [!UICONTROL Profile Merge Rule] è importante per i seguenti motivi:
+A tutti i segmenti predittivi verrà assegnato quello [!UICONTROL Profile Merge Rule] selezionato al momento della creazione del modello. La scelta [!UICONTROL Profile Merge Rule] è importante per i seguenti motivi:
 
 * Definisce quali dispositivi e/o profili autenticati devono essere presi in considerazione quando il modello analizza l&#39;influente [!UICONTROL traits], al momento di classificare un utente in un predicativo [!UICONTROL segment].
 * Regola quali [!UICONTROL trait] tipi (livello dispositivo o livello cross-device) devono essere utilizzati durante la fase di formazione del modello e devono essere rivelati influenti [!UICONTROL traits]. Predictive [!UICONTROL segments] sono sottoinsiemi del pubblico di destinazione.
