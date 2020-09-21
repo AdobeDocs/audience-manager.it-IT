@@ -7,9 +7,9 @@ title: Rapporti sulle tendenze
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: d1edc392c2017f4625f0494d50463c395248918f
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ L&#39;illustrazione seguente fornisce una panoramica di alto livello degli eleme
    **Intervallo di visualizzazione:** Specificate l&#39;intervallo di visualizzazione (intervalli di 1, 7, 14, 30, 60 e 90 giorni).
 1. Cercare una caratteristica o segmento per nome o ID.
 1. Dall’elenco delle cartelle, trascinate le caratteristiche o i segmenti da includere nel rapporto sul [!UICONTROL Selections] pannello a destra.
-1. Generate il rapporto per visualizzare i dati in formato grafico o esportarlo in formato CSV.
+1. Generate il rapporto per visualizzarlo in formato grafico o esportarlo in formato CSV.
 
 ## Eseguire un report di tendenze {#run-trend-report}
 
@@ -102,7 +102,7 @@ Gli zero indicano che [!DNL Audience Manager] non hanno raccolto i dati per quel
 
 Guardate il video seguente per vedere in dettaglio come funzionano le metriche tra dispositivi.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
 
 ## Risultati report sulle tendenze per i segmenti {#segment-report-results-traits}
 
