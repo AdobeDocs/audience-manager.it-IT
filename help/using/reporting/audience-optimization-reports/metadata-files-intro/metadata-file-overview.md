@@ -1,15 +1,15 @@
 ---
-description: Un file di metadati collega gli ID numerici con nomi comprensibili e leggibili. I rapporti di ottimizzazione dell'audience visualizzano nomi leggibili nei menu delle varie opzioni del rapporto.
-seo-description: Un file di metadati collega gli ID numerici con nomi comprensibili e leggibili. I rapporti di ottimizzazione dell'audience visualizzano nomi leggibili nei menu delle varie opzioni del rapporto.
+description: Un file di metadati collega gli ID numerici con nomi comprensibili e leggibili. I rapporti sugli Audienci Optimization di  visualizzano nomi leggibili nei menu delle varie opzioni per i rapporti.
+seo-description: Un file di metadati collega gli ID numerici con nomi comprensibili e leggibili. I rapporti sugli Audienci Optimization di  visualizzano nomi leggibili nei menu delle varie opzioni per i rapporti.
 seo-title: Panoramica e mappature dei file di metadati
 solution: Audience Manager
 title: Panoramica e mappature dei file di metadati
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '836'
 ht-degree: 4%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 4%
 
 # Panoramica e mappature dei file di metadati{#overview-and-mappings-for-metadata-files}
 
-Un file di metadati collega gli ID numerici con nomi comprensibili e leggibili. I rapporti di ottimizzazione dell&#39;audience visualizzano nomi leggibili nei menu delle varie opzioni del rapporto.
+Un file di metadati collega gli ID numerici con nomi comprensibili e leggibili. I rapporti sugli Audienci Optimization di  visualizzano nomi leggibili nei menu delle varie opzioni per i rapporti.
 
 ## Panoramica {#overview}
 
-Una revisione dei metadati e di come vengono utilizzati. Un file di metadati deve essere accompagnato da un file di dati. I contenuti dei file di metadati corrispondono alle informazioni sui file di dati e alle relative etichette leggibili dai menu dei report. Per ulteriori informazioni, vedi File [di dati per report di ottimizzazione dell&#39;audience e File](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)di registro fruibili.
+Una revisione dei metadati e di come vengono utilizzati. Un file di metadati deve essere accompagnato da un file di dati. I contenuti dei file di metadati corrispondono alle informazioni sui file di dati e alle relative etichette leggibili dai menu dei report. Per ulteriori informazioni, vedere [File di dati per  Audienci Optimization e file](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)di registro fruibili.
 
 ### I File Di Metadati Contengono Dati Su Altri Dati
 
@@ -39,7 +39,7 @@ Tuttavia, un file di metadati formattato correttamente può collegare questo cre
 
 ### Quando hai bisogno di un file di metadati
 
-Innanzitutto, un file di metadati e tutti i parametri elencati di seguito sono richiesti in una chiamata dell&#39;evento quando desiderate utilizzare i rapporti [di ottimizzazione dell&#39;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience.
+Innanzitutto, un file di metadati e tutti i parametri elencati di seguito sono richiesti in una chiamata dell&#39;evento quando si desidera utilizzare i Rapporti [sugli Audienci Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 In secondo luogo, è necessario un file di metadati se si inviano dati personali [!DNL Audience Manager] o se si desidera visualizzare i dati nei rapporti di altri fornitori con cui non siamo integrati. Ad esempio, [!DNL Audience Manager] dispone di un&#39;integrazione con Google’s [Double-click Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Grazie a questa relazione, [!DNL Audience Manager] è possibile associare gli ID ai nomi e alle descrizioni utilizzati dalle opzioni del rapporto. Senza un&#39;integrazione, è comunque possibile acquisire i dati, ma le opzioni del rapporto mostreranno ID numerici invece del nome descrittivo.
 
@@ -112,7 +112,7 @@ Gli ID trasmessi da queste coppie chiave-valore aiutano a creare il nome del fil
 
 In questo esempio creeremo un file di metadati che inserirà nomi creativi in un [!UICONTROL Audience Optimization] rapporto. A tal fine, è necessario estrarre gli ID creativi, delle campagne e delle origini dati da una chiamata all&#39;evento.
 
-![](assets/metadata_file_event.png)
+![schema evento del file di metadati](assets/metadata_file_event.png)
 
 ### Nome file
 
@@ -124,7 +124,7 @@ In un nome file:
 
 * Gli ID creativi e della campagna rappresentano una categoria anziché un identificatore effettivo.
 
-![](assets/metadata_file_name.png)
+![schema nome file metadati](assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,17 +132,17 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 In questo esempio, il contenuto del file riflette gli ID creativi e della campagna trasmessi durante la chiamata dell’evento. Il nuovo elemento è un nome leggibile. Una volta elaborato, il nome in questo file verrà visualizzato come opzione nel menu Creative di un [!UICONTROL Audience Optimization] rapporto.
 
-![](assets/metadata_file_contents.png)
+![schema del contenuto del file di metadati](assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### Consegna file
 
-Dopo aver assegnato un nome e aggiunto dati a un file, lo si invia a una directory di memorizzazione Amazon S3 fornita da [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Dopo aver assegnato un nome e aggiunto dati a un file, lo si invia a una directory di memorizzazione Amazon S3  fornita da [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
->* [File di dati per report di ottimizzazione dell&#39;audience](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+>* [File di dati per i rapporti  Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Acquisizione dei dati di clic delle campagne attraverso chiamate pixel](../../../integration/media-data-integration/click-data-pixels.md)
 >* [Acquisizione dei dati di impression delle campagne attraverso chiamate pixel](../../../integration/media-data-integration/impression-data-pixels.md)
 
