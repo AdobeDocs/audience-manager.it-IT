@@ -7,7 +7,7 @@ title: File CSV per report di sovrapposizione
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: overlap reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 9%
@@ -39,7 +39,7 @@ Nella tabella seguente sono elencate le convenzioni di denominazione dei file e 
    <td colname="col1"> <p>Nome file </p> </td> 
    <td colname="col2"> <p>Sintassi nome file: </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
-      <li id="li_FFB104975D104050AB67FEEC903C6E2E">File segmento-segmento: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_FFB104975D104050AB67FEEC903C6E2E">File di segmento a segmento: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
       <li id="li_7DEC51D693FB4377840D652AF40386EF">File Segment-to-Trait: <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
       <li id="li_CCB35A2BCB714E518AB279D453740623">File di caratteristiche-caratteristiche: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
@@ -78,9 +78,9 @@ Nel file, i dati stringa sono racchiusi tra virgolette doppie. Vedi i dati origi
 
 ```js
 //File header
-"segment_id1","segment_name1","segment_id2","segment_name3,"range_id",...
+"segment_id1","segment_name1","segment_id2","segment_name3","range_id", ...
 //File body
-"123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
+"123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765", ...
 ```
 
 ## Record di report Segment-to-Segment {#segment-segment-records}
