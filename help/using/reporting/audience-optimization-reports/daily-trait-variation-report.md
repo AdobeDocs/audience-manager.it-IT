@@ -7,9 +7,9 @@ title: Rapporto sulla variazione giornaliera delle caratteristiche
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,11 @@ Questo rapporto restituisce un elenco di caratteristiche che sono state realizza
 
 >[!NOTE]
 >
->Il report Daily Trait Variation (Variazione caratteristica giornaliera) in  Audience Manager aderisce ai principi RBAC. Potete visualizzare solo le caratteristiche provenienti da origini dati a cui avete accesso in base al gruppo [di utenti](/help/using/features/administration/administration-overview.md) RBAC a cui appartenete.
+>Il report Daily Trait Variation (Variazione caratteristica giornaliera) nel Audience Manager  aderisce ai principi RBAC. Potete visualizzare solo le caratteristiche provenienti da origini dati a cui avete accesso in base al gruppo [di utenti](/help/using/features/administration/administration-overview.md) RBAC a cui appartenete.
 
 La deviazione standard misura la quantità di variazione o dispersione dalla media (o dal valore medio/previsto). Una deviazione standard bassa indica che i punti dati tendono ad essere molto vicini alla media. Una deviazione standard elevata indica che i punti dati sono distribuiti su un ampio intervallo di valori.
 
-![](assets/daily_trait_variation.png)
+![screenshot del report sulle variazioni giornaliere delle caratteristiche](assets/daily_trait_variation.png)
 
 Utilizza l’ [!UICONTROL Date] elenco per selezionare una o più date per il rapporto. Nella parte inferiore dell’elenco viene visualizzato un grafico a barre con colori che rappresenta visivamente l’intervallo di deviazione standard per tutte le caratteristiche di tutte le date selezionate. La linea verticale nera indica la media.
 
@@ -56,8 +56,8 @@ A causa di una riconfigurazione dello store, la pagina degli smartphone viene su
 
 Un mese dopo, esegui il [!UICONTROL Daily Trait Variation] rapporto e noti un&#39;ampia deviazione negativa sulla `productPage == "smartphones"` caratteristica, anche se il numero del visitatore è aumentato, in base all&#39;analisi del sito. In base a queste informazioni, ti rendi conto che non hai aggiornato le caratteristiche [!DNL Audience Manager] per le nuove pagine di prodotto, quindi sai che devi creare le caratteristiche seguenti:
 
-* productPage == &quot;samsung&quot;
-* productPage == &quot;apple&quot;
-* productPage == &quot;huawei&quot;
+* `productPage == "samsung"`
+* `productPage == "apple"`
+* `productPage == "huawei"`
 
 Una volta effettuata questa operazione, il pubblico sarà in grado di soddisfare le caratteristiche appena create.
