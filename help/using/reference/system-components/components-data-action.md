@@ -7,7 +7,7 @@ title: Componenti di azione sui dati
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: system components
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 3%
@@ -60,7 +60,7 @@ Esempi di [!UICONTROL IRIS] servizi e funzionalità:
 
 * Trasferimenti di dati in massa da server a server: Se si scambiano grandi quantità di dati con [!DNL Audience Manager], [!UICONTROL IRIS] è il sistema con cui i server interagiscono per trasferire i dati.
 
-* Infrastruttura affidabile che funziona su larga scala ed è tollerante agli errori. I sistemi che alimentano [!UICONTROL IRIS] comprendono Amazon SQS, Amazon EC2 e Cassandra.
+* Infrastruttura affidabile che funziona su larga scala ed è tollerante agli errori. I sistemi che [!UICONTROL IRIS] alimentano  Amazon SQS,  Amazon EC2 e Cassandra.
 
 **Regole di mappatura segmenti**
 
@@ -70,9 +70,9 @@ Per ottimizzare il traffico tra destinazioni [!UICONTROL IRIS] e segmenti, [!UIC
 
 1. **Nuova squalifica** segmento: quando un dispositivo non si qualifica più per un segmento, [!UICONTROL IRIS] invia tutte le qualifiche del segmento e le interdizioni associate a tale dispositivo a tutte le destinazioni mappate a tali segmenti.
 
-1. **Aggiornamenti** della mappatura di destinazione: quando viene aggiornata una mappatura di destinazione, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a questi segmenti, la volta successiva  Audience Manager vede il dispositivo.
+1. **Aggiornamenti** della mappatura di destinazione: quando viene aggiornata una mappatura di destinazione, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a questi segmenti, la prossima volta che  Audience Manager vede il dispositivo.
 
-1. **Aggiornamenti** del grafico del dispositivo: quando un ID dispositivo viene aggiunto o rimosso dal grafico del dispositivo utilizzato per valutare un segmento, [!UICONTROL IRIS] invia tutti i segmenti associati a tale dispositivo a tutte le destinazioni mappate a tali segmenti, la prossima volta che Audience Manager vede il dispositivo .
+1. **Aggiornamenti** del grafico del dispositivo: quando un ID dispositivo viene aggiunto o rimosso dal grafico del dispositivo utilizzato per valutare un segmento, [!UICONTROL IRIS] invia tutti i segmenti associati a tale dispositivo a tutte le destinazioni mappate a questi segmenti, la prossima volta che  Audience Manager vede il dispositivo.
 
 >[!IMPORTANT]
 >
@@ -82,7 +82,7 @@ Per ottimizzare il traffico tra destinazioni [!UICONTROL IRIS] e segmenti, [!UIC
 
 L&#39;esempio seguente contiene i dati del segmento in tempo reale provenienti da [!UICONTROL IRIS]. Tenere presente che si tratta solo di dati di esempio. Ogni cliente può avere requisiti di formattazione diversi, in modo che i contenuti possano variare.
 
-```
+```json
 {
     "ProcessTime": "Tue Jul 21 19:12:45 UTC 2015",
     "Client_ID": "111111",
