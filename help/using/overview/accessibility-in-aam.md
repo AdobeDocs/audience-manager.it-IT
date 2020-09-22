@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Accessibilità in  Audience Manager
 feature: overview
 translation-type: tm+mt
-source-git-commit: 032e01f2483543271680093ae3286bcf3b3b3740
+source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Per rendere [!DNL Audience Manager] più semplice l&#39;utilizzo per tutti, abbi
 
    ![accessibilità-highlight](assets/accesibility-highlight.png)
 
-* I tasti `Return` e `Space` i tasti attivano l&#39;elemento selezionato.
+* I `Return` (`Enter`) e `Space` i tasti attivano l&#39;elemento selezionato.
 
 ## Ordinamento tabella accessibile {#table-sorting}
 
@@ -62,6 +62,4 @@ Ad esempio, le schermate di caricamento includono una casella modale bianca con 
 
 [!DNL Audience Manager] si impegna a fornire un livello di accessibilità sempre maggiore, rendendo il prodotto facile da usare per tutti.
 
-Per ulteriori informazioni sui miglioramenti in termini di accessibilità e sullo stato di conformità, consulta il Rapporto sulla conformità dell’accessibilità.
-
-Inoltre, ti consigliamo di utilizzare il modulo [di feedback sull’accessibilità di](https://www.adobe.com/accessibility/feedback.html) Adobe per inviarci suggerimenti di miglioramento e problemi di accessibilità in esecuzione. Saremo più che lieti di prendere in considerazione il vostro feedback e migliorare [!DNL Audience Manager].
+Vi invitiamo a utilizzare il modulo [di feedback per l’accesso facilitato agli](https://www.adobe.com/accessibility/feedback.html) Adobi per inviarci suggerimenti di miglioramento e problemi di accessibilità in esecuzione. Saremo più che lieti di prendere in considerazione il vostro feedback e migliorare [!DNL Audience Manager].
