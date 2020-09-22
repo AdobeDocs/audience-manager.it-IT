@@ -7,7 +7,7 @@ title: Panoramica e mappature dei file di metadati
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: e075bbfc3c2316518838ad428577eae191e45eda
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 4%
@@ -43,7 +43,7 @@ Innanzitutto, un file di metadati e tutti i parametri elencati di seguito sono r
 
 In secondo luogo, è necessario un file di metadati se si inviano dati personali [!DNL Audience Manager] o se si desidera visualizzare i dati nei rapporti di altri fornitori con cui non siamo integrati. Ad esempio, [!DNL Audience Manager] dispone di un&#39;integrazione con Google’s [Double-click Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Grazie a questa relazione, [!DNL Audience Manager] è possibile associare gli ID ai nomi e alle descrizioni utilizzati dalle opzioni del rapporto. Senza un&#39;integrazione, è comunque possibile acquisire i dati, ma le opzioni del rapporto mostreranno ID numerici invece del nome descrittivo.
 
-![](assets/metadata_menu.png)
+![](assets/metadata-menu.png)
 
 ## Mappature file {#file-mappings}
 
@@ -112,7 +112,7 @@ Gli ID trasmessi da queste coppie chiave-valore aiutano a creare il nome del fil
 
 In questo esempio creeremo un file di metadati che inserirà nomi creativi in un [!UICONTROL Audience Optimization] rapporto. A tal fine, è necessario estrarre gli ID creativi, delle campagne e delle origini dati da una chiamata all&#39;evento.
 
-![schema evento del file di metadati](assets/metadata_file_event.png)
+![schema evento del file di metadati](assets/metadata-file-event.png)
 
 ### Nome file
 
@@ -124,7 +124,7 @@ In un nome file:
 
 * Gli ID creativi e della campagna rappresentano una categoria anziché un identificatore effettivo.
 
-![schema nome file metadati](assets/metadata_file_name.png)
+![schema nome file metadati](assets/metadata-file-name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,7 +132,7 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 In questo esempio, il contenuto del file riflette gli ID creativi e della campagna trasmessi durante la chiamata dell’evento. Il nuovo elemento è un nome leggibile. Una volta elaborato, il nome in questo file verrà visualizzato come opzione nel menu Creative di un [!UICONTROL Audience Optimization] rapporto.
 
-![schema del contenuto del file di metadati](assets/metadata_file_contents.png)
+![schema del contenuto del file di metadati](assets/metadata-file-contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
