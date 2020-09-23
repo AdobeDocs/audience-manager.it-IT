@@ -8,9 +8,9 @@ title: Creare un modello algoritmico
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: bff108115e7ebd4375d81c1c32ec9bb7d1a207c1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Per creare un [!UICONTROL Look-Alike Model]:
 
 Guardate il video seguente per vedere in dettaglio come funzionano le metriche tra dispositivi.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/)
 
 ## Informazioni di base per i modelli algoritmici {#basic-information}
 
@@ -98,7 +98,7 @@ Compila prima i campi richiesti nella [!UICONTROL Basic Information] sezione.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Seleziona algoritmo (3)</b> </p> </td> 
-   <td colname="col2"> <p>Al momento, Model Builder funziona solo con il nostro algoritmo proprietario <span class="keyword"> Trait Weight</span> . <span class="keyword">  Audience Manager</span> potrebbe aggiungere altre funzioni algoritmiche nelle versioni successive. </p> </td>
+   <td colname="col2"> <p>Al momento, Model Builder funziona solo con il nostro algoritmo proprietario <span class="keyword"> Trait Weight</span> . <span class="keyword">  Audience Manager</span> può aggiungere altre funzioni algoritmiche nelle versioni successive. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Seleziona dati modello da origine dati (4)</b> </p> </td> 
