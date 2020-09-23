@@ -1,19 +1,19 @@
 ---
 description: Cercare i segnali usati e inutilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, accedi a Audience Data > Segnali > Cerca.
 seo-description: Cercare i segnali usati e inutilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, accedi a Audience Data > Segnali > Cerca.
-seo-title: 'Ricerca di segnali '
-title: 'Ricerca di segnali '
+seo-title: Ricerca segnale
+title: Ricerca segnale
 feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 29%
+ht-degree: 21%
 
 ---
 
 
-# Panoramica della ricerca di segnali {#signals-search}
+# Panoramica della ricerca del segnale {#signal-search}
 
 Cercare i segnali usati e inutilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, accedi a Audience Data > Segnali > Cerca.
 
