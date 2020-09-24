@@ -1,6 +1,6 @@
 ---
-description: ' gli acquirenti di dati Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati a un costo per migliaia di annunci (CPM). L’utilizzo di CPM è previsto il 5° giorno di ogni mese di calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono segnalare l''utilizzo.'
-seo-description: ' gli acquirenti di dati Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati a un costo per migliaia di annunci (CPM). L’utilizzo di CPM è previsto il 5° giorno di ogni mese di calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono segnalare l''utilizzo.'
+description: ' acquirenti di dati di Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati a un costo per migliaia di annunci (CPM). L’utilizzo di CPM è previsto il 5° giorno di ogni mese di calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono segnalare l''utilizzo.'
+seo-description: ' acquirenti di dati di Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati a un costo per migliaia di annunci (CPM). L’utilizzo di CPM è previsto il 5° giorno di ogni mese di calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono segnalare l''utilizzo.'
 seo-title: Fatturazione per gli acquirenti di feed di dati
 solution: Audience Manager
 title: Fatturazione per gli acquirenti di feed di dati
@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Fatturazione per gli acquirenti di feed di dati {#billing-for-data-feed-buyers}
 
- gli acquirenti di dati Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati a un prezzo per migliaia di annunci ([!DNL CPM]). [!DNL CPM] l’utilizzo è previsto il 5° giorno di ogni mese di calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono segnalare l&#39;utilizzo.
+ acquirenti di dati di Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati a un costo per migliaia di annunci ([!DNL CPM]). [!DNL CPM] l’utilizzo è previsto il 5° giorno di ogni mese di calendario e include i dati per il mese precedente. Gli abbonati a tariffa fissa non devono segnalare l&#39;utilizzo.
 
 <br> 
 
@@ -126,11 +126,11 @@ Per aggiornare [!DNL CPM] l&#39;utilizzo in blocco:
   <tr> 
    <td colname="col1"> <p><b>Segnala sempre il numero totale di impression</b> </p> </td> 
    <td colname="col2"> <p>Per i totali di impression CPM: </p>
-   <p> Segnala il numero totale di impression, senza utilizzare decimali.  Audience Manager calcola automaticamente il CPM in base al numero totale di rapporti.</p><p>Se hai bisogno di segnalare 1.234.567 impression, segnalalo esattamente così. Non è necessario dividere il numero totale di impression per 1.000 per calcolare il CPM.</p><p>Le caratteristiche utilizzate per ottimizzare il contenuto Web o dell'app (ottimizzazione del contenuto) mediante strumenti quali  Adobe Target o una destinazione Analytics  non contribuiscono ai totali di utilizzo per i piani CPM. I provider di dati vengono generalmente compensati per l'ottimizzazione dei contenuti utilizzando piani a tariffa fissa.</p><p>Per ulteriori informazioni, consulta <a href="#cost-attribution">Attribuzione dei costi per i feed</a> di dati CPM. </p> </td>
+   <p> Segnala il numero totale di impression, senza utilizzare decimali.  Audience Manager calcola automaticamente il CPM in base al numero totale di rapporti.</p><p>Se hai bisogno di segnalare 1.234.567 impression, segnalalo esattamente così. Non è necessario dividere il numero totale di impression per 1.000 per calcolare il CPM.</p><p>Le caratteristiche utilizzate per ottimizzare il contenuto Web o dell'app (ottimizzazione del contenuto) mediante strumenti come  Adobe Target o una destinazione Analytics non contribuiscono ai totali di utilizzo per i piani CPM. I provider di dati vengono generalmente compensati per l'ottimizzazione dei contenuti utilizzando piani a tariffa fissa.</p><p>Per ulteriori informazioni, consulta <a href="#cost-attribution">Attribuzione dei costi per i feed</a> di dati CPM. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Attenetevi all'intervallo di reporting mensile</b> </p> </td> 
-   <td colname="col2"> <p>Il sistema di report si chiude dopo il 5 di ogni mese. Se non riesci a segnalare l’utilizzo di CPM entro tale data, devi aggiungere tale importo al rapporto per il mese successivo. Ad esempio, se utilizzi 1000 impression in ottobre, non raggiungi la scadenza del rapporto di ottobre e utilizzi 1000 impression in novembre. In questo caso, segnalate il totale di ottobre e novembre (2000) in dicembre, tra il 1 e il 5.</p><p><b>Suggerimento</b>: Dovresti sempre cercare di segnalare l’utilizzo di CPM per il mese precedente tra il primo e il quinto giorno del mese successivo.</p><p>Potete segnalare l’utilizzo di CPM fino al 5° del nuovo mese di calendario, ma questo non è consigliato. La segnalazione dell’utilizzo di CPM prima del 5 di ogni mese dà  tempo ad Audience Manager di controllare ed elaborare i dati.</p> </td>
+   <td colname="col2"> <p>Il sistema di report si chiude dopo il 5 di ogni mese. Se non riesci a segnalare l’utilizzo di CPM entro tale data, devi aggiungere tale importo al rapporto per il mese successivo. Ad esempio, se utilizzi 1000 impression in ottobre, non raggiungi la scadenza del rapporto di ottobre e utilizzi 1000 impression in novembre. In questo caso, segnalate il totale di ottobre e novembre (2000) in dicembre, tra il 1 e il 5.</p><p><b>Suggerimento</b>: Dovresti sempre cercare di segnalare l’utilizzo di CPM per il mese precedente tra il primo e il quinto giorno del mese successivo.</p><p>Potete segnalare l’utilizzo di CPM fino al 5° del nuovo mese di calendario, ma questo non è consigliato. La segnalazione dell’utilizzo di CPM prima del 5° di ogni mese dà  tempo Audience Manager per controllare ed elaborare i dati.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -163,14 +163,15 @@ Dopo aver riportato [!DNL CPM] il numero del mese di calendario precedente, [!DN
 
 <br> 
 
-## Assegna impression a livello di feed in base alle regole di qualifica delle caratteristiche {#assign-impressions}
+## Assegna impression a livello di feed in base alle regole di qualifica caratteristica {#assign-impressions}
 
 Il [!UICONTROL Activation] caso d’uso consente di utilizzare le caratteristiche nel feed di dati corrispondente per creare segmenti nel Generatore [di](../../../features/segments/segment-builder.md) segmenti e mappare tali segmenti a una destinazione. Gli operatori booleani [!UICONTROL AND], [!UICONTROL OR]e [!UICONTROL NOT] consentono di impostare le condizioni per la caratteristica e la qualifica del segmento.
 
 Quando si [segnala l&#39;utilizzo di CPM a livello](#feed-level-report)di feed di dati, è necessario allocare le impression in modo proporzionale per ciascun feed di dati, in base agli [!DNL Boolean] operatori utilizzati nelle regole di qualifica delle caratteristiche. Nella tabella seguente è illustrato come allocare correttamente le impression per regola booleana o tipo di caratteristica.
 
 >[!TIP]
->[Segnala l’utilizzo di CPM a livello](#segment-level-report) di segmento affinché la generazione di rapporti a livello di feed di dati venga eseguita automaticamente da  Audience Manager.
+>
+> [Segnala l’utilizzo di CPM a livello](#segment-level-report) di segmento affinché il rapporto sul livello di feed di dati venga eseguito automaticamente da  Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -186,7 +187,7 @@ Quando si [segnala l&#39;utilizzo di CPM a livello](#feed-level-report)di feed d
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> OR</span> </p> </td> 
-   <td colname="col2"> <p>Applica l'allocazione ponderata dei totali impression consegnati a tutte le caratteristiche del fornitore in un segmento basato su regole che utilizza una condizione OR booleana. L'allocazione ponderata è calcolata utilizzando la seguente formula:</p><p><code>(Trait Population / Segment Population) * Number of Impressions * Cost of CPM</code></p> </td> 
+   <td colname="col2"> <p>Applica l'allocazione ponderata dei totali impression forniti a tutte le caratteristiche del fornitore in un segmento basato su regole che utilizza una condizione OR booleana. L'allocazione ponderata è calcolata utilizzando la seguente formula:</p><p><code>(Trait Population / Segment Population) * Number of Impressions * Cost of CPM</code></p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NOT</span> </p> </td> 
@@ -267,6 +268,6 @@ La suddivisione rapida per feed di dati e casi di utilizzo è la seguente:
 
 ## Allocazione fatturazione e impressione per feed di dati a tariffa fissa {#billing-flat-fee}
 
-Un feed di dati a tariffa fissa addebita ogni mese un importo fisso, indipendentemente da quando inizia l&#39;iscrizione o da quante impression utilizzi. Le tariffe non vengono ripartite in modo proporzionale per l&#39;uso parziale dei mesi o per gli intervalli. Come per la fatturazione CPM, Adobe genererà una fattura e vi addebiterà al tasso mensile forfettario per i feed di dati sottoscritti.
+Un feed di dati a tariffa fissa addebita ogni mese un importo fisso, indipendentemente da quando inizia l&#39;iscrizione o da quante impression utilizzi. Le tariffe non vengono ripartite in modo proporzionale per l&#39;uso parziale dei mesi o per gli intervalli. Come per la fatturazione CPM,  Adobe genererà una fattura e vi addebiterà al tasso mensile forfettario per i feed di dati sottoscritti.
 
 Ad esempio, supponiamo che abbiate deciso di attivare alcune caratteristiche in un feed a metà del mese. L&#39;importo verrà comunque addebitato al tasso mensile completo, indipendentemente da quando è stata avviata l&#39;iscrizione o sono state attivate caratteristiche specifiche.
