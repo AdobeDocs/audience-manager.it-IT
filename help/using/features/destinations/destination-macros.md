@@ -7,9 +7,9 @@ title: Definizione delle macro delle destinazioni
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '671'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ Durante la creazione di una [!DNL URL] destinazione, è possibile inserire le se
 
 Le `%rnd%` macro e `%timestamp%` le macro inseriscono valori univoci in una [!DNL URL] stringa per impedire il caching del browser.
 
-## Busting cache con `%rnd%` e `%timestamp%` {#dest-cache-busting}
+## Busting cache con %rnd% e %timestamp% {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -109,7 +109,7 @@ La funzione cache impedisce ai browser di salvare e riutilizzare il contenuto. Q
 * `%rnd%`: Inserisce un numero casuale in un URL.
 * `%timestamp%`: Inserisce la data/ora Unix in un URL.
 
-## Confronto `%rnd%` e `%timestamp%` {#compare-rnd-timestamp}
+## Confronto tra %rnd% e %timestamp% {#compare-rnd-timestamp}
 
 Entrambe le macro impediscono il caching, ma `%rnd%` possono essere più efficienti. Ad esempio, con `%timestamp%`, se più utenti visualizzano una pagina contemporaneamente, avranno lo stesso valore di data/ora. Di conseguenza, le chiamate non [!DNL URL] sono univoche e più chiamate vengono conteggiate solo una volta. Tuttavia, `%rnd%` genera un valore numerico univoco per ogni chiamata (anche quando gli utenti vedono la stessa pagina contemporaneamente). Ciò significa che la [!DNL URL] stringa contiene valori diversi e viene conteggiata come univoca.
 
