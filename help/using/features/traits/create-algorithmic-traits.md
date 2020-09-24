@@ -7,9 +7,9 @@ title: Creare caratteristiche algoritmiche
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: aeaf8b14e901b4a39486ba3740f0582c9cf34559
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '343'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,12 @@ Per creare una caratteristica algoritmica, andate a [!UICONTROL Traits] e seguit
 1. Espandete il [!UICONTROL Configuration] riquadro e fate clic su **[!UICONTROL Browse All Models]**.
 Si apre una nuova finestra che consente di selezionare il modello da utilizzare con la caratteristica.
 1. Selezionate un modello e fate clic su **[!UICONTROL Add Selected Model to Trait]**.
-L&#39;aggiunta del modello espone le impostazioni di portata e precisione.
+
+   >[!NOTE]
+   > 
+   > Non è possibile sostituire i modelli selezionati per le caratteristiche algoritmiche esistenti. Per utilizzare un modello diverso, è necessario creare una nuova caratteristica algoritmica.
+
+   L&#39;aggiunta del modello espone le impostazioni di portata e precisione.
 1. Selezionate l’obiettivo o la precisione e scegliete un valore dai rispettivi menu a discesa. Al **[!UICONTROL Save]** termine, fate clic.
 
 ## Impostazioni di configurazione per caratteristiche algoritmiche {#configure-settings}
