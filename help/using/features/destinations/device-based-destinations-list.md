@@ -1,15 +1,15 @@
 ---
 description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un'integrazione, consulta l'elenco  Exchange del Adobe (dove disponibile) o contatta il tuo consulente del Adobe  o l'Assistenza clienti.
 seo-description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un'integrazione, consulta l'elenco  Exchange del Adobe (dove disponibile) o contatta il tuo consulente del Adobe  o l'Assistenza clienti.
-seo-title: ' Destinazioni server-to-server di Adobe Audience Manager'
+seo-title: Destinazioni server-to-server Adobe Audience Manager
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
-title: ' Destinazioni server-to-server di Adobe Audience Manager'
+title: Destinazioni server-to-server Adobe Audience Manager
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
+source-git-commit: f37464671b9000b0d6c1ae492fc4f35dd327d59d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1128'
 ht-degree: 71%
 
 ---
@@ -51,6 +51,7 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] correnti basa
 | [!DNL AOL ONE] | 02/03/2017 | Real-time | Sì | No | No | Sì |
 | [!DNL AppNexus] | 02/03/2017 | Real-time | Sì | No | Sì | No |
 | [!DNL AppNexus Yieldex] | 10/08/2017 | 1xday | Sì | No | No | No |
+| [!DNL Artsai (formerly Adxcel)] | 27/01/2020 | 1xday | No | No | No | No |
 | [!DNL Atedra]/[!DNL AdStanding] | 02/03/2017 | Real-time | Sì | No | Sì | No |
 | [!DNL Avocet] | 06/12/2017 | 1xday | No | No | No | No |
 | [!DNL Bidtellect] | 03/03/2017 | Real-time | Sì | No | No | No |
@@ -81,6 +82,7 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] correnti basa
 | [!DNL EyeView Digital] | 14/06/2018 | 1xday | Sì | No | No | Sì |
 | [!DNL Fiksu] | 03/03/2017 | 1xday | Sì | No | No | Sì |
 | [!DNL Flashtalking] | 02/03/2017 | 1xday | No | No | No | No |
+| [!DNL Flybits] | 31/07/2020 | Real-time | Sì | No | Sì | Sì |
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Sì | No | No | No |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Sì | Sì | No | Sì |
 | [!DNL Gamut Media] | 03/03/2017 | Real-time |  | No | No |  |
