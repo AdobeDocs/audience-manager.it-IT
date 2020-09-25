@@ -1,16 +1,16 @@
 ---
-description: Descrive i componenti di un segmento Audience Manager , le espressioni utilizzate per impostare i criteri di qualificazione dell'audience e il modo in cui i dati vengono trasmessi in una chiamata dell'evento.
-seo-description: Descrive i componenti di un segmento Audience Manager , le espressioni utilizzate per impostare i criteri di qualificazione dell'audience e il modo in cui i dati vengono trasmessi in una chiamata dell'evento.
+description: Comprendere i componenti di un segmento di Audience Manager , le espressioni utilizzate per impostare i criteri di qualificazione dell'audience e il modo in cui i dati vengono trasmessi in una chiamata dell'evento.
+seo-description: Descrive i componenti di un segmento di Audience Manager , le espressioni utilizzate per impostare i criteri di qualificazione dell'audience e il modo in cui i dati vengono trasmessi in una chiamata dell'evento.
 seo-title: Segnali, caratteristiche e segmenti
 solution: Audience Manager
 title: Segnali, caratteristiche e segmenti
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
