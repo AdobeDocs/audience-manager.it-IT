@@ -1,17 +1,17 @@
 ---
-description: In  Audience Manager, una destinazione è qualsiasi sistema di terze parti (server di annunci, DSP, rete di annunci, ecc.) con cui desideri condividere i dati. Generatore di destinazione è lo strumento utilizzato per creare e gestire cookie, URL o destinazioni da server a server.
+description: In  Audience Manager, una destinazione è qualsiasi sistema di terze parti (server di annunci, DSP, rete di annunci ecc.) con cui desideri condividere i dati. Usate lo strumento Generatore di destinazione per creare e gestire cookie, URL o destinazioni da server a server.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: In  Audience Manager, una destinazione è qualsiasi sistema di terze parti (server di annunci, DSP, rete di annunci, ecc.) con cui desideri condividere i dati. Generatore di destinazione è lo strumento utilizzato per creare e gestire cookie, URL o destinazioni da server a server.
+seo-description: In  Audience Manager, una destinazione è qualsiasi sistema di terze parti (server di annunci, DSP, rete di annunci ecc.) con cui desideri condividere i dati. Generatore di destinazione è lo strumento che consente di creare e gestire cookie, URL o destinazioni da server a server.
 seo-title: 'Destinazioni '
 solution: Audience Manager
 title: 'Destinazioni '
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ In  Audience Manager, un [!UICONTROL destination] è qualsiasi sistema di terze 
 
 [!UICONTROL Destinations] e [!UICONTROL Destination Builder] consente di creare [!UICONTROL destinations] e inviare informazioni sugli utenti segmentati al partner dati. Questo consente di:
 
-* **Protezione del valore dei dati:** Anziché inviare tutti i dati utente a un [!UICONTROL destination], [!UICONTROL Destination Builder] consente di condividere informazioni specifiche solo sugli utenti qualificati.
+* **Valore dati Protect:** Anziché inviare tutti i dati utente a un [!UICONTROL destination], [!UICONTROL Destination Builder] consente di condividere informazioni specifiche solo sugli utenti qualificati.
 * **Segui i tuoi dati:** L&#39;invio di dati a un [!UICONTROL destination] partner consente loro di sviluppare e indirizzare rapidamente segmenti di pubblico qualificati.
 * **Riduzione del carico tecnico:** Gli utenti aziendali possono configurare [!UICONTROL destinations] in modo sicuro nell&#39; [!UICONTROL Destination Builder] interfaccia. Questo consente di ridurre il tempo necessario per il test pre-distribuzione. Con [!UICONTROL Destination Builder], puoi creare, gestire ed eliminare [!UICONTROL destinations] in base alle tue esigenze di business, il tutto senza dover affrontare un lungo ciclo di sviluppo.
 
@@ -45,11 +45,11 @@ Le decisioni aziendali relative alla selezione di un metodo di consegna rispetto
 
 ## [!UICONTROL Destination] Tipi e usi tipici {#destination-types}
 
-Gli esempi riportati nella tabella seguente consentono di comprendere quando utilizzare un particolare tipo [!UICONTROL destination] e le differenze tra i vari tipi.
+Gli esempi riportati nella tabella seguente consentono di comprendere quando utilizzare un particolare [!UICONTROL destination] e le differenze tra i vari tipi.
 
 | [!UICONTROL Destination]Type (Tipo) | Generalmente utilizzato quando | Esempio | Considerazioni |
 |--- |--- |--- |--- |
-| **[!UICONTROL Adobe Experience Cloud Destinations]** | Devi inviare dati ad altre soluzioni Adobe Experience Cloud. | Invio di dati ad Adobe  Analytics. |  |
+| **[!UICONTROL Adobe Experience Cloud Destinations]** | Devi inviare dati ad altre soluzioni Adobe Experience Cloud. | Invio di dati a  Adobe Analytics. |  |
 | **[!UICONTROL People-Based Destinations]** | Devi inviare segmenti di pubblico ad ambienti basati su persone, come Facebook. | Offrire offerte personalizzate ai clienti esistenti, in base alla loro cronologia di acquisto | Il targeting dell&#39;audience viene eseguito tramite identificatori con hash. Vedi Destinazioni [basate sulle](people-based-destinations-overview.md)persone. |
 | **[!UICONTROL Device-Based Destinations]** (da **server a server**) | <ul><li>Il trasferimento immediato dei dati non è richiesto.</li><li>Raccolta di dati per creare un ampio gruppo di utenti qualificati.</li></ul> | Raccolta di dati nel tempo (ore o giorni) per utilizzarli in una campagna impostata per essere eseguita in una data successiva. | <ul><li>Trasferisce i dati sui visitatori del sito nuovi e precedenti. </li><li>I visitatori non devono essere più visualizzati per qualificarsi per altri segmenti.</li></ul> |
 | **[!UICONTROL Custom Destinations]** (**URL** o **cookie**) | Devi trasferire immediatamente i dati in modo che una destinazione possa intervenire immediatamente su un utente qualificato. | Invio di dati da un sito di acquisto di biglietti. Utilizzate un oggetto [!UICONTROL URL] o [!UICONTROL cookie destination] per qualificare l&#39;utente e riutilizzarlo immediatamente. | <ul><li>Trasferisce i dati solo sui nuovi visitatori. </li><li>Per qualificarsi per il segmento, è necessario rivedere i visitatori.</li></ul> |
