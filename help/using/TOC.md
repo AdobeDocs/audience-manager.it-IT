@@ -2,23 +2,23 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Guida utente di Audience Manager
+user-guide-title: 'Guida al Audience Manager '
 breadcrumb-title: Audience Manager Guide
 breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
 user-guide-description: Audience Manager provides industry-leading services for online audience data management.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
+source-git-commit: e90e60a7a88fb4dfc9df3dae610d650625293dec
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1757'
 ht-degree: 93%
 
 ---
 
 
-# Guida utente di Audience Manager {#user-guide}
+# Audience Manager Guide {#user-guide}
 
-+ [Documentazione di prodotto di Audience Manager](aam-home.md)
++ [Guida al Audience Manager](aam-home.md)
 + Panoramica {#overview}
    + [Panoramica di Audience Manager](overview/aam-overview.md)
    + [Tipi di dati raccolti](overview/data-types-collected.md)
