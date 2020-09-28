@@ -1,12 +1,12 @@
 ---
-description: Accesibilità si riferisce a una serie di caratteristiche che rendono utilizzabile un prodotto software, con il minor sforzo possibile da parte di utenti con varie disabilità, come visive, uditive, cognitive, motori o altri tipi.
-seo-description: Accesibilità si riferisce a una serie di caratteristiche che rendono utilizzabile un prodotto software, con il minor sforzo possibile da parte di utenti con varie disabilità, come visive, uditive, cognitive, motori o altri tipi.
+description: Accessibilità si riferisce a una serie di caratteristiche che rendono utilizzabile un prodotto software, con il minor sforzo possibile da parte di utenti con varie disabilità, come visive, uditive, cognitive, motori o di altro tipo.
+seo-description: Accessibilità si riferisce a una serie di caratteristiche che rendono utilizzabile un prodotto software, con il minor sforzo possibile da parte di utenti con varie disabilità, come visive, uditive, cognitive, motori o di altro tipo.
 seo-title: Accessibilità in  Audience Manager
 solution: Audience Manager
 title: Accessibilità in  Audience Manager
 feature: overview
 translation-type: tm+mt
-source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
+source-git-commit: 2dc015ccf358724f0caa45265fab962821569d1e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Panoramica {#overview}
 
-Accesibilità si riferisce a una serie di caratteristiche che rendono utilizzabile un prodotto software, con il minor sforzo possibile da parte di utenti con varie disabilità, come visive, uditive, cognitive, motori o altri tipi.
+Accessibilità si riferisce a una serie di caratteristiche che rendono utilizzabile un prodotto software, con il minor sforzo possibile da parte di utenti con varie disabilità, come visive, uditive, cognitive, motori o di altro tipo.
 
  Adobe è leader di settore nell&#39;accessibilità e supporta la creazione di esperienze Web eccezionali incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti accessibili a tutti gli utenti. Per ulteriori dettagli  impegno  Adobe verso l&#39;accessibilità, vedere [Accessibilità](https://www.adobe.com/accessibility.html)del Adobe.
 
