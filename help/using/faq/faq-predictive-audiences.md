@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
+source-git-commit: 8e43da4c8b890fc5f8468f3779918dbfbbf960b8
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 67%
+source-wordcount: '933'
+ht-degree: 62%
 
 ---
 
@@ -46,14 +46,6 @@ Vai in **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** e fai clic sul
 
  
 
-**Perché alcuni dei miei visitatori onboarded non sono classificati?**
-
-Attualmente, la classificazione del pubblico funziona solo per i requisiti in tempo reale, ad eccezione degli utenti autenticati che sono stati definiti come parte delle [!UICONTROL Profile Merge Rules].
-
-Il supporto completo per i dati onboarded sarà aggiunto in un aggiornamento futuro.
-
- 
-
 **Quando posso vedere i primi risultati prodotti dal mio modello?**
 
 I risultati del modello [!UICONTROL Predictive Audiences] sono disponibili entro 24 ore dalla creazione del modello, se il modello viene eseguito correttamente.
@@ -68,12 +60,10 @@ I modelli [!UICONTROL Predictive Audiences] potrebbero non riuscire a produrre r
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. La caratteristica o il segmento del pubblico di destinazione non aveva utenti attivi o onboarded negli ultimi 30 giorni.
+1. La caratteristica/segmento del pubblico di destinazione non ha utenti attivi o caricati.
 1. Gli utenti del pubblico di destinazione attivi o per i quali è stato effettuato l’onboarding negli ultimi 30 giorni non dispongono di un numero sufficiente di dati nei loro profili utente (caratteristiche da analizzare insufficienti).
 1. Il segmento di pubblico di destinazione utilizza un altro [!UICONTROL Profile Merge Rule] di quello scelto per il modello.
 1. L&#39;origine dati delle caratteristiche dell&#39;audience di destinazione potrebbe non essere inclusa nella [!UICONTROL Profile Merge Rule] scelta per il modello.
-
-Per ottenere risultati rilevanti, l’algoritmo [!UICONTROL Predictive Audiences] valuta le realizzazioni di caratteristiche e segmenti in base all’attività utente in tempo reale rilevata dal [!DNL DCS]. Se selezioni nuovi segmenti e caratteristiche di base che non hanno ancora abbastanza utenti, l’algoritmo potrebbe richiedere un paio di giorni per classificare il pubblico.
 
 Per risultati ottimali, segui le linee guida suggerite [Selection Criteria for Personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) e [Selection Criteria for Target Audience](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
