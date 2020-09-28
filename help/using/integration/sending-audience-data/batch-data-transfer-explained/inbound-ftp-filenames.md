@@ -7,9 +7,9 @@ title: Requisiti FTP di nome e dimensione file per i file di dati in entrata
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: d6d15ed68cd70fd7da1037a7cb397a00d252e4dd
+source-git-commit: e8eb1c1c7a235c0c9dd32182e522ad0b6e965c61
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '914'
 ht-degree: 9%
 
 ---
@@ -57,11 +57,12 @@ La tabella definisce gli elementi in un nome di [!DNL FTP] file.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Un ID che indica <span class="keyword"> Audience Manager</span> se un file di dati contiene gli ID utente o gli ID Android o iOS personali. Accetta le seguenti opzioni:</p> 
+   <td colname="col2"> <p>Un ID che indica <span class="keyword"> Audience Manager</span> se un file di dati contiene ID utente, ID Android, ID iOS o altri ID che appartengono a origini <a href="/help/using/features/global-data-sources.md"> dati</a>globali. Accetta le seguenti opzioni:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID provider dati (noto anche come ID origine dati):</b> Si tratta di un ID univoco  Audience Manager assegnato a un provider di dati. Utilizzate questo ID assegnato in un nome file per l'invio di dati che contengono i vostri ID utente. Ad esempio, <code>...ftp_dpm_21_123456789.sync</code> indica <span class="keyword"> Audience Manager</span> che un partner con ID 21 ha inviato il file e contiene gli ID utente assegnati da tale partner. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>ID Android (GAID):</b> Utilizzate l'ID 20914 in un nome file di dati se contiene un ID Android. Ad esempio, <code>...ftp_dpm_20914_123456789.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Android. </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID iOS (IDFA):</b> Usa l'ID 20915 in un nome file di dati se contiene ID iOS. Ad esempio, <code>...ftp_dpm_20915_123456789.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID iOS. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID origine dati (noto anche come ID provider dati):</b> Si tratta di un ID univoco che  Audience Manager assegna a un'origine dati (fare riferimento all'indice del Audience Manager  <a href="/help/using/reference/ids-in-aam.md"> degli ID </a>). Utilizzate questo ID assegnato in un nome file per l'invio di dati che contengono i vostri ID utente. Ad esempio, <code>...ftp_dpm_21_123456789.sync</code> indica a <span class="keyword"> Audience Manager</span> i dati di bordo agli ID appartenenti all’origine dati 21. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>ID Android (GAID):</b> Utilizzate ID 20914 in un nome file di dati se contiene ID Android. Ad esempio, <code>...ftp_dpm_20914_123456789.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Android. </li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID iOS (IDFA):</b> Usa l'ID 20915 in un nome file di dati se contiene ID iOS. Ad esempio, <code>...ftp_dpm_20915_123456789.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID iOS. </li>
+     <li> <b>ID appartenenti ad altre origini</b>dati globali: Potete utilizzare gli ID Roku per la pubblicità (RIDA), gli ID pubblicitari Microsoft (MAID) e altri ID. Utilizzare l'ID corrispondente a ciascuna origine dati, come descritto nell'articolo <a href="/help/using/features/global-data-sources.md"> origini dati</a>globali.</li> 
     </ul> <p> <p>Nota:  Non utilizzare tipi di ID misti nei file di dati. Ad esempio, se il nome file include l'identificatore Android, non inserire gli ID iOS o i tuoi ID nel file di dati. </p> </p> </td> 
   </tr> 
   <tr> 
