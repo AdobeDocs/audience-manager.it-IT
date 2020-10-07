@@ -7,7 +7,7 @@ title: Condivisione del pubblico tra Audience Manager e Adobe Experience Platfor
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
+source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 3%
@@ -93,7 +93,7 @@ Per un esempio di caratteristica creata automaticamente da un segmento di Experi
 
 ### Segmenti {#aep-segments-as-aam-segments}
 
- Audience Manager crea automaticamente una cartella di segmenti denominata **Segmenti** Experienci Platform nell’archiviazione dei segmenti.
+ Audience Manager crea automaticamente una cartella segmenti denominata **Segmenti** Experienci Platform nell’archiviazione dei segmenti.
 
 ![Screenshot del dashboard](/help/using/integration/integration-aep/assets/aep-segments-dashboard.png)
 
@@ -117,7 +117,8 @@ Nel processo di condivisione dell&#39;audience tra  Audience Manager e  Experien
 >[!NOTE]
 >
 >Per ulteriori informazioni generali sui controlli per l&#39;esportazione dei dati, consulta la documentazione [sui controlli per l&#39;esportazione dei](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)dati.
-Questo documento fornisce un riferimento per il modo in cui specifici controlli di esportazione dei dati  Audience Manager vengono mappati sulle etichette di utilizzo dei dati e sulle azioni di marketing in Piattaforma.
+>
+>Questo documento fornisce un riferimento per il modo in cui specifici controlli di esportazione dei dati  Audience Manager vengono mappati sulle etichette di utilizzo dei dati e sulle azioni di marketing in Piattaforma.
 
 ### Controlli sull&#39;esportazione dei dati per le etichette di utilizzo dei dati
 
