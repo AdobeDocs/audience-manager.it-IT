@@ -7,7 +7,7 @@ title: Condivisione del pubblico tra Audience Manager e Adobe Experience Platfor
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 6a9a48aa6d3a7a5d871ea9aabbca2c2ec1229c0e
+source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 2%
@@ -37,7 +37,7 @@ Inoltre, i segmenti di Experience Platform  vengono condivisi con altre soluzion
 >[!IMPORTANT]
 >
 > * È necessaria una licenza di Audience Manager  per abilitare i casi d’uso della piattaforma di gestione dati di cui sopra.
-> * Non *è necessaria* una licenza di Audience Manager  per condividere segmenti  Experienci Platform con  soluzioni Adobe Ad Cloud,  Adobe Target, Marketo e altri sistemi , tramite l&#39;integrazione dei servizi di base.
+> * Non *è necessaria* una licenza di Audience Manager  per condividere segmenti  Experience Platform con Adobe Advertising Cloud,  Adobe Target, Marketo e altre soluzioni  Experienci Cloud tramite l&#39;integrazione dei servizi di base.
 
 
 <br> 
@@ -46,7 +46,7 @@ Consulta la tabella seguente per una panoramica dei casi di utilizzo della condi
 
 | **Caso d&#39;uso** | **Adobe Experience Platform** | **Audience Manager** | **Servizi di base** |
 ---------|----------|---------|---------
-| **Condivisione dell&#39;audience** | <ul><li>Arricchisci i profili dei clienti con i dati dei Audienci Manager </li><li>Utilizzare  dati Audience Manager nella segmentazione  Experience Platform</li></ul> | <ul><li>Aggiunta di dati di terze parti ai segmenti</li><li>Modellazione algoritmica</li><li>Attivazione a destinazioni aggiuntive</li></ul> | Utilizzare  segmenti di Experience Platform in altre soluzioni di Experience Cloud , come  Adobe Target,  Ad Cloud o Marketo. |
+| **Condivisione dell&#39;audience** | <ul><li>Arricchisci i profili dei clienti con i dati dei Audienci Manager </li><li>Utilizzare  dati Audience Manager nella segmentazione  Experience Platform</li></ul> | <ul><li>Aggiunta di dati di terze parti ai segmenti</li><li>Modellazione algoritmica</li><li>Attivazione a destinazioni aggiuntive</li></ul> | Utilizzare  segmenti di Experience Platform in altre soluzioni di Experience Cloud , come  Adobe Target,  Advertising Cloud o Marketo. |
 
 <br> 
 
