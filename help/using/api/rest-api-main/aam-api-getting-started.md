@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
 # Getting Started with [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis}
 
-Informazioni su requisiti generali, autenticazione, parametri di query facoltativi, richieste [!DNL URLs]e altri riferimenti.
+Information about general requirements, authentication, optional query parameters, request [!DNL URLs], and other references.
 
 <!-- c_rest_api_overview.xml -->
 
@@ -31,7 +31,7 @@ Tenete presente quanto segue quando lavorate con il codice API [](https://bank.d
 
 * **Parametri di richiesta:** tutti i parametri di richiesta sono obbligatori, se non diversamente specificato.
 * **Intestazioni** richieste: quando usate [token I/O](https://www.adobe.io/) Adobe, dovete fornire l’ `x-api-key` intestazione. Per ottenere la [!DNL API] chiave, segui le istruzioni riportate nella pagina [Integrazione](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) account di servizio.
-* **[!DNL JSON]tipo di contenuto:**Specificate`content-type: application/json`e *inserite*`accept: application/json`nel codice.
+* **[!DNL JSON]tipo di contenuto:** Specificate `content-type: application/json` e *inserite* `accept: application/json` nel codice.
 * **Richieste e risposte:** Invia le richieste come un [!DNL JSON] oggetto formattato correttamente. [!DNL Audience Manager] risponde con dati [!DNL JSON] formattati. Le risposte del server possono contenere i dati richiesti, un codice di stato o entrambi.
 * **Accesso:** Il [!DNL Audience Manager] consulente vi fornirà un ID cliente e una chiave che vi consentirà di effettuare [!DNL API] richieste.
 * **Documentazione ed esempi di codice:** Il testo in *corsivo* rappresenta una variabile fornita o passata durante la creazione o la ricezione di [!DNL API] dati. Sostituite il testo *in corsivo* con codice, parametri o altre informazioni personali.
@@ -90,7 +90,7 @@ Vi consigliamo di creare un account utente tecnico separato per l’utilizzo deg
 
 Ad esempio, per questo tipo di account, supponiamo che tu voglia cambiare molti segmenti alla volta con gli Strumenti [di gestione](../../reference/bulk-management-tools/bulk-management-intro.md)di massa. Per fare questo, il vostro account utente ha bisogno di [!DNL API] accesso. Invece di aggiungere autorizzazioni a un utente specifico, create un account utente non specifico [!DNL API] con le credenziali, la chiave e il segreto appropriati per effettuare [!DNL API] le chiamate. Questo è utile anche se si sviluppano applicazioni personalizzate che utilizzano [!DNL Audience Manager] gli [!DNL API]s.
 
-Consultate il vostro [!DNL Audience Manager] consulente per configurare un account utente generico e [!DNL API]solo.
+Consultate il vostro [!DNL Audience Manager] consulente per configurare un account utente generico [!DNL API]solo.
 
 ### Flusso di lavoro di autenticazione della password {#password-authentication-workflow}
 
@@ -171,7 +171,7 @@ La [!DNL JSON] risposta contiene il nuovo token di accesso. La risposta dovrebbe
 
 Il [!DNL Audience Manager] file [!UICONTROL REST API] supporta il codice di autorizzazione e l&#39;autenticazione implicita. Per utilizzare questi metodi di accesso, gli utenti devono effettuare l&#39;accesso per `https://api.demdex.com/oauth/authorize` ottenere l&#39;accesso e aggiornare i token.
 
-## Rendi [!DNL API] richieste autenticate {#authenticated-api-requests}
+## Effettuare [!DNL API] richieste autenticate {#authenticated-api-requests}
 
 Requisiti per i [!DNL API] metodi di chiamata dopo la ricezione di un token di autenticazione.
 
