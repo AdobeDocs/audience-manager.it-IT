@@ -1,5 +1,5 @@
 ---
-description: 'Informazioni sulle funzioni principali di una piattaforma di gestione dati: raccolta di dati, creazione di audience e attivazione.'
+description: 'Informazioni sulle funzioni principali di una piattaforma di gestione dati: raccolta di dati, creazione di un pubblico e attivazione.'
 seo-description: Informazioni sulla storia di Adobe Audience Manager, i tipi di dati raccolti, la segmentazione, il reporting e altro ancora.
 seo-title: Panoramica di Audience Manager
 solution: Audience Manager
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
