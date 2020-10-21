@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: 3c39ef38d2833d5d706641f70649251d79b2ee6f
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 7%
+source-wordcount: '1511'
+ht-degree: 8%
 
 ---
 
@@ -81,7 +81,7 @@ Puoi scegliere una qualsiasi delle caratteristiche o dei segmenti di prime parti
 
 ### Criteri di selezione per l&#39;audience di Target {#selection-audience}
 
-Simile alla selezione di persona, è necessario scegliere il tipo [!UICONTROL trait] o [!UICONTROL segment] che definisce il pubblico di destinazione in modo che abbia utenti in tempo reale con set avanzati di [!UICONTROL traits], da classificare nel soggetto giusto.
+A seconda del caso d’uso, se desiderate classificare gli utenti in tempo reale, in batch o entrambi, scegliete un pubblico target ([!UICONTROL trait] o [!UICONTROL segment]) con una popolazione significativa in tempo reale e/o totale. Come per la selezione di persone, consigliamo al pubblico di destinazione [!UICONTROL trait] o agli utenti [!UICONTROL segment] con profili avanzati (set avanzati di [!UICONTROL traits]).
 
 Quando selezionate l&#39;audience di destinazione, analizzate il caso di utilizzo e stabilite i tipi di ID da classificare: [!UICONTROL device IDs] o [!UICONTROL cross-device IDs]. La [!UICONTROL Profile Merge Rule] scelta al momento della creazione del modello definisce i dati che verranno utilizzati per inserire ogni utente nel predittivo [!UICONTROL segments].
 
@@ -96,7 +96,7 @@ Questo passaggio ha luogo una volta ogni 24 ore, per tenere conto dei cambiament
 
 ### [!UICONTROL Predictive Audiences] Fase classificazione modello {#model-classification}
 
-Quando un visitatore che fa parte del pubblico di destinazione viene visto in tempo reale, il modello valuta se il visitatore fa parte delle persone definite. Per ogni visitatore che non appartiene ad alcuna persona, il modello assegna un punteggio di qualifica personale.
+Per la classificazione dell&#39;audience in tempo reale e in batch, il modello verifica innanzitutto se un utente appartiene al pubblico di destinazione. Se l&#39;utente si qualifica per l&#39;audience target e non appartiene ad alcuna persona, il modello assegna loro un punteggio di qualifica personale.
 
 Durante la valutazione dei tipi di pubblico di prime parti e l&#39;assegnazione dei punteggi, il modello utilizza il valore predefinito **[!UICONTROL Profile Merge Rule]** definito nel vostro account. Infine, il visitatore viene classificato nella persona per la quale ha ricevuto il punteggio più alto.
 
@@ -112,12 +112,6 @@ Durante la configurazione dei [!UICONTROL Predictive Audiences] modelli, tenere 
 * Puoi creare fino a 10 modelli [!UICONTROL Predictive Audiences]. 
 * Per ciascun modello, potete scegliere fino a 50 tratti/segmenti di base.
 * I dati di seconda e terza parte non sono attualmente supportati in [!UICONTROL Predictive Audiences].
-* La classificazione dell&#39;audience viene effettuata solo per audience di prime parti in tempo reale. La classificazione dell&#39;audience di prime parti caricata potrebbe essere supportata in un aggiornamento futuro.
-   >[!IMPORTANT]
-   > Se aggiungete una caratteristica predittiva a un segmento regolare, questo diventa un segmento predittivo. Di conseguenza, tutti i profili associati non sono segmentati.
-
-   >[!IMPORTANT]
-   > Attualmente, i segmenti predittivi possono essere attivati solo in destinazioni in tempo reale. L&#39; [!UICONTROL Total Segment Population] e [!UICONTROL Addressable Audience] i segmenti predittivi sono visualizzati come 0, mentre i trasferimenti [di dati in uscita](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) batch non sono supportati per [!UICONTROL Predictive Audiences]. Questo comportamento verrà modificato in un aggiornamento futuro.
 * [!UICONTROL Predictive Audiences] esegue la classificazione dell&#39;audience in base alle caratteristiche di prime parti, da tutte le origini dati di prime parti.
 * La valutazione dei segmenti per [!UICONTROL Predictive Audiences] utilizza le opzioni **[!UICONTROL Profile Merge Rule]** scelte durante la creazione del modello. Per ulteriori informazioni, [!UICONTROL Profile Merge Rules] consulta la [documentazione](../profile-merge-rules/merge-rules-overview.md)dedicata.
 * Alcune caratteristiche e segmenti non sono supportati come linee di base o come audience di destinazione. [!UICONTROL Predictive Audiences] i modelli non verranno salvati quando si sceglie uno dei seguenti tipi di base o di pubblico target:
@@ -125,6 +119,7 @@ Durante la configurazione dei [!UICONTROL Predictive Audiences] modelli, tenere 
    * [caratteristiche o segmenti Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) ;
    * caratteristiche algoritmiche;
    * Caratteristiche di seconda e terza parte.
+* [!UICONTROL Predictive Audience] [!UICONTROL segments] non può essere utilizzato in [!UICONTROL Audience Lab].
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
@@ -146,6 +141,7 @@ A tutti i segmenti predittivi verrà assegnato quello [!UICONTROL Profile Merge 
 * Regola quali [!UICONTROL trait] tipi (livello dispositivo o livello cross-device) devono essere utilizzati durante la fase di formazione del modello e devono essere rivelati influenti [!UICONTROL traits]. Predictive [!UICONTROL segments] sono sottoinsiemi del pubblico di destinazione.
    * Se l&#39;audience di destinazione è un segmento, si consiglia di selezionare lo stesso [!UICONTROL Profile Merge Rule] per il modello di quello assegnato al pubblico di destinazione, o un [!UICONTROL Profile Merge Rule] che include il tipo di profilo del pubblico di destinazione.
    * Se l&#39;audience di destinazione è una [!UICONTROL trait], si consiglia di selezionare una [!UICONTROL Profile Merge Rule] che possa accedere allo stesso tipo di dati della caratteristica dell&#39;audience di destinazione (dati del profilo dispositivo o dati del profilo cross-device).
+* [!UICONTROL Profile Merge Rules] l&#39;utilizzo delle [!UICONTROL Current Authenticated Profiles] opzioni e [!UICONTROL No Device Profile] è supportato solo per la classificazione dell&#39;audience in tempo reale. Per ulteriori informazioni vedere Opzioni delle regole di unione [dei profili definite](../profile-merge-rules/merge-rule-definitions.md).
 
 Selezionando un [!UICONTROL Profile Merge Rule] che utilizza sia i dati dispositivo che i dati cross-device, si ottiene il massimo numero di [!UICONTROL traits] dati utilizzabili per la formazione sui modelli e la classificazione degli utenti nel predictive [!UICONTROL segments].
 
