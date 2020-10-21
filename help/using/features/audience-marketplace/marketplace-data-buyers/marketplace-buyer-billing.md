@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -170,8 +170,7 @@ Il [!UICONTROL Activation] caso d’uso consente di utilizzare le caratteristich
 Quando si [segnala l&#39;utilizzo di CPM a livello](#feed-level-report)di feed di dati, è necessario allocare le impression in modo proporzionale per ciascun feed di dati, in base agli [!DNL Boolean] operatori utilizzati nelle regole di qualifica delle caratteristiche. Nella tabella seguente è illustrato come allocare correttamente le impression per regola booleana o tipo di caratteristica.
 
 >[!TIP]
->
-> [Segnala l’utilizzo di CPM a livello](#segment-level-report) di segmento affinché il rapporto sul livello di feed di dati venga eseguito automaticamente da  Audience Manager.
+>[Segnala l’utilizzo di CPM a livello](#segment-level-report) di segmento affinché il rapporto sul livello di feed di dati venga eseguito automaticamente da  Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
