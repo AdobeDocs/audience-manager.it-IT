@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Plug-in di Audience Manager per IAB TCF
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '2449'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -118,7 +118,7 @@ Ogni fornitore registrato nell&#39;IAB TCF valuta la stringa IAB TC e prende dec
 
 Controlliamo inoltre il consenso degli utenti per tutte le destinazioni con cui lavorate nel  Audience Manager, purché tali destinazioni siano registrate con IAB TCF.
 
-| When your user *provides* consent, Audience Manager: | Quando l’utente *nega* il consenso, Audience Manager: |
+| Quando l’utente *fornisce il consenso*, Audience Manager: | Quando l’utente *nega* il consenso, Audience Manager: |
 |---|---|
 | <ul><li>Esegue tutti i casi di utilizzo di Audience Manager richiesti.</li><li>Conveys consent to third parties in ID syncs (by passing `gdpr = 1` and the consent string as `gdpr_consent` on ID sync calls).</li><li>Valuta e rispetta il consenso inviato da pixel di ad server.</li><li>Rispetta le sincronizzazioni ID avviate dai partner.</li></ul> | <ul><li>Non memorizza alcun nuovo dato utente nella tua istanza. Questo include ID partner, segnali, caratteristiche o dati pixel.</li><li>Non avvia sincronizzazioni ID di terze parti.</li><li>Non rispetta le sincronizzazioni ID avviate dai partner.</li><li>Rifiuta all&#39;utente di effettuare ulteriori raccolte di dati.</li></ul> |
 
