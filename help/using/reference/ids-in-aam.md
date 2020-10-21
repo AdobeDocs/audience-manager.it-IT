@@ -8,7 +8,7 @@ title: Indice degli ID in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -31,7 +31,7 @@ Per comprendere i prefissi utilizzati negli esempi seguenti, vedi Attributi [sup
 ## [!DNL Audience Manager] Elenco di ID {#id-list}
 
 | ID | Nome e descrizione | Utilizzo ed esempi | Posizione interfaccia utente |
-|---|-----------|---|------------|
+|---|---|---|---|
 | [!DNL AAM UUID] | [!DNL Adobe Audience Manager Unique User ID], anche noto come [!UICONTROL Device ID]. Un ID dispositivo numerico a 38 cifre che [!DNL Audience Manager] si associa a ciascun dispositivo con cui interagisce. Considerate questo ID ogni volta che viene visualizzato un riferimento a utenti univoci nell’ [!DNL Audience Manager] interfaccia utente.  Audience Manager salva questo ID come [!DNL cookie] nel dominio di `demdex.net` terze parti. | Nelle [!DNL DCS] chiamate, `uuid` è preceduto dal `d_` prefisso. <br>Esempio: `d_uuid = 07955261652886032950143702505894272138` | Potete filtrare [!DNL traits] in base [!UICONTROL Device ID] alla creazione di modelli [simili a](../features/algorithmic-models/create-model.md)look e alla [creazione di segmenti](../features/segments/segment-builder.md). È inoltre possibile filtrare i risultati [!UICONTROL Device ID] eseguendo Rapporti [generali per caratteristiche](../reporting/general-reports.md) e Report [tendenze per caratteristiche](../reporting/trend-reports.md). |
 | [!DNL ImsOrgId] | [!DNL Organization ID]. Questo è l&#39;ID fornito da una società al momento della registrazione per un [!DNL Experience Cloud] account. | `5DC5123F5245B1D20A490D46@AdobeOrg` | Non visibile nell&#39;interfaccia [!DNL Audience Manager] utente. Per informazioni su come trovare l&#39; [!DNL Organization ID]azienda, leggi [Trova il tuo ID](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255)organizzazione. |
 | [!DNL PID] | [!DNL Partner ID]. L&#39;ID [!DNL PID] è di una società in [!DNL Audience Manager].  Audience Manager associa un [!DNL imsOrgId] utente a un [!DNL PID]. | `1352` | Non visibile nell&#39;interfaccia [!DNL Audience Manager] utente. |
