@@ -7,9 +7,9 @@ title: File di dati per report di Audience Optimization e file di registro fruib
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1042'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ Un file di dati deve essere accompagnato da un file di metadati. I contenuti dei
 
 La sintassi seguente definisce la struttura di un nome di file di dati ben formato. Nota: il *corsivo* indica un segnaposto variabile che cambia a seconda del contenuto del file.
 
-**Sintassi:** `event type_yyyymmdd`
+**Sintassi:** <pre><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
 In un nome file:
 
@@ -39,15 +39,15 @@ In un nome file:
 
 Dati questi requisiti, assegnare ai file di dati un nome in base al contenuto come indicato di seguito:
 
-* Dati di impressione: `impressions_yyyymmdd.gz`
-* Fare clic su dati: `clicks_yyyymmdd.gz`
-* Dati di conversione: `conversions_yyyymmdd.gz`
+* Dati di impressione: <pre>impression_<i>yymmdd</i>.gz</code></pre>
+* Fare clic su dati: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
+* Dati di conversione: <pre>conversioni_<i>yyyymmdd</i>.gz</code></pre>
 
 ## Content Format for Data Files {#content-format}
 
 La sintassi seguente definisce la struttura del contenuto in un file di dati formato correttamente. Nota: il *corsivo* indica un segnaposto variabile e viene sostituito con un&#39;etichetta in un file di dati effettivo.
 
-**Sintassi:** `header label 1 | header label 2 ... header label n | version`
+**Sintassi:** <pre><i>etichetta di intestazione 1</i> | Etichetta <i>intestazione 2</i> ... <i>etichetta di intestazione n</i> | <i>versione</i></code></pre>
 
 Nel contenuto del file:
 
@@ -153,7 +153,7 @@ Caricate i file di dati di impression, clic o conversione in una directory Amazo
 
 I dati vengono memorizzati in uno spazio dei nomi separato per ciascun cliente in una [!DNL Amazon S3] directory. Il percorso del file segue la sintassi indicata di seguito. Note, *italics* indicates a variable placeholder. Gli altri elementi sono costanti o chiavi e non vengono modificati.
 
-**Sintassi:** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
+**Sintassi:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
 
 La tabella seguente definisce ciascuno di questi elementi in un percorso di consegna dei file.
 
