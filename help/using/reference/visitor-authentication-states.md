@@ -8,9 +8,9 @@ title: Stati di autenticazione dei visitatori in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 5%
 
 ---
@@ -24,10 +24,25 @@ A partire dalla versione 1.5 del servizio [!DNL Experience Cloud] ID, il `setCus
 
 ## Stato autenticazione: SCONOSCIUTO {#auth-status-unknown}
 
-| Valore richiesta | **Leggere** le informazioni dal profilo autenticato | **Scrivere** nuove caratteristiche al profilo autenticato |
----------|----------|---------
-| 0 | <ul><li>Sì, se la regola di unione delle opzioni autenticate = &quot;Ultimi profili autenticati&quot;.</li><li>No, se la regola di unione delle opzioni autenticate = &quot;Profili autenticati correnti&quot; o &quot;Nessun profilo autenticato&quot;.</li></ul> | No, i dati sulle caratteristiche vengono aggiunti al profilo del dispositivo. |
-
+<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Leggere</b> le informazioni dal profilo autenticato </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Scrivere</b> nuove caratteristiche al profilo autenticato </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
+   <td colname="col2"> <p>Sì, se la regola di unione delle opzioni autenticate = "Ultimi profili autenticati". </p> </td> 
+   <td colname="col3" morerows="1"> <p>No, i dati sulle caratteristiche vengono aggiunti al profilo del dispositivo. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> <p>No, se la regola di unione delle opzioni autenticate = "Profili autenticati correnti" o "Nessun profilo autenticato". </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 Chiamata di esempio (il valore della richiesta corrispondente allo stato di autenticazione è evidenziato):
 
@@ -35,9 +50,25 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
 
 ## Stato autenticazione: AUTENTICATO {#auth-status-authenticated}
 
-| Valore richiesta | **Leggere** le informazioni dal profilo autenticato | **Scrivere** nuove caratteristiche al profilo autenticato |
----------|----------|---------
-| 1 | <ul><li>Sì, se la regola di unione delle opzioni autenticate = &quot;Profili autenticati correnti&quot; o &quot;Ultimi profili autenticati&quot;.</li><li>No, se la regola di unione delle opzioni autenticate è &quot;Nessun profilo autenticato&quot;.</li></ul> | Sì, i dati sulle caratteristiche vengono aggiunti al profilo autenticato. |
+<table id="table_956ABF96024744308F7773E1F96482B7"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Leggere</b> le informazioni dal profilo autenticato </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Scrivere</b> nuove caratteristiche al profilo autenticato </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
+   <td colname="col2"> <p>Sì, se la regola di unione delle opzioni autenticate = "Profili autenticati correnti" o "Ultimi profili autenticati". </p> </td> 
+   <td colname="col3" morerows="1"> <p>Sì, i dati sulle caratteristiche vengono aggiunti al profilo autenticato. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> <p>No, se la regola di unione delle opzioni autenticate è "Nessun profilo autenticato". </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 Chiamata di esempio (il valore della richiesta corrispondente allo stato di autenticazione è evidenziato):
 
@@ -45,9 +76,25 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
 
 ## Stato autenticazione: LOGGED_OUT {#auth-status-logged-out}
 
-| Valore richiesta | **Leggere** le informazioni dal profilo autenticato | **Scrivere** nuove caratteristiche al profilo autenticato |
----------|----------|---------
-| 2 | <ul><li>Sì, se la regola di unione delle opzioni autenticate = &quot;Ultimi profili autenticati&quot;</li><li>No, se la regola di unione delle opzioni autenticate = &quot;Profili autenticati correnti&quot; o &quot;Nessun profilo autenticato&quot;</li></ul> | No, i dati sulle caratteristiche vengono scritti nel profilo del dispositivo. |
+<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Leggere</b> le informazioni dal profilo autenticato </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Scrivere</b> nuove caratteristiche al profilo autenticato </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
+   <td colname="col2"> Sì, se la regola di unione delle opzioni autenticate = "Ultimi profili autenticati" </td> 
+   <td colname="col3" morerows="1"> <p>No, i dati sulle caratteristiche vengono scritti nel profilo del dispositivo. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col2"> No, se la regola di unione delle opzioni autenticate = "Profili autenticati correnti" o "Nessun profilo autenticato" </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 Chiamata di esempio (il valore della richiesta corrispondente allo stato di autenticazione è evidenziato):
 
