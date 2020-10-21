@@ -7,7 +7,7 @@ title: File CSV per report di sovrapposizione
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: overlap reports
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 9%
@@ -78,9 +78,9 @@ Nel file, i dati stringa sono racchiusi tra virgolette doppie. Vedi i dati origi
 
 ```js
 //File header
-"segment_id1","segment_name1","segment_id2","segment_name3","range_id", ...
+"segment_id1","segment_name1","segment_id2","segment_name3,"range_id",...
 //File body
-"123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765", ...
+"123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
 ## Record di report Segment-to-Segment {#segment-segment-records}
