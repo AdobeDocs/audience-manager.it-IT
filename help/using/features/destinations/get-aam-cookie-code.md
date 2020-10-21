@@ -7,15 +7,15 @@ title: Codice get_aamCookie
 uuid: 89c30fe3-dbe6-4d18-b161-104167d75bcd
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 7d0735fa9620b7765db7be8d3a7c8731536ffd32
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 11%
+source-wordcount: '75'
+ht-degree: 9%
 
 ---
 
 
-# Codice get_aamCookie {#get-aamcookie-code}
+# `get_aamCookie` Codice {#get-aamcookie-code}
 
 Codice richiesto da [!DNL DART Enterprise] (e altri tipi di destinazione) per acquisire il valore ID utente univoco ([!DNL UUID]) del Audience Manager .
 
