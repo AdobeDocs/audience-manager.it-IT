@@ -7,9 +7,9 @@ title: DIL create
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '837'
 ht-degree: 12%
 
 ---
@@ -60,9 +60,9 @@ r_dil_create.xml
    <td colname="col1"> <p> <code> declaredId </code> </p> </td> 
    <td colname="col2"> <p>Oggetto </p> </td> 
    <td colname="col3"> 
-    <!-- 
-     <p>Sends the <a href="../../features/declared-ids.md"> Declared ID variables </a> on every event call to <span class="keyword"> Audience Manager </span>. </p> 
-    --> <p> <code> delcaredId </code> viene utilizzato per trasmettere: </p> 
+    <draft-comment> 
+     <p>Invia le variabili ID <a href="../../features/declared-ids.md"> dichiarato </a> per ogni chiamata di evento al Audience Manager <span class="keyword"> </span>. </p> 
+    </draft-comment> <p> <code> delcaredId </code> viene utilizzato per trasmettere: </p> 
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: ID partner dati assegnato dall' <span class="keyword"> Audience Manager </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: L’ID univoco dell’utente. </li> 
