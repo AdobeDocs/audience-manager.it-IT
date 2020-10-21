@@ -8,9 +8,9 @@ title: Creare un modello algoritmico
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: bff108115e7ebd4375d81c1c32ec9bb7d1a207c1
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Per creare un [!UICONTROL Look-Alike Model]:
 
 Guardate il video seguente per vedere in dettaglio come funzionano le metriche tra dispositivi.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445/)
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Informazioni di base per i modelli algoritmici {#basic-information}
 
