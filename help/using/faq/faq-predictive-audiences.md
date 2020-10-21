@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 67%
+source-wordcount: '895'
+ht-degree: 65%
 
 ---
 
@@ -46,14 +46,6 @@ Vai in **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** e fai clic sul
 
  
 
-**Perché alcuni dei miei visitatori onboarded non sono classificati?**
-
-Attualmente, la classificazione del pubblico funziona solo per i requisiti in tempo reale, ad eccezione degli utenti autenticati che sono stati definiti come parte delle [!UICONTROL Profile Merge Rules].
-
-Il supporto completo per i dati onboarded sarà aggiunto in un aggiornamento futuro.
-
- 
-
 **Quando posso vedere i primi risultati prodotti dal mio modello?**
 
 I risultati del modello [!UICONTROL Predictive Audiences] sono disponibili entro 24 ore dalla creazione del modello, se il modello viene eseguito correttamente.
@@ -68,12 +60,10 @@ I modelli [!UICONTROL Predictive Audiences] potrebbero non riuscire a produrre r
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. La caratteristica o il segmento del pubblico di destinazione non aveva utenti attivi o onboarded negli ultimi 30 giorni.
+1. La caratteristica/segmento del pubblico di destinazione non ha utenti attivi o caricati.
 1. Gli utenti del pubblico di destinazione attivi o per i quali è stato effettuato l’onboarding negli ultimi 30 giorni non dispongono di un numero sufficiente di dati nei loro profili utente (caratteristiche da analizzare insufficienti).
 1. Il segmento di pubblico di destinazione utilizza un altro [!UICONTROL Profile Merge Rule] di quello scelto per il modello.
 1. L&#39;origine dati delle caratteristiche dell&#39;audience di destinazione potrebbe non essere inclusa nella [!UICONTROL Profile Merge Rule] scelta per il modello.
-
-Per ottenere risultati rilevanti, l’algoritmo [!UICONTROL Predictive Audiences] valuta le realizzazioni di caratteristiche e segmenti in base all’attività utente in tempo reale rilevata dal [!DNL DCS]. Se selezioni nuovi segmenti e caratteristiche di base che non hanno ancora abbastanza utenti, l’algoritmo potrebbe richiedere un paio di giorni per classificare il pubblico.
 
 Per risultati ottimali, segui le linee guida suggerite [Selection Criteria for Personas](../features/algorithmic-models/predictive-audiences.md#selection-personas) e [Selection Criteria for Target Audience](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
@@ -85,7 +75,7 @@ Non è stato possibile eseguire il modello. In such cases, please reach out to y
 
  
 
-**Come posso cambiare il[!UICONTROL Profile Merge Rule]per un[!UICONTROL Predictive Audiences][!UICONTROL segment]?**
+**Come posso cambiare il [!UICONTROL Profile Merge Rule] per un [!UICONTROL Predictive Audiences][!UICONTROL segment]?**
 
 Per creare un nuovo modello, selezionate le stesse persone e gli stessi destinatari del modello precedente. Durante la creazione del modello, assegnare un altro [!UICONTROL Profile Merge Rule].
 
@@ -96,7 +86,7 @@ Per creare un nuovo modello, selezionate le stesse persone e gli stessi destinat
 
  
 
-**Cosa[!UICONTROL Profile Merge Rule]dovrei scegliere?**
+**Cosa [!UICONTROL Profile Merge Rule] dovrei scegliere?**
 
 Quando si sceglie il modello [!UICONTROL Profile Merge Rule] desiderato, analizzare attentamente il caso d’uso.
 
@@ -105,8 +95,6 @@ Supponiamo che il pubblico di destinazione [!UICONTROL segment] utilizzi un [!UI
 Se, tuttavia, selezionate un elemento [!UICONTROL Profile Merge Rule] basato solo sui profili dei dispositivi, nessuno dei vostri dispositivi cross-device [!UICONTROL traits] diventerà influente e non contribuirà al posizionamento degli utenti in un sistema predittivo [!UICONTROL segment]. Ciò può influire negativamente sull&#39;accuratezza e la portata del modello.
 
 Analizzare attentamente il caso di utilizzo e decidere [!UICONTROL trait] i tipi da cui il modello deve imparare e il tipo di dati da utilizzare per la classificazione.
-
- 
 
 **Un utente del pubblico di destinazione che non fa parte di alcun segmento o caratteristica dell’utente tipo potrebbe non essere classificato?**
 
@@ -117,12 +105,6 @@ Sì, se l’utente non ha alcuna caratteristica nel suo profilo. In tal caso, l�
 **Un utente classificato in uno dei segmenti predittivi può essere riclassificato in un segmento [!UICONTROL Predictive Audiences] diverso?**
 
 Sì. Poiché l’algoritmo viene addestrato su base giornaliera, applica le modifiche per ciascun utente tipo in termini di valutazione delle caratteristiche. Se un utente che fa parte di un segmento [!UICONTROL Predictive Audiences] è attivo, le modifiche nella valutazione delle caratteristiche possono modificare la classificazione in base all’attività degli ultimi 30 giorni.
-
- 
-
-**Posso aggiungere caratteristiche predittive ai segmenti regolari?**
-
-Quando aggiungete una caratteristica predittiva a un segmento regolare, questo diventa un segmento predittivo. Di conseguenza, tutti i profili associati non sono segmentati. I segmenti predittivi possono essere inviati solo a destinazioni in tempo reale.
 
  
 
