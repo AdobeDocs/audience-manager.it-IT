@@ -2,23 +2,21 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Guida ad Audience Manager
-breadcrumb-title: Guida ad Audience Manager
-breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
-user-guide-description: Audience Manager offre servizi leader del settore per la gestione online dei dati sul pubblico.
+user-guide-title: Guida utente di Audience Manager
+user-guide-description: Audience Manager fornisce servizi leader nel settore per la gestione online di dati sul pubblico.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
+source-git-commit: 7b58619a5208f7a48002d65d7bcbf0af602ba908
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1769'
 ht-degree: 93%
 
 ---
 
 
-# Guida ad Audience Manager {#user-guide}
+# Guida utente di Audience Manager {#user-guide}
 
-+ [Guida ad Audience Manager](aam-home.md)
++ [Documentazione di prodotto di Audience Manager](aam-home.md)
 + Panoramica {#overview}
    + [Panoramica di Audience Manager](overview/aam-overview.md)
    + [Tipi di dati raccolti](overview/data-types-collected.md)
@@ -36,7 +34,6 @@ ht-degree: 93%
          + [Gestione del consenso](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Plug-in di Audience Manager per IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Governance dei dati](overview/data-security-and-privacy/data-governance.md)
-   + [Accessibilità in  Audience Manager](overview/accessibility-in-aam.md)
 + Funzioni {#features}
    + [Pubblico di riferimento](features/addressable-audiences.md)
    + Amministrazione {#administration}
@@ -78,8 +75,8 @@ ht-degree: 93%
       + [Data Explorer: panoramica, vantaggi e casi di utilizzo](features/data-explorer/data-explorer-overview.md)
       + [Informazioni sui segnali](features/data-explorer/data-explorer-understanding-signals.md)
       + [Dashboard dei segnali](features/data-explorer/data-explorer-signals-dashboard.md)
-      + Ricerca segnale{#signal-search}
-         + [Panoramica della ricerca del segnale](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
+      + Ricerca di segnali {#signals-search}
+         + [Panoramica della ricerca di segnali](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [Ricerca di segnali per coppie chiave-valore](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [Ricerca di segnali per filtri](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
          + [Ricerca avanzata per Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
