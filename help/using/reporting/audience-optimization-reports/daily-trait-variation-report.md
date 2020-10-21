@@ -7,9 +7,9 @@ title: Rapporto sulla variazione giornaliera delle caratteristiche
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Questo rapporto restituisce un elenco di caratteristiche che sono state realizza
 
 La deviazione standard misura la quantità di variazione o dispersione dalla media (o dal valore medio/previsto). Una deviazione standard bassa indica che i punti dati tendono ad essere molto vicini alla media. Una deviazione standard elevata indica che i punti dati sono distribuiti su un ampio intervallo di valori.
 
-![screenshot del report sulle variazioni giornaliere delle caratteristiche](assets/daily_trait_variation.png)
+![](assets/daily_trait_variation.png)
 
 Utilizza l’ [!UICONTROL Date] elenco per selezionare una o più date per il rapporto. Nella parte inferiore dell’elenco viene visualizzato un grafico a barre con colori che rappresenta visivamente l’intervallo di deviazione standard per tutte le caratteristiche di tutte le date selezionate. La linea verticale nera indica la media.
 
@@ -56,8 +56,8 @@ A causa di una riconfigurazione dello store, la pagina degli smartphone viene su
 
 Un mese dopo, esegui il [!UICONTROL Daily Trait Variation] rapporto e noti un&#39;ampia deviazione negativa sulla `productPage == "smartphones"` caratteristica, anche se il numero del visitatore è aumentato, in base all&#39;analisi del sito. In base a queste informazioni, ti rendi conto che non hai aggiornato le caratteristiche [!DNL Audience Manager] per le nuove pagine di prodotto, quindi sai che devi creare le caratteristiche seguenti:
 
-* `productPage == "samsung"`
-* `productPage == "apple"`
-* `productPage == "huawei"`
+* productPage == &quot;samsung&quot;
+* productPage == &quot;apple&quot;
+* productPage == &quot;huawei&quot;
 
 Una volta effettuata questa operazione, il pubblico sarà in grado di soddisfare le caratteristiche appena create.
