@@ -7,7 +7,7 @@ title: Suggerimenti per la risoluzione dei problemi relativi agli strumenti di g
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: baaam
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 4%
@@ -78,5 +78,5 @@ Nella tabella seguente sono elencati alcuni problemi comuni che si possono incon
 
 ## Messaggi di errore
 
-A volte, è possibile ricevere messaggi di errore quando si apportano modifiche collettive. Per interpretare il messaggio di errore, consultate Codici di [risposta definiti](/help/using/api/rest-api-main/aam-api-getting-started.md#response-codes-defined) nella documentazione API.
+A volte, è possibile ricevere messaggi di errore quando si apportano modifiche collettive. Per interpretare il messaggio di errore, consultate Codici di [risposta definiti](/help/using/api/rest-api-main/aam-api-getting-started.md) nella documentazione API.
 
