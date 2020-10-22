@@ -6,9 +6,9 @@ user-guide-title: Guida utente di Audience Manager
 user-guide-description: Audience Manager fornisce servizi leader nel settore per la gestione online di dati sul pubblico.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 7b58619a5208f7a48002d65d7bcbf0af602ba908
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1773'
 ht-degree: 93%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 93%
          + [Gestione del consenso](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Plug-in di Audience Manager per IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Governance dei dati](overview/data-security-and-privacy/data-governance.md)
+   + [Accessibilità in  Audience Manager](/help/using/overview/accessibility-in-aam.md)
 + Funzioni {#features}
    + [Pubblico di riferimento](features/addressable-audiences.md)
    + Amministrazione {#administration}
