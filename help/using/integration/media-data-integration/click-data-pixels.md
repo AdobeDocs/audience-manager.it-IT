@@ -1,16 +1,16 @@
 ---
-description: nulle
-seo-description: nulle
+description: Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei visitatori durante l’intera campagna, registrando l’attività basata sui clic per i creativi di terze parti.
+seo-description: Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei visitatori durante l’intera campagna, registrando l’attività basata sui clic per i creativi di terze parti.
 seo-title: Acquisizione dei dati di clic delle campagne attraverso chiamate pixel
 solution: Audience Manager
 title: Acquisizione dei dati di clic delle campagne attraverso chiamate pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 13%
+source-wordcount: '686'
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ In base all&#39;esempio precedente, il browser viene reindirizzato a quanto segu
 
 ## Macro supportate
 
-Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macro è una piccola unità di codice standalone che si attiva quando il tag dell&#39;annuncio viene caricato per la campagna e il tracciamento dell&#39;utente. Le macro verranno trasmesse insieme alla destinazione [!DNL URL]purché siano contrassegnate con il seguente formato: `%macro%`. Alcune chiavi non dispongono di macro e accettano un valore ID hardcoded. Le chiavi che accettano valori hardcoded sono necessarie se desiderate analizzare i dati nei report [di ottimizzazione dell&#39;](../../reporting/audience-optimization-reports/audience-optimization-reports.md)audience.
+Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macro è una piccola unità di codice standalone che si attiva quando il tag dell&#39;annuncio viene caricato per la campagna e il tracciamento dell&#39;utente. Le macro verranno trasmesse insieme alla destinazione [!DNL URL]purché siano contrassegnate con il seguente formato: `%macro%`. Alcune chiavi non dispongono di macro e accettano un valore ID hardcoded. Le chiavi che accettano valori hardcoded sono necessarie se si desidera analizzare i dati nei [Report](../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audience Optimization.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -67,17 +67,17 @@ Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macr
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Nessuna macro. </p> <p>Accetta un valore ID hardcoded. </p> </td> 
-   <td colname="col2"> <p>ID inserzionista.</p> <p>Un codice di integrazione per l'origine dati dell'inserzionista. Questo non è correlato alle origini dati  Audience Manager.</p> <p> Obbligatorio per i report <span class="wintitle"> Audience Optimization</span> . </p> </td> 
+   <td colname="col2"> <p>ID inserzionista.</p> <p>Un codice di integrazione per l'origine dati dell'inserzionista. Questo non è correlato alle origini dati  Audience Manager.</p> <p> Obbligatorio per <span class="wintitle"> report Audience Optimization</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>ID numerico per l'unità aziendale. </p> <p> Obbligatorio per i report <span class="wintitle"> Audience Optimization</span> . </p> </td> 
+   <td colname="col2"> <p>ID numerico per l'unità aziendale. </p> <p> Obbligatorio per <span class="wintitle"> report Audience Optimization</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>ID campagna numerica dal server annunci. </p> <p> Obbligatorio per i report <span class="wintitle"> Audience Optimization</span> . </p> </td> 
+   <td colname="col2"> <p>ID campagna numerica dal server annunci. </p> <p> Obbligatorio per <span class="wintitle"> report Audience Optimization</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -169,10 +169,10 @@ In base all&#39;esempio precedente, il browser viene reindirizzato a quanto segu
 
 ## Funzionalità aggiuntive - [!UICONTROL Audience Optimization Reports]
 
-Potete utilizzare chiamate in pixel per alimentare i report di ottimizzazione dell&#39; [audience](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultate [Panoramica e mappature per i file](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) di metadati se desiderate utilizzare i pixel per alimentare i rapporti.
+Potete utilizzare chiamate in pixel per attivare i Rapporti sugli Audienci Optimization di [](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultate [Panoramica e mappature per i file](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) di metadati se desiderate utilizzare i pixel per alimentare i rapporti.
 
 
 >[!MORELIKETHIS]
 >
->* [File di dati e metadati per report di ottimizzazione dell&#39;audience](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [File di dati e metadati per i rapporti  Audience Optimization](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
