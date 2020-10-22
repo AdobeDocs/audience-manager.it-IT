@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 6%
 
 ## Limiti di mappatura degli ID {#id-mapping-limits}
 
-Nella tabella seguente sono elencati i limiti di mappatura [](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) degli ID per gli ID dispositivo. Quando un ID raggiunge uno dei limiti riportati di seguito,  Audience Manager aggiunge nuove mappature ID basate su una logica [!DNL FIFO] (primo in, primo out), rimuovendo la mappatura ID memorizzata più vecchia e aggiungendo la nuova mappatura. Per informazioni sugli ID supportati da  Audience Manager, consultate [Indice degli ID](../../reference/ids-in-aam.md) in  Audience Manager.
+Nella tabella seguente sono elencati i limiti di mappatura [](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) degli ID per gli ID dispositivo. Quando un ID raggiunge uno dei limiti riportati di seguito,  Audience Manager aggiunge nuove mappature ID basate su una logica FIFO (primo in, primo out), rimuovendo la mappatura ID memorizzata più vecchia e aggiungendo la nuova. Per informazioni sugli ID supportati da  Audience Manager, consultate [Indice degli ID](../../reference/ids-in-aam.md) in  Audience Manager.
 
 | Mappatura ID | Limite massimo |
 |-----------|-------------- |
 | Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) | 100 Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) to 1 Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) |
-| ID cross-device ([DPUUID](../../reference/ids-in-aam.md)) per Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 ID cross-device ([DPUUID](../../reference/ids-in-aam.md)) a 1 ID pubblicitario dispositivo ([DAID](../../reference/ids-in-aam.md)), per ogni [DPID](../../reference/ids-in-aam.md) |
+| ID[DPUUID](../../reference/ids-in-aam.md)(cross-device ID) per Device Advertising ID ([DAID](../../reference/ids-in-aam.md)) | 10 ID cross-device ([DPUUID](../../reference/ids-in-aam.md)) a 1 ID pubblicitario dispositivo ([DAID](../../reference/ids-in-aam.md)), per ogni [DPID](../../reference/ids-in-aam.md) |
 | Cookie/ID browser per cookie/ID browser | 1000 cookie/ID browser a 1 cookie/ID browser |
 
 ## Limiti elemento {#item-limits}
