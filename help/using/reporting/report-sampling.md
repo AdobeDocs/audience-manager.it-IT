@@ -7,10 +7,10 @@ title: Campionamento di dati e tassi di errore nei report selezionati di Audienc
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 8%
+source-wordcount: '468'
+ht-degree: 7%
 
 ---
 
@@ -19,16 +19,26 @@ ht-degree: 8%
 
 Riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, tassi di errore di campionamento e un elenco di rapporti che restituiscono informazioni basate su dati campionati.
 
-## Rapporto di campionamento dei dati e requisiti minimi {#data-sampling-ratio}
+## Rapporto di campionamento dei dati {#data-sampling-ratio}
 
 Alcuni [!DNL Audience Manager] rapporti visualizzano i risultati in base a un set campionato della quantità totale di dati disponibili. Il rapporto dei dati campionati è di 1:54. Per i report che utilizzano dati campionati, i risultati sono basati su 1 record su ogni set di 54 record.
 
-Questi report utilizzano dati campionati perché necessitano di una notevole quantità di potenza di elaborazione per generare risultati. Il campionamento aiuta a trovare un equilibrio tra la riduzione delle richieste di calcolo, il mantenimento delle prestazioni del sistema e la fornitura di risultati accurati.
+Questi report utilizzano dati statistici campionati perché necessitano di una quantità enorme di potenza di calcolo per generare risultati. Il campionamento aiuta a trovare un equilibrio tra la riduzione delle richieste di calcolo, il mantenimento delle prestazioni del sistema e la fornitura di risultati accurati.
 
-I report che utilizzano il campionamento escludono caratteristiche e segmenti quando non soddisfano i requisiti minimi di visitatore univoco. Tali requisiti minimi sono i seguenti:
+<!--
 
-* Caratteristiche: 28.000 realizzazioni [di caratteristiche](/help/using/features/traits/trait-and-segment-qualification-reference.md#unique-trait-realizations) univoche per un periodo di 14 giorni.
-* Segmenti: 70.000 utenti in tempo reale per un periodo di 14 giorni.
+## Minimum Requirements {#minimum-requirements}
+
+>[!NOTE]
+>
+>The minimum requirements listed below apply to Overlap reports only.
+
+Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-trait-overlap-report.md), [segment-to-trait](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md), and [segment-to-segment](/help/using/reporting/dynamic-reports/segment-segment-overlap-report.md)) exclude traits and segments when they do not meet the minimum unique visitor requirements. These minimum requirements are as follows:
+
+* Traits: 28,000 [unique trait realizations](/help/using/features/traits/trait-and-segment-qualification-reference).
+* Segments: 70,000 real-time users over a 14-day period.
+
+-->
 
 ## Tassi di errore {#error-rates}
 
@@ -48,11 +58,35 @@ Gli errori possono verificarsi nei report che generano dati di sovrapposizione. 
 | 100,000 | Il 95% è inferiore a un tasso di errore del 4%. |
 | 500.000 (o più) | Il 95% è inferiore a un tasso di errore del 2%. |
 
+## Utilizzo della metodologia Minhash Sampling {#minhash}
+
+Sulla base della metodologia di campionamento [Minhash](https://en.wikipedia.org/wiki/MinHash) ,  Audience Manager utilizza un nuovo metodo per calcolare le caratteristiche e gli stimatori del segmento sopra uno sketch di dati One Permutation Hashing. Questo nuovo metodo produce una varianza inferiore rispetto allo stimatore standard per lo stimatore della similarità Jaccard. Consulta la sezione seguente per i report che utilizzano questa metodologia.
+
+<!--
+
+Some Audience Manager reports use the minhash sampling methodology to compute trait and segment overlaps and similarity scores. Audience Manager calculates the [!UICONTROL Trait Similarity Score] between two traits by computing the intersection and union in terms of the number of [!UICONTROL Unique User IDs] (UUIDs) and then divides the two. For two traits A and B, the calculation looks like this:
+
+![jaccard-similarity](/help/using/features/segments/assets/jaccard_similarity.png)
+
+-->
+
 ## Report che utilizzano dati di esempio {#reports-using-sampled-data}
 
-I [!DNL Audience Manager] rapporti che utilizzano i dati campionati includono:
+I [!DNL Audience Manager] rapporti che utilizzano i dati statistici campionati e la metodologia di campionamento Minhash includono:
 
-* [Report](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) di sovrapposizione (caratteristiche, caratteristiche, caratteristiche e segmento per segmento).
-* [Dati Pubblico](../features/addressable-audiences.md) indirizzabili (dati a livello di cliente e segmento).
-* La metrica Dispositivi [](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) totali per un [!UICONTROL Profile Merge Rule].
-* [Esplora](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) dati utilizza i dati campionati nella [!UICONTROL Search] scheda ed eventuali [!UICONTROL Saved Searches].
+<!--
+
+* [Overlap reports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait-to-trait, segment-to-trait, and segment-to-segment).
+* [Addressable Audience](../features/addressable-audiences.md) data (customer- and segment-level data). 
+* The [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metric for a [!UICONTROL Profile Merge Rule].
+* [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) uses sampled data in the [!UICONTROL Search] tab and any [!UICONTROL Saved Searches].
+
+Reports that use Minhash sampling methodology:
+
+-->
+
+| Campionamento statistico | Metodologia di campionamento del minhash |
+|--- |--- |
+| [Dati Pubblico](../features/addressable-audiences.md) indirizzabili (dati a livello di cliente e segmento). | [Report](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) di sovrapposizione (caratteristiche, caratteristiche e caratteristiche e segmento a segmento) |
+| La metrica Dispositivi [](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) totali per un [!UICONTROL Profile Merge Rule]. | [Raccomandazioni sulle caratteristiche](/help/using/features/segments/trait-recommendations.md) |
+| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utilizza i dati campionati nella [!UICONTROL Search] scheda ed eventuali [!UICONTROL Saved Searches] | [Recommendations Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
