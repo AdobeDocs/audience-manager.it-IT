@@ -8,7 +8,7 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 feature: Administration
 translation-type: tm+mt
-source-git-commit: a292f44a63aa1e627d75d37c9ff0c1489f160729
+source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 87%
@@ -44,8 +44,8 @@ Sì, vedi sotto.
 
 | Server | Indirizzi IP |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
-| ftp-out-gtw.demdex.com | 3.233.68.222; 52.3.74.119 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
 
@@ -163,7 +163,7 @@ Ogni provider offre qualcosa di unico, quindi la risposta dipende da cosa stai c
 
 <br> 
 
-**In che modo [!DNL Audience Manager] imposta i cookie e trasmette le variabili a[!DNL Google Ad Manager]?**
+**In che modo [!DNL Audience Manager] imposta i cookie e trasmette le variabili a [!DNL Google Ad Manager]?**
 
 [!DNL Audience Manager][!DNL Google Ad Manager] imposta 2 cookie: uno invia le variabili del segmento al tag dell’annuncio e l’altro imposta il nostro ID utente univoco (UUID), che viene letto anche da [!DNL Google Ad Manager]. L’aggiunta dell’UUID al tag dell’annuncio consente di effettuare reporting e individuare pubblico a livello di utente.
 
