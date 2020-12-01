@@ -29,10 +29,10 @@ Completamente formato, un set di base di coppie chiave-valore potrebbe essere si
 
 ## Coppie chiave-valore standard e seriali {#standard-serial-key-value-pairs}
 
-Le destinazioni accettano i dati chiave-valore in *`standard`* o in *`serialized`* formato.
+Le destinazioni accettano i dati chiave-valore in formato *`standard`* o *`serialized`*.
 
-* **Coppie chiave-valore standard:** Formatta i dati di destinazione in coppie chiave-valore separate. Ogni chiave è specificata in modo esplicito, anche se utilizzata di nuovo per definire un valore diverso.
-* **Coppie chiave-valore serializzate:** Condensa più valori in una singola coppia chiave-valore. In una coppia chiave-valore serializzata, un indicatore speciale separa i valori all&#39;interno dell&#39;insieme chiave-valore.
+* **Coppie chiave-valore standard:** formatta i dati di destinazione in coppie chiave-valore separate. Ogni chiave è specificata in modo esplicito, anche se utilizzata di nuovo per definire un valore diverso.
+* **Coppie chiave-valore serializzate:** condensa più valori in una singola coppia chiave-valore. In una coppia chiave-valore serializzata, un indicatore speciale separa i valori all&#39;interno dell&#39;insieme chiave-valore.
 
 I valori chiave standard e serializzati possono contenere uno o più valori. Nella tabella seguente sono riportati alcuni esempi di formati chiave standard e seriali.
 
@@ -62,13 +62,13 @@ I valori chiave standard e serializzati possono contenere uno o più valori. Nel
 
 I caratteri che separano i valori all&#39;interno e tra le chiavi e i valori sono noti come *`delimiters`* e *`separators`*. Questi diventano particolarmente importanti quando si inviano segmenti a una destinazione in formato seriale. La serializzazione consente di trasmettere più valori con un&#39;unica chiave e di combinare coppie chiave-valore. I delimitatori e i separatori sono definiti come segue:
 
-* **Separatore chiave-valore:** Separa una chiave e un valore all&#39;interno di una coppia chiave-valore.
-* **Delimitatore del valore chiave:** Separa i set di coppie chiave-valore.
-* **Separatore seriale:** Separa più valori all&#39;interno di insiemi di coppie chiave-valore serializzate.
+* **Separatore chiave-valore:** separa chiave e valore all’interno di una coppia chiave-valore.
+* **Delimitatore del valore chiave:** separa i set di coppie chiave-valore.
+* **Separatore seriale:** separa più valori all&#39;interno di set di coppie chiave-valore serializzate.
 
 ## Esempi {#examples}
 
-Grazie a [!UICONTROL Destination Builder] questa opzione è possibile formattare i dati chiave-valore in diversi modi. Diamo un&#39;occhiata ad alcuni esempi di ciascun tipo.
+Con [!UICONTROL Destination Builder] è possibile formattare i dati chiave-valore in diversi modi. Diamo un&#39;occhiata ad alcuni esempi di ciascun tipo.
 
 <table id="table_C2FBDC887C8C4CC88B1B2A7CF8E2795F"> 
  <thead> 
@@ -91,7 +91,7 @@ Grazie a [!UICONTROL Destination Builder] questa opzione è possibile formattare
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Più coppie</b> chiave-valore (non seriali) </p> </td> 
+   <td colname="col1"> <p> <b>Più coppie</b>  chiave-valore (non seriali) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 &amp; X = 2 &amp; Y = 3 &amp; Y = 4 </code> </p> </td> 
    <td colname="col3"> <p>Set di più coppie chiave-valore che trasmettono valori con set chiave-valore separati. L'esempio contiene i seguenti elementi: </p> 
     <ul id="ul_7FB22A43B435463D9F209067FF2C3619"> 
@@ -113,7 +113,7 @@ Grazie a [!UICONTROL Destination Builder] questa opzione è possibile formattare
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Più coppie</b> chiave-valore (serie) </p> </td> 
+   <td colname="col1"> <p> <b>Più coppie</b>  chiave-valore (serie) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 ; 2 &amp; Y = 3 ; 4 </code> </p> </td> 
    <td colname="col3"> <p>Un insieme di coppie chiave-valore che trasmettono più valori su chiavi separate. L'esempio contiene i seguenti elementi: </p> 
     <ul id="ul_CB50133B2E944818B9F2A0586EF69774"> 
@@ -127,7 +127,7 @@ Grazie a [!UICONTROL Destination Builder] questa opzione è possibile formattare
  </tbody> 
 </table>
 
-## Serializzazione delle destinazioni {#destination-serialized}
+## Serializzazione destinazione {#destination-serialized}
 
 Una destinazione serializzata combina più caratteristiche in un&#39;unica stringa e invia tali informazioni a una destinazione.
 
@@ -137,4 +137,4 @@ La trasmissione serializzata dei dati contribuisce a migliorare l&#39;efficienza
 
 ### Destinazioni supportate
 
-In [!DNL Audience Manager]potete serializzare e inviare i dati a quasi tutte le destinazioni con cui desiderate lavorare. Prima di utilizzare questa funzione, tuttavia, è necessario conoscere la destinazione [!DNL URL] e il punto in cui inserire le macro obbligatorie o facoltative. Ottenere le informazioni sul posizionamento delle macro dal partner di destinazione. Per ulteriori informazioni, vedere Macro di [destinazione definite](../../features/destinations/destination-macros.md#destination-macros-defined) .
+In [!DNL Audience Manager], puoi serializzare e inviare dati a quasi tutte le destinazioni con cui vuoi lavorare. Prima di utilizzare questa funzione, tuttavia, è necessario conoscere la destinazione [!DNL URL] e il punto in cui posizionare le macro obbligatorie o facoltative. Ottenere le informazioni sul posizionamento delle macro dal partner di destinazione. Per ulteriori informazioni, vedere [Macro di destinazione definite](../../features/destinations/destination-macros.md#destination-macros-defined).
