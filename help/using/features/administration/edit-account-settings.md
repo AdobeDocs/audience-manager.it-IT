@@ -22,11 +22,11 @@ Gli utenti non amministratori possono modificare i propri profili, inclusi la mo
 
 <!-- t_edit_account_settings.xml -->
 
-Gli utenti amministratori possono creare utenti e aggiungerli ai gruppi a scopo di autorizzazione, come spiegato in [Creazione di utenti](../../features/administration/administration-overview.md#create-users) e [Creazione di un gruppo](../../features/administration/administration-overview.md#create-group).
+Gli utenti amministratori possono creare utenti e aggiungerli ai gruppi a scopo di autorizzazione, come spiegato in [Crea utenti](../../features/administration/administration-overview.md#create-users) e [Crea un gruppo](../../features/administration/administration-overview.md#create-group).
 
-1. Nell’intestazione  Audience Manager, fate clic su ![](assets/icon_profile.png).
-1. Fate clic **[!UICONTROL Account Settings]**, quindi fate clic **[!UICONTROL Edit]** per visualizzare la [!UICONTROL My Account] pagina.
-1. Nel **[!UICONTROL Email Address]** campo, specificate il nuovo indirizzo e-mail, se necessario.  Audience Manager non invia notifiche regolari agli utenti.  gli amministratori di Audience Manager hanno accesso agli indirizzi e-mail degli utenti e possono inviare manualmente gli utenti come necessario. Ad esempio, se un utente dimentica la password, l&#39;indirizzo e-mail specificato in questo campo viene utilizzato per inviare una password temporanea e le istruzioni per reimpostare la password.
+1. Nell&#39;intestazione dell&#39;Audience Manager , fare clic su ![](assets/icon_profile.png).
+1. Fare clic su **[!UICONTROL Account Settings]**, quindi su **[!UICONTROL Edit]** per visualizzare la pagina [!UICONTROL My Account].
+1. Nel campo **[!UICONTROL Email Address]**, specificate il nuovo indirizzo e-mail, se necessario.  Audience Manager non invia notifiche regolari agli utenti.  amministratori di Audience Manager hanno accesso agli indirizzi e-mail degli utenti e possono inviare gli utenti manualmente via e-mail in base alle esigenze. Ad esempio, se un utente dimentica la password, l&#39;indirizzo e-mail specificato in questo campo viene utilizzato per inviare una password temporanea e le istruzioni per reimpostare la password.
 1. Per ripristinare la password, specificate la password corrente, specificate la nuova password, quindi confermate la nuova password.
-See also, [Password Requirements, Locked Accounts, and Forgotten Passwords](../../reference/password-requirements.md).
+Vedi anche [Requisiti per la password, Account bloccati e Password dimenticate](../../reference/password-requirements.md).
 1. Clic **[!UICONTROL Save]**.
