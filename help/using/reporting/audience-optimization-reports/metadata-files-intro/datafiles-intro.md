@@ -17,17 +17,17 @@ ht-degree: 4%
 
 # File di dati per report di Audience Optimization e file di registro fruibili {#data-files-for-audience-optimization-reports}
 
-Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, potete importare questi dati in  Audience Manager per visualizzarli nei report [di Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) e creare caratteristiche utilizzando i dati tramite i file di registro [fruibili](/help/using/integration/media-data-integration/actionable-log-files.md). Formattare i file di dati in base alle seguenti specifiche in questa sezione.
+Un file di dati contiene dati di impression, clic o conversione. Se formattati correttamente, puoi importare questi dati nel Audience Manager  per visualizzarli nei report di Audience Optimization [](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) e creare caratteristiche utilizzando i dati tramite [File di registro fruibili](/help/using/integration/media-data-integration/actionable-log-files.md). Formattare i file di dati in base alle seguenti specifiche in questa sezione.
 
 ## Panoramica {#overview}
 
-Un file di dati con nome e formattazione corretti consente di importare dati di impression, clic o conversione nei rapporti [Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Questa funzione è utile quando si lavora con un partner non integrato [!DNL Audience Manager] e si desidera lavorare con i propri dati in quella suite di rapporti. Questo processo richiede file separati per ottenere dati di impression, clic e conversione. Non mescolate questi eventi in un singolo file.
+Un file di dati con nome e formattazione corretti consente di importare dati di impression, clic o conversione in [ Audienci Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Questo è utile quando si lavora con un partner che non è integrato con [!DNL Audience Manager] e si desidera lavorare con i propri dati in quella suite di rapporti. Questo processo richiede file separati per ottenere dati di impression, clic e conversione. Non mescolate questi eventi in un singolo file.
 
-Un file di dati deve essere accompagnato da un file di metadati. I contenuti dei file di metadati corrispondono alle informazioni sui file di dati e alle relative etichette leggibili dai menu dei report. Per ulteriori informazioni, consultate [Panoramica e mappature per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)di metadati.
+Un file di dati deve essere accompagnato da un file di metadati. I contenuti dei file di metadati corrispondono alle informazioni sui file di dati e alle relative etichette leggibili dai menu dei report. Per ulteriori informazioni, consultate [Panoramica e mappature per i file di metadati](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
-## Naming Conventions for Data Files {#naming-conventions}
+## Convenzioni di denominazione per i file di dati {#naming-conventions}
 
-La sintassi seguente definisce la struttura di un nome di file di dati ben formato. Nota: il *corsivo* indica un segnaposto variabile che cambia a seconda del contenuto del file.
+La sintassi seguente definisce la struttura di un nome di file di dati ben formato. Nota: *italics* indica un segnaposto variabile che cambia a seconda del contenuto del file.
 
 **Sintassi:** <pre><i>event type</i>_<i>yyyymmdd</i></code></pre>
 
@@ -35,19 +35,19 @@ In un nome file:
 
 * Il tipo di evento indica che il file contiene impression, clic o conversioni. Create un file separato per ciascun tipo di evento.
 * Un carattere di sottolineatura separa il tipo di evento e la marca temporale di un mese.
-* Prima di caricare i file, comprimeteli utilizzando il file gzip e salvateli con l’estensione del `.gz` file.
+* Prima di caricare i file, comprimeteli utilizzando il file gzip e salvateli con l&#39;estensione `.gz`.
 
 Dati questi requisiti, assegnare ai file di dati un nome in base al contenuto come indicato di seguito:
 
 * Dati di impressione: <pre>impression_<i>yymmdd</i>.gz</code></pre>
-* Fare clic su dati: <pre>click_<i>yyyymmdd</i>.gz</code></pre>
+* Fare clic su dati: <pre>click_<i>yymmdd</i>.gz</code></pre>
 * Dati di conversione: <pre>conversioni_<i>yyyymmdd</i>.gz</code></pre>
 
-## Content Format for Data Files {#content-format}
+## Formato contenuto per i file di dati {#content-format}
 
-La sintassi seguente definisce la struttura del contenuto in un file di dati formato correttamente. Nota: il *corsivo* indica un segnaposto variabile e viene sostituito con un&#39;etichetta in un file di dati effettivo.
+La sintassi seguente definisce la struttura del contenuto in un file di dati formato correttamente. Nota: *italics* indica un segnaposto variabile e viene sostituito con un&#39;etichetta in un file di dati effettivo.
 
-**Sintassi:** <pre><i>etichetta di intestazione 1</i> | Etichetta <i>intestazione 2</i> ... <i>etichetta di intestazione n</i> | <i>versione</i></code></pre>
+**Sintassi:** <pre><i>etichetta di intestazione 1</i> |  <i>etichetta di intestazione 2</i> ...  <i>etichetta di intestazione n</i> |  <i>versione</i></code></pre>
 
 Nel contenuto del file:
 
@@ -55,7 +55,7 @@ Nel contenuto del file:
 * Se non si dispone di dati per una particolare colonna, compilare il campo con un `-1`.
 
 * I file *devono* terminare con un numero di versione. La versione corrente è 1.1.
-* Intestazioni e contenuti del file separati con il carattere ASCII 001 non stampabile. Se non è possibile utilizzare ASCII 001, separare le intestazioni e i dati con un delimitatore di tabulazione. Poiché si tratta di caratteri non stampabili, l&#39;esempio di sintassi riportato sopra mostra una barra verticale solo `"|"` a scopo di visualizzazione.
+* Intestazioni e contenuti del file separati con il carattere ASCII 001 non stampabile. Se non è possibile utilizzare ASCII 001, separare le intestazioni e i dati con un delimitatore di tabulazione. Poiché si tratta di caratteri non stampabili, l&#39;esempio di sintassi riportato sopra mostra una pipe `"|"` solo a scopo di visualizzazione.
 
 **Etichette campo**
 
@@ -71,11 +71,11 @@ La tabella seguente elenca e descrive le intestazioni delle colonne per il file 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Timestamp </p> </td> 
-   <td colname="col2"> <p>Una data e un'ora UTC per l'evento di impression, clic o conversione. Utilizzate il <code> yyyy-MM-dd HH:mm:ss</code> formato. </p> </td> 
+   <td colname="col2"> <p>Una data e un'ora UTC per l'evento di impression, clic o conversione. Utilizzate il formato <code> yyyy-MM-dd HH:mm:ss</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID utente </p> </td> 
-   <td colname="col2"> <p>Il tuo ID per un visitatore del sito, noto anche come ID <span class="term"> utente</span> univoco del fornitore di dati o DPUUID. </p> </td> 
+   <td colname="col2"> <p>Il tuo ID per un visitatore del sito, noto anche come ID utente univoco <span class="term"> del fornitore di dati</span> o DPUUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertiser-ID </p> </td> 
@@ -141,19 +141,19 @@ La tabella seguente elenca e descrive le intestazioni delle colonne per il file 
  </tbody> 
 </table>
 
-## Delivery Methods for Data Files {#delivery-methods}
+## Metodi di consegna dei file di dati {#delivery-methods}
 
-Caricate i file di dati di impression, clic o conversione in una directory Amazon S3  per il vostro [!DNL Audience Manager] account. Fare riferimento a questa sezione per informazioni sui percorsi di consegna/directory, sui tempi di elaborazione dei file e sugli aggiornamenti.
+Caricate i file di dati di impression, clic o conversione in una directory Amazon S3  per il vostro account [!DNL Audience Manager]. Fare riferimento a questa sezione per informazioni sui percorsi di consegna/directory, sui tempi di elaborazione dei file e sugli aggiornamenti.
 
 >[!IMPORTANT]
 >
-> Contatta il tuo consulente  Audience Manager o l&#39;Assistenza clienti per iniziare e configurare una [!DNL Amazon S3] directory per i file di dati.
+> Contatta il tuo consulente  Audience Manager o l&#39;Assistenza clienti per iniziare e configurare una directory [!DNL Amazon S3] per i tuoi file di dati.
 
 **Sintassi percorso di consegna ed esempi**
 
-I dati vengono memorizzati in uno spazio dei nomi separato per ciascun cliente in una [!DNL Amazon S3] directory. Il percorso del file segue la sintassi indicata di seguito. Note, *italics* indicates a variable placeholder. Gli altri elementi sono costanti o chiavi e non vengono modificati.
+I dati vengono memorizzati in uno spazio dei nomi separato per ciascun cliente in una directory [!DNL Amazon S3]. Il percorso del file segue la sintassi indicata di seguito. Nota: *italics* indica un segnaposto variabile. Gli altri elementi sono costanti o chiavi e non vengono modificati.
 
-**Sintassi:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>file type</i>_<i>yyyymmdd</i></code></pre>
+**Sintassi:** <pre>.../log_ingestion/pid= <i>ID AAM<i>/dpid= <i>d_src</i>/logs/ <i>tipo di file</i>_<i>yyyymmdd</i></code></pre>
 
 La tabella seguente definisce ciascuno di questi elementi in un percorso di consegna dei file.
 
@@ -171,7 +171,7 @@ La tabella seguente definisce ciascuno di questi elementi in un percorso di cons
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Questa coppia chiave-valore contiene l'ID cliente <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>Questa coppia chiave-valore contiene l'ID cliente <span class="keyword">  Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
@@ -202,4 +202,4 @@ Per aggiornare i dati, invia un file contenente tutte le impression, i clic o le
 
 ## Passaggi successivi {#next-steps}
 
-Esaminate i requisiti per la denominazione e la creazione di file di metadati. Per iniziare, consultate [Panoramica e mappature per i file](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)di metadati.
+Esaminate i requisiti per la denominazione e la creazione di file di metadati. Per iniziare, vedi [Panoramica e mappature per i file di metadati](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
