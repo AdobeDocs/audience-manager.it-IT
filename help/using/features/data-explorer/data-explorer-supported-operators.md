@@ -36,10 +36,10 @@ Utilizzate i seguenti operatori logici supportati per cercare coppie chiave-valo
 
 | Operatore | Valuta in [!DNL True] Quando |
 |---|---|
-| **[!UICONTROL Contains]** | Il valore in una coppia chiave-valore *contiene* i caratteri specificati da questo operatore. |
-| **[!UICONTROL Startswith]** | Il valore in una coppia chiave-valore *inizia con* i caratteri specificati da questo operatore. |
+| **[!UICONTROL Contains]** | Il valore in una coppia chiave-valore *contiene* caratteri specificati da questo operatore. |
+| **[!UICONTROL Startswith]** | Il valore in una coppia chiave-valore *inizia con i caratteri* specificati da questo operatore. |
 | **[!UICONTROL Endswith]** | Il valore in una coppia chiave-valore *termina con* i caratteri specificati da questo operatore. |
 
 ## Operatori supportati per il recupero e la stima delle caratteristiche {#supported-operators-backfilling}
 
-Potete eseguire il backfill delle caratteristiche che includono espressioni contenenti uno degli operatori supportati da [!UICONTROL Signal Search]. Oltre a questi operatori, il backfill e la stima delle caratteristiche supportano anche gli operatori [!UICONTROL AND], [!UICONTROL OR]e [!UICONTROL AND NOT] logici, utilizzati per combinare coppie chiave-valore all&#39;interno delle espressioni di caratteristica con backfill.
+Potete eseguire il backfill delle caratteristiche che includono espressioni contenenti uno degli operatori supportati da [!UICONTROL Signal Search]. Oltre a questi operatori, il backfill e la stima delle caratteristiche supportano anche gli operatori logici [!UICONTROL AND], [!UICONTROL OR] e [!UICONTROL AND NOT], utilizzati per combinare coppie chiave-valore all&#39;interno delle espressioni di caratteristica con backfill.
