@@ -27,7 +27,7 @@ Definite le etichette di intestazione delle colonne.
 
 >[!NOTE]
 >
->[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le ](../../features/administration/administration-overview.md) autorizzazioni del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella  [!UICONTROL Bulk Management Tools].
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -39,11 +39,11 @@ Definite le etichette di intestazione delle colonne.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> dataSourceId</span> </p> </td> 
-   <td colname="col2"> <p>L'ID di un'origine <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></a> dati da restituire o assegnare in massa. </p> </td> 
+   <td colname="col2"> <p>L'ID di un'origine dati <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"></a> che si desidera restituire o assegnare in massa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> derivateSignalId</span> </p> </td> 
-   <td colname="col2"> <p>Un ID segnale <a href="../../features/derived-signals.md"></a> derivato. </p> </td> 
+   <td colname="col2"> <p>Un ID <a href="../../features/derived-signals.md"> segnale derivato</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> description</span> </p> </td> 
@@ -51,7 +51,7 @@ Definite le etichette di intestazione delle colonne.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationId</span> </p> </td> 
-   <td colname="col2"> <p>ID della <a href="../../features/destinations/destinations.md"> destinazione</a> da mappare o eliminare. </p> </td> 
+   <td colname="col2"> <p>L'ID della <a href="../../features/destinations/destinations.md"> destinazione</a> da mappare o eliminare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> DestinationMappingId</span> </p> </td> 
@@ -75,31 +75,31 @@ Definite le etichette di intestazione delle colonne.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>I segnali sono bit di dati passati al <span class="keyword"> Audience Manager</span>  in base all'attività dell'utente. Questi vengono trasmessi come coppie <a href="../../reference/key-value-pairs-explained.md"></a>chiave-valore. La chiave di origine è una costante che non viene modificata. Consente di classificare il valore di origine che può essere modificato. Consulta <a href="../../features/derived-signals.md"> Segnali</a>derivati. </p> </td> 
+   <td colname="col2"> <p>I segnali sono bit di dati passati a <span class="keyword">  Audience Manager</span> in base all'attività dell'utente. Questi vengono trasmessi come <a href="../../reference/key-value-pairs-explained.md"> coppie chiave-valore</a>. La chiave di origine è una costante che non viene modificata. Consente di classificare il valore di origine che può essere modificato. Vedere <a href="../../features/derived-signals.md"> Segnali derivati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
-   <td colname="col2"> <p>Il valore di origine è una variabile passata come parte di una coppia <a href="../../reference/key-value-pairs-explained.md"></a>chiave-valore. </p> </td> 
+   <td colname="col2"> <p>Il valore di origine è una variabile passata come parte di una <a href="../../reference/key-value-pairs-explained.md"> coppia chiave-valore</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Indica quando un segmento può iniziare a essere inviato a una destinazione. Utilizza il formato <i>yyyy-mm-dd</i> . </p> </td> 
+   <td colname="col2"> <p>Indica quando un segmento può iniziare a essere inviato a una destinazione. Utilizza il formato <i>yyyy-mm-dd</i>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
-   <td colname="col2">Chiave utilizzata nel segnale derivato. Consulta <a href="../../features/derived-signals.md"> Segnali</a>derivati. </td> 
+   <td colname="col2">Chiave utilizzata nel segnale derivato. Vedere <a href="../../features/derived-signals.md"> Segnali derivati</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetValue</span> </p> </td> 
-   <td colname="col2"> <p>Il valore passato con una chiave di segnale derivata. Consulta <a href="../../features/derived-signals.md"> Segnali</a>derivati. </p> </td> 
+   <td colname="col2"> <p>Il valore passato con una chiave di segnale derivata. Vedere <a href="../../features/derived-signals.md"> Segnali derivati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
-   <td colname="col2"> <p>Un ID passato a una destinazione non basata su cookie. Per una destinazione basata su cookie, si tratta della chiave in una coppia <a href="../../reference/key-value-pairs-explained.md"></a>chiave-valore. </p> </td> 
+   <td colname="col2"> <p>Un ID passato a una destinazione non basata su cookie. Per una destinazione basata su cookie, si tratta della chiave in una coppia chiave-valore <a href="../../reference/key-value-pairs-explained.md"></a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule/segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>La caratteristica o la regola del segmento utilizzata per raccogliere i dati. Una richiesta in massa restituisce le regole create in <span class="keyword"> Audience Manager</span> con il generatore <a href="../../features/traits/about-trait-builder.md"> di regole di</a> caratteristica o con il generatore <a href="../../features/segments/segment-builder.md"> di regole di</a>segmento. Potete inoltre utilizzare questi strumenti per creare regole e applicarle in blocco quando aggiornate un segmento o una caratteristica. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
+   <td colname="col2"> <p>La caratteristica o la regola del segmento utilizzata per raccogliere i dati. Una richiesta in massa restituisce le regole create in <span class="keyword">  Audience Manager</span> con il generatore di regole di caratteristica <a href="../../features/traits/about-trait-builder.md"></a> o il generatore di regole di segmento <a href="../../features/segments/segment-builder.md"></a>. Potete inoltre utilizzare questi strumenti per creare regole e applicarle in blocco quando aggiornate un segmento o una caratteristica. </p> <p>Vedere anche <a href="../../reference/bulk-management-tools/bulk-rules.md"> Creare o aggiornare regole caratteristiche e regole segmento</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
@@ -116,7 +116,7 @@ Definite le etichette di intestazione delle colonne.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 
-   <td colname="col2"> <p>Chiave in una coppia <a href="../../reference/key-value-pairs-explained.md"> chiave-valore</a> passata a una destinazione cookie. </p> </td> 
+   <td colname="col2"> <p>La chiave in una <a href="../../reference/key-value-pairs-explained.md"> coppia chiave-valore</a> passata a una destinazione cookie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
