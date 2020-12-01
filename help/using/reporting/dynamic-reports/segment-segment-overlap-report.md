@@ -21,7 +21,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra i segmenti.
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione in  Audience Manager rispettano i principi RBAC. You can only see segments from data sources that you have access to based on the [RBAC User Group](/help/using/features/administration/administration-overview.md) that you belong to.
+>I rapporti di sovrapposizione in  Audience Manager aderiscono ai principi RBAC. È possibile visualizzare solo i segmenti provenienti da origini dati a cui si ha accesso in base al [Gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui si appartiene.
 
 <!-- 
 
@@ -31,18 +31,18 @@ c_segment_segment_overlap.xml
 
 ## Panoramica
 
-Il [!UICONTROL Segment-to-Segment Overlap] rapporto può essere utile:
+Il rapporto [!UICONTROL Segment-to-Segment Overlap] può essere utile:
 
 * Identifica i segmenti con sovrapposizione alta o bassa, a seconda delle tue esigenze. Le caratteristiche con sovrapposizione elevata ti consentono di ottenere un pubblico mirato, ma meno visitatori unici. Le caratteristiche con una sovrapposizione ridotta possono essere utili per raggiungere un set di visitatori unico e più grande.
 * Trovate sovrapposizioni impreviste e utilizzate tali informazioni per creare nuovi segmenti ad alte prestazioni.
 
 ## Report di esempio
 
-L&#39;illustrazione seguente fornisce una panoramica di alto livello del [!UICONTROL Segment-to-Segment Overlap] rapporto.
+L&#39;illustrazione seguente fornisce una panoramica di alto livello del report [!UICONTROL Segment-to-Segment Overlap].
 
 >[!NOTE]
 >
->Il [!UICONTROL Segment-to-Segment Overlap] rapporto restituisce un campo vuoto se confronta lo stesso segmento con se stesso.
+>Il rapporto [!UICONTROL Segment-to-Segment Overlap] restituisce un campo vuoto se confronta lo stesso segmento con se stesso.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -50,7 +50,7 @@ L&#39;illustrazione seguente fornisce una panoramica di alto livello del [!UICON
 
 Selezionare un singolo punto per visualizzare i dettagli dei dati in una finestra a comparsa. Le azioni di clic aggiornano automaticamente i dati visualizzati nel rapporto.
 
-## Segment-to-Segment Overlap Data Fields Definito {#fields-defined}
+## Campi popup dati di sovrapposizione segmento a segmento definiti {#fields-defined}
 
 <!-- 
 
@@ -58,11 +58,11 @@ r_s2s_data_pop.xml
 
  -->
 
-La finestra a comparsa per il [!UICONTROL Segment-to-Segment Overlap] rapporto contiene le metriche riportate di seguito. La metrica univoca nella tabella rappresenta gli utenti *in tempo* reale.
+La finestra a comparsa del report [!UICONTROL Segment-to-Segment Overlap] contiene le metriche riportate di seguito. La metrica univoca nella tabella rappresenta gli *utenti in tempo reale*.
 
 | Metrica | Descrizione |
 |---|---|
-| **[!UICONTROL Base Segment ID]** | ID numerico univoco per il segmento che viene visualizzato nei risultati del rapporto. Viene visualizzato come ID riga per il segmento. |
+| **[!UICONTROL Base Segment ID]** | ID numerico univoco per il segmento visualizzato nei risultati del rapporto. Viene visualizzato come ID riga per il segmento. |
 | **[!UICONTROL Base Segment Name]** | Nome del segmento visualizzato nella riga dei risultati del rapporto. |
 | **[!UICONTROL Overlapping Segment ID]** | ID numerico univoco per il segmento selezionato durante l&#39;esecuzione del rapporto. Viene visualizzato come ID colonna per il segmento. |
 | **[!UICONTROL Overlapping Segment Name]** | Nome del segmento selezionato durante l&#39;esecuzione del rapporto. Viene visualizzata nella colonna dei risultati del rapporto. |
