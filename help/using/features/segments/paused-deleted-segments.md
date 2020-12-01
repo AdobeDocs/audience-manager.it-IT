@@ -21,7 +21,7 @@ Descrive gli effetti su utenti, dati e destinazioni segmentati quando si mette i
 
 ## Accesso ai controlli Pausa ed Elimina
 
-Passa il cursore del mouse sul nome di un segmento nell’elenco dei segmenti per visualizzare le **[!UICONTROL pause]** icone e **[!UICONTROL delete]** (nella [!UICONTROL Actions] colonna). Queste funzioni interessano i segmenti come descritto di seguito.
+Passa il cursore del mouse sul nome di un segmento nell&#39;elenco dei segmenti per visualizzare le icone **[!UICONTROL pause]** e **[!UICONTROL delete]** (nella colonna [!UICONTROL Actions]). Queste funzioni interessano i segmenti come descritto di seguito.
 
 ## Funzionalità Segmento In Pausa
 
@@ -46,4 +46,4 @@ Segmento eliminato:
 
 >[!NOTE]
 >
->Puoi anche mettere in pausa ed eliminare i segmenti utilizzando un [!DNL API] metodo. Per ulteriori informazioni, consultate API [REST](../../api/rest-api-main/rest-api-main.md).
+>È inoltre possibile mettere in pausa ed eliminare i segmenti utilizzando un metodo [!DNL API]. Per ulteriori informazioni, vedere [REST APIs](../../api/rest-api-main/rest-api-main.md).
