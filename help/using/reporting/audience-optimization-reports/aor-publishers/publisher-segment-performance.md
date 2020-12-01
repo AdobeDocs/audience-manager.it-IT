@@ -25,30 +25,30 @@ Confrontando questi diversi tipi di segmenti all&#39;interno e tra i rapporti è
 
 ## Casi d&#39;uso {#use-cases}
 
-Il [!UICONTROL Segment Performance] rapporto consente di:
+Il rapporto [!UICONTROL Segment Performance] consente di:
 
 * Identificare i segmenti di pubblico mappati che determinano scala o prestazioni.
 * Identificare i segmenti non mappati da introdurre nelle campagne future, in base al contributo di un&#39;audience alle prestazioni passate.
 
 ## Utilizzo del report Prestazioni segmento {#using-segment-performance-report}
 
-Passa da **[!UICONTROL Mapped]** a **[!UICONTROL Unmapped]** selezionare i segmenti mappati o meno a una destinazione. Seleziona **[!UICONTROL All]** per includere tutti i segmenti nel rapporto.
+Passa da **[!UICONTROL Mapped]** a **[!UICONTROL Unmapped]** per selezionare o meno i segmenti mappati a una destinazione. Selezionare **[!UICONTROL All]** per includere tutti i segmenti nel rapporto.
 
-Utilizza i controlli Intervallo **** giorno e **Passaggio** data per regolare l’intervallo di look-back. I periodi di lookback di 7 e 30 giorni sono disponibili solo per le date di domenica.
+Utilizzare i controlli **Intervallo di giorni** e **Date Through** per regolare l&#39;intervallo di look-back. I periodi di lookback di 7 e 30 giorni sono disponibili solo per le date di domenica.
 
-Utilizzate la casella a **[!UICONTROL Line Item]** discesa per selezionare le proprietà Web per le quali desiderate restituire le informazioni.
+Utilizzate la casella a discesa **[!UICONTROL Line Item]** per selezionare le proprietà Web per le quali desiderate restituire informazioni.
 
-Nella casella a **[!UICONTROL Segment Data Source]** discesa, seleziona le origini dati contenenti i segmenti che desideri vedere nel rapporto.
+Nella casella a discesa **[!UICONTROL Segment Data Source]**, seleziona le origini dati contenenti i segmenti che desideri vedere nel rapporto.
 
-Utilizzate la casella a **[!UICONTROL Segment]** discesa per selezionare i segmenti da visualizzare nel rapporto.
+Utilizzate la casella a discesa **[!UICONTROL Segment]** per selezionare i segmenti da visualizzare nel rapporto.
 
 >[!IMPORTANT]
 >
->Quando [!UICONTROL Audience Optimization for Publishers]abilitate, dovete includere metadati descrittivi per [!UICONTROL Line Item IDs], come descritto nel Passaggio 3 di [Importa file di dati Google Ad Manager (ex DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Line Item] anziché come [!UICONTROL Line Item ID].
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Line Item IDs], come descritto nel passaggio 3 di [Importa file di dati Google Ad Manager (precedentemente DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che il rapporto descriva la proprietà Web come [!UICONTROL Line Item] anziché come [!UICONTROL Line Item ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
-Il tuo [!UICONTROL Segment Performance] rapporto potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti. Vedere le descrizioni per le informazioni aggiuntive nella tabella sotto il rapporto campione.
+Il report [!UICONTROL Segment Performance] potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti. Vedere le descrizioni per le informazioni aggiuntive nella tabella sotto il rapporto campione.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -86,12 +86,12 @@ Il tuo [!UICONTROL Segment Performance] rapporto potrebbe essere simile a quello
   </tr> 
   <tr> 
    <td colname="col1"> <p>Popolazione segmento Real-time </p> </td> 
-   <td colname="col2"> <p>Il numero effettivo di visitatori univoci visti in tempo reale per l'intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>Il numero effettivo di visitatori univoci visti in tempo reale per l'intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visti da <span class="keyword">  Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Come leggere i risultati dei segmenti mappati {#read-mapped-segment}
+## Come leggere i risultati del segmento mappato {#read-mapped-segment}
 
 La posizione dei segmenti mappati in un report può fornire informazioni dettagliate sui segmenti che ottengono buoni risultati e sui punti in cui potrebbe essere necessario apportare alcune modifiche.
 
@@ -99,9 +99,9 @@ Per leggere il rapporto, è utile suddividere i risultati in quattro sezioni con
 
 ![](assets/publisher_segment_performance_mapped.png)
 
-## Come leggere i risultati dei segmenti non mappati {#read-unmapped-segment}
+## Come leggere i risultati del segmento non mappato {#read-unmapped-segment}
 
-Osservare i segmenti non mappati in un [!UICONTROL Segment Performance] report è un ottimo modo per trovare nuovi segmenti che non hai considerato per il targeting. In realtà, alcuni di questi segmenti potrebbero superare i segmenti mappati.
+Osservare i segmenti non mappati in un report [!UICONTROL Segment Performance] è un ottimo modo per trovare nuovi segmenti che non hai considerato per il targeting. In realtà, alcuni di questi segmenti potrebbero superare i segmenti mappati.
 
 Per leggere questo rapporto, è utile dividere i risultati in quattro sezioni con linee immaginarie (in rosso) e categorie mostrate nel rapporto di esempio seguente.
 
