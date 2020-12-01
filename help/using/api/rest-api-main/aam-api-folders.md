@@ -23,6 +23,6 @@ Metodi che consentono di utilizzare in modo programmatico le cartelle di caratte
 
 >[!IMPORTANT]
 >
->I [!DNL API] metodi cartella sono stati riscritti con [!DNL Swagger] e migrati. Consulta:  >
->* [Adobi Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
+>I metodi [!DNL API] della cartella sono stati riscritti con [!DNL Swagger] e migrati. Consulta:  >
+>* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione del codice API di Audience Manager](../../api/api-swagger-migration.md)
