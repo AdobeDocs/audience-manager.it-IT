@@ -29,7 +29,7 @@ Cosa fare quando i fogli di lavoro restituiscono un errore o la richiesta in blo
 
 >[!NOTE]
 >
->[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le ](../../features/administration/administration-overview.md) autorizzazioni del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella  [!UICONTROL Bulk Management Tools].
 
 Fattori come il traffico di rete pesante, l&#39;utilizzo del server e i set di dati di grandi dimensioni possono causare il fallimento di una richiesta in massa o il timeout. In caso di problemi, il foglio di lavoro interrompe la scrittura dei dati e visualizza un messaggio di errore. In questo caso, devi:
 
@@ -60,8 +60,8 @@ Nella tabella seguente sono elencati alcuni problemi comuni che si possono incon
    <td colname="col1"> <b>Lunghi ritardi</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Disattiva modalità</b>compatibilità: Verificare che siano aperti altri fogli di lavoro in modalità di compatibilità di Microsoft Excel. La modalità di compatibilità può aumentare i tempi di esecuzione. Chiudete eventuali fogli di calcolo aperti in questa modalità e riprovate la richiesta in blocco. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Risorse</b>di sistema: Le limitate risorse del sistema contribuiscono a lunghi ritardi. Prova a chiudere tutti gli altri programmi prima di effettuare una richiesta in massa. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Disattiva modalità</b> compatibilità: Verificare che siano aperti altri fogli di lavoro in modalità di compatibilità di Microsoft Excel. La modalità di compatibilità può aumentare i tempi di esecuzione. Chiudete eventuali fogli di calcolo aperti in questa modalità e riprovate la richiesta in blocco. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Risorse</b> di sistema: Le limitate risorse del sistema contribuiscono a lunghi ritardi. Prova a chiudere tutti gli altri programmi prima di effettuare una richiesta in massa. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -78,5 +78,5 @@ Nella tabella seguente sono elencati alcuni problemi comuni che si possono incon
 
 ## Messaggi di errore
 
-A volte, è possibile ricevere messaggi di errore quando si apportano modifiche collettive. Per interpretare il messaggio di errore, consultate Codici di [risposta definiti](/help/using/api/rest-api-main/aam-api-getting-started.md) nella documentazione API.
+A volte, è possibile ricevere messaggi di errore quando si apportano modifiche collettive. Per interpretare il messaggio di errore, consultare [Codici di risposta definiti](/help/using/api/rest-api-main/aam-api-getting-started.md) nella documentazione API.
 
