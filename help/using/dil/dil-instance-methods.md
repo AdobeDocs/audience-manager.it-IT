@@ -18,7 +18,7 @@ ht-degree: 15%
 
 # Metodi DIL a livello di istanza{#instance-level-dil-methods}
 
-Le [!UICONTROL DIL] API a livello di istanza consentono di creare e utilizzare in modo programmatico  oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
+Le API [!UICONTROL DIL] a livello di istanza consentono di creare e utilizzare in modo programmatico oggetti  Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
 
 ## Guida introduttiva ai metodi DIL a livello di istanza {#get-started-dil-methods}
 
@@ -28,10 +28,10 @@ c_api_overview.xml
 
  -->
 
-Quando si utilizzano le [!UICONTROL DIL] API a livello di istanza:
+Quando si lavora con le API a livello di istanza [!UICONTROL DIL]:
 
 * L&#39;accesso richiede un nome partner e un ID spazio nomi contenitore (NSID). Contattate il vostro responsabile commerciale  Audience Manager per ottenere queste informazioni.
-* Sostituite eventuale testo *in corsivo* di esempio nella documentazione API con valore, ID o altra variabile, come richiesto dal metodo con cui state lavorando.
+* Sostituite il testo di esempio *corsivo* nella documentazione API con valore, ID o altra variabile, come richiesto dal metodo utilizzato.
 
 <!-- 
 
@@ -39,7 +39,7 @@ c_instance_start.xml
 
  -->
 
-## signal {#signals}
+## segnali {#signals}
 
 Aggiunge mappature a livello di cliente e piattaforma alla stringa di query di una richiesta in sospeso.
 
@@ -78,7 +78,7 @@ Le seguenti chiavi di richiesta sono riservate e non possono essere sovrascritte
 
 **Risposta**
 
-Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39;istanza corrente [!UICONTROL DIL].
 
 **Codice di esempio**
 
@@ -125,7 +125,7 @@ r_dil_traits.xml
 
 **Risposta**
 
-Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39;istanza corrente [!UICONTROL DIL].
 
 **Codice di esempio**
 
@@ -137,7 +137,7 @@ var partnerObject = DIL.create({
 partnerObject.api.traits(<i>[123, 456, 789]</i>); 
 </code></pre>
 
-## logs {#logs}
+## log {#logs}
 
 Aggiungere dati ai file di registro nella richiesta in sospeso.
 
@@ -151,7 +151,7 @@ r_dil_logs.xml
 
 **Risposta**
 
-Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39;istanza corrente [!UICONTROL DIL].
 
 **Codice di esempio**
 
@@ -168,7 +168,7 @@ partnerObject.api.logs({
 
 ## submit {#submit}
 
-Invia tutti i dati in sospeso a  Audience Manager per l&#39; [!UICONTROL DIL] istanza.
+Invia tutti i dati in sospeso al Audience Manager  per l&#39;istanza [!UICONTROL DIL].
 
 <!-- 
 
@@ -180,11 +180,11 @@ r_dil_submit.xml
 
 >[!NOTE]
 >
->Potete catena altre chiamate API a questo metodo. Inoltre, [!UICONTROL DIL] scrive dati codificati in un cookie di destinazione. Ad esempio, gli spazi sono codificati come `%20` e punto e virgola come `%3B`.
+>Potete catena altre chiamate API a questo metodo. Inoltre, [!UICONTROL DIL] scrive dati codificati in un cookie di destinazione. Ad esempio, gli spazi sono codificati come `%20` e i punti e virgola come `%3B`.
 
 **Risposta**
 
-Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39;istanza corrente [!UICONTROL DIL].
 
 **Codice di esempio**
 
@@ -228,7 +228,7 @@ r_dil_after_result.xml
 
 **Risposta**
 
-Restituisce un oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
+Restituisce un oggetto API dell&#39;istanza corrente [!UICONTROL DIL].
 
 **Codice di esempio**
 
@@ -264,7 +264,7 @@ r_dil_clear_data.xml
 
 **Risposta**
 
-Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39;istanza corrente [!UICONTROL DIL].
 
 **Codice di esempio**
 
@@ -332,7 +332,7 @@ partnerObject.api.customQueryParams({
 
 ## getContainerNSID {#getcontainernsid}
 
-Restituisce il valore del NSID contenitore per l&#39; [!UICONTROL DIL] istanza. Utile per il debug e la risoluzione dei problemi.
+Restituisce il valore del NSID contenitore per l&#39;istanza [!UICONTROL DIL]. Utile per il debug e la risoluzione dei problemi.
 
 <!-- 
 
@@ -393,7 +393,7 @@ if (log && log.length) {
 
 ## getPartner {#getpartner}
 
-Restituisce il nome del partner per un&#39; [!UICONTROL DIL] istanza. Utile per il debug e la risoluzione dei problemi.
+Restituisce il nome del partner per un&#39;istanza [!UICONTROL DIL]. Utile per il debug e la risoluzione dei problemi.
 
 <!-- 
 
@@ -417,7 +417,7 @@ var partner = dataLib.api.getPartner();
 
 ## getState {#getstate}
 
-Restituisce lo stato dell&#39; [!UICONTROL DIL] istanza corrente. Utile per il debug e la risoluzione dei problemi.
+Restituisce lo stato dell&#39;istanza corrente [!UICONTROL DIL]. Utile per il debug e la risoluzione dei problemi.
 
 <!-- 
 
@@ -497,7 +497,7 @@ r_dil_idsync.xml
 
 **Firma funzione:**
 
-Funziona con [!UICONTROL DIL] versioni 2.10 e 3.1 o successive.
+Funziona con le versioni [!UICONTROL DIL] 2.10 e 3.1 o successive.
 
 <table id="table_ADC7501511914805A6A6B24B2DFEBA51"> 
  <thead> 
@@ -509,11 +509,11 @@ Funziona con [!UICONTROL DIL] versioni 2.10 e 3.1 o successive.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Tra partner di dati diversi e Audience Manager . Ad esempio, il partner x lo utilizza per sincronizzare un ID utente con il partner y e inviarlo al Audience Manager . </p> <p> <p><b>Importante:</b>  Questo metodo è obsoleto. Utilizzare il <code> idSyncByURL </code> metodo dell'istanza di Adobe Experience Platform Identity Service. </p> </p> </td> 
+   <td colname="col2"> <p>Tra partner di dati diversi e Audience Manager . Ad esempio, il partner x lo utilizza per sincronizzare un ID utente con il partner y e inviarlo al Audience Manager . </p> <p> <p><b>Importante: </b>  questo metodo è obsoleto. Utilizzare il metodo <code> idSyncByURL </code> dell'istanza di Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Quando si conosce già l'ID utente e si desidera inviarlo  Audience Manager. </p> <p> <p><b>Importante:</b>  Questo metodo è obsoleto. Utilizzare il <code> idSyncByDataSource </code> metodo dell'istanza di Adobe Experience Platform Identity Service. </p> </p> </td> 
+   <td colname="col2"> <p>Quando si conosce già l'ID utente e si desidera inviarlo  Audience Manager. </p> <p> <p><b>Importante: </b>  questo metodo è obsoleto. Utilizzare il metodo <code> idSyncByDataSource </code> dell'istanza di Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -560,11 +560,11 @@ Funziona con [!UICONTROL DIL] versioni 2.10 e 3.1 o successive.
 
 * **`%TIMESTAMP%`:** genera una marca temporale (in millisecondi). Utilizzato per svuotare la cache.
 * **`%DID%`:** inserisce l&#39;ID di Audience Manager per l&#39;utente.
-* **`%HTTP_PROTO%`:** Imposta il protocollo di pagina ( `http` o `https`).
+* **`%HTTP_PROTO%`:** Imposta il protocollo di pagina (  `http` o  `https`).
 
 **Risposta**
 
-In `Successfully queued` caso di esito positivo, entrambe le funzioni restituiscono. In caso di esito negativo, restituiscono la stringa di un messaggio di errore.
+Entrambe le funzioni restituiscono `Successfully queued` in caso di esito positivo. In caso di esito negativo, restituiscono la stringa di un messaggio di errore.
 
 **Codice di esempio**
 
@@ -591,7 +591,7 @@ dilInstance.api.aamIdSync({
 });
 </code></pre>
 
-## result {#result}
+## risultato {#result}
 
 Aggiunge un callback (che riceve JSON) alla richiesta in sospeso.
 
@@ -617,7 +617,7 @@ Questo callback sostituisce il callback predefinito che gestisce la pubblicazion
 
 **Risposta**
 
-Restituisce l&#39;oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
+Restituisce l&#39;oggetto API dell&#39;istanza corrente [!UICONTROL DIL].
 
 **Codice di esempio**
 
@@ -634,7 +634,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){
 
 ## secureDataCollection {#securedatacollection}
 
-`secureDataCollection` è un parametro booleano che controlla il modo in cui [!UICONTROL DIL] effettua le chiamate a [!UICONTROL Data Collection Servers (DCS)] e Akamai.
+`secureDataCollection` è un parametro booleano che controlla il modo in cui  [!UICONTROL DIL] effettua le chiamate a  [!UICONTROL Data Collection Servers (DCS)] e Akamai.
 
 <!-- 
 
@@ -642,13 +642,13 @@ dil-secure-data-collection.xml
 
  -->
 
-* Quando `secureDataCollection= true` (impostazione predefinita), effettua [!UICONTROL DIL] sempre chiamate HTTPS sicure.
+* Quando `secureDataCollection= true` (predefinito), [!UICONTROL DIL] effettua sempre chiamate HTTPS sicure.
 
 * Quando `secureDataCollection= false`, [!UICONTROL DIL] effettua chiamate HTTP o HTTPS seguendo il protocollo di sicurezza impostato dalla pagina.
 
 >[!IMPORTANT]
 >
->Impostato `secureDataCollection= false` se utilizzi visitorAPI.js e [!UICONTROL DIL] sulla stessa pagina. Vedi l’esempio di codice riportato di seguito.
+>Impostate `secureDataCollection= false` se utilizzate visitorAPI.js e [!UICONTROL DIL] sulla stessa pagina. Vedi l’esempio di codice riportato di seguito.
 
 <pre><code class="js">
 var dilInstance = DIL.create({ 
@@ -669,7 +669,7 @@ dil-use-cors-only.xml
 
 **Panoramica**
 
-`useCORSOnly` è false per impostazione predefinita. False indica che il browser può eseguire controlli delle risorse con CORS o JSONP. Tuttavia, [!UICONTROL DIL] cerca sempre di richiedere risorse prima con CORS. Se necessario, utilizza JSONP per i browser più datati che non supportano CORS. Se dovete obbligare il browser a utilizzare solo CORS, ad esempio con siti che hanno requisiti di sicurezza elevati, impostate `useCORSOnly:true`.
+`useCORSOnly` è false per impostazione predefinita. False indica che il browser può eseguire controlli delle risorse con CORS o JSONP. Tuttavia, [!UICONTROL DIL] tenta sempre di richiedere le risorse prima con CORS. Se necessario, utilizza JSONP per i browser più datati che non supportano CORS. Se dovete obbligare il browser a utilizzare solo CORS, ad esempio con siti con requisiti di sicurezza elevati, impostate `useCORSOnly:true`.
 
 **Esempio di codice**
 
@@ -683,7 +683,7 @@ var dilInstance = DIL.create({
 >[!IMPORTANT]
 >
 >* È consigliabile impostare `useCORSOnly: true` solo quando si è certi che i visitatori del sito dispongono di browser che supportano questa funzione.
->* Quando `useCORSOnly: true`, [!UICONTROL DIL] non effettua chiamate ID da Internet Explorer versione 9 o versioni precedenti.
+>* Se `useCORSOnly: true`, [!UICONTROL DIL] non effettua chiamate ID da Internet Explorer versione 9 o versioni precedenti.
 
 >
 
@@ -691,7 +691,7 @@ var dilInstance = DIL.create({
 
 ## useImageRequest {#useimagerequest}
 
-Cambia il tipo di richiesta in immagine `<img>` da script `<src>`.
+Cambia il tipo di richiesta in immagine `<img>` dallo script `<src>`.
 
 <!-- 
 
@@ -707,7 +707,7 @@ r_dil_use_image_request.xml
 
 **Risposta**
 
-Restituisce un oggetto API dell&#39; [!UICONTROL DIL] istanza corrente.
+Restituisce un oggetto API dell&#39;istanza corrente [!UICONTROL DIL].
 
 **Codice di esempio**
 
