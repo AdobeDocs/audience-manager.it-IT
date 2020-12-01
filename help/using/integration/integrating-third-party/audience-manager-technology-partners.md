@@ -17,159 +17,159 @@ ht-degree: 59%
 
 # Partner di attivazione  Audience Manager
 
-Questa pagina include  integrazioni [](/help/using/features/destinations/add-edit-segments.md) server-to-server correnti Audience Manager.  Per ulteriori informazioni su un&#39;integrazione, consulta l&#39;elenco [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (dove disponibile) o contatta il tuo consulente del Adobe  o l&#39;Assistenza clienti.
+Questa pagina include  Audience Manager corrente [integrazioni server-to-server](/help/using/features/destinations/add-edit-segments.md).  Per ulteriori informazioni su un&#39;integrazione, fare riferimento al relativo elenco [ Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (se disponibile) o contattare il consulente  Adobe o l&#39;Assistenza clienti.
 
 <br> 
 
-* **Aggiornato** = mostra l&#39;ultima data in cui è stato aggiornato il partner di attivazione.
-* **Unsegment** = Unsegmentation descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall&#39;opzione del dispositivo utilizzata per creare una regola di unione dei profili. La segmentazione viene utilizzata anche nel contesto delle richieste di eliminazione GDPR, le regole di unione dei [profili di lettura e i processi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) di ssegmentazione dei dispositivi e i partner di [Audience Manager con funzionalità](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)di segmentazione.  Audience Manager invia le informazioni di segmento alle destinazioni contrassegnate con Sì di seguito.
-* **Ricevere segnali** di consenso IAB TCF = Il plug-in del Audience Manager  per IAB TCF consente di inoltrare la stringa IAB TC ai partner di attivazione rispettando le scelte di privacy degli utenti. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
-* **ICDS** = In questa colonna sono elencati i partner che supportano la soppressione immediata tra dispositivi. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **ID** dispositivo mobile = Questa colonna elenca i partner che possono ricevere gli ID dispositivo mobile da  Audience Manager.
+* **Aggiornato** = Indica l’ultima data in cui è stato aggiornato il partner di attivazione.
+* **Unsegment** = Unsegmentation descrive i processi che qualificano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall&#39;opzione del dispositivo utilizzata per creare una regola di unione dei profili. La segmentazione viene utilizzata anche nel contesto delle richieste di eliminazione GDPR Leggi [Regole di unione profilo e processi di segmentazione del dispositivo](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [ partner di Audience Manager con funzionalità di segmentazione](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation).  Audience Manager invia le informazioni di segmento alle destinazioni contrassegnate con Sì di seguito.
+* **Ricevere segnali**  di consenso IAB TCF= Il plug-in del Audience Manager  per IAB TCF consente di inoltrare la stringa IAB TC ai partner di attivazione rispettando le scelte di privacy degli utenti. Leggere [ Plug-in di Audience Manager per IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **ICDS** = In questa colonna sono elencati i partner che supportano la soppressione immediata tra dispositivi. Leggi [Soppressione immediata tra dispositivi](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **ID**  dispositivo mobile= In questa colonna sono elencati i partner che possono ricevere ID dispositivo mobile da  Audience Manager.
 
 <br> 
 
 | Integrazione | Aggiornata | Separa | Ricevere segnali di consenso IAB TCF | ICDS | ID di dispositivi mobili |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
-| Approfondimenti 4C | 26/09/2018 | Sì | No | No | Sì |
-| 4info | 09/02/2017 | No | No | No | Sì |
-| AcuityAds | 09/02/2017 | Sì | No | Sì | No |
-| Adara | 17/02/2017 | Sì | No | No | No |
-| Mobilità dipendente | 22/02/2017 | Sì | No | Sì | Sì |
-| Adelfico | 22/02/2017 | No | No | No | Sì |
-| AdForm | 22/02/2017 | Sì | No | Sì | Sì |
-| AdGear | 22/02/2017 | Sì | No | Sì | No |
-| Adikteev | 26/01/2018 | Sì | No | No | Sì |
-| Adswizz | 09/10/2017 | Sì | No | No | Sì |
-| Adteorico | 22/02/2017 | Sì | No | No | Sì |
-| Affinio | 03/04/2018 | Sì | No | No | Sì |
-| Aki | 21/06/2018 | No | No | No | Sì |
-|  Amazon Advertising | 15/06/2017 | Sì | No | No | No |
-| AOL AdLearn | 02/03/2017 | No | No | No | Sì |
-| AOL ONE | 02/03/2017 | Sì | No | No | Sì |
-| AppNexus | 02/03/2017 | Sì | No | Sì | No |
-| AppNexus Yieldex | 10/08/2017 | Sì | No | No | No |
-| Atedra/AdStand | 02/03/2017 | Sì | No | Sì | No |
-| Avocent | 06/12/2017 | No | No | No | No |
+| Approfondimenti 4C | 09/02/2018 | Sì | No | No | Sì |
+| 4info | 02/09/2017 | No | No | No | Sì |
+| AcuityAds | 02/09/2017 | Sì | No | Sì | No |
+| Adara | 02/17/2017 | Sì | No | No | No |
+| Mobilità dipendente | 02/22/2017 | Sì | No | Sì | Sì |
+| Adelfico | 02/22/2017 | No | No | No | Sì |
+| AdForm | 02/22/2017 | Sì | No | Sì | Sì |
+| AdGear | 02/22/2017 | Sì | No | Sì | No |
+| Adikteev | 01/26/2018 | Sì | No | No | Sì |
+| Adswizz | 10/09/2017 | Sì | No | No | Sì |
+| Adteorico | 02/22/2017 | Sì | No | No | Sì |
+| Affinio | 04/03/2018 | Sì | No | No | Sì |
+| Aki | 06/21/2018 | No | No | No | Sì |
+|  Amazon Advertising | 06/15/2017 | Sì | No | No | No |
+| AOL AdLearn | 03/02/2017 | No | No | No | Sì |
+| AOL ONE | 03/02/2017 | Sì | No | No | Sì |
+| AppNexus | 03/02/2017 | Sì | No | Sì | No |
+| AppNexus Yieldex | 08/10/2017 | Sì | No | No | No |
+| Atedra/AdStand | 03/02/2017 | Sì | No | Sì | No |
+| Avocent | 12/06/2017 | No | No | No | No |
 | Bidtellect | 03/03/2017 | Sì | No | No | No |
-| cera d&#39;api | 25/05/2018 | No | No | No | Sì |
+| cera d&#39;api | 05/02/2018 | No | No | No | Sì |
 | Brandscreen | 03/03/2017 | No | No | No | No |
 | Brightroll | 03/03/2017 | No | Sì | No | No |
-| Pulsante | 18/12/2017 | Sì | No | No | Sì |
-| C1 Exchange | 27/02/2017 | Sì | No | No | No |
-| Celtra | 27/02/2017 | Sì | No | No | Sì |
-| Centro | 27/02/2017 | No | No | No | Sì |
-| ChoiceStream | 27/02/2017 | No | No | No | No |
-| Clearstream.tv | 27/02/2017 | Sì | No | No | No |
-| Piattaforma AMP collettiva | 27/02/2017 | No | No | No | No |
-| Criteo | 27/02/2017 | No | Sì | No | Sì |
-| Trasversale | 27/02/2017 | Sì | No | No | No |
-| D.A.C. AudienceOne | 27/02/2017 | Sì | No | No | No |
-| DataXu | 11/20/2017 | No | No | No | Sì |
-| Digilante | 02/03/2017 |  | No | No | No |
-| DistrettoM | 02/03/2017 | Sì | No | No | No |
-| DoubleVerify | 06/09/2017 | Sì | No | No | No |
-| Drawbridge | 02/03/2017 | No | No | No | Sì |
-| Dstillery (FKA Media6) | 02/03/2017 | Sì | No | No | Sì |
+| Pulsante | 12/18/2017 | Sì | No | No | Sì |
+| C1 Exchange | 02/27/2017 | Sì | No | No | No |
+| Celtra | 02/27/2017 | Sì | No | No | Sì |
+| Centro | 02/27/2017 | No | No | No | Sì |
+| ChoiceStream | 02/27/2017 | No | No | No | No |
+| Clearstream.tv | 02/27/2017 | Sì | No | No | No |
+| Piattaforma AMP collettiva | 02/27/2017 | No | No | No | No |
+| Criteo | 02/27/2017 | No | Sì | No | Sì |
+| Trasversale | 02/27/2017 | Sì | No | No | No |
+| D.A.C. AudienceOne | 02/27/2017 | Sì | No | No | No |
+| DataXu | 20/11/2017 | No | No | No | Sì |
+| Digilante | 03/02/2017 |  | No | No | No |
+| DistrettoM | 03/02/2017 | Sì | No | No | No |
+| DoubleVerify | 09/06/2017 | Sì | No | No | No |
+| Drawbridge | 03/02/2017 | No | No | No | Sì |
+| Dstillery (FKA Media6) | 03/02/2017 | Sì | No | No | Sì |
 | Conversante di Epsilon | 03/03/2017 | No | No | No | No |
-| Esponenziale | 27/02/2017 | Sì | No | Sì | No |
-| Marketing Eyereturn | 11/04/2017 | Sì | No | No | No |
-| EyeView Digital | 14/06/2018 | Sì | No | No | Sì |
+| Esponenziale | 02/27/2017 | Sì | No | Sì | No |
+| Marketing Eyereturn | 04/11/2017 | Sì | No | No | No |
+| EyeView Digital | 06/14/2018 | Sì | No | No | Sì |
 | Fiksu | 03/03/2017 | Sì | No | No | Sì |
-| Flash | 02/03/2017 | No | No | No | No |
+| Flash | 03/02/2017 | No | No | No | No |
 | FreakOut | 03/03/2017 | Sì | No | No | No |
-| FreeWheel | 27/02/2017 | Sì | Sì | No | Sì |
+| FreeWheel | 02/27/2017 | Sì | Sì | No | Sì |
 | Supporti gamma | 03/03/2017 |  | No | No |  |
-| Google AdsWords Display | 02/08/2018 | Sì | Sì | No | Sì |
-| Gestione offerte Google DoubleClick (DBM) | 24/04/2017 | Sì | Sì | Sì | Sì |
-| Google DoubleClick Campaign Manager (DCM fka DFA) | 24/04/2017 | Sì | Sì | Sì | Sì |
-| Google DoubleClick for Publishers (DFP, DFPP) | 24/04/2017 | Sì | Sì | Sì | Sì |
-| GumGum | 02/06/2017 | Sì | No | No | No |
+| Google AdsWords Display | 08/02/2018 | Sì | Sì | No | Sì |
+| Gestione offerte Google DoubleClick (DBM) | 04/24/2017 | Sì | Sì | Sì | Sì |
+| Google DoubleClick Campaign Manager (DCM fka DFA) | 04/24/2017 | Sì | Sì | Sì | Sì |
+| Google DoubleClick for Publishers (DFP, DFPP) | 04/24/2017 | Sì | Sì | Sì | Sì |
+| GumGum | 06/02/2017 | Sì | No | No | No |
 | Indice Exchange (ex Casale Media) | 03/03/2017 | Sì | No | No | No |
 | File multimediali infettivi | 03/03/2017 | Sì | No | Sì | No |
-| inMobi | 30/03/2017 | Sì | No | No | Sì |
-| Innovid | 02/03/2017 | Sì | No | No | No |
-| iPinYou | 11/07/2017 | No | No | No | No |
-| Jampp | 11/05/2017 | Sì | No | No | Sì |
-| Jivox | 30/08/2017 | No | No | No | No |
+| inMobi | 03/03/2017 | Sì | No | No | Sì |
+| Innovid | 03/02/2017 | Sì | No | No | No |
+| iPinYou | 07/11/2017 | No | No | No | No |
+| Jampp | 05/11/2017 | Sì | No | No | Sì |
+| Jivox | 08/03/2017 | No | No | No | No |
 | Juice Mobile | 03/03/2017 | Sì | No | No | Sì |
-| Krux | 30/06/2017 | No | No | No | Sì |
-| Liftoff.io | 09/11/2017 | Sì | No | No | Sì |
-| LiveIntent | 17/07/2017 | Sì | No | No | No |
-| LiveRail | 20/01/2017 |  | No | No |  |
-| Logicad | 22/06/2017 | No | No | No | No |
-| Lotame | 30/06/2017 | Sì | No | No | Sì |
-| MaxPoint Interactive | 27/02/2017 | No | No | No | No |
-| MediaMath | 27/02/2017 | Sì | No | No | Sì |
-| Annunci Bing Microsoft | 30/05/2017 | Sì | Sì | Sì | No |
-| Millenni | 27/02/2017 | No | No | No | Sì |
-| Piattaforma Cina | 06/08/2018 | Sì | No | No | Sì |
-| I/O narrativo | 12/01/2018 | Sì | No | No | Sì |
-| Touch nativo | 02/03/2017 | Sì | No | No | Sì |
-| Nativo | 27/02/2017 | Sì | No | No | No |
-| Mail.ru | 29/04/2019 | Sì | No | No | Sì |
-| Mobile Professional | 25/05/2018 | Sì | No | No | Sì |
-| Netmining | 02/03/2017 | No | No | No | No |
-| Neustar | 28/03/2017 | Sì | No | No | No |
-| OnAd | 13/02/2017 | Sì | No | Sì | No |
-| OneSpot | 19/06/2017 | Sì | No | No | Sì |
-| OpenX | 26/07/2018 | Sì | No | No | Sì |
-| Opera mediaworks | 13/02/2017 | Sì | No | No | Sì |
-| Esterno | 03/04/2017 | Sì | No | No | No |
-| OwnerIQ | 13/02/2017 | Sì | No | Sì | No |
-| Piattaforma 161 | 28/11/2018 | Sì | No | No | Sì |
-| PocketMath | 22/02/2017 | Sì | No | No | Sì |
-| Collegamenti | 17/05/2017 | Sì | No | No | No |
-| Pubmatico | 13/02/2017 | Sì | No | No | No |
-| Pulsepoint | 13/02/2017 | Sì | No | No | No |
-| PushSpring | 28/08/2017 | Sì | No | No | Sì |
-| Quantcast | 13/02/2017 | Sì | No | No | No |
-| RhythmOne / RadiumOne | 13/02/2017 | Sì | No | No | Sì |
-| Riemergere | 31/05/2017 | Sì | No | Sì | Sì |
-| Resonare | 17/02/2017 | Sì | No | No | No |
-| RevJet | 17/02/2017 | No | No | No | No |
-| RocketFuel | 17/02/2017 | Sì | No | Sì | Sì |
+| Krux | 06/03/2017 | No | No | No | Sì |
+| Liftoff.io | 11/09/2017 | Sì | No | No | Sì |
+| LiveIntent | 07/17/2017 | Sì | No | No | No |
+| LiveRail | 01/20/2017 |  | No | No |  |
+| Logicad | 06/22/2017 | No | No | No | No |
+| Lotame | 06/03/2017 | Sì | No | No | Sì |
+| MaxPoint Interactive | 02/27/2017 | No | No | No | No |
+| MediaMath | 02/27/2017 | Sì | No | No | Sì |
+| Annunci Bing Microsoft | 05/03/2017 | Sì | Sì | Sì | No |
+| Millenni | 02/27/2017 | No | No | No | Sì |
+| Piattaforma Cina | 08/06/2018 | Sì | No | No | Sì |
+| I/O narrativo | 01/12/2018 | Sì | No | No | Sì |
+| Touch nativo | 03/02/2017 | Sì | No | No | Sì |
+| Nativo | 02/27/2017 | Sì | No | No | No |
+| Mail.ru | 04/29/2019 | Sì | No | No | Sì |
+| Mobile Professional | 05/02/2018 | Sì | No | No | Sì |
+| Netmining | 03/02/2017 | No | No | No | No |
+| Neustar | 03/02/2017 | Sì | No | No | No |
+| OnAd | 02/13/2017 | Sì | No | Sì | No |
+| OneSpot | 06/19/2017 | Sì | No | No | Sì |
+| OpenX | 07/02/2018 | Sì | No | No | Sì |
+| Opera mediaworks | 02/13/2017 | Sì | No | No | Sì |
+| Esterno | 04/03/2017 | Sì | No | No | No |
+| OwnerIQ | 02/13/2017 | Sì | No | Sì | No |
+| Piattaforma 161 | 11/02/2018 | Sì | No | No | Sì |
+| PocketMath | 02/22/2017 | Sì | No | No | Sì |
+| Collegamenti | 05/17/2017 | Sì | No | No | No |
+| Pubmatico | 02/13/2017 | Sì | No | No | No |
+| Pulsepoint | 02/13/2017 | Sì | No | No | No |
+| PushSpring | 08/02/2017 | Sì | No | No | Sì |
+| Quantcast | 02/13/2017 | Sì | No | No | No |
+| RhythmOne / RadiumOne | 02/13/2017 | Sì | No | No | Sì |
+| Riemergere | 05/03/2017 | Sì | No | Sì | Sì |
+| Resonare | 02/17/2017 | Sì | No | No | No |
+| RevJet | 02/17/2017 | No | No | No | No |
+| RocketFuel | 02/17/2017 | Sì | No | Sì | Sì |
 | Rubicon |  | Sì | Sì | No |  |
-| ESECUZIONE | 17/02/2017 | Sì | No | No | No |
-| Sabio Mobile | 17/02/2017 | No | No | No | Sì |
-| Simpli.fi | 17/02/2017 | No | No | No | Sì |
-| Sizmek Audience Hub | 17/02/2017 | Sì | No | No |  |
-| Slickdeal | 04/09/2018 | Sì | No | No | Sì |
-| Smart Adserver | 31/07/2017 | Sì | No | Sì | Sì |
+| ESECUZIONE | 02/17/2017 | Sì | No | No | No |
+| Sabio Mobile | 02/17/2017 | No | No | No | Sì |
+| Simpli.fi | 02/17/2017 | No | No | No | Sì |
+| Sizmek Audience Hub | 02/17/2017 | Sì | No | No |  |
+| Slickdeal | 09/04/2018 | Sì | No | No | Sì |
+| Smart Adserver | 07/03/2017 | Sì | No | Sì | Sì |
 | Logicad delle reti multimediali di rete |  | Sì | No | No |  |
-| Sonobi | 28/03/2017 | Sì | No | Sì | No |
+| Sonobi | 03/02/2017 | Sì | No | Sì | No |
 | SpecificMedia | 03/03/2017 | No | No | No | No |
 | SpongeCell | 03/03/2017 | Sì | No | Sì | Sì |
-| SpotX | 16/03/2018 | No | Sì | No | Sì |
+| SpotX | 03/16/2018 | No | Sì | No | Sì |
 | Stroer | 03/03/2017 | Sì | No | No | No |
 | SundaySky | 03/03/2017 | Sì | No | Sì | No |
-| StartApp | 25/05/2018 | Sì | No | No | Sì |
+| StartApp | 05/02/2018 | Sì | No | No | Sì |
 | Supership/ScaleOut | 03/03/2017 | Sì | No | No | No |
-| Survata | 09/08/2017 | Sì | No | No | Sì |
-| Taboola | 03/08/2017 | No | Sì | No | No |
+| Survata | 08/09/2017 | Sì | No | No | Sì |
+| Taboola | 08/03/2017 | No | Sì | No | No |
 | Tapad | 03/03/2017 | No | No | No | Sì |
-| Telaria | 25/04/2019 | Sì | No | No | Sì |
+| Telaria | 04/02/2019 | Sì | No | No | Sì |
 | Sistemi di telefonia | 03/03/2017 | Sì | No | No | No |
 | Il banco commerciale | 03/03/2017 | Sì | Sì | Sì | Sì |
-| Realtime Di Pensiero | 05/02/2016 |  | No | No |  |
+| Realtime Di Pensiero | 02/05/2016 |  | No | No |  |
 | Video Tremor | 03/03/2017 | Sì | No | No | No |
 | Incremento triplo | 03/03/2017 | No | Sì | No | No |
-| TrueX | 11/01/2018 | Sì | No | No | Sì |
+| TrueX | 01/11/2018 | Sì | No | No | Sì |
 | TubeMogul | 03/03/2017 | Sì | No | Sì | No |
 | Giri/Amobe | 03/03/2027 | No | No | No | Sì |
-| Twenga | 29/10/2018 | Sì | No | No | No |
-| Pubblico personalizzato per Twitter | 27/03/2017 | Sì | No | Sì | No |
-| Sottolineato | 11/07/2017 | No | No | No | No |
-| Verve | 15/06/2017 | Sì | No | No | Sì |
+| Twenga | 10/02/2018 | Sì | No | No | No |
+| Pubblico personalizzato per Twitter | 02/27/2017 | Sì | No | Sì | No |
+| Sottolineato | 07/11/2017 | No | No | No | No |
+| Verve | 06/15/2017 | Sì | No | No | Sì |
 | VideoAmp | 03/03/2017 | No | No | No | No |
 | Videologia | 03/03/2017 | No | No | No | No |
-| VisualIQ | 24/03/2017 | Sì | No | No | No |
-| Wikibuy | 04/08/2018 | Sì | No | No | Sì |
-| X+1 | 05/02/2016 |  | No | No |  |
+| VisualIQ | 03/24/2017 | Sì | No | No | No |
+| Wikibuy | 08/04/2018 | Sì | No | No | Sì |
+| X+1 | 02/05/2016 |  | No | No |  |
 | Xaxis | 03/03/2017 | Sì | No | No | No |
 | Yahoo DataX | 03/03/2017 | Sì | Sì | Sì | Sì |
 | Yahoo! Giappone | 03/03/2017 | No | No | No | No |
-| Yandex | 28/11/2018 | Sì | No | No | Sì |
-| Yieldex | 21/08/2017 | Sì | No | No | No |
+| Yandex | 11/02/2018 | Sì | No | No | Sì |
+| Yieldex | 08/21/2017 | Sì | No | No | No |
 | YieldMo | 03/03/2017 | No | No | No | No |
-| Yume | 31/05/2017 | No | No | No | No |
+| Yume | 05/03/2017 | No | No | No | No |
