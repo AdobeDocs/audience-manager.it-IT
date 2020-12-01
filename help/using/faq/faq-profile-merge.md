@@ -260,18 +260,18 @@ Sì. La metrica della popolazione totale del segmento include i dispositivi aggi
 
 No.
 
-**Perché vedo una popolazione di segmento pari a zero per le esportazioni di segmenti  Adobe Campaign dopo il 16 marzo 2020?**
+**Perché vedo una popolazione di segmento pari a zero per le esportazioni di segmenti verso  Adobe Campaign dopo il 16 marzo 2020?**
 
-Alla fine del 2019, è disponibile una serie di miglioramenti delle regole di unione dei profili per migliorare la precisione dei file batch generati utilizzando ID cross-device. Questi miglioramenti saranno rigorosamente rispettati nell&#39;istanza di Audience Manager  a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando ID cross-device cesseranno di produrre esportazioni in alcune configurazioni di regole di unione profilo.
+Alla fine del 2019, è disponibile una serie di miglioramenti delle regole di unione dei profili per migliorare la precisione dei file batch generati utilizzando ID cross-device. Questi miglioramenti saranno rigorosamente rispettati nell&#39;istanza di  Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando ID cross-device cesseranno di produrre esportazioni in alcune configurazioni di regole di unione profilo.
 
-Per garantire la corretta integrazione tra l&#39;istanza  Audience Manager e le destinazioni utilizzando ID cross-device, come  Adobe Campaign, accertatevi di soddisfare i seguenti requisiti:
+Per garantire la corretta integrazione tra l’istanza del Audience Manager  e le destinazioni utilizzando ID cross-device, come  Adobe Campaign, accertatevi di soddisfare i seguenti requisiti:
 
-1. Controlla la regola di unione dei profili utilizzata dai segmenti mappati alla destinazione ID dichiarata del Adobe Campaign . La regola di unione dei profili deve utilizzare l&#39; [!UICONTROL Last Authenticated Profile] opzione, in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione dei profili utilizza un&#39;altra opzione, selezionatela [!UICONTROL Last Authenticated Profile].
-2. Seleziona l&#39;origine dati ID dichiarato del Adobe Campaign  nelle impostazioni Regola unione profilo.
+1. Rivedete la regola di unione dei profili utilizzata dai segmenti mappati alla destinazione ID dichiarata  Adobe Campaign. La regola di unione dei profili deve utilizzare l&#39;opzione [!UICONTROL Last Authenticated Profile], in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione dei profili utilizza un&#39;altra opzione, è necessario passare a [!UICONTROL Last Authenticated Profile].
+2. Seleziona l&#39;origine dati ID dichiarato di Adobe Campaign  nelle impostazioni Regola unione profilo.
 
 >[!NOTE]
 >
-> È stato aumentato il limite della regola di unione profilo di 1 per i clienti che si trovano in questa situazione, in modo da poter creare una regola di unione profilo dedicata per i segmenti mappati alla destinazione ID dichiarata del Adobe Campaign , senza modificare le regole di unione profilo per altri casi di utilizzo.
+> Per i clienti che si trovano in questa situazione è stato aumentato il limite della regola di unione profilo di 1, in modo da poter creare una regola di unione profilo dedicata per i segmenti mappati alla destinazione ID dichiarata da Adobe Campaign , senza modificare le regole di unione profilo per altri casi di utilizzo.
 
 >[!MORELIKETHIS]
 >
