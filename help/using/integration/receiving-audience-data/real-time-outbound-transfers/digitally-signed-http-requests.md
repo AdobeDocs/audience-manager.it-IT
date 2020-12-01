@@ -15,27 +15,27 @@ ht-degree: 0%
 ---
 
 
-# Digitally Signed `HTTP(S)` Requests {#digitally-signed-http-requests}
+# Richieste con firma digitale `HTTP(S)` {#digitally-signed-http-requests}
 
- Audience Manager richiede la firma digitale per la validità delle richieste `HTTP(S)` server-to-server. Questo documento descrive come firmare `HTTP(S)` le richieste con chiavi private.
+ Audience Manager richiede la firma digitale delle richieste `HTTP(S)` server per la validità. Questo documento descrive come firmare le richieste `HTTP(S)` con chiavi private.
 
 ## Panoramica {#overview}
 
 <!-- digitally_signed_http_requests.xml -->
 
-Utilizzando una chiave privata fornita dall&#39;utente e condivisa con [!DNL Audience Manager], possiamo firmare digitalmente le `HTTP(S)` richieste inviate tra [IRIS](../../../reference/system-components/components-data-action.md#iris) e il server HTTP(S). Ciò assicura:
+Utilizzando una chiave privata fornita dall&#39;utente e condivisa con [!DNL Audience Manager], è possibile firmare digitalmente le `HTTP(S)` richieste inviate tra [IRIS](../../../reference/system-components/components-data-action.md#iris) e il server HTTP(S). Ciò assicura:
 
-* **Autenticità**: solo il mittente con la chiave privata ([!UICONTROL IRIS]) può inviare `HTTP(S)` messaggi validi al partner.
-* **Integrità** del messaggio: con questo approccio, anche su `HTTP`, si è protetti da un uomo in attacco medio dove i messaggi vengono distorti.
+* **Autenticità**: solo il mittente con la chiave privata ([!UICONTROL IRIS]) può inviare  `HTTP(S)` messaggi validi al partner.
+* **Integrità** del messaggio: con questo approccio, anche su  `HTTP`, si è protetti da un uomo in attacco medio dove i messaggi vengono distorti.
 
-[!UICONTROL IRIS] è dotato di supporto integrato per ruotare i tasti senza tempi di inattività, come illustrato nella sezione [Ruotare la chiave](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key) privata riportata di seguito.
+[!UICONTROL IRIS] è dotato di supporto integrato per ruotare i tasti senza tempi di inattività, come mostrato nella sezione  [Ruotare la ](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key) chiave privata sottostante.
 
 ## Informazioni da fornire {#info-to-provide}
 
-Per una destinazione server-to-server in tempo `HTTP(S)` reale, contattate il vostro [!DNL Audience Manager] consulente e specificate:
+Per una destinazione da server a server in tempo reale `HTTP(S)`, contattare il consulente [!DNL Audience Manager] e specificare:
 
 * Chiave utilizzata per firmare la richiesta.
-* Nome dell&#39; `HTTP(S)` intestazione che contiene la firma generata (firma X nell&#39;intestazione di esempio seguente).
+* Nome dell&#39;intestazione `HTTP(S)` che conterrà la firma generata (firma X nell&#39;intestazione di esempio seguente).
 * Facoltativo: il tipo di hash utilizzato per la firma (md5, sha1, sha256).
 
 ```
@@ -49,21 +49,21 @@ Per una destinazione server-to-server in tempo `HTTP(S)` reale, contattate il vo
 POST message content
 ```
 
-## How it works {#how-it-works}
+## Come funziona {#how-it-works}
 
-1. [!UICONTROL IRIS] crea il `HTTP(S)` messaggio da inviare al partner.
-1. [!UICONTROL IRIS] crea una firma basata sul `HTTP(S)` messaggio e sulla chiave privata comunicata dal partner.
-1. [!UICONTROL IRIS] invia la `HTTP(S)` richiesta al partner. Questo messaggio contiene la firma e il messaggio effettivo, come mostrato nell&#39;esempio precedente.
-1. Il server partner riceve la `HTTP(S)` richiesta. Legge il corpo del messaggio e la firma ricevuta da [!UICONTROL IRIS].
-1. In base al corpo del messaggio ricevuto e alla chiave privata, il server partner ricalcola la firma. Per ulteriori informazioni, vedere [Come calcolare la sezione relativa alla firma](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) , vedere di seguito.
+1. [!UICONTROL IRIS] crea il  `HTTP(S)` messaggio da inviare al partner.
+1. [!UICONTROL IRIS] crea una firma basata sul  `HTTP(S)` messaggio e sulla chiave privata comunicata dal partner.
+1. [!UICONTROL IRIS] invia la  `HTTP(S)` richiesta al partner. Questo messaggio contiene la firma e il messaggio effettivo, come mostrato nell&#39;esempio precedente.
+1. Il server partner riceve la richiesta `HTTP(S)`. Legge il corpo del messaggio e la firma ricevuta da [!UICONTROL IRIS].
+1. In base al corpo del messaggio ricevuto e alla chiave privata, il server partner ricalcola la firma. Vedere la sezione [Come calcolare la firma](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) appena sotto su come ottenere questo risultato.
 1. Confrontare la firma creata sul server partner (destinatario) con quella ricevuta da [!UICONTROL IRIS] (mittente).
-1. Se le firme corrispondono, **autenticità** e integrità **del** messaggio sono stati convalidati. Solo il mittente che possiede la chiave privata può inviare una firma valida (autenticità). Inoltre, un uomo al centro non può modificare il messaggio e generare una nuova firma valida, in quanto non dispone della chiave privata (integrità del messaggio).
+1. Se le firme corrispondono, l&#39;**autenticità** e **integrità del messaggio** sono state convalidate. Solo il mittente che possiede la chiave privata può inviare una firma valida (autenticità). Inoltre, un uomo al centro non può modificare il messaggio e generare una nuova firma valida, in quanto non dispone della chiave privata (integrità del messaggio).
 
 ![](assets/iris-digitally-sign-http-request.png)
 
-## Modalità di calcolo della firma {#calculate-signature}
+## Come calcolare la firma {#calculate-signature}
 
-[!DNL HMAC] (Codice di autenticazione dei messaggi basato su hash) è il metodo utilizzato per [!UICONTROL IRIS] la firma dei messaggi. Implementazioni e librerie sono disponibili in ogni linguaggio di programmazione. [!DNL HMAC] non ha attacchi di estensione noti. Di seguito è riportato un esempio [!DNL Java] :
+[!DNL HMAC] (Codice di autenticazione dei messaggi basato su hash) è il metodo utilizzato  [!UICONTROL IRIS] per la firma dei messaggi. Implementazioni e librerie sono disponibili in ogni linguaggio di programmazione. [!DNL HMAC] non ha attacchi di estensione noti. Vedere un esempio in [!DNL Java] di seguito:
 
 ```
 // Message to be signed.
@@ -86,14 +86,14 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-La RFC per l&#39;implementazione [!DNL HMAC] hash è [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Un sito di prova: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) ( [convertire](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) la codifica esadecimale in base64).
+La RFC per l&#39;implementazione hash [!DNL HMAC] è [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Un sito di prova: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (è necessario [convertire](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) la codifica esadecimale in base64).
 
 ## Rotazione della chiave privata {#rotate-private-key}
 
-Per ruotare la chiave privata, i partner devono comunicare la nuova chiave privata al loro [!DNL Adobe Audience Manager] consulente. La vecchia chiave viene rimossa [!DNL Audience Manager] e invia [!UICONTROL IRIS] solo la nuova intestazione della firma. I tasti sono stati ruotati.
+Per ruotare la chiave privata, i partner devono comunicare la nuova chiave privata al proprio [!DNL Adobe Audience Manager] consulente. La vecchia chiave viene rimossa da [!DNL Audience Manager] e [!UICONTROL IRIS] invia solo la nuova intestazione della firma. I tasti sono stati ruotati.
 
 ## Dati utilizzati per la firma {#data-signing}
 
-Per `GET` le destinazioni dei tipi, il messaggio utilizzato per la firma sarà *REQUEST_PATH + QUERY STRING* (ad esempio */from-aam-s2s?sids=1,2,3*). IRIS non prende in considerazione il nome host o `HTTP(S)` le intestazioni, che possono essere modificati/configurati in modo errato lungo il percorso o riportati in modo non corretto.
+Per le destinazioni di tipo `GET`, il messaggio utilizzato per la firma sarà *REQUEST_PATH + QUERY STRING* (ad esempio */from-aam-s2s?sids=1,2,3*). IRIS non prende in considerazione il nome host o le intestazioni `HTTP(S)`, che possono essere modificate/non configurate lungo il percorso o riportate in modo errato.
 
-Per `POST` le destinazioni dei tipi, il messaggio utilizzato per la firma è *REQUEST BODY*. Anche in questo caso, le intestazioni o altri parametri di richiesta vengono ignorati.
+Per le destinazioni di tipo `POST`, il messaggio utilizzato per la firma è il *BODY RICHIESTA*. Anche in questo caso, le intestazioni o altri parametri di richiesta vengono ignorati.
