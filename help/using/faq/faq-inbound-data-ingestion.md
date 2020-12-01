@@ -59,10 +59,10 @@ Consulta [File Compression for Inbound Data Transfer Files](../integration/sendi
 
 **Posso caricare un file di dati in entrata (file [!DNL .sync] o [!DNL .overwrite]) prima di distribuire il codice [!DNL Audience Manager] in produzione?**
 
-Sì. As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. Consulta:
+Sì. Se utilizzi un [!UICONTROL cross-device data source] per memorizzare i dati CRM caricati,  Audience Manager memorizza sempre i dati. In realtà, in seguito ai [!UICONTROL Profile Merge Rules] miglioramenti che  Audience Manager avviato a ottobre 2019 e che consentono casi di utilizzo esclusivamente offline, potete caricare e intervenire sui dati senza distribuire  codice Audience Manager in produzione. Consulta:
 
 * [Overview of Profile Merge Rules Enhancements](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalizzazione basata su dati solo offline](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] -  [Personalizzazione basata su dati solo offline](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -188,7 +188,7 @@ Le marche temporali vengono utilizzate per la registrazione e per la conservazio
 
  
 
-**Cos&#39;è un[!DNL Data Provider ID (DPID)]e come lo ottengo?**
+**Cos&#39;è un  [!DNL Data Provider ID (DPID)] e come lo ottengo?**
 
 Il tuo consulente Adobe assegnerà un [DPID (Data Provider ID)](../reference/ids-in-aam.md) di tre o quattro cifre alla tua specifica sorgente di dati. Questo ID è univoco e non viene modificato.
 
@@ -205,7 +205,7 @@ Consulta [File Compression for Inbound Data Transfer Files](../integration/sendi
 Sì, consulta:
 
 * [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
-* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [ requisiti di nome Amazon S3 per i file di dati in entrata](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
@@ -227,7 +227,7 @@ Come best practice, consigliamo [!DNL Amazon S3] perché il processo è più sem
 
 >[!WARNING]
 >
->Stiamo gradualmente eliminando il supporto per le configurazioni FTP. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Per informazioni dettagliate, consulta [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
+>Stiamo gradualmente eliminando il supporto per le configurazioni FTP. Anche se l&#39;assimilazione dei file di dati in entrata è ancora supportata nelle integrazioni FTP esistenti, si consiglia vivamente di utilizzare [!DNL Amazon S3] per incorporare dati offline per nuove integrazioni. Per informazioni dettagliate, consulta [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
 
  
 
