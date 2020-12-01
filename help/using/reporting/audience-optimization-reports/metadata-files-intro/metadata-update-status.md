@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Aggiornamenti di stato per i file di metadati{#status-updates-for-metadata-files}
 
-La directory di stato S3 contiene un `.info` file con informazioni di successo e di errore sui file caricati. Il file contiene dati in formato JSON con lo stato restituisce un array.
+La directory di stato S3 contiene un file `.info` con informazioni di successo e di errore sui file caricati. Il file contiene dati in formato JSON con lo stato restituisce un array.
 
-Il contenuto del `.info` file sarà simile a questo esempio.
+Il contenuto del file `.info` sarà simile a questo esempio.
 
 ```js
 //sample file path
@@ -60,9 +60,9 @@ Il contenuto del `.info` file sarà simile a questo esempio.
 }
 ```
 
-## Coppie Chiave-Valore Metadati Definite {#key-value-pairs}
+## Coppie chiave-valore metadati definite {#key-value-pairs}
 
-Le tabelle seguenti elencano e definiscono le chiavi nelle `Files` sezioni e nelle `Summary` sezioni di un file di stato dei metadati.
+Le tabelle seguenti elencano e definiscono le chiavi nelle sezioni `Files` e `Summary` di un file di stato dei metadati.
 
 **Tasti nell&#39;array dei file**
 
@@ -84,19 +84,19 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle `Files` sezioni e nel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Il checksum MD 5 per il file di metadati caricato nella <code> meta</code> directory. </p> </td> 
+   <td colname="col2"> <p>Il checksum MD 5 per il file di metadati caricato nella directory <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Nome del file di metadati caricato nella <code> meta</code> directory. </p> </td> 
+   <td colname="col2"> <p>Il nome del file di metadati caricato nella directory <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Nome leggibile per il tipo di dati contenuto nel file. Si basa sull’ID figlio nel nome del file. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>Nome leggibile per il tipo di dati contenuto nel file. Si basa sull’ID figlio nel nome del file. </p> <p>Consultate <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file di metadati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Nome leggibile per il tipo di dati contenuto nel file. Si basa sull’ID principale nel nome del file. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>Nome leggibile per il tipo di dati contenuto nel file. Si basa sull’ID principale nel nome del file. </p> <p>Consultate <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file di metadati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -121,7 +121,7 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle `Files` sezioni e nel
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Data di elaborazione file in <code><i>yyyy-mm-dd</i></code> formato. </p> </td> 
+   <td colname="col2"> <p>Data di elaborazione file in formato <code><i>yyyy-mm-dd</i></code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
