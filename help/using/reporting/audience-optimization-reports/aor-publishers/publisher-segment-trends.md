@@ -25,31 +25,31 @@ Confronta tendenze e volume per le metriche selezionate per ottenere un&#39;imma
 
 ## Caso d&#39;uso {#use-cases}
 
-Utilizzate il [!UICONTROL Segment Trend] rapporto per convalidare le prestazioni di un segmento nel tempo e per individuare le tendenze in base a elevate prestazioni o scala.
+Utilizzate il report [!UICONTROL Segment Trend] per convalidare le prestazioni di un segmento nel tempo e per individuare le tendenze in base a prestazioni o scala elevate.
 
-Con questo rapporto, puoi capire quale delle tue proprietà web mostra un calo o un aumento difettoso e risolvere eventuali problemi, a seconda delle necessità. Questo rapporto è il passo successivo dopo che hai identificato il pubblico di interesse nel [!UICONTROL Segment Performance] rapporto, per assicurarti che le prestazioni forti o negative visualizzate nella [!UICONTROL Segment Performance] scheda siano coerenti nel tempo.
+Con questo rapporto, puoi capire quale delle tue proprietà web mostra un calo o un aumento difettoso e risolvere eventuali problemi, a seconda delle necessità. Questo rapporto è il passo successivo dopo che hai identificato il pubblico di interesse nel report [!UICONTROL Segment Performance], per assicurarti che le prestazioni forti o negative visualizzate nella scheda [!UICONTROL Segment Performance] siano coerenti nel tempo.
 
-## Utilizzo del rapporto Andamento segmento {#using-the-report}
+## Utilizzo del report Trend segmento {#using-the-report}
 
-Passa da **[!UICONTROL Mapped]** a **[!UICONTROL Unmapped]** selezionare i segmenti mappati o meno a una destinazione. Seleziona **[!UICONTROL All]** per includere tutti i segmenti nel rapporto.
+Passa da **[!UICONTROL Mapped]** a **[!UICONTROL Unmapped]** per selezionare o meno i segmenti mappati a una destinazione. Selezionare **[!UICONTROL All]** per includere tutti i segmenti nel rapporto.
 
-Regolare la finestra di look-back con il **[!UICONTROL Date Through]** cursore.
+Regolare la finestra di look-back con il cursore **[!UICONTROL Date Through]**.
 
-Fai clic su uno dei segmenti sotto il **[!UICONTROL Date Through]** cursore per visualizzare l&#39;opzione per mantenere solo quel segmento nel rapporto o escluderlo.
+Fai clic su uno dei segmenti sotto il cursore **[!UICONTROL Date Through]** per visualizzare l&#39;opzione per mantenere solo quel segmento nel rapporto o escluderlo.
 
-Utilizzate la casella a **[!UICONTROL Line Item]** discesa per selezionare le proprietà del portfolio per le quali desiderate restituire informazioni.
+Utilizzate la casella a discesa **[!UICONTROL Line Item]** per selezionare le proprietà del portafoglio per le quali desiderate restituire informazioni.
 
-Nella casella a **[!UICONTROL Segment Data Source]** discesa, seleziona le origini dati contenenti i segmenti che desideri vedere nel rapporto.
+Nella casella a discesa **[!UICONTROL Segment Data Source]**, seleziona le origini dati contenenti i segmenti che desideri vedere nel rapporto.
 
-Utilizzate la casella a **[!UICONTROL Segment]** discesa per selezionare i segmenti da visualizzare nel rapporto.
+Utilizzate la casella a discesa **[!UICONTROL Segment]** per selezionare i segmenti da visualizzare nel rapporto.
 
 >[!IMPORTANT]
 >
->Quando attivi [!UICONTROL Audience Optimization for Publishers], devi includere metadati descrittivi per [!UICONTROL Line Item] gli ID, come descritto nel passaggio 3 di [Importa file di dati Google Ad Manager (ex DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo, assicuratevi che il rapporto descriva la proprietà Web come [!UICONTROL Line Item] invece dell&#39; [!UICONTROL Line Item] ID.
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per gli ID [!UICONTROL Line Item], come descritto nel passaggio 3 di [Importa file di dati Google Ad Manager (ex DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che il rapporto descriva la proprietà Web come [!UICONTROL Line Item] invece dell&#39; [!UICONTROL Line Item] ID.
 
 ## Interpretazione dei risultati {#interpreting-results}
 
-Il [!UICONTROL Segment Trend] rapporto restituisce i dati in un grafico a linee solo per un intervallo di 14 giorni. In questo esempio, il rapporto mostra tendenze di impression e click-through per un insieme di segmenti mappati e non mappati.
+Il report [!UICONTROL Segment Trend] restituisce i dati in un grafico a linee solo per un intervallo di 14 giorni. In questo esempio, il rapporto mostra tendenze di impression e click-through per un insieme di segmenti mappati e non mappati.
 
 Passa il cursore sopra una riga per ottenere ulteriori informazioni su quella particolare tendenza del segmento. Vedere le descrizioni per le informazioni aggiuntive nella tabella sotto il rapporto campione.
 
