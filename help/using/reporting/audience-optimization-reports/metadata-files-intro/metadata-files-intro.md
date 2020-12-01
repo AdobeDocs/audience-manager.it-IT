@@ -1,6 +1,6 @@
 ---
-description: Un file di dati contiene dati di impression, clic o conversione che puoi utilizzare nei rapporti di ottimizzazione dell'audience e per i file di registro fruibili. Un file di metadati contiene nomi leggibili che corrispondono a varie opzioni di rapporto e voci di menu. Formattate i file di dati e metadati in base alle specifiche di questa sezione.
-seo-description: Un file di dati contiene dati di impression, clic o conversione che puoi utilizzare nei rapporti di ottimizzazione dell'audience e per i file di registro fruibili. Un file di metadati contiene nomi leggibili che corrispondono a varie opzioni di rapporto e voci di menu. Formattate i file di dati e metadati in base alle specifiche di questa sezione.
+description: Un file di dati contiene dati di impression, clic o conversione che è possibile utilizzare nei rapporti sul Audience Optimization  e per i file di registro fruibili. Un file di metadati contiene nomi leggibili che corrispondono a varie opzioni di rapporto e voci di menu. Formattate i file di dati e metadati in base alle specifiche di questa sezione.
+seo-description: Un file di dati contiene dati di impression, clic o conversione che è possibile utilizzare nei rapporti sul Audience Optimization  e per i file di registro fruibili. Un file di metadati contiene nomi leggibili che corrispondono a varie opzioni di rapporto e voci di menu. Formattate i file di dati e metadati in base alle specifiche di questa sezione.
 seo-title: File di dati di registro e di metadati
 solution: Audience Manager
 title: File di dati di registro e di metadati
@@ -26,7 +26,7 @@ Un file di metadati contiene nomi leggibili che corrispondono a varie opzioni di
 
 >[!IMPORTANT]
 >
->Per utilizzare i file di metadati, le chiamate evento devono includere *tutti* i parametri elencati nella sezione [panoramica e mappature](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) .
+>Per utilizzare i file di metadati, le chiamate evento devono includere *all* dei parametri elencati nella sezione [panoramica e mappature](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
 * [File di dati per report di Audience Optimization e file di registro fruibili](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 * [Panoramica e mappature dei file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
