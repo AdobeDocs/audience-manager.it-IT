@@ -21,7 +21,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra tutte le caratteri
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione in  Audience Manager rispettano i principi RBAC. Potete visualizzare solo le caratteristiche provenienti da origini dati a cui avete accesso in base al gruppo [di utenti](/help/using/features/administration/administration-overview.md) RBAC a cui appartenete.
+>I rapporti di sovrapposizione in  Audience Manager aderiscono ai principi RBAC. È possibile visualizzare solo le caratteristiche provenienti da origini dati a cui si ha accesso in base al [Gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui si appartiene.
 
 <!-- 
 
@@ -31,7 +31,7 @@ c_overlap_reports.xml
 
 ## Panoramica
 
-Il [!UICONTROL Trait-to-Trait Overlap] rapporto restituisce i dati sulla percentuale di utenti univoci condivisi tra tutte le caratteristiche proprie e quelle di terze parti. Come strumento di ottimizzazione, questo rapporto consente di:
+Il rapporto [!UICONTROL Trait-to-Trait Overlap] restituisce i dati sulla percentuale di utenti univoci condivisi tra tutte le caratteristiche personali e quelle di terze parti. Come strumento di ottimizzazione, questo rapporto consente di:
 
 * Crea segmenti con sovrapposizione alta o bassa, a seconda delle tue esigenze. Le caratteristiche con sovrapposizione elevata ti consentono di ottenere un pubblico mirato, ma meno visitatori unici. Le caratteristiche con una sovrapposizione ridotta possono essere utili per raggiungere un set di visitatori unico e più grande.
 * Convalida dei dati di caratteristiche di terze parti: Una forte sovrapposizione tra caratteristiche simili di prime e terze parti suggerisce che il tratto del partner dati è accurato e affidabile. Al contrario, una sovrapposizione bassa può indicare che una caratteristica di terze parti potrebbe non contenere le stesse informazioni della caratteristica di prime parti propria, simile.
@@ -39,11 +39,11 @@ Il [!UICONTROL Trait-to-Trait Overlap] rapporto restituisce i dati sulla percent
 
 ## Report di esempio
 
-L&#39;illustrazione seguente fornisce una panoramica di alto livello degli elementi nel [!UICONTROL Trait-to-Trait Overlap] rapporto.
+L&#39;illustrazione seguente fornisce una panoramica di alto livello degli elementi nel report [!UICONTROL Trait-to-Trait Overlap].
 
 >[!NOTE]
 >
->Il [!UICONTROL Trait-to-Trait Overlap] rapporto restituisce un campo vuoto se confronta la stessa caratteristica con se stesso.
+>Il rapporto [!UICONTROL Trait-to-Trait Overlap] restituisce un campo vuoto se confronta la stessa caratteristica con se stesso.
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -61,7 +61,7 @@ r_t2t_data_pop.xml
 
  -->
 
-La finestra a comparsa per il [!UICONTROL Trait-to-Trait Overlap] rapporto contiene le metriche riportate di seguito. La metrica univoca nella tabella rappresenta gli utenti *in tempo* reale.
+La finestra a comparsa del report [!UICONTROL Trait-to-Trait Overlap] contiene le metriche riportate di seguito. La metrica univoca nella tabella rappresenta gli *utenti in tempo reale*.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
