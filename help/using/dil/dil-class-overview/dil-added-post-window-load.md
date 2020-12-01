@@ -1,6 +1,6 @@
 ---
-description: Utilizzato per comunicare a DIL che viene caricato dopo il caricamento della finestra.
-seo-description: Utilizzato per comunicare a DIL che viene caricato dopo il caricamento della finestra.
+description: Utilizzato per comunicare al DIL che viene caricato dopo il caricamento della finestra.
+seo-description: Utilizzato per comunicare al DIL che viene caricato dopo il caricamento della finestra.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
 title: isAddedPostWindowLoad
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # isAddedPostWindowLoad{#isaddedpostwindowload}
 
-Utilizzato per comunicare a DIL che viene caricato dopo il caricamento della finestra.
+Utilizzato per comunicare al DIL che viene caricato dopo il caricamento della finestra.
 
 **Firma funzione:** `isAddedPostWindowLoad: function()`
 
