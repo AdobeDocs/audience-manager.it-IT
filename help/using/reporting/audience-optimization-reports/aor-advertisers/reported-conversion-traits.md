@@ -27,6 +27,6 @@ Per informazioni su come creare caratteristiche di conversione in  Audience Mana
 
 ## Report di esempio
 
-Il tuo [!UICONTROL Reported Conversion Traits] rapporto potrebbe essere simile a quello riportato di seguito:
+Il report [!UICONTROL Reported Conversion Traits] potrebbe essere simile a quello riportato di seguito:
 
 ![](assets/reported-conversion-traits.png)
