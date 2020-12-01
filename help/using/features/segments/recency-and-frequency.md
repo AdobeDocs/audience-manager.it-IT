@@ -17,18 +17,18 @@ ht-degree: 3%
 
 # Attualità e frequenza {#recency-and-frequency}
 
-In [!UICONTROL Segment Builder]recency e frequenza potete segmentare i visitatori in base alle azioni che si verificano o si ripetono in un determinato intervallo giornaliero.
+In [!UICONTROL Segment Builder], la frequenza e la frequenza consentono di segmentare i visitatori in base alle azioni che si verificano o si ripetono in un determinato intervallo giornaliero.
 
- Audience Manager definisce [!DNL recency] e [!DNL frequency] :
+ Audience Manager definisce [!DNL recency] e [!DNL frequency] come segue:
 
-* **[!UICONTROL Recency]:**Recente visualizzazione o qualifica di un utente per uno o più[!UICONTROL traits].
-* **[!UICONTROL Frequency]:**Frequenza con cui un utente ha visualizzato o qualificato uno o più utenti[!UICONTROL traits].
+* **[!UICONTROL Recency]:** Recente visualizzazione o qualifica di un utente (o più)  [!UICONTROL traits].
+* **[!UICONTROL Frequency]:** Frequenza con cui un utente ha visualizzato o qualificato uno o più utenti  [!UICONTROL traits].
 
-[!UICONTROL Recency] e [!UICONTROL Frequency] le impostazioni consentono di segmentare i visitatori in base al loro livello di interesse reale (o percepito) in un sito, una sezione o un particolare contenuto creativo. Ad esempio, gli utenti idonei per un segmento con requisiti di recency/frequenza elevati possono essere più interessati a un sito o a un prodotto rispetto agli utenti che visitano meno spesso o meno frequentemente.
+[!UICONTROL Recency] e  [!UICONTROL Frequency] le impostazioni consentono di segmentare i visitatori in base al loro livello di interesse reale (o percepito) in un sito, una sezione o un particolare contenuto creativo. Ad esempio, gli utenti idonei per un segmento con requisiti di recency/frequenza elevati possono essere più interessati a un sito o a un prodotto rispetto agli utenti che visitano meno spesso o meno frequentemente.
 
-## Posizione delle [!UICONTROL Recency and Frequency] impostazioni {#location}
+## Posizione di [!UICONTROL Recency and Frequency] Impostazioni {#location}
 
-In [!UICONTROL Segment Builder], [!UICONTROL Recency] e [!UICONTROL Frequency] le impostazioni si trovano nella [!UICONTROL Basic View] sezione del [!UICONTROL Traits] pannello. Fate clic sull&#39;icona dell&#39;orologio per visualizzare questi controlli.
+In [!UICONTROL Segment Builder], le impostazioni [!UICONTROL Recency] e [!UICONTROL Frequency] si trovano nella sezione [!UICONTROL Basic View] del pannello [!UICONTROL Traits]. Fate clic sull&#39;icona dell&#39;orologio per visualizzare questi controlli.
 
 ![](assets/recency_frequency.png)
 
@@ -81,11 +81,11 @@ Controlla e comprendi questi limiti e queste regole quando vuoi applicare recenc
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Requisiti di aggiornamento</b> </p> </td> 
-   <td colname="col2"> <p>Puoi configurare i requisiti di frequenza <i>senza</i> configurare i requisiti di aggiornamento. È sufficiente impostare un valore di frequenza e lasciare vuoto il campo Recency. </p> </td> 
+   <td colname="col2"> <p>È possibile configurare i requisiti di frequenza <i>senza </i> la configurazione dei requisiti di aggiornamento. È sufficiente impostare un valore di frequenza e lasciare vuoto il campo Recency. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Regole di unione profili</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
+   <td colname="col2"> <p>Consulta <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Frequenza caratteristiche, grafici per dispositivi esterni e regole di unione dei profili</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ Di seguito sono riportati due esempi del funzionamento dell’aggiornamento, a s
 
 ![Minore di uguale a](assets/less-than-equal-to.png)
 
-In questo esempio, viene selezionato l&#39;operatore &lt;=, come mostrato nella schermata. Questo qualifica l’utente per [!UICONTROL segment] se questi ha diritto a uno dei tre [!UICONTROL traits] almeno tre volte negli ultimi cinque giorni. La timeline seguente mostra la [!UICONTROL segment] [!UICONTROL segment] qualifica al momento della creazione, il 1° ottobre e dieci giorni dopo.
+In questo esempio, viene selezionato l&#39;operatore &lt;=, come mostrato nella schermata. Questo qualifica l&#39;utente per il periodo [!UICONTROL segment] se questi ha diritto a uno dei tre [!UICONTROL traits] almeno tre volte negli ultimi cinque giorni. La timeline seguente mostra la [!UICONTROL segment] qualifica al momento della creazione della [!UICONTROL segment], il 1° ottobre e dieci giorni dopo.
 
 ![Ultimi cinque giorni](assets/last-5-days.png)
 
@@ -106,22 +106,22 @@ In questo esempio, viene selezionato l&#39;operatore &lt;=, come mostrato nella 
 
 ![Maggiore di uguale a](assets/greater-than-equal-to.png)
 
-In questo esempio, si seleziona l&#39;operatore =>, come mostrato nella schermata. Questo qualifica l&#39;utente [!UICONTROL segment] se questi ha diritto a una delle tre [!UICONTROL traits] almeno tre volte tra la prima qualifica sulla piattaforma Audience Manager  e l&#39;interruzione di tempo di cinque giorni fa. La timeline seguente mostra la [!UICONTROL segment] [!UICONTROL segment] qualifica al momento della creazione, il 1° ottobre e dieci giorni dopo.
+In questo esempio, si seleziona l&#39;operatore =>, come mostrato nella schermata. Questo qualifica l&#39;utente per la [!UICONTROL segment] se questi ha diritto a una delle tre [!UICONTROL traits] almeno tre volte tra la prima qualifica sulla piattaforma del Audience Manager  e l&#39;orario limite di cinque giorni fa. La timeline seguente mostra la [!UICONTROL segment] qualifica al momento della creazione della [!UICONTROL segment], il 1° ottobre e dieci giorni dopo.
 
 ![Qualifica precedente](assets/earlier-qualification.png)
 
 
-## Esempi di maschiatura delle frequenze {#frequency-capping}
+## Esempi di maschiatura della frequenza {#frequency-capping}
 
-Le espressioni di capping delle frequenze includono tutti gli utenti il cui numero di [!UICONTROL trait] realizzazioni è inferiore al valore desiderato. Di seguito sono riportati alcuni esempi Right e Wrong:
+Le espressioni di capping delle frequenze includono tutti gli utenti il cui numero di realizzazioni [!UICONTROL trait] è inferiore al valore desiderato. Di seguito sono riportati alcuni esempi Right e Wrong:
 
-* Sbagliato - L&#39;espressione `frequency([1000T]) <= 5` include tutti gli utenti che hanno realizzato l&#39; [!UICONTROL trait] ID &quot;1000&quot; al massimo cinque volte, ma include anche gli utenti che non hanno realizzato l&#39; [!UICONTROL trait]. Pertanto,  Audience Manager non convalida questa espressione per motivi di prestazioni, in quanto qualificherebbe troppi utenti per il [!UICONTROL segment].
+* Sbagliato - L&#39;espressione `frequency([1000T]) <= 5` include tutti gli utenti che hanno realizzato il [!UICONTROL trait] con l&#39;ID &quot;1000&quot; al massimo cinque volte, ma include anche gli utenti che non hanno realizzato il [!UICONTROL trait]. Pertanto,  Audience Manager non convalida questa espressione per motivi di prestazioni, in quanto qualificherebbe troppi utenti per il [!UICONTROL segment].
 
-* Right - Se desiderate includere tutti gli utenti che hanno realizzato l&#39; [!UICONTROL trait] con l&#39;ID &quot;1000&quot; al massimo cinque volte, aggiungete un&#39;altra condizione all&#39;espressione, per essere certi che gli utenti abbiano acquisito le qualifiche per [!UICONTROL trait] almeno una volta:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
+* Destra - Se si desidera includere tutti gli utenti che hanno realizzato l&#39; [!UICONTROL trait] con l&#39;ID &quot;1000&quot; al massimo cinque volte, aggiungere un&#39;altra condizione all&#39;espressione, per essere certi che gli utenti siano qualificati per la [!UICONTROL trait] almeno una volta:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
 
-* Right - Quando è necessario che i requisiti di recency/frequenza siano inferiori a un numero specifico di volte o di giorni, unisciti [!UICONTROL trait] a un altro con un `AND` operatore. Utilizzando l&#39;esempio nel primo punto elenco, questa espressione diventa valida se unita a un&#39;altra, [!UICONTROL trait] come illustrato di seguito: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+* Right- Se è necessario che i requisiti di recency/frequenza siano inferiori a un numero specifico di volte o giorni, unire [!UICONTROL trait] a un altro con un operatore `AND`. Utilizzando l&#39;esempio nel primo punto elenco, questa espressione diventa valida se unita a un altro elemento [!UICONTROL trait] come illustrato di seguito: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
 
-* Right - Per i casi di utilizzo con limite di frequenza pubblicitaria, potete creare una [!UICONTROL segment] regola simile a questa: `(frequency([1000T] <= 2D) >= 5)`. Questa espressione include tutti gli utenti che hanno realizzato il [!UICONTROL trait] con l&#39;ID &quot;1000&quot; negli ultimi 2 giorni almeno cinque volte. Impostate il limite di frequenza inviando questo messaggio [!UICONTROL segment] al server di annunci con un `NOT` set sul [!UICONTROL segment] server di annunci. Questo approccio consente di ottenere prestazioni migliori [!DNL Audience Manager] pur continuando a servire lo stesso scopo per i limiti di frequenza.
+* Right - Per i casi di utilizzo di limite di frequenza pubblicitaria, potete creare una regola [!UICONTROL segment] simile alla seguente: `(frequency([1000T] <= 2D) >= 5)`. Questa espressione include tutti gli utenti che hanno realizzato il [!UICONTROL trait] con l&#39;ID &quot;1000&quot; negli ultimi 2 giorni almeno cinque volte. Impostare il limite di frequenza inviando questo [!UICONTROL segment] al server di annunci con un `NOT` impostato su [!UICONTROL segment] nel server di annunci. Questo approccio consente di ottenere prestazioni migliori in [!DNL Audience Manager] pur continuando a servire lo stesso scopo per i limiti di frequenza.
 
 >[!MORELIKETHIS]
 >
