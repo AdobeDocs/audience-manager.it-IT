@@ -1,6 +1,6 @@
 ---
-description: Denominate il file di metadati di ottimizzazione dell'audience in base alle seguenti specifiche.
-seo-description: Denominate il file di metadati di ottimizzazione dell'audience in base alle seguenti specifiche.
+description: Denominate il file di metadati  Audience Optimization in base alle seguenti specifiche.
+seo-description: Denominate il file di metadati  Audience Optimization in base alle seguenti specifiche.
 seo-title: Convenzioni di denominazione per i file di metadati
 solution: Audience Manager
 title: Convenzioni di denominazione per i file di metadati
@@ -17,21 +17,21 @@ ht-degree: 8%
 
 # Convenzioni di denominazione per i file di metadati{#naming-conventions-for-metadata-files}
 
-Denominate il file di metadati di ottimizzazione dell&#39;audience in base alle seguenti specifiche.
+Denominate il file di metadati  Audience Optimization in base alle seguenti specifiche.
 
-## Sintassi e categorie ID {#syntax}
+## Categorie di sintassi e ID {#syntax}
 
-La sintassi seguente definisce la struttura di un nome file di metadati ben formato. Note, *italics* indicates a variable placeholder. Gli altri elementi sono costanti e non vengono modificati.
+La sintassi seguente definisce la struttura di un nome file di metadati ben formato. Nota: *italics* indica un segnaposto variabile. Gli altri elementi sono costanti e non vengono modificati.
 
 **Sintassi:** *`yyyymmdd_0_childID`*
 
 >[!NOTE]
 >
->*Non* usate estensioni di file nei file di metadati (.txt o di altro tipo).
+>*Non* utilizzate estensioni di file nei file di metadati (.txt o di altro tipo).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* Il componente centrale **0** è tecnicamente l’ID principale, che è un campo legacy. Il valore deve sempre essere impostato su **0**.
+* Il componente centrale **0** è tecnicamente l&#39;ID principale, che è un campo legacy. Il valore deve sempre essere impostato come **0**.
 * L’ID figlio può avere un valore compreso tra 1 e 10, a seconda della dimensione. Vedere di seguito:
 
 ## Dimensioni ID figlio {#child-dimension}
@@ -43,7 +43,7 @@ Nel nome del file di metadati, l’ID figlio è un identificatore che classifica
 1. Posizionamento
 1. Exchange
 1. Sito
-1. Inserzionista (se si utilizzano codici di integrazione in un&#39;origine [](../../../features/manage-datasources.md#details)dati)
+1. Inserzionista (se si utilizzano codici di integrazione in un [origine dati](../../../features/manage-datasources.md#details))
 1. Ordine di inserimento (IO)
 1. Verticale (ad esempio, una specifica categoria di settore o di business come &quot;computer&quot;, &quot;automobili&quot;, &quot;immobili&quot;, ecc.)
 1. Tattico
