@@ -17,11 +17,11 @@ ht-degree: 9%
 
 # Visualizzazione elenco dei segmenti {#segments-list-view}
 
-Il dashboard [](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) Segmenti è un&#39;area di lavoro centralizzata per la gestione dei segmenti di pubblico. Per visualizzare il [!UICONTROL Segments] dashboard, passa a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+Il [dashboard Segmenti](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) è un&#39;area di lavoro centralizzata per la gestione dei segmenti di pubblico. Per visualizzare il dashboard [!UICONTROL Segments], passare a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
 ![segment-dashboard](assets/segments-dashboard.png)
 
-La [!UICONTROL Segments] pagina contiene funzioni e strumenti utili per:
+La pagina [!UICONTROL Segments] contiene funzioni e strumenti utili per:
 
 * Creare nuovi segmenti;
 * Modificare ed eliminare segmenti;
