@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Il report Optimal Frequency (Frequenza ottimale) consente di scoprire l&#39;equilibrio ottimale tra il numero di impression e di conversioni servite. Consente di regolare il numero di impression che si desidera visualizzare prima di iniziare a vedere i rendimenti diminuiti.
 
-Il rapporto ha un intervallo di lookback di 30 giorni, dalla data scelta nel [!UICONTROL Date Through] selettore.
+Il rapporto ha un intervallo di lookback di 30 giorni, a partire dalla data scelta nel selettore [!UICONTROL Date Through].
 
 Il volume di conversione diminuisce in genere con intervalli di frequenza ad alta impressione. Meno utenti visualizzano il numero più elevato di impression. Questo significa che i secchi a frequenza più alta hanno meno conversioni.
 
