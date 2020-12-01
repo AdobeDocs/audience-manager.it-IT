@@ -1,6 +1,6 @@
 ---
-description: Metodi che consentono di elencare a livello di programmazione  aree DCS Audience Manager.
-seo-description: Metodi che consentono di elencare a livello di programmazione  aree DCS Audience Manager.
+description: Metodi che consentono di elencare a livello di programmazione  aree DCS Audienci Manager.
+seo-description: Metodi che consentono di elencare a livello di programmazione  aree DCS Audienci Manager.
 seo-title: Metodi API per le aree geografiche dei DCS
 solution: Audience Manager
 title: Metodi API per le aree geografiche dei DCS
@@ -17,15 +17,15 @@ ht-degree: 14%
 
 # Metodi API per le aree geografiche dei DCS {#dcs-region-api-methods}
 
-Metodi che consentono di elencare a livello di programmazione  aree Audience Manager [!DNL DCS] .
+Metodi che consentono di elencare a livello di programmazione  aree di Audience Manager [!DNL DCS].
 
 <!-- c_rest_api_regions.xml -->
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Per un elenco delle aree e dei relativi numeri interi, vedere [ID regione DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Elenca una specifica area DCS {#list-specific-dcs-region}
+## Elenca una specifica regione DCS {#list-specific-dcs-region}
 
-Un `GET` metodo per elencare una [!DNL DCS] regione specifica.
+Un metodo `GET` per elencare una regione [!DNL DCS] specifica.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -49,13 +49,13 @@ Un `GET` metodo per elencare una [!DNL DCS] regione specifica.
   }
 ```
 
-Restituisce `200 OK` se ha esito positivo.
+Restituisce `200 OK` in caso di esito positivo.
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Per un elenco delle aree e dei relativi numeri interi, vedere [ID regione DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Elenca regioni DCS {#list-dcs-regions}
+## Elenca aree DCS {#list-dcs-regions}
 
-Un `GET` metodo per elencare [!DNL DCS] le aree.
+Un metodo `GET` per elencare le aree [!DNL DCS].
 
 <!-- r_rest_api_regions_list.xml -->
 
@@ -82,6 +82,6 @@ Un `GET` metodo per elencare [!DNL DCS] le aree.
 ]
 ```
 
-Restituisce `200 OK` se ha esito positivo.
+Restituisce `200 OK` in caso di esito positivo.
 
-For a list of regions and their corresponding integers, see [DCS Region IDs, Locations, and Host Names](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Per un elenco delle aree e dei relativi numeri interi, vedere [ID regione DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
