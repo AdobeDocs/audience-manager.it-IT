@@ -17,21 +17,21 @@ ht-degree: 7%
 
 # Race condition e gestione degli errori {#race-conditions-and-error-handling}
 
-Descrive come impedire le condizioni di gara e la gestione degli [!DNL DCS] errori.
+Descrive come impedire le condizioni di gara e la gestione degli errori [!DNL DCS].
 
 ## Prevenzione delle condizioni di gara {#prevent-race-conditions}
 
-Una condizione di gara può verificarsi se inviate più chiamate contemporaneamente (o in rapida successione) all&#39;utente [!DNL DCS] prima che quest&#39;ultimo finisca di rispondere alle query iniziali e di scrivere i dati nel cookie dell&#39;utente. Una condizione di gara non è desiderabile perché può corrompere o sovrascrivere in modo improprio i dati dei cookie. Per evitare questo problema, è consigliabile utilizzare i metodi seguenti:
+Una condizione di gara può verificarsi se si inviano più chiamate contemporaneamente (o in rapida successione) alla [!DNL DCS] prima che finisca di rispondere alle query iniziali e di scrivere i dati sul cookie dell&#39;utente. Una condizione di gara non è desiderabile perché può corrompere o sovrascrivere in modo improprio i dati dei cookie. Per evitare questo problema, è consigliabile utilizzare i metodi seguenti:
 
-* Non effettuare chiamate simultanee, o chiamate in rapida successione, allo [!DNL DCS] stesso utente.
+* Non effettuare chiamate simultanee, o in rapida successione, allo [!DNL DCS] dello stesso utente.
 * Attendi che ogni risposta torni prima di effettuare chiamate successive.
 
 ## Gestione errori {#error-handling}
 
-La gestione degli errori è limitata per le query con formato non valido o non valido. Una richiesta non valida restituisce una `HTTP 200 OK` risposta e nessun dato. Inoltre, [!DNL DCS] interrompe l’elaborazione di una richiesta, elimina i dati relativi alle caratteristiche e restituisce una `HTTP 200 OK` risposta quando un utente:
+La gestione degli errori è limitata per le query con formato non valido o non valido. Una richiesta non valida restituisce una risposta `HTTP 200 OK` e nessun dato. Inoltre, la [!DNL DCS] interrompe l&#39;elaborazione di una richiesta, elimina i dati relativi alle caratteristiche e restituisce una risposta `HTTP 200 OK` quando un utente:
 
-* Rifiuta il tracciamento a livello di  Audience Manager o partner.
+* Rifiuta il tracciamento a livello di Audience Manager  o partner.
 * Proviene da un&#39;area geografica non valida o non selezionata.
 * Disattiva i cookie del browser (tutti o di terze parti).
 
-See also, [DCS Error Codes, Messages, and Examples](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
+Vedi anche [Codici di errore DCS, messaggi ed esempi](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
