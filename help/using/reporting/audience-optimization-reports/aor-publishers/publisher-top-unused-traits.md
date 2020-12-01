@@ -21,31 +21,31 @@ Le caratteristiche principali non utilizzate sono rappresentate come un diagramm
 
 ## Caso d&#39;uso {#use-cases}
 
-Con il [!UICONTROL Top Unused Traits] rapporto, puoi analizzare e confrontare le prestazioni di caratteristiche di prime e terze parti che attualmente non sono mappate a un segmento. Questa visualizzazione può evidenziare le caratteristiche migliori da utilizzare in un segmento di pubblico per l&#39;ottimizzazione delle campagne o per la rete di nuove opportunità.
+Con il rapporto [!UICONTROL Top Unused Traits], puoi analizzare e confrontare le prestazioni di caratteristiche di prime e terze parti che attualmente non sono mappate a un segmento. Questa visualizzazione può evidenziare le caratteristiche migliori da utilizzare in un segmento di pubblico per l&#39;ottimizzazione delle campagne o per la rete di nuove opportunità.
 
 ## Utilizzo del report Caratteristiche principali non utilizzate {#using-the-report}
 
-Usate i **[!UICONTROL Data Provider Type]** controlli per alternare tra caratteristiche di prime parti e di terze parti. Selezionare **[!UICONTROL All]** per restituire le caratteristiche di prima e terza parte nel rapporto.
+Utilizzate i controlli **[!UICONTROL Data Provider Type]** per alternare tra caratteristiche di prime parti e terze parti. Selezionare **[!UICONTROL All]** per restituire caratteristiche di prima e terza parte nel rapporto.
 
-Con il **[!UICONTROL Impressions]** cursore, potete selezionare un valore minimo e massimo per le impression restituite. Eventuali caratteristiche responsabili di un numero inferiore o superiore ai limiti impostati non vengono visualizzate nel rapporto.
+Con il cursore **[!UICONTROL Impressions]** potete selezionare un valore minimo e massimo per le impression restituite. Eventuali caratteristiche responsabili di un numero inferiore o superiore ai limiti impostati non vengono visualizzate nel rapporto.
 
-Utilizzate i controlli **[!UICONTROL Day Range]** e **[!UICONTROL Date Through]** per regolare la gamma di look-back. Per questo rapporto è disponibile solo il periodo di lookback di 30 giorni.
+Utilizzare i controlli **[!UICONTROL Day Range]** e **[!UICONTROL Date Through]** per regolare l&#39;intervallo di look-back. Per questo rapporto è disponibile solo il periodo di lookback di 30 giorni.
 
-Utilizzate la casella a **[!UICONTROL Order]** discesa per selezionare le proprietà Web del portfolio per cui desiderate restituire informazioni.
+Utilizzate la casella a discesa **[!UICONTROL Order]** per selezionare le proprietà Web nel portafoglio per cui desiderate restituire informazioni.
 
-Nella casella a **[!UICONTROL Data Provider]** discesa, seleziona le origini dati contenenti le caratteristiche che desideri vedere nel rapporto.
+Nella casella a discesa **[!UICONTROL Data Provider]**, seleziona le origini dati contenenti le caratteristiche che desideri vedere nel rapporto.
 
-Utilizzate la casella a **[!UICONTROL Traits]** discesa per selezionare le caratteristiche da visualizzare nel rapporto.
+Utilizzate la casella a discesa **[!UICONTROL Traits]** per selezionare le caratteristiche da visualizzare nel rapporto.
 
 >[!IMPORTANT]
 >
->Quando [!UICONTROL Audience Optimization for Publishers]abilitate, dovete includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel Passaggio 3 di [Importa file di dati Google Ad Manager (ex DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che nel rapporto sia indicata la proprietà Web come [!UICONTROL Order] anziché come [!UICONTROL Order ID].
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel passaggio 3 di [Importa file di dati Google Ad Manager (precedentemente DFP) in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). A questo scopo, assicuratevi che il rapporto descriva la proprietà Web come [!UICONTROL Order] anziché come [!UICONTROL Order ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
 **Report di esempio**
 
-Il tuo [!UICONTROL Top Unused Traits] rapporto potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti.
+Il report [!UICONTROL Top Unused Traits] potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti.
 
 Vedere le descrizioni per le informazioni aggiuntive nella tabella sotto il rapporto campione.
 
@@ -90,9 +90,9 @@ Vedere le descrizioni per le informazioni aggiuntive nella tabella sotto il rapp
 
 La posizione delle caratteristiche in un report può fornire informazioni dettagliate sulle caratteristiche che è possibile utilizzare per ottimizzare i segmenti di pubblico esistenti.
 
-Le caratteristiche situate più in alto sull’asse Impressioni sono quelle che desiderate usare nelle campagne. Per le caratteristiche con un numero limitato di impression, è improbabile che si stia raggiungendo questo pubblico sulla vostra proprietà Web, in base ai [!DNL Google Ad Manager] dati.
+Le caratteristiche situate più in alto sull’asse Impressioni sono quelle che desiderate usare nelle campagne. Per le caratteristiche con un numero limitato di impression, è improbabile che si stia raggiungendo questo pubblico sulla proprietà Web, in base ai dati [!DNL Google Ad Manager].
 
-Osservate a sinistra dell&#39; [!UICONTROL Unique Trait Realizations] asse per ottenere caratteristiche estremamente precise e a destra per quelle che possono essere ridimensionate.
+Osservate a sinistra dell&#39;asse [!UICONTROL Unique Trait Realizations] per ottenere caratteristiche molto precise e a destra per quelle che possono essere ridimensionate.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 
