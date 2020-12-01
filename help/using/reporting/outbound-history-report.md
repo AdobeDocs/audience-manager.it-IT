@@ -29,8 +29,8 @@ t_reports_outbound_history.xml
 
    ![Risultato del passaggio](assets/outbound_history.png)
 
-1. Nella **[!UICONTROL Search for a Destination]** casella, iniziate a digitare e selezionate la destinazione desiderata.
-1. Nella **[!UICONTROL Select a Date Range]** casella, specifica le date di inizio e di fine del rapporto, quindi fai clic su **[!UICONTROL Apply Date Filter]**.
+1. Nella casella **[!UICONTROL Search for a Destination]**, iniziate a digitare e selezionate la destinazione desiderata.
+1. Nella casella **[!UICONTROL Select a Date Range]**, specificare le date di inizio e di fine del rapporto, quindi fare clic su **[!UICONTROL Apply Date Filter]**.
 
    ![Risultato del passaggio](assets/outbound_history_stats.png)
 
@@ -46,11 +46,11 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Nome file sincronizzazione dati </td> 
-   <td colname="col2"> <p>Elenco di tutti i file in uscita generati da <span class="keyword"> Adobe</span> per questa destinazione elaborati insieme. </p> </td> 
+   <td colname="col2"> <p>Elenco di tutti i file in uscita generati da <span class="keyword">  Adobe</span> per questa destinazione che sono stati elaborati insieme. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Riuscito </td> 
-   <td colname="col2"> <p>Numero di record che sono stati inviati correttamente da <span class="keyword"> Audience Manager</span> alla destinazione. </p> </td> 
+   <td colname="col2"> <p>Numero di record inviati correttamente da <span class="keyword">  Audience Manager</span> alla destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Non riuscito </td> 
@@ -58,7 +58,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Record ricevuti </td> 
-   <td colname="col2"> <p>Numero totale di record <span class="keyword"> generati da Adobe</span> nei file e tentati di inviarli alla destinazione. Nella maggior parte dei casi, questo deve essere il numero totale di file riusciti e non riusciti. </p> </td> 
+   <td colname="col2"> <p>Numero totale di record <span class="keyword">  Adobe</span> generati nei file e tentati di inviare alla destinazione. Nella maggior parte dei casi, questo deve essere il numero totale di file riusciti e non riusciti. </p> </td> 
   </tr> 
  </tbody> 
 </table>
