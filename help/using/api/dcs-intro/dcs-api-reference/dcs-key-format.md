@@ -17,14 +17,14 @@ ht-degree: 11%
 
 # Formattazione delle coppie chiave-valore nelle chiamate DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-When making a call, the [!DNL DCS] accepts key-value data in standard or serialized format. Leggere questa sezione per informazioni su come formattare dati chiave-valore standard e serializzati.
+Quando si effettua una chiamata, la [!DNL DCS] accetta dati chiave-valore in formato standard o serializzato. Leggere questa sezione per informazioni su come formattare dati chiave-valore standard e serializzati.
 
-## Standard and Serialized Key-Value Pairs {#standard-serialized}
+## Coppie chiave standard e serializzate {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Tipo di valore chiave </th> 
+   <th colname="col1" class="entry"> Tipo di chiave-valore </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
    <th colname="col3" class="entry"> Esempio </th> 
   </tr> 
@@ -63,7 +63,7 @@ Con coppie chiave-valore serializzate, dovete specificare gli indicatori che sep
   </tr> 
   <tr> 
    <td colname="col1"><b>Separatori</b> </td> 
-   <td colname="col2"> Comma , </td> 
+   <td colname="col2"> Virgola , </td> 
    <td colname="col3"> <p>Valori nelle coppie chiave-valore: </p> <p><code> key1=val1,val2,val3&amp;key2=valA,valB,valC</code> </p> </td> 
   </tr> 
  </tbody> 
@@ -72,6 +72,6 @@ Con coppie chiave-valore serializzate, dovete specificare gli indicatori che sep
 >[!MORELIKETHIS]
 >
 >* [Inviare dati al DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
->* [Key-Value Prefixes and Variables Supported by the DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
+>* [Prefissi e variabili chiave-valore supportati dal DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 >* [Spiegazione delle coppie chiave-valore](../../../reference/key-value-pairs-explained.md)
 
