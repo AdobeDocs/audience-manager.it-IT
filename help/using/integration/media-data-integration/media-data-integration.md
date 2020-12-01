@@ -1,6 +1,6 @@
 ---
-description: È possibile acquisire dati da campagne multimediali utilizzando chiamate pixel a  Audience Manager (spesso denominate "pixel per la creatività") o acquisendo file di registro.
-seo-description: È possibile acquisire dati da campagne multimediali utilizzando chiamate pixel a  Audience Manager (spesso denominate "pixel per la creatività") o acquisendo file di registro.
+description: È possibile acquisire dati da campagne multimediali utilizzando chiamate in pixel a  Audience Manager (spesso denominate "pixel del creativo") o acquisendo file di registro.
+seo-description: È possibile acquisire dati da campagne multimediali utilizzando chiamate in pixel a  Audience Manager (spesso denominate "pixel del creativo") o acquisendo file di registro.
 seo-title: 'Integrazione di dati multimediali '
 solution: Audience Manager
 title: 'Integrazione di dati multimediali '
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 # Integrazione di dati multimediali {#media-data-integration}
 
-È possibile acquisire dati da campagne multimediali utilizzando chiamate pixel a  Audience Manager (spesso denominate &quot;pixel per la creatività&quot;) o acquisendo file di registro. Leggete gli articoli di questa sezione per comprendere il processo.
+È possibile acquisire dati da campagne multimediali utilizzando chiamate in pixel a  Audience Manager (spesso denominate &quot;pixel del creativo&quot;) o acquisendo file di registro. Leggete gli articoli di questa sezione per comprendere il processo.
 
 <!-- c_camp_data_int.xml -->
 
@@ -27,6 +27,6 @@ ht-degree: 17%
 
 Per impostare l’inserimento del registro, leggete i seguenti articoli:
 
-* [Importa i file di dati di Google Campaign Manager in  Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Importa file di dati Google Ad Manager in  Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [Log Data and Metadata Files (File](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) di dati di registro e metadati) per impostare l’inserimento di registro per i file di registro generici
+* [Importa file di dati Google Campaign Manager nel Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+* [Importa file di dati Google Ad Manager in  Audience Manager  ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Registra dati e ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) file di metadati per configurare l’inserimento del registro per i file di registro generici
