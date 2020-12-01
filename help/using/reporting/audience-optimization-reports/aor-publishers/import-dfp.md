@@ -21,20 +21,20 @@ Prima che Audience Manager possa abilitare l’ottimizzazione del pubblico per g
 
 ## Prerequisiti per l&#39;inserimento del registro di Google Ad Manager {#prereqs-dfp-ingestion}
 
-Il processo descritto in questa sezione deve essere completato *prima* di passare ai prerequisiti per l’abilitazione dell’assimilazione del registro.
+Tenere presente che il processo descritto in questa sezione deve essere completato *prima di* è necessario passare ai prerequisiti per l&#39;abilitazione dell&#39;assimilazione del registro.
 
-Per utilizzare i file di registro [!DNL Google Ad Manager] (già Google DFP) in [!DNL Audience Manager], devi prima impostare il nostro ID utente univoco [Audience Manager (UUID)](../../../reference/ids-in-aam.md) nella chiamata dei tag degli annunci. Così facendo, il nostro ID è incluso nei [!DNL Google Ad Manager] registri e possiamo far corrispondere gli ID tra [!DNL Google Ad Manager] e [!DNL Audience Manager]. Utilizzate [!DNL Audience Manager][!UICONTROL DIL] il codice o [!UICONTROL Audience Management Module] per impostare l&#39; [!DNL Audience Manager] UUID in un cookie di prime parti.
+Per utilizzare i file di registro [!DNL Google Ad Manager] (già Google DFP) in [!DNL Audience Manager], è necessario impostare il nostro [ID utente univoco  Audience Manager (UUID)](../../../reference/ids-in-aam.md) nella chiamata del tag dell&#39;annuncio. A tal fine, il nostro ID è incluso nei [!DNL Google Ad Manager] registri e possiamo far corrispondere gli ID tra [!DNL Google Ad Manager] e [!DNL Audience Manager]. Utilizzare il codice [!DNL Audience Manager] [!UICONTROL DIL] o [!UICONTROL Audience Management Module] per impostare l&#39;UUID [!DNL Audience Manager] in un cookie di prime parti.
 
-Ecco come impostare l’ [!DNL Audience Manager] ID nella chiamata del tag dell’annuncio, come spiegato nella nostra documentazione:
+Di seguito viene illustrato come impostare l&#39;ID [!DNL Audience Manager] nella chiamata del tag dell&#39;annuncio, come spiegato nella nostra documentazione:
 
 * [Tramite Google Publisher Tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [Tramite una destinazione di cookie](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-Devi impostare tu stesso l&#39; [!DNL Audience Manager] ID e puoi collaborare con [!DNL Audience Manager] la consulenza per verificare se tutto funziona. Hai impostato correttamente l’ [!DNL Audience Manager] ID se:
+È necessario impostare l&#39;ID [!DNL Audience Manager] autonomamente e può essere utilizzato con la consulenza [!DNL Audience Manager] per verificare se tutto funziona. L&#39;ID [!DNL Audience Manager] è stato impostato correttamente se:
 
 * `'aamid'` è la chiave utilizzata come identificatore.
-* Il valore ID utente è formattato correttamente come [!DNL Audience Manager] UUID, come descritto nel nostro [Indice di ID in  Audience Manager](../../../reference/ids-in-aam.md).
-* Hai incluso l’ [!DNL Audience Manager] UUID in un campo definito nei tuoi [!DNL Google Ad Manager] registri (ad es. CustomTargeting).
+* Il valore ID utente è formattato correttamente come UUID [!DNL Audience Manager], come descritto nel nostro [Indice di ID in  Audience Manager](../../../reference/ids-in-aam.md).
+* L&#39;UUID [!DNL Audience Manager] è stato incluso in un campo definito nei registri [!DNL Google Ad Manager] (ad es. CustomTargeting).
 
 ## Prerequisiti per l&#39;abilitazione dell&#39;inserimento del registro {#prereqs-ingestion-enablement}
 
@@ -49,14 +49,14 @@ Devi impostare tu stesso l&#39; [!DNL Audience Manager] ID e puoi collaborare co
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Passaggio 1 </p> </td> 
-   <td colname="col2"> <p>Conferma che i passaggi necessari per impostare il <span class="keyword"> Audience Manager</span> UUID (come indicato sopra) sono stati completati prima di passare al Passaggio 2 </p> </td> 
-   <td colname="col3"> <p><span class="keyword">  Assistenza clienti o consulenza Audience Manager</span> </p> </td> 
+   <td colname="col2"> <p>Verificare che i passaggi necessari per impostare l'UUID <span class="keyword"> del Audience Manager </span>  (come indicato sopra) siano stati completati prima di passare al passaggio 2 </p> </td> 
+   <td colname="col3"> <p><span class="keyword"> Audience </span> ManagerAssistenza clienti o consulenza </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passaggio 2 </p> </td> 
    <td colname="col2"> <p>L'amministratore di Google Ad Manager crea: </p> <p> 
      <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
-      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Un account di servizio per l'assimilazione di Google Ad Manager effettua l'accesso a <span class="keyword"> Audience Manager</span>. </li> 
+      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Un account di servizio per l'assimilazione di Google Ad Manager accede a <span class="keyword">  Audience Manager</span>. </li> 
       <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Nuove credenziali. <p>Nota:  Questo può richiedere un indirizzo e-mail univoco specifico per questo progetto e verrà utilizzato quando si effettua il provisioning dell'accesso a Google Storage Bucket. </p> </li> 
       <li id="li_95444B9FD1B34659A9634814B262A681">Una chiave privata (credenziale basata su JSON) </li> 
      </ol> </p> </td> 
@@ -83,12 +83,12 @@ Devi impostare tu stesso l&#39; [!DNL Audience Manager] ID e puoi collaborare co
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passaggio 6 </p> </td> 
-   <td colname="col2"> <p>Compilate i prerequisiti in un messaggio e-mail all'Assistenza clienti AAM (aamsupport@adobe.com) per avviare il processo di caricamento del registro. Bozza il messaggio e-mail utilizzando il modello nella sezione successiva. </p> </td> 
-   <td colname="col3"> <p>Voi o <span class="keyword"> Audience Manager</span> Consulting per vostro conto </p> </td> 
+   <td colname="col2"> <p>Compila i prerequisiti in un messaggio e-mail per AAM l'Assistenza clienti (aamsupport@adobe.com) per avviare il processo di caricamento del registro. Bozza il messaggio e-mail utilizzando il modello nella sezione successiva. </p> </td> 
+   <td colname="col3"> <p>L'utente o <span class="keyword">  Audience Manager</span> Consulenza per conto dell'utente </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Modello e-mail {#email-template}
 
-Per completare l’abilitazione dell’inserimento del registro, inviateci un messaggio e-mail a aamsupport@adobe.com. Utilizzare il modello [di posta elettronica](assets/enable_dfp_ingestion.txt)allegato.
+Per completare l’abilitazione dell’inserimento del registro, inviateci un messaggio e-mail a aamsupport@adobe.com. Utilizzare il [modello di posta elettronica allegato](assets/enable_dfp_ingestion.txt).
