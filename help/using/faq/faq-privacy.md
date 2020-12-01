@@ -72,7 +72,7 @@ Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Profili a livello di gestione delle relazioni con i clienti (profili autenticati) </p> </td> 
-   <td colname="col2"> <p>L’intervallo TTL (time-to-live) predefinito per i profili a livello di gestione delle relazioni con i clienti inattivi (ID cliente) è di 24 mesi. Tuttavia, puoi utilizzare l'interfaccia utente  Audience Manager per ridurre o estendere l'intervallo TTL per i profili a livello CRM inattivi tra un mese e cinque anni. Puoi eseguire questa operazione durante la creazione o la modifica di una sorgente di dati multi-dispositivo.</p> <p>Per ulteriori informazioni, consulta Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Create a Cross-Device Data Source</a>.</p> </td> 
+   <td colname="col2"> <p>L’intervallo TTL (time-to-live) predefinito per i profili a livello di gestione delle relazioni con i clienti inattivi (ID cliente) è di 24 mesi. Tuttavia, puoi utilizzare l'interfaccia utente del Audience Manager  per ridurre o estendere l'intervallo TTL per i profili a livello CRM inattivi tra un mese e cinque anni. Puoi eseguire questa operazione durante la creazione o la modifica di una sorgente di dati multi-dispositivo.</p> <p>Per ulteriori informazioni, consulta Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Create a Cross-Device Data Source</a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID di dispositivi mobili </p> </td> 
