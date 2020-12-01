@@ -1,6 +1,6 @@
 ---
-description: Un metodo GET che restituisce la destinazione per l'ID destinazione specificato.
-seo-description: Un metodo GET che restituisce la destinazione per l'ID destinazione specificato.
+description: Un metodo di GET che restituisce la destinazione per l'ID di destinazione specificato.
+seo-description: Un metodo di GET che restituisce la destinazione per l'ID di destinazione specificato.
 seo-title: Restituire una destinazione per ID destinazione
 solution: Audience Manager
 title: Restituire una destinazione per ID destinazione
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # Restituire una destinazione per ID destinazione {#return-a-destination-by-destination-id}
 
-Un `GET` metodo che restituisce la destinazione per l&#39;oggetto specificato `destinationId`.
+Un metodo `GET` che restituisce la destinazione per il `destinationId` specificato.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -27,7 +27,7 @@ Un `GET` metodo che restituisce la destinazione per l&#39;oggetto specificato `d
 
 >[!NOTE]
 >
->Per compilare il `mappings` campo passato `includeMappings=true` nell&#39;URL.
+>Per compilare la passata di campo `mappings` nell&#39;URL.`includeMappings=true`
 
 ## Risposta
 
@@ -59,7 +59,7 @@ Un `GET` metodo che restituisce la destinazione per l&#39;oggetto specificato `d
 
 ## Restituisci tutte le destinazioni {#return-all-destinations}
 
-Un `GET` metodo che restituisce tutte le destinazioni per il partner specificato.
+Un metodo `GET` che restituisce tutte le destinazioni per il partner specificato.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -69,7 +69,7 @@ Un `GET` metodo che restituisce tutte le destinazioni per il partner specificato
 
 >[!NOTE]
 >
->* *(Facoltativo)* Passare `containsSegment=<sid>` per restituire un array di tutte le destinazioni mappate al segmento specificato. Ad esempio, la query potrebbe essere simile alla seguente: `GET .../destinations/?containsSegment=4321`.
+>* *(Facoltativo)* Passare  `containsSegment=<sid>` per restituire un array di tutte le destinazioni mappate al segmento specificato. Ad esempio, la query potrebbe essere simile alla seguente: `GET .../destinations/?containsSegment=4321`.
    >
    >
 * Non restituisce l&#39;oggetto di destinazione completo. Ottenere la destinazione per ordine di dati se è necessario un oggetto completamente popolato.
@@ -77,7 +77,7 @@ Un `GET` metodo che restituisce tutte le destinazioni per il partner specificato
 
 ### Parametri query opzionali
 
-È possibile utilizzare questi parametri facoltativi con metodi API che restituiscono *tutte* le proprietà di un oggetto. Impostate queste opzioni nella stringa di richiesta quando la query viene passata alla [!DNL API]. Consultate Parametri [](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)opzionali.
+È possibile utilizzare questi parametri facoltativi con metodi API che restituiscono le proprietà *all* per un oggetto. Impostate queste opzioni nella stringa di richiesta quando passate la query in [!DNL API]. Vedere [Parametri facoltativi](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -142,9 +142,9 @@ Un `GET` metodo che restituisce tutte le destinazioni per il partner specificato
 ]
 ```
 
-## Restituire una mappatura di destinazione con l’ID mappatura {#return-dest-mapping-id}
+## Restituire una mappatura di destinazione con l&#39;ID mappatura {#return-dest-mapping-id}
 
-Un `GET` metodo che restituisce un singolo mapping di destinazione basato sul `mappingId`.
+Un metodo `GET` che restituisce una mappatura di destinazione singola in base alla `mappingId`.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -181,7 +181,7 @@ Un `GET` metodo che restituisce un singolo mapping di destinazione basato sul `m
 
 ## Mappature di destinazione di ritorno {#return-dest-mappings}
 
-Un `GET` metodo che restituisce i mapping per una destinazione.
+Metodo `GET` che restituisce i mapping per una destinazione.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -255,7 +255,7 @@ Un `GET` metodo che restituisce i mapping per una destinazione.
 
 ## Restituisci tutte le piattaforme di destinazione disponibili {#return-dest-platforms}
 
-Un `GET` metodo che restituisce tutte le piattaforme dispositivo disponibili per le destinazioni.
+Un metodo `GET` che restituisce tutte le piattaforme dispositivo disponibili per le destinazioni.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -273,7 +273,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## Restituisci cronologia processo di destinazione S2S e Bulk S2S {#return-job-history}
 
-Un `GET` metodo che restituisce informazioni sulla cronologia dei processi di destinazione in uscita [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) e in massa [!UICONTROL S2S] .
+Un metodo `GET` che restituisce le informazioni relative alla cronologia dei processi di destinazione in uscita [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) e in massa [!UICONTROL S2S].
 
 <!-- r_get_job_history.xml -->
 
@@ -281,7 +281,7 @@ Un `GET` metodo che restituisce informazioni sulla cronologia dei processi di de
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Parametri di query richiesti: `startDate` = *&lt;`epochtime`>* e `endDate` = *&lt;`epochtime`>*.
+Parametri di query richiesti: `startDate` = *&lt;`epochtime`* e `endDate` = *&lt;`epochtime`>*.
 
 ### Risposta
 
