@@ -27,24 +27,24 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le ](../../features/administration/administration-overview.md) autorizzazioni del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella  [!UICONTROL Bulk Management Tools].
 
 >[!CAUTION]
 >
 >Non mescolare tipi di oggetto in una richiesta di creazione in blocco. Le intestazioni di ciascun oggetto sono univoche e non possono essere combinate. Cancellare il foglio di lavoro ed effettuare una richiesta separata per elementi diversi.
 
-Per creare oggetti in blocco, aprire il [!UICONTROL Bulk Management Tools] foglio di lavoro e:
+Per creare oggetti in blocco, aprire il foglio di lavoro [!UICONTROL Bulk Management Tools] e:
 
-1. Fate clic sulla **[!UICONTROL Headers]** scheda e copiate le intestazioni create per l’elemento da aggiungere.
-2. Fate clic sulla **[!UICONTROL Create]** scheda.
+1. Fare clic sulla scheda **[!UICONTROL Headers]** e copiare le intestazioni di creazione per l&#39;elemento da aggiungere.
+2. Fare clic sulla scheda **[!UICONTROL Create]**.
 3. Incolla le intestazioni create nella prima riga del foglio di lavoro di aggiornamento.
 4. Incollate o digitate i dati da modificare in una colonna corrispondente in base all&#39;etichetta dell&#39;intestazione.
 5. Nella barra degli strumenti del foglio di lavoro, fare clic sul pulsante Crea che corrisponde all’elemento da aggiornare.
-Questa azione consente di aprire la [!UICONTROL Account Information] finestra di dialogo.
-6. Fornite le informazioni [di](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) accesso richieste e fate clic su **[!UICONTROL Submit]**.
+Questa azione apre la finestra di dialogo [!UICONTROL Account Information].
+6. Specificare le informazioni di accesso [necessarie](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) e fare clic su **[!UICONTROL Submit]**.
 
-Il foglio di lavoro crea una [!UICONTROL Results] colonna. La [!UICONTROL Results] colonna restituisce la risposta JSON per un&#39;operazione riuscita. Per gli esempi, consultate [REST API](../../api/rest-api-main/rest-api-main.md) . Prima di immettere i dati, il foglio di lavoro creato in blocco deve essere simile al seguente esempio. Nota: qui non vengono visualizzate tutte le diverse opzioni di creazione. Questa opzione è inclusa per comprendere l&#39;aspetto di un foglio di lavoro completato.
+Il foglio di lavoro crea una colonna [!UICONTROL Results]. La colonna [!UICONTROL Results] restituisce la risposta JSON per un&#39;operazione riuscita. Per gli esempi, vedere [REST APIs](../../api/rest-api-main/rest-api-main.md). Prima di immettere i dati, il foglio di lavoro creato in blocco deve essere simile al seguente esempio. Nota: qui non vengono visualizzate tutte le diverse opzioni di creazione. Questa opzione è inclusa per comprendere l&#39;aspetto di un foglio di lavoro completato.
 
 ![](assets/cretetraits.png)
 
-Se l&#39;aggiornamento in blocco restituisce un errore o un errore, consulta Risoluzione dei [problemi relativi agli strumenti](../../reference/bulk-management-tools/bulk-troubleshooting.md)di gestione in blocco.
+Se l&#39;aggiornamento in blocco restituisce un errore o un errore, vedere [Risoluzione dei problemi per gli strumenti di gestione in blocco](../../reference/bulk-management-tools/bulk-troubleshooting.md).
