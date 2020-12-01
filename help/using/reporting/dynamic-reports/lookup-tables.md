@@ -27,11 +27,11 @@ c_lookup_tables.xml
 
 ## I metadati del file di registro aumentano la dimensione del file e il tempo di elaborazione
 
-Un tipico file di registro utilizzato dal [!UICONTROL Delivery Performance] rapporto in genere contiene migliaia di righe e dozzine di colonne. È costituito da ID numerici e da informazioni leggibili dall’utente, ad esempio nomi per creativi, inserzionisti, ordini di inserimento ecc.
+Un file di registro tipico utilizzato dal report [!UICONTROL Delivery Performance] in genere contiene migliaia di righe e dozzine di colonne. È costituito da ID numerici e da informazioni leggibili dall’utente, ad esempio nomi per creativi, inserzionisti, ordini di inserimento ecc.
 
-Queste informazioni non ID vengono denominate come *`metadata`* (ovvero, informazioni su altre informazioni) e vengono scritte in ogni riga del file di registro.
+Queste informazioni non ID sono denominate *`metadata`* (ovvero informazioni su altre informazioni) e vengono scritte in ogni riga del file di registro.
 
-Tuttavia, il [!UICONTROL Delivery Performance] rapporto funziona principalmente con gli ID nel file di registro. I metadati sono utili, ma ripetitivi. Aumenta le dimensioni dei file e i tempi di caricamento dei dati.
+Tuttavia, il rapporto [!UICONTROL Delivery Performance] funziona principalmente con gli ID nel file di registro. I metadati sono utili, ma ripetitivi. Aumenta le dimensioni dei file e i tempi di caricamento dei dati.
 
 ## Ridurre le dimensioni dei file e ridurre i tempi di elaborazione con le tabelle indice
 
@@ -72,4 +72,4 @@ Il file di ricerca seguente contiene i metadati e può essere collegato al file 
 
 ## Le API possono eliminare la necessità di tabelle di ricerca
 
-Se il sistema di gestione annunci ha un&#39;API, potrebbe non essere necessario inviare metadati in un file di ricerca. Potremmo essere in grado di ottenere tali informazioni tramite l&#39;API. In questo caso, i file di registro devono contenere solo ID. Vi aiuteremo a determinare se i metadati possono essere ottenuti tramite un&#39;API.
+Se il sistema di gestione degli annunci ha un&#39;API, potrebbe non essere necessario inviare i metadati in un file di ricerca. Potremmo essere in grado di ottenere tali informazioni tramite l&#39;API. In questo caso, i file di registro devono contenere solo ID. Vi aiuteremo a determinare se i metadati possono essere ottenuti tramite un&#39;API.
