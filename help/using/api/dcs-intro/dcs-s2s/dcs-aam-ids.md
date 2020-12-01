@@ -17,14 +17,14 @@ ht-degree: 17%
 
 # Ottenere ID utente e aree geografiche da una risposta DCS {#get-user-ids-and-regions-from-a-dcs-response}
 
-Questa sezione descrive come analizzare una [!DNL DCS] risposta per recuperare gli ID visitatore e regione richiesti per effettuare chiamate in tempo reale al visitatore [!DNL DCS].
+Questa sezione descrive come analizzare una risposta [!DNL DCS] per recuperare gli ID visitatore e regione richiesti per effettuare chiamate in tempo reale a [!DNL DCS].
 
 ## ID utente e regione {#user-region-ids}
 
-Una [!DNL DCS] risposta contiene i dati sui visitatori del sito. Prima di effettuare chiamate server-to-server al [!DNL DCS], è necessario disporre dell’ID visitatore e dell’ID di regione.
+Una risposta [!DNL DCS] contiene i dati sui visitatori del sito. È necessario disporre dell&#39;ID visitatore e regione prima di effettuare chiamate server-to-server a [!DNL DCS].
 
 * L&#39;ID utente è necessario per identificare e associare i dati a un particolare visitatore.
-* L&#39;ID di regione è obbligatorio perché è associato a un nome di server regionale, che è necessario inviare ai [!DNL DCS]. Le informazioni [!DNL DCS] vengono memorizzate nei centri dati geograficamente più vicini ai visitatori del sito. Consulta [ID regioni DCS, posizioni e nomi host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* L&#39;ID di regione è obbligatorio perché è associato a un nome di server regionale, che è necessario inviare ai [!DNL DCS]. La [!DNL DCS] memorizza le informazioni nei centri dati geograficamente più vicini ai visitatori del sito. Consulta [ID regioni DCS, posizioni e nomi host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 Questi parametri sono descritti di seguito. Il codice in *corsivo* rappresenta un segnaposto variabile.
 
@@ -52,7 +52,7 @@ Questi parametri sono descritti di seguito. Il codice in *corsivo* rappresenta u
 
 ## Risposta di esempio {#sample-response}
 
-Questa semplice risposta mostra la `UUID` regione `ID`. Nota: si tratta solo di dati di esempio. I file di registro potrebbero essere più lunghi e complessi.
+Questa semplice risposta mostra la `UUID` e la regione `ID`. Nota: si tratta solo di dati di esempio. I file di registro potrebbero essere più lunghi e complessi.
 
 ```js
 {
@@ -65,4 +65,4 @@ Questa semplice risposta mostra la `UUID` regione `ID`. Nota: si tratta solo di 
 
 ## Passaggi successivi {#next-steps}
 
-Una volta ottenuto l&#39;ID utente e il nome del server regionale, potete iniziare a inviare e ricevere [!DNL DCS] i dati. Consultate [Effettuare chiamate](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)DCS API.
+Una volta ottenuto l&#39;ID utente e il nome del server regionale, potete iniziare a inviare e ricevere i dati [!DNL DCS]. Consultate [Esecuzione di chiamate API DCS](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
