@@ -17,13 +17,13 @@ ht-degree: 14%
 
 # Metodi API per la gestione delle autorizzazioni {#permissions-management-api-methods}
 
-Metodi [!DNL API] di riposo per gestire le autorizzazioni per oggetti e gruppi.
+Utilizzare i metodi [!DNL API] per gestire le autorizzazioni per oggetti e gruppi.
 
 <!-- c_rest_api_perm_man.xml -->
 
 ## Elenca i tipi di oggetto disponibili {#list-object-types}
 
-Un `GET` metodo per elencare i tipi di oggetti disponibili per i quali è possibile impostare controlli di accesso basati sui ruoli.
+Un metodo `GET` per elencare i tipi di oggetti disponibili per i quali è possibile impostare controlli di accesso basati sui ruoli.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -39,7 +39,7 @@ Un `GET` metodo per elencare i tipi di oggetti disponibili per i quali è possib
 
 ## Elenca le autorizzazioni disponibili per un tipo di oggetto {#list-permissions-object-type}
 
-Un `GET` metodo per elencare le autorizzazioni disponibili per un tipo di oggetto.
+Un metodo `GET` per elencare le autorizzazioni disponibili per un tipo di oggetto.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
