@@ -1,7 +1,7 @@
 ---
-description: Utilizzate il visualizzatore del profilo visitatore per visualizzare lo stato corrente di un profilo utente per il browser corrente, incluse le caratteristiche e i segmenti. Per ogni caratteristica, potete visualizzarne il SID, il nome, i dettagli su come sono state realizzate le caratteristiche del visitatore (di prima o di terza parte), la data di realizzazione e la frequenza delle realizzazioni. Per ciascun segmento, puoi visualizzarne il SID, il nome e la data di appartenenza del segmento. Puoi anche visualizzare il profilo del visitatore per un altro ID profilo Audience Manager (UUID) . Il visualizzatore del profilo del visitatore è utile per la risoluzione dei problemi.
+description: Utilizzate il visualizzatore del profilo visitatore per visualizzare lo stato corrente di un profilo utente per il browser corrente, incluse le caratteristiche e i segmenti. Per ogni caratteristica, potete visualizzarne il SID, il nome, i dettagli su come sono state realizzate le caratteristiche del visitatore (di prima o di terza parte), la data di realizzazione e la frequenza delle realizzazioni. Per ciascun segmento, puoi visualizzarne il SID, il nome e la data di appartenenza del segmento. Potete anche visualizzare il profilo del visitatore per un altro ID profilo di Audience Manager  (UUID). Il visualizzatore del profilo del visitatore è utile per la risoluzione dei problemi.
 keywords: location;location parameter
-seo-description: Utilizzate il visualizzatore del profilo visitatore per visualizzare lo stato corrente di un profilo utente per il browser corrente, incluse le caratteristiche e i segmenti. Per ogni caratteristica, potete visualizzarne il SID, il nome, i dettagli su come sono state realizzate le caratteristiche del visitatore (di prima o di terza parte), la data di realizzazione e la frequenza delle realizzazioni. Per ciascun segmento, puoi visualizzarne il SID, il nome e la data di appartenenza del segmento. Puoi anche visualizzare il profilo del visitatore per un altro ID profilo Audience Manager (UUID) . Il visualizzatore del profilo del visitatore è utile per la risoluzione dei problemi.
+seo-description: Utilizzate il visualizzatore del profilo visitatore per visualizzare lo stato corrente di un profilo utente per il browser corrente, incluse le caratteristiche e i segmenti. Per ogni caratteristica, potete visualizzarne il SID, il nome, i dettagli su come sono state realizzate le caratteristiche del visitatore (di prima o di terza parte), la data di realizzazione e la frequenza delle realizzazioni. Per ciascun segmento, puoi visualizzarne il SID, il nome e la data di appartenenza del segmento. Potete anche visualizzare il profilo del visitatore per un altro ID profilo di Audience Manager  (UUID). Il visualizzatore del profilo del visitatore è utile per la risoluzione dei problemi.
 seo-title: Visualizzatore dei profili dei visitatori
 solution: Audience Manager
 title: Visualizzatore dei profili dei visitatori
@@ -18,11 +18,11 @@ ht-degree: 2%
 
 # Visualizzatore dei profili dei visitatori {#visitor-profile-viewer}
 
-Utilizzate l&#39;icona [!UICONTROL Visitor Profile Viewer] per visualizzare lo stato corrente di un profilo utente per il browser corrente, incluse le caratteristiche e i segmenti. Per ogni caratteristica, potete visualizzarne [!UICONTROL SID]il nome, i dettagli su come sono state realizzate le caratteristiche del visitatore (di prima o di terza parte), la data di realizzazione e la frequenza delle realizzazioni. Per ciascun segmento, puoi visualizzarne [!UICONTROL SID], il nome e la data di appartenenza al segmento. Potete anche visualizzare il profilo del visitatore per un altro ID profilo Audience Manager  ([!UICONTROL UUID]). È [!UICONTROL Visitor Profile Viewer] utile per la risoluzione dei problemi.
+Utilizzate [!UICONTROL Visitor Profile Viewer] per visualizzare lo stato corrente di un profilo utente per il browser corrente, incluse le caratteristiche e i segmenti. Per ogni caratteristica, potete visualizzare il relativo [!UICONTROL SID] nome, i dettagli su come sono state realizzate le caratteristiche del visitatore (prima o terza parte), la data di realizzazione e la frequenza delle realizzazioni. Per ciascun segmento, puoi visualizzare il relativo [!UICONTROL SID], il nome e la data di appartenenza del segmento. Potete inoltre visualizzare il profilo visitatore per un altro ID profilo di Audience Manager  ([!UICONTROL UUID]). [!UICONTROL Visitor Profile Viewer] è utile per la risoluzione dei problemi.
 
 >[!NOTE]
 >
->* L&#39;accesso richiede [!UICONTROL Administrator] autorizzazioni.
+>* L&#39;accesso richiede autorizzazioni [!UICONTROL Administrator].
 >* Si verifica un ritardo di 24 ore prima che nell’interfaccia utente vengano visualizzate informazioni sui segmenti e sulle caratteristiche realizzate.
 
 
@@ -33,12 +33,12 @@ Traits that are not part of a segment will not appear in the
 
 1. Clic **[!UICONTROL Tools]** > **[!UICONTROL Visitor Profile Viewer]**.
 
-1. *(Facoltativo)* Fate clic sul nome della caratteristica per visualizzarla nel [!UICONTROL Trait Builder].
+1. *(Facoltativo)* Fate clic sul nome della caratteristica per visualizzarla nel  [!UICONTROL Trait Builder].
 
-   For more information, see [Traits](../features/traits/trait-details-page.md).
+   Per ulteriori informazioni, vedere [Caratteristiche](../features/traits/trait-details-page.md).
 
-1. *(Facoltativo)* Fate clic sul nome del segmento per visualizzarlo nel [!UICONTROL Segment Builder].
+1. *(Facoltativo)* Fate clic sul nome del segmento per visualizzarlo nel  [!UICONTROL Segment Builder].
 
-   For more information, see [Segments](../features/segments/segments-purpose.md).
+   Per ulteriori informazioni, vedere [Segments](../features/segments/segments-purpose.md).
 
-1. *(Condizionale)* Nella **[!UICONTROL UUID]** casella, specificate un altro ID profilo Audience Manager , quindi fate clic **[!UICONTROL Refresh]** per visualizzare le caratteristiche e i segmenti di tale utente.
+1. *(Condizionale)* Nella  **[!UICONTROL UUID]** casella, specificate un altro ID profilo di Audience Manager , quindi fate clic  **[!UICONTROL Refresh]** per visualizzare le caratteristiche e i segmenti di tale utente.
