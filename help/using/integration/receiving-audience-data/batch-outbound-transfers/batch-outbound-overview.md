@@ -1,7 +1,7 @@
 ---
-description: ' Audience Manager invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.'
-seo-description: ' Adobe Audience Manager (AAM) invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.'
-seo-title: Trasferimenti di dati in uscita in batch in  Adobe Audience Manager (AAM)
+description: ' Audience Manager invia i dati batch ai fornitori di contenuti di terze parti in base alle presenti specifiche.'
+seo-description: Adobe Audience Manager (AAM) invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.
+seo-title: Trasferimenti di dati in uscita in batch in Adobe Audience Manager (AAM)
 title: 'Trasferimenti in batch di dati in uscita '
 feature: Outbound Data Transfers
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 17%
 
 # Trasferimenti in batch di dati in uscita 
 
- Audience Manager invia dati batch a fornitori di contenuti di terze parti in base alle presenti specifiche.
+ Audience Manager invia i dati batch ai fornitori di contenuti di terze parti in base alle presenti specifiche.
 
 * [Nome dei file di dati in uscita: sintassi ed esempi](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
 
@@ -27,7 +27,7 @@ ht-degree: 17%
 
 * [File di trasferimento del controllo per trasferimenti di file di registro](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
-   I file di controllo del trasferimento (.info) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che  i trasferimenti di file Audience Manager siano gestiti correttamente.
+   I file Transfer-control (.info) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che  Audience Manager gestisca correttamente i trasferimenti di file.
 
 * [Macro sui modelli in uscita](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 
@@ -39,4 +39,4 @@ ht-degree: 17%
 
 * [Utilizzo delle autorizzazioni bucket tra account diversi di Amazon S3 per i file un uscita](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
 
-   Il processo di trasferimento dati in uscita per i clienti che utilizzano Amazon Simple Storage Service (Amazon S3) richiede che venga richiesto il codice di accesso e la chiave segreta Amazon S3, al fine di inviare i file di dati in uscita al bucket.
+   Il processo di trasferimento dei dati in uscita per i clienti che utilizzano  Amazon Simple Storage Service ( Amazon S3) richiede la richiesta della chiave di accesso e della chiave segreta  Amazon S3, al fine di inviare i file di dati in uscita al bucket.
