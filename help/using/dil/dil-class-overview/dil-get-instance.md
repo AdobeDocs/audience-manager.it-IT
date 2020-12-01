@@ -1,7 +1,7 @@
 ---
-description: Recupera un’istanza DIL specifica del partner.
+description: Recupera un'istanza DIL specifica per il partner.
 keywords: audience manager api;aam api;audience manager apis;aam apis
-seo-description: Recupera un’istanza DIL specifica del partner.
+seo-description: Recupera un'istanza DIL specifica per il partner.
 seo-title: getDil
 solution: Audience Manager
 title: getDil
@@ -18,7 +18,7 @@ ht-degree: 17%
 
 # getDil{#getdil}
 
-Recupera un’istanza DIL specifica del partner.
+Recupera un&#39;istanza DIL specifica per il partner.
 
 **Firma funzione:** `getDil: function (partner, containerNSID) {}`
 
@@ -33,7 +33,7 @@ Recupera un’istanza DIL specifica del partner.
 
 ## Risposta
 
-La corrispondenza NSID di un partner e un contenitore di successo restituisce un’ [!UICONTROL DIL] istanza specifica del partner. In assenza di corrispondenza, l&#39;API restituisce (non genera) un errore con il messaggio &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+La corrispondenza NSID di un partner e un contenitore di successo restituisce un&#39;istanza [!UICONTROL DIL] specifica del partner. In assenza di corrispondenza, l&#39;API restituisce (non genera) un errore con il messaggio &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Codice di esempio
 
