@@ -33,11 +33,11 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Stringa | Nome della variabile per la quale si desidera ottenere un valore. |
 | `partner` | Stringa | Il nome del partner da cercare. |
-| `containerNSID` | Intero | Il contenitore [!DNL NSID] che state cercando. Il valore predefinito è `0`. |
+| `containerNSID` | Intero | Il [!DNL NSID] del contenitore ricercato. Il valore predefinito è `0`. |
 
 **Risposta**
 
-Restituisce il valore della variabile per un&#39; [!UICONTROL DIL] istanza.
+Restituisce il valore della variabile per un&#39;istanza [!UICONTROL DIL].
 
 **Codice di esempio**
 
