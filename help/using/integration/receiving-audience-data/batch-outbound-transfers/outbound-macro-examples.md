@@ -21,11 +21,11 @@ Esempi di utilizzo di alcune delle macro comuni per creare modelli di file in us
 
 >[!NOTE]
 >
->Nelle tabelle, il tipo **grassetto** identifica ogni macro con il relativo output. Per gli esempi di formato, i `<` `>` simboli sono stati aggiunti per aiutare a separare visivamente ogni macro.
+>Nelle tabelle, il tipo **grassetto** identifica ciascuna macro con il relativo output. Per gli esempi di formato, sono stati aggiunti i simboli `<` `>` per separare visivamente ogni macro.
 
 ## Macro nome file {#file-name-macros}
 
-Per un elenco delle macro e delle definizioni disponibili, vedere Macro [di modelli in](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)uscita.
+Per un elenco delle macro e delle definizioni disponibili, vedere [Macro di modelli in uscita](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -73,7 +73,7 @@ Per un elenco delle macro e delle definizioni disponibili, vedere Macro [di mode
 
 ## Macro di righe di intestazione {#header-macros}
 
-Per un elenco delle macro e delle definizioni disponibili, vedere Macro [di modelli in](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)uscita.
+Per un elenco delle macro e delle definizioni disponibili, vedere [Macro di modelli in uscita](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -92,7 +92,7 @@ Per un elenco delle macro e delle definizioni disponibili, vedere Macro [di mode
 
 ## Macro contenuto file {#file-content-macros}
 
-Per un elenco delle macro e delle definizioni disponibili, vedere Macro [di modelli in](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)uscita.
+Per un elenco delle macro e delle definizioni disponibili, vedere [Macro di modelli in uscita](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -129,7 +129,7 @@ Per un elenco delle macro e delle definizioni disponibili, vedere Macro [di mode
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
      </code></p><p><b>Output:</b></p> <p>
      <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
-     </code></p> <p> <p>Nota:  Nel primo esempio, la macro restituisce solo i dati <code> SEGMENT_LIST </code> perché <code> REMOVED_SEGMENT_LIST </code> è vuota. Il secondo esempio restituisce i dati per entrambe le macro. </p> </p> </td> 
+     </code></p> <p> <p>Nota:  Nel primo esempio, la macro restituisce solo i dati per <code> SEGMENT_LIST </code> perché <code> REMOVED_SEGMENT_LIST </code> è vuoto. Il secondo esempio restituisce i dati per entrambe le macro. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -148,7 +148,7 @@ Per un elenco delle macro e delle definizioni disponibili, vedere Macro [di mode
 
 ### `DPUUID` Esempi
 
-Per agevolare la comprensione del modo in cui la `DPUUID` macro produce i dati, è consigliabile che siano mappati 2 `DPID`s a `DPUUID`s, come illustrato di seguito:
+Per aiutarti a capire in che modo la macro `DPUUID` produce i dati, supponiamo che siano mappati 2 `DPID`s a `DPUUID`s come mostrato di seguito:
 
 * DPID `1111` viene mappato su DPUUID `AAAA` (timestamp = 1) e `BBBB` (timestamp = 2).
 * DPID `2222` viene mappato su DPUUID `CCCC`.
@@ -172,12 +172,12 @@ Considerate queste condizioni, la tabella seguente elenca alcune stringhe di for
   <tr> 
    <td colname="col1"> <p>Restituisce un massimo di 1 mappatura per tutti i DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Per DPID <code> 1111 </code>, la macro viene mappata su DPUUID <code> BBBB </code> solo perché l'ID ha la marca temporale più grande. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Per DPID <code> 1111 </code>, la macro viene mappata su DPUUID <code> BBBB </code> solo perché tale ID ha la marca temporale più grande. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Restituisce un massimo di 2 mappature per un singolo DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Anche se <code> maxMappings=2 </code>questa macro restituisce solo un DPID a una mappatura DPUUID perché il DPID specificato ha un solo DPUUID. </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Anche se <code> maxMappings=2 </code>, questa macro restituisce solo 1 DPID a una mappatura DPUUID perché il DPID specificato ha un solo DPUUID. </p> </td> 
   </tr> 
  </tbody> 
 </table>
