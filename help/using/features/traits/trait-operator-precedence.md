@@ -37,7 +37,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> Operatori di confronto </td> 
-   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
+   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
    <td colname="col3"> Minore di, maggiore di, minore di/uguale a, maggiore di/uguale a vengono valutati dopo. </td> 
   </tr> 
   <tr> 
