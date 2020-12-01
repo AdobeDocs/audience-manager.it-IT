@@ -17,7 +17,7 @@ ht-degree: 39%
 
 # [!UICONTROL Traits] Panoramica {#traits-overview}
 
-Gestisci la raccolta dati e la creazione di audience con [!UICONTROL rules-based], [!UICONTROL onboarded]o [!UICONTROL algorithmic] [!UICONTROL folder traits]. Leggi le pagine collegate di seguito per iniziare con [!UICONTROL traits]:
+Gestire la raccolta dati e la creazione di audience con [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] o [!UICONTROL folder traits]. Leggi le pagine collegate di seguito per iniziare con [!UICONTROL traits]:
 
 * [Pagina dei dettagli delle caratteristiche](/help/using/features/traits/trait-details-page.md)
 * [Generatore di caratteristiche ](/help/using/features/traits/about-trait-builder.md)
