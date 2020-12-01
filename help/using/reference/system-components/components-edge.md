@@ -27,20 +27,20 @@ c_compedge.xml
 
  -->
 
-Edge computing offre prestazioni migliori in risposta a una domanda diffusa su Internet, perché il &quot;edge&quot; stesso è un limite globale. Ciò significa che l&#39;elaborazione posiziona [!DNL Audience Manager] dinamicamente più vicino alle origini della domanda e restituisce i dati in base al percorso più breve possibile. Edge computing aiuta a mantenere le prestazioni del sito, che a sua volta preserva l&#39;esperienza dell&#39;utente sul sito Web. Il centro dati periferico è un gateway chiave per lo spostamento dei dati in entrata e in uscita [!DNL Audience Manager].
+Edge computing offre prestazioni migliori in risposta a una domanda diffusa su Internet, perché il &quot;edge&quot; stesso è un limite globale. Ciò significa che [!DNL Audience Manager] posiziona dinamicamente l&#39;elaborazione più vicina alle origini della domanda e restituisce i dati in base al percorso più breve possibile. Edge computing aiuta a mantenere le prestazioni del sito, che a sua volta preserva l&#39;esperienza dell&#39;utente sul sito Web. Il data center periferico è un gateway chiave per lo spostamento dei dati in entrata e in uscita da [!DNL Audience Manager].
 
-Il centro dati [!DNL Audience Manager] periferico include:
+Il centro dati [!DNL Audience Manager] Edge include:
 
-* **Server core:** Questi sono i [!DNL Audience Manager] sistemi principali. Essi aggiornano e forniscono i dati ai server periferici.
+* **Server di base:** questi sono i  [!DNL Audience Manager] sistemi principali. Essi aggiornano e forniscono i dati ai server periferici.
 
-* **Server periferici:** In genere si tratta di server applicazioni e/o Web. Si siedono al confine tra [!DNL Audience Manager] e Internet. I server periferici, come i sistemi [!DNL DCS] o Akamai, in genere gestiscono dati e richieste in entrata e in uscita [!DNL Audience Manager].
+* **Server periferici:** in genere, si tratta di server applicazioni e/o Web. Si trovano al confine tra [!DNL Audience Manager] e Internet. I server periferici, come i [!DNL DCS] o i sistemi Akamai, in genere gestiscono dati e richieste che entrano ed escono da [!DNL Audience Manager].
 
-* **Bilanci di carico:** Gestire le richieste di elaborazione/elaborazione dispari inerenti alle applicazioni Internet. Questi bilanciamenti impediscono ai cluster di server di essere sovraccarichi mentre altri restano inattivi.
+* **Bilanci del carico:** gestire le richieste di elaborazione/elaborazione dispari inerenti alle applicazioni Internet. Questi bilanciamenti impediscono ai cluster di server di essere sovraccarichi mentre altri restano inattivi.
 
-Nel diagramma seguente è illustrato l’ambiente  centro dati periferico di Audience Manager.
+Nel diagramma seguente è illustrato l’ambiente  centro dati periferico del Audience Manager.
 
 ![](assets/edge_data_center.png)
 
 ## Distribuzione geografica e bilanciamento del carico {#geo-dist-balance}
 
-Vedere la [!DNL DCS] sezione in Componenti [per la raccolta](../../reference/system-components/components-data-collection.md)dati.
+Vedere la sezione [!DNL DCS] in [Componenti per la raccolta dati](../../reference/system-components/components-data-collection.md).
