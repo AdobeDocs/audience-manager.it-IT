@@ -29,7 +29,7 @@ Questi elementi identificano le opzioni di codice e le variabili utilizzate nell
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
-   <td colname="col2"> <p>Le variabili vengono visualizzate in <i>corsivo</i>. Sostituire il valore appropriato per il nome della variabile. </p> <p>Per chiarezza visiva, talvolta le variabili e altri elementi di codice appaiono tra &lt; &gt; parentesi. Non è necessario utilizzare questi simboli nel codice. </p> </td> 
+   <td colname="col2"> <p>Le variabili sono riportate in <i>corsivo</i>. Sostituire il valore appropriato per il nome della variabile. </p> <p>Per chiarezza visiva, talvolta le variabili e altri elementi di codice appaiono tra &lt; &gt; parentesi. Non è necessario utilizzare questi simboli nel codice. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
@@ -37,7 +37,7 @@ Questi elementi identificano le opzioni di codice e le variabili utilizzate nell
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Gli elementi tra parentesi indicano una scelta booleana <span class="wintitle"> OR</span> . </p> </td> 
+   <td colname="col2"> <p>Gli elementi tra parentesi indicano una scelta booleana <span class="wintitle"> OR</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 
