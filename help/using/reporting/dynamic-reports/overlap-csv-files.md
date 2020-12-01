@@ -33,7 +33,7 @@ Nella tabella seguente sono elencate le convenzioni di denominazione dei file e 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Estensione file </p> </td> 
-   <td colname="col2"> <p>I file dei rapporti di sovrapposizione sono compressi con gzip e hanno un'estensione <code> .gz</code> file. È necessario aggiungere l' <code> .csv</code> estensione al file dopo la decompressione. </p> </td> 
+   <td colname="col2"> <p>I file dei rapporti di sovrapposizione sono compressi con gzip e hanno un'estensione di file <code> .gz</code>. È necessario aggiungere l'estensione <code> .csv</code> al file dopo la decompressione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome file </p> </td> 
@@ -72,7 +72,7 @@ Nella tabella seguente sono elencate le convenzioni di denominazione dei file e 
  </tbody> 
 </table>
 
-## Sommario file {#file-contents}
+## Contenuto file {#file-contents}
 
 Nel file, i dati stringa sono racchiusi tra virgolette doppie. Vedi i dati originali di seguito. Questa operazione è stata troncata per ragioni di brevità e per adattarsi allo schermo.
 
@@ -85,7 +85,7 @@ Nel file, i dati stringa sono racchiusi tra virgolette doppie. Vedi i dati origi
 
 ## Record di report Segment-to-Segment {#segment-segment-records}
 
-Un file di dati per il report [di sovrapposizione](segment-segment-overlap-report.md) segmento-segmento contiene i seguenti record.
+Un file di dati per il report [Segment-to-Segment Overlap Report](segment-segment-overlap-report.md) contiene i seguenti record.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -113,7 +113,7 @@ Un file di dati per il report [di sovrapposizione](segment-segment-overlap-repor
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Potete ottenere rapporti per intervalli di look-back di 7 e 30 giorni. Il valore <code> rangeid</code> corrisponde agli intervalli di tempo indicati di seguito. </p> <p> 
+   <td colname="col2"> <p>Potete ottenere rapporti per intervalli di look-back di 7 e 30 giorni. La <code> rangeid</code> corrisponde agli intervalli di tempo indicati di seguito. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7 giorni </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 giorni </li> 
@@ -142,9 +142,9 @@ Un file di dati per il report [di sovrapposizione](segment-segment-overlap-repor
  </tbody> 
 </table>
 
-## Record di report Segment-to-Trait {#segment-trait-records}
+## Record report Segment-to-Trait {#segment-trait-records}
 
-Un file di dati per il report [di sovrapposizione](segment-trait-overlap-report.md) segmento-caratteristica contiene i seguenti record.
+Un file di dati per il report [Segment-to-Trait Overlap Report](segment-trait-overlap-report.md) contiene i seguenti record.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -176,7 +176,7 @@ Un file di dati per il report [di sovrapposizione](segment-trait-overlap-report.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Potete ottenere rapporti per intervalli di look-back di 7 e 30 giorni. Il valore <code> rangeid</code> corrisponde agli intervalli di tempo indicati di seguito. </p> <p> 
+   <td colname="col2"> <p>Potete ottenere rapporti per intervalli di look-back di 7 e 30 giorni. La <code> rangeid</code> corrisponde agli intervalli di tempo indicati di seguito. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7 giorni </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 giorni </li> 
@@ -209,9 +209,9 @@ Un file di dati per il report [di sovrapposizione](segment-trait-overlap-report.
  </tbody> 
 </table>
 
-## Record dei report sulle caratteristiche {#trait-trait-records}
+## Record report sulle caratteristiche {#trait-trait-records}
 
-Un file di dati per il rapporto [](trait-trait-overlap-report.md) di sovrapposizione caratteristiche-caratteristiche contiene i seguenti record.
+Un file di dati per il report [Trait-to-Trait Overlap Report](trait-trait-overlap-report.md) contiene i seguenti record.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -251,7 +251,7 @@ Un file di dati per il rapporto [](trait-trait-overlap-report.md) di sovrapposiz
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>Potete ottenere rapporti per intervalli di look-back di 7 e 30 giorni. Il valore <code> rangeid</code> corrisponde agli intervalli di tempo indicati di seguito. </p> <p> 
+   <td colname="col2"> <p>Potete ottenere rapporti per intervalli di look-back di 7 e 30 giorni. La <code> rangeid</code> corrisponde agli intervalli di tempo indicati di seguito. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7 giorni </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 giorni </li> 
