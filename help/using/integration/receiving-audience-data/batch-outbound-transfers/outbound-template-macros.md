@@ -21,7 +21,7 @@ Elenca le macro utilizzabili per creare modelli in uscita. Tra questi, le macro 
 
 ## Macro nome file e intestazione file {#file-name-header-macros}
 
-La tabella elenca e descrive le macro utilizzabili nel nome del file e per definire i campi di intestazione. Per esempi di codice, vedere Esempi [di macro](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)in uscita.
+La tabella elenca e descrive le macro utilizzabili nel nome del file e per definire i campi di intestazione. Per esempi di codice, vedere [Esempi di macro in uscita](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -87,15 +87,15 @@ La tabella elenca e descrive le macro utilizzabili nel nome del file e per defin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>Una marca temporale di 10 cifre, UTC e Unix. </p> <p>Può anche essere formattato come <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> segue le regole di formattazione Java data/timestamp. </p> </td> 
+   <td colname="col2"> <p>Una marca temporale di 10 cifre, UTC e Unix. </p> <p>Può anche essere formattato come <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> in seguito alle regole di formattazione Java data/timestamp. </p> </td> 
   </tr>
 
 </tbody> 
 </table>
 
-## Macro contenuto {#content-macros}
+## Macro di contenuto {#content-macros}
 
-Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di codice, vedere Esempi [di macro](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)in uscita.
+Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di codice, vedere [Esempi di macro in uscita](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -107,11 +107,11 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserisce una parentesi <code>}</code> graffa chiusa. </p> </td> 
+   <td colname="col2"> <p>Inserisce una parentesi graffa chiusa <code>}</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Identificatore Utente Univoco Fornitore Dati </span>. </p> <p>Questo è l'ID del partner dati a cui vengono inviati i dati in un file in uscita. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Identificatore Utente Univoco Fornitore Dati  </span>. </p> <p>Questo è l'ID del partner dati a cui vengono inviati i dati in un file in uscita. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
@@ -123,7 +123,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>L'output di questa macro mappa l'ID del provider di dati (DPID) con gli ID utente univoci correlati (DPUUID). Questa macro deve avere una stringa di formattazione per controllarne l'output. L'output di esempio sarà simile al seguente: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>L' <code> maxMappings </code> impostazione determina il numero di mappature da restituire alla macro. Quando <code> maxMappings=0 </code>, questa macro restituisce tutti i mapping per ogni DPID specificato. I dati vengono ordinati per marca temporale (la prima più recente) e restituiscono prima i risultati con la marca temporale più grande. </p> </td> 
+   <td colname="col2"> <p>L'output di questa macro mappa l'ID del provider di dati (DPID) con gli ID utente univoci correlati (DPUUID). Questa macro deve avere una stringa di formattazione per controllarne l'output. L'output di esempio sarà simile al seguente: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>L'impostazione <code> maxMappings </code> determina il numero di mappature da restituire dalla macro. Se <code> maxMappings=0 </code>, questa macro restituisce tutti i mapping per ciascun DPID specificato. I dati vengono ordinati per marca temporale (la prima più recente) e restituiscono prima i risultati con la marca temporale più grande. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
@@ -135,7 +135,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Inserisce un <code>{</code> carattere di parentesi graffe aperta. </p> </td> 
+   <td colname="col2"> <p>Inserisce una parentesi graffa aperta <code>{</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -151,7 +151,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ATTRIBUTE_VALUE </code> </p> </td> 
-   <td colname="col2"> <p>Restituisce <code> 1 </code> un valore statico e hardcoded. </p> </td> 
+   <td colname="col2"> <p>Restituisce <code> 1 </code> come valore statico e hardcoded. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -172,14 +172,14 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
      <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: ID segmento. Obsoleto. Utilizza <code> sid </code>. </li> 
      <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: ID segmento cliente. Obsoleto. Utilizza <code> sid </code>. </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: ID segmento </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Restituisce <code> 5 </code>, un valore statico e hardcoded che identifica i dati come dati del segmento. </li> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Restituisce  <code> 5 </code>, un valore statico e hardcoded che identifica i dati come dati del segmento. </li> 
      <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Obsoleto. Non utilizzare. </li> 
      <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Una marca temporale Unix che indica l’ultima volta che un segmento è stato realizzato. </li> 
     </ul> <p>Inserire queste variabili tra parentesi graffe dopo la macro. Ad esempio, questo codice separa i risultati con un carattere "|" pipe: <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p>Restituisce <code> 1 </code>, come valore statico, hardcoded. </p> </td> 
+   <td colname="col2"> <p>Restituisce <code> 1 </code>, come valore statico e hardcoded. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
@@ -217,7 +217,7 @@ Macro utilizzate per formattare il contenuto di un file di dati. Per esempi di c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword">  ID utente Audience Manager </span> . </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">  ID  </span> utente Audience Manager. </p> </td> 
   </tr> 
  </tbody> 
 </table>
