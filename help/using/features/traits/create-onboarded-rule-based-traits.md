@@ -16,15 +16,15 @@ ht-degree: 7%
 ---
 
 
-# Crea [!UICONTROL Rules-Based] o [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
+# Creare [!UICONTROL Rules-Based] o [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
-Descrive i passaggi di configurazione e le funzionalità specifiche del processo di creazione [!UICONTROL rules-based] e [!UICONTROL onboarded] delle caratteristiche.
+Descrive i passaggi di configurazione e le funzionalità specifiche del processo di creazione delle caratteristiche [!UICONTROL rules-based] e [!UICONTROL onboarded].
 
 <!-- c_tb_rules_traits.xml -->
 
 ## Informazioni di base sulle caratteristiche {#basics}
 
-In [!UICONTROL Trait Builder], le [!UICONTROL Basic Information] impostazioni consentono di creare nuove impostazioni o di modificarle esistenti [!UICONTROL traits]. Le [!UICONTROL Basic Information] impostazioni sono le stesse per [!UICONTROL rules-based], [!UICONTROL onboarded] e [!UICONTROL algorithmic traits]. Per creare un nuovo [!UICONTROL trait], immettete un nome (evitando caratteri speciali), un [!UICONTROL data source]nome e selezionate un [!UICONTROL storage folder]. Altri [!UICONTROL Basic Information] campi sono facoltativi.
+In [!UICONTROL Trait Builder], le impostazioni [!UICONTROL Basic Information] consentono di creare nuove impostazioni o di modificare [!UICONTROL traits] esistenti. Le impostazioni [!UICONTROL Basic Information] sono le stesse per [!UICONTROL rules-based], [!UICONTROL onboarded] e [!UICONTROL algorithmic traits]. Per creare una nuova [!UICONTROL trait], immettete un nome (evitando caratteri speciali), un [!UICONTROL data source] e selezionate un [!UICONTROL storage folder]. Altri campi [!UICONTROL Basic Information] sono facoltativi.
 
 <!-- c_tb_basics.xml -->
 
@@ -49,7 +49,7 @@ In [!UICONTROL Trait Builder], le [!UICONTROL Basic Information] impostazioni co
        <li id="li_579302FE34B64FE0AE3C751012839229">Trattini </li> 
        <li id="li_44890F738CC64E449CC2545D701ECBC7">Schede </li> 
        <li id="li_C203837501A94342923C99A7DAD1ED61">Simbolo barra o barra verticale </li> 
-      </ul> </p> </p> <p>Questo consente di ridurre gli errori di elaborazione quando si configura un trasferimento <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> di file di dati in</a>ingresso. </p> </td> 
+      </ul> </p> </p> <p>Questo consente di ridurre gli errori di elaborazione quando si configura un <a href="../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> trasferimento di file di dati in ingresso</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Descrizione</span></b> </td> 
@@ -57,11 +57,11 @@ In [!UICONTROL Trait Builder], le [!UICONTROL Basic Information] impostazioni co
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Origine dati</span></b> </td> 
-   <td colname="col2"> Associa la caratteristica a un provider di dati specifico. Obbligatorio. <p>Utilizzate il primo menu a discesa per filtrare tra  origini dati Audience Manager, suite di rapporti Adobe  Analytics o entrambe. Quindi, utilizzare il secondo menu a discesa per scegliere l'origine dati.</p><p> Se non si utilizzano suite di rapporti Adobe  Analytics, il selettore del tipo di origine dati è disabilitato e predefinito per  solo origini dati Audience Manager.</p>  </td> 
+   <td colname="col2"> Associa la caratteristica a un provider di dati specifico. Obbligatorio. <p>Utilizzate il primo menu a discesa per filtrare tra origini dati  Audience Manager,  suite di rapporti Adobe Analytics o entrambe. Quindi, utilizzare il secondo menu a discesa per scegliere l'origine dati.</p><p> Se non si utilizzano  suite di rapporti Adobe Analytics, il selettore del tipo di origine dati è disabilitato e predefinito per  solo origini dati Audienci Manager.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Tipo evento</span></b> </td> 
-   <td colname="col2"> Assegna la caratteristica a un tipo o una categoria, in genere in base alla funzione (ad esempio conversione, visitatore del sito, partner, visualizzazione della pagina, ecc.). Facoltativo. <p> Per informazioni su come creare caratteristiche di conversione, consultate <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creazione di caratteristiche di conversione in  video</a>Audience Manager. </p></td> 
+   <td colname="col2"> Assegna la caratteristica a un tipo o una categoria, in genere in base alla funzione (ad esempio conversione, visitatore del sito, partner, visualizzazione della pagina, ecc.). Facoltativo. <p> Per informazioni su come creare caratteristiche di conversione, consultate la sezione <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creazione di caratteristiche di conversione in  Audience Manager video</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Codice di integrazione</span></b> </td> 
@@ -82,15 +82,15 @@ In [!UICONTROL Trait Builder], le [!UICONTROL Basic Information] impostazioni co
  </tbody> 
 </table>
 
-## Imposta un intervallo [!UICONTROL Trait] di scadenza {#set-expiration-interval}
+## Impostare un [!UICONTROL Trait] intervallo di scadenza {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder], [!UICONTROL Advanced Options] consente di impostare un intervallo di tempo ([!DNL TTL]) per un [!UICONTROL trait]. [!DNL TTL] definisce il numero di giorni in cui un visitatore qualificato rimane in un [!UICONTROL trait] (120 giorni è il periodo predefinito). Se è impostata su 0, l&#39; [!UICONTROL trait] iscrizione non scade mai.
+In [!UICONTROL Trait Builder], il [!UICONTROL Advanced Options] consente di impostare un intervallo di tempo per il ciclo di vita ([!DNL TTL]) per un intervallo [!UICONTROL trait]. [!DNL TTL] definisce il numero di giorni in cui un visitatore qualificato rimane in un  [!UICONTROL trait] (il valore predefinito è 120 giorni). Se è impostata su 0, l&#39;iscrizione [!UICONTROL trait] non scade mai.
 
 <!-- t_tb_ttl.xml -->
 
 ### Impostare TTL per un [!UICONTROL trait]
 
-1. Espandete la [!UICONTROL Advanced Options] sezione e immettete un numero per impostare un [!DNL TTL] valore per la [!UICONTROL trait].
+1. Espandere la sezione [!UICONTROL Advanced Options] e immettere un numero per impostare un valore [!DNL TTL] per [!UICONTROL trait].
 1. Clic **[!UICONTROL Save]**.
 
    ![](assets/TTL.png)
