@@ -32,9 +32,9 @@ Una coppia chiave-valore è costituita da due elementi dati correlati: Una chiav
 * `color = green`
 * `price > 100`
 
-## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
+## Coppie chiave standard e serializzate {#standard-serialized-pairs}
 
-Le destinazioni accettano i dati chiave-valore in *`standard`* o in *`serialized`* formato. La formattazione standard organizza i dati in coppie chiave-valore separate. Ogni chiave è specificata in modo esplicito, anche se utilizzata di nuovo per definire un valore diverso. Per contro, la formattazione serializzata condensa più valori in un unico set definito da un singolo tasto. Inoltre, in una coppia serializzata, viene utilizzato un indicatore speciale per separare i valori all&#39;interno dell&#39;insieme chiave-valore. Infine, i valori chiave standard e serializzati possono contenere uno o più valori. Nella tabella seguente sono riportati alcuni esempi di formati chiave standard e seriali.
+Le destinazioni accettano i dati chiave-valore in formato *`standard`* o *`serialized`*. La formattazione standard organizza i dati in coppie chiave-valore separate. Ogni chiave è specificata in modo esplicito, anche se utilizzata di nuovo per definire un valore diverso. Per contro, la formattazione serializzata condensa più valori in un unico set definito da un singolo tasto. Inoltre, in una coppia serializzata, viene utilizzato un indicatore speciale per separare i valori all&#39;interno dell&#39;insieme chiave-valore. Infine, i valori chiave standard e serializzati possono contenere uno o più valori. Nella tabella seguente sono riportati alcuni esempi di formati chiave standard e seriali.
 
 | Formattazione | Chiave singola | Coppie chiave-valore |
 |---|---|---|
@@ -45,19 +45,19 @@ Le destinazioni accettano i dati chiave-valore in *`standard`* o in *`serialized
 
 ## Tasti, delimitatori e separatori {#keys-delimiters-separators}
 
-Quando si utilizzano dati serializzati, è necessario specificare i caratteri che separano i valori *all&#39;interno* e *tra* le coppie chiave-valore. Gli elementi nelle coppie chiave-valore sono definiti come segue:
+Quando si utilizzano dati serializzati, è necessario specificare i caratteri che separano i valori *all&#39;interno di* e *tra* le coppie chiave-valore. Gli elementi nelle coppie chiave-valore sono definiti come segue:
 
-* **Chiave:** Identificatore univoco nella coppia chiave-valore.
-* **Delimitatore di valori:** Separa singole coppie chiave-valore.
-* **Separatore chiave-valore:** Separa una chiave dai valori all&#39;interno di una coppia chiave-valore.
-* **Separatore seriale:** Separa i singoli valori all&#39;interno delle coppie chiave-valore serializzate.
+* **Chiave:** un identificatore univoco nella coppia chiave-valore.
+* **delimitatore di valori:** separa singole coppie chiave-valore.
+* **Separatore chiave-valore:** separa una chiave dai valori all’interno di una coppia chiave-valore.
+* **Separatore seriale:** separa i singoli valori all&#39;interno delle coppie chiave-valore serializzate.
 
-## Elementi standard e serializzati del valore chiave {#standard-serialized-key-value-elements}
+## Elementi chiave standard e serializzati {#standard-serialized-key-value-elements}
 
 
 | Type (Tipo) | Esempio | Chiave | Separatore chiave-valore | Delimitatore chiave-valore | Separatore seriale |
 ---------|----------|---------|---------|----------|---------
-| **Tasto** singolo (standard) | `x=1&x=2` | `x` | `=` | `&` | n/d |
-| **Coppie** chiave-valore (standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n/d |
-| **Tasto** singolo (seriale) | `x=1;2;3` | `x` | `=` | n/d | `;` |
-| **Coppie** chiave-valore (serie) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |
+| **Chiave**  singola (standard) | `x=1&x=2` | `x` | `=` | `&` | n/d |
+| **Coppie**  chiave-valore (standard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n/d |
+| **Tasto**  singolo (seriale) | `x=1;2;3` | `x` | `=` | n/d | `;` |
+| **Coppie**  chiave-valore (serie) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |
