@@ -27,13 +27,13 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->[Le autorizzazioni](../../features/administration/administration-overview.md) del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella [!UICONTROL Bulk Management Tools].
+>[Le ](../../features/administration/administration-overview.md) autorizzazioni del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate nella  [!UICONTROL Bulk Management Tools].
 
-Il [!UICONTROL Request] foglio di lavoro non dispone di un proprio set di intestazioni di colonna e non è necessario copiare gli ID in nessuna delle colonne. ma restituisce i dati in base al pulsante di azione selezionato nella barra degli strumenti. Inoltre, una funzione di reporting opzionale restituisce un conteggio di frequenza per gli incendi di pixel e un conteggio univoco degli utenti per diversi intervalli di tempo fissi.
+Il foglio di lavoro [!UICONTROL Request] non dispone di un proprio set di intestazioni di colonna e non è necessario copiare gli ID in nessuna delle colonne. ma restituisce i dati in base al pulsante di azione selezionato nella barra degli strumenti. Inoltre, una funzione di reporting opzionale restituisce un conteggio di frequenza per gli incendi di pixel e un conteggio univoco degli utenti per diversi intervalli di tempo fissi.
 
-Per eseguire richieste in massa, aprire il [!UICONTROL Bulk Management Tools] foglio di lavoro e:
+Per eseguire richieste in massa, aprire il foglio di lavoro [!UICONTROL Bulk Management Tools] e:
 
-1. Fate clic sulla **[!UICONTROL Request]** scheda.
+1. Fare clic sulla scheda **[!UICONTROL Request]**.
 2. Nella barra degli strumenti nella parte superiore del foglio di lavoro, fare clic su un pulsante di richiesta corrispondente ai dati con cui si desidera lavorare. Potete richiedere:
 
    * Modelli algoritmici
@@ -44,10 +44,10 @@ Per eseguire richieste in massa, aprire il [!UICONTROL Bulk Management Tools] fo
    * Segmenti 
    * ID cartella caratteristiche e segmento
 
-   L&#39; [!DNL Audience Manager] API riscrive i dati in massa nel [!UICONTROL Request] foglio di lavoro.
+   L&#39;API [!DNL Audience Manager] riscrive i dati di massa nel foglio di lavoro [!UICONTROL Request].
 
 >[!NOTE]
 >
->Nei risultati, le `createTime` colonne e le `updateTime` colonne restituiscono i dati in notazione esponenziale. I timbri data/ora sottostanti sono registrati in UNIX UTC. Attualmente, il foglio di lavoro non può restituire data/ora in un formato leggibile.
+>Nei risultati, le colonne `createTime` e `updateTime` restituiscono i dati in notazione esponenziale. I timbri data/ora sottostanti sono registrati in UNIX UTC. Attualmente, il foglio di lavoro non può restituire data/ora in un formato leggibile.
 
-Se l&#39;aggiornamento in blocco restituisce un errore o un errore, consulta Risoluzione dei [problemi relativi agli strumenti](../../reference/bulk-management-tools/bulk-troubleshooting.md)di gestione in blocco.
+Se l&#39;aggiornamento in blocco restituisce un errore o un errore, vedere [Risoluzione dei problemi per gli strumenti di gestione in blocco](../../reference/bulk-management-tools/bulk-troubleshooting.md).
