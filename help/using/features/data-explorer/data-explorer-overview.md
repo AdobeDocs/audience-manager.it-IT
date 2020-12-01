@@ -1,6 +1,6 @@
 ---
-description: Utilizzare Data Explorer per sfruttare i tipi di pubblico storici creando tratti basati su segnali usati e inutilizzati e ricollegandoli con dati storici per evitare potenziali perdite di audience rilevanti.
-seo-description: Utilizzare Data Explorer per sfruttare i tipi di pubblico storici creando tratti basati su segnali usati e inutilizzati e ricollegandoli con dati storici per evitare potenziali perdite di audience rilevanti.
+description: Utilizzate la Data Explorer per sfruttare i tipi di pubblico storici costruendo tratti basati su segnali usati e inutilizzati, e per riempirli con dati storici al fine di evitare potenziali perdite di audience rilevanti.
+seo-description: Utilizzate la Data Explorer per sfruttare i tipi di pubblico storici costruendo tratti basati su segnali usati e inutilizzati, e per riempirli con dati storici al fine di evitare potenziali perdite di audience rilevanti.
 seo-title: Panoramica, vantaggi e casi di utilizzo
 title: Panoramica, vantaggi e casi di utilizzo
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
@@ -16,17 +16,17 @@ ht-degree: 2%
 
 # Data Explorer: panoramica, vantaggi e casi di utilizzo {#overview-benefits-and-use-cases}
 
-Utilizzare [!UICONTROL Data Explorer] per sfruttare i tipi di pubblico storici costruendo tratti basati su segnali usati e inutilizzati, e ricollegarli con dati storici per evitare la potenziale perdita di audience rilevanti.
+Utilizzate [!UICONTROL Data Explorer] per sfruttare al meglio i tipi di pubblico storici, creando tratti basati su segnali usati e non utilizzati e ricollegandoli con dati storici per evitare potenziali perdite di audience rilevanti.
 
 ## Panoramica {#overview}
 
 La creazione di caratteristiche basate su informazioni esistenti correlate al pubblico è un processo piuttosto semplice, purché si sappia sempre chi è il pubblico. Ma quanto spesso succede?
 
-[!UICONTROL Data Explorer] semplifica il processo di gestione delle caratteristiche offrendo al contempo un maggiore grado di flessibilità nella cura della tassonomia. Due [!UICONTROL Data Explorer] componenti consentono di:
+[!UICONTROL Data Explorer] semplifica il processo di gestione delle caratteristiche offrendo al contempo un maggiore grado di flessibilità nella cura della tassonomia. Due componenti [!UICONTROL Data Explorer] consentono di ottenere quanto segue:
 
-* [Pannello](../../features/data-explorer/data-explorer-signals-dashboard.md) dei segnali e [!UICONTROL Signals Search] aiuta a tenere traccia dei segnali ricevuti da [!DNL Audience Manager] che puoi usare per creare nuove caratteristiche o aggiungere a quelle esistenti.
+* [Segnali ](../../features/data-explorer/data-explorer-signals-dashboard.md) Dashboard e  [!UICONTROL Signals Search] aiuta a tenere traccia dei segnali ricevuti da  [!DNL Audience Manager] che puoi utilizzare per creare nuove caratteristiche o aggiungere a quelle esistenti.
 
-* [Trait Realization Backfill](../../features/data-explorer/data-explorer-trait-backfill.md) consente di qualificare i tipi di pubblico storici per le caratteristiche create di recente, in modo da poterli includere nei futuri sforzi di targeting.
+* [Trait Realization ](../../features/data-explorer/data-explorer-trait-backfill.md) Backfillings (Ritorno sulla realizzazione delle caratteristiche) consente di qualificare i tipi di pubblico storici per le caratteristiche create di recente, in modo da poterli includere nei futuri sforzi di targeting.
 
 ## Vantaggi {#benefits}
 
@@ -40,14 +40,14 @@ Utilizzate [!UICONTROL Data Explorer] per ottimizzare la creazione del pubblico 
 
 ### Esempio 1
 
-Un rivenditore di elettronica globale ha un volume elevato di traffico dei visitatori, ma i tassi di conversione sono inferiori al previsto, anche se hanno ottimizzato il contenuto per più piattaforme. Tramite il dashboard [](../../features/data-explorer/data-explorer-signals-dashboard.md)dei segnali, viene identificato un volume elevato di segnali inutilizzati, a indicare che i visitatori stanno cercando uno specifico marchio di elettronica che non è attualmente in magazzino. L&#39;azienda può trarre vantaggio da queste informazioni aggiornando le proprie azioni e rivolgendosi a quei visitatori con campagne personalizzate.
+Un rivenditore di elettronica globale ha un volume elevato di traffico dei visitatori, ma i tassi di conversione sono inferiori al previsto, anche se hanno ottimizzato il contenuto per più piattaforme. Utilizzando il [Pannello Segnali](../../features/data-explorer/data-explorer-signals-dashboard.md), viene identificato un volume elevato di segnali non utilizzati, a indicare che i visitatori stanno cercando un marchio elettronico specifico che non è attualmente in magazzino. L&#39;azienda può trarre vantaggio da queste informazioni aggiornando le proprie azioni e rivolgendosi a quei visitatori con campagne personalizzate.
 
 ### Esempio 2
 
-Dopo che un fornitore di servizi di viaggio ha aggiunto nuove destinazioni al suo sito web di prenotazione, vuole pubblicizzarle per i tipi di pubblico storici, anche se non hanno alcuna caratteristica creata per loro. Possono utilizzare Signals Search per identificare i segnali non utilizzati relativi alle nuove destinazioni, includerli in nuove caratteristiche e [ricompilarli](../../features/data-explorer/data-explorer-trait-backfill.md) con realizzazioni storiche. Quindi, crea nuovi segmenti con le nuove caratteristiche e mirali immediatamente con campagne dedicate.
+Dopo che un fornitore di servizi di viaggio ha aggiunto nuove destinazioni al suo sito web di prenotazione, vuole pubblicizzarle per i tipi di pubblico storici, anche se non hanno alcuna caratteristica creata per loro. Possono utilizzare Signals Search per identificare i segnali non utilizzati relativi alle nuove destinazioni, includerli in nuove caratteristiche e [backfill](../../features/data-explorer/data-explorer-trait-backfill.md) con realizzazioni storiche. Quindi, crea nuovi segmenti con le nuove caratteristiche e mirali immediatamente con campagne dedicate.
 
-### Utilizzo di Esplora dati per convalidare la creazione di caratteristiche per i dati caricati
+### Utilizzo di Data Explorer per convalidare la creazione di caratteristiche per i dati caricati
 
-Una delle caratteristiche più potenti di  Audience Manager è la capacità di integrare dati offline e collegarli con i dati online. Nel video seguente, scoprite come utilizzare [!UICONTROL Data Explorer] per verificare di aver creato tutte le caratteristiche necessarie per sfruttare questi dati caricati.
+Una delle caratteristiche più potenti di  Audience Manager è la capacità di tenere a bordo dati offline e collegarli con i dati online. Nel video seguente, scoprite come utilizzare [!UICONTROL Data Explorer] per verificare di aver creato tutte le caratteristiche necessarie per sfruttare questi dati caricati.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25149/)
