@@ -19,11 +19,11 @@ ht-degree: 3%
 
 Transport Layer Security (TLS) è un protocollo crittografico utilizzato per stabilire un canale di comunicazione sicuro tra due sistemi. Viene utilizzato per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l&#39;integrità delle informazioni che passano tra i sistemi. Nel maggio 2018 erano in uso tre versioni del protocollo TLS: TLS 1.0, 1.1 e 1.2.
 
-Nel marzo 2019 [!DNL Adobe] è cessato il sostegno al [!DNL TLS 1.0] protocollo. La funzionalità Adobe Audience Manager non funziona per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.0].
+Nel marzo 2019, [!DNL Adobe] ha terminato il supporto per il protocollo [!DNL TLS 1.0]. La funzionalità Adobe Audience Manager non funziona per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.0].
 
-Nel marzo 2020 [!DNL Adobe] cesserà il sostegno al [!DNL TLS 1.1] protocollo. La funzionalità Adobe Audience Manager smetterà di funzionare per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.1].
+Nel marzo 2020, [!DNL Adobe] cesserà il supporto per il protocollo [!DNL TLS 1.1]. La funzionalità Adobe Audience Manager smetterà di funzionare per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.1].
 
- Adobe raccomanda vivamente l&#39;uso di [!DNL TLS 1.2], che è, al momento della stesura, l&#39;ultima versione del protocollo. Tutti i browser moderni utilizzano [!DNL TLS 1.2]. Abbiamo raccolto per voi un elenco di browser, versioni e il loro [!DNL TLS] supporto. Per ulteriori informazioni sul supporto del browser TLS, visitate [il collegamento](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers)di Wikipedia dedicato alla sicurezza dei livelli di trasporto.
+ Adobe raccomanda vivamente l&#39;uso di [!DNL TLS 1.2], che è, al momento della scrittura, l&#39;ultima versione del protocollo. Tutti i browser moderni utilizzano [!DNL TLS 1.2]. Abbiamo raccolto per voi un elenco di browser, versioni e il loro [!DNL TLS] supporto. Per ulteriori informazioni sul supporto del browser TLS, visitare il [collegamento di Wikipedia dedicato alla sicurezza dei livelli di trasporto](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <!--
 
