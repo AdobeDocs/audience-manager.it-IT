@@ -21,7 +21,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra una caratteristica
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione in  Audience Manager rispettano i principi RBAC. Puoi visualizzare solo i segmenti e le caratteristiche delle origini dati a cui hai accesso in base al gruppo [di utenti](/help/using/features/administration/administration-overview.md) RBAC a cui appartieni.
+>I rapporti di sovrapposizione in  Audience Manager aderiscono ai principi RBAC. È possibile visualizzare solo i segmenti e le caratteristiche delle origini dati a cui si ha accesso in base al [Gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui si appartiene.
 
 <!-- 
 
@@ -31,11 +31,11 @@ c_segment_trait_overlap.xml
 
 ## Panoramica
 
-Come strumento di ottimizzazione, i [!UICONTROL Segment to Trait Overlap] report consentono di creare segmenti altamente mirati o di espandere la portata dei segmenti. Ad esempio, puoi creare segmenti e caratteristiche mirati con sovrapposizione elevata per raggiungere un pubblico particolare. Tuttavia, molte sovrapposizioni possono significare meno utenti univoci (minore portata). L&#39;esecuzione di questo rapporto consente di espandere la portata rimuovendo le caratteristiche con molte sovrapposizioni di segmenti e sostituendole con caratteristiche con meno sovrapposizione.
+Come strumento di ottimizzazione, i report [!UICONTROL Segment to Trait Overlap] consentono di creare segmenti altamente mirati o di espandere la portata dei segmenti. Ad esempio, puoi creare segmenti e caratteristiche mirati con sovrapposizione elevata per raggiungere un pubblico particolare. Tuttavia, molte sovrapposizioni possono significare meno utenti univoci (minore portata). L&#39;esecuzione di questo rapporto consente di espandere la portata rimuovendo le caratteristiche con molte sovrapposizioni di segmenti e sostituendole con caratteristiche con meno sovrapposizione.
 
 ### Report di esempio
 
-L&#39;illustrazione seguente fornisce una panoramica di alto livello del [!UICONTROL Segment-to-Trait Overlap] rapporto.
+L&#39;illustrazione seguente fornisce una panoramica di alto livello del report [!UICONTROL Segment-to-Trait Overlap].
 
 ![](assets/segment-to-trait-overlap.png)
 
@@ -43,7 +43,7 @@ L&#39;illustrazione seguente fornisce una panoramica di alto livello del [!UICON
 
 Selezionare un singolo punto per visualizzare i dettagli dei dati in una finestra a comparsa. Le azioni di clic aggiornano automaticamente i dati visualizzati nel rapporto.
 
-## Confronto tra segmenti e caratteristiche {#comparing-segments-to-traits}
+## Confronto di segmenti con caratteristiche {#comparing-segments-to-traits}
 
 Descrive come confrontare segmenti e caratteristiche per ricavare informazioni significative dai risultati.
 
@@ -84,7 +84,7 @@ Osservare la sovrapposizione tra caratteristiche e segmenti può essere utile st
   </tr> 
   <tr> 
    <td colname="col1"><b>Trova segmenti inefficienti</b> </td> 
-   <td colname="col2"> <p>Se una caratteristica fa parte di un gruppo <span class="wintitle"> AND</span> in una definizione di segmento, i visitatori univoci che hanno quella caratteristica sono già nel segmento e non sono disponibili per l’aggiunta al segmento. Puoi utilizzare questo rapporto per trovare caratteristiche rilevanti con una sovrapposizione bassa e aggiungerle alla definizione del segmento, aumentando quindi la portata del pool di audience del segmento. </p> </td> 
+   <td colname="col2"> <p>Se una caratteristica fa parte di un gruppo <span class="wintitle"> AND</span> in una definizione di segmento, i visitatori univoci che hanno tale caratteristica sono già nel segmento e non sono disponibili per l'aggiunta al segmento. Puoi utilizzare questo rapporto per trovare caratteristiche rilevanti con una sovrapposizione bassa e aggiungerle alla definizione del segmento, aumentando quindi la portata del pool di audience del segmento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +99,7 @@ r_s2t_sliders.xml
 
  -->
 
-Il [!UICONTROL Segment-to-Trait overlap] rapporto consente di utilizzare due cursori per filtrare i dati in base alla sovrapposizione % per caratteristica o segmento.
+Il rapporto [!UICONTROL Segment-to-Trait overlap] consente di utilizzare due cursori per filtrare i dati in base alla sovrapposizione % per caratteristica o segmento.
 
 * **[!UICONTROL Filter Trait Uniques %:]** Filtra i dati in base alla percentuale di visitatori univoci condivisi tra la caratteristica e il segmento.
 * **[!UICONTROL Filter Segment Uniques Overlap %:]** Filtra i dati in base alla percentuale di visitatori univoci condivisi tra il segmento e la caratteristica.
@@ -113,7 +113,7 @@ Il diagramma seguente illustra la differenza tra l’uniques delle caratteristic
 
 ![](assets/s2t.png)
 
-## Segment-to-Trait Data Pop Fields Definito {#fields-defined}
+## Campi popup dati Segment-to-Trait definiti {#fields-defined}
 
 Descrive le metriche visualizzate nella finestra a comparsa quando si fa clic su un singolo punto dati.
 
@@ -123,7 +123,7 @@ r_s2t_data_pop.xml
 
  -->
 
-La finestra a comparsa per il [!UICONTROL Segment-to-Trait Overlap] rapporto contiene le metriche riportate di seguito. La metrica univoca nella tabella rappresenta gli utenti *in tempo* reale.
+La finestra a comparsa del report [!UICONTROL Segment-to-Trait Overlap] contiene le metriche riportate di seguito. La metrica univoca nella tabella rappresenta gli *utenti in tempo reale*.
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
@@ -138,7 +138,7 @@ La finestra a comparsa per il [!UICONTROL Segment-to-Trait Overlap] rapporto con
    <td colname="col2"> ID numerico univoco per il segmento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Origine dati caratteristica </span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Origine dati caratteristica  </span></b> </td> 
    <td colname="col2"> Nome del proprietario della caratteristica. </td> 
   </tr> 
   <tr> 
