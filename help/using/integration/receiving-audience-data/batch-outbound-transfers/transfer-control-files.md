@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # File di trasferimento del controllo per trasferimenti di file di registro {#transfer-control-files-for-log-file-transfers}
 
-I file con controllo del trasferimento ([!DNL .info]) forniscono informazioni sui metadati relativi ai trasferimenti di file in modo che i partner possano verificare che  Audience Manager gestisca correttamente i trasferimenti di file.
+I file di controllo del trasferimento ([!DNL .info]) forniscono informazioni sui metadati relativi ai trasferimenti di file in modo che i partner possano verificare che  Audience Manager gestisca correttamente i trasferimenti di file.
 
-[!DNL Audience Manager] invia un file di trasferimento a un partner con ogni trasferimento di file. A causa della natura multithread dell&#39; [!DNL FTP] editore, il file di controllo del trasferimento potrebbe essere inviato prima del termine del trasferimento dei file effettivi.
+[!DNL Audience Manager] invia un file di trasferimento a un partner con ogni trasferimento di file. A causa della natura multithread dell&#39;editore [!DNL FTP], il file di controllo del trasferimento potrebbe essere inviato prima del termine del trasferimento dei file effettivi.
 
-I metadati contenuti nel [!DNL .info] file consentono ai partner di:
+I metadati presenti nel file [!DNL .info] consentono ai partner di:
 
 * Determinare il termine di un ciclo completo di trasferimento (il numero totale di file nella sequenza è stato consegnato);
 * Determinare se un dato file nella sequenza è completo/corretto (esaminando la dimensione del file in byte e il numero totale di righe);
@@ -29,9 +29,9 @@ I metadati contenuti nel [!DNL .info] file consentono ai partner di:
 
 ## Convenzioni di denominazione dei file {#file-naming-conventions}
 
-Il file transfer-control ha lo stesso nome della radice del batch/sequenza con estensione [!DNL .info] file.s
+Il file transfer-control ha lo stesso nome della radice del batch/sequenza con estensione [!DNL .info].s
 
-Ad esempio, se il primo file della sequenza è stato denominato: [!DNL ftp_12345_67890_full_1500727351632-1.sync], il file di controllo verrà denominato [!DNL ftp_12345_67890_iter_1500727351632.info].
+Ad esempio, se il primo file della sequenza è stato denominato: [!DNL ftp_12345_67890_full_1500727351632-1.sync], il file di controllo sarà denominato [!DNL ftp_12345_67890_iter_1500727351632.info].
 
 ## Formato file {#file-format}
 
@@ -78,7 +78,7 @@ Ad esempio, se il primo file della sequenza è stato denominato: [!DNL ftp_12345
 
 >[!NOTE]
 >
-> I numeri totali del batch sono esclusi dal [!DNL .info] file stesso. In altre parole, i totali non includono il [!DNL .info] file, la dimensione dei byte o il conteggio delle righe.
+> I numeri totali dei batch sono esclusi dal file [!DNL .info] stesso. Ciò significa che i totali non includono il file [!DNL .info], le sue dimensioni in byte o il suo conteggio delle righe.
 >
 > Le dimensioni dei byte dei file e dei conteggi delle righe sono comprensive di righe/righe di intestazione e distanziali (vuote). Per ottenere il conteggio delle righe/righe di dati effettive, sottrarre le intestazioni.
 >
