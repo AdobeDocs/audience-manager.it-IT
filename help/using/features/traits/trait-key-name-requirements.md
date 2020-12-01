@@ -23,12 +23,12 @@ Questo articolo descrive le convenzioni di denominazione utilizzate dalla variab
 
 <!-- c_tb_key_name_requirements.xml -->
 
-In [!UICONTROL Expression Builder], il nome di una variabile chiave in una coppia chiave-valore può essere costituito da un numero qualsiasi di cifre seguito da 1 (o più) lettere, un trattino, un carattere di sottolineatura e cifre aggiuntive.
+In [!UICONTROL Expression Builder], il nome di una variabile chiave in una coppia chiave-valore può essere composto da un numero qualsiasi di cifre seguito da 1 (o più) lettere, un trattino, un carattere di sottolineatura e cifre aggiuntive.
 
 * Nomi chiave validi: `price123`, `123price`, `price-123`, `c_price123`.
 
 * Nomi chiave non validi: `123`, `price!123`.
 
-## Prefisso delle variabili chiave con `c_`
+## Prefissaggio delle variabili chiave con `c_`
 
-Il `c_` prefisso è *sempre* richiesto se i parametri che inviano dati in un URL di chiamata dell&#39;evento utilizzano tale sintassi.
+Il prefisso `c_` è *always* richiesto se i parametri che inviano dati in un URL di chiamata dell&#39;evento utilizzano tale sintassi.
