@@ -1,6 +1,6 @@
 ---
-description: Quando si pubblicano segmenti nella destinazione partner tramite un'integrazione server-to-server in tempo reale,  Audience Manager può essere configurato per l'autenticazione tramite OAuth 2.0 quando si effettuano le richieste. Questo offre la possibilità di emettere richieste autenticate da  Audience Manager all'endpoint.
-seo-description: Quando si pubblicano segmenti nella destinazione partner tramite un'integrazione server-to-server in tempo reale,  Audience Manager può essere configurato per l'autenticazione tramite OAuth 2.0 quando si effettuano le richieste. Questo offre la possibilità di emettere richieste autenticate da  Audience Manager all'endpoint.
+description: Quando si pubblicano segmenti nella destinazione partner tramite un'integrazione server-to-server in tempo reale,  Audience Manager può essere configurato per l'autenticazione tramite OAuth 2.0 durante l'esecuzione delle richieste. Questo offre la possibilità di emettere richieste autenticate dal Audience Manager  al tuo endpoint.
+seo-description: Quando si pubblicano segmenti nella destinazione partner tramite un'integrazione server-to-server in tempo reale,  Audience Manager può essere configurato per l'autenticazione tramite OAuth 2.0 durante l'esecuzione delle richieste. Questo offre la possibilità di emettere richieste autenticate dal Audience Manager  al tuo endpoint.
 seo-title: Integrazione di OAuth 2.0 per trasferimenti in uscita in tempo reale
 solution: Audience Manager
 title: Integrazione di OAuth 2.0 per trasferimenti in uscita in tempo reale
@@ -17,35 +17,35 @@ ht-degree: 2%
 
 # [!DNL OAuth 2.0] Integrazione per trasferimenti in uscita in tempo reale{#oauth-integration-for-real-time-outbound-transfers}
 
-Quando si pubblicano segmenti nella destinazione partner tramite un&#39;integrazione server-to-server in tempo reale,  Audience Manager può essere configurato per l&#39;autenticazione tramite [!DNL OAuth 2.0] quando si effettuano le richieste. Questo offre la possibilità di emettere richieste autenticate da  Audience Manager all&#39;endpoint.
+Quando si pubblicano segmenti nella destinazione partner tramite un&#39;integrazione server-to-server in tempo reale,  Audience Manager può essere configurato per l&#39;autenticazione utilizzando [!DNL OAuth 2.0] al momento di effettuare le richieste. Questo offre la possibilità di emettere richieste autenticate dal Audience Manager  al tuo endpoint.
 
 ## Flusso di autenticazione {#auth-flow}
 
-L&#39;implementazione dell&#39;autenticazione [!DNL Adobe Audience Manager] OAuth 2.0 [](https://tools.ietf.org/html/rfc6749#section-4.4) è basata sul flusso di concessione delle credenziali client ed effettua le seguenti operazioni:
+L&#39;implementazione dell&#39;autenticazione [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4) si basa sul flusso di concessione delle credenziali client ed effettua le seguenti operazioni:
 
 1. Devi fornirci:
-   * L&#39; [!DNL OAuth 2.0] endpoint che genera il token di autenticazione.
+   * L&#39;endpoint [!DNL OAuth 2.0] che genera il token di autenticazione.
    * Le credenziali utilizzate per generare un token.
-1. Un [!DNL Audience Manager] consulente configura la [destinazione](../../../features/destinations/destinations.md) utilizzando le informazioni fornite.
-1. Una volta mappato un segmento a questa destinazione, il nostro sistema di trasferimento dati in tempo reale, [IRIS](../../../reference/system-components/components-data-action.md#iris), effettua una `POST` richiesta all&#39;endpoint token per scambiare le credenziali per un token portatore.
-1. Per ogni richiesta di pubblicazione di segmenti all’endpoint del partner, [!UICONTROL IRIS] utilizza il token del portatore per l’autenticazione.
+1. Un consulente [!DNL Audience Manager] configura la [destinazione](../../../features/destinations/destinations.md) utilizzando le informazioni fornite.
+1. Una volta mappato un segmento a questa destinazione, il nostro sistema di trasferimento dati in tempo reale, [IRIS](../../../reference/system-components/components-data-action.md#iris), effettua una richiesta `POST` all&#39;endpoint token per scambiare le credenziali per un token portatore.
+1. Per ogni richiesta di pubblicazione di segmenti all&#39;endpoint del partner, [!UICONTROL IRIS] utilizza il token del portatore per l&#39;autenticazione.
 
 ![](assets/oauth2-iris.png)
 
 ## Requisiti {#auth-requirements}
 
-Come [!DNL Audience Manager] partner, per ricevere le richieste autenticate sono necessari i seguenti endpoint:
+Come partner [!DNL Audience Manager], per ricevere le richieste autenticate sono necessari i seguenti endpoint:
 
 ### Endpoint 1 utilizzato da IRIS per ottenere un token portatore
 
 Questo endpoint accetta le credenziali fornite al passaggio 1 e genera un token al portatore che verrà utilizzato nelle richieste successive.
 
-* L&#39;endpoint deve accettare `HTTP POST` le richieste.
-* L’endpoint deve accettare e guardare l’ [!DNL Authorization] intestazione. Il valore per questa intestazione sarà: `Basic <credentials_provided_by_partner>`.
-* L’endpoint deve controllare l’ [!DNL Content-type] intestazione e verificare che il relativo valore sia `application/x-www-form-urlencoded ; charset=UTF-8`.
+* L&#39;endpoint deve accettare le richieste `HTTP POST`.
+* L&#39;endpoint deve accettare e guardare l&#39;intestazione [!DNL Authorization]. Il valore per questa intestazione sarà: `Basic <credentials_provided_by_partner>`.
+* L&#39;endpoint deve osservare l&#39;intestazione [!DNL Content-type] e verificare che il relativo valore sia `application/x-www-form-urlencoded ; charset=UTF-8`.
 * Il corpo della richiesta sarà `grant_type=client_credentials`.
 
-### Esempio di richiesta effettuata da  Audience Manager all’endpoint del partner per ottenere un token del portatore
+### Esempio di richiesta effettuata da  Audience Manager all&#39;endpoint del partner per ottenere un token del portatore
 
 ```
 POST /oauth2/token HTTP/1.1
@@ -76,7 +76,7 @@ Content-Length: 121
 
 [!DNL Audience Manager] invia i dati a questo endpoint in tempo quasi reale, in quanto gli utenti sono idonei per i segmenti. Inoltre, questo metodo può inviare batch di dati offline o caricati con la stessa frequenza che ogni 24 ore.
 
-Il token del portatore generato dall&#39;endpoint 1 viene utilizzato per inviare richieste a questo endpoint. Il sistema [!DNL Audience Manager] di trasferimento dati in tempo reale, [IRIS](../../../reference/system-components/components-data-action.md#iris), crea una normale richiesta HTTPS e include un&#39;intestazione Autorizzazione. Il valore per questa intestazione sarà: Portatore `<bearer token from step 1>`.
+Il token del portatore generato dall&#39;endpoint 1 viene utilizzato per inviare richieste a questo endpoint. Il [!DNL Audience Manager] sistema di trasferimento dati in tempo reale, [IRIS](../../../reference/system-components/components-data-action.md#iris), crea una normale richiesta HTTPS e include un&#39;intestazione Autorizzazione. Il valore per questa intestazione sarà: Portatore `<bearer token from step 1>`.
 
 ### Risposta di esempio dall&#39;endpoint partner
 
@@ -115,8 +115,8 @@ Accept-Encoding: gzip
 
 ### I token sono password
 
-Le credenziali presentate dal partner e i token ottenuti [!DNL Audience Manager] al momento dell&#39;autenticazione tramite il [!DNL OAuth 2.0] flusso, sono informazioni sensibili e non devono essere condivise con terzi.
+Le credenziali presentate dal partner e i token ottenuti da [!DNL Audience Manager] durante l&#39;autenticazione tramite il flusso [!DNL OAuth 2.0] sono informazioni sensibili e non devono essere condivise con terzi.
 
 ### [!DNL SSL] è obbligatorio
 
-[!DNL SSL] devono essere utilizzati per mantenere un processo di autenticazione protetto. Tutte le richieste, comprese quelle utilizzate per ottenere e utilizzare i token, devono utilizzare `HTTPS` gli endpoint.
+[!DNL SSL] devono essere utilizzati per mantenere un processo di autenticazione protetto. Tutte le richieste, comprese quelle utilizzate per ottenere e utilizzare i token, devono utilizzare gli endpoint `HTTPS`.
