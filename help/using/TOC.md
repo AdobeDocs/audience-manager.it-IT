@@ -181,7 +181,7 @@ ht-degree: 93%
       + [Rapporti di Audience Optimization](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization per gli inserzionisti {#audience-optimization-advertisers}
          + [Panoramica di Audience Optimization per gli inserzionisti](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Importa file di dati Google Campaign Manager nel Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Importa file di dati Google Campaign Manager nel Audience Manager ](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Rapporto sulle prestazioni dei segmenti](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Rapporto sull’analisi delle tendenze e dei volumi](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [Rapporto di frequenza ottimale](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -338,7 +338,7 @@ ht-degree: 93%
          + [Messaggio di esempio ai partner dopo l’elaborazione in entrata](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Integrazioni di partner personalizzate](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integrazione con Adobe Experience Platform {#integration-experience-platform}
-      + [la condivisione del segmento di Experience Platform con  Audience Manager e altre soluzioni Experience Cloud di](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [ la condivisione del segmento di Experience Platform con  Audience Manager e altre soluzioni Experience Cloud di ](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integrazione con altre soluzioni Experience Cloud {#integration-other-solutions}
       + [Integrare  Audience Manager con  Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Inoltrare dati da Adobe Analytics ad Audience Manager](integration/integration-other-solutions/audience-management-module.md)
