@@ -17,13 +17,13 @@ ht-degree: 6%
 
 # [!DNL DCS] [!DNL API] Metodi {#dcs-api-methods}
 
-Invia i dati al [!DNL DCS][!DNL API] utilizzando `GET` o `POST` metodi.
+Inviare i dati a [!DNL DCS] [!DNL API] utilizzando i metodi `GET` o `POST`.
 
-È possibile inviare dati al [!DNL DCS] sito utilizzando uno dei `GET` metodi o `POST` . Date un&#39;occhiata alle chiamate di esempio riportate di seguito, utilizzando [curl](https://curl.haxx.se/). In tutte e tre le chiamate campione, stiamo aggiungendo i segnali `c_likes = famous popstar` e `c_loves = famous actress` al profilo del dispositivo `12345678901234567890123456789012345678`.
+È possibile inviare dati a [!DNL DCS] utilizzando uno dei metodi `GET` o `POST`. Date un&#39;occhiata alle chiamate di esempio riportate di seguito, utilizzando [curl](https://curl.haxx.se/). In tutte e tre le chiamate di esempio, stiamo aggiungendo i segnali `c_likes = famous popstar` e `c_loves = famous actress` al profilo del dispositivo `12345678901234567890123456789012345678`.
 
 ## Invia dati tramite [!DNL GET] {#send-data-via-get}
 
-La dimensione massima consentita per `GET` le chiamate è 8K.
+La dimensione massima consentita per le chiamate `GET` è 8K.
 
 ```
 curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345678&d_rtbd=json&c_likes=famous%20popstar&c_loves=famous%20actress"
@@ -31,7 +31,7 @@ curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345
 
 ## Invia dati tramite [!DNL POST] {#send-data-via-post}
 
-Tenere presenti i requisiti per l&#39;invio di dati utilizzando il `POST` metodo:
+Osservare i requisiti per l&#39;invio di dati utilizzando il metodo `POST`:
 
 * La dimensione massima consentita è 32 K.
 * Impostate il tipo di contenuto su `application/x-www-form-urlencoded`.
