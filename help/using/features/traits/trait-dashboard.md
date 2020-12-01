@@ -17,16 +17,16 @@ ht-degree: 4%
 
 # Dashboard delle caratteristiche {#traits-dashboard}
 
-Il dashboard [Caratteristiche](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) è un&#39;area di lavoro centralizzata per la gestione delle caratteristiche. Per visualizzare il [!UICONTROL Traits] dashboard, passa a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
+Il [dashboard Caratteristiche](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) è un&#39;area di lavoro centralizzata per la gestione delle caratteristiche. Per visualizzare il dashboard [!UICONTROL Traits], passare a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]**.
 
 ![](assets/traits-dashboard.png)
 
 <!-- c_tb_dashboard.xml -->
 
-Il [!UICONTROL Traits] dashboard contiene funzioni e strumenti che consentono di:
+Il dashboard di [!UICONTROL Traits] contiene funzioni e strumenti che consentono di:
 
 1. Visualizza tutte le caratteristiche e i dettagli correlati in una tabella con colonne ordinabili.
-2. Consulta e lavora con caratteristiche [Active Audience e caratteristiche](../../features/traits/client-activity-synced-audience-traits.md)sincronizzate dell&#39;origine dati.
+2. Leggi e lavora con [Active Audience Traits and Data Source Synced Traits](../../features/traits/client-activity-synced-audience-traits.md) (Caratteristiche del pubblico attive e caratteristiche sincronizzate dell&#39;origine dati).
 3. Creare, modificare ed eliminare le caratteristiche.
 4. Visualizzare e gestire le cartelle di archiviazione delle caratteristiche.
 5. Cerca caratteristiche per nome, ID, descrizione o origine dati. Fate clic su una cartella durante la ricerca per limitare i risultati a tale cartella e alle relative sottocartelle.
