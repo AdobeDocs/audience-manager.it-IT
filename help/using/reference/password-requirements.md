@@ -81,5 +81,5 @@ Fai clic sul collegamento **[!UICONTROL Forgot password]** nella pagina di acces
 >[!MORELIKETHIS]
 >
 >* [Data Security](../overview/data-security-and-privacy/data-security.md)
->* [Data Security](../overview/data-security-and-privacy/data-privacy.md)
+>* [Protezione dei dati](../overview/data-security-and-privacy/data-privacy.md)
 
