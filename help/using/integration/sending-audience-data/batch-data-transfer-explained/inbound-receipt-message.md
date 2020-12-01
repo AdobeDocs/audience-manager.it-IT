@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Messaggio di esempio ai partner dopo l’elaborazione in entrata{#sample-message-to-partners-after-inbound-processing}
 
-Ogni volta che viene elaborato un [!UICONTROL Server-to-Server] file in entrata, una ricevuta viene inviata via e-mail alle soluzioni partner e, se configurata, al partner.
+Ogni volta che viene elaborato un file in entrata [!UICONTROL Server-to-Server], una ricevuta viene inviata via e-mail alle soluzioni partner e, se configurato, al partner.
 
 <!-- r_inbound_message.xml -->
 
@@ -26,7 +26,7 @@ Di seguito è riportato un esempio di messaggio e-mail. La tabella sotto il mess
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Da: aam-noreply@adobe.com </b> </p> <p> <b>Oggetto:  Risultato Dell'Elaborazione Server-To-Server:</b> </p> <p> <b>Gentile Partner Adobe: (ID:7)</b> <b></b> </p> <p> <b>Abbiamo ricevuto la consegna  file server-to-server del Adobe Audience Manager</b> </p> <p> <b>Nome file:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Record ricevuti: 40669900</b> </p> <p><b>Errori di formato: 0</b> </p> <p> <b>ID AAM non valido: 112 </b> </p> <p> <b>Nessun ID AAM corrispondente: 0 </b> </p> <p> <b>Nessuna caratteristica realizzata: 26730823 </b> </p> <p> <b>Record elaborati: 40669900 </b> </p> <p> <b>Record memorizzati: 13938958 </b> </p> <p> <b>Dispositivi totali: 21 </b> </p> <p> <b>Segnali totali: 918878926 </b> </p> <p> <b>Totale segnali inutilizzati: 660348376 </b> </p> <p> <b>Caratteristiche realizzate totali: 258086908 </b> </p> <p> <b>Caratteristiche rimosse totali: 0 </b> </p> <p> <b>Convalida delle caratteristiche totali non riuscita: 0 </b> </p> <p> <b>Totale utenti con caratteristiche che non hanno superato la convalida: 0 </b> </p> <p> <b>Ora inizio processo: 2018-05-17 18:07:49 </b> </p> <p> <b>Ora fine processo: 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>Da: aam-noreply@adobe.com  </b> </p> <p> <b>Oggetto: Risultato Dell’Elaborazione Server-To-Server Di Adobe Audience Manager:</b> </p> <p> <b>Gentile Partner  Adobe: (ID:7)</b> <b></b> </p> <p> <b>È stata ricevuta la consegna dei file da server a server Adobe Audience Manager</b> </p> <p> <b>Nome file:</b> <i></i> </p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b><i> </i></p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b><i> </i></p> <p> <b>Record ricevuti: 40669900</b> </p> <p><b>Errori di formato: 0</b> </p> <p> <b>ID AAM non valido: 112  </b> </p> <p> <b>Nessun ID AAM corrispondente: 0  </b> </p> <p> <b>Nessuna caratteristica realizzata: 26730823  </b> </p> <p> <b>Record elaborati: 40669900  </b> </p> <p> <b>Record memorizzati: 13938958  </b> </p> <p> <b>Dispositivi totali: 21  </b> </p> <p> <b>Segnali totali: 918878926  </b> </p> <p> <b>Totale segnali inutilizzati: 660348376  </b> </p> <p> <b>Caratteristiche realizzate totali: 258086908  </b> </p> <p> <b>Caratteristiche rimosse totali: 0  </b> </p> <p> <b>Convalida delle caratteristiche totali non riuscita: 0  </b> </p> <p> <b>Totale utenti con caratteristiche che non hanno superato la convalida: 0  </b> </p> <p> <b>Ora inizio processo: 2018-05-17 18:07:49  </b> </p> <p> <b>Ora fine processo: 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,11 +43,11 @@ La tabella seguente contiene le righe corrispondenti alle righe del messaggio e-
  <tbody> 
   <tr> 
    <td colname="col1"> Nome file </td> 
-   <td colname="col2"> <p>Elenco di tutti i file in entrata ricevuti da Adobe per questo partner elaborati insieme. Nel messaggio e-mail di esempio precedente, l’ID del partner è 7 e l’ID del proprietario dei dati è 901. </p> <p>Il numero di coda (1,2,3...) è il numero di divisione aggiunto dal cliente o dal distributore in entrata. </p> </td> 
+   <td colname="col2"> <p>Elenco di tutti i file in entrata ricevuti  Adobe per il partner che sono stati elaborati insieme. Nel messaggio e-mail di esempio precedente, l’ID del partner è 7 e l’ID del proprietario dei dati è 901. </p> <p>Il numero di coda (1,2,3...) è il numero di divisione aggiunto dal cliente o dal distributore in entrata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Record ricevuti </td> 
-   <td colname="col2"> <p>Numero totale di record ricevuti da Adobe in tutti i file. Nella maggior parte dei casi, questo deve essere il numero totale di righe nei file in entrata. </p> </td> 
+   <td colname="col2"> <p>Numero totale di record  Adobe ricevuti in tutti i file. Nella maggior parte dei casi, questo deve essere il numero totale di righe nei file in entrata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Errori di formato </td> 
@@ -55,15 +55,15 @@ La tabella seguente contiene le righe corrispondenti alle righe del messaggio e-
   </tr> 
   <tr> 
    <td colname="col1"> ID AAM non valido </td> 
-   <td colname="col2"> <p>Numero di  UUID Audience Manager che non corrispondono al formato previsto a 38 cifre. Oppure gli  Audience Manager UUID inviati nel file non sono numeri. </p> </td> 
+   <td colname="col2"> <p>Numero di  UUID Audience Manager che non corrispondevano al formato previsto a 38 cifre. Oppure gli UUID Audience Manager  inviati nel file non sono numeri. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nessun ID AAM corrispondente </td> 
-   <td colname="col2"> <p>Numero totale di utenti per i quali  Audience Manager non è riuscito a trovare un UUID corrispondente. Questi file non sono stati sincronizzati con ID, pertanto  Audience Manager non è in grado di ricercare l’UUID. </p> </td> 
+   <td colname="col2"> <p>Numero totale di utenti per i quali  Audience Manager non è riuscito a trovare un UUID corrispondente. Questi file non sono stati sincronizzati con ID, pertanto  Audience Manager non è in grado di cercare l’UUID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nessuna caratteristica realizzata </td> 
-   <td colname="col2"> <p>Numero di record in cui nessuno dei segnali sulla linea viene mappato su una caratteristica Audience Manager . </p> </td> 
+   <td colname="col2"> <p>Numero di record in cui nessuno dei segnali sulla linea viene mappato su una caratteristica  Audience Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Record elaborati </td> 
@@ -83,11 +83,11 @@ La tabella seguente contiene le righe corrispondenti alle righe del messaggio e-
   </tr> 
   <tr> 
    <td colname="col1"> Totale segnali non utilizzati </td> 
-   <td colname="col2"> <p>Numero totale di segnali non utilizzati per tutti gli utenti in tutti i file in entrata (coppie chiave/valore che non sono state mappate  caratteristiche Audience Manager). Nella maggior parte dei casi, ciò significa che  Audience Manager non dispone di regole definite per il segnale. </p> </td> 
+   <td colname="col2"> <p>Numero totale di segnali non utilizzati per tutti gli utenti in tutti i file in entrata (coppie chiave/valore che non sono state mappate  caratteristiche Audience Manager). Nella maggior parte dei casi, ciò significa che  Audience Manager non ha regole definite per il segnale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Totale caratteristiche realizzate </td> 
-   <td colname="col2"> <p>Numero di  caratteristiche Audience Manager per tutti gli utenti in tutti i file in entrata in base ai segnali. </p> </td> 
+   <td colname="col2"> <p>Numero di caratteristiche  Audience Manager per tutti gli utenti in tutti i file in entrata in base ai segnali. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Totale tratti rimossi </td> 
