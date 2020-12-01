@@ -23,11 +23,11 @@ Metodi che consentono di visualizzare la tassonomia comune  Audience Manager. Qu
 
 >[!NOTE]
 >
->Non è possibile creare nuove categorie tassonomiche o classificare le caratteristiche con questi metodi. Per classificare una caratteristica, specificate la caratteristica appropriata `categoryId` con un metodo di creazione o aggiornamento della caratteristica.
+>Non è possibile creare nuove categorie tassonomiche o classificare le caratteristiche con questi metodi. Per classificare una caratteristica, specificate la `categoryId` appropriata con un metodo di creazione o aggiornamento della caratteristica.
 
-## Restituzione di una specifica tassonomia {#return-specific-taxonomy}
+## Restituire una tassonomia specifica {#return-specific-taxonomy}
 
-Un `GET` metodo che restituisce dettagli sulla categoria tassonomica specificata.
+Un metodo `GET` che restituisce dettagli sulla categoria tassonomica specificata.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -37,7 +37,7 @@ Un `GET` metodo che restituisce dettagli sulla categoria tassonomica specificata
 
 ### Risposta
 
-Una risposta corretta restituisce `200 OK` e la categoria per l’ID specificato. Una richiesta non riuscita restituisce `404 No Content` se l’ID non esiste.
+Una risposta corretta restituisce `200 OK` e la categoria per l&#39;ID specificato. Una richiesta non riuscita restituisce `404 No Content` se l&#39;ID non esiste.
 
 ```
 {
@@ -50,9 +50,9 @@ Una risposta corretta restituisce `200 OK` e la categoria per l’ID specificato
 }
 ```
 
-## Restituisce tutte le categorie tassonomiche {#return-all-taxonomy-categories}
+## Restituisci tutte le categorie tassonomiche {#return-all-taxonomy-categories}
 
-Un `GET` metodo che restituisce un elenco delle categorie di livello principale in un array.
+Un metodo `GET` che restituisce un elenco delle categorie di livello principale di un array.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -95,7 +95,7 @@ Troncato per brevità.
 
 ## Sottocategorie tassonomiche di ritorno {#return-taxonomy-sub-categories}
 
-Un `GET` metodo che restituisce sottocategorie per la categoria principale specificata in un array.
+Un metodo `GET` che restituisce sottocategorie per la categoria principale specificata in un array.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -105,7 +105,7 @@ Un `GET` metodo che restituisce sottocategorie per la categoria principale speci
 
 ### Risposta
 
-Una risposta corretta restituisce `200 OK` e la categoria per l’ID specificato. Una richiesta non riuscita restituisce `404 No Content` se l’ID non esiste. Troncato per brevità.
+Una risposta corretta restituisce `200 OK` e la categoria per l&#39;ID specificato. Una richiesta non riuscita restituisce `404 No Content` se l&#39;ID non esiste. Troncato per brevità.
 
 ```
 [
