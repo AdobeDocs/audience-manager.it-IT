@@ -21,25 +21,25 @@ Il rapporto Raggiungi utente univoco restituisce i dati sotto forma di grafico a
 
 ## Caso d&#39;uso {#use-cases}
 
-Grazie al [!UICONTROL Unique User Reach] rapporto, puoi identificare le proprietà del tuo portafoglio che attraggono un elevato volume di utenti univoci.
+Il rapporto [!UICONTROL Unique User Reach] consente di identificare le proprietà del portfolio che attirano un elevato volume di utenti univoci.
 
-## Utilizzo del rapporto Raggiungimento univoco {#using-the-report}
+## Utilizzo del report Univoco Reach {#using-the-report}
 
-Utilizzate la **[!UICONTROL Dimension Value]** casella per selezionare le unità di annuncio da visualizzare nel rapporto. Fare clic **[!UICONTROL All]** per visualizzare tutte le proprietà nel grafico a bolle.
+Utilizzate la casella **[!UICONTROL Dimension Value]** per selezionare le unità di annuncio da visualizzare nel rapporto. Fare clic su **[!UICONTROL All]** per visualizzare tutte le proprietà nel grafico a bolle.
 
-Utilizza i controlli Intervallo **** giorno e **Passaggio** data per regolare l’intervallo di look-back.
+Utilizzare i controlli **Intervallo di giorni** e **Date Through** per regolare l&#39;intervallo di look-back.
 
 ## Interpretazione dei risultati {#interpreting-results}
 
 **Report di esempio**
 
-Il tuo [!UICONTROL Unique User Reach] rapporto potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti. Consulta le descrizioni per le informazioni aggiuntive nella tabella seguente.
+Il report [!UICONTROL Unique User Reach] potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti. Consulta le descrizioni per le informazioni aggiuntive nella tabella seguente.
 
 ![](assets/publisher_unique_user_reach.png)
 
 | Elemento | Descrizione |
 |--- |--- |
-| Valore dimensione | Nome della proprietà Web. |
-| Tipo dimensione | Tipo di dimensione editore. Al momento supportiamo solo Ad Unit come tipo di dimensione. |
+| Valore Dimension | Nome della proprietà Web. |
+| Tipo Dimension | Tipo di dimensione editore. Al momento supportiamo solo Ad Unit come tipo di dimensione. |
 | Impressioni | Il numero di impression servite per la proprietà Web nell&#39;intervallo di look-back specificato. |
 | Raggiungimento univoco | Il numero univoco di utenti raggiunto dalle impressioni sulle proprietà Web. |
