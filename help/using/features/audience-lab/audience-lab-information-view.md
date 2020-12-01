@@ -22,16 +22,16 @@ In questa sezione sono visualizzate informazioni generali sul gruppo di test e s
 
 Potete inoltre visualizzare informazioni sul segmento della linea di base utilizzato per il gruppo di test e sulla modalità di divisione dei segmenti di test.
 
-Gli utenti **[!UICONTROL Test Segments]** vengono compilati in modo casuale con gli utenti del segmento della linea di base utilizzato per il gruppo di test. La panoramica mostra le percentuali di utenti assegnate a ciascun segmento di test.
+Le **[!UICONTROL Test Segments]** vengono inserite in modo casuale con gli utenti del segmento della linea di base utilizzato per il gruppo di test. La panoramica mostra le percentuali di utenti assegnate a ciascun segmento di test.
 
-L&#39; **[!UICONTROL Conversion Traits]** unità di report per i gruppi di test. Per designare una caratteristica come conversione, durante la creazione o la modifica delle caratteristiche in [!UICONTROL Trait Builder], selezionare **Conversione** come tipo **[di](../../features/traits/create-onboarded-rule-based-traits.md)evento.**
+La **[!UICONTROL Conversion Traits]** guida il reporting per i gruppi di test. Per designare una caratteristica come conversione, durante la creazione o la modifica di caratteristiche in [!UICONTROL Trait Builder], selezionare **Conversion** come **[Event Type](../../features/traits/create-onboarded-rule-based-traits.md).**
 
-La **[!UICONTROL Destinations]** scheda è comprimibile. Premere le frecce per aprire o chiudere singole destinazioni e ottenere le seguenti informazioni per i segmenti di test, raggruppate per le destinazioni a cui sono mappate:
+La scheda **[!UICONTROL Destinations]** è comprimibile. Premere le frecce per aprire o chiudere singole destinazioni e ottenere le seguenti informazioni per i segmenti di test, raggruppate per le destinazioni a cui sono mappate:
 
 * il numero di dispositivi dalla popolazione totale del segmento di base allocata a ciascuna destinazione.
 * chiave di mappatura;
 * valore di mappatura;
-* [!DNL URL] e sicuro [!DNL URL] per [!DNL URL] le destinazioni.
+* [!DNL URL] e sicuro  [!DNL URL] per  [!DNL URL] le destinazioni.
 
 >[!NOTE]
 >
