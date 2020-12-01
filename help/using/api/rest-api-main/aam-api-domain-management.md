@@ -21,9 +21,9 @@ Metodi di gestione del dominio che consentono di creare e gestire i domini a cui
 
 <!-- c_partner_site.xml -->
 
-## Create a New Domain {#create-new-domain}
+## Creare un nuovo dominio {#create-new-domain}
 
-Un `POST` metodo che consente di creare un nuovo dominio per (solo destinazioni di cookie).
+Un metodo `POST` che consente di creare un nuovo dominio per (solo destinazioni di cookie).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -53,7 +53,7 @@ Una risposta corretta restituisce `201 created` e il sito partner, incluso il re
 
 ## Eliminare un dominio {#delete-domain}
 
-Un `DELETE` metodo che consente di rimuovere un dominio (solo per le destinazioni dei cookie).
+Un metodo `DELETE` che consente di rimuovere un dominio (solo per le destinazioni dei cookie).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -63,11 +63,11 @@ Un `DELETE` metodo che consente di rimuovere un dominio (solo per le destinazion
 
 ### Risposta
 
-Viene restituita una risposta corretta `204 no content`. Restituisce `404 not found` se non è possibile trovare il sito partner.
+Una risposta corretta restituisce `204 no content`. Restituisce `404 not found` se non è possibile trovare il sito partner.
 
 ## Proprietà di restituzione per un dominio {#return-props-domain}
 
-Un `GET` metodo che restituisce dettagli sul dominio specificato (solo per le destinazioni dei cookie).
+Un metodo `GET` che restituisce i dettagli sul dominio specificato (solo per le destinazioni dei cookie).
 
 <!-- r_get_partner_site.xml -->
 
@@ -77,7 +77,7 @@ Un `GET` metodo che restituisce dettagli sul dominio specificato (solo per le de
 
 ### Risposta
 
-Una risposta corretta restituisce `200 OK` e dati come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l’ID del sito o del partner non è stato trovato.
+Una risposta corretta restituisce `200 OK` e i dati come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l&#39;ID del sito o del partner non è stato trovato.
 
 ```
 {
@@ -89,7 +89,7 @@ Una risposta corretta restituisce `200 OK` e dati come mostrato nell&#39;esempio
 
 ## Proprietà di restituzione per tutti i domini {#return-props-all-domains}
 
-Un `GET` metodo che restituisce informazioni su tutti i domini (solo per le destinazioni dei cookie).
+Un metodo `GET` che restituisce informazioni su tutti i domini (solo per le destinazioni dei cookie).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -99,7 +99,7 @@ Un `GET` metodo che restituisce informazioni su tutti i domini (solo per le dest
 
 ### Parametri query opzionali
 
-È possibile utilizzare questi parametri facoltativi con [!DNL API] metodi che restituiscono *tutte* le proprietà di un oggetto. Impostate queste opzioni nella stringa di richiesta quando la query viene passata alla [!DNL API]. Consultate Parametri [](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters)opzionali.
+È possibile utilizzare questi parametri facoltativi con metodi [!DNL API] che restituiscono le proprietà *all* per un oggetto. Impostate queste opzioni nella stringa di richiesta quando passate la query in [!DNL API]. Vedere [Parametri facoltativi](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -134,7 +134,7 @@ Un `GET` metodo che restituisce informazioni su tutti i domini (solo per le dest
 
 ### Risposta
 
-Una risposta di successo restituisce `200 OK` e dati in un array come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l’ID del sito o del partner non è stato trovato.
+Una risposta corretta restituisce `200 OK` e i dati in un array come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l&#39;ID del sito o del partner non è stato trovato.
 
 ```
 [
