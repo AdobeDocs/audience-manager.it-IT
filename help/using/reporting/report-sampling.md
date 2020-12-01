@@ -21,7 +21,7 @@ Riepilogo della metodologia di campionamento utilizzata per alcuni rapporti, tas
 
 ## Rapporto di campionamento dei dati {#data-sampling-ratio}
 
-Alcuni [!DNL Audience Manager] rapporti visualizzano i risultati in base a un set campionato della quantità totale di dati disponibili. Il rapporto dei dati campionati è di 1:54. Per i report che utilizzano dati campionati, i risultati sono basati su 1 record su ogni set di 54 record.
+Alcuni report [!DNL Audience Manager] mostrano risultati basati su un set campionato della quantità totale di dati disponibili. Il rapporto dei dati campionati è di 1:54. Per i report che utilizzano dati campionati, i risultati sono basati su 1 record su ogni set di 54 record.
 
 Questi report utilizzano dati statistici campionati perché necessitano di una quantità enorme di potenza di calcolo per generare risultati. Il campionamento aiuta a trovare un equilibrio tra la riduzione delle richieste di calcolo, il mantenimento delle prestazioni del sistema e la fornitura di risultati accurati.
 
@@ -51,16 +51,16 @@ Gli errori possono verificarsi nei report che generano dati di sovrapposizione. 
 
 | Numero di record | Frequenza errori |
 |--- |--- |
-| 500 - 1,000 | Il 95% è inferiore a un tasso di errore del 42%. |
-| 1,000 - 1,500 | Il 95% è inferiore a un tasso di errore del 34%. |
-| 10,000 - 50,000 | Il 95% è inferiore a un tasso di errore del 14%. |
-| 50,000 | Il 95% è inferiore a un tasso di errore del 6%. |
-| 100,000 | Il 95% è inferiore a un tasso di errore del 4%. |
+| 500 - 1.000 | Il 95% è inferiore a un tasso di errore del 42%. |
+| 1.000 - 1.500 | Il 95% è inferiore a un tasso di errore del 34%. |
+| 10.000 - 50.000 | Il 95% è inferiore a un tasso di errore del 14%. |
+| 50.000 | Il 95% è inferiore a un tasso di errore del 6%. |
+| 100.000 | Il 95% è inferiore a un tasso di errore del 4%. |
 | 500.000 (o più) | Il 95% è inferiore a un tasso di errore del 2%. |
 
-## Utilizzo della metodologia Minhash Sampling {#minhash}
+## Utilizzo della metodologia di campionamento dei minhash {#minhash}
 
-Sulla base della metodologia di campionamento [Minhash](https://en.wikipedia.org/wiki/MinHash) ,  Audience Manager utilizza un nuovo metodo per calcolare le caratteristiche e gli stimatori del segmento sopra uno sketch di dati One Permutation Hashing. Questo nuovo metodo produce una varianza inferiore rispetto allo stimatore standard per la similarità con Jaccard. Consulta la sezione seguente per i report che utilizzano questa metodologia.
+Sulla base della metodologia di campionamento [Minhash](https://en.wikipedia.org/wiki/MinHash),  Audience Manager utilizza un nuovo metodo per calcolare le caratteristiche e gli stimatori del segmento sopra a uno sketch di dati con hash di una singola conversione. Questo nuovo metodo produce una varianza inferiore rispetto allo stimatore standard per la similarità con Jaccard. Consulta la sezione seguente per i report che utilizzano questa metodologia.
 
 <!--
 
@@ -72,7 +72,7 @@ Some Audience Manager reports use the minhash sampling methodology to compute tr
 
 ## Report che utilizzano dati di esempio {#reports-using-sampled-data}
 
-I [!DNL Audience Manager] rapporti che utilizzano i dati statistici campionati e la metodologia di campionamento Minhash includono:
+I report [!DNL Audience Manager] che utilizzano i dati statistici campionati e la metodologia di campionamento Minhash includono:
 
 <!--
 
@@ -87,6 +87,6 @@ Reports that use Minhash sampling methodology:
 
 | Campionamento statistico | Metodologia di campionamento del minhash |
 |--- |--- |
-| [Dati Pubblico](../features/addressable-audiences.md) indirizzabili (dati a livello di cliente e segmento). | [Report](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) di sovrapposizione (caratteristiche, caratteristiche e caratteristiche e segmento a segmento) |
-| La metrica Dispositivi [](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) totali per un [!UICONTROL Profile Merge Rule]. | [Raccomandazioni sulle caratteristiche](/help/using/features/segments/trait-recommendations.md) |
-| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utilizza i dati campionati nella [!UICONTROL Search] scheda ed eventuali [!UICONTROL Saved Searches] | [Recommendations Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Dati ](../features/addressable-audiences.md) audience indirizzabili (dati a livello di cliente e segmento). | [Report](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)  di sovrapposizione (caratteristiche, caratteristiche e caratteristiche e segmento a segmento) |
+| La metrica [Dispositivi totali](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) per un [!UICONTROL Profile Merge Rule]. | [Raccomandazioni sulle caratteristiche](/help/using/features/segments/trait-recommendations.md) |
+| [Data ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) Explorer utilizza i dati campionati nella  [!UICONTROL Search] scheda ed eventuali  [!UICONTROL Saved Searches] | [Recommendations Audience Marketplace ](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
