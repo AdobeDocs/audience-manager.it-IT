@@ -1,6 +1,6 @@
 ---
-description: In questa sezione vengono illustrati i processi relativi all'utilizzo della piattaforma  di gestione dati Audience Manager (DMP). Questa sezione è stata progettata per aiutare i team aziendali, i project manager e i manager della tecnologia a comprendere il processo di implementazione  Audience Manager. Per iniziare a utilizzare  Audience Manager possono essere necessarie circa sei settimane o tre mesi, a seconda delle esigenze di raccolta dei dati.
-seo-description: In questa sezione vengono illustrati i processi relativi all'utilizzo della piattaforma  di gestione dati Audience Manager (DMP). Questa sezione è stata progettata per aiutare i team aziendali, i project manager e i manager della tecnologia a comprendere il processo di implementazione  Audience Manager. Per iniziare a utilizzare  Audience Manager possono essere necessarie circa sei settimane o tre mesi, a seconda delle esigenze di raccolta dei dati.
+description: In questa sezione vengono illustrati i processi relativi all'utilizzo della piattaforma di gestione dati (DMP)  Audience Manager. Questa sezione è stata progettata per aiutare i team aziendali, i project manager e i manager della tecnologia a comprendere il processo di implementazione  Audience Manager. Per iniziare a utilizzare  Audience Manager, possono essere necessarie circa sei settimane o tre mesi, a seconda delle esigenze di raccolta dei dati.
+seo-description: In questa sezione vengono illustrati i processi relativi all'utilizzo della piattaforma di gestione dati (DMP)  Audience Manager. Questa sezione è stata progettata per aiutare i team aziendali, i project manager e i manager della tecnologia a comprendere il processo di implementazione  Audience Manager. Per iniziare a utilizzare  Audience Manager, possono essere necessarie circa sei settimane o tre mesi, a seconda delle esigenze di raccolta dei dati.
 seo-title: Implementazione di Audience Manager
 solution: Audience Manager
 title: Implementazione di Audience Manager
@@ -17,22 +17,22 @@ ht-degree: 1%
 
 # Implementazione di Audience Manager {#implementing-audience-manager}
 
-In questa sezione vengono illustrati i processi relativi all&#39;utilizzo della piattaforma di gestione dati ([!DNL DMP]) Audience Manager . Questa sezione è stata progettata per aiutare i team aziendali, i project manager e i manager della tecnologia a comprendere il processo di implementazione  Audience Manager. Per iniziare a utilizzare  Audience Manager possono essere necessarie circa sei settimane o tre mesi, a seconda delle esigenze di raccolta dei dati.
+In questa sezione vengono illustrati i processi relativi all&#39;avvio della piattaforma di gestione dati del Audience Manager  ([!DNL DMP]). Questa sezione è stata progettata per aiutare i team aziendali, i project manager e i manager della tecnologia a comprendere il processo di implementazione  Audience Manager. Per iniziare a utilizzare  Audience Manager, possono essere necessarie circa sei settimane o tre mesi, a seconda delle esigenze di raccolta dei dati.
 
 Le nostre tecniche di implementazione contribuiscono a creare una partnership consultiva con i nuovi clienti. Questo processo è destinato a:
 
 * Scopri e comprendi i tuoi requisiti di business;
 * produrre un piano attuabile per far fronte a tali richieste;
 * Sviluppare soluzioni personalizzate per soddisfare requisiti o casi di utilizzo unici;
-* Assicurati che i tuoi dati proprietari vengano importati e resi disponibili nell&#39;Audience Manager .
+* Assicurati che i tuoi dati proprietari vengano importati e resi disponibili nel Audience Manager .
 
 I team di soluzioni per i partner e gestione degli account collaboreranno a stretto contatto con voi prima, durante e dopo il processo di implementazione.
 
- Audience Manager adotta un approccio graduale alla configurazione e all&#39;implementazione.
+ Audience Manager adotta un approccio graduale per l&#39;impostazione e l&#39;implementazione.
 
 ## Definisci fase {#define-phase}
 
-La fase di definizione ti introduce al nostro progetto Soluzioni per i Partner e inizia il processo di gestione del progetto.
+La fase di definizione ti introduce al nostro progetto Soluzioni Partner e inizia il processo di gestione del progetto.
 
 <!-- c_define.xml -->
 
@@ -137,38 +137,38 @@ La tabella seguente descrive le attività chiave che hanno luogo in questa fase:
 I risultati finali per questa fase possono includere:
 
 * una strategia completa di raccolta dati di prime, seconde e terze parti;
-* un piano di assimilazione completato [!DNL CRM] o data warehouse;
+* piano di caricamento [!DNL CRM] o data warehouse completato;
 * Requisiti definiti per la segmentazione del pubblico;
 * una tassonomia completa dei dati;
 * Un piano di integrazione dei dati sviluppato da terze parti.
 
-## Fase di creazione, test e formazione {#build-test-train-phase}
+## Creazione, test e fase treno {#build-test-train-phase}
 
 Durante la fase di costruzione, test e treno, esaminerai la strategia di raccolta dei dati e il prototipo con un responsabile designato per le soluzioni partner.
 
 <!-- c_build_test_train.xml -->
 
-La strategia di raccolta dei dati sarà sottoposta a test end-to-end. [!DNL QA] Le soluzioni per i partner monitoreranno i bug scoperti e coordineranno le risoluzioni dei problemi con i nostri ingegneri di sistemi. La formazione dei clienti può iniziare in parallelo con queste altre iniziative.
+La strategia di raccolta dei dati sarà sottoposta a test end-to-end [!DNL QA]. Le soluzioni per i partner monitoreranno i bug scoperti e coordineranno le risoluzioni dei problemi con i nostri ingegneri di sistemi. La formazione dei clienti può iniziare in parallelo con queste altre iniziative.
 
 La tabella seguente descrive le attività chiave che hanno luogo in questa fase:
 
 | Attività | Finalità/Descrizione | Partecipanti |
 |---|---|---|
-| Preparazione di una strategia di raccolta dati | Collaborazione con i team tecnici Adobe per creare un piano di raccolta dati che soddisfi i requisiti aziendali | Team aziendali e tecnici |
+| Preparazione di una strategia di raccolta dati | Collaborate con  team tecnici di Adobe per creare un piano di raccolta dati che soddisfi i vostri requisiti aziendali | Team aziendali e tecnici |
 | Distribuzione e test del codice | Verificare la soluzione proposta in un ambiente di pubblicazione protetta e eseguire test tra browser diversi | Team tecnici |
 | Verifica funzionalità e risoluzione dei bug | Esaminare e comunicare i risultati, risolvere i bug e ripetere il test | Team tecnici |
-| Formazione utenti | Informazioni su  funzioni, strumenti e rapporti di Audience Manager | Team aziendali |
+| Formazione utenti | Informazioni sulle caratteristiche, gli strumenti e i rapporti  Audience Manager | Team aziendali |
 
 I risultati finali per questa fase possono includere:
 
 * un piano di raccolta dei dati completato e accettato;
-* test end-to-end [!DNL QA] ;
-* Istruzioni di base sulle  dell&#39;interfaccia utente Audience Manager;
+* test end-to-end [!DNL QA];
+* istruzioni di base sulle  funzionalità dell&#39;interfaccia utente del Audience Manager;
 * Accettazione e disconnessione.
 
-## Avvio, supporto e fase di ottimizzazione {#launch-support-optimize-phase}
+## Avvio, supporto e ottimizzazione della fase {#launch-support-optimize-phase}
 
-Durante la fase di avvio, supporto e ottimizzazione, la raccolta dei dati e l’implementazione prototipata passa dallo sviluppo a un ambiente di produzione live. Continueremo a seguire corsi di formazione sulla familiarizzazione dei prodotti e sulle strategie che possono aiutarti a migliorare la tua attività [!DNL ROI] attraverso l&#39;ottimizzazione basata sui dati.
+Durante la fase di avvio, supporto e ottimizzazione, la raccolta dei dati e l’implementazione prototipata passa dallo sviluppo a un ambiente di produzione live. Continueremo la formazione sulla familiarizzazione dei prodotti e sulle strategie che possono contribuire ad aumentare la [!DNL ROI] mediante l&#39;ottimizzazione basata sui dati.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -205,7 +205,7 @@ La tabella seguente descrive le attività chiave che hanno luogo in questa fase:
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Comunicazioni di follow-up </td> 
-   <td colname="col2"> Comunicazioni pianificate regolarmente per tenere aggiornato l'esperienza dell'utente con  Audience Manager </td> 
+   <td colname="col2"> Comunicazione pianificata regolarmente per tenere aggiornato l'esperienza dell'utente con  Audience Manager </td> 
    <td colname="col3"> Team aziendali e tecnici </td> 
   </tr> 
  </tbody> 
@@ -217,17 +217,17 @@ Le attività per questa fase possono includere:
 * Informazioni sui rapporti personalizzati;
 * Come ottenere assistenza sui prodotti
 * Rispondere o sollecitare richieste di funzioni, bug e feedback degli utenti;
-* Approfondire la familiarità con  funzioni e rapporti Audience Manager.
+* Approfondire la familiarità con  funzioni e rapporti di Audience Manager.
 
 ## Implementazione del codice {#code-implementation}
 
-Anche se il processo di distribuzione può sembrare complesso, l&#39;implementazione del codice è semplice come aggiungere alcune righe di [!DNL JavaScript] adiacente al `</body>` tag di chiusura del sito Web.
+Anche se il processo di distribuzione può sembrare complesso, l&#39;implementazione del codice è semplice come aggiungere alcune righe di [!DNL JavaScript] adiacenti al tag di chiusura `</body>` del sito Web.
 
 <!-- c_code.xml -->
 
 ### Distribuzione
 
-Il frammento di codice  Audience Manager chiama [!DNL Akamai] per scaricare le regole aziendali impostate in precedenza nell&#39;interfaccia utente. Inoltre, i browser client memorizzano nella cache tali informazioni, riducendo i tempi di caricamento delle pagine e dei server. La metodologia di raccolta di codice e dati è stata studiata per mantenere l&#39;esperienza dell&#39;utente in tutto l&#39;inventario.
+Lo snippet di codice  Audience Manager chiama [!DNL Akamai] per scaricare le regole aziendali impostate in precedenza nell&#39;interfaccia utente. Inoltre, i browser client memorizzano nella cache tali informazioni, riducendo i tempi di caricamento delle pagine e dei server. La metodologia di raccolta di codice e dati è stata studiata per mantenere l&#39;esperienza dell&#39;utente in tutto l&#39;inventario.
 
 ### Partecipanti
 
@@ -239,6 +239,6 @@ I nostri sforzi di collaborazione non si fermano con l&#39;implementazione final
 
 <!-- c_post_implement_support.xml -->
 
-Dopo il completamento del processo di implementazione del prodotto, gli account manager offrono servizi di supporto e consulenza continui. Potete aspettarvi riunioni regolari con il vostro account manager. Queste riunioni garantiscono la massima quantità di utilizzo e valore da  Audience Manager.
+Dopo il completamento del processo di implementazione del prodotto, gli account manager offrono servizi di supporto e consulenza continui. Potete aspettarvi riunioni regolari con il vostro account manager. Queste riunioni garantiscono di ottenere la quantità massima di utilizzo e valore da  Audience Manager.
 
-Contattateci [qui](https://www.adobe.com/products/audiencemanager.html) per maggiori informazioni e per iniziare a usare  Audience Manager.
+Contattateci [qui](https://www.adobe.com/products/audiencemanager.html) per ulteriori informazioni e per iniziare con  Audience Manager.
