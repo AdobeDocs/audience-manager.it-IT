@@ -14,37 +14,37 @@ ht-degree: 0%
 ---
 
 
-# Accessibilità in  Audience Manager {#accessibility}
+# Accessibilità  Audience Manager {#accessibility}
 
 ## Panoramica {#overview}
 
 Accessibilità si riferisce a una serie di caratteristiche che rendono utilizzabile un prodotto software, con il minor sforzo possibile da parte di utenti con varie disabilità, come visive, uditive, cognitive, motori o di altro tipo.
 
- Adobe è leader di settore nell&#39;accessibilità e supporta la creazione di esperienze Web eccezionali incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti accessibili a tutti gli utenti. Per ulteriori dettagli  impegno  Adobe verso l&#39;accessibilità, vedere [Accessibilità](https://www.adobe.com/accessibility.html)del Adobe.
+ Adobe è leader di settore nell&#39;accessibilità e supporta la creazione di esperienze Web eccezionali incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti accessibili a tutti gli utenti. Per ulteriori dettagli  impegno  Adobe verso l&#39;accessibilità, vedere [ Accessibilità del Adobe](https://www.adobe.com/accessibility.html).
 
 Le funzioni di accessibilità più comuni dei prodotti software sono: navigazione tramite tastiera, struttura semantica, contrasto sufficiente tra elementi in primo piano ed elementi di sfondo, supporto della tecnologia di supporto, etichette chiare degli elementi e così via.
 
-Per rendere [!DNL Audience Manager] più semplice l&#39;utilizzo per tutti, abbiamo sviluppato il supporto per più funzioni di accessibilità.
+Per semplificare l&#39;utilizzo di [!DNL Audience Manager] per tutti, abbiamo sviluppato il supporto per diverse funzioni di accessibilità.
 
 ## Navigazione tastiera {#keyboard-navigation}
 
 [!DNL Audience Manager] supporta l&#39;accesso completo alla tastiera:
 
-* Il `Tab` tasto e le frecce si spostano tra i singoli elementi dell&#39;interfaccia utente.
+* Il tasto `Tab` e le frecce si spostano tra i singoli elementi dell&#39;interfaccia utente.
 
    ![accessibilità-highlight](assets/accesibility-highlight.png)
 
-* I `Return` (`Enter`) e `Space` i tasti attivano l&#39;elemento selezionato.
+* I tasti `Return` (`Enter`) e `Space` attivano l&#39;elemento selezionato.
 
 ## Ordinamento tabella accessibile {#table-sorting}
 
-Le intestazioni delle tabelle sono selezionabili quando si naviga tramite la `Tab` chiave e l&#39;ordine di ordinamento può essere modificato premendo `Space`.
+Le intestazioni delle tabelle sono selezionabili quando si naviga tramite il tasto `Tab` e l&#39;ordine di ordinamento può essere modificato premendo `Space`.
 
 ![accessibility-table-header](assets/accessibility-table-headers.png)
 
 ## Supporto per tecnologie di assistenza {#assistive-technologies}
 
-Utilizzando il codice semantico e [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), gli elementi interattivi all&#39;interno dell&#39;interfaccia [!DNL Audience Manager] utente includono le etichette corrispondenti, i nomi accessibili e i ruoli che identificano sia lo scopo che lo stato corrente.
+Utilizzando il codice semantico e [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), gli elementi interattivi all&#39;interno dell&#39;interfaccia utente [!DNL Audience Manager] includono le etichette corrispondenti, i nomi accessibili e i ruoli che identificano sia il loro scopo che il loro stato corrente.
 
 In questo modo, le tecnologie di assistenza, come gli assistenti vocali, possono leggere le etichette e altre informazioni agli utenti in modo che possano interagire facilmente con i controlli delle applicazioni.
 
@@ -52,14 +52,14 @@ Tutti gli elementi interattivi nell&#39;interfaccia utente del Audience Manager 
 
 ## Colori e contrasto {#colors-contrast}
 
-L&#39;interfaccia [!DNL Audience Manager] utente si impegna a fornire un contrasto sufficiente nell&#39;applicazione per garantire un&#39;esperienza di visualizzazione accessibile agli utenti con problemi di vista o di colore ridotti.
+L&#39;interfaccia utente [!DNL Audience Manager] si sforza di fornire un contrasto sufficiente nell&#39;applicazione per garantire un&#39;esperienza di visualizzazione accessibile agli utenti con problemi di vista o di colore ridotti.
 
 Ad esempio, le schermate di caricamento includono una casella modale bianca con una casella di carico, il tutto sopra una sovrapposizione grigia scura.
 
 ![accessibilità](assets/accessibility-loading.png)
 
-## Lettura {#further-reading}
+## Lettura successiva {#further-reading}
 
 [!DNL Audience Manager] si impegna a fornire un livello di accessibilità sempre maggiore, rendendo il prodotto facile da usare per tutti.
 
-Vi invitiamo a utilizzare il modulo [di feedback per l’accesso facilitato agli](https://www.adobe.com/accessibility/feedback.html) Adobi per inviarci suggerimenti di miglioramento e problemi di accessibilità in esecuzione. Saremo più che lieti di prendere in considerazione il vostro feedback e migliorare [!DNL Audience Manager].
+È consigliabile utilizzare il modulo [ di feedback sull&#39;accessibilità degli Adobi](https://www.adobe.com/accessibility/feedback.html) per inviarci suggerimenti di miglioramento e problemi di accessibilità in esecuzione. Saremo più che lieti di prendere in considerazione il vostro feedback e migliorare [!DNL Audience Manager].
