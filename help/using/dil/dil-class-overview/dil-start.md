@@ -21,7 +21,7 @@ Le API DIL a livello di classe consentono di creare e utilizzare in modo program
 
 ## Guida introduttiva alle API DIL a livello di classe {#get-started}
 
-Descrive i requisiti di autenticazione e la formattazione del testo utilizzati nella documentazione a livello di classe [!UICONTROL DIL] .
+Descrive i requisiti di autenticazione e la formattazione del testo utilizzati nella documentazione a livello di classe [!UICONTROL DIL].
 
 <!-- 
 
@@ -29,9 +29,9 @@ c_class_start.xml
 
  -->
 
-Quando si utilizzano le [!UICONTROL DIL] API a livello di classe:
+Quando si lavora con le API [!UICONTROL DIL] a livello di classe:
 
-* L&#39;accesso richiede un nome partner e un ID spazio nomi contenitore (NSID). Contattate il vostro account manager  Audience Manager per ottenere queste informazioni.
-* Sostituite eventuale testo *in corsivo* di esempio nella documentazione API con valore, ID o altra variabile, come richiesto dal metodo con cui state lavorando.
-* [!UICONTROL DIL] scrive dati codificati in un cookie di destinazione. Ad esempio, gli spazi sono codificati come `%20` e punto e virgola come `%3B`.
+* L&#39;accesso richiede un nome partner e un ID spazio nomi contenitore (NSID). Contattate il vostro responsabile commerciale  Audience Manager per ottenere queste informazioni.
+* Sostituite il testo di esempio *corsivo* nella documentazione API con valore, ID o altra variabile, come richiesto dal metodo utilizzato.
+* [!UICONTROL DIL] scrive dati codificati in un cookie di destinazione. Ad esempio, gli spazi sono codificati come `%20` e i punti e virgola come `%3B`.
 
