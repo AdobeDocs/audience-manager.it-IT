@@ -23,7 +23,7 @@ Descrive i campi, la sintassi e le convenzioni necessari per assegnare un nome a
 
 >[!NOTE]
 >
->Gli elementi di stile (`monospaced text`, *corsivo*, parentesi `[ ]` `( )`ecc.) in questo documento indicano gli elementi e le opzioni del codice. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
+>Gli elementi di stile (`monospaced text`, *corsivo*, le parentesi `[ ]` `( )`, ecc.) in questo documento indicano gli elementi e le opzioni del codice. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
 
 ## Elementi di sintassi e nome file {#syntax-file-name}
 
@@ -50,18 +50,18 @@ La tabella definisce gli elementi in un nome di file di dati in uscita.
    <td colname="col2"> <p>Si riferisce ai metodi di trasferimento dei dati. I metodi di trasferimento includono: </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - Trasferimento tramite SFTP </li> 
-     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3 </span> - Trasferimento su <span class="keyword"> Amazon AWS </span> </li> 
+     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword">  Amazon S3  </span> - Trasferire a  <span class="keyword">  Amazon AWS  </span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>ID destinazione. </p> <p>In <span class="keyword"> Audience Manager </span>, una destinazione è l'istanza dell'integrazione in cui è possibile mappare i segmenti di destinazione. I clienti possono avere più destinazioni, a seconda dei requisiti aziendali. </p> </td> 
+   <td colname="col2"> <p>ID destinazione. </p> <p>In <span class="keyword">  Audience Manager </span>, una destinazione è l'istanza dell'integrazione in cui è possibile mappare i segmenti di destinazione. I clienti possono avere più destinazioni, a seconda dei requisiti aziendali. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
    <td colname="col2"> <p>ID provider dati o origine dati. Questo ID identifica il tipo di ID utente presente nel contenuto del file. Le chiavi ID utente più comuni sono: </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
-      <li id="li_94DAFA169380405981AFEF1B581997E6">2014 - <span class="keyword"> Google Advertiser ID </span> (raw, unhashed) </li> 
+      <li id="li_94DAFA169380405981AFEF1B581997E6">2014 - <span class="keyword"> Google Advertiser ID </span> (non crittografato) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">2015 - <span class="keyword"> Apple ID per inserzionisti </span> (non elaborati, senza hash) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">ID fornitore - ID utente di terze parti (web/cookie) </li> 
      </ul> </p> <p>Per ulteriori informazioni, consulta <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Global Data Sources</a>.</p></td> 
@@ -93,11 +93,11 @@ La tabella definisce gli elementi in un nome di file di dati in uscita.
  </tbody> 
 </table>
 
-## Esempi di nomi file {#file-name-examples}
+## Esempi di nome file {#file-name-examples}
 
 ### Scenario 1
 
-I file inviati a una [!DNL Amazon S3] posizione, con *`PID_ALIAS="XYZCustomer"`* e con [!DNL Google Advertiser IDs] il contenuto del file.
+I file inviati in una posizione [!DNL Amazon S3], con *`PID_ALIAS="XYZCustomer"`* e con [!DNL Google Advertiser IDs] nel contenuto del file.
 
 Ad esempio, file incrementali:
 
@@ -116,7 +116,7 @@ Ad esempio, file completi:
 
 ### Scenario 2
 
-I file inviati nella [!DNL FTP] posizione, senza *`PID_ALIAS`* e con [!DNL Apple Advertiser IDs] il contenuto del file:
+File inviati in [!DNL FTP] posizione, senza *`PID_ALIAS`* e con [!DNL Apple Advertiser IDs] nel contenuto del file:
 
 Ad esempio, file incrementali:
 
@@ -132,7 +132,7 @@ Ad esempio, file completi:
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Scenario 3**: File inviati nella [!DNL FTP] posizione, con *`PID_ALIAS="XYZCustomer"`* e con ID utente di terze parti nel contenuto del file ( *`Vendor ID=45454`*):
+**Scenario 3**: File inviati al  [!DNL FTP] percorso, con  *`PID_ALIAS="XYZCustomer"`* e con ID utente di terze parti nel contenuto del file (  *`Vendor ID=45454`*):
 
 Ad esempio, file incrementali:
 
@@ -157,7 +157,7 @@ Descrive i campi, la sintassi e le convenzioni necessari per organizzare le info
 
 >[!NOTE]
 >
->Gli elementi di stile (`monospaced text`, *corsivo*, parentesi `[ ]` `( )`ecc.) in questo documento indicano gli elementi e le opzioni del codice. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
+>Gli elementi di stile (`monospaced text`, *corsivo*, le parentesi `[ ]` `( )`, ecc.) in questo documento indicano gli elementi e le opzioni del codice. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
 
 ### Sintassi
 
@@ -179,7 +179,7 @@ Nella tabella sono elencate le variabili che definiscono il contenuto di un file
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>UUID </i></code> </p> </td> 
-   <td colname="col2"> <p>Un ID utente univoco assegnato da <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Un ID utente univoco assegnato da <span class="keyword">  Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 
@@ -191,7 +191,7 @@ Nella tabella sono elencate le variabili che definiscono il contenuto di un file
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>L’ID del segmento da cui l’utente è stato squalificato. Separa più segmenti con una virgola. Con una sincronizzazione completa, puoi ignorare i segmenti rimossi perché il file di dati conterrà l'elenco completo dei segmenti correnti per l'utente. In genere, è necessario conoscere i segmenti a cui appartiene un utente anziché quelli da cui è stato rimosso. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
+   <td colname="col2"> <p>L’ID del segmento da cui l’utente è stato squalificato. Separa più segmenti con una virgola. Con una sincronizzazione completa, puoi ignorare i segmenti rimossi perché il file di dati conterrà l'elenco completo dei segmenti correnti per l'utente. In genere, è necessario conoscere i segmenti a cui appartiene un utente anziché quelli da cui è stato rimosso. Vedere anche <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Nome file dati in uscita: Sintassi ed esempi </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
