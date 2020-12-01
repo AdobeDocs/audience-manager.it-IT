@@ -1,6 +1,6 @@
 ---
-description: Come opzione, è possibile crittografare i file di dati con crittografia PGP al momento dell'invio a  Audience Manager.
-seo-description: Come opzione, è possibile crittografare i file di dati con crittografia PGP al momento dell'invio a  Audience Manager.
+description: Come opzione, è possibile crittografare i file di dati con crittografia PGP al momento dell'invio al Audience Manager .
+seo-description: Come opzione, è possibile crittografare i file di dati con crittografia PGP al momento dell'invio al Audience Manager .
 seo-title: Crittografia PGP dei file per i tipi di dati in entrata
 solution: Audience Manager
 title: Crittografia PGP dei file per i tipi di dati in entrata
@@ -17,22 +17,22 @@ ht-degree: 11%
 
 # Crittografia PGP dei file per i tipi di dati in entrata{#file-pgp-encryption-for-inbound-data-types}
 
-È possibile cifrare i file di dati con [!DNL PGP] crittografia al momento dell&#39;invio a  Audience Manager.
+È possibile crittografare i file di dati con la crittografia [!DNL PGP] durante l&#39;invio al Audience Manager .
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->[!DNL PGP] la crittografia include la compressione dei file. Quando inviate file [!DNL PGP] in entrata crittografati, accertatevi di non [comprimerli](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) utilizzando gzip (`.gz`).
+>[!DNL PGP] la crittografia include la compressione dei file. Quando si inviano [!DNL PGP] file in entrata crittografati, accertarsi di non [comprimerli](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) utilizzando gzip (`.gz`).
 >
->[!DNL PGP] i file in entrata crittografati che sono anche [compressi](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) non sono validi in  Audience Manager.
+>[!DNL PGP] i file in entrata crittografati che vengono  [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) compressi non sono validi in  Audience Manager.
 
 Seguire i passaggi descritti di seguito per cifrare i file di dati in entrata.
 
-1. Scaricate la [chiave](./assets/adobe_pgp.pub)pubblica Audience Manager.
+1. Scaricate la [chiave pubblica  Audience Manager](./assets/adobe_pgp.pub).
 2. Importa la chiave pubblica nello store affidabile.
 
-   Ad esempio, se utilizzate [!DNL GPG], il comando potrebbe essere simile al seguente:
+   Ad esempio, se si utilizza [!DNL GPG], il comando potrebbe essere simile al seguente:
 
    `gpg --import adobe_pgp.pub`
 
@@ -56,4 +56,4 @@ Seguire i passaggi descritti di seguito per cifrare i file di dati in entrata.
 
    >[!NOTE]
    >
-   > Audience Manager supporta solo l&#39;algoritmo di cifratura [!DNL Advanced Encryption Standard (AES)] dei dati.  Audience Manager supporta qualsiasi dimensione chiave.
+   > Audience Manager supporta solo l&#39;algoritmo di crittografia dei dati [!DNL Advanced Encryption Standard (AES)].  Audience Manager supporta qualsiasi dimensione chiave.
