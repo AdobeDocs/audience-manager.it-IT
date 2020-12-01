@@ -17,17 +17,17 @@ ht-degree: 9%
 
 # Creare destinazioni {#create-destinations}
 
-Creare destinazioni con questi [!UICONTROL RESTful API] metodi.
+Create le destinazioni con questi metodi [!UICONTROL RESTful API].
 
 <!-- c_create_destinations.xml -->
 
 ## Tipi di destinazione supportati: Solo URL e cookie
 
-I `POST` metodi disponibili consentono di creare [!UICONTROL URL] e [!UICONTROL cookie destinations] solo. Al momento non è possibile creare [!UICONTROL server-to-server destinations] con questi [!DNL REST API] metodi. Tuttavia, i `GET` metodi di destinazione correlati consentono di recuperare le informazioni [!UICONTROL server-to-server destinations] create nell&#39;interfaccia utente.
+I metodi `POST` disponibili consentono di creare solo [!UICONTROL URL] e [!UICONTROL cookie destinations]. Al momento non è possibile creare [!UICONTROL server-to-server destinations] con questi metodi [!DNL REST API]. Tuttavia, i metodi `GET` di destinazione correlati consentono di recuperare informazioni su [!UICONTROL server-to-server destinations] creati nell&#39;interfaccia utente.
 
 ## Creare una destinazione URL non seriale {#create-nonserial-dest}
 
-Un `POST` metodo che consente di creare una destinazione che accetta segmenti composti da coppie chiave-valore singole (ad esempio, `gender=male` o `gender=female`).
+Metodo `POST` che consente di creare una destinazione che accetta segmenti composti da coppie chiave-valore singole (ad esempio, `gender=male` o `gender=female`).
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -80,7 +80,7 @@ Una richiesta corretta restituisce `201 created` e la destinazione.
 
 ## Creare una destinazione URL serializzata {#create-serial-url-dest}
 
-Un `POST` metodo che consente di creare una destinazione che accetta più valori associati a una singola chiave (ad esempio, `color=blue, red, green`).
+Un metodo `POST` che consente di creare una destinazione che accetta più valori associati a una singola chiave (ad es. `color=blue, red, green`).
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -90,7 +90,7 @@ Un `POST` metodo che consente di creare una destinazione che accetta più valori
 
 ### Richiesta di esempio
 
-Specificare il carattere di delimitazione [!DNL URL] e di protezione per la coppia chiave-valore passata alla destinazione. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Specificare il carattere di delimitazione [!DNL URL] protetto per la coppia chiave-valore passata alla destinazione. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -136,7 +136,7 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 
 ## Crea una destinazione cookie: Chiave singola, non serializzata {#create-cookie-dest-single}
 
-Un `POST` metodo che consente di creare un [!UICONTROL cookie destination] che accetta segmenti composti da coppie chiave-valore singole (ad esempio, `gender=male` o `gender=female`).
+Metodo `POST` che consente di creare un [!UICONTROL cookie destination] che accetta segmenti composti da coppie chiave-valore singole (ad esempio, `gender=male` o `gender=female`).
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -205,7 +205,7 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 
 ## Crea una destinazione cookie: Chiave singola, serializzata {#create-cookie-dest-single-serial}
 
-Un `POST` metodo che consente di creare una destinazione che accetta più valori associati a una singola chiave (ad esempio, `color=blue, red, green`).
+Un metodo `POST` che consente di creare una destinazione che accetta più valori associati a una singola chiave (ad es. `color=blue, red, green`).
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -276,7 +276,7 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 
 ## Crea una destinazione cookie: Multi-chiave, non serializzata {#create-cookie-dest-multi}
 
-Un `POST` metodo che consente di creare una destinazione che accetta segmenti contenenti più chiavi con valori diversi (ad esempio, `gender=male; gender=female; color=blue; color=red`).
+Metodo `POST` che consente di creare una destinazione che accetta segmenti contenenti più chiavi con valori diversi (ad esempio, `gender=male; gender=female; color=blue; color=red`).
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -341,9 +341,9 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 }
 ```
 
-## Crea una destinazione cookie: Multi-chiave, serializzata {#create-cookie-dest-multi-serial}
+## Crea una destinazione cookie: Più chiavi, serializzate {#create-cookie-dest-multi-serial}
 
-Un `POST` metodo che consente di creare una destinazione che accetta segmenti contenenti più chiavi e valori (ad esempio, `gender=male, female; color=blue, red, green`).
+Metodo `POST` che consente di creare una destinazione che accetta segmenti contenenti più chiavi e valori (ad esempio, `gender=male, female; color=blue, red, green`).
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
