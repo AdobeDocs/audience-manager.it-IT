@@ -25,22 +25,22 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] utilizza [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) per estendere le autorizzazioni del gruppo di utenti all’ [!UICONTROL Dashboard]. Gli utenti possono visualizzare solo le informazioni sul dashboard che dispongono delle autorizzazioni per visualizzare. [!UICONTROL RBAC] consente di controllare i dati che possono essere visualizzati dai team interni.
+[!DNL Audience Manager] utilizza  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) per estendere le autorizzazioni del gruppo di utenti al gruppo  [!UICONTROL Dashboard]. Gli utenti possono visualizzare solo le informazioni sul dashboard che dispongono delle autorizzazioni per visualizzare. [!UICONTROL RBAC] consente di controllare i dati che possono essere visualizzati dai team interni.
 
 Ad esempio, un&#39;agenzia che gestisce diversi account di inserzionisti può configurare le autorizzazioni per gruppi di utenti in modo che un team che gestisce l&#39;account dell&#39;inserzionista A non possa vedere i dati di reporting dell&#39;inserzionista B. Questo dashboard può essere utilizzato per risolvere problemi di consegna dei dati.
 
-Ad esempio, se noti un calo, o picco, nel totale degli utenti univoci con la suddivisione di tipo di utente univoco (basato su regole rispetto a quello a bordo), hai un punto di partenza migliore per individuare un potenziale problema di consegna dei dati. Se notate un calo negli utenti univoci totali e negli utenti univoci caricati, potete passare al [!UICONTROL On-boarding Status] rapporto per verificare se si è verificato un problema con un file in entrata.
+Ad esempio, se noti un calo, o picco, nel totale degli utenti univoci con la suddivisione di tipo di utente univoco (basato su regole rispetto a quello a bordo), hai un punto di partenza migliore per individuare un potenziale problema di consegna dei dati. Se notate un calo negli utenti univoci totali e negli utenti univoci caricati, potete passare al rapporto [!UICONTROL On-boarding Status] per verificare se si è verificato un problema con un file in entrata.
 
 **Per accedere al dashboard:**
 
-1. In the top navigation menu, click **[!UICONTROL Dashboard]**.
-2. *Facoltativo* Selezionare l&#39;intervallo di tempo desiderato dall&#39;ultima data del rapporto dall&#39;elenco a discesa (7 giorni, 14 giorni (impostazione predefinita), 30 giorni o 60 giorni).
+1. Nel menu di navigazione superiore, fate clic su **[!UICONTROL Dashboard]**.
+2. ** Facoltativo: selezionare l&#39;intervallo di tempo desiderato dall&#39;ultima data del rapporto dall&#39;elenco a discesa (7 giorni, 14 giorni (impostazione predefinita), 30 giorni o 60 giorni).
 
-   A seconda del periodo selezionato, la modifica del delta nei pannelli [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] e [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] mostra la modifica apportata ai visitatori univoci nel periodo che termina oggi rispetto al periodo precedente della stessa lunghezza. Ad esempio, se selezionate 7 giorni, il delta confronta i visitatori univoci dei sette giorni precedenti con quelli dei sette giorni precedenti che terminano oggi con quelli dei sette giorni che terminano sette giorni fa.
+   A seconda del periodo selezionato, la modifica del delta nei pannelli [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] e [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] visualizza la modifica dei visitatori univoci nel periodo che termina oggi rispetto al periodo precedente della stessa lunghezza. Ad esempio, se selezionate 7 giorni, il delta confronta i visitatori univoci dei sette giorni precedenti con quelli dei sette giorni precedenti che terminano oggi con quelli dei sette giorni che terminano sette giorni fa.
 
    >[!NOTE]
    >
-   >È possibile esaminare un cambiamento delta che sembra fuori dal comune eseguendo un [!UICONTROL Trend] rapporto. Ad esempio, se notate un cambiamento delta insolitamente grande negli ultimi sette giorni, potete eseguire un [!UICONTROL Trend] rapporto per gli ultimi 14 giorni (2 x 7) per comprendere meglio i numeri.
+   >È possibile esaminare una modifica delta che sembra fuori dal comune eseguendo un report [!UICONTROL Trend]. Ad esempio, se negli ultimi sette giorni si verifica un cambiamento delta insolitamente elevato, è possibile eseguire un report [!UICONTROL Trend] per gli ultimi 14 giorni (2 x 7) per comprendere meglio i numeri.
 
    A seconda delle autorizzazioni dell&#39;utente connesso, vengono visualizzati i seguenti pannelli:
 
@@ -48,7 +48,7 @@ Ad esempio, se noti un calo, o picco, nel totale degli utenti univoci con la sud
    * [Caratteristiche principali/caratteristiche più modificate](../reporting/reports-dashboard.md#largest-traits)
    * [Segmenti maggiori/Segmenti più modificati](../reporting/reports-dashboard.md#most-changed-segments)
 
-3. *Facoltativo* Fare clic **[!UICONTROL Normalize]** sopra un grafico per visualizzare tutti i dati sulla stessa scala. È inoltre possibile passare il puntatore del mouse su un punto dati per visualizzare ulteriori informazioni.
+3. ** FacoltativoFate clic  **[!UICONTROL Normalize]** sopra un grafico per visualizzare tutti i dati sulla stessa scala. È inoltre possibile passare il puntatore del mouse su un punto dati per visualizzare ulteriori informazioni.
 
 ## Partner Uniques {#partner-uniques}
 
@@ -70,7 +70,7 @@ Autorizzazione necessaria per visualizzare: [!UICONTROL View Traits].
 
 Questo pannello mostra il numero di visitatori univoci catturati da varie caratteristiche.
 
-Utilizzate l&#39;elenco a **[!UICONTROL Show]** discesa per visualizzare informazioni sui diversi tipi di caratteristiche: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded]o [!UICONTROL Rule-Based].
+Utilizzate l&#39;elenco a discesa **[!UICONTROL Show]** per visualizzare informazioni sui diversi tipi di caratteristiche: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded] o [!UICONTROL Rule-Based].
 
 Questo pannello contiene le seguenti schede:
 
@@ -93,7 +93,7 @@ Questo pannello contiene le seguenti schede:
  </tbody> 
 </table>
 
-## Segmenti maggiori/Segmenti più modificati {#most-changed-segments}
+## Segmenti più grandi/Segmenti più modificati {#most-changed-segments}
 
 Autorizzazione necessaria per visualizzare: [!UICONTROL View Segments].
 
