@@ -17,17 +17,17 @@ ht-degree: 11%
 
 # Mappare segmenti su una destinazione {#map-segments-to-a-destination}
 
-Mappatura dei segmenti sulle destinazioni con questi [!DNL RESTful API] metodi.
+Mappatura dei segmenti sulle destinazioni con questi metodi [!DNL RESTful API].
 
 <!-- c_api_map_seg_dest.xml -->
 
 ## Tipi di destinazione supportati: Solo URL e cookie
 
-I `POST` metodi disponibili consentono di mappare i segmenti [!UICONTROL URL] solo su e [!UICONTROL cookie destinations] solo. Al momento non è possibile mappare i segmenti [!UICONTROL server-to-server destinations] con questi [!DNL REST API] metodi. Utilizzate invece l&#39;interfaccia utente. Tuttavia, i `GET` metodi di destinazione correlati consentono di recuperare le informazioni [!UICONTROL server-to-server destinations] create nell&#39;interfaccia utente.
+I metodi `POST` disponibili consentono di mappare i segmenti solo su [!UICONTROL URL] e [!UICONTROL cookie destinations]. Al momento non è possibile mappare i segmenti su [!UICONTROL server-to-server destinations] con questi metodi [!DNL REST API]. Utilizzate invece l&#39;interfaccia utente. Tuttavia, i metodi `GET` di destinazione correlati consentono di recuperare informazioni su [!UICONTROL server-to-server destinations] creati nell&#39;interfaccia utente.
 
 ## Mappatura di un segmento su una destinazione URL non serializzata {#map-segment-non-serial}
 
-Metodo `POST` che consente di mappare un segmento su una destinazione non seriale [!UICONTROL URL] .
+Metodo `POST` che consente di mappare un segmento su una destinazione non seriale [!UICONTROL URL].
 
 <!-- r_map_noserial_url.xml -->
 
@@ -77,7 +77,7 @@ Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ## Mappatura di un segmento su una destinazione URL serializzata {#map-segment-serial}
 
-Metodo `POST` che consente di mappare un segmento a una destinazione serializzata [!UICONTROL URL] .
+Metodo `POST` che consente di mappare un segmento su una destinazione [!UICONTROL URL] serializzata.
 
 <!-- r_map_serialized_url.xml -->
 
@@ -87,7 +87,7 @@ Metodo `POST` che consente di mappare un segmento a una destinazione serializzat
 
 ### Richiesta di esempio
 
-Nella richiesta, il valore `traitAlias` corrisponde alla chiave in una coppia chiave-valore. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Nella richiesta, la `traitAlias` corrisponde alla chiave in una coppia chiave-valore. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 {
@@ -127,7 +127,7 @@ Nella richiesta, il valore `traitAlias` corrisponde alla chiave in una coppia ch
 
 ## Mappatura di un segmento su una destinazione cookie: Chiave singola, non serializzata {#map-segment-cookie-noserial}
 
-Metodo `POST` che consente di mappare un segmento a una destinazione a chiave singola e non serializzata [!UICONTROL cookie] .
+Un metodo `POST` che consente di mappare un segmento su una destinazione [!UICONTROL cookie] a chiave singola e non serializzata.
 
 <!-- r_map_cookie_noserial.xml -->
 
@@ -137,7 +137,7 @@ Metodo `POST` che consente di mappare un segmento a una destinazione a chiave si
 
 ### Richiesta di esempio
 
-Nella richiesta, il valore `valueAlias` corrisponde al valore in una coppia chiave-valore. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Nella richiesta, la `valueAlias` corrisponde al valore in una coppia chiave-valore. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 {
@@ -174,7 +174,7 @@ Nella richiesta, il valore `valueAlias` corrisponde al valore in una coppia chia
 
 ## Mappatura di un segmento su una destinazione cookie: Multi-chiave, non serializzata {#map-segment-cookie-multi-noserial}
 
-Un `POST` metodo che consente di mappare un segmento a una destinazione multi-chiave non serializzata [!UICONTROL cookie] .
+Un metodo `POST` che consente di mappare un segmento su una destinazione [!UICONTROL cookie] multi-key, non serializzata.
 
 <!-- r_map_cookie_multikey_noserial.xml -->
 
@@ -184,7 +184,7 @@ Un `POST` metodo che consente di mappare un segmento a una destinazione multi-ch
 
 ### Richiesta di esempio
 
-Nella richiesta, la chiave `traitAlias` e `valueAlias` il valore vengono impostati rispettivamente in una coppia chiave-valore. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Nella richiesta, i valori `traitAlias` e `valueAlias` impostano rispettivamente la chiave e il valore in una coppia chiave-valore. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 {
@@ -220,9 +220,9 @@ Nella richiesta, la chiave `traitAlias` e `valueAlias` il valore vengono imposta
 }
 ```
 
-## Mappatura di un segmento su una destinazione cookie: Multi-chiave, serializzata {#map-segment-cookie-multi-serial}
+## Mappatura di un segmento su una destinazione cookie: Più chiavi, serializzate {#map-segment-cookie-multi-serial}
 
-Un `POST` metodo che consente di mappare un segmento su un segmento con più chiavi e serializzato [!UICONTROL cookie destination].
+Metodo `POST` che consente di mappare un segmento su un [!UICONTROL cookie destination] serializzato multi-key.
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -232,7 +232,7 @@ Un `POST` metodo che consente di mappare un segmento su un segmento con più chi
 
 ### Richiesta di esempio
 
-Nella richiesta, la chiave `traitAlias` e `valueAlias` il valore vengono impostati in una coppia chiave-valore. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Nella richiesta, i valori `traitAlias` e `valueAlias` impostano la chiave e il valore in una coppia chiave-valore. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 {
@@ -270,7 +270,7 @@ Nella richiesta, la chiave `traitAlias` e `valueAlias` il valore vengono imposta
 
 ## Mappatura di un segmento su una destinazione da server a server {#map-segment-s2s}
 
-Un `POST` metodo che consente di mappare un segmento a una destinazione esistente [!UICONTROL server-to-server] . Tuttavia, non è possibile creare [!UICONTROL server-to-server] destinazioni con questi [!DNL API] metodi attualmente disponibili.
+Metodo `POST` che consente di mappare un segmento su una destinazione [!UICONTROL server-to-server] esistente. Tuttavia, non è possibile creare destinazioni [!UICONTROL server-to-server] con questi metodi attualmente disponibili [!DNL API].
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -280,7 +280,7 @@ Un `POST` metodo che consente di mappare un segmento a una destinazione esistent
 
 ### Richiesta di esempio
 
-Nella richiesta, il valore `traitAlias` corrisponde alla chiave in una coppia chiave-valore. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Nella richiesta, la `traitAlias` corrisponde alla chiave in una coppia chiave-valore. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 {
@@ -314,9 +314,9 @@ Nella richiesta, il valore `traitAlias` corrisponde alla chiave in una coppia ch
 }
 ```
 
-## Creare in massa mappature di destinazione {#bulk-create}
+## Creazione in massa di mappature di destinazione {#bulk-create}
 
-Un `POST` metodo che consente di trasmettere un array di mappature [!UICONTROL cookie] o di [!UICONTROL URL] destinazione.
+Metodo `POST` che consente di trasmettere una matrice di mappature di destinazione [!UICONTROL cookie] o [!UICONTROL URL].
 
 <!-- r_bulk_create.xml -->
 
@@ -482,7 +482,7 @@ Restituisce un array di mappature create.
 ]
 ```
 
-## Update a Destination by Destination ID {#update-dest-data-order}
+## Aggiornamento di una destinazione per ID destinazione {#update-dest-data-order}
 
 Metodo `PUT` che consente di aggiornare una destinazione esistente per `destinationId`.
 
@@ -532,9 +532,9 @@ Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 }
 ```
 
-## Aggiornare una mappatura a una destinazione mappando l’ID {#update-mapping-dest-id}
+## Aggiornare una mappatura a una destinazione mappando l&#39;ID {#update-mapping-dest-id}
 
-Metodo `PUT` che consente di aggiornare una mappatura a una destinazione in base al valore specificato `mappingId`.
+Metodo `PUT` che consente di aggiornare una mappatura a una destinazione in base alla `mappingId` specificata.
 
 <!-- r_update_destination_trait_data_order_id.xml -->
 
