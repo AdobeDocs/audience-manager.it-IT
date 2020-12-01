@@ -1,7 +1,7 @@
 ---
-description: L’ambiente beta è destinato a verificare l’implementazione  di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se ti interessa utilizzare l'ambiente Beta, contatta il tuo  Audience Manager Partner Solutions.
+description: L'ambiente Beta serve per testare l'implementazione  Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se sei interessato a utilizzare l'ambiente Beta, contatta il tuo rappresentante  Partner Solutions del Audience Manager.
 keywords: sandbox
-seo-description: L’ambiente beta è destinato a verificare l’implementazione  di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se ti interessa utilizzare l'ambiente Beta, contatta il tuo  Audience Manager Partner Solutions.
+seo-description: L'ambiente Beta serve per testare l'implementazione  Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se sei interessato a utilizzare l'ambiente Beta, contatta il tuo rappresentante  Partner Solutions del Audience Manager.
 seo-title: Ambiente beta
 solution: Audience Manager
 title: Ambiente beta
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # Ambiente beta {#beta-environment}
 
-L’ambiente beta è destinato a verificare l’implementazione  di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se ti interessa utilizzare l&#39;ambiente Beta, contatta il tuo  Audience Manager Partner Solutions.
+L&#39;ambiente Beta serve per testare l&#39;implementazione  Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se sei interessato a utilizzare l&#39;ambiente Beta, contatta il tuo rappresentante  Partner Solutions del Audience Manager.
 
 ## Panoramica
 
@@ -44,14 +44,14 @@ Added re: AAM-30826.
 
 | Servizio | URL/Nome host | Come ottenere l&#39;accesso |
 |--- |--- | --- |
-| S3 | Contatta il tuo rappresentante  Audience Manager Partner Solutions o l&#39;Assistenza clienti | Contatta il tuo  Audience Manager Partner Solutions o l&#39;Assistenza clienti per configurare un bucket Amazon S3 per la tua istanza beta. Scoprite i [vantaggi dell&#39;utilizzo di Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Consultate [Accesso al DCS in ambiente](../reference/beta-environment.md#access-dcs-beta-environment)Beta. |
+| S3 | Contatta il tuo rappresentante  Partner Solutions o l&#39;Assistenza clienti | Contatta il tuo rappresentante  Audience Manager Partner Solutions o l&#39;Assistenza clienti per impostare un periodo fisso  Amazon S3 per la tua istanza beta. Leggi i [vantaggi di utilizzare  Amazon S3](../reference/amazon-s3.md). |
+| DCS | `https://dcs-beta.demdex.net/...` | Vedere [Accesso al DCS in ambiente Beta](../reference/beta-environment.md#access-dcs-beta-environment). |
 | Interfaccia | `https://bank-beta.demdex.com` | Le credenziali dell&#39;ambiente di produzione sono valide per l&#39;ambiente Beta. |
-| API | `https://api-beta.demdex.com/...` | Le credenziali dell&#39;ambiente di produzione sono valide per l&#39;ambiente Beta. Vi consigliamo di creare un utente API generico, [consultate i dettagli](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | Le credenziali dell&#39;ambiente di produzione sono valide per l&#39;ambiente Beta. È consigliabile creare un utente API generico, [vedere i dettagli](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Accesso al DCS in ambiente Beta {#access-dcs-beta-environment}
 
-1. Effettuare una chiamata DCS utilizzando il [comando](https://curl.haxx.se/docs/manpage.html)curl. Curl è uno strumento per trasferire dati da o verso un server, utilizzando uno dei numerosi protocolli supportati.
+1. Effettuare una chiamata DCS utilizzando il curl [command](https://curl.haxx.se/docs/manpage.html). Curl è uno strumento per trasferire dati da o verso un server, utilizzando uno dei numerosi protocolli supportati.
 
    Ad esempio:
 
