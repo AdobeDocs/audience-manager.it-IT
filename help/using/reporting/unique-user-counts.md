@@ -1,9 +1,9 @@
 ---
 description: Descrive la variazione dei totali utente univoci tra i rapporti per la stessa caratteristica e lo stesso periodo di tempo.
-seo-description: Descrive la variazione dei totali utente univoci tra i rapporti per la stessa caratteristica e lo stesso periodo di tempo  Adobe Audience Manager
-seo-title: Conteggio di utenti univoci in sovrapposizione e rapporti generali in AAM
+seo-description: Descrive la variazione dei totali utente univoci tra i rapporti per la stessa caratteristica e lo stesso periodo di tempo in Adobe Audience Manager
+seo-title: Conteggio di utenti univoci in sovrapposizione e report generali in AAM
 solution: Audience Manager
-title: Counting Unique Users in Overlap and General Reports
+title: Conteggio di utenti univoci in sovrapposizione e rapporti generali
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
 feature: reporting reference
 translation-type: tm+mt
@@ -30,7 +30,7 @@ c_unique_user_counts.xml
 I rapporti di sovrapposizione contano gli utenti come univoci quando si qualificano per una caratteristica:
 
 * Durante l&#39;intervallo di tempo selezionato per il report.
-* che ha un valore [time-to-live](../features/traits/segment-ttl-explained.md) più lungo dell&#39;intervallo di tempo selezionato per il report.
+* che ha un valore [time-to-live](../features/traits/segment-ttl-explained.md) maggiore dell&#39;intervallo di tempo selezionato per il report.
 * Se sono considerati attivi nel nostro sistema (vale a dire qualificati per qualsiasi altro tratto, con sincronizzazione ID, ecc.) negli ultimi 60 giorni.
 
 ## Relazione Generale Conteggio utenti univoco
