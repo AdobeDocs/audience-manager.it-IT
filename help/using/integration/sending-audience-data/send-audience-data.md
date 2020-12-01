@@ -1,7 +1,7 @@
 ---
-description: Invia dati di audience da altre origini a  Audience Manager.
-seo-description: Invia dati di audience da altre origini a  Adobe Audience Manager (AAM).
-seo-title: Invio di dati di audience in  Adobe Audience Manager (AAM)
+description: Invia dati di audience da altre origini al Audience Manager .
+seo-description: Inviare dati di audience da altre origini ad Adobe Audience Manager (AAM).
+seo-title: Invio di dati sul pubblico in Adobe Audience Manager (AAM)
 title: Invio di dati sul pubblico
 feature: Inbound Data Transfer
 translation-type: tm+mt
@@ -15,11 +15,11 @@ ht-degree: 32%
 
 # Invio di dati sul pubblico
 
-Invia dati di audience da altre origini a  Audience Manager.
+Invia dati di audience da altre origini al Audience Manager .
 
 * [Integrazione dei dati in entrata in tempo reale](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
-   Informazioni sull&#39;integrazione in tempo reale  Audience Manager.
+   Informazioni sull&#39;integrazione del Audience Manager  in tempo reale.
 
 * [Batch Data Transfer Process Described](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
