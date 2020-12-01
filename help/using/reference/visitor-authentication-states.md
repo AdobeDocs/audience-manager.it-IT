@@ -20,7 +20,7 @@ ht-degree: 5%
 
 Lo stato di autenticazione del visitatore in  Audience Manager determina se le nuove informazioni sulle caratteristiche vengono scritte nel profilo autenticato del visitatore o nel profilo del dispositivo, da cui sono stati raccolti i dati.  Audience Manager gestisce allo stesso modo gli stati di autenticazione dell’ID visitatore UNKNOWN e LOGGED_OUT nelle chiamate dell’evento.
 
-A partire dalla versione 1.5 del servizio [!DNL Experience Cloud] ID, il `setCustomerID` metodo include l’ `AuthState` oggetto facoltativo. `AuthState` identifica i visitatori in base al loro stato [di](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)autenticazione. [!DNL Audience Manager] gestisce le caratteristiche realizzate in modo diverso, a seconda dello stato di autenticazione passato nella chiamata e della regola [di unione dei](../features/profile-merge-rules/merge-rules-dashboard.md) profili utilizzata per la segmentazione.
+A partire da [!DNL Experience Cloud] ID service v1.5+, il metodo `setCustomerID` include l&#39;oggetto `AuthState` facoltativo. `AuthState` identifica i visitatori in base al loro stato [ di ](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)autenticazione. [!DNL Audience Manager] gestisce le caratteristiche realizzate in modo diverso, a seconda dello stato di autenticazione passato nella chiamata e della regola di unione dei  [profili ](../features/profile-merge-rules/merge-rules-dashboard.md) utilizzata per la segmentazione.
 
 ## Stato autenticazione: SCONOSCIUTO {#auth-status-unknown}
 
@@ -28,8 +28,8 @@ A partire dalla versione 1.5 del servizio [!DNL Experience Cloud] ID, il `setCus
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leggere</b> le informazioni dal profilo autenticato </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Scrivere</b> nuove caratteristiche al profilo autenticato </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Informazioni di </b> lettura dal profilo autenticato </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>riten </b> nuove caratteristiche al profilo autenticato </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -48,14 +48,14 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
 
 `https://sample_customer.demdex.net/event?d_cid=123%01sample_id%010&d_sid=123456`
 
-## Stato autenticazione: AUTENTICATO {#auth-status-authenticated}
+## Stato autenticazione: AUTENTICAZIONE {#auth-status-authenticated}
 
 <table id="table_956ABF96024744308F7773E1F96482B7"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leggere</b> le informazioni dal profilo autenticato </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Scrivere</b> nuove caratteristiche al profilo autenticato </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Informazioni di </b> lettura dal profilo autenticato </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>riten </b> nuove caratteristiche al profilo autenticato </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -80,8 +80,8 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Leggere</b> le informazioni dal profilo autenticato </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Scrivere</b> nuove caratteristiche al profilo autenticato </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Informazioni di </b> lettura dal profilo autenticato </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>riten </b> nuove caratteristiche al profilo autenticato </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -102,7 +102,7 @@ Chiamata di esempio (il valore della richiesta corrispondente allo stato di aute
 
 >[!NOTE]
 >
->[!DNL Audience Manager] esegue una sincronizzazione ID tra [CID e UUID](../reference/ids-in-aam.md) in tutti e tre i casi.
+>[!DNL Audience Manager] esegue una sincronizzazione ID tra  [CID e ](../reference/ids-in-aam.md) UUID in tutti e tre i casi.
 
 >[!MORELIKETHIS]
 >
