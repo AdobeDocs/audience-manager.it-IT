@@ -21,7 +21,7 @@ Metodi che consentono di lavorare in modo programmatico con i segmenti.
 
 >[!IMPORTANT]
 >
->I metodi del segmento [!DNL API] sono stati riscritti con [!DNL Swagger] e migrati. Consulta:
+>I metodi [!DNL API] del segmento sono stati riscritti con [!DNL Swagger] e migrati. Consulta:
 >
->* [Adobi Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
+>* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione del codice API di Audience Manager](../../api/api-swagger-migration.md)
