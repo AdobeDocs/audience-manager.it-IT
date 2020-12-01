@@ -1,6 +1,6 @@
 ---
-description: L'opzione Cross Channel Conversion (Conversione tra canali) nei report Audience Optimization (Ottimizzazione dell'audience) consente di attribuire conversioni offline alle impression online o ai clic serviti.
-seo-description: L'opzione Cross Channel Conversion (Conversione tra canali) nei report Audience Optimization (Ottimizzazione dell'audience) consente di attribuire conversioni offline alle impression online o ai clic serviti.
+description: L’opzione Cross Channel Conversion (Conversione tra canali) nei rapporti  Audience Optimization consente di attribuire conversioni offline alle impression online o ai clic serviti.
+seo-description: L’opzione Cross Channel Conversion (Conversione tra canali) nei rapporti  Audience Optimization consente di attribuire conversioni offline alle impression online o ai clic serviti.
 seo-title: Conversione tra canali
 solution: Audience Manager
 title: Conversione tra canali
@@ -17,15 +17,15 @@ ht-degree: 3%
 
 # Conversione tra canali{#cross-channel-conversion}
 
-L&#39;opzione Cross Channel Conversion (Conversione tra canali) nei report Audience Optimization (Ottimizzazione dell&#39;audience) consente di attribuire conversioni offline alle impression online o ai clic serviti.
+L’opzione Cross Channel Conversion (Conversione tra canali) nei rapporti  Audience Optimization consente di attribuire conversioni offline alle impression online o ai clic serviti.
 
-I [!UICONTROL Cross Channel Conversion] report combinano i risultati della [!DNL Google Campaign Manager] piattaforma con le caratteristiche di [!DNL Audience Manager] conversione. Questo consente di collegare le conversioni offline alle impression o ai clic online.
+I report [!UICONTROL Cross Channel Conversion] combinano i risultati della piattaforma [!DNL Google Campaign Manager] con le caratteristiche di conversione [!DNL Audience Manager]. Questo consente di collegare le conversioni offline alle impression o ai clic online.
 
-Puoi utilizzare i rapporti [!UICONTROL Cross Channel Conversion] per prestazioni [](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) segmento e frequenza [](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) ottimale.
+È possibile utilizzare i report [!UICONTROL Cross Channel Conversion] per [Prestazioni segmento](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) e [Frequenza ottimale](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md).
 
-Per visualizzare i [!UICONTROL Cross Channel Conversion] rapporti, selezionate la **[!UICONTROL AAM + Ad Server Name]** voce nell&#39;elenco a **[!UICONTROL Platform]** discesa.
+Per visualizzare i report [!UICONTROL Cross Channel Conversion], selezionare la voce **[!UICONTROL AAM + Ad Server Name]** nell&#39;elenco a discesa **[!UICONTROL Platform]**.
 
-La tabella seguente elenca importanti considerazioni per la configurazione [!UICONTROL Cross Channel Conversion]:
+Nella tabella seguente sono elencate considerazioni importanti per la configurazione di [!UICONTROL Cross Channel Conversion]:
 
 <table id="table_62590B4AB7624B619EC9AA8FF89722C9"> 
  <thead> 
@@ -37,11 +37,11 @@ La tabella seguente elenca importanti considerazioni per la configurazione [!UIC
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Numero minimo di caratteristiche di conversione </p> </td> 
-   <td colname="col1"> <p>Almeno una caratteristica di conversione deve essere assegnata a un'origine dati per l'esecuzione dei report <span class="wintitle"> Cross Channel Conversion</span> . Per ulteriori informazioni sulle caratteristiche, consulta <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Informazioni di base sulle caratteristiche</a> . </p> </td> 
+   <td colname="col1"> <p>Per poter eseguire i report <span class="wintitle"> Cross Channel Conversion</span>, è necessario assegnare almeno una caratteristica di conversione a un'origine dati. Per ulteriori informazioni sulle caratteristiche, vedere <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Informazioni di base sulle caratteristiche</a>. </p> </td> 
   </tr>
   <tr> 
    <td> <p>Finestra Attribuzione </p> </td> 
-   <td> <p> <b><span class="uicontrol"> La finestra di attribuzione di AAM+Google Campaign Manager</span></b> è di 14 giorni, il che significa che vengono considerate solo le caratteristiche di conversione mostrate nelle ultime due settimane. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> La finestra di attribuzione AAM+Google Campaign </span></b> Manager è di 14 giorni, il che significa che vengono considerate solo le caratteristiche di conversione mostrate nelle ultime due settimane. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Metodo dell'ultimo tocco </p> </td> 
@@ -53,7 +53,7 @@ La tabella seguente elenca importanti considerazioni per la configurazione [!UIC
   </tr> 
   <tr> 
    <td> <p>Recency dei dati </p> </td> 
-   <td> <p>I report vengono sempre calcolati per i dati disponibili il giorno precedente. </p> </td> 
+   <td> <p>I rapporti sono sempre calcolati per i dati disponibili il giorno precedente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
