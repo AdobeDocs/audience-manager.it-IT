@@ -17,7 +17,7 @@ ht-degree: 4%
 # Ricerca di segnali per coppie chiave-valore {#search-signals-by-key-value-pairs}
 
 Cercare uno o più segnali, in base alle rispettive coppie chiave-valore.
-Per cercare più di un segnale, fare clic sul pulsante ![Aggiungi](assets/icon_add.png) . Inserite le coppie chiave-valore da cercare, quindi utilizzate i seguenti filtri per restringere i risultati.
+Per cercare più di un segnale, fare clic sul pulsante ![Aggiungi](assets/icon_add.png). Inserite le coppie chiave-valore da cercare, quindi utilizzate i seguenti filtri per restringere i risultati.
 
 * **Stato** del segnale: cercare i segnali inclusi nelle caratteristiche, nei segnali non utilizzati o in entrambi.
 * **Visualizza record per**: selezionare l&#39;intervallo di tempo in cui cercare i segnali ricevuti.
@@ -25,9 +25,9 @@ Per cercare più di un segnale, fare clic sul pulsante ![Aggiungi](assets/icon_a
 
 >[!IMPORTANT]
 >
->Per un&#39;esperienza utente semplificata, i risultati della ricerca con coppie chiave-valore si basano sul campionamento dei dati. Per informazioni dettagliate sull’ [utilizzo del campionamento dei dati, consultate Campionamento dei](/help/using/reporting/report-sampling.md) dati e Frequenza [!DNL Audience Manager] di errore e il motivo per cui possono comparire lievi variazioni di risultati quando si confronta la ricerca chiave-valore con le ricerche generali.
+>Per un&#39;esperienza utente semplificata, i risultati della ricerca con coppie chiave-valore si basano sul campionamento dei dati. Per informazioni dettagliate sull&#39;utilizzo del campionamento dei dati da parte di [Campionamento dei dati e tassi di errore](/help/using/reporting/report-sampling.md), vedere [!DNL Audience Manager] e sulle ragioni per cui possono comparire lievi variazioni di risultati quando si confronta la ricerca chiave-valore con le ricerche generali.
 
-Durante la ricerca di segnali utilizzando più coppie chiave-valore, [!DNL Audience Manager] collega le coppie utilizzando l&#39;operatore logico **AND** . Ad esempio, supponiamo che si stia eseguendo una ricerca con le seguenti coppie chiave-valore:
+Durante la ricerca di segnali che utilizzano più coppie chiave-valore, [!DNL Audience Manager] collega le coppie utilizzando l&#39;operatore logico **AND**. Ad esempio, supponiamo che si stia eseguendo una ricerca con le seguenti coppie chiave-valore:
 
 * [!DNL c_creative == "12345"]
 * [!DNL c_product == "smartphone"]
@@ -37,9 +37,9 @@ Questa ricerca restituisce solo i risultati idonei per tutti e tre i filtri nell
 
 ![](assets/signals-search.png)
 
-## Signals Excluded from Signal Search {#excluded-signals}
+## Segnali esclusi dalla ricerca del segnale {#excluded-signals}
 
-Key variables used by Audience Manager and prefixed by the `d_` and `h_` prefixes are not surfaced by [!UICONTROL Signals Search]. Per informazioni dettagliate, consultate Requisiti [del prefisso per le variabili](../../traits/trait-variable-prefixes.md) chiave.
+Le variabili chiave utilizzate dal Audience Manager  e con il prefisso `d_` e `h_` non vengono visualizzate da [!UICONTROL Signals Search]. Per ulteriori informazioni, vedere [Requisiti del prefisso per le variabili chiave](../../traits/trait-variable-prefixes.md).
 
 ## Insensibilità alle maiuscole e ricerca Completamento automatico {#case-insensitivity}
 
@@ -47,14 +47,14 @@ I campi di ricerca chiave e valore non fanno distinzione tra maiuscole e minusco
 
 ![](assets/signal-search-suggestions.png)
 
-Supponiamo di aver [!DNL Audience Manager] ricevuto i seguenti segnali:
+Supponiamo che [!DNL Audience Manager] abbia ricevuto i seguenti segnali:
 
 * `productCategory == smartphone`
 * `newProduct == iPhone`
 * `PRODUCT == phone`
 * `product == PHONE`
 
-Quando immettete `product` nel campo di ricerca delle chiavi, riceverete suggerimenti `productCategory`, `newProduct`, `PRODUCT`e `product`suggerimenti con completamento automatico.
+Quando si immette `product` nel campo di ricerca chiave, si ricevono suggerimenti automaticamente completati per `productCategory`, `newProduct`, `PRODUCT` e `product`.
 
-Allo stesso modo, quando eseguite una ricerca `product == phone`, [!UICONTROL Data Explorer] restituisce i risultati sia per `PRODUCT == phone` che per `product == PHONE`.
+Allo stesso modo, quando si cerca `product == phone`, [!UICONTROL Data Explorer] restituisce i risultati sia per `PRODUCT == phone` che per `product == PHONE`.
 Le realizzazioni con tratti con backfill non fanno distinzione tra maiuscole e minuscole. Una caratteristica contenente il segnale con la coppia chiave-valore `PRODUCT == SMARTPHONE` qualifica anche il segnale con la coppia chiave-valore `product == smartphone`.
