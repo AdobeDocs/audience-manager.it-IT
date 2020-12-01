@@ -25,7 +25,7 @@ Il rapporto Raggiungi l&#39;utente univoco consente di trovare l&#39;inserzionis
 >
 >Nota bene:
 >
->* Il [!UICONTROL Unique User Reach] rapporto visualizza informazioni solo per gli utenti con livelli di [!UICONTROL Admin] autorizzazione. Il [!DNL Audience Manager] consulente o l&#39;Assistenza clienti possono fornire al tuo account [!UICONTROL Admin] le autorizzazioni necessarie.
+>* Il rapporto [!UICONTROL Unique User Reach] visualizza informazioni solo per gli utenti con livelli di autorizzazione [!UICONTROL Admin]. Il consulente [!DNL Audience Manager] o l&#39;Assistenza clienti possono fornire al tuo account [!UICONTROL Admin] le autorizzazioni.
    >
    >
 * I periodi di lookback di 7 giorni e 30 giorni sono disponibili solo per la domenica.
@@ -33,6 +33,6 @@ Il rapporto Raggiungi l&#39;utente univoco consente di trovare l&#39;inserzionis
 
 ## Report di esempio
 
-Il tuo [!UICONTROL Unique User Reach] rapporto potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti.
+Il report [!UICONTROL Unique User Reach] potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti.
 
 ![](assets/unique-user-reach.png)
