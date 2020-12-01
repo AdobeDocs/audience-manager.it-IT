@@ -21,11 +21,11 @@ ht-degree: 5%
 
 <!-- c_tb_about.xml -->
 
-Rispetto ai pixel, attivati in risposta a semplici condizioni &quot;yes&quot; o &quot;true&quot;, [!UICONTROL Trait Builder] potete effettuare le seguenti operazioni:
+Rispetto ai pixel, attivati in risposta a semplici condizioni &quot;yes&quot; o &quot;true&quot;, [!UICONTROL Trait Builder] consente di:
 
-* Raccogliete *tutti* i dati di pagina in modo da poterlo utilizzare in seguito per creare caratteristiche utili e rilevanti.
-* Crea caratteristiche basate su coppie [chiave-valore](../../reference/key-value-pairs-explained.md) passate durante la raccolta dei dati.
-* Valutare le condizioni dei dati complesse con regole lato server che funzionano con espressioni [](../../reference/boolean-expressions-tsb.md) booleane e operatori [di](../../features/traits/trait-comparison-operators.md)confronto.
+* Raccogliere i dati di pagina *all* in modo da poterli utilizzare successivamente per creare caratteristiche utili e rilevanti.
+* Crea caratteristiche basate su [coppie chiave-valore](../../reference/key-value-pairs-explained.md) passate durante la raccolta di dati.
+* Valutare le condizioni dei dati complessi con regole lato server che funzionano con [espressioni booleane](../../reference/boolean-expressions-tsb.md) e [operatori di confronto](../../features/traits/trait-comparison-operators.md).
 
 * Ridurre o eliminare la necessità di mantenere i pixel di raccolta dati presenti nel magazzino.
-* Monitorare le prestazioni con [!DNL Audience Manager] i report.
+* Monitorare le prestazioni con i report [!DNL Audience Manager].
