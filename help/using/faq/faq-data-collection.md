@@ -44,7 +44,7 @@ Sì, vedi sotto.
 
 | Server | Indirizzi IP |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3 233 68 222 |
 | ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
@@ -60,13 +60,13 @@ I server SFTP indicati di seguito sono obsoleti. Non verrà eseguito il provisio
 
 **Come posso configurare la mia istanza  Audience Manager per l&#39;utilizzo dei nuovi server SFTP?**
 
-Contatta il tuo [!DNL Audience Manager] consulente o l&#39;Assistenza clienti e questi configureranno i tuoi nuovi account SFTP.
+Contatta il tuo [!DNL Audience Manager] consulente o l&#39;Assistenza clienti e configurerà i nuovi account SFTP.
 
  
 
 **Quali sono i metodi di autenticazione supportati per i nuovi server SFTP?**
 
-I nuovi server (`ftp-in-gtw` e `ftp-out-gtw`) SFTP supportano [!DNL OpenSSH Key-Based Authentication]. Possiamo generare le [!DNL SSH] chiavi per voi, o potete fornirci la vostra chiave pubblica.
+I nuovi server SFTP (`ftp-in-gtw` e `ftp-out-gtw`) supportano [!DNL OpenSSH Key-Based Authentication]. Possiamo generare le chiavi [!DNL SSH] per voi, oppure potete fornirci la vostra chiave pubblica.
 
  
 
@@ -153,7 +153,7 @@ Sì, [!DNL Audience Manager] può fornirti i dati raccolti per gli utenti che vi
 
 **[!DNL Google Ad Manager]Desidero raccogliere i dati su un sito ed effettuare il targeting degli utenti tramite su un sito diverso. Devo distribuire codice sull’altra proprietà se non desidero raccogliere i dati da tale posizione?**
 
-No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL lì. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
+No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL lì. Se si dispone dell&#39;accesso all&#39;inventario sul secondo sito tramite [!DNL Google Ad Manager], è possibile utilizzare la raccolta dati dal sito iniziale e dalla destinazione tramite [!DNL Google Ad Manager].
 
 <br> 
 
