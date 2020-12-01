@@ -17,11 +17,11 @@ ht-degree: 8%
 
 # [!DNL FTP]Requisiti di nome e dimensione file per i file di dati in entrata{#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni di file richiesti per l&#39;invio dei dati a [!DNL Audience Manager]. Impostate i nomi e le dimensioni dei file in base alle seguenti specifiche quando inviate i dati a una [!DNL FTP] directory di Audience Manager .
+Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni di file richiesti per l&#39;invio dei dati a [!DNL Audience Manager]. Impostate i nomi e le dimensioni dei file in base alle seguenti specifiche quando inviate i dati a una directory  Audience Manager [!DNL FTP].
 
 >[!WARNING]
 >
->We are gradually phasing out support for [!DNL FTP] configurations. While inbound data file ingestion is still supported in existing [!DNL FTP] integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Per informazioni dettagliate, consulta [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
+>Stiamo gradualmente eliminando il supporto per le configurazioni [!DNL FTP]. Anche se l&#39;assimilazione dei file di dati in entrata è ancora supportata nelle integrazioni [!DNL FTP] esistenti, si consiglia vivamente di utilizzare [!DNL Amazon S3] per integrare i dati offline per le nuove integrazioni. Per informazioni dettagliate, consulta [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
 
 >[!NOTE]
 >
@@ -33,15 +33,15 @@ Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni d
 
 `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-Per altri formati di file accettati, consulta Integrazioni [partner](/help/using/integration/sending-audience-data/custom-partner-integrations.md)personalizzate.
+Per altri formati di file con nome di file accettato, vedere [Integrazioni partner personalizzate](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
 >[!NOTE]
 >
->[!DNL Audience Manager] elabora solo file [!DNL ASCII] e file [!DNL UTF-8] codificati.
+>[!DNL Audience Manager] elabora solo file  [!DNL ASCII] e file  [!DNL UTF-8] codificati.
 
 ### Elementi nome
 
-La tabella definisce gli elementi in un nome di [!DNL FTP] file.
+La tabella definisce gli elementi in un nome di file [!DNL FTP].
 
 <table id="table_1EA97D75004148CE85F702427DB7E97A"> 
  <thead> 
@@ -53,26 +53,26 @@ La tabella definisce gli elementi in un nome di [!DNL FTP] file.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>Percorso e nome della directory FTP del Audience Manager <span class="keyword"></span> . Contatta il tuo Account Manager per conoscere la directory e le credenziali dell'FTP. </p> </td> 
+   <td colname="col2"> <p>Percorso e nome della directory <span class="keyword">  Audience Manager</span> FTP. Contatta il tuo Account Manager per conoscere la directory e le credenziali dell'FTP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Un ID che indica <span class="keyword"> Audience Manager</span> se un file di dati contiene ID utente, ID Android, ID iOS o altri ID che appartengono a origini <a href="/help/using/features/global-data-sources.md"> dati</a>globali. Accetta le seguenti opzioni:</p> 
+   <td colname="col2"> <p>Un ID che indica a <span class="keyword">  Audience Manager</span> se un file di dati contiene gli ID utente, gli ID Android, gli ID iOS o altri ID appartenenti a <a href="/help/using/features/global-data-sources.md"> origini dati globali</a>. Accetta le seguenti opzioni:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID origine dati (noto anche come ID provider dati):</b> Si tratta di un ID univoco che  Audience Manager assegna a un'origine dati (fare riferimento all'indice del Audience Manager  <a href="/help/using/reference/ids-in-aam.md"> degli ID </a>). Utilizzate questo ID assegnato in un nome file per l'invio di dati che contengono i vostri ID utente. Ad esempio, <code>...ftp_dpm_21_123456789.sync</code> indica a <span class="keyword"> Audience Manager</span> i dati di bordo agli ID appartenenti all’origine dati 21. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>ID Android (GAID):</b> Utilizzate ID 20914 in un nome file di dati se contiene ID Android. È necessario utilizzare il campo <code><i>_DPID_TARGET_DATA_OWNER</i></code> quando si utilizzano gli ID Android. Ad esempio, <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Android e gli ID devono essere idonei per le caratteristiche appartenenti all'origine <code><i>_DPID_TARGET_DATA_OWNER</i></code> dati.</li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID iOS (IDFA):</b> Usa l'ID 20915 in un nome file di dati se contiene ID iOS. È necessario utilizzare il campo <code><i>_DPID_TARGET_DATA_OWNER</i></code> quando si utilizzano gli ID iOS. Ad esempio, <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID iOS e gli ID devono essere idonei per le caratteristiche appartenenti all'origine <code><i>_DPID_TARGET_DATA_OWNER</i></code> dati.</li>
-     <li> <b>ID appartenenti ad altre origini</b>dati globali: Potete utilizzare gli ID Roku per la pubblicità (RIDA), gli ID pubblicitari Microsoft (MAID) e altri ID. Utilizzare l'ID corrispondente a ciascuna origine dati, come descritto nell'articolo <a href="/help/using/features/global-data-sources.md"> origini dati</a>globali.</li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID origine dati (noto anche come ID provider dati):</b> si tratta di un ID univoco che  Audience Manager assegna a un'origine dati (fare riferimento all' <a href="/help/using/reference/ids-in-aam.md"> indice  Audience Manager degli ID  </a>). Utilizzate questo ID assegnato in un nome file per l'invio di dati che contengono i vostri ID utente. Ad esempio, <code>...ftp_dpm_21_123456789.sync</code> indica a <span class="keyword">  Audience Manager</span> di includere dati a bordo agli ID appartenenti all'origine dati 21. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>ID Android (GAID):</b> usa ID 2014 in un nome file di dati se contiene ID Android. È necessario utilizzare il campo <code><i>_DPID_TARGET_DATA_OWNER</i></code> quando si utilizzano gli ID Android. Ad esempio, <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> indica a <span class="keyword">  Audience Manager</span> che il file di dati contiene solo ID Android e gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati <code><i>_DPID_TARGET_DATA_OWNER</i></code>.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID iOS (IDFA): </b> utilizzate ID 20915 in un nome file di dati se contiene ID iOS. È necessario utilizzare il campo <code><i>_DPID_TARGET_DATA_OWNER</i></code> quando si utilizzano gli ID iOS. Ad esempio, <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> indica a <span class="keyword">  Audience Manager</span> che il file di dati contiene solo ID iOS e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati <code><i>_DPID_TARGET_DATA_OWNER</i></code>.</li>
+     <li> <b>ID appartenenti ad altre origini</b> dati globali: Potete utilizzare gli ID Roku per la pubblicità (RIDA), gli ID pubblicitari Microsoft (MAID) e altri ID. Utilizzare l'ID corrispondente a ciascuna origine dati, come descritto nell'articolo <a href="/help/using/features/global-data-sources.md"> origini dati globali</a>.</li> 
     </ul> <p> <p>Nota:  Non utilizzare tipi di ID misti nei file di dati. Ad esempio, se il nome file include l'identificatore Android, non inserire gli ID iOS o i tuoi ID nel file di dati. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Questo campo indica  Audience Manager a quale origine dati includere i dati a bordo. Questo campo è obbligatorio se imposti il DPID su un ID Android o iOS o su un altro ID appartenente a origini dati globali. Questo consente <span class="keyword"> Audience Manager</span> di ricollegare i dati del file alla propria organizzazione. </p> <p>Ad esempio: </p> 
+   <td colname="col2"> <p>Questo campo indica  Audience Manager a quale origine dati includere i dati a bordo. Questo campo è obbligatorio se imposti il DPID su un ID Android o iOS o su un altro ID appartenente a origini dati globali. Questo consente a <span class="keyword">  Audience Manager</span> di collegare nuovamente i dati del file all'organizzazione. </p> <p>Ad esempio: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> indica  Audience Manager che gli ID cliente qualificati appartengono all'origine dati 33 per caratteristiche o segnali appartenenti all'origine dati 21. </li> 
-     <li> <b>ID Android (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Android e gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati 21.</li> 
-     <li> <b>ID iOS (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID iOS e gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati 21.</li>
-     <li> <b>ID appartenenti ad altre origini</b>dati globali: <code>...ftp_dpm_121963_21_1234567890.sync</code> indica <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Roku e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati 21. Utilizzare l'ID corrispondente a ciascuna origine dati, come descritto nell'articolo <a href="/help/using/features/global-data-sources.md"> origini dati</a>globali.</li> 
+     <li> <b>ID Android (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> informa  <span class="keyword"> Audience </span> Manager che il file di dati contiene solo ID Android e gli ID devono essere idonei per le caratteristiche appartenenti all’origine dati 21.</li> 
+     <li> <b>ID iOS (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> informa  <span class="keyword"> Audience </span> Manager che il file di dati contiene solo ID iOS e gli ID devono essere idonei per le caratteristiche appartenenti all’origine dati 21.</li>
+     <li> <b>ID appartenenti ad altre origini</b> dati globali:  <code>...ftp_dpm_121963_21_1234567890.sync</code> informa  <span class="keyword"> Audience </span> Manager che il file di dati contiene solo Roku ID e gli ID devono essere idonei per le caratteristiche appartenenti all’origine dati 21. Utilizzare l'ID corrispondente a ciascuna origine dati, come descritto nell'articolo <a href="/help/using/features/global-data-sources.md"> origini dati globali</a>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ La tabella definisce gli elementi in un nome di [!DNL FTP] file.
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Non compresso: 1 GB </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Compresso: 200-300 MB </li> 
-    </ul> <p>Vedere i primi due esempi <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#file-name-examples"></a> di nome file riportati di seguito. </p> </td> 
+    </ul> <p>Vedere i primi 2 <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#file-name-examples"> esempi di nome file</a> sotto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
@@ -105,7 +105,7 @@ La tabella definisce gli elementi in un nome di [!DNL FTP] file.
  </tbody> 
 </table>
 
-## Esempi di nomi file {#file-name-examples}
+## Esempi di nome file {#file-name-examples}
 
 Gli esempi seguenti mostrano nomi di file formattati correttamente. I nomi dei file potrebbero essere simili.
 
@@ -115,11 +115,11 @@ Gli esempi seguenti mostrano nomi di file formattati correttamente. I nomi dei f
  <li> <code> ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-[Scaricate](assets/ftp_dpm_1234_1445374061.overwrite) il file di esempio se avete bisogno di ulteriori esempi. Questo file viene salvato con l&#39;estensione del `.overwrite` file. Aprite l’applicazione con un semplice editor di testo.
+[Scaricate ](assets/ftp_dpm_1234_1445374061.overwrite) il file di esempio se avete bisogno di ulteriori esempi. Questo file viene salvato con l&#39;estensione `.overwrite`. Aprite l’applicazione con un semplice editor di testo.
 
 ## Dimensioni file accettate {#accepted-file-sizes}
 
-Considerare le figure riportate di seguito per l&#39;elaborazione più rapida/rapida dei file e per i limiti di dimensione dei file quando si inviano dati a una [!DNL Audience Manager] / [!DNL FTP] directory.
+Considerare le cifre riportate di seguito per l&#39;elaborazione più rapida/rapida dei file e per i limiti di dimensione dei file quando si inviano dati a una directory [!DNL Audience Manager] / [!DNL FTP].
 
 <table id="table_59FCC63806684DF8BE54A1EAF224A234"> 
  <thead> 
