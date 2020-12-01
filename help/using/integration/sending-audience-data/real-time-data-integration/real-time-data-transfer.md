@@ -17,7 +17,7 @@ ht-degree: 7%
 
 # Acquisizione di dati in entrata in tempo reale {#real-time-inbound-data-ingestion}
 
-Il processo di assimilazione dei dati in entrata in tempo reale utilizza una serie di `HTTP` richieste dal browser di un utente per trasmettere i dati a  Audience Manager.
+Il processo di assimilazione dei dati in entrata in tempo reale utilizza una serie di `HTTP` richieste dal browser di un utente per trasmettere i dati al Audience Manager .
 
 <!-- c_rt_inbound_real_time.xml -->
 
@@ -25,7 +25,7 @@ I dati in entrata devono essere formattati come coppie chiave-valore denominate 
 
 ## Parametri stringa URL e sintassi {#url-string-syntax}
 
-Le variabili [!DNL URL] per il trasferimento di dati in entrata devono contenere le variabili descritte di seguito. Ricordare di [creare caratteristiche](../../../features/traits/create-onboarded-rule-based-traits.md) e una struttura [di](../../../features/traits/trait-storage.md#create-trait-storage-folder) [!DNL Audience Manager] cartelle nell’interfaccia utente prima di configurare i trasferimenti di dati in tempo reale.
+Il [!DNL URL] per un trasferimento dati in entrata deve contenere le variabili descritte di seguito. Ricordare di [creare caratteristiche](../../../features/traits/create-onboarded-rule-based-traits.md) e una [struttura di cartelle](../../../features/traits/trait-storage.md#create-trait-storage-folder) nell&#39;interfaccia [!DNL Audience Manager] prima di impostare trasferimenti di dati in tempo reale.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Le variabili [!DNL URL] per il trasferimento di dati in entrata devono contenere
 
 ### Sintassi URL
 
-Durante un processo di assimilazione dei dati in entrata in tempo reale, una [!DNL URL] stringa formattata correttamente utilizza la sintassi seguente:
+Durante un processo di assimilazione dei dati in entrata in tempo reale, una stringa [!DNL URL] formattata correttamente utilizza la sintassi seguente:
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC
