@@ -7,7 +7,7 @@ title: Gestione delle regole delle caratteristiche
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 1%
@@ -29,13 +29,17 @@ In [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] consente di crear
 
 1. I campi e i controlli di questa sezione consentono di creare segnali da coppie chiave-valore e impostare la relazione tra di essi con un operatore di confronto. Sono necessari una chiave, un operatore e un valore.
 1. [!UICONTROL Data Explorer Options] consente di recuperare le realizzazioni delle caratteristiche per i segnali.
+
    >[!NOTE]
    >
    >Questa opzione è disponibile solo per i clienti [!UICONTROL Data Explorer]. Per informazioni, contattate il consulente  Adobe.
+
 1. Questa sezione mostra una stima delle realizzazioni delle caratteristiche per gli ultimi 7 giorni, per i segnali definiti in [!UICONTROL Expression Builder], per le caratteristiche con backfill e non-back.
+
    >[!NOTE]
    >
    >Questa opzione è disponibile solo per i clienti [!UICONTROL Data Explorer]. Per informazioni, contattate il consulente  Adobe.
+
 1. I campi di prova consentono di convalidare combinazioni di regole di segnale o di [!DNL URL]s che si desidera utilizzare per l&#39;invio di dati a  Audience Manager.
 
 ## Crea una regola di caratteristica {#create-trait-rule}
@@ -47,18 +51,23 @@ Le regole (o espressioni) sono costituite da singoli o gruppi di coppie chiave-v
 Completare i campi richiesti nella sezione **[!UICONTROL Basic Information]** *prima di* creazione delle regole sulle caratteristiche.
 
 1. Espandete la sezione **[!UICONTROL Trait Expression]** e inserite una chiave e un nome di valore. Viene creato un *`signal`*.
+
    >[!NOTE]
    >
    >Includete il prefisso `c_` (o qualsiasi altra convenzione di denominazione) per la variabile chiave se le chiamate dell&#39;evento inviano dati a [!DNL Audience Manager] utilizzando tale sintassi.
+
 1. Selezionare un operatore di confronto [dal menu a discesa **[!UICONTROL Operator]**. ](../../features/traits/trait-comparison-operators.md) L&#39;operatore di confronto valuta la relazione tra gli elementi di un segnale.
+
    >[!NOTE]
    >
    >L&#39;operatore [!DNL Boolean] [!UICONTROL OR] stabilisce il rapporto tra più segnali *all&#39;interno di* un gruppo e non può essere modificato.
+
 1. Clic **[!UICONTROL Add Rule]**. La regola salvata viene visualizzata nell&#39;area di lavoro caratteristiche sopra i campi di immissione dati.
 
 ### Esempio {#example-trait-rule}
 
 Nell&#39;esempio seguente, un utente ha creato una nuova regola per le caratteristiche basata sull&#39;ID prodotto. Per creare questa regola, l&#39;utente ha fornito la chiave `productkey` collegata con un operatore uguale ( `==`) al valore `2093`.
+
 ![](assets/tb_sample_rule1.png)
 
 Facendo clic su **[!UICONTROL Add Rule]** si salva e si sposta la caratteristica nell&#39;area di lavoro [!UICONTROL Expression Builder].
@@ -75,11 +84,14 @@ La caratteristica deve contenere almeno due regole prima di poter creare un nuov
 
 1. Portate il cursore sulla regola da spostare per evidenziarla.
 1. Passate il puntatore del mouse sul bordo della regola evidenziata.
-In questo modo la regola viene separata automaticamente dal gruppo corrente e spostata in un nuovo gruppo.
+
+   In questo modo la regola viene separata automaticamente dal gruppo corrente e spostata in un nuovo gruppo.
+
    >[!NOTE]
    >
    >Se spostate una regola in modo involontario, trascinatela di nuovo nel gruppo originale.
-1. Selezionare un operatore [!DNL Boolean] ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) dal menu a discesa per impostare la relazione tra i gruppi di regole.
+
+1. Selezionare un operatore [!DNL Boolean] ([!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) dal menu a discesa per impostare la relazione tra i gruppi di regole.
 
 ## Sposta regole tra i gruppi {#move-rules-between-groups}
 
