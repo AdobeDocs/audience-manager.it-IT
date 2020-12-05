@@ -1,6 +1,6 @@
 ---
-description: In Generatore di caratteristiche, il Generatore di espressioni consente di creare e testare regole che stabiliscano i requisiti di qualificazione dell'audience. Le regole sono composte da coppie chiave-valore come "color == blue" o "price > 100". Gli operatori di confronto stabiliscono la relazione tra chiavi e valori. Le espressioni booleane determinano la relazione tra i gruppi di regole.
-seo-description: In Generatore di caratteristiche, il Generatore di espressioni consente di creare e testare regole che stabiliscano i requisiti di qualificazione dell'audience. Le regole sono composte da coppie chiave-valore come "color == blue" o "price > 100". Gli operatori di confronto stabiliscono la relazione tra chiavi e valori. Le espressioni booleane determinano la relazione tra i gruppi di regole.
+description: In Generatore di caratteristiche, il Generatore di espressioni consente di creare e testare regole che stabiliscano i requisiti di qualificazione dell'audience. Le regole sono coppie chiave-valore come "color == blue" o "price &gt; 100". Gli operatori di confronto stabiliscono la relazione tra chiavi e valori. Le espressioni booleane determinano la relazione tra i gruppi di regole.
+seo-description: In Generatore di caratteristiche, il Generatore di espressioni consente di creare e testare regole che stabiliscano i requisiti di qualificazione dell'audience. Le regole sono coppie chiave-valore come "color == blue" o "price &gt; 100". Gli operatori di confronto stabiliscono la relazione tra chiavi e valori. Le espressioni booleane determinano la relazione tra i gruppi di regole.
 seo-title: Gestione delle regole delle caratteristiche
 solution: Audience Manager
 title: Gestione delle regole delle caratteristiche
@@ -9,7 +9,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
