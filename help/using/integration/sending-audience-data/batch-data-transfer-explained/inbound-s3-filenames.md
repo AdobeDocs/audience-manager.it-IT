@@ -7,15 +7,15 @@ title: ' requisiti di nome e dimensione file Amazon S3 per i file di dati in ent
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
+source-git-commit: d6856a54c649d701c3163c1408f84aea256ebdc1
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 6%
+source-wordcount: '1051'
+ht-degree: 5%
 
 ---
 
 
-# [!DNL Amazon S3]Requisiti di nome e dimensione file per i file di dati in entrata{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] requisiti di nome e dimensione del file per i file di dati in entrata  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Descrive i campi, la sintassi, le convenzioni di denominazione e le dimensioni di file richiesti per l&#39;invio dei dati a [!DNL Audience Manager]. Impostate i nomi e le dimensioni dei file in base alle seguenti specifiche quando inviate i dati a una directory [!DNL Audience Manager] / [!DNL Amazon S3].
 
@@ -115,7 +115,7 @@ La tabella definisce gli elementi in un nome di file [!DNL S3].
  </tbody> 
 </table>
 
-## Esempi di nome file {#file-name-examples}
+## Esempi di nomi di file {#file-name-examples}
 
 Gli esempi seguenti mostrano nomi di file formattati correttamente. I nomi dei file potrebbero essere simili.
 
@@ -155,9 +155,14 @@ Considerare le cifre riportate di seguito per l&#39;elaborazione più rapida/rap
  </tbody> 
 </table>
 
+
 >[!NOTE]
 >
 >Il processo di convalida dei dati in entrata contrassegnerà i file vuoti come non validi e non li elaborerà.
+
+## Limiti di lunghezza della linea {#line-limits}
+
+I file di dati in entrata hanno un limite di lunghezza di riga di 102400 byte. Sono escluse dal trasferimento le linee che superano tale limite.
 
 >[!MORELIKETHIS]
 >
