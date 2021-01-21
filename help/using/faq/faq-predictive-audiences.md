@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: c2c392b1201b5de08a3f4d58bbb7be5ef31545d0
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 65%
+source-wordcount: '968'
+ht-degree: 60%
 
 ---
 
@@ -113,6 +113,15 @@ Sì. Poiché l’algoritmo viene addestrato su base giornaliera, applica le modi
 Sì, puoi visualizzare tutte le caratteristiche influenti di tutte le linee di base nella pagina di reporting del modello. Consulta [Influential Traits](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits).
 
  
+
+**Posso cambiare il tempo di vita (TTL) per le caratteristiche predittive?**
+
+La caratteristica predittiva TTL è impostata su 0 (durata) e non può essere modificata. [!UICONTROL Predictive Audiences] possono separare gli utenti dai segmenti predittivi solo quando soddisfano i requisiti per il segmento di base o quando vengono riclassificati in un segmento predittivo diverso.
+
+Se necessario, potete aggirare questa funzionalità creando un nuovo segmento che contiene sia una caratteristica predittiva che una caratteristica dell&#39;attività con un TTL specificato.
+
+ 
+
 
 **Cosa succede al modello se modifico uno dei segmenti o caratteristiche della sua linea di base?**
 
