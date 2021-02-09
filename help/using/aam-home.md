@@ -7,10 +7,10 @@ title: Guida ad Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
+source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 97%
+source-wordcount: '652'
+ht-degree: 96%
 
 ---
 
@@ -160,10 +160,8 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
      <br> 
      <p> <b>Funzioni più recenti</b> </p> <p> 
      Scopri le funzioni più recenti di Audience Manager:</p>
-     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Corrispondenza cliente Google per destinazioni basate su persone</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in  Audience Manager per IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Reporting sull’utilizzo delle attività</a></li>
-     <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">Supporto del California Consumer Privacy Act (CCPA) e aggiornamento della documentazione sulla privacy</a></li>
-     <li><a href="/help/using/features/segments/trait-recommendations.md">Raccomandazioni intelligenti per i dati di Audience Marketplace basate su Adobe Sensei</a></li>
-     </ul><p>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md"> migrazione degli utenti Audienci Manager al Admin Console </a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Corrispondenza cliente Google per destinazioni basate su persone</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in  Audience Manager per IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Reporting sull’utilizzo delle attività</a></li>
+     </ul></p>
     </td>
   </tr> 
  </tbody> 
@@ -209,7 +207,7 @@ Read about the latest Audience Manager features:
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/it/support/audience-manager.html" format="https" scope="external"> Informazioni e supporto su Audience Manager</a> </li> 
      </ul> </p> 
      <br> 
-     <p>Consulta anche <a href="https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/documentation-updates/docs-2020.html"> 2020 Documentation Updates</a>. </p> </td>
+     <p>Consulta anche <a href="https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/documentation-updates/docs-2021.html"> 2021 Documentation Updates</a>. </p> </td>
   </tr> 
  </tbody> 
 </table>
