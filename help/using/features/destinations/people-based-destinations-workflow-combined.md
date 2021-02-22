@@ -4,11 +4,11 @@ seo-description: 'Questa pagina include istruzioni dettagliate su come combinare
 seo-title: 'Flusso di lavoro A: personalizzazione basata su tutte le attività online combinate con dati offline'
 solution: Audience Manager
 title: 'Flusso di lavoro A: personalizzazione basata su tutte le attività online combinate con dati offline'
-feature: People-Based Destinations
+feature: Destinazioni basate su persone
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 6e3a06da8149c91a9192b5b3ee582e46fbb1790c
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1181'
 ht-degree: 7%
 
 ---
@@ -86,7 +86,7 @@ Supponiamo che si desideri far corrispondere gli [DPUUID ](../../reference/ids-i
 
  
 
-È possibile collegare fino a 10 indirizzi e-mail con hash a un singolo [DPUUID](../../reference/ids-in-aam.md). A questo scopo, separate gli indirizzi e-mail con hash con una virgola all&#39;interno del file di sincronizzazione.
+È possibile collegare fino a 10 indirizzi e-mail con hash a un singolo [DPUUID](../../reference/ids-in-aam.md). A tal fine, separate gli indirizzi e-mail con hash con un `<TAB>` all&#39;interno del file di sincronizzazione.
 
 Nel nostro esempio, ora ci sono due origini dati.
 
