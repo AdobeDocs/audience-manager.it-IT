@@ -1,17 +1,17 @@
 ---
 description: In Audience Manager, una destinazione è qualsiasi sistema di terze parti (server di annunci, DSP, ad network, ecc.) con cui desideri condividere i dati. Destination Builder è lo strumento che consente di creare e gestire destinazioni da server a server, cookie e URL.
-keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-landing-page-description: A destination is any third-party system, such as ad server or DSP, with which to share data. Use Destination Builder to create and manage cookie, URL, or server-to-server destinations.
+keywords: codice di integrazione, destinazione, panoramica di destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione
+landing-page-description: Per destinazione si intende qualsiasi sistema di terze parti, ad esempio ad server o DSP, con cui condividere i dati. Usa lo strumento Generatore di destinazione per creare e gestire cookie, URL o destinazioni da server a server.
 seo-title: 'Destinazioni '
 solution: Audience Manager
-title: 'Destinazioni '
+title: Destinazioni
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
-feature: Destination Basics
+feature: Nozioni di base sulle destinazioni
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 10%
+source-wordcount: '541'
+ht-degree: 15%
 
 ---
 
