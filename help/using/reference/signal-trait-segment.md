@@ -1,6 +1,6 @@
 ---
 description: Descrive i componenti di un segmento di Audience Manager, le espressioni utilizzate per impostare i criteri di qualificazione del pubblico e il modo in cui i dati vengono trasmessi in una chiamata dell’evento.
-landing-page-description: Describes components of a segment, expressions used to set audience qualification criteria, and how data is transmitted.
+landing-page-description: Descrive i componenti di un segmento, le espressioni utilizzate per impostare i criteri di qualificazione del pubblico e la modalità di trasmissione dei dati.
 seo-title: Segnali, caratteristiche e segmenti
 solution: Audience Manager
 title: Segnali, caratteristiche e segmenti
@@ -9,8 +9,8 @@ feature: reference
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 11%
+source-wordcount: '367'
+ht-degree: 15%
 
 ---
 
