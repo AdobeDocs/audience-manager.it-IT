@@ -9,7 +9,7 @@ feature: API
 translation-type: tm+mt
 source-git-commit: ab8745a8ba24154793201893a39a039b5a098833
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1861'
 ht-degree: 4%
 
 ---
@@ -40,24 +40,24 @@ Tenete presente quanto segue quando lavorate con il codice [ API Audience Manage
 
 [!DNL Audience Manager] [!DNL REST APIs] supporta due metodi di autenticazione.
 
-* [Autenticazione JWT (Service Account) ](#jwt) tramite  [ Adobe I/O](https://www.adobe.io/). [!DNL Adobe I/O] è  Adobe  ecosistema e comunità di sviluppatori. Include gli [ strumenti per sviluppatori Adobe I/O e le API](https://www.adobe.io/apis/experienceplatform.html) e [API per tutti i prodotti  Adobe](https://www.adobe.io/apis.html). Questo è il modo consigliato per configurare e utilizzare [!DNL Adobe] [!DNL APIs].
+* [Autenticazione JWT (Service Account) ](#jwt) tramite  [ Adobe I/O](https://www.adobe.io/). [!DNL Adobe I/O] è  Adobe  ecosistema e comunità di sviluppatori. Include gli [ strumenti per sviluppatori di Adobi I/O e le API](https://www.adobe.io/apis/experienceplatform.html) e [API per tutti i prodotti  Adobe](https://www.adobe.io/apis.html). Questo è il modo consigliato per configurare e utilizzare [!DNL Adobe] [!DNL APIs].
 * [Autenticazione OAuth (obsoleta)](#oauth). Anche se questo metodo è obsoleto, i clienti con integrazioni [!DNL OAuth] esistenti possono continuare a utilizzare questo metodo.
 
 >[!IMPORTANT]
 >
 >A seconda del metodo di autenticazione, è necessario regolare la richiesta [!DNL URLs] di conseguenza. Vedere la sezione [Ambienti](#environments) per informazioni dettagliate sui nomi host da utilizzare.
 
-## [!DNL JWT] ([!DNL Service Account]Autenticazione tramite  Adobe I/O)  {#jwt}
+## [!DNL JWT] ([!DNL Service Account]Autenticazione tramite  Adobe I/O  {#jwt}
 
-###  Adobe I/O Overview {#adobeio}
+### Panoramica  Adobe I/O {#adobeio}
 
-[!DNL Adobe I/O] è  Adobe  ecosistema e comunità di sviluppatori. Include gli [ strumenti per sviluppatori Adobe I/O e le API](https://www.adobe.io/apis/experienceplatform.html) e [API per tutti i prodotti  Adobe](https://www.adobe.io/apis.html).
+[!DNL Adobe I/O] è  Adobe  ecosistema e comunità di sviluppatori. Include gli [ strumenti per sviluppatori di Adobi I/O e le API](https://www.adobe.io/apis/experienceplatform.html) e [API per tutti i prodotti  Adobe](https://www.adobe.io/apis.html).
 
 Questo è il modo consigliato per configurare e utilizzare [!DNL Adobe] [!DNL APIs].
 
 ### Prerequisiti {#prerequisites}
 
-Prima di configurare l&#39;autenticazione [!DNL JWT], assicurarsi di avere accesso alla [ Developer Console](https://console.adobe.io/) del Adobe in [ Adobe I/O](https://www.adobe.io/). Contattate l’amministratore dell’organizzazione per le richieste di accesso.
+Prima di poter configurare l&#39;autenticazione [!DNL JWT], assicurarsi di avere accesso alla [ Developer Console](https://console.adobe.io/) del Adobe in [ Adobe I/O](https://www.adobe.io/). Contattate l’amministratore dell’organizzazione per le richieste di accesso.
 
 ### Autenticazione {#auth}
 
