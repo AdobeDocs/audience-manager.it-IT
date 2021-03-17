@@ -4,10 +4,11 @@ solution: Audience Manager
 title: Esecuzione di chiamate API DCS server-to-server
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
+description: Sintassi di chiamata, esempio e parametri durante l’esecuzione di chiamate API DCS server-to-server
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4dbe9a838470d1fe54538df12605a0e0aa1e0510
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '356'
 ht-degree: 9%
 
 ---
@@ -15,15 +16,15 @@ ht-degree: 9%
 
 # Esecuzione di chiamate API DCS server-to-server {#making-server-to-server-dcs-api-calls}
 
-Le chiamate richiedono il nome host del server DCS regionale e l&#39;ID utente. Se non si dispone degli ID utente e regione richiesti, vedere [Ottenere ID utente e regioni da una risposta DCS](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) e/o [ Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Una volta ricevuti gli ID utente e regione, puoi effettuare chiamate server-to-server al DCS. Fare riferimento a questa sezione per sintassi ed esempi.
+Le chiamate richiedono il nome host del server DCS regionale e l&#39;ID utente. Se non disponi degli ID utente e regione richiesti, consulta [Ottenere ID utente e aree geografiche da una risposta DCS](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) e/o [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Una volta impostati gli ID utente e di regione, puoi effettuare chiamate server-to-server al DCS. Fai riferimento a questa sezione per sintassi ed esempi.
 
 >[!NOTE]
 >
->Nel codice e negli esempi, *italics* rappresenta un segnaposto variabile. Sostituire un valore reale per il segnaposto quando si esegue una chiamata server-to-server al [!DNL DCS].
+>Nel codice e negli esempi, *corsivo* rappresenta un segnaposto variabile. Sostituisci un valore reale per il segnaposto quando effettui chiamate server-to-server a [!DNL DCS].
 
-## Sintassi delle chiamate e esempio {#call-syntax-example}
+## Sintassi delle chiamate ed esempio {#call-syntax-example}
 
-Una richiesta server-to-server di base che invia dati a [!DNL DCS] utilizza la sintassi indicata di seguito.
+Una richiesta di base server-to-server che invia dati a [!DNL DCS] utilizza la sintassi mostrata di seguito.
 
 ```js
 "Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
@@ -49,29 +50,29 @@ Una chiamata di esempio ha un aspetto simile al seguente esempio.
    <td colname="col1"> <p><code> <i>domain alias</i>.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>Questa parte della chiamata contiene: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">L'alias di dominio assegnato da <span class="keyword">  Audience Manager</span> (ad esempio, <i><code> my_domain.demdex.net</code></i>). </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">L'alias di dominio assegnato da <span class="keyword"> Audience Manager</span> (ad esempio, <i><code> my_domain.demdex.net</code></i>). </li> 
       <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Il dominio di destinazione, che è sempre <i><code> demdex.net</code></i>. Consulta <a href="../../../reference/demdex-calls.md">Understanding Calls to the Demdex Domain</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> <i>DCS host name</i>.demdex.net</code> </p> </td> 
-   <td colname="col2"> <p>Il parametro host dell'intestazione http che mostra il nome del server <span class="wintitle"> DCS</span> regionale. Il nome host è associato a un ID di regione, motivo per cui questo è necessario prima di effettuare questi tipi di chiamate. Consulta <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID regioni DCS, posizioni e nomi host</a>. </p> </td> 
+   <td colname="col2"> <p>Il parametro host dell'intestazione http che mostra il nome del server <span class="wintitle"> DCS</span> regionale. Il nome host è associato a un ID di regione. Pertanto, devi farlo prima di effettuare questi tipi di chiamate. Consulta <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID regioni DCS, posizioni e nomi host</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> /event?</code> </p> </td> 
-   <td colname="col2"> <p>Questa parte dell'invito: </p> <p> 
+   <td colname="col2"> <p>Questa parte della chiamata: </p> <p> 
      <ul id="ul_6332444A305A4F12A7CBE471CA508516"> 
-      <li id="li_1C5C111B2B0E4621B3FC0C20D6516041">Identifica la chiamata come chiamata di evento. </li> 
-      <li id="li_DBCE9B1C70604A629ECD7AC0A9052198">Definisce l'inizio della stringa URL che contiene i dati da inviare al DCS. </li> 
+      <li id="li_1C5C111B2B0E4621B3FC0C20D6516041">Identifica la chiamata come chiamata dell'evento. </li> 
+      <li id="li_DBCE9B1C70604A629ECD7AC0A9052198">Definisce l'inizio della stringa URL contenente i dati che desideri inviare al DCS. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_uuid= <i>Audience Manager user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Si tratta della chiave ID utente univoca che contiene il valore dell'ID utente <span class="keyword">  Audience Manager</span> in una coppia chiave-valore. </p> <p>Utilizzare <code><i>d_uuid</i></code> se si passa l'ID utente <span class="keyword">  Audience Manager</span>. </p> </td>
+   <td colname="col2"> <p>Questa è la chiave ID utente univoca che contiene il valore dell' <span class="keyword"> Audience Manager</span> ID utente in una coppia chiave-valore. </p> <p>Utilizza <code><i>d_uuid</i></code> se trasmetti l'ID utente <span class="keyword"> Audience Manager</span> . </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_mid=<i>Experience Cloud user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Si tratta della chiave ID utente univoca che contiene il valore dell'ID utente <span class="keyword">  Experience Cloud</span> in una coppia chiave-valore. Vedi anche <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Ottieni l’ID utente dal cookie del servizio ID</a>. </p> <p>Utilizzate <i><code> d_mid</code></i> se trasmettete un ID <span class="keyword">  Experience Cloud</span> acquisito dal servizio ID <span class="keyword">  Experience Cloud</span>. </p> </td> 
+   <td colname="col2"> <p>Questa è la chiave ID utente univoca che contiene il valore dell' <span class="keyword"> Experience Cloud</span> ID utente in una coppia chiave-valore. Consulta anche <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> Ottieni l'ID utente dal cookie del servizio ID</a>. </p> <p>Utilizza <i><code> d_mid</code></i> se trasmetti un ID <span class="keyword"> Experience Cloud</span> acquisito dal servizio <span class="keyword"> Experience Cloud</span> ID . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -80,11 +81,11 @@ Una chiamata di esempio ha un aspetto simile al seguente esempio.
       <li id="li_4B6B29499D444E31808DE0A9AA0442D0"><code> d_rtbd=json</code> </li> 
       <li id="li_3430CD0438604B83BE6437E6EC480816"><code>d_cb=<i>callback</i></code> </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Parametri di risposta facoltativi. </p> <p> Nessuno di questi è richiesto per inviare dati a <span class="wintitle"> DCS</span>. Tuttavia, se desiderate che il <span class="wintitle"> DCS</span> restituisca una risposta, dovete includere <i><code> d_rtbd=json</code></i> nella richiesta. </p> </td> 
+   <td colname="col2"> <p>Parametri di risposta facoltativi. </p> <p> Nessuno di questi è necessario per inviare dati a <span class="wintitle"> DCS</span>. Tuttavia, se desideri che il <span class="wintitle"> DCS</span> restituisca una risposta, devi includere <i><code> d_rtbd=json</code></i> nella richiesta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Risposta di esempio {#sample-response}
 
-Vedere [Ricevere dati da DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Consulta [Ricevere dati dal DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
