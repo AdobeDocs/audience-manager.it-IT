@@ -7,9 +7,9 @@ title: Requisiti di nome e contenuto per i file di sincronizzazione ID
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Trasferimenti di dati in entrata
 translation-type: tm+mt
-source-git-commit: 02c951f63d8ebeafaf107c4cb9213e9efdb1eafb
+source-git-commit: 67ba527ff8b06ca4f5515ffd1a9114acfabadecb
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ I nomi dei file ID contengono i seguenti elementi obbligatori e facoltativi:
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> L’ID del provider di dati master è l’ID principale degli DPID nel nome file. Inoltre, il primo ID utente nel file di dati corrisponde all’ID principale. Gli DPID successivi sono altri identificatori che appartengono al master. La sincronizzazione mappa gli DPID nel nome del file su UUID nel file . </td> 
+   <td colname="col2"> <p>L’ID del provider di dati master è l’ID principale degli DPID nel nome file. Inoltre, il primo ID utente nel file di dati corrisponde all’ID principale. Gli DPID successivi sono altri identificatori che appartengono al master. La sincronizzazione mappa gli DPID nel nome del file su UUID nel file .</p> <p>Questo DPID deve contenere solo ID dispositivo, come AAM UUID, GAID, IDFA e così via. Non può contenere DPUUID. In questo modo si può verificare una sincronizzazione errata.</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
