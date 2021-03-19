@@ -1,31 +1,31 @@
 ---
-description: Il dashboard Segmenti è un'area di lavoro centralizzata per la gestione delle destinazioni.
-seo-description: Il dashboard Segmenti è un'area di lavoro centralizzata per la gestione delle destinazioni.
+description: Il dashboard Segmenti è un’area di lavoro centralizzata per la gestione delle destinazioni.
+seo-description: Il dashboard Segmenti è un’area di lavoro centralizzata per la gestione delle destinazioni.
 seo-title: Visualizzazione elenco dei segmenti
 solution: Audience Manager
 title: Visualizzazione elenco dei segmenti
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
-feature: Segments
+feature: 'Segmenti '
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 9%
+source-wordcount: '87'
+ht-degree: 11%
 
 ---
 
 
 # Visualizzazione elenco dei segmenti {#segments-list-view}
 
-Il [dashboard Segmenti](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) è un&#39;area di lavoro centralizzata per la gestione dei segmenti di pubblico. Per visualizzare il dashboard [!UICONTROL Segments], passare a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
+L’ [!UICONTROL Segments dashboard] è un’area di lavoro centralizzata per la gestione dei segmenti di pubblico. Per visualizzare il dashboard [!UICONTROL Segments], passa a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
-![segment-dashboard](assets/segments-dashboard.png)
+![dashboard dei segmenti](assets/segments-dashboard.png)
 
 La pagina [!UICONTROL Segments] contiene funzioni e strumenti utili per:
 
 * Creare nuovi segmenti;
 * Modificare ed eliminare segmenti;
-* Duplica (duplica) segmenti esistenti;
+* Clona (duplica) i segmenti esistenti;
 * Visualizzare tutti i segmenti in una tabella con colonne ordinabili;
-* Gestione dell&#39;archiviazione dei segmenti;
-* Cercare segmenti per nome.
+* Gestire lo storage dei segmenti;
+* Cerca segmenti per nome.
