@@ -7,7 +7,7 @@ title: Panoramica di Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: panoramica
 translation-type: tm+mt
-source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 99%
@@ -31,13 +31,9 @@ Le funzioni di una piattaforma di gestione dati (DMP, Data Management Platform) 
 
 Audience Manager raccoglie dati di prime parti da canali e dispositivi (analisi web, gestione delle relazioni con i clienti, dati dispositivo, e-commerce, ecc.).
 
-<br> 
-
 **Creazione di pubblico**
 
 Riunisce i dati in profili di pubblico, offrendoti una visione completa del cliente in tutti i dispositivi e i canali. Crea modelli lookalike, segmenti di pubblico e gruppi di profili e integrali con sorgenti di dati di seconde e terze parti.
-
-<br> 
 
 **Uscita dati**
 
