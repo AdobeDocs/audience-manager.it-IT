@@ -8,9 +8,9 @@ title: Indice degli ID in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: riferimento
 translation-type: tm+mt
-source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
+source-git-commit: 5abb131966e0b27e6c628ff992c4c30b89f65ae9
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '965'
 ht-degree: 5%
 
 ---
@@ -46,7 +46,13 @@ Per comprendere i prefissi utilizzati nei seguenti esempi, consulta [Attributi s
 | [!DNL CID],  [!DNL CID_IC] | [!UICONTROL Customer ID], [!UICONTROL Customer ID Integration Code]. Le coppie chiave-valore [!DNL CID] e [!DNL CID_IC] sostituiscono [!DNL DPID] e [!DNL DPUUID]. Forniscono le stesse funzioni delle [!DNL DPID] e [!DNL DPUUID], ma sono più efficienti perché includono l&#39;ID del provider di dati e l&#39;ID utente (o il codice di integrazione) in un&#39;unica coppia chiave-valore. | Nelle chiamate [!DNL DCS] , questi ID sono preceduti dal prefisso `d_` . <br>Esempio: `d_cid_ic=39217_myIntegrationCode`. | Vedere `DPID` e `DPUUID`. |
 | [!DNL DAID] | [!UICONTROL Device Advertising ID]. Un ID univoco per ogni dispositivo hardware, da utilizzare a scopi pubblicitari. Di solito fornito dal fabbricante del dispositivo o del sistema operativo del dispositivo. | Consulta [ID dispositivo globale](#global-device-ids). |  |
 
-{style=&quot;table-layout:auto&quot;}
+<!--
+
+Commenting out the table style. Fixed layout works better than auto layout for the index of IDs.
+
+{style="table-layout:auto"}
+
+-->
 
 ## [!DNL Global Device IDs] {#global-device-ids}
 
