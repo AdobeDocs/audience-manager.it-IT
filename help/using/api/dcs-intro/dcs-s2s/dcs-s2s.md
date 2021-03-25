@@ -1,15 +1,15 @@
 ---
-description: Le API da server a server (S2S) forniscono codice e metodi che consentono di inviare e ricevere dati utente DCS e di lavorare con tali informazioni nei propri sistemi o applicazioni.
-seo-description: Le API da server a server (S2S) forniscono codice e metodi che consentono di inviare e ricevere dati utente DCS e di lavorare con tali informazioni nei propri sistemi o applicazioni.
+description: Le API server-to-server (S2S) forniscono codice e metodi che consentono di inviare e ricevere dati utente DCS e lavorare con tali informazioni nei propri sistemi o applicazioni.
+seo-description: Le API server-to-server (S2S) forniscono codice e metodi che consentono di inviare e ricevere dati utente DCS e lavorare con tali informazioni nei propri sistemi o applicazioni.
 seo-title: API DCS per trasferimenti di dati server-to-server
 solution: Audience Manager
 title: API DCS per trasferimenti di dati server-to-server
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 feature: DCS
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '332'
 ht-degree: 11%
 
 ---
@@ -17,35 +17,35 @@ ht-degree: 11%
 
 # API DCS per trasferimenti di dati server-to-server{#dcs-apis-for-server-to-server-data-transfers}
 
-Server-to-server ([!UICONTROL S2S]) [!DNL API]s forniscono codice e metodi che consentono di inviare e ricevere [!DNL DCS] dati utente e lavorare con tali informazioni nei propri sistemi o applicazioni.
+Server-to-server ([!UICONTROL S2S]) [!DNL API]forniscono codice e metodi che consentono di inviare e ricevere [!DNL DCS] dati utente e lavorare con tali informazioni nei propri sistemi o applicazioni.
 
-## Casi di utilizzo comuni {#common-use-cases}
+## Casi d&#39;uso comuni {#common-use-cases}
 
-[!UICONTROL Server-to-server] i trasferimenti possono aiutarti a personalizzare le pagine di destinazione o altre interazioni in base agli interessi dei visitatori. Alcuni esempi di utilizzo comuni:
+[!UICONTROL Server-to-server] I trasferimenti possono essere utili per personalizzare le pagine di destinazione o altre interazioni in base agli interessi dei visitatori. Alcuni casi d’uso comuni includono:
 
-* Personalizzazione in loco: Personalizza l&#39;esperienza di un visitatore sul tuo sito aggiungendo in modo dinamico contenuti rilevanti e chiamate all&#39;azione in base ai segmenti a cui appartengono.
-* Miglioramento del servizio clienti: Importa [!DNL Audience Manager] segmenti in un [!DNL CRM] o in un altro sistema tramite un trasferimento di dati da server a server. Questi dati possono fornire servizi di chiamata o operatori chat online con informazioni pertinenti e personalizzate su un cliente.
+* Personalizzazione on-site: Personalizza l’esperienza di un visitatore sul tuo sito aggiungendo in modo dinamico contenuti rilevanti e chiamate all’azione in base ai segmenti a cui appartiene.
+* Migliorare il servizio clienti: Importa i segmenti [!DNL Audience Manager] in un [!DNL CRM] o in un altro sistema tramite un trasferimento di dati da server a server. Questi dati possono fornire servizi di chiamata o chat online con informazioni pertinenti e personalizzate su un cliente.
 
 ## Requisiti: ID utente e nomi server regionali {#requirements}
 
-[!UICONTROL DCS API] richiede ID utente e ID di regione per convalidare ed effettuare richieste di dati.
+Il [!UICONTROL DCS API] richiede gli ID utente e gli ID di regione per convalidare ed effettuare richieste di dati.
 
 * L&#39;ID utente è obbligatorio perché devi associare i dati a un particolare visitatore.
-* L&#39;ID di regione è richiesto per collegare le chiamate al nome di un server e perché i dati dell&#39;utente vengono memorizzati in centri dati geograficamente più vicini ai visitatori del sito.
+* L&#39;ID di regione è necessario per collegare le chiamate al nome di un server e perché i dati utente vengono memorizzati in centri dati geograficamente più vicini ai visitatori del sito.
 
 ## Introduzione {#getting-started}
 
 Attualmente, questa guida descrive come:
 
-* Ottenete gli ID utente e regione dai [!DNL DCS] file che potreste già ricevere come [!DNL Audience Manager] cliente.
+* Ottieni gli ID utente e regione dai file [!DNL DCS] che potresti già ricevere come [!DNL Audience Manager] cliente.
 
-* Ottenete gli ID utente e regione se utilizzate il [!DNL Visitor ID Service].
-* Effettuare chiamate a [!DNL DCS] dopo aver ottenuto l&#39;ID utente e regione.
+* Ottieni gli ID utente e regione se utilizzi [!DNL Visitor ID Service].
+* Effettua chiamate al [!DNL DCS] dopo aver ottenuto l&#39;ID utente e di regione.
 
-Verranno aggiunti nuovi metodi non appena disponibili. Per iniziare, consulta le sezioni seguenti.
+Verranno aggiunti nuovi metodi man mano che diventano disponibili. Per iniziare, consulta le sezioni seguenti .
 
 * [Ottenere ID utente e aree geografiche da una risposta DCS](dcs-aam-ids.md)
-* [Ottieni ID utente e regioni tramite l’ID Experience Cloud ...](dcs-mcid-ids.md)
+* [Ottieni ID utente e aree geografiche tramite l’ID Experience Cloud...](dcs-mcid-ids.md)
 * [Esecuzione di chiamate API DCS server-to-server](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]
