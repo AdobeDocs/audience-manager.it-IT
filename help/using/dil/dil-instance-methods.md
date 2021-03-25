@@ -1,24 +1,24 @@
 ---
-description: Le API DIL a livello di istanza consentono di creare e utilizzare in modo programmatico  oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
-keywords: create traits;create trait
-seo-description: Le API DIL a livello di istanza consentono di creare e utilizzare in modo programmatico  oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
+description: Le API DIL a livello di istanza consentono di creare e utilizzare in modo programmatico oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
+keywords: creare caratteristiche;creare caratteristiche
+seo-description: Le API DIL a livello di istanza consentono di creare e utilizzare in modo programmatico oggetti Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
 seo-title: Metodi DIL a livello di istanza
 solution: Audience Manager
 title: Metodi DIL a livello di istanza
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: DIL Implementation
+feature: Implementazione di DIL
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 15%
+source-wordcount: '1111'
+ht-degree: 14%
 
 ---
 
 
 # Metodi DIL a livello di istanza{#instance-level-dil-methods}
 
-Le API [!UICONTROL DIL] a livello di istanza consentono di creare e utilizzare in modo programmatico oggetti  Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
+Le API a livello di istanza [!UICONTROL DIL] consentono di creare e utilizzare in modo programmatico oggetti di Audience Manager. I metodi a livello di istanza migliorano la funzionalità API stabilita dai metodi a livello di classe.
 
 ## Guida introduttiva ai metodi DIL a livello di istanza {#get-started-dil-methods}
 
@@ -28,10 +28,10 @@ c_api_overview.xml
 
  -->
 
-Quando si lavora con le API a livello di istanza [!UICONTROL DIL]:
+Quando lavori con le API a livello di istanza [!UICONTROL DIL]:
 
-* L&#39;accesso richiede un nome partner e un ID spazio nomi contenitore (NSID). Contattate il vostro responsabile commerciale  Audience Manager per ottenere queste informazioni.
-* Sostituite il testo di esempio *corsivo* nella documentazione API con valore, ID o altra variabile, come richiesto dal metodo utilizzato.
+* L&#39;accesso richiede un nome partner e un ID dello spazio dei nomi del contenitore (NSID). Per ottenere queste informazioni, contatta il tuo account manager di Audience Manager.
+* Sostituisci qualsiasi testo di esempio *corsivo* nella documentazione API con valore, ID o altra variabile, come richiesto dal metodo con cui stai lavorando.
 
 <!-- 
 
@@ -49,12 +49,12 @@ r_dil_signals.xml
 
  -->
 
-**Firma funzione:** `signals: function ({key1:value1, key2:value2},prefix){}`
+**Firma della funzione:** `signals: function ({key1:value1, key2:value2},prefix){}`
 
 >[!NOTE]
 >
->* Potete catena altre chiamate API a questo metodo.
->* Se la libreria Adobe Experience Cloud JavaScript si trova sulla pagina, `submit()` attende che il Cloud imposti un cookie prima di inviare una richiesta.
+>* Puoi catena di altre chiamate API a questo metodo.
+>* Se la libreria JavaScript di Adobe Experience Cloud è sulla pagina, `submit()` attende che il Cloud imposti un cookie prima di inviare una richiesta.
 
 
 **Chiavi richieste riservate**
@@ -73,8 +73,8 @@ Le seguenti chiavi di richiesta sono riservate e non possono essere sovrascritte
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `obj` | Oggetto | Un oggetto che rappresenta le coppie chiave-valore per le mappature a livello di piattaforma. Il parametro accetta stringhe e array come valori di proprietà nell&#39;oggetto. |
-| `prefix` | Stringa | Facoltativo. Il valore della stringa con il prefisso di ogni chiave di oggetto (sostituisce la chiave originale). |
-| `return` | DIL.api | Restituisce l&#39;oggetto API dell&#39;istanza DIL corrente. |
+| `prefix` | Stringa | Facoltativo. Il valore stringa con il prefisso di ogni chiave oggetto (sostituisce la chiave originale). |
+| `return` | DIL.api | Restituisce l&#39;oggetto API dell&#39;istanza di DIL corrente. |
 
 **Risposta**
 
@@ -103,7 +103,7 @@ dataLib.api.signals(obj, 'c_').submit();
 
 ## traits {#traits}
 
-Aggiunge i SID alla stringa di query di una richiesta in sospeso.
+Aggiunge SID alla stringa di query di una richiesta in sospeso.
 
 <!-- 
 
@@ -111,17 +111,17 @@ r_dil_traits.xml
 
  -->
 
-**Firma funzione:** `traits:function (sids){}`
+**Firma della funzione:** `traits:function (sids){}`
 
 >[!NOTE]
 >
->Potete catena altre chiamate API a questo metodo.
+>Puoi catena di altre chiamate API a questo metodo.
 
 **Parametri**
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `sids` | Array | ID segmento caratteristica in un array. |
+| `sids` | Array | ID del segmento di caratteristiche in un array. |
 
 **Risposta**
 
@@ -137,9 +137,9 @@ var partnerObject = DIL.create({
 partnerObject.api.traits(<i>[123, 456, 789]</i>); 
 </code></pre>
 
-## log {#logs}
+## registri {#logs}
 
-Aggiungere dati ai file di registro nella richiesta in sospeso.
+Aggiungi i dati ai file di registro nella richiesta in sospeso.
 
 <!-- 
 
@@ -147,7 +147,7 @@ r_dil_logs.xml
 
  -->
 
-**Firma funzione:** `logs: function {key1:value1, key2:value2}`
+**Firma della funzione:** `logs: function {key1:value1, key2:value2}`
 
 **Risposta**
 
@@ -166,9 +166,9 @@ partnerObject.api.logs({
 });
 </code></pre>
 
-## submit {#submit}
+## invia {#submit}
 
-Invia tutti i dati in sospeso al Audience Manager  per l&#39;istanza [!UICONTROL DIL].
+Invia tutti i dati in sospeso all&#39;Audience Manager per l&#39;istanza [!UICONTROL DIL].
 
 <!-- 
 
@@ -176,11 +176,11 @@ r_dil_submit.xml
 
  -->
 
-**Firma funzione:** `submit: function () {}`
+**Firma della funzione:** `submit: function () {}`
 
 >[!NOTE]
 >
->Potete catena altre chiamate API a questo metodo. Inoltre, [!UICONTROL DIL] scrive dati codificati in un cookie di destinazione. Ad esempio, gli spazi sono codificati come `%20` e i punti e virgola come `%3B`.
+>Puoi catena di altre chiamate API a questo metodo. Inoltre, [!UICONTROL DIL] scrive dati codificati in un cookie di destinazione. Ad esempio, gli spazi vengono codificati come `%20` e i punti e virgola come `%3B`.
 
 **Risposta**
 
@@ -206,7 +206,7 @@ dataLib.api.traits([
 
 ## afterResult {#afterresult}
 
-Funzione che viene eseguita dopo il callback di pubblicazione di destinazione predefinito.
+Funzione che viene eseguita dopo il callback di pubblicazione della destinazione predefinito.
 
 <!-- 
 
@@ -214,17 +214,17 @@ r_dil_after_result.xml
 
  -->
 
-**Firma funzione:** `afterResult: function (fn) {}`
+**Firma della funzione:** `afterResult: function (fn) {}`
 
 >[!NOTE]
 >
->Potete catena altre chiamate API a questo metodo.
+>Puoi catena di altre chiamate API a questo metodo.
 
 **Parametri**
 
 | Nome | Tipo | Descrizione |
 |---|---|---|
-| `fn` | Funzione | La funzione che si desidera eseguire dopo JSON viene elaborata dal callback predefinito che gestisce la pubblicazione delle destinazioni. |
+| `fn` | Funzione | La funzione da eseguire dopo l’elaborazione di JSON viene eseguita dal callback predefinito che gestisce la pubblicazione della destinazione. |
 
 **Risposta**
 
@@ -256,11 +256,11 @@ r_dil_clear_data.xml
 
  -->
 
-**Firma funzione:** `clearData: function () {}`
+**Firma della funzione:** `clearData: function () {}`
 
 >[!NOTE]
 >
->Potete catena altre chiamate API a questo metodo.
+>Puoi catena di altre chiamate API a questo metodo.
 
 **Risposta**
 
@@ -296,11 +296,11 @@ r_dil_custom_query_params.xml
 
  -->
 
-**Firma funzione:** `customQueryParams: function (obj) {}`
+**Firma della funzione:** `customQueryParams: function (obj) {}`
 
 >[!NOTE]
 >
->Potete catena altre chiamate API a questo metodo.
+>Puoi catena di altre chiamate API a questo metodo.
 
 **Chiavi richieste riservate**
 
@@ -315,7 +315,7 @@ Le seguenti chiavi di richiesta sono riservate e non possono essere sovrascritte
 
 **Risposta**
 
-Restituisce l&#39;oggetto API dell&#39;istanza DIL corrente.
+Restituisce l&#39;oggetto API dell&#39;istanza di DIL corrente.
 
 **Codice di esempio**
 
@@ -340,7 +340,7 @@ r_dil_get_container_nsid.xml
 
  -->
 
-**Firma funzione:** `dil.api.getContainerNSID: function () {}`
+**Firma della funzione:** `dil.api.getContainerNSID: function () {}`
 
 **Codice di esempio**
 
@@ -356,7 +356,7 @@ var nsid = dataLib.api.getContainerNSID();
 
 ## getEventLog {#geteventlog}
 
-Restituisce i dati del registro eventi ordinati cronologicamente come un array di stringhe. Utile per il debug e la risoluzione dei problemi.
+Restituisce i dati del registro eventi ordinati cronologicamente come array di stringhe. Utile per il debug e la risoluzione dei problemi.
 
 <!-- 
 
@@ -364,7 +364,7 @@ r_dil_get_event_log.xml
 
  -->
 
-**Firma funzione:** `dil.api.getEventLog: function () {}`
+**Firma della funzione:** `dil.api.getEventLog: function () {}`
 
 **Codice di esempio**
 
@@ -401,7 +401,7 @@ r_dil_get_partner.xml
 
  -->
 
-**Firma funzione:** `dil.api.getPartner: function () {}`
+**Firma della funzione:** `dil.api.getPartner: function () {}`
 
 **Codice di esempio**
 
@@ -425,7 +425,7 @@ r_dil_get_state.xml
 
  -->
 
-**Firma funzione:** `dil.api.getState: function () {}`
+**Firma della funzione:** `dil.api.getState: function () {}`
 
 **Codice di esempio**
 
@@ -487,7 +487,7 @@ state = {
 
 ## idSync {#idsync}
 
-È composta da due funzioni che consentono ai partner di dati di scambiare e sincronizzare gli ID utente tra loro e  Audience Manager.
+È costituito da due funzioni che consentono ai partner dati di scambiare e sincronizzare gli ID utente tra loro e gli Audienci Manager.
 
 <!-- 
 
@@ -495,7 +495,7 @@ r_dil_idsync.xml
 
  -->
 
-**Firma funzione:**
+**Firma della funzione:**
 
 Funziona con le versioni [!UICONTROL DIL] 2.10 e 3.1 o successive.
 
@@ -509,18 +509,18 @@ Funziona con le versioni [!UICONTROL DIL] 2.10 e 3.1 o successive.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Tra partner di dati diversi e Audience Manager . Ad esempio, il partner x lo utilizza per sincronizzare un ID utente con il partner y e inviarlo al Audience Manager . </p> <p> <p><b>Importante: </b>  questo metodo è obsoleto. Utilizzare il metodo <code> idSyncByURL </code> dell'istanza di Adobe Experience Platform Identity Service. </p> </p> </td> 
+   <td colname="col2"> <p>Tra partner dati diversi e Audience Manager. Ad esempio, il partner x lo utilizzerà per sincronizzare un ID utente con il partner y e inviarlo ad Audience Manager. </p> <p> <p><b>Importante:</b>  questo metodo è obsoleto. Utilizza il metodo <code> idSyncByURL </code> dell’istanza del servizio Adobe Experience Platform Identity. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Quando si conosce già l'ID utente e si desidera inviarlo  Audience Manager. </p> <p> <p><b>Importante: </b>  questo metodo è obsoleto. Utilizzare il metodo <code> idSyncByDataSource </code> dell'istanza di Adobe Experience Platform Identity Service. </p> </p> </td> 
+   <td colname="col2"> <p>Se conosci già l’ID utente e vuoi inviarlo ad Audience Manager. </p> <p> <p><b>Importante:</b>  questo metodo è obsoleto. Utilizza il metodo <code> idSyncByDataSource </code> dell’istanza del servizio Adobe Experience Platform Identity. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**idSync Elements**
+**Elementi idSync**
 
-`idSync` può essere costituito dai seguenti elementi:
+`idSync` possono essere costituiti dai seguenti elementi:
 
 <table id="table_5343BE784E694C67B09A0A8878CF8001"> 
  <thead> 
@@ -556,11 +556,11 @@ Funziona con le versioni [!UICONTROL DIL] 2.10 e 3.1 o successive.
 
 **Macro**
 
-`idSync` accetta le macro seguenti:
+`idSync` accetta le seguenti macro:
 
 * **`%TIMESTAMP%`:** genera una marca temporale (in millisecondi). Utilizzato per svuotare la cache.
 * **`%DID%`:** inserisce l&#39;ID di Audience Manager per l&#39;utente.
-* **`%HTTP_PROTO%`:** Imposta il protocollo di pagina (  `http` o  `https`).
+* **`%HTTP_PROTO%`:** Imposta il protocollo della pagina (  `http` o  `https`).
 
 **Risposta**
 
@@ -601,13 +601,13 @@ r_dil_result.xml
 
  -->
 
-**Firma funzione:** `result: function (callback) {}`
+**Firma della funzione:** `result: function (callback) {}`
 
-Questo callback sostituisce il callback predefinito che gestisce la pubblicazione delle destinazioni.
+Questo callback sostituisce il callback predefinito che gestisce la pubblicazione della destinazione.
 
 >[!NOTE]
 >
->Potete catena altre chiamate API a questo metodo.
+>Puoi catena di altre chiamate API a questo metodo.
 
 **Parametri**
 
@@ -634,7 +634,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){
 
 ## secureDataCollection {#securedatacollection}
 
-`secureDataCollection` è un parametro booleano che controlla il modo in cui  [!UICONTROL DIL] effettua le chiamate a  [!UICONTROL Data Collection Servers (DCS)] e Akamai.
+`secureDataCollection` è un parametro booleano che controlla come  [!UICONTROL DIL] effettua chiamate a  [!UICONTROL Data Collection Servers (DCS)] e Akamai.
 
 <!-- 
 
@@ -648,7 +648,7 @@ dil-secure-data-collection.xml
 
 >[!IMPORTANT]
 >
->Impostate `secureDataCollection= false` se utilizzate visitorAPI.js e [!UICONTROL DIL] sulla stessa pagina. Vedi l’esempio di codice riportato di seguito.
+>Imposta `secureDataCollection= false` se utilizzi visitorAPI.js e [!UICONTROL DIL] sulla stessa pagina. Vedi l&#39;esempio di codice seguente.
 
 <pre><code class="js">
 var dilInstance = DIL.create({ 
@@ -659,7 +659,7 @@ var dilInstance = DIL.create({
 
 ## useCORSOnly {#usecorsonly}
 
-`useCORSOnly` è un parametro booleano true/false che controlla come il browser richiede risorse da altri domini.
+`useCORSOnly` è un parametro booleano true/false che controlla in che modo il browser richiede le risorse da altri domini.
 
 <!-- 
 
@@ -669,7 +669,7 @@ dil-use-cors-only.xml
 
 **Panoramica**
 
-`useCORSOnly` è false per impostazione predefinita. False indica che il browser può eseguire controlli delle risorse con CORS o JSONP. Tuttavia, [!UICONTROL DIL] tenta sempre di richiedere le risorse prima con CORS. Se necessario, utilizza JSONP per i browser più datati che non supportano CORS. Se dovete obbligare il browser a utilizzare solo CORS, ad esempio con siti con requisiti di sicurezza elevati, impostate `useCORSOnly:true`.
+`useCORSOnly` è false per impostazione predefinita. False indica che il browser può eseguire verifiche sulle risorse con CORS o JSONP. Tuttavia, [!UICONTROL DIL] cerca sempre di richiedere risorse prima con CORS. Se necessario, utilizza JSONP per i browser più datati che non supportano CORS. Se devi forzare il solo utilizzo di CORS da parte del browser, ad esempio con siti che hanno requisiti di sicurezza elevati, imposta `useCORSOnly:true`.
 
 **Esempio di codice**
 
@@ -683,7 +683,7 @@ var dilInstance = DIL.create({
 >[!IMPORTANT]
 >
 >* È consigliabile impostare `useCORSOnly: true` solo quando si è certi che i visitatori del sito dispongono di browser che supportano questa funzione.
->* Se `useCORSOnly: true`, [!UICONTROL DIL] non effettua chiamate ID da Internet Explorer versione 9 o versioni precedenti.
+>* Quando `useCORSOnly: true`, [!UICONTROL DIL] non effettua chiamate ID da Internet Explorer versione 9 o precedenti.
 
 >
 
@@ -691,7 +691,7 @@ var dilInstance = DIL.create({
 
 ## useImageRequest {#useimagerequest}
 
-Cambia il tipo di richiesta in immagine `<img>` dallo script `<src>`.
+Modifica il tipo di richiesta in immagine `<img>` dallo script `<src>`.
 
 <!-- 
 
@@ -699,11 +699,11 @@ r_dil_use_image_request.xml
 
  -->
 
-**Firma funzione:** `useImageRequest: function () {}`
+**Firma della funzione:** `useImageRequest: function () {}`
 
 >[!NOTE]
 >
->Potete catena altre chiamate API a questo metodo.
+>Puoi catena di altre chiamate API a questo metodo.
 
 **Risposta**
 
@@ -724,8 +724,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Requisiti di denominazione delle variabili chiave](../features/traits/trait-key-name-requirements.md)
 >* [Requisiti di prefisso delle variabili chiave](../features/traits/trait-variable-prefixes.md)
->* [Funzioni di sincronizzazione in Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
+>* [Funzioni di sincronizzazione nel servizio Adobe Experience Platform Identity](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Servizio identità Adobe Experience Platform: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [Supporto CORS in Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+>* [Servizio Adobe Experience Platform Identity: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Supporto per CORS nel servizio Adobe Experience Platform Identity](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
