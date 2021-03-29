@@ -7,9 +7,9 @@ title: Requisiti di nome e contenuto per i file di sincronizzazione ID
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Trasferimenti di dati in entrata
 translation-type: tm+mt
-source-git-commit: de1483763998027c4fc7694223c39dd7a37e87ab
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -130,8 +130,6 @@ Dato il nome e il contenuto del campione, gli ID vengono mappati in questo modo:
 | 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M |
 | 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-{style=&quot;table-layout:auto&quot;}
-
 Passaggio 1: il processo di sincronizzazione ID sincronizza i [!DNL DPUUID]s da [!DNL DPID] 12345 con [!DNL Audience Manager] [!DNL UUID]s nella colonna a sinistra. Il [!DNL DPID] &quot;0&quot; nel nome del file rappresenta [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
@@ -144,8 +142,6 @@ Passaggio 1: il processo di sincronizzazione ID sincronizza i [!DNL DPUUID]s da 
 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM | 4392434426 |
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
-
-{style=&quot;table-layout:auto&quot;}
 
 Passaggio 2: i [!DNL DPUUID]s di [!DNL DPID] 12345 sono stati sincronizzati nel passaggio 1 con l&#39;Audience Manager [!DNL UUID]s. Questa sincronizzazione ID sincronizza i [!DNL DPUUID]s da [!DNL DPID] 67890 con l&#39;Audience Manager [!DNL UUID]s dal passaggio 1.
 
