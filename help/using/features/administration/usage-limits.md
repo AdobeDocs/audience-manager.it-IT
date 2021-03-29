@@ -8,9 +8,9 @@ keywords: Mappatura ID, mappature ID, mappature cookie
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Utilizzo e fatturazione
 translation-type: tm+mt
-source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '585'
 ht-degree: 6%
 
 ---
@@ -45,8 +45,6 @@ Nelle tabelle sono elencati i limiti correnti per tipo di elemento. Non puoi cre
 | Onboarded | 100.000 |
 | Caratteristiche cartella | 2.000 |
 
-{style=&quot;table-layout:auto&quot;}
-
 ### Limiti dei segmenti
 
 | Tipo di segmento | Limite massimo |
@@ -71,9 +69,7 @@ Nelle tabelle sono elencati i limiti correnti per tipo di elemento. Non puoi cre
 | [!UICONTROL Look-Alike Models] dimensione massima del pubblico | 25.000.000.  Tieni presente che questo limite non può essere aumentato. È possibile ridurre le dimensioni del pubblico selezionando meno origini dati per il modello o selezionando un intervallo di look-back più breve. |
 | Numero massimo di caratteristiche escluse per un [!UICONTROL Look-Alike Model] | 500. Consulta [Esclusione delle caratteristiche nella modellazione algoritmica](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Massimo [!UICONTROL Predictive Audiences Models] | 10 |
-| Numero massimo di figure della linea di base per [!UICONTROL Predictive Audiences Models] | 50 |
-
-{style=&quot;table-layout:auto&quot;}
+| Numero massimo di persone della linea di base per [!UICONTROL Predictive Audiences Models] | 50 |
 
 ### Limiti cartella
 
