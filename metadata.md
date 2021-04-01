@@ -1,7 +1,7 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution: Audience Manager
-type: Documentation
+type: Documentazione
 solution-title: Informazioni e supporto
 solution-hub-url: https://helpx.adobe.com/it/support/audience-manager.html
 solution-image: assets/aam-icon-24.png
@@ -12,24 +12,24 @@ tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tut
 git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager.it-IT
 index: y
 translation-type: tm+mt
-source-git-commit: 0d560abc1e51e0e44ec013b7ee133e0de2f4e5d1
+source-git-commit: 8ec80da4ec2110b1475a3872ff4c4f7f17b77870
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 12%
+source-wordcount: '136'
+ht-degree: 13%
 
 ---
 
 
 # Metadati per uso interno
 
-Il file metadata.md include metadati a livello di repo che passano ai file TOC.md della guida utente nella repo. Se desiderate modificare il contenuto metadata.md per qualsiasi guida utente, effettuate questa operazione in qualsiasi file TOC.md.
+Il file metadata.md include metadati a livello di repository che passano ai file TOC.md della guida utente nel repository. Se desideri modificare il contenuto di metadata.md per qualsiasi guida utente, effettua questa operazione in qualsiasi file TOC.md.
 
-| metadata | cosa |
+| metadati | attività |
 |--- |--- |
-| solution-title | Utilizzato nell&#39;intestazione dell&#39;articolo come collegamento |
-| solution-hub-url | Apre la pagina centrale helpx |
+| solution-title | Utilizzato nell’intestazione dell’articolo come collegamento |
+| solution-hub-url | Apre la pagina hub helpx |
 | solution-icon | Visualizza l&#39;icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
-| getting-started | Link alla pagina di guida introduttiva |
-| tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o esercitazioni KT |
-| mini-livelli | Determina il numero di livelli di intestazione visualizzati nella barra a destra. Il valore predefinito è 2 |
-| git-repo | Specifica la posizione del repo principale per uso interno |
+| getting-started-url | Link alla guida introduttiva |
+| tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o KT |
+| mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra a destra. Il valore predefinito è 2 |
+| git-repo | Specifica la posizione del repository principale per uso interno |
