@@ -5,10 +5,11 @@ audience: end-user
 user-guide-title: Guida utente di Audience Manager
 user-guide-description: Audience Manager fornisce servizi leader nel settore per la gestione online di dati sul pubblico.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
+feature-set: Audience Manager
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 9a1604b28f538a4f9595869345b385870419a6c3
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1789'
 ht-degree: 92%
 
 ---
@@ -34,11 +35,11 @@ ht-degree: 92%
          + [Gestione del consenso](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Plug-in di Audience Manager per IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Governance dei dati](overview/data-security-and-privacy/data-governance.md)
-   + [Accessibilità in  Audience Manager](/help/using/overview/accessibility-in-aam.md)
+   + [Accessibilità in Audience Manager](/help/using/overview/accessibility-in-aam.md)
 + Funzioni {#features}
    + [Pubblico di riferimento](features/addressable-audiences.md)
    + Amministrazione {#administration}
-      + [ Migrazione degli utenti Audienci Manager a  Admin Console](features/administration/admin-console-migration.md)
+      + [Audience Manager Migrazione degli utenti ad Admin Console](features/administration/admin-console-migration.md)
       + [Amministrazione](features/administration/administration-overview.md)
       + [Modificare le impostazioni account](features/administration/edit-account-settings.md)
       + [Offuscamento dell’indirizzo IP](features/administration/ip-obfuscation.md)
@@ -146,7 +147,7 @@ ht-degree: 92%
       + [Sintassi di codice utilizzata nell’editor di espressioni di segmenti](features/segments/segment-code-syntax.md)
       + [Dati sulle caratteristiche e sulle popolazioni dei segmenti nel Generatore di segmenti](features/segments/segment-builder-data.md)
       + [Raccomandazioni sulle caratteristiche](features/segments/trait-recommendations.md)
-      + [Riferimenti per la qualifica di caratteristiche e segmenti](features/traits/trait-and-segment-qualification-reference.md)
+      + [Riferimenti per la qualifica di caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + Caratteristiche {#traits}
       + [Panoramica delle caratteristiche](/help/using/features/traits/traits-overview.md)
       + [Pagina dei dettagli delle caratteristiche](features/traits/trait-details-page.md)
@@ -182,7 +183,7 @@ ht-degree: 92%
       + [Rapporti di Audience Optimization](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization per gli inserzionisti {#audience-optimization-advertisers}
          + [Panoramica di Audience Optimization per gli inserzionisti](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Importa file di dati Google Campaign Manager nel Audience Manager ](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Importare file di dati di Google Campaign Manager in Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Rapporto sulle prestazioni dei segmenti](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Rapporto sull’analisi delle tendenze e dei volumi](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [Rapporto di frequenza ottimale](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -191,7 +192,7 @@ ht-degree: 92%
          + [Conversione tra canali](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Ottimizzazione del pubblico per publisher {#audience-optimization-publishers}
          + [Panoramica di Audience Optimization per gli editori](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Importa file di dati Google Ad Manager (già DFP) in  Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Importare file di dati Google Ad Manager (precedentemente DFP) in Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Rapporto sulle prestazioni dei segmenti](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Rapporto sulle tendenze dei segmenti](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [Principali caratteristiche non utilizzate](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -239,7 +240,7 @@ ht-degree: 92%
          + [Panoramica dei riferimenti dell’API DCS](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [Metodi dell’API DCS](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [Codici errore DCS, messaggi ed esempi](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [Monitoraggio e Inserire nell&#39;elenco Bloccati ID](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [Monitoraggio ID e Inserire nell&#39;elenco Bloccati](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [ID dell’area geografica dei DCS, luoghi e nomi host](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Formattazione delle coppie chiave-valore nelle chiamate DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Race condition e gestione degli errori](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
@@ -287,8 +288,8 @@ ht-degree: 92%
 + Guide all’implementazione e all’integrazione {#implementation-integration-guides}
    + [Guide all’implementazione e all’integrazione](integration/implementation-and-integration.md)
    + [Metodi di integrazione dei dati](integration/data-integration-methods.md)
-   + Integrare Google Ad Manager con i tag Google Publisher (GPT){#integrate-dfp-using-gpt}
-      + [Integrazione di Google Ad Manager con GPT Overview](integration/gpt-aam-destination/gpt-aam-overview.md)
+   + Integrare Google Ad Manager utilizzando i tag publisher di Google (GPT){#integrate-dfp-using-gpt}
+      + [Panoramica dell’integrazione di Google Ad Manager tramite GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Invio di segmenti a Google Ad Manager tramite GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Creare una destinazione GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Modificare la chiamata API GPT setTargeting](integration/gpt-aam-destination/gpt-aam-modify-api.md)
@@ -297,7 +298,7 @@ ht-degree: 92%
       + [Integrazione di Facebook WCA](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS come destinazione di Audience Manager](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX come destinazione di Audience Manager](integration/integrating-third-party/openx-destination.md)
-      + [Google Ad Manager (ex DFP) come destinazione  Audience Manager](integration/aam-dfp.md)
+      + [Google Ad Manager (precedentemente DFP) come destinazione Audience Manager](integration/aam-dfp.md)
       + [Inviare segmenti a un elenco per il remarketing di Google AdWords](integration/integrating-third-party/rlsa-integration.md)
    + [Implementazione di Audience Manager](integration/implement-audience-manager.md)
    + Integrazione di dati multimediali {#media-data-integration}
@@ -314,7 +315,7 @@ ht-degree: 92%
          + [Integrazione di OAuth 2.0 per trasferimenti in uscita in tempo reale](integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)
       + Trasferimenti in batch di dati in uscita {#batch-outbound-data-transfers}
          + [Panoramica dei trasferimenti in batch di dati in uscita](integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md)
-         + [Configurare l&#39;integrazione del trasferimento dati batch](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
+         + [Configurare l’integrazione del trasferimento di dati in batch](integration/receiving-audience-data/batch-outbound-transfers/batch-server-configuration.md)
          + [Nome dei file di dati in uscita: sintassi ed esempi](integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md)
          + [File di trasferimento del controllo per trasferimenti di file di registro](integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
          + [Macro sui modelli in uscita](integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
@@ -339,12 +340,12 @@ ht-degree: 92%
          + [Messaggio di esempio ai partner dopo l’elaborazione in entrata](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Integrazioni di partner personalizzate](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integrazione con Adobe Experience Platform {#integration-experience-platform}
-      + [ la condivisione del segmento di Experience Platform con  Audience Manager e altre soluzioni Experience Cloud di ](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Experience Platform di condivisione di segmenti con Audience Manager e altre soluzioni Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integrazione con altre soluzioni Experience Cloud {#integration-other-solutions}
-      + [Integrare  Audience Manager con  Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
+      + [Integrare Audience Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Inoltrare dati da Adobe Analytics ad Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Pubblicare un segmento Adobe Analytics  nel Experience Cloud  (apre  documentazione Adobe Analytics)](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Integrare  Audience Manager con  Adobe Campaign (apre  documentazione Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Pubblicare un segmento di Adobe Analytics nell’Experience Cloud (apre la documentazione di Adobe Analytics)](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Integrare Audience Manager con Adobe Campaign (apre la documentazione di Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Riferimenti {#reference}
    + [Panoramica dei riferimenti](reference/reference.md)
    + [Informazioni su Amazon S3](reference/amazon-s3.md)
