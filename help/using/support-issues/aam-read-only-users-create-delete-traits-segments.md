@@ -1,18 +1,16 @@
 ---
-description: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina dei report di sovrapposizione?
-seo-description: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina dei report di sovrapposizione?
-seo-title: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina dei report di sovrapposizione?
+description: Perché i nostri utenti con accesso in sola lettura sono in grado di creare, modificare o eliminare caratteristiche e segmenti?
 solution: Audience Manager
-title: Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina dei report di sovrapposizione?
-feature: support
+title: Perché i nostri utenti con accesso in sola lettura sono in grado di creare, modificare o eliminare caratteristiche e segmenti?
+feature: supporto
+exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '89'
+ht-degree: 98%
 
 ---
-
 
 # Perché i nostri utenti con accesso in sola lettura sono in grado di creare, modificare o eliminare caratteristiche e segmenti?
 
