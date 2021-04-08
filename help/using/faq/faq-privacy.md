@@ -8,10 +8,10 @@ uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: Governance dei dati e privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
-source-git-commit: 2afb48afad7978b8901e78060c7dccdb2a7bdf7b
+source-git-commit: 04877a4a607457ad1ca179faec680df8118ff965
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 96%
+ht-degree: 83%
 
 ---
 
@@ -56,15 +56,15 @@ Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Server back-end </p> </td> 
-   <td colname="col2"> <p>120 giorni. </p> <p> Audience Manager elimina i dati utente dai server back-end 120 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword">Audience Manager</span> registra l’attività dell’utente durante questo ciclo di 120 giorni, questi dati verranno conservati per altri 120 giorni. </p> </td> 
+   <td colname="col2"> <p>120 giorni </p> <p> Audience Manager elimina i dati utente dai server back-end 120 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l'attività dell'utente durante questo ciclo di 120 giorni, questi dati verranno conservati per altri 120 giorni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Server perimetrali </p> </td> 
-   <td colname="col2"> <p> 14 giorni. </p> <p>Audience Manager elimina i dati utente dai server perimetrali 14 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword">Audience Manager</span> registra l’attività dell’utente durante questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l’utente torna ad essere attivo dopo 14 giorni, si verifica un ritardo tra la prima visualizzazione di una nuova pagina e il momento in cui l’utente diventa actionable. Ci vogliono 6-18 ore per riportare il profilo completo al centro perimetrale dopo più di 14 giorni di inattività. </p> </td> 
+   <td colname="col2"> <p> 14 giorni </p> <p>Audience Manager elimina i dati utente dai server perimetrali 14 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l'attività dell'utente durante questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l’utente torna ad essere attivo dopo 14 giorni, si verifica un ritardo tra la visualizzazione della prima nuova pagina e il momento in cui l’utente diventa actionable. Ci vogliono 6-18 ore per riportare il profilo completo al centro edge dopo più di 14 giorni di inattività. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registri non elaborati </p> </td> 
-   <td colname="col2"> <p>60 giorni (rimossi dopo 60 giorni di assenza di attività). </p> <p>I registri non elaborati sono dati ricevuti da un server perimetrale tramite chiamate HTTP o da file onboarded inviati ad <span class="keyword">Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>60 giorni (rimossi dopo 60 giorni di assenza di attività) </p> <p>I registri non elaborati sono dati ricevuti da un server perimetrale tramite chiamate HTTP o da file onboarded inviati ad <span class="keyword">Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registri di ad Server </p> </td> 
