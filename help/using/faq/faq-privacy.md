@@ -5,15 +5,15 @@ seo-title: Domande frequenti sulla privacy e sulla conservazione dei dati
 solution: Audience Manager
 title: Domande frequenti sulla privacy e sulla conservazione dei dati
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Data Governance and Privacy
+feature: Governance dei dati e privacy
+exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 2afb48afad7978b8901e78060c7dccdb2a7bdf7b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 96%
 
 ---
-
 
 # Domande frequenti sulla privacy e sulla conservazione dei dati {#privacy-and-data-retention-faq}
 
@@ -64,7 +64,7 @@ Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registri non elaborati </p> </td> 
-   <td colname="col2"> <p>180 giorni (rimossi dopo 180 giorni di assenza di attività). </p> <p>I registri non elaborati sono dati ricevuti da un server perimetrale tramite chiamate HTTP o da file onboarded inviati ad <span class="keyword">Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p>60 giorni (rimossi dopo 60 giorni di assenza di attività). </p> <p>I registri non elaborati sono dati ricevuti da un server perimetrale tramite chiamate HTTP o da file onboarded inviati ad <span class="keyword">Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registri di ad Server </p> </td> 
@@ -72,7 +72,7 @@ Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Profili a livello di gestione delle relazioni con i clienti (profili autenticati) </p> </td> 
-   <td colname="col2"> <p>L’intervallo TTL (time-to-live) predefinito per i profili a livello di gestione delle relazioni con i clienti inattivi (ID cliente) è di 24 mesi. Tuttavia, puoi utilizzare l'interfaccia utente del Audience Manager  per ridurre o estendere l'intervallo TTL per i profili a livello CRM inattivi tra un mese e cinque anni. Puoi eseguire questa operazione durante la creazione o la modifica di una sorgente di dati multi-dispositivo.</p> <p>Per ulteriori informazioni, consulta Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Create a Cross-Device Data Source</a>.</p> </td> 
+   <td colname="col2"> <p>L’intervallo TTL (time-to-live) predefinito per i profili a livello di gestione delle relazioni con i clienti inattivi (ID cliente) è di 24 mesi. Tuttavia, puoi utilizzare l’interfaccia utente di Audience Manager per ridurre o estendere l’intervallo TTL per i profili inattivi a livello di gestione delle relazioni con i clienti tra un mese e cinque anni. Puoi eseguire questa operazione durante la creazione o la modifica di una sorgente di dati multi-dispositivo.</p> <p>Per ulteriori informazioni, consulta Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Create a Cross-Device Data Source</a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID di dispositivi mobili </p> </td> 
@@ -119,4 +119,3 @@ Nella tabella seguente sono elencate le opzioni di conservazione per le qualific
   </tr> 
  </tbody> 
 </table>
-
