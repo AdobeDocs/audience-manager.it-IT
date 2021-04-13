@@ -4,17 +4,17 @@ seo-description: Domande frequenti sulla funzione Audience Lab.
 seo-title: Domande frequenti su Audience Lab
 solution: Audience Manager
 title: Domande frequenti su Audience Lab
-topic: DIL API
+topic-edit: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
-feature: Audience Lab
+feature: 'Audience Lab '
+exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '351'
 ht-degree: 98%
 
 ---
-
 
 # Domande frequenti su Audience Lab {#audience-lab-faq}
 
@@ -36,7 +36,7 @@ Sì, i segmenti di test hanno ID segmento diversi. Per le destinazioni con [!UIC
 
 **La stessa caratteristica di conversione può essere associata a più gruppi di test?**
 
-Sì, è permesso. Considera un caso di un test che utilizza un segmento maschile associato alla conversione X e un test che utilizza un segmento femminile associato alla conversione X. Non importa che entrambi i test stanno generando conversioni, poiché stanno testando due tipi di pubblico diversi.
+Sì, questo è permesso. Considera un caso di un test che utilizza un segmento maschile associato alla conversione X e un test che utilizza un segmento femminile associato alla conversione X. Non importa che entrambi i test stanno generando conversioni, poiché stanno testando due tipi di pubblico diversi.
 
 <br> 
 
