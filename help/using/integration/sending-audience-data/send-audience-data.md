@@ -1,29 +1,29 @@
 ---
-description: Invia dati di audience da altre origini al Audience Manager .
-seo-description: Inviare dati di audience da altre origini ad Adobe Audience Manager (AAM).
+description: Invia ad Audience Manager dati di pubblico da altre sorgenti.
+seo-description: Invia dati sul pubblico da altre sorgenti a Adobe Audience Manager (AAM).
 seo-title: Invio di dati sul pubblico in Adobe Audience Manager (AAM)
 title: Invio di dati sul pubblico
-feature: Inbound Data Transfer
+feature: Trasferimenti di dati in entrata
+exl-id: 164a7bef-3cef-4b68-973f-6179149a68ef
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 32%
+source-wordcount: '93'
+ht-degree: 31%
 
 ---
 
-
 # Invio di dati sul pubblico
 
-Invia dati di audience da altre origini al Audience Manager .
+Invia ad Audience Manager dati di pubblico da altre sorgenti.
 
 * [Integrazione dei dati in entrata in tempo reale](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md)
 
-   Informazioni sull&#39;integrazione del Audience Manager  in tempo reale.
+   Informazioni sull’integrazione con Real-Time Audience Manager.
 
 * [Batch Data Transfer Process Described](/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
-   Panoramica generale delle modalità in cui  Audience Manager esegue uno scambio di dati batch asincrono con un fornitore di terze parti.
+   Panoramica generale delle prestazioni di uno scambio di dati batch asincrono con un fornitore di terze parti in Audience Manager.
 
 * [Integrazioni di partner personalizzate](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
 
