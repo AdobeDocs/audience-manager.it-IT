@@ -4,15 +4,15 @@ seo-description: 'Non lo utilizzo, ma visualizzo chiamate Javascript di Audience
 seo-title: 'Non utilizzo Audience Manager, ma visualizzo chiamate Javascript di Audience Manager nel debugger Javascript: perché?'
 solution: Audience Manager
 title: 'Non utilizzo Audience Manager, ma visualizzo chiamate Javascript di Audience Manager nel debugger Javascript: perché?'
-feature: support
+feature: 'Supporto '
+exl-id: f409e326-17b3-40ee-8570-8d99119fe337
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '189'
 ht-degree: 100%
 
 ---
-
 
 # Non sono cliente di Audience Manager, ma visualizzo chiamate Javascript di Audience Manager sul mio sito
 
