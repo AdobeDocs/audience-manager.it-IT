@@ -1,22 +1,22 @@
 ---
-description: Contiene la documentazione tecnica sulle funzionalità del sistema, l'integrazione dei dati e i file della guida.
-seo-description: Contiene la documentazione tecnica sulle funzionalità del sistema, l'integrazione dei dati e i file della guida.
+description: Contiene documentazione tecnica sulle funzionalità di sistema, l’integrazione dei dati e i file dell’Aiuto.
+seo-description: Contiene documentazione tecnica sulle funzionalità di sistema, l’integrazione dei dati e i file dell’Aiuto.
 seo-title: 'Riferimenti '
 solution: Audience Manager
 title: 'Riferimenti '
-feature: reference
+feature: 'Riferimenti '
+exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 32%
+source-wordcount: '65'
+ht-degree: 33%
 
 ---
 
-
 # Riferimenti 
 
-Questa sezione contiene la documentazione tecnica sulle funzionalità del sistema, l&#39;integrazione dei dati e i file della guida. Alcune delle pagine di questa sezione sono:
+Questa sezione contiene la documentazione tecnica sulle funzionalità di sistema, l’integrazione dei dati e i file dell’Aiuto. Alcune delle pagine di questa sezione sono:
 
 * [Strumenti di gestione in blocco](/help/using/reference/bulk-management-tools/bulk-management-intro.md)
 * [Componenti di sistema ](/help/using/reference/system-components/components-overview.md)
