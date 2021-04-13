@@ -5,15 +5,15 @@ seo-title: Considerazioni sul RGPD per le destinazioni
 solution: Audience Manager
 title: Considerazioni sul RGPD per le destinazioni
 uuid: e8a40060-086c-4f03-b48c-9c903acb7891
-feature: data governance & privacy
+feature: Governance dei dati e privacy
+exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 97%
+source-wordcount: '360'
+ht-degree: 96%
 
 ---
-
 
 # Considerazioni sul RGPD per le destinazioni {#gdpr-considerations-for-destinations}
 
@@ -57,7 +57,7 @@ Some partners, as listed in the table below, have changed their integration requ
  </tbody> 
 </table> -->
 
-## Aggiornamento dell&#39;interfaccia utente  Audience Manager - Integrazione Yahoo/Oath/DataX {#ui-update}
+## Aggiornamento dell&#39;interfaccia utente di Audience Manager - Integrazione Yahoo/Oath/DataX {#ui-update}
 
 Oltre agli aggiornamenti al framework IAB sopra menzionati, Yahoo/Oath/DataX ha aggiunto nuovi parametri, **gdpr** e **gdpr_mode**, alle proprie API di tassonomia e pubblico. I parametri informano Yahoo/Oath/DataX di avere i diritti per elaborare un determinato segmento come responsabile del trattamento dei dati o come titolare del trattamento dei dati. Di conseguenza, i clienti Audience Manager che inviano segmenti a una destinazione Yahoo/Oath/DataX devono designare il parametro appropriato (Processor o Controller), in base al loro contratto con Oath.
 
