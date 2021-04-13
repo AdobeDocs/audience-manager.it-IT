@@ -1,23 +1,23 @@
 ---
-description: I rapporti interattivi mostrano le prestazioni e i dati di sovrapposizione per caratteristiche e segmenti. Invece di utilizzare i numeri disposti in colonne e righe, questi rapporti restituiscono i dati utilizzando forme, colori e dimensioni diversi. Inoltre, puoi scegliere punti dati singoli o gruppi e approfondire i risultati del rapporto per maggiori dettagli. Queste tecniche di visualizzazione e l'interattività dei report consentono di comprendere più facilmente grandi quantità di dati numerici.
-seo-description: I rapporti interattivi mostrano le prestazioni e i dati di sovrapposizione per caratteristiche e segmenti. Invece di utilizzare i numeri disposti in colonne e righe, questi rapporti restituiscono i dati utilizzando forme, colori e dimensioni diversi. Inoltre, puoi scegliere punti dati singoli o gruppi e approfondire i risultati del rapporto per maggiori dettagli. Queste tecniche di visualizzazione e l'interattività dei report consentono di comprendere più facilmente grandi quantità di dati numerici.
+description: I rapporti interattivi visualizzano i dati sulle prestazioni e sulla sovrapposizione per caratteristiche e segmenti. Invece di utilizzare i numeri disposti in colonne e righe, questi rapporti restituiscono i dati utilizzando forme, colori e dimensioni diversi. Inoltre, puoi scegliere singoli o gruppi di punti dati ed approfondire i risultati del rapporto per ulteriori dettagli. Queste tecniche di visualizzazione e l’interattività dei rapporti facilitano la comprensione di grandi quantità di dati numerici.
+seo-description: I rapporti interattivi visualizzano i dati sulle prestazioni e sulla sovrapposizione per caratteristiche e segmenti. Invece di utilizzare i numeri disposti in colonne e righe, questi rapporti restituiscono i dati utilizzando forme, colori e dimensioni diversi. Inoltre, puoi scegliere singoli o gruppi di punti dati ed approfondire i risultati del rapporto per ulteriori dettagli. Queste tecniche di visualizzazione e l’interattività dei rapporti facilitano la comprensione di grandi quantità di dati numerici.
 seo-title: Rapporti interattivi e di sovrapposizione
 solution: Audience Manager
 title: Rapporti interattivi e di sovrapposizione
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
-feature: overlap reports
+feature: Rapporti di sovrapposizione
+exl-id: 2a29b172-a323-422d-99e0-b00aa16e03dc
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '254'
 ht-degree: 21%
 
 ---
 
-
 # Rapporti interattivi e di sovrapposizione{#interactive-and-overlap-reports}
 
-I rapporti interattivi mostrano le prestazioni e i dati di sovrapposizione per caratteristiche e segmenti. Invece di utilizzare i numeri disposti in colonne e righe, questi rapporti restituiscono i dati utilizzando forme, colori e dimensioni diversi. Inoltre, puoi scegliere punti dati singoli o gruppi e approfondire i risultati del rapporto per maggiori dettagli. Queste tecniche di visualizzazione e l&#39;interattività dei report consentono di comprendere più facilmente grandi quantità di dati numerici.
+I rapporti interattivi visualizzano i dati sulle prestazioni e sulla sovrapposizione per caratteristiche e segmenti. Invece di utilizzare i numeri disposti in colonne e righe, questi rapporti restituiscono i dati utilizzando forme, colori e dimensioni diversi. Inoltre, puoi scegliere singoli o gruppi di punti dati ed approfondire i risultati del rapporto per ulteriori dettagli. Queste tecniche di visualizzazione e l’interattività dei rapporti facilitano la comprensione di grandi quantità di dati numerici.
 
 + [Tecnologia dei report](interactive-report-technology.md)
 + [Rapporto di sovrapposizione caratteristica-caratteristica](trait-trait-overlap-report.md)
