@@ -1,42 +1,42 @@
 ---
-description: Come opzione, è possibile crittografare i file di dati con crittografia PGP al momento dell'invio al Audience Manager .
-seo-description: Come opzione, è possibile crittografare i file di dati con crittografia PGP al momento dell'invio al Audience Manager .
+description: Come opzione, è possibile crittografare i file di dati con la crittografia PGP quando vengono inviati ad Audience Manager.
+seo-description: Come opzione, è possibile crittografare i file di dati con la crittografia PGP quando vengono inviati ad Audience Manager.
 seo-title: Crittografia PGP dei file per i tipi di dati in entrata
 solution: Audience Manager
 title: Crittografia PGP dei file per i tipi di dati in entrata
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
-feature: Inbound Data Transfers
+feature: Trasferimenti di dati in entrata
+exl-id: 5f97a326-4840-4350-bbe8-bc8ce32b0a2e
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 11%
+source-wordcount: '192'
+ht-degree: 10%
 
 ---
 
-
 # Crittografia PGP dei file per i tipi di dati in entrata{#file-pgp-encryption-for-inbound-data-types}
 
-È possibile crittografare i file di dati con la crittografia [!DNL PGP] durante l&#39;invio al Audience Manager .
+È possibile crittografare i file di dati con la crittografia [!DNL PGP] durante l&#39;invio ad Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->[!DNL PGP] la crittografia include la compressione dei file. Quando si inviano [!DNL PGP] file in entrata crittografati, accertarsi di non [comprimerli](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) utilizzando gzip (`.gz`).
+>[!DNL PGP] La crittografia include la compressione dei file. Quando invii [!DNL PGP] file in entrata crittografati, assicurati di non [comprimerli](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) utilizzando gzip (`.gz`).
 >
->[!DNL PGP] i file in entrata crittografati che vengono  [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) compressi non sono validi in  Audience Manager.
+>[!DNL PGP] anche i file in entrata crittografati  [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) compressi non sono validi nell&#39;Audience Manager.
 
-Seguire i passaggi descritti di seguito per cifrare i file di dati in entrata.
+Segui i passaggi descritti di seguito per crittografare i file di dati in entrata.
 
-1. Scaricate la [chiave pubblica  Audience Manager](./assets/adobe_pgp.pub).
-2. Importa la chiave pubblica nello store affidabile.
+1. Scarica la [chiave pubblica Audience Manager](./assets/adobe_pgp.pub).
+2. Importa la chiave pubblica nell&#39;archivio attendibile.
 
-   Ad esempio, se si utilizza [!DNL GPG], il comando potrebbe essere simile al seguente:
+   Ad esempio, se utilizzi [!DNL GPG], il comando potrebbe essere simile al seguente:
 
    `gpg --import adobe_pgp.pub`
 
-3. Convalidate che la chiave sia stata importata correttamente eseguendo il comando seguente:
+3. Convalida che la chiave sia stata importata correttamente eseguendo il seguente comando:
 
    `gpg --list-keys`
 
@@ -48,7 +48,7 @@ Seguire i passaggi descritti di seguito per cifrare i file di dati in entrata.
    sub   4096R/E3F2A363 2013-11-01
    ```
 
-4. Crittografare i dati in entrata utilizzando il comando seguente:
+4. Crittografa i dati in entrata utilizzando il seguente comando:
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
@@ -56,4 +56,4 @@ Seguire i passaggi descritti di seguito per cifrare i file di dati in entrata.
 
    >[!NOTE]
    >
-   > Audience Manager supporta solo l&#39;algoritmo di crittografia dei dati [!DNL Advanced Encryption Standard (AES)].  Audience Manager supporta qualsiasi dimensione chiave.
+   >Audience Manager supporta solo l&#39;algoritmo di crittografia dei dati [!DNL Advanced Encryption Standard (AES)]. Audience Manager supporta qualsiasi dimensione chiave.
