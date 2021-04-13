@@ -1,34 +1,34 @@
 ---
-description: Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei visitatori durante l’intera campagna, registrando l’attività basata sui clic per i creativi di terze parti.
-seo-description: Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei visitatori durante l’intera campagna, registrando l’attività basata sui clic per i creativi di terze parti.
+description: Il tracciamento dei clic consente di misurare il coinvolgimento dei visitatori durante l’intera campagna, in quanto registra l’attività basata sui clic per i creativi di terze parti.
+seo-description: Il tracciamento dei clic consente di misurare il coinvolgimento dei visitatori durante l’intera campagna, in quanto registra l’attività basata sui clic per i creativi di terze parti.
 seo-title: Acquisizione dei dati di clic delle campagne attraverso chiamate pixel
 solution: Audience Manager
 title: Acquisizione dei dati di clic delle campagne attraverso chiamate pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
-feature: Integration with Campaign
+feature: Integrazione Adobe Campaign
+exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
 translation-type: tm+mt
-source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '689'
 ht-degree: 12%
 
 ---
 
-
 # Acquisizione dei dati di clic delle campagne attraverso chiamate pixel {#capturing-campaign-click-data-via-pixel-calls}
 
-Il monitoraggio dei clic consente di misurare il livello di coinvolgimento dei visitatori durante l’intera campagna, registrando l’attività basata sui clic per i creativi di terze parti. Analogamente all&#39;insieme [impression](/help/using/integration/media-data-integration/impression-data-pixels.md), una chiamata dell&#39;evento viene inviata ai server di raccolta dati [!DNL Audience Manager] ([!DNL DCS]) per l&#39;elaborazione. Il visitatore viene quindi reindirizzato all&#39;indirizzo Web desiderato.
+Il tracciamento dei clic consente di misurare il coinvolgimento dei visitatori durante l’intera campagna, in quanto registra l’attività basata sui clic per i creativi di terze parti. Analogamente all&#39; [insieme impression](/help/using/integration/media-data-integration/impression-data-pixels.md), una chiamata evento viene inviata ai server di raccolta dati [!DNL Audience Manager] ([!DNL DCS]) per l&#39;elaborazione. Il visitatore viene quindi reindirizzato all&#39;indirizzo Web desiderato.
 
 >[!NOTE]
 >
->Contattate il vostro [!DNL Audience Manager] consulente o account lead per conoscere esattamente [!DNL URL] specifico per il dominio client.
+>Contatta il tuo [!DNL Audience Manager] consulente o lead dell&#39;account per sapere esattamente [!DNL URL] specifico per il dominio client.
 
 ## Requisiti
 
 Le chiamate di tracciamento dei clic richiedono i seguenti parametri:
 
-* `d_event=click`: Coppia chiave-valore che identifica una chiamata evento come evento click.
-* `d_rd=redirect URL`: Coppia chiave-valore contenente un reindirizzamento con doppia codifica  [!DNL URL]. Se si utilizza uno strumento di codifica online, eseguire la stringa attraverso il codificatore, quindi codificare di nuovo il risultato, in modo che il reindirizzamento funzioni.
+* `d_event=click`: Una coppia chiave-valore che identifica una chiamata evento come evento click.
+* `d_rd=redirect URL`: Una coppia chiave-valore che contiene un reindirizzamento a doppia codifica  [!DNL URL]. Se utilizzi uno strumento di codifica online, esegui la stringa attraverso il codificatore, quindi codifica di nuovo il risultato, in modo che il reindirizzamento funzioni.
 
 Inoltre, la chiamata può contenere coppie chiave-valore che possono essere utilizzate per la qualifica delle caratteristiche o per fornire dati e metadati per altri rapporti.
 
@@ -40,7 +40,7 @@ https://client.demdex.net/event?d_event=click&d_creative=123&d_rd=http%3A%2F%2Fa
 
 ## Risposta
 
-La risposta reindirizzerà il browser alla [!DNL URL] specificata nel parametro `d_rd`. La stringa di risposta può includere valori generati da una delle macro supportate elencate di seguito.
+La risposta reindirizza il browser al [!DNL URL] specificato nel parametro `d_rd` . La stringa di risposta può includere valori generati da una delle macro supportate elencate di seguito.
 
 In base all&#39;esempio precedente, il browser viene reindirizzato al seguente [!DNL URL]:
 
@@ -48,7 +48,7 @@ In base all&#39;esempio precedente, il browser viene reindirizzato al seguente [
 
 ## Macro supportate
 
-Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macro è una piccola unità di codice standalone che si attiva quando il tag dell&#39;annuncio viene caricato per la campagna e il tracciamento dell&#39;utente. Le macro verranno trasmesse insieme alla destinazione [!DNL URL], purché siano contrassegnate con il seguente formato: `%macro%`. Alcune chiavi non dispongono di macro e accettano un valore ID hardcoded. Le chiavi che accettano valori hardcoded sono necessarie se si desidera analizzare i dati in [ Report Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Gli eventi clic supportano le macro elencate nella tabella seguente. Una macro è una piccola unità di codice indipendente che si attiva quando il tag dell&#39;annuncio viene caricato per la campagna e il tracciamento degli utenti. Le macro verranno trasmesse insieme alla destinazione [!DNL URL], purché siano contrassegnate con il seguente formato: `%macro%`. Alcune chiavi non dispongono di macro e accettano un valore ID hardcoded. Le chiavi che accettano valori hardcoded sono necessarie se si desidera analizzare i dati nei [Rapporti di Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -67,22 +67,22 @@ Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macr
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Nessuna macro. </p> <p>Accetta un valore ID hardcoded. </p> </td> 
-   <td colname="col2"> <p>ID inserzionista.</p> <p>Un codice di integrazione per l'origine dati dell'inserzionista. Questo non è correlato alle origini dati  Audience Manager.</p> <p> Obbligatorio per report <span class="wintitle">  Audience Optimization</span>. </p> </td> 
+   <td colname="col2"> <p>ID inserzionista.</p> <p>Un codice di integrazione per l’origine dati dell’inserzionista. Tieni presente che questo non è correlato alle origini dati di Audience Manager.</p> <p> Obbligatorio per i rapporti <span class="wintitle"> Audience Optimization</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>ID numerico per l'unità aziendale. </p> <p> Obbligatorio per report <span class="wintitle">  Audience Optimization</span>. </p> </td> 
+   <td colname="col2"> <p>ID numerico per la business unit. </p> <p> Obbligatorio per i rapporti <span class="wintitle"> Audience Optimization</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>ID campagna numerica dal server annunci. </p> <p> Obbligatorio per report <span class="wintitle">  Audience Optimization</span>. </p> </td> 
+   <td colname="col2"> <p>ID campagna numerica dal server annunci. </p> <p> Obbligatorio per i rapporti <span class="wintitle"> Audience Optimization</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_creative%</code> </p> </td> 
-   <td colname="col2"> <p>ID creativo numerico dal server annunci. </p> <p>Obbligatorio. </p> </td> 
+   <td colname="col2"> <p>ID creativo numerico dal server di annunci. </p> <p>Obbligatorio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpid</code> </p> </td> 
@@ -97,37 +97,37 @@ Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macr
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). Per ulteriori informazioni sull'ECID, vedere <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e l'ID Experience Cloud </a>. </p> <p>Facoltativo. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). Per ulteriori informazioni sull'ECID, consulta <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e l'ID Experience Cloud</a>. </p> <p>Facoltativo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_placement%</code> </p> </td> 
-   <td colname="col2"> <p>ID posizionamento numerico dal server annunci. </p> <p>Facoltativo. </p> </td> 
+   <td colname="col2"> <p>ID di posizionamento numerico dal server di annunci. </p> <p>Facoltativo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_region</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_region%</code> </p> </td> 
-   <td colname="col2"> <p>L'ID di regione numerica per il cluster DCS che fornisce servizi a una richiesta. Per ulteriori informazioni sul DCS, vedere <a href="../../reference/system-components/components-data-collection.md"> Data Collection Components</a>. </p> <p>Facoltativo. </p> </td> 
+   <td colname="col2"> <p>ID di regione numerica per il cluster DCS che esegue una richiesta. Per ulteriori informazioni sul DCS, consulta <a href="../../reference/system-components/components-data-collection.md"> Componenti di raccolta dati</a>. </p> <p>Facoltativo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> r_rand</code> </p> </td> 
    <td colname="col02"> <p> <code> %r_rand%</code> </p> </td> 
-   <td colname="col2"> <p>Numero casuale utilizzato per l'arresto della cache. </p> <p>Facoltativo. </p> </td> 
+   <td colname="col2"> <p>Numero casuale utilizzato per lo svuotamento della cache. </p> <p>Facoltativo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_site</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_site%</code> </p> </td> 
-   <td colname="col2"> <p>ID sito numerico dal server annunci. </p> <p>Facoltativo. </p> </td> 
+   <td colname="col2"> <p>ID di sito numerico dal server di annunci. </p> <p>Facoltativo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>DPID dell'origine da cui  Audience Manager estrae i metadati. </p> <p>Obbligatorio. </p> </td> 
+   <td colname="col2"> <p>DPID della sorgente da cui Audience Manager richiama i metadati. </p> <p>Obbligatorio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_uuid%</code> </p> </td> 
-   <td colname="col2"> <p>Specificate l'ID del visitatore direttamente nell'URL invece di affidarsi al cookie Demdex. </p> <p>Facoltativo. </p> </td> 
+   <td colname="col2"> <p>Specifica l'ID del visitatore direttamente nell'URL invece di fare affidamento sul cookie demdex. </p> <p>Facoltativo. </p> </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <p> <code>gdpr</code> </p> </td> 
@@ -137,14 +137,14 @@ Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macr
    <tr> 
    <td colname="col1"> <p> <code>gdpr_consent</code> </p> </td> 
    <td colname="col02"> <p> <code>${gdpr_consent_XXXX}</code> </p> </td> 
-   <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p><p> Se <code>gdpr=1</code>, <code>${gdpr_consent_XXXX}</code> viene sostituito dalla stringa <code>gdpr_consent</code> e dall'ID fornitore (vedere <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"> IAB Specification</a>).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p></td> 
+   <td colname="col2"> <p>Correlato al <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">plug-in Audience Manager per IAB TCF.</a></p><p> Se <code>gdpr=1</code>, <code>${gdpr_consent_XXXX}</code> viene sostituito dalla stringa <code>gdpr_consent</code> e dall'ID fornitore (consulta <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"> la specifica IAB</a>).</p> <p>Il valore predefinito è 0.</p><p>Facoltativo.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Esempio di macro
 
-Questo esempio illustra come passare le macro creative, adgroup e placement. Presuppone che i valori di ciascun parametro vengano passati nella parte non di reindirizzamento della chiamata di tracciamento dei clic.
+Questo esempio illustra come passare le macro creative, di adgroup e di posizionamento. Presuppone che i valori di ciascun parametro vengano passati nella parte non di reindirizzamento della chiamata di tracciamento dei clic.
 
 <ul class="simplelist"> 
  <li> <code> creative=1235 </code> </li> 
@@ -169,10 +169,10 @@ In base all&#39;esempio precedente, il browser viene reindirizzato al seguente [
 
 ## Funzionalità aggiuntive - [!UICONTROL Audience Optimization Reports]
 
-È possibile utilizzare chiamate in pixel per attivare i report di Audience Optimization [](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Consultate [Panoramica e mappature per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) se desiderate utilizzare i pixel per alimentare i rapporti.
+È possibile utilizzare le chiamate pixel per alimentare i [report di Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Per abilitare i rapporti, consulta [Panoramica e mappature per i file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) .
 
 
 >[!MORELIKETHIS]
 >
->* [File di dati e metadati per i rapporti  Audience Optimization](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [File di dati e metadati per rapporti di Audience Optimization](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
