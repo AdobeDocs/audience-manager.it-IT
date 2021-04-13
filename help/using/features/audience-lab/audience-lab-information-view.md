@@ -1,40 +1,40 @@
 ---
-description: In questa sezione sono visualizzate informazioni generali sul gruppo di test e sui segmenti di test in cui è diviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
-seo-description: In questa sezione sono visualizzate informazioni generali sul gruppo di test e sui segmenti di test in cui è diviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
+description: In questa sezione vengono visualizzate informazioni generali sul gruppo di test e sui segmenti di test in cui è suddiviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
+seo-description: In questa sezione vengono visualizzate informazioni generali sul gruppo di test e sui segmenti di test in cui è suddiviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
 seo-title: Informazioni sui gruppi di test
 solution: Audience Manager
 title: Informazioni sui gruppi di test
-topic: DIL API
+topic-edit: DIL API
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
-feature: Audience Lab
+feature: 'Audience Lab '
+exl-id: fb691c12-304d-4331-a395-a9005efa8bb0
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 3%
+source-wordcount: '266'
+ht-degree: 4%
 
 ---
 
-
 # Informazioni sui gruppi di test {#test-group-information}
 
-In questa sezione sono visualizzate informazioni generali sul gruppo di test e sui segmenti di test in cui è diviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
+In questa sezione vengono visualizzate informazioni generali sul gruppo di test e sui segmenti di test in cui è suddiviso, sulle caratteristiche di conversione selezionate e sulle destinazioni mappate. La sezione fornisce inoltre i controlli per duplicare o eliminare il gruppo di test.
 
-Potete inoltre visualizzare informazioni sul segmento della linea di base utilizzato per il gruppo di test e sulla modalità di divisione dei segmenti di test.
+Puoi anche visualizzare informazioni sul segmento della linea di base utilizzato per il gruppo di test e sulla modalità di suddivisione dei segmenti di test.
 
-Le **[!UICONTROL Test Segments]** vengono inserite in modo casuale con gli utenti del segmento della linea di base utilizzato per il gruppo di test. La panoramica mostra le percentuali di utenti assegnate a ciascun segmento di test.
+Le **[!UICONTROL Test Segments]** vengono popolate in modo casuale con gli utenti del segmento della linea di base utilizzato per il gruppo di test. La panoramica mostra le percentuali di utenti assegnate a ciascun segmento di test.
 
-La **[!UICONTROL Conversion Traits]** guida il reporting per i gruppi di test. Per designare una caratteristica come conversione, durante la creazione o la modifica di caratteristiche in [!UICONTROL Trait Builder], selezionare **Conversion** come **[Event Type](../../features/traits/create-onboarded-rule-based-traits.md).**
+Il **[!UICONTROL Conversion Traits]** determina la generazione di rapporti per i gruppi di test. Per designare una caratteristica come conversione, quando crei o modifichi le caratteristiche in [!UICONTROL Trait Builder], seleziona **Conversione** come **[Tipo evento](../../features/traits/create-onboarded-rule-based-traits.md).**
 
-La scheda **[!UICONTROL Destinations]** è comprimibile. Premere le frecce per aprire o chiudere singole destinazioni e ottenere le seguenti informazioni per i segmenti di test, raggruppate per le destinazioni a cui sono mappate:
+La scheda **[!UICONTROL Destinations]** è comprimibile. Premi le frecce per aprire o chiudere le singole destinazioni e ottieni le seguenti informazioni per i segmenti di test, raggruppati in base alle destinazioni a cui sono mappati:
 
 * il numero di dispositivi dalla popolazione totale del segmento di base allocata a ciascuna destinazione.
 * chiave di mappatura;
 * valore di mappatura;
-* [!DNL URL] e sicuro  [!DNL URL] per  [!DNL URL] le destinazioni.
+* [!DNL URL] e  [!DNL URL] per  [!DNL URL] le destinazioni.
 
 >[!NOTE]
 >
->Tenete presente che non potete modificare i gruppi di test dopo averli completati e che potete solo metterli in pausa, eliminarli o duplicarli.
+>Ricorda che non è possibile modificare i gruppi di test dopo averli finalizzati, è possibile solo metterli in pausa, eliminarli o duplicarli.
 
 ![](assets/test-groups-information.PNG)
