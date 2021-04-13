@@ -5,15 +5,15 @@ seo-title: Componenti di Tag Management
 solution: Audience Manager
 title: Componenti di Tag Management
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: componenti di sistema
+feature: 'Componenti di sistema '
+exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
-
 
 # Componenti di Tag Management{#tag-management-components}
 
@@ -56,4 +56,3 @@ Database di controllo:
 * Elabora l’input del client dal portale (ad esempio, creazione di caratteristiche e destinazioni).
 * Trasmette i dati ad Akamai, che include i dati utilizzati per creare il modello di contenitore e la destinazione per la pubblicazione dell’iFrame.
 * Restituisce i dati per i sistemi di reporting dell’interfaccia utente.
-
