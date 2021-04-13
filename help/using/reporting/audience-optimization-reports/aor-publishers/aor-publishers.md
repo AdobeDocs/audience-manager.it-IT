@@ -1,35 +1,35 @@
 ---
-description: Con l’ottimizzazione del pubblico per gli editori, i publisher possono individuare potenziali opportunità prestazionali per segmenti Audience Manager sui contenuti che possiedono o gestiscono. Questi rapporti combinano dati sulle prestazioni delle campagne a livello di registro con metriche  Audience Manager per informare l'audience sulle ottimizzazioni e sulle opportunità di monetizzazione.
-seo-description: Con l’ottimizzazione del pubblico per gli editori, i publisher possono individuare potenziali opportunità prestazionali per segmenti Audience Manager sui contenuti che possiedono o gestiscono. Questi rapporti combinano dati sulle prestazioni delle campagne a livello di registro con metriche  Audience Manager per informare l'audience sulle ottimizzazioni e sulle opportunità di monetizzazione.
+description: Con l’ottimizzazione del pubblico per gli editori, i publisher possono individuare potenziali opportunità prestazionali per segmenti Audience Manager sui contenuti che possiedono o gestiscono. Questi rapporti combinano dati sulle prestazioni delle campagne a livello di registro con metriche di Audience Manager per informare le opportunità di monetizzazione e di ottimizzazione del pubblico.
+seo-description: Con l’ottimizzazione del pubblico per gli editori, i publisher possono individuare potenziali opportunità prestazionali per segmenti Audience Manager sui contenuti che possiedono o gestiscono. Questi rapporti combinano dati sulle prestazioni delle campagne a livello di registro con metriche di Audience Manager per informare le opportunità di monetizzazione e di ottimizzazione del pubblico.
 seo-title: Ottimizzazione del pubblico per publisher
 solution: Audience Manager
 title: Ottimizzazione del pubblico per publisher
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
-feature: audience optimization reports
+feature: Rapporti di Audience Optimization
+exl-id: 5972ea89-3e4d-48a5-bdd2-0a34211d8bfd
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 35%
+source-wordcount: '277'
+ht-degree: 36%
 
 ---
 
-
 # Ottimizzazione del pubblico per publisher{#audience-optimization-for-publishers}
 
-Con l’ottimizzazione del pubblico per gli editori, i publisher possono individuare potenziali opportunità prestazionali per segmenti Audience Manager sui contenuti che possiedono o gestiscono. Questi rapporti combinano dati sulle prestazioni delle campagne a livello di registro con metriche  Audience Manager per informare l&#39;audience sulle ottimizzazioni e sulle opportunità di monetizzazione.
+Con l’ottimizzazione del pubblico per gli editori, i publisher possono individuare potenziali opportunità prestazionali per segmenti Audience Manager sui contenuti che possiedono o gestiscono. Questi rapporti combinano dati sulle prestazioni delle campagne a livello di registro con metriche di Audience Manager per informare le opportunità di monetizzazione e di ottimizzazione del pubblico.
 
 ## Panoramica {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] combina i dati sulle prestazioni delle campagne a livello di registro  [!DNL Google Ad Manager] con le metriche dei  [!DNL Audience Manager] segmenti. I rapporti sono disponibili per i clienti che hanno impostato l&#39;inserimento del registro da [!DNL Google Ad Manager]a [!DNL Audience Manager]. Se non hai ancora configurato l&#39;inserimento del registro, leggi [Importa file di dati Google Ad Manager in  Audience Manager](import-dfp.md) per informazioni su come farlo.
+[!UICONTROL Audience Optimization for Publishers] sovrappone i dati sulle prestazioni delle campagne a livello di registro  [!DNL Google Ad Manager] con le metriche dei  [!DNL Audience Manager] segmenti. I rapporti sono disponibili per i clienti che hanno impostato l’acquisizione del registro da [!DNL Google Ad Manager]a [!DNL Audience Manager]. Se non hai ancora configurato l&#39;acquisizione dei dati di log, leggi [Import Google Ad Manager Data Files In Audience Manager](import-dfp.md) per informazioni su come farlo.
 
 ## Metadati {#metadata}
 
-Le informazioni sulle prestazioni visualizzate nei report vengono importate dall&#39;istanza [!DNL Google Ad Manager]. Devi inviarci dei file di metadati in modo da poter aggiungere nomi descrittivi e descrittivi agli elementi nei rapporti, invece che agli ID. Il passaggio 3 in [Importa file di dati Google Ad Manager in  Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) descrive come inviarci i metadati.
+Le informazioni sulle prestazioni visualizzate nei rapporti vengono importate dall&#39;istanza [!DNL Google Ad Manager]. Devi inviare i file di metadati in modo che possiamo aggiungere nomi descrittivi e descrittivi agli elementi nei rapporti, invece degli ID. Il passaggio 3 in [Import Google Ad Manager Data Files In Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) descrive come inviarci i metadati.
 
-## Report disponibili {#available-reports}
+## Rapporti disponibili {#available-reports}
 
-[!UICONTROL Audience Optimization for Publishers] offre sei diverse viste che descrivono le prestazioni di livello e server rispetto alla segmentazione creata  [!DNL Audience Manager] per risolvere gli obiettivi aziendali incentrati sull&#39;editore.
+[!UICONTROL Audience Optimization for Publishers] offre sei visualizzazioni distinte che descrivono le prestazioni di livello e server rispetto alla segmentazione creata in  [!DNL Audience Manager] per risolvere gli obiettivi aziendali incentrati sull’editore.
 
 + [Rapporto sulle prestazioni dei segmenti](publisher-segment-performance.md)
 + [Rapporto sulle tendenze dei segmenti](publisher-segment-trends.md)
