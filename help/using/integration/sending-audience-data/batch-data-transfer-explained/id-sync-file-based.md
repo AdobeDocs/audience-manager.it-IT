@@ -151,7 +151,7 @@ Passaggio 2: i [!DNL DPUUID]s di [!DNL DPID] 12345 sono stati sincronizzati nel 
 
 Gli ID utente non possono:
 
-* Contiene schede nell&#39;ID stesso. Le schede vengono utilizzate solo per separare i singoli ID nel file di dati.
+* Sono presenti schede nell&#39;ID stesso. Le schede vengono utilizzate solo per separare i singoli ID nel file di dati.
 * Contenere informazioni personali identificabili ([!UICONTROL PII]).
 * Utilizzare la codifica [!DNL URL]. Passa solo gli ID non codificati.
 
