@@ -1,23 +1,23 @@
 ---
-description: Visualizzare le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
-seo-description: Visualizzare le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
+description: Visualizza le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
+seo-description: Visualizza le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
 seo-title: Cronologia dei file in uscita
 solution: Audience Manager
 title: Cronologia dei file in uscita
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
-feature: inbound and outbound reports
+feature: Rapporti in entrata e in uscita
+exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '172'
 ht-degree: 7%
 
 ---
 
-
 # Cronologia dei file in uscita {#outbound-file-history}
 
-Visualizzare le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
+Visualizza le informazioni sulla cronologia dei processi batch in uscita per una destinazione e un periodo di tempo specificati.
 
 <!-- 
 
@@ -29,8 +29,8 @@ t_reports_outbound_history.xml
 
    ![Risultato del passaggio](assets/outbound_history.png)
 
-1. Nella casella **[!UICONTROL Search for a Destination]**, iniziate a digitare e selezionate la destinazione desiderata.
-1. Nella casella **[!UICONTROL Select a Date Range]**, specificare le date di inizio e di fine del rapporto, quindi fare clic su **[!UICONTROL Apply Date Filter]**.
+1. Nella casella **[!UICONTROL Search for a Destination]**, inizia a digitare e seleziona la destinazione desiderata.
+1. Nella casella **[!UICONTROL Select a Date Range]**, specifica le date di inizio e di fine del rapporto, quindi fai clic su **[!UICONTROL Apply Date Filter]**.
 
    ![Risultato del passaggio](assets/outbound_history_stats.png)
 
@@ -45,12 +45,12 @@ t_reports_outbound_history.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Nome file sincronizzazione dati </td> 
-   <td colname="col2"> <p>Elenco di tutti i file in uscita generati da <span class="keyword">  Adobe</span> per questa destinazione che sono stati elaborati insieme. </p> </td> 
+   <td colname="col1"> Nome file di sincronizzazione dati </td> 
+   <td colname="col2"> <p>Elenco di tutti i file in uscita generati da <span class="keyword"> Adobe</span> per questa destinazione che sono stati elaborati insieme. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Riuscito </td> 
-   <td colname="col2"> <p>Numero di record inviati correttamente da <span class="keyword">  Audience Manager</span> alla destinazione. </p> </td> 
+   <td colname="col1"> Operazione riuscita </td> 
+   <td colname="col2"> <p>Numero di record inviati correttamente da <span class="keyword"> Audience Manager</span> alla destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Non riuscito </td> 
@@ -58,7 +58,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Record ricevuti </td> 
-   <td colname="col2"> <p>Numero totale di record <span class="keyword">  Adobe</span> generati nei file e tentati di inviare alla destinazione. Nella maggior parte dei casi, questo deve essere il numero totale di file riusciti e non riusciti. </p> </td> 
+   <td colname="col2"> <p>Numero totale di record <span class="keyword"> Adobe</span> generati nei file e tentati di inviare alla destinazione. Nella maggior parte dei casi, deve essere il numero totale di file riusciti e di file non riusciti. </p> </td> 
   </tr> 
  </tbody> 
 </table>
