@@ -1,20 +1,20 @@
 ---
 description: Risposte alle domande comuni sulle Regole di unione profili e sul grafico dei dispositivi.
-keywords: Organization ID
+keywords: ID organizzazione
 seo-description: Risposte alle domande comuni sulle Regole di unione profili e sul grafico dei dispositivi.
 seo-title: Domande frequenti su regole di unione profili e grafico dei dispositivi
 solution: Audience Manager
 title: Domande frequenti su regole di unione profili e grafico dei dispositivi
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Profile Merge Rules
+feature: Unione profili
+exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1552'
 ht-degree: 86%
 
 ---
-
 
 # Domande frequenti su regole di unione profili e grafico dei dispositivi {#profile-merge-rules-and-device-graph-faq}
 
@@ -260,18 +260,18 @@ Sì. La metrica della popolazione totale del segmento include i dispositivi aggi
 
 No.
 
-**Perché vedo una popolazione di segmento pari a zero per le esportazioni di segmenti verso  Adobe Campaign dopo il 16 marzo 2020?**
+**Perché viene visualizzato un gruppo di segmenti zero per le esportazioni di segmenti in Adobe Campaign dopo il 16 marzo 2020?**
 
-Alla fine del 2019, è disponibile una serie di miglioramenti delle regole di unione dei profili per migliorare la precisione dei file batch generati utilizzando ID cross-device. Questi miglioramenti saranno rigorosamente rispettati nell&#39;istanza di  Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando ID cross-device cesseranno di produrre esportazioni in alcune configurazioni di regole di unione profilo.
+Alla fine del 2019, è stata rilasciata una serie di miglioramenti delle regole di unione profili per migliorare la precisione dei file batch generati utilizzando ID multi-dispositivo. Questi miglioramenti saranno rigorosamente rispettati nell’Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando un ID multi-dispositivo cesseranno di produrre esportazioni in alcune configurazioni di Profile Merge Rules.
 
-Per garantire la corretta integrazione tra l’istanza del Audience Manager  e le destinazioni utilizzando ID cross-device, come  Adobe Campaign, accertatevi di soddisfare i seguenti requisiti:
+Per garantire la corretta integrazione tra l’istanza di Audience Manager e le destinazioni utilizzando ID multi-dispositivo, come Adobe Campaign, assicurati di soddisfare i seguenti requisiti:
 
-1. Rivedete la regola di unione dei profili utilizzata dai segmenti mappati alla destinazione ID dichiarata  Adobe Campaign. La regola di unione dei profili deve utilizzare l&#39;opzione [!UICONTROL Last Authenticated Profile], in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione dei profili utilizza un&#39;altra opzione, è necessario passare a [!UICONTROL Last Authenticated Profile].
-2. Seleziona l&#39;origine dati ID dichiarato di Adobe Campaign  nelle impostazioni Regola unione profilo.
+1. Rivedi la regola di unione profili utilizzata dai segmenti mappati alla destinazione Adobe Campaign Declared ID. La regola di unione profili deve utilizzare l’opzione [!UICONTROL Last Authenticated Profile] in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione profili utilizza un’opzione diversa, impostala su [!UICONTROL Last Authenticated Profile].
+2. Seleziona l’origine dati Adobe Campaign Declared ID nelle impostazioni Regola di unione profili .
 
 >[!NOTE]
 >
-> Per i clienti che si trovano in questa situazione è stato aumentato il limite della regola di unione profilo di 1, in modo da poter creare una regola di unione profilo dedicata per i segmenti mappati alla destinazione ID dichiarata da Adobe Campaign , senza modificare le regole di unione profilo per altri casi di utilizzo.
+> Il limite delle regole di unione profili è stato aumentato di 1 per i clienti che si trovano in questa situazione, in modo da poter creare una regola di unione profili dedicata per i segmenti mappati alla destinazione Adobe Campaign Declared ID, senza modificare le regole di unione profili per altri casi d’uso.
 
 >[!MORELIKETHIS]
 >
