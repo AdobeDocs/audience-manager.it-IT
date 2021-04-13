@@ -5,15 +5,15 @@ seo-title: Glossario
 solution: Audience Manager
 title: Glossario
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: riferimento
+feature: 'Riferimenti '
+exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 translation-type: tm+mt
-source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Glossario{#glossary}
 
@@ -272,4 +272,3 @@ Il servizio ID di [!DNL Experience Cloud] (in precedenza ID visitatore) fornisce
 Consulta la documentazione [Servizio di Adobe Experience Platform Identity](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html).
 
 ## W-X-Y-Z {#w-z}
-
