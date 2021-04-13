@@ -4,15 +4,15 @@ seo-description: Perché i segmenti mappati da Audience Lab non vengono visualiz
 seo-title: Perché i segmenti mappati da Audience Lab non vengono visualizzati nella pagina dei dettagli della destinazione?
 solution: Audience Manager
 title: Dovrei visualizzare i segmenti mappati da Audience Lab sulla pagina dei dettagli della destinazione?
-feature: support
+feature: 'Supporto '
+exl-id: 7f35b824-7acd-415f-92a9-62c2a3d08526
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '170'
 ht-degree: 100%
 
 ---
-
 
 # Dovrei visualizzare i segmenti mappati da Audience Lab sulla pagina dei dettagli della destinazione? {#audience-lab-segments-destination-page}
 
