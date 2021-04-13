@@ -3,17 +3,17 @@ description: Questo documento descrive i tipi di ID di Audience Manager che puoi
 seo-description: Questo documento descrive i tipi di ID di Audience Manager che puoi utilizzare nelle richieste relative alla privacy dei dati.
 seo-title: Identificatori di Audience Manager (ID)
 solution: Audience Manager
-keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
+keywords: Interfaccia utente RGPD, API RGPD, CCPA, privacy, ID AAM
 title: Identificatori di Audience Manager (ID)
-feature: data governance & privacy
+feature: Governance dei dati e privacy
+exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 95%
 
 ---
-
 
 # Identificatori di Audience Manager (ID) {#aam-ids}
 
