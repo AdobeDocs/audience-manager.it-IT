@@ -5,12 +5,12 @@ seo-title: Migliorare i tempi di elaborazione dei file di registro con le tabell
 solution: Audience Manager
 title: Migliorare i tempi di elaborazione dei file di registro con le tabelle di ricerca
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-feature: Riferimento di riferimento per i rapporti
+feature: Riferimento per la generazione di rapporti
 exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 translation-type: tm+mt
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '503'
 ht-degree: 14%
 
 ---
@@ -55,7 +55,7 @@ Ecco lo stesso file di log con i metadati rimossi. Il file è più piccolo e fac
 
 | ID utente | ID annuncio | ID ordine | ID inserzionista |
 |---|---|---|---|
-| 1 | 111 | 456 | 27 |
+| 3 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
 | 3 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
