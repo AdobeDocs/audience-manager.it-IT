@@ -1,23 +1,23 @@
 ---
-description: Un report Trend restituisce dati di tendenza su caratteristiche e segmenti.
-seo-description: Un report Trend restituisce dati di tendenza su caratteristiche e segmenti.
+description: Un rapporto di tendenze restituisce dati di tendenza su caratteristiche e segmenti.
+seo-description: Un rapporto di tendenze restituisce dati di tendenza su caratteristiche e segmenti.
 seo-title: Rapporti sulle tendenze
 solution: Audience Manager
 title: Rapporti sulle tendenze
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
-feature: general & trend reports
+feature: Rapporti generali e sulle tendenze
+exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
 
-
 # Rapporti sulle tendenze{#trend-reports}
 
-Un report Trend restituisce dati di tendenza su caratteristiche e segmenti.
+Un rapporto di tendenze restituisce dati di tendenza su caratteristiche e segmenti.
 
 ## Panoramica {#trend-report-overview}
 
@@ -27,33 +27,33 @@ c_trend_reports.xml
 
  -->
 
-[!DNL Audience Manager] utilizza  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) per estendere le autorizzazioni del gruppo di utenti ai  [!UICONTROL Trend] rapporti. Gli utenti possono visualizzare solo le caratteristiche e i segmenti nel reporting per i quali dispongono delle autorizzazioni di visualizzazione. [!UICONTROL RBAC] consente di controllare i dati che possono essere visualizzati dai team interni.
+[!DNL Audience Manager] utilizza  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) per estendere le autorizzazioni del gruppo di utenti ai  [!UICONTROL Trend] rapporti. Gli utenti possono visualizzare solo le caratteristiche e i segmenti nel reporting che dispongono delle autorizzazioni di visualizzazione. [!UICONTROL RBAC] consente di controllare quali dati possono essere visualizzati dai team interni.
 
-Ad esempio, un&#39;agenzia che gestisce diversi account di inserzionisti può configurare le autorizzazioni per gruppi di utenti in modo che un team che gestisce l&#39;account dell&#39;inserzionista A non possa vedere i dati di reporting dell&#39;inserzionista B.
+Ad esempio, un’agenzia che gestisce diversi account inserzionista può configurare le autorizzazioni per i gruppi di utenti in modo che un team che gestisce l’account dell’inserzionista A non possa visualizzare i dati di reporting dell’inserzionista B.
 
-Eseguire un report [!UICONTROL Trend] quando è necessario:
+Esegui un rapporto [!UICONTROL Trend] quando devi:
 
-* Rivedete i dati delle tendenze per caratteristiche e segmenti.
-* Consente di tenere traccia delle tendenze di intervalli di 1, 7, 14, 30, 60 e 90 giorni.
-* Confronta caratteristiche e tendenze dei segmenti nel tempo.
-* Identificare caratteristiche e segmenti di prestazioni forti o insufficienti.
-* Esporta dati (formato CSV) per ulteriori analisi e condivisione.
+* Esamina i dati delle tendenze per caratteristiche e segmenti.
+* Monitora le tendenze di intervalli di 1, 7, 14, 30, 60 e 90 giorni.
+* Confronta le tendenze di caratteristiche e segmenti nel tempo.
+* Identifica caratteristiche e segmenti dalle prestazioni forti o scarsi.
+* Esporta dati (formato .csv) per ulteriori analisi e condivisione.
 
-L&#39;illustrazione seguente fornisce una panoramica di alto livello degli elementi chiave nel report [!UICONTROL Trend].
+La figura seguente fornisce una panoramica di alto livello degli elementi chiave del rapporto [!UICONTROL Trend] .
 
 ![](assets/trend_reports.png)
 
-1. Configurate le seguenti opzioni:
-   **Tipo di rapporto:** selezionate il tipo di rapporto desiderato (Caratteristiche o Segmento).
-   **Intervallo date:** specifica l&#39;intervallo di date per il rapporto (data di inizio e data di fine).
-   **Intervallo di visualizzazione:** specificate l&#39;intervallo di visualizzazione (intervalli di 1, 7, 14, 30, 60 e 90 giorni).
-1. Cercare una caratteristica o segmento per nome o ID.
-1. Dall&#39;elenco delle cartelle, trascina e rilascia le caratteristiche o i segmenti da includere nel rapporto nel pannello [!UICONTROL Selections] a destra.
-1. Generate il rapporto per visualizzarlo in formato grafico o esportarlo in formato CSV.
+1. Configura le seguenti opzioni:
+   **Tipo di rapporto:** seleziona il tipo di rapporto desiderato (caratteristica o segmento).
+   **Intervallo di date:** specifica l’intervallo di date per il rapporto (data di inizio e data di fine).
+   **Intervallo di visualizzazione:** specifica l’intervallo di visualizzazione (intervalli di 1, 7, 14, 30, 60 e 90 giorni).
+1. Cerca una caratteristica o un segmento per nome o ID.
+1. Dall’elenco delle cartelle, trascina e rilascia le caratteristiche o i segmenti che desideri includere nel rapporto nel pannello [!UICONTROL Selections] a destra.
+1. Genera il rapporto da visualizzare in formato grafico o esporta il rapporto in formato CSV.
 
-## Eseguire un report sulle tendenze {#run-trend-report}
+## Eseguire un rapporto sulle tendenze {#run-trend-report}
 
-Questa procedura descrive come eseguire un report [!UICONTROL Trend].
+Questa procedura descrive come eseguire un rapporto [!UICONTROL Trend].
 
 <!-- 
 
@@ -61,54 +61,54 @@ t_working_with_trend_reports.xml
 
  -->
 
-1. Nel dashboard **[!UICONTROL Analytics]**, fare clic su **[!UICONTROL Trend Reports]**.
-1. Dall&#39;elenco a discesa **[!UICONTROL Report Type]**, selezionate il tipo desiderato: **[!UICONTROL Trait]** o **[!UICONTROL Segment]**.
-1. Fai clic sulle caselle delle date per visualizzare un calendario, quindi seleziona le date di inizio e di fine del rapporto.
-1. Specificate l&#39;intervallo di visualizzazione: entro 1, 7, 14, 30, 60 o 90 giorni.
-1. Cercare una caratteristica o segmento per nome o ID.
-1. Dall&#39;elenco delle cartelle, trascina e rilascia le caratteristiche o i segmenti da includere nel rapporto nel pannello [!UICONTROL Selections] a destra.
-   * Per ottenere prestazioni ottimali, eseguite un report [!UICONTROL Trend] su meno di 20 caratteristiche o segmenti alla volta.
-1. Fare clic su **[!UICONTROL Graph Traits]** o **[!UICONTROL Graph Segments]**, a seconda del tipo di rapporto che si sta visualizzando (Caratteristiche o Segmenti). Queste opzioni ignorano tutte le cartelle e i grafici solo i tratti o i segmenti selezionati singolarmente.
+1. Nel dashboard **[!UICONTROL Analytics]**, fai clic su **[!UICONTROL Trend Reports]**.
+1. Dall’elenco a discesa **[!UICONTROL Report Type]** , seleziona il tipo desiderato: **[!UICONTROL Trait]** o **[!UICONTROL Segment]**.
+1. Fai clic sulle caselle della data per visualizzare un calendario, quindi seleziona le date di inizio e di fine del rapporto.
+1. Specifica l&#39;intervallo di visualizzazione: entro 1, 7, 14, 30, 60 o 90 giorni.
+1. Cerca una caratteristica o un segmento per nome o ID.
+1. Dall’elenco delle cartelle, trascina e rilascia le caratteristiche o i segmenti che desideri includere nel rapporto nel pannello [!UICONTROL Selections] a destra.
+   * Per ottenere le migliori prestazioni, esegui un rapporto [!UICONTROL Trend] su meno di 20 caratteristiche o segmenti alla volta.
+1. Fai clic su **[!UICONTROL Graph Traits]** o **[!UICONTROL Graph Segments]**, a seconda del tipo di rapporto che stai visualizzando (Caratteristiche o Segmenti). Queste opzioni ignorano tutte le cartelle e i grafici solo le caratteristiche o i segmenti selezionati singolarmente.
 
    Oppure
 
-   Fate clic su **[!UICONTROL Export to CSV]** per esportare i dati relativi alla caratteristica o al segmento e tutte le cartelle in formato CSV per ulteriori analisi e condivisione. In questo modo vengono esportati i formati [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] e [!UICONTROL Total Trait Population] per tutti gli intervalli di giorni.
+   Fai clic su **[!UICONTROL Export to CSV]** per esportare i dati delle caratteristiche o dei segmenti e tutte le cartelle in formato CSV per ulteriori analisi e condivisione. Vengono esportati i valori [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] e [!UICONTROL Total Trait Population] per tutti gli intervalli di giorni.
 
    >[!NOTE]
    >
-   >[!UICONTROL Total Trait Realizations] sono calcolati  [!UICONTROL Rule-based Traits] solo per.
+   >[!UICONTROL Total Trait Realizations] sono calcolati  [!UICONTROL Rule-based Traits] solo per .
 
-1. (Facoltativo) Passa il puntatore del mouse sulle singole caratteristiche o segmenti per visualizzare il numero di visite e la data di ciascun punto dati. È possibile fare clic sulle intestazioni delle colonne nella tabella per ordinare i risultati in ordine crescente o decrescente.
+1. (Facoltativo) Passa il puntatore del mouse su singole caratteristiche o segmenti per visualizzare il numero di visite e la data di ciascun punto dati. Puoi fare clic sulle intestazioni di colonna nella tabella per ordinare i risultati in ordine crescente o decrescente.
 
-## Risultati report sulle tendenze per le caratteristiche {#trend-report-results-traits}
+## Risultati dei report sulle tendenze per le caratteristiche {#trend-report-results-traits}
 
 I filtri seguenti sono disponibili quando si esegue un [!UICONTROL Trend Report] e si seleziona **[!UICONTROL Trait]** come tipo di rapporto.
 
 Durante il filtraggio dei risultati per [!UICONTROL Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] è il numero di visitatori anonimi del dispositivo che hanno aggiunto la caratteristica al proprio profilo entro l&#39;intervallo di tempo selezionato.
-* [!UICONTROL Total Trait Realization] è il numero totale di realizzazioni di caratteristiche del mouse anonimo nell&#39;intervallo di tempo selezionato.
-* [!UICONTROL Total Trait Population] è il numero di visitatori anonimi del dispositivo che hanno questa caratteristica sul loro profilo.
+* [!UICONTROL Unique Trait Realizations] è il numero di visitatori anonimi del dispositivo che hanno aggiunto la caratteristica al profilo entro l’intervallo di tempo selezionato.
+* [!UICONTROL Total Trait Realization] è il numero totale di realizzazioni di caratteristiche del mouse anonimo all’interno dell’intervallo di tempo selezionato.
+* [!UICONTROL Total Trait Population] è il numero di visitatori del tuo dispositivo anonimi che hanno questa caratteristica sul loro profilo.
 
 Durante il filtraggio dei risultati per [!UICONTROL Cross-Device ID]:
 
-* [!UICONTROL Unique Trait Realizations] è il numero di visitatori autenticati che hanno aggiunto la caratteristica al proprio profilo, entro l&#39;intervallo di tempo selezionato.
-* [!UICONTROL Total Trait Realization] è il numero totale di realizzazioni di caratteristiche autenticate nell&#39;intervallo di tempo selezionato.
+* [!UICONTROL Unique Trait Realizations] è il numero di visitatori autenticati che hanno aggiunto la caratteristica al loro profilo, entro l’intervallo di tempo selezionato.
+* [!UICONTROL Total Trait Realization] è il numero totale di realizzazioni di caratteristiche autenticate nell’intervallo di tempo selezionato.
 * [!UICONTROL Total Trait Population] è il numero di visitatori autenticati che hanno questa caratteristica sul loro profilo.
 
 ![trend-report-traits](assets/trend-report-traits.png)
 
-Gli zero indicano che [!DNL Audience Manager] non ha raccolto i dati per quel giorno. Voci vuote indicano che la caratteristica non esisteva.
+Gli zero indicano che [!DNL Audience Manager] non ha raccolto i dati per quel giorno. Le voci vuote indicano che la caratteristica non esisteva.
 
-Guardate il video seguente per vedere in dettaglio come funzionano le metriche tra dispositivi.
+Guarda il video seguente per vedere in dettaglio come funzionano le metriche per dispositivi diversi.
 
 >[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
-## Risultati report tendenze per segmenti {#segment-report-results-traits}
+## Risultati dei report sulle tendenze per i segmenti {#segment-report-results-traits}
 
 I filtri seguenti sono disponibili quando si esegue un [!UICONTROL Trend Report] e si seleziona **[!UICONTROL Segments]** come tipo di rapporto.
 
-* **[!UICONTROL Real-time Segment Population]**: il numero di visitatori idonei per il segmento nell&#39;intervallo di tempo selezionato.
-* **[!UICONTROL Total Segment Population]**: il numero totale di visitatori idonei per il segmento.
+* **[!UICONTROL Real-time Segment Population]**: il numero di visitatori qualificati per il segmento nell’intervallo di tempo selezionato.
+* **[!UICONTROL Total Segment Population]**: il numero totale di visitatori qualificati per il segmento.
 
-![trend-report-segmenti](assets/trend-report-segments.png)
+![segmenti di trend-report](assets/trend-report-segments.png)
