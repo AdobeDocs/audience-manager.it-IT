@@ -1,41 +1,40 @@
 ---
-description: Questi report restituiscono dati sulle impression, i tassi di click-through e le conversioni per un'ampia gamma di dimensioni pubblicitarie. Confronta tendenze e volume per le metriche selezionate per ottenere un quadro migliore delle prestazioni della campagna nel tempo.
-seo-description: Questi report restituiscono dati sulle impression, i tassi di click-through e le conversioni per un'ampia gamma di dimensioni pubblicitarie. Confronta tendenze e volume per le metriche selezionate per ottenere un quadro migliore delle prestazioni della campagna nel tempo.
+description: Questi rapporti restituiscono dati su impression, tassi di click-through e conversioni per un’ampia gamma di dimensioni pubblicitarie. Confronta tendenze e volume delle metriche selezionate per ottenere un'immagine migliore delle prestazioni della campagna nel tempo.
+seo-description: Questi rapporti restituiscono dati su impression, tassi di click-through e conversioni per un’ampia gamma di dimensioni pubblicitarie. Confronta tendenze e volume delle metriche selezionate per ottenere un'immagine migliore delle prestazioni della campagna nel tempo.
 seo-title: Rapporto sull’analisi delle tendenze e dei volumi
 solution: Audience Manager
 title: Rapporto sull’analisi delle tendenze e dei volumi
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
-feature: audience optimization reports
+feature: Rapporti di Audience Optimization
+exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
 
-
 # [!UICONTROL Trend Analysis] e  [!UICONTROL Volume Analysis] rapporti{#trend-analysis-and-volume-analysis-reports}
 
-Questi report restituiscono dati sulle impression, i tassi di click-through e le conversioni per un&#39;ampia gamma di dimensioni pubblicitarie. Confronta tendenze e volume per le metriche selezionate per ottenere un quadro migliore delle prestazioni della campagna nel tempo.
+Questi rapporti restituiscono dati su impression, tassi di click-through e conversioni per un’ampia gamma di dimensioni pubblicitarie. Confronta tendenze e volume delle metriche selezionate per ottenere un&#39;immagine migliore delle prestazioni della campagna nel tempo.
 
-## Rapporto campione [!UICONTROL Trend Analysis] {#sample-trend-analysis}
+## Esempio [!UICONTROL Trend Analysis] Rapporto {#sample-trend-analysis}
 
-Il report [!UICONTROL Trend Analysis] restituisce i dati in un grafico a linee solo per un intervallo di 14 giorni. In questo esempio, il rapporto mostra tendenze di impression, click-through e conversione per un insieme di segmenti mappati.
+Il rapporto [!UICONTROL Trend Analysis] restituisce i dati sotto forma di grafico a linee solo per un intervallo di 14 giorni. In questo esempio, il rapporto mostra le tendenze di impression, click-through e conversione per un set di segmenti mappati.
 
 ![](assets/trend-analysis.png)
 
-## Rapporto campione [!UICONTROL Volume Analysis] {#sample-volume-analysis}
+## Esempio [!UICONTROL Volume Analysis] Rapporto {#sample-volume-analysis}
 
-Il rapporto [!UICONTROL Volume Analysis] restituisce i dati in un grafico a barre per l&#39;intervallo di date selezionato. In questo esempio, il rapporto mostra impression, click-through e conversioni per volume per un set di segmenti mappati.
+Il rapporto [!UICONTROL Volume Analysis] restituisce i dati sotto forma di grafico a barre per l’intervallo di date selezionato. In questo esempio, il rapporto mostra le impression, il click-through e le conversioni per volume per un set di segmenti mappati.
 
 >[!NOTE]
 >
->I periodi di lookback di 7 giorni e 30 giorni sono disponibili solo per le date di domenica **[!UICONTROL Date Through]**.
+>I periodi di look-back di 7 giorni e 30 giorni sono disponibili solo per le date di domenica **[!UICONTROL Date Through]**.
 
 ![](assets/volume-analysis.png)
 
 >[!TIP]
 >
->Per informazioni sui segmenti mappati e non mappati, consulta la documentazione [Segment Performance Report](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) (Rapporto prestazioni segmento).
-
+>Per informazioni sui segmenti mappati e non mappati, consulta la documentazione [Rapporto sulle prestazioni dei segmenti](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) .
