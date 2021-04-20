@@ -5,7 +5,7 @@ seo-title: Metodi di distribuzione dei file di metadati
 solution: Audience Manager
 title: Metodi di distribuzione dei file di metadati
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
-feature: File di registro
+feature: Log Files
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

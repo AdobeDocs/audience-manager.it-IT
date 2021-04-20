@@ -3,7 +3,7 @@ description: Panoramica su come integrare Google Ad Manager utilizzando i tag pu
 seo-description: Panoramica su come integrare Google Ad Manager utilizzando i tag publisher (GPT, Google Publisher Tags) in Adobe Audience Manager (AAM).
 seo-title: Integrare Google Ad Manager utilizzando Google Publisher Tags (GPT) in Adobe Audience Manager (AAM)
 title: Integrare Google Ad Manager utilizzando i tag publisher di Google (GPT, Google Publisher Tags)
-feature: Integrazione di terze parti
+feature: Third-party Integration
 exl-id: d383cb8a-ef41-4ce6-9e31-6145797a89fa
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

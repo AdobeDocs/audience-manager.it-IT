@@ -4,7 +4,7 @@ seo-description: Intorno al 14 ottobre 2019, ho notato che le popolazioni di car
 seo-title: Perché la mia popolazione di caratteristiche onboarded è scesa a 0 intorno al 15 ottobre?
 solution: Audience Manager
 title: Perché la mia popolazione di caratteristiche onboarded è scesa a 0 intorno al 15 ottobre?
-feature: 'Supporto '
+feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -5,7 +5,7 @@ seo-title: Campionamento di dati e tassi di errore nei report selezionati di Aud
 solution: Audience Manager
 title: Campionamento di dati e tassi di errore nei report selezionati di Audience Manager
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-feature: Riferimento per la generazione di rapporti
+feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
 translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7

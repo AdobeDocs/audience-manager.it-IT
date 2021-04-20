@@ -4,7 +4,7 @@ seo-description: 'Questa pagina contiene indicazioni su come configurare e gesti
 seo-title: Autenticazione con piattaforme basate su persone
 solution: Audience Manager
 title: Autenticazione con piattaforme basate su persone
-feature: Destinazioni basate su persone
+feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

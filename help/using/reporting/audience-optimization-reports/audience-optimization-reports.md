@@ -5,7 +5,7 @@ seo-title: Rapporti di Audience Optimization
 solution: Audience Manager
 title: Rapporti di Audience Optimization
 uuid: b06efa28-f56a-4b72-978e-e0c067f54798
-feature: Rapporti di Audience Optimization
+feature: Audience Optimization Reports
 exl-id: 673267fb-5655-4cc2-ac2c-c717ea5830fc
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

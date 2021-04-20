@@ -5,7 +5,7 @@ seo-title: Pianificazione aggiornamento rapporti di sovrapposizione e dimensione
 solution: Audience Manager
 title: Pianificazione aggiornamento rapporti di sovrapposizione e dimensione minima del segmento
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-feature: Rapporti di sovrapposizione
+feature: Overlap Reports
 exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -5,7 +5,7 @@ seo-title: Requisiti FTP di nome e dimensione file per i file di dati in entrata
 solution: Audience Manager
 title: Requisiti FTP di nome e dimensione file per i file di dati in entrata
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-feature: Trasferimenti di dati in entrata
+feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

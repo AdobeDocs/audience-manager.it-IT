@@ -5,7 +5,7 @@ seo-title: Glossario RGPD
 solution: Audience Manager
 title: Glossario RGPD
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
-feature: Governance dei dati e privacy
+feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

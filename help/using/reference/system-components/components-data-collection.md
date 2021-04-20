@@ -5,7 +5,7 @@ seo-title: Componenti di raccolta dei dati
 solution: Audience Manager
 title: Componenti di raccolta dei dati
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-feature: 'Componenti di sistema '
+feature: System Components
 exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

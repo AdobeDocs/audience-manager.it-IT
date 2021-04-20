@@ -4,7 +4,7 @@ seo-description: Predictive Audiences ti aiuta a classificare tipi di pubblico s
 seo-title: Gestione di Predictive Audiences
 solution: Audience Manager
 title: Guida introduttiva di Predictive Audiences
-feature: Modelli algoritmici
+feature: Algorithmic Models
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
 translation-type: tm+mt
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656

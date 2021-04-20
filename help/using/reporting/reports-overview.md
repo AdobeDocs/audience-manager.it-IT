@@ -3,7 +3,7 @@ description: Utilizza le opzioni nel menu Analytics per visualizzare il dashboar
 seo-description: Utilizza le opzioni nel menu Analytics per visualizzare il dashboard e vari rapporti in Adobe Audience Manager (AAM).
 seo-title: Panoramica dei rapporti in Adobe Audience Manager (AAM)
 title: Panoramica del reporting
-feature: Riferimento per la generazione di rapporti
+feature: Reporting Reference
 exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
 translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7

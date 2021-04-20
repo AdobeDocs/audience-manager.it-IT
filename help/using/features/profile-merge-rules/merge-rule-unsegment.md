@@ -5,7 +5,7 @@ seo-title: Regole di unione profili e processi di rimozione dei dispositivi dai 
 solution: Audience Manager
 title: Regole di unione profili e processi di rimozione dei dispositivi dai segmenti
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
-feature: Unione profili
+feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

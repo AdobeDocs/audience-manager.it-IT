@@ -5,7 +5,7 @@ seo-title: Rapporti interattivi e di sovrapposizione
 solution: Audience Manager
 title: Rapporti interattivi e di sovrapposizione
 uuid: 486f4251-da24-4253-ab01-9dd1da8715aa
-feature: Rapporti di sovrapposizione
+feature: Overlap Reports
 exl-id: 2a29b172-a323-422d-99e0-b00aa16e03dc
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

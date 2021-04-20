@@ -5,7 +5,7 @@ seo-title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 solution: Audience Manager
 title: Requisiti di nome e dimensione file Amazon S3 per file di dati in entrata
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-feature: Trasferimenti di dati in entrata
+feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

@@ -5,7 +5,7 @@ seo-description: La funzione di reporting dell’utilizzo delle attività ti con
 seo-title: Reporting sull’utilizzo delle attività
 solution: Audience Manager
 title: Reporting sull’utilizzo delle attività
-feature: Utilizzo e fatturazione
+feature: Usage and Billing
 exl-id: 0c5f04c6-d008-4817-9c67-cd39350b3aaf
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

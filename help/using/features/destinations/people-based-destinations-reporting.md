@@ -4,7 +4,7 @@ seo-description: 'Le destinazioni basate sulle persone introducono ad Audience M
 seo-title: Pubblici condivisibili
 solution: Audience Manager
 title: Pubblici condivisibili
-feature: Destinazioni basate su persone
+feature: People-based Destinations
 exl-id: 2860c105-1091-4779-bf40-e66faa941af0
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
