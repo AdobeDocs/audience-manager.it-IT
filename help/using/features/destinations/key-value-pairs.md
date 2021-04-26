@@ -1,12 +1,12 @@
 ---
-description: A [!DNL key-value pair] è costituito da elementi correlati Una chiave, che è una costante che definisce il set di dati (ad esempio, genere, colore, prezzo) e un valore, che è una variabile che appartiene al set (ad esempio, maschio/femmina, verde, 100). Il Generatore di destinazione invia dati formattati come coppie chiave-valore.
+description: A [!DNL key-value pair] è costituito da elementi correlati. Una chiave, che è una costante che definisce il set di dati (ad esempio, genere, colore, prezzo) e un valore, che è una variabile che appartiene al set (ad esempio, maschio/femmina, verde, 100). Il Generatore di destinazione invia dati formattati come coppie chiave-valore.
 solution: Audience Manager
 title: Standard e seriali [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Nozioni di base sulle destinazioni
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: c895ec099ff92f94328ad29e6f2349e79b77d667
+source-git-commit: f9f5cb5f83f095ad8cac01447ef0c360f0acd5fc
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%
