@@ -6,13 +6,13 @@ seo-title: Stati di autenticazione dei visitatori in Audience Manager
 solution: Audience Manager
 title: Stati di autenticazione dei visitatori in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
-feature: Reference
+feature: 'Riferimenti '
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 5%
+source-wordcount: '391'
+ht-degree: 7%
 
 ---
 
@@ -24,25 +24,9 @@ A partire dalla versione 1.5 del servizio ID [!DNL Experience Cloud], il metodo 
 
 ## Stato autenticazione: SCONOSCIUTO {#auth-status-unknown}
 
-<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Informazioni di lettura dal profilo autenticato </p> </th> 
-   <th colname="col3" class="entry"> <p> <b></b> riten nuove caratteristiche al profilo autenticato </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Sì, se la regola di unione delle opzioni autenticate = "Ultimi profili autenticati". </p> </td> 
-   <td colname="col3" morerows="1"> <p>No, i dati delle caratteristiche vengono aggiunti al profilo del dispositivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>No, se la regola di unione delle opzioni autenticate = "Profili autenticati correnti" o "Nessun profilo autenticato". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valore richiesta | Leggi informazioni dal profilo autenticato | Scrivere nuove caratteristiche al profilo autenticato |
+|---|---|---|
+| 0 | <ul><li>Sì, se [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>No, se [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL No Authenticated Profile].</li></ul> | No, i dati delle caratteristiche vengono aggiunti al profilo del dispositivo. |
 
 Chiamata di esempio (viene evidenziato il valore della richiesta corrispondente allo stato di autenticazione):
 
@@ -50,25 +34,9 @@ Chiamata di esempio (viene evidenziato il valore della richiesta corrispondente 
 
 ## Stato autenticazione: AUTENTICATO {#auth-status-authenticated}
 
-<table id="table_956ABF96024744308F7773E1F96482B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Informazioni di lettura dal profilo autenticato </p> </th> 
-   <th colname="col3" class="entry"> <p> <b></b> riten nuove caratteristiche al profilo autenticato </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Sì, se la regola di unione delle opzioni autenticate = "Profili autenticati correnti" o "Ultimi profili autenticati". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Sì, i dati delle caratteristiche vengono aggiunti al profilo autenticato. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>No, se la regola di unione delle opzioni autenticate = "Nessun profilo autenticato". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valore richiesta | Leggi informazioni dal profilo autenticato | Scrivere nuove caratteristiche al profilo autenticato |
+|---|---|---|
+| 1 | <ul><li>Sì, se [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL Last Authenticated Profiles].</li><li>No, se [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL No Authenticated Profile].</li></ul> | Sì, i dati delle caratteristiche vengono aggiunti al profilo autenticato. |
 
 Chiamata di esempio (viene evidenziato il valore della richiesta corrispondente allo stato di autenticazione):
 
@@ -76,25 +44,9 @@ Chiamata di esempio (viene evidenziato il valore della richiesta corrispondente 
 
 ## Stato autenticazione: LOGGED_OUT {#auth-status-logged-out}
 
-<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Valore richiesta </p> </th> 
-   <th colname="col2" class="entry"> <p> <b></b> Informazioni di lettura dal profilo autenticato </p> </th> 
-   <th colname="col3" class="entry"> <p> <b></b> riten nuove caratteristiche al profilo autenticato </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Sì, se la regola di unione delle opzioni autenticate = "Ultimi profili autenticati" </td> 
-   <td colname="col3" morerows="1"> <p>No, i dati delle caratteristiche vengono scritti nel profilo del dispositivo. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> No, se la regola di unione delle opzioni autenticate = "Profili autenticati correnti" o "Nessun profilo autenticato" </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valore richiesta | Leggi informazioni dal profilo autenticato | Scrivere nuove caratteristiche al profilo autenticato |
+|---|---|---|
+| 2 | <ul><li>Sì, se [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Last Authenticated Profiles].</li><li>No, se [!UICONTROL Authenticated Option Merge Rule] = [!UICONTROL Current Authenticated Profiles] o [!UICONTROL No Authenticated Profile].</li></ul> | No, i dati delle caratteristiche vengono scritti nel profilo del dispositivo. |
 
 Chiamata di esempio (viene evidenziato il valore della richiesta corrispondente allo stato di autenticazione):
 
