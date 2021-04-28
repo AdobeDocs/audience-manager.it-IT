@@ -5,12 +5,12 @@ seo-title: Condivisione del pubblico tra Audience Manager e Adobe Experience Pla
 solution: Audience Manager
 title: Condivisione del pubblico tra Audience Manager e Adobe Experience Platform
 keywords: Condivisione di audience AEP, segmenti AEP, segmenti Platform, condivisione di segmenti, condivisione di audience, condivisione di segmenti
-feature: Platform Integration
+feature: Integrazione di Platform
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1465'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Inoltre, i segmenti di Experience Platform sono condivisi con altre soluzioni Ex
 >[!IMPORTANT]
 >
 > * È necessaria una licenza di Audience Manager per abilitare i casi d’uso di Data Management Platform sopra menzionati.
-> * Per condividere segmenti di Experience Platform con Adobe Advertising Cloud, Adobe Target, Marketo e altre soluzioni di Experience Cloud, non è necessaria una licenza di Audience Manager *tramite l’integrazione dei servizi core.*
+> * Per condividere segmenti di Experience Platform con Adobe Advertising Cloud, Adobe Target, Marketo e altre soluzioni di Experience Cloud tramite l’integrazione dei servizi core, non è necessaria una licenza di Audience Manager *tramite .*
 
 
 <br> 
@@ -111,7 +111,7 @@ Per un esempio di segmento creato automaticamente da un segmento di Experience P
 ---------|----------|---------
 | 3 | [!UICONTROL Integration Code] | Il codice di integrazione corrisponde all’ID del segmento in Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Creazione automatica. Tutte le caratteristiche e i segmenti creati automaticamente dai segmenti di Experience Platform vengono memorizzati nell’origine dati **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica che i segmenti creati automaticamente seguono il criterio di unione impostato in Experience Platform. |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica che i segmenti creati automaticamente seguono il criterio di unione impostato in Experience Platform. |
 | 4 | [!UICONTROL Segment Rule] | Il segmento è costituito dalla caratteristica descritta nella sezione [Caratteristiche](#aep-segments-as-aam-traits). |
 
 ## Supporto di Audience Manager Data Export Control nell&#39;Experience Platform {#aam-data-export-control-in-aep}
@@ -164,17 +164,13 @@ Ad Audience Manager, i numeri dei rapporti nell’interfaccia vengono aggiornati
 
 L&#39;integrazione tra Adobe Experience Platform e Audience Manager condivide una serie di [spazi dei nomi di identità ](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) standard per tutti i clienti: ECID, IDFA, GAID, indirizzi e-mail con hash (EMAIL_LC_SHA256), AdCloud ID. Se i segmenti di Experience Platform utilizzano uno di questi come identità principale per i profili qualificati, i profili vengono conteggiati nelle caratteristiche e nei segmenti di Audience Manager.
 
-Inoltre, Audience Manager può registrare le realizzazioni in arrivo per eventuali spazi dei nomi di identità personalizzati utilizzati nei segmenti di Experience Platform se:
-* l&#39;identità è contrassegnata come principale *e*
-* in Audience Manager è già presente un’origine dati multi-dispositivo corrispondente.
-
 >[!NOTE]
 >
 > I tipi di pubblico in Experience Platform con identità ricavate da e-mail non vengono mai visualizzati in Audience Manager.
 
-Ad esempio, se avevi un segmento di Experience Platform &quot;Tutti i miei clienti&quot; e i profili qualificati erano ID CRM, ECID, IDFA, indirizzi e-mail non elaborati e con hash, il segmento corrispondente nell’Audience Manager includerebbe solo profili con chiave ID CRM, ECID, IDFA e indirizzi e-mail con hash. La popolazione del segmento in Audience Manager sarebbe inferiore a quella in Experience Platform.
+Ad esempio, se avevi un segmento di Experience Platform &quot;Tutti i miei clienti&quot; e i profili qualificati erano ID CRM, ECID, IDFA, indirizzi e-mail non elaborati e con hash, il segmento corrispondente nell’Audience Manager includerebbe solo profili con chiave di ECID, IDFA e indirizzi e-mail con hash. La popolazione del segmento in Audience Manager sarebbe inferiore a quella in Experience Platform.
 
-![Experience Platform ad Audience Manager della condivisione dei segmenti - composizione dei segmenti](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+![Experience Platform ad Audience Manager della condivisione dei segmenti - composizione dei segmenti](assets/AEP-to-AAM-profiles.png)
 
 <!--
 
