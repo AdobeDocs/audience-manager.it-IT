@@ -5,16 +5,16 @@ seo-title: Domande frequenti sulla raccolta dei dati e l’integrazione dei prod
 solution: Audience Manager
 title: Domande frequenti sulla raccolta dei dati e l’integrazione dei prodotti
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP; SFTP address; STFP IP address; FTP address
-feature: Administration
+keywords: SFTP; indirizzo SFTP; indirizzo IP STFP; Indirizzo FTP
+feature: Amministrazione
+exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 translation-type: tm+mt
-source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 87%
+source-wordcount: '1159'
+ht-degree: 86%
 
 ---
-
 
 # Domande frequenti sulla raccolta dei dati e l’integrazione dei prodotti {#data-collection-and-product-integration-faq}
 
@@ -32,13 +32,13 @@ Le caratteristiche per cui è stato effettuato l’onboarding tramite [!UICONTRO
 
 <br> 
 
-**Puoi fornirmi un elenco di indirizzi IP che posso aggiungere a un elenco consentiti  per dpm.demdex.net?**
+**Puoi fornirmi un elenco di indirizzi IP che posso aggiungere a un elenco consentiti per dpm.demdex.net?**
 
 Sfortunatamente non possiamo. Questi IP vengono assegnati in modo dinamico, per area geografica, attraverso [!DNL Amazon Web Services]. Di conseguenza, [!DNL Audience Manager] non controlla l’intervallo di IP che può essere assegnato a questo indirizzo.
 
  
 
-**Puoi fornirmi un indirizzo IP che posso aggiungere a un elenco consentiti  per il tuo server SFTP in entrata e in uscita?**
+**Puoi fornirmi un indirizzo IP che posso aggiungere a un elenco consentiti per il tuo server SFTP in entrata e in uscita?**
 
 Sì, vedi sotto.
 
@@ -49,7 +49,7 @@ Sì, vedi sotto.
 
  
 
-I server SFTP indicati di seguito sono obsoleti. Non verrà eseguito il provisioning di nuovi account utilizzando questi server.
+I server SFTP seguenti sono obsoleti. Non verrà eseguito il provisioning di nuovi account utilizzando questi server.
 
 | Server | Indirizzo IP |
 ---------|----------|
@@ -58,15 +58,15 @@ I server SFTP indicati di seguito sono obsoleti. Non verrà eseguito il provisio
 
  
 
-**Come posso configurare la mia istanza  Audience Manager per l&#39;utilizzo dei nuovi server SFTP?**
+**Come si configura la mia istanza di Audience Manager per l’utilizzo dei nuovi server SFTP?**
 
-Contatta il tuo [!DNL Audience Manager] consulente o l&#39;Assistenza clienti e configurerà i nuovi account SFTP.
+Contatta il tuo consulente [!DNL Audience Manager] o l’Assistenza clienti e configurerà i tuoi nuovi account SFTP.
 
  
 
 **Quali sono i metodi di autenticazione supportati per i nuovi server SFTP?**
 
-I nuovi server SFTP (`ftp-in-gtw` e `ftp-out-gtw`) supportano [!DNL OpenSSH Key-Based Authentication]. Possiamo generare le chiavi [!DNL SSH] per voi, oppure potete fornirci la vostra chiave pubblica.
+I nuovi server SFTP (`ftp-in-gtw` e `ftp-out-gtw`) supportano [!DNL OpenSSH Key-Based Authentication]. Possiamo generare le chiavi [!DNL SSH] per te, oppure puoi fornirci la tua chiave pubblica.
 
  
 
@@ -84,7 +84,7 @@ Come best practice, configura l’integrazione [!DNL Audience Manager]- [!DNL An
 
 * Metti [!UICONTROL DIL] direttamente nel `s_code`.
 
-* Distribuisci [!UICONTROL DIL] e `s_code` attraverso [!DNL Adobe Experience Platform Launch] o [!DNL Adobe DTM].
+* Distribuisci [!UICONTROL DIL] e `s_code` fino a [!DNL Adobe Experience Platform Launch].
 
 Consulta [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
@@ -153,7 +153,7 @@ Sì, [!DNL Audience Manager] può fornirti i dati raccolti per gli utenti che vi
 
 **[!DNL Google Ad Manager]Desidero raccogliere i dati su un sito ed effettuare il targeting degli utenti tramite su un sito diverso. Devo distribuire codice sull’altra proprietà se non desidero raccogliere i dati da tale posizione?**
 
-No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL lì. Se si dispone dell&#39;accesso all&#39;inventario sul secondo sito tramite [!DNL Google Ad Manager], è possibile utilizzare la raccolta dati dal sito iniziale e dalla destinazione tramite [!DNL Google Ad Manager].
+No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL lì. Se hai accesso all’inventario sul secondo sito tramite [!DNL Google Ad Manager], puoi utilizzare la raccolta dati dal sito iniziale ed effettuare il targeting tramite [!DNL Google Ad Manager].
 
 <br> 
 
