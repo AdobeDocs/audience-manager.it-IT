@@ -1,16 +1,16 @@
 ---
-description: Questa pagina illustra il processo di creazione dei pixel WCA (Web Website Custom Audiences) di Facebook allo scopo di inviare segmenti di pubblico di Audience Manager basati su web a Facebook, per il targeting di annunci online con una maggiore trasparenza.
-seo-description: Questa pagina illustra il processo di creazione dei pixel WCA (Web Website Custom Audiences) di Facebook allo scopo di inviare segmenti di pubblico di Audience Manager basati su web a Facebook, per il targeting di annunci online con una maggiore trasparenza.
+description: Questa pagina illustra il processo di creazione dei pixel di Facebook Website Custom Audiences (WCA) allo scopo di inviare segmenti di pubblico di Audience Manager basati su web a Facebook, per il targeting di annunci online con una maggiore trasparenza.
+seo-description: Questa pagina illustra il processo di creazione dei pixel di Facebook Website Custom Audiences (WCA) allo scopo di inviare segmenti di pubblico di Audience Manager basati su web a Facebook, per il targeting di annunci online con una maggiore trasparenza.
 seo-title: Integrazione di Facebook WCA
 solution: Audience Manager
 title: Integrazione di Facebook WCA
-feature: Third-party Integration
+feature: Integrazione di terze parti
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 6%
+source-wordcount: '855'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Questa pagina illustra il processo di creazione di [!DNL Facebook Website Custom
 
 ## Panoramica {#overview}
 
-[Il sito Web di Facebook Custom Audiences (WCA)](https://www.facebook.com/business/help/449542958510885)  consente di creare un elenco di persone che hanno visitato determinate pagine o intrapreso azioni particolari sul tuo sito web. [!DNL Audience Manager] abilita l’attivazione in  [!DNL WCA] utilizzando  [!DNL URL] le destinazioni, con le quali puoi configurare un’integrazione personalizzata basata su pixel per l’invio di tipi di pubblico basati sul Web  [!DNL Facebook] per il targeting.
+[Il sito Web di facebook con tipi di pubblico personalizzati (WCA, Custom Audiences) ](https://www.facebook.com/business/help/449542958510885)  consente di creare un elenco di persone che hanno visitato determinate pagine o effettuato particolari azioni sul sito web. [!DNL Audience Manager] abilita l’attivazione in  [!DNL WCA] utilizzando  [!DNL URL] le destinazioni, con le quali puoi configurare un’integrazione personalizzata basata su pixel per l’invio di tipi di pubblico basati sul Web  [!DNL Facebook] per il targeting.
 
 ![Integrazione di Facebook WCA](/help/using/integration/assets/facebook-wca-integration.png)
 
@@ -35,7 +35,7 @@ Questa pagina illustra il processo di creazione di [!DNL Facebook Website Custom
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versione 4.1.0 o successiva. Scarica la versione più recente **[qui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
 4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versione 9.0 o successiva, scaricabile da  **[qui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. In alternativa, se utilizzi [Server-Side Forwarding (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) per importare dati in [!DNL Audience Manager], devi utilizzare AppMeasurement versione 2.12 o successiva. Scarica [!DNL AppMeasurement] utilizzando [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 
-È consigliabile installare o aggiornare le librerie nei passaggi 3 e 4 utilizzando [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) o [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html).
+È consigliabile installare o aggiornare le librerie nei passaggi 3 e 4 utilizzando [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
 ## Passaggio 1: creare un [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
@@ -71,7 +71,7 @@ Esempio di pixel generati dalla pagina. Questo esempio mostra un utente idoneo p
 | Parametro | Descrizione |
 ---------|----------|
 | `id` | Il tuo [!DNL Facebook] pixel ID, che puoi trovare nell’ interfaccia utente [!DNL Facebook Ad Manager] durante la creazione di pixel per il pubblico. |
-| `ev` | Event.     Si tratta di un valore arbitrario che verrà visualizzato nell&#39;interfaccia utente [!DNL Facebook Ad Manager] una volta che il pixel inizia ad attivarsi sul sito. Per ulteriori informazioni, consulta la voce [!UICONTROL Include] in [Passaggio 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) . |
+| `ev` | Event.   Si tratta di un valore arbitrario che verrà visualizzato nell&#39;interfaccia utente [!DNL Facebook Ad Manager] una volta che il pixel inizia ad attivarsi sul sito. Per ulteriori informazioni, consulta la voce [!UICONTROL Include] in [Passaggio 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) . |
 | `cd[segID]` | Un parametro aggiuntivo, che inizierà a popolarsi all&#39;interno dell&#39;interfaccia utente [!DNL Facebook Ad Manager] una volta che il pixel inizia ad attivarsi sul sito. `segID` è anche arbitrario. |
 | `%ALIAS%` | Una macro [!DNL Audience Manager] che verrà sostituita dinamicamente con gli ID [!DNL Audience Manager] [!UICONTROL segment] idonei per il visitatore del sito, delimitati da virgole , |
 
