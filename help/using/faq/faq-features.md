@@ -6,15 +6,15 @@ seo-title: Domande frequenti su funzioni e funzionalità del prodotto
 solution: Audience Manager
 title: Domande frequenti su funzioni e funzionalità del prodotto
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-feature: Overview
+feature: Panoramica
+exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 89%
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
-
 
 # Domande frequenti su funzioni e funzionalità del prodotto {#product-features-and-functions-faq}
 
@@ -68,7 +68,7 @@ Il feed di dati e tutte le caratteristiche in esso contenute vengono visualizzat
 
 **Che cosa è [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager utilizzava [!UICONTROL Tag Insertion Manager] (TIM) per creare e gestire [!UICONTROL data collection code (DIL)]. Questa funzionalità è obsoleta ed è stata sostituita prima da [!UICONTROL Dynamic Tag Manager (DTM)] e successivamente da [!DNL Adobe Experience Platform Launch]. Per ulteriori informazioni, consulta [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) e [Dynamic Tag Management](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html).
+Audience Manager utilizzava [!UICONTROL Tag Insertion Manager] (TIM) per creare e gestire [!UICONTROL data collection code (DIL)]. Questa funzionalità è obsoleta ed è stata sostituita prima da [!UICONTROL Dynamic Tag Manager (DTM)] e successivamente da [!DNL Adobe Experience Platform Launch]. Per ulteriori informazioni, consulta [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
  
 
