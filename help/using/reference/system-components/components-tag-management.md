@@ -1,23 +1,23 @@
 ---
-description: I componenti per la gestione dei tag di Audience Manager includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Dynamic Tag Manager e Adobe Experience Platform Launch), DIL, Akamai e il database di controllo.
-seo-description: I componenti per la gestione dei tag di Audience Manager includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Dynamic Tag Manager e Adobe Experience Platform Launch), DIL, Akamai e il database di controllo.
+description: I componenti per la gestione dei tag di Audience Manager includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Experience Platform Launch), DIL, Akamai e il database di controllo.
+seo-description: I componenti per la gestione dei tag di Audience Manager includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Experience Platform Launch), DIL, Akamai e il database di controllo.
 seo-title: Componenti di Tag Management
 solution: Audience Manager
 title: Componenti di Tag Management
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: System Components
+feature: 'Componenti di sistema '
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 6%
+source-wordcount: '349'
+ht-degree: 4%
 
 ---
 
 # Componenti di Tag Management{#tag-management-components}
 
-I componenti per la gestione dei tag di Audience Manager includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Dynamic Tag Manager e Adobe Experience Platform Launch), DIL, Akamai e il database di controllo.
+I componenti per la gestione dei tag di Audience Manager includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Experience Platform Launch), DIL, Akamai e il database di controllo.
 
 <!-- 
 
@@ -39,7 +39,7 @@ Il portale client è l’interfaccia utente principale per la gestione di tag e 
 
 ## Contenitore DIL/TIM {#dil-tim}
 
-Il contenitore [!UICONTROL DIL] consente di distribuire il codice di raccolta dati [!DNL Audience Manager] sul sito web. [!UICONTROL TIM] è il gestore dell’inserimento tag obsoleto. Non viene più utilizzato da [!DNL Audience Manager]. Al contrario, utilizza [Dynamic Tag Management](https://docs.adobe.com/content/help/it-IT/dtm/using/dtm-home.html) o l&#39;estensione [!DNL Audience Manager] in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) per configurare e generare il codice contenitore inserito nelle pagine del tuo inventario. Il contenitore [!UICONTROL DTM] funziona con [!UICONTROL Data Information Library (DIL)] per raccogliere i dati dal sito e inviarli a [!DNL Audience Manager].
+Il contenitore [!UICONTROL DIL] consente di distribuire il codice di raccolta dati [!DNL Audience Manager] sul sito web. [!UICONTROL TIM] è il gestore dell’inserimento tag obsoleto. Non viene più utilizzato da [!DNL Audience Manager]. Al contrario, utilizza l’estensione [!DNL Audience Manager] in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) per configurare e generare il codice contenitore inserito nelle pagine del tuo inventario.
 
 ##  Data Integration Library (DIL) {#dil}
 
@@ -47,7 +47,7 @@ La [Libreria informazioni dati](../../dil/dil-overview.md) (DIL) è un modulo AP
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] utilizza l’host  [](https://www.akamai.com/us/en/about/) Akamaito e consegna il codice contenitore dalla nostra piattaforma di gestione dei tag nota come  [!UICONTROL TIM (Tag Insertion Manager)]. Tuttavia, la distribuzione del codice con [!UICONTROL TIM] è stata gradualmente eliminata a favore di [!DNL Adobe Dynamic Tag Management] e [!DNL Adobe Experience Platform Launch].
+[!DNL Audience Manager] utilizza l’host  [](https://www.akamai.com/us/en/about/) Akamaito e consegna il codice contenitore dalla nostra piattaforma di gestione dei tag nota come  [!UICONTROL TIM (Tag Insertion Manager)]. Tuttavia, la distribuzione del codice con [!UICONTROL TIM] è stata gradualmente eliminata a favore di [!DNL Adobe Experience Platform Launch].
 
 ## Database di controllo {#control-database}
 
