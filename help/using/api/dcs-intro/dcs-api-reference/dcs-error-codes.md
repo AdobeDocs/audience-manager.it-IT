@@ -7,9 +7,9 @@ title: Codici errore DCS, messaggi ed esempi
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 1be86de9322df6b764ee3870fa82ddb2bb8b06ec
+source-git-commit: 38c4c46709491656071f4a958e9f0de26d42dd74
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1547'
 ht-degree: 4%
 
 ---
@@ -24,10 +24,10 @@ Nelle tabelle seguenti, *corsivo* rappresenta un segnaposto variabile.
 
 | Codice di errore | Messaggio di errore | Descrizione |
 |---|---|---|
-| 0 | Errore non specificato | Si tratta di un errore catch-all che gestisce gli eventi non coperti dagli altri gestori di errori. È difficile risolvere questo errore. Può essere causato da una varietà di azioni o eventi sconosciuti. Se ricevi questo errore, prova di nuovo la richiesta [!DNL DCS]. Contatta il tuo [!DNL Adobe] rappresentante se il problema persiste. |
+| 0 | Errore non specificato | Si tratta di un errore catch-all che gestisce gli eventi non coperti dagli altri gestori di errori. È difficile risolvere questo errore. Può essere causato da una varietà di azioni o eventi sconosciuti. Se ricevi questo errore, prova di nuovo la richiesta [!DNL DCS]. Se il problema persiste, contatta il tuo [!DNL Adobe] rappresentante . |
 | 1 | Impossibile trovare la configurazione per il nome host: `hostname` | Il nome host inviato nella richiesta non è stato configurato dal nostro team di provisioning partner. Se ricevi questo messaggio di errore, contatta il tuo [!DNL Adobe] rappresentante . |
 | 2 | Valore `d_orgid` non valido (impossibile trovare una configurazione per questo ID organizzazione): `ID` | L&#39;ID organizzazione non è corretto. Controlla il tuo ID e riprova la richiesta. Se non conosci o non disponi del tuo ID organizzazione, consulta la sezione &quot;Pagina di amministrazione&quot; [Organizzazioni e collegamento di account](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) per informazioni su come trovarlo. |
-| 10 | Impossibile valutare le caratteristiche | Le caratteristiche della richiesta sono state valutate parzialmente o non sono state valutate affatto. |
+| 10 | Impossibile valutare le caratteristiche | Le caratteristiche della richiesta sono state valutate parzialmente o non sono state valutate affatto. Se il problema persiste, contatta il tuo [!DNL Adobe] rappresentante . |
 
 ## Codici di errore dell&#39;integrazione {#integration-error-codes}
 
