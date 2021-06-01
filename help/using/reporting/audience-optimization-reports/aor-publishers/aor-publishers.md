@@ -5,9 +5,8 @@ seo-title: Ottimizzazione del pubblico per publisher
 solution: Audience Manager
 title: Ottimizzazione del pubblico per publisher
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
-feature: Audience Optimization Reports
+feature: Rapporti di Audience Optimization
 exl-id: 5972ea89-3e4d-48a5-bdd2-0a34211d8bfd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '277'
