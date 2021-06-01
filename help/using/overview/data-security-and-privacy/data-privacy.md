@@ -5,9 +5,8 @@ seo-title: Panoramica sulla privacy dei dati
 solution: Audience Manager
 title: Panoramica sulla privacy dei dati
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-feature: Data Governance & Privacy
+feature: Governance dei dati e privacy
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '489'
@@ -52,13 +51,13 @@ Mentre le richieste di accesso e cancellazione dei dati vengono gestite tramite 
 
 ## Concetti correlati {#related-concepts}
 
-* [Data Privacy Requests](data-privacy-requests.md)
-* [Consent Management](data-privacy-consent.md)
-* [Audience Manager Plug-in for IAB TCF](aam-iab-plugin.md)
+* [Richieste sulla privacy dei dati](data-privacy-requests.md)
+* [Gestione del consenso](data-privacy-consent.md)
+* [Plug-in di Audience Manager per IAB TCF](aam-iab-plugin.md)
 * [Audience Manager Identifiers](data-privacy-ids.md)
-* [CCPA Glossary](aam-ccpa-glossary.md)
-* [RGPD Glossary](aam-gdpr-glossary.md)
-* [RGPD Considerations for Destinations](aam-gdpr-partners.md)
-* [RGPD Readiness Guidance for Audience Manager Customers](aam-gdpr-readiness.md)
-* [Data Governance](data-governance.md)
-* [Privacy and Data Retention FAQ](../../faq/faq-privacy.md)
+* [Glossario CCPA](aam-ccpa-glossary.md)
+* [Glossario RGPD](aam-gdpr-glossary.md)
+* [Considerazioni sul RGPD per le destinazioni](aam-gdpr-partners.md)
+* [Guida di preparazione al RGPD per i clienti di Audience Manager](aam-gdpr-readiness.md)
+* [Governance dei dati](data-governance.md)
+* [Domande frequenti sulla privacy e sulla conservazione dei dati](../../faq/faq-privacy.md)
