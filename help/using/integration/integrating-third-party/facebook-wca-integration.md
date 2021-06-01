@@ -6,7 +6,6 @@ solution: Audience Manager
 title: Integrazione di Facebook WCA
 feature: Integrazione di terze parti
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-translation-type: tm+mt
 source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
 source-wordcount: '855'
@@ -71,7 +70,7 @@ Esempio di pixel generati dalla pagina. Questo esempio mostra un utente idoneo p
 | Parametro | Descrizione |
 ---------|----------|
 | `id` | Il tuo [!DNL Facebook] pixel ID, che puoi trovare nell’ interfaccia utente [!DNL Facebook Ad Manager] durante la creazione di pixel per il pubblico. |
-| `ev` | Event.   Si tratta di un valore arbitrario che verrà visualizzato nell&#39;interfaccia utente [!DNL Facebook Ad Manager] una volta che il pixel inizia ad attivarsi sul sito. Per ulteriori informazioni, consulta la voce [!UICONTROL Include] in [Passaggio 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) . |
+| `ev` | Event.     Si tratta di un valore arbitrario che verrà visualizzato nell&#39;interfaccia utente [!DNL Facebook Ad Manager] una volta che il pixel inizia ad attivarsi sul sito. Per ulteriori informazioni, consulta la voce [!UICONTROL Include] in [Passaggio 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience) . |
 | `cd[segID]` | Un parametro aggiuntivo, che inizierà a popolarsi all&#39;interno dell&#39;interfaccia utente [!DNL Facebook Ad Manager] una volta che il pixel inizia ad attivarsi sul sito. `segID` è anche arbitrario. |
 | `%ALIAS%` | Una macro [!DNL Audience Manager] che verrà sostituita dinamicamente con gli ID [!DNL Audience Manager] [!UICONTROL segment] idonei per il visitatore del sito, delimitati da virgole , |
 
