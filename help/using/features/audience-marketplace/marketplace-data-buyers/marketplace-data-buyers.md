@@ -7,7 +7,6 @@ title: Audience Marketplace per gli acquirenti di dati
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
 exl-id: 9d6a7fda-f79f-41ad-9654-3ebcf9028cc2
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '750'
@@ -90,5 +89,5 @@ Nell&#39;elenco [!UICONTROL Marketplace], a volte il nome del provider e i dati 
 >[!MORELIKETHIS]
 >
 >* [Informazioni sulla pagina Dettagli piano in Audience Marketplace](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)
->* [Sconti per gli acquirenti di dati](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+* [Sconti per gli acquirenti di dati](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
 
