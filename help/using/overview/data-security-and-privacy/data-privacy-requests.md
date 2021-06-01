@@ -6,9 +6,8 @@ solution: Audience Manager
 keywords: Interfaccia utente RGPD, API RGPD, CCPA, privacy
 title: Richieste sulla privacy dei dati
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: Data Governance & Privacy
+feature: Governance dei dati e privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1486'
