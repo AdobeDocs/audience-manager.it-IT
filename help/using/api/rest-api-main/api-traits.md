@@ -1,27 +1,27 @@
 ---
-description: Metodi che consentono di utilizzare le caratteristiche a livello di programmazione.
-seo-description: Metodi che consentono di utilizzare le caratteristiche a livello di programmazione.
+description: Metodi che consentono di lavorare in modo programmatico con le caratteristiche.
+seo-description: Metodi che consentono di lavorare in modo programmatico con le caratteristiche.
 seo-title: Metodi API per le caratteristiche
 solution: Audience Manager
 title: Metodi API per le caratteristiche
 uuid: 7359070c-0d7b-4dd9-8b8b-028e41bb5a4e
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 65e1b6cd-6f52-4668-b570-d71ed88bc223
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 25%
+source-wordcount: '59'
+ht-degree: 27%
 
 ---
 
-
 # Metodi API per le caratteristiche {#trait-api-methods}
 
-Metodi che consentono di utilizzare le caratteristiche a livello di programmazione.
+Metodi che consentono di lavorare in modo programmatico con le caratteristiche.
 
 >[!IMPORTANT]
 >
->I metodi [!DNL API] della caratteristica sono stati riscritti con [!DNL Swagger] e migrati. Consulta:
+>I metodi [!DNL API] per le caratteristiche sono stati riscritti con [!DNL Swagger] ed è stata eseguita la migrazione. Consulta:
 >
->* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documentazione API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione del codice API di Audience Manager](../../api/api-swagger-migration.md)
+
