@@ -5,9 +5,8 @@ seo-title: Audience Optimization per gli inserzionisti
 solution: Audience Manager
 title: Audience Optimization per gli inserzionisti
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
-feature: Audience Optimization Reports
+feature: Rapporti di Audience Optimization
 exl-id: 13595778-3d3a-4c83-a84f-4bc3af1ee367
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '454'
@@ -27,7 +26,7 @@ Puoi inviare dati a [!DNL Audience Manager] per l’utilizzo in questi rapporti 
 
 * File di dati: Se desideri utilizzare questi rapporti per analizzare i tuoi dati o dati da un’origine non integrata con [!DNL Audience Manager], devi creare e caricare file di dati e metadati per tali dati. Per ulteriori informazioni, consulta [File di dati per rapporti di Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) e [File di dati e metadati per rapporti di Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
 
-## [!UICONTROL Role-Based Access Controls] (RBAC)  {#rbac}
+## [!UICONTROL Role-Based Access Controls] (RBAC) {#rbac}
 
 Il tipo di report che puoi visualizzare dipende dal gruppo [!UICONTROL RBAC] a cui sei assegnato. Per ulteriori informazioni, consulta [Amministrazione](../../../features/administration/administration-overview.md) e [Creare un gruppo](../../../features/administration/administration-overview.md#create-group) .
 
