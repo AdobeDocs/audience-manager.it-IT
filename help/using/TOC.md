@@ -5,7 +5,6 @@ audience: end-user
 user-guide-title: Guida utente di Audience Manager
 user-guide-description: Scopri come Audience Manager ti consente di raccogliere informazioni rilevanti dal punto di vista commerciale sui visitatori del sito, creare segmenti commerciabili e distribuire contenuti e pubblicità mirati al pubblico giusto.
 feature-set: Audience Manager
-translation-type: tm+mt
 source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
 workflow-type: tm+mt
 source-wordcount: '1806'
@@ -20,15 +19,15 @@ ht-degree: 91%
 + Panoramica {#overview}
    + [Panoramica di Audience Manager](overview/aam-overview.md)
    + [Tipi di dati raccolti](overview/data-types-collected.md)
-   + [Sicurezza dei dati](overview/data-security-and-privacy/data-security.md)
+   + [Data Security](overview/data-security-and-privacy/data-security.md)
    + Privacy dei dati {#data-privacy}
       + [Panoramica sulla privacy dei dati](overview/data-security-and-privacy/data-privacy.md)
       + [Richieste sulla privacy dei dati](overview/data-security-and-privacy/data-privacy-requests.md)
       + Riferimenti sulla privacy dei dati {#data-privacy-reference}
-         + [Identificatori di Audience Manager](overview/data-security-and-privacy/data-privacy-ids.md)
-         + [CCPA Glossary](overview/data-security-and-privacy/aam-ccpa-glossary.md)
-         + [RGPD Glossary](overview/data-security-and-privacy/aam-gdpr-glossary.md)
-         + [RGPD Considerations for Destinations](overview/data-security-and-privacy/aam-gdpr-partners.md)
+         + [Audience Manager Identifiers](overview/data-security-and-privacy/data-privacy-ids.md)
+         + [Glossario CCPA](overview/data-security-and-privacy/aam-ccpa-glossary.md)
+         + [Glossario RGPD](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+         + [Considerazioni sul RGPD per le destinazioni](overview/data-security-and-privacy/aam-gdpr-partners.md)
          + [Guida di preparazione al RGPD per i clienti di Audience Manager](overview/data-security-and-privacy/aam-gdpr-readiness.md)
       + Gestione del consenso {#consent-management}
          + [Gestione del consenso](overview/data-security-and-privacy/data-privacy-consent.md)
@@ -72,7 +71,7 @@ ht-degree: 91%
          + [Gestire sottoscrizioni di feed di dati](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
          + [Fatturazione per gli acquirenti di feed di dati](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
       + [Feed di dati privati](features/audience-marketplace/marketplace-private-feeds.md)
-   + [Feed di dati cliente](features/cdf-files.md)
+   + [Customer Data Feeds](features/cdf-files.md)
    + Data Explorer {#data-explorer}
       + [Data Explorer: panoramica, vantaggi e casi di utilizzo](features/data-explorer/data-explorer-overview.md)
       + [Informazioni sui segnali](features/data-explorer/data-explorer-understanding-signals.md)
@@ -128,7 +127,7 @@ ht-degree: 91%
       + [Panoramica delle regole di unione profili](features/profile-merge-rules/merge-rules-overview.md)
       + [Guida introduttiva alle regole di unione profili](features/profile-merge-rules/merge-rules-start.md)
       + [Dashboard delle regole di unione profili](features/profile-merge-rules/merge-rules-dashboard.md)
-      + [Definizione delle opzioni delle regole di unione profili](features/profile-merge-rules/merge-rule-definitions.md).
+      + [Definizione delle opzioni delle regole di unione profili.](features/profile-merge-rules/merge-rule-definitions.md)
       + [Casi d’uso generali per le regole di unione profili](features/profile-merge-rules/merge-rule-targeting-options.md)
       + [Casi di utilizzo del grafico dei dispositivi di collegamento dei profili](features/profile-merge-rules/profile-link-use-case.md)
       + [Casi d’uso del grafico dei dispositivi esterno](features/profile-merge-rules/external-graph-use-cases.md)
@@ -219,7 +218,7 @@ ht-degree: 91%
       + [Tecnologia dei report](reporting/dynamic-reports/interactive-report-technology.md)
    + [Rapporto sullo stato di onboarding](reporting/onboarding-status-report.md)
    + [Cronologia dei file in uscita](reporting/outbound-history-report.md)
-   + [Conteggio degli utenti univoci nei report di sovrapposizione e generali](reporting/unique-user-counts.md)
+   + [Counting Unique Users in Overlap and General Reports](reporting/unique-user-counts.md)
    + [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager](reporting/report-sampling.md)
 + Codice API e SDK {#api-and-sdk-code}
    + [Panoramica del codice API e SDK](api/api.md)
@@ -327,15 +326,15 @@ ht-degree: 91%
          + [Trasferimenti di dati basati su pixel](integration/sending-audience-data/real-time-data-integration/pixel-based-data-transfer.md)
          + [Acquisizione di dati in entrata in tempo reale](integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md)
       + Processo di trasferimento di dati in batch {#batch-data-transfer-process}
-         + [Descrizione del processo di trasferimento di dati in batch](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
+         + [Batch Data Transfer Process Described](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
          + [Panoramica dell’invio di dati in batch ad Audience Manager](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [Sincronizzazione ID per trasferimenti di dati in entrata](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
-         + [Requisiti di nome e contenuto per i file di sincronizzazione ID](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [Contenuti dei file dati in entrata: sintassi, caratteri non validi, variabili ed esempi](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-         + [Requisiti Amazon S3 di nome e dimensione file per i file di dati in entrata](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+         + [Name and Content Requirements for ID Synchronization Files](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
+         + [Inbound Data File Contents: Syntax, Invalid Characters, Variables, and Examples](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [Amazon S3 Name and File Size Requirements for Inbound Data Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [Requisiti FTP di nome e dimensione file per i file di dati in entrata](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [Crittografia PGP dei file per i tipi di dati in entrata](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
-         + [Compressione file per i file di trasferimento dati in entrata](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
+         + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Messaggio di esempio ai partner dopo l’elaborazione in entrata](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Integrazioni di partner personalizzate](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integrazione con Adobe Experience Platform {#integration-experience-platform}
@@ -368,7 +367,7 @@ ht-degree: 91%
    + [Spiegazione delle coppie chiave-valore](reference/key-value-pairs-explained.md)
    + [Requisiti per le password, account bloccati e password dimenticate](reference/password-requirements.md)
    + [Segnali, caratteristiche e segmenti](reference/signal-trait-segment.md)
-   + [Browser supportati](reference/supported-browsers.md)
+   + [Browser supportati ](reference/supported-browsers.md)
    + Componenti di sistema {#system-components}
       + [Panoramica dei componenti di sistema](reference/system-components/components-overview.md)
       + [Componenti chiave nel sistema di Audience Manager](reference/system-components/components-stack.md)
@@ -405,7 +404,7 @@ ht-degree: 91%
    + [Panoramica](/help/using/support-issues/support-issues-overview.md)
    + [Perché la mia popolazione di caratteristiche onboarded è scesa a 0 intorno al 15 ottobre? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [Perché le caratteristiche o i segmenti non vengono visualizzati nella pagina dei report di sovrapposizione?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
-   + [Why are our Read-Only users able to create, edit or delete traits and segments?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+   + [Perché i nostri utenti con accesso in sola lettura sono in grado di creare, modificare o eliminare caratteristiche e segmenti?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Non sono cliente di Audience Manager, ma visualizzo chiamate Javascript di Audience Manager sul mio sito](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Dovrei visualizzare i segmenti mappati da Audience Lab di Audience Manager sulla pagina dei dettagli della destinazione?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Aggiornamenti alla documentazione {#documentation-updates}
