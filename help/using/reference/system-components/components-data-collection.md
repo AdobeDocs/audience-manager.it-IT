@@ -5,9 +5,8 @@ seo-title: Componenti di raccolta dei dati
 solution: Audience Manager
 title: Componenti di raccolta dei dati
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-feature: System Components
+feature: 'Componenti di sistema '
 exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '764'
@@ -85,7 +84,7 @@ Le caratteristiche [!UICONTROL PCS] scaricano se sono inattive per 17 giorni. Tu
 
 Questi sistemi server gestiscono le richieste di privacy e rinuncia degli utenti. Le informazioni sui cookie utente non vengono raccolte nel file di registro se un utente ha rinunciato alla raccolta dei dati. Per ulteriori informazioni sulle nostre politiche sulla privacy, consulta il [Centro per la privacy degli Adobi](https://www.adobe.com/it/privacy/advertising-services.html).
 
-##  Data Integration Library (DIL) {#dil}
+## Libreria di integrazione dei dati (DIL) {#dil}
 
 [!UICONTROL DIL] è il codice inserito nella pagina per la raccolta di dati. Per ulteriori informazioni sui servizi e i metodi disponibili, consulta [API DIL](../../dil/dil-overview.md) .
 
