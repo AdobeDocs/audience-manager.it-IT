@@ -5,9 +5,8 @@ seo-title: Panoramica e mappature dei file di metadati
 solution: Audience Manager
 title: Panoramica e mappature dei file di metadati
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-feature: Log Files
+feature: File di registro
 exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '843'
@@ -143,6 +142,6 @@ Dopo aver assegnato un nome e aggiunto i dati a un file, lo si invia a una direc
 >[!MORELIKETHIS]
 >
 >* [File di dati per report di Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
->* [Acquisizione dei dati di clic delle campagne attraverso chiamate pixel](../../../integration/media-data-integration/click-data-pixels.md)
->* [Acquisizione dei dati di impression delle campagne attraverso chiamate pixel](../../../integration/media-data-integration/impression-data-pixels.md)
+* [Acquisizione dei dati di clic delle campagne attraverso chiamate pixel](../../../integration/media-data-integration/click-data-pixels.md)
+* [Acquisizione dei dati di impression delle campagne attraverso chiamate pixel](../../../integration/media-data-integration/impression-data-pixels.md)
 
