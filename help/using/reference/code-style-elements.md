@@ -5,9 +5,8 @@ seo-title: Convenzioni di stile per gli elementi di codice e testo
 solution: Audience Manager
 title: Convenzioni di stile per gli elementi di codice e testo
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
-feature: Reference
+feature: 'Riferimenti '
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '210'
