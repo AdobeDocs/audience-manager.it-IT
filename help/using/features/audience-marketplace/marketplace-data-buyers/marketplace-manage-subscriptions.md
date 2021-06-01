@@ -7,7 +7,6 @@ title: Gestire sottoscrizioni di feed di dati
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
 exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '2188'
@@ -298,7 +297,7 @@ Questa pagina fornisce le seguenti informazioni:
 
 In qualità di acquirente di dati [!UICONTROL Audience Marketplace], puoi acquistare dati per casi di utilizzo di sovrapposizione, modellazione e attivazione. Ogni caso d’uso è progettato per uno scopo specifico e limita ciò che è possibile fare con i dati. Queste descrizioni dei casi d&#39;uso possono aiutarti a prendere la decisione giusta sul tipo di piano di dati da acquistare.
 
-## Effettuare confronti con segmenti e piani di sovrapposizione {#comparisons}
+## Confronto con segmenti e piani di sovrapposizione {#comparisons}
 
 <!-- c_use_cases_for_buyers.xml -->
 
@@ -320,9 +319,9 @@ Questo caso d&#39;uso consente di inviare dati a una [destinazione](../../../fea
 >[!MORELIKETHIS]
 >
 >* [Allocazione di fatturazione e impression per i feed di dati CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Allocazione di fatturazione e impression per feed di dati a canone fisso](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Come segnalare l’utilizzo di CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
->* [Iscriviti a un feed di dati pubblici](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
->* [Sconti per gli acquirenti di dati](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
->* [Marketplace: Informazioni](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+* [Allocazione di fatturazione e impression per feed di dati a canone fisso](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+* [Come segnalare l’utilizzo di CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+* [Iscriviti a un feed di dati pubblici](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+* [Sconti per gli acquirenti di dati](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+* [Marketplace: Informazioni](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
 
