@@ -1,57 +1,56 @@
 ---
-description: Nella pagina di riepilogo del segmento sono visualizzati dettagli quali nome, caratteristiche del segmento, regole, dati sulle prestazioni e informazioni sulla mappatura della destinazione.
-seo-description: Nella pagina di riepilogo del segmento sono visualizzati dettagli quali nome, caratteristiche del segmento, regole, dati sulle prestazioni e informazioni sulla mappatura della destinazione.
-seo-title: Pagina Dettagli segmento
+description: Nella pagina di riepilogo dei segmenti sono visualizzati dettagli quali nome, caratteristiche del segmento, regole, dati sulle prestazioni e informazioni sulla mappatura della destinazione.
+seo-description: Nella pagina di riepilogo dei segmenti sono visualizzati dettagli quali nome, caratteristiche del segmento, regole, dati sulle prestazioni e informazioni sulla mappatura della destinazione.
+seo-title: Pagina dei dettagli del segmento
 solution: Audience Manager
-title: Pagina Dettagli segmento
+title: Pagina dei dettagli del segmento
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
-keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+keywords: suddivisione del tipo di identità, suddivisione dell'identità, reporting dell'identità del pubblico, tra dispositivi, ID multi-dispositivo, ID dispositivo
+feature: 'Segmenti '
+exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
+# Pagina dei dettagli del segmento {#segment-summary-view}
 
-# Pagina Dettagli segmento {#segment-summary-view}
-
-La pagina dei dettagli per un singolo segmento fornisce una panoramica dei dettagli del segmento, come il nome del segmento, l’ID, le metriche delle prestazioni, le regole che definiscono il segmento e le mappature di destinazione. Per visualizzare questi dettagli, andate a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** e fate clic sul nome del segmento con cui desiderate lavorare.
+La pagina dei dettagli di un singolo segmento fornisce una panoramica dei dettagli del segmento, come il nome del segmento, l’ID, le metriche delle prestazioni, le regole che definiscono il segmento e le mappature di destinazione. Per visualizzare questi dettagli, vai su **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** e fai clic sul nome del segmento con cui desideri lavorare.
 
 ## Strumenti di gestione dei segmenti {#segment-management-tools}
 
-Nella parte superiore della pagina dei dettagli del segmento sono inclusi gli strumenti che puoi utilizzare per gestire i tuoi segmenti:
+Nella parte superiore della pagina dei dettagli del segmento sono inclusi gli strumenti che puoi utilizzare per gestire i segmenti:
 
-1. **[!UICONTROL Add New]**: Utilizzare questa opzione per attivare  [!UICONTROL Segment Builder] e creare nuovi segmenti.
-2. **[!UICONTROL Edit]**: Utilizzare questa opzione per modificare la configurazione del segmento corrente.
-3. **[!UICONTROL Duplicate]**: Utilizzare questa opzione per creare una copia del segmento corrente.
-4. **[!UICONTROL Delete]**: Utilizzate questa opzione per rimuovere il segmento corrente dal conto del Audience Manager .
-5. **[!UICONTROL Marketplace Recommendations]**: Usa questa opzione per trovare segmenti simili a quelli che stai visualizzando, dai feed di  [!UICONTROL Audience Marketplace] dati a cui non sei iscritto. Per informazioni su come navigare nel mercato e trovare segmenti simili, vedere [ Audience Marketplace per gli acquirenti di dati](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).
+1. **[!UICONTROL Add New]**: Utilizza questa opzione per attivare  [!UICONTROL Segment Builder] e creare nuovi segmenti.
+2. **[!UICONTROL Edit]**: Utilizza questa opzione per modificare la configurazione del segmento corrente.
+3. **[!UICONTROL Duplicate]**: Utilizza questa opzione per creare una copia del segmento corrente.
+4. **[!UICONTROL Delete]**: Utilizza questa opzione per rimuovere il segmento corrente dal tuo account di Audience Manager.
+5. **[!UICONTROL Marketplace Recommendations]**: Utilizza questa opzione per trovare segmenti simili a quelli che stai visualizzando, dai feed di  [!UICONTROL Audience Marketplace] dati a cui non sei iscritto. Per informazioni su come navigare nel Marketplace e trovare segmenti simili, consulta [Audience Marketplace per gli acquirenti di dati](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) .
 
-![base-segmento-informazioni](assets/basic-segment-information.png)
+![informazioni di base sui segmenti](assets/basic-segment-information.png)
 
-## Informazioni segmento {#basics}
+## Informazioni sui segmenti {#basics}
 
-Sotto gli strumenti di gestione dei segmenti potete trovare le seguenti informazioni sui segmenti:
+Di seguito gli strumenti di gestione dei segmenti è possibile trovare le seguenti informazioni sui segmenti:
 
-1. **[!UICONTROL Basic Information]:** Mostra i dettagli obbligatori e facoltativi specificati al momento della creazione del segmento. Per una panoramica dettagliata del significato di questi campi, vedere [Generatore di segmenti](segment-builder.md).
-2. **[!UICONTROL Segment Graph]:** Visualizza i dati sulle prestazioni graficamente e per intervalli fissi di 1, 7, 14, 30, 60 e 90 giorni. Spieghiamo i numeri della popolazione del segmento in un [articolo separato](../../features/segments/segment-builder-data.md).
+1. **[!UICONTROL Basic Information]:** mostra i dettagli richiesti e facoltativi specificati al momento della creazione del segmento. Per una panoramica dettagliata del significato di questi campi, consulta [Generatore di segmenti](segment-builder.md) .
+2. **[!UICONTROL Segment Graph]:** visualizza graficamente i dati sulle prestazioni e per intervalli fissi di 1, 7, 14, 30, 60 e 90 giorni. Spieghiamo i numeri della popolazione del segmento in un [articolo separato](../../features/segments/segment-builder-data.md).
 
-   ![segmenti-grafo](assets/segment-graph.png)
+   ![grafico a segmenti](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown ]:** Il rapporto mostra il numero di persone o famiglie idonee per un segmento contando il numero di ID cross-device e/o di ID di Device Graph esterni collegati ai dispositivi idonei per il segmento (mostrato dal  [!UICONTROL Total Segment Population]). Gli ID cross-device e gli ID di Device Graph esterni mostrati in questo rapporto vengono utilizzati per unire i profili con la regola di unione dei profili utilizzata dal segmento. Questo rapporto viene visualizzato solo se hai selezionato un&#39;origine dati multi-dispositivo o un Device Graph esterno nella regola di unione del profilo utilizzata dal segmento.
+3. **[!UICONTROL Identity Type Breakdown ]:** Il rapporto mostra il numero di persone o famiglie idonee per un segmento contando il numero di ID multi-dispositivo e/o di ID grafici dei dispositivi esterni collegati ai dispositivi qualificati per il segmento (mostrato dal  [!UICONTROL Total Segment Population]). Gli ID multi-dispositivo e gli ID grafici dei dispositivi esterni visualizzati in questo rapporto vengono utilizzati per unire i profili con la regola di unione dei profili utilizzata dal segmento. Questo rapporto viene visualizzato solo se hai selezionato un’origine dati multi-dispositivo o un grafico dei dispositivi esterno nella regola di unione profili in uso nel segmento.
 
-   ![segmenti-grafo](assets/segment-type.png)
+   ![grafico a segmenti](assets/segment-type.png)
 
    >[!NOTE]
    >
-   > Audience Manager visualizza il rapporto [!UICONTROL Identity Type Breakdown] solo se disponete di ID cross-device qualificati per il segmento.
+   >Il rapporto [!UICONTROL Identity Type Breakdown] viene visualizzato solo in Audience Manager se disponi di ID multi-dispositivo qualificati per il segmento.
 
-   Guardate il video seguente per una panoramica di [!UICONTROL Identity Type Breakdown].
+   Guarda il video seguente per una panoramica di [!UICONTROL Identity Type Breakdown].
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
-4. **[!UICONTROL Segment Rules]:** Elenca le caratteristiche nel segmento insieme alle regole di qualifica.
-5. **[!UICONTROL Destination Mappings]:** Elenca le mappature di destinazione per il segmento.
-6. **[!UICONTROL Management Tools]:** Controlli che consentono di creare, modificare, duplicare ed eliminare i segmenti.
+4. **[!UICONTROL Segment Rules]:** elenca le caratteristiche del segmento insieme alle regole di qualificazione.
+5. **[!UICONTROL Destination Mappings]:** elenca le mappature di destinazione per il segmento.
+6. **[!UICONTROL Management Tools]:** consente di creare, modificare, clonare ed eliminare segmenti.
