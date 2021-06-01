@@ -5,9 +5,8 @@ seo-title: Espressioni booleane nel Generatore di caratteristiche e segmenti
 solution: Audience Manager
 title: Espressioni booleane nel Generatore di caratteristiche e segmenti
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
-feature: Reference
+feature: 'Riferimenti '
 exl-id: 44bc0385-2cce-4173-9833-b9a30fb6edae
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '555'
@@ -83,5 +82,5 @@ L’operatore [!UICONTROL AND NOT] è utile quando è più facile definire un pu
 >[!MORELIKETHIS]
 >
 >* [Utilizzo degli operatori di confronto nel Generatore di caratteristiche](../features/traits/trait-comparison-operators.md)
->* [Ordine delle operazioni nelle espressioni di TraitBuilder](../features/traits/trait-operator-precedence.md)
+* [Ordine delle operazioni nelle espressioni di TraitBuilder](../features/traits/trait-operator-precedence.md)
 
