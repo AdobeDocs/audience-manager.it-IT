@@ -5,9 +5,8 @@ seo-title: Metodi di distribuzione dei file di metadati
 solution: Audience Manager
 title: Metodi di distribuzione dei file di metadati
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
-feature: Log Files
+feature: File di registro
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '391'
@@ -23,7 +22,7 @@ Invia o aggiorna i file di metadati inviandoli a una directory speciale [!DNL Am
 >
 > Contatta il tuo consulente di Audience Manager o l’Assistenza clienti per iniziare e impostare una directory [!DNL Amazon S3] per i file di metadati.
 
-## Sintassi del percorso di consegna ed esempio {#syntax}
+## Sintassi ed esempio di percorso di consegna {#syntax}
 
 I dati vengono memorizzati in uno spazio dei nomi separato per ogni cliente in una directory [!DNL Amazon S3] . Il percorso del file segue la sintassi mostrata di seguito. Le parentesi angolari `<>` indicano un segnaposto variabile. Gli altri elementi sono costanti e non cambiano.
 
