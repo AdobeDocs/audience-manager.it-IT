@@ -1,33 +1,32 @@
 ---
-description: Create le destinazioni con questi metodi RESTful API.
-seo-description: Create le destinazioni con questi metodi RESTful API.
+description: Crea destinazioni con questi metodi API RESTful.
+seo-description: Crea destinazioni con questi metodi API RESTful.
 seo-title: Creare destinazioni
 solution: Audience Manager
 title: Creare destinazioni
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 9%
 
 ---
 
-
 # Creare destinazioni {#create-destinations}
 
-Create le destinazioni con questi metodi [!UICONTROL RESTful API].
+Crea le destinazioni con questi metodi [!UICONTROL RESTful API].
 
 <!-- c_create_destinations.xml -->
 
 ## Tipi di destinazione supportati: Solo URL e cookie
 
-I metodi `POST` disponibili consentono di creare solo [!UICONTROL URL] e [!UICONTROL cookie destinations]. Al momento non è possibile creare [!UICONTROL server-to-server destinations] con questi metodi [!DNL REST API]. Tuttavia, i metodi `GET` di destinazione correlati consentono di recuperare informazioni su [!UICONTROL server-to-server destinations] creati nell&#39;interfaccia utente.
+I metodi `POST` disponibili consentono di creare solo [!UICONTROL URL] e [!UICONTROL cookie destinations]. Al momento non è possibile creare [!UICONTROL server-to-server destinations] con questi metodi [!DNL REST API]. Tuttavia, i metodi `GET` di destinazione correlati consentono di recuperare informazioni su [!UICONTROL server-to-server destinations] create nell&#39;interfaccia utente.
 
 ## Creare una destinazione URL non seriale {#create-nonserial-dest}
 
-Metodo `POST` che consente di creare una destinazione che accetta segmenti composti da coppie chiave-valore singole (ad esempio, `gender=male` o `gender=female`).
+Un metodo `POST` che consente di creare una destinazione che accetta segmenti composti da coppie chiave-valore singole (ad esempio, `gender=male` o `gender=female`).
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -37,7 +36,7 @@ Metodo `POST` che consente di creare una destinazione che accetta segmenti compo
 
 ### Richiesta di esempio
 
-Questa richiesta crea una singola destinazione. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Questa richiesta crea una singola destinazione. Tutti i valori della richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -80,7 +79,7 @@ Una richiesta corretta restituisce `201 created` e la destinazione.
 
 ## Creare una destinazione URL serializzata {#create-serial-url-dest}
 
-Un metodo `POST` che consente di creare una destinazione che accetta più valori associati a una singola chiave (ad es. `color=blue, red, green`).
+Un metodo `POST` che consente di creare una destinazione che accetta più valori associati a una singola chiave (ad esempio, `color=blue, red, green`).
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -90,7 +89,7 @@ Un metodo `POST` che consente di creare una destinazione che accetta più valori
 
 ### Richiesta di esempio
 
-Specificare il carattere di delimitazione [!DNL URL] protetto per la coppia chiave-valore passata alla destinazione. Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Specifica il carattere di delimitazione [!DNL URL] e sicuro per la coppia chiave-valore passata alla destinazione. Tutti i valori della richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -134,9 +133,9 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 }
 ```
 
-## Crea una destinazione cookie: Chiave singola, non serializzata {#create-cookie-dest-single}
+## Creare una destinazione cookie: Chiave singola, non serializzata {#create-cookie-dest-single}
 
-Metodo `POST` che consente di creare un [!UICONTROL cookie destination] che accetta segmenti composti da coppie chiave-valore singole (ad esempio, `gender=male` o `gender=female`).
+Un metodo `POST` che consente di creare un [!UICONTROL cookie destination] che accetta segmenti composti da coppie chiave-valore singole (ad esempio, `gender=male` o `gender=female`).
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -146,7 +145,7 @@ Metodo `POST` che consente di creare un [!UICONTROL cookie destination] che acce
 
 ### Richiesta di esempio
 
-Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Tutti i valori della richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -203,9 +202,9 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 } 
 ```
 
-## Crea una destinazione cookie: Chiave singola, serializzata {#create-cookie-dest-single-serial}
+## Creare una destinazione cookie: Chiave singola, serializzata {#create-cookie-dest-single-serial}
 
-Un metodo `POST` che consente di creare una destinazione che accetta più valori associati a una singola chiave (ad es. `color=blue, red, green`).
+Un metodo `POST` che consente di creare una destinazione che accetta più valori associati a una singola chiave (ad esempio, `color=blue, red, green`).
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -215,7 +214,7 @@ Un metodo `POST` che consente di creare una destinazione che accetta più valori
 
 ### Richiesta di esempio
 
-Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Tutti i valori della richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -274,9 +273,9 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 }
 ```
 
-## Crea una destinazione cookie: Multi-chiave, non serializzata {#create-cookie-dest-multi}
+## Creare una destinazione cookie: Multi-chiave, non serializzata {#create-cookie-dest-multi}
 
-Metodo `POST` che consente di creare una destinazione che accetta segmenti contenenti più chiavi con valori diversi (ad esempio, `gender=male; gender=female; color=blue; color=red`).
+Un metodo `POST` che consente di creare una destinazione che accetta segmenti contenenti più chiavi con valori diversi (ad esempio, `gender=male; gender=female; color=blue; color=red`).
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -286,7 +285,7 @@ Metodo `POST` che consente di creare una destinazione che accetta segmenti conte
 
 ### Richiesta di esempio
 
-Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Tutti i valori della richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -341,9 +340,9 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 }
 ```
 
-## Crea una destinazione cookie: Più chiavi, serializzate {#create-cookie-dest-multi-serial}
+## Creare una destinazione cookie: Multi-chiave, serializzata {#create-cookie-dest-multi-serial}
 
-Metodo `POST` che consente di creare una destinazione che accetta segmenti contenenti più chiavi e valori (ad esempio, `gender=male, female; color=blue, red, green`).
+Un metodo `POST` che consente di creare una destinazione che accetta segmenti contenenti più chiavi e valori (ad esempio, `gender=male, female; color=blue, red, green`).
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
@@ -353,7 +352,7 @@ Metodo `POST` che consente di creare una destinazione che accetta segmenti conte
 
 ### Richiesta di esempio
 
-Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
+Tutti i valori della richiesta sono obbligatori, salvo diversa indicazione.
 
 ```
 { 
@@ -413,6 +412,6 @@ Un aggiornamento riuscito restituisce il codice di risposta `201 created` e la d
 >[!MORELIKETHIS]
 >
 >* [Destinazioni ](../../../features/destinations/destinations.md)
->* [Serializzazione delle destinazioni](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Spiegazione delle coppie chiave-valore](../../../reference/key-value-pairs-explained.md)
+* [Serializzazione delle destinazioni](../../../features/destinations/key-value-pairs.md#destination-serialized)
+* [Spiegazione delle coppie chiave-valore](../../../reference/key-value-pairs-explained.md)
 
