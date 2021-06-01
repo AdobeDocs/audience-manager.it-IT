@@ -4,9 +4,8 @@ seo-description: Audience Analytics consente di inviare segmenti Audience Manage
 seo-title: Configurare una destinazione di Analytics
 solution: Audience Manager
 title: Configurare una destinazione di Analytics
-feature: Adobe Analytics Integration
+feature: Integrazione di Adobe Analytics
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '867'
