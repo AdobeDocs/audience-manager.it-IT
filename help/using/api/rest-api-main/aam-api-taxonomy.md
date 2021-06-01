@@ -1,33 +1,32 @@
 ---
-description: Metodi che consentono di visualizzare la tassonomia comune  Audience Manager. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
-seo-description: Metodi che consentono di visualizzare la tassonomia comune  Audience Manager. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
+description: Metodi che consentono di visualizzare l’Audience Manager della tassonomia comune. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
+seo-description: Metodi che consentono di visualizzare l’Audience Manager della tassonomia comune. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
 seo-title: Metodi API tassonomici
 solution: Audience Manager
 title: Metodi API tassonomici
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 8%
 
 ---
 
-
 # Metodi API tassonomici {#taxonomic-api-methods}
 
-Metodi che consentono di visualizzare la tassonomia comune  Audience Manager. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
+Metodi che consentono di visualizzare l’Audience Manager della tassonomia comune. Questo sistema di classificazione opzionale organizza le caratteristiche in categorie standard di settore.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->Non è possibile creare nuove categorie tassonomiche o classificare le caratteristiche con questi metodi. Per classificare una caratteristica, specificate la `categoryId` appropriata con un metodo di creazione o aggiornamento della caratteristica.
+>Non è possibile creare nuove categorie tassonomiche o classificare le caratteristiche con questi metodi. Per classificare una caratteristica, specifica la `categoryId` appropriata con un metodo di creazione o aggiornamento delle caratteristiche.
 
 ## Restituire una tassonomia specifica {#return-specific-taxonomy}
 
-Un metodo `GET` che restituisce dettagli sulla categoria tassonomica specificata.
+Un metodo `GET` che restituisce i dettagli sulla categoria tassonomica specificata.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -52,7 +51,7 @@ Una risposta corretta restituisce `200 OK` e la categoria per l&#39;ID specifica
 
 ## Restituisci tutte le categorie tassonomiche {#return-all-taxonomy-categories}
 
-Un metodo `GET` che restituisce un elenco delle categorie di livello principale di un array.
+Metodo `GET` che restituisce un elenco delle categorie di livello principale di un array.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -93,9 +92,9 @@ Troncato per brevità.
 ]
 ```
 
-## Sottocategorie tassonomiche di ritorno {#return-taxonomy-sub-categories}
+## Sotto-categorie tassonomiche {#return-taxonomy-sub-categories}
 
-Un metodo `GET` che restituisce sottocategorie per la categoria principale specificata in un array.
+Metodo `GET` che restituisce sottocategorie per la categoria padre specificata in un array.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
