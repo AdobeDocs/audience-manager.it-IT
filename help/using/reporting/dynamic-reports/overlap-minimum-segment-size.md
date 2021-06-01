@@ -5,9 +5,8 @@ seo-title: Pianificazione aggiornamento rapporti di sovrapposizione e dimensione
 solution: Audience Manager
 title: Pianificazione aggiornamento rapporti di sovrapposizione e dimensione minima del segmento
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
-feature: Overlap Reports
+feature: Rapporti di sovrapposizione
 exl-id: 89fa9d92-8676-4706-9fab-22c35763b218
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '355'
@@ -54,6 +53,6 @@ Se un segmento non viene visualizzato in uno dei [!UICONTROL Overlap] rapporti, 
 >[!MORELIKETHIS]
 >
 >* [Rapporto di sovrapposizione caratteristica-caratteristica](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
->* [Rapporto di sovrapposizione segmento-caratteristica](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
->* [Rapporto di sovrapposizione segmento-segmento](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
+* [Rapporto di sovrapposizione segmento-caratteristica](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
+* [Rapporto di sovrapposizione segmento-segmento](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
 
