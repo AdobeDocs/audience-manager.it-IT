@@ -7,7 +7,6 @@ title: Condivisione del pubblico tra Audience Manager e Adobe Experience Platfor
 keywords: Condivisione di audience AEP, segmenti AEP, segmenti Platform, condivisione di segmenti, condivisione di audience, condivisione di segmenti
 feature: Integrazione di Platform
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-translation-type: tm+mt
 source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
 source-wordcount: '1465'
@@ -109,9 +108,9 @@ Per un esempio di segmento creato automaticamente da un segmento di Experience P
 
 | Numero articolo | Nome | Descrizione |
 ---------|----------|---------
-| 3 | [!UICONTROL Integration Code] | Il codice di integrazione corrisponde all’ID del segmento in Experience Platform. |
+| 1 | [!UICONTROL Integration Code] | Il codice di integrazione corrisponde all’ID del segmento in Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Creazione automatica. Tutte le caratteristiche e i segmenti creati automaticamente dai segmenti di Experience Platform vengono memorizzati nell’origine dati **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica che i segmenti creati automaticamente seguono il criterio di unione impostato in Experience Platform. |
+| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** indica che i segmenti creati automaticamente seguono il criterio di unione impostato in Experience Platform. |
 | 4 | [!UICONTROL Segment Rule] | Il segmento è costituito dalla caratteristica descritta nella sezione [Caratteristiche](#aep-segments-as-aam-traits). |
 
 ## Supporto di Audience Manager Data Export Control nell&#39;Experience Platform {#aam-data-export-control-in-aep}
