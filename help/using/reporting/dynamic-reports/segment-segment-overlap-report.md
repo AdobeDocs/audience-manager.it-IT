@@ -5,9 +5,8 @@ seo-title: Rapporto di sovrapposizione segmento-segmento
 solution: Audience Manager
 title: Rapporto di sovrapposizione segmento-segmento
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
-feature: Overlap Reports
+feature: Rapporti di sovrapposizione
 exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '377'
@@ -76,9 +75,9 @@ La finestra a comparsa del rapporto [!UICONTROL Segment-to-Segment Overlap] cont
 >[!MORELIKETHIS]
 >
 >* [Filtrare i risultati dei report con i cursori di dati](../../reporting/dynamic-reports/data-sliders.md)
->* [Forme, colori e dimensioni utilizzati nei rapporti interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Spiegazione di icone e strumenti del rapporto](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager...](../../reporting/report-sampling.md)
->* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
+* [Forme, colori e dimensioni utilizzati nei rapporti interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+* [Spiegazione di icone e strumenti del rapporto](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+* [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager...](../../reporting/report-sampling.md)
+* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
 
