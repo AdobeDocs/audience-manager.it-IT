@@ -7,7 +7,6 @@ title: Fatturazione per provider di feed di dati
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
 exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '455'
@@ -125,6 +124,6 @@ Un report di fatturazione contiene le seguenti informazioni.
 >[!MORELIKETHIS]
 >
 >* [Allocazione di fatturazione e impression per i feed di dati CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [Allocazione di fatturazione e impression per feed di dati a canone fisso](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [Come segnalare l’utilizzo di CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+* [Allocazione di fatturazione e impression per feed di dati a canone fisso](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+* [Come segnalare l’utilizzo di CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 
