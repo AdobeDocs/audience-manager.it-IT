@@ -3,9 +3,8 @@ description: La vostra azienda potrebbe voler offuscare l’indirizzo IP in molt
 seo-description: La vostra azienda potrebbe voler offuscare l’indirizzo IP in molti paesi a causa delle normative globali sulla privacy. Audience Manager consente di offuscare gli indirizzi IP dei visitatori su base globale o paese per paese.
 solution: Audience Manager
 title: Offuscamento dell’indirizzo IP
-feature: Data Governance & Privacy
+feature: Governance dei dati e privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '473'
