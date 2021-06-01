@@ -5,9 +5,8 @@ seo-title: Modificare la chiamata API GPT setTargeting
 solution: Audience Manager
 title: Modificare la chiamata API GPT setTargeting
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
-feature: Third-party Integration
+feature: Integrazione di terze parti
 exl-id: cc34b7e8-7bbd-463f-9378-9d3a40c49594
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '300'
@@ -79,5 +78,5 @@ Definisce le variabili chiave utilizzate nell&#39;istruzione `if`.
 >[!MORELIKETHIS]
 >
 >* [Creare una destinazione GPT](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Codice di Audience Manager per i tag publisher di Google](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+* [Codice di Audience Manager per i tag publisher di Google](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
