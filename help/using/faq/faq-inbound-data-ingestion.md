@@ -1,20 +1,19 @@
 ---
 description: Domande frequenti su come importare dati offline in Audience Manager.
-keywords: ftp or s3;s3 or ftp
+keywords: ftp o s3;s3 o ftp
 seo-description: Domande frequenti su come importare dati offline in Audience Manager.
 seo-title: Domande frequenti sull’acquisizione dei dati dei clienti in entrata
 solution: Audience Manager
 title: Domande frequenti sull’acquisizione dei dati dei clienti in entrata
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: Onboarding Offline Data
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Onboarding dei dati offline
+exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1364'
 ht-degree: 91%
 
 ---
-
 
 # Domande frequenti sull’acquisizione dei dati dei clienti in entrata {#inbound-customer-data-ingestion-faq}
 
@@ -59,7 +58,7 @@ Consulta [File Compression for Inbound Data Transfer Files](../integration/sendi
 
 **Posso caricare un file di dati in entrata (file [!DNL .sync] o [!DNL .overwrite]) prima di distribuire il codice [!DNL Audience Manager] in produzione?**
 
-Sì. Se utilizzi un [!UICONTROL cross-device data source] per memorizzare i dati CRM caricati,  Audience Manager memorizza sempre i dati. In realtà, in seguito ai [!UICONTROL Profile Merge Rules] miglioramenti che  Audience Manager avviato a ottobre 2019 e che consentono casi di utilizzo esclusivamente offline, potete caricare e intervenire sui dati senza distribuire  codice Audience Manager in produzione. Consulta:
+Sì. Se utilizzi un [!UICONTROL cross-device data source] per memorizzare i dati CRM caricati, Audience Manager memorizza sempre i dati. Infatti, in seguito ai miglioramenti [!UICONTROL Profile Merge Rules] lanciati nell’Audience Manager a ottobre 2019 per consentire casi di utilizzo in modalità solo offline, puoi caricare e intervenire sui dati senza distribuire il codice Audience Manager in produzione. Consulta:
 
 * [Overview of Profile Merge Rules Enhancements](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
 * [!UICONTROL People-based Destinations] -  [Personalizzazione basata su dati solo offline](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
@@ -184,11 +183,11 @@ Durante l’elaborazione, [!DNL Audience Manager] ignora quel record e passa al 
 
 Le marche temporali vengono utilizzate per la registrazione e per la conservazione di record. Sono richieste dalla sintassi utilizzata per formattare correttamente il nome di un file in entrata. Consulta:
 
-* [Requisiti di nome di Amazon S3 per file di dati in entrata](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
-**Cos&#39;è un  [!DNL Data Provider ID (DPID)] e come lo ottengo?**
+**Cos’è un  [!DNL Data Provider ID (DPID)] e come lo ottengo?**
 
 Il tuo consulente Adobe assegnerà un [DPID (Data Provider ID)](../reference/ids-in-aam.md) di tre o quattro cifre alla tua specifica sorgente di dati. Questo ID è univoco e non viene modificato.
 
@@ -205,13 +204,13 @@ Consulta [File Compression for Inbound Data Transfer Files](../integration/sendi
 Sì, consulta:
 
 * [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
-* [ requisiti di nome Amazon S3 per i file di dati in entrata](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Requisiti di nome Amazon S3 per file di dati in entrata](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
 **La chiave primaria nel mio database delle sorgenti di dati è un indirizzo e-mail. È considerata un’informazione personale?**
 
-Sì. [!DNL Audience Manager] non memorizza gli indirizzi e-mail nel proprio database. Prima di avviare la sincronizzazione degli ID, ai visitatori deve essere assegnato un ID generato in modo casuale o una versione con hash unidirezionale dell’indirizzo e-mail.
+Sì. [!DNL Audience Manager] non memorizza gli indirizzi e-mail nel proprio database. Prima di avviare la sincronizzazione ID, è necessario assegnare ai visitatori un ID generato in modo casuale o una versione con hash unidirezionale dell’indirizzo e-mail.
 
  
 
@@ -227,7 +226,7 @@ Come best practice, consigliamo [!DNL Amazon S3] perché il processo è più sem
 
 >[!WARNING]
 >
->Stiamo gradualmente eliminando il supporto per le configurazioni FTP. Anche se l&#39;assimilazione dei file di dati in entrata è ancora supportata nelle integrazioni FTP esistenti, si consiglia vivamente di utilizzare [!DNL Amazon S3] per incorporare dati offline per nuove integrazioni. Per informazioni dettagliate, consulta [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
+>Stiamo gradualmente eliminando il supporto per le configurazioni FTP. Anche se l’acquisizione di file di dati in entrata è ancora supportata nelle integrazioni FTP esistenti, è consigliabile utilizzare [!DNL Amazon S3] per l’onboarding di dati offline per nuove integrazioni. Per informazioni dettagliate, consulta [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
 
  
 
