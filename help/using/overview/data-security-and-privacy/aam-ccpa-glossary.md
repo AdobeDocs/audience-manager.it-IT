@@ -4,9 +4,8 @@ seo-description: In questo articolo vengono illustrati i concetti e la terminolo
 seo-title: Glossario CCPA
 solution: Audience Manager
 title: Glossario CCPA
-feature: Data Governance & Privacy
+feature: Governance dei dati e privacy
 exl-id: b3e97e2b-81a4-4b32-9716-5b18c3f8362f
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '546'
@@ -53,6 +52,6 @@ Acquisisci familiarità con i termini chiave utilizzati relativi al CCPA. Di seg
  
 
 >[!MORELIKETHIS]
+[Panoramica sulla privacy dei dati](/help/using/overview/data-security-and-privacy/data-privacy.md)>
 >
->[Data Privacy Overview](/help/using/overview/data-security-and-privacy/data-privacy.md)
 
