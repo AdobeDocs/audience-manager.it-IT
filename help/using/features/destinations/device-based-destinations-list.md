@@ -7,7 +7,6 @@ solution: Audience Manager
 title: Destinazioni server-to-server Adobe Audience Manager
 feature: Nozioni di base sulle destinazioni
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-translation-type: tm+mt
 source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
 workflow-type: tm+mt
 source-wordcount: '1148'
