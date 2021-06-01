@@ -3,9 +3,8 @@ description: Utilizza le opzioni nel menu Analytics per visualizzare il dashboar
 seo-description: Utilizza le opzioni nel menu Analytics per visualizzare il dashboard e vari rapporti in Adobe Audience Manager (AAM).
 seo-title: Panoramica dei rapporti in Adobe Audience Manager (AAM)
 title: Panoramica del reporting
-feature: Reporting Reference
+feature: Riferimento per la generazione di rapporti
 exl-id: 8b0e34be-7a78-426c-a295-5e58a3462d64
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '414'
@@ -43,7 +42,7 @@ Per informazioni che descrivono i tempi in cui Audience Manager riceve informazi
 
    A [!UICONTROL Trend report] restituisce i dati di tendenza su [!UICONTROL traits] e [!UICONTROL segments].
 
-* [Conteggio degli utenti univoci nei report di sovrapposizione e generali](/help/using/reporting/unique-user-counts.md)
+* [Counting Unique Users in Overlap and General Reports](/help/using/reporting/unique-user-counts.md)
 
    Descrive la variazione dei totali utente univoci tra i rapporti per lo stesso [!UICONTROL trait] e lo stesso periodo di tempo.
 
