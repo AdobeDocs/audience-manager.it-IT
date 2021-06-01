@@ -4,9 +4,8 @@ seo-description: 'Questa pagina include indicazioni dettagliate su come combinar
 seo-title: 'Flusso di lavoro A: personalizzazione basata su tutte le attività online combinate con dati offline'
 solution: Audience Manager
 title: 'Flusso di lavoro A: personalizzazione basata su tutte le attività online combinate con dati offline'
-feature: People-based Destinations
+feature: Destinazioni basate su persone
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1181'
