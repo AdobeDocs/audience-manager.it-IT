@@ -1,21 +1,20 @@
 ---
-description: Cercare i segnali usati e inutilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, accedi a Audience Data > Segnali > Cerca.
-seo-description: Cercare i segnali usati e inutilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, accedi a Audience Data > Segnali > Cerca.
+description: Cercare i segnali usati e inutilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, vai a Dati del pubblico > Segnali > Cerca.
+seo-description: Cercare i segnali usati e inutilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, vai a Dati del pubblico > Segnali > Cerca.
 seo-title: 'Ricerca di segnali '
 title: 'Ricerca di segnali '
-feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: 'Data Explorer '
+exl-id: 4cc363eb-9102-4c48-8cd5-efc52ee1c2fd
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 29%
+source-wordcount: '95'
+ht-degree: 30%
 
 ---
 
-
 # Panoramica della ricerca di segnali {#signals-search}
 
-Cercare i segnali usati e inutilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, accedi a Audience Data > Segnali > Cerca.
+Cercare i segnali usati e inutilizzati ricevuti in periodi di tempo specifici. Per cercare i segnali, vai a Dati del pubblico > Segnali > Cerca.
 
 * [Ricerca di segnali per coppie chiave-valore](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
 * [Ricerca di segnali per filtri](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
