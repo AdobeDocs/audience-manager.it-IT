@@ -5,9 +5,8 @@ seo-title: Casi di utilizzo del grafico dei dispositivi di collegamento dei prof
 solution: Audience Manager
 title: Casi di utilizzo del grafico dei dispositivi di collegamento dei profili
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
-feature: Profile Merge
+feature: Unione profili
 exl-id: 8712d02f-c431-4116-8807-41f9e2dda44c
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '327'
@@ -50,6 +49,6 @@ Questo [!UICONTROL Profile Merge Rule] consente agli addetti al marketing di for
 >[!MORELIKETHIS]
 >
 >* [Casi d’uso del grafico dei dispositivi esterno](external-graph-use-cases.md)
->* [Casi d’uso generali per le regole di unione profili](merge-rule-targeting-options.md)
->* [Domande frequenti sulle regole di unione dei profili](../../faq/faq-profile-merge.md)
+* [Casi d’uso generali per le regole di unione profili](merge-rule-targeting-options.md)
+* [Domande frequenti sulle regole di unione dei profili](../../faq/faq-profile-merge.md)
 
