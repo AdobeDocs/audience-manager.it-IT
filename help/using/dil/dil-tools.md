@@ -5,19 +5,18 @@ seo-title: Strumenti DIL
 solution: Audience Manager
 title: Strumenti DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: Implementazione di DIL
+exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '295'
 ht-degree: 4%
 
 ---
 
-
 # Strumenti DIL
 
-Descrive i metodi nello spazio dei nomi `DIL.tools`. Queste funzioni di utilità consentono di eseguire attività specifiche.
+Descrive i metodi nello spazio dei nomi `DIL.tools` . Queste funzioni di utilità consentono di eseguire attività specifiche.
 
 <!-- 
 
@@ -35,24 +34,24 @@ r_dil_get_search_referrer.xml
 
  -->
 
-### Finalità di `getSearchReferrer`
+### Scopo di `getSearchReferrer`
 
-In DIL `getSearchReferrer` restituisce i risultati di ricerca (nomi e parole chiave) utilizzati per raggiungere il sito. È possibile passare termini di ricerca specifici a questa funzione o lasciarla ricercare nei motori di ricerca supportati ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] e [!DNL Yahoo]) rispetto a `document.referrer` per impostazione predefinita.
+In DIL, `getSearchReferrer` restituisce i risultati di ricerca (nomi e parole chiave) utilizzati per raggiungere il sito. Puoi passare termini di ricerca specifici a questa funzione o lasciare che esegua la ricerca nei motori di ricerca supportati ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] e [!DNL Yahoo]) rispetto a `document.referrer` per impostazione predefinita.
 
-### Firma funzione
+### Firma della funzione
 
-Firma funzione: `DIL.tools.getSearchReferrer(uri, initConfig)`
+Firma della funzione: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
-### Parametri funzione
+### Parametri della funzione
 
 `getSearchReferrer` accetta:
 
-* *`{string}`*:  *(Facoltativo)* Una stringa contenente l’URL di ricerca (utilizza  `document.referrer` se non è definito).
-* *`{object}`*:  *(Facoltativo)* Un oggetto contenente la configurazione per il  `hostPattern`,  `queryParam` o  `queryPattern`.
+* *`{string}`*:  *(Facoltativo)* Una stringa contenente l&#39;URL di ricerca (utilizza  `document.referrer` se non definito).
+* *`{object}`*:  *(Facoltativo)* Un oggetto contenente la configurazione per  `hostPattern`,  `queryParam`, o  `queryPattern`.
 
 E restituisce:
 
-* `{object}` Un oggetto che contiene nomi e parole chiave validi.
+* `{object}` Oggetto che contiene nomi e parole chiave validi.
 
 ### Esempi
 
@@ -83,8 +82,8 @@ E restituisce:
 </td> 
   </tr> 
   <tr> 
-   <td> <b>Nome host con corrispondenza URL con un regex personalizzato</b></td> 
-   <td> Passa un regex personalizzato per corrispondere al nome host dell'URL di provenienza. </td> 
+   <td> <b>Nome host con URL simile a un Regex personalizzato</b></td> 
+   <td> Passa un regex personalizzato per corrispondere al nome host dell'URL di riferimento. </td> 
    <td> 
   <code>
       var results = 
@@ -96,8 +95,8 @@ E restituisce:
   </code>
   </td></tr> 
   <tr> 
-   <td> <b>Corrispondenza di pattern di ricerca con un regex personalizzato</b> </td> 
-   <td> Passa in un regex personalizzato per eseguire una ricerca personalizzata. </td> 
+   <td> <b>Pattern di ricerca con un regex personalizzato</b> </td> 
+   <td> Passa un regex personalizzato per eseguire una ricerca personalizzata. </td> 
    <td> 
     <code>
       var&nbsp;results&nbsp;= 
@@ -114,7 +113,7 @@ E restituisce:
 
 ## decomposeURI
 
-Smonta un Uniform Resource Identifier ( [!DNL URI]) nei componenti che lo compongono: `hash`, `host`, `href`, `pathname`, `protocol`, `search` e `[!DNL uriParams]`.
+Smonta un identificatore di risorsa uniforme ( [!DNL URI]) nei relativi componenti costitutivi: `hash`, `host`, `href`, `pathname`, `protocol`, `search` e `[!DNL uriParams]`.
 
 <!-- 
 
@@ -122,17 +121,17 @@ r_dil_decompose.xml
 
  -->
 
-Firma funzione: `DIL.tools.decomposeURI`
+Firma della funzione: `DIL.tools.decomposeURI`
 
-### Parametri funzione
+### Parametri della funzione
 
 `decomposeURI` accetta:
 
-* *`uri {string}`*:  *(Facoltativo)* Una stringa contenente l’URI. Il valore predefinito è `document.location.href` se non è specificato.
+* *`uri {string}`*:  *(Facoltativo)* Una stringa contenente l’URI. Se non specificato, viene impostato il valore predefinito `document.location.href`.
 
 E restituisce:
 
-* *`{object}`*: Un oggetto che contiene nomi e parole chiave validi.
+* *`{object}`*: Oggetto che contiene nomi e parole chiave validi.
 
 ### Codice di esempio
 
@@ -156,7 +155,7 @@ var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#a
 
 ## getMetaTags
 
-Cerca contenuto specifico definito nei tag meta di una pagina Web e restituisce tali dati in un oggetto.
+Cerca contenuto specifico definito nei meta tag di una pagina Web e restituisce tali dati in un oggetto.
 
 <!-- 
 
@@ -164,11 +163,11 @@ r_dil_get_metatags.xml
 
  -->
 
-### Firma funzione
+### Firma della funzione
 
-Firma funzione: `DIL.tools.getMetaTags( 1 or more parameters)`
+Firma della funzione: `DIL.tools.getMetaTags( 1 or more parameters)`
 
-### Parametri funzione
+### Parametri della funzione
 
 `getMetaTags` accetta uno o più parametri di nome (tipo stringa) da cercare. Restituisce un oggetto composto da coppie chiave-valore.
 
