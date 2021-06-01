@@ -6,14 +6,13 @@ solution: Audience Manager
 title: Metodi API di gestione dei domini
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '365'
 ht-degree: 6%
 
 ---
-
 
 # Metodi API di gestione dei domini {#domain-management-api-methods}
 
@@ -21,9 +20,9 @@ Metodi di gestione del dominio che consentono di creare e gestire i domini a cui
 
 <!-- c_partner_site.xml -->
 
-## Creare un nuovo dominio {#create-new-domain}
+## Crea un nuovo dominio {#create-new-domain}
 
-Un metodo `POST` che consente di creare un nuovo dominio per (solo destinazioni di cookie).
+Un metodo `POST` che consente di creare un nuovo dominio per (solo destinazioni cookie).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -65,7 +64,7 @@ Un metodo `DELETE` che consente di rimuovere un dominio (solo per le destinazion
 
 Una risposta corretta restituisce `204 no content`. Restituisce `404 not found` se non è possibile trovare il sito partner.
 
-## Proprietà di restituzione per un dominio {#return-props-domain}
+## Restituisci proprietà per un dominio {#return-props-domain}
 
 Un metodo `GET` che restituisce i dettagli sul dominio specificato (solo per le destinazioni dei cookie).
 
@@ -77,7 +76,7 @@ Un metodo `GET` che restituisce i dettagli sul dominio specificato (solo per le 
 
 ### Risposta
 
-Una risposta corretta restituisce `200 OK` e i dati come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l&#39;ID del sito o del partner non è stato trovato.
+Una risposta corretta restituisce `200 OK` e i dati come mostrato nell’esempio seguente. Restituisce `404 Not found` se l&#39;ID del sito o del partner non è trovato.
 
 ```
 {
@@ -87,7 +86,7 @@ Una risposta corretta restituisce `200 OK` e i dati come mostrato nell&#39;esemp
 }
 ```
 
-## Proprietà di restituzione per tutti i domini {#return-props-all-domains}
+## Restituisci proprietà per tutti i domini {#return-props-all-domains}
 
 Un metodo `GET` che restituisce informazioni su tutti i domini (solo per le destinazioni dei cookie).
 
@@ -97,9 +96,9 @@ Un metodo `GET` che restituisce informazioni su tutti i domini (solo per le dest
 
 `GET https://api.demdex.com/v1/partner-sites/`
 
-### Parametri query opzionali
+### Parametri di query opzionali
 
-È possibile utilizzare questi parametri facoltativi con metodi [!DNL API] che restituiscono le proprietà *all* per un oggetto. Impostate queste opzioni nella stringa di richiesta quando passate la query in [!DNL API]. Vedere [Parametri facoltativi](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+È possibile utilizzare questi parametri facoltativi con metodi [!DNL API] che restituiscono le proprietà *all* per un oggetto. Imposta queste opzioni nella stringa di richiesta quando trasmetti la query in a [!DNL API]. Vedere [Parametri facoltativi](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -115,7 +114,7 @@ Un metodo `GET` che restituisce informazioni su tutti i domini (solo per le dest
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td> 
-   <td colname="col2"> Imposta il numero di risultati della risposta restituiti dalla richiesta (il valore predefinito è 10). </td>
+   <td colname="col2"> Imposta il numero di risultati di risposta restituiti dalla richiesta (10 è l’impostazione predefinita). </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td> 
@@ -123,18 +122,18 @@ Un metodo `GET` che restituisce informazioni su tutti i domini (solo per le dest
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
-   <td colname="col2"> Ordina e restituisce risultati in ordine decrescente. Ascendente è il valore predefinito. </td>
+   <td colname="col2"> Ordina e restituisce i risultati in ordine decrescente. Crescente è l'impostazione predefinita. </td>
   </tr>
   <tr valign="top">
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare risultati per tutti i modelli con la parola "Test" in uno qualsiasi dei campi di valore per l'elemento. Esempio di richiesta: <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>È possibile cercare qualsiasi valore restituito da un metodo "get all". </p> </td>
+   <td colname="col2">Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che tu voglia trovare risultati per tutti i modelli con la parola "Test" in uno qualsiasi dei campi di valore per quell’elemento. La richiesta di esempio potrebbe essere simile alla seguente: <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Puoi cercare qualsiasi valore restituito da un metodo "get all". </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ### Risposta
 
-Una risposta corretta restituisce `200 OK` e i dati in un array come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l&#39;ID del sito o del partner non è stato trovato.
+Una risposta corretta restituisce `200 OK` e i dati in una matrice come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l&#39;ID del sito o del partner non è trovato.
 
 ```
 [
