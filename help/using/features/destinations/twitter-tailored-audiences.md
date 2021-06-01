@@ -1,12 +1,11 @@
 ---
-description: Questo articolo spiega come configurare tipi di pubblico personalizzati di Twitter per le integrazioni nuove ed esistenti.
-seo-description: Questo articolo spiega come configurare tipi di pubblico personalizzati di Twitter per le integrazioni nuove ed esistenti.
+description: Questo articolo spiega come configurare Twitter Tailored Audiences per le integrazioni nuove ed esistenti.
+seo-description: Questo articolo spiega come configurare Twitter Tailored Audiences per le integrazioni nuove ed esistenti.
 seo-title: Configurare pubblici personalizzati di Twitter come una destinazione self-service basata su dispositivi
 solution: Audience Manager
 title: Configurare pubblici personalizzati di Twitter come una destinazione self-service basata su dispositivi
-feature: People-based Destinations
+feature: Destinazioni basate su persone
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '555'
@@ -16,7 +15,7 @@ ht-degree: 4%
 
 # Configurare [!DNL Twitter Tailored Audiences] come destinazione self-service basata su dispositivi {#configure-twitter}
 
-Questo articolo spiega come configurare un&#39;integrazione con [Tipi di pubblico personalizzati Twitter](https://business.twitter.com/en/targeting/tailored-audiences.html).
+Questo articolo spiega come configurare un&#39;integrazione con [Twitter Tailored Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html).
 
 ## Prerequisiti {#prerequisites}
 
