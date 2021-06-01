@@ -8,7 +8,6 @@ title: Destinazioni
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Nozioni di base sulle destinazioni
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
-translation-type: tm+mt
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '541'
@@ -20,7 +19,7 @@ ht-degree: 15%
 
 Ad Audience Manager, un [!UICONTROL destination] è un sistema di terze parti (ad server, [!DNL DSP], ad network, ecc.) con cui desideri condividere i dati. [!UICONTROL Destination Builder] è lo strumento utilizzato per creare e gestire  [!UICONTROL cookie],  [!DNL URL], o  [!UICONTROL server-to-server destinations].
 
-## Finalità e vantaggi {#purposes}
+## Scopo e vantaggi {#purposes}
 
 <!-- c_destinations.xml -->
 
