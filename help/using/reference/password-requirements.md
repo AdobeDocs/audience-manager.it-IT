@@ -5,9 +5,8 @@ seo-title: Requisiti per le password, account bloccati e password dimenticate
 solution: Audience Manager
 title: Requisiti per le password, account bloccati e password dimenticate
 uuid: bca892eb-3577-4382-8110-131f78d23069
-feature: Reference
+feature: 'Riferimenti '
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '310'
@@ -81,5 +80,5 @@ Fai clic sul collegamento **[!UICONTROL Forgot password]** nella pagina di acces
 >[!MORELIKETHIS]
 >
 >* [Data Security](../overview/data-security-and-privacy/data-security.md)
->* [Sicurezza dei dati](../overview/data-security-and-privacy/data-privacy.md)
+* [Sicurezza dei dati](../overview/data-security-and-privacy/data-privacy.md)
 
