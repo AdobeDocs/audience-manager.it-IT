@@ -5,9 +5,8 @@ seo-title: Rapporto di sovrapposizione segmento-caratteristica
 solution: Audience Manager
 title: Rapporto di sovrapposizione segmento-caratteristica
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-feature: Overlap Reports
+feature: Rapporti di sovrapposizione
 exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '832'
@@ -183,9 +182,9 @@ La finestra a comparsa del rapporto [!UICONTROL Segment-to-Trait Overlap] contie
 >[!MORELIKETHIS]
 >
 >* [Filtrare i risultati dei report con i cursori di dati](../../reporting/dynamic-reports/data-sliders.md)
->* [Forme, colori e dimensioni utilizzati nei rapporti interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Spiegazione di icone e strumenti del rapporto](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager...](../../reporting/report-sampling.md)
->* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
+* [Forme, colori e dimensioni utilizzati nei rapporti interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+* [Spiegazione di icone e strumenti del rapporto](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+* [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager...](../../reporting/report-sampling.md)
+* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
 
