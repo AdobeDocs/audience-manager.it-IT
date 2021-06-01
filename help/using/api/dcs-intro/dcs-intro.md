@@ -1,21 +1,20 @@
 ---
 title: 'Metodi e codice dell’API Data Collection Server (DCS) '
-seo-title: Metodi e codice API per Data Collection Server (DCS) per Adobe Audience Manager (AAM)
-description: Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS, Data Collection Servers)  Audience Manager.
-seo-description: Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS, Data Collection Servers)  Audience Manager.
+seo-title: Metodi e codice dell’API Data Collection Server (DCS) per Adobe Audience Manager (AAM)
+description: Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS, Data Collection Servers) di Audience Manager.
+seo-description: Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS, Data Collection Servers) di Audience Manager.
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: be18a59c-c70d-4dcb-ae84-58ab0a3b8921
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '170'
 ht-degree: 38%
 
 ---
 
-
 # Metodi e codice dell’API Data Collection Server (DCS) 
 
-Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS, Data Collection Servers)  Audience Manager.
+Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS, Data Collection Servers) di Audience Manager.
 
 * [API di chiamate evento DCS](/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 
@@ -23,8 +22,8 @@ Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i s
 
 * [API DCS per trasferimenti di dati server-to-server](/help/using/api/dcs-intro/dcs-s2s/dcs-s2s.md)
 
-   Le API da server a server (S2S) forniscono codice e metodi che consentono di inviare e ricevere dati utente DCS e di lavorare con tali informazioni nei propri sistemi o applicazioni.
+   Le API server-to-server (S2S) forniscono codice e metodi che consentono di inviare e ricevere dati utente DCS e lavorare con tali informazioni nei propri sistemi o applicazioni.
 
 * [Riferimenti dell’API DCS ](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Informazioni concettuali, descrizioni e definizioni per codice, metodi e processi API DCS.
+   Informazioni concettuali, descrizioni e definizioni per codice API DCS, metodi e processi.
