@@ -5,9 +5,8 @@ seo-title: Convenzioni di denominazione per i file di metadati
 solution: Audience Manager
 title: Convenzioni di denominazione per i file di metadati
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
-feature: Log Files
+feature: File di registro
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '216'
