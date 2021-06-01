@@ -5,15 +5,14 @@ seo-title: Generatore di segmenti
 solution: Audience Manager
 title: Generatore di segmenti
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-feature: Segments
-translation-type: tm+mt
-source-git-commit: 9e0c936ba514e517bcbd7572420118293f9a791f
+feature: 'Segmenti '
+exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 2%
 
 ---
-
 
 # [!UICONTROL Segment Builder] {#segment-builder}
 
@@ -198,5 +197,5 @@ Nel campo [!UICONTROL Destination Value] specifica il valore (parte di una coppi
 >[!MORELIKETHIS]
 >
 >* [Creare una destinazione cookie](../../features/destinations/create-cookie-destination.md)
->* [Creare una destinazione URL](../../features/destinations/create-url-destination.md)
+* [Creare una destinazione URL](../../features/destinations/create-url-destination.md)
 
