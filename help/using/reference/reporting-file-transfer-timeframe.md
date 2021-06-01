@@ -5,9 +5,8 @@ seo-title: Influenza dei tempi di distribuzione dei dati ed elaborazione dei fil
 solution: Audience Manager
 title: Influenza dei tempi di distribuzione dei dati ed elaborazione dei file sui report
 uuid: 4b975512-f67e-4749-a7ef-168415597682
-feature: Reference
+feature: 'Riferimenti '
 exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '689'
