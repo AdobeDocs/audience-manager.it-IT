@@ -5,9 +5,8 @@ seo-title: File di dati per report di Audience Optimization e file di registro f
 solution: Audience Manager
 title: File di dati per report di Audience Optimization e file di registro fruibili
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-feature: Log Files
+feature: File di registro
 exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1044'
