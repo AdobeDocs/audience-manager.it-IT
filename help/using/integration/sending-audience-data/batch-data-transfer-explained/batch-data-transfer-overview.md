@@ -6,13 +6,12 @@ seo-title: Panoramica dell’invio di dati in batch ad Audience Manager
 solution: Audience Manager
 title: Panoramica dell’invio di dati in batch ad Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
-feature: Inbound Data Transfers
+feature: Trasferimenti di dati in entrata
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -41,7 +40,7 @@ Consulta [Sincronizzazione ID per trasferimenti di dati in entrata](../../../int
 I nomi e i contenuti dei file seguono linee guida rigorose. Devi *assegnare un nome a* e organizzare i file di dati in base a queste specifiche nella presente guida. Consulta:
 
 * [Requisiti di nome di Amazon S3 per file di dati in entrata](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* [Inbound Data File Contents: Syntax, Variables, and Examples](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+* [Contenuto del file di dati in entrata: Sintassi, variabili ed esempi](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## I dati online sono disponibili per gli sforzi di marketing offline
 
