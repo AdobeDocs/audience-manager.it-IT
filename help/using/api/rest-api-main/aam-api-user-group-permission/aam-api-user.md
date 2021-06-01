@@ -1,27 +1,26 @@
 ---
-description: Resto di metodi API per gestire gli utenti, inclusi creazione, aggiornamento, elenco, eliminazione e restituzione di oggetti utente.
-seo-description: Resto di metodi API per gestire gli utenti, inclusi creazione, aggiornamento, elenco, eliminazione e restituzione di oggetti utente.
+description: Metodi API per la gestione degli utenti, inclusi creazione, aggiornamento, elenco, eliminazione e restituzione di oggetti utente.
+seo-description: Metodi API per la gestione degli utenti, inclusi creazione, aggiornamento, elenco, eliminazione e restituzione di oggetti utente.
 seo-title: Metodi API per la gestione degli utenti
 solution: Audience Manager
 title: Metodi API per la gestione degli utenti
 uuid: 6e1f2c35-bb9d-4166-b7d4-d9c5518a61ad
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: c015c42c-63c7-4392-9fef-f48dc787a56f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 7%
 
 ---
 
-
 # Metodi API per la gestione degli utenti {#user-management-api-methods}
 
-Ridisporre i metodi [!DNL API] per gestire gli utenti, inclusi la creazione, l&#39;aggiornamento, l&#39;elenco, l&#39;eliminazione e la restituzione di oggetti utente.
+Metodi di ripristino [!DNL API] per la gestione degli utenti, inclusi creazione, aggiornamento, elenco, eliminazione e restituzione di oggetti utente.
 
 <!-- c_rest_api_user_man_user.xml -->
 
-## Creare un utente {#create-user}
+## Crea un utente {#create-user}
 
 Un metodo `POST` per creare un nuovo utente.
 
@@ -66,11 +65,11 @@ Un metodo `POST` per creare un nuovo utente.
 }
 ```
 
-Se `isAdmin` è impostato su true, l&#39;utente viene creato come amministratore partner. Questa proprietà consente inoltre di sapere se un utente è un amministratore di partner.
+Se `isAdmin` è impostato su true, l&#39;utente viene creato come amministratore partner. Questa proprietà ti consente anche di sapere se un utente è un amministratore partner.
 
 Restituisce `409 Conflict` se il nome utente è già utilizzato.
 
-## Aggiornamento di un utente {#update-user}
+## Aggiornare un utente {#update-user}
 
 Un metodo `PUT` per aggiornare un utente.
 
@@ -121,7 +120,7 @@ Un metodo `PUT` per aggiornare l&#39;utente attualmente connesso.
 
 >[!NOTE]
 >
->Mentre la maggior parte dei metodi [!DNL API] sono chiamabili solo dagli amministratori dei partner, questo metodo è richiamabile dagli utenti non amministratori.
+>Mentre la maggior parte dei metodi [!DNL API] sono richiamabili solo dagli amministratori partner, questo metodo è richiamabile dagli utenti non amministratori.
 
 ### Richiesta
 
@@ -156,7 +155,7 @@ Un metodo `PUT` per aggiornare l&#39;utente attualmente connesso.
 
 Restituisce `409 Conflict` se il nome utente è già utilizzato.
 
-## Aggiorna password utente con accesso {#update-logged-in-user-pw}
+## Aggiorna password utente connesso {#update-logged-in-user-pw}
 
 Un metodo `PUT` per aggiornare l&#39;utente attualmente connesso.
 
@@ -164,7 +163,7 @@ Un metodo `PUT` per aggiornare l&#39;utente attualmente connesso.
 
 >[!NOTE]
 >
->Mentre la maggior parte dei metodi [!DNL API] sono chiamabili solo dagli amministratori dei partner, questo metodo è richiamabile dagli utenti non amministratori.
+>Mentre la maggior parte dei metodi [!DNL API] sono richiamabili solo dagli amministratori partner, questo metodo è richiamabile dagli utenti non amministratori.
 
 ### Richiesta
 
@@ -178,15 +177,15 @@ Un metodo `PUT` per aggiornare l&#39;utente attualmente connesso.
 
 Restituisce `200 OK` in caso di esito positivo. Restituisce `400 Bad Request` se si verifica un errore in una delle due password.
 
-## Ripristina password utente connessa{#reset-logged-in-user-pw}
+## Ripristina password utente connesso {#reset-logged-in-user-pw}
 
-Un metodo `PUT` per ripristinare l&#39;utente attualmente connesso. [!UICONTROL Audience Management] invia all&#39;utente una password generata dal sistema.
+Un metodo `PUT` per reimpostare l&#39;utente attualmente connesso. [!UICONTROL Audience Management] invia all&#39;utente una password generata dal sistema.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
 >[!NOTE]
 >
->Mentre la maggior parte dei metodi [!DNL API] sono chiamabili solo dagli amministratori dei partner, questo metodo è richiamabile dagli utenti non amministratori.
+>Mentre la maggior parte dei metodi [!DNL API] sono richiamabili solo dagli amministratori partner, questo metodo è richiamabile dagli utenti non amministratori.
 
 ### Richiesta
 
@@ -194,7 +193,7 @@ Un metodo `PUT` per ripristinare l&#39;utente attualmente connesso. [!UICONTROL 
 
 Restituisce `200 OK` in caso di esito positivo.
 
-## Restituisci oggetto utente per un ID utente {#return-user-object-for-id}
+## Restituisce l&#39;oggetto utente per un ID utente {#return-user-object-for-id}
 
 Un metodo `Get` per restituire l&#39;oggetto utente per un ID utente.
 
@@ -222,7 +221,7 @@ Un metodo `Get` per restituire l&#39;oggetto utente per un ID utente.
 }
 ```
 
-## Restituisci oggetto utente per l&#39;utente connesso {#return-user-object-for-logged-in-user}
+## Restituisce l&#39;oggetto utente per l&#39;utente connesso {#return-user-object-for-logged-in-user}
 
 Un metodo `Get` per restituire l&#39;oggetto utente per l&#39;utente attualmente connesso.
 
@@ -230,7 +229,7 @@ Un metodo `Get` per restituire l&#39;oggetto utente per l&#39;utente attualmente
 
 >[!NOTE]
 >
->Mentre la maggior parte dei metodi [!DNL API] sono chiamabili solo dagli amministratori dei partner, questo metodo è richiamabile dagli utenti non amministratori.
+>Mentre la maggior parte dei metodi [!DNL API] sono richiamabili solo dagli amministratori partner, questo metodo è richiamabile dagli utenti non amministratori.
 
 ### Richiesta
 
@@ -254,7 +253,7 @@ Un metodo `Get` per restituire l&#39;oggetto utente per l&#39;utente attualmente
 }
 ```
 
-## Elenca utenti {#list-users}
+## Elenco utenti {#list-users}
 
 Un metodo `GET` per elencare gli utenti.
 
@@ -264,11 +263,11 @@ Un metodo `GET` per elencare gli utenti.
 
 `GET /api/v1/users/`
 
-Potete specificare più ID gruppo nei parametri di query:
+Puoi specificare più ID gruppo nei parametri di query:
 
 `GET /api/v1/users/?groupId=343&groupdId=12`
 
-Questa query restituisce un elenco di tutti gli utenti nei gruppi specificati.
+Questa query restituisce un elenco di tutti gli utenti dei gruppi specificati.
 
 ### Risposta
 
@@ -300,7 +299,7 @@ Un metodo `DELETE` per eliminare un utente.
 
 Restituisce `204 No Content` in caso di esito positivo. In caso di conflitto restituisce `409 Conflict`.
 
-## Elimina utenti in blocco {#delete-users-bulk}
+## Elimina gli utenti in blocco {#delete-users-bulk}
 
 Un metodo `POST` per eliminare più utenti in blocco.
 
