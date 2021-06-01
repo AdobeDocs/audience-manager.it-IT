@@ -5,9 +5,8 @@ seo-title: Principali caratteristiche non utilizzate
 solution: Audience Manager
 title: Principali caratteristiche non utilizzate
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
-feature: Audience Optimization Reports
+feature: Rapporti di Audience Optimization
 exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '650'
