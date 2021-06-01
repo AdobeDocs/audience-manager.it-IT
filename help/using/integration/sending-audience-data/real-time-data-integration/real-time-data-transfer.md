@@ -5,9 +5,8 @@ seo-title: Acquisizione di dati in entrata in tempo reale
 solution: Audience Manager
 title: Acquisizione di dati in entrata in tempo reale
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
-feature: Inbound Data Transfers
+feature: Trasferimenti di dati in entrata
 exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '198'
