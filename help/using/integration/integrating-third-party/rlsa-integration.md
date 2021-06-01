@@ -5,9 +5,8 @@ seo-title: Inviare segmenti a un elenco per il remarketing di Google AdWords
 solution: Audience Manager
 title: Inviare segmenti a un elenco per il remarketing di Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
-feature: Third-party Integration
+feature: Integrazione di terze parti
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '334'
@@ -72,7 +71,7 @@ Una mappatura completata potrebbe avere un aspetto simile al seguente:
 >[!MORELIKETHIS]
 >
 >* [[!DNL Destinations]](../../features/destinations/destinations.md)
->* [Crea un [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
->* [Informazioni sugli elenchi di remarketing di AdWords](https://support.google.com/adwords/answer/2472738)
->* [Funzionamento del remarketing di AdWords](https://support.google.com/adwords/answer/2454000)
+* [Crea un [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
+* [Informazioni sugli elenchi di remarketing di AdWords](https://support.google.com/adwords/answer/2472738)
+* [Funzionamento del remarketing di AdWords](https://support.google.com/adwords/answer/2454000)
 
