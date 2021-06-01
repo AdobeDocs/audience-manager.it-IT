@@ -5,9 +5,8 @@ seo-title: Rapporto di sovrapposizione caratteristica-caratteristica
 solution: Audience Manager
 title: Rapporto di sovrapposizione caratteristica-caratteristica
 uuid: 7fb3fc9e-0e0b-492a-9c3a-04356afb19c7
-feature: Overlap Reports
+feature: Rapporti di sovrapposizione
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '489'
@@ -117,9 +116,9 @@ La finestra a comparsa del rapporto [!UICONTROL Trait-to-Trait Overlap] contiene
 >[!MORELIKETHIS]
 >
 >* [Filtrare i risultati dei report con i cursori di dati](../../reporting/dynamic-reports/data-sliders.md)
->* [Forme, colori e dimensioni utilizzati nei report dinamici](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Spiegazione di icone e strumenti del rapporto](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager...](../../reporting/report-sampling.md)
->* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
+* [Forme, colori e dimensioni utilizzati nei report dinamici](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
+* [Spiegazione di icone e strumenti del rapporto](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+* [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager...](../../reporting/report-sampling.md)
+* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
 
