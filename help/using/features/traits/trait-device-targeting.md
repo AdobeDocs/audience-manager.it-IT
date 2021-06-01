@@ -1,33 +1,32 @@
 ---
-description: Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili relative al dispositivo in tutte le proprietà dell'account  Audience Manager.
-seo-description: Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili relative al dispositivo in tutte le proprietà dell'account  Audience Manager.
+description: Descrive le coppie chiave-valore comuni a livello di piattaforma che è possibile utilizzare per eseguire il targeting degli utenti con variabili relative al dispositivo in tutte le proprietà dell'account Audience Manager.
+seo-description: Descrive le coppie chiave-valore comuni a livello di piattaforma che è possibile utilizzare per eseguire il targeting degli utenti con variabili relative al dispositivo in tutte le proprietà dell'account Audience Manager.
 seo-title: Targeting dei dispositivi con chiavi a livello di piattaforma
 solution: Audience Manager
 title: Targeting dei dispositivi con chiavi a livello di piattaforma
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Caratteristiche '
+exl-id: 85c848e0-a4cf-49b5-9fe9-56f8c565f665
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 9%
 
 ---
 
-
 # Targeting dei dispositivi con chiavi a livello di piattaforma {#device-targeting-with-platform-level-keys}
 
-Descrive le coppie chiave-valore comuni a livello di piattaforma che potete utilizzare per eseguire il targeting degli utenti con variabili relative al dispositivo in tutte le proprietà dell&#39;account  Audience Manager.
+Descrive le coppie chiave-valore comuni a livello di piattaforma che è possibile utilizzare per eseguire il targeting degli utenti con variabili relative al dispositivo in tutte le proprietà dell&#39;account Audience Manager.
 
-## Scopo delle variabili a livello di piattaforma {#platform-variables}
+## Finalità delle variabili a livello di piattaforma {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Le variabili a livello di piattaforma consentono di prendere i dati passati da un particolare sito e renderli disponibili per il targeting tra tutte le proprietà dell&#39;account [!DNL Audience Manager]. Queste variabili sono formate da [coppie chiave-valore](../../reference/key-value-pairs-explained.md) con il prefisso chiave `d_` come mostrato di seguito.
+Le variabili a livello di piattaforma consentono di prendere i dati trasmessi da un particolare sito e renderli disponibili per il targeting in tutte le proprietà del tuo account [!DNL Audience Manager]. Queste variabili sono costituite da [coppie chiave-valore](../../reference/key-value-pairs-explained.md) con la chiave preceduta da `d_` come mostrato di seguito.
 
 ## Chiavi a livello di piattaforma definite dall&#39;agente utente {#keys-user-agent}
 
-Il [!UICONTROL Data Collection Servers] estrae i valori per queste chiavi dall&#39; [intestazione dell&#39;agente utente](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) nelle richieste `HTTP`. I valori rappresentano le informazioni a livello di dispositivo provenienti dal database [!UICONTROL Device Atlas]. I segnali riportati nella tabella seguente sono disponibili, come estratto dall&#39;esempio dell&#39;agente utente. [Scarica un elenco delle chiavi](assets/device_keys.csv) più comuni, in base alle  [!UICONTROL Device Atlas] misurazioni.
+Le [!UICONTROL Data Collection Servers] estraggono i valori per queste chiavi dall&#39; [intestazione dell&#39;agente utente](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) nelle richieste `HTTP`. I valori rappresentano informazioni a livello di dispositivo dal database [!UICONTROL Device Atlas]. I segnali nella tabella seguente sono disponibili, come estratti dall’esempio dell’agente utente. [Scarica un elenco delle chiavi](assets/device_keys.csv) più comuni, in base alle  [!UICONTROL Device Atlas] misurazioni.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
