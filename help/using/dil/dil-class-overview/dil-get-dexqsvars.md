@@ -5,21 +5,20 @@ seo-title: dexGetQSVars
 solution: Audience Manager
 title: dexGetQSVars
 uuid: 6d21c7a4-43f8-456b-8831-47343dbb047e
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Implementazione di DIL
+exl-id: 814268bc-4387-4e06-ae94-eda86993a967
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '75'
 ht-degree: 17%
 
 ---
-
 
 # dexGetQSVars{#dexgetqsvars}
 
 Recupera un valore specifico da un server di annunci.
 
-**Firma funzione:** `dexGetQSVars: function (variableName, partner, containerNSID) {}`
+**Firma della funzione:** `dexGetQSVars: function (variableName, partner, containerNSID) {}`
 
 <!-- 
 
@@ -32,7 +31,7 @@ r_dil_get_dexqsvars.xml
 | Nome | Tipo | Descrizione |
 |---|---|---|
 | `variableName` | Stringa | Nome della variabile per la quale si desidera ottenere un valore. |
-| `partner` | Stringa | Il nome del partner da cercare. |
+| `partner` | Stringa | Nome del partner da cercare. |
 | `containerNSID` | Intero | Il [!DNL NSID] del contenitore ricercato. Il valore predefinito è `0`. |
 
 **Risposta**
