@@ -1,59 +1,58 @@
 ---
-description: Un feed di dati privato è un'opzione che consente ai fornitori di limitare l'accesso degli acquirenti ai loro dati. I provider di dati e gli acquirenti dovrebbero rivedere queste informazioni prima di creare e iscriversi ai feed di dati privati.
-seo-description: Un feed di dati privato è un'opzione che consente ai fornitori di limitare l'accesso degli acquirenti ai loro dati. I provider di dati e gli acquirenti dovrebbero rivedere queste informazioni prima di creare e iscriversi ai feed di dati privati.
+description: Un feed di dati privato è un’opzione che consente ai fornitori di limitare l’accesso degli acquirenti ai loro dati. I fornitori di dati e gli acquirenti devono consultare queste informazioni prima di creare e iscriversi ai feed di dati privati.
+seo-description: Un feed di dati privato è un’opzione che consente ai fornitori di limitare l’accesso degli acquirenti ai loro dati. I fornitori di dati e gli acquirenti devono consultare queste informazioni prima di creare e iscriversi ai feed di dati privati.
 seo-title: Feed di dati privati
 solution: Audience Manager
 title: Feed di dati privati
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
 feature: Audience Marketplace
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 34eb6194-c57b-4836-a6df-6889a2cec703
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1092'
 ht-degree: 1%
 
 ---
 
-
 # Feed di dati privati {#private-data-feeds}
 
-Un feed di dati privato è un&#39;opzione che consente ai fornitori di limitare l&#39;accesso degli acquirenti ai loro dati. I provider di dati e gli acquirenti dovrebbero rivedere queste informazioni prima di creare e iscriversi ai feed di dati privati.
+Un feed di dati privato è un’opzione che consente ai fornitori di limitare l’accesso degli acquirenti ai loro dati. I fornitori di dati e gli acquirenti devono consultare queste informazioni prima di creare e iscriversi ai feed di dati privati.
 
 <!-- c_marketplace_privatefeed.xml -->
 
-## Feed dati privati per provider {#private-data-feeds-providers}
+## Feed di dati privati per provider {#private-data-feeds-providers}
 
-In qualità di provider, i feed di dati possono essere pubblici o privati. Un feed di dati privato consente di limitare l&#39;accesso dell&#39;acquirente ai dati, incluso il nome del venditore di dati. È possibile creare un feed di dati privato per offrire offerte speciali, sconti o quando il controllo della privacy e dell&#39;accesso è importante. Grazie a un feed di dati privato, puoi esaminare e approvare le richieste dell&#39;acquirente. Dopo aver approvato una richiesta, il feed è simile a un feed di dati pubblico per l’acquirente. Potete visualizzare e gestire tutti i feed in **[!UICONTROL Audience Marketplace > My Shared Data]**. Come mostrato di seguito, questo tipo di feed è contrassegnato come &quot;Privato&quot; nella colonna di stato.
+In qualità di provider, i feed di dati possono essere pubblici o privati. Un feed di dati privato ti consente di limitare l’accesso dell’acquirente ai tuoi dati, compreso il nome del venditore di dati. È possibile creare un feed di dati privato per offrire offerte speciali, sconti o quando la privacy e il controllo degli accessi sono importanti. Con un feed di dati privato puoi rivedere e approvare le richieste dell’acquirente. Dopo aver approvato una richiesta, il feed è simile a un feed di dati pubblici per l’acquirente. Puoi visualizzare e gestire tutti i tuoi feed in **[!UICONTROL Audience Marketplace > My Shared Data]**. Come mostrato di seguito, questo tipo di feed è contrassegnato come &quot;Privato&quot; nella colonna di stato.
 
 ![](assets/my_shared_data.png)
 
 ### Gestione delle richieste di feed
 
-Facendo clic sul nome di un feed di dati privato da [!UICONTROL My Shared Data] si passa a una pagina che contiene diverse schede. Fai clic su una scheda per gestire le richieste di feed di dati privati.
+Facendo clic sul nome di un feed di dati privato da [!UICONTROL My Shared Data] si passa a una pagina contenente diverse schede. Fai clic su una scheda per gestire le richieste di feed di dati privati.
 
 ![](assets/shared_data_tabs.png)
 
-La tabella seguente definisce il ruolo o le funzioni fornite da ogni scheda di azione.
+La tabella seguente definisce il ruolo o le funzioni fornite da ciascuna scheda delle azioni.
 
 <table id="table_AFB429CA52A34658859448D9A5215F9F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Tab </th> 
+   <th colname="col1" class="entry"> Scheda </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Sottoscrittori correnti</span></b> </p> </td> 
-   <td colname="col2"> <p>Elenca gli acquirenti approvati che hanno effettuato la sottoscrizione a un feed di dati privato. </p> </td> 
+   <td colname="col2"> <p>Elenca gli acquirenti approvati che si sono abbonati a un feed di dati privato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Potenziali sottoscrittori</span></b> </p> </td> 
-   <td colname="col2"> <p>Elenca gli acquirenti approvati che non hanno effettuato la sottoscrizione a un feed di dati privato. </p> <p>Un'approvazione consente agli acquirenti di visualizzare un feed di dati come se fosse pubblico. Questo consente di rivedere e valutare i feed prima di iscriversi. È inoltre possibile offrire sconti sui feed di dati agli acquirenti elencati come potenziali sottoscrittori. Una volta che l'acquirente si iscrive, il suo profilo passa a <b><span class="uicontrol"> Sottoscrittori correnti</span></b>. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Sottoscrittori potenziali</span></b> </p> </td> 
+   <td colname="col2"> <p>Elenca gli acquirenti approvati che non si sono iscritti a un feed di dati privato. </p> <p>Un’approvazione consente agli acquirenti di visualizzare un feed di dati come se fosse pubblico. Questo consente loro di rivedere e valutare i feed prima di effettuare l’abbonamento. È inoltre possibile offrire sconti sui feed di dati agli acquirenti elencati come potenziali abbonati. Una volta effettuato l'abbonamento, il loro profilo passa a <b><span class="uicontrol"> Sottoscrittori correnti</span></b>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Richieste di accesso</span></b> </p> </td>
-   <td colname="col2"> <p>Elenca le nuove richieste di iscrizione per un feed di dati privato. Fare clic su questa scheda per esaminare, approvare o rifiutare le richieste dell'acquirente. </p>
+   <td colname="col2"> <p>Elenca nuove richieste di abbonamento per un feed di dati privato. Fare clic su questa scheda per esaminare, approvare o rifiutare le richieste dell'acquirente. </p>
     <ul id="ul_BE0A835A90B14C05B3F63226B79D052D"> 
      <li id="li_2C5686CEB6F4430BA18AED5AD75C330A">Gli acquirenti approvati passano a <b><span class="uicontrol"> potenziali sottoscrittori</span></b>. </li>
      <li id="li_929591FCF81E43A3881813BDBD3AC278">Gli acquirenti rifiutati passano a <b><span class="uicontrol"> Accesso negato</span></b>. </li>
@@ -61,11 +60,11 @@ La tabella seguente definisce il ruolo o le funzioni fornite da ogni scheda di a
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Richieste dettagli</span></b> </p> </td>
-   <td colname="col2"> <p>Elenca gli acquirenti approvati che non hanno ancora effettuato la sottoscrizione a un feed di dati e hanno richiesto ulteriori informazioni sui feed. </p> <p>Un'approvazione consente agli acquirenti di visualizzare un feed di dati come se fosse pubblico. Questo consente di rivedere e valutare i feed prima di iscriversi. È inoltre possibile offrire sconti sui feed di dati agli acquirenti che richiedono l'accesso. Rispondendo a una richiesta di dettagli, il profilo di acquisto viene rimosso da questa scheda. Se non hanno effettuato la sottoscrizione, il profilo di acquisto si trova ancora in <b><span class="uicontrol"> potenziali sottoscrittori</span></b>. </p> </td>
+   <td colname="col2"> <p>Elenca gli acquirenti approvati che non hanno ancora effettuato la sottoscrizione a un feed di dati e hanno richiesto ulteriori informazioni sui feed. </p> <p>Un’approvazione consente agli acquirenti di visualizzare un feed di dati come se fosse pubblico. Questo consente loro di rivedere e valutare i feed prima di effettuare l’abbonamento. È inoltre possibile offrire sconti sui feed di dati agli acquirenti che richiedono l’accesso. La risposta a una richiesta di dettagli rimuove il profilo buyer da questa scheda. Se non si sono abbonati, il profilo buyer si trova ancora in <b><span class="uicontrol"> Sottoscrittori potenziali</span></b>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Accesso negato</span></b> </p> </td> 
-   <td colname="col2"> <p>Elenca le richieste di sottoscrizione rifiutate per un feed di dati privato. </p> <p>Per riapprovare gli acquirenti rifiutati, modificare il campo <span class="wintitle"> Stato rifiuto</span> in <b><span class="uicontrol"> Consenti</span></b>. Questo sposta l'acquirente in <b><span class="uicontrol"> potenziali sottoscrittori</span></b>. </p> </td> 
+   <td colname="col2"> <p>Elenca le richieste di sottoscrizione rifiutate per un feed di dati privato. </p> <p>Per riapprovare gli acquirenti negati, modifica <span class="wintitle"> Stato rifiuto</span> in <b><span class="uicontrol"> Consenti</span></b>. Questo sposta l'acquirente in <b><span class="uicontrol"> potenziali sottoscrittori</span></b>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,12 +74,12 @@ La tabella seguente definisce il ruolo o le funzioni fornite da ogni scheda di a
 La seguente documentazione può aiutarti a iniziare con i feed di dati privati.
 
 * [Creare un feed di dati pubblico o privato](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)
-* [Rivedi, approva o rifiuta richieste di feed privati](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests)
-* [Feed dati privati per gli acquirenti](../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-for-buyers)
+* [Rivedere, approvare o rifiutare richieste di feed privati](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests)
+* [Feed di dati privati per gli acquirenti](../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-for-buyers)
 
-## Feed dati privati per gli acquirenti {#private-data-feeds-for-buyers}
+## Feed di dati privati per gli acquirenti {#private-data-feeds-for-buyers}
 
-Come acquirente, i feed di dati privati vengono visualizzati in [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) come qualsiasi altra offerta. Tuttavia, in questo caso, l&#39;elenco dei feed non mostra informazioni di riepilogo per caratteristiche, utenti univoci e sovrapposizione utente. Inoltre, il venditore di dati ha la possibilità di mostrare o nascondere il proprio nome nella colonna [!UICONTROL Provider] dell&#39;elenco [!UICONTROL Marketplace]. Dopo che il venditore ha approvato la richiesta di abbonamento, tutti i dati contenuti in un feed privato diventano disponibili (funziona come un feed pubblico). L&#39;esempio [!UICONTROL Marketplace] riportato di seguito elenca i 3 diversi tipi di feed disponibili come acquirente.
+Come acquirente, i feed di dati privati vengono visualizzati in [Marketplace](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) come qualsiasi altra offerta. Tuttavia, in questo caso, l’elenco dei feed non mostra informazioni di riepilogo per caratteristiche, utenti univoci e sovrapposizione utente. Inoltre, il venditore di dati ha un&#39;opzione per mostrare o nascondere il proprio nome nella colonna [!UICONTROL Provider] dell&#39;elenco [!UICONTROL Marketplace]. Dopo che il venditore approva la tua richiesta di abbonamento, tutti i dati contenuti in un feed privato diventano disponibili (funziona come un feed pubblico). L’esempio [!UICONTROL Marketplace] riportato di seguito elenca i 3 diversi tipi di feed disponibili come acquirente.
 
 ![](assets/buyer_marketplace.png)
 
@@ -98,15 +97,15 @@ La tabella descrive come questi diversi tipi di feed mostrano o nascondono i dat
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Pubblico</span></b> </p> </td> 
-   <td colname="col2"> <p>Il nome, la caratteristica e i dati univoci del provider vengono visualizzati nell'elenco. </p> </td> 
+   <td colname="col2"> <p>Il nome, la caratteristica e i dati univoci del provider vengono visualizzati nell’elenco. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Privato senza marchio</span></b> </p> </td> 
-   <td colname="col2"> <p>Il nome del provider è impostato su "Private Seller" e non è possibile visualizzare i conteggi delle caratteristiche, i dati univoci e i dati di sovrapposizione delle caratteristiche. </p> </td> 
+   <td colname="col2"> <p>Il nome del provider è impostato su "Venditore privato" e non puoi visualizzare i conteggi delle caratteristiche, i dati univoci e i dati di sovrapposizione delle caratteristiche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><span class="uicontrol"> Privato Con Marchio</span></b> </p> </td> 
-   <td colname="col2"> <p>Il nome del provider viene visualizzato nell'elenco, ma non è possibile visualizzare i conteggi delle caratteristiche, i dati univoci e i dati di sovrapposizione delle caratteristiche. </p> </td> 
+   <td colname="col1"> <p><b><span class="uicontrol"> Privato Con Branding</span></b> </p> </td> 
+   <td colname="col2"> <p>Il nome del provider viene visualizzato nell’elenco, ma non è possibile visualizzare i conteggi delle caratteristiche, i dati univoci e i dati di sovrapposizione delle caratteristiche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,54 +118,50 @@ Consulta   [Iscriviti a un ](../../features/audience-marketplace/marketplace-dat
 
 ### Passaggio 1 - Abilitazione - Fornitore dati e Acquirente dati
 
-Il primo passo del processo richiede l&#39;intervento di  Consulenza Adobe o Assistenza clienti. Il provider di dati e l&#39;acquirente dei dati devono contattare  Consulente del Adobe o l&#39;Assistenza clienti per richiedere l&#39;abilitazione.
+Il primo passaggio del processo richiede l’intervento di Adobe Consulting o Customer Care. Il provider di dati e l’acquirente dei dati devono contattare Adobe Consulting o l’Assistenza clienti per richiedere l’abilitazione.
 
-### Passaggio 2 - Provider di dati - Crea nuova origine dati
+### Passaggio 2 - Provider di dati - Creare una nuova origine dati
 
-Nel tuo account di Audience Manager , crea una nuova origine dati cookie con:
+Nel tuo account di Audience Manager, crea una nuova origine dati cookie con:
 
-* **** ID Audience Manager come chiave in entrata;
-* Opzione **Condivisione attivata** selezionata.
+* **Audience Manager** ID come chiave in entrata;
+* Opzione **Condividi abilitato** selezionata.
 
 ![](assets/create-datasource.png)
 
-Dopo aver fatto clic su **Salva**, viene automaticamente creata una nuova sottocartella in **Caratteristiche di archiviazione > Dati di terze parti**.
+Dopo aver fatto clic su **Salva**, viene automaticamente creata una nuova sottocartella in **Archiviazione caratteristiche > Dati di terze parti**.
 
 ![](assets/folder-structure.png)
 
 ### Passaggio 3 - Fornitore di dati - Identificare le caratteristiche per la condivisione
 
-In questo passaggio, identificate le caratteristiche che desiderate condividere con il partner. Potete creare nuove caratteristiche o modificarle. In ogni caso, sono necessarie le caratteristiche:
+In questo passaggio, identifica le caratteristiche che desideri condividere con il tuo partner. Puoi creare nuove caratteristiche o modificarle. In ogni caso, hai bisogno delle caratteristiche:
 
 * Da associare all&#39;origine dati creata come parte del passaggio 2.
 * Da memorizzare nella sottocartella appena creata, in dati di terze parti.
 
-Ulteriori informazioni sulla [creazione di caratteristiche](/help/using/features/traits/create-onboarded-rule-based-traits.md) e sulla [modifica di caratteristiche](/help/using/features/traits/manage-trait-rules.md#edit-trait).
+Ulteriori informazioni su [creazione di caratteristiche](/help/using/features/traits/create-onboarded-rule-based-traits.md) e [modifica caratteristiche](/help/using/features/traits/manage-trait-rules.md#edit-trait).
 
-### Passaggio 4 - Fornitore di dati - Crea feed dati
+### Passaggio 4 - Provider di dati - Creare feed di dati
 
-Quindi, crea un feed di dati per condividere le tue caratteristiche con l&#39;acquirente dei dati. Per istruzioni su come creare un feed di dati, fare riferimento a [Crea un feed di dati pubblico o privato](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md).
+Quindi, crea un feed di dati per condividere le caratteristiche con l’acquirente di dati. Per istruzioni su come creare un feed di dati, consulta [Creare un feed di dati pubblico o privato](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) .
 
 >[!IMPORTANT]
 >
->In Impostazioni, selezionate l’opzione Privato. Se impostate questo campo su Pubblico, ogni cliente  Audience Marketplace può iscriversi al feed.
+>In Impostazioni, seleziona l’opzione Privato . Se imposti questo campo su Pubblico, qualsiasi cliente Audience Marketplace può iscriversi al tuo feed.
 
 ![](assets/create-data-feed.png)
 
-### Passaggio 5 - Compratore di dati - Richiedi accesso
+### Passaggio 5 - Acquirente dati - Richiedi accesso
 
-Vai a **Audience Marketplace > Marketplace**. Cercare il feed di dati creato dal provider di dati nel passaggio precedente. Fare clic su **Richiedi accesso**. Il contatto designato dal lato del provider di dati ora riceverà una notifica e-mail. Vedi anche [Iscriviti a un feed di dati privato](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed).
+Vai a **Audience Marketplace > Marketplace**. Cerca il feed di dati creato dal provider di dati nel passaggio precedente. Fare clic su **Richiedi accesso**. Il contatto designato dal lato del provider di dati riceverà ora una notifica via e-mail. Vedi anche [Abbonati a un feed di dati privato](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed).
 
-### Passaggio 6 - Provider di dati - Accesso alla sovvenzione
+### Passaggio 6 - Provider di dati - Concedere l&#39;accesso
 
-Andate a **Audience Marketplace > Dati personali condivisi** e cercate il feed creato al punto 4. Fate clic sulla nuova richiesta di accesso e fate clic su **Consenti accesso** per approvare la richiesta. Vedi anche [Rivedi, Approva o Rifiuta richieste di feed privati](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests).
+Vai a **Audience Marketplace > I miei dati condivisi** e cerca il feed creato al passaggio 4. Fai clic sulla nuova richiesta di accesso e fai clic su **Consenti accesso** per approvare la richiesta. Consulta anche [Rivedere, approvare o rifiutare richieste di feed privati](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests).
 
-### Passaggio 7 - Data Buyer - Attiva iscrizione
+### Passaggio 7 - Acquirente dati - Attiva l&#39;abbonamento
 
-Dopo che il provider di dati concede l&#39;accesso al feed di dati, puoi vedere il feed nel tuo account in **Audience Marketplace > Marketplace**. Rivedete i dettagli, attivate il pulsante Iscrizione e fate clic su **Rivedi e sottoscrivi**. Per informazioni su dove trovare le caratteristiche di terze parti, vedere [Archiviazione per feed di dati con iscrizione](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
+Dopo che il provider di dati concede l&#39;accesso al feed di dati, puoi vedere il feed nel tuo account in **Audience Marketplace > Marketplace**. Rivedi i dettagli, attiva il pulsante Iscrizione e fai clic su **Rivedi e sottoscrivi**. Per informazioni su dove trovare le caratteristiche di terze parti, consulta [Archiviazione per feed di dati sottoscritti](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) .
 
-Queste caratteristiche possono essere modificate solo nell&#39;account del provider di dati.
-
-
-
-
+Tieni presente che queste caratteristiche possono essere modificate solo nell’account del provider di dati.
