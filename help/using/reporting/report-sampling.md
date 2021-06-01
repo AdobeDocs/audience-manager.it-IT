@@ -5,9 +5,8 @@ seo-title: Campionamento di dati e tassi di errore nei report selezionati di Aud
 solution: Audience Manager
 title: Campionamento di dati e tassi di errore nei report selezionati di Audience Manager
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-feature: Reporting Reference
+feature: Riferimento per la generazione di rapporti
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '469'
@@ -58,7 +57,7 @@ Nei rapporti che generano dati di sovrapposizione possono verificarsi errori. Un
 | 100.000 | Il 95% è al di sotto di un tasso di errore del 4%. |
 | 500.000 (o più) | Il 95% è al di sotto di un tasso di errore del 2%. |
 
-## Utilizzo della metodologia di campionamento dei hash {#minhash}
+## Utilizzo della metodologia di campionamento dei minhash {#minhash}
 
 Sulla base della metodologia di campionamento [Minhash](https://en.wikipedia.org/wiki/MinHash) , Audience Manager utilizza un nuovo metodo per calcolare le caratteristiche e i calcolatori dei segmenti sopra uno sketch di dati di hash di una permutazione. Questo nuovo metodo produce una varianza inferiore rispetto al calcolatore standard per la somiglianza Jaccard. Vedi la sezione seguente per i rapporti che utilizzano questa metodologia.
 
