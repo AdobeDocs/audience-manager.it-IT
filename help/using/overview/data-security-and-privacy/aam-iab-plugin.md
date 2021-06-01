@@ -4,9 +4,8 @@ seo-description: Adobe consente di gestire e comunicare le scelte degli utenti i
 seo-title: Plug-in di Audience Manager per IAB TCF
 solution: Audience Manager
 title: Plug-in di Audience Manager per IAB TCF
-feature: Data Governance & Privacy
+feature: Governance dei dati e privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '2441'
