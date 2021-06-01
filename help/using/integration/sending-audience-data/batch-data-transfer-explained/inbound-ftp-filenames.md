@@ -5,9 +5,8 @@ seo-title: Requisiti FTP di nome e dimensione file per i file di dati in entrata
 solution: Audience Manager
 title: Requisiti FTP di nome e dimensione file per i file di dati in entrata
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-feature: Inbound Data Transfers
+feature: Trasferimenti di dati in entrata
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '1045'
@@ -145,5 +144,5 @@ Considera le figure riportate di seguito per l’elaborazione più rapida/veloce
 
 >[!MORELIKETHIS]
 >
->* [Requisiti di nome di Amazon S3 per file di dati in entrata](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+>* [Amazon S3 Name Requirements for Inbound Data Files](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
