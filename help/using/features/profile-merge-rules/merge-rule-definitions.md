@@ -5,9 +5,8 @@ seo-title: Definizione delle opzioni delle regole di unione profili.
 solution: Audience Manager
 title: Definizione delle opzioni delle regole di unione profili.
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-feature: Profile Merge
+feature: Unione profili
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1031'
@@ -23,7 +22,7 @@ Puoi creare un [!UICONTROL Profile Merge Rule] effettuando una selezione tra le 
 
 ![profile-merge-rule-setup](assets/profile-merge-rule-setup.png)
 
-## [!UICONTROL Profile Merge Rule] Panoramica delle opzioni  {#overview}
+## [!UICONTROL Profile Merge Rule] Panoramica delle opzioni {#overview}
 
 [!UICONTROL Profile Merge Rules] consentire una serie di combinazioni di regole, ciascuna orientata a casi d&#39;uso specifici. Vedi la tabella seguente per i dettagli su quando utilizzare ogni combinazione di regole.
 
