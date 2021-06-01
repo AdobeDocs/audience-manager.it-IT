@@ -5,8 +5,7 @@ seo-title: Partner tecnologici Adobe Audience Manager
 keywords: attivazione; partner di attivazione, destinazione, destinazioni
 solution: Audience Manager
 title: Partner tecnologici Adobe Audience Manager
-feature: Third-party Integration
-translation-type: tm+mt
+feature: Integrazione di terze parti
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '1185'
@@ -158,7 +157,7 @@ Questa pagina include solo l&#39;Audience Manager corrente [integrazioni server-
 | TubeMogul | 03/03/2017 | Sì | No | Sì | No |
 | Gira/Amobe | 03/03/2027 | No | No | No | Sì |
 | Twenga | 10/29/2018 | Sì | No | No | No |
-| Tipi di pubblico personalizzati su Twitter | 02/27/2017 | Sì | No | Sì | No |
+| Tipi di pubblico personalizzati di twitter | 02/27/2017 | Sì | No | Sì | No |
 | Sottolineato | 07/11/2017 | No | No | No | No |
 | Vervo | 06/15/2017 | Sì | No | No | Sì |
 | VideoAmp | 03/03/2017 | No | No | No | No |
