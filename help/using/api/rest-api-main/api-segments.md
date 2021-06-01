@@ -6,14 +6,13 @@ solution: Audience Manager
 title: Metodi API per i segmenti
 uuid: a3ab199f-6181-4b36-a1d1-5c2dba7539d3
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: c2ba9992-5d0f-46f7-861d-ae279b37674f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 25%
+source-wordcount: '59'
+ht-degree: 27%
 
 ---
-
 
 # Metodi API per i segmenti {#segment-api-methods}
 
@@ -21,7 +20,8 @@ Metodi che consentono di lavorare in modo programmatico con i segmenti.
 
 >[!IMPORTANT]
 >
->I metodi [!DNL API] del segmento sono stati riscritti con [!DNL Swagger] e migrati. Consulta:
+>I metodi [!DNL API] del segmento sono stati riscritti con [!DNL Swagger] ed è stata eseguita la migrazione. Consulta:
 >
->* [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documentazione API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione del codice API di Audience Manager](../../api/api-swagger-migration.md)
+
