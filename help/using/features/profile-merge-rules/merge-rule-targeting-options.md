@@ -5,9 +5,8 @@ seo-title: Casi d’uso generali per le regole di unione profili
 solution: Audience Manager
 title: Casi d’uso generali per le regole di unione profili
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
-feature: Profile Merge
+feature: Unione profili
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '999'
@@ -119,6 +118,6 @@ Guarda il video seguente per una panoramica dei possibili casi di utilizzo di [!
 >[!MORELIKETHIS]
 >
 >* [Casi di utilizzo del grafico dei dispositivi di collegamento dei profili](profile-link-use-case.md)
->* [Casi d’uso del grafico dei dispositivi esterno](external-graph-use-cases.md)
->* [Domande frequenti sulle regole di unione dei profili](../../faq/faq-profile-merge.md)
+* [Casi d’uso del grafico dei dispositivi esterno](external-graph-use-cases.md)
+* [Domande frequenti sulle regole di unione dei profili](../../faq/faq-profile-merge.md)
 
