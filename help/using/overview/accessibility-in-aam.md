@@ -4,9 +4,8 @@ seo-description: Accessibilità si riferisce a una serie di funzioni che rendono
 seo-title: Accessibilità in Audience Manager
 solution: Audience Manager
 title: Accessibilità in Audience Manager
-feature: Overview
+feature: Panoramica
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
-translation-type: tm+mt
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
 source-wordcount: '455'
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Accessibilità nell&#39;Audience Manager {#accessibility}
+# Accessibilità in Audience Manager {#accessibility}
 
 ## Panoramica {#overview}
 
