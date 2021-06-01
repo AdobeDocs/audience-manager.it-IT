@@ -6,32 +6,31 @@ solution: Audience Manager
 title: Race condition e gestione degli errori
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: bfb0b684-6b15-434d-b5ec-5f8741c0c691
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '203'
 ht-degree: 7%
 
 ---
 
-
 # Race condition e gestione degli errori {#race-conditions-and-error-handling}
 
-Descrive come impedire le condizioni di gara e la gestione degli errori [!DNL DCS].
+Descrive come impedire le condizioni di corsa e la gestione degli errori [!DNL DCS].
 
-## Prevenzione delle condizioni di gara {#prevent-race-conditions}
+## Prevenzione delle condizioni di corsa {#prevent-race-conditions}
 
-Una condizione di gara può verificarsi se si inviano più chiamate contemporaneamente (o in rapida successione) alla [!DNL DCS] prima che finisca di rispondere alle query iniziali e di scrivere i dati sul cookie dell&#39;utente. Una condizione di gara non è desiderabile perché può corrompere o sovrascrivere in modo improprio i dati dei cookie. Per evitare questo problema, è consigliabile utilizzare i metodi seguenti:
+Una race condition può verificarsi se si inviano più chiamate contemporaneamente (o in rapida successione) al [!DNL DCS] prima che termini la risposta alle query iniziali e la scrittura di dati nel cookie dell’utente. Una situazione di tipo &quot;race condition&quot; non è auspicabile perché può corrompere o sovrascrivere in modo errato i dati dei cookie. Come best practice, considera i seguenti metodi per evitare questo problema:
 
 * Non effettuare chiamate simultanee, o in rapida successione, allo [!DNL DCS] dello stesso utente.
 * Attendi che ogni risposta torni prima di effettuare chiamate successive.
 
-## Gestione errori {#error-handling}
+## Gestione degli errori {#error-handling}
 
-La gestione degli errori è limitata per le query con formato non valido o non valido. Una richiesta non valida restituisce una risposta `HTTP 200 OK` e nessun dato. Inoltre, la [!DNL DCS] interrompe l&#39;elaborazione di una richiesta, elimina i dati relativi alle caratteristiche e restituisce una risposta `HTTP 200 OK` quando un utente:
+La gestione degli errori è limitata per le query non valide o con formato insufficiente. Una richiesta non valida restituisce una risposta `HTTP 200 OK` e nessun dato. Inoltre, [!DNL DCS] smette di elaborare una richiesta, elimina i dati delle caratteristiche e restituisce una risposta `HTTP 200 OK` quando un utente:
 
-* Rifiuta il tracciamento a livello di Audience Manager  o partner.
-* Proviene da un&#39;area geografica non valida o non selezionata.
+* Rinuncia al tracciamento a livello di Audience Manager o di partner.
+* Proviene da un&#39;area geografica non valida/non selezionata.
 * Disattiva i cookie del browser (tutti o di terze parti).
 
 Vedi anche [Codici di errore DCS, messaggi ed esempi](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
