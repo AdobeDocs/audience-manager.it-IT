@@ -5,9 +5,8 @@ seo-title: Rapporti sulle tendenze
 solution: Audience Manager
 title: Rapporti sulle tendenze
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
-feature: General & Trend Reports
+feature: Rapporti generali e sulle tendenze
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '653'
