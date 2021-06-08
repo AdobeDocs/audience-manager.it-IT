@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; indirizzo SFTP; indirizzo IP STFP; Indirizzo FTP
 feature: Amministrazione
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 24284321570ee5eb9632801a4a333a11b532e386
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 86%
+source-wordcount: '1206'
+ht-degree: 82%
 
 ---
 
@@ -205,3 +205,11 @@ Consulta anche [Index of Audience Manager IDs](../reference/ids-in-aam.md).
 **Quanto tempo è necessario per la sincronizzazione dei profili utente tra [aree geografiche](../api/dcs-intro/dcs-api-reference/dcs-regions.md)?**
 
 In genere, la sincronizzazione di un profilo utente tra aree geografiche richiede fino a 24 ore. Tuttavia, in rari casi, il processo può richiedere fino a 48 ore.
+
+ 
+
+**Cosa succede alle chiavi di accesso utente inattive di Amazon S3?**
+
+Adobe fornisce ai clienti di Audience Manager le chiavi di accesso utente per i bucket di Audience Manager [!DNL Amazon S3]. Per motivi di sicurezza, le chiavi vengono disattivate automaticamente dopo 100 giorni di inattività.
+
+Per riabilitare le chiavi di accesso o richiederne di nuove, contatta l’Assistenza clienti.
