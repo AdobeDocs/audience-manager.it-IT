@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Plug-in di Audience Manager per IAB TCF
 feature: Governance dei dati e privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 40%
@@ -75,7 +75,7 @@ Per utilizzare ad Audience Manager il plug-in Audience Manager per IAB TCF, è n
 
 Per abilitare il supporto IAB TCF in Audience Manager, consulta la nostra documentazione sulla [configurazione di IAB con Opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
-Il modo più semplice per farlo è utilizzare [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) per aggiungere [!DNL ECID Opt-in] alle proprietà. Leggi la documentazione relativa all’[estensione Opt-in di ECID](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) per informazioni su come configurare l’estensione di Launch.
+Il modo più semplice per farlo è utilizzare [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) per aggiungere [!DNL ECID Opt-in] alle proprietà. Leggi la documentazione relativa all’[estensione Opt-in di ECID](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) per informazioni su come configurare l’estensione di Launch.
 
 ## Workflow di scelta dell’utente quando si utilizza il framework IAB {#user-choice-workflow}
 
