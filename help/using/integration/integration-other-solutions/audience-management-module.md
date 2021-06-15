@@ -8,7 +8,7 @@ title: Implementare il modulo Gestione dell'audience
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Integrazione di Adobe Analytics
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -36,7 +36,7 @@ Esistono due metodi per implementare l’inoltro di dati da [!DNL Adobe Analytic
 
 ### Implementazione utilizzando [!DNL Adobe Experience Platform Launch]
 
-[!DNL Adobe] consiglia di utilizzare l&#39;estensione  [](https://docs.adobe.com/content/help/en/launch/using/overview.html) Launch per strumenti  [!DNL Adobe Analytics] e  [!DNL Audience Manager] sulle proprietà. In questo caso, non è necessario copiare manualmente alcun codice. Al contrario, devi abilitare la condivisione dei dati nell’ estensione [!DNL Analytics Launch] , come illustrato di seguito. Consulta anche la documentazione [Estensione Adobe Analytics](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
+[!DNL Adobe] consiglia di utilizzare l&#39;estensione  [](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) Launch per strumenti  [!DNL Adobe Analytics] e  [!DNL Audience Manager] sulle proprietà. In questo caso, non è necessario copiare manualmente alcun codice. Al contrario, devi abilitare la condivisione dei dati nell’ estensione [!DNL Analytics Launch] , come illustrato di seguito. Consulta anche la documentazione [Estensione Adobe Analytics](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
 
 >[!TIP]
 >
