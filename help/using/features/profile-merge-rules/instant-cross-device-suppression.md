@@ -6,7 +6,7 @@ title: Soppressione immediata su diversi dispositivi
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Unione profili
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 15%
@@ -67,4 +67,4 @@ Tieni presente i seguenti aspetti relativi all’elaborazione:
 Tenete a mente questi aspetti relativi alla tempistica:
 
 * Un segmento verrà memorizzato sul [Edge](../../reference/system-components/components-edge.md) per lo stesso periodo di tempo in cui un profilo dispositivo viene memorizzato sul [!UICONTROL Edge], ovvero 14 giorni dall&#39;ultima interazione in tempo reale. Ulteriori informazioni sulla conservazione dei dati sono disponibili nelle nostre [Domande frequenti sulla conservazione dei dati](../../faq/faq-privacy.md#data-retention-faq).
-* Ci vogliono circa 24 ore perché l&#39;operazione di rimozione dai segmenti si propaghi tra [!DNL DCS] aree geografiche. Ulteriori informazioni sulle [!DNL DCS] aree [qui](../..//reference/system-components/components-data-collection.md) e [qui](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Ci vogliono circa 24 ore perché l&#39;operazione di rimozione dai segmenti si propaghi tra [!DNL DCS] aree geografiche. Ulteriori informazioni sulle [!DNL DCS] aree [qui](../../reference/system-components/components-data-collection.md) e [qui](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
