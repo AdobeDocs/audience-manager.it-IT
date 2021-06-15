@@ -6,9 +6,9 @@ solution: Audience Manager
 title: 'Flusso di lavoro B: personalizzazione basata su dati solo offline'
 feature: Destinazioni basate su persone
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1173'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Indipendentemente dal fatto che gli ID cliente Audienci Manager esistenti ([DPUU
 
 ### Esempio
 
-Desideri qualificare gli ID cliente dalla tabella seguente per i corrispondenti ID di caratteristiche onboarded. Consideriamo che i [DPUUID](../../reference/ids-in-aam.md) sono memorizzati in un’origine dati con l’ID 99999 e l’ID partner Audience Manager è 123.
+Desideri qualificare gli ID cliente dalla tabella seguente per i corrispondenti ID di caratteristiche onboarded. Consideriamo che i [DPUUID](../../reference/ids-in-aam.md) sono memorizzati in un&#39;origine dati con l&#39;ID 99999 e l&#39;ID dell&#39;origine dati Audience Manager è 123.
 
 | ID cliente (DPUUID) | ID caratteristica onboarded |
 | -------------------------------------- | ------------------- |
