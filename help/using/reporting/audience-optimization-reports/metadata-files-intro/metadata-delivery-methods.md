@@ -7,7 +7,7 @@ title: Metodi di distribuzione dei file di metadati
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
 feature: File di registro
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 4%
@@ -44,7 +44,7 @@ La tabella seguente definisce ciascuno di questi elementi in un percorso di cons
 
 
 | Parametro file | Descrizione |
----------|----------|
+|---------|----------|
 | `.../log_ingestion/` | Questo è l&#39;inizio del percorso di archiviazione della directory. Riceverai il percorso completo quando tutto è configurato. |
 | `pid=<AAM ID>` | Questa coppia chiave-valore contiene l&#39;ID cliente Audience Manager. |
 | `dpid=<d_src>` | Questa coppia chiave-valore contiene l&#39;ID origine dati trasmesso in una chiamata evento. L’ID dell’origine dati è il valore che collega tutto il contenuto del file ai dati effettivi a cui appartiene. </br> Ad esempio, supponiamo che tu abbia un creativo con l’ID 123 e il nome &quot;Advertiser Creative A&quot;. Poiché una chiamata evento passa solo nell’ID, devi includere &quot;Advertiser Creative A&quot; nel file di metadati. La campagna e il contenuto creativo appartengono a un’origine dati. L’ID dell’origine dati è ciò che li collega tra loro e ci consente di associare con precisione il contenuto del file a un ID inviato in una chiamata dell’evento. Consulta [Come gli ID delle chiamate evento determinano i nomi dei file, i contenuti e i percorsi di consegna](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names). |
