@@ -8,7 +8,7 @@ title: Pubblico di riferimento
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Percentuali di corrispondenza
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 1%
@@ -47,7 +47,7 @@ La funzione [!UICONTROL Addressable Audience] trasforma questo concetto astratto
 Le tre metriche che puoi visualizzare nella pagina di destinazione [!UICONTROL Addressable Audiences] rappresentano:
 
 | Metrica | Descrizione |
----------|----------|
+|---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | Questa metrica rappresenta la [!UICONTROL Customer Addressable Audience] (descritta nella tabella precedente) *per gli ultimi 30 giorni.* |
 | **[!UICONTROL Match Rate]** | Questa metrica rappresenta la [!UICONTROL Addressable Audience Match Rate] (descritta nella tabella precedente) *per gli ultimi 30 giorni*. |
 | **[!UICONTROL Lifetime Addressable Audience (Device)]** | Numero di dispositivi che hanno interagito con tutti i clienti [!DNL Audience Manager] a livello di piattaforma durante il periodo di look-back del report e che possono essere associati a questo [!UICONTROL destination]. Per ulteriori informazioni, consulta [Metriche a livello di piattaforma](/help/using/features/addressable-audiences.md#platform-level-metrics) . |
