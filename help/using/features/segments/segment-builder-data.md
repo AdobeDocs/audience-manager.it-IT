@@ -7,7 +7,7 @@ title: Dati sulle caratteristiche e sulle popolazioni dei segmenti nel Generator
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: 'Segmenti '
 exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 2%
@@ -28,7 +28,7 @@ La tabella seguente definisce le metriche della popolazione delle caratteristich
 
 
 | Metrica | Descrizione |
----------|----------|
+|---------|----------|
 | [!UICONTROL Total Trait Population] | Il numero di ID univoci con la caratteristica selezionata nel profilo. |
 
 
@@ -122,7 +122,7 @@ La tabella seguente definisce le metriche effettive della popolazione in tempo r
 
 
 | Colonna A | Colonna B |
----------|----------|
+|---------|----------|
 | [!UICONTROL Real-Time Population (Existing) ] | Il numero effettivo di dispositivi visualizzati in tempo reale con i profili correnti che, quando uniti con un massimo di 100 altri profili dispositivo collegati dal grafico dei dispositivi, contengono le caratteristiche per qualificarsi per il segmento nel momento in cui è stato visto dall’Audience Manager. |
 | [!UICONTROL Total Population (Existing)] | Il numero totale di dispositivi con profili che, se uniti con un massimo di 100 altri profili dispositivo collegati dal grafico dei dispositivi, erano tutti qualificati per il segmento. |
 
