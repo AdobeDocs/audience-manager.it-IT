@@ -7,14 +7,14 @@ title: Inviare segmenti a un elenco per il remarketing di Google AdWords
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Integrazione di terze parti
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 760d6a56754530368ac11a5c9f10c4be487de028
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 5%
 
 ---
 
-# Invia segmenti a un elenco per il remarketing di Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
+# Inviare segmenti a un elenco per il remarketing di Google Ads {#send-segments-to-a-google-adwords-remarketing-list}
 
 Questa procedura richiede un [!DNL Google Ads] elenco di remarketing, un codice pixel e un Audience Manager [!DNL URL] [!DNL destination]. È anche noto come elenco di remarketing per l’integrazione con gli annunci di ricerca ([!DNL RLSA]). Si applica solo alla ricerca a pagamento.
 
@@ -33,7 +33,7 @@ Per impostare un elenco di remarketing [!DNL Google Ads] come [!DNL Audience Man
 1. Ad Audience Manager, [Crea un [!DNL URL destination]](../../features/destinations/create-url-destination.md) o modifica un [!DNL destination] esistente. Utilizza le seguenti impostazioni durante la creazione di [!DNL destination]:
    * Tipo: URL
    * Serializza: Abilitato
-   * Delimitatore: Punto e virgola (;)
+   * Delimitatore: Punto e virgola ( &amp;semi; )
 
 1. Nella sezione [!UICONTROL Segment Mappings] del [!DNL URL] [!DNL destination], aggiungi il codice dal passaggio 2 ai campi [!DNL URL] e [!DNL Secure URL]. Aggiungi il prefisso `http:` e `https:` rispettivamente nei campi [!DNL URL] e [!DNL Secure URL] .
 
