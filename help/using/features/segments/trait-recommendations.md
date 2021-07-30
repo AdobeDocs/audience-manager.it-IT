@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Raccomandazioni sulle caratteristiche
 feature: 'Segmenti '
 exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 8%
@@ -170,7 +170,7 @@ Se le stesse caratteristiche A e B presentavano 400.000 [!UICONTROL UUID]s idone
 Utilizza la tabella seguente come guida approssimativa per la somiglianza delle caratteristiche. Questa guida si basa sui punteggi di similarità rilevati nella maggior parte delle caratteristiche.
 
 | [!UICONTROL Trait Similarity Score] | Significato |
----------|----------|
+|---------|----------|
 | 0.1 e versioni successive | Somiglianza elevata tra le caratteristiche |
 | 0,03 - 0,1 | Somiglianza media tra le caratteristiche |
 | 0,01 - 0,03 | Somiglianza bassa tra le caratteristiche |
