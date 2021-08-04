@@ -8,14 +8,14 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; indirizzo SFTP; indirizzo IP STFP; Indirizzo FTP
 feature: Amministrazione
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1215'
 ht-degree: 82%
 
 ---
 
-# Domande frequenti sulla raccolta dei dati e l’integrazione dei prodotti {#data-collection-and-product-integration-faq}
+# Domande frequenti sulla raccolta dei dati e l’integrazione dei prodotti{#data-collection-and-product-integration-faq}
 
 Domande e problemi comuni sulla raccolta e l’integrazione dei dati.
 
@@ -190,7 +190,7 @@ No, in questo caso non fare affidamento sui [!UICONTROL General Reports] e [!UIC
 
 I report calcolano le popolazioni in base ai record di profilo non autenticati (UUID) visualizzati nel back-end al momento della generazione dei report.
 
-In una prima chiamata al [!DNL DCS], gli ID dichiarati *non* sono collegati ad alcun UUID (ovvero, nessun [cookie demdex](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) è presente sul lato client). Il [!DNL DCS] genera un UUID in modo casuale, imposta un cookie [!DNL demdex] e lo trasmette nella chiamata di risposta, ma non trasmette l’UUID al back-end.
+In una prima chiamata al [!DNL DCS], gli ID dichiarati *non* sono collegati ad alcun UUID (ovvero, nessun [cookie demdex](https://docs.adobe.com/content/help/it-IT/core-services/interface/ec-cookies/cookies-am.html) è presente sul lato client). Il [!DNL DCS] genera un UUID in modo casuale, imposta un cookie [!DNL demdex] e lo trasmette nella chiamata di risposta, ma non trasmette l’UUID al back-end.
 
 >[!NOTE]
 >
