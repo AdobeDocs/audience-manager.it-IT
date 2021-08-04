@@ -7,9 +7,9 @@ title: Guida introduttiva alle regole di unione profili
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Unione profili
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1315'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Per creare [!UICONTROL Profile Merge Rules], rivedi e completa i passaggi descri
 
 <!-- merge-rules-start.xml -->
 
-## Creare un&#39;origine dati multi-dispositivo {#create-data-source}
+## Creare un’origine dati tra dispositivi {#create-data-source}
 
 Per creare un’origine dati multi-dispositivo, passa a **[!UICONTROL Audience Data > Data Sources > Add New]** e completa i passaggi per ogni sezione descritta qui. Per creare o modificare un’origine dati multi-dispositivo sono necessarie le autorizzazioni di amministratore.
 
@@ -86,7 +86,7 @@ Per completare la sezione [!UICONTROL Basic Information]:
 
 [I ](../data-export-controls.md) controlli di esportazione dei dati sono regole di classificazione facoltative applicabili al tuo  [!UICONTROL Profile Merge Rule]. Ti impediscono di inviare dati a una destinazione quando tale azione viola la privacy dei dati o l’accordo di utilizzo. Ignora questa sezione se non utilizzi [!UICONTROL Data Export Controls].
 
-## Impostazione regola di unione profili {#profile-merge-rule-setup}
+## Impostazione delle regole di unione profili {#profile-merge-rule-setup}
 
 Per completare la sezione [!UICONTROL Proflie Merge Rule Setup]:
 
@@ -115,7 +115,7 @@ Per garantire la corretta integrazione tra l’istanza di Audience Manager e le 
 >
 > Se hai raggiunto il numero massimo di [!UICONTROL Profile Merge Rules] e hai bisogno di assistenza per configurarli in base alle istruzioni di cui sopra, contatta l’Assistenza clienti.
 
-## Configura il codice della regola di unione {#configure-merge-rule-code}
+## Configura il codice delle regole di unione {#configure-merge-rule-code}
 
 Segui queste istruzioni per impostare il codice [!UICONTROL Adobe Experience Platform Identity Service], [!UICONTROL DIL] e mobile [!DNL SDK] in modo che funzioni con le regole di unione.
 
@@ -125,7 +125,7 @@ Segui queste istruzioni per impostare il codice [!UICONTROL Adobe Experience Pla
 
 È necessario impostare una [origine dati multi-dispositivo](#create-data-source) e [regole di unione profili](#create-profile-merge-rule) *prima di* di completare queste procedure.
 
-## Clienti del servizio Adobe Experience Platform Identity {#id-service-customers}
+## Per i clienti del servizio Adobe Experience Platform Identity {#id-service-customers}
 
 Quando si lavora con [!UICONTROL Profile Merge Rules], è consigliabile utilizzare [!UICONTROL Adobe Experience Platform Identity Service] e l&#39;ultima versione di [DIL](../../dil/dil-overview.md). Tuttavia, non è necessario utilizzare [!UICONTROL Adobe Experience Platform Identity Service] per utilizzare questa funzione. Se utilizzi solo [!UICONTROL DIL], consulta la sezione [legacy DIL](#legacy-dil) di seguito.
 
@@ -224,7 +224,7 @@ Controlla i metodi nel codice [!DNL SDK] che ti permettono di passare [!UICONTRO
  </tbody>
 </table>
 
-Vedi anche Metodi di Audience Manager per Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e Metodi di Audience Manager per iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html) .[[
+Vedi anche Metodi di Audience Manager per Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e Metodi di Audience Manager per iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html) .[[
 
 >[!MORELIKETHIS]
 >
