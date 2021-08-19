@@ -7,20 +7,20 @@ title: Elenco e impostazioni delle sorgenti di dati
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Sorgenti di dati
 exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 2%
+source-wordcount: '1116'
+ht-degree: 1%
 
 ---
 
-# [!UICONTROL Data Sources] Elenco e impostazioni  {#data-sources-list-and-settings}
+# [!UICONTROL Data Sources] Elenco e impostazioni {#data-sources-list-and-settings}
 
 Visualizza un elenco dei [!UICONTROL data sources] attualmente configurati, aggiungi un nuovo [!UICONTROL data sources] e modifica un [!UICONTROL data sources] esistente.
 
 Puoi anche gestire [!UICONTROL data sources] utilizzando i metodi [!DNL API] . Per ulteriori informazioni, consulta [Metodi API per le sorgenti di dati](../api/rest-api-main/aam-api-data-sources.md).
 
-## [!UICONTROL Data Sources] Vista a elenco  {#list-view}
+## [!UICONTROL Data Sources] Vista a elenco {#list-view}
 
 Il dashboard [!UICONTROL Data Sources] è un&#39;area di lavoro centralizzata per la gestione delle origini dati.
 
@@ -30,7 +30,7 @@ Il dashboard [!UICONTROL Data Sources] (**[!UICONTROL Audience Data]** > **[!UIC
 * Cerca [!UICONTROL data sources] per nome.
 * Crea, modifica ed elimina [!UICONTROL data sources].
 
-## [!DNL Data Source] Impostazioni e opzioni menu  {#settings-menu-options}
+## [!DNL Data Source] Impostazioni e opzioni menu {#settings-menu-options}
 
 Le impostazioni nelle diverse sezioni dell&#39;interfaccia di gestione [!UICONTROL Data Source] identificano il [!DNL data source], determinano come viene utilizzato o condiviso e consentono di abilitare la segnalazione degli errori per il [!UICONTROL Onboarding Status Report].
 
@@ -55,7 +55,7 @@ Oltre ai campi di testo, la sezione [!UICONTROL Data Source Details] contiene i 
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol"> Tra dispositivi</span></b>: Un ID autenticato fornito dal cliente. Seleziona questa opzione quando desideri creare: 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
         <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">Un’origine dati multi-dispositivo e crea una <span class="wintitle"> regola di unione profili</span>. </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Origine dati che utilizza i collegamenti forniti da <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> o da un altro grafico dei dispositivi di terze parti integrato con <span class="keyword"> Audience Manager</span>. </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Origine dati che utilizza i collegamenti forniti da <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> o da un altro grafico dei dispositivi di terze parti integrato con <span class="keyword"> Audience Manager</span>. </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ Seleziona la casella di controllo **[!UICONTROL Inbound]** quando l’origine da
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID</span></b> cliente: Identifica i dati in entrata con un ID cliente. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> ID</span></b> Audience Manager: Identifica i dati in entrata con un  <span class="keyword"> Audience </span> ManagerID. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID</span></b> Experience Cloud: Identifica i dati in entrata con un  <span class="keyword"> Experience </span> CloudID. Consulta <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e l'ID Experience Cloud</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> ID</span></b> Experience Cloud: Identifica i dati in entrata con un  <span class="keyword"> Experience </span> CloudID. Consulta <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e l'ID Experience Cloud</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
