@@ -8,9 +8,9 @@ title: Creare caratteristiche basate su regole o onboarded
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: 'Caratteristiche '
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 7%
 
 ---
@@ -60,7 +60,7 @@ In [!UICONTROL Trait Builder], le impostazioni [!UICONTROL Basic Information] co
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Tipo evento</span></b> </td> 
-   <td colname="col2"> Assegna la caratteristica a un tipo o a una categoria, in genere in base alla funzione (ad esempio conversione, visitatore del sito, partner, visualizzazione della pagina, ecc.). Facoltativo. <p> Per scoprire come creare le caratteristiche di conversione, guarda il video di Audience Manager <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creazione di caratteristiche di conversione</a> . </p></td> 
+   <td colname="col2"> Assegna la caratteristica a un tipo o a una categoria, in genere in base alla funzione (ad esempio conversione, visitatore del sito, partner, visualizzazione della pagina, ecc.). Facoltativo. <p> Per scoprire come creare le caratteristiche di conversione, guarda il video di Audience Manager <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creazione di caratteristiche di conversione</a> . </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Codice di integrazione</span></b> </td> 
@@ -81,7 +81,7 @@ In [!UICONTROL Trait Builder], le impostazioni [!UICONTROL Basic Information] co
  </tbody> 
 </table>
 
-## Imposta un [!UICONTROL Trait] intervallo di scadenza {#set-expiration-interval}
+## Imposta un intervallo di scadenza [!UICONTROL Trait] {#set-expiration-interval}
 
 In [!UICONTROL Trait Builder], il [!UICONTROL Advanced Options] consente di impostare un intervallo time-to-live ([!DNL TTL]) per un valore [!UICONTROL trait]. [!DNL TTL] definisce quanti giorni un visitatore qualificato rimane in un  [!UICONTROL trait] (120 giorni è l’impostazione predefinita). Se è impostato su 0, l&#39;iscrizione a [!UICONTROL trait] non scade mai.
 
