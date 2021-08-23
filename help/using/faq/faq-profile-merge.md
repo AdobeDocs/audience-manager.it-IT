@@ -8,14 +8,14 @@ title: Domande frequenti su regole di unione profili e grafico dei dispositivi
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Unione profili
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1550'
 ht-degree: 86%
 
 ---
 
-# Domande frequenti su regole di unione profili e grafico dei dispositivi {#profile-merge-rules-and-device-graph-faq}
+# Domande frequenti su regole di unione profili e grafico dei dispositivi{#profile-merge-rules-and-device-graph-faq}
 
 Risposte alle domande comuni sulle Regole di unione profili e sul grafico dei dispositivi.
 
@@ -111,7 +111,7 @@ Sì.
 
 **Le stime delle dimensioni dei segmenti includono i dispositivi qualificati per un segmento in base alle connessioni fornite da una [!UICONTROL Profile Merge Rule] che utilizza un’opzione del grafico dei dispositivi?**
 
-No. Vedi le definizioni di [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/segments/segment-builder-data.html).
+No. Vedi le definizioni di [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
