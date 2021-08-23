@@ -8,10 +8,10 @@ title: Metodi DIL a livello di istanza
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: Implementazione di DIL
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 14%
+source-wordcount: '1105'
+ht-degree: 15%
 
 ---
 
@@ -723,8 +723,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Requisiti di denominazione delle variabili chiave](../features/traits/trait-key-name-requirements.md)
 * [Requisiti di prefisso delle variabili chiave](../features/traits/trait-variable-prefixes.md)
-* [Funzioni di sincronizzazione nel servizio Adobe Experience Platform Identity](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
+* [Funzioni di sincronizzazione nel servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
 * [DIL create](../dil/dil-class-overview/dil-create.md#dil-create)
-* [Servizio Adobe Experience Platform Identity: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
-* [Supporto per CORS nel servizio Adobe Experience Platform Identity](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+* [Servizio Adobe Experience Platform Identity: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
+* [Supporto per CORS nel servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
 
