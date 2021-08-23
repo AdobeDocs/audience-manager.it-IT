@@ -7,7 +7,7 @@ title: Acquisizione dei dati di impression delle campagne attraverso chiamate pi
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Integrazione Adobe Campaign
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 21%
@@ -31,7 +31,7 @@ La chiamata dell&#39;evento raccoglie i dati sulle impression e di conversione e
 Le chiamate evento sono costituite da coppie chiave-valore che utilizzano la sintassi seguente:
 
 ```
-http://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
+https://clientname.demdex.net/event?d_event=imp&d_src=datasource_id&d_site=siteID&d_creative=<i>creative_id</i>&d_adgroup=<i>adgroup_id</i>&d_placement=<i>placement_id</i>&d_campaign=<i>campaign_id</i>[&d_cid=(GAID|IDFA)%01 DPUUID]&d_bust=cache buster value
 ```
 
 Nella coppia chiave-valore , la variabile valore è un ID o una macro inseriti dal server di annunci. Al caricamento del tag pubblicitario, `%macro%` viene sostituito con i valori corrispondenti richiesti. Questa chiamata non restituisce una risposta.
