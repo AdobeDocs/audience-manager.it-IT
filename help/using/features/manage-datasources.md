@@ -8,14 +8,14 @@ title: Gestisci origini dati
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Sorgenti di dati
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 4%
+source-wordcount: '378'
+ht-degree: 2%
 
 ---
 
-# Gestire i  [!UICONTROL Data Sources]{#manage-data-sources}
+# Gestire i  [!UICONTROL Data Sources] {#manage-data-sources}
 
 ## Crea un [!UICONTROL Data Source] {#create-data-source}
 
@@ -36,7 +36,7 @@ Per completare la sezione [!UICONTROL Data Source Details]:
 1. Specifica un [!UICONTROL integration code]. In genere, [!UICONTROL integration codes] è facoltativo. Sono necessari per:
 
    * [Crea un’origine dati multi-dispositivo](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Utilizza il [servizio Adobe Experience Platform Identity](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html).
+   * Utilizza il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Lavora con [Regole di unione profili](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Scegli un elemento **[!UICONTROL ID Type]**. [!UICONTROL ID Type] le opzioni includono:
@@ -61,7 +61,7 @@ Queste impostazioni determinano il modo in cui un [!UICONTROL data source] viene
 1. Seleziona una casella di controllo [!UICONTROL Data Source Setting] per applicare un&#39;opzione al tuo [!UICONTROL data source].
 2. Clic **[!UICONTROL Save]**.
 
-## Eliminare un&#39;origine dati {#delete-data-source}
+## Eliminare un’origine dati {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
@@ -72,7 +72,7 @@ Elimina un elemento [!UICONTROL data source] non più necessario.
 >Si prega di notare le seguenti restrizioni:
 >
 >* Non è possibile eliminare un [Pubblico attivo o una caratteristica sincronizzata dell&#39;origine dati](../features/traits/client-activity-synced-audience-traits.md).
->* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di rapporti [!DNL Analytics]. Utilizza il [Servizio di base](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) per annullare la mappatura di queste origini dati.
+>* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di rapporti [!DNL Analytics]. Utilizza il [Servizio di base](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html) per annullare la mappatura di queste origini dati.
 
 
 1. Clic **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
