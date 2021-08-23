@@ -7,9 +7,9 @@ title: Guida introduttiva alle regole di unione profili
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Unione profili
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1307'
 ht-degree: 3%
 
 ---
@@ -151,7 +151,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Per ulteriori informazioni, consulta [Creare un’origine dati multi-dispositivo](#create-data-source) e [ID cliente e stati di autenticazione](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html).
+Per ulteriori informazioni, consulta [Creare un’origine dati multi-dispositivo](#create-data-source) e [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
 
 ### Configura la funzione `DIL.create`
 
@@ -166,7 +166,7 @@ var vDil = DIL.create({
 });
 ```
 
-Nella coppia chiave-valore dello spazio dei nomi , la variabile `*`MCORG`*` è l&#39; [!DNL Experience Cloud] ID organizzazione. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. Consulta [Amministrazione: Servizi di base](https://docs.adobe.com/content/help/it-IT/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Nella coppia chiave-valore dello spazio dei nomi , la variabile `*`MCORG`*` è l&#39; [!DNL Experience Cloud] ID organizzazione. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. Consulta [Amministrazione: Servizi di base](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configurare gli SDK
 
@@ -224,7 +224,7 @@ Controlla i metodi nel codice [!DNL SDK] che ti permettono di passare [!UICONTRO
  </tbody>
 </table>
 
-Vedi anche Metodi di Audience Manager per Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e Metodi di Audience Manager per iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html) .[[
+Vedi anche Metodi di Audience Manager per Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e Metodi di Audience Manager per iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html) .[[
 
 >[!MORELIKETHIS]
 >
