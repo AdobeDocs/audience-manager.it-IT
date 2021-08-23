@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Modelli algoritmici
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1505'
 ht-degree: 8%
 
 ---
@@ -60,7 +60,7 @@ In qualità di addetto al marketing, voglio prevedere in quale fase del percorso
 
 Come azienda di media, voglio classificare il mio pubblico in modo da poter vendere il mio spazio pubblicitario a prezzi premium, offrendo al contempo ai miei visitatori annunci pertinenti.
 
-## Funzionamento dei modelli [!UICONTROL Predictive Audiences] {#how-predictive-audiences-models-work}
+## Come funzionano i modelli [!UICONTROL Predictive Audiences] {#how-predictive-audiences-models-work}
 
 Quando crei un modello [!UICONTROL Predictive Audiences], esegui tre passaggi:
 
@@ -86,14 +86,14 @@ Quando selezioni il pubblico di destinazione, analizza il tuo caso d’uso e sta
 
 Come best practice, consigliamo di scegliere un [!UICONTROL Profile Merge Rule] con la stessa configurazione del pubblico di destinazione [!UICONTROL Profile Merge Rule] o uno che includa il tipo di profilo (profilo dispositivo o profilo autenticato) del pubblico di destinazione.
 
-### [!UICONTROL Predictive Audiences] Fase di formazione del modello  {#model-training}
+### [!UICONTROL Predictive Audiences] Fase di formazione del modello {#model-training}
 
 Prima di poter classificare il pubblico di prime parti nelle persone giuste, l’algoritmo deve addestrarsi sui dati.
 
 Per ogni tipo di utente definito, l’algoritmo analizza il proprio pubblico rispettivo e valuta qualsiasi attività sulle caratteristiche in tempo reale e/o onboarded per i suoi utenti negli ultimi 30 giorni.
 Questo passaggio si svolge una volta ogni 24 ore, per tenere conto dei cambiamenti nel pubblico di prime parti.
 
-### [!UICONTROL Predictive Audiences] Fase di classificazione del modello  {#model-classification}
+### [!UICONTROL Predictive Audiences] Fase di classificazione del modello {#model-classification}
 
 Per la classificazione del pubblico in tempo reale e in batch, il modello controlla innanzitutto se un utente appartiene al pubblico di destinazione. Se l’utente è idoneo per il pubblico di destinazione e non appartiene ad alcun utente tipo, il modello assegna loro un punteggio di qualificazione personale.
 
@@ -122,11 +122,11 @@ Durante la configurazione dei modelli [!UICONTROL Predictive Audiences], tieni p
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-I segmenti predittivi creati dai modelli [!UICONTROL Predictive Audiences] ereditano i [Controlli sull&#39;esportazione dei dati](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) dalle seguenti origini dati di prime parti:
+I segmenti predittivi creati dai modelli [!UICONTROL Predictive Audiences] ereditano i [Controlli sull&#39;esportazione dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) dalle seguenti origini dati di prime parti:
 
 1. L&#39;origine dati di prime parti scelta durante la creazione del modello.
 1. Le origini dati di prime parti del pubblico di destinazione. Nello specifico, i controlli per l’esportazione dei dati di [!UICONTROL traits] o [!UICONTROL segments] che costituiscono il pubblico di destinazione.
-1. I [Controlli sull&#39;esportazione dei dati](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) del [!UICONTROL Profile Merge Rule] selezionato per il modello.
+1. I [Controlli sull&#39;esportazione dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) del [!UICONTROL Profile Merge Rule] selezionato per il modello.
 
 I nuovi predittivi [!UICONTROL traits] e [!UICONTROL segments] avranno le stesse restrizioni di privacy dell&#39;unione delle origini dati di prime parti descritte in precedenza.
 
@@ -146,6 +146,6 @@ Selezionando un elemento [!UICONTROL Profile Merge Rule] che utilizza sia i dati
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Le caratteristiche e i segmenti scelti per le persone e la classificazione del pubblico sono soggetti ad Audience Manager [Role-Based Access Controls](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html).
+Le caratteristiche e i segmenti scelti per le persone e la classificazione del pubblico sono soggetti ad Audience Manager [Role-Based Access Controls](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html).
 
-Gli utenti di Audience Manager possono selezionare solo caratteristiche o segmenti per gli utenti tipo e target, che dispongono dell&#39; [autorizzazione per visualizzare](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Gli utenti di Audience Manager possono selezionare solo caratteristiche o segmenti per gli utenti tipo e target, che dispongono dell&#39; [autorizzazione per visualizzare](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
