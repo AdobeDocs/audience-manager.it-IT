@@ -7,9 +7,9 @@ title: Metriche di report per le regole di unione profili
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Unione profili
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## Metriche delle regole di unione {#merge-rule-metrics}
 
-I rapporti restituiscono i dati sotto forma di grafici a barre affiancati quando le regole di unione utilizzano dati provenienti da [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) o altri grafici dei dispositivi di terze parti a cui puoi accedere in [!DNL Audience Manager]. Questo ti consente di confrontare i dati di prime parti autenticati con i dati di più dispositivi forniti da [!UICONTROL Experience Cloud Device Co-op] o da un altro grafico dei dispositivi di terze parti. Per informazioni sui dati restituiti da [!UICONTROL Device Co-op], consulta [Device Graph: Processi interni e output](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Questi dati vengono aggiornati quotidianamente.
+I rapporti restituiscono i dati sotto forma di grafici a barre affiancati quando le regole di unione utilizzano dati provenienti da [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html) o altri grafici dei dispositivi di terze parti a cui puoi accedere in [!DNL Audience Manager]. Questo ti consente di confrontare i dati di prime parti autenticati con i dati di più dispositivi forniti da [!UICONTROL Experience Cloud Device Co-op] o da un altro grafico dei dispositivi di terze parti. Per informazioni sui dati restituiti da [!UICONTROL Device Co-op], consulta [Device Graph: Processi interni e output](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html). Questi dati vengono aggiornati quotidianamente.
 
 <table id="table_A7FB2F9804F84AC8A6DD05C0E6EE7555"> 
  <thead> 
@@ -35,7 +35,7 @@ I rapporti restituiscono i dati sotto forma di grafici a barre affiancati quando
    <td colname="col2"> <p>Mostra: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Persone</span> attive: Il numero di persone che hanno eseguito l'autenticazione sul sito per gli ultimi 60 giorni. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Tra dispositivi</span>: Numero totale di  <a href="merge-rules-start.md#create-data-source"> ID multi-dispositivo </a> memorizzati nella  <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> sorgente </a> dati del profilo  <a href="merge-rule-definitions.md">  </a> autenticato selezionato per la durata in cui l’origine dati è esistita. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Tra dispositivi</span>: Numero totale di  <a href="merge-rules-start.md#create-data-source"> ID multi-dispositivo </a> memorizzati nella  <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html"> sorgente </a> dati del profilo  <a href="merge-rule-definitions.md">  </a> autenticato selezionato per la durata in cui l’origine dati è esistita. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % persone</span> attive: Mostra  <span class="wintitle"> persone attive come </span> %. </li> 
     </ul> <p> <span class="wintitle"> Le </span> attività autenticate consentono di confrontare le origini dati per attività, volume e percentuale. Può essere utile per trovare un’origine dati con molte persone e un’alta percentuale di utenti attivi. Oppure, puoi trovare valore nel confrontare le origini di dati con un’alta percentuale di utenti attivi rispetto alla dimensione totale del pubblico. Ad esempio, a volte un’origine dati con un numero di vita totale basso e un’attività elevata è più preziosa di quelle con risultati a vita elevata e numeri di attività bassi. </p> <p> <p>Nota: Le metriche <span class="wintitle"> Attività autenticata</span> contengono solo dati <span class="wintitle"> Collegamento profilo</span>. Questo rapporto non include dati <span class="wintitle"> Device Graph</span>. </p> </p> </td> 
   </tr> 
@@ -54,7 +54,7 @@ I rapporti restituiscono i dati sotto forma di grafici a barre affiancati quando
  </tbody> 
 </table>
 
-## Metriche del grafico dei dispositivi {#device-graph-metrics}
+## Metriche di Device Graph {#device-graph-metrics}
 
 I rapporti [!UICONTROL Merge Rules] mostrano inoltre i dati sul numero totale di persone e dispositivi che hanno visitato il sito per l’origine dati e il grafico del dispositivo selezionati. Queste metriche restituiscono dati in base a intervalli di tempo predefiniti (il periodo di look-back) che variano a seconda dell’opzione del dispositivo selezionata durante la creazione di una regola. Nella tabella seguente sono elencati questi intervalli di rapporti per ciascuna delle opzioni del grafico dei dispositivi.
 
