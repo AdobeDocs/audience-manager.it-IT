@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Audience Manager Migrazione degli utenti ad Admin Console
 feature: Amministrazione
 exl-id: d9069cc1-87fa-47b7-ad0c-d69ee37fc91e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 4%
@@ -25,12 +25,12 @@ I vantaggi dell&#39;utilizzo di [!DNL Admin Console] includono:
 | Beneficio | Descrizione |
 |---|---|
 | Single sign-on tra soluzioni | [!DNL Audience Manager] gli utenti possono accedere a  [!DNL Experience Cloud] e a tutte le altre soluzioni utilizzando il proprio  [!DNL Adobe ID] o  [!DNL Enterprise ID]. Questo accesso consente l&#39;accesso alle soluzioni integrate e ai servizi di base tra [!DNL Experience Cloud]. Dopo la migrazione, gli utenti che tentano di accedere tramite accessi legacy (`bank.demdex.com`) verranno reindirizzati a `experiencecloud.adobe.com`. |
-| Gestione di utenti e gruppi | Una volta completata la migrazione, gli amministratori [!DNL Audience Manager] gestiranno gli utenti e i gruppi esclusivamente in [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/). |
-| Gestire i prodotti e i servizi  | Dal [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/), gli amministratori possono: <ul><li>Creare, aggiornare e rimuovere utenti</li><li>Concedere l’accesso a soluzioni e servizi</li></ul> |
+| Gestione di utenti e gruppi | Una volta completata la migrazione, gli amministratori [!DNL Audience Manager] gestiranno gli utenti e i gruppi esclusivamente in [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/). |
+| Gestire i prodotti e i servizi  | Dal [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/), gli amministratori possono: <ul><li>Creare, aggiornare e rimuovere utenti</li><li>Concedere l’accesso a soluzioni e servizi</li></ul> |
 
 Per facilitare la migrazione degli utenti, chiediamo a tutti gli amministratori [!DNL Audience Manager] di iniziare la migrazione dei propri account utente a [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) il prima possibile, seguendo i passaggi descritti in questo articolo.
 
-## Cosa devono fare gli utenti {#what-to-do-users}
+## Operazioni necessarie per gli utenti {#what-to-do-users}
 
 Come utente Audience Manager, tutto ciò che devi fare è contattare il tuo amministratore [!DNL Audience Manager] e chiedere loro di creare un nuovo account utente in [!DNL Admin Console].
 
