@@ -8,10 +8,10 @@ title: Feed dati cliente
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Feed dati cliente
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 4%
+source-wordcount: '1930'
+ht-degree: 3%
 
 ---
 
@@ -44,7 +44,7 @@ Le notifiche dei file e i file [!UICONTROL CDF] verranno visualizzati nel bucket
 
 Le sezioni seguenti e le [Domande frequenti sui feed di dati cliente](../faq/faq-cdf.md) possono aiutarti a acquisire maggiore familiarità con questo servizio.
 
-## [!UICONTROL Customer Data Feed] Contenuto definito  {#cdf-defined}
+## [!UICONTROL Customer Data Feed] Contenuto definito {#cdf-defined}
 
 Elenca e definisce gli elementi e gli array di dati in un file [!UICONTROL CDF] in base all’ordine di aspetto. Le definizioni includono tipi di dati, ma queste informazioni non fanno parte di un file [!UICONTROL CDF].
 
@@ -108,7 +108,7 @@ Un file [!UICONTROL CDF] include alcuni o tutti i campi definiti di seguito. Per
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>L’ <span class="keyword"> Experience Cloud</span> ID (MID) assegnato al visitatore del sito. Consulta anche <a href="https://docs.adobe.com/content/help/it-IT/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il servizio Adobe Experience Platform Identity</a>. </p> </td> 
+   <td colname="col3"> <p>L’ <span class="keyword"> Experience Cloud</span> ID (MID) assegnato al visitatore del sito. Consulta anche <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il servizio Adobe Experience Platform Identity</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -123,7 +123,7 @@ Un file [!UICONTROL CDF] include alcuni o tutti i campi definiti di seguito. Per
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Struttura dei file  {#cdf-file-structure}
+## [!UICONTROL Customer Data Feed] Struttura dei file {#cdf-file-structure}
 
 Elenca e definisce la struttura dati di un file [!UICONTROL CDF]. Sono inclusi sequenza di dati, delimitatori e separatori di campi, una mappa file di dati e un file di esempio.
 
@@ -160,7 +160,7 @@ Elenca e definisce la struttura dati di un file [!UICONTROL CDF]. Sono inclusi s
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parametri di richiesta </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referente </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Indirizzo IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID dispositivo di Experience Cloud (o MID). Consulta anche <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il servizio Adobe Experience Platform Identity</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID dispositivo di Experience Cloud (o MID). Consulta anche <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il servizio Adobe Experience Platform Identity</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Tutti i segmenti </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Tutte le caratteristiche </li> 
      </ol> </p> <p>Per le descrizioni dei campi, vedere <a href="#cdf-defined"> Contenuto del feed di dati cliente definito</a>. </p> </td> 
@@ -168,7 +168,7 @@ Elenca e definisce la struttura dati di un file [!UICONTROL CDF]. Sono inclusi s
  </tbody> 
 </table>
 
-## [!UICONTROL CDF] Mappa dei file  {#cdf-file-map}
+## [!UICONTROL CDF] Mappa dei file {#cdf-file-map}
 
 [!UICONTROL CDF] i dati del file vengono visualizzati nell’ordine indicato di seguito.
 
@@ -178,17 +178,17 @@ Elenca e definisce la struttura dati di un file [!UICONTROL CDF]. Sono inclusi s
 
 Gli array in un file [!UICONTROL CDF] iniziano e terminano con il separatore di campo `Ctrl + a`. In questo modo il primo elemento di un array viene visualizzato come un campo dati autonomo. Ad esempio, l&#39;array realizzato [!UICONTROL traits] inizia con `^A1234`. Il delimitatore e l&#39;ID della matrice `^B5678` seguono questa voce. Di conseguenza, si potrebbe essere tentati di pensare che il primo elemento dell&#39;array realizzato [!UICONTROL traits] sia ID 5678 (perché inizia con `^B`). Questo non è il caso, ed è per questo che devi avere familiarità con la sequenza e la struttura di un file di dati. Anche se il primo elemento dell&#39;array [!UICONTROL trait] realizzato (o di qualsiasi altro array in un file [!UICONTROL CDF]) inizia con `^A`, l&#39;ordine di aspetto o di posizione nel file definisce l&#39;inizio di un array. Inoltre, il primo elemento di un array è sempre separato dalla voce precedente da `^A`.
 
-## Esempio di file [!UICONTROL CDF] {#sample-file}
+## File di esempio [!UICONTROL CDF] {#sample-file}
 
 Un file di esempio [!UICONTROL CDF] potrebbe avere un aspetto simile al seguente. In questo esempio sono state inserite interruzioni di riga per adattarle alla pagina.
 
 ![](assets/CDF-sample.png)
 
-## [!UICONTROL Customer Data Feed] Convenzioni di denominazione dei file  {#cdf-naming-conventions}
+## [!UICONTROL Customer Data Feed] Convenzioni di denominazione dei file {#cdf-naming-conventions}
 
 Le sezioni seguenti elencano e definiscono gli elementi nel nome del file [!UICONTROL CDF].
 
-## [!UICONTROL CDF] Nome file: Sintassi ed esempio  {#cdf-file-name}
+## [!UICONTROL CDF] Nome file: Sintassi ed esempio {#cdf-file-name}
 
 Un nome file [!UICONTROL CDF] tipico contiene gli elementi elencati di seguito. Nota: *corsivo* indica un segnaposto variabile:
 
@@ -206,7 +206,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 Nel bucket di archiviazione [!DNL S3], i file vengono ordinati in ordine crescente in base all&#39;ID partner ([!UICONTROL PID]), al giorno e all&#39;ora.
 
-## [!UICONTROL CDF] Elementi del nome file definiti  {#cdf-file-name-elements}
+## [!UICONTROL CDF] Elementi del nome file definiti {#cdf-file-name-elements}
 
 Nella tabella seguente sono elencati e definiti gli elementi in un nome di file [!UICONTROL CDF].
 
@@ -249,7 +249,7 @@ Nella tabella seguente sono elencati e definiti gli elementi in un nome di file 
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] Notifiche di elaborazione dei file  {#cdf-file-processing-notifications}
+## [!UICONTROL Customer Data Feed] Notifiche di elaborazione dei file {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] scrive un  `.info` file nella tua  [!DNL S3] directory per informarti quando il tuo  [!UICONTROL Customer Data File] ([!UICONTROL CDF]) è pronto per il download. Il file `.info` include anche [!DNL JSON] metadati formattati sul contenuto dei file [!UICONTROL CDF]. Leggi questa sezione per informazioni sulla sintassi e i campi utilizzati da questo file di notifica.
 
@@ -352,7 +352,7 @@ Le tabelle seguenti elencano e definiscono gli elementi in un file [!UICONTROL C
  </tbody> 
 </table>
 
-## [!UICONTROL Customer Data Feed] I tempi e i tempi del contenuto dei file sono diversi  {#different-processing-times}
+## [!UICONTROL Customer Data Feed] I tempi e i tempi del contenuto dei file sono diversi {#different-processing-times}
 
 Il file [!UICONTROL CDF] contiene timestamp nel nome del file e nel contenuto del file. Queste marche temporali registrano diversi processi evento per lo stesso file [!UICONTROL CDF]. Non è raro visualizzare marche temporali diverse nel nome e nel contenuto dello stesso file. La comprensione di ogni marca temporale può aiutarti a evitare errori comuni quando lavori con questi dati o provi a ordinarli per tempo.
 
@@ -362,7 +362,7 @@ Il file [!UICONTROL CDF] contiene timestamp nel nome del file e nel contenuto de
 
 ![](assets/cdf-timestamp.png)
 
-## Differenza tra marche temporali {#understanding-timestamps}
+## Comprendere la differenza tra le marche temporali {#understanding-timestamps}
 
 La tabella seguente fornisce ulteriori dettagli sulle marche temporali del file [!UICONTROL CDF] insieme a informazioni su come utilizzarle correttamente.
 
