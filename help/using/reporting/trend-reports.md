@@ -7,9 +7,9 @@ title: Rapporti sulle tendenze
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: Rapporti generali e sulle tendenze
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Gli zero indicano che [!DNL Audience Manager] non ha raccolto i dati per quel gi
 
 Guarda il video seguente per vedere in dettaglio come funzionano le metriche per dispositivi diversi.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Risultati dei report sulle tendenze per i segmenti {#segment-report-results-traits}
 
