@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Prerequisiti e considerazioni
 feature: Destinazioni basate su persone
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ Prima di poter utilizzare [!UICONTROL People-Based Destinations] per inviare i s
 
 Per informazioni su come modificare le autorizzazioni utente [!DNL LinkedIn Campaign Manager], consulta [Aggiungere, modificare e rimuovere le autorizzazioni utente sugli account pubblicitari](https://www.linkedin.com/help/lms/answer/5753) nella documentazione di LinkedIn.
 
-Per istruzioni video, consulta [Informazioni e configurazione della destinazione LinkedIn basata sulle persone](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) .
+Per istruzioni video, consulta [Informazioni e configurazione della destinazione LinkedIn basata sulle persone](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) .
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -88,7 +88,7 @@ Guarda il video seguente per comprendere i requisiti di hashing di [!UICONTROL P
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud ti offre la possibilità di aggiungere hash agli ID cliente tramite [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulta [Supporto di hashing SHA-256 per setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) per informazioni dettagliate su come utilizzare ECID per aggiungere hash agli ID cliente.
+Adobe Experience Cloud ti offre la possibilità di aggiungere hash agli ID cliente tramite [!DNL Adobe Experience Platform Identity Service (ECID)]. Consulta [Supporto di hashing SHA-256 per setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html) per informazioni dettagliate su come utilizzare ECID per aggiungere hash agli ID cliente.
 
 ## Ottenimento dell&#39;autorizzazione utente {#obtaining-user-permission}
 
@@ -98,13 +98,13 @@ Prima di iscriverti a [!UICONTROL People-Based Destinations], assicurati di otte
 
 Nel caso in cui i clienti desiderino rinunciare alle campagne pubblicitarie, consulta [Gestione rinuncia](../../overview/data-security-and-privacy/data-privacy-requests.md) per informazioni su come impedire ad Audience Manager di raccogliere ulteriori dati.
 
-## Applicazione dell&#39;attivazione dei dati di prime parti {#enforcing-first-party-activation}
+## Applicazione dell’attivazione dei dati di prime parti {#enforcing-first-party-activation}
 
 Quando utilizzi [!UICONTROL People-Based Destinations], puoi utilizzare solo dati di prime parti per attivare segmenti di pubblico nei canali basati sulle persone. Non puoi utilizzare dati di seconde o terze parti per l’attivazione del pubblico nei canali basati sulle persone.
 
 Quando utilizzi [!UICONTROL People-Based Destinations], utilizza [Controlli sull&#39;esportazione dei dati](../data-export-controls.md) per etichettare i [!UICONTROL data sources] e [!UICONTROL destinations] in base alle linee guida e ai requisiti delle piattaforme di destinazione e dei fornitori di dati.
 
-## ID autenticati a bordo tramite targeting con ID dichiarato {#onboard-authenticated-declared-id}
+## ID autenticati a bordo tramite targeting degli ID dichiarati {#onboard-authenticated-declared-id}
 
 Esistono due modi per trasferire i dati offline in Audience Manager per [!UICONTROL People-Based Destinations].
 
