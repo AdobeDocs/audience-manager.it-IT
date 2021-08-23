@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Integrazione di Facebook WCA
 feature: Integrazione di terze parti
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 5%
+source-wordcount: '851'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ Questa pagina illustra il processo di creazione di [!DNL Facebook Website Custom
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] segmenti, pronti per l’assegnazione alla nuova  [!DNL Facebook] destinazione. Ecco [come creare un segmento](/help/using/features/segments/segment-builder.md) nell’ interfaccia utente [!DNL Audience Manager] .
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versione 4.1.0 o successiva. Scarica la versione più recente **[qui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versione 9.0 o successiva, scaricabile da  **[qui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. In alternativa, se utilizzi [Server-Side Forwarding (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) per importare dati in [!DNL Audience Manager], devi utilizzare AppMeasurement versione 2.12 o successiva. Scarica [!DNL AppMeasurement] utilizzando [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versione 9.0 o successiva, scaricabile da  **[qui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. In alternativa, se utilizzi [Server-Side Forwarding (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) per importare dati in [!DNL Audience Manager], devi utilizzare AppMeasurement versione 2.12 o successiva. Scarica [!DNL AppMeasurement] utilizzando [Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 
 È consigliabile installare o aggiornare le librerie nei passaggi 3 e 4 utilizzando [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
@@ -80,7 +80,7 @@ La configurazione [!UICONTROL URL destination] deve essere simile a quella dell&
 
 Salva il [!UICONTROL destination]. Quindi, puoi procedere al passaggio **Mapping segmento** .
 
-## Passaggio 2 - Mappature dei segmenti - Mappare il segmento sulla destinazione {#step-2-segment-mappings}
+## Passaggio 2 - Mappature dei segmenti - Mappatura di segmenti su destinazione {#step-2-segment-mappings}
 
 Nel flusso di lavoro [Configura destinazione URL](/help/using/features/destinations/create-url-destination.md) , mappa il segmento applicabile al tuo [!UICONTROL destination] appena creato. Il valore di mappatura viene compilato automaticamente con [!DNL Audience Manager] [!UICONTROL segment ID].
 
