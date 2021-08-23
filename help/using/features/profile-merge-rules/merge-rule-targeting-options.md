@@ -7,10 +7,10 @@ title: Casi d’uso generali per le regole di unione profili
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Unione profili
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 4%
+source-wordcount: '995'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 >
 >Per le definizioni e le descrizioni di queste impostazioni [!UICONTROL Merge Rule], consulta [Opzioni delle regole di unione dei profili definite](merge-rule-definitions.md).
 
-## Targeting dispositivo {#device-personalization}
+## Targeting dei dispositivi {#device-personalization}
 
 Questo scenario si applica agli esperti di marketing che desiderano valutare un singolo profilo dispositivo per un segmento di pubblico definito in Audience Manager, al fine di fornire un’esperienza coerente al dispositivo utilizzando piattaforme di targeting che supportano ID dispositivo (DSP, piattaforme di personalizzazione sul sito e altre piattaforme di targeting basate su dispositivi), senza considerare l’autenticazione degli utenti.
 
@@ -80,7 +80,7 @@ Per ulteriori informazioni su questa opzione, consulta [Destinazioni basate sull
 
 ## Opzioni del grafico dei dispositivi {#device-graph-options}
 
-La scelta di un&#39;opzione [!UICONTROL device graph] per una regola [!UICONTROL Profile Merge] dipende dalle condizioni specifiche delle proprietà digitali e degli obiettivi aziendali. Queste linee guida generali possono aiutarti a capire quando utilizzare un tipo di grafico o un altro. Nota: per utilizzare queste opzioni, devi essere membro di [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/it-IT/device-co-op/using/home.html) o avere una relazione contrattuale con un grafico dei dispositivi esterno. Fai riferimento alla tabella seguente per le indicazioni generali su quando scegliere un’opzione del grafico dei dispositivi. Per casi d&#39;uso specifici, vedi [Casi d&#39;uso del grafico dei dispositivi di collegamento del profilo](profile-link-use-case.md) e [Casi d&#39;uso del grafico dei dispositivi esterno](external-graph-use-cases.md).
+La scelta di un&#39;opzione [!UICONTROL device graph] per una regola [!UICONTROL Profile Merge] dipende dalle condizioni specifiche delle proprietà digitali e degli obiettivi aziendali. Queste linee guida generali possono aiutarti a capire quando utilizzare un tipo di grafico o un altro. Nota: per utilizzare queste opzioni, devi essere membro di [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) o avere una relazione contrattuale con un grafico dei dispositivi esterno. Fai riferimento alla tabella seguente per le indicazioni generali su quando scegliere un’opzione del grafico dei dispositivi. Per casi d&#39;uso specifici, vedi [Casi d&#39;uso del grafico dei dispositivi di collegamento del profilo](profile-link-use-case.md) e [Casi d&#39;uso del grafico dei dispositivi esterno](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -101,7 +101,7 @@ La scelta di un&#39;opzione [!UICONTROL device graph] per una regola [!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opzioni del grafico dei dispositivi esterno </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Le </span> regole di profilo create con  <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-port </a> per qualsiasi grafico di dispositivi esterno integrato con  <span class="keyword"> Audience </span> Manager sono ideali per: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Le </span> regole di profilo create con  <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-port </a> per qualsiasi grafico di dispositivi esterno integrato con  <span class="keyword"> Audience </span> Manager sono ideali per: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Proprietà digitali con livello basso di autenticazione del cliente. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Campagne di marchi ampie e di elevata portata. </li> 
