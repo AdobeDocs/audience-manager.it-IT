@@ -8,10 +8,10 @@ keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 4%
+source-wordcount: '839'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Elenca e descrive la sintassi e gli attributi supportati (o coppie chiave-valore) che è possibile trasmettere a [!UICONTROL Data Collection Servers] ([!DNL DCS]). Queste informazioni sono utili per formattare le richieste [!DNL DCS] e comprendere i parametri restituiti da questo sistema.
 
-## Prefissi attributi {#attribute-prefixes}
+## Prefissi degli attributi {#attribute-prefixes}
 
 Il [!DNL DCS] si basa su prefissi specifici aggiunti alle chiavi in coppie chiave-valore per classificare il tipo di dati che stai passando.
 
@@ -80,7 +80,7 @@ Tutte queste opzioni sono facoltative, a meno che non si desideri ricevere una r
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Disabilitare l'utilizzo di cookie di terze parti per rispettare le normative sulla protezione dei bambini. Questo parametro viene impostato dinamicamente dal servizio Adobe Adobe Experience Platform Identity e dipende dalla configurazione <code> idSyncDisable3rdPartySyncing</code>. Consulta Supporto per COPPA <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> nel servizio Adobe Experience Platform Identity</a>. </p> </td>
+   <td colname="col2"> <p>Disabilitare l'utilizzo di cookie di terze parti per rispettare le normative sulla protezione dei bambini. Questo parametro viene impostato dinamicamente dal servizio Adobe Adobe Experience Platform Identity e dipende dalla configurazione <code> idSyncDisable3rdPartySyncing</code>. Consulta Supporto per COPPA <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> nel servizio Adobe Experience Platform Identity</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -122,7 +122,7 @@ Tutte queste opzioni sono facoltative, a meno che non si desideri ricevere una r
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Specifica l'ID Experience Cloud impostato e utilizzato dal servizio <span class="keyword"> Experience Cloud</span> ID. Per ulteriori informazioni sull’ECID, consulta <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il servizio Experience Cloud Identity</a>. </p> </td> 
+   <td colname="col2"> <p>Specifica l'ID Experience Cloud impostato e utilizzato dal servizio <span class="keyword"> Experience Cloud</span> ID. Per ulteriori informazioni sull’ECID, consulta <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookie e il servizio Experience Cloud Identity</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
