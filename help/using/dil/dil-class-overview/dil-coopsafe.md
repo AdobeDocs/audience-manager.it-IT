@@ -7,10 +7,10 @@ title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 feature: Implementazione di DIL
 exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 77%
+source-wordcount: '540'
+ht-degree: 76%
 
 ---
 
@@ -23,7 +23,7 @@ Configurazione booleana opzionale che consente di determinare se il servizio DIL
 Per utilizzare `isCoopSafe` devi:
 
 * Utilizza [!UICONTROL DIL] v6.11 o versione successiva.
-* Partecipare a [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/it-IT/device-co-op/using/home.html). Anche i potenziali membri co-op devono consultare questa documentazione per stabilire se `isCoopSafe` si occupa di possibili problemi relativi al modo in cui i dati vengono utilizzati per creare il grafico del dispositivo.
+* Partecipare a [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html). Anche i potenziali membri co-op devono consultare questa documentazione per stabilire se `isCoopSafe` si occupa di possibili problemi relativi al modo in cui i dati vengono utilizzati per creare il grafico del dispositivo.
 
 * Rivolgiti al tuo consulente [!DNL Adobe] per impostare un flag di inserire nell&#39;elenco Consentiti o elenco Bloccati sul tuo account Device Co-op. Nessun percorso self-service per abilitare questi flag.
 
@@ -103,7 +103,7 @@ I parametri POST dicono all&#39;[!DNL Experience Cloud] Device Co-op se può o m
  </tbody> 
 </table>
 
-## API di post-istanziazione  {#post-instantiation}
+## API di post-istanziazione {#post-instantiation}
 
 Questi API ti consentono di ignorare lo stato `isCoopSafe`. Questi sono necessarie perché ti permettono di modificare lo stato di post-istanziazione/post-login di un visitatore su un sito o in un&#39;app a pagina singola in cui la pagina non viene aggiornata. Ad esempio, avrai bisogno di chiamare queste API se un utente si autentica sul tuo sito o sulla tua app e successivamente accetta una policy sulle Condizioni d&#39;uso che consente al Device Co-op di usare i propri dati.
 
