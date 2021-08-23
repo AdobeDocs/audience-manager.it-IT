@@ -8,9 +8,9 @@ title: Stati di autenticazione dei visitatori in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: 'Riferimenti '
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 7%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 Lo stato di autenticazione del visitatore in Audience Manager determina se le nuove informazioni sulle caratteristiche vengono scritte sul profilo autenticato del visitatore o sul profilo del dispositivo da cui sono stati raccolti i dati. Audience Manager gestisce nello stesso modo gli stati di autenticazione ID visitatore UNKNOWN e LOGGED_OUT nelle chiamate evento.
 
-A partire dalla versione 1.5 del servizio ID [!DNL Experience Cloud], il metodo `setCustomerID` include l&#39;oggetto facoltativo `AuthState`. `AuthState` identifica i visitatori in base al loro stato  [di autenticazione](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gestisce le caratteristiche realizzate in modo diverso, a seconda dello stato di autenticazione trasmesso nella chiamata e della regola di unione  [profili ](../features/profile-merge-rules/merge-rules-dashboard.md) utilizzata per la segmentazione.
+A partire dalla versione 1.5 del servizio ID [!DNL Experience Cloud], il metodo `setCustomerID` include l&#39;oggetto facoltativo `AuthState`. `AuthState` identifica i visitatori in base al loro stato  [di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gestisce le caratteristiche realizzate in modo diverso, a seconda dello stato di autenticazione trasmesso nella chiamata e della regola di unione  [profili ](../features/profile-merge-rules/merge-rules-dashboard.md) utilizzata per la segmentazione.
 
 ## Stato autenticazione: SCONOSCIUTO {#auth-status-unknown}
 
@@ -57,5 +57,5 @@ Chiamata di esempio (viene evidenziato il valore della richiesta corrispondente 
 
 >[!MORELIKETHIS]
 >
->* [ID cliente e stati di autenticazione](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
+>* [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
 
