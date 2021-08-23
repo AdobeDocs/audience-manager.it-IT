@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guida utente di Audience Manager
 user-guide-description: Scopri come Audience Manager ti consente di raccogliere informazioni rilevanti dal punto di vista commerciale sui visitatori del sito, creare segmenti commerciabili e distribuire contenuti e pubblicità mirati al pubblico giusto.
 feature-set: Audience Manager
-source-git-commit: cf9368d4690b61066646054543cc60d390eea021
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1805'
 ht-degree: 90%
 
 ---
@@ -342,8 +342,8 @@ ht-degree: 90%
    + Integrazione con altre soluzioni Experience Cloud {#integration-other-solutions}
       + [Integrare Audience Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Inoltrare dati da Adobe Analytics ad Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Pubblicare un segmento di Adobe Analytics nell’Experience Cloud (apre la documentazione di Adobe Analytics)](https://docs.adobe.com/content/help/it-IT/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Integrare Audience Manager con Adobe Campaign (apre la documentazione di Adobe Campaign)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Pubblicare un segmento di Adobe Analytics nell’Experience Cloud (apre la documentazione di Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Integrare Audience Manager con Adobe Campaign (apre la documentazione di Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Riferimenti {#reference}
    + [Panoramica dei riferimenti](reference/reference.md)
    + [Informazioni su Amazon S3](reference/amazon-s3.md)
