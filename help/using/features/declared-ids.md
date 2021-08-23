@@ -8,10 +8,10 @@ title: ID dichiarati
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: Sincronizzazioni ID
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 10%
+source-wordcount: '1183'
+ht-degree: 9%
 
 ---
 
@@ -37,7 +37,7 @@ Alcuni browser e la maggior parte dei dispositivi mobili non accettano [!DNL coo
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Chiamata evento</b> </td> 
-   <td colname="col2"> <p>Per funzionare, è necessario <span class="wintitle"> DIL </span> e il codice <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> del servizio Adobe Experience Platform Identity </a> sulla pagina. <span class="wintitle"> DIL  </span> ottiene gli ID  <span class="wintitle"> dichiarati  </span> dalla  <code> setVisitorID </code> funzione fornita dal servizio  <span class="keyword"> Adobe Experience Platform Identity  </span> e li trasmette ad  <span class="keyword"> Audience Manager  </span>. </p> </td> 
+   <td colname="col2"> <p>Per funzionare, è necessario <span class="wintitle"> DIL </span> e il codice <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> del servizio Adobe Experience Platform Identity </a> sulla pagina. <span class="wintitle"> DIL  </span> ottiene gli ID  <span class="wintitle"> dichiarati  </span> dalla  <code> setVisitorID </code> funzione fornita dal servizio  <span class="keyword"> Adobe Experience Platform Identity  </span> e li trasmette ad  <span class="keyword"> Audience Manager  </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID corrispondenza</b> </td> 
@@ -65,7 +65,7 @@ Il processo [!UICONTROL declared ID] rispetta le preferenze dei visitatori del s
 
 Per ulteriori informazioni su come rinunciare alla raccolta di dati, consulta [Privacy dei dati](../overview/data-security-and-privacy/data-privacy.md) .
 
-## [!UICONTROL Declared ID] Esempi di rinuncia  {#opt-out-examples}
+## [!UICONTROL Declared ID] Esempi di rinuncia {#opt-out-examples}
 
 Puoi effettuare una richiesta di rinuncia [!UICONTROL declared ID] con le coppie chiave-valore `d_cid` e `d_cid_ic`. I parametri legacy come `d_dpid` e `d_dpuuid` funzionano comunque, ma sono considerati obsoleti. Consulta [CID Replaces DPID and DPUUID](../reference/cid.md). Negli esempi, il *corsivo* indica un segnaposto variabile.
 
@@ -184,7 +184,7 @@ Descrive le variabili di configurazione utilizzate per passare da [!UICONTROL de
 
 ## [!UICONTROL DIL] utilizza  [!DNL Adobe Experience Platform Identity Service] per passare  [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Se utilizzato con il servizio [Adobe Experience Platform Identity](https://docs.adobe.com/content/help/it-IT/id-service/using/home.html), non è più necessario passare [!UICONTROL declared IDs] con le variabili `dpid` e `dpuuid` obsolete. Le versioni correnti di [!UICONTROL DIL] si basano invece sulla funzione `visitorService` per ottenere [!UICONTROL declared IDs] dalla funzione `setCustomerIDs` in [!UICONTROL Adobe Experience Platform Identity Service]. Per ulteriori informazioni, consulta [ID cliente e stati di autenticazione](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Dovresti chiamare `visitorService` in `DIL.create` come mostrato di seguito.
+Se utilizzato con il servizio [Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html), non è più necessario passare [!UICONTROL declared IDs] con le variabili `dpid` e `dpuuid` obsolete. Le versioni correnti di [!UICONTROL DIL] si basano invece sulla funzione `visitorService` per ottenere [!UICONTROL declared IDs] dalla funzione `setCustomerIDs` in [!UICONTROL Adobe Experience Platform Identity Service]. Per ulteriori informazioni, consulta [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). Dovresti chiamare `visitorService` in `DIL.create` come mostrato di seguito.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-Nella coppia chiave-valore `namespace`, `MCORG` è il tuo [!DNL Experience Cloud] ID organizzazione. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. Consulta [Amministrazione: Servizi di base](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html).
+Nella coppia chiave-valore `namespace`, `MCORG` è il tuo [!DNL Experience Cloud] ID organizzazione. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard è necessario disporre delle autorizzazioni di amministratore. Consulta [Amministrazione: Servizi di base](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
 
 ## Funzioni obsolete {#deprecated-functions}
 
