@@ -8,14 +8,14 @@ title: Domande frequenti sull’acquisizione dei dati dei clienti in entrata
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding dei dati offline
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 91%
+source-wordcount: '1360'
+ht-degree: 89%
 
 ---
 
-# Domande frequenti sull’acquisizione dei dati dei clienti in entrata {#inbound-customer-data-ingestion-faq}
+# Domande frequenti sull’acquisizione dei dati dei clienti in entrata{#inbound-customer-data-ingestion-faq}
 
 Domande frequenti su come importare dati offline in Audience Manager.
 
@@ -60,8 +60,8 @@ Consulta [File Compression for Inbound Data Transfer Files](../integration/sendi
 
 Sì. Se utilizzi un [!UICONTROL cross-device data source] per memorizzare i dati CRM caricati, Audience Manager memorizza sempre i dati. Infatti, in seguito ai miglioramenti [!UICONTROL Profile Merge Rules] lanciati nell’Audience Manager a ottobre 2019 per consentire casi di utilizzo in modalità solo offline, puoi caricare e intervenire sui dati senza distribuire il codice Audience Manager in produzione. Consulta:
 
-* [Overview of Profile Merge Rules Enhancements](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] -  [Personalizzazione basata su dati solo offline](https://docs.adobe.com/content/help/it-IT/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Overview of Profile Merge Rules Enhancements](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] -  [Personalizzazione basata su dati solo offline](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
