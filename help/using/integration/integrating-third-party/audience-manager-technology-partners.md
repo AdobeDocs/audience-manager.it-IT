@@ -1,15 +1,15 @@
 ---
 description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un’integrazione, consulta la relativa inserzione in Adobe Exchange (dove disponibile) o contatta il tuo consulente Adobe o l’Assistenza clienti.
-seo-description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un’integrazione, consulta la relativa inserzione in Adobe Exchange (dove disponibile) o contatta il tuo consulente Adobe o l’Assistenza clienti.
-seo-title: Partner tecnologici Adobe Audience Manager
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Technology Partners
 keywords: attivazione; partner di attivazione, destinazione, destinazioni
 solution: Audience Manager
 title: Partner tecnologici Adobe Audience Manager
-feature: Integrazione di terze parti
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+feature: Third-party Integration
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 59%
+source-wordcount: '1149'
+ht-degree: 61%
 
 ---
 
@@ -55,11 +55,11 @@ Questa pagina include solo l&#39;Audience Manager corrente [integrazioni server-
 | Brillante | 03/03/2017 | No | No | No | No |
 | Luminosità | 03/03/2017 | No | Sì | No | No |
 | Pulsante | 12/18/2017 | Sì | No | No | Sì |
-| Scambio C1 | 02/27/2017 | Sì | No | No | No |
+| Scambio C1 | 03/27/2017 | Sì | No | No | No |
 | Celtra | 02/27/2017 | Sì | No | No | Sì |
-| Centro | 02/27/2017 | No | No | No | Sì |
+| Centro | 03/27/2017 | No | No | No | Sì |
 | ChoiceStream | 02/27/2017 | No | No | No | No |
-| Clearstream.tv | 02/27/2017 | Sì | No | No | No |
+| Clearstream.tv | 03/27/2017 | Sì | No | No | No |
 | Piattaforma AMP collettiva | 02/27/2017 | No | No | No | No |
 | Criteo | 02/27/2017 | No | Sì | No | Sì |
 | Trasversale | 02/27/2017 | Sì | No | No | No |
@@ -101,7 +101,7 @@ Questa pagina include solo l&#39;Audience Manager corrente [integrazioni server-
 | Interattivo MaxPoint | 02/27/2017 | No | No | No | No |
 | MediaMath | 02/27/2017 | Sì | No | No | Sì |
 | Annunci Microsoft Bing | 05/03/2017 | Sì | Sì | Sì | No |
-| Media millenari | 02/27/2017 | No | No | No | Sì |
+| Media millenari | 03/27/2017 | No | No | No | Sì |
 | Piattaforma Cina | 08/06/2018 | Sì | No | No | Sì |
 | I/O narrativo | 01/12/2018 | Sì | No | No | Sì |
 | Touch nativo | 03/02/2017 | Sì | No | No | Sì |
@@ -157,7 +157,7 @@ Questa pagina include solo l&#39;Audience Manager corrente [integrazioni server-
 | TubeMogul | 03/03/2017 | Sì | No | Sì | No |
 | Gira/Amobe | 03/03/2027 | No | No | No | Sì |
 | Twenga | 10/29/2018 | Sì | No | No | No |
-| Tipi di pubblico personalizzati di twitter | 02/27/2017 | Sì | No | Sì | No |
+| Tipi di pubblico personalizzati twitter | 03/27/2017 | Sì | No | Sì | No |
 | Sottolineato | 07/11/2017 | No | No | No | No |
 | Vervo | 06/15/2017 | Sì | No | No | Sì |
 | VideoAmp | 03/03/2017 | No | No | No | No |
