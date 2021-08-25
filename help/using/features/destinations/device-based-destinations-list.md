@@ -1,16 +1,16 @@
 ---
 description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un’integrazione, consulta la relativa inserzione in Adobe Exchange (dove disponibile) o contatta il tuo consulente Adobe o l’Assistenza clienti.
-seo-description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un’integrazione, consulta la relativa inserzione in Adobe Exchange (dove disponibile) o contatta il tuo consulente Adobe o l’Assistenza clienti.
-seo-title: Destinazioni server-to-server Adobe Audience Manager
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: attivazione; partner di attivazione, destinazione, destinazioni
 solution: Audience Manager
 title: Destinazioni server-to-server Adobe Audience Manager
-feature: Nozioni di base sulle destinazioni
+feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 71%
+source-wordcount: '1112'
+ht-degree: 74%
 
 ---
 
@@ -57,13 +57,13 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] [basate su di
 | [!DNL Brightroll] | 03/03/2017 | 1 giorno | No | Sì | No | No |
 | [!DNL Button] | 12/18/2017 | 1 giorno | Sì | No | No | Sì |
 | [!DNL C1 Exchange] | 02/27/2017 | 1 giorno | Sì | No | No | No |
-| [!DNL Celtra] | 02/27/2017 | 1 giorno | Sì | No | No | Sì |
+| [!DNL Celtra] | 03/27/2017 | 1 giorno | Sì | No | No | Sì |
 | [!DNL Centro] | 02/27/2017 | 1 giorno | No | No | No | Sì |
 | [!DNL ChoiceStream] | 02/27/2017 | 1 giorno | No | No | No | No |
-| [!DNL Clearstream.tv] | 02/27/2017 | Tempo reale | Sì | No | No | No |
+| [!DNL Clearstream.tv] | 03/27/2017 | Tempo reale | Sì | No | No | No |
 | [!DNL Collective AMP Platform] | 02/27/2017 | 1 giorno | No | No | No | No |
 | [!DNL Criteo] | 02/27/2017 | Tempo reale | No | Sì | No | Sì |
-| [!DNL Crosswise] | 02/27/2017 | 1 giorno | Sì | No | No | No |
+| [!DNL Crosswise] | 03/27/2017 | 1 giorno | Sì | No | No | No |
 | [!DNL D.A.C. AudienceOne] | 02/27/2017 | 1 giorno | Sì | No | No | No |
 | [!DNL DataXu] | 20/11/2017 | Tempo reale | No | No | No | Sì |
 | [!DNL Digilant] | 03/02/2017 | Tempo reale |  | No | No | No |
@@ -103,7 +103,7 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] [basate su di
 | [!DNL Logicad] | 06/22/2017 | 1 giorno | No | No | No | No |
 | [!DNL Lotame] | 06/03/2017 | 1 giorno | Sì | No | No | Sì |
 | [!DNL MaxPoint Interactive] | 02/27/2017 | 1 giorno | No | No | No | No |
-| [!DNL MediaMath] | 02/27/2017 | 1 giorno | Sì | No | No | Sì |
+| [!DNL MediaMath] | 03/27/2017 | 1 giorno | Sì | No | No | Sì |
 | [!DNL Microsoft Bing Ads] | 10/10/2019 | Tempo reale | Sì | Sì | Sì | No |
 | [!DNL Millennial Media] | 02/27/2017 | 1 giorno | No | No | No | Sì |
 | [!DNL mPlatform China] | 08/06/2018 | 1 giorno | Sì | No | No | Sì |
@@ -162,7 +162,7 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] [basate su di
 | [!DNL TubeMogul] | 03/03/2017 | Tempo reale | Sì | No | Sì | No |
 | [!DNL Turn] /  [!DNL Amobee] | 03/03/2027 | Tempo reale | No | No | No | Sì |
 | [!DNL Twenga] | 10/29/2018 | Tempo reale | Sì | No | No | No |
-| [!DNL Twitter Tailored Audiences] | 02/27/2017 | Tempo reale | Sì | No | Sì | No |
+| [!DNL Twitter Custom Audiences] | 02/27/2017 | Tempo reale | Sì | No | Sì | No |
 | [!DNL Undertone] | 07/11/2017 | 1 giorno | No | No | No | No |
 | [!DNL Verve] | 06/15/2017 | 1 giorno | Sì | No | No | Sì |
 | [!DNL VideoAmp] | 03/03/2017 | Tempo reale | No | No | No | No |
