@@ -1,16 +1,16 @@
 ---
 description: Informazioni su requisiti generali, autenticazione, parametri di query facoltativi, URL di richiesta e altri riferimenti.
-seo-description: Informazioni su requisiti generali, autenticazione, parametri di query facoltativi, URL di richiesta e altri riferimenti.
-seo-title: Guida introduttiva alle API REST
+seo-description: Information about general requirements, authentication, optional query parameters, request URLs, and other references.
+seo-title: Getting Started with REST APIs
 solution: Audience Manager
 title: Guida introduttiva alle API REST
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 95182160b37bb15df4867bbacd06d8d75c971fa3
 workflow-type: tm+mt
-source-wordcount: '1861'
-ht-degree: 4%
+source-wordcount: '1942'
+ht-degree: 3%
 
 ---
 
@@ -70,6 +70,18 @@ Segui i passaggi seguenti per configurare l’autenticazione [!DNL JWT (Service 
 >[!NOTE]
 >
 >Per configurare e lavorare con [!DNL Audience Manager] [!DNL REST APIs] in modo automatico, puoi generare il [!DNL JWT] a livello di programmazione. Per istruzioni dettagliate, consulta [JWT (Service Account) Authentication](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) .
+
+### Autorizzazioni RBAC dell&#39;account tecnico
+
+Se il tuo account di Audience Manager utilizza [Controllo accessi basato su ruolo](../../features/administration/administration-overview.md), devi creare un account utente tecnico Audience Manager e aggiungerlo al gruppo RBAC di Audience Manager che effettuerà le chiamate API.
+
+Segui i passaggi riportati di seguito per creare un account utente tecnico e aggiungerlo a un gruppo RBAC:
+
+1. Effettua una chiamata `GET` a `https://aam.adobe.io/v1/users/self`. La chiamata crea un account utente tecnico visibile nella pagina [!UICONTROL Admin Console].[!UICONTROL Users]
+
+   ![conto tecnico](assets/technical-account.png)
+
+1. Accedi al tuo account di Audience Manager e [aggiungi l&#39;account utente tecnico](../../features/administration/administration-overview.md#create-group) al gruppo di utenti che effettuerà le chiamate API.
 
 ## [!DNL OAuth] Autenticazione (obsoleta) {#oauth}
 
@@ -215,7 +227,7 @@ Nella tabella seguente è riportato l’elenco della richiesta [!DNL URLs] utili
 
 A seconda del metodo di autenticazione utilizzato, è necessario regolare la richiesta [!DNL URLs] in base alle tabelle seguenti.
 
-### Richiesta [!DNL URLs] per [!DNL JWT] autenticazione {#request-urls-jwt}
+### Richiesta [!DNL URLs] di autenticazione [!DNL JWT] {#request-urls-jwt}
 
 | [!DNL API] Metodi | Richiesta [!DNL URL] |
 |--- |--- |
@@ -231,7 +243,7 @@ A seconda del metodo di autenticazione utilizzato, è necessario regolare la ric
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### Richiesta [!DNL URLs] di [!DNL OAuth] autenticazione (obsoleta) {#request-urls-oauth}
+### Richiesta [!DNL URLs] di autenticazione [!DNL OAuth] (obsoleta) {#request-urls-oauth}
 
 | [!DNL API] Metodi | Richiesta [!DNL URL] |
 |--- |--- |
@@ -287,6 +299,6 @@ Le nuove versioni di questi [!DNL API]s vengono rilasciate regolarmente. Una nuo
 >
 >* [Autenticazione JWT (account di servizio)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
 >* [Autenticazione OAuth](../../api/rest-api-main/aam-api-getting-started.md#oauth)
-* [OAuth 2.0](https://oauth.net/2/)
-* [OAuth 2 semplificato](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+>* [OAuth 2.0](https://oauth.net/2/)
+>* [OAuth 2 semplificato](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
 
