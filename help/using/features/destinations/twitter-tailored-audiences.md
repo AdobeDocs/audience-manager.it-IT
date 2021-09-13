@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Configurare tipi di pubblico personalizzati di Twitter come destinazione self-service basata su dispositivi
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 8023bfe1e4ea415867e1233f143627ff179cce42
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
 
 # Configurare [!DNL Twitter Custom Audiences] come destinazione self-service basata su dispositivi {#configure-twitter}
 
-Questo articolo spiega come configurare un&#39;integrazione con [Twitter Custom Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html).
+Questo articolo spiega come configurare un&#39;integrazione con [Twitter Custom Audiences](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
 
 ## Prerequisiti {#prerequisites}
 
@@ -35,7 +35,10 @@ Prima di poter aggiungere la destinazione basata su dispositivo, devi collegare 
 
 1. Accedi al tuo account di Audience Manager e vai a **[!DNL Administration > Integrated Accounts]**. Se disponi di un’integrazione configurata in precedenza con una piattaforma di destinazione, visualizzala in questa pagina. In caso contrario, la pagina è vuota.
 1. Clic **[!DNL Add Account]**.
-1. Seleziona [!DNL Twitter Custom Audiences] e fai clic su **[!DNL Confirm]** per essere reindirizzato alla pagina di autenticazione.                     ![piattaforme integrate](assets/dbd-integrated-platforms.png)
+1. Seleziona [!DNL Twitter Custom Audiences] e fai clic su **[!DNL Confirm]** per essere reindirizzato alla pagina di autenticazione.
+
+   ![piattaforme integrate](assets/dbd-integrated-platforms.png)
+
 1. Dopo l’autenticazione, vieni reindirizzato ad Audience Manager dove dovresti visualizzare i tuoi account pubblicitari associati. Seleziona l’account dell’inserzionista da utilizzare e fai clic su **[!DNL Confirm]**.
 
 ### Passaggio 2: Creare una nuova destinazione basata su dispositivi {#step2-create-new-destination}
