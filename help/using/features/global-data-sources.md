@@ -1,14 +1,14 @@
 ---
 description: Utilizza Global Data Sources per importare gli ID pubblicitari dei dispositivi.
-seo-description: Utilizza Global Data Sources per importare gli ID pubblicitari dei dispositivi.
-seo-title: Sorgenti di dati globali
+seo-description: Use Global Data Sources to import device advertising IDs.
+seo-title: Global Data Sources
 solution: Audience Manager
 title: Sorgenti di dati globali
-feature: Sorgenti di dati
+feature: Data Sources
 exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 77daa5bd6545914f65e3e0f19b12c750535244e8
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 6%
 
 ---
@@ -29,6 +29,8 @@ Nella tabella seguente sono descritte le origini dati globali supportate da Audi
 | 389146 | **[!DNL Microsoft Advertising ID]** -  **[!DNL MAID]** gli ID rappresentano i dispositivi che eseguono il sistema  [!DNL Windows 10] operativo. |
 | 963906 | **[!DNL Samsung Tizen IDs for Advertising]** -  **[!DNL TIFA]** gli ID rappresentano le  [!DNL Samsung] smart TV. |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** rappresentano i dispositivi in esecuzione  [!DNL Amazon Fire OS] |
+| 1171485 | **[!DNL LG webOS TV ID]** -  **[!DNL LGUDID]** rappresenta i dispositivi che utilizzano il sistema  [!DNL LG webOS] operativo. |
+| 1171489 | **[!DNL Vizio ID for Advertising]** -  **[!DNL IFA]** rappresentano i dispositivi con sistemi operativi Vizio Smart TV. |
 
 ## Importazione di dati da origini dati globali
 
