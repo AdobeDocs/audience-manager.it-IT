@@ -1,15 +1,15 @@
 ---
 description: Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni non utilizzate raccolte nell’inventario e inviate all’Audience Manager.
-seo-description: Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni non utilizzate raccolte nell’inventario e inviate all’Audience Manager.
-seo-title: Rapporto su segnali non utilizzati
+seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
+seo-title: Unused Signals Report
 solution: Audience Manager
 title: Rapporto su segnali non utilizzati
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
-feature: Rapporti di sovrapposizione
+feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '599'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni n
 
 Un segnale è un&#39;informazione del sito web trasmessa a [!DNL Audience Manager] sotto forma di [coppie chiave-valore](../../reference/key-value-pairs-explained.md) (ad esempio, `color=blue, price>100, gender=female`, ecc.).
 
-I segnali non utilizzati sono costituiti da dati raccolti ma non mappati a una caratteristica. Il rapporto [!UICONTROL Unused Signals] mostra i dati in una tabella per data, chiave, valore e conteggio di frequenza. Qualsiasi segnale non mappato trasmesso a [!DNL Audience Manager] almeno 100 volte al giorno è idoneo per il rapporto [!UICONTROL Unused Signals].
+I segnali non utilizzati sono costituiti da dati raccolti ma non mappati a una caratteristica. Il rapporto [!UICONTROL Unused Signals] mostra i dati in una tabella per data, chiave, valore e conteggio di frequenza. Qualsiasi segnale non mappato trasmesso a [!DNL Audience Manager] almeno 100 volte al giorno è idoneo per il rapporto [!UICONTROL Unused Signals]. I segnali inutilizzati vengono memorizzati per 45 giorni e quindi scartati.
 
 Rivedi questo rapporto per identificare i segnali orfani che possono essere mappati su caratteristiche nuove o esistenti.
 
