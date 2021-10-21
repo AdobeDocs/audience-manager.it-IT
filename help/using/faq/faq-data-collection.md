@@ -1,16 +1,16 @@
 ---
 description: Domande e problemi comuni sulla raccolta e l’integrazione dei dati.
-seo-description: Domande e problemi comuni sulla raccolta e l’integrazione dei dati.
-seo-title: Domande frequenti sulla raccolta dei dati e l’integrazione dei prodotti
+seo-description: Common data collection and integration questions and issues.
+seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: Domande frequenti sulla raccolta dei dati e l’integrazione dei prodotti
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; indirizzo SFTP; indirizzo IP STFP; Indirizzo FTP
-feature: Amministrazione
+feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1198'
 ht-degree: 82%
 
 ---
@@ -59,13 +59,13 @@ I server SFTP seguenti sono obsoleti. Non verrà eseguito il provisioning di nuo
 
 **Come si configura la mia istanza di Audience Manager per l’utilizzo dei nuovi server SFTP?**
 
-Contatta il tuo consulente [!DNL Audience Manager] o l’Assistenza clienti e configurerà i tuoi nuovi account SFTP.
+Contatta il tuo [!DNL Audience Manager] consulente o Assistenza clienti e configurerà i tuoi nuovi account SFTP.
 
  
 
 **Quali sono i metodi di autenticazione supportati per i nuovi server SFTP?**
 
-I nuovi server SFTP (`ftp-in-gtw` e `ftp-out-gtw`) supportano [!DNL OpenSSH Key-Based Authentication]. Possiamo generare le chiavi [!DNL SSH] per te, oppure puoi fornirci la tua chiave pubblica.
+I nuovi server SFTP (`ftp-in-gtw` e `ftp-out-gtw`) supporto [!DNL OpenSSH Key-Based Authentication]. Possiamo generare la variabile [!DNL SSH] chiavi per te, o puoi fornirci la tua chiave pubblica.
 
  
 
@@ -83,7 +83,7 @@ Come best practice, configura l’integrazione [!DNL Audience Manager]- [!DNL An
 
 * Metti [!UICONTROL DIL] direttamente nel `s_code`.
 
-* Distribuisci [!UICONTROL DIL] e `s_code` fino a [!DNL Adobe Experience Platform Launch].
+* Servire [!UICONTROL DIL] e `s_code` attraverso [!DNL Adobe Experience Platform Tags].
 
 Consulta [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
@@ -210,6 +210,6 @@ In genere, la sincronizzazione di un profilo utente tra aree geografiche richied
 
 **Cosa succede alle chiavi di accesso utente inattive di Amazon S3?**
 
-Adobe fornisce ai clienti di Audience Manager le chiavi di accesso utente per i bucket di Audience Manager [!DNL Amazon S3]. Per motivi di sicurezza, le chiavi vengono disattivate automaticamente dopo 100 giorni di inattività.
+Adobe fornisce ai clienti di Audience Manager le chiavi di accesso utente per l’Audience Manager [!DNL Amazon S3] secchi. Per motivi di sicurezza, le chiavi vengono disattivate automaticamente dopo 100 giorni di inattività.
 
 Per riabilitare le chiavi di accesso o richiederne di nuove, contatta l’Assistenza clienti.
