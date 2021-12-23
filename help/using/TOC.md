@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guida utente di Audience Manager
 user-guide-description: Scopri come Audience Manager ti consente di raccogliere informazioni rilevanti dal punto di vista commerciale sui visitatori del sito, creare segmenti commerciabili e distribuire contenuti e pubblicità mirati al pubblico giusto.
 feature-set: Audience Manager
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 73d1dd1fdc799d7cbe7605d6d084966f76efe38c
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -181,7 +181,7 @@ ht-degree: 90%
       + [Rapporti di Audience Optimization](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization per gli inserzionisti {#audience-optimization-advertisers}
          + [Panoramica di Audience Optimization per gli inserzionisti](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Importare file di dati di Google Campaign Manager in Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Importare file di dati Google Campaign Manager in Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Rapporto sulle prestazioni dei segmenti](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Rapporto sull’analisi delle tendenze e dei volumi](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [Rapporto di frequenza ottimale](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -286,7 +286,7 @@ ht-degree: 90%
 + Guide all’implementazione e all’integrazione {#implementation-integration-guides}
    + [Guide all’implementazione e all’integrazione](integration/implementation-and-integration.md)
    + [Metodi di integrazione dei dati](integration/data-integration-methods.md)
-   + Integrare Google Ad Manager utilizzando i tag publisher di Google (GPT){#integrate-dfp-using-gpt}
+   + Integrare Google Ad Manager utilizzando i tag publisher di Google (GPT, Publisher Tags){#integrate-dfp-using-gpt}
       + [Panoramica dell’integrazione di Google Ad Manager tramite GPT](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Invio di segmenti a Google Ad Manager tramite GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Creare una destinazione GPT](integration/gpt-aam-destination/gpt-aam-create-destination.md)
@@ -296,7 +296,7 @@ ht-degree: 90%
       + [Integrazione di Facebook WCA](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS come destinazione di Audience Manager](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX come destinazione di Audience Manager](integration/integrating-third-party/openx-destination.md)
-      + [Google Ad Manager (precedentemente DFP) come destinazione Audience Manager](integration/aam-dfp.md)
+      + [Google Ad Manager (precedentemente DFP) come destinazione di Audience Manager](integration/aam-dfp.md)
       + [Inviare segmenti a un elenco per il remarketing di Google AdWords](integration/integrating-third-party/rlsa-integration.md)
    + [Implementazione di Audience Manager](integration/implement-audience-manager.md)
    + Integrazione di dati multimediali {#media-data-integration}
@@ -339,7 +339,7 @@ ht-degree: 90%
       + [Integrazioni di partner personalizzate](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integrazione con Adobe Experience Platform {#integration-experience-platform}
       + [Experience Platform di condivisione di segmenti con Audience Manager e altre soluzioni Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
-   + Integrazione con altre soluzioni Experience Cloud {#integration-other-solutions}
+   + Integrazione con altre applicazioni Experience Cloud {#integration-other-solutions}
       + [Integrare Audience Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Inoltrare dati da Adobe Analytics ad Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Pubblicare un segmento di Adobe Analytics nell’Experience Cloud (apre la documentazione di Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
