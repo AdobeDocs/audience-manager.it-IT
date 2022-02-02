@@ -8,9 +8,9 @@ title: Customer Data Feeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 08916acd6081031382713737f77ceed8ab1a4e91
+source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1914'
 ht-degree: 3%
 
 ---
@@ -146,12 +146,11 @@ Elenca e definisce la struttura dati di un [!UICONTROL CDF] file. Sono inclusi s
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl+a (ASCII) <code> 001</code> o <code> ^A</code>) separa i dati dei singoli campi con un indicatore di spazio non stampabile. </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl+b (ASCII) <code> 002</code> o <code> ^B</code>) separa i dati da un array e richiede i parametri. </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl+c (ASCII) <code> 003</code> o <code> ^C</code>) definisce le coppie chiave-valore. </li> 
-      <li> Nuovo separatore di riga (/N)</li>
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sequenza campi </p> </td> 
-   <td colname="col2"> <p> <p>Importante: <span class="keyword"> Audience Manager</span> si riserva il diritto di aggiungere nuovi campi alla fine del file CDF nelle versioni future. Ciò significa che la progettazione tecnica del sistema di analisi dei file non deve assumere un numero fisso di colonne (anche se può assumere un ordine fisso per le colonne esistenti). </p> </p> <p>I dati nel file CDF vengono visualizzati nell’ordine indicato di seguito. </p> <p> 
+   <td colname="col2"> <p> <p>Importante: <span class="keyword"> Audience Manager</span> si riserva il diritto di aggiungere nuovi campi alla fine del file CDF nelle versioni future. Ciò significa che la progettazione tecnica del sistema di analisi dei file non deve assumere un numero fisso di colonne (anche se può assumere un ordine fisso per le colonne esistenti).</p> </p> <p>I dati nel file CDF vengono visualizzati nell’ordine indicato di seguito. /N può apparire al posto di uno qualsiasi di questi campi, indicando un valore nullo.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Ora evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
