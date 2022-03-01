@@ -4,9 +4,10 @@ solution: Audience Manager
 title: Experience Platform di condivisione di segmenti con Audience Manager e altre soluzioni Experience Cloud
 keywords: Condivisione di audience AEP, segmenti AEP, segmenti Platform, condivisione di segmenti, condivisione di audience, condivisione di segmenti, condivisione di segmenti AEP AAM
 feature: Platform Integration
-source-git-commit: f0df41e71340d08e873d8d7e33b481987110c58d
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
+source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -152,11 +153,15 @@ I numeri della popolazione del segmento possono variare tra i segmenti di Audien
 
 ### Valutazione del segmento in Experience Platform
 
-Ad Audience Manager, i numeri dei rapporti nell’interfaccia vengono aggiornati una volta al giorno.   La tempistica di questo aggiornamento raramente si allinea con il tempo di valutazione del segmento nell’Experience Platform.
+Ad Audience Manager, i numeri dei rapporti nell’interfaccia vengono aggiornati una volta al giorno. La tempistica di questo aggiornamento raramente si allinea con il tempo di valutazione del segmento nell’Experience Platform.
 
 ### Differenze tra regole di unione profili e criteri di unione
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) Audience Manager e [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) ad Experience Platform funziona in modo diverso e il grafico di identità utilizzato per ogni variabile. Per questo motivo, sono previste alcune differenze tra le popolazioni dei segmenti.
+
+>[!NOTE]
+>
+> Quando condividi segmenti da Experience Platform ad Audience Manager, la tua organizzazione Platform [criterio di unione predefinito](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) ha la precedenza sul [criterio di unione utilizzato dal segmento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) condiviso con Audience Manager. Ad esempio, se il criterio di unione del segmento condiviso consente [unione degli ID](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure), ma il criterio di unione predefinito dell’organizzazione non lo fa, ciò potrebbe causare differenze di popolazione tra Platform e Audience Manager.
 
 ### Composizione del segmento in Experience Platform
 
