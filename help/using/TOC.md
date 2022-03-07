@@ -3,11 +3,11 @@ product: audience manager
 solution: Audience Manager
 audience: end-user
 user-guide-title: Guida utente di Audience Manager
-user-guide-description: Scopri come Audience Manager ti consente di raccogliere informazioni rilevanti dal punto di vista commerciale sui visitatori del sito, creare segmenti commerciabili e distribuire contenuti e pubblicità mirati al pubblico giusto.
+user-guide-description: Scopri come utilizzare Adobe Audience Manager per raccogliere informazioni rilevanti dal punto di vista commerciale sui visitatori del sito e creare segmenti commerciabili. Puoi anche trovare dettagli su come distribuire pubblicità e contenuti mirati al pubblico giusto.
 feature-set: Audience Manager
-source-git-commit: 73d1dd1fdc799d7cbe7605d6d084966f76efe38c
+source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1814'
 ht-degree: 89%
 
 ---
