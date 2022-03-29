@@ -7,10 +7,10 @@ title: Amazon S3 Name and File Size Requirements for Inbound Data Files
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
+source-git-commit: a5506a315a98afdf31f8f52fac09b9179f388f30
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
