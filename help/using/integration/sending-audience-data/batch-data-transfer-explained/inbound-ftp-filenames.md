@@ -7,10 +7,10 @@ title: Requisiti FTP di nome e dimensione file per i file di dati in entrata
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-source-git-commit: 534f7c3a04861ad6daba2f168c275bbac8395d37
+source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 7%
+source-wordcount: '1097'
+ht-degree: 6%
 
 ---
 
@@ -66,7 +66,7 @@ La tabella definisce gli elementi in un [!DNL FTP] nome file.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Questo campo indica ad Audience Manager a quale origine dati si desidera integrare i dati. Questo campo è obbligatorio se imposti il DPID su un ID Android o iOS ID o un altro ID appartenente a origini dati globali. Questo consente <span class="keyword"> Audience Manager</span> collega nuovamente i dati del file alla tua organizzazione. <br> Questa origine dati di destinazione deve essere di proprietà della tua azienda. A scopo di condivisione dei dati di seconde parti, per acquisire dati in un’origine dati di destinazione appartenente a un’altra società, è necessario disporre di una mappatura degli accessi tra la società e l’origine dati di destinazione. Per impostare la mappatura, contatta il tuo consulente di Adobe o l’Assistenza clienti.</p> <p>Ad esempio: </p> 
+   <td colname="col2"> <p>Questo campo indica ad Audience Manager a quale origine dati si desidera integrare i dati. Questo campo è obbligatorio se imposti il DPID su un ID Android o iOS ID o un altro ID appartenente a origini dati globali. Questo consente <span class="keyword"> Audience Manager</span> collega nuovamente i dati del file alla tua organizzazione. <br> Questa origine dati di destinazione deve essere di proprietà della tua azienda. A scopo di condivisione dei dati di seconde parti, per acquisire dati in un’origine dati di destinazione appartenente a un’altra società, è necessario disporre di una mappatura degli accessi tra la società e l’origine dati di destinazione. Per impostare la mappatura, contatta il tuo consulente di Adobe o l’Assistenza clienti.</p><p><b>Nota importante:</b> You <i>non</i> è necessario richiedere una mappatura per le relazioni di condivisione dei dati esistenti (per le origini dati target appartenenti ad altre società in cui hai effettuato l’onboarding dei dati prima del 14 marzo 2022). La mappatura non è necessaria anche durante l’onboarding dei dati nelle origini dati di destinazione che appartengono al tuo PID. </p> <p>Ad esempio: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> comunica ad Audience Manager che stai qualificando gli ID cliente appartenenti all’origine dati 33 per caratteristiche o segnali appartenenti all’origine dati 21. </li> 
      <li> <b>ID Android (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> racconta <span class="keyword"> Audience Manager</span> che il file di dati contenga solo ID Android e che gli ID siano qualificati per le caratteristiche appartenenti all’origine dati 21.</li> 
