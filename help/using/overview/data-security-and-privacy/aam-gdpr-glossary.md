@@ -1,16 +1,16 @@
 ---
 description: Questo articolo descrive i concetti e la terminologia utilizzati dal Regolamento generale europeo sulla protezione dei dati (RGPD) e come Adobe Audience Manager, in quanto responsabile del trattamento dei dati, soddisfa i vari requisiti del RGPD.
-seo-description: Questo articolo descrive i concetti e la terminologia utilizzati dal Regolamento generale europeo sulla protezione dei dati (RGPD) e come Adobe Audience Manager, in quanto responsabile del trattamento dei dati, soddisfa i vari requisiti del RGPD.
-seo-title: Glossario RGPD
+seo-description: This article explains the concepts and terminology used by the European General Data Protection Regulation (GDPR), and how Adobe Audience Manager, as a Data Processor, addresses various GDPR requirements.
+seo-title: GDPR Glossary
 solution: Audience Manager
 title: Glossario RGPD
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
-feature: Governance dei dati e privacy
+feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '693'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ Questo articolo descrive i concetti e la terminologia utilizzati dal Regolamento
 
 Il RGPD è entrato in vigore il 25 maggio 2018 con gli obiettivi principali di dare ai singoli utenti dell’UE (gli interessati) un maggiore controllo sui propri dati personali e al tempo stesso semplificare il contesto normativo per le imprese internazionali attraverso una migliore unificazione della regolamentazione all’interno dell’UE. Come parte della preparazione di Adobe al RGPD, il team di Adobe Audience Manager dispone di servizi e processi avanzati necessari per supportare le richieste di accesso ed eliminazione da parte degli interessati, cioè i tuoi consumatori.
 
-Assicurati anche di aver letto [Experience Cloud RGPD FAQ](https://docs.adobe.com/content/help/it-IT/experience-platform/privacy/home.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) per comprendere meglio come funziona il RGPD in Experience Cloud.
+Assicurati anche di leggere informazioni sul RGPD nella [Panoramica sulla privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) per comprendere meglio come funziona il RGPD negli Experienci Cloud.
 
 ## Glossario RGPD {#gdpr-glossay}
 
@@ -58,7 +58,7 @@ Acquisisci familiarità con i termini chiave utilizzati relativi al RGPD. Di seg
 
  
 
-**ID (identificatori di Audience Manager):** Adobe Audience Manager memorizza vari tipi di ID. La pagina [Audience Manager Identifiers](data-privacy-ids.md) fornisce un riepilogo di questi ID, le loro sorgenti di dati corrispondenti e brevi descrizioni. Quando invii delle richieste al servizio [Adobe Experience Platform Privacy](https://docs.adobe.com/content/help/it-IT/experience-platform/privacy/home.html), fai riferimento a tali ID per effettuare richieste di cancellazione o di accesso per gli interessati.
+**ID (identificatori di Audience Manager):** Adobe Audience Manager memorizza vari tipi di ID. La pagina [Audience Manager Identifiers](data-privacy-ids.md) fornisce un riepilogo di questi ID, le loro sorgenti di dati corrispondenti e brevi descrizioni. Quando invii delle richieste al servizio [Adobe Experience Platform Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), fai riferimento a tali ID per effettuare richieste di cancellazione o di accesso per gli interessati.
 
  
 

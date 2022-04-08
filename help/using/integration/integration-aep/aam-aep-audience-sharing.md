@@ -5,9 +5,9 @@ title: Experience Platform di condivisione di segmenti con Audience Manager e al
 keywords: Condivisione di audience AEP, segmenti AEP, segmenti Platform, condivisione di segmenti, condivisione di audience, condivisione di segmenti, condivisione di segmenti AEP AAM
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1516'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 La funzionalità di condivisione del pubblico tra Audience Manager e Adobe Experience Platform ti consente di condividere le caratteristiche e i segmenti di Audience Manager in Adobe Experience Platform e viceversa. Hai bisogno del [[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) per abilitare la condivisione del pubblico tra Audience Manager e Adobe Experience Platform.
 
-Puoi utilizzare caratteristiche e segmenti di Audience Manager in Experience Platform per aggiungere dati di Audience Manager ai profili dei clienti e per sfruttare l’Experience Platform [servizio di segmentazione](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
+Puoi utilizzare caratteristiche e segmenti di Audience Manager in Experience Platform per aggiungere dati di Audience Manager ai profili dei clienti e per sfruttare l’Experience Platform [servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
 
 Ad Audience Manager, puoi utilizzare segmenti di Experience Platform per casi d’uso di Data Management Platform, ad esempio:
 * Aggiungi [dati di terze parti](/help/using/overview/data-types-collected.md#third-party-data) ai segmenti;
@@ -143,7 +143,7 @@ La tabella seguente illustra il modo in cui le etichette di esportazione dei dat
 | Questa destinazione può consentire una combinazione con informazioni personali identificabili (PII) | Combinare con PII |
 | Questa destinazione può essere utilizzata per il targeting di annunci fuori sito | Targeting tra siti |
 | Questa destinazione può essere utilizzata per il targeting degli annunci sul sito | Pubblicità on-site |
-| Questa destinazione può essere utilizzata per la personalizzazione degli annunci sul sito | Personalizzazione on-site |
+| Questa destinazione può essere utilizzata per la personalizzazione degli annunci sul sito | Personalization on-site |
 
 {style=&quot;table-layout:auto&quot;}
 
