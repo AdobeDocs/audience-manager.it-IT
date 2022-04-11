@@ -8,10 +8,10 @@ title: Richieste sulla privacy dei dati
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 6b43885deddb0cdaeb3698051ea110f0a4eed44e
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 55%
+source-wordcount: '1431'
+ht-degree: 54%
 
 ---
 
@@ -28,7 +28,7 @@ Prima di leggere questo articolo, consigliamo di consultare il [RGPD Glossary](.
 Puoi inviare singole richieste per accedere e cancellare i dati dei consumatori da [!DNL Audience Manager], in due modi:
 
 * Tramite la [Privacy Service UI](https://privacyui.cloud.adobe.io/). Consulta la documentazione [qui](https://docs.adobe.com/content/help/it-IT/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Attraverso la **[!DNL Privacy Service API]**. Consulta la documentazione [qui](https://docs.adobe.com/content/help/it-IT/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md)[!DNL API] e il riferimento [qui](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* Attraverso la **[!DNL Privacy Service API]**. Consulta la documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)[!DNL API] e il riferimento [qui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 Quando invii singole richieste sulla privacy dei dati, puoi inviare qualsiasi [!DNL Audience Manager] identificatori (ID), come descritto nel **[Identificatori di Audience Manager](data-privacy-ids.md)** insieme ai rispettivi ID dei namespace (ID dell’origine dati).
 
