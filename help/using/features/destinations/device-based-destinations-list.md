@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Destinazioni server-to-server Adobe Audience Manager
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 9947adbd99e12efdf2d94c6840929ad9266c58a2
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 74%
@@ -16,18 +16,18 @@ ht-degree: 74%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Questa pagina include solo le destinazioni [!DNL Audience Manager] [basate su dispositivi](/help/using/features/destinations/add-device-based-destinations.md) correnti. In [!DNL Audience Manager], [!UICONTROL device-based destinations] sono chiamati anche [!UICONTROL server-to-server destinations]. Per ulteriori informazioni su un&#39;integrazione, consulta la relativa inserzione [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) (se disponibile) o contatta il tuo [!DNL Adobe] Consulente o Assistenza clienti.
+Questa pagina include corrente [!DNL Audience Manager] [destinazioni basate su dispositivi](/help/using/features/destinations/add-device-based-destinations.md) solo. In [!DNL Audience Manager], [!UICONTROL device-based destinations] sono anche chiamati [!UICONTROL server-to-server destinations]. Per ulteriori informazioni su un’integrazione, consulta [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) inserzione (se disponibile) o contatta il tuo [!DNL Adobe] Consulente o Assistenza clienti.
 
 
-* **Ultimo aggiornamento**  = mostra l&#39;ultima data in cui è stato eseguito un aggiornamento per questo  [!UICONTROL device-based destination].
-* **Aggiornamenti**  = indica se  [!DNL Audience Manager] invia dati in tempo reale o in batch (1xday) a questo  [!UICONTROL destination].
-* **Unsegment**  = Unsegmentation descrive i processi che qualificano e rimuovono i profili dispositivo da  [!UICONTROL segments]. La possibilità di rimuovere un profilo dispositivo da un [!UICONTROL segment] dipende dall&#39;opzione del dispositivo utilizzata per creare un [!UICONTROL Profile Merge Rule]. La rimozione dai segmenti viene utilizzata anche nel contesto delle richieste di eliminazione [!DNL GDPR] . Leggi [Regole di unione dei profili e processi di rimozione dei dispositivi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [Partner di Audience Manager con funzionalità di rimozione dai segmenti](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] invia le informazioni di rimozione dai segmenti al  [!UICONTROL destinations] contrassegnato con  **** Yesqui di seguito.
-* **Ricezione dei segnali di  [!DNL IAB TCF] consenso**  =  [!DNL Audience Manager Plug-in for IAB TCF] consente di inoltrare la  [!DNL IAB TC] stringa ai partner di attivazione nel rispetto delle scelte sulla privacy degli utenti. Leggi [Audience Manager Plug-in per IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
-* **[!DNL ICDS]** = In questa colonna sono elencati i partner che supportano  [!UICONTROL Instant Cross-Device Suppression]. Leggi [Soppressione immediata su diversi dispositivi](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **ID dispositivo mobile**  = questa colonna elenca i partner da cui possono ricevere gli ID dispositivo mobile  [!DNL Audience Manager].
+* **Ultimo aggiornamento** = mostra l&#39;ultima data in cui è stato eseguito un aggiornamento per questo [!UICONTROL device-based destination].
+* **Aggiornamenti** = Indica se [!DNL Audience Manager] invia dati in tempo reale o batch (1xday) a questo [!UICONTROL destination].
+* **Separa** = La segmentazione descrive i processi che squalificano e rimuovono i profili dispositivo da [!UICONTROL segments]. Possibilità di rimuovere un profilo dispositivo da un [!UICONTROL segment] dipende dall’opzione del dispositivo utilizzata per creare un [!UICONTROL Profile Merge Rule]. La rimozione dai segmenti viene utilizzata anche nel contesto di [!DNL GDPR] elimina le richieste. Leggi [Regole di unione profili e processi di rimozione dai segmenti dei dispositivi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [Partner Audience Manager con funzionalità di rimozione dai segmenti](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] invia informazioni di rimozione dai segmenti al gruppo [!UICONTROL destinations] contrassegnato con **Sì** sotto.
+* **Ricezione [!DNL IAB TCF] segnali di consenso** = Il [!DNL Audience Manager Plug-in for IAB TCF] consente di inoltrare la [!DNL IAB TC] stringa ai partner di attivazione nel rispetto delle scelte relative alla privacy degli utenti. Leggi [Plug-in di Audience Manager per IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **[!DNL ICDS]** = In questa colonna sono elencati i partner che supportano [!UICONTROL Instant Cross-Device Suppression]. Leggi [Soppressione immediata su diversi dispositivi](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **ID dispositivo mobile** = In questa colonna sono elencati i partner da cui è possibile ricevere gli ID dei dispositivi mobili [!DNL Audience Manager].
 
 
-| Integrazione | Ultimo aggiornamento | Aggiornamenti | Separa | Ricezione dei segnali di consenso [!DNL IAB TCF] | [!DNL ICDS] | ID di dispositivi mobili |
+| Integrazione | Ultimo aggiornamento | Aggiornamenti | Separa | Ricezione [!DNL IAB TCF] segnali di consenso | [!DNL ICDS] | ID di dispositivi mobili |
 |----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 09/26/2018 | 1 giorno | Sì | No | No | Sì |
 | [!DNL 4info] | 02/09/2017 | 1 giorno | No | No | No | Sì |
@@ -46,9 +46,9 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] [basate su di
 | [!DNL Amazon Advertising] | 06/15/2017 | 1 giorno | Sì | No | No | No |
 | [!DNL AOL AdLearn] | 03/02/2017 | Tempo reale | No | No | No | Sì |
 | [!DNL AOL ONE] | 03/02/2017 | Tempo reale | Sì | No | No | Sì |
-| [!DNL AppNexus] | 03/02/2017 | Tempo reale | Sì | No | Sì | No |
+| [!DNL AppNexus] | 03/02/2017 | Tempo reale | Sì | No | Sì | Sì |
 | [!DNL AppNexus Yieldex] | 08/10/2017 | 1 giorno | Sì | No | No | No |
-| [!DNL Artsai] (precedentemente  [!DNL Adxcel]) | 01/27/2020 | 1 giorno | No | No | No | Sì |
+| [!DNL Artsai] (in precedenza [!DNL Adxcel]) | 01/27/2020 | 1 giorno | No | No | No | Sì |
 | [!DNL Atedra]/[!DNL AdStanding] | 03/02/2017 | Tempo reale | Sì | No | Sì | No |
 | [!DNL Avocet] | 12/06/2017 | 1 giorno | No | No | No | No |
 | [!DNL Bidtellect] | 03/03/2017 | Tempo reale | Sì | No | No | No |
@@ -57,13 +57,13 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] [basate su di
 | [!DNL Brightroll] | 03/03/2017 | 1 giorno | No | Sì | No | No |
 | [!DNL Button] | 12/18/2017 | 1 giorno | Sì | No | No | Sì |
 | [!DNL C1 Exchange] | 02/27/2017 | 1 giorno | Sì | No | No | No |
-| [!DNL Celtra] | 03/27/2017 | 1 giorno | Sì | No | No | Sì |
+| [!DNL Celtra] | 02/27/2017 | 1 giorno | Sì | No | No | Sì |
 | [!DNL Centro] | 02/27/2017 | 1 giorno | No | No | No | Sì |
 | [!DNL ChoiceStream] | 02/27/2017 | 1 giorno | No | No | No | No |
-| [!DNL Clearstream.tv] | 03/27/2017 | Tempo reale | Sì | No | No | No |
+| [!DNL Clearstream.tv] | 02/27/2017 | Tempo reale | Sì | No | No | No |
 | [!DNL Collective AMP Platform] | 02/27/2017 | 1 giorno | No | No | No | No |
 | [!DNL Criteo] | 02/27/2017 | Tempo reale | No | Sì | No | Sì |
-| [!DNL Crosswise] | 03/27/2017 | 1 giorno | Sì | No | No | No |
+| [!DNL Crosswise] | 02/27/2017 | 1 giorno | Sì | No | No | No |
 | [!DNL D.A.C. AudienceOne] | 02/27/2017 | 1 giorno | Sì | No | No | No |
 | [!DNL DataXu] | 20/11/2017 | Tempo reale | No | No | No | Sì |
 | [!DNL Digilant] | 03/02/2017 | Tempo reale |  | No | No | No |
@@ -103,7 +103,7 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] [basate su di
 | [!DNL Logicad] | 06/22/2017 | 1 giorno | No | No | No | No |
 | [!DNL Lotame] | 06/03/2017 | 1 giorno | Sì | No | No | Sì |
 | [!DNL MaxPoint Interactive] | 02/27/2017 | 1 giorno | No | No | No | No |
-| [!DNL MediaMath] | 03/27/2017 | 1 giorno | Sì | No | No | Sì |
+| [!DNL MediaMath] | 02/27/2017 | 1 giorno | Sì | No | No | Sì |
 | [!DNL Microsoft Bing Ads] | 10/10/2019 | Tempo reale | Sì | Sì | Sì | No |
 | [!DNL Millennial Media] | 02/27/2017 | 1 giorno | No | No | No | Sì |
 | [!DNL mPlatform China] | 08/06/2018 | 1 giorno | Sì | No | No | Sì |
@@ -160,9 +160,9 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] [basate su di
 | [!DNL Triple Lift] | 03/03/2017 | Tempo reale | No | Sì | No | No |
 | [!DNL TrueX] | 01/11/2018 | Tempo reale | Sì | No | No | Sì |
 | [!DNL TubeMogul] | 03/03/2017 | Tempo reale | Sì | No | Sì | No |
-| [!DNL Turn] /  [!DNL Amobee] | 03/03/2027 | Tempo reale | No | No | No | Sì |
+| [!DNL Turn] / [!DNL Amobee] | 03/03/2027 | Tempo reale | No | No | No | Sì |
 | [!DNL Twenga] | 10/29/2018 | Tempo reale | Sì | No | No | No |
-| [!DNL Twitter Custom Audiences] | 02/27/2017 | Tempo reale | Sì | No | Sì | No |
+| [!DNL Twitter Custom Audiences] | 03/27/2017 | Tempo reale | Sì | No | Sì | No |
 | [!DNL Undertone] | 07/11/2017 | 1 giorno | No | No | No | No |
 | [!DNL Verve] | 06/15/2017 | 1 giorno | Sì | No | No | Sì |
 | [!DNL VideoAmp] | 03/03/2017 | Tempo reale | No | No | No | No |
@@ -177,4 +177,4 @@ Questa pagina include solo le destinazioni [!DNL Audience Manager] [basate su di
 | [!DNL Yieldex] | 08/21/2017 | Varie | Sì | No | No | No |
 | [!DNL YieldMo] | 03/03/2017 | 1 giorno | No | No | No | No |
 | [!DNL Yume] | 05/01/2017 | 1 giorno | No | No | No | No |
-| [!DNL Zeta] /  [!DNL Sizmek DSP] /  [!DNL RocketFuel] | 02/17/2017 | Tempo reale | Sì | No | Sì | Sì |
+| [!DNL Zeta] / [!DNL Sizmek DSP] / [!DNL RocketFuel] | 02/17/2017 | Tempo reale | Sì | No | Sì | Sì |
