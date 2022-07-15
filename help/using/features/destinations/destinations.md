@@ -1,7 +1,7 @@
 ---
-description: Scopri i vantaggi, i tipi e gli utilizzi delle destinazioni - qualsiasi sistema di terze parti, ad esempio un server di annunci o un DSP, in cui condividi i dati. Utilizza il Generatore di destinazione per creare e gestire cookie, URL o destinazioni da server a server.
+description: 'Scopri i vantaggi, i tipi e gli utilizzi delle destinazioni: qualsiasi sistema di terze parti, ad esempio un ad server o un DSP, in cui condividere i dati. Usa lo strumento Generatore di destinazione per creare e gestire cookie, URL o destinazioni da server a server.'
 keywords: codice di integrazione, destinazione, panoramica di destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione, destinazione
-landing-page-description: Scopri i vantaggi, i tipi e gli utilizzi delle destinazioni - qualsiasi sistema di terze parti, ad esempio un server di annunci o un DSP, in cui condividi i dati. Utilizza il Generatore di destinazione per creare e gestire cookie, URL o destinazioni da server a server.
+landing-page-description: 'Scopri i vantaggi, i tipi e gli utilizzi delle destinazioni: qualsiasi sistema di terze parti, ad esempio un ad server o un DSP, in cui condividere i dati. Usa lo strumento Generatore di destinazione per creare e gestire cookie, URL o destinazioni da server a server.'
 seo-title: Destinations
 solution: Audience Manager
 title: 'Destinazioni '
@@ -11,7 +11,7 @@ exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 2%
+ht-degree: 15%
 
 ---
 
