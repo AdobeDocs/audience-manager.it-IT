@@ -1,16 +1,16 @@
 ---
 description: La funzione Controlli sull'esportazione dei dati impedisce l'invio di dati alle destinazioni quando questa azione viola la privacy dei dati o gli accordi sull'utilizzo dei dati.
-seo-description: La funzione Controlli sull'esportazione dei dati impedisce l'invio di dati alle destinazioni quando questa azione viola la privacy dei dati o gli accordi sull'utilizzo dei dati.
-seo-title: Controlli sull’esportazione dei dati
+seo-description: Data Export Controls prevent you from sending data to destinations when this action violates data privacy or data use agreements.
+seo-title: Data Export Controls
 solution: Audience Manager
 title: Controlli sull’esportazione dei dati
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
-feature: Controlli sull’esportazione dei dati
+feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 2%
+source-wordcount: '882'
+ht-degree: 1%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 2%
 
 ## Panoramica {#overview}
 
-[!UICONTROL Data Export Controls] ti consente di classificare  [origini ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) dati e  [destinazioni](../features/destinations/destinations.md). Le classificazioni applicate determinano quando i dati possono essere esportati o meno in una destinazione. Questa funzione è costituita da:
+[!UICONTROL Data Export Controls] consente di classificare [origini dati](../features/datasources-list-and-settings.md#data-sources-list-and-settings) e [destinazioni](../features/destinations/destinations.md). Le classificazioni applicate determinano quando i dati possono essere esportati o meno in una destinazione. Questa funzione è costituita da:
 
-* **[!UICONTROL Data Export Controls]**: Puoi impostare Controlli sull’esportazione dei dati sulle origini  *dati*. Quando è impostata su un’origine dati, questi controlli limitano il modo in cui l’origine dati e le relative caratteristiche possono essere utilizzate.
-* **[!UICONTROL Data Export Labels]**: Puoi impostare le etichette di esportazione dei dati sulle  *destinazioni*. Quando è impostata su una destinazione, queste etichette identificano il modo in cui la destinazione utilizza i dati. Per informazioni su come aggiungere etichette di esportazione a una destinazione, consulta [Aggiungere etichette di esportazione dati a una destinazione](/help/using/features/destinations/add-data-export-labels.md) .
+* **[!UICONTROL Data Export Controls]**: Puoi impostare i controlli sull’esportazione dei dati su *origini dati*. Quando è impostata su un’origine dati, questi controlli limitano il modo in cui l’origine dati e le relative caratteristiche possono essere utilizzate.
+* **[!UICONTROL Data Export Labels]**: Puoi impostare le etichette di esportazione dei dati su *destinazioni*. Quando è impostata su una destinazione, queste etichette identificano il modo in cui la destinazione utilizza i dati. Vedi [Aggiungere etichette di esportazione dei dati a una destinazione](/help/using/features/destinations/add-data-export-labels.md) per scoprire come aggiungere etichette di esportazione a una destinazione.
 
 In base alle classificazioni applicate a un’origine dati e a una destinazione, i controlli per l’esportazione ti impediscono di:
 
 * Aggiunta di una caratteristica a un segmento quando la caratteristica appartiene a un’origine dati con un controllo di esportazione dei dati incompatibile con un’etichetta di esportazione dei dati su una o più destinazioni a cui il segmento è mappato.
-Ad esempio, supponiamo che un segmento sia mappato su una destinazione con l’etichetta di esportazione **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. I controlli di esportazione impediscono l’aggiunta di una caratteristica a quel segmento se l’origine dati a cui appartiene la caratteristica dispone di un controllo di esportazione dei dati che indica **[!DNL Cannot be tied to personally identifiable information (PII)]**.
-* L&#39;invio di dati a una destinazione ha un&#39;etichetta di esportazione dei dati bloccata da un controllo di esportazione dei dati in uno dei seguenti casi:
+Ad esempio, supponiamo che un segmento sia mappato a una destinazione con l’etichetta di esportazione **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. I controlli di esportazione impediscono l’aggiunta di una caratteristica a quel segmento se l’origine dati a cui appartiene la caratteristica dispone di un controllo di esportazione dei dati che indica **[!DNL Cannot be tied to personally identifiable information (PII)]**.
+* Invio di dati a una destinazione con un&#39;etichetta di esportazione dati bloccata da un controllo di esportazione dati in uno dei seguenti modi:
    * La fonte di dati di una caratteristica inclusa;
    * L’origine dati di una caratteristica utilizzata in un segmento incluso;
    * La regola di unione profili sfruttata da un segmento incluso;
@@ -41,9 +41,9 @@ Ad esempio, supponiamo che un segmento sia mappato su una destinazione con l’e
 
 [!UICONTROL Data Export Controls] fornisci i seguenti controlli per aiutarti a classificare le origini dati e le destinazioni dei dati.
 
-Per bloccare la consegna dei dati, devi classificare un’origine dati con un controllo di esportazione e aggiungere un’etichetta di esportazione a una destinazione. Se si applicano controlli di esportazione solo a un&#39;origine dati o a una destinazione, questa funzione non limiterà la consegna dei dati. Quando sono impostati sia sull&#39;origine dati *che sulla destinazione*, i controlli di esportazione limitano le caratteristiche che è possibile aggiungere a un segmento e impediscono l&#39;invio dei membri del segmento a una destinazione.
+Per bloccare la consegna dei dati, devi classificare un’origine dati con un controllo di esportazione e aggiungere un’etichetta di esportazione a una destinazione. Se si applicano controlli di esportazione solo a un&#39;origine dati o a una destinazione, questa funzione non limiterà la consegna dei dati. Quando è impostato su entrambe le origini dati *e* destinazione, i controlli di esportazione limiteranno le caratteristiche che è possibile aggiungere a un segmento e impediranno l’invio dei membri del segmento a una destinazione.
 
-Inoltre, almeno un’etichetta di esportazione deve corrispondere a un controllo di esportazione prima che le restrizioni di consegna dei dati abbiano effetto. Ad esempio, è consigliabile aggiungere il controllo di esportazione [!UICONTROL PII] a un’origine dati. Quindi, aggiungi l’etichetta di targeting on-site a una destinazione. In questo caso, i controlli di esportazione non limitano la consegna dei dati perché le impostazioni non corrispondono. Tuttavia, se aggiungi l’etichetta di esportazione [!UICONTROL PII] alla destinazione, i controlli di esportazione bloccheranno l’esportazione.
+Inoltre, almeno un’etichetta di esportazione deve corrispondere a un controllo di esportazione prima che le restrizioni di consegna dei dati abbiano effetto. Ad esempio, supponiamo di aggiungere il [!UICONTROL PII] esporta il controllo in un’origine dati. Quindi, aggiungi l’etichetta di targeting on-site a una destinazione. In questo caso, i controlli di esportazione non limitano la consegna dei dati perché le impostazioni non corrispondono. Tuttavia, se aggiungi il [!UICONTROL PII] esporta l&#39;etichetta nella destinazione, i controlli di esportazione bloccheranno l&#39;esportazione.
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Inoltre, almeno un’etichetta di esportazione deve corrispondere a un controllo
    <td colname="col3"> Per impostazione predefinita, le restrizioni all’esportazione non sono impostate su nuove origini dati e destinazioni. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Non può essere legato a informazioni</span></b>  personali (PII) </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Non può essere legato a informazioni personali identificabili</span></b> (PII) </td> 
    <td colname="col2"> <b><span class="uicontrol"> Questa destinazione può consentire una combinazione con informazioni personali identificabili (PII)</span></b> </td> 
    <td colname="col3">Quando questa opzione è selezionata, non è possibile: 
     <ul id="ul_0D5A4D0373374217A4BACDFC3BB2F79D"> 
