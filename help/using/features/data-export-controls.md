@@ -7,9 +7,9 @@ title: Controlli sull’esportazione dei dati
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
+source-git-commit: 26aa0a210a045b40b2329844324315a092947188
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Inoltre, almeno un’etichetta di esportazione deve corrispondere a un controllo
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Non può essere utilizzato per il targeting di annunci fuori sito</span></b> </td> 
    <td colname="col2"> <b><span class="uicontrol"> Questa destinazione può essere utilizzata per il targeting di annunci fuori sito</span></b> </td> 
-   <td colname="col3">Queste restrizioni vengono generalmente utilizzate con Quando è selezionata, non è possibile: 
+   <td colname="col3">Quando questa opzione è selezionata, non è possibile: 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">Aggiungi caratteristiche ai segmenti mappati su destinazioni che eseguono il re-targeting degli utenti su altri siti. </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">Mappa i segmenti generati con una caratteristica dall’origine dati a destinazioni che rieseguono il targeting degli utenti su altri siti. </li> 
