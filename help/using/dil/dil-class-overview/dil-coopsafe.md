@@ -1,16 +1,19 @@
 ---
 description: Configurazione booleana opzionale che consente di determinare se il servizio DIL invia o meno dati ad Adobe Experience Cloud Device Co-op.
-seo-description: Configurazione booleana opzionale che consente di determinare se il servizio DIL invia o meno dati ad Adobe Experience Cloud Device Co-op.
+seo-description: An optional, Boolean configuration that determines if DIL sends (or does not send) data to the Adobe Experience Cloud Device Co-op.
 seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
-feature: Implementazione di DIL
+feature: DIL Implementation
 exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+hide: true
+hidefromtoc: true
+index: n
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 76%
+source-wordcount: '516'
+ht-degree: 75%
 
 ---
 
@@ -22,10 +25,10 @@ Configurazione booleana opzionale che consente di determinare se il servizio DIL
 
 Per utilizzare `isCoopSafe` devi:
 
-* Utilizza [!UICONTROL DIL] v6.11 o versione successiva.
+* Utilizzo [!UICONTROL DIL] v6.11 o versioni successive.
 * Partecipare a [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html). Anche i potenziali membri co-op devono consultare questa documentazione per stabilire se `isCoopSafe` si occupa di possibili problemi relativi al modo in cui i dati vengono utilizzati per creare il grafico del dispositivo.
 
-* Rivolgiti al tuo consulente [!DNL Adobe] per impostare un flag di inserire nell&#39;elenco Consentiti o elenco Bloccati sul tuo account Device Co-op. Nessun percorso self-service per abilitare questi flag.
+* Lavora con il tuo [!DNL Adobe] consulente per impostare un flag di  o di inserire nell&#39;elenco Consentiti sul tuo account Device Co-op. Nessun percorso self-service per abilitare questi flag.
 
 ## Casi d&#39;uso {#use-cases}
 
@@ -41,11 +44,11 @@ Per utilizzare `isCoopSafe` devi:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Visitatori autenticati</b> </p> </td> 
-   <td colname="col2"> <p>Aggiungi <code> isCoopSafe </code> al codice <span class="wintitle"> DIL </span> per controllare il modo in cui vengono usati i dati dal Device Co-op per costruire il grafico del dispositivo per i visitatori autenticati che hanno o meno accettato le Condizioni d'uso. </p> </td> 
+   <td colname="col2"> <p>Aggiungi <code> isCoopSafe </code> al tuo <span class="wintitle"> DIL </span> codice per controllare il modo in cui i dati per i visitatori autenticati che hanno o meno accettato le Condizioni d'uso vengono utilizzati da Device Co-op per creare il grafico del dispositivo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>DIL su siti di terze parti</b> </p> </td> 
-   <td colname="col2"> <p>Aggiungi <code> isCoopSafe </code> al codice <span class="wintitle"> DIL </span> da utilizzare su siti di terze parti in cui: </p> <p> 
+   <td colname="col2"> <p>Aggiungi <code> isCoopSafe </code> al tuo <span class="wintitle"> DIL </span> codice da utilizzare su siti di terze parti in cui: </p> <p> 
      <ul id="ul_C27BB26510314834A2A7CD99D46DA4AC"> 
       <li id="li_4E6AE574F18646F09C0CF4553EEA1A9E">Non puoi garantire che i visitatori autenticati abbiano o meno accettato le Condizioni d'uso. </li> 
       <li id="li_26D0561BF32B4278B0A6B5082C17FED8">Hai bisogno di controllare il modo in cui quei dati vengono usati dal Device Co-op per creare il grafico del dispositivo. </li> 
@@ -77,7 +80,7 @@ var dilInstance = DIL.create({
 
 ## Parametri POST della chiamata dell&#39;evento {#post-parameters}
 
-A seconda del flag impostato ( `true` o `false`), [!UICONTROL DIL] traduce `isCoopSafe` in questi parametri POST e li invia a [!DNL Adobe] in una chiamata dell&#39;evento:
+A seconda del flag impostato ( `true` o `false`), [!UICONTROL DIL] traduce `isCoopSafe` in questi parametri POST e li invia a [!DNL Adobe] in una chiamata evento:
 
 * `d_coop_safe=1`
 * `d_coop_unsafe=1`
@@ -117,11 +120,11 @@ Questi API ti consentono di ignorare lo stato `isCoopSafe`. Questi sono necessar
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopSafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Imposta il parametro POST <code> d_coop_safe=1 </code> in tutte le chiamate dell'evento successive. </p> </td> 
+   <td colname="col2"> <p>Imposta il parametro POST <code> d_coop_safe=1 </code> in tutte le chiamate evento successive. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance.api.setAsCoopUnsafe(); </code> </p> </td> 
-   <td colname="col2"> <p>Imposta il parametro POST <code> d_coop_unsafe=1 </code> in tutte le chiamate dell'evento successive. </p> </td> 
+   <td colname="col2"> <p>Imposta il parametro POST <code> d_coop_unsafe=1 </code> in tutte le chiamate evento successive. </p> </td> 
   </tr> 
  </tbody> 
 </table>

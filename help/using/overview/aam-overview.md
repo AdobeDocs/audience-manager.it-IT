@@ -7,10 +7,10 @@ title: Panoramica di Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
-source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Audience Manager ti consente di unire le risorse dei dati sul pubblico, semplificando così la raccolta di informazioni rilevanti dal punto di vista commerciale sui visitatori del sito, la creazione di segmenti commerciabili e la distribuzione di contenuti e pubblicità mirati al pubblico giusto. Audience Manager offre inoltre una facile distribuzione e gestione dei tag con funzioni affidabili di raccolta, controllo e protezione dei dati.
 
-Con Audience Manager, non sei legato a una piattaforma di vendita o scambio di dati o a una piattaforma lato domanda. Inoltre, Audience Manager è una piattaforma completamente agnostica riguardo le risorse di dati dei nostri partner. Con l’accesso a più sorgenti di dati, Audience Manager offre agli editori digitali la possibilità di utilizzare un’ampia gamma di dati di terze parti e la nostra cooperativa privata di dati. Rivolgiti al nostro team di soluzioni dei partner per informazioni su come prendere decisioni intelligenti e accurate sul pubblico di destinazione.
+Con Audience Manager, non sei legato a una piattaforma di vendita o scambio di dati o a una piattaforma lato domanda. Inoltre, Audience Manager è completamente agnostico per quanto riguarda le risorse di dati dei nostri partner. Con l’accesso a più origini dati, Audience Manager offre agli editori digitali la possibilità di utilizzare un’ampia varietà di dati di terze parti. Rivolgiti al nostro team di soluzioni dei partner per informazioni su come prendere decisioni intelligenti e accurate sul pubblico di destinazione.
 
 ## Tre funzioni di una piattaforma di gestione dati (DMP, Data Management Platform) {#dmp-three-functions}
 

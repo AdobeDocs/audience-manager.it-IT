@@ -1,17 +1,17 @@
 ---
 description: Risposte alle domande comuni sulle Regole di unione profili e sul grafico dei dispositivi.
 keywords: ID organizzazione
-seo-description: Risposte alle domande comuni sulle Regole di unione profili e sul grafico dei dispositivi.
-seo-title: Domande frequenti su regole di unione profili e grafico dei dispositivi
+seo-description: Answers to common Profile Merge Rule and device graph questions.
+seo-title: Profile Merge Rules and Device Graph FAQ
 solution: Audience Manager
 title: Domande frequenti su regole di unione profili e grafico dei dispositivi
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Unione profili
+feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 86%
+source-wordcount: '1530'
+ht-degree: 82%
 
 ---
 
@@ -31,13 +31,13 @@ Un grafico dei dispositivi è un set di mappature ID che definisce gruppi di dis
 
 **Cos’è un grafico dei dispositivi esterno?**
 
-Un grafico dei dispositivi esterno è un qualsiasi grafico dei dispositivi in [!DNL Audience Manager] che non è stato creato esclusivamente dalle tue sorgenti di dati multi-dispositivo. Ad esempio, quando crei una [Regola di unione profili](../features/profile-merge-rules/merge-rules-start.md) e scegli le opzioni [!UICONTROL Co-op Device Graph] o grafico dei dispositivi di terze parti, stai lavorando con un grafico dei dispositivi esterno. Consulta [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Un grafico dei dispositivi esterno è un qualsiasi grafico dei dispositivi in [!DNL Audience Manager] che non è stato creato esclusivamente dalle tue sorgenti di dati multi-dispositivo. Ad esempio, quando crei una [Regola di unione profili](../features/profile-merge-rules/merge-rules-start.md) e scegli le opzioni del grafico dei dispositivi di terze parti, stai lavorando con un grafico dei dispositivi esterno. Consulta [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
 **Quali sono alcuni casi d’uso comuni per l’utilizzo di un grafico dei dispositivi esterno in una [!UICONTROL Profile Merge Rule]?**
 
-L’obiettivo principale di utilizzare un grafico dei dispositivi in una [!UICONTROL Profile Merge Rule] è valutare e qualificare più dispositivi appartenenti a una singola persona o famiglia per un segmento specifico. Il segmento stesso può essere utilizzato per usi diversi, ad esempio per il targeting di un pubblico di potenziali clienti con un annuncio proposto da una DSP o per personalizzare l’esperienza di un cliente sul sito tramite una piattaforma di personalizzazione all’interno del sito. Consulta [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
+L’obiettivo principale di utilizzare un grafico dei dispositivi in una [!UICONTROL Profile Merge Rule] è valutare e qualificare più dispositivi appartenenti a una singola persona o famiglia per un segmento specifico. Il segmento stesso può utilizzare più utilizzi, ad esempio, per il targeting di un pubblico di potenziali clienti con un annuncio pubblicato da un DSP o per personalizzare l’esperienza di un cliente sul sito tramite una piattaforma di personalizzazione all’interno del sito. Consulta [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -265,7 +265,7 @@ Alla fine del 2019, è stata rilasciata una serie di miglioramenti delle regole 
 
 Per garantire la corretta integrazione tra l’istanza di Audience Manager e le destinazioni utilizzando ID multi-dispositivo, come Adobe Campaign, assicurati di soddisfare i seguenti requisiti:
 
-1. Rivedi la regola di unione profili utilizzata dai segmenti mappati alla destinazione Adobe Campaign Declared ID. La regola di unione profili deve utilizzare l’opzione [!UICONTROL Last Authenticated Profile] in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione profili utilizza un’opzione diversa, impostala su [!UICONTROL Last Authenticated Profile].
+1. Rivedi la regola di unione profili utilizzata dai segmenti mappati alla destinazione Adobe Campaign Declared ID. La regola di unione profili deve utilizzare [!UICONTROL Last Authenticated Profile] , in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione profili utilizza un’opzione diversa, passa a [!UICONTROL Last Authenticated Profile].
 2. Seleziona l’origine dati Adobe Campaign Declared ID nelle impostazioni Regola di unione profili .
 
 >[!NOTE]
