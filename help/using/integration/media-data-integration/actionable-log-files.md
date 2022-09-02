@@ -8,7 +8,7 @@ title: File di registro fruibili
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: 869bbe657072255e5ea3f0e68294f8f0e6cc966a
+source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 2%
@@ -62,7 +62,8 @@ I segnali sono [unità di dati più piccole](../../reference/signal-trait-segmen
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] sono supportati per i seguenti server di annunci:
-> 
+> <br>
+>
 > * [Google Campaign Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)
 > * [Adobe Advertising Cloud, Flashtalk e Sizmek](#generic-logs-signals)
@@ -202,13 +203,14 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >
 >La marca temporale dell’evento fornita nel [!DNL Google Ad Manager] i log saranno onorati e trasmessi al [!UICONTROL Data Collection Servers].
 >
+>
 >* Se una marca temporale non è disponibile per una riga di dati nel [!DNL Google Ad Manager] file di log, utilizziamo l&#39;ora del `HTTP` chiama come timestamp dell’evento.
 >* Se la riga di dati nel [!DNL Google Ad Manager] il file di registro contiene una marca temporale non valida. Viene ignorata l’intera riga.
 
 
 <br> 
 
-### Segnali fruibili da log di Adobe Advertising Cloud, Flashtalk e Sizmek ad server {#generic-logs-signals}
+### Segnali fruibili dai registri del server di annunci Adobe Advertising Cloud, Flashtalk e Sizmek {#generic-logs-signals}
 
 Innanzitutto, devi depositare i log del server annunci nei nostri bucket Amazon S3. Per eseguire questa operazione, leggi [File di dati per Audienci Optimization di rapporti e file di registro fruibili](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *e* contatta [!DNL Audience Manager] consulente. Nella tabella sono elencati i segnali actionable provenienti dai file di registro ad server:
 
