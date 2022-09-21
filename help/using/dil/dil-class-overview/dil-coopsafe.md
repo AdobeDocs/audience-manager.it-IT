@@ -10,14 +10,18 @@ exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
 hide: true
 hidefromtoc: true
 index: n
-source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
+source-git-commit: 3f4a161ee856357b5cb5eb757ad779dee5357b09
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '521'
 ht-degree: 75%
 
 ---
 
 # isCoopSafe{#iscoopsafe}
+
+>[!WARNING]
+>
+>Questa funzione è stata rimossa.
 
 Configurazione booleana opzionale che consente di determinare se il servizio DIL invia o meno dati ad Adobe Experience Cloud Device Co-op.
 
