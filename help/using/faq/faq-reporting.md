@@ -1,20 +1,20 @@
 ---
 description: Domande e problemi comuni relativi al reporting.
-seo-description: Domande e problemi comuni relativi al reporting.
-seo-title: Domande frequenti sul reporting
+seo-description: Common reporting-related questions and issues.
+seo-title: Reporting FAQ
 solution: Audience Manager
 title: Domande frequenti sul reporting
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
-feature: Riferimento per la generazione di rapporti
+feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Domande frequenti sul reporting {#reporting-faq}
+# Domande frequenti sul reporting{#reporting-faq}
 
 Domande e problemi comuni relativi al reporting.
 
@@ -45,7 +45,7 @@ Per ridurre la domanda di calcolo, questi report omettono dati statisticamente n
 
 **Se eseguo una campagna di marketing e-mail, come posso determinare se gli utenti reindirizzati arrivano sul mio sito da tale campagna o da altre sorgenti?**
 
-Aggiungi una stringa di query specifica per la campagna all’URL della sezione del sito che desideri monitorare. Poi, imposta una regola di caratteristiche per acquisire tale variabile. Ad esempio, se l’URL viene trasmesso in un ID campagna come `www.test123.com/electronics?campaign=123`, crea una regola di caratteristiche per acquisire i dati dalla variabile `h_referer` che cerchi un’intestazione del tipo `h_referer = 'campaign=123'`.
+Aggiungi una stringa di query specifica per la campagna all’URL della sezione del sito che desideri monitorare. Poi, imposta una regola di caratteristiche per acquisire tale variabile. Ad esempio, se l’URL viene trasmesso in un ID campagna come questo, `www.test123.com/electronics?campaign=123`, quindi crea una regola di caratteristiche per acquisire tali dati dal `h_referer` con una regola di caratteristiche che cerca un&#39;intestazione come `h_referer = 'campaign=123'`.
 
 <br> 
 
