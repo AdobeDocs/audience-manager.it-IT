@@ -1,22 +1,22 @@
 ---
 description: Il processo di trasferimento dei dati in tempo reale in uscita restituisce i dati utente come una serie di oggetti JSON passati con un metodo POST.
-seo-description: Il processo di trasferimento dei dati in tempo reale in uscita restituisce i dati utente come una serie di oggetti JSON passati con un metodo POST.
-seo-title: Trasferimenti di dati in uscita in tempo reale
+seo-description: The outbound real-time data transfer process returns user data as a series of JSON objects passed in with a POST method.
+seo-title: Real-Time Outbound Data Transfers
 solution: Audience Manager
 title: Trasferimenti di dati in uscita in tempo reale
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
-feature: Trasferimenti di dati in uscita
+feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '674'
 ht-degree: 5%
 
 ---
 
 # Trasferimenti di dati in uscita in tempo reale {#real-time-outbound-data-transfers}
 
-Il processo di trasferimento dei dati in tempo reale in uscita fornisce i dati utente come una serie di messaggi formattati [!DNL JSON] a una piattaforma di destinazione.
+Il processo di trasferimento dei dati in tempo reale in uscita fornisce i dati utente come serie di [!DNL JSON] messaggi formattati in una piattaforma di destinazione.
 
 <!-- c_outbound_json.xml -->
 
@@ -24,9 +24,9 @@ Il processo di trasferimento dei dati in tempo reale in uscita fornisce i dati u
 
 Per utilizzare questo metodo, la piattaforma di destinazione deve soddisfare i seguenti requisiti:
 
-* Deve fornire un endpoint [!DNL URL] scalabile in modo da ricevere un elevato volume di messaggi dall&#39;Audience Manager;
-* Accetta i dati in formato [!DNL JSON] (`Content-type: application/json`);
-* Deve accettare trasferimenti di dati `HTTPS` sicuri. [!DNL Audience Manager] non invierà messaggi tramite il  `HTTP` protocollo non sicuro.
+* Deve fornire un endpoint [!DNL URL] che può essere scalato per ricevere un elevato volume di messaggi dall&#39;Audience Manager;
+* Deve accettare i dati in [!DNL JSON] format (`Content-type: application/json`);
+* Deve accettare `HTTPS` trasferimenti di dati. [!DNL Audience Manager] non invierà i messaggi tramite la modalità non protetta `HTTP` protocollo.
 
 ## Frequenza
 
@@ -42,11 +42,11 @@ Non sono impostati limiti di velocità sulla velocità effettiva dei messaggi el
 
 ## Risposte richieste
 
-Per impostazione predefinita, il server destinatario deve restituire il codice `200 OK` per indicare la ricezione corretta. Altri codici verranno interpretati come errori. Questa risposta è prevista entro 3000 millisecondi. In risposta a un errore, [!DNL Audience Manager] eseguirà un solo tentativo.
+Per impostazione predefinita, il server destinatario deve restituire `200 OK` codice per indicare l&#39;avvenuta ricezione. Altri codici verranno interpretati come errori. Questa risposta è prevista entro 3000 millisecondi. In risposta a un errore, [!DNL Audience Manager] effettuerà un solo tentativo.
 
 ## Parametri
 
-La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviato alla destinazione.
+La tabella seguente definisce gli elementi nel [!DNL JSON] file di dati inviati alla destinazione.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -85,7 +85,7 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviato 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
-   <td colname="col3"> <p>Numero totale di utenti nella richiesta <code> POST</code>. </p> </td> 
+   <td colname="col3"> <p>Numero totale di utenti nel <code> POST</code> richiesta. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -95,7 +95,7 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviato 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>L' <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
+   <td colname="col3"> <p>La <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -105,7 +105,7 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviato 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> L' <span class="keyword"> ID di regione Audience Manager</span> in cui è stato visualizzato questo dispositivo. Ad esempio, se il dispositivo ha un’attività a Parigi (Europa), l’ID di regione è <code> 6</code>. Consulta <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID regioni DCS, posizioni e nomi host</a>. </td> 
+   <td colname="col3"> La <span class="keyword"> Audience Manager</span> ID di regione in cui abbiamo visto questo dispositivo. Ad esempio, se il dispositivo ha un’attività a Parigi (Europa), l’ID di regione è <code> 6</code>. Consulta <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID regioni DCS, posizioni e nomi host</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -113,7 +113,7 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviato 
    <td colname="col3"> <p>Matrice di oggetti segmento. Per i messaggi in tempo reale, l’array contiene tutti i segmenti a cui appartiene l’utente. Per i messaggi batch, l’array contiene solo le modifiche al segmento dall’ultimo batch.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
+   <td colname="col1"><code><i>Segment.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
    <td colname="col3"> <p>Identificatore del segmento. Nella maggior parte dei casi, si tratta dell’ID del segmento generato dall’Audience Manager (un numero intero). In alcuni casi, se la piattaforma di destinazione lo consente, i clienti possono definire l’identificatore del segmento nell’interfaccia utente di Audience Manager (campo di testo aperto), che rifletterebbe in questa proprietà. </p> </td> 
   </tr> 
@@ -127,10 +127,10 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviato 
     </ul> <p>Gli utenti non sono segmentati quando sono: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Rimosso da un segmento in base alla regola del segmento. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Rimosso da un segmento in base all’ <a href="../../../features/traits/segment-ttl-explained.md"> intervallo time-to-live del segmento</a>. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">È stato rimosso da un segmento in base alle <a href="../../../features/traits/segment-ttl-explained.md"> intervallo time-to-live</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Se non sono stati visualizzati negli ultimi 120 giorni, lo stato attivo viene spostato in uno stato inattivo. </li>
      <li>Rimosso a causa di una richiesta di modifica della privacy (cioè <span class="keyword"> RGPD</span>)</li>
-    </ul> <p>Tutti gli ID partner sincronizzati con un ID <span class="keyword"> Audience Manager</span> riceveranno il flag <code> "Status":"0"</code> quando un utente non è segmentato. </p> </td> 
+    </ul> <p>Tutti gli ID partner sincronizzati in un <span class="keyword"> Audience Manager</span> L'ID riceverà <code> "Status":"0"</code> quando un utente non è segmentato. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -142,7 +142,7 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviato 
 
 ## Sicurezza
 
-Puoi proteggere il processo di trasferimento dei dati in uscita in tempo reale firmando [richieste HTTP](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) utilizzando chiavi private o facendo sì che [!DNL Audience Manager] sia autenticato tramite il protocollo [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md).
+Puoi proteggere il processo di trasferimento dei dati in uscita in tempo reale tramite [richiesta di firma HTTP](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) utilizzando le chiavi private o [!DNL Audience Manager] autenticare tramite [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) protocollo.
 
 ## Richiesta
 
