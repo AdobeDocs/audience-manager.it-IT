@@ -4,7 +4,7 @@ keywords: codice di integrazione, destinazione, panoramica di destinazione, dest
 landing-page-description: 'Scopri i vantaggi, i tipi e gli utilizzi delle destinazioni: qualsiasi sistema di terze parti, ad esempio un ad server o un DSP, in cui condividere i dati. Usa lo strumento Generatore di destinazione per creare e gestire cookie, URL o destinazioni da server a server.'
 seo-title: Destinations
 solution: Audience Manager
-title: 'Destinazioni '
+title: Destinazioni
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
