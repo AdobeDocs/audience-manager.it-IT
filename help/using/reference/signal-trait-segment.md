@@ -1,7 +1,7 @@
 ---
 description: Scopri i componenti di un segmento e le espressioni utilizzate per impostare i criteri di qualificazione del pubblico. Trovi anche informazioni su come vengono trasmessi i dati.
 landing-page-description: Scopri i componenti di un segmento e le espressioni utilizzate per impostare i criteri di qualificazione del pubblico. Trovi anche informazioni su come vengono trasmessi i dati.
-short-description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
+short-description: Scopri i componenti di un segmento e le espressioni utilizzate per impostare i criteri di qualificazione del pubblico. Trovi anche informazioni su come vengono trasmessi i dati.
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: Segnali, caratteristiche e segmenti
@@ -10,8 +10,8 @@ feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 16%
+source-wordcount: '392'
+ht-degree: 21%
 
 ---
 
