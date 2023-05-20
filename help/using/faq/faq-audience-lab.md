@@ -28,7 +28,7 @@ Sì, i segmenti di test hanno ID segmento diversi. Per le destinazioni con [!UIC
 
 **La stessa caratteristica di conversione può essere associata a più gruppi di test?**
 
-Sì, questo è permesso. Considera un caso di un test che utilizza un segmento maschile associato alla conversione X e un test che utilizza un segmento femminile associato alla conversione X. Non importa che entrambi i test stanno generando conversioni, poiché stanno testando due tipi di pubblico diversi.
+Sì, è consentito. Considera un caso di un test che utilizza un segmento maschile associato alla conversione X e un test che utilizza un segmento femminile associato alla conversione X. Non importa che entrambi i test stanno generando conversioni, poiché stanno testando due tipi di pubblico diversi.
 
 <br> 
 
@@ -48,6 +48,6 @@ In questo caso, [!UICONTROL Audience Lab] conta tre conversioni, una per ogni di
 
 Consulta [Create Segment Test Group](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) per informazioni su come utilizzare [!UICONTROL Audience Lab] con privilegi [!UICONTROL RBAC].
 
-**Posso usare [!UICONTROL Audience Lab] in combinato disposto con [!UICONTROL Profile Link Device Graph] Grafici dei dispositivi esterni (grafico dei dispositivi Tapad, grafico dei dispositivi Liveramp)?**
+**Posso utilizzare [!UICONTROL Audience Lab] insieme al [!UICONTROL Profile Link Device Graph] e grafici dei dispositivi esterni (grafico dei dispositivi Tapad, grafico dei dispositivi Liveramp)?**
 
 Per il momento, [!UICONTROL Audience Lab] può suddividere le popolazioni dei segmenti solo in base ai dispositivi collegati a un dispositivo qualificato quando si utilizza [!UICONTROL Profile Link Device Graph]. Stiamo lavorando all’aggiunta del supporto in [!UICONTROL Audience Lab] per gli altri grafici dei dispositivi e ti informeremo quando la effettueremo.

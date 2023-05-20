@@ -47,9 +47,9 @@ Sì. Consulta [Bulk Management Tools](../reference/bulk-management-tools/bulk-ma
 
  
 
-**Quando si esegue un&#39;esportazione in massa di ID in una destinazione, alcuni degli ID cliente risultano mancanti. Perché succede?**
+**Durante l’esportazione di un ID in blocco in una destinazione, mancano alcuni ID cliente. Perché succede?**
 
-Quando un ID dispositivo ([UUID AAM](../reference/ids-in-aam.md)) è collegato a più ID CRM ([DPUUID](../reference/ids-in-aam.md)), viene esportata solo la mappatura più recente. Per questo motivo, potresti vedere un numero inferiore al previsto di ID dispositivo da esportare.
+Quando un ID dispositivo ([UUID AAM](../reference/ids-in-aam.md)) è collegato a più ID CRM ([DPUUID](../reference/ids-in-aam.md)), viene esportata solo la mappatura più recente. Per questo motivo è possibile che venga esportato un numero di ID dispositivo inferiore al previsto.
 
  
 

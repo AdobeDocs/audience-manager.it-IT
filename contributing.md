@@ -1,16 +1,15 @@
 ---
 source-git-commit: 045b2b63a89e8a71fc9aaa32a7cf914b9fb1b69a
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '149'
 ht-degree: 78%
 
 ---
-# Contributo
+# Contribuire
 
-Grazie per aver scelto di contribuire!
+Grazie per aver scelto di contribuire.
 
-Di seguito sono riportate alcune linee guida da seguire per contribuire a questo progetto.
+Di seguito è riportato un set di linee guida da seguire quando si contribuisce a questo progetto.
 
 ## Codice di condotta
 
@@ -18,7 +17,7 @@ Il progetto aderisce al [Codice di condotta](https://git.corp.adobe.com/OpenSour
 
 ## Contratto di licenza da collaboratore
 
-Tutti i contributi di terze parti a questo progetto devono essere accompagnati da una licenza del contributore firmata. In tal modo è concesso ad Adobe il permesso di ridistribuire i contributi come parte del progetto. Firma il Contratto di licenza da collaboratore all&#39;indirizzo `[SOME LINK](no link yet)`. È sufficiente inviare un CLA di Adobe una sola volta, quindi se ne hai già inviato uno in precedenza, probabilmente sei a posto!
+Tutti i contributi di terze parti a questo progetto devono essere accompagnati da una licenza del contributore firmata. In tal modo è concesso ad Adobe il permesso di ridistribuire i contributi come parte del progetto. Firma il CLA all’indirizzo `[SOME LINK](no link yet)`. È sufficiente inviare un CLA di Adobe una sola volta, quindi se ne hai già inviato uno in precedenza, probabilmente sei a posto!
 
 ## Revisioni del codice
 

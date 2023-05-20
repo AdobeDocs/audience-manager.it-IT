@@ -1,22 +1,22 @@
 ---
-description: Gestisci la raccolta dati e la creazione di tipi di pubblico con caratteristiche basate su regole, integrate, algoritmiche o cartelle.
-seo-description: Gestisci la raccolta dati e la creazione di tipi di pubblico con caratteristiche basate su regole, integrate, algoritmiche o cartelle.
-keywords: caratteristica; caratteristiche; panoramica delle caratteristiche
-seo-title: Panoramica delle caratteristiche
+description: Gestisci la raccolta dati e la creazione di tipi di pubblico con caratteristiche basate su regole, onboarded, algoritmiche o cartelle.
+seo-description: Manage data collection and audience creation with rules-based, onboarded, algorithmic or folder traits.
+keywords: caratteristica; caratteristiche; panoramica caratteristica
+seo-title: Traits Overview
 solution: Audience Manager
 title: Panoramica delle caratteristiche
-feature: 'Caratteristiche '
+feature: Traits
 exl-id: 89f79f63-82f3-43cc-b22c-4c45d83e5002
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 38%
+source-wordcount: '60'
+ht-degree: 43%
 
 ---
 
 # [!UICONTROL Traits] Panoramica {#traits-overview}
 
-Gestisci la raccolta dati e la creazione di tipi di pubblico con [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] o [!UICONTROL folder traits]. Per iniziare a utilizzare [!UICONTROL traits], leggi le pagine collegate di seguito:
+Gestire la raccolta dati e la creazione di tipi di pubblico con [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] o [!UICONTROL folder traits]. Leggi le pagine collegate di seguito per iniziare a utilizzare [!UICONTROL traits]:
 
 * [Pagina dei dettagli delle caratteristiche](/help/using/features/traits/trait-details-page.md)
 * [Generatore di caratteristiche ](/help/using/features/traits/about-trait-builder.md)

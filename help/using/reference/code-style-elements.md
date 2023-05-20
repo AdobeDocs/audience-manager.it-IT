@@ -1,22 +1,22 @@
 ---
-description: Questi elementi identificano le opzioni di codice e le variabili utilizzate nell'intera documentazione di aiuto. In genere, questi simboli o elementi di stile non vengono inclusi nel codice o nei file di dati. Sono solo indicatori visivi.
-seo-description: Questi elementi identificano le opzioni di codice e le variabili utilizzate nell'intera documentazione di aiuto. In genere, questi simboli o elementi di stile non vengono inclusi nel codice o nei file di dati. Sono solo indicatori visivi.
-seo-title: Convenzioni di stile per gli elementi di codice e testo
+description: Questi elementi identificano le opzioni di codice e le variabili utilizzate in tutta la documentazione dell’Aiuto. In genere, questi simboli o elementi di stile non vengono inclusi nel codice o nei file di dati. Sono solo indicatori visivi.
+seo-description: These elements identify code options and variables used throughout the help documentation. Generally, you would not include these symbols or style elements in your code or data files. They're visual indicators only.
+seo-title: Style Conventions for Code and Text Elements
 solution: Audience Manager
 title: Convenzioni di stile per gli elementi di codice e testo
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
-feature: 'Riferimenti '
+feature: Reference
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 10%
+source-wordcount: '170'
+ht-degree: 8%
 
 ---
 
 # Convenzioni di stile per gli elementi di codice e testo{#style-conventions-for-code-and-text-elements}
 
-Questi elementi identificano le opzioni di codice e le variabili utilizzate nell&#39;intera documentazione di aiuto. In genere, questi simboli o elementi di stile non vengono inclusi nel codice o nei file di dati. Sono solo indicatori visivi.
+Questi elementi identificano le opzioni di codice e le variabili utilizzate in tutta la documentazione dell’Aiuto. In genere, questi simboli o elementi di stile non vengono inclusi nel codice o nei file di dati. Sono solo indicatori visivi.
 
 <table id="table_EBEF9490D90041BD8B7ABE3AF1AF35B6"> 
  <thead> 
@@ -36,7 +36,7 @@ Questi elementi identificano le opzioni di codice e le variabili utilizzate nell
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Gli elementi tra parentesi indicano una scelta booleana <span class="wintitle"> OR</span>. </p> </td> 
+   <td colname="col2"> <p>Gli elementi tra parentesi indicano un valore Boolean <span class="wintitle"> OPPURE</span> scelta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 
@@ -44,7 +44,7 @@ Questi elementi identificano le opzioni di codice e le variabili utilizzate nell
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> &lt; &gt;</code> </p> </td> 
-   <td colname="col2"> <p>A volte le variabili e altri elementi di codice compaiono tra &lt; &gt; parentesi. Vengono utilizzati per migliorare la chiarezza nei blocchi di codice lunghi. Se non specificato, non includere questi simboli nel nome o nel contenuto di un file di dati. </p> </td> 
+   <td colname="col2"> <p>A volte le variabili e altri elementi di codice compaiono tra parentesi &lt; &gt;. Vengono utilizzati per migliorare la chiarezza nei blocchi di codice lunghi. Se non specificato, non includere questi simboli nel nome o nel contenuto di un file di dati. </p> </td> 
   </tr> 
  </tbody> 
 </table>

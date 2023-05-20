@@ -1,7 +1,7 @@
 ---
-description: Metodi di gestione del dominio che consentono di creare e gestire i domini a cui si desidera inviare i dati (solo per le destinazioni dei cookie).
-seo-description: Metodi di gestione del dominio che consentono di creare e gestire i domini a cui si desidera inviare i dati (solo per le destinazioni dei cookie).
-seo-title: Metodi API di gestione dei domini
+description: Metodi di gestione dei domini che consentono di creare e gestire i domini a cui si desidera inviare i dati (solo per le destinazioni dei cookie).
+seo-description: Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
+seo-title: Domain Management API Methods
 solution: Audience Manager
 title: Metodi API di gestione dei domini
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
@@ -9,20 +9,20 @@ feature: API
 exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 6%
+source-wordcount: '338'
+ht-degree: 5%
 
 ---
 
 # Metodi API di gestione dei domini {#domain-management-api-methods}
 
-Metodi di gestione del dominio che consentono di creare e gestire i domini a cui si desidera inviare i dati (solo per le destinazioni dei cookie).
+Metodi di gestione dei domini che consentono di creare e gestire i domini a cui si desidera inviare i dati (solo per le destinazioni dei cookie).
 
 <!-- c_partner_site.xml -->
 
 ## Crea un nuovo dominio {#create-new-domain}
 
-Un metodo `POST` che consente di creare un nuovo dominio per (solo destinazioni cookie).
+A `POST` metodo che consente di creare un nuovo dominio per (solo destinazioni cookie).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -40,7 +40,7 @@ Un metodo `POST` che consente di creare un nuovo dominio per (solo destinazioni 
 
 ### Risposta
 
-Una risposta corretta restituisce `201 created` e il sito partner, incluso il relativo ID univoco.
+In caso di esito positivo, la risposta restituisce `201 created` e il sito partner, incluso il relativo ID univoco.
 
 ```
 {
@@ -52,7 +52,7 @@ Una risposta corretta restituisce `201 created` e il sito partner, incluso il re
 
 ## Eliminare un dominio {#delete-domain}
 
-Un metodo `DELETE` che consente di rimuovere un dominio (solo per le destinazioni dei cookie).
+A `DELETE` metodo che consente di rimuovere un dominio (solo per le destinazioni dei cookie).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -62,11 +62,11 @@ Un metodo `DELETE` che consente di rimuovere un dominio (solo per le destinazion
 
 ### Risposta
 
-Una risposta corretta restituisce `204 no content`. Restituisce `404 not found` se non è possibile trovare il sito partner.
+In caso di esito positivo, la risposta restituisce `204 no content`. Restituisce `404 not found` se non è possibile trovare il sito partner.
 
-## Restituisci proprietà per un dominio {#return-props-domain}
+## Restituire le proprietà di un dominio {#return-props-domain}
 
-Un metodo `GET` che restituisce i dettagli sul dominio specificato (solo per le destinazioni dei cookie).
+A `GET` metodo che restituisce dettagli sul dominio specificato (solo per le destinazioni cookie).
 
 <!-- r_get_partner_site.xml -->
 
@@ -76,7 +76,7 @@ Un metodo `GET` che restituisce i dettagli sul dominio specificato (solo per le 
 
 ### Risposta
 
-Una risposta corretta restituisce `200 OK` e i dati come mostrato nell’esempio seguente. Restituisce `404 Not found` se l&#39;ID del sito o del partner non è trovato.
+In caso di esito positivo, la risposta restituisce `200 OK` e i dati come mostrato nell’esempio di seguito. Restituisce `404 Not found` se l’ID sito o il partner non è stato trovato.
 
 ```
 {
@@ -86,9 +86,9 @@ Una risposta corretta restituisce `200 OK` e i dati come mostrato nell’esempio
 }
 ```
 
-## Restituisci proprietà per tutti i domini {#return-props-all-domains}
+## Proprietà restituite per tutti i domini {#return-props-all-domains}
 
-Un metodo `GET` che restituisce informazioni su tutti i domini (solo per le destinazioni dei cookie).
+A `GET` metodo che restituisce informazioni su tutti i domini (solo per le destinazioni cookie).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -96,9 +96,9 @@ Un metodo `GET` che restituisce informazioni su tutti i domini (solo per le dest
 
 `GET https://api.demdex.com/v1/partner-sites/`
 
-### Parametri di query opzionali
+### Parametri di query facoltativi
 
-È possibile utilizzare questi parametri facoltativi con metodi [!DNL API] che restituiscono le proprietà *all* per un oggetto. Imposta queste opzioni nella stringa di richiesta quando trasmetti la query in a [!DNL API]. Vedere [Parametri facoltativi](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+Questi parametri facoltativi possono essere utilizzati con [!DNL API] metodi che restituiscono *tutto* proprietà di un oggetto. Imposta queste opzioni nella stringa di richiesta quando trasmetti la query al [!DNL API]. Consulta [Parametri facoltativi](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -114,7 +114,7 @@ Un metodo `GET` che restituisce informazioni su tutti i domini (solo per le dest
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code> pageSize</code> </td> 
-   <td colname="col2"> Imposta il numero di risultati di risposta restituiti dalla richiesta (10 è l’impostazione predefinita). </td>
+   <td colname="col2"> Imposta il numero di risultati di risposta restituiti dalla richiesta (10 è il valore predefinito). </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td> 
@@ -122,18 +122,18 @@ Un metodo `GET` che restituisce informazioni su tutti i domini (solo per le dest
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
-   <td colname="col2"> Ordina e restituisce i risultati in ordine decrescente. Crescente è l'impostazione predefinita. </td>
+   <td colname="col2"> Ordina e restituisce i risultati in ordine decrescente. L'impostazione predefinita è Crescente. </td>
   </tr>
   <tr valign="top">
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Restituisce i risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che tu voglia trovare risultati per tutti i modelli con la parola "Test" in uno qualsiasi dei campi di valore per quell’elemento. La richiesta di esempio potrebbe essere simile alla seguente: <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Puoi cercare qualsiasi valore restituito da un metodo "get all". </p> </td>
+   <td colname="col2">Restituisce risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare i risultati per tutti i modelli che hanno la parola "Test" in uno qualsiasi dei campi di valore per quell'elemento. La richiesta di esempio potrebbe essere simile alla seguente: <p><code> `GET` `https://api.demdex.com/v1/models/?search=Test`</code>. </p> <p>Puoi eseguire ricerche su qualsiasi valore restituito da un metodo "get all". </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ### Risposta
 
-Una risposta corretta restituisce `200 OK` e i dati in una matrice come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l&#39;ID del sito o del partner non è trovato.
+In caso di esito positivo, la risposta restituisce `200 OK` e dati in un array, come illustrato nell’esempio seguente. Restituisce `404 Not found` se l’ID sito o il partner non è stato trovato.
 
 ```
 [

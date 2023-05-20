@@ -1,19 +1,19 @@
 ---
 description: Domande e problemi comuni relativi ad Audience Manager.
-seo-description: Domande e problemi comuni relativi ad Audience Manager.
-seo-title: Domande frequenti su Audience Manager
+seo-description: Common Audience Manager questions and issues.
+seo-title: Audience Manager FAQ
 solution: Audience Manager
 title: Domande frequenti su Audience Manager
-feature: Panoramica
+feature: Overview
 exl-id: 2777fdf1-df79-4111-9fe4-d2638ee10395
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '75'
 ht-degree: 100%
 
 ---
 
-# Domande frequenti su Audience Manager {#audience-manager-faq}
+# Domande frequenti su Audience Manager Panoramica {#audience-manager-faq}
 
 Questa sezione aggrega un elenco delle categorie di domande frequenti relative alle varie funzionalità di Audience Manager.
 

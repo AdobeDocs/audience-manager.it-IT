@@ -1,15 +1,15 @@
 ---
 description: Risposte alle domande o ai problemi comuni relativi alla privacy e ai dati.
-seo-description: Risposte alle domande o ai problemi comuni relativi alla privacy e ai dati.
-seo-title: Domande frequenti sulla privacy e sulla conservazione dei dati
+seo-description: Answers to common privacy- and data-related questions or issues.
+seo-title: Privacy and Data Retention FAQ
 solution: Audience Manager
 title: Domande frequenti sulla privacy e sulla conservazione dei dati
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Governance dei dati e privacy
+feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '742'
 ht-degree: 83%
 
 ---
@@ -55,11 +55,11 @@ Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Server back-end </p> </td> 
-   <td colname="col2"> <p>120 giorni </p> <p> Audience Manager elimina i dati utente dai server back-end 120 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l'attività dell'utente durante questo ciclo di 120 giorni, questi dati verranno conservati per altri 120 giorni. </p> </td> 
+   <td colname="col2"> <p>120 giorni </p> <p> Audience Manager elimina i dati utente dai server back-end 120 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l’attività dell’utente durante questo ciclo di 120 giorni, questi dati verranno conservati per altri 120 giorni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Server perimetrali </p> </td> 
-   <td colname="col2"> <p> 14 giorni </p> <p>Audience Manager elimina i dati utente dai server perimetrali 14 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l'attività dell'utente durante questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l’utente torna ad essere attivo dopo 14 giorni, si verifica un ritardo tra la visualizzazione della prima nuova pagina e il momento in cui l’utente diventa actionable. Ci vogliono 6-18 ore per riportare il profilo completo al centro edge dopo più di 14 giorni di inattività. </p> </td> 
+   <td colname="col2"> <p> 14 giorni </p> <p>Audience Manager elimina i dati utente dai server perimetrali 14 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l’attività dell’utente durante questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l’utente torna ad essere attivo dopo 14 giorni di ciclo, si verifica un ritardo tra la prima visualizzazione di una nuova pagina e il momento in cui l’utente diventa actionable. Ci vogliono 6-18 ore per riportare il profilo completo al centro perimetrale dopo più di 14 giorni di inattività. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registri non elaborati </p> </td> 
@@ -71,7 +71,7 @@ Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Profili a livello di gestione delle relazioni con i clienti (profili autenticati) </p> </td> 
-   <td colname="col2"> <p>L’intervallo TTL (time-to-live) predefinito per i profili a livello di gestione delle relazioni con i clienti inattivi (ID cliente) è di 24 mesi. Tuttavia, puoi utilizzare l’interfaccia utente di Audience Manager per ridurre o estendere l’intervallo TTL per i profili inattivi a livello di gestione delle relazioni con i clienti tra un mese e cinque anni. Puoi eseguire questa operazione durante la creazione o la modifica di una sorgente di dati multi-dispositivo.</p> <p>Per ulteriori informazioni, consulta Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Create a Cross-Device Data Source</a>.</p> </td> 
+   <td colname="col2"> <p>L’intervallo TTL (time-to-live) predefinito per i profili a livello di gestione delle relazioni con i clienti inattivi (ID cliente) è di 24 mesi. Tuttavia, puoi utilizzare l’interfaccia utente di Audience Manager per ridurre o estendere l’intervallo TTL per i profili inattivi a livello di gestione delle relazioni con i clienti da un mese a 5 anni. Puoi eseguire questa operazione durante la creazione o la modifica di una sorgente di dati multi-dispositivo.</p> <p>Per ulteriori informazioni, consulta Data Source Settings in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Create a Cross-Device Data Source</a>.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID di dispositivi mobili </p> </td> 

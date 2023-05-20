@@ -1,14 +1,14 @@
 ---
-description: La directory di stato S3 contiene un file .info con informazioni di successo e di errore sui file caricati. Il file contiene dati in formato JSON con risultati di stato in una matrice.
-seo-description: La directory di stato S3 contiene un file .info con informazioni di successo e di errore sui file caricati. Il file contiene dati in formato JSON con risultati di stato in una matrice.
-seo-title: Aggiornamenti di stato per i file di metadati
+description: La directory di stato S3 contiene un file .info con informazioni di successo e errore sui file caricati. Il file contiene dati in formato JSON con i risultati di stato in un array.
+seo-description: The S3 status directory holds a .info file with success and failure information about your uploaded files. The file contains JSON-formatted data with status results in an array.
+seo-title: Status Updates for Metadata Files
 solution: Audience Manager
 title: Aggiornamenti di stato per i file di metadati
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
-feature: File di registro
+feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '294'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Aggiornamenti di stato per i file di metadati{#status-updates-for-metadata-files}
 
-La directory di stato S3 contiene un file `.info` con informazioni di successo e di errore sui file caricati. Il file contiene dati in formato JSON con risultati di stato in una matrice.
+La directory di stato S3 contiene un `.info` con informazioni di esito positivo o negativo sui file caricati. Il file contiene dati in formato JSON con i risultati di stato in un array.
 
-Il contenuto del file `.info` avrà un aspetto simile a questo esempio.
+Contenuto della `.info` sarà simile a questo esempio.
 
 ```js
 //sample file path
@@ -59,11 +59,11 @@ Il contenuto del file `.info` avrà un aspetto simile a questo esempio.
 }
 ```
 
-## Coppie chiave-valore metadati definite {#key-value-pairs}
+## Definite coppie chiave-valore metadati {#key-value-pairs}
 
-Le tabelle seguenti elencano e definiscono le chiavi nelle sezioni `Files` e `Summary` di un file di stato dei metadati.
+Nelle tabelle seguenti sono elencati e definiti i tasti nella `Files` e `Summary` sezioni di un file di stato dei metadati.
 
-**Chiavi nell&#39;array dei file**
+**Tasti nell&#39;array di file**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -75,27 +75,27 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle sezioni `Files` e `Su
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Description</code> </p> </td> 
-   <td colname="col2"> <p>Contiene una breve descrizione del motivo per cui l’elaborazione non è riuscita. Questo campo è vuoto se l’elaborazione ha esito positivo. </p> </td> 
+   <td colname="col2"> <p>Contiene una breve descrizione del motivo per cui l’elaborazione non è riuscita. Questo campo è vuoto se l’elaborazione viene eseguita correttamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileByteSize</code> </p> </td> 
-   <td colname="col2"> <p>Dimensione del file in byte. </p> </td> 
+   <td colname="col2"> <p>Dimensione file in byte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Il checksum MD 5 per il file di metadati caricato nella directory <code> meta</code>. </p> </td> 
+   <td colname="col2"> <p>Il checksum MD 5 per il file di metadati caricato nel <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Nome del file di metadati caricato nella directory <code> meta</code>. </p> </td> 
+   <td colname="col2"> <p>Nome del file di metadati caricato in <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Nome leggibile dall'utente per il tipo di dati contenuti nel file. Si basa sull’ID figlio nel nome del file. </p> <p>Consulta <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per file di metadati</a>. </p> </td> 
+   <td colname="col2"> <p>Nome leggibile del tipo di dati contenuto nel file. Si basa sull’ID figlio nel nome del file. </p> <p>Consulta <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file di metadati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Nome leggibile dall'utente per il tipo di dati contenuti nel file. Si basa sull’ID padre nel nome del file. </p> <p>Consulta <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per file di metadati</a>. </p> </td> 
+   <td colname="col2"> <p>Nome leggibile del tipo di dati contenuto nel file. È basato sull’ID principale nel nome del file. </p> <p>Consulta <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file di metadati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -108,7 +108,7 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle sezioni `Files` e `Su
  </tbody> 
 </table>
 
-**Tasti nell&#39;oggetto di riepilogo**
+**Chiavi nell&#39;oggetto Summary**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
@@ -120,11 +120,11 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle sezioni `Files` e `Su
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Data di elaborazione del file in formato <code><i>yyyy-mm-dd</i></code>. </p> </td> 
+   <td colname="col2"> <p>Data di elaborazione del file in <code><i>yyyy-mm-dd</i></code> formato. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
-   <td colname="col2"> <p>Restituisce 2 valori di testo che descrivono lo stato di elaborazione di tutti i file per un giorno intero: </p> 
+   <td colname="col2"> <p>Restituisce 2 valori di testo che descrivono lo stato di elaborazione di tutti i file per un intero giorno: </p> 
     <ul id="ul_3FC092CA043A486C9C79FECF71FAF8FB"> 
      <li id="li_754B32D8267D44BBBD6EC354C459C566"> <code> SUCCESS</code> </li> 
      <li id="li_8B64E39C80424AC2B95DF9B53D62864E"> <code> FAILURE</code> </li> 
@@ -132,7 +132,7 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle sezioni `Files` e `Su
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NumberFailure</code> </p> </td> 
-   <td colname="col2"> <p>Numero di file elaborati non correttamente. </p> </td> 
+   <td colname="col2"> <p>Numero di file elaborati senza successo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> NumberSuccess</code> </p> </td> 
@@ -140,11 +140,11 @@ Le tabelle seguenti elencano e definiscono le chiavi nelle sezioni `Files` e `Su
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimeRFC2822</code> </p> </td> 
-   <td colname="col2"> <p>Restituisce un timestamp leggibile dall'utente per l'elaborazione degli orari di inizio. </p> </td> 
+   <td colname="col2"> <p>Restituisce un indicatore orario leggibile dall'utente per l'elaborazione degli orari di inizio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ProcessingTimePOSIX</code> </p> </td> 
-   <td colname="col2"> <p>Timestamp UNIX per l'elaborazione degli orari di avvio. </p> </td> 
+   <td colname="col2"> <p>Un timestamp UNIX per l’elaborazione degli orari di inizio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TotalByteSize</code> </p> </td> 

@@ -1,15 +1,15 @@
 ---
 description: Audience Manager prende molto seriamente la sicurezza e la privacy dei dati. Lavoriamo per proteggere i nostri sistemi e i tuoi preziosi dati.
-seo-description: Audience Manager prende molto seriamente la sicurezza e la privacy dei dati. Lavoriamo per proteggere i nostri sistemi e i tuoi preziosi dati.
-seo-title: Sicurezza dei dati in Audience Manager
+seo-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
+seo-title: Data Security in Audience Manager
 solution: Audience Manager
 title: Sicurezza dei dati in Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
-feature: Governance dei dati e privacy
+feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '999'
 ht-degree: 98%
 
 ---
@@ -61,7 +61,7 @@ Processi che contribuiscono a mantenere sicure le informazioni personali. Per ul
 
 Processi che proteggono i dati di proprietà di singoli clienti.
 
-**Partizionamento dei dati delle caratteristiche:**  i tuoi dati ([!UICONTROL traits], ID, ecc.) sono partizionati per client. Questo aiuta a prevenire l’esposizione accidentale di informazioni tra client diversi. Ad esempio, i dati delle caratteristiche nei cookie vengono partizionati per client e memorizzati in un sottodominio specifico per il client. Non possono essere letti o utilizzati accidentalmente da un altro client Audience Manager. Inoltre, anche i dati delle caratteristiche memorizzati nei [!UICONTROL Profile Cache Servers (PCS)] vengono partizionati per cliente. Ciò impedisce ad altri client di utilizzare accidentalmente i tuoi dati in una chiamata evento o in un’altra richiesta.
+**Partizionamento dei dati delle caratteristiche:**  Dati personali ([!UICONTROL traits], ID, ecc.) sono partizionati per client. Questo aiuta a prevenire l’esposizione accidentale di informazioni tra client diversi. Ad esempio, i dati delle caratteristiche nei cookie vengono partizionati per client e memorizzati in un sottodominio specifico per il client. Non possono essere letti o utilizzati accidentalmente da un altro client Audience Manager. Inoltre, anche i dati delle caratteristiche memorizzati nei [!UICONTROL Profile Cache Servers (PCS)] vengono partizionati per cliente. Ciò impedisce ad altri client di utilizzare accidentalmente i tuoi dati in una chiamata evento o in un’altra richiesta.
 
 **Partizionamento dei dati nei report:** gli ID client fanno parte della chiave di identificazione in tutte le tabelle di reporting e le query di report vengono filtrate per ID. Questo aiuta a evitare che i dati vengano visualizzati nei report di un altro cliente Audience Manager.
 
@@ -91,6 +91,6 @@ Questa policy migliora la sicurezza dei dati tra client e server di [Adobe Edge]
 
 ### Esempio {#hsts-example}
 
-Supponiamo che il dominio `yourcompany.demdex.com` invii il traffico al [!DNL DCS] tramite [!DNL HTTP]. [!DNL HSTS] aggiorna le chiamate affinché invece utilizzino [!DNL HTTPS] e tutte le chiamate [!DNL DCS] successive provenienti da `yourcompany.demdex.com` utilizzeranno [!DNL HTTPS] invece di [!DNL HTTP].
+Supponiamo che `yourcompany.demdex.com` il dominio invia il traffico al [!DNL DCS] tramite [!DNL HTTP]. [!DNL HSTS] aggiorna le chiamate affinché invece utilizzino [!DNL HTTPS] e tutte le chiamate [!DNL DCS] successive provenienti da `yourcompany.demdex.com` utilizzeranno [!DNL HTTPS] invece di [!DNL HTTP].
 
 Per ulteriori informazioni su HSTS, consulta [HTTP Strict Transport Security - Wikipedia](https://it.wikipedia.org/wiki/HTTP_Strict_Transport_Security).

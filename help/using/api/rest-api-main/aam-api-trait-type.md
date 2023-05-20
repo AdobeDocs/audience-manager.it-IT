@@ -1,7 +1,7 @@
 ---
-description: Metodi opzionali che consentono di assegnare caratteristiche a un tipo o a una categoria definiti dall’utente, in genere in base alla funzione o per i propri processi di reporting interni.
-seo-description: Metodi opzionali che consentono di assegnare caratteristiche a un tipo o a una categoria definiti dall’utente, in genere in base alla funzione o per i propri processi di reporting interni.
-seo-title: Metodi dei tipi di caratteristiche
+description: Metodi facoltativi che consentono di assegnare caratteristiche a un tipo o una categoria definita dall'utente, in genere in base alla funzione o per i processi di reporting interni.
+seo-description: Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
+seo-title: Trait Type Methods
 solution: Audience Manager
 title: Metodi dei tipi di caratteristiche
 uuid: 082931d5-457b-4622-817b-86303f38c26a
@@ -9,26 +9,26 @@ feature: API
 exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 10%
+source-wordcount: '151'
+ht-degree: 9%
 
 ---
 
 # Metodi dei tipi di caratteristiche {#trait-type-methods}
 
-Metodi opzionali che consentono di assegnare caratteristiche a un tipo o a una categoria definiti dall’utente, in genere in base alla funzione o per i propri processi di reporting interni.
+Metodi facoltativi che consentono di assegnare caratteristiche a un tipo o una categoria definita dall&#39;utente, in genere in base alla funzione o per i processi di reporting interni.
 
 <!-- c_rest_api_trait_types_intro.xml -->
 
 >[!NOTE]
 >
->I metodi del tipo di caratteristica non assegnano caratteristiche alle categorie utilizzate dalla [tassonomia comune](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Immaginali come etichette separate dalla tassonomia comune.
+>I metodi di tipo di caratteristica non assegnano caratteristiche alle categorie utilizzate dal [tassonomia comune](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considerale come etichette separate dalla tassonomia comune.
 
-Per riferimenti visivi, [!UICONTROL Trait Types] è un controllo a discesa situato in [!DNL UI] in **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Per riferimenti visivi, [!UICONTROL Trait Types] è un controllo a discesa che si trova in [!DNL UI] in **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
-## Creare un nuovo tipo di caratteristica {#create-trait-type}
+## Crea un nuovo tipo di caratteristica {#create-trait-type}
 
-Un metodo `POST` che consente di creare un nuovo tipo di caratteristica.
+A `POST` metodo che consente di creare un nuovo tipo di caratteristica.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -59,9 +59,9 @@ Un metodo `POST` che consente di creare un nuovo tipo di caratteristica.
 }
 ```
 
-## Restituisci proprietà per un tipo di caratteristica {#return-props}
+## Restituire le proprietà per un tipo di caratteristica {#return-props}
 
-Un metodo `GET` che restituisce dettagli sul tipo di caratteristica specificato.
+A `GET` metodo che restituisce dettagli sul tipo di caratteristica specificato.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -84,9 +84,9 @@ Un metodo `GET` che restituisce dettagli sul tipo di caratteristica specificato.
 }
 ```
 
-## Restituisci proprietà per tutti i tipi di caratteristiche {#return-props-all}
+## Proprietà restituite per tutti i tipi di caratteristica {#return-props-all}
 
-Un metodo `GET` che restituisce dettagli su tutti i tipi di caratteristiche in una matrice.
+A `GET` metodo che restituisce dettagli su tutti i tipi di caratteristiche in un array.
 
 <!-- r_rest_api_get_trait_types.xml -->
 

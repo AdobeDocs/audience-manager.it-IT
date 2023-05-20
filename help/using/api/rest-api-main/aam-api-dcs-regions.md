@@ -1,7 +1,7 @@
 ---
-description: Metodi che consentono di elencare in modo programmatico le aree DCS di Audience Manager.
-seo-description: Metodi che consentono di elencare in modo programmatico le aree DCS di Audience Manager.
-seo-title: Metodi API per le aree geografiche dei DCS
+description: Metodi che consentono di elencare a livello di programmazione le aree DCS Audienci Manager.
+seo-description: Methods that let you programmatically list Audience Manager DCS regions.
+seo-title: DCS Region API Methods
 solution: Audience Manager
 title: Metodi API per le aree geografiche dei DCS
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
@@ -9,22 +9,22 @@ feature: API
 exl-id: 3cd1700e-6914-46be-a0be-a870c472343e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 15%
+source-wordcount: '110'
+ht-degree: 12%
 
 ---
 
 # Metodi API per le aree geografiche dei DCS {#dcs-region-api-methods}
 
-Metodi che consentono di elencare in modo programmatico le aree di Audience Manager [!DNL DCS] .
+Metodi che consentono di elencare in modo programmatico gli Audienci Manager [!DNL DCS] aree geografiche.
 
 <!-- c_rest_api_regions.xml -->
 
-Per un elenco delle aree e dei relativi numeri interi, consulta [ID regioni DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Per un elenco delle regioni e dei numeri interi corrispondenti, vedere [ID regioni DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Elencare un&#39;area geografica specifica DCS {#list-specific-dcs-region}
+## Elencare una regione DCS specifica {#list-specific-dcs-region}
 
-Un metodo `GET` per elencare una regione specifica [!DNL DCS].
+A `GET` metodo per elencare uno specifico [!DNL DCS] area geografica.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -50,11 +50,11 @@ Un metodo `GET` per elencare una regione specifica [!DNL DCS].
 
 Restituisce `200 OK` in caso di esito positivo.
 
-Per un elenco delle aree e dei relativi numeri interi, consulta [ID regioni DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Per un elenco delle regioni e dei numeri interi corrispondenti, vedere [ID regioni DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Elenca regioni DCS {#list-dcs-regions}
+## Elenca aree geografiche DCS {#list-dcs-regions}
 
-Un metodo `GET` per elencare le aree [!DNL DCS].
+A `GET` metodo da elencare [!DNL DCS] aree geografiche.
 
 <!-- r_rest_api_regions_list.xml -->
 
@@ -83,4 +83,4 @@ Un metodo `GET` per elencare le aree [!DNL DCS].
 
 Restituisce `200 OK` in caso di esito positivo.
 
-Per un elenco delle aree e dei relativi numeri interi, consulta [ID regioni DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Per un elenco delle regioni e dei numeri interi corrispondenti, vedere [ID regioni DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).

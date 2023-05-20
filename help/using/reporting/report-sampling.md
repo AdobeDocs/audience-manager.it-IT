@@ -1,28 +1,28 @@
 ---
-description: Sintesi della metodologia di campionamento utilizzata per alcuni rapporti, tassi di errore di campionamento e elenco dei rapporti che restituiscono informazioni basate su dati campionati.
-seo-description: Sintesi della metodologia di campionamento utilizzata per alcuni rapporti, tassi di errore di campionamento e elenco dei rapporti che restituiscono informazioni basate su dati campionati.
-seo-title: Campionamento di dati e tassi di errore nei report selezionati di Audience Manager
+description: Sintesi della metodologia di campionamento utilizzata per alcune relazioni, tassi di errore di campionamento e un elenco di relazioni che restituiscono informazioni basate sui dati campionati.
+seo-description: A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
+seo-title: Data Sampling and Error Rates in Selected Audience Manager Reports
 solution: Audience Manager
 title: Campionamento di dati e tassi di errore nei report selezionati di Audience Manager
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
-feature: Riferimento per la generazione di rapporti
+feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 7%
+source-wordcount: '432'
+ht-degree: 6%
 
 ---
 
 # Campionamento di dati e tassi di errore nei report selezionati di Audience Manager{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
-Sintesi della metodologia di campionamento utilizzata per alcuni rapporti, tassi di errore di campionamento e elenco dei rapporti che restituiscono informazioni basate su dati campionati.
+Sintesi della metodologia di campionamento utilizzata per alcune relazioni, tassi di errore di campionamento e un elenco di relazioni che restituiscono informazioni basate sui dati campionati.
 
 ## Rapporto di campionamento dei dati {#data-sampling-ratio}
 
-Alcuni report [!DNL Audience Manager] mostrano risultati basati su un set campionato della quantità totale di dati disponibili. Il rapporto dei dati campionati è di 1:54. Per i rapporti che utilizzano dati campionati, ciò significa che i risultati sono basati su 1 record su ogni set di 54 record.
+Alcuni [!DNL Audience Manager] i rapporti visualizzano i risultati in base a un set campionato della quantità totale di dati disponibili. Il rapporto tra i dati campionati è di 1:54. Per i rapporti che utilizzano dati campionati, ciò significa che i risultati si basano su 1 record su ogni set di 54 record.
 
-Questi rapporti utilizzano dati statistici campionati perché hanno bisogno di un&#39;enorme quantità di potenza di calcolo per generare risultati. Il campionamento aiuta a trovare un equilibrio tra la riduzione delle richieste di calcolo, il mantenimento delle prestazioni del sistema e la fornitura di risultati precisi.
+Questi rapporti utilizzano dati statistici campionati perché hanno bisogno di una quantità enorme di potenza di elaborazione per generare risultati. Il campionamento consente di trovare un equilibrio tra la riduzione delle esigenze di elaborazione, il mantenimento delle prestazioni del sistema e la fornitura di risultati accurati.
 
 <!--
 
@@ -43,23 +43,23 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 
 Nei rapporti che generano dati di sovrapposizione possono verificarsi errori. Un errore è definito come la percentuale di record che:
 
-* Non avrebbe dovuto essere incluso in un rapporto ma sarebbe stato comunque aggiunto.
-* Avrebbe dovuto essere incluso in un rapporto, ma è stato escluso.
+* Non avrebbero dovuto essere inclusi in un rapporto, ma sono stati aggiunti comunque.
+* Avrebbe dovuto essere incluso in un report ma è stato escluso.
 
-È importante notare che i nostri test e modelli mostrano che il tasso di errore *diminuisce* in proporzione inversa rispetto al numero di record nel set di dati. I set di dati con molti record generano meno errori rispetto ai set con un numero ridotto di record. Guardiamo questa affermazione in modo più quantitativo. Come mostrato nella tabella seguente, per un determinato numero di record, il 95% dei risultati del rapporto sarà inferiore a un tasso di errore specifico.
+È importante notare che i nostri test e modelli mostrano che il tasso di errore *diminuzioni* in proporzione inversa al numero di record nel set di dati. I set di dati con un numero elevato di record generano meno errori rispetto ai set con un numero limitato di record. Vediamo questa affermazione in modo più quantitativo. Come mostrato nella tabella seguente, per un determinato numero di record, il 95% dei risultati del rapporto sarà inferiore a un tasso di errore specifico.
 
 | Numero di record | Frequenza errori |
 |--- |--- |
-| 500 - 1.000 | Il 95% è al di sotto di un tasso di errore del 42%. |
-| 1.000 - 1.500 | Il 95% è al di sotto di un tasso di errore del 34%. |
-| 10.000 - 50.000 | Il 95% è al di sotto di un tasso di errore del 14%. |
-| 50.000 | Il 95% è al di sotto di un tasso di errore del 6%. |
-| 100.000 | Il 95% è al di sotto di un tasso di errore del 4%. |
+| 500 - 1,000 | Il 95% è al di sotto di un tasso di errore del 42%. |
+| 1,000 - 1,500 | Il 95% è al di sotto di un tasso di errore del 34%. |
+| 10,000 - 50,000 | Il 95% è al di sotto di un tasso di errore del 14%. |
+| 50,000 | Il 95% è al di sotto di un tasso di errore del 6%. |
+| 100,000 | Il 95% è al di sotto di un tasso di errore del 4%. |
 | 500.000 (o più) | Il 95% è al di sotto di un tasso di errore del 2%. |
 
-## Utilizzo della metodologia di campionamento dei minhash {#minhash}
+## Utilizzo della metodologia di campionamento Minhash {#minhash}
 
-Sulla base della metodologia di campionamento [Minhash](https://en.wikipedia.org/wiki/MinHash) , Audience Manager utilizza un nuovo metodo per calcolare le caratteristiche e i calcolatori dei segmenti sopra uno sketch di dati di hash di una permutazione. Questo nuovo metodo produce una varianza inferiore rispetto al calcolatore standard per la somiglianza Jaccard. Vedi la sezione seguente per i rapporti che utilizzano questa metodologia.
+In base al [Minhash](https://en.wikipedia.org/wiki/MinHash) metodologia di campionamento, Audience Manager utilizza un nuovo metodo per calcolare i stimatori di caratteristiche e segmenti sopra uno schizzo di dati con hash a una permutazione. Questo nuovo metodo produce una varianza inferiore rispetto allo stimatore standard per la somiglianza Jaccard. Consulta la sezione seguente per i rapporti che utilizzano questa metodologia.
 
 <!--
 
@@ -69,9 +69,9 @@ Some Audience Manager reports use the minhash sampling methodology to compute tr
 
 -->
 
-## Rapporti che utilizzano dati di esempio {#reports-using-sampled-data}
+## Rapporti Che Utilizzano Dati Campionati {#reports-using-sampled-data}
 
-I rapporti [!DNL Audience Manager] che utilizzano dati statistici campionati e la metodologia di campionamento di hash includono:
+Il [!DNL Audience Manager] i rapporti che utilizzano i dati statistici campionati e la metodologia di campionamento Minhash includono:
 
 <!--
 
@@ -84,8 +84,8 @@ Reports that use Minhash sampling methodology:
 
 -->
 
-| Campionamento statistico | Metodologia di campionamento del minhash |
+| Campionamento statistico | Metodologia di campionamento Minhash |
 |--- |--- |
-| [Tipi di ](../features/addressable-audiences.md) pubblico indirizzabili (dati a livello di cliente e segmento). | [Rapporti di sovrapposizione](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)  (da caratteristica a caratteristica, da segmento a caratteristica e da segmento a segmento) |
-| La metrica [Dispositivi totali](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) per un elemento [!UICONTROL Profile Merge Rule]. | [Raccomandazioni sulle caratteristiche](/help/using/features/segments/trait-recommendations.md) |
-| [Data ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) Explorer utilizza i dati campionati nella  [!UICONTROL Search] scheda ed eventuali  [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Pubblico di riferimento](../features/addressable-audiences.md) dati (dati a livello di cliente e di segmento). | [Rapporti di sovrapposizione](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (da caratteristica a caratteristica, da segmento a caratteristica e da segmento a segmento) |
+| Il [Dispositivi totali](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metrica per un [!UICONTROL Profile Merge Rule]. | [Raccomandazioni sulle caratteristiche](/help/using/features/segments/trait-recommendations.md) |
+| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utilizza i dati campionati in [!UICONTROL Search] e qualsiasi [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

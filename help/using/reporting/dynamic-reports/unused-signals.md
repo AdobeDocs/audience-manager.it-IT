@@ -1,5 +1,5 @@
 ---
-description: Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni non utilizzate raccolte nell’inventario e inviate all’Audience Manager.
+description: Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni inutilizzate raccolte nel magazzino e inviate all'Audience Manager.
 seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
 seo-title: Unused Signals Report
 solution: Audience Manager
@@ -16,25 +16,25 @@ ht-degree: 2%
 
 # Rapporto su segnali non utilizzati{#unused-signals-report}
 
-Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni non utilizzate raccolte nell’inventario e inviate all’Audience Manager. Per accedere a questo rapporto, passa a **Analytics > Rapporti sul pubblico > Altri rapporti > Segnali non utilizzati**.
+Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni inutilizzate raccolte nel magazzino e inviate all&#39;Audience Manager. Per accedere a questo report, passa a **Analytics > Rapporti audience > Altri rapporti > Segnali non utilizzati**.
 
 >[!NOTE]
 >
->Se ricevi il messaggio &quot;Non hai accesso ai rapporti sul pubblico&quot;, contatta il tuo consulente Audience Manager o l’Assistenza clienti per fornirti il rapporto.
+>Se ricevi il messaggio &quot;Non hai accesso ai report sul pubblico&quot;, contatta il tuo consulente di Audienci Manager o l’Assistenza clienti per eseguire il provisioning del report per te.
 
-![Screenshot del report sui segnali non utilizzati](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
+![Schermata del rapporto sui segnali non utilizzati](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
 ## Panoramica
 
-Un segnale è un&#39;informazione del sito web trasmessa a [!DNL Audience Manager] sotto forma di [coppie chiave-valore](../../reference/key-value-pairs-explained.md) (ad esempio, `color=blue, price>100, gender=female`, ecc.).
+Un segnale è un&#39;informazione trasmessa dal sito Web a [!DNL Audience Manager] sotto forma di [coppie chiave-valore](../../reference/key-value-pairs-explained.md) (ad esempio, `color=blue, price>100, gender=female`, ecc.).
 
-I segnali non utilizzati sono costituiti da dati raccolti ma non mappati a una caratteristica. Il rapporto [!UICONTROL Unused Signals] mostra i dati in una tabella per data, chiave, valore e conteggio di frequenza. Qualsiasi segnale non mappato trasmesso a [!DNL Audience Manager] almeno 100 volte al giorno è idoneo per il rapporto [!UICONTROL Unused Signals]. I segnali inutilizzati vengono memorizzati per 45 giorni e quindi scartati.
+I segnali non utilizzati sono costituiti da dati raccolti ma non mappati su una caratteristica. Il [!UICONTROL Unused Signals] Il rapporto mostra i dati in una tabella per data, chiave, valore e conteggio frequenza. Qualsiasi segnale non mappato trasmesso a [!DNL Audience Manager] almeno 100 volte al giorno per ottenere [!UICONTROL Unused Signals] rapporto. I segnali non utilizzati vengono conservati per 45 giorni e quindi eliminati.
 
-Rivedi questo rapporto per identificare i segnali orfani che possono essere mappati su caratteristiche nuove o esistenti.
+Esamina questo rapporto per identificare i segnali orfani che possono essere mappati su caratteristiche nuove o esistenti.
 
 >[!NOTE]
 >
->Specifica un nome di chiave o di valore nei campi di ricerca per limitare i risultati a record specifici.
+>Specifica il nome di una chiave o di un valore nei campi di ricerca per limitare i risultati a record specifici.
 
 ## Casi d&#39;uso
 
@@ -48,35 +48,35 @@ Rivedi questo rapporto per identificare i segnali orfani che possono essere mapp
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Assicurare l’uniformità delle caratteristiche o aggiungere valori correlati a una singola chiave</b> </p> </td> 
-   <td colname="col2"> <p>Rivedi il rapporto per tenere conto di diverse variazioni di valore per un particolare segnale. </p> <p>Ad esempio, supponiamo che tu abbia una caratteristica per lo stato "North Carolina" definita in una coppia chiave-valore come <code> c_state = North Carolina</code>. Il rapporto può essere utile per trovare le varianti di nome e aggiungerle alla caratteristica (ad esempio, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). In alternativa, è possibile individuare le varianti dei nomi con il rapporto e sostituirle con un valore uniforme per tutti i siti. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Rivedi il rapporto per tenere conto delle diverse varianti di valore per un determinato segnale. </p> <p>Ad esempio, supponiamo che tu abbia una caratteristica per lo stato "Carolina del Nord" definita in una coppia chiave-valore come <code> c_state = North Carolina</code>. Il rapporto può essere utile per trovare le varianti di nome e aggiungerle alla caratteristica (ad esempio, <code> c_state = North Carolina, NC, N.C., NCarolina</code>). In alternativa, puoi individuare le varianti di nome nel rapporto e sostituirle con un valore uniforme in tutti i siti. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Creare nuove caratteristiche</b> </p> </td> 
-   <td colname="col2"> <p>Rivedi il rapporto per vedere quali nuovi valori vengono passati su una particolare chiave. È possibile creare nuove coppie chiave-valore in base a questi nuovi valori. </p> <p> <p>Nota:  Controlla il rapporto due volte alla settimana per i valori che cambiano frequentemente (ad esempio, spettacoli, campagne, celebrità, ecc.). </p> </p> </td> 
+   <td colname="col2"> <p>Esamina il rapporto per vedere quali nuovi valori vengono trasmessi su una particolare chiave. Puoi creare nuove coppie chiave-valore basate su questi nuovi valori. </p> <p> <p>Nota: verifica il rapporto bi-settimanalmente per verificare se sono presenti valori che cambiano frequentemente (ad esempio spettacoli, campagne, celebrità, ecc.). </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Trova valori non mappati</b> </p> </td> 
-   <td colname="col2"> <p>Rivedere il rapporto per il numero 1. Il numero 1 in un report <span class="wintitle"> Segnali inutilizzati</span> rappresenta un valore null. Questo non è necessariamente negativo. Significa semplicemente che a una particolare chiave non è associata una mappatura dei valori. Quando visualizzi molti 1 valori per una variabile importante, rivolgiti al team del sito per verificare che tutte le pagine siano state contrassegnate correttamente. </p> </td> 
+   <td colname="col2"> <p>Rivedi il rapporto per il numero 1. Il numero 1 in un <span class="wintitle"> Segnali non utilizzati</span> il report rappresenta un valore null. Questo non è necessariamente male. Significa semplicemente che a una particolare chiave non è associata alcuna mappatura del valore. Quando vengono visualizzati molti valori pari a 1 per una variabile importante, rivolgiti al team del sito per verificare che a tutte le pagine siano assegnati tag corretti. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Best practice
 
-Esegui e controlla il rapporto [!UICONTROL Unused Signals]:
+Esegui e controlla il [!UICONTROL Unused Signals] rapporto:
 
-* Dopo aver creato una caratteristica o aggiornato le regole della caratteristica. Questo consente di garantire che le caratteristiche e le regole siano impostate correttamente. Il numero 1 nei risultati indica che una nuova caratteristica potrebbe non essere configurata correttamente.
-* Due volte al mese. Le revisioni pianificate garantiscono che le mappature delle caratteristiche siano aggiornate.
+* Dopo aver creato una caratteristica o aggiornato le regole della caratteristica. Questo ti aiuta a garantire che le caratteristiche e le regole siano impostate correttamente. Il numero 1 nei risultati indica che una nuova caratteristica potrebbe non essere configurata correttamente.
+* Bi-settimanale o mensile. Le revisioni pianificate consentono di garantire che le mappature delle caratteristiche siano aggiornate.
 
 >[!NOTE]
 >
->Quando cerchi valori non utilizzati nel rapporto, tieni presente quanto segue. C&#39;è una differenza di espressione tra i due esempi seguenti:
+>Quando cerchi i valori non utilizzati nel rapporto, considera le seguenti particolarità. C&#39;è una differenza di espressione tra i due esempi seguenti:
 
-* T(v=1 [!UICONTROL AND NOT] (a=23))
+* T(v=1 [!UICONTROL AND NOT] (a=23)
 * T(v=1 [!UICONTROL AND] (a!=23))
-* Entrambi gli esempi mostrano una caratteristica che contiene due coppie chiave-valore v e a. La prima espressione si traduce in: la caratteristica contiene la chiave v con il valore 1 [!UICONTROL AND NOT] la chiave a con il valore 23. La seconda espressione contiene la chiave v con il valore 1 [!UICONTROL AND] la chiave a con il valore [!UICONTROL NOT EQUAL] 23.
-* Considerando le due diverse espressioni di cui sopra, supponiamo che tu cerchi nel [!UICONTROL Unused Signals Report] i valori che vengono passati alla chiave a con un valore diverso da 23, otterrai solo risultati nel primo caso perché i valori per la chiave non sono stati inviati A TUTTO. Nel secondo caso, sono stati inviati valori diversi da 23, pertanto la chiave a non è inutilizzata.
+* Entrambi gli esempi mostrano una caratteristica che contiene due coppie chiave-valore v e a. La prima espressione si traduce in: la caratteristica contiene la chiave v con il valore 1 [!UICONTROL AND NOT] la chiave a con il valore 23. La seconda espressione contiene la chiave v con il valore 1 [!UICONTROL AND] la chiave a con il valore [!UICONTROL NOT EQUAL] 23
+* Considerando le due diverse espressioni di cui sopra, supponiamo che tu esegua una ricerca nel [!UICONTROL Unused Signals Report] per i valori che vengono passati sulla chiave a con qualsiasi valore diverso da 23, otterrai i risultati solo nel primo caso perché i valori per la chiave non sono stati inviati AFFATTO. Nel secondo caso, sono stati inviati valori diversi da 23 in modo che la chiave a non sia inutilizzata.
 
-## Creazione di tratti in blocco
+## Creazione di caratteristiche in blocco
 
-Contatta il tuo rappresentante di soluzioni dei partner per creare in massa un sacco di caratteristiche in base ai dati ottenuti dal rapporto [!UICONTROL Unused Signals] .
+Contatta il rappresentante delle soluzioni dei partner se hai bisogno di creare in blocco molte caratteristiche in base ai dati ottenuti dal [!UICONTROL Unused Signals] rapporto.

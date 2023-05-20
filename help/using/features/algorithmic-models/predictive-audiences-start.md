@@ -1,64 +1,64 @@
 ---
 description: Predictive Audiences ti aiuta a classificare tipi di pubblico sconosciuti in utenti tipo distinti in tempo reale utilizzando la scienza dei dati.
-seo-description: Predictive Audiences ti aiuta a classificare tipi di pubblico sconosciuti in utenti tipo distinti in tempo reale utilizzando la scienza dei dati.
-seo-title: Gestione di Predictive Audiences
+seo-description: Predictive Audiences help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-title: Managing Predictive Audiences
 solution: Audience Manager
 title: Guida introduttiva di Predictive Audiences
-feature: Modelli algoritmici
+feature: Algorithmic Models
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 7%
+source-wordcount: '552'
+ht-degree: 4%
 
 ---
 
 # Guida introduttiva di Predictive Audiences {#predictive-audiences-getting-started}
 
 >[!IMPORTANT]
->Questo articolo contiene la documentazione del prodotto destinata a guidarti nella configurazione e nell’utilizzo di questa funzione. Nulla in essa contenuto è costituito da una consulenza legale. Consulta il tuo consulente legale per una guida legale.
+>Questo articolo contiene la documentazione del prodotto e illustra come configurare e utilizzare questa funzione. Niente di ciò che è contenuto in questo documento rappresenta un parere legale. Consulta il tuo consulente legale per ricevere assistenza legale.
 
 ## Creare un modello Predictive Audiences {#create-predictive-audiences}
 
-Prima di creare un modello [!UICONTROL Predictive Audiences], è necessario decidere a quale origine dati assegnare le caratteristiche e i segmenti [!UICONTROL Predictive Audiences]. È possibile utilizzare un’origine dati di prime parti esistente o crearne una nuova. Per informazioni dettagliate su come creare una nuova origine dati di prime parti, consulta [Gestisci origini dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) .
+Prima di creare un [!UICONTROL Predictive Audiences] modello, è necessario decidere quale origine dati di prime parti si desidera assegnare [!UICONTROL Predictive Audiences] caratteristiche e segmenti in. È possibile utilizzare un&#39;origine dati di prime parti esistente o crearne una nuova. Consulta [Gestire le origini dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) per informazioni dettagliate su come creare una nuova origine dati di prime parti.
 
-Una volta che sai quale origine dati utilizzerai, segui i passaggi seguenti.
+Una volta individuata l’origine dati da utilizzare, effettua le seguenti operazioni.
 
 1. Vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**.
-1. Nella sezione [!UICONTROL Predictive Audiences], fai clic su **[!UICONTROL Add New]**.
+1. In [!UICONTROL Predictive Audiences] , fare clic su **[!UICONTROL Add New]**.
 
-   ![smart-tipo-add](assets/predictive-audiences-add.png)
+   ![smart-persona-add](assets/predictive-audiences-add.png)
 
-1. Quindi, definisci gli utenti tipo per i quali vuoi classificare il pubblico. Puoi farlo scegliendo caratteristiche o segmenti da cui creare i tuoi utenti. Utilizza le schede [!UICONTROL Traits] e [!UICONTROL Segments] nell’angolo in alto a sinistra dello schermo per passare dal catalogo delle caratteristiche a quello dei segmenti. Dopo aver identificato le caratteristiche o i segmenti che desideri utilizzare come utenti tipo, fai clic sull’icona corrispondente **[!UICONTROL Add]** nella colonna [!UICONTROL Action] .
-   ![smart-tipo-select-personas](assets/predictive-audiences-persona.png)
+1. Quindi, definisci gli utenti tipo in base ai quali classificare il pubblico. Per farlo, puoi scegliere caratteristiche o segmenti da cui creare gli utenti tipo. Utilizza il [!UICONTROL Traits] e [!UICONTROL Segments] nell’angolo in alto a sinistra dello schermo per passare dal catalogo delle caratteristiche a quello dei segmenti. Dopo aver identificato le caratteristiche o i segmenti che desideri utilizzare come utenti tipo, fai clic sulla **[!UICONTROL Add]** icona in [!UICONTROL Action] colonna.
+   ![smart-persona-select-personas](assets/predictive-audiences-persona.png)
    >[!NOTE]
-   >Devi scegliere almeno due caratteristiche o due segmenti per i tuoi utenti tipo linea di base. Non puoi utilizzare una combinazione di caratteristiche e segmenti.
-1. Fai clic su **[!UICONTROL Next]** dopo aver definito i tuoi utenti tipo.
-1. Quindi, seleziona il pubblico di prime parti che desideri classificare scegliendo una caratteristica o un segmento di prime parti per questo pubblico. Utilizza le schede [!UICONTROL Traits] e [!UICONTROL Segments] nell’angolo in alto a sinistra dello schermo per passare dal catalogo delle caratteristiche e dei segmenti al catalogo. Seleziona la caratteristica o il segmento di prima parte che desideri utilizzare come pubblico, per aggiungerlo al modello.
-   ![smart-tipo-select-audience](assets/predictive-audiences-audience.png)
-1. Fai clic su **[!UICONTROL Next]** dopo aver scelto il pubblico.
+   >Devi scegliere almeno due caratteristiche o due segmenti per gli utenti tipo di linea di base. Non puoi utilizzare una combinazione di caratteristiche e segmenti.
+1. Clic **[!UICONTROL Next]** dopo aver definito i tuoi utenti tipo.
+1. Quindi, seleziona il pubblico di prime parti che desideri classificare scegliendo una caratteristica o un segmento di prime parti per questo pubblico. Utilizza il [!UICONTROL Traits] e [!UICONTROL Segments] nell’angolo in alto a sinistra dello schermo per passare dal catalogo delle caratteristiche a quello dei segmenti. Per aggiungerlo al modello, seleziona la caratteristica o il segmento di prime parti che desideri utilizzare come pubblico.
+   ![smart-persona-select-audience](assets/predictive-audiences-audience.png)
+1. Clic **[!UICONTROL Next]** dopo aver scelto il pubblico.
 1. Compila i dettagli del modello:
-   * **[!UICONTROL Model Name]**: Inserisci un nome descrittivo per il modello, che ti aiuterà a identificarlo in un secondo momento. I nomi dei segmenti generati dal modello iniziano con il nome del modello.
-   * **[!UICONTROL Description]**: Immetti una descrizione del modello che ti aiuterà a identificare il relativo caso d’uso.
-   * **[!UICONTROL Data Source]**: Seleziona l’origine dati di prime parti a cui assegnare i  [!UICONTROL Predictive Audiences] segmenti di questo modello.
-   * **[!UICONTROL Profile Merge Rule]**: Seleziona il  [!UICONTROL Profile Merge Rule] da assegnare a tutti i predittivi  [!UICONTROL segments] creati da questo modello. Se il pubblico di destinazione selezionato è un [!UICONTROL segment], è consigliabile selezionare lo stesso [!UICONTROL Profile Merge Rule] del pubblico di destinazione.
+   * **[!UICONTROL Model Name]**: immetti un nome descrittivo per il modello, che ti aiuterà a identificarlo in un secondo momento. I nomi dei segmenti generati dal modello iniziano con il nome del modello.
+   * **[!UICONTROL Description]**: immetti una descrizione del modello che ti aiuterà a identificarne il caso d’uso.
+   * **[!UICONTROL Data Source]**: seleziona l’origine dati di prime parti che desideri [!UICONTROL Predictive Audiences] segmenti da questo modello a cui assegnare.
+   * **[!UICONTROL Profile Merge Rule]**: seleziona la [!UICONTROL Profile Merge Rule] da assegnare per tutti i predittivi [!UICONTROL segments] creato da questo modello. Se il pubblico di destinazione selezionato è [!UICONTROL segment], si consiglia di selezionare lo stesso [!UICONTROL Profile Merge Rule] del pubblico di destinazione.
       ![predictive-audiences-save](assets/predictive-audiences-save.png)
 1. Clic **[!UICONTROL Save]**.
 
 ## Clonazione e modifica di modelli di audience predittivi {#clone-predictive-audiences}
 
-Audience Manager non supporta la modifica di modelli [!UICONTROL Predictive Audiences] esistenti. Per modificare la configurazione di un modello, potete creare un clone di un modello esistente e modificarlo. Ecco come eseguire questa operazione:
+Audience Manager non supporta la modifica di esistenti [!UICONTROL Predictive Audiences] modelli. Per modificare la configurazione di un modello, potete creare un clone di un modello esistente e modificarlo. Ecco come eseguire questa operazione:
 
 1. Vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**.
-2. Fare clic sul nome del modello [!UICONTROL Predictive Audiences] da clonare.
-3. Fai clic sul pulsante **[!UICONTROL Clone]** in alto a sinistra dello schermo.
-   ![clone-audience-predittive](assets/predictive-audiences-clone.png)
-4. Una volta clonato il modello, si passa alla pagina [!DNL Save & Configure] del modello clonato. In questa pagina, è possibile modificare il [!UICONTROL data source] e il valore assegnato[!UICONTROL Profile Merge Rule] del modello. Per modificare gli utenti tipo e il pubblico di destinazione del modello clonato, utilizza i pulsanti [!UICONTROL Back] e [!UICONTROL Next] per spostarsi tra le tre schede oppure fai clic sui tre nomi delle schede
+2. Fai clic sul nome del [!UICONTROL Predictive Audiences] modello da clonare.
+3. Fai clic su **[!UICONTROL Clone]** in alto a sinistra.
+   ![predictive-audiences-clone](assets/predictive-audiences-clone.png)
+4. Una volta clonato il modello, si passa al [!DNL Save & Configure] del modello clonato. In questa pagina è possibile modificare i [!UICONTROL data source] e il assegnato[!UICONTROL Profile Merge Rule] del modello. Per modificare gli utenti tipo e il pubblico di destinazione del modello clonato, utilizza [!UICONTROL Back] e [!UICONTROL Next] per spostarsi tra le tre schede, oppure fare clic sui tre nomi delle schede
 
-   ![predictive-audiences-clone-navigences](assets/predictive-audiences-clone-navigate.png)
+   ![predictive-audiences-clone-navigate](assets/predictive-audiences-clone-navigate.png)
 
-5. Al termine della modifica di un modello, fai clic su **[!UICONTROL Save]**.
+5. Una volta completata la modifica di un modello, fare clic su **[!UICONTROL Save]**.
 
-## Eliminazione di Predictive Audiences {#delete-predictive-audiences}
+## Eliminazione dei Predictive Audiences {#delete-predictive-audiences}
 
-Per eliminare un modello [!UICONTROL Predictive Audiences], vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**, trova il modello da eliminare e fai clic sull&#39;icona **[!UICONTROL Delete]** .
+Per eliminare un [!UICONTROL Predictive Audiences] modello, vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**, individuare il modello che si desidera eliminare e fare clic su **[!UICONTROL Delete]** icona.

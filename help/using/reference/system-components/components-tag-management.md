@@ -1,5 +1,5 @@
 ---
-description: I componenti per la gestione dei tag di Audience Manager includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Experience Platform Launch), DIL, Akamai e il database di controllo.
+description: Audienci Manager di componenti per la gestione dei tag includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Experience Platform Launch), DIL, Akamai e il database di controllo.
 seo-description: Audience Manager tag management components include the client portal, Adobe Tag Manager (deprecated in favor of Adobe Experience Platform Launch), DIL, Akamai, and the control database.
 seo-title: Tag Management Components
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Componenti di Tag Management{#tag-management-components}
 
-I componenti di gestione dei tag di Audience Manager includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Experience Platform Tags), DIL, Akamai e il database di controllo.
+Audienci Manager di componenti per la gestione dei tag includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Experience Platform Tags), DIL, Akamai e il database di controllo.
 
 <!-- 
 
@@ -26,32 +26,32 @@ c_comptag.xml
 
 L’Audience Manager contiene i seguenti componenti:
 
-* [Portale client](../../reference/system-components/components-tag-management.md#client-portal)
+* [Client Portal](../../reference/system-components/components-tag-management.md#client-portal)
 * [Contenitore DIL/TIM](../../reference/system-components/components-tag-management.md#dil-tim)
-* [Libreria di informazioni sui dati (DIL)](../../reference/system-components/components-tag-management.md#dil)
+* [Libreria informazioni dati (DIL)](../../reference/system-components/components-tag-management.md#dil)
 * [Akamai](../../reference/system-components/components-tag-management.md#akamai)
 * [Database di controllo](../../reference/system-components/components-tag-management.md#control-database)
 
-## Portale client {#client-portal}
+## Client Portal {#client-portal}
 
-Il portale client è l’interfaccia utente principale per la gestione di tag e dati. I clienti utilizzano il portale per lavorare con tag, creare caratteristiche e segmenti, impostare destinazioni e monitorare le prestazioni della campagna tramite i rapporti.
+Il portale client è l’interfaccia utente principale per la gestione dei tag e dei dati. I clienti utilizzano il portale per lavorare con i tag, creare caratteristiche e segmenti, impostare le destinazioni e monitorare le prestazioni delle campagne con i rapporti.
 
 ## Contenitore DIL/TIM {#dil-tim}
 
-La [!UICONTROL DIL] implementazione dei contenitori [!DNL Audience Manager] codice di raccolta dati sul sito web. [!UICONTROL TIM] è il gestore dell’inserimento tag obsoleto. Non viene più utilizzato da [!DNL Audience Manager]. Invece, puoi utilizzare la [!DNL Audience Manager] estensione in [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) per configurare e generare il codice contenitore inserito nelle pagine del tuo inventario.
+Il [!UICONTROL DIL] il contenitore aiuta a distribuire [!DNL Audience Manager] il codice di raccolta dei dati sul sito web. [!UICONTROL TIM] è Tag Insertion Manager obsoleto. Non viene più utilizzato da [!DNL Audience Manager]. Invece, puoi utilizzare [!DNL Audience Manager] estensione in [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) per configurare e generare il codice del contenitore da inserire nelle pagine dell’inventario.
 
 ## Libreria di integrazione dei dati (DIL) {#dil}
 
-La [Libreria di informazioni sui dati](../../dil/dil-overview.md) (DIL) è un modulo API autonomo che raccoglie dati dal sito web. [!UICONTROL DIL] aiuta a eliminare la necessità di scrivere codice speciale per la raccolta dei dati, l’integrazione, la lettura dei valori dei cookie e il recupero dei dati della pagina. [!UICONTROL DIL] esegue automaticamente queste azioni. Inoltre, [!UICONTROL DIL] è compatto. Si tratta di una libreria di codici indipendente che aiuta a ridurre la quantità di codice necessario per raccogliere le informazioni. Infine, [!UICONTROL DIL] consente di integrare [!DNL Audience Manager] con altri prodotti [!DNL Adobe] Experience Cloud.
+Il [Data Information Library](../../dil/dil-overview.md) (DIL) è un modulo API autonomo che raccoglie dati dal sito web. [!UICONTROL DIL] elimina la necessità di scrivere codice speciale per la raccolta di dati, l’integrazione, la lettura dei valori dei cookie e il recupero dei dati della pagina. [!UICONTROL DIL] esegue automaticamente queste azioni. Inoltre, [!UICONTROL DIL] è compatto. Si tratta di una libreria di codice autonoma che consente di ridurre la quantità di codice necessario per raccogliere le informazioni. Infine, [!UICONTROL DIL] ti aiuta a integrare [!DNL Audience Manager] con altri prodotti nel [!DNL Adobe] Experience Cloud.
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] utilizza [Akamai](https://www.akamai.com/us/en/about/) per ospitare e consegnare il codice contenitore dalla nostra piattaforma di gestione tag denominata [!UICONTROL TIM (Tag Insertion Manager)]. Tuttavia, distribuisci il codice con [!UICONTROL TIM] è stato gradualmente eliminato a favore di [!DNL Adobe Experience Platform Tags].
+[!DNL Audience Manager] utilizza [Akamai](https://www.akamai.com/us/en/about/) per ospitare e consegnare il codice dei contenitori dalla nostra piattaforma di gestione dei tag nota come [!UICONTROL TIM (Tag Insertion Manager)]. Tuttavia, la distribuzione del codice con [!UICONTROL TIM] è stato gradualmente eliminato a favore di [!DNL Adobe Experience Platform Tags].
 
 ## Database di controllo {#control-database}
 
-Database di controllo:
+Il database di controllo:
 
-* Elabora l’input del client dal portale (ad esempio, creazione di caratteristiche e destinazioni).
-* Trasmette i dati ad Akamai, che include i dati utilizzati per creare il modello di contenitore e la destinazione per la pubblicazione dell’iFrame.
+* Elabora l’input del client dal portale (ad esempio, creando caratteristiche e destinazioni).
+* Trasmette i dati ad Akamai, che include i dati utilizzati per generare il modello di contenitore e l’iFrame di pubblicazione della destinazione.
 * Restituisce i dati per i sistemi di reporting dell’interfaccia utente.

@@ -1,16 +1,16 @@
 ---
 description: Questo documento spiega come funziona la gestione del consenso in Audience Manager.
-seo-description: Questo documento spiega come funziona la gestione del consenso in Audience Manager.
-seo-title: Gestione del consenso
+seo-description: This document explains how consent management works in Audience Manager.
+seo-title: Consent Management
 solution: Audience Manager
 keywords: Interfaccia utente RGPD, API RGPD, CCPA, privacy, consenso
 title: Gestione del consenso
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: Governance dei dati e privacy
+feature: Data Governance & Privacy
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '724'
 ht-degree: 94%
 
 ---
@@ -43,7 +43,7 @@ I clienti di Audience Manager possono memorizzare il consenso degli utenti per v
 
 ## Gestione della rinuncia e del ritiro del consenso
 
-La rinuncia può essere gestita per Adobe Experience Cloud tramite la pagina relativa alle [scelte sulla privacy](https://www.adobe.com/it/privacy/opt-out.html#customeruse). Le funzionalità con 1 clic consentono agli utenti finali di controllare e rinunciare alla raccolta di dati da parte delle soluzioni pubblicitarie Adobe Experience Cloud (incluso Audience Manager). Nello specifico, consulta la [sezione per i clienti aziendali](https://www.adobe.com/privacy/opt-out.html#customeruse) della pagina relativa alle scelte sulla privacy. Per i browser che non supportano i cookie di terze parti, consulta [Declared ID targeting](../../features/declared-ids.md#declared-id-targeting). Per i dispositivi mobili, recupera gli identificatori pertinenti di Audience Manager e chiama le API di rinuncia di Audience Manager come indicato in [Declared ID Opt-Out examples](../../features/declared-ids.md#opt-out-examples). In seguito, puoi interrompere la raccolta di dati per tali utenti con le API di rinuncia dall’SDK di Mobile (consulta [Dispositivi Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) e [Dispositivi iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html)). Ulteriori informazioni sulla rinuncia sono disponibili nella [Data Privacy Requests Documentation](../../overview/data-security-and-privacy/data-privacy-requests.md).
+La rinuncia può essere gestita per Adobe Experience Cloud tramite la pagina relativa alle [scelte sulla privacy](https://www.adobe.com/it/privacy/opt-out.html#customeruse). Le funzionalità con 1 clic consentono agli utenti finali di controllare e rinunciare alla raccolta di dati da parte delle soluzioni pubblicitarie Adobe Experience Cloud (incluso Audience Manager). Nello specifico, consulta la [sezione per i clienti aziendali](https://www.adobe.com/it/privacy/opt-out.html#customeruse) della pagina relativa alle scelte sulla privacy. Per i browser che non supportano i cookie di terze parti, consulta [Declared ID targeting](../../features/declared-ids.md#declared-id-targeting). Per i dispositivi mobili, recupera gli identificatori pertinenti di Audience Manager e chiama le API di rinuncia di Audience Manager come indicato in [Declared ID Opt-Out examples](../../features/declared-ids.md#opt-out-examples). In seguito, puoi interrompere la raccolta di dati per tali utenti con le API di rinuncia dall’SDK di Mobile (consulta [Dispositivi Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) e [Dispositivi iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html)). Ulteriori informazioni sulla rinuncia sono disponibili nella [Data Privacy Requests Documentation](../../overview/data-security-and-privacy/data-privacy-requests.md).
 
 ## Gestione del consenso per i partner di seconde parti
 

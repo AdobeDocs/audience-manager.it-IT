@@ -31,13 +31,13 @@ Un grafico dei dispositivi è un set di mappature ID che definisce gruppi di dis
 
 **Cos’è un grafico dei dispositivi esterno?**
 
-Un grafico dei dispositivi esterno è un qualsiasi grafico dei dispositivi in [!DNL Audience Manager] che non è stato creato esclusivamente dalle tue sorgenti di dati multi-dispositivo. Ad esempio, quando crei una [Regola di unione profili](../features/profile-merge-rules/merge-rules-start.md) e scegli le opzioni del grafico dei dispositivi di terze parti, stai lavorando con un grafico dei dispositivi esterno. Consulta [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Un grafico dei dispositivi esterno è un qualsiasi grafico dei dispositivi in [!DNL Audience Manager] che non è stato creato esclusivamente dalle tue sorgenti di dati multi-dispositivo. Ad esempio, quando crei un’ [Regola di unione profili](../features/profile-merge-rules/merge-rules-start.md) e scegli le opzioni del grafico dei dispositivi di terze parti, stai lavorando con un grafico dei dispositivi esterno. Consulta [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
 **Quali sono alcuni casi d’uso comuni per l’utilizzo di un grafico dei dispositivi esterno in una [!UICONTROL Profile Merge Rule]?**
 
-L’obiettivo principale di utilizzare un grafico dei dispositivi in una [!UICONTROL Profile Merge Rule] è valutare e qualificare più dispositivi appartenenti a una singola persona o famiglia per un segmento specifico. Il segmento stesso può utilizzare più utilizzi, ad esempio, per il targeting di un pubblico di potenziali clienti con un annuncio pubblicato da un DSP o per personalizzare l’esperienza di un cliente sul sito tramite una piattaforma di personalizzazione all’interno del sito. Consulta [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
+L’obiettivo principale di utilizzare un grafico dei dispositivi in una [!UICONTROL Profile Merge Rule] è valutare e qualificare più dispositivi appartenenti a una singola persona o famiglia per un segmento specifico. Il segmento stesso può essere utilizzato per usi diversi, ad esempio per il targeting di un pubblico di potenziali clienti con un annuncio fornito da un DSP o per personalizzare l’esperienza di un cliente sul sito tramite una piattaforma di personalizzazione nel sito. Consulta [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -259,18 +259,18 @@ Sì. La metrica della popolazione totale del segmento include i dispositivi aggi
 
 No.
 
-**Perché viene visualizzato un gruppo di segmenti zero per le esportazioni di segmenti in Adobe Campaign dopo il 16 marzo 2020?**
+**Perché viene visualizzata una popolazione di segmenti pari a zero per le esportazioni di segmenti in Adobe Campaign dopo il 16 marzo 2020?**
 
-Alla fine del 2019, è stata rilasciata una serie di miglioramenti delle regole di unione profili per migliorare la precisione dei file batch generati utilizzando ID multi-dispositivo. Questi miglioramenti saranno rigorosamente rispettati nell’Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati a una destinazione utilizzando un ID multi-dispositivo cesseranno di produrre esportazioni in alcune configurazioni di Profile Merge Rules.
+Alla fine del 2019 sono stati rilasciati una serie di miglioramenti alle Profile Merge Rules per migliorare la precisione dei file batch generati utilizzando ID multi-dispositivo. Questi miglioramenti saranno rigorosamente rispettati nella tua istanza di Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati su una destinazione utilizzando ID multi-dispositivo cesseranno di produrre esportazioni in alcune configurazioni delle regole di unione profili.
 
-Per garantire la corretta integrazione tra l’istanza di Audience Manager e le destinazioni utilizzando ID multi-dispositivo, come Adobe Campaign, assicurati di soddisfare i seguenti requisiti:
+Per garantire la corretta integrazione tra l’istanza Audience Manager e le destinazioni utilizzando ID multi-dispositivo, come Adobe Campaign, assicurati di soddisfare i seguenti requisiti:
 
-1. Rivedi la regola di unione profili utilizzata dai segmenti mappati alla destinazione Adobe Campaign Declared ID. La regola di unione profili deve utilizzare [!UICONTROL Last Authenticated Profile] , in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione profili utilizza un’opzione diversa, passa a [!UICONTROL Last Authenticated Profile].
-2. Seleziona l’origine dati Adobe Campaign Declared ID nelle impostazioni Regola di unione profili .
+1. Esamina la regola di unione profili utilizzata dai segmenti mappati sulla destinazione dell’ID dichiarato di Adobe Campaign. La regola di unione profili deve utilizzare [!UICONTROL Last Authenticated Profile] in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione profili utilizza un’opzione diversa, passala a [!UICONTROL Last Authenticated Profile].
+2. Seleziona l’origine dati Adobe Campaign Declared ID (ID dichiarato) nelle impostazioni della regola di unione profili.
 
 >[!NOTE]
 >
-> Il limite delle regole di unione profili è stato aumentato di 1 per i clienti che si trovano in questa situazione, in modo da poter creare una regola di unione profili dedicata per i segmenti mappati alla destinazione Adobe Campaign Declared ID, senza modificare le regole di unione profili per altri casi d’uso.
+> Il limite delle regole di unione profili è stato aumentato di 1 per i clienti che si trovano in questa situazione, in modo da poter creare una regola di unione profili dedicata per i segmenti mappati sulla destinazione Adobe Campaign Declared ID, senza modificare le regole di unione profili per altri casi d’uso.
 
 >[!MORELIKETHIS]
 >

@@ -1,22 +1,22 @@
 ---
-description: Descrive i metodi nello spazio dei nomi DIL.tools. Queste funzioni di utilità consentono di eseguire attività specifiche.
-seo-description: Descrive i metodi nello spazio dei nomi DIL.tools. Queste funzioni di utilità consentono di eseguire attività specifiche.
-seo-title: Strumenti DIL
+description: Descrive i metodi nello spazio dei nomi DIL.tools. Queste funzioni consentono di eseguire attività specifiche.
+seo-description: Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
+seo-title: DIL Tools
 solution: Audience Manager
 title: Strumenti DIL
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
-feature: Implementazione di DIL
+feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '277'
 ht-degree: 4%
 
 ---
 
 # Strumenti DIL
 
-Descrive i metodi nello spazio dei nomi `DIL.tools` . Queste funzioni di utilità consentono di eseguire attività specifiche.
+Descrive i metodi in `DIL.tools` spazio dei nomi. Queste funzioni consentono di eseguire attività specifiche.
 
 <!-- 
 
@@ -36,22 +36,22 @@ r_dil_get_search_referrer.xml
 
 ### Scopo di `getSearchReferrer`
 
-In DIL, `getSearchReferrer` restituisce i risultati di ricerca (nomi e parole chiave) utilizzati per raggiungere il sito. Puoi passare termini di ricerca specifici a questa funzione o lasciare che esegua la ricerca nei motori di ricerca supportati ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] e [!DNL Yahoo]) rispetto a `document.referrer` per impostazione predefinita.
+In DIL, `getSearchReferrer` restituisce i risultati della ricerca (nomi e parole chiave) utilizzati per raggiungere il sito. Puoi trasmettere termini di ricerca specifici a questa funzione o consentirle di eseguire ricerche nei motori di ricerca supportati ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], e [!DNL Yahoo]) contro `document.referrer` per impostazione predefinita.
 
 ### Firma della funzione
 
-Firma della funzione: `DIL.tools.getSearchReferrer(uri, initConfig)`
+Firma funzione: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
-### Parametri della funzione
+### Parametri funzione
 
 `getSearchReferrer` accetta:
 
-* *`{string}`*:  *(Facoltativo)* Una stringa contenente l&#39;URL di ricerca (utilizza  `document.referrer` se non definito).
-* *`{object}`*:  *(Facoltativo)* Un oggetto contenente la configurazione per  `hostPattern`,  `queryParam`, o  `queryPattern`.
+* *`{string}`*: *(Facoltativo)* Una stringa contenente l’URL di ricerca (utilizza `document.referrer` se non definito).
+* *`{object}`*: *(Facoltativo)* Oggetto contenente la configurazione per `hostPattern`, `queryParam`, o `queryPattern`.
 
 E restituisce:
 
-* `{object}` Oggetto che contiene nomi e parole chiave validi.
+* `{object}` Oggetto contenente nomi e parole chiave validi.
 
 ### Esempi
 
@@ -66,13 +66,13 @@ E restituisce:
  <tbody> 
   <tr> 
    <td> Ricerca predefinita</td> 
-   <td> Restituisce i termini di ricerca delle parole chiave utilizzati dai motori di ricerca AOL, Ask, Bing, Google e Yahoo. </td> 
+   <td> Restituisce i termini di ricerca per parole chiave utilizzati dai motori di ricerca AOL, Ask, Bing, Google e Yahoo. </td> 
    <td>
       <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
-   <td>Trasmettere un URL personalizzato</td> 
+   <td>Passa un URL personalizzato</td> 
    <td>Restituisce il referente di ricerca in base a un URL personalizzato.</td> 
    <td> 
   <code>
@@ -82,8 +82,8 @@ E restituisce:
 </td> 
   </tr> 
   <tr> 
-   <td> <b>Nome host con URL simile a un Regex personalizzato</b></td> 
-   <td> Passa un regex personalizzato per corrispondere al nome host dell'URL di riferimento. </td> 
+   <td> <b>Abbina il nome host dell’URL a un regex personalizzato</b></td> 
+   <td> Passa un regex personalizzato in modo che corrisponda al nome host dell’URL di riferimento. </td> 
    <td> 
   <code>
       var results = 
@@ -95,7 +95,7 @@ E restituisce:
   </code>
   </td></tr> 
   <tr> 
-   <td> <b>Pattern di ricerca con un regex personalizzato</b> </td> 
+   <td> <b>Abbina pattern di ricerca con un regex personalizzato</b> </td> 
    <td> Passa un regex personalizzato per eseguire una ricerca personalizzata. </td> 
    <td> 
     <code>
@@ -113,7 +113,7 @@ E restituisce:
 
 ## decomposeURI
 
-Smonta un identificatore di risorsa uniforme ( [!DNL URI]) nei relativi componenti costitutivi: `hash`, `host`, `href`, `pathname`, `protocol`, `search` e `[!DNL uriParams]`.
+Disassembla un identificatore di risorsa uniforme ( [!DNL URI]) nei suoi componenti: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, e `[!DNL uriParams]`.
 
 <!-- 
 
@@ -121,17 +121,17 @@ r_dil_decompose.xml
 
  -->
 
-Firma della funzione: `DIL.tools.decomposeURI`
+Firma funzione: `DIL.tools.decomposeURI`
 
-### Parametri della funzione
+### Parametri funzione
 
 `decomposeURI` accetta:
 
-* *`uri {string}`*:  *(Facoltativo)* Una stringa contenente l’URI. Se non specificato, viene impostato il valore predefinito `document.location.href`.
+* *`uri {string}`*: *(Facoltativo)* Stringa contenente l’URI. Impostazione predefinita `document.location.href` se non specificato.
 
 E restituisce:
 
-* *`{object}`*: Oggetto che contiene nomi e parole chiave validi.
+* *`{object}`*: oggetto contenente nomi e parole chiave validi.
 
 ### Codice di esempio
 
@@ -155,7 +155,7 @@ var uriData = DIL.tools.decomposeURI('https://www.adobe.com/?arg1=123&arg2=456#a
 
 ## getMetaTags
 
-Cerca contenuto specifico definito nei meta tag di una pagina Web e restituisce tali dati in un oggetto.
+Cerca contenuto specifico definito nei metatag di una pagina Web e restituisce tali dati in un oggetto.
 
 <!-- 
 
@@ -165,9 +165,9 @@ r_dil_get_metatags.xml
 
 ### Firma della funzione
 
-Firma della funzione: `DIL.tools.getMetaTags( 1 or more parameters)`
+Firma funzione: `DIL.tools.getMetaTags( 1 or more parameters)`
 
-### Parametri della funzione
+### Parametri funzione
 
 `getMetaTags` accetta uno o più parametri di nome (tipo stringa) da cercare. Restituisce un oggetto composto da coppie chiave-valore.
 

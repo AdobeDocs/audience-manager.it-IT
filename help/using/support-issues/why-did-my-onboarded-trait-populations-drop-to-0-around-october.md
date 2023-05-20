@@ -1,14 +1,14 @@
 ---
 description: Intorno al 14 ottobre 2019, ho notato che le popolazioni di caratteristiche onboarded per il grafico Device ID sono scese a 0, mentre in precedenza erano molto più alte.
-seo-description: Intorno al 14 ottobre 2019, ho notato che le popolazioni di caratteristiche onboarded per il grafico Device ID sono scese a 0, mentre in precedenza erano molto più alte.
-seo-title: Perché la mia popolazione di caratteristiche onboarded è scesa a 0 intorno al 15 ottobre?
+seo-description: Around October 14th, 2019 I noticed that my onboarded trait populations for the Device ID graph have dropped to 0, where previously they were much higher.
+seo-title: Why did my Onboarded trait populations drop to 0 around October 15th?
 solution: Audience Manager
 title: Perché la mia popolazione di caratteristiche onboarded è scesa a 0 intorno al 15 ottobre?
-feature: 'Supporto '
+feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---

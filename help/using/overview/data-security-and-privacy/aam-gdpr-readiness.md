@@ -1,19 +1,19 @@
 ---
 description: Guida di preparazione al RGPD per i clienti di Audience Manager
-seo-description: Guida di preparazione al RGPD per i clienti di Audience Manager
-seo-title: Guida di preparazione al RGPD per i clienti di Audience Manager
+seo-description: GDPR Readiness Guidance for Audience Manager Customers
+seo-title: GDPR Readiness Guidance for Audience Manager Customers
 solution: Audience Manager
 title: Guida di preparazione al RGPD per i clienti di Audience Manager
-feature: Governance dei dati e privacy
+feature: Data Governance & Privacy
 exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '461'
 ht-degree: 99%
 
 ---
 
-# Guida di preparazione al RGPD per i clienti di Audience Manager (titolari del trattamento dei dati) {#gdpr-readiness-guidance}
+# Guida di preparazione al RGPD per i clienti di Audience Manager (Titolari del trattamento dei dati) {#gdpr-readiness-guidance}
 
 Audience Manager ti consiglia di essere proattivo nei settori della governance dei dati e della preparazione organizzativa. Questo ti aiuterà a garantire che i dati dei consumatori siano organizzati per consentire i processi relativi alle richieste di accesso o cancellazione, che i tuoi team siano abilitati e autorizzati a gestire tali richieste e che i consumatori (gli interessati) abbiano un’esperienza positiva e differenziata con il tuo marchio.
 

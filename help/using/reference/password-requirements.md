@@ -1,20 +1,20 @@
 ---
 description: Audience Manager può essere configurato in modo da far scadere le password ogni 30 giorni. Per abilitare la scadenza delle password, rivolgiti al tuo consulente Audience Manager o all’Assistenza clienti. Fai riferimento a questa sezione per i requisiti delle password e il recupero di una password persa o dimenticata.
-seo-description: Audience Manager può essere configurato in modo da far scadere le password ogni 30 giorni. Per abilitare la scadenza delle password, rivolgiti al tuo consulente Audience Manager o all’Assistenza clienti. Fai riferimento a questa sezione per i requisiti delle password e il recupero di una password persa o dimenticata.
-seo-title: Requisiti per le password, account bloccati e password dimenticate
+seo-description: Audience Manager can be configured to expire passwords every 30-days. Talk to your Audience Manager consultant or Customer Care if you want to enable password expiry. Refer to this section for password requirements and how to recover a lost or forgotten password.
+seo-title: Password Requirements, Locked Accounts, and Forgotten Passwords
 solution: Audience Manager
 title: Requisiti per le password, account bloccati e password dimenticate
 uuid: bca892eb-3577-4382-8110-131f78d23069
-feature: 'Riferimenti '
+feature: Reference
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '260'
 ht-degree: 100%
 
 ---
 
-# Requisiti per le password, account bloccati e password dimenticate {#password-requirements-locked-accounts-and-forgotten-passwords}
+# Requisiti per le password, account bloccati e password dimenticate{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 Audience Manager può essere configurato in modo da far scadere le password ogni 30 giorni. Per abilitare la scadenza delle password, rivolgiti al tuo consulente Audience Manager o all’Assistenza clienti. Fai riferimento a questa sezione per i requisiti delle password e il recupero di una password persa o dimenticata.
 
@@ -80,5 +80,5 @@ Fai clic sul collegamento **[!UICONTROL Forgot password]** nella pagina di acces
 >[!MORELIKETHIS]
 >
 >* [Data Security](../overview/data-security-and-privacy/data-security.md)
-* [Sicurezza dei dati](../overview/data-security-and-privacy/data-privacy.md)
+>* [Data Security](../overview/data-security-and-privacy/data-privacy.md)
 

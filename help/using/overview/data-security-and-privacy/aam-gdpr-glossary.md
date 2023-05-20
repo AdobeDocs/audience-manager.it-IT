@@ -22,7 +22,7 @@ Questo articolo descrive i concetti e la terminologia utilizzati dal Regolamento
 
 Il RGPD è entrato in vigore il 25 maggio 2018 con gli obiettivi principali di dare ai singoli utenti dell’UE (gli interessati) un maggiore controllo sui propri dati personali e al tempo stesso semplificare il contesto normativo per le imprese internazionali attraverso una migliore unificazione della regolamentazione all’interno dell’UE. Come parte della preparazione di Adobe al RGPD, il team di Adobe Audience Manager dispone di servizi e processi avanzati necessari per supportare le richieste di accesso ed eliminazione da parte degli interessati, cioè i tuoi consumatori.
 
-Assicurati anche di leggere informazioni sul RGPD nella [Panoramica sulla privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) per comprendere meglio come funziona il RGPD negli Experienci Cloud.
+Assicurati anche di aver letto Informazioni sul RGPD in [Panoramica sulle normative sulla privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) per comprendere meglio come funziona il RGPD in Experience Cloud.
 
 ## Glossario RGPD {#gdpr-glossay}
 

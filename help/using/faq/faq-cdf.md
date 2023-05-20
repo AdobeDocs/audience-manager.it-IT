@@ -1,7 +1,7 @@
 ---
 description: Domande frequenti sui file di feed di dati cliente (CDF, Customer Data Feed).
-seo-description: Domande frequenti sui file di feed di dati cliente (CDF, Customer Data Feed).
-seo-title: Domande frequenti sui feed di dati cliente
+seo-description: Frequently asked questions about Customer Data Feed (CDF) files.
+seo-title: Customer Data Feed FAQ
 solution: Audience Manager
 title: Domande frequenti sui feed di dati cliente
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
@@ -9,12 +9,12 @@ feature: Customer Data Feeds
 exl-id: a948accc-6bec-4748-bcc8-2b77acf6b96a
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
 
-# Domande frequenti sui feed di dati cliente {#customer-data-feed-faq}
+# Domande frequenti sui feed di dati cliente{#customer-data-feed-faq}
 
 Domande frequenti sui file di feed di dati cliente (CDF, Customer Data Feed).
 
@@ -86,5 +86,5 @@ Puoi generare file CDF solo per gli ultimi 8 giorni. I file CDF per gli interval
 
 >[!MORELIKETHIS]
 >
->* [Feed dati cliente](../features/cdf-files.md)
+>* [Customer Data Feeds](../features/cdf-files.md)
 

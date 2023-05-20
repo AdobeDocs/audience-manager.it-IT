@@ -5,7 +5,7 @@ seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: Domande frequenti sulla raccolta dei dati e l’integrazione dei prodotti
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP; indirizzo SFTP; indirizzo IP STFP; Indirizzo FTP
+keywords: SFTP; indirizzo SFTP; indirizzo IP STFP; indirizzo FTP
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
@@ -37,18 +37,18 @@ Sfortunatamente non possiamo. Questi IP vengono assegnati in modo dinamico, per 
 
  
 
-**Puoi fornirmi un indirizzo IP che posso aggiungere a un elenco consentiti per il tuo server SFTP in entrata e in uscita?**
+**Puoi fornirmi un indirizzo IP che posso aggiungere a un elenco consentiti per il server SFTP in entrata e in uscita?**
 
 Sì, vedi sotto.
 
 | Server | Indirizzi IP |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119; 3 233 68 222 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
 | ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
 
-I server SFTP seguenti sono obsoleti. Non verrà eseguito il provisioning di nuovi account utilizzando questi server.
+I server SFTP riportati di seguito sono obsoleti. Non verrà eseguito il provisioning di nuovi account utilizzando questi server.
 
 | Server | Indirizzo IP |
 |---------|----------|
@@ -57,15 +57,15 @@ I server SFTP seguenti sono obsoleti. Non verrà eseguito il provisioning di nuo
 
  
 
-**Come si configura la mia istanza di Audience Manager per l’utilizzo dei nuovi server SFTP?**
+**Come posso configurare la mia istanza Audience Manager per utilizzare i nuovi server SFTP?**
 
-Contatta il tuo [!DNL Audience Manager] consulente o Assistenza clienti e configurerà i tuoi nuovi account SFTP.
+Contatta il tuo [!DNL Audience Manager] e configureranno i nuovi account SFTP.
 
  
 
 **Quali sono i metodi di autenticazione supportati per i nuovi server SFTP?**
 
-I nuovi server SFTP (`ftp-in-gtw` e `ftp-out-gtw`) supporto [!DNL OpenSSH Key-Based Authentication]. Possiamo generare la variabile [!DNL SSH] chiavi per te, o puoi fornirci la tua chiave pubblica.
+I nuovi server SFTP (`ftp-in-gtw` e `ftp-out-gtw`) supporto [!DNL OpenSSH Key-Based Authentication]. Possiamo generare il [!DNL SSH] o fornirci una tua chiave pubblica.
 
  
 
@@ -83,7 +83,7 @@ Come best practice, configura l’integrazione [!DNL Audience Manager]- [!DNL An
 
 * Metti [!UICONTROL DIL] direttamente nel `s_code`.
 
-* Servire [!UICONTROL DIL] e `s_code` attraverso [!DNL Adobe Experience Platform Tags].
+* Serve [!UICONTROL DIL] e `s_code` da a [!DNL Adobe Experience Platform Tags].
 
 Consulta [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
@@ -152,7 +152,7 @@ Sì, [!DNL Audience Manager] può fornirti i dati raccolti per gli utenti che vi
 
 **[!DNL Google Ad Manager]Desidero raccogliere i dati su un sito ed effettuare il targeting degli utenti tramite su un sito diverso. Devo distribuire codice sull’altra proprietà se non desidero raccogliere i dati da tale posizione?**
 
-No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL lì. Se hai accesso all’inventario sul secondo sito tramite [!DNL Google Ad Manager], puoi utilizzare la raccolta dati dal sito iniziale ed effettuare il targeting tramite [!DNL Google Ad Manager].
+No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL lì. Purché tu abbia accesso all’inventario sul secondo sito tramite [!DNL Google Ad Manager], puoi utilizzare la raccolta dati dal sito iniziale e utilizzare target tramite [!DNL Google Ad Manager].
 
 <br> 
 
@@ -208,8 +208,8 @@ In genere, la sincronizzazione di un profilo utente tra aree geografiche richied
 
  
 
-**Cosa succede alle chiavi di accesso utente inattive di Amazon S3?**
+**Cosa succederà alle chiavi di accesso inattive per gli utenti di Amazon S3?**
 
-Adobe fornisce ai clienti di Audience Manager le chiavi di accesso utente per l’Audience Manager [!DNL Amazon S3] secchi. Per motivi di sicurezza, le chiavi vengono disattivate automaticamente dopo 100 giorni di inattività.
+Adobe fornisce ai clienti Audience Manager le chiavi di accesso utente per l’Audience Manager [!DNL Amazon S3] secchi. Per motivi di sicurezza, le chiavi vengono disattivate automaticamente dopo 100 giorni di inattività.
 
 Per riabilitare le chiavi di accesso o richiederne di nuove, contatta l’Assistenza clienti.

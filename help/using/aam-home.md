@@ -87,7 +87,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Guida introduttiva alle API REST</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Introduzione all’API DCS</a></li>
-     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Aggiungere l’estensione Audience Manager in Adobe Experience Platform Tags</a></li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">Aggiungere l’estensione di Audience Manager nei tag Adobe Experience Platform</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Aggiungere Audience Manager alla tua app</a></li>
      </ul> </p>
     </td>
@@ -151,7 +151,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
      Per conoscere le nuove funzioni e le correzioni, consulta le <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">note sulla versione di Experience Cloud</a> più recenti.</p> 
      <p> <b>Funzioni più recenti</b> </p> <p> 
      Scopri le funzioni più recenti di Audience Manager:</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager di migrazione degli utenti ad Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Customer Match di Google per le destinazioni basate su persone</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in di Audience Manager per IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Reporting sull’utilizzo delle attività</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migrazione degli utenti Audience Manager ad Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Customer Match di Google per destinazioni basate su persone</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in di Audience Manager per IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Reporting sull’utilizzo delle attività</a></li>
      </ul></p>
     </td>
   </tr> 

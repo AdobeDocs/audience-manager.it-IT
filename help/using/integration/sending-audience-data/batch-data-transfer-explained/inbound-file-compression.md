@@ -1,46 +1,46 @@
 ---
-description: Come opzione, è possibile comprimere i file di dati quando vengono inviati ad Audience Manager.
-seo-description: Come opzione, è possibile comprimere i file di dati quando vengono inviati ad Audience Manager.
+description: Come opzione, puoi comprimere i file di dati quando li invii ad Audience Manager.
+seo-description: As an option, you can compress data files when sending them to Audience Manager.
 seo-title: File Compression for Inbound Data Transfer Files
 solution: Audience Manager
-title: Compressione file per i file di trasferimento dati in entrata
+title: File Compression for Inbound Data Transfer Files
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
-feature: Trasferimenti di dati in entrata
+feature: Inbound Data Transfers
 exl-id: 9b3e3bef-2c93-4801-8f4f-04d9d42fd952
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 9%
+source-wordcount: '208'
+ht-degree: 7%
 
 ---
 
 # File Compression for Inbound Data Transfer Files{#file-compression-for-inbound-data-transfer-files}
 
-È possibile comprimere i file di dati quando vengono inviati ad Audience Manager.
+Puoi comprimere i file di dati quando li invii a Audience Manager.
 
 <!-- inbound-file-compression.xml -->
 
-Audience Manager supporta la compressione gzip (`.gz`) per i trasferimenti di dati in entrata e in modo asincrono.
+L’Audience Manager supporta gzip (`.gz`) per trasferimenti di dati asincroni in entrata.
 
 Audience Manager supporta anche i file non compressi.
 
 >[!IMPORTANT]
 >
->Non è supportata la crittografia su file in entrata compressi con gzip (`.gz`).
+>La crittografia per i file in entrata compressi con gzip non è supportata (`.gz`).
 >
->Per crittografare e comprimere i file in entrata, utilizza la [crittografia PGP](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] La crittografia include la compressione dei file.
+>Per crittografare e comprimere i file in entrata, utilizzare [Crittografia PGP](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] la crittografia include la compressione dei file.
 
 ## Compressione Amazon S3
 
-Per la consegna a [!DNL Amazon S3], è necessario utilizzare `.gz` o file non compressi. I file compressi devono essere di 1 GB o più piccoli. Se i file sono più grandi, rivolgiti all’Assistenza clienti per discutere del processo di trasferimento e dei file. Anche se [!DNL Audience Manager] può gestire file di grandi dimensioni, ci possono essere modi per ridurre la dimensione del file o rendere il trasferimento dei dati più efficiente.
+Per la consegna a [!DNL Amazon S3], è necessario utilizzare `.gz` o file non compressi. I file compressi devono essere di almeno 1 GB. Se i file sono più grandi, consulta l’Assistenza clienti per informazioni sul processo di trasferimento e file. Anche se [!DNL Audience Manager] può gestire file molto grandi, ci possono essere modi per ridurre la dimensione del file o rendere più efficiente il trasferimento di dati.
 
 >[!IMPORTANT]
 >
->Il client [!DNL FTP] deve utilizzare la modalità binaria per trasferire file compressi o crittografati. I file compressi o crittografati inviati in modalità [!DNL ASCII] danneggiano il file di trasferimento dei dati.
+>Il tuo [!DNL FTP] il client deve utilizzare la modalità binaria per trasferire i file compressi o crittografati. File compressi o crittografati inviati [!DNL ASCII] La modalità danneggerà il file di trasferimento dati.
 
 ## Best practice
 
-* I file devono essere compressi [!DNL .gzip] (e avere un&#39;estensione di file [!DNL .gz]).
-* La dimensione massima del file compresso per un file `.gz` compresso è di 1 GB.
-* Le dimensioni di divisione ottimali, per l&#39;elaborazione più rapida/veloce dei file, sono circa 1 GB non compressi o 200-300 MB compressi.
-* [!DNL Amazon S3] impone un proprio limite di dimensione del file di 5 GB per i file caricati.
+* I file devono essere [!DNL .gzip] compresso (e hanno un [!DNL .gz] file).
+* Dimensione massima del file compresso per un `.gz` il file compresso è di 1 GB.
+* Le dimensioni di suddivisione ottimali, per l&#39;elaborazione più rapida/tempestiva dei file, sono di circa 1 GB non compressi o 200-300 MB compressi.
+* [!DNL Amazon S3] impone un proprio limite di 5 GB per le dimensioni dei file caricati.

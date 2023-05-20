@@ -1,14 +1,14 @@
 ---
 description: L’Assistenza clienti è a tua disposizione per aiutarti a risolvere eventuali problemi. Fornisci più informazioni possibili tra le seguenti quando contatti l’Assistenza clienti. In questo modo aiuterai il team a capire e risolvere il problema.
-seo-description: L’Assistenza clienti è a tua disposizione per aiutarti a risolvere eventuali problemi. Fornisci più informazioni possibili tra le seguenti quando contatti l’Assistenza clienti. In questo modo aiuterai il team a capire e risolvere il problema.
-seo-title: In caso di problemi
+seo-description: Customer Care is prepared to help you solve any issues that might arise. Provide as much of this information as you can when contacting Customer Care. This will help the team understand and resolve your issue.
+seo-title: If There's a Problem
 solution: Audience Manager
 title: In caso di problemi
-feature: 'Supporto '
+feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '373'
 ht-degree: 100%
 
 ---

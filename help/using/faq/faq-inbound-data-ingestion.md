@@ -1,16 +1,16 @@
 ---
 description: Domande frequenti su come importare dati offline in Audience Manager.
 keywords: ftp o s3;s3 o ftp
-seo-description: Domande frequenti su come importare dati offline in Audience Manager.
-seo-title: Domande frequenti sull’acquisizione dei dati dei clienti in entrata
+seo-description: Frequently asked questions about bringing offline data into Audience Manager.
+seo-title: Inbound Customer Data Ingestion FAQ
 solution: Audience Manager
 title: Domande frequenti sull’acquisizione dei dati dei clienti in entrata
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: Onboarding dei dati offline
+feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1342'
 ht-degree: 89%
 
 ---
@@ -58,10 +58,10 @@ Consulta [File Compression for Inbound Data Transfer Files](../integration/sendi
 
 **Posso caricare un file di dati in entrata (file [!DNL .sync] o [!DNL .overwrite]) prima di distribuire il codice [!DNL Audience Manager] in produzione?**
 
-Sì. Se utilizzi un [!UICONTROL cross-device data source] per memorizzare i dati CRM caricati, Audience Manager memorizza sempre i dati. Infatti, in seguito ai miglioramenti [!UICONTROL Profile Merge Rules] lanciati nell’Audience Manager a ottobre 2019 per consentire casi di utilizzo in modalità solo offline, puoi caricare e intervenire sui dati senza distribuire il codice Audience Manager in produzione. Consulta:
+Sì. Se si utilizza un [!UICONTROL cross-device data source] per memorizzare i dati di gestione delle relazioni con i clienti caricati, Audience Manager memorizza sempre i dati. Infatti, seguendo la [!UICONTROL Profile Merge Rules] miglioramenti di Audience Manager, lanciato a ottobre 2019, che consentono casi d’uso in modalità solo offline per caricare e intervenire sui dati senza distribuire il codice Audience Manager in produzione. Consulta:
 
 * [Overview of Profile Merge Rules Enhancements](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] -  [Personalizzazione basata su dati solo offline](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - [Personalizzazione basata su dati solo offline](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -187,7 +187,7 @@ Le marche temporali vengono utilizzate per la registrazione e per la conservazio
 
  
 
-**Cos’è un  [!DNL Data Provider ID (DPID)] e come lo ottengo?**
+**Cos’è un [!DNL Data Provider ID (DPID)] e come lo ottengo?**
 
 Il tuo consulente Adobe assegnerà un [DPID (Data Provider ID)](../reference/ids-in-aam.md) di tre o quattro cifre alla tua specifica sorgente di dati. Questo ID è univoco e non viene modificato.
 
@@ -204,7 +204,7 @@ Consulta [File Compression for Inbound Data Transfer Files](../integration/sendi
 Sì, consulta:
 
 * [File Compression for Inbound Data Transfer Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
-* [Requisiti di nome Amazon S3 per file di dati in entrata](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Amazon S3 Name Requirements for Inbound Data Files](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
@@ -226,7 +226,7 @@ Come best practice, consigliamo [!DNL Amazon S3] perché il processo è più sem
 
 >[!WARNING]
 >
->Stiamo gradualmente eliminando il supporto per le configurazioni FTP. Anche se l’acquisizione di file di dati in entrata è ancora supportata nelle integrazioni FTP esistenti, è consigliabile utilizzare [!DNL Amazon S3] per l’onboarding di dati offline per nuove integrazioni. Per informazioni dettagliate, consulta [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
+>Stiamo gradualmente eliminando il supporto per le configurazioni FTP. Anche se l’acquisizione di file di dati in entrata è ancora supportata nelle integrazioni FTP esistenti, si consiglia vivamente di utilizzare [!DNL Amazon S3] per l’onboarding di dati offline per nuove integrazioni. Per informazioni dettagliate, consulta [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md).
 
  
 

@@ -1,7 +1,7 @@
 ---
-description: L’Audience Marketplace consente ai fornitori di dati e agli acquirenti di eseguire queste operazioni in modo self-service con il minimo sforzo. A tal fine, fornisce funzioni specializzate che variano a seconda del tuo ruolo di acquirente o venditore di dati. In realtà, puoi anche essere un acquirente e un venditore allo stesso tempo. E, se non è stato possibile migliorare ulteriormente questa situazione, Audience Marketplace si occupa di contratti, fatturazione e pagamenti tra fornitori di dati e venditori.
-keywords: Analisi di Google
-seo-description: L’Audience Marketplace consente ai fornitori di dati e agli acquirenti di eseguire queste operazioni in modo self-service con il minimo sforzo. A tal fine, fornisce funzioni specializzate che variano a seconda del tuo ruolo di acquirente o venditore di dati. In realtà, puoi anche essere un acquirente e un venditore allo stesso tempo. E, se non è stato possibile migliorare ulteriormente questa situazione, Audience Marketplace si occupa di contratti, fatturazione e pagamenti tra fornitori di dati e venditori.
+description: Audience Marketplace consente ai fornitori di dati e agli acquirenti di eseguire le operazioni sui dati in modo autonomo con il minimo sforzo. Per farlo, fornisce funzioni specializzate che variano a seconda del tuo ruolo di acquirente o di venditore di dati. In effetti, puoi anche essere compratore e venditore allo stesso tempo. E, se questo non poteva andare meglio, Audience Marketplace si occupa di contratti, fatturazione e pagamenti tra fornitori di dati e venditori.
+keywords: analisi Google
+seo-description: Audience Marketplace lets data providers and buyers execute data deals in a self-service manner with minimum effort. It does this by providing specialized features that vary depending on your role as a data buyer or data seller. In fact, you can even be a buyer and a seller at the same time. And, if this couldn’t get any better, Audience Marketplace takes care of contracts, billing, and payments between data providers and sellers.
 seo-title: Audience Marketplace
 solution: Audience Manager
 title: Audience Marketplace
@@ -10,20 +10,20 @@ feature: Audience Marketplace
 exl-id: ee608bcd-6827-4fac-be96-8e16ff390ec0
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 7%
+source-wordcount: '201'
+ht-degree: 8%
 
 ---
 
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] consente ai fornitori di dati e agli acquirenti di eseguire queste operazioni in modo self-service con il minimo sforzo. A tal fine, fornisce funzioni specializzate che variano a seconda del tuo ruolo di acquirente o venditore di dati. In realtà, puoi anche essere un acquirente e un venditore allo stesso tempo. Inoltre, se non è stato possibile migliorare il sistema, [!UICONTROL Audience Marketplace] si occupa di contratti, fatturazione e pagamenti tra fornitori di dati e venditori.
+[!UICONTROL Audience Marketplace] consente ai fornitori di dati e agli acquirenti di eseguire le operazioni sui dati in modo autonomo con il minimo sforzo. Per farlo, fornisce funzioni specializzate che variano a seconda del tuo ruolo di acquirente o di venditore di dati. In effetti, puoi anche essere compratore e venditore allo stesso tempo. E, se questo non potesse migliorare, [!UICONTROL Audience Marketplace] si occupa di contratti, fatturazione e pagamenti tra fornitori di dati e venditori.
 
-Per iniziare, rivolgiti al tuo [!DNL Audience Manager] specialista di vendite. Possono attivare [!UICONTROL Audience Marketplace for you].
+Parla con il tuo [!DNL Audience Manager] Sales Specialist per iniziare. Possono attivare [!UICONTROL Audience Marketplace for you].
 
 >[!NOTE]
 >
->I ruoli utente controllano le operazioni che è possibile o non è possibile eseguire in [!UICONTROL Audience Marketplace].
+>I ruoli utente controllano ciò che è possibile e non può fare in [!UICONTROL Audience Marketplace].
 >
 > * Gli amministratori possono creare feed di dati, gestire gli abbonati e abbonarsi ai feed di dati.
 > * Gli utenti possono cercare e visualizzare solo i feed.

@@ -1,7 +1,7 @@
 ---
-description: Una stima in serie restituisce i dati delle dimensioni del segmento in base alle regole del segmento. Segui queste istruzioni per effettuare una richiesta di stima in blocco.
-seo-description: Una stima in serie restituisce i dati delle dimensioni del segmento in base alle regole del segmento. Segui queste istruzioni per effettuare una richiesta di stima in blocco.
-seo-title: Stime in blocco
+description: Una stima in blocco restituisce i dati delle dimensioni del segmento in base alle regole del segmento. Segui queste istruzioni per effettuare una richiesta di stima in blocco.
+seo-description: A bulk estimate returns segment size data based on segment rules. Follow these instructions to make a bulk estimate request.
+seo-title: Bulk Estimates
 solution: Audience Manager
 title: Stime in blocco
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
@@ -9,14 +9,14 @@ feature: BAAAM
 exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 3%
+source-wordcount: '173'
+ht-degree: 2%
 
 ---
 
 # Stime in blocco{#bulk-estimates}
 
-Una stima in serie restituisce i dati delle dimensioni del segmento in base alle regole del segmento. Segui queste istruzioni per effettuare una richiesta di stima in blocco.
+Una stima in blocco restituisce i dati delle dimensioni del segmento in base alle regole del segmento. Segui queste istruzioni per effettuare una richiesta di stima in blocco.
 
 <!-- 
 
@@ -26,19 +26,19 @@ t_bulk_estimates.xml
 
 >[!NOTE]
 >
->[Le ](../../features/administration/administration-overview.md) autorizzazioni del gruppo RBAC assegnate nell’ [!DNL Audience Manager] interfaccia utente sono rispettate in  [!UICONTROL Bulk Management Tools].
+>[Autorizzazioni del gruppo RBAC](../../features/administration/administration-overview.md) assegnato in [!DNL Audience Manager] L’interfaccia utente di è rispettata in [!UICONTROL Bulk Management Tools].
 
-Per eseguire aggiornamenti in blocco, apri il foglio di lavoro [!UICONTROL Bulk Management Tools] e:
+Per eseguire aggiornamenti in blocco, apri [!UICONTROL Bulk Management Tools] foglio di lavoro e
 
-1. Fai clic sulla scheda **[!UICONTROL Headers]** e copia l’intestazione [!UICONTROL Estimate Segment Size].
-2. Fai clic sulla scheda **[!UICONTROL Estimate]** .
-3. Incolla l&#39;intestazione della stima nella prima riga del foglio di lavoro della stima.
-4. Incolla o digita i dati da modificare in una colonna corrispondente in base all’etichetta dell’intestazione.
-5. Nella barra degli strumenti del foglio di lavoro, fare clic sul pulsante crea corrispondente all&#39;elemento che si sta aggiornando.
-Questa azione apre la finestra di dialogo [!UICONTROL Account Information] .
-6. Fornisci le [informazioni di accesso ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) richieste e fai clic su **[!UICONTROL Submit]**.
+1. Fai clic su **[!UICONTROL Headers]** e copia il [!UICONTROL Estimate Segment Size] intestazione.
+2. Fai clic su **[!UICONTROL Estimate]** scheda.
+3. Incollare l&#39;intestazione della stima nella prima riga del foglio di lavoro della stima.
+4. Incolla o digita i dati che desideri modificare in una colonna corrispondente in base all’etichetta dell’intestazione.
+5. Nella barra degli strumenti del foglio di lavoro fare clic sul pulsante Crea corrispondente all&#39;elemento che si sta aggiornando.
+Questa azione apre il [!UICONTROL Account Information] .
+6. Fornisci il necessario [informazioni di accesso](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) e fai clic su **[!UICONTROL Submit]**.
 
-Questa azione crea una colonna [!UICONTROL Response] nel foglio di lavoro che contiene i dati stimati sulle dimensioni del segmento. Prima di immettere i dati, il foglio di lavoro della stima in serie deve essere simile al seguente:
+Questa azione crea un [!UICONTROL Response] nel foglio di lavoro che contiene i dati stimati sulle dimensioni dei segmenti. Prima di immettere i dati, il foglio di lavoro della stima in blocco deve avere un aspetto simile al seguente:
 
 ![](assets/estimate.png)
-Se l&#39;aggiornamento collettivo restituisce un errore o non riesce, consulta  [Risoluzione dei problemi relativi agli strumenti di gestione in blocco](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Se l’aggiornamento in blocco restituisce un errore o non riesce, consulta [Risoluzione dei problemi relativi agli strumenti di gestione in blocco](../../reference/bulk-management-tools/bulk-troubleshooting.md).

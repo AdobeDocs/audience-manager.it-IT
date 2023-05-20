@@ -25,19 +25,19 @@ La documentazione sulla Privacy dei dati descrive [!DNL Audience Manager] integr
 * I consumatori ricevono contenuti personalizzati, offerte di prodotti scontati ed esperienze utente semplificate.
 * I brand ricevono flussi di entrate fondamentali che supportano più modelli di business online.
 
-Nel nostro continuo sostegno a questo modello, [!DNL Audience Manager] rimane impegnato a fornire gli strumenti per aiutarti a fornire trasparenza e controllo ai tuoi consumatori, mentre distribuisci annunci personalizzati nel rispetto delle [Principi di autoregolamentazione della pubblicità comportamentale online (OBA)](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
+Continuando a sostenere questo modello, [!DNL Audience Manager] si impegna a fornirti gli strumenti per aiutarti a fornire trasparenza e controllo ai tuoi consumatori e al tempo stesso proporre annunci personalizzati nel rispetto del [Principi di autoregolamentazione della pubblicità comportamentale online (OBA, Online Behavioral Advertising)](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
 ## [!DNL GDPR] {#gdpr}
 
-Il [Regolamento generale sulla protezione dei dati (RGPD)](https://gdpr.eu/data-privacy/) ha introdotto diversi nuovi diritti riguardanti la privacy dei dati per i membri dell’Unione europea, tra cui il **diritto di accesso** e il **diritto all’oblio**. Ciò significa che [!DNL EU] il cittadino i cui dati personali sono stati raccolti dalla tua azienda può richiedere l&#39;accesso o la cancellazione dei propri dati in qualsiasi momento. Il mancato rispetto di queste richieste può comportare multe di milioni di dollari per la tua organizzazione.
+Il [Regolamento generale sulla protezione dei dati (RGPD)](https://gdpr.eu/data-privacy/) ha introdotto diversi nuovi diritti riguardanti la privacy dei dati per i membri dell’Unione europea, tra cui il **diritto di accesso** e il **diritto all’oblio**. Ciò significa che [!DNL EU] i cittadini i cui dati personali sono stati raccolti dalla tua azienda possono richiedere l’accesso o la cancellazione dei propri dati in qualsiasi momento. Il mancato rispetto di queste richieste può comportare multe di milioni di dollari per la tua organizzazione.
 
-Per rispettare [!DNL GDPR], [!DNL Audience Manager] supporta l’accesso e l’eliminazione dei dati [requests](data-privacy-requests.md).
+Per rispettare [!DNL GDPR], [!DNL Audience Manager] supporta l’accesso e l’eliminazione dei dati [richieste](data-privacy-requests.md).
 
 ## [!DNL CCPA] {#ccpa}
 
 Il [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), entrato in vigore il 1° gennaio 2020, conferisce ai residenti californiani nuovi diritti in merito alle loro informazioni personali e impone responsabilità in materia di protezione dei dati a determinate entità che conducono attività commerciali in California.
 
-[!DNL CCPA]Il fornisce nuovi diritti sulla privacy dei dati ai residenti della California, compreso il diritto di accesso e cancellazione dei propri dati personali e di sapere se essi sono venduti o divulgati (e a chi). Per rispettare [!DNL CCPA], [!DNL Audience Manager] supporta [!DNL CCPA] accesso ed eliminazione [requests](data-privacy-requests.md).
+[!DNL CCPA]Il fornisce nuovi diritti sulla privacy dei dati ai residenti della California, compreso il diritto di accesso e cancellazione dei propri dati personali e di sapere se essi sono venduti o divulgati (e a chi). Per rispettare [!DNL CCPA], [!DNL Audience Manager] supporta [!DNL CCPA] accesso ed eliminazione [richieste](data-privacy-requests.md).
 
 Per ulteriori informazioni, consulta il [Centro per la privacy di Adobe](https://www.adobe.com/it/privacy/opt-out.html).
 
@@ -47,7 +47,7 @@ Per ulteriori informazioni, consulta il [Centro per la privacy di Adobe](https:/
 
 Questo servizio fornisce una [!DNL RESTful API] e un’interfaccia utente che facilitano la gestione delle richieste dei clienti relative ai dati. Tramite il [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), puoi inviare richieste di accesso e cancellazione dei dati in base a una richiesta di un singolo consumatore, in modo da automatizzare questa parte degli obblighi di conformità.
 
-Mentre le richieste di accesso e cancellazione dei dati vengono gestite tramite Privacy Service, [richieste di rinuncia](data-privacy-requests.md#opt-out-requests) sono attualmente supportati tramite [API DCS](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Per ulteriori informazioni, consulta [Data Privacy Requests](data-privacy-requests.md).
+Mentre le richieste di accesso e cancellazione dei dati vengono gestite attraverso il Privacy Service, [richieste di rinuncia](data-privacy-requests.md#opt-out-requests) sono attualmente supportati tramite [API DCS](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Per ulteriori informazioni, consulta [Data Privacy Requests](data-privacy-requests.md).
 
 ## Concetti correlati {#related-concepts}
 
