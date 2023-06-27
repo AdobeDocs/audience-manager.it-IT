@@ -2,20 +2,28 @@
 description: Panoramica di DIL e del suo funzionamento.
 seo-description: An overview of DIL and how it works.
 seo-title: Understanding the Data Integration Library (DIL)
-keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil
+keywords: dil
 solution: Audience Manager
 title: Informazioni sulla Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 feature: DIL Implementation
 exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 11%
+source-wordcount: '519'
+ht-degree: 10%
 
 ---
 
 # Comprensione di [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
+
+>[!WARNING]
+>
+>A partire da luglio 2023, Adobe ha interrotto lo sviluppo del [!DNL Data Integration Library (DIL)] e [!DNL DIL] estensione.
+><br><br>
+>I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
+><br><br>
+>I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
 
 Panoramica, guida introduttiva e metodi di codice disponibili nella [!DNL Audience Manager DIL] libreria dei codici.
 

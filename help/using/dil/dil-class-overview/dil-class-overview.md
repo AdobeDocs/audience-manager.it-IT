@@ -6,15 +6,25 @@ solution: Audience Manager
 title: Metodi DIL a livello di classe
 uuid: 903a661f-8871-4402-b9d6-acae920276cb
 feature: DIL Implementation
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 9%
+source-wordcount: '142'
+ht-degree: 4%
 
 ---
 
 
 # Metodi DIL a livello di classe {#class-level-dil-methods}
+
+>[!WARNING]
+>
+>A partire da luglio 2023, Adobe ha interrotto lo sviluppo del [!DNL Data Integration Library (DIL)] e [!DNL DIL] estensione.
+><br><br>
+>I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
+><br><br>
+>I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
+
+
 
 Le API DIL a livello di classe consentono di creare e utilizzare in modo programmatico oggetti Audienci Manager. Le API a livello di classe funzionano con le altre funzioni a livello di istanza per impostare valori o restituire dati.
 

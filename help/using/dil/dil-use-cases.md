@@ -7,14 +7,22 @@ title: Casi d’uso DIL ed esempi di codice
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '981'
 ht-degree: 2%
 
 ---
 
 # Casi d’uso DIL ed esempi di codice{#dil-use-cases-and-code-samples}
+
+>[!WARNING]
+>
+>A partire da luglio 2023, Adobe ha interrotto lo sviluppo del [!DNL Data Integration Library (DIL)] e [!DNL DIL] estensione.
+><br><br>
+>I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
+><br><br>
+>I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
 
 Esempi di codice e descrizioni per casi d’uso specifici di DIL.
 
@@ -46,7 +54,7 @@ Ricorda di mantenere le stesse proprietà del valore quando si trasmettono i dat
 
 In questo esempio di base i dati relativi a colore e prezzo vengono inviati ad Audience Manager sotto forma di coppie chiave-valore. Il codice sarà simile al seguente:
 
-<pre class="&ldquo;java&rdquo;"><code>
+<pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
@@ -244,4 +252,3 @@ Per inviare traffico `dil.js` file in GTM:
 >* [Centro assistenza di Google Tag Manager](https://support.google.com/tagmanager#topic=3441530)
 >* [Segnali](../dil/dil-instance-methods.md#signals)
 >* [Requisiti di prefisso delle variabili chiave](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
-
