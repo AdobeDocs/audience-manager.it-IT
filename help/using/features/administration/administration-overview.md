@@ -8,9 +8,9 @@ title: Amministrazione
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-source-git-commit: 8ef6e8eb4351c24b55703b1788c68c580f199fc8
+source-git-commit: c29e581c736e03066df7d0698d4ea384e14db467
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1187'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 2%
 > La gestione degli account utente è in corso di spostamento al [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Per avviare la migrazione degli utenti, è necessario che tutti i clienti Audience Manager adottino immediatamente le misure necessarie descritte in questo : [Migrazione degli utenti Audience Manager ad Admin Console](admin-console-migration.md).
 > 
 > Dopo la migrazione di tutti i clienti, le sezioni di gestione utenti di questo documento spariranno.
+
+>[!IMPORTANT]
+>
+> Prima di usare [!DNL RBAC], questa funzione deve essere abilitata per Adobe per la tua organizzazione. Contatta il team del tuo account per richiedere [!DNL RBAC] o contatta l’Assistenza clienti.
 
 
 Le opzioni sotto [!UICONTROL Administration] consente di creare utenti Audience Manager e assegnarli a gruppi. Puoi anche visualizzare i limiti (caratteristiche, segmenti, destinazioni e modelli).
@@ -41,6 +45,7 @@ Clienti aziendali che utilizzano [!DNL Audience Manager] necessitano di una piat
 > La gestione degli account utente è in corso di spostamento al [Admin Console](https://helpx.adobe.com/it/enterprise/using/admin-console.html). Per avviare la migrazione degli utenti, è necessario che tutti i clienti Audience Manager adottino immediatamente le misure necessarie descritte in questo : [Migrazione degli utenti Audience Manager ad Admin Console](admin-console-migration.md).
 > 
 > Dopo la migrazione di tutti i clienti, la sezione sulla gestione degli utenti di questo documento sparirà.
+> 
 Creare utenti in [!DNL Audience Manager] e specificare i dettagli utente, lo stato di accesso e assegnare gli utenti ai gruppi.
 
 1. Clic **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
