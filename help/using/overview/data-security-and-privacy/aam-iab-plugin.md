@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Plug-in di Audience Manager per IAB TCF
 feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
+source-git-commit: 8b370a64d80b40124abee91351cbef09711243d4
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 35%
@@ -69,7 +69,7 @@ Per utilizzare il plug-in Audienci Manager per IAB TCF è necessario soddisfare 
 
 >[!WARNING]
 >
->Se utilizzi una piattaforma di gestione del consenso (CMP) che non supporta IAB TCF v.2.0, Audienci Manager invierà automaticamente il `gdpr=0` nelle sincronizzazioni ID, anche se i visitatori si trovano nell&#39;Unione Europea. Per determinare se la convalida RGPD è attiva, ti consigliamo di confermare con la tua piattaforma di gestione dei consensi (CMP) che supporta IAB TCF v2.2.
+>Se utilizzi una piattaforma di gestione del consenso (CMP) che non supporta IAB TCF v2.2, Audienci Manager invierà automaticamente il `gdpr=0` nelle sincronizzazioni ID, anche se i visitatori si trovano nell&#39;Unione Europea. Per determinare se la convalida RGPD è attiva, ti consigliamo di confermare con la tua piattaforma di gestione dei consensi (CMP) che supporta IAB TCF v2.2.
 
 ## Raccomandazioni e modalità di implementazione {#recommendations}
 
