@@ -7,7 +7,7 @@ title: Casi d’uso DIL ed esempi di codice
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 2%
@@ -19,10 +19,10 @@ ht-degree: 2%
 >[!WARNING]
 >
 >A partire da luglio 2023, Adobe ha interrotto lo sviluppo del [!DNL Data Integration Library (DIL)] e [!DNL DIL] estensione.
-><br>
->I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
-><br>
->I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
+>
+>I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experienci Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
+>
+>I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experienci Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
 
 Esempi di codice e descrizioni per casi d’uso specifici di DIL.
 
@@ -32,9 +32,9 @@ c_dil_use_case.xml
 
  -->
 
-## Inviare elementi dati ad Audience Manager con DIL {#send-data-elements-dil}
+## Inviare elementi dati ad Audienci Manager con DIL {#send-data-elements-dil}
 
-Crea una variabile oggetto che invia informazioni sugli elementi della pagina a Audience Manager. Questa funzione è utile per la raccolta dati generali o in alternativa alla raccolta di dati con variabili di Analytics.
+Crea una variabile oggetto che invia informazioni sugli elementi della pagina a Audienci Manager. Questa funzione è utile per la raccolta dati generali o in alternativa alla raccolta di dati con variabili di Analytics.
 
 <!-- 
 
@@ -52,7 +52,7 @@ Ricorda di mantenere le stesse proprietà del valore quando si trasmettono i dat
 
 **Esempio 1: inviare dati come coppie chiave-valore**
 
-In questo esempio di base i dati relativi a colore e prezzo vengono inviati ad Audience Manager sotto forma di coppie chiave-valore. Il codice sarà simile al seguente:
+In questo esempio di base i dati relativi a colore e prezzo vengono inviati ad Audienci Manager sotto forma di coppie chiave-valore. Il codice sarà simile al seguente:
 
 <pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -65,7 +65,7 @@ sample_dil.api.submit();
 
 **Esempio 2: inviare dati in un oggetto**
 
-In questo esempio avanzato viene illustrato come inviare dati in un oggetto a Audience Manager. Quando si utilizza questo metodo, [!UICONTROL DIL] consente di passare un oggetto come parametro di funzione nel [!DNL signals()] metodo. [!UICONTROL DIL] Il codice sarà simile al seguente:
+In questo esempio avanzato viene illustrato come inviare dati in un oggetto a Audienci Manager. Quando si utilizza questo metodo, [!UICONTROL DIL] consente di passare un oggetto come parametro di funzione nel [!DNL signals()] metodo. [!UICONTROL DIL] Il codice sarà simile al seguente:
 
 <pre class="java"><code>
 var my_object = { 
@@ -103,7 +103,7 @@ sample_dil.api.submit();
 
 ## Acquisisci URL di riferimento {#capture-referring-url}
 
-Acquisisci e invia un URL di riferimento a Audience Manager.
+Acquisisci e invia un URL di riferimento a Audienci Manager.
 
 <!-- 
 
@@ -172,7 +172,7 @@ if (search_referrer && search_referrer.valid) {
 
 **Esempio di codice per motore di ricerca non elencato**
 
-In questo caso, supponiamo che un utente abbia cercato il termine &quot;home&quot; da `dogpile.com`. Perché [!DNL Dogpile] non è supportato per impostazione predefinita, è possibile configurare DIL per riconoscere questo motore di ricerca e restituire i termini di ricerca ad Audience Manager. Il codice sarà simile al seguente:
+In questo caso, supponiamo che un utente abbia cercato il termine &quot;home&quot; da `dogpile.com`. Perché [!DNL Dogpile] non è supportato per impostazione predefinita, è possibile configurare DIL per riconoscere questo motore di ricerca e restituire i termini di ricerca ad Audienci Manager. Il codice sarà simile al seguente:
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 

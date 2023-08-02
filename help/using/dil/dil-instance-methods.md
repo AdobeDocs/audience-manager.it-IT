@@ -8,7 +8,7 @@ title: Metodi DIL a livello di istanza
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 14%
@@ -20,10 +20,10 @@ ht-degree: 14%
 >[!WARNING]
 >
 >A partire da luglio 2023, Adobe ha interrotto lo sviluppo del [!DNL Data Integration Library (DIL)] e [!DNL DIL] estensione.
-><br>
->I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
-><br>
->I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
+>
+>I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experienci Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
+>
+>I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experienci Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
 
 A livello di istanza [!UICONTROL DIL] Le API consentono di creare e lavorare in modo programmatico con oggetti Audienci Manager. I metodi a livello di istanza migliorano le funzionalità API stabilite dai metodi a livello di classe.
 
@@ -493,7 +493,7 @@ state = {
 
 ## idSync {#idsync}
 
-È costituito da due funzioni che consentono ai partner dati di scambiare e sincronizzare gli ID utente tra loro e con Audience Manager.
+È costituito da due funzioni che consentono ai partner dati di scambiare e sincronizzare gli ID utente tra loro e con Audienci Manager.
 
 <!-- 
 
@@ -519,7 +519,7 @@ Funziona con [!UICONTROL DIL] versioni 2.10 e 3.1 o successive.
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Quando conosci già l’ID utente e vuoi inviarlo ad Audience Manager. </p> <p> <p><b>Importante:</b>  Metodo obsoleto. Utilizza il <code> idSyncByDataSource </code> metodo dell’istanza del servizio Adobe Experience Platform Identity. </p> </p> </td> 
+   <td colname="col2"> <p>Quando conosci già l’ID utente e vuoi inviarlo ad Audienci Manager. </p> <p> <p><b>Importante:</b>  Metodo obsoleto. Utilizza il <code> idSyncByDataSource </code> metodo dell’istanza del servizio Adobe Experience Platform Identity. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

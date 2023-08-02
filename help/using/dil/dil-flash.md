@@ -1,5 +1,5 @@
 ---
-description: Raccogli i dati inviati dai file FLA ad Analytics e utilizza tali informazioni in Audience Manager.
+description: Raccogli i dati inviati dai file FLA ad Analytics e utilizza tali informazioni in Audienci Manager.
 seo-description: Collect data sent from FLA files to Analytics and work with that information in Audience Manager.
 seo-title: Flash DIL
 solution: Audience Manager
@@ -7,7 +7,7 @@ title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 3%
@@ -19,12 +19,12 @@ ht-degree: 3%
 >[!WARNING]
 >
 >A partire da luglio 2023, Adobe ha interrotto lo sviluppo del [!DNL Data Integration Library (DIL)] e [!DNL DIL] estensione.
-><br>
->I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
-><br>
->I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
+>
+>I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experienci Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
+>
+>I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experienci Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
 
-Raccogli i dati inviati dai file FLA ad Analytics e utilizza tali informazioni in Audience Manager.
+Raccogli i dati inviati dai file FLA ad Analytics e utilizza tali informazioni in Audienci Manager.
 
 <!-- 
 
@@ -32,7 +32,7 @@ c_flash_dil_toc.xml
 
  -->
 
-[!UICONTROL Flash DIL] è un [!DNL ActionScript] libreria di codici che consente di lavorare con i dati di riproduzione video in Audience Manager. [!DNL Flash DIL] funziona acquisendo il contenuto SWF dell’Adobe [!UICONTROL AppMeasurement] La libreria passa ad Analytics. [!DNL Flash DIL] invia tali dati a [!UICONTROL DIL] Modulo di raccolta dati JavaScript, che trasmette tali informazioni ad Audience Manager. Dati di Analytics ( [!UICONTROL Props], [!UICONTROL eVars], eventi, ecc.) acquisito da [!DNL FLA] Il file è disponibile in Audience Manager come caratteristiche o segnali non utilizzati.
+[!UICONTROL Flash DIL] è un [!DNL ActionScript] libreria di codici che consente di lavorare con i dati di riproduzione video in Audienci Manager. [!DNL Flash DIL] funziona acquisendo il contenuto SWF dell’Adobe [!UICONTROL AppMeasurement] La libreria passa ad Analytics. [!DNL Flash DIL] invia tali dati a [!UICONTROL DIL] Modulo di raccolta dati JavaScript, che trasmette tali informazioni ad Audienci Manager. Dati di Analytics ( [!UICONTROL Props], [!UICONTROL eVars], eventi, ecc.) acquisito da [!DNL FLA] Il file è disponibile in Audienci Manager come caratteristiche o segnali non utilizzati.
 
 ## Requisiti per la raccolta di dati Flash DIL {#requirements}
 
@@ -106,7 +106,7 @@ I dati di questi parametri vengono raccolti per impostazione predefinita:
 * `mediaAdParentPod` (Il pod o l’interruzione pubblicitaria all’interno del contenuto principale in cui viene riprodotto l’annuncio)
 * `mediaAdParentPodPos` (La posizione numerica all’interno del pod in cui viene riprodotto l’annuncio. In un pod è possibile riprodurre più annunci.
 
-## Dati Flash DIL in Audience Manager {#flash-dil-data}
+## Dati Flash DIL in Audienci Manager {#flash-dil-data}
 
 Il [!UICONTROL Flash DIL] trasforma i dati di Adobe AppMeasurement in caratteristiche Audienci Manager e segnali non utilizzati.
 
@@ -116,7 +116,7 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analytics [!UICONTROL Props], [!UICONTROL eVars], e gli eventi funzionano come caratteristiche in Audience Manager. Le caratteristiche sono coppie chiave-valore e vengono utilizzate per creare i segmenti. Ad esempio, in un prop di Analytics come `c30=foo`, `c30` è la chiave (una costante) e `foo` è il valore (una variabile).
+Analytics [!UICONTROL Props], [!UICONTROL eVars], e gli eventi funzionano come caratteristiche in Audienci Manager. Le caratteristiche sono coppie chiave-valore e vengono utilizzate per creare i segmenti. Ad esempio, in un prop di Analytics come `c30=foo`, `c30` è la chiave (una costante) e `foo` è il valore (una variabile).
 
 **Confrontare caratteristiche Audience Manager con variabili Analytics**
 
@@ -136,7 +136,7 @@ Audience Manager accetta Analytics [!UICONTROL Props], [!UICONTROL eVars], e anc
 
 ## Libreria ActionScript di Flash DIL {#flash-dil-actionscript}
 
-Codice per [!DNL Flash] oggetto per inviare dati di Analytics ad Audience Manager.
+Codice per [!DNL Flash] oggetto per inviare dati di Analytics ad Audienci Manager.
 
 <!-- 
 
