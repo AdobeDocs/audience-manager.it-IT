@@ -4,7 +4,7 @@ title: Codici errore DCS, messaggi ed esempi
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 4%
@@ -166,7 +166,7 @@ Nelle tabelle seguenti: *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>ID dispositivo dichiarato bloccato <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Elenco Bloccati L’ID dispositivo è stato identificato come dannoso ed è stato aggiunto a un. Questo problema può verificarsi quando si riceve una quantità estrema di <span class="wintitle"> DCS</span> richieste contenenti questo ID dispositivo in un breve periodo di tempo. </p> </td>
+   <td colname="col3"> <p>Inserire nell'elenco Bloccati L’ID dispositivo è stato identificato come dannoso ed è stato aggiunto a un. Questo problema può verificarsi quando si riceve una quantità estrema di <span class="wintitle"> DCS</span> richieste contenenti questo ID dispositivo in un breve periodo di tempo. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
@@ -191,7 +191,7 @@ Nelle tabelle seguenti: *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>La richiesta contiene un ID dispositivo globale non valido </p> </td> 
-   <td colname="col3"> <p>Il <span class="wintitle">DCS</span> restituisce questo codice di errore se la richiesta contiene un ID dispositivo globale non valido. DCS ignora l’ID non valido e genera un errore 312 insieme a errori specifici dell’ID non valido. Fai riferimento a <a href="../../../features/global-data-sources.md" format="dita" scope="local">Fonti di dati globali</a> e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Indice degli ID in Audience Manager</a> per informazioni dettagliate sui formati degli ID di device advertising corretti e sulle corrispondenti sorgenti di dati globali.</p>
+   <td colname="col3"> <p>Il <span class="wintitle">DCS</span> restituisce questo codice di errore se la richiesta contiene un ID dispositivo globale non valido. DCS ignora l’ID non valido e genera un errore 312 insieme a errori specifici dell’ID non valido. Fai riferimento a <a href="../../../features/global-data-sources.md" format="dita" scope="local">Fonti di dati globali</a> e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Indice degli ID in Audienci Manager</a> per informazioni dettagliate sui formati degli ID di device advertising corretti e sulle corrispondenti sorgenti di dati globali.</p>
    <p>Esempio di chiamata non corretta: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Spiegazione: An <span class="keyword">IDFA (20915 DPID)</span> deve essere un ID in maiuscolo. L’ID fornito nella richiesta è in minuscolo.</p>
    </td>
@@ -199,13 +199,13 @@ Nelle tabelle seguenti: *corsivo* rappresenta un segnaposto variabile.
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>L’ID CMP non è presente in GCL</p> </td> 
-   <td colname="col3"> <p>Quando <code>gdpr=1</code> e la stringa TC IAB è generata da un ID CMP non presente nella versione cache di Audience Manager dell’elenco CMP globale al momento della valutazione, il plug-in Audience Manager per IAB TCF elimina la stringa TC IAB ed elabora la richiesta come di consueto. La macro IAB TCF v2.0 ${GDPR} è impostata su 0 e la macro ${GDPR_CONSENT_XXX} è vuota.</p>
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e la stringa TC IAB è generata da un ID CMP non presente nella versione cache di Audienci Manager dell’elenco CMP globale al momento della valutazione, il plug-in Audienci Manager per IAB TCF elimina la stringa TC IAB ed elabora la richiesta come di consueto. IAB TCF v2.2 ${GDPR} macro è impostata su 0 e la{GDPR_CONSENT_XXX} macro vuota.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>L’ID CMP è contrassegnato come eliminato in GCL</p> </td> 
-   <td colname="col3"> <p>Quando <code>gdpr=1</code> e la stringa TC IAB viene generata da una CMP contrassegnata come eliminata nella nostra versione cache dell’elenco CMP globale, il plug-in di Audience Manager per IAB TCF elimina la stringa TC ed elabora la richiesta come di consueto, se il tempo di valutazione è superiore al tempo di eliminazione dall’elenco CMP globale. La macro IAB TCF v2.0 ${GDPR} è impostata su 0 e la macro ${GDPR_CONSENT_XXX} è vuota.</p></td>
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e la stringa TC IAB viene generata da una CMP contrassegnata come eliminata nella nostra versione cache dell’elenco CMP globale, il plug-in di Audience Manager per IAB TCF elimina la stringa TC ed elabora la richiesta come di consueto, se il tempo di valutazione è superiore al tempo di eliminazione dall’elenco CMP globale. IAB TCF v2.2 ${GDPR} macro è impostata su 0 e la{GDPR_CONSENT_XXX} macro vuota.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 
