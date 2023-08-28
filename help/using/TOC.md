@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Guida utente di Audience Manager
 user-guide-description: Scopri come utilizzare Adobe Audience Manager per raccogliere informazioni rilevanti dal punto di vista commerciale sui visitatori del sito e creare segmenti commerciabili. Puoi anche trovare dettagli su come distribuire pubblicità e contenuti mirati al pubblico giusto.
 feature-set: Audience Manager
-source-git-commit: f4babbb632279cf213116e004551e5c77869ab78
+source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1835'
 ht-degree: 90%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 90%
          + [Gestione del consenso](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Plug-in di Audience Manager per IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Governance dei dati](overview/data-security-and-privacy/data-governance.md)
-   + [Accessibilità in Audience Manager](/help/using/overview/accessibility-in-aam.md)
+   + [Accessibilità in Audienci Manager](/help/using/overview/accessibility-in-aam.md)
 + Funzioni {#features}
    + [Pubblico di riferimento](features/addressable-audiences.md)
    + Amministrazione {#administration}
-      + [Migrazione degli utenti Audience Manager all’Admin Console](features/administration/admin-console-migration.md)
+      + [Migrazione degli utenti Audienci Manager all’Admin Console](features/administration/admin-console-migration.md)
       + [Amministrazione](features/administration/administration-overview.md)
       + [Modificare le impostazioni account](features/administration/edit-account-settings.md)
       + [Offuscamento dell’indirizzo IP](features/administration/ip-obfuscation.md)
@@ -113,7 +113,7 @@ ht-degree: 90%
          + [Aggiungere nuove destinazioni basate su dispositivi](features/destinations/add-device-based-destinations.md)
          + [Elenco delle destinazioni basate su dispositivi di Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
          + [Aggiungere o modificare segmenti per le destinazioni server-to-server](features/destinations/add-edit-segments.md)
-         + [Configurare i tipi di pubblico personalizzati di Twitter come destinazione self-service basata su dispositivi](features/destinations/twitter-tailored-audiences.md)
+         + [Configurare i tipi di pubblico personalizzati del Twitter come destinazione self-service basata su dispositivi](features/destinations/twitter-tailored-audiences.md)
       + Destinazioni personalizzate {#custom-destinations}
          + [Configurare una destinazione URL](features/destinations/create-url-destination.md)
          + [Configurare una destinazione cookie](features/destinations/create-cookie-destination.md)
@@ -182,7 +182,7 @@ ht-degree: 90%
       + [Rapporti di Audience Optimization](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization per gli inserzionisti {#audience-optimization-advertisers}
          + [Panoramica di Audience Optimization per gli inserzionisti](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Importare file di dati di Google Campaign Manager in Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Importare file di dati di Google Campaign Manager in Audienci Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Rapporto sulle prestazioni dei segmenti](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Rapporto sull’analisi delle tendenze e dei volumi](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
          + [Rapporto di frequenza ottimale](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
@@ -191,7 +191,7 @@ ht-degree: 90%
          + [Conversione tra canali](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Ottimizzazione del pubblico per publisher {#audience-optimization-publishers}
          + [Panoramica di Audience Optimization per gli editori](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
-         + [Importare file di dati di Google Ad Manager (precedentemente DFP) in Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+         + [Importare file di dati di Google Ad Manager (precedentemente DFP) in Audienci Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Rapporto sulle prestazioni dei segmenti](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Rapporto sulle tendenze dei segmenti](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
          + [Principali caratteristiche non utilizzate](reporting/audience-optimization-reports/aor-publishers/publisher-top-unused-traits.md)
@@ -336,14 +336,15 @@ ht-degree: 90%
          + [Crittografia PGP dei file per i tipi di dati in entrata](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [File Compression for Inbound Data Transfer Files](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Messaggio di esempio ai partner dopo l’elaborazione in entrata](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
+         + [Utilizzo delle autorizzazioni bucket tra account diversi di Amazon S3 per i file in entrata](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [Integrazioni di partner personalizzate](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integrazione con Adobe Experience Platform {#integration-experience-platform}
-      + [Condivisione dei segmenti Experience Platform con Audience Manager e altre soluzioni Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Condivisione dei segmenti Experienci Platform con Audienci Manager e altre soluzioni Experience Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integrazione con altre applicazioni Experience Cloud {#integration-other-solutions}
-      + [Integrare Audience Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
+      + [Integrare Audienci Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Inoltrare dati da Adobe Analytics ad Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Pubblicare un segmento di Adobe Analytics nell’Experience Cloud (apre la documentazione di Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Integrare Audience Manager con Adobe Campaign (apre la documentazione di Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Integrare Audienci Manager con Adobe Campaign (apre la documentazione di Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Riferimenti {#reference}
    + [Panoramica dei riferimenti](reference/reference.md)
    + [Informazioni su Amazon S3](reference/amazon-s3.md)
