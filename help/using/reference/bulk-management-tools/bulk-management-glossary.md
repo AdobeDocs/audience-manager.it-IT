@@ -7,9 +7,9 @@ title: Glossario degli strumenti di gestione in blocco
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: BAAAM
 exl-id: 036d16c7-1546-4539-a318-455b98e10026
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '364'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 3%
 # Glossario degli strumenti di gestione in blocco{#bulk-management-tools-glossary}
 
 Definite le etichette di intestazione di colonna.
+
+>[!IMPORTANT]
+>
+>Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 

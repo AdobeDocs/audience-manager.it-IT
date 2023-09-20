@@ -7,9 +7,9 @@ title: Eliminazione in blocco
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 feature: BAAAM
 exl-id: 3ff530dd-66d0-4dd3-a6e6-afe4a9cb5ba4
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 # Eliminazione in blocco{#bulk-delete}
 
 L’eliminazione in blocco consente di rimuovere più segmenti, caratteristiche, cartelle, segnali derivati, origini dati, modelli e destinazioni con una singola operazione. Segui queste istruzioni per effettuare una richiesta di eliminazione in blocco.
+
+>[!IMPORTANT]
+>
+>Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 

@@ -8,9 +8,9 @@ title: Aggiornamenti in blocco
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
 feature: BAAAM
 exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 # Aggiornamenti in blocco{#bulk-updates}
 
 Un aggiornamento in blocco consente di modificare più segmenti, caratteristiche, modelli, origini dati ed elementi della cartella di segmenti o caratteristiche in un’unica operazione. Segui queste istruzioni per effettuare aggiornamenti in blocco.
+
+>[!IMPORTANT]
+>
+>Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 

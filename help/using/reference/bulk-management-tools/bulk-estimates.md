@@ -7,9 +7,9 @@ title: Stime in blocco
 uuid: 63b2f06a-8ba0-47a2-bd0b-8039b2d4c95d
 feature: BAAAM
 exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '199'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 2%
 # Stime in blocco{#bulk-estimates}
 
 Una stima in blocco restituisce i dati delle dimensioni del segmento in base alle regole del segmento. Segui queste istruzioni per effettuare una richiesta di stima in blocco.
+
+>[!IMPORTANT]
+>
+>Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 

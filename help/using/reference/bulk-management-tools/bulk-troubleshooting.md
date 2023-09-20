@@ -7,9 +7,9 @@ title: Suggerimenti per la risoluzione dei problemi relativi agli strumenti di g
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '408'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 3%
 
 Procedura da eseguire quando i fogli di lavoro restituiscono un errore o la richiesta in blocco non riesce.
 
-
+>[!IMPORTANT]
+>
+>Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 

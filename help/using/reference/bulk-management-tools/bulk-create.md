@@ -7,9 +7,9 @@ title: Creazione in blocco
 uuid: 1e09bcfa-783e-4e9b-9ead-147f8d1381c8
 feature: BAAAM
 exl-id: 7828fc95-24eb-4a80-bdb8-0d9adea43d8f
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 # Creazione in blocco{#bulk-create}
 
 La creazione in blocco consente di creare più origini dati, segnali derivati, segmenti, caratteristiche e altri elementi con una singola operazione. Segui queste istruzioni per effettuare una richiesta di creazione in blocco.
+
+>[!IMPORTANT]
+>
+>Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 

@@ -7,9 +7,9 @@ title: Creare o aggiornare regole di caratteristiche e di segmenti
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '342'
 ht-degree: 8%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 8%
 # Creare o aggiornare regole di caratteristiche e di segmenti{#create-or-update-trait-rules-and-segment-rules}
 
 I fogli di lavoro di creazione e aggiornamento accettano un&#39;intestazione traitRule che consente di applicare più regole in una singola operazione. Segui queste istruzioni per effettuare richieste in blocco di regole.
+
+>[!IMPORTANT]
+>
+>Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 

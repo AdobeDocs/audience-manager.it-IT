@@ -8,16 +8,21 @@ title: Guida introduttiva alla gestione in blocco
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 911eab2d661907c6f1e2ffc08603d994bd346395
+source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '705'
 ht-degree: 3%
 
 ---
 
+
 # Guida introduttiva alla gestione in blocco{#getting-started-with-bulk-management}
 
 Il [!DNL Bulk Management Tools] consente di creare e gestire più oggetti contemporaneamente con una singola operazione. È possibile utilizzare [!DNL Bulk Management Tools] per utilizzare [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], e [!UICONTROL traits].
+
+>[!IMPORTANT]
+>
+>Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 
