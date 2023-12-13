@@ -3,19 +3,23 @@ description: Questa pagina illustra il processo di creazione di pixel WCA (Custo
 seo-description: This page illustrates the process of creating Facebook Website Custom Audiences (WCA) pixels for the purposes of sending web-based Audience Manager audience segments to Facebook, for online ad targeting with improved transparency.
 seo-title: Facebook WCA Integration
 solution: Audience Manager
-title: Integrazione di Facebook WCA
+title: Integrazione WCA facebook
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 8780083474d68717fe3bd4dc632d96da89929122
+source-git-commit: 6dc931b88666515cf51ab89ce1a54bbcf9995679
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 4%
+source-wordcount: '808'
+ht-degree: 1%
 
 ---
 
 # [!DNL Facebook WCA] Integrazione {#facebook-wca-integration}
 
 Questa pagina illustra il processo di creazione di [!DNL Facebook Website Custom Audiences] ([!DNL WCA]) pixel allo scopo di inviare dati basati su Web [!DNL Audience Manager] segmenti di pubblico a [!DNL Facebook], per il targeting di annunci online con maggiore trasparenza.
+
+>[!IMPORTANT]
+>
+>Questa non è un’integrazione prodotta tra Audienci Manager e Facebook.
 
 ## Panoramica {#overview}
 
@@ -32,7 +36,7 @@ Questa pagina illustra il processo di creazione di [!DNL Facebook Website Custom
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] segmenti, pronti per l’assegnazione al nuovo [!DNL Facebook] destinazione. Ecco [come creare un segmento](/help/using/features/segments/segment-builder.md) nel [!DNL Audience Manager] UI.
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versione 4.1.0 o successiva. Scarica la versione più recente **[qui](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versione 9.0 o successiva, scaricabile da **[qui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. In alternativa, se utilizzi [Server-Side Forwarding (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) per importare dati in [!DNL Audience Manager], devi utilizzare AppMeasurement versione 2.12 o successiva. Scarica [!DNL AppMeasurement] utilizzando [Gestione codici di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versione 9.0 o successiva, scaricabile da **[qui](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. In alternativa, se utilizzi [Server-Side Forwarding (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) per importare dati in [!DNL Audience Manager], è necessario utilizzare la versione 2.12 o successiva di AppMeasurement. Scarica [!DNL AppMeasurement] utilizzando [Gestione codici di Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 
 È consigliabile installare o aggiornare le librerie nei passaggi 3 e 4 utilizzando [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
@@ -56,8 +60,8 @@ Seleziona l’opzione **[!UICONTROL This destination may enable a combination wi
 
 ### Configurazione
 
-* **[!UICONTROL URL type]**: Select **[!UICONTROL Website audience for social platforms]**. Selezionando questo [!UICONTROL URL Type] opzione, [!DNL Audience Manager] non oscura il referente [!DNL URL] quando si attiva una [!DNL Facebook WCA] pixel.
-* **[!UICONTROL Serialize]**: Select **[!UICONTROL Enable]**.
+* **[!UICONTROL URL type]**: Seleziona **[!UICONTROL Website audience for social platforms]**. Selezionando questo [!UICONTROL URL Type] opzione, [!DNL Audience Manager] non oscura il referente [!DNL URL] quando si attiva una [!DNL Facebook WCA] pixel.
+* **[!UICONTROL Serialize]**: Seleziona **[!UICONTROL Enable]**.
 * In **[!UICONTROL Base URL]** e **[!UICONTROL Secure URL]** , immettere il [!DNL Facebook WCA] pixel.
 * **[!UICONTROL Delimiter]**: `,`
 
@@ -70,7 +74,7 @@ Esempio di pixel attivato dalla pagina. Questo esempio mostra un utente idoneo p
 | Parametro | Descrizione |
 |---------|----------|
 | `id` | Il tuo [!DNL Facebook] ID pixel, disponibile nella sezione [!DNL Facebook Ad Manager] durante la creazione di pixel per il pubblico. |
-| `ev` | Event.     Si tratta di un valore arbitrario che verrà visualizzato nel [!DNL Facebook Ad Manager] una volta che il pixel inizia a essere attivato sul sito. Consulta la [!UICONTROL Include] elemento in [Passaggio 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience), per ulteriori informazioni. |
+| `ev` | Evento. Si tratta di un valore arbitrario che verrà visualizzato nel [!DNL Facebook Ad Manager] una volta che il pixel inizia a essere attivato sul sito. Consulta la [!UICONTROL Include] elemento in [Passaggio 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience), per ulteriori informazioni. |
 | `cd[segID]` | Un parametro aggiuntivo, che inizierà a essere popolato all&#39;interno del [!DNL Facebook Ad Manager] una volta che il pixel inizia a essere attivato sul sito. `segID` è anche arbitrario. |
 | `%ALIAS%` | Un [!DNL Audience Manager] macro, che verrà sostituita dinamicamente con la [!DNL Audience Manager] [!UICONTROL segment] ID idonei per il visitatore del sito, delimitati da virgole , |
 
@@ -109,3 +113,4 @@ Ora che hai assegnato il tuo [!DNL Audience Manager] segmento al [!DNL Facebook 
 >[!NOTE]
 >
 > Se un utente esce dal [!DNL Audience Manager] segmento, al momento non è possibile: [!DNL Audience Manager] per informare [!DNL Facebook] per rimuovere l&#39;utente da [!DNL Custom Audience].
+>
