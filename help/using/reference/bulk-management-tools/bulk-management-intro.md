@@ -8,10 +8,10 @@ title: Guida introduttiva alla gestione in blocco
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
+source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 3%
+source-wordcount: '708'
+ht-degree: 1%
 
 ---
 
@@ -47,7 +47,7 @@ Scarica il foglio di lavoro più recente **[qui](assets/BAAAM_V2_20210609.xlsm)*
 Per utilizzare [!DNL Bulk Management Tools], sono necessari i seguenti elementi:
 
 * Il tuo [!DNL Experience Cloud] accesso. In qualità di cliente, dovresti già disporre di queste credenziali.
-* Il [!DNL Bulk Management Tools] foglio di lavoro. [Scarica il foglio di lavoro](assets/BAAAM_V2_20200502.xlsm) per ottenere la versione più recente.
+* Il [!DNL Bulk Management Tools] foglio di lavoro. [Scarica il foglio di lavoro](assets/BAAAM_V2_20210609.xlsm) per ottenere la versione più recente.
 * [!DNL Microsoft Excel] in esecuzione [!DNL macOS] o a 64 bit [!DNL Microsoft Windows]. È consigliabile utilizzare l&#39;ultima versione di [!DNL Microsoft Excel].
 * All&#39;apertura del foglio di lavoro, è necessario **Abilita macro** per [!DNL Bulk Management Tools] al lavoro.
 
@@ -104,11 +104,11 @@ Nella tabella seguente sono elencate le operazioni che è possibile eseguire e g
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Origini dati</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Segnali derivati</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Destinazioni </a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Destinazioni</a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modelli</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Cartelle delle caratteristiche</a> cartelle di segmenti e </li> 
-      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segmenti </a> </li> 
-      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Caratteristiche </a> </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segmenti</a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Caratteristiche</a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
