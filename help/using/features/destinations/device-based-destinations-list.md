@@ -7,10 +7,10 @@ solution: Audience Manager
 title: Destinazioni server-to-server di Adobe Audience Manager
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 9947adbd99e12efdf2d94c6840929ad9266c58a2
+source-git-commit: a9a9e7c7813fa70b22e17a2f7b3cf67c0953ede2
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 74%
+source-wordcount: '1268'
+ht-degree: 46%
 
 ---
 
@@ -21,8 +21,8 @@ Questa pagina include [!DNL Audience Manager] [destinazioni basate su dispositiv
 
 * **Ultimo aggiornamento** = Mostra l’ultima data in cui è stato effettuato un aggiornamento per questo [!UICONTROL device-based destination].
 * **Aggiornamenti** = Indica se [!DNL Audience Manager] invia dati in tempo reale o in batch (1 xday) a questo [!UICONTROL destination].
-* **Rimuovi segmento** = rimozione dai segmenti descrive processi che eliminano e rimuovono i profili dispositivo da [!UICONTROL segments]. Possibilità di rimuovere un profilo dispositivo da un [!UICONTROL segment] dipende dall’opzione del dispositivo utilizzata per creare un [!UICONTROL Profile Merge Rule]. La rimozione dai segmenti viene utilizzata anche nel contesto di [!DNL GDPR] eliminare le richieste. Letto [Regole di unione profili e processi di rimozione dei dispositivi dai segmenti](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [Partner Audience Manager con funzionalità di rimozione dai segmenti](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] invia informazioni di rimozione dai segmenti a [!UICONTROL destinations] contrassegnato con **Sì** di seguito.
-* **Ricezione [!DNL IAB TCF] segnali di consenso** = Il [!DNL Audience Manager Plug-in for IAB TCF] consente di inoltrare [!DNL IAB TC] stringa ai partner di attivazione nel rispetto delle scelte sulla privacy degli utenti. Letto [Plug-in Audience Manager per IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **Rimuovi segmento** = rimozione dai segmenti descrive processi che eliminano e rimuovono i profili dispositivo da [!UICONTROL segments]. Possibilità di rimuovere un profilo dispositivo da un [!UICONTROL segment] dipende dall’opzione del dispositivo utilizzata per creare un [!UICONTROL Profile Merge Rule]. La rimozione dai segmenti viene utilizzata anche nel contesto di [!DNL GDPR] eliminare le richieste. Letto [Regole di unione profili e processi di rimozione dei dispositivi dai segmenti](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [Partner Audienci Manager con funzionalità di rimozione dai segmenti](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] invia informazioni di rimozione dai segmenti a [!UICONTROL destinations] contrassegnato con **Sì** di seguito.
+* **Ricezione [!DNL IAB TCF] segnali di consenso** = Il [!DNL Audience Manager Plug-in for IAB TCF] consente di inoltrare [!DNL IAB TC] stringa ai partner di attivazione nel rispetto delle scelte relative alla privacy degli utenti. Letto [Plug-in Audience Manager per IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **[!DNL ICDS]** = In questa colonna sono elencati i partner che supportano [!UICONTROL Instant Cross-Device Suppression]. Ulteriori informazioni [Soppressione immediata su diversi dispositivi](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **ID dispositivo mobile** = In questa colonna sono elencati i partner che possono ricevere ID di dispositivi mobili da [!DNL Audience Manager].
 
@@ -43,7 +43,7 @@ Questa pagina include [!DNL Audience Manager] [destinazioni basate su dispositiv
 | [!DNL Adtheorent] | 22/02/2017 | 1xday | Sì | No | No | Sì |
 | [!DNL Affinio] | 03/04/2018 | 1xday | Sì | No | No | Sì |
 | [!DNL Aki] | 21/06/2018 | 1xday | No | No | No | Sì |
-| [!DNL Amazon Advertising] | 15/06/2017 | 1xday | Sì | No | No | No |
+| [!DNL Amazon Advertising] | 01/02/2024 | 1xday | Sì | No | No | No |
 | [!DNL AOL AdLearn] | 02/03/2017 | Tempo reale | No | No | No | Sì |
 | [!DNL AOL ONE] | 02/03/2017 | Tempo reale | Sì | No | No | Sì |
 | [!DNL AppNexus] | 02/03/2017 | Tempo reale | Sì | No | Sì | Sì |
@@ -66,7 +66,7 @@ Questa pagina include [!DNL Audience Manager] [destinazioni basate su dispositiv
 | [!DNL Crosswise] | 27/02/2017 | 1xday | Sì | No | No | No |
 | [!DNL D.A.C. AudienceOne] | 27/02/2017 | 1xday | Sì | No | No | No |
 | [!DNL DataXu] | 11/20/2017 | Tempo reale | No | No | No | Sì |
-| [!DNL Digilant] | 02/03/2017 | Tempo reale |  | No | No | No |
+| [!DNL Digilant] | 02/03/2017 | Tempo reale |           | No | No | No |
 | [!DNL DistrictM] | 02/03/2017 | 1xday | Sì | No | No | No |
 | [!DNL DoubleVerify] | 06/09/2017 | 1xday | Sì | No | No | No |
 | [!DNL Drawbridge] | 02/03/2017 | Tempo reale | No | No | No | Sì |
@@ -82,7 +82,7 @@ Questa pagina include [!DNL Audience Manager] [destinazioni basate su dispositiv
 | [!DNL Flybits] | 31/07/2020 | Tempo reale | Sì | No | Sì | Sì |
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Sì | No | No | No |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Sì | Sì | No | Sì |
-| [!DNL Gamut Media] | 03/03/2017 | Tempo reale |  | No | No |  |
+| [!DNL Gamut Media] | 03/03/2017 | Tempo reale |           | No | No |                   |
 | [!DNL Google AdsWords Display] | 02/08/2018 | Tempo reale | Sì | Sì | No | Sì |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 24/04/2017 | Tempo reale | Sì | Sì | Sì | Sì |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | Tempo reale | Sì | Sì | Sì | Sì |
@@ -99,7 +99,7 @@ Questa pagina include [!DNL Audience Manager] [destinazioni basate su dispositiv
 | [!DNL Krux] | 30/06/2017 | 1xday | No | No | No | Sì |
 | [!DNL Liftoff.io] | 09/11/2017 | 1xday | Sì | No | No | Sì |
 | [!DNL LiveIntent] | 17/07/2017 | 1xday | Sì | No | No | No |
-| [!DNL LiveRail] | 20/01/2017 | 1xday |  | No | No |  |
+| [!DNL LiveRail] | 20/01/2017 | 1xday |           | No | No |                   |
 | [!DNL Logicad] | 22/06/2017 | 1xday | No | No | No | No |
 | [!DNL Lotame] | 30/06/2017 | 1xday | Sì | No | No | Sì |
 | [!DNL MaxPoint Interactive] | 27/02/2017 | 1xday | No | No | No | No |
@@ -132,15 +132,15 @@ Questa pagina include [!DNL Audience Manager] [destinazioni basate su dispositiv
 | [!DNL Resonate] | 17/02/2017 | 1x/giorno | Sì | No | No | No |
 | [!DNL RevJet] | 17/02/2017 | 1x/giorno | No | No | No | No |
 | [!DNL RocketFuel] | 17/02/2017 | Tempo reale | Sì | No | Sì | Sì |
-| [!DNL Rubicon] |  | Tempo reale | Sì | Sì | No |  |
+| [!DNL Rubicon] |            | Tempo reale | Sì | Sì | No |                   |
 | [!DNL RUN] | 17/02/2017 | 1xday | Sì | No | No | No |
 | [!DNL RTB House] | 04/02/2021 | Tempo reale | Sì | No | Sì | Sì |
 | [!DNL Sabio Mobile] | 17/02/2017 | 1xday | No | No | No | Sì |
 | [!DNL Simpli.fi] | 17/02/2017 | 1xday | No | No | No | Sì |
-| [!DNL Sizmek ad server (Amazon)] | 17/02/2017 | Tempo reale | Sì | No | No |  |
+| [!DNL Sizmek ad server (Amazon)] | 17/02/2017 | Tempo reale | Sì | No | No |                   |
 | [!DNL Slickdeals] | 04/09/2018 | Tempo reale | Sì | No | No | Sì |
 | [!DNL Smart Adserver] | 31/07/2017 | Tempo reale | Sì | No | Sì | Sì |
-| [!DNL So-net Media Networks Logicad] |  | 1x/giorno | Sì | No | No |  |
+| [!DNL So-net Media Networks Logicad] |            | 1x/giorno | Sì | No | No |                   |
 | [!DNL Sonobi] | 28/03/2017 | Tempo reale | Sì | No | Sì | No |
 | [!DNL SpecificMedia] | 03/03/2017 | Tempo reale | No | No | No | No |
 | [!DNL SpongeCell] | 03/03/2017 | Tempo reale | Sì | No | Sì | Sì |
@@ -155,7 +155,7 @@ Questa pagina include [!DNL Audience Manager] [destinazioni basate su dispositiv
 | [!DNL Telaria] | 25/04/2019 | 1xday | Sì | No | No | Sì |
 | [!DNL Telogical Systems] | 03/03/2017 | Tempo reale | Sì | No | No | No |
 | [!DNL The Trade Desk] | 03/03/2017 | Tempo reale | Sì | Sì | Sì | Sì |
-| [!DNL Thnk Realtime] | 05/02/2016 | Tempo reale |  | No | No |  |
+| [!DNL Thnk Realtime] | 05/02/2016 | Tempo reale |           | No | No |                   |
 | [!DNL Tremor Video] | 03/03/2017 | 1xday | Sì | No | No | No |
 | [!DNL Triple Lift] | 03/03/2017 | Tempo reale | No | Sì | No | No |
 | [!DNL TrueX] | 11/01/2018 | Tempo reale | Sì | No | No | Sì |
@@ -169,7 +169,7 @@ Questa pagina include [!DNL Audience Manager] [destinazioni basate su dispositiv
 | [!DNL Videology] | 03/03/2017 | 1xday | No | No | No | No |
 | [!DNL VisualIQ] | 24/03/2017 | 1xday | Sì | No | No | No |
 | [!DNL Wikibuy] | 04/08/2018 | Tempo reale | Sì | No | No | Sì |
-| [!DNL X+1] | 05/02/2016 | 1xday |  | No | No |  |
+| [!DNL X+1] | 05/02/2016 | 1xday |           | No | No |                   |
 | [!DNL Xaxis] | 03/03/2017 | 1xday | Sì | No | No | No |
 | [!DNL Yahoo DataX] | 03/03/2017 | Tempo reale | Sì | Sì | Sì | Sì |
 | [!DNL Yahoo! Japan] | 03/03/2017 | Tempo reale | No | No | No | No |
