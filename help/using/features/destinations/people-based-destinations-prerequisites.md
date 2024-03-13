@@ -6,12 +6,13 @@ solution: Audience Manager
 title: Prerequisiti e considerazioni
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: cd40e1e3cc2199d1937950934d674cfad301f3e8
+source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
 workflow-type: tm+mt
 source-wordcount: '996'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
+
 
 # Prerequisiti e considerazioni {#prerequisites-considerations}
 
@@ -25,7 +26,7 @@ Leggi di seguito per una panoramica dei requisiti del cliente che è necessario 
 
 ## Registrazione per [!UICONTROL People-Based Destinations] {#signing-up}
 
-[!UICONTROL People-Based Destinations] è una funzionalità premium che migliora l’esperienza di Audience Manager consentendoti di attivare i segmenti di pubblico primario in ambienti basati sulle persone, indirizzando il pubblico con offerte personalizzate sui social network o tramite il marketing via e-mail.
+[!UICONTROL People-Based Destinations] è una funzionalità premium che migliora l’esperienza di Audience Manager consentendo di attivare i segmenti di pubblico primario in ambienti basati sulle persone, indirizzando il pubblico con offerte personalizzate sui social network o tramite l’e-mail marketing.
 
 Contatta il tuo rappresentante di Adobe per approfittare di questa funzionalità premium.
 
@@ -37,8 +38,10 @@ Prima di usare [!UICONTROL People-Based Destinations] per inviare il pubblico di
 
 1. Il tuo [!DNL Facebook] l&#39;account utente deve avere **Gestire le campagne** Autorizzazione abilitata per l’account annuncio che intendi utilizzare.
 2. Aggiungi il **Adobe Experience Cloud** account aziendale come partner pubblicitario nel [!DNL Facebook Ad Account]. Utilizza `business ID=206617933627973`. Consulta [Aggiunta di partner a Business Manager](https://www.facebook.com/business/help/1717412048538897) per i dettagli.
+
    >[!IMPORTANT]
-   > Durante la configurazione delle autorizzazioni per Adobe Experience Cloud, devi abilitare **Gestire le campagne** autorizzazione. Questa è richiesta per l’integrazione di [!UICONTROL People-Based Destinations].
+   >Durante la configurazione delle autorizzazioni per Adobe Experience Cloud, devi abilitare **Gestire le campagne** autorizzazione. Questa è richiesta per l’integrazione di [!UICONTROL People-Based Destinations].
+
 3. Leggi e firma la [!DNL Facebook Custom Audiences] Termini di servizio. Per fare questo, vai su `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, dove `accountID` è il tuo [!DNL Facebook Ad Account ID].
 
 ### [!DNL LinkedIn] {#linkedin}
@@ -59,19 +62,27 @@ I clienti con account conformi vengono inseriti automaticamente nell’elenco Co
 
 ## Onboarding dei dati {#data-onboarding}
 
-Acquisizione dei dati per [!UICONTROL People-Based Destinations] attualmente supporta fino a 10 indirizzi e-mail con hash collegati a un ID cliente ([!DNL CRM ID]), per trasferimento batch. Il caricamento di più di 10 indirizzi e-mail con hash collegati a un ID cliente fa sì che Audience Manager ne acquisisca 10, senza alcun ordine specifico.
+>[!IMPORTANT]
+>
+>Tutti i clienti Audienci Manager possono acquisire e-mail con hash senza registrarsi a [!UICONTROL People-Based Destinations].
 
-Il caricamento di più di 10 indirizzi e-mail con hash collegati a un ID cliente in più trasferimenti batch fa sì che Audience Manager mantenga gli ultimi 10 indirizzi e-mail aggiunti.
+Acquisizione dei dati per [!UICONTROL People-Based Destinations] attualmente supporta fino a 10 indirizzi e-mail con hash collegati a un ID cliente ([!DNL CRM ID]), per trasferimento batch.
+
+Il caricamento di più di 10 indirizzi e-mail con hash collegati a un ID cliente in più trasferimenti batch fa sì che Audienci Manager mantenga gli ultimi 10 indirizzi e-mail aggiunti.
+
+Per acquisire gli identificatori con hash, [creare un’origine dati multi-dispositivo per gli identificatori con hash](../create-data-source-hashed-emails.md) e abilita **[!UICONTROL Share associated cross-device IDs in people-based destinations and/or hashed email workflows]** opzione.
+
+![Audience Manager di immagine dell’interfaccia utente che mostra l’opzione per condividere gli ID multi-dispositivo associati nelle destinazioni basate su persone e/o nei flussi di lavoro e-mail con hash](assets/data-source-share-ids.png)
 
 ## Privacy dei dati {#data-privacy}
 
-Anche se [!UICONTROL People-Based Destinations] consenti di eseguire il targeting dei tipi di pubblico in base a indirizzi e-mail con hash che hai caricato. non puoi caricare in Audience Manager informazioni sui visitatori direttamente identificabili. Nella fase di onboarding dei dati, devi assicurarti che gli indirizzi e-mail che intendi utilizzare abbiano l’hash con [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarli in [!UICONTROL People-Based Destinations].
+Anche se [!UICONTROL People-Based Destinations] consenti di eseguire il targeting dei tipi di pubblico in base a indirizzi e-mail con hash che hai caricato. non puoi caricare in Audienci Manager informazioni sui visitatori direttamente identificabili. Nella fase di onboarding dei dati, devi assicurarti che gli indirizzi e-mail che intendi utilizzare abbiano l’hash con [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarli in [!UICONTROL People-Based Destinations].
 
 ## Hashing dei dati e crittografia {#data-hashing-encryption}
 
 La crittografia è una funzione bidirezionale. È inoltre possibile decrittografare qualsiasi informazione crittografata utilizzando la chiave di decrittografia corretta. La cifratura dei dati nel contesto dell&#39;Audience Manager comporta gravi rischi, in quanto qualsiasi forma cifrata di informazioni personali può anche essere decifrata. A differenza della crittografia, [!UICONTROL People-Based Destinations] sono progettati per funzionare con dati con hash.
 
-L’hashing è una funzione unidirezionale che scompone l’input per produrre un risultato univoco. Utilizzando algoritmi di hashing appropriati, come [!DNL SHA256], non è possibile invertire la funzione di hashing e visualizzare le informazioni non codificate. Gli indirizzi e-mail che effettuerai l’onboarding dell’Audience Manager devono essere con hash con [!DNL SHA256] algoritmo. In questo modo, puoi assicurarti che nessun indirizzo e-mail senza hash raggiunga Audience Manager.
+L’hashing è una funzione unidirezionale che scompone l’input per produrre un risultato univoco. Utilizzando algoritmi di hashing appropriati, come [!DNL SHA256], non è possibile invertire la funzione di hashing e visualizzare le informazioni non codificate. Gli indirizzi e-mail che effettuerai l’onboarding dell’Audience Manager devono essere con hash con [!DNL SHA256] algoritmo. In questo modo, puoi assicurarti che nessun indirizzo e-mail senza hash raggiunga Audienci Manager.
 
 ## Requisiti di hashing {#hashing-requirements}
 
@@ -96,7 +107,7 @@ Da [!UICONTROL People-Based Destinations] ti consente di attivare i dati sul pub
 
 Prima di iscriverti a [!UICONTROL People-Based Destinations], assicurati di ottenere il consenso dei clienti prima di utilizzare le loro informazioni a scopo pubblicitario.
 
-Nel caso in cui i clienti desiderino rinunciare alle campagne pubblicitarie, consulta [Gestione degli opt-out](../../overview/data-security-and-privacy/data-privacy-requests.md) per informazioni su come interrompere ulteriormente la raccolta dei dati da parte di Audience Manager.
+Nel caso in cui i clienti desiderino rinunciare alle campagne pubblicitarie, consulta [Gestione degli opt-out](../../overview/data-security-and-privacy/data-privacy-requests.md) per informazioni su come interrompere ulteriormente la raccolta dei dati da parte di Audienci Manager.
 
 ## Applicazione dell’attivazione dei dati di prime parti {#enforcing-first-party-activation}
 
