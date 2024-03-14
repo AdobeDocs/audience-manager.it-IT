@@ -3,7 +3,7 @@ title: Configurare un’origine dati per i flussi di lavoro e-mail con hash
 description: Scopri come creare un’origine dati per archiviare e-mail con hash per i flussi di lavoro delle e-mail con hash.
 solution: Audience Manager
 feature: Data Sources
-source-git-commit: 903c2602f759e0d507e45f1db4cbc880a599c32e
+source-git-commit: b88f180808ec9723a2a5324441733f6383f6302d
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -29,4 +29,5 @@ Segui i passaggi seguenti per creare e configurare un’origine dati per le e-ma
    >Questa opzione etichetta l’origine dati solo come contenente dati con hash con quell’algoritmo specifico. L’Audience Manager non esegue l’hashing dei dati in questo passaggio. Assicurati che gli indirizzi e-mail che intendi archiviare in questa origine dati abbiano già un hash con [!DNL SHA256] algoritmo. In caso contrario, non potrai utilizzarlo per i flussi di lavoro e-mail con hash.
 
    ![Audience Manager di immagine dell’interfaccia utente che mostra la sezione delle impostazioni dell’origine dati.](../features/assets/data-source-settings.png)
+
 
