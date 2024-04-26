@@ -1,7 +1,7 @@
 ---
 title: Migrare dall’estensione tag Audienci Manager all’estensione tag Web SDK
 description: Scopri i passaggi per aggiornare la libreria di raccolta dati, ad Audience Manager dall’estensione tag Audienci Manager all’estensione tag Web SDK
-source-git-commit: 1cf6a80bd5b7f583ea2511becf415b430ce2889e
+source-git-commit: c80f39c4001d2bcfa94012b9f4ffa720806487d4
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -153,3 +153,4 @@ Una volta completata la migrazione dell’implementazione tag all’SDK per web,
 +++
 
 A questo punto, l’implementazione Audienci Manager viene completamente migrata all’SDK per web ed è pronta per il passaggio a Real-Time CDP in futuro.
+
