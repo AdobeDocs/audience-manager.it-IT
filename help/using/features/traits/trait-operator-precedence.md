@@ -10,13 +10,13 @@ exl-id: 90700479-4a8e-4a07-81ef-2e9d8a1d9f15
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
 # Ordine delle operazioni nel Generatore di caratteristiche {#order-of-operations-in-trait-builder}
 
-[!UICONTROL Trait Builder] valuta le espressioni in base all’ordine delle operazioni elencate di seguito, da alta a bassa precedenza. Gli elementi di caratteristiche definiti dagli operatori con precedenza elevata vengono valutati per primi, prima degli altri operatori di precedenza. Questa sezione classifica ogni operatore in base alla precedenza, da alto a basso.
+[!UICONTROL Trait Builder] valuta le espressioni in base all&#39;ordine delle operazioni elencato di seguito, da priorità alta a priorità bassa. Gli elementi di caratteristiche definiti dagli operatori con precedenza elevata vengono valutati per primi, prima degli altri operatori di precedenza. Questa sezione classifica ogni operatore in base alla precedenza, da alto a basso.
 
 <!-- c_tb_operator_precedence.xml -->
 
@@ -41,17 +41,17 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td colname="col1"> Operatori di uguaglianza </td> 
-   <td colname="col2"> == != </td> 
+   <td colname="col2"> ==!= </td> 
    <td colname="col3"> I valori Uguale a e Diverso da vengono valutati dopo gli operatori precedenti. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Booleano <span class="wintitle"> E</span> </td> 
+   <td colname="col1"><span class="wintitle"> AND</span> booleano </td> 
    <td colname="col2"><span class="wintitle"> E</span> </td> 
    <td colname="col3" morerows="1"> n/d </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Booleano <span class="wintitle"> OPPURE</span> </td> 
-   <td colname="col2"><span class="wintitle"> OPPURE</span> </td> 
+   <td colname="col1">Valore booleano <span class="wintitle"> OR</span> </td> 
+   <td colname="col2"><span class="wintitle"> O</span> </td> 
    <td colname="col3" morerows="1"> n/d </td> 
   </tr> 
  </tbody>
@@ -59,6 +59,5 @@ ht-degree: 8%
 
 >[!MORELIKETHIS]
 >
->* [Utilizzo delle espressioni booleane (AND, OR, NOT) in TraitBuilder](../../reference/boolean-expressions-tsb.md)
->* [Utilizzo degli operatori di confronto nel Generatore di caratteristiche](../../features/traits/trait-comparison-operators.md)
-
+>* [Utilizzo di espressioni booleane (AND, OR, NOT) in TraitBuilder](../../reference/boolean-expressions-tsb.md)
+>* [Utilizzo degli operatori di confronto in TraitBuilder](../../features/traits/trait-comparison-operators.md)

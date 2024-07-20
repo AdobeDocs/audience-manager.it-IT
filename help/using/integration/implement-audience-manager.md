@@ -3,20 +3,20 @@ description: Questa sezione descrive e spiega i processi relativi alla guida int
 seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 seo-title: Implementing Audience Manager
 solution: Audience Manager
-title: Implementazione di Audience Manager
+title: Audience Manager di implementazione
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 1%
+source-wordcount: '996'
+ht-degree: 0%
 
 ---
 
-# Implementazione di Audience Manager {#implementing-audience-manager}
+# Audience Manager di implementazione {#implementing-audience-manager}
 
-Questa sezione descrive e spiega i processi relativi alla guida introduttiva di Audience Manager Data Management Platform ([!DNL DMP]). Questa sezione è progettata per aiutare i team aziendali, i project manager e i responsabili tecnologici a comprendere il processo di implementazione di Audience Manager. Per iniziare a usare Audience Manager possono essere necessari da sei settimane a tre mesi, a seconda delle esigenze di raccolta dei dati.
+In questa sezione vengono illustrati e illustrati i processi relativi alla guida introduttiva di Audience Manager Data Management Platform ([!DNL DMP]). Questa sezione è progettata per aiutare i team aziendali, i project manager e i responsabili tecnologici a comprendere il processo di implementazione di Audience Manager. Per iniziare a usare Audience Manager possono essere necessari da sei settimane a tre mesi, a seconda delle esigenze di raccolta dei dati.
 
 Le nostre tecniche di implementazione aiutano a creare una partnership consultiva con nuovi clienti. Questo processo è progettato per:
 
@@ -136,7 +136,7 @@ La tabella seguente descrive le attività chiave che si svolgono durante questa 
 I risultati finali di questa fase possono includere:
 
 * Una strategia completa per la raccolta dei dati di prime, seconde e terze parti;
-* Una completata [!DNL CRM] o piano di acquisizione del data warehouse;
+* Un piano di acquisizione di [!DNL CRM] o data warehouse completato;
 * Requisiti definiti di segmentazione del pubblico;
 * una tassonomia completa dei dati;
 * Un piano sviluppato di integrazione dei dati di terze parti.
@@ -147,7 +147,7 @@ Durante la fase di sviluppo, test e formazione, rivederai la strategia di raccol
 
 <!-- c_build_test_train.xml -->
 
-La strategia di raccolta dei dati verrà sottoposta a test end-to-end [!DNL QA] test. Le soluzioni dei partner tengono traccia dei bug rilevati e coordinano la risoluzione dei problemi con i nostri ingegneri di sistema. La formazione del cliente può iniziare in parallelo con queste altre iniziative.
+La strategia di raccolta dati verrà sottoposta a test [!DNL QA] end-to-end. Le soluzioni dei partner tengono traccia dei bug rilevati e coordinano la risoluzione dei problemi con i nostri ingegneri di sistema. La formazione del cliente può iniziare in parallelo con queste altre iniziative.
 
 La tabella seguente descrive le attività chiave che si svolgono durante questa fase:
 
@@ -161,13 +161,13 @@ La tabella seguente descrive le attività chiave che si svolgono durante questa 
 I risultati finali di questa fase possono includere:
 
 * un piano di raccolta dei dati completato e accettato;
-* End-to-end [!DNL QA] test;
+* Test di [!DNL QA] end-to-end;
 * Istruzioni di base sulle funzioni dell’interfaccia utente Audience Manager;
 * Accettazione e approvazione.
 
 ## Fase di avvio, supporto e ottimizzazione {#launch-support-optimize-phase}
 
-Durante la fase di lancio, supporto e ottimizzazione, la raccolta dati e l’implementazione prototipata passano dallo sviluppo a un ambiente di produzione live. Continueremo la formazione sulla familiarizzazione del prodotto e sulle strategie che possono aiutare ad aumentare il tuo [!DNL ROI] attraverso l’ottimizzazione basata sui dati.
+Durante la fase di lancio, supporto e ottimizzazione, la raccolta dati e l’implementazione prototipata passano dallo sviluppo a un ambiente di produzione live. Continueremo la formazione sulla familiarizzazione del prodotto e sulle strategie che possono aiutare ad aumentare il tuo [!DNL ROI] attraverso l&#39;ottimizzazione basata sui dati.
 
 <!-- c_launch_support_optimize.xml -->
 
@@ -220,9 +220,9 @@ Le attività per questa fase possono includere:
 
 ## Implementazione del codice {#code-implementation}
 
-Audience Manager utilizza la Data Integration Library ([!DNL DIL]), per ricevere i dati sul pubblico.
+L&#39;Audience Manager utilizza la Data Integration Library ([!DNL DIL]) per ricevere i dati sul pubblico.
 
-Per istruzioni dettagliate su come utilizzare [!DNL DIL], vedi [Recupero e implementazione del codice DIL](../dil/dil-overview.md).
+Per istruzioni dettagliate sull&#39;utilizzo di [!DNL DIL], vedere [Ottenere e implementare codice DIL](../dil/dil-overview.md).
 
 ### Partecipanti
 
@@ -234,4 +234,4 @@ I nostri sforzi di collaborazione non si fermano alla distribuzione finale. Una 
 
 I responsabili dell’account forniscono un supporto continuo e servizi di consulenza al termine del processo di implementazione del prodotto. Potresti avere riunioni regolari con il tuo account manager. Queste riunioni ti garantiscono di ottenere la massima quantità di utilizzo e valore da Audience Manager.
 
-Contattaci [qui](https://www.adobe.com/products/audiencemanager.html) per ulteriori informazioni e per iniziare a utilizzare Audience Manager.
+Contattaci [qui](https://www.adobe.com/products/audiencemanager.html) per ulteriori informazioni e per iniziare con Audience Manager.

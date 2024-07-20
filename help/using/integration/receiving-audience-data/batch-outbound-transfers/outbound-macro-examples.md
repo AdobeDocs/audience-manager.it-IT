@@ -9,8 +9,8 @@ feature: Outbound Data Transfers
 exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 8%
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Esempi di utilizzo di alcune delle macro comuni per la creazione di modelli di f
 
 >[!NOTE]
 >
->Nelle tabelle, **grassetto** type identifica ogni macro con il relativo output. Per gli esempi di formato, la `<` `>` sono stati aggiunti simboli per separare visivamente ogni macro.
+>Nelle tabelle, il tipo **boldface** identifica ogni macro con il relativo output. Per gli esempi di formato, sono stati aggiunti i simboli `<` `>` per separare visivamente ogni macro.
 
 ## Macro nome file {#file-name-macros}
 
@@ -50,7 +50,7 @@ Per un elenco delle macro e delle definizioni disponibili, vedere [Macro modello
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Formato: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_ &lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Output: </p> <p> 
      <ul id="ul_F63D7B78AF1246639D6ED85C1621B17C"> 
-      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">a schermo intero: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
+      <li id="li_4D0D7B4D047345FE861FCBA2BD0408ED">Completo: <code> ftp_215_888_ full_1449756724.sync </code> </li> 
       <li id="li_23F4D1F6B2784E599EDA29AA457327E6">Incrementale: <code> ftp_215_888_ iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -59,7 +59,7 @@ Per un elenco delle macro e delle definizioni disponibili, vedere [Macro modello
    <td colname="col2"> <p>Formato: <code> &lt;SYNC_TYPE&gt;_&lt;ORDER_ID&gt;_&lt;DPID&gt;_&lt;SYNC_MODE&gt;_&lt;TIMESTAMP&gt;.sync </code> </p> <p>Output: </p> <p> 
      <ul id="ul_11B14E740E40474F8302BDB809C428FE"> 
       <li id="li_54A3EAA468B44AC8B2528F855E03D04B">FTP: <code> ftp_215_888_iter_1449756724.sync </code> </li> 
-      <li id="li_93468C56B661463CA7F62B1F5D3A53FF">https <code> http_215_888_iter_1449756724.sync </code> </li> 
+      <li id="li_93468C56B661463CA7F62B1F5D3A53FF">https: <code> http_215_888_iter_1449756724.sync </code> </li> 
       <li id="li_8A204C7BEDBC41C096FE953B5F827DEC">S3: <code> s3_215_888_iter_1449756724.sync </code> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -145,12 +145,12 @@ Per un elenco delle macro e delle definizioni disponibili, vedere [Macro modello
  </tbody> 
 </table>
 
-### `DPUUID` Esempi
+### `DPUUID` esempi
 
-Per aiutarti a capire come `DPUUID` macro restituisce dati, supponiamo di avere 2 `DPID`s mappato a `DPUUID`s come mostrato di seguito:
+Per aiutarti a capire in che modo la macro `DPUUID` restituisce i dati, supponiamo di avere 2 `DPID` mappati a `DPUUID` come mostrato di seguito:
 
-* DPID `1111` mappa su DPUUID `AAAA` (timestamp = 1) e `BBBB` (timestamp = 2).
-* DPID `2222` corrisponde a DPUUID `CCCC`.
+* DPID `1111` è mappato ai DPUUID `AAAA` (timestamp = 1) e `BBBB` (timestamp = 2).
+* DPID `2222` è mappato a DPUUID `CCCC`.
 
 Date queste condizioni, la tabella seguente elenca alcune possibili stringhe di formato e il relativo output.
 
@@ -171,7 +171,7 @@ Date queste condizioni, la tabella seguente elenca alcune possibili stringhe di 
   <tr> 
    <td colname="col1"> <p>Restituisce un massimo di 1 mappatura per tutti i DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Per DPID <code> 1111 </code>, la macro viene mappata su DPUUID <code> BBBB </code> solo perché l’ID ha la marca temporale più grande. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Per DPID <code> 1111 </code>, la macro viene mappata su DPUUID <code> BBBB </code> solo perché l'ID ha la marca temporale più grande. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Restituisce un massimo di 2 mappature per un singolo DPID </p> </td> 
@@ -181,4 +181,4 @@ Date queste condizioni, la tabella seguente elenca alcune possibili stringhe di 
  </tbody> 
 </table>
 
-[Macro sui modelli in uscita](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
+[Macro modello in uscita](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)

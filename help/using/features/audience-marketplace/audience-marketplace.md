@@ -11,23 +11,22 @@ exl-id: ee608bcd-6827-4fac-be96-8e16ff390ec0
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 8%
+ht-degree: 1%
 
 ---
 
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] consente ai fornitori di dati e agli acquirenti di eseguire le operazioni sui dati in modo autonomo con il minimo sforzo. Per farlo, fornisce funzioni specializzate che variano a seconda del tuo ruolo di acquirente o di venditore di dati. In effetti, puoi anche essere compratore e venditore allo stesso tempo. E, se questo non potesse migliorare, [!UICONTROL Audience Marketplace] si occupa di contratti, fatturazione e pagamenti tra fornitori di dati e venditori.
+[!UICONTROL Audience Marketplace] consente ai fornitori di dati e agli acquirenti di eseguire le offerte di dati in modo autonomo con il minimo sforzo. Per farlo, fornisce funzioni specializzate che variano a seconda del tuo ruolo di acquirente o di venditore di dati. In effetti, puoi anche essere compratore e venditore allo stesso tempo. Inoltre, se non è stato possibile ottenere un risultato migliore, [!UICONTROL Audience Marketplace] si occupa di contratti, fatturazione e pagamenti tra fornitori di dati e venditori.
 
-Parla con il tuo [!DNL Audience Manager] Sales Specialist per iniziare. Possono attivare [!UICONTROL Audience Marketplace for you].
+Per iniziare, rivolgiti allo specialista delle vendite [!DNL Audience Manager]. Possono attivare [!UICONTROL Audience Marketplace for you].
 
 >[!NOTE]
 >
->I ruoli utente controllano ciò che è possibile e non può fare in [!UICONTROL Audience Marketplace].
+>I ruoli utente controllano ciò che è possibile e non è possibile fare in [!UICONTROL Audience Marketplace].
 >
 > * Gli amministratori possono creare feed di dati, gestire gli abbonati e abbonarsi ai feed di dati.
 > * Gli utenti possono cercare e visualizzare solo i feed.
-
 
 * [Audience Marketplace per provider di dati](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
 * [Audience Marketplace per gli acquirenti di dati](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)

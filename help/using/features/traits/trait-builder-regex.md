@@ -9,13 +9,13 @@ feature: Traits
 exl-id: eb41da2b-ce61-4965-a723-5bf273e54f82
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 9%
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
 # Utilizzo di espressioni regolari nel Generatore di caratteristiche {#using-regular-expressions-in-trait-builder}
 
-Puoi creare regole di caratteristiche personalizzate con la [!UICONTROL Trait Builder] editor di codice. Trovare l’editor di codice in [!UICONTROL Traits > Add New > Rule-based > Trait Expression] e passa a [!UICONTROL Code View]. Audience Manager supporta tutti i costrutti di espressioni regolari disponibili a cui si fa riferimento nel [!DNL Java Regular Expression Class Pattern]. Puoi convalidare una qualsiasi delle espressioni regolari direttamente nel [!DNL Expression Builder].
+Puoi creare regole di caratteristiche personalizzate con l&#39;editor di codice [!UICONTROL Trait Builder]. Trovare l&#39;editor di codice in [!UICONTROL Traits > Add New > Rule-based > Trait Expression] e passare a [!UICONTROL Code View]. Audience Manager supporta tutti i costrutti di espressioni regolari disponibili a cui si fa riferimento in [!DNL Java Regular Expression Class Pattern]. È possibile convalidare qualsiasi espressione regolare direttamente in [!DNL Expression Builder].
 
-Vedi anche, [Pattern di classe per espressioni regolari Java](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Vedi anche [Java Regular Expression Class Patterns](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).

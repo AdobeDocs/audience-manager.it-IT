@@ -3,18 +3,18 @@ description: Metodi di gestione dei domini che consentono di creare e gestire i 
 seo-description: Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
 seo-title: Domain Management API Methods
 solution: Audience Manager
-title: Metodi API di gestione dei domini
+title: Metodi API per la gestione dei domini
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
 exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '340'
+ht-degree: 2%
 
 ---
 
-# Metodi API di gestione dei domini {#domain-management-api-methods}
+# Metodi API per la gestione dei domini {#domain-management-api-methods}
 
 Metodi di gestione dei domini che consentono di creare e gestire i domini a cui si desidera inviare i dati (solo per le destinazioni dei cookie).
 
@@ -22,7 +22,7 @@ Metodi di gestione dei domini che consentono di creare e gestire i domini a cui 
 
 ## Crea un nuovo dominio {#create-new-domain}
 
-A `POST` metodo che consente di creare un nuovo dominio per (solo destinazioni cookie).
+Metodo `POST` che consente di creare un nuovo dominio per (solo destinazioni cookie).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -52,7 +52,7 @@ In caso di esito positivo, la risposta restituisce `201 created` e il sito partn
 
 ## Eliminare un dominio {#delete-domain}
 
-A `DELETE` metodo che consente di rimuovere un dominio (solo per le destinazioni dei cookie).
+Metodo `DELETE` che consente di rimuovere un dominio (solo per le destinazioni dei cookie).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -62,11 +62,11 @@ A `DELETE` metodo che consente di rimuovere un dominio (solo per le destinazioni
 
 ### Risposta
 
-In caso di esito positivo, la risposta restituisce `204 no content`. Restituisce `404 not found` se non è possibile trovare il sito partner.
+In caso di esito positivo, la risposta restituisce `204 no content`. Restituisce `404 not found` se il sito partner non è stato trovato.
 
 ## Restituire le proprietà di un dominio {#return-props-domain}
 
-A `GET` metodo che restituisce dettagli sul dominio specificato (solo per le destinazioni cookie).
+Metodo `GET` che restituisce i dettagli del dominio specificato (solo per le destinazioni dei cookie).
 
 <!-- r_get_partner_site.xml -->
 
@@ -76,7 +76,7 @@ A `GET` metodo che restituisce dettagli sul dominio specificato (solo per le des
 
 ### Risposta
 
-In caso di esito positivo, la risposta restituisce `200 OK` e i dati come mostrato nell’esempio di seguito. Restituisce `404 Not found` se l’ID sito o il partner non è stato trovato.
+In caso di esito positivo, la risposta restituisce `200 OK` e i dati come mostrato nell&#39;esempio seguente. Restituisce `404 Not found` se l&#39;ID sito o il partner non è stato trovato.
 
 ```
 {
@@ -88,7 +88,7 @@ In caso di esito positivo, la risposta restituisce `200 OK` e i dati come mostra
 
 ## Proprietà restituite per tutti i domini {#return-props-all-domains}
 
-A `GET` metodo che restituisce informazioni su tutti i domini (solo per le destinazioni cookie).
+Un metodo `GET` che restituisce informazioni su tutti i tuoi domini (solo per destinazioni cookie).
 
 <!-- r_get_partner_sites.xml -->
 
@@ -98,7 +98,7 @@ A `GET` metodo che restituisce informazioni su tutti i domini (solo per le desti
 
 ### Parametri di query facoltativi
 
-Questi parametri facoltativi possono essere utilizzati con [!DNL API] metodi che restituiscono *tutto* proprietà di un oggetto. Imposta queste opzioni nella stringa di richiesta quando trasmetti la query al [!DNL API]. Consulta [Parametri facoltativi](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+È possibile utilizzare questi parametri facoltativi con i metodi [!DNL API] che restituiscono *tutte* le proprietà di un oggetto. Impostare queste opzioni nella stringa di richiesta quando si trasmette la query a [!DNL API]. Vedi [Parametri facoltativi](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -133,7 +133,7 @@ Questi parametri facoltativi possono essere utilizzati con [!DNL API] metodi che
 
 ### Risposta
 
-In caso di esito positivo, la risposta restituisce `200 OK` e dati in un array, come illustrato nell’esempio seguente. Restituisce `404 Not found` se l’ID sito o il partner non è stato trovato.
+In caso di esito positivo, la risposta restituisce `200 OK` e i dati in un array, come illustrato nell&#39;esempio seguente. Restituisce `404 Not found` se l&#39;ID sito o il partner non è stato trovato.
 
 ```
 [

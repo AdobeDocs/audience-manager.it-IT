@@ -9,18 +9,18 @@ feature: Reference
 exl-id: 18e6b1db-fe51-4560-9458-8d65474d2506
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 3%
+source-wordcount: '606'
+ht-degree: 1%
 
 ---
 
 # CID sostituisce DPID e DPUUID{#cid-replaces-dpid-and-dpuuid}
 
-Aggiorna il codice da utilizzare `d_cid` o `d_cid_ic` invece di `d_dpid` e `d_dpuuid`. Le variabili DPID e DPUUID continueranno a funzionare, ma è necessario considerarle obsolete. Sono incluse le varianti DPID e DPUUID senza `d_ prefix`.
+Aggiornare il codice per utilizzare `d_cid` o `d_cid_ic` anziché `d_dpid` e `d_dpuuid`. Le variabili DPID e DPUUID continueranno a funzionare, ma è necessario considerarle obsolete. Sono incluse le varianti DPID e DPUUID senza `d_ prefix`.
 
 ## DPID e DPUUID: una recensione {#dpid-dpuuid-review}
 
-Il DPID e il DPUUID sono coppie chiave-valore che contengono un ID provider dati e un ID utente. Queste coppie chiave-valore collegano gli ID provider agli ID utente. Invia dati durante le chiamate evento, per gli eventi di sincronizzazione in entrata e per le chiamate ID. Senza di loro, [!DNL Audience Manager], e altri servizi o funzionalità, non avrebbero un modo per far corrispondere e sincronizzare gli ID. Queste variabili sono talvolta espresse con o senza l’ `d_` come mostrato di seguito. Nota: nel codice, *corsivo* indica un segnaposto variabile.
+Il DPID e il DPUUID sono coppie chiave-valore che contengono un ID provider dati e un ID utente. Queste coppie chiave-valore collegano gli ID provider agli ID utente. Invia dati durante le chiamate evento, per gli eventi di sincronizzazione in entrata e per le chiamate ID. Senza di essi, [!DNL Audience Manager] e altri servizi o funzionalità non avrebbero un modo per far corrispondere e sincronizzare gli ID. Queste variabili sono talvolta espresse con o senza il prefisso `d_` come mostrato di seguito. Nel codice, *corsivo* indica un segnaposto variabile.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -58,7 +58,7 @@ Le coppie chiave-valore CID e CID_IC sostituiscono DPID e DPUUID. Forniscono le 
 * Il simbolo = separa la chiave dai relativi valori.
 * Il carattere ASCII non stampabile %01 separa i valori.
 
-`d_cid` e `d_cid_ic` utilizza la sintassi mostrata di seguito. Nota: nel codice, *corsivo* indica un segnaposto variabile.
+`d_cid` e `d_cid_ic` utilizzano la sintassi mostrata di seguito. Nel codice, *corsivo* indica un segnaposto variabile.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
@@ -74,16 +74,16 @@ Le coppie chiave-valore CID e CID_IC sostituiscono DPID e DPUUID. Forniscono le 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codice di integrazione ID cliente (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Un <span class="term"> codice di integrazione</span> è un ID alternativo che puoi utilizzare al posto dell’ID sorgente dati, assegnato da <span class="keyword"> Audience Manager</span>. Consulta <a href="../features/manage-datasources.md#create-data-source"> Creare un’origine dati</a> se devi configurare un codice di integrazione. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Un codice di integrazione <span class="term"></span> è un ID alternativo che è possibile utilizzare al posto dell'ID Data Source, assegnato dall'Audience Manager <span class="keyword"></span>. Per configurare un codice di integrazione, vedere <a href="../features/manage-datasources.md#create-data-source"> Creare un Data Source</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Vedi anche, [Variabili URL e sintassi per ID dichiarati](../features/declared-ids.md#variables-and-syntax).
+Vedi anche [Variabili URL e sintassi per ID dichiarati](../features/declared-ids.md#variables-and-syntax).
 
 >[!NOTE]
 >
->Puoi utilizzare i codici di integrazione per le tue origini dati e per i [origini dati condivise](../features/datasources-list-and-settings.md#settings-menu-options), a cui hai accesso. Ad esempio, puoi utilizzare i codici di integrazione quando lavori con origini dati di identificatori mobili. Utilizza i seguenti codici di integrazione, esattamente come specificato di seguito:
+>Puoi utilizzare i codici di integrazione per le tue origini dati e per [origini dati condivise](../features/datasources-list-and-settings.md#settings-menu-options) globali, a cui hai accesso. Ad esempio, puoi utilizzare i codici di integrazione quando lavori con origini dati di identificatori mobili. Utilizza i seguenti codici di integrazione, esattamente come specificato di seguito:
 
 * **DSID_20914** per GAID, che rappresenta i dispositivi che eseguono il sistema operativo Android.
 * **DSID_20915** per IDFA, che rappresenta i dispositivi che eseguono il sistema operativo iOS.
@@ -104,7 +104,7 @@ Nella tabella seguente sono riportati alcuni esempi per tipo di evento.
    <td colname="col1"> <p>Evento </p> </td> 
    <td colname="col2"> 
     <ul id="ul_6EAB4188C6954512A28D1A8328794BCB"> 
-     <li id="li_344AAEF1622343489E2AD6E2929CEA98">Nuova API: <code> .../event?d_cid=123%01987...</code> </li> 
+     <li id="li_344AAEF1622343489E2AD6E2929CEA98">Nuovo: <code> .../event?d_cid=123%01987...</code> </li> 
      <li id="li_B673C1BA5AD24C46AB8F8232EF89CE89">Obsoleto: <code> .../event?d_dpid=123&amp;d_dpuuid=987...</code> </li> 
     </ul> </td> 
   </tr> 
@@ -112,7 +112,7 @@ Nella tabella seguente sono riportati alcuni esempi per tipo di evento.
    <td colname="col1"> <p>Sincronizzazione in entrata (IBS) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_78270745CBC2469B8CA9EDB7032B8F92"> 
-     <li id="li_8C4620A04504442185F013F74E6B0647">Nuova API: <code> .../ibs:d_cid=123%01987...</code> </li> 
+     <li id="li_8C4620A04504442185F013F74E6B0647">Nuovo: <code> .../ibs:d_cid=123%01987...</code> </li> 
      <li id="li_2A8F761C76334C1BB097CF1A9D7E8429">Obsoleto: <code> .../ibs:d_dpid=123&amp;d_dpuuid=987</code> </li> 
     </ul> </td> 
   </tr> 
@@ -120,14 +120,14 @@ Nella tabella seguente sono riportati alcuni esempi per tipo di evento.
    <td colname="col1"> <p>Genera UUID Audience Manager (ID) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EAA764DCFF7244F69ABF67ACEE13E579"> 
-     <li id="li_18467A531FAF454A881CBD157BBFD6D2">Nuova API: <code> .../id?d_cid=123%01987...</code> </li> 
+     <li id="li_18467A531FAF454A881CBD157BBFD6D2">Nuovo: <code> .../id?d_cid=123%01987...</code> </li> 
      <li id="li_433C33F7BC284362AC7CC3C9DC0BF471">Obsoleto: <code> .../id?d_dpid=123&amp;d_dpuuid=987</code> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ogni chiamata può includere anche più `d_cid` e `d_cid_ic` coppie chiave-valore simili alle seguenti:
+Ogni chiamata può includere anche più coppie di valori chiave `d_cid` e `d_cid_ic`, come segue:
 
 ```
 ...?d_cid=123%01456&d_cid=123%01789&d_cid_ic=543%01333...
@@ -145,15 +145,15 @@ Ogni chiamata può includere anche più `d_cid` e `d_cid_ic` coppie chiave-valor
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Codifica URL </p> </td> 
-   <td colname="col2"> <p>Team di sviluppo <i>deve</i> applica la codifica URL alle seguenti variabili nella coppia chiave-valore CID: </p> <p> 
+   <td colname="col2"> <p>I team di sviluppo <i>devono</i> applicare la codifica URL alle seguenti variabili nella coppia chiave-valore CID: </p> <p> 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
       <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> user ID</code> <code> (dpuuid)</code> </li> 
       <li id="li_D2F94B07B0D84B09A5CDFA48518DDD62"><code> integration code</code> </li> 
-     </ul> </p> <p> <p>Nota: devi codificare l’URL dell’ID utente e del codice di integrazione <i>prima di</i> concatenandoli in una stringa. Questo perché il carattere ASCII %01 che separa le due variabili non deve essere acquisito nella codifica URL. </p> </p> <p>La codifica URL assicura che gli ID utente e i codici di integrazione che contengono caratteri riservati o non sicuri come, ma non limitati a, + o = vengano trasmessi correttamente ai nostri server. </p> <p>Utilizza il <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"> Tabella di codifica ASCII</a> per riferimento. </p> </td> 
+     </ul> </p> <p> <p>Nota: devi codificare l'URL dell'ID utente e del codice di integrazione <i>prima</i> concatenandoli in una stringa. Questo perché il carattere ASCII %01 che separa le due variabili non deve essere acquisito nella codifica URL. </p> </p> <p>La codifica URL assicura che gli ID utente e i codici di integrazione che contengono caratteri riservati o non sicuri come, ma non limitati a, + o = vengano trasmessi correttamente ai nostri server. </p> <p>Utilizzare la tabella di codifica ASCII <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"></a> per riferimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilizzo dei codici di integrazione per le origini dati condivise globali </p> </td> 
-   <td colname="col2"> <p>Puoi utilizzare i codici di integrazione per le tue origini dati e per i <a href="../features/datasources-list-and-settings.md#settings-menu-options"> origini dati condivise</a>, a cui hai accesso. Ad esempio, puoi utilizzare i codici di integrazione quando lavori con origini dati di identificatori mobili. Utilizza i seguenti codici di integrazione, esattamente come specificato di seguito: </p> <p> 
+   <td colname="col2"> <p>Puoi utilizzare i codici di integrazione per le tue origini dati e per <a href="../features/datasources-list-and-settings.md#settings-menu-options"> origini dati condivise globali</a>, a cui hai accesso. Ad esempio, puoi utilizzare i codici di integrazione quando lavori con origini dati di identificatori mobili. Utilizza i seguenti codici di integrazione, esattamente come specificato di seguito: </p> <p> 
      <ul id="ul_B306EE96A3BD4CE982E113D5E23826CF"> 
       <li id="li_3340C7AFA9AB4105A2CCF3E476EC7552"> <b>DSID_20914</b> per GAID, che rappresenta i dispositivi che eseguono il sistema operativo Android. </li> 
       <li id="li_779D9F08021043FCB233A0ABF5160C76"> <b>DSID_20915</b> per IDFA, che rappresenta i dispositivi che eseguono il sistema operativo iOS. </li> 

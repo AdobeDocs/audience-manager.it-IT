@@ -9,7 +9,7 @@ feature: Audience Optimization Reports
 exl-id: 62b72dd1-e664-4c6a-8c0a-f7a662d62a47
 source-git-commit: 7147091e6c253e8124f5f21a2251c1a76ac9d808
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '511'
 ht-degree: 11%
 
 ---
@@ -20,20 +20,20 @@ Prima che Audience Manager possa abilitare l’ottimizzazione del pubblico per g
 
 ## Prerequisiti per l’acquisizione del registro di Google Ad Manager {#prereqs-dfp-ingestion}
 
-Il processo descritto in questa sezione deve essere completato *prima di* ora puoi passare ai prerequisiti per l’abilitazione dell’acquisizione del registro.
+Tieni presente che il processo descritto in questa sezione deve essere completato *prima* di passare ai prerequisiti per l&#39;abilitazione dell&#39;acquisizione del registro.
 
-Per utilizzare [!DNL Google Ad Manager] (precedentemente Google DFP) file di registro in [!DNL Audience Manager], devi prima impostare il nostro [ID utente univoco di Audience Manager (UUID)](../../../reference/ids-in-aam.md) nella chiamata del tag dell’annuncio. In questo modo, il nostro ID viene incluso nel [!DNL Google Ad Manager] e possiamo far corrispondere gli ID tra [!DNL Google Ad Manager] e [!DNL Audience Manager]. Utilizzare [!DNL Audience Manager] [!UICONTROL DIL] codice o [!UICONTROL Audience Management Module] per impostare [!DNL Audience Manager] UUID in un cookie di prima parte.
+Per utilizzare i file di registro [!DNL Google Ad Manager] (precedentemente Google DFP) in [!DNL Audience Manager], devi prima impostare il [ID utente univoco Audience Manager (UUID)](../../../reference/ids-in-aam.md) nella chiamata del tag annuncio. In questo modo, il nostro ID viene incluso nei registri [!DNL Google Ad Manager] e possiamo far corrispondere gli ID tra [!DNL Google Ad Manager] e [!DNL Audience Manager]. Utilizza il codice [!DNL Audience Manager] [!UICONTROL DIL] o [!UICONTROL Audience Management Module] per impostare l&#39;UUID [!DNL Audience Manager] in un cookie di prima parte.
 
-Ecco come impostare il [!DNL Audience Manager] ID nella chiamata del tag dell’annuncio, come spiegato nella nostra documentazione:
+Di seguito è illustrato come impostare l&#39;ID [!DNL Audience Manager] nella chiamata del tag annuncio, come illustrato nella documentazione:
 
 * [Tramite il tag publisher di Google (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [Tramite una destinazione cookie](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-È necessario impostare [!DNL Audience Manager] Identificati e puoi lavorare con [!DNL Audience Manager] consulta per verificare se tutto funziona. Hai impostato [!DNL Audience Manager] ID corretto se:
+Devi impostare l&#39;ID [!DNL Audience Manager] autonomamente e puoi collaborare con la consulenza di [!DNL Audience Manager] per verificare se tutto funziona. L&#39;ID [!DNL Audience Manager] è stato impostato correttamente se:
 
 * `'aamid'` è la chiave utilizzata come identificatore.
-* Il valore ID utente è formattato correttamente come [!DNL Audience Manager] UUID, come descritto nel nostro [Indice degli ID in Audience Manager](../../../reference/ids-in-aam.md).
-* Hai incluso il [!DNL Audience Manager] UUID in un campo definito nel tuo [!DNL Google Ad Manager] registri (ad esempio, CustomTargeting).
+* Il valore ID utente è formattato correttamente come UUID [!DNL Audience Manager], come descritto nel nostro [Indice degli ID nell&#39;Audience Manager](../../../reference/ids-in-aam.md).
+* Hai incluso l&#39;UUID [!DNL Audience Manager] in un campo definito nei tuoi registri [!DNL Google Ad Manager] (ad esempio, CustomTargeting).
 
 ## Prerequisiti per l’abilitazione dell’acquisizione del registro {#prereqs-ingestion-enablement}
 
@@ -48,14 +48,14 @@ Ecco come impostare il [!DNL Audience Manager] ID nella chiamata del tag dell’
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Passaggio 1 </p> </td> 
-   <td colname="col2"> <p>Conferma che i passaggi necessari per impostare <span class="keyword"> Audience Manager</span> UUID (descritto sopra) sono stati completati prima di passare al passaggio 2 </p> </td> 
+   <td colname="col2"> <p>Conferma che i passaggi necessari per impostare l'UUID dell'Audience Manager <span class="keyword"></span> (descritto sopra) sono stati completati prima di passare al passaggio 2 </p> </td> 
    <td colname="col3"> <p><span class="keyword"> Audience Manager</span> Assistenza clienti o consulenza </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passaggio 2 </p> </td> 
    <td colname="col2"> <p>L'amministratore di Google Ad Manager crea: </p> <p> 
      <ol id="ol_FCFA9B11CFF948A488DF9CB298FC04C4"> 
-      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Un account di servizio per l’acquisizione degli accessi di Google Ad Manager <span class="keyword"> Audience Manager</span>. </li> 
+      <li id="li_BC946EDCC3324578AEB64EDDA55B5ACA">Un account di servizio per l'acquisizione di Google Ad Manager accede all'Audience Manager <span class="keyword"></span>. </li> 
       <li id="li_6B2FC7D73A3246419E55C004E17ACA25">Nuove credenziali. <p>Nota: questo potrebbe richiedere un indirizzo e-mail univoco specifico per questo progetto e verrà utilizzato durante il provisioning dell’accesso al bucket di archiviazione Google. </p> </li> 
       <li id="li_95444B9FD1B34659A9634814B262A681">Una chiave privata (credenziali basate su JSON) </li> 
      </ol> </p> </td> 
@@ -83,7 +83,7 @@ Ecco come impostare il [!DNL Audience Manager] ID nella chiamata del tag dell’
   <tr> 
    <td colname="col1"> <p>Passaggio 6 </p> </td> 
    <td colname="col2"> <p>Compila i prerequisiti e apri un ticket di supporto seguendo le istruzioni dettagliate <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">qui</a> per avviare il processo di acquisizione del registro. </p> </td> 
-   <td colname="col3"> <p>Tu, o <span class="keyword"> Audience Manager</span> Consulenza per conto dell'utente </p> </td> 
+   <td colname="col3"> <p>Tu o <span class="keyword"> Audience Manager</span> Consulente per tuo conto </p> </td> 
   </tr> 
  </tbody> 
 </table>

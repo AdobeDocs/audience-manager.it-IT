@@ -9,14 +9,14 @@ feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
 source-git-commit: 0245dd11de31c3139c5df5dc78100f0d3935aa2e
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 5%
+source-wordcount: '677'
+ht-degree: 2%
 
 ---
 
 # Trasferimenti di dati in uscita in tempo reale {#real-time-outbound-data-transfers}
 
-Il processo di trasferimento dei dati in uscita in tempo reale fornisce dati utente sotto forma di [!DNL JSON] i messaggi formattati su una piattaforma di destinazione.
+Il processo di trasferimento dei dati in uscita in tempo reale fornisce i dati utente come una serie di [!DNL JSON] messaggi formattati a una piattaforma di destinazione.
 
 <!-- c_outbound_json.xml -->
 
@@ -24,9 +24,9 @@ Il processo di trasferimento dei dati in uscita in tempo reale fornisce dati ute
 
 Per utilizzare questo metodo, la piattaforma di destinazione deve soddisfare i seguenti requisiti:
 
-* Deve fornire un endpoint [!DNL URL] che possono essere adattati per ricevere un elevato volume di messaggi da Audienci Manager;
-* Deve accettare i dati in [!DNL JSON] formato (`Content-type: application/json`);
-* Deve accettare una protezione `HTTPS` trasferimenti di dati. [!DNL Audience Manager] non invierà messaggi tramite unsecure `HTTP` protocollo.
+* Deve fornire un endpoint [!DNL URL] scalabile in modo da ricevere un volume elevato di messaggi da Audience Manager;
+* Deve accettare dati in formato [!DNL JSON] (`Content-type: application/json`);
+* Deve accettare trasferimenti di dati `HTTPS` sicuri. [!DNL Audience Manager] non invierà messaggi tramite il protocollo `HTTP` non sicuro.
 
 ## Frequenza
 
@@ -42,11 +42,11 @@ Non sono stati impostati limiti di velocità per la trasmissione dei messaggi re
 
 ## Risposte richieste
 
-Per impostazione predefinita, il server destinatario deve restituire `200 OK` codice per indicare la ricezione riuscita. Altri codici verranno interpretati come errori. Questa risposta è prevista entro 3000 millisecondi. In risposta a un guasto, [!DNL Audience Manager] eseguirà un solo tentativo.
+Per impostazione predefinita, il server dei destinatari deve restituire il codice `200 OK` per indicare la ricezione riuscita. Altri codici verranno interpretati come errori. Questa risposta è prevista entro 3000 millisecondi. In risposta a un errore, [!DNL Audience Manager] eseguirà un solo tentativo.
 
 ## Parametri
 
-La tabella seguente definisce gli elementi nel [!DNL JSON] file di dati inviato alla destinazione.
+La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviati alla destinazione.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -85,7 +85,7 @@ La tabella seguente definisce gli elementi nel [!DNL JSON] file di dati inviato 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
-   <td colname="col3"> <p>Numero totale di utenti nel <code> POST</code> richiesta. </p> </td> 
+   <td colname="col3"> <p>Numero totale di utenti nella richiesta <code> POST</code>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -95,7 +95,7 @@ La tabella seguente definisce gli elementi nel [!DNL JSON] file di dati inviato 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>Il <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
+   <td colname="col3"> <p>UUID dell'Audience Manager <span class="keyword"></span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -105,7 +105,7 @@ La tabella seguente definisce gli elementi nel [!DNL JSON] file di dati inviato 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> Il <span class="keyword"> Audience Manager</span> ID di regione in cui abbiamo visto questo dispositivo. Ad esempio, se il dispositivo avesse un’attività a Parigi (Europa), l’ID regione sarebbe <code> 6</code>. Consulta <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md">ID regioni DCS, posizioni e nomi host</a>. </td> 
+   <td colname="col3"> L'ID dell'area geografica dell'Audience Manager <span class="keyword"></span> in cui è stato visualizzato il dispositivo. Ad esempio, se il dispositivo avesse un'attività a Parigi (Europa), l'ID di regione sarebbe <code> 6</code>. Vedi <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID regioni DCS, posizioni e nomi host</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -127,10 +127,10 @@ La tabella seguente definisce gli elementi nel [!DNL JSON] file di dati inviato 
     </ul> <p>Gli utenti vengono rimossi dai segmenti quando sono: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Rimosso da un segmento in base alla regola del segmento. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Rimosso da un segmento in base al di <a href="../../../features/traits/segment-ttl-explained.md"> intervallo time-to-live</a>. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Rimosso da un segmento in base all'intervallo di time-to-live <a href="../../../features/traits/segment-ttl-explained.md"> del segmento</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Se non sono stati visti negli ultimi 120 giorni, vengono trasferiti a uno stato inattivo. </li>
-     <li>Rimosso a causa di una richiesta di modifica della privacy (ad es. <span class="keyword"> RGPD</span>)</li>
-    </ul> <p>Tutti gli ID partner sincronizzati in un <span class="keyword"> Audience Manager</span> L’ID riceverà <code> "Status":"0"</code> Quando un utente viene rimosso dai segmenti. </p> </td> 
+     <li>Rimosso a causa di una richiesta di modifica della privacy (ovvero <span class="keyword"> RGPD</span>)</li>
+    </ul> <p>Tutti gli ID partner sincronizzati in un ID <span class="keyword"> Audience Manager</span> riceveranno il flag <code> "Status":"0"</code> quando un utente viene rimosso dai segmenti. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -142,7 +142,7 @@ La tabella seguente definisce gli elementi nel [!DNL JSON] file di dati inviato 
 
 ## Sicurezza
 
-Per proteggere il processo di trasferimento dei dati in uscita in tempo reale, utilizza [firma delle richieste HTTP](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) utilizzando chiavi private o [!DNL Audience Manager] autenticare tramite [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) protocollo.
+Puoi proteggere il processo di trasferimento dei dati in uscita in tempo reale firmando [le richieste HTTP](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) utilizzando chiavi private o facendo autenticare [!DNL Audience Manager] tramite il protocollo [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md).
 
 ## Richiesta
 

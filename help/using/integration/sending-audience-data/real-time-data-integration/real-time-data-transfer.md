@@ -9,22 +9,22 @@ feature: Inbound Data Transfers
 exl-id: d243c74c-3a29-4dbf-a4c7-43ea526a9d7b
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 5%
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
 # Acquisizione di dati in entrata in tempo reale {#real-time-inbound-data-ingestion}
 
-Il processo di acquisizione dei dati in entrata in tempo reale utilizza una serie di `HTTP` richiede dal browser di un utente di passare i dati ad Audience Manager.
+Il processo di acquisizione dei dati in entrata in tempo reale utilizza una serie di `HTTP` richieste provenienti dal browser di un utente per la trasmissione dei dati ad Audience Manager.
 
 <!-- c_rt_inbound_real_time.xml -->
 
-I dati in entrata devono essere formattati come coppie chiave-valore chiamate segnali. In genere, ogni segnale è mappato su un segmento creato o gestito tramite l’interfaccia utente o [!DNL API].
+I dati in entrata devono essere formattati come coppie chiave-valore chiamate segnali. In genere, ogni segnale è mappato a un segmento creato o gestito tramite l&#39;interfaccia utente o [!DNL API].
 
 ## Parametri e sintassi della stringa URL {#url-string-syntax}
 
-Il [!DNL URL] per un trasferimento di dati in entrata deve contenere le variabili descritte di seguito. Ricorda a [creare caratteristiche](../../../features/traits/create-onboarded-rule-based-traits.md) e un [struttura di cartelle](../../../features/traits/trait-storage.md#create-trait-storage-folder) nel [!DNL Audience Manager] Interfaccia utente prima di impostare trasferimenti di dati in tempo reale.
+[!DNL URL] per un trasferimento di dati in entrata deve contenere le variabili descritte di seguito. Ricordati di [creare caratteristiche](../../../features/traits/create-onboarded-rule-based-traits.md) e una [struttura di cartelle](../../../features/traits/trait-storage.md#create-trait-storage-folder) nell&#39;interfaccia utente [!DNL Audience Manager] prima di impostare trasferimenti di dati in tempo reale.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Il [!DNL URL] per un trasferimento di dati in entrata deve contenere le variabil
 
 ### Sintassi URL
 
-Durante un processo di acquisizione di dati in entrata in tempo reale, un file [!DNL URL] La stringa utilizza la seguente sintassi:
+Durante un processo di acquisizione di dati in entrata in tempo reale, una stringa [!DNL URL] formattata correttamente utilizza la sintassi seguente:
 
 ```
 https://client.demdex.net/event?KEY1=VALA&KEY2=VALB&KEY3=VALC

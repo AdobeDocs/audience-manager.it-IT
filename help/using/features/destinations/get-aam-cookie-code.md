@@ -9,16 +9,16 @@ feature: Destination Basics
 exl-id: 66e61a4b-908e-4950-8953-37a9920b67b5
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 7%
+source-wordcount: '52'
+ht-degree: 0%
 
 ---
 
-# `get_aamCookie` Codice {#get-aamcookie-code}
+# Codice `get_aamCookie` {#get-aamcookie-code}
 
-Codice richiesto da [!DNL DART Enterprise] (e altri tipi di destinazione) per acquisire l’ID utente univoco dell’Audience Manager ([!DNL UUID]).
+Codice richiesto da [!DNL DART Enterprise] (e altri tipi di destinazione) per acquisire il valore dell&#39;ID utente univoco dell&#39;Audience Manager ([!DNL UUID]).
 
-Definisci questa funzione nella parte superiore della pagina, idealmente all’interno del `<head>` blocco di codice.
+Definisci questa funzione nella parte superiore della pagina, idealmente all&#39;interno del blocco di codice `<head>`.
 
 <!-- r_aam_de_cookie.xml -->
 

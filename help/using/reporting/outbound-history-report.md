@@ -10,7 +10,7 @@ exl-id: 8072c44f-bc9a-4b40-99d9-8cb87bb58d98
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 6%
+ht-degree: 1%
 
 ---
 
@@ -24,12 +24,12 @@ t_reports_outbound_history.xml
 
  -->
 
-1. Clic **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]**.
+1. Fare clic su **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]**.
 
    ![Risultato passaggio](assets/outbound_history.png)
 
-1. In **[!UICONTROL Search for a Destination]** , inizia a digitare e seleziona la destinazione desiderata.
-1. In **[!UICONTROL Select a Date Range]** , specificare le date di inizio e di fine del rapporto, quindi fare clic su **[!UICONTROL Apply Date Filter]**.
+1. Nella casella **[!UICONTROL Search for a Destination]**, iniziare a digitare e selezionare la destinazione desiderata.
+1. Nella casella **[!UICONTROL Select a Date Range]**, specifica le date di inizio e fine per il report, quindi fai clic su **[!UICONTROL Apply Date Filter]**.
 
    ![Risultato passaggio](assets/outbound_history_stats.png)
 
@@ -45,11 +45,11 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Nome file di sincronizzazione dati </td> 
-   <td colname="col2"> <p>Elenco di tutti i file in uscita che <span class="keyword"> Adobe</span> generate per questa destinazione che sono state elaborate insieme. </p> </td> 
+   <td colname="col2"> <p>Elenco di tutti i file in uscita generati dall'Adobe <span class="keyword"></span> per questa destinazione ed elaborati insieme. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Completato </td> 
-   <td colname="col2"> <p>Numero di record inviati correttamente da <span class="keyword"> Audience Manager</span> alla destinazione. </p> </td> 
+   <td colname="col2"> <p>Numero di record inviati correttamente dall'Audience Manager </span> <span class="keyword"> alla destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Non riuscito </td> 
@@ -57,7 +57,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Record ricevuti </td> 
-   <td colname="col2"> <p>Numero totale di record <span class="keyword"> Adobe</span> generato nei file e ha tentato di inviare alla destinazione. Nella maggior parte dei casi, dovrebbe corrispondere al numero totale di file riusciti e di file non riusciti. </p> </td> 
+   <td colname="col2"> <p>Numero totale di record <span class="keyword"> Adobe</span> generati nei file e che hanno tentato di inviare alla destinazione. Nella maggior parte dei casi, dovrebbe corrispondere al numero totale di file riusciti e di file non riusciti. </p> </td> 
   </tr> 
  </tbody> 
 </table>

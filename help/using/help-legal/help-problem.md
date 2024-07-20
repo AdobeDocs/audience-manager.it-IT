@@ -8,7 +8,7 @@ feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Per questioni tecniche o per segnalare un bug, contatta l’[Assistenza clienti.
 
 * **Telefono:** 1 800 497 0335
 
-   Per i numeri verdi al di fuori degli Stati Uniti, consulta il nostro sito sui [numeri di contatto regionali dell’Assistenza clienti](https://helpx.adobe.com/it/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Quando ti viene richiesto di selezionare un’opzione per il prodotto, premi 4 per contattare il team di [!DNL Audience Manager].
+  Per i numeri verdi al di fuori degli Stati Uniti, consulta il nostro sito sui [numeri di contatto regionali dell’Assistenza clienti](https://helpx.adobe.com/it/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Quando ti viene richiesto di selezionare un’opzione per il prodotto, premi 4 per contattare il team di [!DNL Audience Manager].
 
 * **E-mail:** amsupport@adobe.com
 
@@ -74,7 +74,7 @@ Prima di contattarci, assicurati di avere a portata di mano le seguenti informaz
  </tbody> 
 </table>
 
-## In caso si verifichi un’interruzione {#outage}
+## In caso si verifichi un&#39;interruzione {#outage}
 
 Se pensi che vi sia un’interruzione, controlla innanzitutto la [pagina di stato del sistema di Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]). Troverai un registro di tutte le interruzioni, dei problemi e della manutenzione per le soluzioni Experience Cloud, incluso Audience Manager, e gli ultimi aggiornamenti dal nostro team Tech Ops. Se è necessaria ulteriore assistenza, quando contatti l&#39;assistenza clienti assicurati di avere a disposizione i dati seguenti, in aggiunta alle informazioni citate sopra:
 

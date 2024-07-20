@@ -8,8 +8,8 @@ feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 94%
+source-wordcount: '1161'
+ht-degree: 93%
 
 ---
 
@@ -78,11 +78,11 @@ Se l’indirizzo e-mail viene dotato di hash e acquisito correttamente, non dovr
 
 Audience Manager può raccogliere e inviare fino a 10 e-mail per utente alle piattaforme di destinazione, ma gli indirizzi e-mail devono essere acquisiti tramite file di sincronizzazione. Dopo che Audience Manager invia gli indirizzi e-mail alle piattaforme di destinazione, tocca alle piattaforme associare gli indirizzi e-mail rispetto alla propria base di utenti. Alcune piattaforme possono disporre di grafici degli indirizzi e-mail aggiuntivi far associare gli indirizzi inviati da Audience Manager ai profili degli utenti.
 
-**Posso utilizzare [!DNL People-Based Destinations] in [!DNL Audience Lab]?**
+**Posso usare [!DNL People-Based Destinations] in [!DNL Audience Lab]?**
 
-No. Attualmente, tutti [!DNL People-Based Destinations] destinazioni escluse da [!DNL Audience Lab]. Dato che [!DNL People-Based Destinations] e le piattaforme lato domanda utilizzano ID diversi, non è possibile testare e misurare le prestazioni con tipi di pubblico equamente suddivisi tra loro.
+No. Attualmente, tutte le destinazioni [!DNL People-Based Destinations] sono escluse da [!DNL Audience Lab]. Dato che [!DNL People-Based Destinations] e le piattaforme lato domanda utilizzano ID diversi, non è possibile testare e misurare le prestazioni con tipi di pubblico equamente suddivisi tra loro.
 
-## Controlli sull’esportazione dei dati {#data-export-controls}
+## Controlli sull&#39;esportazione dei dati {#data-export-controls}
 
 **Come funzionano i [!DNL Data Export Controls] con [!DNL People-Based Destinations]?**
 
@@ -116,6 +116,6 @@ Puoi utilizzare l’integrazione tra [!DNL Facebook] e [!DNL WCA] di Audience Ma
 
 Queste due integrazioni sono complementari; puoi utilizzare entrambe per garantire una migliore copertura del pubblico. Ad esempio, [!DNL WCA] può essere utile per la ricerca di potenziali clienti nel caso in cui un’azienda desideri effettuare il targeting di visitatori di siti web che non hanno registrato un account, mentre [!DNL People-Based Destinations] può aiutarti a individuare i clienti esistenti che hanno fornito il loro indirizzo e-mail ma che forse non hanno visitato il sito web.
 
-**L&#39; [!DNL People-Based Destinations] integrazione con [!DNL Facebook] supporta la rimozione di un utente da un pubblico quando non è più idoneo per tale pubblico?**
+**L&#39;integrazione di [!DNL People-Based Destinations] con [!DNL Facebook] supporta l&#39;esclusione di un utente da un pubblico quando non è più idoneo per tale pubblico?**
 
-Sì, l’integrazione supporta la rimozione di utenti da [!DNL Facebook] pubblico quando non sono più idonei.
+Sì, l&#39;integrazione supporta la rimozione degli utenti dai tipi di pubblico [!DNL Facebook] quando non sono più idonei.

@@ -3,18 +3,18 @@ description: Metodi facoltativi che consentono di assegnare caratteristiche a un
 seo-description: Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
 seo-title: Trait Type Methods
 solution: Audience Manager
-title: Metodi dei tipi di caratteristiche
+title: Metodi per tipi di caratteristiche
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
 exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 9%
+ht-degree: 3%
 
 ---
 
-# Metodi dei tipi di caratteristiche {#trait-type-methods}
+# Metodi per tipi di caratteristiche {#trait-type-methods}
 
 Metodi facoltativi che consentono di assegnare caratteristiche a un tipo o una categoria definita dall&#39;utente, in genere in base alla funzione o per i processi di reporting interni.
 
@@ -22,13 +22,13 @@ Metodi facoltativi che consentono di assegnare caratteristiche a un tipo o una c
 
 >[!NOTE]
 >
->I metodi di tipo di caratteristica non assegnano caratteristiche alle categorie utilizzate dal [tassonomia comune](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considerale come etichette separate dalla tassonomia comune.
+>I metodi di tipo di caratteristica non assegnano caratteristiche alle categorie utilizzate dalla [tassonomia comune](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Considerale come etichette separate dalla tassonomia comune.
 
-Per riferimenti visivi, [!UICONTROL Trait Types] è un controllo a discesa che si trova in [!DNL UI] in **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Per riferimento visivo, [!UICONTROL Trait Types] è un controllo a discesa disponibile in [!DNL UI] in **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Crea un nuovo tipo di caratteristica {#create-trait-type}
 
-A `POST` metodo che consente di creare un nuovo tipo di caratteristica.
+Metodo `POST` che consente di creare un nuovo tipo di caratteristica.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -61,7 +61,7 @@ A `POST` metodo che consente di creare un nuovo tipo di caratteristica.
 
 ## Restituire le proprietà per un tipo di caratteristica {#return-props}
 
-A `GET` metodo che restituisce dettagli sul tipo di caratteristica specificato.
+Un metodo `GET` che restituisce dettagli sul tipo di caratteristica specificato.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -86,7 +86,7 @@ A `GET` metodo che restituisce dettagli sul tipo di caratteristica specificato.
 
 ## Proprietà restituite per tutti i tipi di caratteristica {#return-props-all}
 
-A `GET` metodo che restituisce dettagli su tutti i tipi di caratteristiche in un array.
+Un metodo `GET` che restituisce dettagli su tutti i tipi di caratteristiche in un array.
 
 <!-- r_rest_api_get_trait_types.xml -->
 

@@ -10,13 +10,13 @@ exl-id: 3cd1700e-6914-46be-a0be-a870c472343e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 12%
+ht-degree: 3%
 
 ---
 
 # Metodi API per le aree geografiche dei DCS {#dcs-region-api-methods}
 
-Metodi che consentono di elencare in modo programmatico gli Audienci Manager [!DNL DCS] aree geografiche.
+Metodi che consentono di elencare a livello di programmazione le aree Audienci Manager [!DNL DCS].
 
 <!-- c_rest_api_regions.xml -->
 
@@ -24,7 +24,7 @@ Per un elenco delle regioni e dei numeri interi corrispondenti, vedere [ID regio
 
 ## Elencare una regione DCS specifica {#list-specific-dcs-region}
 
-A `GET` metodo per elencare uno specifico [!DNL DCS] area geografica.
+Un metodo `GET` per elencare un&#39;area specifica di [!DNL DCS].
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -48,13 +48,13 @@ A `GET` metodo per elencare uno specifico [!DNL DCS] area geografica.
   }
 ```
 
-Restituisce `200 OK` in caso di esito positivo.
+In caso di esito positivo, restituisce `200 OK`.
 
 Per un elenco delle regioni e dei numeri interi corrispondenti, vedere [ID regioni DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 ## Elenca aree geografiche DCS {#list-dcs-regions}
 
-A `GET` metodo da elencare [!DNL DCS] aree geografiche.
+Un metodo `GET` per elencare [!DNL DCS] regioni.
 
 <!-- r_rest_api_regions_list.xml -->
 
@@ -81,6 +81,6 @@ A `GET` metodo da elencare [!DNL DCS] aree geografiche.
 ]
 ```
 
-Restituisce `200 OK` in caso di esito positivo.
+In caso di esito positivo, restituisce `200 OK`.
 
 Per un elenco delle regioni e dei numeri interi corrispondenti, vedere [ID regioni DCS, posizioni e nomi host](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).

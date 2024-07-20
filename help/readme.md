@@ -1,7 +1,7 @@
 ---
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '326'
 ht-degree: 2%
 
 ---
@@ -11,22 +11,22 @@ ht-degree: 2%
 
 ## SOMMARIO
 
-+ `TOC.md` nella directory principale della guida utente è disponibile la struttura degli argomenti contenuti nella guida per questa soluzione.
-+ Ogni guida utente avrà il proprio `TOC.md`, in cui è possibile ordinare tutte le pagine/argomenti in base alle esigenze.
++ `TOC.md` nella directory principale della guida utente fornisce l&#39;organizzazione degli argomenti contenuti nella guida per questa soluzione.
++ Ogni guida utente avrà il proprio `TOC.md` univoco, in cui puoi ordinare tutte le pagine o gli argomenti secondo necessità.
 + La prima pagina di tutte le guide utente è `overview.md`.
 
 ## Guida utente
 
-+ L’introduzione alla guida utente è denominata `overview.md`
++ L&#39;introduzione alla guida utente è denominata `overview.md`
 + Ogni argomento nella guida utente ha una directory distinta.
    + Se nella guida è presente un argomento denominato *Implementazione*, la directory corrispondente è `/implementation`
-+ Tutte le risorse di immagini sono memorizzate in `/assets` nella directory principale della guida utente.
-   + Tutte le immagini in `/assets` la directory verrà localizzata.
-   + Qualsiasi immagine in `/no-localize` la directory non verrà localizzata (c’è una sorpresa!). Può essere utilizzato per garantire nelle versioni locali che determinate risorse non vengano riprodotte inutilmente.
++ Tutte le risorse di immagini sono archiviate in `/assets` nella directory principale della guida utente.
+   + Tutte le immagini nella directory `/assets` verranno localizzate.
+   + Tutte le immagini nella directory `/no-localize` non verranno localizzate (c&#39;è una sorpresa!). Può essere utilizzato per garantire nelle versioni locali che determinate risorse non vengano riprodotte inutilmente.
 
 ## Metadati a livello guida utente
 
-+ I metadati che descrivono la guida utente sono memorizzati nel file `TOC.md`. Ciò include:
++ I metadati che descrivono la guida utente sono memorizzati in `TOC.md`. Ciò include:
    + product: nome del prodotto/funzionalità.
    + cloud: cloud a cui appartiene questo prodotto.
    + pubblico: pubblico o archetipo a cui è destinata la guida.
@@ -50,4 +50,4 @@ ht-degree: 2%
 
 ## Ulteriori informazioni
 
-Per ulteriori istruzioni su pubblicazione, guide di stile, esempi e altre risorse, visita [Archivio con documentazione collaborativa](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Per ulteriori istruzioni sulla pubblicazione, guide di stile, esempi e altre risorse, visita il [repository con documentazione collaborativa](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)

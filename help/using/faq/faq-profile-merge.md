@@ -10,8 +10,8 @@ feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 82%
+source-wordcount: '1583'
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ Risposte alle domande comuni sulle Regole di unione profili e sul grafico dei di
 
 <!-- profile-merge-faq.xml -->
 
-## Informazioni di base sul grafico dei dispositivi {#device-graph-basics}
+## Nozioni di base sui grafici dei dispositivi {#device-graph-basics}
 
 **Cos’è un grafico dei dispositivi?**
 
@@ -31,7 +31,7 @@ Un grafico dei dispositivi è un set di mappature ID che definisce gruppi di dis
 
 **Cos’è un grafico dei dispositivi esterno?**
 
-Un grafico dei dispositivi esterno è un qualsiasi grafico dei dispositivi in [!DNL Audience Manager] che non è stato creato esclusivamente dalle tue sorgenti di dati multi-dispositivo. Ad esempio, quando crei un’ [Regola di unione profili](../features/profile-merge-rules/merge-rules-start.md) e scegli le opzioni del grafico dei dispositivi di terze parti, stai lavorando con un grafico dei dispositivi esterno. Consulta [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Un grafico dei dispositivi esterno è un qualsiasi grafico dei dispositivi in [!DNL Audience Manager] che non è stato creato esclusivamente dalle tue sorgenti di dati multi-dispositivo. Ad esempio, quando crei una [Regola di unione profili](../features/profile-merge-rules/merge-rules-start.md) e scegli le opzioni del grafico dei dispositivi di terze parti, stai lavorando con un grafico dei dispositivi esterno. Consulta [Device Options](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
@@ -89,7 +89,7 @@ I dispositivi che [!DNL Audience Manager] unisce e legge sono gli stessi disposi
 
  
 
-## Segmenti, grafici dei dispositivi e regole di unione dei profili {#segments-device-graphs-rules}
+## Segmenti, grafici dei dispositivi e regole di unione profili {#segments-device-graphs-rules}
 
 **In che modo [!DNL Audience Manager] rimuove da un segmento un dispositivo quando non è più qualificato per tale segmento con una [!UICONTROL Profile Merge Rule] che utilizza un grafico dei dispositivi?**
 
@@ -259,13 +259,13 @@ Sì. La metrica della popolazione totale del segmento include i dispositivi aggi
 
 No.
 
-**Perché viene visualizzata una popolazione di segmenti pari a zero per le esportazioni di segmenti in Adobe Campaign dopo il 16 marzo 2020?**
+**Perché non viene visualizzato alcun gruppo di segmenti per le esportazioni di segmenti in Adobe Campaign dopo il 16 marzo 2020?**
 
 Alla fine del 2019 sono stati rilasciati una serie di miglioramenti alle Profile Merge Rules per migliorare la precisione dei file batch generati utilizzando ID multi-dispositivo. Questi miglioramenti saranno rigorosamente rispettati nella tua istanza di Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati su una destinazione utilizzando ID multi-dispositivo cesseranno di produrre esportazioni in alcune configurazioni delle regole di unione profili.
 
 Per garantire la corretta integrazione tra l’istanza Audience Manager e le destinazioni utilizzando ID multi-dispositivo, come Adobe Campaign, assicurati di soddisfare i seguenti requisiti:
 
-1. Esamina la regola di unione profili utilizzata dai segmenti mappati sulla destinazione dell’ID dichiarato di Adobe Campaign. La regola di unione profili deve utilizzare [!UICONTROL Last Authenticated Profile] in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione profili utilizza un’opzione diversa, passala a [!UICONTROL Last Authenticated Profile].
+1. Esamina la regola di unione profili utilizzata dai segmenti mappati sulla destinazione dell’ID dichiarato di Adobe Campaign. La regola di unione profili deve utilizzare l&#39;opzione [!UICONTROL Last Authenticated Profile], in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione profili utilizza un&#39;opzione diversa, passala a [!UICONTROL Last Authenticated Profile].
 2. Seleziona l’origine dati Adobe Campaign Declared ID (ID dichiarato) nelle impostazioni della regola di unione profili.
 
 >[!NOTE]
@@ -275,4 +275,3 @@ Per garantire la corretta integrazione tra l’istanza Audience Manager e le des
 >[!MORELIKETHIS]
 >
 >* [Collegamento profilo](../features/profile-merge-rules/profile-link-use-case.md)
-

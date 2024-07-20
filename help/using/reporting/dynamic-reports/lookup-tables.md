@@ -10,7 +10,7 @@ exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -26,11 +26,11 @@ c_lookup_tables.xml
 
 ## I metadati del file di registro aumentano le dimensioni del file e il tempo di elaborazione
 
-Un file di registro tipico utilizzato da [!UICONTROL Delivery Performance] il rapporto in genere contiene migliaia di righe e decine di colonne. È costituito da ID numerici e informazioni leggibili dall’uomo come nomi di creativi, inserzionisti, ordini di inserimento e così via.
+Un file di log tipico utilizzato dal report [!UICONTROL Delivery Performance] contiene in genere migliaia di righe e decine di colonne. È costituito da ID numerici e informazioni leggibili dall’uomo come nomi di creativi, inserzionisti, ordini di inserimento e così via.
 
-Queste informazioni non ID sono denominate *`metadata`* (ovvero informazioni su altre informazioni) e viene scritto in ogni riga del file di registro.
+Queste informazioni non ID sono denominate *`metadata`* (ovvero informazioni su altre informazioni) e vengono scritte in ogni riga del file di log.
 
-Tuttavia, il [!UICONTROL Delivery Performance] Il report funziona principalmente con gli ID nel file di registro. I metadati sono utili, ma ripetitivi. Aumenta le dimensioni dei file e i tempi di acquisizione dei dati.
+Tuttavia, il report [!UICONTROL Delivery Performance] funziona principalmente con gli ID nel file di log. I metadati sono utili, ma ripetitivi. Aumenta le dimensioni dei file e i tempi di acquisizione dei dati.
 
 ## Riduzione delle dimensioni dei file e riduzione dei tempi di elaborazione con le tabelle indice
 

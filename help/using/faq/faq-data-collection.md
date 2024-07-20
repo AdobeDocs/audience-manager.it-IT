@@ -10,8 +10,8 @@ feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 82%
+source-wordcount: '1211'
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ Sfortunatamente non possiamo. Questi IP vengono assegnati in modo dinamico, per 
 
  
 
-**Puoi fornirmi un indirizzo IP che posso aggiungere a un elenco consentiti per il server SFTP in entrata e in uscita?**
+**Puoi fornirmi un indirizzo IP che posso aggiungere a un elenco consentiti per il tuo server SFTP in entrata e in uscita?**
 
 Sì, vedi sotto.
 
@@ -57,15 +57,15 @@ I server SFTP riportati di seguito sono obsoleti. Non verrà eseguito il provisi
 
  
 
-**Come posso configurare la mia istanza Audience Manager per utilizzare i nuovi server SFTP?**
+**Come posso configurare la mia istanza Audience Manager per l&#39;utilizzo dei nuovi server SFTP?**
 
-Contatta il tuo [!DNL Audience Manager] e configureranno i nuovi account SFTP.
+Contatta il tuo consulente [!DNL Audience Manager] o l&#39;Assistenza clienti per configurare i nuovi account SFTP.
 
  
 
 **Quali sono i metodi di autenticazione supportati per i nuovi server SFTP?**
 
-I nuovi server SFTP (`ftp-in-gtw` e `ftp-out-gtw`) supporto [!DNL OpenSSH Key-Based Authentication]. Possiamo generare il [!DNL SSH] o fornirci una tua chiave pubblica.
+I nuovi server SFTP (`ftp-in-gtw` e `ftp-out-gtw`) supportano [!DNL OpenSSH Key-Based Authentication]. È possibile generare le chiavi [!DNL SSH] oppure fornirci una propria chiave pubblica.
 
  
 
@@ -83,7 +83,7 @@ Come best practice, configura l’integrazione [!DNL Audience Manager]- [!DNL An
 
 * Metti [!UICONTROL DIL] direttamente nel `s_code`.
 
-* Serve [!UICONTROL DIL] e `s_code` da a [!DNL Adobe Experience Platform Tags].
+* Distribuisci [!UICONTROL DIL] e `s_code` tramite [!DNL Adobe Experience Platform Tags].
 
 Consulta [Data Integration Library (DIL) API](../dil/dil-overview.md).
 
@@ -150,9 +150,9 @@ Sì, [!DNL Audience Manager] può fornirti i dati raccolti per gli utenti che vi
 
 <br> 
 
-**[!DNL Google Ad Manager]Desidero raccogliere i dati su un sito ed effettuare il targeting degli utenti tramite su un sito diverso. Devo distribuire codice sull’altra proprietà se non desidero raccogliere i dati da tale posizione?**
+**Desidero raccogliere i dati su un sito ed eseguire il targeting degli utenti tramite [!DNL Google Ad Manager] su un sito diverso. Devo distribuire codice sull’altra proprietà se non desidero raccogliere i dati da tale posizione?**
 
-No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL lì. Purché tu abbia accesso all’inventario sul secondo sito tramite [!DNL Google Ad Manager], puoi utilizzare la raccolta dati dal sito iniziale e utilizzare target tramite [!DNL Google Ad Manager].
+No. Se la raccolta dei dati sul secondo sito non è un requisito, non è necessario distribuire DIL lì. Se si dispone dell&#39;accesso all&#39;inventario nel secondo sito tramite [!DNL Google Ad Manager], è possibile utilizzare la raccolta dati dal sito iniziale e il sito di destinazione tramite [!DNL Google Ad Manager].
 
 <br> 
 
@@ -162,9 +162,9 @@ Ogni provider offre qualcosa di unico, quindi la risposta dipende da cosa stai c
 
 <br> 
 
-**In che modo [!DNL Audience Manager] imposta i cookie e trasmette le variabili a [!DNL Google Ad Manager]?**
+**In che modo [!DNL Audience Manager] imposta i cookie e trasmette le variabili a [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager][!DNL Google Ad Manager] imposta 2 cookie: uno invia le variabili del segmento al tag dell’annuncio e l’altro imposta il nostro ID utente univoco (UUID), che viene letto anche da [!DNL Google Ad Manager]. L’aggiunta dell’UUID al tag dell’annuncio consente di effettuare reporting e individuare pubblico a livello di utente.
+[!DNL Audience Manager] imposta 2 cookie: uno invia le variabili del segmento al tag annuncio [!DNL Google Ad Manager] e l&#39;altro imposta il nostro ID utente univoco (UUID), che viene letto anche da [!DNL Google Ad Manager]. L’aggiunta dell’UUID al tag dell’annuncio consente di effettuare reporting e individuare pubblico a livello di utente.
 
 <br> 
 
@@ -208,8 +208,8 @@ In genere, la sincronizzazione di un profilo utente tra aree geografiche richied
 
  
 
-**Cosa succederà alle chiavi di accesso inattive per gli utenti di Amazon S3?**
+**Cosa succede alle chiavi di accesso inattive per gli utenti di Amazon S3?**
 
-Adobe fornisce ai clienti Audience Manager le chiavi di accesso utente per l’Audience Manager [!DNL Amazon S3] secchi. Per motivi di sicurezza, le chiavi vengono disattivate automaticamente dopo 100 giorni di inattività.
+Adobe fornisce ai clienti Audience Manager le chiavi di accesso utente per i bucket Audience Manager [!DNL Amazon S3]. Per motivi di sicurezza, le chiavi vengono disattivate automaticamente dopo 100 giorni di inattività.
 
 Per riabilitare le chiavi di accesso o richiederne di nuove, contatta l’Assistenza clienti.

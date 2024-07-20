@@ -9,8 +9,8 @@ feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
 source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 87%
+source-wordcount: '547'
+ht-degree: 92%
 
 ---
 
@@ -151,7 +151,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
      Per conoscere le nuove funzioni e le correzioni, consulta le <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external">note sulla versione di Experience Cloud</a> più recenti.</p> 
      <p> <b>Funzioni più recenti</b> </p> <p> 
      Scopri le funzioni più recenti di Audience Manager:</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migrazione degli utenti Audienci Manager ad Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Customer Match di Google per destinazioni basate su persone</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in di Audience Manager per IAB TCF v2.2</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Reporting sull’utilizzo delle attività</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Migrazione degli utenti Audience Manager ad Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Customer Match di Google per destinazioni basate su persone</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Plug-in di Audience Manager per IAB TCF v2.2</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictive Audiences</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Reporting sull’utilizzo delle attività</a></li>
      </ul></p>
     </td>
   </tr> 

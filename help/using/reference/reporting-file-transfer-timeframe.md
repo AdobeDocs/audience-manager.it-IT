@@ -9,8 +9,8 @@ feature: Reference
 exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 4%
+source-wordcount: '605'
+ht-degree: 1%
 
 ---
 
@@ -31,12 +31,12 @@ Nella tabella seguente sono elencati e descritti gli intervalli di tempo nei rep
 
 | Tipo di dati | Descrizione |
 |---|---|
-| Dati in tempo reale | I numeri in tempo reale per oggi si riferiscono alle ore 00:00-23:59:59 UTC da ieri. |
-| Dati generali dei rapporti | I dati in [Rapporti generali](../reporting/general-reports.md#general-reports-overview) dipende dal completamento riuscito di altri processi di processo e dalla quantità di dati ricevuti per un determinato giorno. Nella maggior parte dei casi, [!UICONTROL General Report] I dati devono essere aggiornati entro le 18:00 UTC di ogni giorno. |
+| Dati in tempo reale | I numeri in tempo reale per oggi si riferiscono alle ore 00:00-23:59:59 UTC di ieri. |
+| Dati generali dei rapporti | I dati nei [report generali](../reporting/general-reports.md#general-reports-overview) dipendono dal completamento di altri processi e dalla quantità di dati ricevuti per un giorno specifico. Nella maggior parte dei casi, i dati di [!UICONTROL General Report] devono essere aggiornati ogni giorno entro le 18:00 UTC. |
 
 ## Trasferimenti di file in entrata e in uscita {#inbound-outbound-file-transfers}
 
-[!DNL Audience Manager] elabora e invia in entrata e in uscita [!UICONTROL Server-to-Server (S2S)] trasferimenti di file in base alle pianificazioni descritte in questa sezione. Dati questi programmi e i tempi di cut-off, potresti notare delle discrepanze con i nuovi segmenti tra numeri di segmento in tempo reale e numeri di segmento totali.
+[!DNL Audience Manager] elabora e invia trasferimenti di file [!UICONTROL Server-to-Server (S2S)] in entrata e in uscita in base alle pianificazioni descritte in questa sezione. Dati questi programmi e i tempi di cut-off, potresti notare delle discrepanze con i nuovi segmenti tra numeri di segmento in tempo reale e numeri di segmento totali.
 
 | Tipo file | Descrizione |
 |---|---|
@@ -47,4 +47,3 @@ Nella tabella seguente sono elencati e descritti gli intervalli di tempo nei rep
 >[!MORELIKETHIS]
 >
 >* [Domande frequenti sull’acquisizione dei dati dei clienti in entrata](../faq/faq-inbound-data-ingestion.md)
-

@@ -9,60 +9,60 @@ feature: Audience Optimization Reports
 exl-id: 045eed94-100f-460d-83bb-78fbd7beb51c
 source-git-commit: 95b7b4347f3da16be05be60cbefc0e236022a4a7
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 3%
+source-wordcount: '556'
+ht-degree: 2%
 
 ---
 
 # Importare file di dati di Google Campaign Manager in Audience Manager {#import-dcm-data-files-into-audience-manager}
 
-Configurare un [!DNL Google] gruppo per portare il tuo [!DNL Google Campaign Manager] file di dati in Audience Manager. Il contenuto di questa sezione riassume il processo di integrazione e fornisce i collegamenti a [!DNL Google Campaign Manager] risorse per aiutarti a iniziare.
+Configura un gruppo [!DNL Google] per rendere Audienci Manager i file di dati di [!DNL Google Campaign Manager]. Il contenuto di questa sezione riepiloga il processo di integrazione e fornisce collegamenti alle risorse [!DNL Google Campaign Manager] per aiutarti a iniziare.
 
 ## Riepilogo dell’integrazione
 
-[!DNL Google Campaign Manager] è la soluzione [!DNL Google] che sostituisce [!DNL DoubleClick for Advertisers] (DFA). Simile a DFA, [!DNL Google Campaign Manager] i clienti possono importare, visualizzare e lavorare con i propri dati in [!DNL Audience Manager]. Ma [!DNL Audience Manager] non può accedere e importare direttamente [!UICONTROL Data Transfer] e [!UICONTROL Match Table] file. L&#39;importazione di questi file è a carico del cliente.
+[!DNL Google Campaign Manager] è la sostituzione di [!DNL Google] per [!DNL DoubleClick for Advertisers] (DFA). Analogamente a DFA, i clienti [!DNL Google Campaign Manager] possono importare, visualizzare e lavorare con i propri dati in [!DNL Audience Manager]. Ma [!DNL Audience Manager] non può accedere e importare direttamente i tuoi file [!UICONTROL Data Transfer] e [!UICONTROL Match Table]. L&#39;importazione di questi file è a carico del cliente.
 
-Tuttavia, la procedura di configurazione è ben documentata nel [Guida di DoubleClick Campaign Manager](https://support.google.com/dcm/partner/answer/2941575?hl=en&amp;ref_topic=6107456). Inoltre, puoi rivedere i passaggi elencati di seguito per iniziare.
+Tuttavia, la procedura di configurazione è ben documentata nella [Guida di DoubleClick Campaign Manager](https://support.google.com/dcm/partner/answer/2941575?hl=en&amp;ref_topic=6107456). Inoltre, puoi rivedere i passaggi elencati di seguito per iniziare.
 
 >[!CAUTION]
 >
->[!DNL Google Campaign Manager] i file di dati contengono dati per tutti gli inserzionisti o i clienti. Se è necessario omettere client specifici, è necessario modificare i file prima di renderli disponibili per [!DNL Audience Manager].
+>[!DNL Google Campaign Manager] file di dati contengono dati per tutti gli inserzionisti o i client. Se è necessario omettere client specifici, è necessario modificare i file prima di renderli disponibili per [!DNL Audience Manager].
 
 ## Frequenza e disponibilità del trasferimento dei dati
 
-[!DNL Audience Manager] verifica e trasferisce i dati una volta al giorno. I dati sono generalmente disponibili in [!DNL Audience Manager] dopo 24 ore.
+[!DNL Audience Manager] verifica e trasferisce i dati una volta al giorno. I dati sono in genere disponibili in [!DNL Audience Manager] dopo 24 ore.
 
 ## Passaggi
 
-1. [Create un gruppo](https://support.google.com/dcm/partner/answer/3370419?hl=en&amp;ref_topic=6107456).
+1. [Crea un gruppo](https://support.google.com/dcm/partner/answer/3370419?hl=en&amp;ref_topic=6107456).
 
-   I gruppi controllano l’accesso al tuo [!DNL Google Campaign Manager] dati. Alla fine, potrai invitare e aggiungere [!DNL Audience Manager] a questo gruppo.
+   I gruppi controllano l&#39;accesso ai dati di [!DNL Google Campaign Manager]. Inviterai e aggiungerai [!DNL Audience Manager] a questo gruppo.
 
-1. [Verifica lo stato dell&#39;archiviazione Google Cloud](https://support.google.com/dcm/partner/answer/3370481?hl=en&amp;ref_topic=6107456).
+1. [Verifica lo stato dell&#39;archiviazione cloud di Google](https://support.google.com/dcm/partner/answer/3370481?hl=en&amp;ref_topic=6107456).
 
-   Google Cloud Storage contiene il bucket di dati che contiene il [!UICONTROL Data Transfer] e [!UICONTROL Match Tables]. Devi impostare un bucket o assicurarti che il nuovo gruppo abbia accesso a un bucket di archiviazione dati esistente.
+   Google Cloud Storage contiene il bucket di dati che contiene [!UICONTROL Data Transfer] e [!UICONTROL Match Tables]. Devi impostare un bucket o assicurarti che il nuovo gruppo abbia accesso a un bucket di archiviazione dati esistente.
 
-1. [Ottieni un URL per file di dati](https://support.google.com/dcm/partner/answer/3370482?hl=en&amp;ref_topic=6107456).
+1. [Ottieni un URL di file di dati](https://support.google.com/dcm/partner/answer/3370482?hl=en&amp;ref_topic=6107456).
 
-   Utilizzare [!DNL Google Campaign Manager] Account Manager o consulente per le soluzioni Platform. Ti forniranno l’URL dei tuoi file di dati. [!DNL Google] potrebbe modificare il formato dei bucket e dei nomi dei file nelle versioni future. Anche in questo caso, utilizza [!DNL Google Campaign Manager] Account Manager per essere certi di usare i formati corretti.
+   Rivolgiti al tuo Account Manager [!DNL Google Campaign Manager] o al consulente per le soluzioni della piattaforma. Ti forniranno l’URL dei tuoi file di dati. [!DNL Google] potrebbe modificare il formato dei nomi di file e bucket nelle versioni future. Rivolgiti al tuo Account Manager [!DNL Google Campaign Manager] per assicurarti di utilizzare i formati corretti.
 
-1. [Impostare le autorizzazioni bucket](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission).
+1. [Imposta autorizzazioni bucket](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission).
 
-   Il [!DNL Cloud Storage Manager] consente di controllare la condivisione dei dati e l’accesso ai bucket. Concedi al gruppo l&#39;accesso in lettura al bucket che contiene [!UICONTROL Data Transfer] e [!UICONTROL Match Table] file.
+   [!DNL Cloud Storage Manager] consente di controllare la condivisione dei dati e l&#39;accesso ai bucket. Concedi al gruppo l&#39;accesso in lettura al bucket contenente i tuoi file [!UICONTROL Data Transfer] e [!UICONTROL Match Table].
 
-1. [Configurare la condivisione dei dati](https://support.google.com/dcm/partner/answer/6206106?hl=en).
+1. [Configura condivisione dati](https://support.google.com/dcm/partner/answer/6206106?hl=en).
 
-   Condiviso [!DNL Google Campaign Manager] Gli ID utente sono crittografati per proteggere la privacy. Encryption aggiunge 2 colonne alla fine del file di trasferimento dati, `PartnerId1` e `PartnerId2`. Queste colonne contengono ID utente codificati specifici per ogni azienda che riceve questi file.
+   Gli ID utente [!DNL Google Campaign Manager] condivisi sono crittografati per proteggere la privacy. La crittografia aggiunge 2 colonne alla fine del file di trasferimento dati, `PartnerId1` e `PartnerId2`. Queste colonne contengono ID utente codificati specifici per ogni azienda che riceve questi file.
 
-   In qualità di terzo autorizzato, [!DNL Audience Manager] può ricevere [!DNL Google Campaign Manager] ma non può decodificare gli ID. Tuttavia, il [!DNL Audience Manager] sappiamo come gli ID codificati corrispondono ai nostri ID. Questo significa che possiamo far corrispondere e sincronizzare gli utenti con sicurezza e precisione.
+   In qualità di terza parte autorizzata, [!DNL Audience Manager] può ricevere [!DNL Google Campaign Manager] dati, ma non può decodificare gli ID. Tuttavia, sul lato [!DNL Audience Manager], sappiamo come gli ID codificati corrispondono ai nostri ID. Questo significa che possiamo far corrispondere e sincronizzare gli utenti con sicurezza e precisione.
 
    >[!NOTE]
-   >Impossibile importare [!DNL Google Campaign Manager] file in [!DNL Audience Manager] se stai già condividendo dati con altri 2 partner di terze parti.
+   >Non puoi importare [!DNL Google Campaign Manager] file in [!DNL Audience Manager] se stai già condividendo dati con altri 2 partner di terze parti.
 
-1. Invita [!DNL Audience Manager] per unirsi al gruppo.
+1. Invita [!DNL Audience Manager] a partecipare al gruppo.
 
-   Dopo aver creato un gruppo e avergli dato accesso a un bucket di dati, invita [!DNL Audience Manager] per unirsi al gruppo. Invia un invito e-mail a dfaaam@adobe.com. Assicurati di includere l’URL del file di dati dal passaggio 3. I nostri team interni collaboreranno con te per verificare l’accesso dopo aver accettato l’invito. 1. Imposta due origini dati per [!DNL Google Campaign Manager] dati in [!DNL Audience Manager] Interfaccia utente.
+   Dopo aver creato un gruppo e avergli dato accesso a un bucket di dati, invita [!DNL Audience Manager] a partecipare al gruppo. Invia un invito e-mail a dfaaam@adobe.com. Assicurati di includere l’URL del file di dati dal passaggio 3. I nostri team interni collaboreranno con te per verificare l’accesso dopo aver accettato l’invito. 1. Configurare due origini dati per i dati [!DNL Google Campaign Manager] nell&#39;interfaccia utente [!DNL Audience Manager].
 
-   Denomina le origini dati `Advertiser Analytics: DCM Platform` e `Advertiser Analytics: AAM+DCM Platform`. In [Creare origini dati](../../../features/manage-datasources.md#create-data-source) flusso di lavoro, imposta il tipo ID su `Cookie`. Condividi gli ID delle due nuove origini dati con i nostri team interni.
+   Denomina le origini dati `Advertiser Analytics: DCM Platform` e `Advertiser Analytics: AAM+DCM Platform`. Nel flusso di lavoro [Crea origini dati](../../../features/manage-datasources.md#create-data-source), imposta il tipo ID su `Cookie`. Condividi gli ID delle due nuove origini dati con i nostri team interni.
 
-1. Puoi creare facilmente le caratteristiche dal [!DNL Google Campaign Manager] file importati in [!DNL Audience Manager]. Consulta [File di registro fruibili](../../../integration/media-data-integration/actionable-log-files.md) e chiedi [!DNL Audience Manager] consulente o assistenza clienti per abilitare questa funzione.
+1. È possibile creare facilmente caratteristiche dai file [!DNL Google Campaign Manager] importati in [!DNL Audience Manager]. Consulta [File di registro fruibili](../../../integration/media-data-integration/actionable-log-files.md) e chiedi al tuo consulente [!DNL Audience Manager] o all&#39;Assistenza clienti di abilitare questa funzione.

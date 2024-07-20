@@ -10,7 +10,7 @@ exl-id: 8da0b48e-6fa4-43c9-a149-a39e465ac366
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -30,19 +30,19 @@ t_bulk_estimates.xml
 
 >[!NOTE]
 >
->[Autorizzazioni del gruppo RBAC](../../features/administration/administration-overview.md) assegnato in [!DNL Audience Manager] L’interfaccia utente di è rispettata in [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni del gruppo RBAC](../../features/administration/administration-overview.md) assegnate nell&#39;interfaccia utente [!DNL Audience Manager] vengono rispettate in [!UICONTROL Bulk Management Tools].
 
-Per eseguire aggiornamenti in blocco, apri [!UICONTROL Bulk Management Tools] foglio di lavoro e
+Per eseguire aggiornamenti in blocco, aprire il foglio di lavoro [!UICONTROL Bulk Management Tools] e:
 
-1. Fai clic su **[!UICONTROL Headers]** e copia il [!UICONTROL Estimate Segment Size] intestazione.
-2. Fai clic su **[!UICONTROL Estimate]** scheda.
+1. Fare clic sulla scheda **[!UICONTROL Headers]** e copiare l&#39;intestazione [!UICONTROL Estimate Segment Size].
+2. Fare clic sulla scheda **[!UICONTROL Estimate]**.
 3. Incollare l&#39;intestazione della stima nella prima riga del foglio di lavoro della stima.
 4. Incolla o digita i dati che desideri modificare in una colonna corrispondente in base all’etichetta dell’intestazione.
 5. Nella barra degli strumenti del foglio di lavoro fare clic sul pulsante Crea corrispondente all&#39;elemento che si sta aggiornando.
-Questa azione apre il [!UICONTROL Account Information] .
-6. Fornisci il necessario [informazioni di accesso](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) e fai clic su **[!UICONTROL Submit]**.
+Questa azione apre la finestra di dialogo [!UICONTROL Account Information].
+6. Fornisci le [informazioni di accesso](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) richieste e fai clic su **[!UICONTROL Submit]**.
 
-Questa azione crea un [!UICONTROL Response] nel foglio di lavoro che contiene i dati stimati sulle dimensioni dei segmenti. Prima di immettere i dati, il foglio di lavoro della stima in blocco deve avere un aspetto simile al seguente:
+Questa azione crea una colonna [!UICONTROL Response] nel foglio di lavoro che contiene i dati delle dimensioni di segmento stimate. Prima di immettere i dati, il foglio di lavoro della stima in blocco deve avere un aspetto simile al seguente:
 
 ![](assets/estimate.png)
-Se l’aggiornamento in blocco restituisce un errore o non riesce, consulta [Risoluzione dei problemi relativi agli strumenti di gestione in blocco](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Se l&#39;aggiornamento in blocco restituisce un errore o non riesce, vedere [Risoluzione dei problemi relativi agli strumenti di gestione in blocco](../../reference/bulk-management-tools/bulk-troubleshooting.md).

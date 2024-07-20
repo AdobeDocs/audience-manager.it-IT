@@ -9,8 +9,8 @@ feature: DIL Implementation
 exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 3%
+source-wordcount: '343'
+ht-degree: 2%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 3%
 
 >[!WARNING]
 >
->A partire da luglio 2023, Adobe ha interrotto lo sviluppo del [!DNL Data Integration Library (DIL)] e [!DNL DIL] estensione.
+>A partire da luglio 2023, Adobe ha interrotto lo sviluppo di [!DNL Data Integration Library (DIL)] e dell&#39;estensione [!DNL DIL].
 >
->I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experienci Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
+>I clienti esistenti possono continuare a utilizzare l&#39;implementazione [!DNL DIL]. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dati a lungo termine.
 >
->I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experienci Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
+>I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
-Descrive i metodi in `DIL.tools` spazio dei nomi. Queste funzioni consentono di eseguire attività specifiche.
+Descrive i metodi nello spazio dei nomi `DIL.tools`. Queste funzioni consentono di eseguire attività specifiche.
 
 <!-- 
 
@@ -44,7 +44,7 @@ r_dil_get_search_referrer.xml
 
 ### Scopo di `getSearchReferrer`
 
-In DIL, `getSearchReferrer` restituisce i risultati della ricerca (nomi e parole chiave) utilizzati per raggiungere il sito. Puoi trasmettere termini di ricerca specifici a questa funzione o consentirle di eseguire ricerche nei motori di ricerca supportati ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], e [!DNL Yahoo]) contro `document.referrer` per impostazione predefinita.
+In DIL, `getSearchReferrer` restituisce i risultati della ricerca (nomi e parole chiave) utilizzati per raggiungere il sito. È possibile passare termini di ricerca specifici a questa funzione o consentire la ricerca nei motori di ricerca supportati ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] e [!DNL Yahoo]) rispetto a `document.referrer` per impostazione predefinita.
 
 ### Firma della funzione
 
@@ -54,8 +54,8 @@ Firma funzione: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` accetta:
 
-* *`{string}`*: *(Facoltativo)* Una stringa contenente l’URL di ricerca (utilizza `document.referrer` se non definito).
-* *`{object}`*: *(Facoltativo)* Oggetto contenente la configurazione per `hostPattern`, `queryParam`, o `queryPattern`.
+* *`{string}`*: *(Facoltativo)* Stringa contenente l&#39;URL di ricerca (utilizza `document.referrer` se non definito).
+* *`{object}`*: *(facoltativo)* Oggetto contenente la configurazione per `hostPattern`, `queryParam` o `queryPattern`.
 
 E restituisce:
 
@@ -90,7 +90,7 @@ E restituisce:
 </td> 
   </tr> 
   <tr> 
-   <td> <b>Abbina il nome host dell’URL a un regex personalizzato</b></td> 
+   <td> <b>Corrispondenza nome host URL con un regex personalizzato</b></td> 
    <td> Passa un regex personalizzato in modo che corrisponda al nome host dell’URL di riferimento. </td> 
    <td> 
   <code>
@@ -103,7 +103,7 @@ E restituisce:
   </code>
   </td></tr> 
   <tr> 
-   <td> <b>Abbina pattern di ricerca con un regex personalizzato</b> </td> 
+   <td> <b>Abbina modelli di ricerca con un Regex personalizzato</b> </td> 
    <td> Passa un regex personalizzato per eseguire una ricerca personalizzata. </td> 
    <td> 
     <code>
@@ -121,7 +121,7 @@ E restituisce:
 
 ## decomposeURI
 
-Disassembla un identificatore di risorsa uniforme ( [!DNL URI]) nei suoi componenti: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, e `[!DNL uriParams]`.
+Disassembla un identificatore di risorsa uniforme ( [!DNL URI]) nei componenti: `hash`, `host`, `href`, `pathname`, `protocol`, `search` e `[!DNL uriParams]`.
 
 <!-- 
 
@@ -135,7 +135,7 @@ Firma funzione: `DIL.tools.decomposeURI`
 
 `decomposeURI` accetta:
 
-* *`uri {string}`*: *(Facoltativo)* Stringa contenente l’URI. Impostazione predefinita `document.location.href` se non specificato.
+* *`uri {string}`*: *(Facoltativo)* Stringa contenente l&#39;URI. Valore predefinito: `document.location.href` se non specificato.
 
 E restituisce:
 

@@ -10,7 +10,7 @@ exl-id: 22335e8d-35cf-4014-803a-efdd35552ef2
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,6 @@ Per scoprire come creare le caratteristiche di conversione in Audience Manager, 
 
 ## Report di esempio
 
-Il tuo [!UICONTROL Reported Conversion Traits] Il rapporto potrebbe essere simile a quello seguente:
+Il report [!UICONTROL Reported Conversion Traits] potrebbe essere simile a quello seguente:
 
 ![](assets/reported-conversion-traits.png)

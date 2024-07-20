@@ -9,49 +9,48 @@ feature: Segments
 exl-id: 4e4da7a7-3267-4564-b1c5-663dcddf2b93
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 3%
+source-wordcount: '303'
+ht-degree: 1%
 
 ---
 
 # Segmenti: finalità, composizione e regole {#segments-purpose-composition-and-rules}
 
-Descrive [!UICONTROL segments], le loro parti costitutive e la creazione di regole con [!UICONTROL Segment Builder].
+Descrive [!UICONTROL segments], le relative parti costitutive e la creazione di regole con [!UICONTROL Segment Builder].
 
 ## Scopo di [!UICONTROL Segments]
 
-A *`segment`* (o un *`audience`*) è un insieme di utenti che condividono attributi comuni. Ad Audience Manager, puoi creare [!UICONTROL segments] con regole lato server. Queste regole ti consentono di creare gruppi di pubblico in base agli attributi dei visitatori del sito, ad esempio:
+Un *`segment`* (o un *`audience`*) è un insieme di utenti che condividono attributi comuni. Ad Audience Manager, puoi creare [!UICONTROL segments] con regole lato server. Queste regole ti consentono di creare gruppi di pubblico in base agli attributi dei visitatori del sito, ad esempio:
 
-* Comportamento;
+* Comportamento
 * Caratteristiche demografiche (età, genere, reddito, ecc.);
 * Altre caratteristiche definibili nell’interfaccia utente.
 
-## [!UICONTROL Segment] Composizione
+## Composizione [!UICONTROL Segment]
 
-Un Audience Manager [!UICONTROL segment] è una regola lato server costituita da singoli o gruppi di caratteristiche. Le caratteristiche sono composte da elementi di dati denominati coppie chiave-valore. Insieme alle regole impostate in [!UICONTROL segment] livello, queste coppie chiave-valore contengono i criteri che qualificano i visitatori per le caratteristiche e [!UICONTROL segment] iscrizione.
+Un Audience Manager [!UICONTROL segment] è una regola lato server costituita da singoli o gruppi di caratteristiche. Le caratteristiche sono composte da elementi di dati denominati coppie chiave-valore. Oltre alle regole impostate al livello [!UICONTROL segment], queste coppie chiave-valore contengono i criteri che qualificano i visitatori per la caratteristica e l&#39;iscrizione a [!UICONTROL segment].
 
-## Considerazioni su [!UICONTROL Adobe Analytics] [!UICONTROL Segment] Mappatura
+## Considerazioni sulla mappatura di [!UICONTROL Adobe Analytics] [!UICONTROL Segment]
 
-Durante la mappatura di Adobe Analytics [!UICONTROL segments] o suite di rapporti per l’organizzazione Experience Cloud, Audience Manager crea automaticamente nuove suite di rapporti di sola lettura corrispondenti [!UICONTROL segments] e caratteristiche. Non è possibile modificare o modificare il percorso di archiviazione di questi [!UICONTROL segments] dall&#39;Audience Manager. Tuttavia, qualsiasi modifica eseguita sull’Adobe Analytics mappato [!UICONTROL segments] o nelle suite di rapporti si riflette in Audience Manager.
+Quando si mappano le suite di rapporti o Adobe Analytics [!UICONTROL segments] nell&#39;organizzazione Experience Cloud, Audience Manager crea automaticamente [!UICONTROL segments] e caratteristiche nuovi, corrispondenti, di sola lettura. Impossibile modificare o modificare il percorso di archiviazione di questi [!UICONTROL segments] da Audience Manager. Tuttavia, qualsiasi modifica eseguita sull&#39;Adobe Analytics [!UICONTROL segments] o sulle suite di rapporti mappate si riflette in Audience Manager.
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] sono diversi da [!DNL Adobe Analytics] [!UICONTROL segments]. Letto [Segmenti in Analytics e Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.
+>Audience Manager [!UICONTROL segments] diverso da [!DNL Adobe Analytics] [!UICONTROL segments]. Leggi [Informazioni sui segmenti in Analytics e Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.
 
-## Crea basato su regole [!UICONTROL Segments] Con [!UICONTROL Segment Builder]
+## Crea [!UICONTROL Segments] basato su regole con [!UICONTROL Segment Builder]
 
-A differenza dei pixel tradizionali che si attivano in risposta a semplici condizioni sì/no, [!UICONTROL Segment Builder] consente di creare elementi complessi [!UICONTROL segment] requisiti. Mi piace [!UICONTROL traits], [!UICONTROL segments] valutare i dati tramite [!DNL Boolean] espressioni ([!DNL AND], [!DNL OR], [!DNL NOT]), operatori di confronto (maggiore di, minore di, uguale a, ecc.) e criteri di recency/frequenza. Queste funzioni aiutano a creare un pubblico mirato [!UICONTROL segments] in base alle esigenze aziendali.
+A differenza dei pixel tradizionali che si attivano in risposta a condizioni semplici di sì/no, [!UICONTROL Segment Builder] consente di creare requisiti complessi di [!UICONTROL segment]. Come [!UICONTROL traits], [!UICONTROL segments] valuta i dati utilizzando [!DNL Boolean] espressioni ([!DNL AND], [!DNL OR], [!DNL NOT]), operatori di confronto (maggiore di, minore di, uguale a, ecc.) e criteri di recency/frequenza. Queste funzionalità consentono di creare un pubblico mirato [!UICONTROL segments] in base alle esigenze aziendali.
 
 ## Vantaggi
 
 [!UICONTROL Segments] migliora i processi standard di creazione/segmentazione del pubblico basati su pixel perché ti consentono di:
 
-* Genera informazioni utili e pertinenti [!UICONTROL segments] con caratteristiche di prima parte e terze parti.
+* Genera [!UICONTROL segments] pertinenti e utili con caratteristiche di prima e terze parti.
 * Crea regole di segmentazione complesse e sofisticate con operatori booleani, espressioni di confronto e criteri di recency/frequenza.
-* Invia [!UICONTROL segment] dati a un partner di destinazione.
+* Invia dati [!UICONTROL segment] a un partner di destinazione.
 * Monitora le prestazioni con i rapporti Audience Manager.
 
 >[!MORELIKETHIS]
 >
 >* [Segnali, caratteristiche e segmenti](../../reference/signal-trait-segment.md)
-

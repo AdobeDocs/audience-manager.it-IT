@@ -10,22 +10,22 @@ exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 15%
+ht-degree: 7%
 
 ---
 
 # Ottenere ID utente e aree geografiche da una risposta DCS {#get-user-ids-and-regions-from-a-dcs-response}
 
-Questa sezione descrive come analizzare una [!DNL DCS] risposta per recuperare gli ID visitatore e area geografica necessari per effettuare chiamate in tempo reale al [!DNL DCS].
+In questa sezione viene descritto come analizzare una risposta [!DNL DCS] per recuperare gli ID visitatore e area geografica necessari per effettuare chiamate in tempo reale a [!DNL DCS].
 
 ## ID utente e regione {#user-region-ids}
 
-A [!DNL DCS] la risposta contiene dati sui visitatori del sito. È necessario disporre del visitatore e dell&#39;ID di regione prima di poter effettuare chiamate server-to-server al [!DNL DCS].
+Una risposta di [!DNL DCS] contiene dati sui visitatori del tuo sito. Per poter effettuare chiamate server-to-server a [!DNL DCS], è necessario disporre del visitatore e dell&#39;ID di regione.
 
 * L’ID utente è necessario per identificare e associare dati a un visitatore specifico.
-* L&#39;ID di regione è obbligatorio perché è associato a un nome di server regionale, che è necessario inviare dati al [!DNL DCS]. Il [!DNL DCS] memorizza le informazioni nei data center geograficamente più vicini ai visitatori del sito. Consulta [ID regioni DCS, posizioni e nomi host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* L&#39;ID di regione è obbligatorio perché è associato a un nome di server regionale, che è necessario inviare dati a [!DNL DCS]. [!DNL DCS] memorizza le informazioni nei data center geograficamente più vicini ai visitatori del sito. Consulta [ID regioni DCS, posizioni e nomi host](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-Questi parametri sono descritti di seguito. Codice in *corsivo* rappresenta un segnaposto variabile.
+Questi parametri sono descritti di seguito. Il codice in *corsivo* rappresenta un segnaposto variabile.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -37,7 +37,7 @@ Questi parametri sono descritti di seguito. Codice in *corsivo* rappresenta un s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code> </p> </td> 
+   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code></span> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
    <td colname="col3"> <p> <code> "uuid":"123456789"</code> </p> </td> 
   </tr> 
@@ -51,7 +51,7 @@ Questi parametri sono descritti di seguito. Codice in *corsivo* rappresenta un s
 
 ## Risposta di esempio {#sample-response}
 
-Questa semplice risposta mostra `UUID` e area geografica `ID`. Si tratta solo di dati di esempio. I file di registro potrebbero essere più lunghi e complessi.
+Questa risposta semplice mostra `UUID` e l&#39;area geografica `ID`. Si tratta solo di dati di esempio. I file di registro potrebbero essere più lunghi e complessi.
 
 ```js
 {
@@ -64,4 +64,4 @@ Questa semplice risposta mostra `UUID` e area geografica `ID`. Si tratta solo di
 
 ## Passaggi successivi {#next-steps}
 
-Una volta che hai l’ID utente e il nome del server regionale, puoi iniziare a inviare e ricevere [!DNL DCS] dati. Consulta [Esecuzione di chiamate API DCS](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Dopo aver ottenuto l&#39;ID utente e il nome del server regionale, è possibile iniziare a inviare e ricevere [!DNL DCS] dati. Consulta [Esecuzione di chiamate API DCS](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).

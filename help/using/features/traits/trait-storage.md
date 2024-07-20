@@ -10,7 +10,7 @@ exl-id: 97d9951e-a339-4dd9-8a67-b7884752533b
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Le cartelle di archiviazione delle caratteristiche memorizzano e consentono di o
 
 ## Scopo delle cartelle di archiviazione delle caratteristiche
 
-In entrata [!UICONTROL Trait Builder], le cartelle di archiviazione delle caratteristiche sono directory che contengono e organizzano le caratteristiche in gruppi logici creati. Accedere alle cartelle di archiviazione da [!UICONTROL Traits] cruscotto o durante la creazione di una nuova caratteristica. Non è possibile creare una nuova caratteristica senza assegnarla a una cartella di archiviazione.
+In [!UICONTROL Trait Builder] le cartelle di archiviazione delle caratteristiche sono directory che contengono e organizzano le caratteristiche in gruppi logici creati dall&#39;utente. Accedere alle cartelle di archiviazione dal dashboard [!UICONTROL Traits] o durante la creazione di una nuova caratteristica. Non è possibile creare una nuova caratteristica senza assegnarla a una cartella di archiviazione.
 
 ![](assets/tb_storage.png)
 
@@ -32,11 +32,11 @@ Questa procedura descrive come creare una cartella di archiviazione per le carat
 
 <!-- t_tb_create_storage.xml -->
 
-È possibile creare una nuova cartella di archiviazione nel [!UICONTROL Basic Information] durante la configurazione di una nuova caratteristica. Inoltre, le cartelle possono essere create in [!UICONTROL Trait Storage] sezione dell&#39;area principale [!UICONTROL Traits] dashboard elenco.
+È possibile creare una nuova cartella di archiviazione nella sezione [!UICONTROL Basic Information] durante la configurazione di una nuova caratteristica. È inoltre possibile creare le cartelle nella sezione [!UICONTROL Trait Storage] del dashboard elenco [!UICONTROL Traits] principale.
 
 Per creare una nuova cartella di archiviazione:
 
-1. In [!UICONTROL Trait Storage] finestra, passaggio del mouse:
+1. Nella finestra [!UICONTROL Trait Storage], passa il puntatore del mouse su:
    * **[!UICONTROL All Traits]** per aggiungere una nuova cartella principale.
    * Cartella padre esistente per aggiungere una nuova cartella subordinata.
 1. Fai clic sull&#39;icona + per creare la cartella.
@@ -48,7 +48,7 @@ In questa procedura viene descritto come rinominare o eliminare una cartella di 
 
 <!-- t_tb_rename_delete_storage.xml -->
 
-È possibile rinominare o eliminare le cartelle di archiviazione dal [!UICONTROL Trait Storage] sezione dell&#39;area principale [!UICONTROL Traits] dashboard elenco.
+È possibile rinominare o eliminare le cartelle di archiviazione dalla sezione [!UICONTROL Trait Storage] del dashboard elenco [!UICONTROL Traits] principale.
 
 * Per rinominare una cartella, passa il puntatore del mouse su di essa e fai clic sull’icona della matita.
-* Per eliminare una cartella, selezionala e fai clic sul pulsante **X** icona.
+* Per eliminare una cartella, passa il puntatore su di essa e fai clic sull&#39;icona **X**.

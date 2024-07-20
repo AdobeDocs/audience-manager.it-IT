@@ -10,8 +10,8 @@ feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 84%
+source-wordcount: '574'
+ht-degree: 87%
 
 ---
 
@@ -47,9 +47,9 @@ Sì. Consulta [Bulk Management Tools](../reference/bulk-management-tools/bulk-ma
 
  
 
-**Durante l’esportazione di un ID in blocco in una destinazione, mancano alcuni ID cliente. Perché succede?**
+**Durante l&#39;esportazione di un ID bulk in una destinazione, mancano alcuni ID cliente. Perché succede?**
 
-Quando un ID dispositivo ([UUID AAM](../reference/ids-in-aam.md)) è collegato a più ID CRM ([DPUUID](../reference/ids-in-aam.md)), viene esportata solo la mappatura più recente. Per questo motivo è possibile che venga esportato un numero di ID dispositivo inferiore al previsto.
+Quando un ID dispositivo ([UUID AAM](../reference/ids-in-aam.md)) è collegato a più ID CRM ([DPUUID](../reference/ids-in-aam.md)), viene esportato solo il mapping più recente. Per questo motivo è possibile che venga esportato un numero di ID dispositivo inferiore al previsto.
 
  
 
@@ -67,7 +67,7 @@ Il feed di dati e tutte le caratteristiche in esso contenute vengono visualizzat
 
 **Che cosa è [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager utilizzava [!UICONTROL Tag Insertion Manager] (TIM) per creare e gestire [!UICONTROL data collection code (DIL)]. Questa funzionalità è obsoleta ed è stata sostituita prima da [!UICONTROL Dynamic Tag Manager (DTM)] e successivamente da [!DNL Adobe Experience Platform Tags]. Per ulteriori informazioni, consulta [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+Audience Manager utilizzava [!UICONTROL Tag Insertion Manager] (TIM) per creare e gestire [!UICONTROL data collection code (DIL)]. Questa funzionalità è obsoleta ed è stata sostituita prima da [!UICONTROL Dynamic Tag Manager (DTM)] e successivamente da [!DNL Adobe Experience Platform Tags]. Per ulteriori informazioni, vedere [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
  
 

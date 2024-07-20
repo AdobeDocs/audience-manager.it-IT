@@ -10,82 +10,80 @@ feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
 source-git-commit: 6ec76227dd8c7581550c3d95e24fc5b6a4b01093
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '372'
+ht-degree: 0%
 
 ---
 
-# Gestire i  [!UICONTROL Data Sources] {#manage-data-sources}
+# Gestisci [!UICONTROL Data Sources] {#manage-data-sources}
 
-## Creare un [!UICONTROL Data Source] {#create-data-source}
+## Crea un [!UICONTROL Data Source] {#create-data-source}
 
-Per creare un nuovo [!UICONTROL data source], vai a **[!UICONTROL Audience Data > Data Sources > Add New]** e completa i passaggi per ciascuna sezione qui descritta. Le autorizzazioni di amministratore sono necessarie per creare un [!UICONTROL data source].
+Per creare un nuovo [!UICONTROL data source], vai a **[!UICONTROL Audience Data > Data Sources > Add New]** e completa i passaggi per ogni sezione qui descritta. Per creare [!UICONTROL data source] sono necessarie le autorizzazioni di amministratore.
 
 <!-- create-datasource.xml -->
 
 >[!TIP]
 >
->Consulta [Impostazioni origine dati e opzioni menu](../features/datasources-list-and-settings.md#settings-menu-options) descrizioni di questi diversi controlli.
+>Per le descrizioni dei diversi controlli, vedere [Impostazioni e opzioni di menu di Data Source](../features/datasources-list-and-settings.md#settings-menu-options).
 
-## [!UICONTROL Data Source] Dettagli {#details}
+## Dettagli di [!UICONTROL Data Source] {#details}
 
-Per completare la [!UICONTROL Data Source Details] sezione:
+Per completare la sezione [!UICONTROL Data Source Details]:
 
-1. Denomina il [!UICONTROL data source].
-1. *(Facoltativo)* Descrivi la [!UICONTROL data source]. Una descrizione concisa consente di definire il ruolo o lo scopo del [!UICONTROL data source].
-1. Fornisci un [!UICONTROL integration code]. Generalmente, [!UICONTROL integration codes] sono facoltativi. Sono necessarie quando si desidera:
+1. Denomina [!UICONTROL data source].
+1. *(Facoltativo)* Descrivere [!UICONTROL data source]. Una descrizione concisa consente di definire il ruolo o lo scopo di [!UICONTROL data source].
+1. Fornisci un [!UICONTROL integration code]. In genere, [!UICONTROL integration codes] sono facoltativi. Sono necessarie quando si desidera:
 
-   * [Creare un’origine dati per più dispositivi](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Utilizza il [Servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+   * [Crea un&#39;origine dati multi-dispositivo](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
+   * Utilizza il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Utilizzare [Regole di unione profili](../features/profile-merge-rules/merge-rules-start.md).
 
-1. Scegli un **[!UICONTROL ID Type]**. [!UICONTROL ID Type] le opzioni includono:
+1. Scegli un **[!UICONTROL ID Type]**. Le opzioni [!UICONTROL ID Type] includono:
 
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
-   * **[!UICONTROL Cross-device]** (Necessario per creare un [!UICONTROL Profile Merge Rule]). Nota: per alcuni clienti, questa selezione espone **[!UICONTROL ID Definition]** opzioni.
+   * **[!UICONTROL Cross-device]** (necessario per creare [!UICONTROL Profile Merge Rule]). Per alcuni clienti, questa selezione espone le opzioni **[!UICONTROL ID Definition]**.
 
    >[!NOTE]
    >
-   >Per ogni organizzazione per la quale è stato eseguito il provisioning, ad Audience Manager e Experience Platform, anche se non è stata impostata la condivisione dei segmenti tra le due app, quando si crea un’origine dati cross-device viene visualizzata una [spazio dei nomi delle identità](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) viene creato in Experience Platform.
+   >Per ogni organizzazione per la quale è stato eseguito il provisioning, ad Audience Manager e Experience Platform, anche se non è stata impostata la condivisione dei segmenti tra le due app, quando si crea un&#39;origine dati cross-device, viene creato uno spazio dei nomi [identity](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) corrispondente in Experience Platform.
 
-1. Scegli un **[!UICONTROL ID Definition]** opzione. Le opzioni includono:
+1. Scegliere un&#39;opzione **[!UICONTROL ID Definition]**. Le opzioni includono:
 
    * **[!UICONTROL Person]**
    * **[!UICONTROL Household]**
 
 ## [!UICONTROL Data Export Controls] {#export-controls}
 
-[Controlli sull’esportazione dei dati](../features/data-export-controls.md) sono regole di classificazione facoltative che puoi applicare a una [!UICONTROL data source] e [!UICONTROL destination]. Ti impediscono di inviare dati a un [!UICONTROL destination] quando tale azione viola un accordo sulla privacy dei dati o sull’uso. Salti questa sezione se non utilizza [!UICONTROL Data Export Controls].
+[I controlli sull&#39;esportazione dei dati](../features/data-export-controls.md) sono regole di classificazione facoltative che è possibile applicare a [!UICONTROL data source] e [!UICONTROL destination]. Impediscono l&#39;invio di dati a [!UICONTROL destination] quando tale azione viola un accordo sulla privacy dei dati o sull&#39;utilizzo. Ignorare questa sezione se non si utilizza [!UICONTROL Data Export Controls].
 
-## [!UICONTROL Data Source] Impostazioni {#settings}
+## Impostazioni [!UICONTROL Data Source] {#settings}
 
-Queste impostazioni determinano come [!UICONTROL data source] viene identificato, utilizzato e condiviso. Puoi anche abilitare la segnalazione di errori per i file di dati in entrata. Per completare la [!UICONTROL Data Source Settings] sezione:
+Queste impostazioni determinano come un [!UICONTROL data source] viene identificato, utilizzato e condiviso. Puoi anche abilitare la segnalazione di errori per i file di dati in entrata. Per completare la sezione [!UICONTROL Data Source Settings]:
 
-1. Seleziona un [!UICONTROL Data Source Setting] casella di controllo per applicare un&#39;opzione al [!UICONTROL data source].
-2. Clic **[!UICONTROL Save]**.
+1. Selezionare una casella di controllo [!UICONTROL Data Source Setting] per applicare un&#39;opzione a [!UICONTROL data source].
+2. Fare clic su **[!UICONTROL Save]**.
 
-## Eliminare un’origine dati {#delete-data-source}
+## Eliminare un Source dati {#delete-data-source}
 
 <!-- t_datasource_delete.xml -->
 
-Eliminare un [!UICONTROL data source] che non ti serve più.
+Eliminare un [!UICONTROL data source] non più necessario.
 
 >[!NOTE]
 >
 >Si prega di notare le seguenti restrizioni:
 >
->* Non è possibile eliminare un [Caratteristiche sincronizzate del pubblico attivo o della sorgente dei dati](../features/traits/client-activity-synced-audience-traits.md).
->* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dal [!DNL Analytics] suite di rapporti. Utilizza il [Servizio core](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html) per annullare la mappatura di queste origini dati.
+>* Non puoi eliminare un [pubblico attivo o una caratteristica sincronizzata di Data Source](../features/traits/client-activity-synced-audience-traits.md).
+>* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di rapporti [!DNL Analytics]. Utilizza il [servizio core](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html) per annullare la mappatura di queste origini dati.
 
-
-1. Clic **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
+1. Fare clic su **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Selezionare la casella di controllo accanto a una o più origini dati.
-È possibile utilizzare [!UICONTROL Search] per individuare le origini dati desiderate se l&#39;elenco è lungo.
-1. Clic  ![](assets/icon_trash.png), quindi conferma l’eliminazione.
+Se l&#39;elenco è lungo, è possibile utilizzare la casella [!UICONTROL Search] per individuare le origini dati desiderate.
+1. Fai clic su ![](assets/icon_trash.png), quindi conferma l&#39;eliminazione.
 
 
 >[!MORELIKETHIS]
 >
->* [Impostazioni origine dati e opzioni menu](../features/datasources-list-and-settings.md#settings-menu-options)
-
+>* [Impostazioni e opzioni di menu di Data Source](../features/datasources-list-and-settings.md#settings-menu-options)

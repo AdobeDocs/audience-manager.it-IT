@@ -9,8 +9,8 @@ feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 8%
+source-wordcount: '343'
+ht-degree: 1%
 
 ---
 
@@ -30,35 +30,35 @@ I fogli di lavoro di creazione e aggiornamento accettano un&#39;intestazione tra
 
 >[!NOTE]
 >
->[Autorizzazioni del gruppo RBAC](../../features/administration/administration-overview.md) assegnato in [!DNL Audience Manager] L’interfaccia utente di è rispettata in [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni del gruppo RBAC](../../features/administration/administration-overview.md) assegnate nell&#39;interfaccia utente [!DNL Audience Manager] vengono rispettate in [!UICONTROL Bulk Management Tools].
 
 ## Utilizzo delle regole per le caratteristiche {#trait-rules}
 
-Nel foglio di lavoro, la colonna delle regole delle caratteristiche restituisce e accetta regole costituite da espressioni booleane, operatori di confronto ed espressioni regolari. Puoi creare regole con il generatore di caratteristiche o segmenti in [!DNL Audience Manager] e copiarli nel foglio di lavoro. In alternativa, se si ha familiarità con la sintassi delle regole, è possibile scrivere espressioni direttamente nei fogli di lavoro.
+Nel foglio di lavoro, la colonna delle regole delle caratteristiche restituisce e accetta regole costituite da espressioni booleane, operatori di confronto ed espressioni regolari. È possibile creare regole con Generatore di caratteristiche o segmenti in [!DNL Audience Manager] e copiarle nel foglio di lavoro. In alternativa, se si ha familiarità con la sintassi delle regole, è possibile scrivere espressioni direttamente nei fogli di lavoro.
 
 ## Esempio di generatore di regole {#rule-builder-example}
 
-Vediamo un esempio che dimostra come utilizzare [!UICONTROL Segment Builder] per creare una regola è possibile accedere al foglio di lavoro ausiliario. Tuttavia, non si tratta di un insieme di istruzioni dettagliate per questi strumenti. Inizieremo con una semplice regola già creata. Per istruzioni su come utilizzare i generatori di regole, consulta [Generatore di segmenti](../../features/segments/segment-builder.md) e [Generatore di caratteristiche](../../features/traits/about-trait-builder.md).
+Ecco un esempio che illustra come utilizzare [!UICONTROL Segment Builder] per creare una regola che è possibile utilizzare per il foglio di lavoro in blocco. Tuttavia, non si tratta di un insieme di istruzioni dettagliate per questi strumenti. Inizieremo con una semplice regola già creata. Per istruzioni su come utilizzare i generatori di regole, vedi [Generatore di segmenti](../../features/segments/segment-builder.md) e [Generatore di caratteristiche](../../features/traits/about-trait-builder.md).
 
-Con il generatore di regole visive, abbiamo creato una regola di segmento con 3 caratteristiche e un valore booleano [!UICONTROL AND] operatore.
+Con il generatore di regole visive, è stata creata una regola di segmento con 3 caratteristiche e un operatore [!UICONTROL AND] booleano.
 
 ![](assets/visualrule.png)
 
-Clic **[!UICONTROL Code View]** per ottenere la versione testuale di questa regola.
+Fare clic su **[!UICONTROL Code View]** per ottenere la versione testuale della regola.
 
 >[!TIP]
 >
->Clic **[!UICONTROL Validate Expression]** per controllare la logica della regola. Questo ti aiuterà a impedire il caricamento di una regola non valida.
+>Fai clic su **[!UICONTROL Validate Expression]** per controllare la logica della regola. Questo ti aiuterà a impedire il caricamento di una regola non valida.
 
 ![](assets/coderule.png)
 
-Incolla la regola nel [!UICONTROL Bulk Management Tools] e confermare le modifiche per aggiornare le regole dei segmenti in blocco.
+Incolla la regola nel foglio di lavoro [!UICONTROL Bulk Management Tools] e conferma le modifiche per aggiornare le regole del segmento in blocco.
 
 ![](assets/segmentrule.png)
 
 ## Creazione di regole personalizzate {#create-rules}
 
-Puoi scrivere regole personalizzate al di fuori di [!UICONTROL Rule Builder]. Prima di iniziare, assicurati di leggere la documentazione che tratta elementi come operatori, espressioni e variabili richieste. Si consiglia di esaminare quanto segue:
+È possibile scrivere regole personalizzate all&#39;esterno di [!UICONTROL Rule Builder]. Prima di iniziare, assicurati di leggere la documentazione che tratta elementi come operatori, espressioni e variabili richieste. Si consiglia di esaminare quanto segue:
 
 * [Utilizzo Degli Operatori Di Confronto Nel Generatore Di Caratteristiche](../../features/traits/trait-comparison-operators.md)
 * [Ordine delle operazioni](../../features/traits/trait-operator-precedence.md)

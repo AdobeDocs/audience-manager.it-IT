@@ -9,8 +9,8 @@ feature: Inbound Data Transfers
 exl-id: fe9ecb97-4a45-4fbb-855e-01df007144cf
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 4%
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ I pixel semplici (che possono essere utilizzati per qualificare gli utenti per l
 Per abilitare i trasferimenti di dati in entrata, il fornitore e il cliente devono:
 
 1. Determina le caratteristiche che desideri che il fornitore o il partner attivi.
-1. Ottieni il pixel per la caratteristica. Nella schermata dell’elenco delle caratteristiche, passa il puntatore del mouse su **[!UICONTROL Actions]** e fai clic sul pulsante **[!UICONTROL Get trait URL]** simbolo della caratteristica desiderata.
+1. Ottieni il pixel per la caratteristica. Nella schermata dell&#39;elenco delle caratteristiche, passa il cursore del mouse sulla colonna **[!UICONTROL Actions]** e fai clic sul simbolo **[!UICONTROL Get trait URL]** per la caratteristica desiderata.
 1. Fornisci [!DNL URL] al fornitore o al partner.
 
 ## Esempi
@@ -34,7 +34,7 @@ Questa chiamata evento di base invia la caratteristica ID 1234 a [!DNL Audience 
 https://something.demdex.net/event?d_sid=1234
 ```
 
-Puoi serializzare gli ID delle caratteristiche in una chiamata evento per ridurre `HTTP` traffico dalla pagina. Aggiungi ID di caratteristica aggiuntivi alla stringa URL, come illustrato nell’esempio seguente:
+È possibile serializzare gli ID caratteristica in una chiamata evento per ridurre il traffico `HTTP` dalla pagina. Aggiungi ID di caratteristica aggiuntivi alla stringa URL, come illustrato nell’esempio seguente:
 
 ```
 https://something.demdex.net/event?d_sid=1234,5678,9876,5432

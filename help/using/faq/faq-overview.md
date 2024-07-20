@@ -9,11 +9,11 @@ exl-id: 2777fdf1-df79-4111-9fe4-d2638ee10395
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
-# Domande frequenti su Audience Manager Panoramica {#audience-manager-faq}
+# Panoramica delle domande frequenti sugli Audienci Manager {#audience-manager-faq}
 
 Questa sezione aggrega un elenco delle categorie di domande frequenti relative alle varie funzionalità di Audience Manager.
 

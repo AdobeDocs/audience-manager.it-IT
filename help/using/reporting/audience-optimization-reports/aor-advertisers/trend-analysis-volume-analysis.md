@@ -10,30 +10,30 @@ exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# [!UICONTROL Trend Analysis] e [!UICONTROL Volume Analysis] Rapporti{#trend-analysis-and-volume-analysis-reports}
+# [!UICONTROL Trend Analysis] e [!UICONTROL Volume Analysis] report{#trend-analysis-and-volume-analysis-reports}
 
 Questi rapporti restituiscono dati su impression, tassi di click-through e conversioni per un’ampia gamma di dimensioni pubblicitarie. Confronta le tendenze e il volume per le metriche selezionate per ottenere un’immagine migliore delle prestazioni della campagna nel tempo.
 
-## Esempio [!UICONTROL Trend Analysis] Report {#sample-trend-analysis}
+## Esempio di report [!UICONTROL Trend Analysis] {#sample-trend-analysis}
 
-Il [!UICONTROL Trend Analysis] report restituisce i dati in un grafico a linee solo per un intervallo di 14 giorni. In questo esempio, il rapporto mostra le tendenze di impression, click-through e conversione per un set di segmenti mappati.
+Il report [!UICONTROL Trend Analysis] restituisce dati in un grafico a linee solo per un intervallo di 14 giorni. In questo esempio, il rapporto mostra le tendenze di impression, click-through e conversione per un set di segmenti mappati.
 
 ![](assets/trend-analysis.png)
 
-## Esempio [!UICONTROL Volume Analysis] Report {#sample-volume-analysis}
+## Esempio di report [!UICONTROL Volume Analysis] {#sample-volume-analysis}
 
-Il [!UICONTROL Volume Analysis] il rapporto restituisce i dati in un grafico a barre per l’intervallo di date selezionato. In questo esempio, il rapporto mostra impression, click-through e conversioni per volume per un set di segmenti mappati.
+Il report [!UICONTROL Volume Analysis] restituisce i dati in un grafico a barre per l&#39;intervallo di date selezionato. In questo esempio, il rapporto mostra impression, click-through e conversioni per volume per un set di segmenti mappati.
 
 >[!NOTE]
 >
->Periodi di lookback di 7 e 30 giorni sono disponibili solo di domenica **[!UICONTROL Date Through]** date.
+>I periodi di look-back di 7 giorni e 30 giorni sono disponibili solo per le date di domenica **[!UICONTROL Date Through]**.
 
 ![](assets/volume-analysis.png)
 
 >[!TIP]
 >
->Per informazioni sui segmenti mappati e non mappati, vedi [Rapporto sulle prestazioni dei segmenti](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) documentazione.
+>Per informazioni sui segmenti mappati e non mappati, consulta la documentazione del [Rapporto sulle prestazioni dei segmenti](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md).

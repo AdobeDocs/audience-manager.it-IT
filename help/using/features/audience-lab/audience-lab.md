@@ -1,5 +1,5 @@
 ---
-description: Crea segmenti di test reciprocamente esclusivi nei gruppi di test dei segmenti per confrontare e misurare l’efficacia di destinazioni diverse. È possibile mettere da parte un gruppo di controllo e dividere il segmento in percentuali di un intero, al fine di testare l’efficacia.
+description: Crea segmenti di test reciprocamente esclusivi nei gruppi di test dei segmenti per confrontare e misurare l’efficacia di destinazioni diverse. È possibile mettere da parte un gruppo di controllo e dividere il segmento in percentuali di un intero, al fine di verificare l’efficacia.
 seo-description: Create mutually exclusive test segments in Segment Test Groups to compare and measure effectiveness of different destinations. You can set aside a control group and divide your segment into percentages of a whole, in order to test efficacy.
 seo-title: Audience Lab
 solution: Audience Manager
@@ -9,20 +9,20 @@ feature: Audience Lab
 exl-id: b7fbeb03-52aa-4489-8fcb-45bc2d26621d
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 3%
+source-wordcount: '549'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Audience Lab] {#audience-lab}
 
-Creare segmenti di test reciprocamente esclusivi in [!UICONTROL Segment Test Groups] per confrontare e misurare l’efficacia di diverse destinazioni. È possibile mettere da parte un gruppo di controllo e dividere il segmento in percentuali di un intero, al fine di testare l’efficacia.
+Creare segmenti di test reciprocamente esclusivi in [!UICONTROL Segment Test Groups] per confrontare e misurare l&#39;efficacia di destinazioni diverse. È possibile mettere da parte un gruppo di controllo e dividere il segmento in percentuali di un intero, al fine di verificare l’efficacia.
 
 ## Panoramica {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] utilizza [Collegamento profilo](../../features/profile-merge-rules/merge-rules-overview.md) per eseguire test tra dispositivi diversi. Questo consente a un utente di qualificarsi per lo stesso segmento di test e ricevere lo stesso trattamento tra i dispositivi. I segmenti di test nei gruppi di test ereditano il [Regola di unione profili](../../features/profile-merge-rules/merge-rules-dashboard.md) il segmento di base ad esso assegnato.
+[!UICONTROL Audience Lab] utilizza [Collegamento profilo](../../features/profile-merge-rules/merge-rules-overview.md) per eseguire test tra dispositivi diversi. Questo consente a un utente di qualificarsi per lo stesso segmento di test e ricevere lo stesso trattamento tra i dispositivi. I segmenti di test nei gruppi di test erediteranno la [regola di unione profili](../../features/profile-merge-rules/merge-rules-dashboard.md) assegnata al segmento di base.
 
-Il [!UICONTROL Audience Lab] nella vista predefinita viene visualizzata una scheda per ogni gruppo di test. Fai clic su una scheda per accedere a **[!UICONTROL Test Group]** visualizzazione. Questa visualizzazione include le seguenti informazioni:
+Nella visualizzazione predefinita [!UICONTROL Audience Lab] viene visualizzata una scheda per ogni gruppo di test. Fare clic su una scheda per accedere alla visualizzazione **[!UICONTROL Test Group]**. Questa visualizzazione include le seguenti informazioni:
 
 * **[Informazioni sui gruppi di test](../../features/audience-lab/audience-lab-information-view.md)**
 * **[Reporting sui gruppi di test](../../features/audience-lab/audience-lab-reporting-view.md)**
@@ -41,7 +41,7 @@ Dopo aver iniziato a creare più gruppi di test con più segmenti di test, può 
 
 ![](assets/search_and_filter_audience_lab.png)
 
-Puoi anche filtrare i gruppi di test per stato. Tutti gli stati disponibili sono descritti in [Stato](../../features/audience-lab/audience-lab.md#status) sezione successiva.
+Puoi anche filtrare i gruppi di test per stato. Tutti gli stati disponibili sono descritti nella sezione [Stato](../../features/audience-lab/audience-lab.md#status) seguente.
 
 ## [!UICONTROL Status] {#status}
 
@@ -57,23 +57,23 @@ Lo stato di un gruppo di test può essere attivo, pianificato, in pausa, bozza o
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Attivo </span></b> </p> </td> 
-   <td colname="col2"> <p>Un <i>attivo</i> gruppo di test significa che i dati vengono attualmente inviati alle destinazioni. Premi <b><span class="uicontrol"> Sospendi test </span></b> nel <b><span class="uicontrol"> Gruppo di test </span></b> per sospendere l’invio di dati alle destinazioni. </p> </td> 
+   <td colname="col2"> <p>Un gruppo di test <i>attivo</i> indica che i dati sono attualmente inviati alle destinazioni. Premere <b><span class="uicontrol"> Pausa test </span></b> nella scheda <b><span class="uicontrol"> Gruppo di test </span></b> per sospendere l'invio di dati alle destinazioni. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Pianificato </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>pianificato</i> il gruppo di test non è ancora attivo, ma non può più essere modificato. Diventerà attivo alla data di inizio selezionata nel <b>Creare gruppi di test</b> procedura guidata. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> pianificato </span></b> </p> </td> 
+   <td colname="col2"> <p>Un gruppo di test <i>pianificato</i> non è ancora attivo ma non può più essere modificato. Diventerà attivo alla data di inizio selezionata nella procedura guidata <b>Crea gruppi di test</b>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> In pausa </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>in pausa</i> al momento il gruppo di test non invia dati alle destinazioni. Premi <b><span class="uicontrol"> Rendi attivo </span></b> nel <b><span class="uicontrol"> Gruppo di test </span></b> per riprendere a inviare caratteristiche. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> ha sospeso </span></b> </p> </td> 
+   <td colname="col2"> <p>Un gruppo di test <i>messo in pausa</i> al momento non invia dati alle destinazioni. Premere <b><span class="uicontrol"> Rendi attivo </span></b> nella scheda del gruppo di test </span></b> di <b><span class="uicontrol"> per riprendere a inviare caratteristiche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Bozza </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>bozza</i> il gruppo di test non è ancora attivo e può ancora essere modificato. Non invia ancora dati alle destinazioni mappate. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> bozza </span></b> </p> </td> 
+   <td colname="col2"> <p>Un gruppo di test <i>bozza</i> non è ancora attivo e può essere modificato. Non invia ancora dati alle destinazioni mappate. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Completato </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>completato</i> il gruppo di test ha raggiunto la data di fine selezionata nel <b><span class="uicontrol"> Creare gruppi di test </span></b> e ha interrotto l’invio dei dati di reporting. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> completato </span></b> </p> </td> 
+   <td colname="col2"> <p>Un gruppo di test <i>completato</i> ha raggiunto la data di fine selezionata nella procedura guidata <b><span class="uicontrol"> per la creazione di gruppi di test </span></b> e ha interrotto l'invio dei dati di reporting. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -90,7 +90,7 @@ Lo stato di un gruppo di test può essere attivo, pianificato, in pausa, bozza o
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Modifica </span></b> </p> </td>
-   <td colname="col2"> <p>Disponibile <b>solo</b> per gruppi di test in bozza. Consente di riprendere <b><span class="uicontrol"> Crea nuovo gruppo di test </span></b> procedura guidata. </p> </td>
+   <td colname="col2"> <p>Disponibile <b>solo</b> per i gruppi di test bozza. Consente di riprendere la procedura guidata Crea nuovo gruppo di test </span></b> di <b><span class="uicontrol">. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pausa </span></b> </p> </td>
@@ -105,7 +105,7 @@ Lo stato di un gruppo di test può essere attivo, pianificato, in pausa, bozza o
    <td colname="col2"> <p>Disponibile per i gruppi di test completati. Consente di visualizzare le informazioni di reporting generate dal test. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Duplica </span></b> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> duplicato </span></b> </p> </td>
    <td colname="col2"> <p>Consente di creare un nuovo gruppo di test con la stessa configurazione di quello che si sta duplicando. </p> </td>
   </tr>
   <tr> 

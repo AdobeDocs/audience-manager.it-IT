@@ -11,7 +11,7 @@ exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -31,25 +31,25 @@ t_bulk_updates.xml
 
 >[!NOTE]
 >
->[Autorizzazioni del gruppo RBAC](../../features/administration/administration-overview.md) assegnato in [!DNL Audience Manager] L’interfaccia utente di è rispettata in [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni del gruppo RBAC](../../features/administration/administration-overview.md) assegnate nell&#39;interfaccia utente [!DNL Audience Manager] vengono rispettate in [!UICONTROL Bulk Management Tools].
 
-Per eseguire aggiornamenti in blocco, apri [!UICONTROL Bulk Management Tools] foglio di lavoro e
+Per eseguire aggiornamenti in blocco, aprire il foglio di lavoro [!UICONTROL Bulk Management Tools] e:
 
-1. Fai clic su **[!UICONTROL Headers]** e copiare le intestazioni di aggiornamento per l&#39;elemento da modificare.
-2. Fai clic su **[!UICONTROL Update]** scheda.
+1. Fare clic sulla scheda **[!UICONTROL Headers]** e copiare le intestazioni di aggiornamento per l&#39;elemento da modificare.
+2. Fare clic sulla scheda **[!UICONTROL Update]**.
 3. Incollare le intestazioni di aggiornamento nella prima riga del foglio di lavoro di aggiornamento. Tieni presente quanto segue:
 
    * Quando si aggiorna una cartella, sono necessarie tutte le intestazioni.
    * Quando si aggiornano segmenti o caratteristiche, è necessario solo l’ID segmento (SID) e l’elemento intestazione che devono essere modificati. Elimina le intestazioni non utilizzate.
 
 4. Incolla o digita i dati che desideri modificare in una colonna corrispondente in base all’etichetta dell’intestazione.
-5. Nella barra degli strumenti del foglio di lavoro fare clic su un pulsante di aggiornamento corrispondente all&#39;elemento che si sta aggiornando.
-Questa azione apre il [!UICONTROL Account Information] .
+5. Nella barra degli strumenti del foglio di lavoro fare clic su un pulsante di aggiornamento corrispondente al        elemento da aggiornare.
+Questa azione apre la finestra di dialogo [!UICONTROL Account Information].
 
-6. Fornisci il necessario [informazioni di accesso](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) e fai clic su **[!UICONTROL Submit]**.
+6. Fornisci le [informazioni di accesso](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) richieste e fai clic su **[!UICONTROL Submit]**.
 
-   Il foglio di lavoro crea un [!UICONTROL Results] colonna. Il [!UICONTROL Results] restituisce la risposta JSON per un’operazione riuscita. Consulta la [API REST](../../api/rest-api-main/rest-api-main.md) ad esempio. Prima di immettere i dati, il foglio di lavoro per l&#39;aggiornamento in blocco deve avere un aspetto simile al seguente:
+   Il foglio di lavoro crea una colonna [!UICONTROL Results]. La colonna [!UICONTROL Results] restituisce la risposta JSON per un&#39;operazione riuscita. Per esempi, consulta le [API REST](../../api/rest-api-main/rest-api-main.md). Prima di immettere i dati, il foglio di lavoro per l&#39;aggiornamento in blocco deve avere un aspetto simile al seguente:
 
 ![](assets/update.png)
 
-Se l’aggiornamento in blocco restituisce un errore o non riesce, consulta [Risoluzione dei problemi relativi agli strumenti di gestione in blocco](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Se l&#39;aggiornamento in blocco restituisce un errore o non riesce, vedere [Risoluzione dei problemi relativi agli strumenti di gestione in blocco](../../reference/bulk-management-tools/bulk-troubleshooting.md).

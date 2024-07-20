@@ -9,7 +9,7 @@ exl-id: 14308ef0-58eb-4b76-858c-d0da560f55fd
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Crea nuove caratteristiche da tutti i segnali, inclusi quelli già utilizzati ne
 
 ## Creare caratteristiche dal dashboard Segnale {#create-traits-from-signal-dashboard}
 
-Il [!UICONTROL Signal Dashboard] consente di creare nuove caratteristiche da [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals]e le ricerche salvate.
+[!UICONTROL Signal Dashboard] consente di creare nuove caratteristiche da [!UICONTROL Top Unused Signals], [!UICONTROL New Unused Signals] e dalle ricerche salvate.
 
 Quando crei una nuova caratteristica, il tipo di caratteristica è preimpostato in base al tipo di segnale:
 
@@ -29,7 +29,7 @@ Quando crei una nuova caratteristica, il tipo di caratteristica è preimpostato 
 
 * **[!UICONTROL Onboarded]** caratteristiche per i segnali onboarded.
 
-Per creare nuove caratteristiche da **[!UICONTROL Signal Dashboard]**, identifica il segnale che desideri utilizzare nella caratteristica, quindi fai clic sul corrispondente **[!UICONTROL Create Rule-Based Trait]** o **[!UICONTROL Create Onboarded Trait]** collegamento.
+Per creare nuove caratteristiche da **[!UICONTROL Signal Dashboard]**, identifica il segnale da utilizzare nella caratteristica, quindi fai clic sul collegamento **[!UICONTROL Create Rule-Based Trait]** o **[!UICONTROL Create Onboarded Trait]** corrispondente.
 
 ![](assets/signals-create-trait.png)
 
@@ -37,21 +37,21 @@ Verrai reindirizzato al **[Generatore di caratteristiche](../../features/traits/
 
 ## Creare caratteristiche dalla ricerca del segnale {#create-traits-from-signal-search}
 
-Creare caratteristiche basate su segnali utilizzati o non utilizzati che non sono visualizzati nella [!UICONTROL Signal Dashboard].
+Creare caratteristiche basate su segnali utilizzati o non utilizzati che non sono visualizzati in [!UICONTROL Signal Dashboard].
 
 Cerca segnali specifici e crea caratteristiche basate su regole o onboarded in base ai risultati. Ecco come eseguire questa operazione:
 
 1. Vai a **[!UICONTROL Audience Data > Signals > Search]** ed esegui una ricerca in base alle coppie chiave-valore che stai cercando, oppure fai clic su **[!UICONTROL Search]** senza immettere alcuna coppia chiave-valore per visualizzare tutti i risultati.
 2. Identifica i segnali che desideri utilizzare nella caratteristica, nell’elenco dei risultati.
-   * Per creare una caratteristica da un segnale, fare clic sul **[!UICONTROL Create Rule-Based Trait]** o **[!UICONTROL Create Onboarded Trait]** collegamento.
-   * Per creare una caratteristica da più segnali, fai clic sulla casella di controllo corrispondente di ciascun segnale, quindi fai clic su **[!UICONTROL Create Trait from Multiple Signals]**.
+   * Per creare una caratteristica da un segnale, fare clic sul collegamento **[!UICONTROL Create Rule-Based Trait]** o **[!UICONTROL Create Onboarded Trait]** corrispondente.
+   * Per creare una caratteristica da più segnali, fare clic sulla casella di controllo corrispondente di ciascun segnale, quindi fare clic su **[!UICONTROL Create Trait from Multiple Signals]**.
 
    >[!NOTE]
    >Puoi creare caratteristiche solo da segnali dello stesso tipo. Non è possibile creare una caratteristica basata su una combinazione di un segnale in tempo reale e uno integrato.
    >
    > ![](assets/signals-create-trait-search.png)
-   >Puoi anche creare caratteristiche dai segnali usati. I segnali che sono già utilizzati nelle caratteristiche hanno il numero di caratteristiche visualizzate nel **[!UICONTROL Included in Traits]** colonna. Fare clic sulla freccia per visualizzare le caratteristiche che includono il segnale.
+   >Puoi anche creare caratteristiche dai segnali usati. I segnali già utilizzati nelle caratteristiche hanno il numero di caratteristiche visualizzate nella colonna **[!UICONTROL Included in Traits]**. Fare clic sulla freccia per visualizzare le caratteristiche che includono il segnale.
    >
    >![](assets/signals-used-traits.png)
 
-3. Utilizza il **[Generatore di caratteristiche](../../features/traits/about-trait-builder.md)** per creare le nuove caratteristiche.
+3. Utilizza **[Generatore caratteristiche](../../features/traits/about-trait-builder.md)** per creare le nuove caratteristiche.

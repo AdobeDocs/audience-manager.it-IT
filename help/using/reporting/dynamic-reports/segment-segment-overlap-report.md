@@ -10,7 +10,7 @@ exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra i segmenti.
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione di cui all’Audience Manager rispettano i principi RBAC. Puoi visualizzare solo i segmenti dalle origini dati a cui hai accesso in base al [Gruppo utenti RBAC](/help/using/features/administration/administration-overview.md) a cui appartieni.
+>I rapporti di sovrapposizione di cui all’Audience Manager rispettano i principi RBAC. Puoi visualizzare solo i segmenti dalle origini dati a cui hai accesso in base al [gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui appartieni.
 
 <!-- 
 
@@ -30,18 +30,18 @@ c_segment_segment_overlap.xml
 
 ## Panoramica
 
-Il [!UICONTROL Segment-to-Segment Overlap] il rapporto può aiutarti a:
+Il report [!UICONTROL Segment-to-Segment Overlap] consente di:
 
 * Identifica i segmenti con sovrapposizione alta o bassa, a seconda delle tue esigenze. Le caratteristiche con sovrapposizione elevata forniscono un pubblico mirato, ma meno visitatori univoci. Le caratteristiche con una bassa sovrapposizione possono essere utili per raggiungere un set di visitatori più grande e univoco.
 * Trova sovrapposizioni impreviste e utilizza tali informazioni per creare nuovi segmenti ad alte prestazioni.
 
 ## Report di esempio
 
-L&#39;illustrazione seguente fornisce una panoramica di alto livello del [!UICONTROL Segment-to-Segment Overlap] rapporto.
+Nella figura seguente viene fornita una panoramica di alto livello del report [!UICONTROL Segment-to-Segment Overlap].
 
 >[!NOTE]
 >
->Il [!UICONTROL Segment-to-Segment Overlap] Il report restituisce un campo vuoto quando confronta lo stesso segmento con se stesso.
+>Il report [!UICONTROL Segment-to-Segment Overlap] restituisce un campo vuoto quando confronta lo stesso segmento con se stesso.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -57,7 +57,7 @@ r_s2s_data_pop.xml
 
  -->
 
-Popup per [!UICONTROL Segment-to-Segment Overlap] Il rapporto contiene le metriche di seguito. La metrica univoca nella tabella rappresenta il *utenti in tempo reale*.
+La finestra a comparsa per il report [!UICONTROL Segment-to-Segment Overlap] contiene le metriche seguenti. La metrica Unique nella tabella rappresenta i tuoi *utenti in tempo reale*.
 
 | Metrica | Descrizione |
 |---|---|
@@ -76,8 +76,7 @@ Popup per [!UICONTROL Segment-to-Segment Overlap] Il rapporto contiene le metric
 >
 >* [Filtrare i risultati dei report con i cursori di dati](../../reporting/dynamic-reports/data-sliders.md)
 >* [Forme, colori e dimensioni utilizzati nei report interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Spiegazione delle icone e degli strumenti dei rapporti](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Icone e strumenti di report spiegati](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager...](../../reporting/report-sampling.md)
+>* [Campionamento di dati e tassi di errore nei report di Audienci Manager selezionati...](../../reporting/report-sampling.md)
 >* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
-

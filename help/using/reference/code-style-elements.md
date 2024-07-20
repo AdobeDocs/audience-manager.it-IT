@@ -10,7 +10,7 @@ exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Questi elementi identificano le opzioni di codice e le variabili utilizzate in t
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Gli elementi tra parentesi indicano un valore Boolean <span class="wintitle"> OPPURE</span> scelta. </p> </td> 
+   <td colname="col2"> <p>Gli elementi tra parentesi indicano un valore booleano <span class="wintitle"> OR</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 

@@ -9,7 +9,7 @@ feature: Reporting Reference
 exl-id: 1ca0280a-d67b-46f7-9c58-effc5be4e38f
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -24,22 +24,22 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] utilizza [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) per estendere le autorizzazioni del gruppo di utenti a [!UICONTROL Dashboard]. Gli utenti possono visualizzare solo le informazioni sul dashboard per le quali dispongono delle autorizzazioni di visualizzazione. [!UICONTROL RBAC] Questa funzionalità consente di controllare quali dati di reporting i team interni possono visualizzare.
+[!DNL Audience Manager] utilizza [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) per estendere le autorizzazioni del gruppo utenti a [!UICONTROL Dashboard]. Gli utenti possono visualizzare solo le informazioni sul dashboard per le quali dispongono delle autorizzazioni di visualizzazione. La funzionalità [!UICONTROL RBAC] consente di controllare i dati di reporting che i team interni possono visualizzare.
 
 Ad esempio, un’agenzia che gestisce account pubblicitari diversi può configurare le autorizzazioni per i gruppi di utenti in modo che un team che gestisce l’account dell’inserzionista A non possa visualizzare i dati di reporting dell’inserzionista B. Questo dashboard può essere utilizzato per risolvere i problemi di consegna dei dati.
 
-Ad esempio, se noti un calo, o un picco, nel totale degli utenti univoci con la suddivisione per tipo di utente univoco (basato su regole vs. on-boarded), hai un punto di partenza migliore per individuare un potenziale problema di consegna dei dati. Se noti un calo del totale degli utenti univoci e degli utenti univoci onboarded, puoi passare al [!UICONTROL On-boarding Status] per verificare se si è verificato un problema con un file in entrata.
+Ad esempio, se noti un calo, o un picco, nel totale degli utenti univoci con la suddivisione per tipo di utente univoco (basato su regole vs. on-boarded), hai un punto di partenza migliore per individuare un potenziale problema di consegna dei dati. Se si nota un calo del totale degli utenti univoci e degli utenti univoci onboarded, è possibile andare al rapporto [!UICONTROL On-boarding Status] per vedere se c&#39;è stato un problema con un file in entrata.
 
 **Per accedere al dashboard:**
 
-1. Nel menu di navigazione superiore, fai clic su **[!UICONTROL Dashboard]**.
-2. *Facoltativo* Seleziona l’intervallo di tempo desiderato dall’ultima data di reporting dall’elenco a discesa (7 giorni, 14 giorni (impostazione predefinita), 30 giorni o 60 giorni).
+1. Nel menu di navigazione superiore, fare clic su **[!UICONTROL Dashboard]**.
+2. *Facoltativo* Selezionare dall&#39;elenco a discesa l&#39;intervallo di tempo desiderato per l&#39;ultima data del rapporto (7 giorni, 14 giorni (impostazione predefinita), 30 giorni o 60 giorni).
 
-   A seconda del periodo selezionato, il delta cambia nel [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] e [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] mostra la variazione dei visitatori univoci nel pubblico nel periodo che termina oggi rispetto al periodo precedente della stessa durata. Ad esempio, se selezioni 7 giorni, il delta confronta i visitatori univoci dei sette giorni precedenti fino a oggi con i visitatori univoci dei sette giorni precedenti fino a sette giorni fa.
+   A seconda del periodo selezionato, la modifica delta nei pannelli [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] e [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] mostra la modifica dei visitatori univoci nel pubblico nel periodo che termina oggi rispetto al periodo precedente della stessa durata. Ad esempio, se selezioni 7 giorni, il delta confronta i visitatori univoci dei sette giorni precedenti fino a oggi con i visitatori univoci dei sette giorni precedenti fino a sette giorni fa.
 
    >[!NOTE]
    >
-   >Puoi indagare un cambiamento delta che sembra fuori dal comune eseguendo un [!UICONTROL Trend] rapporto. Ad esempio, se durante gli ultimi sette giorni si verifica una variazione delta insolitamente grande, è possibile eseguire un&#39;operazione [!UICONTROL Trend] rapporto per gli ultimi 14 giorni (2 x 7) per comprendere meglio i numeri.
+   >È possibile analizzare una modifica delta che sembra fuori dal comune eseguendo un report [!UICONTROL Trend]. Ad esempio, se durante gli ultimi sette giorni si verifica una modifica delta insolitamente grande, è possibile eseguire un report [!UICONTROL Trend] per gli ultimi 14 giorni (2 x 7) per comprendere meglio i numeri.
 
    A seconda delle autorizzazioni dell’utente connesso, vengono visualizzati i seguenti pannelli:
 
@@ -47,7 +47,7 @@ Ad esempio, se noti un calo, o un picco, nel totale degli utenti univoci con la 
    * [Caratteristiche più grandi/caratteristiche più modificate](../reporting/reports-dashboard.md#largest-traits)
    * [Segmenti più grandi/Segmenti più modificati](../reporting/reports-dashboard.md#most-changed-segments)
 
-3. *Facoltativo* Clic **[!UICONTROL Normalize]** sopra qualsiasi grafico per mostrare tutti i dati sulla stessa scala. Per visualizzare ulteriori informazioni, puoi anche passare il mouse su qualsiasi punto dati.
+3. *Facoltativo* Fai clic su **[!UICONTROL Normalize]** sopra qualsiasi grafico per visualizzare tutti i dati sulla stessa scala. Per visualizzare ulteriori informazioni, puoi anche passare il mouse su qualsiasi punto dati.
 
 ## Univoci partner {#partner-uniques}
 
@@ -69,7 +69,7 @@ Autorizzazione necessaria per visualizzare: [!UICONTROL View Traits].
 
 Questo pannello mostra il numero di visitatori univoci acquisiti da varie caratteristiche.
 
-Utilizza il **[!UICONTROL Show]** elenco a discesa per visualizzare informazioni sui diversi tipi di caratteristiche: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded], o [!UICONTROL Rule-Based].
+Utilizzare l&#39;elenco a discesa **[!UICONTROL Show]** per visualizzare informazioni su diversi tipi di caratteristiche: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded] o [!UICONTROL Rule-Based].
 
 Questo pannello contiene le seguenti schede:
 
@@ -82,11 +82,11 @@ Questo pannello contiene le seguenti schede:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Caratteristiche più grandi</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> caratteristiche più grandi</span> </p> </td> 
    <td colname="col2"> <p>Visualizza informazioni sul numero di visitatori univoci ordinati per numero (dal più alto al più basso) ed elenca anche la variazione delta dei visitatori univoci durante l’intervallo di tempo specificato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Caratteristiche più modificate</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> caratteristiche più modificate</span> </p> </td> 
    <td colname="col2"> <p>Visualizza informazioni sul numero di visitatori univoci in base alla modifica delta. </p> </td> 
   </tr> 
  </tbody> 
@@ -111,11 +111,11 @@ Questo pannello contiene le seguenti schede:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Segmenti più grandi</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> segmenti più grandi</span> </p> </td> 
    <td colname="col2"> <p>Visualizza informazioni sul numero di visitatori univoci e sulla variazione delta dei visitatori univoci durante l’intervallo di tempo specificato. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Segmenti più modificati</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> segmenti più modificati</span> </p> </td> 
    <td colname="col2"> <p>Visualizza informazioni sul numero di visitatori univoci in base alla modifica delta. </p> </td> 
   </tr> 
  </tbody> 

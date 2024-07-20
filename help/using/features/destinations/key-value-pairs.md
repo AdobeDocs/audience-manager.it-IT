@@ -7,8 +7,8 @@ feature: Destination Basics
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '560'
+ht-degree: 0%
 
 ---
 
@@ -26,10 +26,10 @@ Completamente formato, un set di base di coppia chiave-valore potrebbe essere si
 
 ## Coppie chiave-valore standard e seriali {#standard-serial-key-value-pairs}
 
-Le destinazioni accettano dati chiave-valore in *`standard`* o *`serialized`* formato.
+Le destinazioni accettano dati chiave-valore in formato *`standard`* o *`serialized`*.
 
 * **Coppie chiave-valore standard:** Formatta i dati di destinazione in coppie chiave-valore separate. Ogni chiave viene dichiarata esplicitamente, anche se utilizzata di nuovo per definire un valore diverso.
-* **Coppie chiave-valore serializzate:** Limita più valori in una singola coppia chiave-valore. In una coppia chiave-valore serializzata, un indicatore speciale separa i valori all’interno dell’insieme chiave-valore.
+* **Coppie chiave-valore serializzate:** Converte più valori in una singola coppia chiave-valore. In una coppia chiave-valore serializzata, un indicatore speciale separa i valori all’interno dell’insieme chiave-valore.
 
 I valori chiave standard e serializzati possono contenere uno o più valori. Nella tabella seguente vengono forniti esempi di formati chiave-valore standard e seriali.
 
@@ -57,15 +57,15 @@ I valori chiave standard e serializzati possono contenere uno o più valori. Nel
 
 ## Delimitatori e separatori {#delimiters-separators}
 
-I caratteri che separano i valori all’interno e tra le chiavi e i valori sono noti come *`delimiters`* e *`separators`*. Questi diventano particolarmente importanti quando invii segmenti a una destinazione in formato seriale. La serializzazione consente di trasmettere più valori con una singola chiave e di combinare coppie chiave-valore. I delimitatori e i separatori sono definiti come segue:
+I caratteri che separano i valori all&#39;interno e tra chiavi e valori sono noti come *`delimiters`* e *`separators`*. Questi diventano particolarmente importanti quando invii segmenti a una destinazione in formato seriale. La serializzazione consente di trasmettere più valori con una singola chiave e di combinare coppie chiave-valore. I delimitatori e i separatori sono definiti come segue:
 
-* **Separatore chiave-valore:** Separa una chiave e un valore all&#39;interno di una coppia chiave-valore.
-* **Delimitatore chiave-valore:** Separa gli insiemi di coppie chiave-valore.
-* **Separatore seriale:** Separa più valori all&#39;interno di insiemi di coppie chiave-valore serializzate.
+* **Separatore chiave-valore:** Separa chiave e valore all&#39;interno di una coppia chiave-valore.
+* **Delimitatore chiave-valore:** Separa i set di coppie chiave-valore.
+* **Separatore seriale:** separa più valori all&#39;interno di insiemi di coppie chiave-valore serializzate.
 
 ## Esempi {#examples}
 
-Con [!UICONTROL Destination Builder] puoi formattare i dati chiave-valore in diversi modi. Diamo un&#39;occhiata ad alcuni esempi di ciascun tipo.
+Con [!UICONTROL Destination Builder] è possibile formattare i dati chiave-valore in diversi modi. Diamo un&#39;occhiata ad alcuni esempi di ciascun tipo.
 
 <table id="table_C2FBDC887C8C4CC88B1B2A7CF8E2795F"> 
  <thead> 
@@ -117,7 +117,7 @@ Con [!UICONTROL Destination Builder] puoi formattare i dati chiave-valore in div
      <li id="li_FD3D7ECC2BF046E99B1ED0B73EFE341F">Tasti: X, Y </li> 
      <li id="li_2BADC98C4CE74BBBBA1DC446D24615AC">Valori: 1, 2, 3, 4 </li> 
      <li id="li_4125435175AD4A43A44B980B28F32364">Separatore: = </li> 
-     <li id="li_48CFC279B2514F4FB2935B05FC7F287A">Delimitatore: &amp; </li> 
+     <li id="li_48CFC279B2514F4FB2935B05FC7F287A">Delimitatore: e </li> 
      <li id="li_576C731F2FAF47FD92F55345CD6D36A0">Separatore seriale: punto e virgola </li> 
     </ul> </td> 
   </tr> 
@@ -134,4 +134,4 @@ La trasmissione serializzata dei dati aiuta a migliorare l’efficienza perché 
 
 ### Destinazioni supportate
 
-In entrata [!DNL Audience Manager], puoi serializzare e inviare dati a praticamente qualsiasi destinazione con cui desideri lavorare. Tuttavia, prima di utilizzare questa funzione, è necessario conoscere la destinazione [!DNL URL] e dove inserire alcune macro obbligatorie o facoltative. Ottenere le informazioni sul posizionamento delle macro dal partner di destinazione. Consulta [Definizione delle macro di destinazione](../../features/destinations/destination-macros.md#destination-macros-defined) per ulteriori informazioni.
+In [!DNL Audience Manager] è possibile serializzare e inviare dati a qualsiasi destinazione si desideri utilizzare. Tuttavia, prima di utilizzare questa funzionalità, è necessario conoscere la destinazione [!DNL URL] e dove inserire alcune macro obbligatorie o facoltative. Ottenere le informazioni sul posizionamento delle macro dal partner di destinazione. Per ulteriori informazioni, vedere [Macro di destinazione definite](../../features/destinations/destination-macros.md#destination-macros-defined).

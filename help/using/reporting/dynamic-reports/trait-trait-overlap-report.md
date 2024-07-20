@@ -9,8 +9,8 @@ feature: Overlap Reports
 exl-id: cbc933bb-f2af-4ad0-8eb9-cbec1ee952e0
 source-git-commit: 6cc1351c3a84d4d2219f33ef6175f182b9641377
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 7%
+source-wordcount: '499'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra tutte le caratteri
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione di cui all’Audience Manager rispettano i principi RBAC. Puoi visualizzare solo le caratteristiche da origini dati a cui hai accesso in base al [Gruppo utenti RBAC](/help/using/features/administration/administration-overview.md) a cui appartieni.
+>I rapporti di sovrapposizione di cui all’Audience Manager rispettano i principi RBAC. Puoi visualizzare solo le caratteristiche dalle origini dati a cui hai accesso in base al [gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui appartieni.
 
 <!-- 
 
@@ -30,7 +30,7 @@ c_overlap_reports.xml
 
 ## Panoramica
 
-Il [!UICONTROL Trait-to-Trait Overlap] Il rapporto restituisce i dati sulla percentuale di utenti univoci condivisi tra tutte le tue caratteristiche e quelle di terze parti. In qualità di strumento di ottimizzazione, questo rapporto consente di:
+Il report [!UICONTROL Trait-to-Trait Overlap] restituisce dati sulla percentuale di utenti univoci condivisi tra tutte le tue caratteristiche e quelle di terze parti. In qualità di strumento di ottimizzazione, questo rapporto consente di:
 
 * Crea segmenti con sovrapposizione alta o bassa, a seconda delle tue esigenze. Le caratteristiche con sovrapposizione elevata forniscono un pubblico mirato, ma meno visitatori univoci. Le caratteristiche con una bassa sovrapposizione possono essere utili per raggiungere un set di visitatori più grande e univoco.
 * Convalidare dati sulle caratteristiche di terze parti: una forte sovrapposizione tra caratteristiche simili di prima parte e di terze parti suggerisce che la caratteristica del partner dati è accurata e affidabile. Al contrario, una bassa sovrapposizione può indicare che una caratteristica di terze parti potrebbe in realtà non contenere le stesse informazioni della tua caratteristica di prima parte simile.
@@ -38,15 +38,15 @@ Il [!UICONTROL Trait-to-Trait Overlap] Il rapporto restituisce i dati sulla perc
 
 ## Report di esempio
 
-L’illustrazione seguente fornisce una panoramica di alto livello degli elementi presenti nel [!UICONTROL Trait-to-Trait Overlap] rapporto.
+La figura seguente fornisce una panoramica di alto livello degli elementi nel report [!UICONTROL Trait-to-Trait Overlap].
 
 >[!NOTE]
 >
->Il [!UICONTROL Trait-to-Trait Overlap] Il report restituisce un campo vuoto quando confronta la stessa caratteristica con se stesso.
+>Il report [!UICONTROL Trait-to-Trait Overlap] restituisce un campo vuoto quando confronta la stessa caratteristica con se stesso.
 
 >[!NOTE]
 >
->Le caratteristiche della cartella non sono disponibili per il confronto all’interno dei rapporti di sovrapposizione caratteristica-caratteristica. Creando un segmento utilizzando una particolare caratteristica della cartella, puoi eseguire l’analisi tramite [rapporto di sovrapposizione segmento-caratteristica](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
+>Le caratteristiche della cartella non sono disponibili per il confronto all’interno dei rapporti di sovrapposizione caratteristica-caratteristica. Creando un segmento utilizzando una particolare caratteristica della cartella, puoi eseguire l&#39;analisi tramite il [rapporto di sovrapposizione segmento-caratteristica](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md).
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -64,7 +64,7 @@ r_t2t_data_pop.xml
 
  -->
 
-Popup per [!UICONTROL Trait-to-Trait Overlap] Il rapporto contiene le metriche di seguito. La metrica univoca nella tabella rappresenta il *utenti in tempo reale*.
+La finestra a comparsa per il report [!UICONTROL Trait-to-Trait Overlap] contiene le metriche seguenti. La metrica Unique nella tabella rappresenta i tuoi *utenti in tempo reale*.
 
 <table id="table_A2A0CFC47C1A404994B82E6630E711A2"> 
  <thead> 
@@ -75,11 +75,11 @@ Popup per [!UICONTROL Trait-to-Trait Overlap] Il rapporto contiene le metriche d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> % sovrapposizione</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Sovrapposizione %</span></b> </td> 
    <td colname="col2"> Mostra la percentuale di sovrapposizione univoca tra caratteristiche confrontate (univoci di sovrapposizione/univoci di caratteristica). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Tipo di origine dati</span></b> </td> 
+   <td colname="col1">Tipo di Source dati <b><span class="wintitle"></span></b> </td> 
    <td colname="col2">Definisce il tipo di origine dati a cui appartiene una caratteristica. Può essere: 
     <ul id="ul_0477C04A33FD4F5D998B98984E6554D3"> 
      <li id="li_50FCA48EDB5843AB8FB6C34ED2C0067D">Prime parti (la tua caratteristica). </li> 
@@ -91,11 +91,11 @@ Popup per [!UICONTROL Trait-to-Trait Overlap] Il rapporto contiene le metriche d
    <td colname="col2"> ID numerico univoco della caratteristica sovrapposta. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Sovrapposizione nome caratteristica</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Sovrapposizione Nome Caratteristica</span></b> </td> 
    <td colname="col2"> Nome della caratteristica sovrapposta. </td> 
   </tr>
     <tr> 
-   <td colname="col1"><b><span class="wintitle"> ID caratteristica 2</span></b> </td> 
+   <td colname="col1">ID caratteristica <b><span class="wintitle"> 2</span></b> </td> 
    <td colname="col2"> ID numerico univoco della caratteristica nell’origine dati di base. </td> 
   </tr> 
   <tr> 
@@ -103,15 +103,15 @@ Popup per [!UICONTROL Trait-to-Trait Overlap] Il rapporto contiene le metriche d
    <td colname="col2"> Nome della caratteristica nell’origine dati di base. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Univoci sovrapposizione</span></b> </td> 
+   <td colname="col1">Univoci di sovrapposizione <b><span class="wintitle"></span></b> </td> 
    <td colname="col2"> <p>Per ottenere la percentuale di sovrapposizione, in Audience Manager viene utilizzata la formula seguente:</p> <p>Univoci sovrapposti / (Univoci delle caratteristiche di base + Univoci delle caratteristiche sovrapposte - Univoci sovrapposti)</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Sovrapposizione delle caratteristiche univoche</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Unique di caratteristiche sovrapposte</span></b> </td> 
    <td colname="col2"> Il numero di visitatori univoci dalla caratteristica sovrapposta. </td> 
   </tr> 
     <tr> 
-   <td colname="col1"><b><span class="wintitle"> Univoci delle caratteristiche di base</span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> elementi univoci di base</span></b> </td> 
    <td colname="col2"> Il numero di visitatori univoci dalla caratteristica di base. </td> 
   </tr> 
  </tbody> 
@@ -121,8 +121,7 @@ Popup per [!UICONTROL Trait-to-Trait Overlap] Il rapporto contiene le metriche d
 >
 >* [Filtrare i risultati dei report con i cursori di dati](../../reporting/dynamic-reports/data-sliders.md)
 >* [Forme, colori e dimensioni utilizzati nei report dinamici](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Spiegazione delle icone e degli strumenti dei rapporti](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [Icone e strumenti di report spiegati](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Campionamento di dati e tassi di errore nei report selezionati di Audience Manager...](../../reporting/report-sampling.md)
+>* [Campionamento di dati e tassi di errore nei report di Audienci Manager selezionati...](../../reporting/report-sampling.md)
 >* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)
-

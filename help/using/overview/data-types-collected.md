@@ -9,16 +9,16 @@ feature: Overview
 exl-id: cfb587da-ceac-425f-8334-e961eba6fad2
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 74%
+source-wordcount: '850'
+ht-degree: 60%
 
 ---
 
 # Tipi di dati raccolti {#types-of-data-collected}
 
-[!DNL Audience Manager] ti consente di raccogliere e gestire dati di prime, seconde e terze parti.
+[!DNL Audience Manager] consente di raccogliere e gestire dati di prime, seconde e terze parti.
 
-Sbloccare le risorse di informazioni dei clienti archiviate in più silos è una delle maggiori sfide che le aziende devono affrontare oggi nell’ambito dei dati. Da [!DNL CRM] database, sistemi di registrazione, server di annunci e così via, le aziende richiedono strumenti che aiutino a centralizzare i dati importanti e a gestire le informazioni su clienti e pubblico come un&#39;unica risorsa di dati strategica. [!DNL Audience Manager] consente di sbloccare le informazioni dei clienti isolate e di gestire la raccolta di dati da più sorgenti. I dati raccolti possono essere gestiti in base al time-to-live degli elementi dati ([!DNL TTL]), che consente all&#39;editore di controllare la scadenza dei dati in tutte le origini. [!DNL Audience Manager] è progettato per aiutarti a gestire i seguenti tipi di dati:
+Sbloccare le risorse di informazioni dei clienti archiviate in più silos è una delle maggiori sfide che le aziende devono affrontare oggi nell’ambito dei dati. Dai database [!DNL CRM] ai sistemi di registrazione, agli ad server e così via, le aziende richiedono strumenti che aiutino a centralizzare i dati importanti e a gestire le informazioni su clienti e pubblico come un&#39;unica risorsa di dati strategica. [!DNL Audience Manager] consente di sbloccare le informazioni dei clienti isolate e di gestire la raccolta dati da più origini. I dati raccolti possono essere gestiti in base ai valori time-to-live ([!DNL TTL]) degli elementi dati, in modo che l&#39;editore possa controllare la scadenza dei dati in tutte le origini. [!DNL Audience Manager] è progettato per semplificare la gestione dei seguenti tipi di dati:
 
 | Tipo di dati | Da dove provengono i dati |
 |---|---|
@@ -28,9 +28,9 @@ Sbloccare le risorse di informazioni dei clienti archiviate in più silos è una
 
 ## Raccolta di dati di prime parti {#first-party-data}
 
-La raccolta di dati di prime parti è uno dei principali [!DNL Audience Manager] funzionalità. Questa capacità di base risponde alle esigenze dei nostri clienti (editori o inserzionisti) che desiderano utilizzare dati proprietari come fondamento dei loro programmi di marketing o per il targeting e la modellazione basati su altre sorgente di dati.
+La raccolta dati di prime parti è una funzionalità principale di [!DNL Audience Manager]. Questa capacità di base risponde alle esigenze dei nostri clienti (editori o inserzionisti) che desiderano utilizzare dati proprietari come fondamento dei loro programmi di marketing o per il targeting e la modellazione basati su altre sorgente di dati.
 
-[!DNL Audience Manager] lavora con i clienti per comprendere la loro strategia dei dati e quindi mappare tale strategia su un piano di raccolta dati personalizzato. Il nostro team di soluzioni dei partner collabora con te per valutare siti, segnali di dati grezzi e altre interazioni degli utenti sui tuoi siti web. Con queste informazioni, ti aiuteremo a creare una strategia di raccolta dati personalizzata che acquisisca i segnali di dati a livello di utente da varie pagine del tuo inventario. I dati acquisiti vengono memorizzati e mappati su una tassonomia predefinita, che può essere aggiornata in qualsiasi momento in base alle esigenze aziendali.
+[!DNL Audience Manager] collabora con i client per comprendere la loro strategia dei dati e quindi mappare tale strategia su un piano di raccolta dati personalizzato. Il nostro team di soluzioni dei partner collabora con te per valutare siti, segnali di dati grezzi e altre interazioni degli utenti sui tuoi siti web. Con queste informazioni, ti aiuteremo a creare una strategia di raccolta dati personalizzata che acquisisca i segnali di dati a livello di utente da varie pagine del tuo inventario. I dati acquisiti vengono memorizzati e mappati su una tassonomia predefinita, che può essere aggiornata in qualsiasi momento in base alle esigenze aziendali.
 
 L’esempio seguente illustra come è possibile acquisire gli elementi di dati potenziali da una pagina di acquisto campione.
 
@@ -41,19 +41,19 @@ L’esempio seguente illustra come è possibile acquisire gli elementi di dati p
 | 1 | **Genere**. Il nome di un cliente indica di solito il suo genere. Nel nostro esempio, il nome dell’acquirente è Mary, quindi sappiamo che è una donna. I nomi non vengono mai memorizzati da Audience Manager. |
 | 2 | **Interessi**. Gli articoli nel carrello possono indicare diversi interessi. Nel nostro esempio, Mary spende molto in attrezzatura da fitness. |
 | 3 | **Tipo di abitazione**. In base agli indirizzi di spedizione e/o fatturazione, puoi determinare se Mary compra attrezzature da fitness per se stessa o per un’azienda. |
-| 4 | **Posizione**. [!DNL ZIP]I codici sono più affidabili rispetto agli indirizzi quando si tratta di individuare una posizione.[!DNL IP] |
+| 4 | **Posizione**. I codici [!DNL ZIP] sono più affidabili degli indirizzi [!DNL IP] quando si tratta di individuare una posizione. |
 | 5 | **Affinità promozionale**. Se un acquirente utilizza codici promozionali o carte regalo, probabilmente è un cacciatore di occasioni alla ricerca delle migliori offerte. |
-| 6 | **Potere di acquisto**. Dati di prezzo correlati a [!DNL ZIP+4] i codici indicano il potere di acquisto di una determinata posizione. |
+| 6 | **Potere di acquisto**. I dati di prezzo correlati ai codici [!DNL ZIP+4] indicano il potere di acquisto di una determinata posizione. |
 
-Una volta raccolti i dati non elaborati, questi vengono mappati sulle caratteristiche definite dal cliente all&#39;interno del [!DNL Audience Manager] piattaforma. Sia la tassonomia che le mappature dei dati possono essere regolate in qualsiasi momento senza apportare modifiche al codice di raccolta dei dati.
+Una volta raccolti i dati non elaborati, questi vengono mappati sulle caratteristiche definite dal cliente all&#39;interno della piattaforma [!DNL Audience Manager]. Sia la tassonomia che le mappature dei dati possono essere regolate in qualsiasi momento senza apportare modifiche al codice di raccolta dei dati.
 
 ## Raccolta di dati di seconde parti {#second-party-data}
 
 I dati di seconde parti provengono da un partner commerciale strategico (non sono dati dell’editore). Queste informazioni vengono raccolte e gestite come dati di prime parti.
 
-In uno scenario con dati di seconde parti, gli inserzionisti inviano le proprie risorse di dati agli editori in modo che possano combinarle con i propri dati ed eseguire quindi un programma pubblicitario più mirato. Inoltre, gli editori possono ampliare il proprio pubblico collaborando con gli inserzionisti. Nella maggior parte dei casi, tali accordi implicano rapporti contrattuali limitati all&#39;applicazione [!DNL Audience Manager] tag contenitore nel sito partner per facilitare la raccolta e la condivisione dei dati.
+In uno scenario con dati di seconde parti, gli inserzionisti inviano le proprie risorse di dati agli editori in modo che possano combinarle con i propri dati ed eseguire quindi un programma pubblicitario più mirato. Inoltre, gli editori possono ampliare il proprio pubblico collaborando con gli inserzionisti. Nella maggior parte dei casi, questi accordi comportano relazioni contrattuali limitate all&#39;inserimento del tag contenitore [!DNL Audience Manager] nel sito partner per facilitare la raccolta e la condivisione dei dati.
 
-Un esempio di raccolta e remarketing di dati di seconde parti potrebbe coinvolgere un rivenditore di abbigliamento che raccoglie dati sui suoi prodotti e quindi condivide tali informazioni con i partner chiave. In questo caso, il rivenditore potrebbe distribuire diversi annunci in un [!DNL Audience Manager] sito partner per i consumatori che hanno scelto vari colori e dimensioni della giacca.
+Un esempio di raccolta e remarketing di dati di seconde parti potrebbe coinvolgere un rivenditore di abbigliamento che raccoglie dati sui suoi prodotti e quindi condivide tali informazioni con i partner chiave. In questo caso, il rivenditore potrebbe distribuire diversi annunci in un sito partner [!DNL Audience Manager] per i consumatori che scelgono vari colori e dimensioni di giacche.
 
 ![](assets/shopping-cart-traits.png)
 
@@ -61,13 +61,13 @@ Un esempio di raccolta e remarketing di dati di seconde parti potrebbe coinvolge
 
 I dati di terze parti sono informazioni raccolte e condivise da fornitori al di fuori di [!DNL Audience Manager].
 
-I dati di terze parti possono essere utilizzati per qualificare i dati esistenti [!UICONTROL segments] (ad esempio, età, reddito delle famiglie e così via), fornire dati richiesti ma non altrimenti disponibili o essere utilizzati in modelli lookalike su una base di utenti nota da dati di prime e seconde parti. [!DNL Audience Manager] lavora con molti provider di dati di terze parti e ti aiuterà a capire il tipo di dati che tali provider raccolgono, in modo da poter raggiungere i giusti accordi strategici con ogni provider.
+I dati di terze parti possono essere utilizzati per qualificare i dati esistenti [!UICONTROL segments] (ad esempio età, reddito familiare e così via), fornire dati richiesti ma non altrimenti disponibili o essere utilizzati in modelli lookalike su una base di utenti nota da dati di prime e seconde parti. [!DNL Audience Manager] collabora con molti provider di dati di terze parti e ti aiuterà a comprendere il tipo di dati raccolti da questi provider di dati, in modo da poter raggiungere i giusti accordi strategici con ogni provider.
 
 >[!NOTE]
 >
 >Per un elenco completo dei provider di dati di terze parti supportati da [!DNL Audience Manager], consulta [Adobe Audience Finder](https://www.adobe-audience-finder.com/).
 
-[!DNL Audience Manager] si integra con altri provider di dati in base ai [!DNL APIs] e i set di dati. La raccolta dei dati avviene in tempo reale, mentre un utente naviga nel tuo sito, o tramite metodologie fuori banda in cui gli ID vengono sincronizzati tra partner e i dati vengono trasferiti tra server dopo che un utente ha lasciato il sito. In entrambi i casi, [!DNL Audience Manager] i clienti hanno il vantaggio di disporre di dati di terze parti sincronizzati sulla nostra piattaforma, il che significa che ogni cliente, o dominio, non deve eseguire la propria sincronizzazione. In questo modo è possibile aumentare la portata e ridurre le chiamate server dalla pagina.
+[!DNL Audience Manager] si integra con altri provider di dati in base ai set di dati e [!DNL APIs] disponibili. La raccolta dei dati avviene in tempo reale, mentre un utente naviga nel tuo sito, o tramite metodologie fuori banda in cui gli ID vengono sincronizzati tra partner e i dati vengono trasferiti tra server dopo che un utente ha lasciato il sito. In entrambi i casi, [!DNL Audience Manager] client hanno il vantaggio di disporre di dati di terze parti sincronizzati sulla nostra piattaforma, il che significa che ogni client, o dominio, non deve eseguire la propria sincronizzazione. In questo modo è possibile aumentare la portata e ridurre le chiamate server dalla pagina.
 
 ## Partner di corrispondenza {#match-partners}
 

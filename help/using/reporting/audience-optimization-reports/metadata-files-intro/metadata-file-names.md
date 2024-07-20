@@ -9,8 +9,8 @@ feature: Log Files
 exl-id: 7a895c4f-1100-4ba1-947e-abb47307fb40
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 7%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
 
@@ -26,11 +26,11 @@ La sintassi seguente definisce la struttura di un nome di file di metadati ben f
 
 >[!NOTE]
 >
->*Do not* utilizza le estensioni file nei file di metadati (.txt o altro).
+>*Non* utilizzare estensioni di file nei file di metadati (.txt o altro).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* Il componente centrale **0** è tecnicamente l’ID principale, che è un campo legacy. Il valore deve sempre essere impostato come **0**.
+* Il componente intermedio **0** è tecnicamente l&#39;ID padre, che è un campo legacy. Il valore deve essere sempre impostato come **0**.
 * L’ID figlio può avere un valore compreso tra 1 e 10, a seconda della dimensione. Vedi di seguito:
 
 ## Dimensioni ID figlio {#child-dimension}
@@ -42,7 +42,7 @@ Nel nome del file di metadati, l’ID figlio è un identificatore che classifica
 1. Posizionamento
 1. Exchange
 1. Sito
-1. Inserzionista (se si utilizzano codici di integrazione in un [origine dati](../../../features/manage-datasources.md#details))
+1. Inserzionista (se si utilizzano codici di integrazione in una [origine dati](../../../features/manage-datasources.md#details))
 1. Ordine di inserimento (IO)
 1. Verticale (ovvero, un settore specifico o una categoria aziendale come &quot;computer&quot;, &quot;automobili&quot;, &quot;beni immobili&quot;, ecc.)
 1. Tattico

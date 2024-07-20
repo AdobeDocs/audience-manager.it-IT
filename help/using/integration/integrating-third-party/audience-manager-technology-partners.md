@@ -1,5 +1,5 @@
 ---
-description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un’integrazione fai riferimento alla relativa inserzione di Adobe Exchange (se disponibile) o contatta il tuo consulente o l’Assistenza clienti Adobe.
+description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un’integrazione, consulta l’Adobe Exchange corrispondente (se disponibile) oppure contatta il tuo consulente o l’Assistenza clienti per gli Adobi.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Technology Partners
 keywords: attivazione; partner di attivazione, destinazione, destinazioni
@@ -8,23 +8,23 @@ title: Partner tecnologici Adobe Audience Manager
 feature: Third-party Integration
 source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 61%
+source-wordcount: '1299'
+ht-degree: 43%
 
 ---
 
 
 # Audience Manager di partner di attivazione
 
-Questa pagina include l’Audience Manager corrente [integrazioni server-to-server](/help/using/features/destinations/add-edit-segments.md) solo.  Per ulteriori informazioni su un’integrazione, consulta la relativa [Scambio Adobe](https://www.adobeexchange.com/experiencecloud.html) inserzione (se disponibile) o contatta il tuo consulente Adobe o l’Assistenza clienti.
+Questa pagina include solo l&#39;Audience Manager corrente [integrazioni server-to-server](/help/using/features/destinations/add-edit-segments.md).  Per ulteriori informazioni su un&#39;integrazione fai riferimento alla sua [inserzione di Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (se disponibile) o contatta il tuo consulente o l&#39;Assistenza clienti Adobe.
 
 <br> 
 
-* **Aggiornato** = Mostra l&#39;ultima data in cui è stato eseguito un aggiornamento per questo partner di attivazione.
-* **Rimuovi segmento** = La rimozione dai segmenti descrive processi che eliminano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall’opzione dispositivo utilizzata per creare una regola di unione profili. La rimozione dai segmenti è utilizzata anche nel contesto delle richieste di eliminazione relative al RGPD. Leggi [Regole di unione profili e processi di rimozione dei dispositivi dai segmenti](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [Partner Audience Manager con funzionalità di rimozione dai segmenti](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). L’Audience Manager invia informazioni di rimozione dai segmenti alle destinazioni contrassegnate con Sì di seguito.
-* **Ricezione dei segnali di consenso IAB TCF** = Il plug-in di Audience Manager per IAB TCF consente di inoltrare la stringa TC IAB ai partner di attivazione nel rispetto delle scelte sulla privacy degli utenti. Letto [Plug-in Audience Manager per IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
-* **ICD** = In questa colonna sono elencati i partner che supportano la soppressione immediata su più dispositivi. Letto [Soppressione immediata su diversi dispositivi](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **ID dispositivo mobile** = In questa colonna sono elencati i partner che possono ricevere ID di dispositivi mobili da Audience Manager.
+* **Aggiornato** = mostra la data dell&#39;ultimo aggiornamento per questo partner di attivazione.
+* **Rimuovi segmento** = La rimozione dai segmenti descrive processi che eliminano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall’opzione dispositivo utilizzata per creare una regola di unione profili. La rimozione dai segmenti è utilizzata anche nel contesto delle richieste di eliminazione RGPD. Leggi [regole di unione profili e processi di rimozione dai dispositivi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [partner Audienci Manager con funzionalità di rimozione dai segmenti](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). L’Audience Manager invia informazioni di rimozione dai segmenti alle destinazioni contrassegnate con Sì di seguito.
+* **Ricezione dei segnali di consenso IAB TCF** = Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa TC IAB ai partner di attivazione nel rispetto delle scelte sulla privacy degli utenti. Lettura di [plug-in Audience Manager per IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **ICDS** = In questa colonna sono elencati i partner che supportano la soppressione immediata tra dispositivi. Leggi [Eliminazione immediata tra dispositivi](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **ID dispositivo mobile** = In questa colonna sono elencati i partner che possono ricevere ID dispositivo mobile da Audience Manager.
 
 <br> 
 
@@ -65,7 +65,7 @@ Questa pagina include l’Audience Manager corrente [integrazioni server-to-serv
 | Crosswise | 27/02/2017 | Sì | No | No | No |
 | D.A.C. AudienceOne | 27/02/2017 | Sì | No | No | No |
 | DataXu | 11/20/2017 | No | No | No | Sì |
-| Digilante | 02/03/2017 |  | No | No | No |
+| Digilante | 02/03/2017 |           | No | No | No |
 | DistrettoM | 02/03/2017 | Sì | No | No | No |
 | DoubleVerify | 06/09/2017 | Sì | No | No | No |
 | Drawbridge | 02/03/2017 | No | No | No | Sì |
@@ -78,7 +78,7 @@ Questa pagina include l’Audience Manager corrente [integrazioni server-to-serv
 | Lampeggiante | 02/03/2017 | No | No | No | No |
 | FreakOut | 03/03/2017 | Sì | No | No | No |
 | Ruota libera | 27/02/2017 | Sì | Sì | No | Sì |
-| Media gamma | 03/03/2017 |  | No | No |  |
+| Media gamma | 03/03/2017 |           | No | No |                   |
 | Visualizzazione Google AdsWords | 02/08/2018 | Sì | Sì | No | Sì |
 | Gestore delle offerte con doppio clic (DBM) di Google | 24/04/2017 | Sì | Sì | Sì | Sì |
 | Gestione campagne Google DoubleClick (DCM fka DFA) | 24/04/2017 | Sì | Sì | Sì | Sì |
@@ -95,7 +95,7 @@ Questa pagina include l’Audience Manager corrente [integrazioni server-to-serv
 | Krux | 30/06/2017 | No | No | No | Sì |
 | Liftoff.io | 09/11/2017 | Sì | No | No | Sì |
 | LiveIntent | 17/07/2017 | Sì | No | No | No |
-| LiveRail | 20/01/2017 |  | No | No |  |
+| LiveRail | 20/01/2017 |           | No | No |                   |
 | Logicad | 22/06/2017 | No | No | No | No |
 | Lotame | 30/06/2017 | Sì | No | No | Sì |
 | MaxPoint Interactive | 27/02/2017 | No | No | No | No |
@@ -128,14 +128,14 @@ Questa pagina include l’Audience Manager corrente [integrazioni server-to-serv
 | Risonare | 17/02/2017 | Sì | No | No | No |
 | RevJet | 17/02/2017 | No | No | No | No |
 | RocketFuel | 17/02/2017 | Sì | No | Sì | Sì |
-| Rubicone |  | Sì | Sì | No |  |
+| Rubicone |            | Sì | Sì | No |                   |
 | ESEGUI | 17/02/2017 | Sì | No | No | No |
 | Sabio Mobile | 17/02/2017 | No | No | No | Sì |
 | Simpli.fi | 17/02/2017 | No | No | No | Sì |
-| Hub pubblico Sizmek | 17/02/2017 | Sì | No | No |  |
+| Hub pubblico Sizmek | 17/02/2017 | Sì | No | No |                   |
 | Slickdeal | 04/09/2018 | Sì | No | No | Sì |
 | Smart Adserver | 31/07/2017 | Sì | No | Sì | Sì |
-| Logicad di So-net Media Networks |  | Sì | No | No |  |
+| Logicad di So-net Media Networks |            | Sì | No | No |                   |
 | Sonobi | 28/03/2017 | Sì | No | Sì | No |
 | SpecificMedia | 03/03/2017 | No | No | No | No |
 | CellaSpugna | 03/03/2017 | Sì | No | Sì | Sì |
@@ -150,21 +150,21 @@ Questa pagina include l’Audience Manager corrente [integrazioni server-to-serv
 | Telaria | 25/04/2019 | Sì | No | No | Sì |
 | Sistemi Telogici | 03/03/2017 | Sì | No | No | No |
 | Il Trade Desk | 03/03/2017 | Sì | Sì | Sì | Sì |
-| Rifletti in tempo reale | 05/02/2016 |  | No | No |  |
+| Rifletti in tempo reale | 05/02/2016 |           | No | No |                   |
 | Video tremore | 03/03/2017 | Sì | No | No | No |
 | Triplo incremento | 03/03/2017 | No | Sì | No | No |
 | TrueX | 11/01/2018 | Sì | No | No | Sì |
 | TubeMogul | 03/03/2017 | Sì | No | Sì | No |
 | Turno / Amobee | 03/03/2027 | No | No | No | Sì |
 | Twenga | 29/10/2018 | Sì | No | No | No |
-| Tipi di pubblico personalizzati twitter | 27/03/2017 | Sì | No | Sì | No |
+| Pubblico personalizzato twitter | 27/03/2017 | Sì | No | Sì | No |
 | Sottotono | 11/07/2017 | No | No | No | No |
 | Verve | 15/06/2017 | Sì | No | No | Sì |
 | VideoAmp | 03/03/2017 | No | No | No | No |
 | Videologia | 03/03/2017 | No | No | No | No |
 | VisualIQ | 24/03/2017 | Sì | No | No | No |
 | Wikibuy | 04/08/2018 | Sì | No | No | Sì |
-| X+1 | 05/02/2016 |  | No | No |  |
+| X+1 | 05/02/2016 |           | No | No |                   |
 | Asse X | 03/03/2017 | Sì | No | No | No |
 | Yahoo DataX | 03/03/2017 | Sì | Sì | Sì | Sì |
 | Yahoo! Giappone | 03/03/2017 | No | No | No | No |

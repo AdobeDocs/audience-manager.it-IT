@@ -9,7 +9,7 @@ feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 95%
 
 ---
@@ -45,7 +45,7 @@ Per ridurre la domanda di calcolo, questi report omettono dati statisticamente n
 
 **Se eseguo una campagna di marketing e-mail, come posso determinare se gli utenti reindirizzati arrivano sul mio sito da tale campagna o da altre sorgenti?**
 
-Aggiungi una stringa di query specifica per la campagna all’URL della sezione del sito che desideri monitorare. Poi, imposta una regola di caratteristiche per acquisire tale variabile. Ad esempio, se l’URL viene trasmesso in un ID campagna come questo, `www.test123.com/electronics?campaign=123`, quindi crea una regola di caratteristiche per acquisire tali dati dal `h_referer` variabile con una regola di caratteristiche che cerca un’intestazione come `h_referer = 'campaign=123'`.
+Aggiungi una stringa di query specifica per la campagna all’URL della sezione del sito che desideri monitorare. Poi, imposta una regola di caratteristiche per acquisire tale variabile. Ad esempio, se l&#39;URL viene trasmesso in un ID campagna come `www.test123.com/electronics?campaign=123`, crea una regola di caratteristiche per acquisire i dati dalla variabile `h_referer` con una regola di caratteristiche che cerchi un&#39;intestazione come `h_referer = 'campaign=123'`.
 
 <br> 
 

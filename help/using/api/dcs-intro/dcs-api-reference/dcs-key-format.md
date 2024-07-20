@@ -10,13 +10,13 @@ exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 10%
+ht-degree: 4%
 
 ---
 
 # Formattazione delle coppie chiave-valore nelle chiamate DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-Quando effettui una chiamata, il [!DNL DCS] accetta dati chiave-valore in formato standard o serializzato. Consulta questa sezione per informazioni su come formattare dati chiave-valore standard e serializzati.
+Durante una chiamata, [!DNL DCS] accetta dati chiave-valore in formato standard o serializzato. Consulta questa sezione per informazioni su come formattare dati chiave-valore standard e serializzati.
 
 ## Coppie chiave-valore standard e serializzate {#standard-serialized}
 
@@ -73,4 +73,3 @@ Con le coppie chiave-valore serializzate, devi specificare gli indicatori che se
 >* [Inviare dati al DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
 >* [Prefissi chiave-valore e variabili supportati dal DCS](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
 >* [Spiegazione delle coppie chiave-valore](../../../reference/key-value-pairs-explained.md)
-

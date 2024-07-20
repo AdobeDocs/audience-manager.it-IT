@@ -10,21 +10,21 @@ exl-id: 38dea854-2b7b-417e-9d56-919b65807628
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 14%
+ht-degree: 0%
 
 ---
 
-# Metodi API per le destinazioni  {#destination-api-methods}
+# Metodi API per le destinazioni {#destination-api-methods}
 
 Metodi che consentono di lavorare in modo programmatico con le funzioni di destinazione.
 
 <!-- c_destinations_api.xml -->
 
-Ad Audience Manager, una destinazione è qualsiasi altro sistema (ad server, [!DNL DSP], rete di annunci, exchange, cookie di prime parti, ecc.) con cui desideri condividere i dati.
+Ad Audience Manager, una destinazione è qualsiasi altro sistema (ad server, [!DNL DSP], ad network, exchange, il cookie di prime parti, ecc.) con cui desideri condividere i dati.
 
 ## Tipi di destinazione: URL e cookie {#destination-types}
 
-Elenca le variabili utilizzate da `destinationType` parametro. Specifica `push` o `ADS` per lavorare con un [!UICONTROL URL] o [!UICONTROL cookie destination]. Impossibile creare [!UICONTROL server-to-server destinations] con la destinazione disponibile [!DNL API] metodi.
+Elenca le variabili utilizzate dal parametro `destinationType`. Specificare `push` o `ADS` per lavorare con [!UICONTROL URL] o [!UICONTROL cookie destination]. Impossibile creare [!UICONTROL server-to-server destinations] con i metodi di destinazione [!DNL API] disponibili.
 
 <!-- r_destination_types.xml -->
 
@@ -36,4 +36,3 @@ Elenca le variabili utilizzate da `destinationType` parametro. Specifica `push` 
 >[!MORELIKETHIS]
 >
 >* [Come scegliere un tipo di destinazione](../../../features/destinations/destinations.md)
-

@@ -9,8 +9,8 @@ feature: Reference
 exl-id: bb89cf76-dd43-454b-aaa8-8e5415493ecc
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 11%
+source-wordcount: '84'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 11%
 
 Audience Manager utilizza il Coordinated Universal Time (UTC) in tutta l’interfaccia utente.
 
-Se non diversamente specificato, tutte le date e gli intervalli di date selezionabili nel [!DNL Adobe] [!DNL Audience Manager] Interfaccia utente: [Ora UTC (Coordinated Universal Time)](https://www.timeanddate.com/worldclock/timezone/utc). Ad esempio, nel [Crea destinazione](../features/destinations/create-cookie-destination.md#segments-mapping) flusso: quando mappi i segmenti sulla destinazione, la data di inizio e di fine selezionate è la mezzanotte UTC. Lo stesso vale per tutte le date in [!DNL Audience Manager].
+Se non diversamente specificato, tutte le date e gli intervalli di date selezionabili nell&#39;interfaccia utente [!DNL Adobe] [!DNL Audience Manager] sono [UTC (Coordinated Universal Time)](https://www.timeanddate.com/worldclock/timezone/utc). Ad esempio, nel flusso [Crea destinazione](../features/destinations/create-cookie-destination.md#segments-mapping), quando mappi i segmenti nella destinazione, la data di inizio e di fine selezionate è mezzanotte UTC. Lo stesso vale per tutte le date in [!DNL Audience Manager].

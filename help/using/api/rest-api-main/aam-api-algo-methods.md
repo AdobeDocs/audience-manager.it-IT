@@ -10,8 +10,8 @@ feature: API
 exl-id: 5104d3fe-907e-4a40-87a2-5c712e293ded
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 20%
+source-wordcount: '54'
+ht-degree: 11%
 
 ---
 
@@ -21,8 +21,7 @@ Metodi che consentono di utilizzare in modo programmatico le funzioni di modella
 
 >[!IMPORTANT]
 >
->Modelli algoritmici [!DNL API] i metodi sono stati riscritti con [!DNL Swagger] e migrato. Consulta:
+>I metodi dei modelli algoritmici [!DNL API] sono stati riscritti con [!DNL Swagger] e migrati. Consulta:
 >
->* [Documentazione API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documentazione API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione del codice API di Audience Manager](../../api/api-swagger-migration.md)
-

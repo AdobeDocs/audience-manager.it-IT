@@ -10,7 +10,7 @@ exl-id: a76f4d7d-5dd2-4b29-a97e-039c8f1d765f
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 13%
+ht-degree: 0%
 
 ---
 
@@ -24,6 +24,6 @@ c_compstack.xml
 
  -->
 
-Nella figura seguente sono illustrati i componenti principali e la tecnologia di base (hardware e software) che alimentano [!DNL Audience Manager]. Sebbene alcuni processi eseguano funzioni specifiche e altri ruoli multifunzionali, tutti i sistemi collaborano per gestire i tag, raccogliere dati, analizzare le prestazioni, sincronizzare le informazioni con altri sistemi e intervenire su tali informazioni.
+Nella figura seguente vengono illustrati i componenti principali e la tecnologia sottostante (hardware e software) che alimentano [!DNL Audience Manager]. Sebbene alcuni processi eseguano funzioni specifiche e altri ruoli multifunzionali, tutti i sistemi collaborano per gestire i tag, raccogliere dati, analizzare le prestazioni, sincronizzare le informazioni con altri sistemi e intervenire su tali informazioni.
 
 ![](assets/components.png)

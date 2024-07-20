@@ -9,8 +9,8 @@ feature: Audience Optimization Reports
 exl-id: bf445fde-5cac-40ee-aa67-b4523391a6f1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 2%
+source-wordcount: '203'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 Il rapporto Frequenza ottimale consente di scoprire l’equilibrio ottimale tra il numero di impression e di conversioni servite. Consente di regolare il numero di impression da visualizzare prima di iniziare a vedere rendimenti decrescenti.
 
-Il rapporto ha un intervallo di lookback di 30 giorni, a partire dalla data scelta nel [!UICONTROL Date Through] selettore.
+Il report ha un intervallo di lookback di 30 giorni, a partire dalla data scelta nel selettore [!UICONTROL Date Through].
 
 Il volume di conversione generalmente diminuisce con intervalli di frequenza di impression più elevati. Un numero inferiore di utenti visualizza il numero più elevato di impression. Ciò significa che i bucket di frequenza più elevata hanno meno conversioni.
 

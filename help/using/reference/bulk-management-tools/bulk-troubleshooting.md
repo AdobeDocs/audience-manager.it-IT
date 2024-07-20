@@ -9,8 +9,8 @@ feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 3%
+source-wordcount: '410'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Procedura da eseguire quando i fogli di lavoro restituiscono un errore o la rich
 
 >[!NOTE]
 >
->[Autorizzazioni del gruppo RBAC](../../features/administration/administration-overview.md) assegnato in [!DNL Audience Manager] L’interfaccia utente di è rispettata in [!UICONTROL Bulk Management Tools].
+>[Le autorizzazioni del gruppo RBAC](../../features/administration/administration-overview.md) assegnate nell&#39;interfaccia utente [!DNL Audience Manager] vengono rispettate in [!UICONTROL Bulk Management Tools].
 
 Fattori quali il traffico di rete elevato, l’utilizzo del server e i set di dati di grandi dimensioni possono causare il mancato funzionamento o il timeout di una richiesta in blocco. In caso di problemi, il foglio di lavoro smette di scrivere i dati e visualizza un messaggio di errore. In questo caso, dovresti:
 
@@ -61,8 +61,8 @@ Nella tabella seguente sono elencati alcuni problemi comuni che possono verifica
    <td colname="col1"> <b>Ritardi lunghi</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Disattiva modalità di compatibilità</b>: verificare che nella modalità di compatibilità di Microsoft Excel siano aperti altri fogli di lavoro. La modalità di compatibilità può aumentare i tempi di esecuzione. Chiudere eventuali fogli di calcolo aperti in questa modalità e riprovare a eseguire la richiesta in blocco. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Risorse di sistema</b>: risorse di sistema limitate contribuiscono a causare ritardi prolungati. Prova a chiudere tutti gli altri programmi prima di effettuare una richiesta in blocco. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Disattivare la modalità di compatibilità</b>: verificare se sono aperti altri fogli di lavoro nella modalità di compatibilità di Microsoft Excel. La modalità di compatibilità può aumentare i tempi di esecuzione. Chiudere eventuali fogli di calcolo aperti in questa modalità e riprovare a eseguire la richiesta in blocco. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Risorse di sistema</b>: risorse di sistema limitate contribuiscono a ritardi prolungati. Prova a chiudere tutti gli altri programmi prima di effettuare una richiesta in blocco. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

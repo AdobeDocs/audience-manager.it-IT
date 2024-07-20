@@ -1,22 +1,22 @@
 ---
-description: È possibile richiedere un file .csv per rapporti di sovrapposizione quando tale rapporto raggiunge il limite di 1 milione di record. Un report potrebbe aver raggiunto questo limite quando viene visualizzato il messaggio "Si è verificato un errore imprevisto". Contatta l’Assistenza clienti per richiedere un file .csv compresso, che puoi importare e utilizzare nel tuo sistema di database. I file sono disponibili per i rapporti di sovrapposizione segmento-segmento, segmento-caratteristica e caratteristica-caratteristica.
+description: È possibile richiedere un file .csv per un rapporto di sovrapposizione quando tale rapporto raggiunge il limite di 1 milione di record. Un report potrebbe aver raggiunto questo limite quando viene visualizzato il messaggio "Si è verificato un errore imprevisto". Contatta l’Assistenza clienti per richiedere un file .csv compresso, che puoi importare e utilizzare nel tuo sistema di database. I file sono disponibili per i rapporti di sovrapposizione segmento-segmento, segmento-caratteristica e caratteristica-caratteristica.
 seo-description: You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.
 seo-title: CSV Files for Overlap Reports
 solution: Audience Manager
-title: File CSV per report di sovrapposizione
+title: File CSV per rapporti di sovrapposizione
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 7%
+source-wordcount: '909'
+ht-degree: 2%
 
 ---
 
-# File CSV per report di sovrapposizione{#csv-files-for-overlap-reports}
+# File CSV per rapporti di sovrapposizione{#csv-files-for-overlap-reports}
 
-È possibile richiedere un file .csv per rapporti di sovrapposizione quando tale rapporto raggiunge il limite di 1 milione di record. Un report potrebbe aver raggiunto questo limite quando viene visualizzato il messaggio &quot;Si è verificato un errore imprevisto&quot;. Contatta l’Assistenza clienti per richiedere un file .csv compresso, che puoi importare e utilizzare nel tuo sistema di database. I file sono disponibili per i rapporti di sovrapposizione segmento-segmento, segmento-caratteristica e caratteristica-caratteristica.
+È possibile richiedere un file .csv per un rapporto di sovrapposizione quando tale rapporto raggiunge il limite di 1 milione di record. Un report potrebbe aver raggiunto questo limite quando viene visualizzato il messaggio &quot;Si è verificato un errore imprevisto&quot;. Contatta l’Assistenza clienti per richiedere un file .csv compresso, che puoi importare e utilizzare nel tuo sistema di database. I file sono disponibili per i rapporti di sovrapposizione segmento-segmento, segmento-caratteristica e caratteristica-caratteristica.
 
 ## Metadati nome file {#file-name-metadata}
 
@@ -32,7 +32,7 @@ Nella tabella seguente sono elencate e descritte le convenzioni di denominazione
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Estensione file </p> </td> 
-   <td colname="col2"> <p>I file dei rapporti di sovrapposizione sono compressi con Gzip e presentano <code> .gz</code> estensione file. È necessario aggiungere <code> .csv</code> dopo la decompressione. </p> </td> 
+   <td colname="col2"> <p>I file dei report di sovrapposizione sono compressi con GZIP e hanno estensione <code> .gz</code>. È necessario aggiungere l'estensione <code> .csv</code> al file dopo la decompressione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome file </p> </td> 
@@ -48,7 +48,7 @@ Nella tabella seguente sono elencate e descritte le convenzioni di denominazione
    <td colname="col2"> <p>L’intervallo di date per un rapporto è un ID di 5 cifre che include: </p> <p> 
      <ul id="ul_7B334CDFD7DA42AC8F383BE0F8F77FB9"> 
       <li id="li_0045DED532E747C08824DCC98A9174B3"> <code> 70000</code> per un rapporto di 7 giorni. </li> 
-      <li id="li_3A22775F78E648BF8AC32A9E1AF1F5DE"> <code> 30000</code> per un rapporto di 30 giorni. </li> 
+      <li id="li_3A22775F78E648BF8AC32A9E1AF1F5DE"> <code> 30000</code> per un report di 30 giorni. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ Nel file, i dati stringa sono racchiusi tra virgolette doppie. Vedi i dati fitti
 
 ## Record dei rapporti segmento-segmento {#segment-segment-records}
 
-Un file di dati per [Rapporto di sovrapposizione segmento-segmento](segment-segment-overlap-report.md) contiene i record seguenti.
+Un file di dati per il [report di sovrapposizione segmento-segmento](segment-segment-overlap-report.md) contiene i record seguenti.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -112,7 +112,7 @@ Un file di dati per [Rapporto di sovrapposizione segmento-segmento](segment-segm
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>È possibile ottenere rapporti per intervalli di look-back di 7 e 30 giorni. Il <code> rangeid</code> corrisponde agli intervalli di tempo riportati di seguito. </p> <p> 
+   <td colname="col2"> <p>È possibile ottenere rapporti per intervalli di look-back di 7 e 30 giorni. <code> rangeid</code> corrisponde agli intervalli di tempo riportati di seguito. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7 giorni </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 giorni </li> 
@@ -143,7 +143,7 @@ Un file di dati per [Rapporto di sovrapposizione segmento-segmento](segment-segm
 
 ## Record rapporto segmento-caratteristica {#segment-trait-records}
 
-Un file di dati per [Rapporto di sovrapposizione segmento-caratteristica](segment-trait-overlap-report.md) contiene i record seguenti.
+Un file di dati per il [report di sovrapposizione segmento-caratteristica](segment-trait-overlap-report.md) contiene i record seguenti.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -175,7 +175,7 @@ Un file di dati per [Rapporto di sovrapposizione segmento-caratteristica](segmen
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>È possibile ottenere rapporti per intervalli di look-back di 7 e 30 giorni. Il <code> rangeid</code> corrisponde agli intervalli di tempo riportati di seguito. </p> <p> 
+   <td colname="col2"> <p>È possibile ottenere rapporti per intervalli di look-back di 7 e 30 giorni. <code> rangeid</code> corrisponde agli intervalli di tempo riportati di seguito. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7 giorni </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 giorni </li> 
@@ -210,7 +210,7 @@ Un file di dati per [Rapporto di sovrapposizione segmento-caratteristica](segmen
 
 ## Record di rapporti caratteristica-caratteristica {#trait-trait-records}
 
-Un file di dati per [Rapporto di sovrapposizione caratteristica-caratteristica](trait-trait-overlap-report.md) contiene i record seguenti.
+Un file di dati per il [rapporto di sovrapposizione caratteristica-caratteristica](trait-trait-overlap-report.md) contiene i record seguenti.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -250,7 +250,7 @@ Un file di dati per [Rapporto di sovrapposizione caratteristica-caratteristica](
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>È possibile ottenere rapporti per intervalli di look-back di 7 e 30 giorni. Il <code> rangeid</code> corrisponde agli intervalli di tempo riportati di seguito. </p> <p> 
+   <td colname="col2"> <p>È possibile ottenere rapporti per intervalli di look-back di 7 e 30 giorni. <code> rangeid</code> corrisponde agli intervalli di tempo riportati di seguito. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7 giorni </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 giorni </li> 

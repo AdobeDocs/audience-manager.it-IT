@@ -3,18 +3,18 @@ description: Descrive il software sottostante che attiva i report interattivi e 
 seo-description: Describes the underlying software that powers the interactive reports and the data update schedule.
 seo-title: Report Technology
 solution: Audience Manager
-title: Tecnologia dei report
+title: Tecnologia dei rapporti
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 1%
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
-# Tecnologia dei report{#report-technology}
+# Tecnologia dei rapporti{#report-technology}
 
 Descrive il software sottostante che attiva i report interattivi e la pianificazione dell&#39;aggiornamento dei dati.
 
@@ -26,7 +26,7 @@ c_report_technology.xml
 
 ## I report interattivi utilizzano la tecnologia Tableau
 
-[!DNL Audience Manager] utilizza [Tableau](https://www.tableausoftware.com/) software per visualizzare i dati nei report interattivi. Con [!DNL Tableau], il [!UICONTROL Delivery and Overlap] i report utilizzano suggerimenti visivi e simboli che consentono di:
+[!DNL Audience Manager] utilizza il software [Tableau](https://www.tableausoftware.com/) per visualizzare i dati nei report interattivi. Con [!DNL Tableau], i report [!UICONTROL Delivery and Overlap] utilizzano suggerimenti visivi e simboli che consentono di:
 
 * Trova caratteristiche ad alte e basse prestazioni.
 * Tratti spot e segmenti con sovrapposizione di visitatori univoci bassa e alta.
@@ -71,7 +71,7 @@ La tabella seguente definisce le forme, le dimensioni e i colori utilizzati nei 
    <td colname="col1"> <b>Colori</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Le ombre rosse indicano <i>bassa</i> sovrapposizione. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Le ombre rosse indicano una sovrapposizione di <i>bassa</i>. </li> 
      <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Le ombre verdi indicano <i>alta</i> sovrapposizione. </li> 
     </ul> </td> 
   </tr> 
@@ -84,4 +84,4 @@ La tabella seguente definisce le forme, le dimensioni e i colori utilizzati nei 
 
 ## Documentazione di Tableau {#tableau-documentation}
 
-Per ulteriori informazioni sui controlli Tableau visibili nei rapporti interattivi, consulta la documentazione ufficiale per [Tableau Server su Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
+Per ulteriori informazioni sui controlli Tableau visibili nei report interattivi, consulta la documentazione ufficiale di [Tableau Server su Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)

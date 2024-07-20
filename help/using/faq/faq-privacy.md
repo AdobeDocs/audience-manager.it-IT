@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 83%
+source-wordcount: '754'
+ht-degree: 81%
 
 ---
 
@@ -55,11 +55,11 @@ Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Server back-end </p> </td> 
-   <td colname="col2"> <p>120 giorni </p> <p> Audience Manager elimina i dati utente dai server back-end 120 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l’attività dell’utente durante questo ciclo di 120 giorni, questi dati verranno conservati per altri 120 giorni. </p> </td> 
+   <td colname="col2"> <p>120 giorni </p> <p> Audience Manager elimina i dati utente dai server back-end 120 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l'attività dell'utente durante questo ciclo di 120 giorni, questi dati verranno conservati per altri 120 giorni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Server perimetrali </p> </td> 
-   <td colname="col2"> <p> 14 giorni </p> <p>Audience Manager elimina i dati utente dai server perimetrali 14 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l’attività dell’utente durante questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l’utente torna ad essere attivo dopo 14 giorni di ciclo, si verifica un ritardo tra la prima visualizzazione di una nuova pagina e il momento in cui l’utente diventa actionable. Ci vogliono 6-18 ore per riportare il profilo completo al centro perimetrale dopo più di 14 giorni di inattività. </p> </td> 
+   <td colname="col2"> <p> 14 giorni </p> <p>Audience Manager elimina i dati utente dai server perimetrali 14 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se l'Audience Manager <span class="keyword"></span> registra l'attività dell'utente durante questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l’utente torna ad essere attivo dopo 14 giorni di ciclo, si verifica un ritardo tra la prima visualizzazione di una nuova pagina e il momento in cui l’utente diventa actionable. Ci vogliono 6-18 ore per riportare il profilo completo al centro perimetrale dopo più di 14 giorni di inattività. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registri non elaborati </p> </td> 
@@ -96,7 +96,7 @@ Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi
  </tbody> 
 </table>
 
-## Conservazione dei dati di qualifica delle caratteristiche {#trait-qual}
+## Conservazione dei dati di qualificazione delle caratteristiche {#trait-qual}
 
 Nella tabella seguente sono elencate le opzioni di conservazione per le qualifiche delle caratteristiche.
 

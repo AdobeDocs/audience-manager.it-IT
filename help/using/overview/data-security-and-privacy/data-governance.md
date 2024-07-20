@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 94%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ L’indirizzo [!DNL IP] di un visitatore di un sito web del cliente viene trasme
 
 >[!NOTE]
 >
->Consulta [Offuscamento indirizzo IP](../../features/administration/ip-obfuscation.md) per scoprire come abilitare [!DNL IP] offuscamento dell’indirizzo nell’interfaccia utente di Audience Manager.
+>Per informazioni su come abilitare l&#39;offuscamento dell&#39;indirizzo [!DNL IP] nell&#39;interfaccia utente di Audience Manager, consulta [IP Address Obfuscation](../../features/administration/ip-obfuscation.md).
 
 Guarda il video seguente per comprendere come funziona l’offuscamento degli indirizzi [!DNL IP] in Audience Manager.
 

@@ -3,20 +3,20 @@ description: Metodi che consentono di utilizzare a livello di programmazione Dat
 seo-description: Methods that let you work programmatically with the Data Integration Library (DIL).
 seo-title: Data Integration Library API Methods
 solution: Audience Manager
-title: Metodi dell’API Data Integration Library
+title: Data Integration Library metodi API
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
 exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 13%
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
-# Metodi dell’API Data Integration Library {#data-integration-library-api-methods}
+# Data Integration Library metodi API {#data-integration-library-api-methods}
 
-Metodi che consentono di lavorare a livello di programmazione con [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+Metodi che consentono di utilizzare a livello di programmazione [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ Metodi che consentono di lavorare a livello di programmazione con [!UICONTROL Da
 
 ## Versioni restituite per DIL {#return-version-dil}
 
-A `GET` metodo che restituisce un elenco di versioni ordinate dalla meno recente alla più recente.
+Un metodo `GET` che restituisce un elenco di versioni ordinate dalla meno recente alla più recente.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -36,7 +36,7 @@ A `GET` metodo che restituisce un elenco di versioni ordinate dalla meno recente
 
 ### Risposta
 
-In caso di esito positivo, la richiesta restituisce il codice di risposta `["4.0", "4.1"]` come mostrato di seguito.
+Una richiesta corretta restituisce il codice di risposta `["4.0", "4.1"]` come mostrato di seguito.
 
 ```
 ["4.0", "4.1"]
@@ -44,7 +44,7 @@ In caso di esito positivo, la richiesta restituisce il codice di risposta `["4.0
 
 ## Restituisci schema JSON per versione {#return-json-schema-version}
 
-A `GET` che restituisce il [!DNL JSON] schema per [!UICONTROL DIL] versione. Supporta l’utilizzo dell’alias [!UICONTROL LATEST] affinché la versione ottenga la versione più recente di [!UICONTROL DIL].
+Un metodo `GET` che restituisce lo schema [!DNL JSON] per la versione [!UICONTROL DIL]. Supporta l&#39;utilizzo dell&#39;alias [!UICONTROL LATEST] per la versione per ottenere la versione più recente di [!UICONTROL DIL].
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -54,7 +54,7 @@ A `GET` che restituisce il [!DNL JSON] schema per [!UICONTROL DIL] versione. Sup
 
 ### Risposta
 
-In caso di esito positivo, la richiesta restituisce il codice di risposta `["4.0", "4.1"]` e come mostrato di seguito.
+In caso di esito positivo, la richiesta restituisce il codice di risposta `["4.0", "4.1"]` e i dati come mostrato di seguito.
 
 ```
 { 
@@ -380,7 +380,7 @@ In caso di esito positivo, la richiesta restituisce il codice di risposta `["4.0
 
 ## Genera DIL {#generate-dil}
 
-A `GET` metodo che genera [!UICONTROL DIL] in base al corpo della richiesta passato utilizzando la versione specificata di [!UICONTROL DIL]. Se l’alias `LATEST` viene utilizzato per la versione nell’URL, l’ultima versione di [!UICONTROL DIL] viene generato.
+Metodo `GET` che genera [!UICONTROL DIL] in base al corpo della richiesta passato utilizzando la versione specificata di [!UICONTROL DIL]. Se l&#39;alias `LATEST` viene utilizzato per la versione nell&#39;URL, viene generata la versione più recente di [!UICONTROL DIL].
 
 <!-- r_api_generate_dil.xml -->
 
@@ -464,4 +464,4 @@ A `GET` metodo che genera [!UICONTROL DIL] in base al corpo della richiesta pass
 
 ### Risposta
 
-Un aggiornamento corretto restituisce il codice di risposta `201 created` insieme al [!UICONTROL DIL] [!DNL JavaScript] codice.
+Un aggiornamento corretto restituisce il codice di risposta `201 created` insieme al codice [!UICONTROL DIL] [!DNL JavaScript].

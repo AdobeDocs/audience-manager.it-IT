@@ -9,7 +9,7 @@ exl-id: 5e405390-1c19-4e43-b3f9-598e8aa6bd99
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 5%
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ Utilizza i seguenti operatori logici supportati per cercare coppie chiave-valore
 
 ### Operatori denominati
 
-| Operatore | Valuta a [!DNL True] Quando |
+| Operatore | Valuta fino a [!DNL True] quando |
 |---|---|
 | **[!UICONTROL Contains]** | Il valore in una coppia chiave-valore *contiene* caratteri specificati da questo operatore. |
 | **[!UICONTROL Startswith]** | Il valore in una coppia chiave-valore *inizia con* caratteri specificati da questo operatore. |
@@ -41,4 +41,4 @@ Utilizza i seguenti operatori logici supportati per cercare coppie chiave-valore
 
 ## Operatori supportati per il backfill e la stima delle caratteristiche {#supported-operators-backfilling}
 
-È possibile retrocompilare caratteristiche che includono espressioni contenenti uno qualsiasi degli operatori supportati da [!UICONTROL Signal Search]. Oltre a questi operatori, la retrocompilazione e la stima delle caratteristiche supportano anche la [!UICONTROL AND], [!UICONTROL OR], e [!UICONTROL AND NOT] operatori logici, utilizzati per combinare coppie chiave-valore all’interno delle espressioni di caratteristiche precompilate.
+È possibile retrocompilare caratteristiche che includono espressioni contenenti uno qualsiasi degli operatori supportati da [!UICONTROL Signal Search]. Oltre a questi operatori, la retrocompilazione e la stima delle caratteristiche supportano anche gli operatori logici [!UICONTROL AND], [!UICONTROL OR] e [!UICONTROL AND NOT], utilizzati per combinare coppie chiave-valore all&#39;interno delle espressioni delle caratteristiche precompilate.

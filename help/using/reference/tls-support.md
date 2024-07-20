@@ -3,26 +3,26 @@ description: Transport Layer Security (TLS) è un protocollo crittografico utili
 seo-description: Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there were three versions of the TLS protocol in use  TLS 1.0, 1.1, and 1.2.
 seo-title: TLS 1.0 and 1.1 Deprecation
 solution: Audience Manager
-title: Fine del supporto di TLS 1.0 e 1.1
+title: Obsolescenza di TLS 1.0 e 1.1
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 feature: Reference
 exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 2%
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
-# Fine del supporto di TLS 1.0 e 1.1{#tls-deprecation}
+# Obsolescenza di TLS 1.0 e 1.1{#tls-deprecation}
 
 Transport Layer Security (TLS) è un protocollo crittografico utilizzato per stabilire un canale di comunicazione sicuro tra due sistemi. Viene utilizzato per autenticare uno o entrambi i sistemi e per proteggere la riservatezza e l&#39;integrità delle informazioni che passano da un sistema all&#39;altro. Nel maggio 2018, erano in uso tre versioni del protocollo TLS: TLS 1.0, 1.1 e 1.2.
 
-Nel marzo 2019, [!DNL Adobe] ha terminato il supporto per [!DNL TLS 1.0] protocollo. La funzionalità Adobe Audience Manager non funziona per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.0].
+A marzo 2019, [!DNL Adobe] ha terminato il supporto per il protocollo [!DNL TLS 1.0]. La funzionalità Adobe Audience Manager non funziona per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.0].
 
-Nel marzo 2020, [!DNL Adobe] terminerà il supporto per [!DNL TLS 1.1] protocollo. La funzionalità Adobe Audience Manager non funzionerà più per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.1].
+A marzo 2020, [!DNL Adobe] terminerà il supporto per il protocollo [!DNL TLS 1.1]. La funzionalità Adobe Audience Manager non funzionerà più per gli utenti finali che utilizzano browser che supportano solo [!DNL TLS 1.1].
 
-L’Adobe consiglia vivamente l’utilizzo di [!DNL TLS 1.2], che è, al momento della stesura di, la versione più recente del protocollo. Tutti i browser moderni utilizzano [!DNL TLS 1.2]. Abbiamo creato un elenco di browser, versioni e relativi [!DNL TLS] supporto. Per ulteriori informazioni sul supporto del browser TLS, visita [collegamento Wikipedia Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+L&#39;Adobe consiglia vivamente l&#39;utilizzo di [!DNL TLS 1.2], che al momento della scrittura è l&#39;ultima versione del protocollo. Tutti i browser moderni utilizzano [!DNL TLS 1.2]. È stato creato un elenco di browser, versioni e supporto di [!DNL TLS]. Per ulteriori informazioni sul supporto del browser TLS, visitare [il collegamento Wikipedia Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <!--
 

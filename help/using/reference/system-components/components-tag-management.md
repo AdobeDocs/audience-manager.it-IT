@@ -3,18 +3,18 @@ description: Audienci Manager di componenti per la gestione dei tag includono il
 seo-description: Audience Manager tag management components include the client portal, Adobe Tag Manager (deprecated in favor of Adobe Experience Platform Launch), DIL, Akamai, and the control database.
 seo-title: Tag Management Components
 solution: Audience Manager
-title: Componenti di Tag Management
+title: Componenti Tag Management
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 feature: System Components
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 3%
+source-wordcount: '306'
+ht-degree: 0%
 
 ---
 
-# Componenti di Tag Management{#tag-management-components}
+# Componenti Tag Management{#tag-management-components}
 
 Audienci Manager di componenti per la gestione dei tag includono il portale client, Adobe Tag Manager (obsoleto a favore di Adobe Experience Platform Tags), DIL, Akamai e il database di controllo.
 
@@ -26,7 +26,7 @@ c_comptag.xml
 
 L’Audience Manager contiene i seguenti componenti:
 
-* [Client Portal](../../reference/system-components/components-tag-management.md#client-portal)
+* [Portale client](../../reference/system-components/components-tag-management.md#client-portal)
 * [Contenitore DIL/TIM](../../reference/system-components/components-tag-management.md#dil-tim)
 * [Libreria informazioni dati (DIL)](../../reference/system-components/components-tag-management.md#dil)
 * [Akamai](../../reference/system-components/components-tag-management.md#akamai)
@@ -38,15 +38,15 @@ Il portale client è l’interfaccia utente principale per la gestione dei tag e
 
 ## Contenitore DIL/TIM {#dil-tim}
 
-Il [!UICONTROL DIL] il contenitore aiuta a distribuire [!DNL Audience Manager] il codice di raccolta dei dati sul sito web. [!UICONTROL TIM] è Tag Insertion Manager obsoleto. Non viene più utilizzato da [!DNL Audience Manager]. Invece, puoi utilizzare [!DNL Audience Manager] estensione in [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) per configurare e generare il codice del contenitore da inserire nelle pagine dell’inventario.
+Il contenitore [!UICONTROL DIL] consente di distribuire il codice di raccolta dati [!DNL Audience Manager] nel sito Web. [!UICONTROL TIM] è Tag Insertion Manager obsoleto. Non è più utilizzato da [!DNL Audience Manager]. Puoi invece utilizzare l&#39;estensione [!DNL Audience Manager] in [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) per configurare e generare il codice contenitore inserito nelle pagine del tuo inventario.
 
-## Libreria di integrazione dei dati (DIL) {#dil}
+## Data Integration Library (DIL) {#dil}
 
-Il [Data Information Library](../../dil/dil-overview.md) (DIL) è un modulo API autonomo che raccoglie dati dal sito web. [!UICONTROL DIL] elimina la necessità di scrivere codice speciale per la raccolta di dati, l’integrazione, la lettura dei valori dei cookie e il recupero dei dati della pagina. [!UICONTROL DIL] esegue automaticamente queste azioni. Inoltre, [!UICONTROL DIL] è compatto. Si tratta di una libreria di codice autonoma che consente di ridurre la quantità di codice necessario per raccogliere le informazioni. Infine, [!UICONTROL DIL] ti aiuta a integrare [!DNL Audience Manager] con altri prodotti nel [!DNL Adobe] Experience Cloud.
+La [Data Information Library](../../dil/dil-overview.md) (DIL) è un modulo API autonomo che raccoglie dati dal sito Web. [!UICONTROL DIL] elimina la necessità di scrivere codice speciale per la raccolta dati, l&#39;integrazione, la lettura dei valori dei cookie e il recupero dei dati della pagina. [!UICONTROL DIL] esegue queste azioni automaticamente. Inoltre, [!UICONTROL DIL] è compatto. Si tratta di una libreria di codice autonoma che consente di ridurre la quantità di codice necessario per raccogliere le informazioni. Infine, [!UICONTROL DIL] ti aiuta a integrare [!DNL Audience Manager] con altri prodotti nell&#39;Experience Cloud [!DNL Adobe].
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] utilizza [Akamai](https://www.akamai.com/us/en/about/) per ospitare e consegnare il codice dei contenitori dalla nostra piattaforma di gestione dei tag nota come [!UICONTROL TIM (Tag Insertion Manager)]. Tuttavia, la distribuzione del codice con [!UICONTROL TIM] è stato gradualmente eliminato a favore di [!DNL Adobe Experience Platform Tags].
+[!DNL Audience Manager] utilizza [Akamai](https://www.akamai.com/us/en/about/) per ospitare e consegnare il codice contenitore dalla piattaforma di gestione dei tag [!UICONTROL TIM (Tag Insertion Manager)]. Tuttavia, la distribuzione del codice con [!UICONTROL TIM] è stata gradualmente eliminata a favore di [!DNL Adobe Experience Platform Tags].
 
 ## Database di controllo {#control-database}
 

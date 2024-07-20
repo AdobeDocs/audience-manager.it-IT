@@ -9,8 +9,8 @@ feature: Audience Optimization Reports
 exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 1%
+source-wordcount: '619'
+ht-degree: 0%
 
 ---
 
@@ -20,31 +20,31 @@ Le caratteristiche inutilizzate principali sono rappresentate come un diagramma 
 
 ## Caso d&#39;uso {#use-cases}
 
-Con il [!UICONTROL Top Unused Traits] rapporto di, puoi analizzare e confrontare le prestazioni di caratteristiche di prima e terze parti attualmente non mappate su un segmento. Questa visualizzazione può evidenziare le caratteristiche migliori da utilizzare in un segmento di pubblico per l’ottimizzazione di una campagna o per creare nuove opportunità.
+Con il rapporto [!UICONTROL Top Unused Traits] puoi analizzare e confrontare le prestazioni di caratteristiche di prima e terze parti attualmente non mappate a un segmento. Questa visualizzazione può evidenziare le caratteristiche migliori da utilizzare in un segmento di pubblico per l’ottimizzazione di una campagna o per creare nuove opportunità.
 
 ## Utilizzo del rapporto Principali caratteristiche non utilizzate {#using-the-report}
 
-Utilizza il **[!UICONTROL Data Provider Type]** controlli per passare da caratteristiche di prima parte a caratteristiche di terze parti. Seleziona **[!UICONTROL All]** per restituire le caratteristiche di prima e terza parte nel report.
+Utilizzare i controlli **[!UICONTROL Data Provider Type]** per alternare le caratteristiche di prima parte e terze parti. Selezionare **[!UICONTROL All]** per restituire le caratteristiche di prima e terza parte nel report.
 
-Con il **[!UICONTROL Impressions]** cursore, puoi selezionare un valore minimo e un valore massimo per le impression restituite. Le caratteristiche responsabili di un numero di elementi pari o superiore ai limiti impostati non vengono visualizzate nel rapporto.
+Con il cursore **[!UICONTROL Impressions]** è possibile selezionare un valore minimo e massimo per le impression restituite. Le caratteristiche responsabili di un numero di elementi pari o superiore ai limiti impostati non vengono visualizzate nel rapporto.
 
-Utilizza il **[!UICONTROL Day Range]** e **[!UICONTROL Date Through]** per regolare l&#39;intervallo di look-back. Per questo rapporto è disponibile solo il periodo di look-back di 30 giorni.
+Utilizzare i controlli **[!UICONTROL Day Range]** e **[!UICONTROL Date Through]** per regolare l&#39;intervallo di look-back. Per questo rapporto è disponibile solo il periodo di look-back di 30 giorni.
 
-Utilizza il **[!UICONTROL Order]** per selezionare le proprietà web nel portfolio per le quali si desidera restituire le informazioni.
+Utilizzare la casella a discesa **[!UICONTROL Order]** per selezionare le proprietà Web del portfolio per le quali si desidera restituire informazioni.
 
-In **[!UICONTROL Data Provider]** selezionare le origini dati contenenti le caratteristiche che si desidera visualizzare nel rapporto.
+Nella casella a discesa **[!UICONTROL Data Provider]** selezionare le origini dati contenenti le caratteristiche che si desidera visualizzare nel report.
 
-Utilizza il **[!UICONTROL Traits]** per selezionare le caratteristiche da visualizzare nel rapporto.
+Utilizza la casella a discesa **[!UICONTROL Traits]** per selezionare le caratteristiche da visualizzare nel rapporto.
 
 >[!IMPORTANT]
 >
->Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel passaggio 3 di [Importare file di dati di Google Ad Manager (precedentemente DFP) in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo, assicurerai che il rapporto descriva nei dettagli la proprietà web come [!UICONTROL Order] invece del [!UICONTROL Order ID].
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel passaggio 3 di [Importare i file di dati di Google Ad Manager (precedentemente DFP) nell&#39;Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo si assicura che il report specifichi la proprietà Web come [!UICONTROL Order] invece di [!UICONTROL Order ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
-**Report di esempio**
+**Rapporto di esempio**
 
-Il tuo [!UICONTROL Top Unused Traits] Il rapporto potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti.
+Il report [!UICONTROL Top Unused Traits] potrebbe essere simile a quello riportato di seguito. Nel rapporto, fai clic su una bolla per visualizzare i dati sottostanti.
 
 Per ulteriori informazioni, consulta la descrizione nella tabella seguente il rapporto di esempio.
 
@@ -59,27 +59,27 @@ Per ulteriori informazioni, consulta la descrizione nella tabella seguente il ra
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Tipo provider dati</span> </p> </td> 
+   <td colname="col1"> <p>Tipo provider dati <span class="wintitle"></span> </p> </td> 
    <td colname="col2"> <p>Specifica se l'origine dati selezionata contiene caratteristiche di prima parte o terze parti. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> ID caratteristica</span> </p> </td> 
+   <td colname="col1"> <p>ID caratteristica <span class="wintitle"></span> </p> </td> 
    <td colname="col2"> <p>ID univoco di questa caratteristica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Nome caratteristica</span> </p> </td> 
+   <td colname="col1"> <p>Nome caratteristica <span class="wintitle"></span> </p> </td> 
    <td colname="col2"> <p>Il nome alfanumerico che tu o il fornitore di dati avete assegnato a questa caratteristica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Ordine</span> </p> </td> 
+   <td colname="col1"> <p>Ordine <span class="wintitle"></span> </p> </td> 
    <td colname="col2"> <p>La proprietà web per la quale stai visualizzando questo rapporto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Impressioni</span> </p> </td> 
+   <td colname="col1"> <p>Impression <span class="wintitle"></span> </p> </td> 
    <td colname="col2"> <p>Il numero di volte in cui i membri di questa caratteristica sono stati esposti al tuo inventario. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Univoci caratteristiche</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> caratteristiche univoche</span> </p> </td> 
    <td colname="col2"> <p>Il numero di membri della caratteristica, negli ultimi 30 giorni. </p> </td> 
   </tr> 
  </tbody> 
@@ -89,9 +89,9 @@ Per ulteriori informazioni, consulta la descrizione nella tabella seguente il ra
 
 La posizione delle caratteristiche in un rapporto può indicarti molto su quali caratteristiche puoi utilizzare per ottimizzare i segmenti di pubblico esistenti.
 
-Le caratteristiche situate più in alto sull’asse Impression sono quelle che desideri utilizzare nelle campagne. Per le caratteristiche con un basso numero di impression, è improbabile che tu stia raggiungendo questo pubblico sulla tua proprietà web, in base al [!DNL Google Ad Manager] dati.
+Le caratteristiche situate più in alto sull’asse Impression sono quelle che desideri utilizzare nelle campagne. Per le caratteristiche con un basso numero di impression, è improbabile che tu stia raggiungendo questo pubblico sulla tua proprietà web, in base ai tuoi dati di [!DNL Google Ad Manager].
 
-Guardare a sinistra del [!UICONTROL Unique Trait Realizations] asse per caratteristiche molto precise e a destra per caratteristiche che possono guidare la scala.
+Osservare a sinistra dell&#39;asse [!UICONTROL Unique Trait Realizations] per le caratteristiche altamente accurate e a destra per le caratteristiche che possono guidare la scala.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 

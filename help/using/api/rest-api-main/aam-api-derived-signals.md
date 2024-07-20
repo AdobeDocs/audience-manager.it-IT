@@ -9,14 +9,14 @@ feature: API
 exl-id: 69f26b7b-ce96-4ec6-9155-4abd7c8338b1
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 15%
+source-wordcount: '88'
+ht-degree: 6%
 
 ---
 
 # Metodi API per i segnali derivati {#derived-signals-api-methods}
 
-[!DNL API] metodi che consentono di lavorare con segnali derivati. Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive in base a una caratteristica già vista.
+Metodi [!DNL API] che consentono di utilizzare segnali derivati. Un segnale derivato qualifica i visitatori del sito per caratteristiche aggiuntive in base a una caratteristica già vista.
 
 <!-- c_separator.xml -->
 
@@ -24,8 +24,7 @@ Per ulteriori informazioni sui segnali derivati, vedere [Segnali derivati](../..
 
 >[!IMPORTANT]
 >
->I segnali derivati [!DNL API] i metodi sono stati riscritti con [!DNL Swagger] e migrato. Consulta:
+>I metodi [!DNL API] dei segnali derivati sono stati riscritti con [!DNL Swagger] e migrati. Consulta:
 >
->* [Documentazione API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
+>* [Documentazione API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione del codice API di Audience Manager](../../api/api-swagger-migration.md)
-

@@ -9,14 +9,14 @@ feature: Profile Merge
 exl-id: 5d1f5bea-0fca-4684-a2b4-585d9e38d9ef
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 3%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
-# [!UICONTROL Profile Merge Rules] Panoramica {#profile-merge-rules-overview}
+# Panoramica di [!UICONTROL Profile Merge Rules] {#profile-merge-rules-overview}
 
-Con [!UICONTROL Profile Merge Rules] puoi controllare quali set di dati vengono utilizzati per la segmentazione e indirizzare gli utenti in modo preciso su più dispositivi.
+Con [!UICONTROL Profile Merge Rules] è possibile controllare quali set di dati vengono utilizzati per la segmentazione e indirizzare gli utenti con precisione su più dispositivi.
 
 >[!VIDEO](https://video.tv.adobe.com/v/28974)
 
@@ -26,14 +26,14 @@ In genere, la segmentazione del pubblico e il targeting si basano sui dati racco
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] cambia radicalmente il modo [!DNL Audience Manager] raccoglie dati e segmenta gli utenti per il targeting. Consente di lavorare con 2 tipi distinti di profili, un profilo dispositivo e un [profilo autenticato](../../reference/visitor-authentication-states.md).
+[!UICONTROL Profile Merge Rules] modifica radicalmente il modo in cui [!DNL Audience Manager] raccoglie dati e segmenta gli utenti per il targeting. Ti consente di lavorare con 2 tipi distinti di profili, un profilo dispositivo e un [profilo autenticato](../../reference/visitor-authentication-states.md).
 
 | Tipo di profilo | Descrizione |
 |---|---|
-| [!UICONTROL Device Profile] | A [!UICONTROL device profile] è associato a un ID per un determinato dispositivo, ad esempio [!UICONTROL cookie] ID o ID del dispositivo mobile.<br><br> Include:<ul><li>[!UICONTROL Rule-based traits] realizzato quando un utente non è autenticato.</li><li>[!UICONTROL Onboarded traits] associato a un ID dispositivo come [!UICONTROL cookie-based], dati di terze parti.</li></ul> |
-| [!UICONTROL Authenticated Profile] | Il [!UICONTROL authenticated profile] è associato a un ID utente trasmesso quando una persona accede al sito.<br><br>Include:<ul><li>[!UICONTROL Rule-based traits] raccolte tra dispositivi quando un utente è autenticato.</li><li>[!UICONTROL Onboarded traits] in un file offline collegato allo stesso ID utente.</li></ul> |
+| [!UICONTROL Device Profile] | Un [!UICONTROL device profile] è associato a un ID per un determinato dispositivo, ad esempio un ID [!UICONTROL cookie] o un ID dispositivo mobile.<br><br> Include:<ul><li>[!UICONTROL Rule-based traits] realizzato quando un utente non è autenticato.</li><li>[!UICONTROL Onboarded traits] associato a un ID dispositivo come [!UICONTROL cookie-based], dati di terze parti.</li></ul> |
+| [!UICONTROL Authenticated Profile] | [!UICONTROL authenticated profile] è associato a un ID utente passato quando una persona accede al tuo sito.<br><br>Include:<ul><li>[!UICONTROL Rule-based traits] raccolti tra dispositivi quando un utente è autenticato.</li><li>[!UICONTROL Onboarded traits] in un file offline collegato allo stesso ID utente.</li></ul> |
 
-Questi profili controllano i dati che puoi utilizzare per la segmentazione. Ad esempio, con un [profilo autenticato](../../reference/visitor-authentication-states.md), puoi creare in modo accurato [!UICONTROL segments] in base a dati provenienti da più dispositivi per un singolo utente. Ciò significa che puoi offrire ai clienti un’esperienza del marchio coerente su più dispositivi. [!DNL Audience Manager] a tal fine, memorizza la mappatura dei diversi dispositivi utilizzati da una persona per le sue attività online sul suo [profilo autenticato](../../reference/visitor-authentication-states.md). Queste mappature sono denominate [!UICONTROL Profile Link Device Graph].
+Questi profili controllano i dati che puoi utilizzare per la segmentazione. Ad esempio, con un [profilo autenticato](../../reference/visitor-authentication-states.md), puoi creare [!UICONTROL segments] accurati in base a dati provenienti da più dispositivi per un singolo utente. Ciò significa che puoi offrire ai clienti un’esperienza del marchio coerente su più dispositivi. [!DNL Audience Manager] ottiene questo risultato archiviando la mappatura dei diversi dispositivi utilizzati da una persona per le sue attività online sul suo [profilo autenticato](../../reference/visitor-authentication-states.md). Queste mappature sono denominate [!UICONTROL Profile Link Device Graph].
 
 ![](assets/authenticated2.png)
 
@@ -44,5 +44,5 @@ Con [!UICONTROL Profile Merge Rules] è possibile:
 * Eseguire il targeting degli utenti in base a [profilo autenticato](../../reference/visitor-authentication-states.md), profili anonimi o combinazioni di entrambi.
 * Eseguire il targeting di un cliente specifico sui suoi dispositivi.
 * Crea un grafico dei dispositivi basato su dati deterministici.
-* Ottimizza i dati nel tuo [!UICONTROL segments] in base a profili diversi.
+* Ottimizza i dati in [!UICONTROL segments] in base a profili diversi.
 * Ottieni ulteriori informazioni sul pubblico.

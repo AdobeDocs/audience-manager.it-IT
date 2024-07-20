@@ -9,8 +9,8 @@ feature: DIL Implementation
 exl-id: 814268bc-4387-4e06-ae94-eda86993a967
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 8%
+source-wordcount: '130'
+ht-degree: 7%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 8%
 
 >[!WARNING]
 >
->A partire da luglio 2023, Adobe ha interrotto lo sviluppo del [!DNL Data Integration Library (DIL)] e [!DNL DIL] estensione.
+>A partire da luglio 2023, Adobe ha interrotto lo sviluppo di [!DNL Data Integration Library (DIL)] e dell&#39;estensione [!DNL DIL].
 >
->I clienti esistenti possono continuare a utilizzare [!DNL DIL] implementazione. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experienci Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dei dati a lungo termine.
+>I clienti esistenti possono continuare a utilizzare l&#39;implementazione [!DNL DIL]. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dati a lungo termine.
 >
->I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experienci Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) invece.
+>I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
 Recupera un valore specifico da un ad server.
 
@@ -40,11 +40,11 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | Stringa | Nome della variabile per la quale si desidera ottenere un valore. |
 | `partner` | Stringa | Nome del partner da cercare. |
-| `containerNSID` | Intero | Il [!DNL NSID] del contenitore che stai cercando. Il valore predefinito è `0`. |
+| `containerNSID` | Intero | [!DNL NSID] del contenitore che si sta cercando. Il valore predefinito è `0`. |
 
 **Risposta**
 
-Restituisce il valore della variabile per un elemento [!UICONTROL DIL] dell&#39;istanza.
+Restituisce il valore della variabile per un&#39;istanza [!UICONTROL DIL].
 
 **Codice di esempio**
 

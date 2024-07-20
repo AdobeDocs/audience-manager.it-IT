@@ -10,13 +10,13 @@ exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 7%
+ht-degree: 2%
 
 ---
 
 # Restituire una destinazione per ID destinazione {#return-a-destination-by-destination-id}
 
-A `GET` metodo che restituisce la destinazione per il valore specificato `destinationId`.
+Un metodo `GET` che restituisce la destinazione per `destinationId` specificato.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -26,7 +26,7 @@ A `GET` metodo che restituisce la destinazione per il valore specificato `destin
 
 >[!NOTE]
 >
->Per popolare il `mappings` passaggio campo `includeMappings=true` nell’URL.
+>Compilare il passaggio del campo `mappings` in `includeMappings=true` nell&#39;URL.
 
 ## Risposta
 
@@ -58,7 +58,7 @@ A `GET` metodo che restituisce la destinazione per il valore specificato `destin
 
 ## Restituisci tutte le destinazioni {#return-all-destinations}
 
-A `GET` metodo che restituisce tutte le destinazioni per il partner specificato.
+Un metodo `GET` che restituisce tutte le destinazioni per il partner specificato.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -72,10 +72,9 @@ A `GET` metodo che restituisce tutte le destinazioni per il partner specificato.
 >
 >* Non restituisce l&#39;oggetto di destinazione completo. Se hai bisogno di un oggetto completamente popolato, puoi ottenere la destinazione per ordine di dati.
 
-
 ### Parametri di query facoltativi
 
-Puoi utilizzare questi parametri facoltativi con metodi API che restituiscono *tutto* proprietà di un oggetto. Imposta queste opzioni nella stringa di richiesta quando trasmetti la query al [!DNL API]. Consulta [Parametri facoltativi](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+È possibile utilizzare questi parametri facoltativi con metodi API che restituiscono *tutte* le proprietà di un oggetto. Impostare queste opzioni nella stringa di richiesta quando si trasmette la query a [!DNL API]. Vedi [Parametri facoltativi](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -95,7 +94,7 @@ Puoi utilizzare questi parametri facoltativi con metodi API che restituiscono *t
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Ordina e restituisce i risultati in base al <span class="keyword"> JSON</span> proprietà. </td>
+   <td colname="col2">Ordina e restituisce i risultati in base alla proprietà <span class="keyword"> JSON</span> specificata. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
@@ -142,7 +141,7 @@ Puoi utilizzare questi parametri facoltativi con metodi API che restituiscono *t
 
 ## Restituire una mappatura di destinazione con l’ID di mappatura {#return-dest-mapping-id}
 
-A `GET` che restituisce una singola mappatura di destinazione basata sulla `mappingId`.
+Un metodo `GET` che restituisce una singola mappatura di destinazione basata su `mappingId`.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -179,7 +178,7 @@ A `GET` che restituisce una singola mappatura di destinazione basata sulla `mapp
 
 ## Restituisci mappature destinazione {#return-dest-mappings}
 
-A `GET` metodo che restituisce i mapping per una destinazione.
+Un metodo `GET` che restituisce i mapping per una destinazione.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -253,7 +252,7 @@ A `GET` metodo che restituisce i mapping per una destinazione.
 
 ## Restituisci tutte le piattaforme di destinazione disponibili {#return-dest-platforms}
 
-A `GET` metodo che restituisce tutte le piattaforme di dispositivi disponibili per le destinazioni.
+Un metodo `GET` che restituisce tutte le piattaforme di dispositivi disponibili per le destinazioni.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -271,7 +270,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## Restituisce la cronologia dei processi di destinazione S2S e S2S in blocco {#return-job-history}
 
-A `GET` metodo che restituisce in uscita [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) e alla rinfusa [!UICONTROL S2S] informazioni sulla cronologia del processo di destinazione.
+Un metodo `GET` che restituisce informazioni sulla cronologia del processo di destinazione in uscita [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) e in massa [!UICONTROL S2S].
 
 <!-- r_get_job_history.xml -->
 

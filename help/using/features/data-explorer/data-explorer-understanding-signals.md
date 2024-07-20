@@ -8,8 +8,8 @@ feature: Data Explorer
 exl-id: 12ab53e5-302b-4a82-9d8e-07b60139c65e
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 2%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
@@ -21,26 +21,26 @@ I segnali sono l&#39;unità di informazione più piccola all&#39;interno di Audi
 
 * `page = electronics`
 
-Il [Dashboard dei segnali](../../features/data-explorer/data-explorer-signals-dashboard.md) mostra diversi tipi di attributi di segnale che è possibile utilizzare per creare nuove caratteristiche. Ecco una vista dettagliata delle proprietà del segnale disponibili:
+Il [Dashboard segnali](../../features/data-explorer/data-explorer-signals-dashboard.md) mostra più tipi di attributi di segnale che è possibile utilizzare per creare nuove caratteristiche. Ecco una vista dettagliata delle proprietà del segnale disponibili:
 
 * *Coppia chiave-valore* mostra la coppia chiave-valore del segnale ricevuto da [!DNL Audience Manager].
 * *Tipo di segnale* descrive la categoria di ciascun segnale. I segnali rientrano in una delle seguenti categorie:
    * [File di registro fruibili](/help/using/integration/media-data-integration/actionable-log-files.md): segnali in tempo reale ricevuti dai file di registro delle prestazioni multimediali;
-   * [!DNL Adobe Analytics]: segnali in tempo reale ricevuti dal [!DNL Adobe Analytics] conto;
-   * Dati generali online: dati in tempo reale generati dall’attività del pubblico e non inclusi in file di registro fruibili e [!DNL Adobe Analytics];
+   * [!DNL Adobe Analytics]: segnali in tempo reale ricevuti dal tuo account [!DNL Adobe Analytics];
+   * Dati generali online: dati in tempo reale generati dall&#39;attività del pubblico e non inclusi nei file di registro fruibili e [!DNL Adobe Analytics];
    * Record onboarded: dati ricevuti tramite trasferimenti di dati in batch.
-* *Sorgente del segnale* dipende dal tipo di segnale:
+* *Segnale Source* dipende dal tipo di segnale:
    * Per i segnali onboarded, la sorgente di segnale è il nome della sorgente di dati.
-   * Per segnali provenienti da [!DNL Adobe Analytics], l’origine dati sarà sempre una suite di rapporti.
+   * Per i segnali provenienti da [!DNL Adobe Analytics], l&#39;origine dati sarà sempre una suite di rapporti.
    * Per i file di registro utilizzabili e i dati generali in linea, non vengono visualizzate informazioni sull’origine del segnale.
-* *Conteggi totali* mostra il numero totale di volte in cui un segnale in tempo reale è stato ricevuto da [!DNL Audience Manager] negli ultimi 7 giorni.
-* *Incluso nelle caratteristiche* mostra se il segnale fa parte di una caratteristica. Fai clic sulla freccia per visualizzare le caratteristiche che includono il segnale corrispondente. Per i segnali che non fanno parte di alcuna caratteristica, il valore della colonna cambia in [!UICONTROL Create Onboarded Trait] o [!UICONTROL Create Rule-Based Trait].
+* *Conteggi totali* mostra il numero totale di volte in cui è stato ricevuto un segnale in tempo reale da [!DNL Audience Manager] negli ultimi 7 giorni.
+* *Incluso nelle caratteristiche* indica se il segnale fa parte di una caratteristica. Fai clic sulla freccia per visualizzare le caratteristiche che includono il segnale corrispondente. Per i segnali che non fanno parte di alcuna caratteristica, il valore della colonna cambia in [!UICONTROL Create Onboarded Trait] o [!UICONTROL Create Rule-Based Trait].
 
 ## Frequenza aggiornamento dati segnale
 
 A causa della grande quantità di dati elaborati quotidianamente da Audience Manager, [!UICONTROL Data Explorer] aggiorna i dati del segnale visualizzati a intervalli di tempo fissi, a seconda del tipo di segnale:
 
-* Dati dei segnali in tempo reale (file di registro utilizzabili, [!DNL Adobe Analytics] e dati generali in linea) viene aggiornato ogni 4-6 ore.
+* I dati dei segnali in tempo reale (file di registro utilizzabili, dati [!DNL Adobe Analytics] e dati generali in linea) vengono aggiornati ogni 4-6 ore.
 * I dati del segnale onboarded vengono aggiornati ogni 24 ore.
 
 ## Concetti correlati

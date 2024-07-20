@@ -8,7 +8,7 @@ uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Aggiornamenti di stato per i file di metadati{#status-updates-for-metadata-files}
 
-La directory di stato S3 contiene un `.info` con informazioni di esito positivo o negativo sui file caricati. Il file contiene dati in formato JSON con i risultati di stato in un array.
+La directory di stato S3 contiene un file `.info` con informazioni di esito positivo e negativo sui file caricati. Il file contiene dati in formato JSON con i risultati di stato in un array.
 
-Contenuto della `.info` sarà simile a questo esempio.
+Il contenuto del file `.info` sarà simile a questo esempio.
 
 ```js
 //sample file path
@@ -61,9 +61,9 @@ Contenuto della `.info` sarà simile a questo esempio.
 
 ## Definite coppie chiave-valore metadati {#key-value-pairs}
 
-Nelle tabelle seguenti sono elencati e definiti i tasti nella `Files` e `Summary` sezioni di un file di stato dei metadati.
+Le tabelle seguenti elencano e definiscono le chiavi nelle sezioni `Files` e `Summary` di un file di stato dei metadati.
 
-**Tasti nell&#39;array di file**
+**Chiavi nell&#39;array di file**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -83,19 +83,19 @@ Nelle tabelle seguenti sono elencati e definiti i tasti nella `Files` e `Summary
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>Il checksum MD 5 per il file di metadati caricato nel <code> meta</code> directory. </p> </td> 
+   <td colname="col2"> <p>Il checksum MD 5 per il file di metadati caricato nella directory <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>Nome del file di metadati caricato in <code> meta</code> directory. </p> </td> 
+   <td colname="col2"> <p>Nome del file di metadati caricato nella directory <code> meta</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>Nome leggibile del tipo di dati contenuto nel file. Si basa sull’ID figlio nel nome del file. </p> <p>Consulta <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file di metadati</a>. </p> </td> 
+   <td colname="col2"> <p>Nome leggibile del tipo di dati contenuto nel file. Si basa sull’ID figlio nel nome del file. </p> <p>Vedere <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> convenzioni di denominazione per i file di metadati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>Nome leggibile del tipo di dati contenuto nel file. È basato sull’ID principale nel nome del file. </p> <p>Consulta <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Convenzioni di denominazione per i file di metadati</a>. </p> </td> 
+   <td colname="col2"> <p>Nome leggibile del tipo di dati contenuto nel file. È basato sull’ID principale nel nome del file. </p> <p>Vedere <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> convenzioni di denominazione per i file di metadati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -108,7 +108,7 @@ Nelle tabelle seguenti sono elencati e definiti i tasti nella `Files` e `Summary
  </tbody> 
 </table>
 
-**Chiavi nell&#39;oggetto Summary**
+**Chiavi nell&#39;oggetto di riepilogo**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
@@ -120,7 +120,7 @@ Nelle tabelle seguenti sono elencati e definiti i tasti nella `Files` e `Summary
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Data di elaborazione del file in <code><i>yyyy-mm-dd</i></code> formato. </p> </td> 
+   <td colname="col2"> <p>Data di elaborazione del file in formato <code><i>yyyy-mm-dd</i></code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 

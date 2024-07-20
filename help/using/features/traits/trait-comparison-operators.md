@@ -10,7 +10,7 @@ exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 9%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ Questo articolo descrive gli operatori di confronto utilizzati da [!UICONTROL Tr
 
 <!-- c_tb_comparison_operators.xml -->
 
-Gli operatori di confronto (o operatori relazionali) vengono utilizzati per confrontare, testare o valutare la relazione tra valori diversi. In entrata [!UICONTROL Trait Builder], quando si creano le regole del segnale, gli operatori di confronto consentono di verificare la relazione tra coppie chiave-valore diverse. Ad esempio, si potrebbe creare una regola del segnale per definire un pubblico per i costosi acquirenti di telecamere. In questo caso, è possibile creare una coppia fotocamera/prezzo-valore chiave e qualificare un utente se ha cercato una fotocamera con un prezzo uguale o superiore a una quantità impostata.
+Gli operatori di confronto (o operatori relazionali) vengono utilizzati per confrontare, testare o valutare la relazione tra valori diversi. In [!UICONTROL Trait Builder], quando si creano le regole del segnale, gli operatori di confronto consentono di verificare la relazione tra coppie chiave-valore diverse. Ad esempio, si potrebbe creare una regola del segnale per definire un pubblico per i costosi acquirenti di telecamere. In questo caso, è possibile creare una coppia fotocamera/prezzo-valore chiave e qualificare un utente se ha cercato una fotocamera con un prezzo uguale o superiore a una quantità impostata.
 
 ## Vantaggi degli operatori di confronto
 
@@ -45,13 +45,13 @@ Puoi creare regole con i seguenti operatori di confronto:
 
 Puoi creare regole con i seguenti operatori denominati:
 
-| Operatore | Valuta a [!DNL True] Quando |
+| Operatore | Valuta fino a [!DNL True] quando |
 |---|---|
 | **[!UICONTROL Contains]** | Il valore in una coppia chiave-valore *contiene* caratteri specificati da questo operatore. |
-| **[!UICONTROL Matcheswords]** | Il valore in una coppia chiave-valore *corrisponde a* il pattern specificato da questo operatore. |
+| **[!UICONTROL Matcheswords]** | Il valore in una coppia chiave-valore *corrisponde* al pattern specificato da questo operatore. |
 | **[!UICONTROL Startswith]** | Il valore in una coppia chiave-valore *inizia con* caratteri specificati da questo operatore. |
 | **[!UICONTROL Endswith]** | Il valore in una coppia chiave-valore *termina con* i caratteri specificati da questo operatore. |
-| **[!UICONTROL Matchesregex]** | Il valore in una coppia chiave-valore *corrisponde a* il pattern specificato da un&#39;espressione regolare. [Ulteriori informazioni](../../features/traits/trait-builder-regex.md) informazioni sull’utilizzo di espressioni regolari in [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Matchesregex]** | Il valore in una coppia chiave-valore *corrisponde* al pattern specificato da un&#39;espressione regolare. [Ulteriori informazioni](../../features/traits/trait-builder-regex.md) sull&#39;utilizzo delle espressioni regolari in [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >
@@ -59,4 +59,3 @@ Puoi creare regole con i seguenti operatori denominati:
 >* [Informazioni sulle espressioni booleane in TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Ordine delle operazioni nelle espressioni TraitBuilder](../../features/traits/trait-operator-precedence.md)
 >* [Espressioni di esempio con operatori booleani e di confronto](../../features/traits/trait-expression-samples.md)
-

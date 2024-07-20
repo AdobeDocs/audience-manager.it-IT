@@ -9,8 +9,8 @@ feature: API
 exl-id: ab8d6421-ba6a-4eac-9b2b-dbd0a1ef2a64
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 15%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,6 @@ Metodi che consentono di lavorare in modo programmatico con le cartelle di carat
 
 >[!IMPORTANT]
 >
->La cartella [!DNL API] i metodi sono stati riscritti con [!DNL Swagger] e migrato. Consulta:  >
->* [Documentazione API di Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
+>I metodi della cartella [!DNL API] sono stati riscritti con [!DNL Swagger] e migrati. Consulta: >
+>* [Documentazione API Adobe Audience Manager](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migrazione del codice API di Audience Manager](../../api/api-swagger-migration.md)
-
