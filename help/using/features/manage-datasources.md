@@ -8,7 +8,7 @@ title: Gestire le origini dati
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: 6ec76227dd8c7581550c3d95e24fc5b6a4b01093
+source-git-commit: e41dddd022b6fa02cab3e16bd21536d41584975f
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Eliminare un [!UICONTROL data source] non più necessario.
 >Si prega di notare le seguenti restrizioni:
 >
 >* Non puoi eliminare un [pubblico attivo o una caratteristica sincronizzata di Data Source](../features/traits/client-activity-synced-audience-traits.md).
->* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di rapporti [!DNL Analytics]. Utilizza il [servizio core](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services-landing.html) per annullare la mappatura di queste origini dati.
+>* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di rapporti [!DNL Analytics]. Utilizza il [servizio core](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) per annullare la mappatura di queste origini dati.
 
 1. Fare clic su **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Selezionare la casella di controllo accanto a una o più origini dati.
