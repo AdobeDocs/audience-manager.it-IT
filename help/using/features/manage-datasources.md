@@ -8,9 +8,9 @@ title: Gestire le origini dati
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: e41dddd022b6fa02cab3e16bd21536d41584975f
+source-git-commit: bda66cb9aaee3a40ae64dda100f42b88696a027e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -29,26 +29,19 @@ Per creare un nuovo [!UICONTROL data source], vai a **[!UICONTROL Audience Data 
 
 ## Dettagli di [!UICONTROL Data Source] {#details}
 
-Per completare la sezione [!UICONTROL Data Source Details]:
+Per completare la sezione [!UICONTROL Data Source Details], compilare i campi seguenti:
 
-1. Denomina [!UICONTROL data source].
-1. *(Facoltativo)* Descrivere [!UICONTROL data source]. Una descrizione concisa consente di definire il ruolo o lo scopo di [!UICONTROL data source].
-1. Fornisci un [!UICONTROL integration code]. In genere, [!UICONTROL integration codes] sono facoltativi. Sono necessarie quando si desidera:
-
+1. **[!UICONTROL Name]**: specificare un nome per l&#39;origine dati.
+1. **[!UICONTROL Description]** (facoltativo): immettere una descrizione per l&#39;origine dati per definire il ruolo o lo scopo dell&#39;origine dati.
+1. **[!UICONTROL Integration Code]** (facoltativo): immettere un codice di integrazione. Questi codici sono necessari quando si desidera:
    * [Crea un&#39;origine dati multi-dispositivo](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
    * Utilizza il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Utilizzare [Regole di unione profili](../features/profile-merge-rules/merge-rules-start.md).
-
-1. Scegli un **[!UICONTROL ID Type]**. Le opzioni [!UICONTROL ID Type] includono:
-
+1. **[!UICONTROL Namespace]** (sola lettura): questo campo è di sola lettura e viene generato automaticamente quando si salva l&#39;origine dati. Se si desidera esportare segmenti da Audience Manager a Experience Platform, è necessario creare uno spazio dei nomi [identità](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) corrispondente in Experience Platform, utilizzando il valore generato automaticamente come spazio dei nomi [simbolo di identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) in Experience Platform.
+1. **[!UICONTROL ID Type]**: selezionare il tipo di ID che l&#39;origine dati conterrà:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
    * **[!UICONTROL Cross-device]** (necessario per creare [!UICONTROL Profile Merge Rule]). Per alcuni clienti, questa selezione espone le opzioni **[!UICONTROL ID Definition]**.
-
-   >[!NOTE]
-   >
-   >Per ogni organizzazione per la quale è stato eseguito il provisioning, ad Audience Manager e Experience Platform, anche se non è stata impostata la condivisione dei segmenti tra le due app, quando si crea un&#39;origine dati cross-device, viene creato uno spazio dei nomi [identity](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) corrispondente in Experience Platform.
-
 1. Scegliere un&#39;opzione **[!UICONTROL ID Definition]**. Le opzioni includono:
 
    * **[!UICONTROL Person]**
