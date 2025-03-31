@@ -8,9 +8,9 @@ title: Guida introduttiva alla gestione in blocco
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
+source-git-commit: 0c9c333f4e8d6d416d497f336e3e447e2e251d47
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
+>Gli strumenti di gestione in blocco non sono un’offerta ufficialmente supportata da Adobe. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 
@@ -48,7 +48,7 @@ Per utilizzare [!DNL Bulk Management Tools], sono necessari i seguenti elementi:
 
 * Accesso a [!DNL Experience Cloud]. In qualità di cliente, dovresti già disporre di queste credenziali.
 * Il foglio di lavoro [!DNL Bulk Management Tools]. [Scarica il foglio di lavoro](assets/BAAAM_V2_20210609.xlsm) per ottenere la versione più recente.
-* [!DNL Microsoft Excel] in esecuzione su [!DNL macOS] o [!DNL Microsoft Windows] a 64 bit. È consigliabile utilizzare la versione più recente di [!DNL Microsoft Excel].
+* [!DNL Microsoft Excel] in esecuzione su [!DNL Microsoft Windows] a 64 bit. È consigliabile utilizzare la versione più recente di [!DNL Microsoft Excel]. Strumenti di gestione in blocco non supportati in [!DNL macOS].
 * All&#39;apertura del foglio di lavoro, è necessario **abilitare le macro** affinché [!DNL Bulk Management Tools] funzioni.
 
 ## Requisiti e opzioni di autenticazione {#auth-reqs}
