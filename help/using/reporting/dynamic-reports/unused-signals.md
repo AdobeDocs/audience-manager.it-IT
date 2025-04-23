@@ -1,5 +1,5 @@
 ---
-description: Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni inutilizzate raccolte nel magazzino e inviate all'Audience Manager.
+description: Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni non utilizzate raccolte nel tuo inventario e inviate ad Audience Manager.
 seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
 seo-title: Unused Signals Report
 solution: Audience Manager
@@ -7,20 +7,20 @@ title: Rapporto sui segnali non utilizzati
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
+source-git-commit: 9c980b8fd5c3cb6ba7b3031726da726ee5caeec6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # Rapporto sui segnali non utilizzati{#unused-signals-report}
 
-Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni inutilizzate raccolte nel magazzino e inviate all&#39;Audience Manager. Per accedere a questo report, passa a **Analytics > Report pubblico > Altri report > Segnali non utilizzati**.
+Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni non utilizzate raccolte nel tuo inventario e inviate ad Audience Manager. Per accedere a questo report, passa a **Analytics > Report pubblico > Altri report > Segnali non utilizzati**.
 
 >[!NOTE]
 >
->Se ricevi il messaggio &quot;Non hai accesso ai report sul pubblico&quot;, contatta il tuo consulente di Audienci Manager o l’Assistenza clienti per eseguire il provisioning del report per te.
+>Se ricevi il messaggio &quot;Non hai accesso ai rapporti sul pubblico&quot;, contatta il tuo consulente Audience Manager o l’Assistenza clienti per eseguire il provisioning del rapporto per te.
 
 ![Schermata del report dei segnali non utilizzati](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
@@ -28,7 +28,9 @@ Questo rapporto restituisce un conteggio di frequenza di tutte le informazioni i
 
 Un segnale è costituito da informazioni trasmesse dal sito Web a [!DNL Audience Manager] sotto forma di [coppie chiave-valore](../../reference/key-value-pairs-explained.md) (ad esempio, `color=blue, price>100, gender=female`, ecc.).
 
-I segnali non utilizzati sono costituiti da dati raccolti ma non mappati su una caratteristica. Il report [!UICONTROL Unused Signals] mostra i dati in una tabella per data, chiave, valore e conteggio frequenza. Qualsiasi segnale non mappato passato a [!DNL Audience Manager] almeno 100 volte in un giorno è idoneo per il report [!UICONTROL Unused Signals]. I segnali non utilizzati vengono conservati per 45 giorni e quindi eliminati.
+I segnali non utilizzati sono costituiti da dati raccolti ma non mappati su una caratteristica. Il report [!UICONTROL Unused Signals] mostra i dati in una tabella per data, chiave, valore e conteggio frequenza. Qualsiasi segnale non mappato passato a [!DNL Audience Manager] almeno 100 volte in un giorno è idoneo per il report [!UICONTROL Unused Signals].
+
+I segnali non utilizzati vengono conservati per 45 giorni e quindi eliminati. Il rapporto dei segnali non utilizzati mostra i dati degli ultimi 10 giorni.
 
 Esamina questo rapporto per identificare i segnali orfani che possono essere mappati su caratteristiche nuove o esistenti.
 
