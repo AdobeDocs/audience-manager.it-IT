@@ -8,9 +8,9 @@ title: ID dichiarati
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 exl-id: a480671a-797d-405d-905d-98ab4ef71369
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: e17eedfb94f2936c61298c44f3d556bae254b2a7
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1151'
 ht-degree: 8%
 
 ---
@@ -37,19 +37,19 @@ Alcuni browser e la maggior parte dei dispositivi mobili non accettano [!DNL coo
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Chiamata evento</b> </td> 
-   <td colname="col2"> <p>Per funzionare, sono necessari <span class="wintitle"> DIL </span> e il codice </a> di Adobe Experience Platform Identity Service <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> nella pagina. <span class="wintitle"> DIL </span> ottiene <span class="wintitle"> ID dichiarati </span> dalla funzione <code> setVisitorID </code> fornita dal servizio Adobe Experience Platform Identity </span> di <span class="keyword"> e lo trasmette a <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Per funzionare, è necessario <span class="wintitle"> codice DIL </span> e <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> codice Adobe Experience Platform Identity Service </a> nella pagina. <span class="wintitle"> DIL </span> ottiene <span class="wintitle"> ID dichiarati </span> dalla funzione <code> setVisitorID </code> fornita dal servizio Adobe Experience Platform Identity </span> di <span class="keyword"> e lo trasmette a <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID corrispondenza</b> </td> 
-   <td colname="col2"> <p>L’Audience Manager tenta di far corrispondere l’ID del cliente e del visitatore con un ID corrispondente nel nostro sistema. Se non esiste un ID corrispondente, Audience Manager crea un nuovo ID e lo associa all’ID client e visitatore. </p> <p> <p>Nota: viene utilizzata la mappatura più recente se l’ID è mappato su più ID Audience Manager. </p> </p> </td> 
+   <td colname="col2"> <p>Audience Manager tenta di far corrispondere l’ID cliente e visitatore con un ID corrispondente nel nostro sistema. Se non esiste un ID corrispondente, Audience Manager crea un nuovo ID e lo associa all’ID client e visitatore. </p> <p> <p>Nota: viene utilizzata la mappatura più recente se l’ID è mappato su più di un Audience Manager ID. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID restituito</b> </td> 
-   <td colname="col2"> <p>Audience Manager scrive il proprio ID sincronizzato in un cookie di prima parte (o in un altro spazio di archiviazione indirizzabile) nel dominio o nell’applicazione client. </p> </td>
+   <td colname="col2"> <p>Audience Manager scrive il proprio ID sincronizzato in un cookie di prime parti (o in un altro spazio di archiviazione indirizzabile) nel dominio o nell’applicazione client. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <b>Chiamate evento successive</b> </td>
-   <td colname="col2"> <p>Chiamate evento aggiuntive leggono l’ID dell’Audience Manager dal dominio del client e lo inviano all’Audience Manager. </p> </td>
+   <td colname="col2"> <p>Chiamate evento aggiuntive leggono l’Audience Manager ID dal dominio del client e lo inviano ad Audience Manager. </p> </td>
   </tr> 
  </tbody>
 </table>
@@ -114,11 +114,11 @@ Questi metodi continuano a funzionare, ma sono considerati obsoleti. Queste info
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rinuncia a livello di partner </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Viene archiviata una rinuncia a livello di partner per la mappatura più recente di questa coppia <code> dpid </code> + <code> dpuuid </code> su un UUID AAM. Se non esiste alcuna mappatura precedente, Audience Manager controlla se la richiesta contiene un UUID AAM nel cookie e, in caso affermativo, lo utilizza per memorizzare la rinuncia. In caso contrario, Audience Manager genera un nuovo UUID AAM e memorizza la rinuncia al suo interno. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Viene archiviata una rinuncia a livello di partner per la mappatura più recente di questa coppia <code> dpid </code> + <code> dpuuid </code> su un UUID di AAM. Se non esiste alcuna mappatura precedente, Audience Manager controlla se la richiesta contiene un UUID di AAM nel cookie e, in caso affermativo, lo utilizza per memorizzare la rinuncia. In caso contrario, Audience Manager genera un nuovo UUID di AAM e memorizza la rinuncia al suo interno. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> e <code> d_uuid </code> esplicito </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> ha sempre la precedenza. Se la combinazione <code> dpid </code> + <code> dpuuid </code> è mappata a un altro UUID AAM, la rinuncia viene memorizzata nell'UUID AAM passato nella richiesta ( <code> d_uuid </code>). </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> ha sempre la precedenza. Se la combinazione <code> dpid </code> + <code> dpuuid </code> è mappata a un altro UUID di AAM, la rinuncia viene memorizzata nell'UUID di AAM passato nella richiesta ( <code> d_uuid </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-Nella coppia chiave-valore `namespace`, `MCORG` è l&#39;ID organizzazione [!DNL Experience Cloud]. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard sono necessarie le autorizzazioni di amministratore. Vedere [Amministrazione: servizi principali](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
+Nella coppia chiave-valore `namespace`, `MCORG` è l&#39;ID organizzazione [!DNL Experience Cloud]. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard sono necessarie le autorizzazioni di amministratore. Consulta [Introduzione ai servizi Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
 
 ## Funzioni obsolete {#deprecated-functions}
 
@@ -214,7 +214,7 @@ Nella tabella seguente vengono descritte le variabili legacy utilizzate dall&#39
   <tr> 
    <td colname="col1"> <code> dpid </code> </td> 
    <td colname="col2"> Stringa </td> 
-   <td colname="col3"> <p>ID partner dati assegnato dall’Audience Manager. </p> </td> 
+   <td colname="col3"> <p>ID partner dati assegnato da Audience Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> dpuuid </code> </td> 
@@ -265,7 +265,7 @@ La richiesta invia un provider di dati e un ID utente a [!DNL Audience Manager]:
 https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
 ```
 
-La risposta restituisce l&#39;ID Audience Manager (ad esempio, `UUID`) scritto in un cookie di prime parti nel dominio della pagina.
+La risposta restituisce l&#39;Audience Manager ID (ad esempio, `UUID`) scritto in un cookie di prime parti nel dominio della pagina.
 
 ```js
 myCallback({
