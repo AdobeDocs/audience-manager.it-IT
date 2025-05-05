@@ -43,9 +43,9 @@ Per ulteriori informazioni, consulta il [Centro per la privacy di Adobe](https:/
 
 ## Conformità alle normative {#compliance}
 
-[!DNL Audience Manager] ti aiuta a rispettare gli obblighi derivanti da determinate normative sulla privacy, attraverso strumenti per la privacy come [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) per le richieste di accesso e cancellazione dei dati.
+[!DNL Audience Manager] ti aiuta a rispettare gli obblighi derivanti da determinate normative sulla privacy, attraverso strumenti per la privacy come [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) per le richieste di accesso e cancellazione dei dati.
 
-Questo servizio fornisce una [!DNL RESTful API] e un’interfaccia utente che facilitano la gestione delle richieste dei clienti relative ai dati. Tramite il [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), puoi inviare richieste di accesso e cancellazione dei dati in base a una richiesta di un singolo consumatore, in modo da automatizzare questa parte degli obblighi di conformità.
+Questo servizio fornisce una [!DNL RESTful API] e un’interfaccia utente che facilitano la gestione delle richieste dei clienti relative ai dati. Tramite il [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it), puoi inviare richieste di accesso e cancellazione dei dati in base a una richiesta di un singolo consumatore, in modo da automatizzare questa parte degli obblighi di conformità.
 
 Mentre le richieste di accesso e di eliminazione dei dati vengono gestite tramite Privacy Service, [le richieste di rinuncia](data-privacy-requests.md#opt-out-requests) sono attualmente supportate tramite l&#39;API [DCS](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Per ulteriori informazioni, consulta [Data Privacy Requests](data-privacy-requests.md).
 

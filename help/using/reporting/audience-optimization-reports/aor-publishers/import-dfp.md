@@ -82,7 +82,7 @@ Devi impostare l&#39;ID [!DNL Audience Manager] autonomamente e puoi collaborare
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passaggio 6 </p> </td> 
-   <td colname="col2"> <p>Compila i prerequisiti e apri un ticket di supporto seguendo le istruzioni dettagliate <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">qui</a> per avviare il processo di acquisizione del registro. </p> </td> 
+   <td colname="col2"> <p>Compila i prerequisiti e apri un ticket di supporto seguendo le istruzioni dettagliate <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=it">qui</a> per avviare il processo di acquisizione del registro. </p> </td> 
    <td colname="col3"> <p>Tu o <span class="keyword"> Audience Manager</span> Consulente per tuo conto </p> </td> 
   </tr> 
  </tbody> 

@@ -112,7 +112,7 @@ Selezionare la casella di controllo **[!UICONTROL Inbound]** quando l&#39;origin
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID cliente</span></b>: identifica i dati in entrata con un ID cliente. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> ID Audience Manager <b><span class="uicontrol"></span></b>: identifica i dati in entrata con un ID Audience Manager <span class="keyword"></span>. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> ID Experience Cloud <b><span class="uicontrol"></span></b>: identifica i dati in entrata con un ID Experience Cloud <span class="keyword"></span>. Vedi Cookie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> e ID Experience Cloud</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> ID Experience Cloud <b><span class="uicontrol"></span></b>: identifica i dati in entrata con un ID Experience Cloud <span class="keyword"></span>. Vedi Cookie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it" format="https" scope="external"> e ID Experience Cloud</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

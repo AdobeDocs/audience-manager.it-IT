@@ -20,7 +20,7 @@ Questa integrazione consente di inviare segmenti Audience Manager all&#39;Adobe 
 
 Un Audience Manager - L&#39;integrazione di [!DNL Target] richiede:
 
-* Il [servizio Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). Se non utilizzi questo servizio, consulta le [guide all&#39;implementazione](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) per iniziare.
+* Il [servizio Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Se non utilizzi questo servizio, consulta le [guide all&#39;implementazione](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=it) per iniziare.
 * [!DNL Profiles and Audiences]. Se non disponi del provisioning per [!DNL Profiles and Audiences], contatta l&#39;Assistenza clienti per iniziare.
 
 Tutti i segmenti di Audience Manager verranno visualizzati in [!DNL Target] poco dopo aver completato questi passaggi nel processo di implementazione. Cerca in **[!UICONTROL Audiences > Audience List]** per visualizzare i tuoi segmenti di Audience Manager in [!DNL Target]. Identificare i segmenti di Audience Manager per Experience Cloud nella colonna **[!UICONTROL Source]** e per `aam-integration-user@adobe.com` nella colonna **[!UICONTROL Modified]**.

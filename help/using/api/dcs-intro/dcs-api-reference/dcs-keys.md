@@ -80,7 +80,7 @@ Tutti questi elementi sono facoltativi, a meno che non si desideri una risposta 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Disattiva l’utilizzo di cookie di terze parti al fine di rispettare le normative a tutela dei minori. Questo parametro viene impostato dinamicamente dal servizio Adobe Adobe Experience Platform Identity e dipende dalla configurazione <code> idSyncDisable3rdPartySyncing</code>. Consulta Supporto per COPPA <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> nel servizio Adobe Experience Platform Identity</a>. </p> </td>
+   <td colname="col2"> <p>Disattiva l’utilizzo di cookie di terze parti al fine di rispettare le normative a tutela dei minori. Questo parametro viene impostato dinamicamente dal servizio Adobe Adobe Experience Platform Identity e dipende dalla configurazione <code> idSyncDisable3rdPartySyncing</code>. Consulta Supporto per COPPA <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=it" format="https" scope="external"> nel servizio Adobe Experience Platform Identity</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -122,7 +122,7 @@ Tutti questi elementi sono facoltativi, a meno che non si desideri una risposta 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Specifica l'ID Experience Cloud impostato e utilizzato dal servizio ID Experience Cloud</span> di <span class="keyword">. Per ulteriori informazioni sull'ECID, vedere Cookie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> e il servizio Experience Cloud Identity</a>. </p> </td> 
+   <td colname="col2"> <p>Specifica l'ID Experience Cloud impostato e utilizzato dal servizio ID Experience Cloud</span> di <span class="keyword">. Per ulteriori informazioni sull'ECID, vedere Cookie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it" format="https" scope="external"> e il servizio Experience Cloud Identity</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -195,7 +195,7 @@ Queste intestazioni contengono informazioni come richieste di dati e risposte in
 
 | Attributo | Descrizione |
 | --- | --- | 
-| `h_host` | È impostato sul nome host specifico del client per la raccolta dati. Viene visualizzato come `host name .demdex.net`. Consulta [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). |
+| `h_host` | È impostato sul nome host specifico del client per la raccolta dati. Viene visualizzato come `host name .demdex.net`. Consulta [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=it). |
 | `h_user-agent` | Imposta sul valore dell&#39;intestazione `User-Agent`. |
 | `h_accept-language` | Imposta sul valore dell&#39;intestazione `Accept-Language`. |
 | `h_referer` | Imposta sul valore dell&#39;intestazione `Referer`. |

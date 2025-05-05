@@ -38,7 +38,7 @@ Il portale client è l’interfaccia utente principale per la gestione dei tag e
 
 ## Contenitore DIL/TIM {#dil-tim}
 
-Il contenitore [!UICONTROL DIL] consente di distribuire il codice di raccolta dati [!DNL Audience Manager] nel sito Web. [!UICONTROL TIM] è Tag Insertion Manager obsoleto. Non è più utilizzato da [!DNL Audience Manager]. Puoi invece utilizzare l&#39;estensione [!DNL Audience Manager] in [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) per configurare e generare il codice contenitore inserito nelle pagine del tuo inventario.
+Il contenitore [!UICONTROL DIL] consente di distribuire il codice di raccolta dati [!DNL Audience Manager] nel sito Web. [!UICONTROL TIM] è Tag Insertion Manager obsoleto. Non è più utilizzato da [!DNL Audience Manager]. Puoi invece utilizzare l&#39;estensione [!DNL Audience Manager] in [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=it) per configurare e generare il codice contenitore inserito nelle pagine del tuo inventario.
 
 ## Data Integration Library (DIL) {#dil}
 

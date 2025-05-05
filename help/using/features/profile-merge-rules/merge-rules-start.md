@@ -150,7 +150,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Per ulteriori informazioni, vedere [Creare un Source dati multi-dispositivo](#create-data-source) e [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
+Per ulteriori informazioni, vedere [Creare un Source dati multi-dispositivo](#create-data-source) e [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it).
 
 ### Configura funzione `DIL.create`
 
@@ -165,7 +165,7 @@ var vDil = DIL.create({
 });
 ```
 
-Nella coppia chiave-valore dello spazio dei nomi, la variabile `*`MCORG`*` è l&#39;ID organizzazione [!DNL Experience Cloud]. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard sono necessarie le autorizzazioni di amministratore. Vedere [Amministrazione: servizi principali](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Nella coppia chiave-valore dello spazio dei nomi, la variabile `*`MCORG`*` è l&#39;ID organizzazione [!DNL Experience Cloud]. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard sono necessarie le autorizzazioni di amministratore. Vedere [Amministrazione: servizi principali](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
 
 ### Configurare gli SDK
 

@@ -31,11 +31,11 @@ Audience Manager offre strumenti che ti consentono di ottenere il consenso neces
 
 ## Servizio Opt-in di Experience Cloud
 
-Il [Servizio Opt-in di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) ti consente di configurare i protocolli per il visitatore per aiutarti a identificare se è possibile impostare un cookie sul dispositivo o sul browser del singolo utente quando visita il tuo sito.
+Il [Servizio Opt-in di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it) ti consente di configurare i protocolli per il visitatore per aiutarti a identificare se è possibile impostare un cookie sul dispositivo o sul browser del singolo utente quando visita il tuo sito.
 
 Si tratta di un’estensione del [!DNL Experience Cloud ID (ECID) Service], progettata per consentirti di controllare eventuali soluzioni Experience Cloud che possono creare cookie sulle pagine web per i visitatori prima che l’utente dia il consenso.
 
-Il [Servizio Opt-in di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) ti consente inoltre di impostare i protocolli da integrare con la piattaforma di gestione dei contenuti (CMP, Consent Management Platform) e i sistemi esistenti come parte di un tuo progetto più ampio.
+Il [Servizio Opt-in di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it) ti consente inoltre di impostare i protocolli da integrare con la piattaforma di gestione dei contenuti (CMP, Consent Management Platform) e i sistemi esistenti come parte di un tuo progetto più ampio.
 
 ## Gestione e ottenimento del consenso
 
