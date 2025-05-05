@@ -35,4 +35,4 @@ Ottimizza le attività di ricerca del segnale salvando fino a 10 set di criteri 
 
 Guarda il video seguente per scoprire come salvare le ricerche dei segnali.
 
->[!VIDEO](https://video.tv.adobe.com/v/25147/)
+>[!VIDEO](https://video.tv.adobe.com/v/36352?captions=ita)

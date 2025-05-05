@@ -49,4 +49,4 @@ Dopo che un fornitore di servizi di viaggio aggiunge nuove destinazioni al propr
 
 Una delle funzioni più potenti di Audience Manager è la capacità di integrare dati offline e collegarli ai dati online. Nel video seguente, scopri come utilizzare [!UICONTROL Data Explorer] per verificare di aver creato tutte le caratteristiche necessarie per sfruttare questi dati onboarded.
 
->[!VIDEO](https://video.tv.adobe.com/v/25149/)
+>[!VIDEO](https://video.tv.adobe.com/v/330367?captions=ita)

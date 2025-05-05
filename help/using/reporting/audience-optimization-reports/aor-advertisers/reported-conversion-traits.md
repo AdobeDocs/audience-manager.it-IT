@@ -22,7 +22,7 @@ Le caratteristiche di conversione per i gruppi di conversione possono passare da
 
 Per scoprire come creare le caratteristiche di conversione in Audience Manager, guarda il video seguente:
 
->[!VIDEO](https://video.tv.adobe.com/v/23431/)
+>[!VIDEO](https://video.tv.adobe.com/v/329877?captions=ita)
 
 ## Report di esempio
 

@@ -49,7 +49,7 @@ Sotto gli strumenti di gestione dei segmenti puoi trovare le seguenti informazio
    >In Audience Manager viene visualizzato il report [!UICONTROL Identity Type Breakdown] solo se si dispone di ID multi-dispositivo qualificati per il segmento.
 
    Guarda il video seguente per una panoramica di [!UICONTROL Identity Type Breakdown].
-   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+   >[!VIDEO](https://video.tv.adobe.com/v/36989?captions=ita)
 
 4. **[!UICONTROL Segment Rules]:** elenca le caratteristiche nel segmento insieme alle regole di qualificazione.
 5. **[!UICONTROL Destination Mappings]:** Elenca i mapping di destinazione per il segmento.

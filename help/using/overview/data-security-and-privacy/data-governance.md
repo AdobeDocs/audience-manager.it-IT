@@ -35,7 +35,7 @@ L’indirizzo [!DNL IP] di un visitatore di un sito web del cliente viene trasme
 
 Guarda il video seguente per comprendere come funziona l’offuscamento degli indirizzi [!DNL IP] in Audience Manager.
 
->[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/328567?captions=ita)
 
 **Segmentazione geografica:** se abiliti l’offuscamento dell’indirizzo [!DNL IP], gli ottetti rimanenti dell’ indirizzo [!DNL IP] possono ancora essere utilizzati per la segmentazione geografica e il reporting in Audience Manager. Se non abiliti l’offuscamento dell’indirizzo [!DNL IP], Audience Manager utilizza l’indirizzo [!DNL IP] completo. Puoi utilizzare la funzione di segmentazione geografica, che ti consente di identificare una posizione [!DNL IP] per area geografica in entrambi i casi, ma con una leggera perdita di precisione quando utilizzi [!DNL IP] l’offuscamento. L’ottenimento di informazioni a livello di città sarà probabilmente influenzato in modo significativo dall’offuscamento dell’indirizzo [!DNL IP]. L’ottenimento di informazioni a livello di area geografica e nazione dovrebbe essere influenzato solo leggermente. I dati di segmentazione geografica sono granulari solo a livello di città o di codice postale e non a livello di singoli utenti. Leggi di più sul [geotargeting](../../features/traits/trait-geotarget-keys.md) e su come impostare caratteristiche con variabili geografiche.
 

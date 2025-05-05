@@ -49,11 +49,11 @@ Utilizza il flusso di lavoro [Genera un modello](../../features/algorithmic-mode
 
 Se preferisci i tutorial video, guarda la nostra dimostrazione video per Esclusione di caratteristiche:
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326998/?quality=12&captions=ita)
 
 Inoltre, guarda il video seguente per una panoramica dettagliata del funzionamento delle metriche tra dispositivi diversi.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36892/?quality=12&captions=ita)
 
 ## Aspetti importanti e limitazioni {#important-aspects-and-limitations}
 
@@ -96,7 +96,7 @@ Tieni presente i seguenti aspetti e limitazioni relativi a [!UICONTROL Trait Exc
 
 Guarda il video seguente per scoprire come e perché escludere caratteristiche specifiche da un [!UICONTROL Look-Alike Model].
 
->[!VIDEO](https://video.tv.adobe.com/v/25569/)
+>[!VIDEO](https://video.tv.adobe.com/v/326998?captions=ita)
 
 ## Collegamenti correlati
 
