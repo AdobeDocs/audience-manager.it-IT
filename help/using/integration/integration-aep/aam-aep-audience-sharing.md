@@ -20,7 +20,7 @@ La funzionalità di condivisione del pubblico tra Audience Manager e Adobe Exper
 
 Per abilitare la condivisione del pubblico tra Experience Cloud e Adobe Experience Platform, è necessaria la destinazione [[!DNL Audience Manager source connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) e [Tipi di pubblico di Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html) in Experience Platform.
 
-Puoi utilizzare le caratteristiche e i segmenti Audience Manager in Experience Platform per aggiungere dati Audience Manager ai profili dei clienti e beneficiare del servizio di segmentazione Experience Platform [1}.](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
+Puoi utilizzare le caratteristiche e i segmenti Audience Manager in Experience Platform per aggiungere dati Audience Manager ai profili dei clienti e beneficiare del servizio di segmentazione Experience Platform [1&rbrace;.](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
 
 Ad Audience Manager, puoi utilizzare i segmenti Experience Platform per i casi di utilizzo di Data Management Platform, ad esempio:
 * Aggiungi [dati di terze parti](/help/using/overview/data-types-collected.md#third-party-data) ai tuoi segmenti;

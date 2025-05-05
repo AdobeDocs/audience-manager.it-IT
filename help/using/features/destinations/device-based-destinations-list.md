@@ -16,7 +16,7 @@ ht-degree: 46%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Questa pagina include solo [!DNL Audience Manager] [destinazioni basate su dispositivi](/help/using/features/destinations/add-device-based-destinations.md) correnti. In [!DNL Audience Manager], [!UICONTROL device-based destinations] sono denominati anche [!UICONTROL server-to-server destinations]. Per ulteriori informazioni su un&#39;integrazione, fai riferimento all&#39;Adobe Exchange [1} (se disponibile) oppure contatta il tuo consulente [!DNL Adobe] o l&#39;Assistenza clienti.](https://exchange.adobe.com/experiencecloud.html)
+Questa pagina include solo [!DNL Audience Manager] [destinazioni basate su dispositivi](/help/using/features/destinations/add-device-based-destinations.md) correnti. In [!DNL Audience Manager], [!UICONTROL device-based destinations] sono denominati anche [!UICONTROL server-to-server destinations]. Per ulteriori informazioni su un&#39;integrazione, fai riferimento all&#39;Adobe Exchange [1&rbrace; (se disponibile) oppure contatta il tuo consulente [!DNL Adobe] o l&#39;Assistenza clienti.](https://exchange.adobe.com/experiencecloud.html)
 
 
 * **Ultimo aggiornamento** = mostra la data dell&#39;ultimo aggiornamento di [!UICONTROL device-based destination].

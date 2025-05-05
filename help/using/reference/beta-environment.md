@@ -54,7 +54,7 @@ Il traffico in uscita non è abilitato per l’ambiente beta.
 
 ## Accesso al DCS nell’ambiente Beta {#access-dcs-beta-environment}
 
-1. Effettuare una chiamata DCS utilizzando il comando curl [](https://curl.haxx.se/docs/manpage.html). Curl è uno strumento per trasferire dati da o verso un server, utilizzando uno dei numerosi protocolli supportati.
+1. Effettuare una chiamata DCS utilizzando il comando curl [&#128279;](https://curl.haxx.se/docs/manpage.html). Curl è uno strumento per trasferire dati da o verso un server, utilizzando uno dei numerosi protocolli supportati.
 
    Ad esempio:
 

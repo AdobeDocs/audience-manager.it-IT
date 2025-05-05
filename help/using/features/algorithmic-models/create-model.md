@@ -40,14 +40,17 @@ Per generare un [!UICONTROL Look-Alike Model], attenersi alla procedura seguente
    * Denomina il modello.
    * *(facoltativo)* Fornire una breve descrizione del modello.
    * Impostare lo stato del modello su **[!UICONTROL Active]** o **[!UICONTROL Inactive]**. I modelli inattivi non verranno eseguiti e non produrranno alcun dato.
+
      ![lookalike-basic](assets/look-alike-basic.png)
 1. Nella sezione [Configurazione](../../features/algorithmic-models/create-model.md#configuration):
    * Fai clic su **[!UICONTROL Browse All Traits]** o **[!UICONTROL Browse All Segments]** per selezionare una caratteristica o un segmento su cui desideri modellare. Cerca le caratteristiche per nome, ID, descrizione o origine dati. Durante la ricerca, fai clic su una cartella per limitare i risultati a tale cartella e alle relative sottocartelle. È inoltre possibile filtrare le caratteristiche per tipo di caratteristica ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] e [!UICONTROL Algorithmic]) o tipo di popolazione ([ID dispositivo](../../reference/ids-in-aam.md) e [ID multi-dispositivo](../../reference/ids-in-aam.md)).
+
      ![caratteristiche di navigazione](assets/browse-traits.png)
    * Scegli un periodo di look-back di 30, 60 o 90 giorni. Questo imposta un intervallo di tempo per il modello.
    * L&#39;algoritmo [!UICONTROL TraitWeight] è selezionato per impostazione predefinita.
    * Selezionare un&#39;origine dati dall&#39;elenco [!UICONTROL Available Data].
    * Al termine, fai clic su **[!UICONTROL Save]**.
+
      ![configurazione similare](assets/look-alike-configuration.png)
 
 Guarda il video seguente per uno sguardo dettagliato al funzionamento delle metriche tra dispositivi.

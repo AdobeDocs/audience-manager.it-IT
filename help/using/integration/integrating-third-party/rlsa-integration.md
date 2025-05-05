@@ -33,7 +33,7 @@ Per impostare un elenco di remarketing [!DNL Google Ads] come [!DNL Audience Man
 1. Ad Audience Manager, [Crea un [!DNL URL destination]](../../features/destinations/create-url-destination.md) o modifica un [!DNL destination] esistente. Utilizzare le impostazioni seguenti durante la creazione di [!DNL destination]:
    * Tipo: URL
    * Serializza: abilitato
-   * Delimitatore: punto e virgola ( &amp;semi; )
+   * Delimitatore: punto e virgola ( &semi; )
 
 1. Nella sezione [!UICONTROL Segment Mappings] di [!DNL URL] [!DNL destination], aggiungi il codice del passaggio 2 ai campi [!DNL URL] e [!DNL Secure URL]. Aggiungi al codice il prefisso `http:` e `https:` rispettivamente nei campi [!DNL URL] e [!DNL Secure URL].
 

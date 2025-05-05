@@ -177,6 +177,7 @@ Per creare nuovi segmenti da dati solo offline, utilizza il [Generatore di segme
    * **[!UICONTROL Type]**: Basato Su Persone;
    * **[!UICONTROL Platform]**: selezionare la piattaforma basata sulle persone a cui si desidera inviare i segmenti di pubblico;
    * **[!UICONTROL Account]**: selezionare l&#39;account dell&#39;inserzionista desiderato associato alla piattaforma selezionata.
+
      ![create-destination](assets/pbd-create-destination.png)
 1. Fare clic su **[!UICONTROL Next]**.
 1. Scegliere **[!UICONTROL Data Export Labels]** che si desidera impostare per questa destinazione.
