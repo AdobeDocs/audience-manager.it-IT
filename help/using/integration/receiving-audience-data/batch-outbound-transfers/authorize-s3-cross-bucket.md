@@ -7,9 +7,9 @@ title: Utilizzo delle autorizzazioni bucket tra account diversi di Amazon S3 per
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 feature: Outbound Data Transfers
 exl-id: e52f5bc0-7dc0-4c73-833c-5a778e8b5891
-source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
+source-git-commit: 9c0254e8a29ffeb0353ed6faa898b74bcae7cef1
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -21,3 +21,8 @@ Il processo [!UICONTROL Outbound Data Transfer] per i clienti che utilizzano [!D
 Se preferisci non condividere con noi la chiave di accesso e la chiave segreta di [!DNL Amazon S3], contatta il tuo consulente [!DNL Audience Manager] o l&#39;Assistenza clienti e configureranno [!DNL Cross-Account Bucket Permissions] per te.
 
 Devi solo aggiungere l&#39;ID account [!DNL Amazon S3] a un elenco consentiti per il bucket [!DNL S3] in cui desideri ricevere i file di dati in uscita, come descritto nella [documentazione di Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). Il tuo consulente [!DNL Audience Manager] o l&#39;Assistenza clienti ti forniranno l&#39;ID account [!DNL Amazon S3].
+
+>[!NOTE]
+>
+>A causa del limite di dimensioni degli oggetti di Amazon S3, Audience Manager supporta dimensioni suddivise fino a 1 TB. Se non si specifica alcuna dimensione di divisione, viene applicato automaticamente il limite di 1 TB.
+
