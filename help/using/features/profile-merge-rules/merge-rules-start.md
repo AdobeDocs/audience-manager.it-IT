@@ -223,7 +223,7 @@ Controlla i metodi nel codice [!DNL SDK] che ti consentono di passare [!UICONTRO
  </tbody>
 </table>
 
-Vedere anche [Metodi Audience Manager per Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e [Metodi Audience Manager per iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
+Vedere anche [Metodi Audience Manager per Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=it) e [Metodi Audience Manager per iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=it).
 
 >[!MORELIKETHIS]
 >

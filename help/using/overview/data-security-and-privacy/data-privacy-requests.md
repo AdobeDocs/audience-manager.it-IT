@@ -97,8 +97,8 @@ La rinuncia globale rappresenta una rinuncia in [!DNL Audience Manager] e altre 
    <td colname="col1"> <p>Dispositivi mobili </p> </td> 
    <td colname="col2"> <p>Consulta le impostazioni di privacy e rinuncia per: </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external">Dispositivi Android </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external">Dispositivi iOS </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html?lang=it" format="https" scope="external">Dispositivi Android </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html?lang=it" format="https" scope="external">Dispositivi iOS </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
