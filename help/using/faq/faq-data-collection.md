@@ -8,12 +8,13 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; indirizzo SFTP; indirizzo IP STFP; indirizzo FTP
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 974f45268d50c486c872137a3aa6d8fc7f691024
 workflow-type: tm+mt
-source-wordcount: '1211'
-ht-degree: 78%
+source-wordcount: '1255'
+ht-degree: 74%
 
 ---
+
 
 # Domande frequenti sulla raccolta dei dati e l’integrazione dei prodotti{#data-collection-and-product-integration-faq}
 
@@ -25,7 +26,7 @@ Domande e problemi comuni sulla raccolta e l’integrazione dei dati.
 
 Le caratteristiche per cui è stato effettuato l’onboarding tramite [!UICONTROL Inbound] sono popolate da [!UICONTROL Inbound] nello stesso modo in cui vengono popolate da [!DNL DCS]. Ci sono alcuni modi diversi per capire che il traffico proveniva da [!UICONTROL Inbound]:
 
-* L’IP remoto è impostato su 68.67.173.18
+* L&#39;IP remoto sarà impostato su 68.67.173.18
 * DomainID è impostato su 5325
 * L’area geografica è impostata su 0
 
@@ -57,7 +58,7 @@ I server SFTP riportati di seguito sono obsoleti. Non verrà eseguito il provisi
 
  
 
-**Come posso configurare la mia istanza Audience Manager per l&#39;utilizzo dei nuovi server SFTP?**
+**Come posso configurare la mia istanza di Audience Manager per l&#39;utilizzo dei nuovi server SFTP?**
 
 Contatta il tuo consulente [!DNL Audience Manager] o l&#39;Assistenza clienti per configurare i nuovi account SFTP.
 
@@ -190,7 +191,7 @@ No, in questo caso non fare affidamento sui [!UICONTROL General Reports] e [!UIC
 
 I report calcolano le popolazioni in base ai record di profilo non autenticati (UUID) visualizzati nel back-end al momento della generazione dei report.
 
-In una prima chiamata al [!DNL DCS], gli ID dichiarati *non* sono collegati ad alcun UUID (ovvero, nessun [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=it) è presente sul lato client). Il [!DNL DCS] genera un UUID in modo casuale, imposta un cookie [!DNL demdex] e lo trasmette nella chiamata di risposta, ma non trasmette l’UUID al back-end.
+In una prima chiamata al [!DNL DCS], gli ID dichiarati *non* sono collegati ad alcun UUID (ovvero, nessun [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) è presente sul lato client). Il [!DNL DCS] genera un UUID in modo casuale, imposta un cookie [!DNL demdex] e lo trasmette nella chiamata di risposta, ma non trasmette l’UUID al back-end.
 
 >[!NOTE]
 >
@@ -210,6 +211,8 @@ In genere, la sincronizzazione di un profilo utente tra aree geografiche richied
 
 **Cosa succede alle chiavi di accesso inattive per gli utenti di Amazon S3?**
 
-Adobe fornisce ai clienti Audience Manager le chiavi di accesso utente per i bucket Audience Manager [!DNL Amazon S3]. Per motivi di sicurezza, le chiavi vengono disattivate automaticamente dopo 100 giorni di inattività.
+Adobe fornisce ai clienti Audience Manager le chiavi di accesso per [!DNL Amazon S3] bucket. Per motivi di sicurezza, queste chiavi di accesso vengono disattivate automaticamente se rimangono inutilizzate per 100 giorni.
 
-Per riabilitare le chiavi di accesso o richiederne di nuove, contatta l’Assistenza clienti.
+Se le chiavi di accesso sono disabilitate, puoi contattare l’Assistenza clienti per riabilitarle o richiederne di nuove.
+
+Per una maggiore sicurezza, le chiavi di accesso che rimangono inattive per 1000 giorni verranno eliminate definitivamente insieme all’account utente Amazon S3 IAM. Se sei un cliente abituale e hai bisogno di accedervi dopo questo periodo, contatta l’Assistenza clienti per ricreare il tuo account e ricevere le nuove chiavi di accesso.
