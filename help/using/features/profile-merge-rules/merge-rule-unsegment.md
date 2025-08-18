@@ -44,7 +44,7 @@ Come promemoria, i [!UICONTROL Device Options] sono disponibili nella sezione [!
 >[!NOTE]
 >
 >Limite di dispositivi **100 per la valutazione dei segmenti e l&#39;interdizione**.
->>Audience Manager unisce fino a 100 dispositivi durante la valutazione dei segmenti con una regola di unione profili che utilizza un grafico dei dispositivi. Audience Manager valuta il dispositivo corrente e fino a 99 dispositivi collegati al dispositivo corrente da un [profilo autenticato](../../reference/visitor-authentication-states.md) (ID multi-dispositivo). Se viene emesso il segnale di rimozione dai segmenti, il dispositivo corrente e i dispositivi aggiuntivi verranno rimossi dal segmento nella destinazione.
+>&#x200B;>Audience Manager unisce fino a 100 dispositivi durante la valutazione dei segmenti con una regola di unione profili che utilizza un grafico dei dispositivi. Audience Manager valuta il dispositivo corrente e fino a 99 dispositivi collegati al dispositivo corrente da un [profilo autenticato](../../reference/visitor-authentication-states.md) (ID multi-dispositivo). Se viene emesso il segnale di rimozione dai segmenti, il dispositivo corrente e i dispositivi aggiuntivi verranno rimossi dal segmento nella destinazione.
 
 ![](assets/last-device-graph.png)
 

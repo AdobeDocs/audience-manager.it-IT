@@ -55,7 +55,7 @@ Completa i campi obbligatori nella sezione **[!UICONTROL Basic Information]** *p
    >
    >Includi il prefisso `c_` (o qualsiasi altra convenzione di denominazione) per la variabile chiave se le chiamate dell&#39;evento inviano i dati a [!DNL Audience Manager] utilizzando tale sintassi.
 
-1. Seleziona un operatore di confronto [](../../features/traits/trait-comparison-operators.md) dal menu a discesa **[!UICONTROL Operator]**. L’operatore di confronto valuta la relazione tra gli elementi in un segnale.
+1. Seleziona un operatore di confronto [&#128279;](../../features/traits/trait-comparison-operators.md) dal menu a discesa **[!UICONTROL Operator]**. L’operatore di confronto valuta la relazione tra gli elementi in un segnale.
 
    >[!NOTE]
    >
