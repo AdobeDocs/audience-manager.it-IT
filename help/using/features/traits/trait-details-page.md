@@ -63,7 +63,7 @@ Per [!UICONTROL onboarded traits], la qualifica di [!UICONTROL trait] si verific
   >
   >Audience Manager visualizza il report [!UICONTROL Identity Type Breakdown] solo se si dispone di [!UICONTROL cross-device] ID qualificati per [!UICONTROL trait].
 
-  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
+  >[!VIDEO](https://video.tv.adobe.com/v/36989?captions=ita)
 
 ## Espressione [!UICONTROL Trait] {#trait-expression}
 

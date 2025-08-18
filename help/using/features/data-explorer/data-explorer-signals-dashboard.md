@@ -40,4 +40,4 @@ Questa sezione mostra i primi 50 nuovi segnali non utilizzati ricevuti negli ult
 Le ricerche salvate visualizzano i primi 50 risultati per i criteri corrispondenti.
 
 Guarda il video seguente per scoprire come utilizzare [!UICONTROL Signals Dashboard].
->[!VIDEO](https://video.tv.adobe.com/v/25151/)
+>[!VIDEO](https://video.tv.adobe.com/v/329430?captions=ita)

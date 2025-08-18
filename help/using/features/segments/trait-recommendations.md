@@ -21,11 +21,11 @@ Ricevi consigli sulle caratteristiche live durante la creazione dei segmenti, da
 
 Inizia guardando il video [!UICONTROL Trait Recommendations] di seguito, quindi continua a leggere per ulteriori informazioni. La dimostrazione video mostra come utilizzare i consigli delle caratteristiche di prime parti e i consigli sulle caratteristiche dei feed di dati [!UICONTROL Audience Marketplace] a cui *sei già abbonato*.
 
->[!VIDEO](https://video.tv.adobe.com/v/26228/)
+>[!VIDEO](https://video.tv.adobe.com/v/327907?captions=ita)
 
 Il video successivo illustra il flusso di lavoro per [!UICONTROL Marketplace Recommendations], mostrando come aggiungere caratteristiche ai segmenti in base ai consigli dei feed di dati in [!UICONTROL Audience Marketplace]. Questi consigli si basano su feed di dati a cui *non sei abbonato*.
 
->[!VIDEO](https://video.tv.adobe.com/v/29363/)
+>[!VIDEO](https://video.tv.adobe.com/v/39139?captions=ita)
 
 ## Panoramica
 

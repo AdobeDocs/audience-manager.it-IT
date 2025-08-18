@@ -63,7 +63,7 @@ Tramite [!DNL People-Based Destinations], Audience Manager ti consente di centra
 
 Guarda il video seguente per una panoramica del flusso di dati quando utilizzi [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/28968/)
+>[!VIDEO](https://video.tv.adobe.com/v/34905?captions=ita)
 
 ## Casi d&#39;uso {#use-cases}
 
