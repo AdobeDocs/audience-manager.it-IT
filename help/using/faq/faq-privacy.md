@@ -28,7 +28,7 @@ Risposte alle domande o ai problemi comuni relativi alla privacy e ai dati.
 
 **In che modo Audience Manager utilizza i cookie e quali cookie imposta?**
 
-Consulta [Audience Manager Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=it).
+Consulta [Audience Manager Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
 
 **I clienti di Audience Manager negli Stati Uniti possono effettuare il targeting di utenti su proprietà nell’UE?**
 
@@ -59,7 +59,7 @@ Nella tabella seguente sono elencati i tempi di conservazione per i diversi tipi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Server perimetrali </p> </td> 
-   <td colname="col2"> <p> 14 giorni </p> <p>Audience Manager elimina i dati utente dai server perimetrali 14 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se l'Audience Manager <span class="keyword"></span> registra l'attività dell'utente durante questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l’utente torna ad essere attivo dopo 14 giorni di ciclo, si verifica un ritardo tra la prima visualizzazione di una nuova pagina e il momento in cui l’utente diventa actionable. Ci vogliono 6-18 ore per riportare il profilo completo al centro perimetrale dopo più di 14 giorni di inattività. </p> </td> 
+   <td colname="col2"> <p> 14 giorni </p> <p>Audience Manager elimina i dati utente dai server perimetrali 14 giorni dopo l’ultima visualizzazione di un utente sulla piattaforma Audience Manager. Se <span class="keyword"> Audience Manager</span> registra l'attività dell'utente durante questo ciclo di 14 giorni, questi dati verranno conservati per altri 14 giorni. Se l’utente torna ad essere attivo dopo 14 giorni di ciclo, si verifica un ritardo tra la prima visualizzazione di una nuova pagina e il momento in cui l’utente diventa actionable. Ci vogliono 6-18 ore per riportare il profilo completo al centro perimetrale dopo più di 14 giorni di inattività. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Registri non elaborati </p> </td> 

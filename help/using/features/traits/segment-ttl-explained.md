@@ -28,12 +28,12 @@ Modalità di influenza dell&#39;intervallo [!UICONTROL time-to-live] ([!DNL TTL]
 
 Quando si imposta [!DNL TTL] su 1 giorno, il timer TTL inizia il giorno successivo alla realizzazione della caratteristica, senza contare le ore rimaste nel giorno di realizzazione della caratteristica.
 
-L&#39;Audience Manager calcola la scadenza di [!DNL TTL] per le caratteristiche con 1 giorno [!DNL TTL] in base alla formula seguente:
+Audience Manager calcola la scadenza di [!DNL TTL] per le caratteristiche con 1 giorno [!DNL TTL] in base alla formula seguente:
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **Esempio 1**: una caratteristica realizzata alle 1:00 [!DNL UTC], con un giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 1 = 47 ore dopo.
-* **Esempio 2**: una caratteristica realizzata alle 23:00 [!DNL UTC], con un giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 23 = 25 ore dopo.
+* **Esempio 1**: caratteristica realizzata a 1:00 [!DNL UTC], con un giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 1 = 47 ore dopo.
+* **Esempio 2**: una caratteristica realizzata in 23:00 [!DNL UTC], con un giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 23 = 25 ore dopo.
 
 ## [!DNL TTL] ed eliminazione di un segmento
 

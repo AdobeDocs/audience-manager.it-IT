@@ -1,5 +1,5 @@
 ---
-description: Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un conto. I limiti si applicano a questi elementi, siano essi creati nell’interfaccia utente o a livello di programmazione tramite metodi API. I limiti di utilizzo aiutano a proteggere gli Audienci Manager da processi automatizzati che potrebbero tentare di compromettere le nostre API o l’interfaccia utente.
+description: Audience Manager imposta un limite massimo al numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. I limiti si applicano a questi elementi, siano essi creati nell’interfaccia utente o a livello di programmazione tramite metodi API. I limiti di utilizzo aiutano a proteggere Audience Manager da processi automatizzati che potrebbero compromettere le API o l’interfaccia utente.
 seo-description: Audience Manager sets a maximum limit on the number of traits, segments, destinations, and algorithmic models that you can create for an account. Limits apply to these items whether created in the user interface or programmatically through API methods. Usage limits help protect Audience Manager from automated processes that may attempt to compromise our APIs or user interface.
 seo-title: Usage Limits
 solution: Audience Manager
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Limiti di utilizzo {#usage-limits}
 
-Audience Manager imposta un limite massimo per il numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un conto. I limiti si applicano a questi elementi, siano essi creati nell&#39;interfaccia utente o a livello di programmazione tramite i metodi [!DNL API]. I limiti di utilizzo proteggono gli Audienci Manager da processi automatizzati che potrebbero compromettere l&#39;interfaccia utente di [!DNL API] o.
+Audience Manager imposta un limite massimo al numero di caratteristiche, segmenti, destinazioni e modelli algoritmici che è possibile creare per un account. I limiti si applicano a questi elementi, siano essi creati nell&#39;interfaccia utente o a livello di programmazione tramite i metodi [!DNL API]. I limiti di utilizzo proteggono Audience Manager da processi automatizzati che potrebbero compromettere l&#39;interfaccia utente o [!DNL API].
 
 ## Limiti di mappatura degli ID {#id-mapping-limits}
 
@@ -39,7 +39,7 @@ Nelle tabelle sono elencati i limiti correnti per tipo di elemento. Non puoi cre
 | -------------------------- | ------------------------------------- |
 | Caratteristiche totali | 100.000 |
 | Qualifiche caratteristiche totali | 150.000. Per ulteriori informazioni sulla qualifica delle caratteristiche, vedi Trait Qualification Limit in [Trait Qualifications Reference](/help/using/features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit). |
-| Algoritmica | 50 |
+| Algoritmico | 50 |
 | Basato su regole | 100.000 |
 | Onboarded | 100.000 |
 | Caratteristiche cartella | 2.000 |
@@ -64,9 +64,9 @@ Nelle tabelle sono elencati i limiti correnti per tipo di elemento. Non puoi cre
 
 | Elemento | Limite massimo |
 | -------- | ----- |
-| Attivo [!UICONTROL Look-Alike Models] | 20. L&#39;Audience Manager conta solo i modelli algoritmici *active* rispetto al limite. |
+| Attivo [!UICONTROL Look-Alike Models] | &#x200B;20. Audience Manager conta solo *modelli algoritmici attivi* rispetto al limite. |
 | Dimensione massima del pubblico: [!UICONTROL Look-Alike Models] | 25 milioni.  Tieni presente che questo limite non può essere aumentato. Puoi diminuire le dimensioni del pubblico selezionando meno origini dati per il modello o una finestra di lookback più breve. |
-| Numero massimo di caratteristiche escluse per un [!UICONTROL Look-Alike Model] | 500. Vedere [Esclusione delle caratteristiche nella modellazione algoritmica](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Numero massimo di caratteristiche escluse per un [!UICONTROL Look-Alike Model] | &#x200B;500. Vedere [Esclusione delle caratteristiche nella modellazione algoritmica](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Massimo [!UICONTROL Predictive Audiences Models] | 10 |
 | Numero massimo di utenti tipo previsti per [!UICONTROL Predictive Audiences Models] | 50 |
 

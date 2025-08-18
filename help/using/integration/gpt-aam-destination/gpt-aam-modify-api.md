@@ -16,15 +16,15 @@ ht-degree: 5%
 
 # Modifica la chiamata API GPT `setTargeting` {#modify-the-gpt-settargeting-api-call}
 
-Aggiungere un&#39;istruzione if per verificare la presenza di cookie Audience Manager prima di chiamare il metodo [!DNL Google Publisher Tag] `.setTargeting`.
+Aggiungere un&#39;istruzione if per verificare la presenza di cookie di Audience Manager prima di chiamare il metodo [!DNL Google Publisher Tag] `.setTargeting`.
 
-## Cerca cookie di Audience Manager con un&#39;istruzione `IF`
+## Verifica la presenza di cookie di Audience Manager con un&#39;istruzione `IF`
 
-Il metodo `.setTargeting` ottiene i dati dal cookie di destinazione Audience Manager e dal cookie dell&#39;ID utente univoco ( `aam_uuid`). Tuttavia, se `.setTargeting` viene richiamato prima che [!UICONTROL DIL] scriva questi cookie o se i cookie sono vuoti, è possibile che si verifichino errori al caricamento della pagina. Per evitare questo problema, racchiudere il metodo `.setTargeting` in un&#39;istruzione `if` che controlla la presenza di questi cookie. Se non sono impostati, questa istruzione impedisce a `.setTargeting` di chiamare la funzione `AamGpt`.
+Il metodo `.setTargeting` ottiene i dati dal cookie di destinazione di Audience Manager e dal cookie dell&#39;ID utente univoco ( `aam_uuid`). Tuttavia, se `.setTargeting` viene richiamato prima che [!UICONTROL DIL] scriva questi cookie o se i cookie sono vuoti, è possibile che si verifichino errori al caricamento della pagina. Per evitare questo problema, racchiudere il metodo `.setTargeting` in un&#39;istruzione `if` che controlla la presenza di questi cookie. Se non sono impostati, questa istruzione impedisce a `.setTargeting` di chiamare la funzione `AamGpt`.
 
 ### Esempio di codice istruzione `IF`
 
-In questo Audience Manager, il nome del cookie di destinazione è `Sample`. Puoi impostare questo nome quando crei il cookie di destinazione nell’interfaccia utente di Audience Manager. [!UICONTROL DIL] imposta il cookie `aam_uuid` e il nome non può essere modificato.
+In questo esempio, il nome del cookie di destinazione di Audience Manager è `Sample`. Puoi impostare questo nome quando crei il cookie di destinazione nell’interfaccia utente di Audience Manager. [!UICONTROL DIL] imposta il cookie `aam_uuid` e il nome non può essere modificato.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -69,7 +69,7 @@ Definisce le variabili chiave utilizzate nell&#39;istruzione `if`.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
-   <td colname="col3"> <p>Restituisce l'ID utente Audience Manager, ad esempio <code> 12345 </code>. </p> </td> 
+   <td colname="col3"> <p>Restituisce l'ID utente di Audience Manager, ad esempio <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>

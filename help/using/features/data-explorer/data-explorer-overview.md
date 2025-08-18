@@ -1,5 +1,5 @@
 ---
-description: Utilizza la Data Explorer per sfruttare i tipi di pubblico storici creando caratteristiche basate su segnali utilizzati e non utilizzati e fornendo loro dati storici per evitare la potenziale perdita di tipi di pubblico rilevanti.
+description: Utilizza Data Explorer per sfruttare i tipi di pubblico storici creando caratteristiche basate su segnali utilizzati e non utilizzati e fornendo loro dati storici per evitare la potenziale perdita di tipi di pubblico rilevanti.
 seo-description: Use Data Explorer to capitalize on historical audiences by building traits based on used and unused signals, and backfilling them with historical data to avoid potential loss of relevant audiences.
 seo-title: Overview, Benefits, and Use Cases
 title: Panoramica, vantaggi e casi di utilizzo
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Data Explorer: panoramica, vantaggi e casi d’uso {#overview-benefits-and-use-cases}
+# Data Explorer - Panoramica, vantaggi e casi d’uso {#overview-benefits-and-use-cases}
 
 Utilizza [!UICONTROL Data Explorer] per sfruttare i tipi di pubblico storici creando caratteristiche basate su segnali utilizzati e non utilizzati e fornendo loro dati storici per evitare la potenziale perdita di tipi di pubblico rilevanti.
 
@@ -39,7 +39,7 @@ Utilizza [!UICONTROL Data Explorer] per ottimizzare la creazione del pubblico in
 
 ### Esempio 1
 
-Un retailer di elettronica globale ha un volume elevato di traffico di visitatori, ma i tassi di conversione sono inferiori al previsto, anche se hanno ottimizzato il contenuto per più piattaforme. Utilizzando la [dashboard dei segnali](../../features/data-explorer/data-explorer-signals-dashboard.md), viene identificato un volume elevato di segnali inutilizzati, a indicare che i visitatori sono alla ricerca di un marchio di elettronica specifico non attualmente disponibile. L’azienda può sfruttare questa informazione aggiornando le scorte e indirizzando i visitatori con campagne personalizzate.
+Un retailer di elettronica globale ha un elevato volume di traffico di visitatori, ma i tassi di conversione sono inferiori al previsto, anche se hanno ottimizzato il contenuto per più piattaforme. Utilizzando la [dashboard dei segnali](../../features/data-explorer/data-explorer-signals-dashboard.md), viene identificato un volume elevato di segnali inutilizzati, a indicare che i visitatori sono alla ricerca di un marchio di elettronica specifico non attualmente disponibile. L’azienda può sfruttare questo insight aggiornando le scorte e indirizzando i visitatori con campagne personalizzate.
 
 ### Esempio 2
 
@@ -49,4 +49,4 @@ Dopo che un fornitore di servizi di viaggio aggiunge nuove destinazioni al propr
 
 Una delle funzioni più potenti di Audience Manager è la capacità di integrare dati offline e collegarli ai dati online. Nel video seguente, scopri come utilizzare [!UICONTROL Data Explorer] per verificare di aver creato tutte le caratteristiche necessarie per sfruttare questi dati onboarded.
 
->[!VIDEO](https://video.tv.adobe.com/v/330367?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25149/)

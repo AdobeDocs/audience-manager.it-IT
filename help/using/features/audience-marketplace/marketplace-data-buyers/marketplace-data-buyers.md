@@ -1,5 +1,5 @@
 ---
-description: Panoramica e flusso di lavoro per gli acquirenti di dati che desiderano acquistare dati di terze parti dall’interno di Audience Manager
+description: Panoramica e flusso di lavoro per gli acquirenti di dati che desiderano acquistare dati di terze parti da Audience Manager
 seo-description: Overview and workflow for data buyers who want to purchase third-party data from within Audience Manager
 seo-title: Audience Marketplace for Data Buyers
 solution: Audience Manager
@@ -32,7 +32,7 @@ In [!UICONTROL Marketplace], gli strumenti di reporting consentono di tenere tra
 
 >[!TIP]
 >
->Utilizza **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** per trovare feed di dati di alta qualità a cui puoi iscriverti. Quindi, torna all&#39;interfaccia utente [!DNL Audience Manager] o utilizza l&#39;[Audience Marketplace Buyer API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) per iscriverti ai feed trovati.
+>Utilizza **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)** per trovare feed di dati di alta qualità a cui puoi iscriverti. Quindi, torna all&#39;interfaccia utente [!DNL Audience Manager] o utilizza l&#39;[API acquirente Audience Marketplace](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API) per iscriverti ai feed trovati.
 
 ![buyer-marketplace-overview](assets/buyer-marketplace-overview.png)
 
@@ -75,7 +75,7 @@ Per visualizzare l&#39;elenco completo delle caratteristiche simili, fare clic s
 
 >[!NOTE]
 >
-> In Audience Marketplace vengono visualizzati i primi 500 risultati [!UICONTROL trait] simili provenienti da nei feed di dati.
+> Audience Marketplace mostra i primi 500 risultati [!UICONTROL trait] simili provenienti da nei feed di dati.
 
 Guarda il video seguente per una panoramica completa su come trovare [!UICONTROL traits] simili.
 

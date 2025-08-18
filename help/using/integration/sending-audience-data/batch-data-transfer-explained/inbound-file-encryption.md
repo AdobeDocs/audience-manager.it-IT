@@ -1,5 +1,5 @@
 ---
-description: Come opzione, è possibile crittografare i file di dati con crittografia PGP durante l’invio ad Audience Manager.
+description: Come opzione, puoi crittografare i file di dati con crittografia PGP quando li invii ad Audience Manager.
 seo-description: As an option, you can encrypt data files with PGP encryption when sending them to Audience Manager.
 seo-title: File PGP Encryption for Inbound Data Types
 solution: Audience Manager
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 Segui i passaggi descritti di seguito per crittografare i file di dati in entrata.
 
-1. Scarica la [chiave pubblica Audience Manager](./assets/adobe_pgp.pub).
+1. Scarica la [chiave pubblica di Audience Manager](./assets/adobe_pgp.pub).
 2. Importa la chiave pubblica nell&#39;archivio attendibile.
 
    Se ad esempio si utilizza [!DNL GPG], il comando potrebbe essere simile al seguente:

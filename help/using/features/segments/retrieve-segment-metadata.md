@@ -56,7 +56,7 @@ Dopo aver completato i passaggi precedenti, puoi utilizzare un metodo `GET` per 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
-   <td colname="col2"> <p>ID del segmento dell'Audience Manager <span class="keyword"></span>. </p> </td> 
+   <td colname="col2"> <p>L'ID del segmento <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> elementName</code> </p> </td> 

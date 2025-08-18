@@ -1,5 +1,5 @@
 ---
-description: La qualificazione delle caratteristiche, o realizzazione delle caratteristiche, viene trattata in modo diverso nell’Audience Manager, a seconda del tipo di caratteristica. Per informazioni dettagliate sulla qualifica delle caratteristiche, consulta la tabella seguente.
+description: La qualificazione delle caratteristiche, o realizzazione delle caratteristiche, viene trattata in modo diverso in Audience Manager, a seconda del tipo di caratteristica. Per informazioni dettagliate sulla qualifica delle caratteristiche, consulta la tabella seguente.
 keywords: Qualificazione delle caratteristiche,Realizzazione delle caratteristiche,Realizzazioni di caratteristiche univoche,UTR,Popolazione di caratteristiche totale,TTP
 seo-description: Trait qualification, or trait realization, is treated differently in Audience Manager, depending on trait type. See the table below for detailed information on trait qualification.
 seo-title: Trait Qualification Reference
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Riferimenti per la qualifica di caratteristiche e segmenti {#trait-qualification-reference}
 
-La qualificazione delle caratteristiche, o realizzazione delle caratteristiche, viene trattata in modo diverso nell’Audience Manager, a seconda del tipo di caratteristica. Per informazioni dettagliate sulla qualifica del tipo di caratteristica, consulta [Qualificazione della caratteristica per tipo di caratteristica](#trait-type).
+La qualificazione delle caratteristiche, o realizzazione delle caratteristiche, viene trattata in modo diverso in Audience Manager, a seconda del tipo di caratteristica. Per informazioni dettagliate sulla qualifica del tipo di caratteristica, consulta [Qualificazione della caratteristica per tipo di caratteristica](#trait-type).
 
 Inoltre, per informazioni dettagliate sulla qualifica del segmento, consulta [Popolazione del segmento in tempo reale e popolazione totale del segmento](#real-time-segment).
 
@@ -31,7 +31,7 @@ Inoltre, per informazioni dettagliate sulla qualifica del segmento, consulta [Po
 | Caratteristiche onboarded | La qualifica delle caratteristiche si verifica dopo l&#39;elaborazione di un file in entrata, ovvero quando il file in entrata viene [importato in Audience Manager](../../faq/faq-inbound-data-ingestion.md), ovvero quando si verifica la qualifica delle caratteristiche. Attendi circa 4 ore dalla creazione di una caratteristica onboarded prima di caricare un file in entrata per l’elaborazione. Per le caratteristiche onboarded, il numero massimo di qualifiche per un profilo utente è 1. |
 | Caratteristiche algoritmiche | Per le caratteristiche algoritmiche, il numero massimo di qualifiche per un profilo utente è 1. |
 | Caratteristiche cartella | Una caratteristica cartella riassume le qualifiche delle caratteristiche che contiene. Leggi [Caratteristiche cartella: Informazioni su](about-folder-traits.md) per ulteriori informazioni. |
-| Caratteristiche di pubblici attivi e caratteristiche sincronizzate con Data Source | Una caratteristica [!UICONTROL Active Audience] contiene tutti i dispositivi gestiti nell&#39;account Audience Manager. [!UICONTROL Data Source Synced Traits] tiene traccia di tutti gli utenti associati a un&#39;origine dati. Ulteriori informazioni su [Caratteristiche di pubblico attivo e caratteristiche sincronizzate con Data Source](client-activity-synced-audience-traits.md). |
+| Caratteristiche di pubblici attivi e caratteristiche sincronizzate con Data Source | Una caratteristica [!UICONTROL Active Audience] contiene tutti i dispositivi gestiti nel tuo account Audience Manager. [!UICONTROL Data Source Synced Traits] tiene traccia di tutti gli utenti associati a un&#39;origine dati. Ulteriori informazioni su [Caratteristiche di pubblico attivo e caratteristiche sincronizzate con Data Source](client-activity-synced-audience-traits.md). |
 
 ## Realizzazioni di caratteristiche univoche e popolazione di caratteristiche totale {#unique-trait-realizations}
 

@@ -38,7 +38,7 @@ In questo caso, è necessario etichettare l’origine dati corrispondente come t
 1. Utilizzare il menu a discesa per selezionare l&#39;etichetta **[!UICONTROL Emails(SHA256, lowercased)]** per questa origine dati.
    >[!IMPORTANT]
    >
-   >Questa opzione etichetta l’origine dati solo come contenente dati con hash con quell’algoritmo specifico. L’Audience Manager non esegue l’hashing dei dati in questo passaggio. Verificare che gli indirizzi di posta elettronica che si prevede di memorizzare in questa origine dati siano già sottoposti a hashing con l&#39;algoritmo [!DNL SHA256]. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
+   >Questa opzione etichetta l’origine dati solo come contenente dati con hash con quell’algoritmo specifico. In questo passaggio, Audience Manager non esegue l’hashing dei dati. Verificare che gli indirizzi di posta elettronica che si prevede di memorizzare in questa origine dati siano già sottoposti a hashing con l&#39;algoritmo [!DNL SHA256]. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Salvare le impostazioni dell&#39;origine dati.
@@ -49,21 +49,21 @@ In questo caso, è necessario etichettare l’origine dati corrispondente come t
 
 In questo caso, devi creare una nuova origine dati multi-dispositivo che memorizzerà gli indirizzi e-mail con hash. Ecco come eseguire questa operazione:
 
-1. Accedi al tuo account Audience Manager e vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**, quindi fai clic su **[!UICONTROL Add New]**.
+1. Accedi al tuo account Audience Manager e passa a **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**, quindi fai clic su **[!UICONTROL Add New]**.
 1. Immettere [!UICONTROL Name] e [!UICONTROL Description] per la nuova origine dati.
 1. Nel menu a discesa **[!UICONTROL ID Type]**, selezionare **[!UICONTROL Cross Device]**.
 1. Nella sezione **[!UICONTROL Data Source Settings]** selezionare entrambe le opzioni **[!UICONTROL Inbound]** e **[!UICONTROL Outbound]** e abilitare l&#39;opzione **[!UICONTROL Share associated cross-device IDs in people-based destinations]**.
 1. Utilizzare il menu a discesa per selezionare l&#39;etichetta **[!UICONTROL Emails(SHA256, lowercased)]** per questa origine dati.
    >[!IMPORTANT]
    >
-   >Questa opzione etichetta l’origine dati solo come contenente dati con hash con quell’algoritmo specifico. L’Audience Manager non esegue l’hashing dei dati in questo passaggio. Verificare che gli indirizzi di posta elettronica che si prevede di memorizzare in questa origine dati siano già sottoposti a hashing con l&#39;algoritmo [!DNL SHA256]. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
+   >Questa opzione etichetta l’origine dati solo come contenente dati con hash con quell’algoritmo specifico. In questo passaggio, Audience Manager non esegue l’hashing dei dati. Verificare che gli indirizzi di posta elettronica che si prevede di memorizzare in questa origine dati siano già sottoposti a hashing con l&#39;algoritmo [!DNL SHA256]. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Salvare le impostazioni dell&#39;origine dati.
 
 Guarda il video seguente per un&#39;esercitazione video su come creare un&#39;origine dati per [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/34899?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ Nell’esempio precedente, il nome del file sarà simile al seguente:
 
 [Scarica qui il file di esempio](assets/c2c_id_999999_987654_1560431657.sync).
 
-Dopo aver creato il file di sincronizzazione ID, devi caricarlo in un bucket [!DNL Amazon S3]. Per informazioni su come caricare i file di sincronizzazione ID, vedere [Send Batch Data to Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
+Dopo aver creato il file di sincronizzazione ID, devi caricarlo in un bucket [!DNL Amazon S3]. Per informazioni su come caricare i file di sincronizzazione ID, consulta [Send Batch Data to Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Passaggio 3: creare una regola di unione profili per la segmentazione {#create-merge-rule}
 
@@ -145,8 +145,8 @@ Per creare nuovi segmenti di pubblico, utilizza [Segment Builder](../segments/se
 1. Utilizza il menu a discesa **[!UICONTROL People-Based Platform]** per selezionare la piattaforma con cui configurare l&#39;integrazione.
    ![people-based-platform](assets/pbd-add.png)
 1. Fare clic su **[!UICONTROL Confirm]** per essere reindirizzato alla pagina di autenticazione della piattaforma selezionata.
-1. Dopo aver eseguito l’autenticazione all’account della piattaforma social, vieni reindirizzato all’Audience Manager in cui dovresti visualizzare gli account pubblicitari associati. Selezionare l&#39;account pubblicitario che si desidera utilizzare e fare clic su **[!UICONTROL Confirm]**.
-1. In Audience Manager, nella parte superiore della pagina viene visualizzata una notifica per comunicare se l’account è stato aggiunto correttamente. La notifica ti consente inoltre di aggiungere un indirizzo e-mail di contatto per ricevere notifiche quando l’autenticazione della piattaforma social network sta per scadere.
+1. Dopo aver eseguito l’autenticazione all’account della piattaforma social, vieni reindirizzato ad Audience Manager per visualizzare gli account pubblicitari associati. Selezionare l&#39;account pubblicitario che si desidera utilizzare e fare clic su **[!UICONTROL Confirm]**.
+1. Audience Manager visualizza una notifica nella parte superiore della pagina per comunicare se l’account è stato aggiunto correttamente. La notifica ti consente inoltre di aggiungere un indirizzo e-mail di contatto per ricevere notifiche quando l’autenticazione della piattaforma social network sta per scadere.
 
 >[!IMPORTANT]
 >
@@ -160,7 +160,6 @@ Per creare nuovi segmenti di pubblico, utilizza [Segment Builder](../segments/se
    * **[!UICONTROL Type]**: Basato Su Persone;
    * **[!UICONTROL Platform]**: selezionare la piattaforma basata sulle persone a cui si desidera inviare i segmenti di pubblico;
    * **[!UICONTROL Account]**: selezionare l&#39;account dell&#39;inserzionista desiderato associato alla piattaforma selezionata.
-
      ![create-destination](assets/pbd-create-destination.png)
 1. Fare clic su **[!UICONTROL Next]**.
 1. Scegliere **[!UICONTROL Data Export Labels]** che si desidera impostare per questa destinazione.

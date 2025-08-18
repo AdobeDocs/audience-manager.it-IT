@@ -35,7 +35,7 @@ I nomi dei file ODC sono strutturati come segue:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-L&#39;elemento nome file `odc` identifica il file come importato da Oracle Data Cloud e indica al programma di convalida del file in entrata Audience Manager di elaborarlo come tale.
+L&#39;elemento nome file `odc` identifica il file come importato da Oracle Data Cloud e indica al programma di convalida dei file in entrata di Audience Manager di elaborarlo come tale.
 
 ### Contenuto del file
 

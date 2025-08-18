@@ -18,7 +18,7 @@ ht-degree: 1%
 
 In [!UICONTROL Segment Builder], recency e frequenza consentono di segmentare i visitatori in base alle azioni che si verificano o si ripetono in un determinato intervallo giornaliero.
 
-L&#39;Audience Manager definisce [!DNL recency] e [!DNL frequency] come segue:
+Audience Manager definisce [!DNL recency] e [!DNL frequency] come segue:
 
 * **[!UICONTROL Recency]:** Recentemente un utente ha visualizzato o qualificato per uno o più [!UICONTROL traits].
 * **[!UICONTROL Frequency]:** Frequenza di visualizzazione o qualificazione di un utente per uno o più [!UICONTROL traits].
@@ -105,7 +105,7 @@ In questo esempio, seleziona l’operatore &lt;=, come mostrato nella schermata.
 
 ![Maggiore di uguale a](assets/greater-than-equal-to.png)
 
-In questo esempio, seleziona l’operatore =>, come mostrato nella schermata. Questo qualifica l&#39;utente per [!UICONTROL segment] se è idoneo per uno dei tre [!UICONTROL traits] almeno tre volte tra la prima qualifica sulla piattaforma Audience Manager e l&#39;orario limite di cinque giorni fa. La sequenza temporale seguente mostra la qualifica di [!UICONTROL segment] al momento della creazione di [!UICONTROL segment], il 1° ottobre e dieci giorni dopo.
+In questo esempio, seleziona l’operatore =>, come mostrato nella schermata. Questo qualifica l&#39;utente per [!UICONTROL segment] se è idoneo per uno dei tre [!UICONTROL traits] almeno tre volte tra la prima qualifica sulla piattaforma Audience Manager e il cut-off di cinque giorni fa. La sequenza temporale seguente mostra la qualifica di [!UICONTROL segment] al momento della creazione di [!UICONTROL segment], il 1° ottobre e dieci giorni dopo.
 
 ![Qualificazione precedente](assets/earlier-qualification.png)
 
@@ -114,7 +114,7 @@ In questo esempio, seleziona l’operatore =>, come mostrato nella schermata. Qu
 
 Le espressioni di quota limite includono tutti gli utenti il cui numero di realizzazioni [!UICONTROL trait] è inferiore al valore desiderato. Di seguito sono riportati alcuni esempi di utilizzo corretto e non corretto:
 
-* Sbagliato: l&#39;espressione `frequency([1000T]) <= 5` include tutti gli utenti che hanno realizzato [!UICONTROL trait] con l&#39;ID &quot;1000&quot; un massimo di cinque volte, ma include anche gli utenti che non hanno realizzato [!UICONTROL trait]. Pertanto, l&#39;Audience Manager non convalida l&#39;espressione per motivi di prestazioni, poiché qualificherebbe troppi utenti per [!UICONTROL segment].
+* Sbagliato: l&#39;espressione `frequency([1000T]) <= 5` include tutti gli utenti che hanno realizzato [!UICONTROL trait] con l&#39;ID &quot;1000&quot; un massimo di cinque volte, ma include anche gli utenti che non hanno realizzato [!UICONTROL trait]. Pertanto, Audience Manager non convalida questa espressione per motivi di prestazioni, in quanto qualificherebbe troppi utenti per [!UICONTROL segment].
 
 * A destra: se si desidera includere tutti gli utenti che hanno realizzato [!UICONTROL trait] con l&#39;ID &quot;1000&quot; per un massimo di cinque volte, aggiungere un&#39;altra condizione all&#39;espressione per assicurarsi che gli utenti siano qualificati per [!UICONTROL trait] almeno una volta: `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
 

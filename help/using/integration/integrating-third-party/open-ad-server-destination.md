@@ -10,13 +10,13 @@ exl-id: cf919c27-691f-424b-be83-040f03e34455
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # OAS come destinazione di Audience Manager {#oas-as-an-audience-manager-destination}
 
-Configura [!DNL Open Ad Server] come destinazione e invia i dati di Audience Manager a tale piattaforma.
+Imposta [!DNL Open Ad Server] come destinazione e invia i dati di Audience Manager a tale piattaforma.
 
 ## Requisiti di destinazione OAS {#oas-requirements}
 
@@ -27,8 +27,8 @@ Standard per il posizionamento del codice, i formati chiave-valore supportati, i
 Questo tipo di destinazione richiede quanto segue:
 
 * **[!UICONTROL DIL]:** Il codice [!UICONTROL Data Integration Library] deve essere distribuito nel tuo inventario. [!UICONTROL DIL] elimina la necessità di scrivere codice speciale per la raccolta dati, l&#39;integrazione, la lettura dei valori dei cookie e il recupero dei dati della pagina.
-* Funzione **`get_aamCookie`:** codice che acquisisce l&#39;ID utente Audience Manager e i dati dei cookie. Inserisci [questo codice](../../features/destinations/get-aam-cookie-code.md) nella parte superiore della pagina o all&#39;interno del blocco di codice `<head>`.
-* **Invia registri di consegna all&#39;Audience Manager:** Se desideri un rapporto di consegna del segmento (facoltativo), fornisci all&#39;Audience Manager un registro giornaliero che contiene dati di consegna a livello di impression. I dati possono essere in formato non elaborato, ma ogni record deve contenere l&#39;Audience Manager [!UICONTROL UUID]. L&#39;Audience Manager può prelevarli o riceverli tramite [!DNL FTP].
+* Funzione **`get_aamCookie`:** codice che acquisisce l&#39;ID utente e i dati dei cookie di Audience Manager. Inserisci [questo codice](../../features/destinations/get-aam-cookie-code.md) nella parte superiore della pagina o all&#39;interno del blocco di codice `<head>`.
+* **Invia registri di consegna ad Audience Manager:** Se desideri un rapporto di consegna del segmento (facoltativo), fornisci ad Audience Manager un registro giornaliero che contenga dati di consegna a livello di impression. I dati possono essere in formato non elaborato, ma ogni record deve contenere Audience Manager [!UICONTROL UUID]. Audience Manager può ritirarli o riceverli tramite [!DNL FTP].
 
 ### Formato dei cookie e dati chiave-valore
 
@@ -54,7 +54,7 @@ Creare una destinazione basata su cookie per [!DNL OAS] in Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-Ad Audience Manager, una *destinazione* è qualsiasi altro sistema (ad server, [!DNL DSP], ad network, ecc.) con cui desideri condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire questi processi di distribuzione dei dati. Audience Manager di funzioni di destinazione che si trovano in *Dati pubblico > Destinazioni*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]** e segui i passaggi indicati di seguito.
+In Audience Manager, una *destinazione* è qualsiasi altro sistema (ad server, [!DNL DSP], ad network, ecc.) con cui si desidera condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire questi processi di distribuzione dei dati. Le funzionalità di destinazione di Audience Manager si trovano in *Dati pubblico > Destinazioni*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]** e segui i passaggi indicati di seguito.
 
 ### Passaggio 1: informazioni di base
 
@@ -86,7 +86,7 @@ Per aggiungere un segmento a una destinazione cookie:
 
 ## Configurazione OAS {#oas-code-setup}
 
-Modifica le impostazioni di [!DNL OAS] per utilizzare i dati del segmento Audience Manager.
+Modifica le impostazioni di [!DNL OAS] per utilizzare i dati del segmento di Audience Manager.
 
 <!-- aam-oas-code.xml -->
 

@@ -1,5 +1,5 @@
 ---
-description: Un Audience Optimization per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per segmenti di Audience Manager nelle campagne a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche dei segmenti Audience Manager per informare ottimizzazioni incentrate sui segmenti e un mix di canali efficace.
+description: Audience Optimization per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per i segmenti Audience Manager nelle campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche dei segmenti di Audience Manager per informare ottimizzazioni incentrate sui segmenti e un mix di canali efficace.
 seo-description: Audience Optimization for Advertisers can help you identify potential performance opportunities for Audience Manager segments across your paid media campaigns. These reports combine log-level campaign performance data with Audience Manager segment metrics to inform segment-centric optimizations and an effective channel mix.
 seo-title: Audience Optimization for Advertisers
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # [!UICONTROL Audience Optimization] per gli inserzionisti{#audience-optimization-for-advertisers}
 
-[!UICONTROL Audience Optimization] per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per segmenti di Audience Manager nelle tue campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche Audience Manager [!UICONTROL segment] per fornire informazioni sulle ottimizzazioni incentrate sui segmenti e su un mix di canali efficace.
+[!UICONTROL Audience Optimization] per gli inserzionisti può aiutarti a identificare potenziali opportunità di prestazioni per i segmenti Audience Manager nelle tue campagne multimediali a pagamento. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche di Audience Manager [!UICONTROL segment] per fornire ottimizzazioni incentrate sui segmenti e un mix di canali efficace.
 
 ## Metodi di acquisizione dei dati {#data-ingestion-methods}
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * Chiamate pixel: per passare i parametri di metadati richiesti a [!DNL Audience Manager], vedi [Acquisizione dei dati di clic delle campagne tramite chiamate pixel](../../../integration/media-data-integration/click-data-pixels.md) e [Acquisizione dei dati di impression delle campagne tramite chiamate pixel](../../../integration/media-data-integration/impression-data-pixels.md).
 
-* File di dati: se si desidera utilizzare questi report per analizzare i propri dati o dati da un&#39;origine non integrata con [!DNL Audience Manager], è necessario creare e caricare i file di dati e metadati per tali dati. Per ulteriori informazioni, vedere [File di dati per Report di Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) e [File di dati e metadati per Report di Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
+* File di dati: se si desidera utilizzare questi report per analizzare i propri dati o dati da un&#39;origine non integrata con [!DNL Audience Manager], è necessario creare e caricare i file di dati e metadati per tali dati. Per ulteriori informazioni, vedere [File di dati per report Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) e [File di dati e metadati per report Audience Optimization](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md).
 
 ## [!UICONTROL Role-Based Access Controls] (RBAC) {#rbac}
 

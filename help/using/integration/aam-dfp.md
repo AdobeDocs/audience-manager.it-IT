@@ -1,5 +1,5 @@
 ---
-description: Imposta DFP come destinazione e invia i dati del segmento Audience Manager a tale piattaforma.
+description: Imposta DFP come destinazione e invia i dati dei segmenti di Audience Manager a tale piattaforma.
 seo-description: Set up Google Ad Manager as a destination and send Audience Manager segment data to that platform.
 seo-title: Google Ad Manager as an Audience Manager Destination
 solution: Audience Manager

@@ -55,8 +55,8 @@ La tabella elenca e definisce le variabili utilizzate in un file di dati in entr
    <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>Un ID utente può essere: </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
-      <li id="li_23829FE2F6464E33859B3E388FCD106B">Un ID utente univoco assegnato dall'Audience Manager </span> <span class="keyword"> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>). </li> 
-      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">Un ID utente univoco assegnato nel sistema CRM ( DPUUID <a href="../../../reference/ids-in-aam.md">, nell'Audience Manager </a>). </li> 
+      <li id="li_23829FE2F6464E33859B3E388FCD106B">ID utente univoco assegnato da <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>). </li> 
+      <li id="li_76961F20DD3F4554AD2ADFB773F975DB">Un ID utente univoco assegnato nel sistema CRM ( <a href="../../../reference/ids-in-aam.md"> DPUUID, in Audience Manager </a>). </li> 
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">Un ID dispositivo mobile Android o iOS nella sua forma originale non modificata come esposta dal sistema operativo mobile. </li> 
      </ul> </p> <p>Per gli ID mobili: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
@@ -70,7 +70,7 @@ La tabella elenca e definisce le variabili utilizzate in un file di dati in entr
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
-   <td colname="col2"> <p>ID caratteristica Audience Manager </span> di <span class="keyword">. Ti chiediamo di includere <i>solo caratteristiche onboarded</i> nei file di dati in entrata. Non elaboriamo altri tipi di caratteristiche nel trasferimento di dati in entrata. </p> <p> <p>Nota: l’ID caratteristica può essere trovato utilizzando il metodo GET che restituisce i dettagli di tutte le caratteristiche. Per ulteriori informazioni, vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi API delle caratteristiche </a>. </p> </p> </td> 
+   <td colname="col2"> <p>L'ID caratteristica <span class="keyword"> di Audience Manager </span>. Ti chiediamo di includere <i>solo caratteristiche onboarded</i> nei file di dati in entrata. Non elaboriamo altri tipi di caratteristiche nel trasferimento di dati in entrata. </p> <p> <p>Nota: l’ID caratteristica può essere trovato utilizzando il metodo GET che restituisce i dettagli di tutte le caratteristiche. Per ulteriori informazioni, vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi API delle caratteristiche </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,11 +89,11 @@ Nella tabella seguente sono descritti i prefissi che identificano i nomi o gli I
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>Il prefisso <code> d_sid </code> indica al sistema che l'ID è un ID caratteristica <span class="keyword"> Audience Manager </span>. Questo è lo stesso ID visualizzato nell’interfaccia utente di. È inoltre possibile restituire gli ID delle caratteristiche con il metodo API <code> GET </code>. Vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi delle caratteristiche API </a>. </p> </td>
+   <td colname="col2"> <p>Il prefisso <code> d_sid </code> indica al sistema che l'ID è un ID caratteristica <span class="keyword"> di Audience Manager </span>. Questo è lo stesso ID visualizzato nell’interfaccia utente di. È inoltre possibile restituire gli ID delle caratteristiche con il metodo API <code> GET </code>. Vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi delle caratteristiche API </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>I dati con prefisso <code> d_unsid </code> rimuovono gli utenti da tale caratteristica. Il prefisso <code> d_unsid </code> viene ignorato in un file <code> overwrite </code>. </p> <p>Il prefisso <code> d_unsid= </code> indica al sistema che l'ID è un ID caratteristica <span class="keyword"> Audience Manager </span>. Questo è lo stesso ID visualizzato nell’interfaccia utente di. È inoltre possibile restituire gli ID delle caratteristiche con il metodo API <code> GET </code>. Vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi delle caratteristiche API </a>. </p> </td>
+   <td colname="col2"> <p>I dati con prefisso <code> d_unsid </code> rimuovono gli utenti da tale caratteristica. Il prefisso <code> d_unsid </code> viene ignorato in un file <code> overwrite </code>. </p> <p>Il prefisso <code> d_unsid= </code> indica al sistema che l'ID è un ID caratteristica <span class="keyword"> di Audience Manager </span>. Questo è lo stesso ID visualizzato nell’interfaccia utente di. È inoltre possibile restituire gli ID delle caratteristiche con il metodo API <code> GET </code>. Vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi delle caratteristiche API </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -201,30 +201,30 @@ Anche i nomi dei valori formattati in modo errato in una coppia chiave-valore ca
    <td colname="col1"> <p>Con <code> d_sid </code> o <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>Questo file di dati mostra un utente qualificato per le caratteristiche 24, 26, 27 ed è stato rimosso dalle caratteristiche 28 e 29. </p> <p> 
      <code>
-       59767559181262060060278870901087098252&nbsp;&nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
      </code> </p> <p>Nota:  <p>Invece di utilizzare d_unsid, puoi anche rimuovere le caratteristiche dai profili utente utilizzando la sintassi seguente: </p> <p> 
       <code>
-        59767559181262060060278870901087098252&nbsp;28:0,&nbsp;29:0 
+        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
       </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&nbsp;28:-1,&nbsp;29:-1 
+        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
       </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Con <code> ic== </code> </p> </td> 
    <td colname="col2"> <p>Queste caratteristiche sono state aggiunte a una regola di caratteristiche con il prefisso <code> ic </code>. Di conseguenza, puoi aggiungerli al file di dati separati da virgole, come illustrato nella figura. Una scheda separa l’UUID e gli ID delle caratteristiche. Il prefisso <code> ic </code> non è obbligatorio nel file. </p> <p><b>ID numerici</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;30608,50354,50338,50352,30626 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
      </code> </p> <p><b>ID stringa</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;ic=52,ic=55 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
      </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Con coppie chiave-valore </p> </td> 
-   <td colname="col2"> I dati del file utilizzano coppie chiave-valore per passare i dati all'Audience Manager </span> di <span class="keyword">. <p> 
+   <td colname="col2"> I dati del file utilizzano coppie chiave-valore per passare i dati a <span class="keyword"> Audience Manager </span>. <p> 
      <code>
-       59767559181262060060278870901087098252&nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
   </tr> 
  </tbody> 
@@ -248,7 +248,7 @@ Il grafico seguente mostra alcuni esempi del modo corretto di formattare i file 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>UUID AUDIENCE MANAGER </p> </td> 
+   <td colname="col1"> <p>UUID di Audience Manager </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-1"> Esempio 1 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-2"> Esempio 2 </a> </p> </td> 
    <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-3"> Esempio 3 </a> </p> </td> 

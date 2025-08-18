@@ -50,7 +50,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
-   <td colname="col2">ID univoco del provider di dati (assegnato dall'Audience Manager <span class="keyword"></span>). </td> 
+   <td colname="col2">ID univoco del provider di dati (assegnato da <span class="keyword"> Audience Manager</span>). </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
@@ -63,7 +63,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> può essere 0 (non si applica il RGPD) o 1 (si applica il RGPD).</p><p><b>Nota:</b> <ul><li>È in corso il rollout graduale dei parametri <code>gdpr</code> e <code>gdpr_consent</code> negli URL di sincronizzazione ID con i partner di attivazione. Consulta Partner di attivazione che supportano IAB TCF in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager Plug-in per IAB TCF.</a></li><li>Questo parametro può essere utilizzato solo insieme a <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> può essere 0 (non si applica il RGPD) o 1 (si applica il RGPD).</p><p><b>Nota:</b> <ul><li>È in corso il rollout graduale dei parametri <code>gdpr</code> e <code>gdpr_consent</code> negli URL di sincronizzazione ID con i partner di attivazione. Consulta Partner di attivazione che supportano IAB TCF in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Plug-in Audience Manager per IAB TCF.</a></li><li>Questo parametro può essere utilizzato solo insieme a <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 

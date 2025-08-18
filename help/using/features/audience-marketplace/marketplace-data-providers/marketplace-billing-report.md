@@ -39,7 +39,7 @@ Un report di fatturazione contiene le seguenti informazioni.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>PID provider dati <b><span class="uicontrol"></span></b> </p> </td> 
-   <td colname="col2"> <p>ID del provider di dati dell'Audience Manager <span class="keyword"></span>. </p> </td> 
+   <td colname="col2"> <p>ID del provider dati <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nome provider dati <b><span class="uicontrol"></span></b> </p> </td> 
@@ -72,7 +72,7 @@ Un report di fatturazione contiene le seguenti informazioni.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> unità di misura</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica la fatturazione CPM o con tariffa fissa. </p> </td> 
+   <td colname="col2"> <p>Indica CPM o fatturazione con tariffa fissa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Prezzo di listino</span></b> </p> </td> 
@@ -87,7 +87,7 @@ Un report di fatturazione contiene le seguenti informazioni.
    <td colname="col2"> <p>Varia in base al tipo di prezzo per feed: </p> 
     <ul id="ul_01550B436EEE4FBC8C9945E08E3CE2C6"> 
      <li id="li_C589F6A751AB407E853AC6F726A47F14">Feed dati tariffa fissa: restituisce solo 1. </li> 
-     <li id="li_F93F8AEB2D8C45BFA0305E7808AFF848">Feed dati CPM: restituisce la quantità di utilizzo effettiva per i feed dati CPM. Se un abbonato non ha fornito dati sulle impression per un feed CPM, la cella Unità è vuota e la cella Flag è impostata su 1. </li> 
+     <li id="li_F93F8AEB2D8C45BFA0305E7808AFF848">Feed dati di CPM: restituisce la quantità di utilizzo effettiva per i feed dati di CPM. Se un abbonato non ha fornito dati sulle impression per un feed CPM, la cella Units è vuota e la cella Flag è impostata su 1. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -112,10 +112,10 @@ Un report di fatturazione contiene le seguenti informazioni.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contrassegno <b><span class="uicontrol"></span></b> </p> </td> 
-   <td colname="col2"> <p> <i>Solo per feed CPM</i>. Le opzioni di contrassegno includono: </p> 
+   <td colname="col2"> <p> <i>Solo per feed di CPM</i>. Le opzioni di contrassegno includono: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: indica che un sottoscrittore ha segnalato informazioni sull'utilizzo all'Audience Manager <span class="keyword"></span>. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: indica che un sottoscrittore non ha segnalato informazioni sull'utilizzo all'Audience Manager <span class="keyword"></span>. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: indica che un sottoscrittore ha segnalato informazioni sull'utilizzo a <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: indica che un sottoscrittore non ha segnalato informazioni sull'utilizzo a <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -123,6 +123,6 @@ Un report di fatturazione contiene le seguenti informazioni.
 
 >[!MORELIKETHIS]
 >
->* [Allocazione fatturazione e impression per feed dati CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Allocazione fatturazione e impression per feed dati di CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Allocazione fatturazione e impression per feed di dati a tariffa fissa](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
 >* [Come segnalare l&#39;utilizzo di CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)

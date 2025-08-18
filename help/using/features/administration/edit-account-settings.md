@@ -22,9 +22,9 @@ Gli utenti non amministratori possono modificare i propri profili, inclusa la mo
 
 Gli utenti amministratori possono creare utenti e aggiungerli ai gruppi a scopo di autorizzazione, come spiegato in [Crea utenti](../../features/administration/administration-overview.md#create-users) e [Crea un gruppo](../../features/administration/administration-overview.md#create-group).
 
-1. Nell&#39;intestazione dell&#39;Audience Manager fare clic su ![](assets/icon_profile.png).
+1. Nell&#39;intestazione di Audience Manager fare clic su ![](assets/icon_profile.png).
 1. Fare clic su **[!UICONTROL Account Settings]**, quindi su **[!UICONTROL Edit]** per visualizzare la pagina [!UICONTROL My Account].
-1. Nel campo **[!UICONTROL Email Address]**, specifica il nuovo indirizzo e-mail, se necessario. L’Audience Manager non invia notifiche regolari agli utenti. Gli amministratori di Audienci Manager possono accedere agli indirizzi e-mail degli utenti e inviare manualmente i messaggi, in base alle esigenze. Ad esempio, se un utente dimentica la propria password, l’indirizzo e-mail specificato in questo campo viene utilizzato per inviare una password temporanea e istruzioni per reimpostare la password.
+1. Nel campo **[!UICONTROL Email Address]**, specifica il nuovo indirizzo e-mail, se necessario. Audience Manager non invia notifiche regolari agli utenti. Gli amministratori di Audience Manager possono accedere agli indirizzi e-mail degli utenti e inviare manualmente i messaggi, se necessario. Ad esempio, se un utente dimentica la propria password, l’indirizzo e-mail specificato in questo campo viene utilizzato per inviare una password temporanea e istruzioni per reimpostare la password.
 1. Per reimpostare la password, specificare la password corrente, specificare la nuova password, quindi confermare la nuova password.
 Vedi anche [Password Requirements, Locked Accounts, and Forgotten Passwords](../../reference/password-requirements.md) (Requisiti per le password, account bloccati e password dimenticate).
 1. Fare clic su **[!UICONTROL Save]**.

@@ -150,7 +150,7 @@ Le opzioni di fatturazione e prezzo controllano il modo in cui gli acquirenti pa
    <td colname="col1"> <b><span class="uicontrol"> unità di misura</span></b> </td> 
    <td colname="col2">Addebita agli acquirenti di dati una tariffa CPM o una tariffa fissa. 
     <ul id="ul_D5F125E0F7364C568D9F3107E090059D"> 
-     <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> Con i prezzi CPM, gli acquirenti di dati devono segnalare autonomamente l’utilizzo dei dati. </li> 
+     <li id="li_A79F47FFC1DC4B9DADC014621A9C12A1"> Con i prezzi di CPM, gli acquirenti di dati devono segnalare autonomamente l’utilizzo dei dati. </li> 
      <li id="li_DFED3194854A492F9DD0E7BA1A655E96">Con una tariffa fissa, gli acquirenti di dati non segnalano l'utilizzo perché viene addebitata una tariffa fissa. </li> 
     </ul> </td>
   </tr> 

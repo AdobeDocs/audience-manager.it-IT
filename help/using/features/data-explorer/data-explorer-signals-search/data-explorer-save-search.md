@@ -1,5 +1,5 @@
 ---
-description: Ottimizza le attività di ricerca del segnale salvando fino a 10 set di criteri di ricerca da utilizzare ogni volta che ne hai bisogno e tracciali sul dashboard. Audience Manager ricarica le ricerche salvate ogni volta che si carica il dashboard.
+description: Ottimizza le attività di ricerca del segnale salvando fino a 10 set di criteri di ricerca da utilizzare ogni volta che ne hai bisogno e tracciali sul dashboard. Audience Manager ricarica le ricerche salvate ogni volta che carichi il dashboard.
 seo-description: Optimize signal search efforts by saving up to 10 sets of search criteria to use whenever you need them, and track them on the Dashboard. Audience Manager reloads the saved searches every time you load the Dashboard.
 seo-title: Save Search Criteria
 title: Salva criterio di ricerca
@@ -35,4 +35,4 @@ Ottimizza le attività di ricerca del segnale salvando fino a 10 set di criteri 
 
 Guarda il video seguente per scoprire come salvare le ricerche dei segnali.
 
->[!VIDEO](https://video.tv.adobe.com/v/36352?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25147/)

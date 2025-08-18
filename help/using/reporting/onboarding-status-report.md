@@ -121,7 +121,7 @@ Guida di riferimento per le etichette e i termini utilizzati nel rapporto.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Nome file di sincronizzazione dati</b> </p> </td> 
-   <td colname="col2"> <p>Elenca i file ricevuti ed elaborati dall'Audience Manager <span class="keyword"> </span> dall'origine dati in entrata selezionata. </p> <p>L’elaborazione del file non riuscirà se il nome file non viene formattato correttamente. I requisiti relativi al nome file variano a seconda di come vengono inviati questi dati all'Audience Manager <span class="keyword"></span>. I metodi di consegna includono <span class="keyword"> Amazon S3</span> e FTP. Per istruzioni su come denominare i file, vedere: </p> <p> 
+   <td colname="col2"> <p>Elenca i file ricevuti ed elaborati da <span class="keyword"> Audience Manager</span> dall'origine dati in entrata selezionata. </p> <p>L’elaborazione del file non riuscirà se il nome file non viene formattato correttamente. I requisiti relativi al nome file variano a seconda di come vengono inviati questi dati a <span class="keyword"> Audience Manager</span>. I metodi di consegna includono <span class="keyword"> Amazon S3</span> e FTP. Per istruzioni su come denominare i file, vedere: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Requisiti del nome Amazon S3 per i file di dati in entrata </a> </li> 
      </ul> </p> </td> 
@@ -141,7 +141,7 @@ Guida di riferimento per le etichette e i termini utilizzati nel rapporto.
 
 <tr> 
    <td colname="col1"> <p> <b>ID dispositivo non valido</b> </p> </td> 
-   <td colname="col2"> <p>Elenca il numero di ID dispositivo globali formattati in modo errato. Consulta <a href="../reference/ids-in-aam.md">Indice degli ID in Audience Manager</a> e <a href="../features/global-data-sources.md">Fonti di dati globali</a> per informazioni dettagliate sulla formattazione degli ID dispositivo e sulle origini di dati globali da utilizzare in base al tipo di dispositivo.</p>
+   <td colname="col2"> <p>Elenca il numero di ID dispositivo globali formattati in modo errato. Consulta <a href="../reference/ids-in-aam.md">Indice degli ID in Audience Manager</a> e <a href="../features/global-data-sources.md">Global Data Sources</a> per informazioni dettagliate sulla formattazione degli ID dispositivo e sulle origini dati globali da utilizzare, in base al tipo di dispositivo.</p>
   <p>La sezione di campionamento degli errori del rapporto include informazioni dettagliate sugli ID dispositivo non validi, ad esempio:</p>
    <ul>
     <li>L’ID sorgente dati corrispondente all’ID dispositivo non valido;</li>
@@ -154,7 +154,7 @@ Guida di riferimento per le etichette e i termini utilizzati nel rapporto.
 
 <tr> 
    <td colname="col1"> <p> <b>Nessun ID AAM corrispondente</b> </p> </td> 
-   <td colname="col2"> <p>Questi sono ID onboarded <span class="keyword">. L'Audience Manager </span> non può corrispondere a un ID esistente. Gli ID onboarded possono avere questo stato quando <span class="keyword"> Audience Manager</span> non ha ancora eseguito una sincronizzazione ID o non può ancora corrispondere all'ID anche dopo una sincronizzazione. </p> <p>Nel caso di ID di dispositivi mobili senza corrispondenza, <span class="keyword"> Audience Manager</span>: </p> 
+   <td colname="col2"> <p>Si tratta di ID onboarded <span class="keyword"> Audience Manager</span> non può corrispondere a un ID esistente. Gli ID onboarded possono avere questo stato quando <span class="keyword"> Audience Manager</span> non ha ancora eseguito una sincronizzazione ID o non può ancora corrispondere all'ID anche dopo una sincronizzazione. </p> <p>Nel caso di ID di dispositivi mobili senza corrispondenza, <span class="keyword"> Audience Manager</span>: </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">Continua a memorizzare e prova a sincronizzare questo ID. </li> 
      <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Registralo come <span class="wintitle"> record archiviato</span> nel report se l'ID non può essere sincronizzato. </li> 
@@ -165,7 +165,7 @@ Guida di riferimento per le etichette e i termini utilizzati nel rapporto.
    <td colname="col2"> <p>Elenca le caratteristiche che <span class="keyword"> Audience Manager</span> non può corrispondere a una caratteristica onboarded. Questo potrebbe essere il risultato di: </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
      <li id="li_D4C6306BF2B143198108702B309CE8CF">Le caratteristiche non sono formattate correttamente nel file di dati in entrata. Per informazioni su come formattare il file di dati, vedere <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Inbound Data File Contents: Syntax, Variables, and Examples</a>. </li> 
-     <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Caratteristiche non ancora definite nell'Audience Manager </span> di <span class="keyword">. </li> 
+     <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Caratteristiche non ancora definite in <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -178,11 +178,11 @@ Guida di riferimento per le etichette e i termini utilizzati nel rapporto.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Record archiviati</b> </p> </td> 
-   <td colname="col2"> <p>Numero di record archiviati correttamente. A causa di errori di formato file, alcuni dei record ricevuti potrebbero non essere archiviati da <span class="keyword"> Audience Manager</span>. Il numero di record archiviati può essere inferiore al numero di record ricevuti. </p> </td> 
+   <td colname="col2"> <p>Numero di record archiviati correttamente. A causa di errori di formato del file, alcuni dei record ricevuti potrebbero non essere archiviati da <span class="keyword"> Audience Manager</span>. Il numero di record archiviati può essere inferiore al numero di record ricevuti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Caratteristiche realizzate totali</b> </p> </td> 
-   <td colname="col2"> <p>Numero di caratteristiche per tutti gli utenti in tutti i file in entrata archiviati nella piattaforma Audience Manager</span> di <span class="keyword">. </p> </td> 
+   <td colname="col2"> <p>Numero di caratteristiche per tutti gli utenti in tutti i file in entrata archiviati nella piattaforma <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Totale segnali inutilizzati</b> </p> </td> 

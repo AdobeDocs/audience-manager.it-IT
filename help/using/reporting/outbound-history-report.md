@@ -45,11 +45,11 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Nome file di sincronizzazione dati </td> 
-   <td colname="col2"> <p>Elenco di tutti i file in uscita generati dall'Adobe <span class="keyword"></span> per questa destinazione ed elaborati insieme. </p> </td> 
+   <td colname="col2"> <p>Elenco di tutti i file in uscita generati da <span class="keyword"> Adobe</span> per questa destinazione ed elaborati insieme. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Completato </td> 
-   <td colname="col2"> <p>Numero di record inviati correttamente dall'Audience Manager </span> <span class="keyword"> alla destinazione. </p> </td> 
+   <td colname="col2"> <p>Numero di record inviati correttamente da <span class="keyword"> Audience Manager</span> alla destinazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Non riuscito </td> 

@@ -22,11 +22,11 @@ ht-degree: 3%
 
 In un contesto di marketing, un utente tipo è un segmento di pubblico definito da visitatori, utenti o potenziali acquirenti che condividono un set specifico di caratteristiche come dati demografici, abitudini di navigazione, cronologia acquisti, ecc.
 
-I modelli di [!UICONTROL Predictive Audiences] portano questo concetto a un livello successivo, consentendoti di utilizzare le funzionalità di machine learning di Audience Manager per classificare pubblici sconosciuti in utenti tipo distinti. Audience Manager ti consente di ottenere questo risultato calcolando la propensione del pubblico sconosciuto di prima parte per un set di tipi di pubblico noti di prima parte.
+I modelli di [!UICONTROL Predictive Audiences] portano questo concetto a un livello successivo, consentendoti di utilizzare le funzionalità di machine learning di Audience Manager per classificare pubblici sconosciuti in utenti tipo distinti. Audience Manager ti consente di ottenere questo risultato calcolando la propensione del pubblico sconosciuto di prime parti per un set di tipi di pubblico noti di prime parti.
 
 Quando crei un modello [!UICONTROL Predictive Audiences], il primo passaggio consiste nella scelta delle caratteristiche o dei segmenti della linea di base in base ai quali classificare il pubblico di destinazione. Queste caratteristiche o segmenti definiranno i tuoi utenti tipo.
 
-Durante la fase di valutazione, il modello crea un nuovo segmento [!UICONTROL Predictive Audiences] per ogni caratteristica o segmento definito come linea di base. Alla successiva visualizzazione, da parte dell&#39;Audience Manager, di un visitatore del pubblico di destinazione non classificato per un utente tipo (non idoneo per nessuna delle caratteristiche o dei segmenti della linea di base), il modello [!UICONTROL Predictive Audiences] determinerà a quale dei segmenti predittivi deve appartenere il visitatore e lo aggiungerà al segmento.
+Durante la fase di valutazione, il modello crea un nuovo segmento [!UICONTROL Predictive Audiences] per ogni caratteristica o segmento definito come linea di base. Alla successiva visualizzazione, da parte di Audience Manager, di un visitatore del pubblico di destinazione non classificato per un utente tipo (non idoneo per nessuna delle caratteristiche o dei segmenti della linea di base), il modello [!UICONTROL Predictive Audiences] determinerà a quale dei segmenti predittivi deve appartenere il visitatore e lo aggiungerà al segmento.
 
 È possibile identificare i segmenti predittivi creati dal modello nella pagina [!UICONTROL Segments]. Ogni modello [!UICONTROL Predictive Audiences] ha una propria cartella nella cartella [!UICONTROL Predictive Audiences] ed è possibile visualizzare i segmenti di ogni modello facendo clic sulla cartella dei modelli.
 
@@ -122,11 +122,11 @@ Durante la configurazione dei modelli [!UICONTROL Predictive Audiences], tenere 
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-I segmenti predittivi creati dai modelli [!UICONTROL Predictive Audiences] ereditano i [Controlli sull&#39;esportazione dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=it) dalle seguenti origini dati di prime parti:
+I segmenti predittivi creati dai modelli [!UICONTROL Predictive Audiences] ereditano i [Controlli sull&#39;esportazione dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) dalle seguenti origini dati di prime parti:
 
 1. L’origine dati di prime parti scelta per la creazione del modello.
 1. Le origini dati di prime parti del pubblico di destinazione. In particolare, i controlli di esportazione dei dati di [!UICONTROL traits] o [!UICONTROL segments] che costituiscono il pubblico di destinazione.
-1. [Controlli sull&#39;esportazione dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=it) di [!UICONTROL Profile Merge Rule] selezionati per il modello.
+1. [Controlli sull&#39;esportazione dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) di [!UICONTROL Profile Merge Rule] selezionati per il modello.
 
 I predittivi [!UICONTROL traits] e [!UICONTROL segments] appena creati avranno le stesse restrizioni di privacy dell&#39;unione delle origini dati di prime parti descritte in precedenza.
 
@@ -146,6 +146,6 @@ La selezione di un [!UICONTROL Profile Merge Rule] che utilizza sia dati disposi
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Le caratteristiche e i segmenti scelti per la classificazione di utenti tipo e pubblico sono soggetti all&#39;Audience Manager [Controlli di accesso basati sul ruolo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=it).
+Le caratteristiche e i segmenti scelti per la classificazione degli utenti tipo e del pubblico sono soggetti ai [controlli di accesso basati sul ruolo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html) di Audience Manager.
 
-Audience Manager gli utenti possono selezionare solo caratteristiche o segmenti per utenti tipo e gruppi di destinatari, che dispongono dell&#39;autorizzazione [per visualizzare](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=it#wild-card-permissions).
+Gli utenti di Audience Manager possono selezionare solo caratteristiche o segmenti per utenti tipo e tipi di pubblico target, che dispongono dell&#39;autorizzazione [per visualizzare](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).

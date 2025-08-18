@@ -1,5 +1,5 @@
 ---
-description: L’ambiente beta è destinato al test dell’implementazione Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se sei interessato a utilizzare l’ambiente beta, contatta il rappresentante Audience Manager Partner Solutions.
+description: L’ambiente beta serve per testare l’implementazione di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se sei interessato a utilizzare l’ambiente beta, contatta il rappresentante delle soluzioni dei partner Audience Manager.
 keywords: sandbox
 seo-description: The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
 seo-title: Beta Environment
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Ambiente Beta {#beta-environment}
 
-L’ambiente beta è destinato al test dell’implementazione Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se sei interessato a utilizzare l’ambiente beta, contatta il rappresentante Audience Manager Partner Solutions.
+L’ambiente beta serve per testare l’implementazione di Audience Manager. Le modifiche apportate nella versione beta non influiscono sui dati di produzione. Se sei interessato a utilizzare l’ambiente beta, contatta il rappresentante delle soluzioni dei partner Audience Manager.
 
 ## Panoramica
 
@@ -29,7 +29,7 @@ L’ambiente beta viene aggiornato alla fine di ogni mese nelle ore non di punta
 
 >[!IMPORTANT]
 >
->I dati del cliente ([segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=it)) non sono sincronizzati tra gli ambienti di produzione e beta.
+>I dati del cliente ([segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) non sono sincronizzati tra gli ambienti di produzione e beta.
 
 ## Traffico in entrata
 
@@ -47,14 +47,14 @@ Il traffico in uscita non è abilitato per l’ambiente beta.
 
 | Servizio | URL/Nome host | Come ottenere l’accesso |
 |--- |--- | --- |
-| S3 | Contatta il tuo rappresentante Audience Manager Partner Solutions o l&#39;Assistenza clienti | Contatta il tuo rappresentante Audience Manager Partner Solutions o l’Assistenza clienti per configurare un bucket Amazon S3 per l’istanza beta. Scopri i [vantaggi dell&#39;utilizzo di Amazon S3](../reference/amazon-s3.md). |
+| S3 | Contatta il rappresentante Audience Manager Partner Solutions o l&#39;Assistenza clienti | Contatta il rappresentante delle soluzioni dei partner Audience Manager o l’Assistenza clienti per configurare un bucket Amazon S3 per l’istanza beta. Scopri i [vantaggi dell&#39;utilizzo di Amazon S3](../reference/amazon-s3.md). |
 | DCS | `https://dcs-beta.demdex.net/...` | Vedere [Accesso al DCS nell&#39;ambiente Beta](../reference/beta-environment.md#access-dcs-beta-environment). |
 | UI | `https://bank-beta.demdex.com` | Le credenziali dell’ambiente di produzione sono valide per l’ambiente beta. |
 | API | `https://api-beta.demdex.com/...` | Le credenziali dell’ambiente di produzione sono valide per l’ambiente beta. È consigliabile creare un utente API generico, [visualizzare i dettagli](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## Accesso al DCS nell’ambiente Beta {#access-dcs-beta-environment}
 
-1. Effettuare una chiamata DCS utilizzando il comando curl [&#128279;](https://curl.haxx.se/docs/manpage.html). Curl è uno strumento per trasferire dati da o verso un server, utilizzando uno dei numerosi protocolli supportati.
+1. Effettuare una chiamata DCS utilizzando il comando curl [](https://curl.haxx.se/docs/manpage.html). Curl è uno strumento per trasferire dati da o verso un server, utilizzando uno dei numerosi protocolli supportati.
 
    Ad esempio:
 

@@ -1,5 +1,5 @@
 ---
-description: Puoi acquisire dati dalle campagne multimediali utilizzando chiamate pixel all’Audience Manager (spesso chiamate pixel del contenuto creativo) o acquisendo file di registro.
+description: Puoi acquisire dati dalle campagne multimediali utilizzando le chiamate pixel ad Audience Manager (spesso chiamate pixel del contenuto creativo) o acquisendo file di registro.
 seo-description: You can capture data from media campaigns using pixel calls to Audience Manager (often called pixeling the creative) or by ingesting log files.
 seo-title: Media Data Integration
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Integrazione dei dati multimediali {#media-data-integration}
 
-Puoi acquisire dati dalle campagne multimediali utilizzando chiamate pixel all’Audience Manager (spesso chiamate pixel del contenuto creativo) o acquisendo file di registro. Leggi gli articoli in questa sezione per comprendere il processo.
+Puoi acquisire dati dalle campagne multimediali utilizzando le chiamate pixel ad Audience Manager (spesso chiamate pixel del contenuto creativo) o acquisendo file di registro. Leggi gli articoli in questa sezione per comprendere il processo.
 
 <!-- c_camp_data_int.xml -->
 
@@ -27,5 +27,5 @@ Puoi acquisire dati dalle campagne multimediali utilizzando chiamate pixel all�
 Per impostare l’acquisizione del registro, leggi i seguenti articoli:
 
 * [Importare file di dati di Google Campaign Manager in Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Importare file di dati di Google Ad Manager in Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Importare File Di Dati Di Google Ad Manager In Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
 * [File di metadati e dati di registro](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) per configurare l&#39;acquisizione del registro per file di registro generici

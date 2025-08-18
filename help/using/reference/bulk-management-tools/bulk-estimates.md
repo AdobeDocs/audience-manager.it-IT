@@ -20,7 +20,7 @@ Una stima in blocco restituisce i dati delle dimensioni del segmento in base all
 
 >[!IMPORTANT]
 >
->Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
+>Gli strumenti di gestione in blocco non sono un’offerta ufficialmente supportata da Adobe. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 

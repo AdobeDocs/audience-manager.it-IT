@@ -1,5 +1,5 @@
 ---
-description: Questa procedura richiede un elenco di remarketing AdWords, un codice pixel e una destinazione URL di Audience Manager. È anche noto come elenco di remarketing per l’integrazione di annunci di ricerca (RLSA). Si applica solo alla ricerca a pagamento.
+description: Questa procedura richiede un elenco di remarketing AdWords, un codice pixel e una destinazione URL Audience Manager. È anche noto come elenco di remarketing per l’integrazione di annunci di ricerca (RLSA). Si applica solo alla ricerca a pagamento.
 seo-description: This procedure requires an AdWords remarketing list, pixel code, and an Audience Manager URL destination. It is also known as a remarketing list for search ads (RLSA) integration. Applies to paid search only.
 seo-title: Send Segments to a Google AdWords Remarketing List
 solution: Audience Manager
@@ -30,10 +30,10 @@ Per impostare un elenco di remarketing [!DNL Google Ads] come [!DNL Audience Man
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. Ad Audience Manager, [Crea un [!DNL URL destination]](../../features/destinations/create-url-destination.md) o modifica un [!DNL destination] esistente. Utilizzare le impostazioni seguenti durante la creazione di [!DNL destination]:
+1. In Audience Manager, [Crea un [!DNL URL destination]](../../features/destinations/create-url-destination.md) o modifica un [!DNL destination] esistente. Utilizzare le impostazioni seguenti durante la creazione di [!DNL destination]:
    * Tipo: URL
    * Serializza: abilitato
-   * Delimitatore: punto e virgola ( &semi; )
+   * Delimitatore: punto e virgola ( &amp;semi; )
 
 1. Nella sezione [!UICONTROL Segment Mappings] di [!DNL URL] [!DNL destination], aggiungi il codice del passaggio 2 ai campi [!DNL URL] e [!DNL Secure URL]. Aggiungi al codice il prefisso `http:` e `https:` rispettivamente nei campi [!DNL URL] e [!DNL Secure URL].
 

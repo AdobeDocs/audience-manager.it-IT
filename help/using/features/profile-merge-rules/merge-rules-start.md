@@ -54,7 +54,7 @@ La sezione [!UICONTROL Data Source Settings] fornisce più opzioni, ma queste 2 
 
 * **[!UICONTROL Use as a Device Graph]**: controllo disponibile solo per gli account elencati come provider di dati. Se si seleziona questa casella di controllo, l&#39;origine dati verrà creata come grafico dei dispositivi e sarà possibile condividerla con altri clienti [!DNL Audience Manager]. Rivolgiti al tuo consulente [!DNL Audience Manager] per configurarti come provider di dati e specificare con quali clienti condividere [!UICONTROL Data Source]. Il tuo consulente fornirà la condivisione del tuo account e del grafico dei dispositivi tramite un processo di provisioning interno.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**: questo controllo consente di impostare il periodo di conservazione dei dati per gli ID cliente inattivi. Questo determina per quanto tempo l’Audience Manager mantiene gli ID cliente nel database dopo che sono stati visti l’ultima volta sulla piattaforma Audience Manager. Il valore predefinito è 24 mesi (720 giorni). Il valore minimo è 1 mese e il valore massimo è 5 anni. Tieni presente che tutti i mesi vengono conteggiati come 30 giorni. Audience Manager esegue una procedura che elimina gli ID cliente inattivi una volta alla settimana, in conformità alla conservazione dei dati impostata per gli ID cliente inattivi.
+* **[!UICONTROL Data retention for inactive Customer IDs]**: questo controllo consente di impostare il periodo di conservazione dei dati per gli ID cliente inattivi. Questo determina per quanto tempo Audience Manager conserva gli ID cliente nel nostro database dopo che sono stati visti l’ultima volta sulla piattaforma Audience Manager. Il valore predefinito è 24 mesi (720 giorni). Il valore minimo è 1 mese e il valore massimo è 5 anni. Tieni presente che tutti i mesi vengono conteggiati come 30 giorni. Audience Manager esegue un processo che elimina gli ID cliente inattivi una volta alla settimana, in conformità alla conservazione dei dati impostata per gli ID cliente inattivi.
 
 I campi di testo associati a queste impostazioni consentono di rinominare [!UICONTROL Data Source] con un alias visualizzato nelle [opzioni della regola di unione profili](merge-rule-definitions.md). Se ad esempio si aggiunge un alias a **[!UICONTROL Use as Authenticated Profile]**, il nome verrà visualizzato nell&#39;elenco [!UICONTROL Authenticated Profile Options]. Se si aggiunge un alias a **[!UICONTROL Use as a Device Graph]**, il nome verrà visualizzato nell&#39;elenco [!UICONTROL Device Options].
 
@@ -105,7 +105,7 @@ Per completare la sezione [!UICONTROL Proflie Merge Rule Setup]:
 
 Alla fine del 2019 sono stati rilasciati una serie di miglioramenti alle Profile Merge Rules per migliorare la precisione dei file batch generati utilizzando ID multi-dispositivo. Questi miglioramenti saranno rigorosamente rispettati nella tua istanza di Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati su una destinazione utilizzando ID multi-dispositivo cesseranno di produrre esportazioni in alcune configurazioni delle regole di unione profili.
 
-Per garantire la corretta integrazione tra l’istanza Audience Manager e le destinazioni utilizzando ID multi-dispositivo, come Adobe Campaign, assicurati di soddisfare i seguenti requisiti:
+Per garantire la corretta integrazione tra l’istanza di Audience Manager e le destinazioni utilizzando ID multi-dispositivo, come Adobe Campaign, assicurati di soddisfare i seguenti requisiti:
 
 1. Esamina la regola di unione profili utilizzata dai segmenti mappati sulla destinazione dell’ID dichiarato di Adobe Campaign. La regola di unione profili deve utilizzare l&#39;opzione [!UICONTROL Last Authenticated Profile], in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione profili utilizza un&#39;opzione diversa, passala a [!UICONTROL Last Authenticated Profile].
 2. Seleziona l’origine dati Adobe Campaign Declared ID (ID dichiarato) nelle impostazioni della regola di unione profili.
@@ -122,11 +122,11 @@ Segui queste istruzioni per configurare il codice [!UICONTROL Adobe Experience P
 
 ### Prerequisiti
 
-Prima di *completare queste procedure, è necessario impostare [un&#39;origine dati multi-dispositivo](#create-data-source) e [regole di unione profili](#create-profile-merge-rule)*.
+Prima di [ completare queste procedure, è necessario impostare ](#create-data-source)un&#39;origine dati multi-dispositivo[ e ](#create-profile-merge-rule)regole di unione profili **.
 
 ## Per i clienti del servizio Adobe Experience Platform Identity {#id-service-customers}
 
-[!UICONTROL Adobe Experience Platform Identity Service] e la versione più recente di [DIL](../../dil/dil-overview.md) sono consigliati quando si lavora con [!UICONTROL Profile Merge Rules]. Tuttavia, non è necessario utilizzare [!UICONTROL Adobe Experience Platform Identity Service] per utilizzare questa funzionalità. Se utilizzi solo [!UICONTROL DIL], consulta la [sezione legacy DIL](#legacy-dil) di seguito.
+[!UICONTROL Adobe Experience Platform Identity Service] e la versione più recente di [DIL](../../dil/dil-overview.md) sono consigliati quando si lavora con [!UICONTROL Profile Merge Rules]. Tuttavia, non è necessario utilizzare [!UICONTROL Adobe Experience Platform Identity Service] per utilizzare questa funzionalità. Se utilizzi solo [!UICONTROL DIL], consulta la [sezione legacy di DIL](#legacy-dil) di seguito.
 
 ### Configurare la funzione Set Customer ID
 
@@ -150,7 +150,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Per ulteriori informazioni, vedere [Creare un Source dati multi-dispositivo](#create-data-source) e [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it).
+Per ulteriori informazioni, vedere [Creare un Source dati multi-dispositivo](#create-data-source) e [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
 
 ### Configura funzione `DIL.create`
 
@@ -165,7 +165,7 @@ var vDil = DIL.create({
 });
 ```
 
-Nella coppia chiave-valore dello spazio dei nomi, la variabile `*`MCORG`*` è l&#39;ID organizzazione [!DNL Experience Cloud]. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard sono necessarie le autorizzazioni di amministratore. Vedere [Amministrazione: servizi principali](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
+Nella coppia chiave-valore dello spazio dei nomi, la variabile `*`MCORG`*` è l&#39;ID organizzazione [!DNL Experience Cloud]. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard sono necessarie le autorizzazioni di amministratore. Vedere [Amministrazione: servizi principali](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### Configurare gli SDK
 
@@ -215,15 +215,15 @@ Controlla i metodi nel codice [!DNL SDK] che ti consentono di passare [!UICONTRO
     </code></p>
     <p> <b>Esempio:</b> </p><p>
     <code class="javascript">
-      &lbrack;ADBMobile&nbsp;audienceSetDpid:@"290"
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"&rbrack;;
+      [ADBMobile&nbsp;audienceSetDpid:@"290"
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dpuuid:@"99301393923940"];
     </code></p>
     </td>
   </tr>
  </tbody>
 </table>
 
-Vedere anche [Metodi Audience Manager per Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=it) e [Metodi Audience Manager per iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=it).
+Vedi anche [Metodi Audience Manager per Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) e [Metodi Audience Manager per iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >

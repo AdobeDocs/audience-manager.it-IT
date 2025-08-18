@@ -13,7 +13,7 @@ ht-degree: 94%
 
 ---
 
-# Panoramica delle domande frequenti sugli Audienci Manager {#audience-manager-faq}
+# Domande frequenti su Audience Manager {#audience-manager-faq}
 
 Questa sezione aggrega un elenco delle categorie di domande frequenti relative alle varie funzionalità di Audience Manager.
 

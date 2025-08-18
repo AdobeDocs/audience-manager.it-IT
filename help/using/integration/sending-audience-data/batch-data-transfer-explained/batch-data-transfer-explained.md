@@ -1,5 +1,5 @@
 ---
-description: Panoramica generale sulle prestazioni di Audience Manager in uno scambio di dati batch asincrono con un fornitore di terze parti.
+description: Panoramica generale delle prestazioni di Audience Manager per lo scambio asincrono di dati in batch con fornitori terzi.
 seo-description: A general overview of how Audience Manager performs an asynchronous batch data exchange with a third-party vendor.
 seo-title: Batch Data Transfer Process Described
 solution: Audience Manager

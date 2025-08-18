@@ -33,7 +33,6 @@ Per aggiungere etichette di esportazione a una destinazione:
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
-
    >[!IMPORTANT]
    >
    >Le restrizioni all&#39;esportazione non funzioneranno se non si imposta un controllo di esportazione [corrispondente](../../features/data-export-controls.md) in un&#39;origine dati.

@@ -1,5 +1,5 @@
 ---
-description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un’integrazione, consulta l’Adobe Exchange corrispondente (se disponibile) oppure contatta il tuo consulente o l’Assistenza clienti per gli Adobi.
+description: Questa pagina include solo le integrazioni server-to-server correnti. Per ulteriori informazioni su un’integrazione fai riferimento alla sua inserzione in Adobe Exchange (se disponibile) o contatta il tuo consulente Adobe o l’Assistenza clienti.
 seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Technology Partners
 keywords: attivazione; partner di attivazione, destinazione, destinazioni
@@ -14,17 +14,17 @@ ht-degree: 43%
 ---
 
 
-# Audience Manager di partner di attivazione
+# Partner di Audience Manager Activation
 
-Questa pagina include solo l&#39;Audience Manager corrente [integrazioni server-to-server](/help/using/features/destinations/add-edit-segments.md).  Per ulteriori informazioni su un&#39;integrazione fai riferimento alla sua [inserzione di Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (se disponibile) o contatta il tuo consulente o l&#39;Assistenza clienti Adobe.
+Questa pagina include solo [integrazioni server-to-server](/help/using/features/destinations/add-edit-segments.md) correnti di Audience Manager.  Per ulteriori informazioni su un&#39;integrazione fai riferimento alla sua [inserzione Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (se disponibile) o contatta il tuo consulente o l&#39;Assistenza clienti Adobe.
 
 <br> 
 
 * **Aggiornato** = mostra la data dell&#39;ultimo aggiornamento per questo partner di attivazione.
-* **Rimuovi segmento** = La rimozione dai segmenti descrive processi che eliminano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall’opzione dispositivo utilizzata per creare una regola di unione profili. La rimozione dai segmenti è utilizzata anche nel contesto delle richieste di eliminazione RGPD. Leggi [regole di unione profili e processi di rimozione dai dispositivi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [partner Audienci Manager con funzionalità di rimozione dai segmenti](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). L’Audience Manager invia informazioni di rimozione dai segmenti alle destinazioni contrassegnate con Sì di seguito.
-* **Ricezione dei segnali di consenso IAB TCF** = Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa TC IAB ai partner di attivazione nel rispetto delle scelte sulla privacy degli utenti. Lettura di [plug-in Audience Manager per IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **Rimuovi segmento** = La rimozione dai segmenti descrive processi che eliminano e rimuovono i profili dispositivo dai segmenti. La possibilità di rimuovere un profilo dispositivo da un segmento dipende dall’opzione dispositivo utilizzata per creare una regola di unione profili. La rimozione dai segmenti è utilizzata anche nel contesto delle richieste di eliminazione RGPD. Leggi [regole di unione profili e processi di rimozione dai dispositivi](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) e [partner Audience Manager con funzionalità di rimozione dai segmenti](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation). Audience Manager invia informazioni di rimozione dai segmenti alle destinazioni contrassegnate con Sì di seguito.
+* **Ricezione dei segnali di consenso IAB TCF** = Il plug-in Audience Manager per IAB TCF consente di inoltrare la stringa TC IAB ai partner di attivazione nel rispetto delle scelte sulla privacy degli utenti. Lettura di [Audience Manager Plug-in per IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
 * **ICDS** = In questa colonna sono elencati i partner che supportano la soppressione immediata tra dispositivi. Leggi [Eliminazione immediata tra dispositivi](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **ID dispositivo mobile** = In questa colonna sono elencati i partner che possono ricevere ID dispositivo mobile da Audience Manager.
+* **ID dispositivo mobile** = In questa colonna sono elencati i partner che possono ricevere gli ID dispositivo mobile da Audience Manager.
 
 <br> 
 
@@ -157,7 +157,7 @@ Questa pagina include solo l&#39;Audience Manager corrente [integrazioni server-
 | TubeMogul | 03/03/2017 | Sì | No | Sì | No |
 | Turno / Amobee | 03/03/2027 | No | No | No | Sì |
 | Twenga | 29/10/2018 | Sì | No | No | No |
-| Pubblico personalizzato twitter | 27/03/2017 | Sì | No | Sì | No |
+| Tipi di pubblico personalizzati di Twitter | 27/03/2017 | Sì | No | Sì | No |
 | Sottotono | 11/07/2017 | No | No | No | No |
 | Verve | 15/06/2017 | Sì | No | No | Sì |
 | VideoAmp | 03/03/2017 | No | No | No | No |

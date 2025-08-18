@@ -1,5 +1,5 @@
 ---
-description: L'Audience Manager richiede che le richieste HTTP(S) server-to-server siano firmate digitalmente per la validità. Questo documento descrive come firmare le richieste HTTP con le chiavi private.
+description: Audience Manager richiede che le richieste HTTP(S) server-to-server siano firmate digitalmente per la validità. Questo documento descrive come firmare le richieste HTTP con le chiavi private.
 seo-description: Audience Manager requires the HTTP(S) server-to-server requests to be digitally signed for validity. This document describes how you can sign HTTP(S) requests with private keys.
 seo-title: Digitally Signed HTTP(S) Requests
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # `HTTP(S)` richieste con firma digitale {#digitally-signed-http-requests}
 
-L&#39;Audience Manager richiede che le richieste server-to-server `HTTP(S)` siano firmate digitalmente per la validità. In questo documento viene descritto come firmare `HTTP(S)` richieste con chiavi private.
+Audience Manager richiede che le richieste server-to-server `HTTP(S)` siano firmate digitalmente per la validità. In questo documento viene descritto come firmare `HTTP(S)` richieste con chiavi private.
 
 ## Panoramica {#overview}
 

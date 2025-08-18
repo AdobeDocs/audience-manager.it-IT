@@ -20,7 +20,7 @@ Questo rapporto restituisce un elenco di caratteristiche che sono state realizza
 
 >[!NOTE]
 >
->Il rapporto Variazione caratteristiche giornaliero in Audience Manager è conforme ai principi RBAC. Puoi visualizzare solo le caratteristiche dalle origini dati a cui hai accesso in base al [gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui appartieni.
+>Il rapporto sulla variazione giornaliera delle caratteristiche in Audience Manager è conforme ai principi RBAC. Puoi visualizzare solo le caratteristiche dalle origini dati a cui hai accesso in base al [gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui appartieni.
 
 La deviazione standard misura l&#39;entità della variazione o della dispersione rispetto alla media (o al valore medio/atteso). Una deviazione standard bassa indica che i punti dati tendono a essere molto vicini alla media. Una deviazione standard elevata indica che i punti dati sono distribuiti su un ampio intervallo di valori.
 

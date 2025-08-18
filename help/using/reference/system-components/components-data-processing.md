@@ -24,15 +24,15 @@ c_comproc.xml
 
  -->
 
-In Audience Manager vengono utilizzati i seguenti componenti per l’elaborazione dei dati:
+Audience Manager utilizza i seguenti componenti per elaborare i dati:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager], Hadoop è il database principale che contiene tutto ciò che [!DNL Audience Manager] conosce di un utente. Quando, ad esempio, i [server cache profili](../../reference/system-components/components-data-collection.md) creano file di registro contenenti dati sugli utenti, inviano tali dati al Hadoop per l&#39;archiviazione. Altri importanti elementi del Hadoop includono:
+In [!DNL Audience Manager], Hadoop è il database principale che contiene tutto ciò che [!DNL Audience Manager] conosce di un utente. Ad esempio, quando i [server cache profili](../../reference/system-components/components-data-collection.md) creano file di registro contenenti dati sugli utenti, inviano tali dati a Hadoop per l&#39;archiviazione. Altri importanti elementi di Hadoop includono:
 
-* **Hive:** data warehouse per Hadoop. Hive gestisce le query ad hoc sui dati memorizzati nel Hadoop.
+* **Hive:** data warehouse per Hadoop. Hive gestisce le query ad hoc sui dati memorizzati in Hadoop.
 
-* **HBase:** Database di Hadoop molto grande. Elabora e gestisce i dati in entrata e in uscita, le regole sulle caratteristiche, le informazioni sulla modellazione algoritmica ed esegue molte altre funzioni correlate all&#39;archiviazione e allo spostamento dei dati in sistemi diversi.
+* **HBase:** Database di Hadoop di grandi dimensioni. Elabora e gestisce i dati in entrata e in uscita, le regole sulle caratteristiche, le informazioni sulla modellazione algoritmica ed esegue molte altre funzioni correlate all&#39;archiviazione e allo spostamento dei dati in sistemi diversi.
 
 I clienti non hanno accesso diretto a questi sistemi. Tuttavia, i clienti lavorano indirettamente con loro, in quanto questi componenti memorizzano dati importanti sui visitatori del loro sito.
 
@@ -60,7 +60,7 @@ SOLR è un database open-source e un sistema server di Apache. Fornisce funziona
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] utilizza [Tableau](https://www.tableausoftware.com/) per visualizzare i dati nei [report interattivi](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) e nei [report Audienci Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md). I rapporti interattivi visualizzano i dati sulle prestazioni e sulla sovrapposizione per caratteristiche e segmenti. Invece di utilizzare numeri disposti in colonne e righe, restituiscono dati utilizzando forme, colori e dimensioni diversi. Inoltre, puoi scegliere singoli punti dati o gruppi di punti dati ed approfondire i risultati del rapporto per ulteriori dettagli. Queste tecniche di visualizzazione e l’interattività dei rapporti facilitano la comprensione di grandi quantità di dati numerici.
+[!DNL Audience Manager] utilizza [Tableau](https://www.tableausoftware.com/) per visualizzare i dati nei [report interattivi](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) e nei [report Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md). I rapporti interattivi visualizzano i dati sulle prestazioni e sulla sovrapposizione per caratteristiche e segmenti. Invece di utilizzare numeri disposti in colonne e righe, restituiscono dati utilizzando forme, colori e dimensioni diversi. Inoltre, puoi scegliere singoli punti dati o gruppi di punti dati ed approfondire i risultati del rapporto per ulteriori dettagli. Queste tecniche di visualizzazione e l’interattività dei rapporti facilitano la comprensione di grandi quantità di dati numerici.
 
 
 

@@ -122,9 +122,9 @@ Il primo passaggio del processo richiede l’intervento di Adobe Consulting o de
 
 ### Passaggio 2 - Fornitore di dati - Creazione di un nuovo Source dati
 
-Nell’account di Audience Manager, crea una nuova origine dati per cookie con:
+Nel tuo account Audience Manager, crea una nuova origine dati per cookie con:
 
-* **ID Audience Manager** come chiave in entrata;
+* **Audience Manager ID** come chiave in entrata;
 * L&#39;opzione **Condividi abilitato** è selezionata.
 
 ![](assets/create-datasource.png)

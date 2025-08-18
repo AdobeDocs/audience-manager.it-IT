@@ -1,5 +1,5 @@
 ---
-description: Descrive la sintassi e i parametri utilizzati nella chiamata HTTP iniziale per sincronizzare gli ID utente tra un fornitore e un Audience Manager. La sincronizzazione ID può iniziare dopo l’invio della tassonomia dei dati all’Audience Manager.
+description: Descrive la sintassi e i parametri utilizzati nella chiamata HTTP iniziale per sincronizzare gli ID utente tra un fornitore e Audience Manager. La sincronizzazione ID può iniziare dopo l’invio della tassonomia dei dati ad Audience Manager.
 seo-description: Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between a vendor and Audience Manager. ID synchronization can begin after you send your data taxonomy to Audience Manager.
 seo-title: ID Synchronization for Inbound Data Transfers
 solution: Audience Manager
@@ -50,7 +50,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
  <tbody> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_ID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>ID univoco del provider di contenuti (assegnato dall'Audience Manager <span class="keyword"></span>). </p> </td> 
+   <td colname="col2"> <p>ID univoco del provider di contenuti (assegnato da <span class="keyword"> Audience Manager</span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 

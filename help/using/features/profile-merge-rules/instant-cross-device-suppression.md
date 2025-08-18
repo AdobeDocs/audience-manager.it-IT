@@ -28,7 +28,7 @@ I dettagli tecnici della rimozione dai segmenti in tempo reale sono descritti in
 
 ## Non eseguire il targeting dopo la conversione {#do-not-target-once}
 
-Assicurati che gli utenti che hanno già convertito (acquistato un prodotto, acquistato un abbonamento, ecc.) non visualizzerà gli stessi messaggi visualizzati prima della conversione. È possibile ottenere questo risultato utilizzando la logica [!UICONTROL AND NOT], come segue.
+Assicurati che gli utenti che hanno già convertito (acquistato un prodotto, acquistato un abbonamento, ecc.) non visualizzino gli stessi messaggi visualizzati prima della conversione. È possibile ottenere questo risultato utilizzando la logica [!UICONTROL AND NOT], come segue.
 
 1. Creare un segmento utilizzando due caratteristiche e utilizzare la logica [!UICONTROL AND NOT], come illustrato nell&#39;immagine seguente. È necessario utilizzare una caratteristica basata su regole per definire l’evento di conversione per l’attivazione in tempo reale della rimozione dai segmenti. Ulteriori informazioni su come [creare caratteristiche basate su regole](../traits/create-onboarded-rule-based-traits.md).
 2. Mappa il segmento a un numero qualsiasi di destinazioni in tempo reale da server a server. Scopri come aggiungere segmenti a [destinazioni da server a server](../destinations/add-edit-segments.md).

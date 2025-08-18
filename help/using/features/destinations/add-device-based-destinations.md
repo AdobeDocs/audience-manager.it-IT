@@ -27,7 +27,7 @@ Il processo di aggiunta di una nuova destinazione basata su dispositivo consiste
 
 ## Prerequisiti {#prerequisites}
 
-Quando crei la prima destinazione basata su dispositivo con una piattaforma integrata, contatta Adobe Consulting o l’Assistenza clienti per abilitare la sincronizzazione ID tra Audience Manager e la piattaforma integrata per il tuo account. Questa operazione è necessaria per la corretta sincronizzazione tra Audience Manager e la piattaforma di destinazione.
+Quando crei la prima destinazione basata su dispositivo con una piattaforma integrata, contatta Adobe Consulting o l’Assistenza clienti per abilitare la sincronizzazione ID tra Audience Manager e la piattaforma integrata per il tuo account. Questo è necessario per la corretta sincronizzazione tra Audience Manager e la piattaforma di destinazione.
 
 ## Passaggio 1: Autenticazione con una piattaforma di destinazione {#step1}
 
@@ -39,7 +39,7 @@ Prima di poter creare una nuova destinazione basata su dispositivo, devi configu
 
    ![piattaforme integrate](assets/dbd-integrated-platforms.png)
 
-1. Dopo aver eseguito l’autenticazione all’account della piattaforma di destinazione, viene effettuato il reindirizzamento all’Audience Manager in cui dovrebbero essere visualizzati gli account pubblicitari associati. Selezionare l&#39;account pubblicitario che si desidera utilizzare e fare clic su **[!DNL Confirm]**.
+1. Dopo aver eseguito l’autenticazione nell’account della piattaforma di destinazione, vieni reindirizzato ad Audience Manager dove dovresti visualizzare gli account pubblicitari associati. Selezionare l&#39;account pubblicitario che si desidera utilizzare e fare clic su **[!DNL Confirm]**.
 
 ## Passaggio 2: Creare una nuova destinazione basata su dispositivo {#step2}
 

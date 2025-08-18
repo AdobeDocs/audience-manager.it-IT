@@ -1,5 +1,5 @@
 ---
-description: Un file di metadati collega gli ID numerici con nomi che puoi leggere e comprendere. Nei rapporti di Audience Optimization vengono visualizzati nomi leggibili nei vari menu delle opzioni dei rapporti.
+description: Un file di metadati collega gli ID numerici con nomi che puoi leggere e comprendere. I rapporti di Audience Optimization mostrano nomi leggibili nei vari menu delle opzioni dei rapporti.
 seo-description: A metadata file links numeric IDs with names you can read and understand. The Audience Optimization reports display readable names in the various report options menus.
 seo-title: Overview and Mappings for Metadata Files
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Panoramica e mappature dei file di metadati{#overview-and-mappings-for-metadata-files}
 
-Un file di metadati collega gli ID numerici con nomi che puoi leggere e comprendere. Nei rapporti di Audience Optimization vengono visualizzati nomi leggibili nei vari menu delle opzioni dei rapporti.
+Un file di metadati collega gli ID numerici con nomi che puoi leggere e comprendere. I rapporti di Audience Optimization mostrano nomi leggibili nei vari menu delle opzioni dei rapporti.
 
 ## Panoramica {#overview}
 
@@ -34,11 +34,11 @@ La chiamata dell&#39;evento organizza le informazioni in set di coppie chiave-va
 
 Il file di metadati è necessario per collegare un ID numerico a un nome leggibile. Ad esempio, supponiamo che una chiamata evento contenga un ID creativo in una coppia chiave-valore come questa: `d_creative:1234`. Senza un file di metadati, questo contenuto creativo verrebbe visualizzato come 1234 in un menu di opzioni.
 
-Tuttavia, un file di metadati formattato correttamente può ricollegare questo contenuto creativo a un nome reale come &quot;Inserzionista Creativo A&quot;, che è un nome che puoi leggere e riconoscere in un rapporto.
+Tuttavia, un file di metadati formattato correttamente può ricollegare questo contenuto creativo a un nome reale come &quot;Inserzionista Creative A&quot;, che è un nome che puoi leggere e riconoscere in un rapporto.
 
 ### Quando è necessario un file di metadati
 
-In primo luogo, un file di metadati e tutti i parametri elencati di seguito sono necessari in una chiamata evento quando si desidera utilizzare i [report di Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+In primo luogo, un file di metadati e tutti i parametri elencati di seguito sono necessari in una chiamata evento quando si desidera utilizzare i [report Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 In secondo luogo, è necessario un file di metadati se si inviano i propri dati a [!DNL Audience Manager] o se si desidera visualizzare i dati nei report di altri provider con cui non è stata eseguita l&#39;integrazione. [!DNL Audience Manager], ad esempio, ha un&#39;integrazione con [Fare doppio clic su Campaign Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) di Google. A causa di questa relazione, [!DNL Audience Manager] può associare gli ID ai nomi e alle descrizioni utilizzati dalle opzioni del report. Senza un’integrazione, possiamo comunque acquisire i dati, ma le opzioni del rapporto mostreranno gli ID numerici invece del nome descrittivo.
 
@@ -73,7 +73,7 @@ Nella tabella seguente sono elencate le coppie chiave-valore che contengono i da
    <td colname="col2"> <p> <code>d_campaign = <i>campaign ID</i></code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Creativo </p> </td> 
+   <td colname="col1"> <p>Creative </p> </td> 
    <td colname="col2"> <p> <code>d_creative = <i>creative ID</i></code> </p> </td> 
   </tr> 
   <tr> 

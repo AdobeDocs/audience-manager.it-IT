@@ -50,7 +50,7 @@ La tabella seguente definisce i componenti di base di una chiamata [!DNL DCS] se
    <td colname="col1"> <p> <code> domain alias.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>Questa parte della chiamata contiene: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Alias di dominio assegnato dall'Audience Manager </span> di <span class="keyword"> (ad esempio, <code> my_domain.demdex.net</code>). </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Alias di dominio assegnato da <span class="keyword"> Audience Manager</span> (esempio: <code> my_domain.demdex.net</code>). </li> 
       <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Il dominio di destinazione, che è sempre <code> demdex.net</code>. Vedere <a href="../../../reference/demdex-calls.md"> Informazioni sulle chiamate al dominio demdex</a>. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -81,7 +81,7 @@ La tabella seguente definisce i componenti di base di una chiamata [!DNL DCS] se
       <li id="li_4B6B29499D444E31808DE0A9AA0442D0"> <code> d_rtbd=json</code> </li> 
       <li id="li_3430CD0438604B83BE6437E6EC480816"> <code>d_cb=<i>callback</i></code> </li>
      </ul> </p> </td> 
-   <td colname="col2"> <p>Parametri di risposta facoltativi. </p> <p> Nessuna di queste è necessaria per inviare dati al DCS <span class="wintitle"></span>. Tuttavia, se desideri che il DCS</span> di <span class="wintitle"> restituisca una risposta, devi includere <code> d_rtbd=json</code> nella richiesta. </p> <p>Vedi <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#d-attributes"> d_ Coppie chiave-valore definite</a>. </p> </td> 
+   <td colname="col2"> <p>Parametri di risposta facoltativi. </p> <p> Nessuna di queste è necessaria per inviare dati al DCS <span class="wintitle"></span>. Tuttavia, se desideri che il DCS<span class="wintitle"> di </span> restituisca una risposta, devi includere <code> d_rtbd=json</code> nella richiesta. </p> <p>Vedi <a href="../../../api/dcs-intro/dcs-api-reference/dcs-keys.md#d-attributes"> d_ Coppie chiave-valore definite</a>. </p> </td> 
   </tr>
  </tbody>
 </table>

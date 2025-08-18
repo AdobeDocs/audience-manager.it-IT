@@ -9,7 +9,7 @@ feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
 workflow-type: tm+mt
-source-wordcount: '2558'
+source-wordcount: '2563'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Informazioni su requisiti generali, autenticazione, parametri di query facoltativi, richiesta [!DNL URLs] e altri riferimenti.
 
-## Requisiti API e Recommendations {#api-requirements-recommendations}
+## Raccomandazioni e requisiti per l’utilizzo delle API {#api-requirements-recommendations}
 
 Quando si lavora con il codice [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/), tieni presente quanto segue:
 
@@ -33,9 +33,9 @@ Quando si lavora con il codice [Audience Manager API](https://bank.demdex.com/po
 
 [!DNL Audience Manager] [!DNL REST APIs] supporta tre metodi di autenticazione.
 
-* [!BADGE Consigliato]{type=positive}[Autenticazione server-to-server OAuth](#oauth-adobe-developer) tramite [Adobe Developer Console](https://www.adobe.io/). [!DNL Adobe Developer] è l&#39;ecosistema di sviluppatori e la community di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis/). Si tratta del metodo consigliato per impostare e utilizzare [!DNL Adobe] [!DNL APIs]. Per ulteriori informazioni sull&#39;[autenticazione server-to-server OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/), consulta la documentazione per gli sviluppatori di Adobe.
-* [!BADGE Obsoleto]{type=negative}Autenticazione [JWT (account di servizio)](#jwt) tramite [Adobe Developer Console](https://www.adobe.io/). [!DNL Adobe Developer] è l&#39;ecosistema di sviluppatori e la community di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis/).
-* [!BADGE Obsoleto]{type=negative}[Autenticazione OAuth legacy](#oauth-deprecated). Anche se questo metodo è obsoleto, i clienti con integrazioni [!DNL OAuth] esistenti possono continuare a utilizzarlo.
+* [!BADGE Consigliata]{type=positive} [Autenticazione server-to-server OAuth](#oauth-adobe-developer) tramite [la console per sviluppatori Adobe](https://www.adobe.io/). [!DNL Adobe Developer] è l&#39;ecosistema e la community di sviluppatori di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis/). Si tratta del metodo consigliato per impostare e utilizzare [!DNL Adobe] [!DNL APIs]. Ulteriori informazioni sull&#39;[autenticazione server-to-server OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) nella documentazione per gli sviluppatori di Adobe.
+* [!BADGE Autenticazione ]{type=negative} [JWT (account di servizio) ](#jwt) obsoleta tramite la [console per sviluppatori Adobe](https://www.adobe.io/). [!DNL Adobe Developer] è l&#39;ecosistema e la community di sviluppatori di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis/).
+* [!BADGE Obsoleta]{type=negative} [Autenticazione OAuth legacy](#oauth-deprecated). Anche se questo metodo è obsoleto, i clienti con integrazioni [!DNL OAuth] esistenti possono continuare a utilizzarlo.
 
 >[!IMPORTANT]
 >
@@ -43,13 +43,13 @@ Quando si lavora con il codice [Audience Manager API](https://bank.demdex.com/po
 
 ## Autenticazione server-to-server OAuth tramite Adobe Developer {#oauth-adobe-developer}
 
-Questa sezione illustra come raccogliere le credenziali necessarie per autenticare le chiamate API Audience Manager, come descritto nel diagramma di flusso seguente. È possibile raccogliere la maggior parte delle credenziali richieste nella configurazione iniziale una tantum. Il token di accesso, tuttavia, deve essere aggiornato ogni 24 ore.
+Questa sezione illustra come raccogliere le credenziali necessarie per autenticare le chiamate API di Audience Manager, come descritto nel diagramma di flusso seguente. È possibile raccogliere la maggior parte delle credenziali richieste nella configurazione iniziale una tantum. Il token di accesso, tuttavia, deve essere aggiornato ogni 24 ore.
 
-![Audience Manager diagramma del flusso di autenticazione.](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
+![Diagramma del flusso di autenticazione di Audience Manager.](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
 
 ### Panoramica di Adobe Developer {#developer-overview}
 
-[!DNL Adobe Developer] è l&#39;ecosistema di sviluppatori e la community di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis).
+[!DNL Adobe Developer] è l&#39;ecosistema e la community di sviluppatori di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis).
 
 Si tratta del metodo consigliato per impostare e utilizzare [!DNL Adobe] [!DNL APIs].
 
@@ -88,11 +88,11 @@ Viene visualizzata la schermata **[!UICONTROL Add an API]**. Selezionare l&#39;i
 
 >[!TIP]
 >
->Seleziona l&#39;opzione **[!UICONTROL View docs]** per passare in una finestra del browser separata alla [documentazione di riferimento dell&#39;API Audience Manager](https://bank.demdex.com/portal/swagger/index.html#) completa.
+>Seleziona l&#39;opzione **[!UICONTROL View docs]** per passare in una finestra del browser separata alla [documentazione di riferimento API di Audience Manager](https://bank.demdex.com/portal/swagger/index.html#) completa.
 
 ### Seleziona il tipo di autenticazione server-to-server OAuth {#select-oauth-server-to-server}
 
-Quindi, seleziona il tipo di autenticazione per generare token di accesso e accedere all’API Audience Manager.
+Quindi, seleziona il tipo di autenticazione per generare token di accesso e accedere all’API di Audience Manager.
 
 >[!IMPORTANT]
 >
@@ -110,7 +110,7 @@ Selezionare **[!UICONTROL Save configured API]** quando si è pronti.
 
 ### Raccogli le credenziali {#gather-credentials}
 
-Una volta aggiunta l&#39;API al progetto, nella pagina **[!UICONTROL Audience Manager API]** per il progetto vengono visualizzate le credenziali seguenti, necessarie in tutte le chiamate alle API Audience Manager:
+Dopo l&#39;aggiunta dell&#39;API al progetto, nella pagina **[!UICONTROL Audience Manager API]** per il progetto vengono visualizzate le credenziali seguenti, necessarie in tutte le chiamate alle API di Audience Manager:
 
 ![Informazioni sull&#39;integrazione dopo l&#39;aggiunta di un&#39;API in Developer Console.](/help/using/api/rest-api-main/assets/api-integration-information.png)
 
@@ -119,13 +119,13 @@ Una volta aggiunta l&#39;API al progetto, nella pagina **[!UICONTROL Audience Ma
 
 ## Generare un token di accesso {#generate-access-token}
 
-Il passaggio successivo consiste nel generare una credenziale `{ACCESS_TOKEN}` da utilizzare nelle chiamate API Audience Manager. A differenza dei valori per `{API_KEY}` e `{ORG_ID}`, è necessario generare un nuovo token ogni 24 ore per continuare a utilizzare le API Audience Manager. Selezionare **[!UICONTROL Generate access token]**, come illustrato di seguito.
+Il passaggio successivo consiste nel generare una credenziale `{ACCESS_TOKEN}` da utilizzare nelle chiamate API di Audience Manager. A differenza dei valori per `{API_KEY}` e `{ORG_ID}`, è necessario generare un nuovo token ogni 24 ore per continuare a utilizzare le API di Audience Manager. Selezionare **[!UICONTROL Generate access token]**, come illustrato di seguito.
 
 ![Mostra come generare il token di accesso](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
 
 ## Testare una chiamata API {#test-api-call}
 
-Dopo aver ottenuto il token Bearer di autenticazione, esegui una chiamata API per verificare che ora puoi accedere alle API Audience Manager.
+Dopo aver ottenuto il token di autenticazione bearer, esegui una chiamata API per verificare che ora puoi accedere alle API di Audience Manager.
 
 1. Passa alla [documentazione di riferimento API](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_).
 2. Selezionare **[!UICONTROL Authorize]** e incollare il token di accesso ottenuto nel passaggio [genera token di accesso](#generate-access-token).
@@ -211,13 +211,13 @@ Quando utilizzi un token di accesso funzionante, l’endpoint API restituisce un
 
 >[!ENDSHADEBOX]
 
-## [!BADGE Obsoleto]{type=negative}Autenticazione di [!DNL JWT] ([!DNL Service Account]) tramite Adobe Developer {#jwt}
+## [!BADGE Autenticazione obsoleta]{type=negative} [!DNL JWT] ([!DNL Service Account]) con Adobe Developer {#jwt}
 
 +++ Visualizza informazioni sul metodo [!DNL JWT] ([!DNL Service Account]) obsoleto per ottenere i token di autenticazione.
 
 ### Panoramica di Adobe Developer {#adobeio}
 
-[!DNL Adobe Developer] è l&#39;ecosistema di sviluppatori e la community di Adobe. Include [API per tutti i prodotti Adobe](https://www.adobe.io/apis.html).
+[!DNL Adobe Developer] è l&#39;ecosistema e la community di sviluppatori di Adobe. Include [API per tutti i prodotti Adobe](https://www.adobe.io/apis.html).
 
 Si tratta del metodo consigliato per impostare e utilizzare [!DNL Adobe] [!DNL APIs].
 
@@ -240,7 +240,7 @@ Per configurare l&#39;autenticazione di [!DNL JWT (Service Account)] tramite [!D
 
 ### Autorizzazioni RBAC dell’account tecnico
 
-Se l&#39;account Audience Manager utilizza [Controllo degli accessi basato sul ruolo](../../features/administration/administration-overview.md), è necessario creare un account utente tecnico Audience Manager e aggiungerlo al gruppo RBAC Audience Manager che effettuerà le chiamate API.
+Se il tuo account Audience Manager utilizza [Controllo degli accessi basato sul ruolo](../../features/administration/administration-overview.md), devi creare un account utente tecnico di Audience Manager e aggiungerlo al gruppo RBAC di Audience Manager che effettuerà le chiamate API.
 
 Per creare un account utente tecnico e aggiungerlo a un gruppo RBAC, effettua le seguenti operazioni:
 
@@ -252,7 +252,7 @@ Per creare un account utente tecnico e aggiungerlo a un gruppo RBAC, effettua le
 
 +++
 
-## [!BADGE Obsoleto]{type=negative}Autenticazione [!DNL OAuth] (obsoleto) {#oauth-deprecated}
+## [!BADGE Autenticazione ]{type=negative} Obsoleta[!DNL OAuth] (Obsoleta) {#oauth-deprecated}
 
 +++ Visualizza informazioni sul metodo di autenticazione legacy [!DNL OAuth] obsoleto per ottenere i token di autenticazione.
 
@@ -402,7 +402,7 @@ Nella tabella seguente sono elencate le richieste [!DNL URLs] utilizzate per tra
 
 A seconda del metodo di autenticazione utilizzato, è necessario modificare la richiesta [!DNL URLs] in base alle tabelle seguenti.
 
-### Richiedi [!DNL URLs] per [!BADGE Consigliato]{type=positive}[!BADGE Obsoleto]{type=negative}Autenticazione di [!DNL JWT] tramite Adobe Developer {#request-urls-jwt}
+### Richiedi [!DNL URLs] per il server OAuth [!BADGE Consigliato]{type=positive} e l&#39;autenticazione [!BADGE Obsoleta]{type=negative} [!DNL JWT] tramite Adobe Developer {#request-urls-jwt}
 
 | Metodi [!DNL API] | Richiedi [!DNL URL] |
 |--- |--- |
@@ -420,7 +420,7 @@ A seconda del metodo di autenticazione utilizzato, è necessario modificare la r
 
 {style="table-layout:auto"}
 
-### Richiedi [!DNL URLs] per [!BADGE Obsoleto]{type=negative}Autenticazione [!DNL OAuth] {#request-urls-oauth}
+### Richiedi [!DNL URLs] per l&#39;autenticazione [!BADGE  legacy ]{type=negative}Obsoleta[!DNL OAuth] {#request-urls-oauth}
 
 | Metodi [!DNL API] | Richiedi [!DNL URL] |
 |--- |--- |

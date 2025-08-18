@@ -111,7 +111,7 @@ Sì.
 
 **Le stime delle dimensioni dei segmenti includono i dispositivi qualificati per un segmento in base alle connessioni fornite da una [!UICONTROL Profile Merge Rule] che utilizza un’opzione del grafico dei dispositivi?**
 
-No. Vedi le definizioni di [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=it).
+No. Vedi le definizioni di [!UICONTROL Estimated Real-Time Population] e [!UICONTROL Estimated Total Population] in [Trait and Segment Population Data in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
@@ -263,7 +263,7 @@ No.
 
 Alla fine del 2019 sono stati rilasciati una serie di miglioramenti alle Profile Merge Rules per migliorare la precisione dei file batch generati utilizzando ID multi-dispositivo. Questi miglioramenti saranno rigorosamente rispettati nella tua istanza di Audience Manager a partire da lunedì 16 marzo 2020. Di conseguenza, i segmenti mappati su una destinazione utilizzando ID multi-dispositivo cesseranno di produrre esportazioni in alcune configurazioni delle regole di unione profili.
 
-Per garantire la corretta integrazione tra l’istanza Audience Manager e le destinazioni utilizzando ID multi-dispositivo, come Adobe Campaign, assicurati di soddisfare i seguenti requisiti:
+Per garantire la corretta integrazione tra l’istanza di Audience Manager e le destinazioni utilizzando ID multi-dispositivo, come Adobe Campaign, assicurati di soddisfare i seguenti requisiti:
 
 1. Esamina la regola di unione profili utilizzata dai segmenti mappati sulla destinazione dell’ID dichiarato di Adobe Campaign. La regola di unione profili deve utilizzare l&#39;opzione [!UICONTROL Last Authenticated Profile], in modo che tutti i profili autenticati possano essere inclusi nelle esportazioni. Se la regola di unione profili utilizza un&#39;opzione diversa, passala a [!UICONTROL Last Authenticated Profile].
 2. Seleziona l’origine dati Adobe Campaign Declared ID (ID dichiarato) nelle impostazioni della regola di unione profili.

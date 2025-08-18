@@ -1,5 +1,5 @@
 ---
-description: Un file di dati contiene dati su impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager e utilizzarli nei rapporti di Audience Optimization e per i file di registro fruibili. Formattare i file di dati in base alle specifiche di questa sezione.
+description: Un file di dati contiene dati su impression, clic o conversione. Una volta formattati correttamente, puoi importare questi dati in Audience Manager e utilizzarli nei rapporti di Audience Optimization e per i file di registro fruibili. Formattare i file di dati in base alle specifiche di questa sezione.
 seo-description: A data file contains impression, click, or conversion data. When formatted properly, you can import this data into Audience Manager and use it in the Audience Optimization reports and for Actionable Log Files. Format your data files according to the specifications in this section.
 seo-title: Data Files for Audience Optimization Reports and Actionable Log Files
 solution: Audience Manager
@@ -16,11 +16,11 @@ ht-degree: 1%
 
 # File di dati per report di Audience Optimization e file di registro fruibili {#data-files-for-audience-optimization-reports}
 
-Un file di dati contiene dati su impression, clic o conversione. Una volta formattati correttamente, è possibile importare i dati in Audience Manager per visualizzarli nei [Report Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) e creare caratteristiche utilizzando i dati tramite [File di registro fruibili](/help/using/integration/media-data-integration/actionable-log-files.md). Formatta i file di dati in base alle specifiche riportate in questa sezione.
+Un file di dati contiene dati su impression, clic o conversione. Se formattati correttamente, puoi importare questi dati in Audience Manager per visualizzarli nei [report di Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) e creare caratteristiche utilizzando i dati tramite [file di registro fruibili](/help/using/integration/media-data-integration/actionable-log-files.md). Formatta i file di dati in base alle specifiche riportate in questa sezione.
 
 ## Panoramica {#overview}
 
-Un file di dati formattato e denominato in modo corretto consente di importare i dati sulle impression, sui clic o sulla conversione in [Report di Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Questa funzione è utile quando si lavora con un partner non integrato con [!DNL Audience Manager] e si desidera lavorare con i relativi dati in quella suite di rapporti. Questo processo richiede file separati per i dati di impression, clic e conversione. Non mescolare questi eventi in un singolo file.
+Un file di dati formattato e denominato in modo corretto consente di importare dati su impression, clic o conversione nei [report Audience Optimization](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Questa funzione è utile quando si lavora con un partner non integrato con [!DNL Audience Manager] e si desidera lavorare con i relativi dati in quella suite di rapporti. Questo processo richiede file separati per i dati di impression, clic e conversione. Non mescolare questi eventi in un singolo file.
 
 Un file di dati deve essere accompagnato da un file di metadati. Il contenuto del file di metadati corrisponde alle informazioni del file di dati con le relative etichette leggibili dall&#39;utente nei menu del report. Per ulteriori informazioni, vedere [Panoramica e mappature dei file di metadati](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
@@ -90,7 +90,7 @@ La tabella seguente elenca e descrive le intestazioni di colonna per il file di 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Creative-ID </p> </td> 
-   <td colname="col2"> <p>ID creatività. </p> </td> 
+   <td colname="col2"> <p>ID Creative. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID sito </p> </td> 
@@ -170,7 +170,7 @@ La tabella seguente definisce ciascuno di questi elementi in un percorso di cons
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Questa coppia chiave-valore contiene l'ID cliente dell'Audience Manager <span class="keyword"></span>. </p> </td> 
+   <td colname="col2"> <p>Questa coppia chiave-valore contiene l'ID cliente <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 

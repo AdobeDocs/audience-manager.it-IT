@@ -23,7 +23,7 @@ Nelle tabelle seguenti, *corsivo* rappresenta un segnaposto variabile.
 |---|---|---|
 | 0 | Errore non specificato | Si tratta di un errore catch-all che gestisce eventi non coperti dagli altri gestori di errori. La risoluzione di questo errore è difficile. Può essere causata da una serie di azioni o eventi sconosciuti. Se si riceve questo errore, riprovare la richiesta [!DNL DCS]. Se il problema persiste, contatta il rappresentante [!DNL Adobe]. |
 | 1 | Impossibile trovare la configurazione per il nome host: `hostname` | Il nome host inviato nella richiesta non è stato configurato dal nostro team di provisioning partner. Se ricevi questo messaggio di errore, contatta il rappresentante [!DNL Adobe]. |
-| 2 | Valore `d_orgid` non valido (impossibile trovare una configurazione per questo ID organizzazione): `ID` | L’ID organizzazione non è corretto. Controlla il tuo ID e invia di nuovo la richiesta. Se non conosci o non possiedi il tuo ID organizzazione, consulta la sezione &quot;Pagina di amministrazione&quot; [Organizzazioni e collegamento di account](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=it) per informazioni su come trovarlo. |
+| 2 | Valore `d_orgid` non valido (impossibile trovare una configurazione per questo ID organizzazione): `ID` | L’ID organizzazione non è corretto. Controlla il tuo ID e invia di nuovo la richiesta. Se non conosci o non possiedi il tuo ID organizzazione, consulta la sezione &quot;Pagina di amministrazione&quot; [Organizzazioni e collegamento di account](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) per informazioni su come trovarlo. |
 | 10 | Impossibile valutare le caratteristiche | Le caratteristiche della richiesta sono state valutate parzialmente o non sono state valutate affatto. Se il problema persiste, contatta il rappresentante [!DNL Adobe]. |
 
 ## Codici errore di integrazione {#integration-error-codes}
@@ -66,12 +66,12 @@ Nelle tabelle seguenti, *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>198 </p> </td> 
    <td colname="col2"> <p>Le richieste provenienti da questo paese sono bloccate dai partner </p> </td> 
-   <td colname="col3"> <p>In base all'indirizzo IP, il DCS</span> di <span class="wintitle"> blocca le richieste provenienti da paesi in cui il partner ha deliberatamente limitato il traffico. </p> </td> 
+   <td colname="col3"> <p>In base all'indirizzo IP, il DCS<span class="wintitle"> di </span> blocca le richieste provenienti da paesi in cui il partner ha deliberatamente limitato il traffico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>199 </p> </td> 
    <td colname="col2"> <p>Non sono consentite richieste da questo paese </p> </td> 
-   <td colname="col3"> <p>In base all'indirizzo IP, il DCS</span> di <span class="wintitle"> blocca le richieste dai seguenti paesi: </p> <p> 
+   <td colname="col3"> <p>In base all'indirizzo IP, il DCS<span class="wintitle"> di </span> blocca le richieste dai seguenti paesi: </p> <p> 
      <ul id="ul_4017A7D074064FE7A8B5618AFCFA4E28"> 
       <li id="li_EE65DEC3C64F4522B214C503DC754DC1">Cuba (CU) </li> 
       <li id="li_EDE8B304D35A41458DCFF11E9328802A">Iran (IR) </li> 
@@ -117,12 +117,12 @@ Nelle tabelle seguenti, *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>204 </p> </td> 
    <td colname="col2"> <p>Impossibile eseguire la migrazione perché la lettura del profilo per il dispositivo primario non è riuscita </p> </td> 
-   <td colname="col3"> <p>Se ricevi questo errore, potrebbero verificarsi problemi di scalabilità con l'archivio dati (<span class="wintitle"> PCS</span>). Se il problema persiste, contatta il rappresentante del tuo Adobe. </p> </td> 
+   <td colname="col3"> <p>Se ricevi questo errore, potrebbero verificarsi problemi di scalabilità con l'archivio dati (<span class="wintitle"> PCS</span>). Se il problema persiste, contatta il rappresentante Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
    <td colname="col2"> <p>Impossibile eseguire la migrazione da <code><i>ID</i></code> a <code><i>ID</i></code>. Lettura del profilo non riuscita per <code><i>ID</i></code> </p> </td>
-   <td colname="col3"> <p>Se ricevi questo errore, potrebbero verificarsi problemi di scalabilità con l'archivio dati (<span class="wintitle"> PCS</span>). Se il problema persiste, contatta il rappresentante del tuo Adobe. </p> </td> 
+   <td colname="col3"> <p>Se ricevi questo errore, potrebbero verificarsi problemi di scalabilità con l'archivio dati (<span class="wintitle"> PCS</span>). Se il problema persiste, contatta il rappresentante Adobe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -151,7 +151,7 @@ Nelle tabelle seguenti, *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>ID cliente non autorizzato <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Restituito quando l'origine dati dell'ID cliente non è di proprietà dell'ID organizzazione corrente. Se non conosci o non possiedi il tuo ID organizzazione, consulta la sezione "Trova il tuo ID organizzazione" in <a href="https://experiencecloud.adobe.com/resources/help/it_IT/mcloud/organizations.html" format="https" scope="external"> Organizzazioni e collegamento account</a> per informazioni su come trovarlo. </p> </td> 
+   <td colname="col3"> <p>Restituito quando l'origine dati dell'ID cliente non è di proprietà dell'ID organizzazione corrente. Se non conosci o non possiedi il tuo ID organizzazione, consulta la sezione "Trova il tuo ID organizzazione" in <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizzazioni e collegamento account</a> per informazioni su come trovarlo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
@@ -176,22 +176,22 @@ Nelle tabelle seguenti, *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
    <td colname="col2"> <p>L'ID cliente <code><i>ID</i></code> è stato eliminato perché ha superato il limite di ID cliente dichiarati per richiesta </p> </td> 
-   <td colname="col3"> <p>Correlato all’errore 301. Questo errore specifica quale ID cliente è stato scartato a causa del superamento del limite. </p> <p>Ad esempio, se nella chiamata DCS</span> di <span class="wintitle"> sono dichiarati 12 ID cliente, due di essi verranno eliminati. Per inoltrare quali sono stati scartati, questo errore verrà visualizzato due volte nella risposta (una volta per ogni ID cliente scartato ). </p> </td>
+   <td colname="col3"> <p>Correlato all’errore 301. Questo errore specifica quale ID cliente è stato scartato a causa del superamento del limite. </p> <p>Ad esempio, se nella chiamata DCS<span class="wintitle"> di </span> sono dichiarati 12 ID cliente, due di essi verranno eliminati. Per inoltrare quali sono stati scartati, questo errore verrà visualizzato due volte nella risposta (una volta per ogni ID cliente scartato ). </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>L'ID cliente è stato scartato perché superava il limite per un dato spazio dei nomi. ID dello spazio dei nomi: <code><i>ID</i></code>; ID cliente: <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Questo codice di errore viene restituito se sono presenti più di 3 ID cliente dichiarati per lo stesso spazio dei nomi (<code> DPID</code>) in una chiamata DCS</span> di <span class="wintitle">. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In questa richiesta <span class="wintitle"> DCS</span> di esempio sono presenti 4 ID dichiarati per lo stesso spazio dei nomi (con codice di integrazione 1). Uno degli ID viene eliminato e viene restituito l’errore 310. </p> </td> 
+   <td colname="col3"> <p>Questo codice di errore viene restituito se sono presenti più di 3 ID cliente dichiarati per lo stesso spazio dei nomi (<code> DPID</code>) in una chiamata DCS<span class="wintitle"> di </span>. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In questa richiesta <span class="wintitle"> DCS</span> di esempio sono presenti 4 ID dichiarati per lo stesso spazio dei nomi (con codice di integrazione 1). Uno degli ID viene eliminato e viene restituito l’errore 310. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
    <td colname="col2"> <p>La richiesta contiene parametri non validi </p> </td> 
-   <td colname="col3"> <p>Il DCS</span> di <span class="wintitle"> restituisce questo codice di errore quando almeno un parametro URL non è codificato correttamente. In questo caso, il DCS <span class="wintitle"></span> ignora l'intera richiesta. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>Nella richiesta di esempio precedente, la sequenza <code> %</code> non è codificata correttamente. Di conseguenza, il DCS <span class="wintitle"></span> lo ignorerà. </p> <p>L’esempio codificato correttamente dovrebbe essere simile al seguente: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
+   <td colname="col3"> <p>Il DCS<span class="wintitle"> di </span> restituisce questo codice di errore quando almeno un parametro URL non è codificato correttamente. In questo caso, il DCS <span class="wintitle"></span> ignora l'intera richiesta. </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%esid!&amp;d_creative=%ecid!&amp;d_adgroup=%eaid!&amp;d_placement=%epid!&amp;d_campaign=%ebuy!&amp;d_adsrc=48123</code> </p> <p>Nella richiesta di esempio precedente, la sequenza <code> %</code> non è codificata correttamente. Di conseguenza, il DCS <span class="wintitle"></span> lo ignorerà. </p> <p>L’esempio codificato correttamente dovrebbe essere simile al seguente: </p> <p><code>http(s)://partner.demdex.net/event?d_event=imp&amp;d_rtbd=json&amp;d_src=38454&amp;d_site=%25esid!&amp;d_creative=%25ecid!&amp;d_adgroup=%25eaid!&amp;d_placement=%25epid!&amp;d_campaign=%25ebuy!&amp;d_adsrc=48123</code> </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>La richiesta contiene un ID dispositivo globale non valido </p> </td> 
-   <td colname="col3"> <p><span class="wintitle">DCS</span> restituisce questo codice di errore se la richiesta contiene un ID dispositivo globale non valido. DCS ignora l’ID non valido e genera un errore 312 insieme a errori specifici dell’ID non valido. Consulta <a href="../../../features/global-data-sources.md" format="dita" scope="local">Global Data Sources</a> e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index of IDs nell'Audience Manager</a> per informazioni dettagliate sui formati degli ID di Device Advertising corretti e sulle corrispondenti origini dati globali.</p>
+   <td colname="col3"> <p><span class="wintitle">DCS</span> restituisce questo codice di errore se la richiesta contiene un ID dispositivo globale non valido. DCS ignora l’ID non valido e genera un errore 312 insieme a errori specifici dell’ID non valido. Consulta <a href="../../../features/global-data-sources.md" format="dita" scope="local">Global Data Sources</a> e <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index of IDs in Audience Manager</a> per informazioni dettagliate sui formati degli ID di pubblicità del dispositivo corretti e sulle corrispondenti origini dati globali.</p>
    <p>Esempio di chiamata non corretta: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Spiegazione: un <span class="keyword">IDFA (DPID 20915)</span> deve essere un ID maiuscolo. L’ID fornito nella richiesta è in minuscolo.</p>
    </td>
@@ -205,7 +205,7 @@ Nelle tabelle seguenti, *corsivo* rappresenta un segnaposto variabile.
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>L’ID CMP è contrassegnato come eliminato in GCL</p> </td> 
-   <td colname="col3"> <p>Quando <code>gdpr=1</code> e la stringa TC IAB vengono generati da una CMP contrassegnata come eliminata nella versione cache dell'elenco CMP globale, il plug-in Audience Manager per IAB TCF elimina la stringa TC ed elabora la richiesta come di consueto, se il tempo di valutazione è superiore al tempo di eliminazione dall'elenco CMP globale. La macro IAB TCF v2.2 ${GDPR} è impostata su 0 e la macro ${GDPR_CONSENT_XXX} è vuota.</p></td>
+   <td colname="col3"> <p>Quando <code>gdpr=1</code> e la stringa TC IAB vengono generati da una CMP contrassegnata come eliminata nella versione cache dell'elenco CMP globale, il plug-in di Audience Manager per IAB TCF elimina la stringa TC ed elabora la richiesta come di consueto, se il tempo di valutazione è superiore al tempo di eliminazione dall'elenco CMP globale. La macro IAB TCF v2.2 ${GDPR} è impostata su 0 e la macro ${GDPR_CONSENT_XXX} è vuota.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 

@@ -3,7 +3,7 @@ description: Sintesi della metodologia di campionamento utilizzata per alcune re
 seo-description: A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 seo-title: Data Sampling and Error Rates in Selected Audience Manager Reports
 solution: Audience Manager
-title: Campionamento di dati e tassi di errore nei report di Audienci Manager selezionati
+title: Campionamento di dati e tassi di errore nei rapporti di Audience Manager selezionati
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Campionamento di dati e tassi di errore nei report di Audienci Manager selezionati{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Campionamento di dati e tassi di errore nei rapporti di Audience Manager selezionati{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Sintesi della metodologia di campionamento utilizzata per alcune relazioni, tassi di errore di campionamento e un elenco di relazioni che restituiscono informazioni basate sui dati campionati.
 
 ## Rapporto di campionamento dei dati {#data-sampling-ratio}
 
-Alcuni rapporti di [!DNL Audience Manager] visualizzano i risultati in base a un set campionato della quantità totale di dati disponibili. Il rapporto tra i dati campionati è di 1:54. Per i rapporti che utilizzano dati campionati, ciò significa che i risultati si basano su 1 record su ogni set di 54 record.
+Alcuni rapporti di [!DNL Audience Manager] visualizzano i risultati in base a un set campionato della quantità totale di dati disponibili. Il rapporto dei dati campionati è 1:54. Per i rapporti che utilizzano dati campionati, ciò significa che i risultati si basano su 1 record su ogni set di 54 record.
 
 Questi rapporti utilizzano dati statistici campionati perché hanno bisogno di una quantità enorme di potenza di elaborazione per generare risultati. Il campionamento consente di trovare un equilibrio tra la riduzione delle esigenze di elaborazione, il mantenimento delle prestazioni del sistema e la fornitura di risultati accurati.
 
@@ -88,4 +88,4 @@ Reports that use Minhash sampling methodology:
 |--- |--- |
 | [Dati del pubblico indirizzabile](../features/addressable-audiences.md) (dati a livello di cliente e segmento). | [Rapporti di sovrapposizione](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (da caratteristica a caratteristica, da segmento a caratteristica e da segmento a segmento) |
 | La metrica [Dispositivi totali](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) per un [!UICONTROL Profile Merge Rule]. | [Raccomandazioni sulle caratteristiche](/help/using/features/segments/trait-recommendations.md) |
-| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utilizza i dati campionati nella scheda [!UICONTROL Search] e in qualsiasi [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utilizza i dati campionati nella scheda [!UICONTROL Search] e in qualsiasi [!UICONTROL Saved Searches] | [Consigli di Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

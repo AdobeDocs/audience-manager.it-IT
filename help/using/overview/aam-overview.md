@@ -19,9 +19,9 @@ ht-degree: 85%
 
 Audience Manager ti consente di unire le risorse dei dati sul pubblico, semplificando così la raccolta di informazioni rilevanti dal punto di vista commerciale sui visitatori del sito, la creazione di segmenti commerciabili e la distribuzione di contenuti e pubblicità mirati al pubblico giusto. Audience Manager offre inoltre una facile distribuzione e gestione dei tag con funzioni affidabili di raccolta, controllo e protezione dei dati.
 
-Con Audience Manager, non sei legato a una piattaforma di vendita o scambio di dati o a una piattaforma lato domanda. Inoltre, l’Audience Manager è completamente agnostico in merito alle risorse di dati dei nostri partner. Con l’accesso a più origini di dati, Audience Manager offre agli editori digitali la possibilità di utilizzare un’ampia varietà di dati di terze parti. Rivolgiti al nostro team di soluzioni dei partner per informazioni su come prendere decisioni intelligenti e accurate sul pubblico di destinazione.
+Con Audience Manager, non sei legato a una piattaforma di vendita o scambio di dati o a una piattaforma lato domanda. Inoltre, Audience Manager è completamente agnostico in merito alle risorse di dati dei nostri partner. Con l’accesso a più origini di dati, Audience Manager offre agli editori digitali la possibilità di utilizzare un’ampia varietà di dati di terze parti. Rivolgiti al nostro team di soluzioni dei partner per informazioni su come prendere decisioni intelligenti e accurate sul pubblico di destinazione.
 
-## Tre funzioni di una piattaforma di gestione dati (DMP, Data Management Platform) {#dmp-three-functions}
+## Tre funzioni di una piattaforma di gestione dati (DMP) {#dmp-three-functions}
 
 Le funzioni di una piattaforma di gestione dati (DMP, Data Management Platform) possono essere riassunte in tre categorie, come illustrato di seguito.
 

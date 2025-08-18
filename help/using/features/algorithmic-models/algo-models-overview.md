@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Cos’è la modellazione algoritmica{#what-algo-modeling}
 
-La modellazione algoritmica in Audience Manager si riferisce all’utilizzo della scienza dei dati per espandere i tipi di pubblico esistenti o classificarli in utenti tipo.
+La modellazione algoritmica in Audience Manager si riferisce all’utilizzo della data science per espandere i tipi di pubblico esistenti o classificarli in utenti tipo.
 
 Questa operazione viene eseguita tramite due tipi di algoritmi: [!UICONTROL Look-Alike Modeling] e [!UICONTROL Predictive Audiences].
 

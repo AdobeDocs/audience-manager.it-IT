@@ -1,5 +1,5 @@
 ---
-description: I pixel semplici (che possono essere utilizzati per qualificare gli utenti per le caratteristiche) eseguono trasferimenti di dati in tempo reale. L’interfaccia Audience Manager consente ai client di creare un numero qualsiasi di pixel su base self-service. Le stringhe di pixel sono costituite da ID semplici o coppie chiave-valore.
+description: I pixel semplici (che possono essere utilizzati per qualificare gli utenti per le caratteristiche) eseguono trasferimenti di dati in tempo reale. L’interfaccia di Audience Manager consente ai client di creare un numero qualsiasi di pixel su base self-service. Le stringhe di pixel sono costituite da ID semplici o coppie chiave-valore.
 seo-description: Simple pixels (that can be used to qualify users for traits) perform real-time data transfers. The Audience Manager interface lets clients create any number of pixels on a self-service basis. Pixel strings consist of simple IDs or key-value pairs.
 seo-title: Pixel-based Data Transfers
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Trasferimenti di dati basati su pixel {#pixel-based-data-transfers}
 
-I pixel semplici (che possono essere utilizzati per qualificare gli utenti per le caratteristiche) eseguono trasferimenti di dati in tempo reale. L’interfaccia Audience Manager consente ai client di creare un numero qualsiasi di pixel su base self-service. Le stringhe di pixel sono costituite da ID semplici o coppie chiave-valore.
+I pixel semplici (che possono essere utilizzati per qualificare gli utenti per le caratteristiche) eseguono trasferimenti di dati in tempo reale. L’interfaccia di Audience Manager consente ai client di creare un numero qualsiasi di pixel su base self-service. Le stringhe di pixel sono costituite da ID semplici o coppie chiave-valore.
 
 <!-- c_rt_inbound_pixel_transfers.xml -->
 

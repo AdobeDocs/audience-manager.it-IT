@@ -191,7 +191,7 @@ No, in questo caso non fare affidamento sui [!UICONTROL General Reports] e [!UIC
 
 I report calcolano le popolazioni in base ai record di profilo non autenticati (UUID) visualizzati nel back-end al momento della generazione dei report.
 
-In una prima chiamata al [!DNL DCS], gli ID dichiarati *non* sono collegati ad alcun UUID (ovvero, nessun [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=it) è presente sul lato client). Il [!DNL DCS] genera un UUID in modo casuale, imposta un cookie [!DNL demdex] e lo trasmette nella chiamata di risposta, ma non trasmette l’UUID al back-end.
+In una prima chiamata al [!DNL DCS], gli ID dichiarati *non* sono collegati ad alcun UUID (ovvero, nessun [cookie demdex](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) è presente sul lato client). Il [!DNL DCS] genera un UUID in modo casuale, imposta un cookie [!DNL demdex] e lo trasmette nella chiamata di risposta, ma non trasmette l’UUID al back-end.
 
 >[!NOTE]
 >

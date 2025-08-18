@@ -20,9 +20,9 @@ Il rapporto Caratteristiche di conversione mostra tutte le caratteristiche etich
 
 Le caratteristiche di conversione per i gruppi di conversione possono passare dall’esecuzione dei rapporti a quella dei rapporti. Il rapporto visualizza le caratteristiche di conversione per gruppo di conversione per la data di rapporto selezionata.
 
-Per scoprire come creare le caratteristiche di conversione in Audience Manager, guarda il video seguente:
+Per scoprire come creare caratteristiche di conversione in Audience Manager, guarda il video seguente:
 
->[!VIDEO](https://video.tv.adobe.com/v/329877?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23431/)
 
 ## Report di esempio
 

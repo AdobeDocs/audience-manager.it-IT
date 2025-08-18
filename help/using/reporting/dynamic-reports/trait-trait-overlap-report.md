@@ -20,7 +20,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra tutte le caratteri
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione di cui all’Audience Manager rispettano i principi RBAC. Puoi visualizzare solo le caratteristiche dalle origini dati a cui hai accesso in base al [gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui appartieni.
+>I rapporti di sovrapposizione in Audience Manager sono conformi ai principi RBAC. Puoi visualizzare solo le caratteristiche dalle origini dati a cui hai accesso in base al [gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui appartieni.
 
 <!-- 
 
@@ -104,7 +104,7 @@ La finestra a comparsa per il report [!UICONTROL Trait-to-Trait Overlap] contien
   </tr> 
   <tr> 
    <td colname="col1">Univoci di sovrapposizione <b><span class="wintitle"></span></b> </td> 
-   <td colname="col2"> <p>Per ottenere la percentuale di sovrapposizione, in Audience Manager viene utilizzata la formula seguente:</p> <p>Univoci sovrapposti / (Univoci delle caratteristiche di base + Univoci delle caratteristiche sovrapposte - Univoci sovrapposti)</p> </td> 
+   <td colname="col2"> <p>Per ottenere la percentuale di sovrapposizione, Audience Manager utilizza la seguente formula:</p> <p>Univoci sovrapposti / (Univoci delle caratteristiche di base + Univoci delle caratteristiche sovrapposte - Univoci sovrapposti)</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b><span class="wintitle"> Unique di caratteristiche sovrapposte</span></b> </td> 
@@ -123,5 +123,5 @@ La finestra a comparsa per il report [!UICONTROL Trait-to-Trait Overlap] contien
 >* [Forme, colori e dimensioni utilizzati nei report dinamici](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Icone e strumenti di report spiegati](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Campionamento di dati e tassi di errore nei report di Audienci Manager selezionati...](../../reporting/report-sampling.md)
+>* [Campionamento di dati e tassi di errore nei rapporti di Audience Manager selezionati...](../../reporting/report-sampling.md)
 >* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)

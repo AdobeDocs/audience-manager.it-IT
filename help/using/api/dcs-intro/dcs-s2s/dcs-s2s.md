@@ -44,7 +44,7 @@ Attualmente, questa guida illustra come:
 Aggiungeremo nuovi metodi non appena saranno disponibili. Per iniziare, consulta le sezioni seguenti.
 
 * [Ottenere ID utente e aree geografiche da una risposta DCS](dcs-aam-ids.md)
-* [Ottieni ID utente e aree geografiche tramite l’ID Experience Cloud...](dcs-mcid-ids.md)
+* [Ottieni ID utente e aree geografiche tramite Experience Cloud ID...](dcs-mcid-ids.md)
 * [Esecuzione di chiamate API DCS server-to-server](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]

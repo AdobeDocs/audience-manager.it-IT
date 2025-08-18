@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Compressione file per i file di trasferimento dati in entrata{#file-compression-for-inbound-data-transfer-files}
 
-Puoi comprimere i file di dati quando li invii a Audience Manager.
+Puoi comprimere i file di dati quando li invii ad Audience Manager.
 
 <!-- inbound-file-compression.xml -->
 

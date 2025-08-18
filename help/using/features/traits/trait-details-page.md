@@ -25,8 +25,8 @@ La parte superiore della pagina dei dettagli di [!UICONTROL trait] contiene gli 
 
 1. **[!UICONTROL Add New]**: utilizzare questa opzione per creare nuovi [!UICONTROL rule-based], [!UICONTROL algorithmic] o [!UICONTROL onboarded traits].
 2. **[!UICONTROL Edit]**: utilizzare questa opzione per modificare la configurazione dell&#39;elemento [!UICONTROL trait] corrente.
-3. **[!UICONTROL Delete]**: utilizzare questa opzione per rimuovere [!UICONTROL trait] corrente dall&#39;account di Audience Manager.
-4. **[!UICONTROL Marketplace Recommendations]**: Utilizzare questa opzione per trovare [!UICONTROL traits] simile a quello visualizzato, da [!UICONTROL Audience Marketplace] tariffe dati a cui non si è abbonati. Consulta l&#39;[Audience Marketplace per gli acquirenti di dati](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) per scoprire come navigare in [!UICONTROL Marketplace] e trovare caratteristiche simili.
+3. **[!UICONTROL Delete]**: utilizza questa opzione per rimuovere [!UICONTROL trait] corrente dal tuo account Audience Manager.
+4. **[!UICONTROL Marketplace Recommendations]**: Utilizzare questa opzione per trovare [!UICONTROL traits] simile a quello visualizzato, da [!UICONTROL Audience Marketplace] tariffe dati a cui non si è abbonati. Consulta [Audience Marketplace for Data Buyers](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) per scoprire come navigare in [!UICONTROL Marketplace] e trovare caratteristiche simili.
 
 ![informazioni sulle caratteristiche di base](assets/basic-trait-information.png)
 
@@ -42,7 +42,7 @@ La sezione [!UICONTROL Trait Information] mostra i dettagli sui campi obbligator
 
 Per [!UICONTROL rule-based traits], la qualifica per [!UICONTROL trait] avviene in tempo reale, in quanto gli utenti si qualificano per [!UICONTROL trait] nel browser.
 
-Per [!UICONTROL onboarded traits], la qualifica di [!UICONTROL trait] si verifica dopo l&#39;elaborazione di un file in entrata, ovvero il file in entrata è [inserito nell&#39;Audience Manager](../../faq/faq-inbound-data-ingestion.md), ovvero quando si verifica la qualifica di [!UICONTROL trait].
+Per [!UICONTROL onboarded traits], la qualifica di [!UICONTROL trait] si verifica dopo l&#39;elaborazione di un file in entrata, ovvero il file in entrata è [inviato in Audience Manager](../../faq/faq-inbound-data-ingestion.md) e si verifica quando si verifica la qualifica di [!UICONTROL trait].
 
 [!UICONTROL Trait Graph] mostra le seguenti informazioni:
 
@@ -61,9 +61,9 @@ Per [!UICONTROL onboarded traits], la qualifica di [!UICONTROL trait] si verific
 
   >[!NOTE]
   >
-  >In Audience Manager viene visualizzato il report [!UICONTROL Identity Type Breakdown] solo se si dispone di [!UICONTROL cross-device] ID qualificati per [!UICONTROL trait].
+  >Audience Manager visualizza il report [!UICONTROL Identity Type Breakdown] solo se si dispone di [!UICONTROL cross-device] ID qualificati per [!UICONTROL trait].
 
-  >[!VIDEO](https://video.tv.adobe.com/v/36989?captions=ita)
+  >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 ## Espressione [!UICONTROL Trait] {#trait-expression}
 

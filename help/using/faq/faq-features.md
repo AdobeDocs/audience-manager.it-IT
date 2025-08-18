@@ -33,7 +33,7 @@ L’*`Organization ID`* è un ID univoco che consente ad [!DNL Audience Manager]
 
 Per esempio, un *`Organization ID`* ha questo aspetto: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-L’*`Organization ID`* viene utilizzato dall’API [DIL](../dil/dil-overview.md) di Audience Manager, da [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e da altre soluzioni [!DNL Experience Cloud]. Gli utenti con autorizzazioni di amministratore possono trovare l’*`Organization ID`* in [!DNL Adobe Admin Console]. Consulta [Administration - User Management FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
+L’*`Organization ID`* viene utilizzato dall’API [DIL](../dil/dil-overview.md) di Audience Manager, da [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) e da altre soluzioni [!DNL Experience Cloud]. Gli utenti con autorizzazioni di amministratore possono trovare l’*`Organization ID`* in [!DNL Adobe Admin Console]. Consulta [Administration - User Management FAQ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
  
 
@@ -49,7 +49,7 @@ Sì. Consulta [Bulk Management Tools](../reference/bulk-management-tools/bulk-ma
 
 **Durante l&#39;esportazione di un ID bulk in una destinazione, mancano alcuni ID cliente. Perché succede?**
 
-Quando un ID dispositivo ([UUID AAM](../reference/ids-in-aam.md)) è collegato a più ID CRM ([DPUUID](../reference/ids-in-aam.md)), viene esportato solo il mapping più recente. Per questo motivo è possibile che venga esportato un numero di ID dispositivo inferiore al previsto.
+Quando un ID dispositivo ([AAM UUID](../reference/ids-in-aam.md)) è collegato a più ID CRM ([DPUUID](../reference/ids-in-aam.md)), viene esportato solo il mapping più recente. Per questo motivo è possibile che venga esportato un numero di ID dispositivo inferiore al previsto.
 
  
 
@@ -67,7 +67,7 @@ Il feed di dati e tutte le caratteristiche in esso contenute vengono visualizzat
 
 **Che cosa è [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager utilizzava [!UICONTROL Tag Insertion Manager] (TIM) per creare e gestire [!UICONTROL data collection code (DIL)]. Questa funzionalità è obsoleta ed è stata sostituita prima da [!UICONTROL Dynamic Tag Manager (DTM)] e successivamente da [!DNL Adobe Experience Platform Tags]. Per ulteriori informazioni, vedere [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
+Audience Manager utilizzava [!UICONTROL Tag Insertion Manager] (TIM) per creare e gestire [!UICONTROL data collection code (DIL)]. Questa funzionalità è obsoleta ed è stata sostituita prima da [!UICONTROL Dynamic Tag Manager (DTM)] e successivamente da [!DNL Adobe Experience Platform Tags]. Per ulteriori informazioni, vedere [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
  
 
@@ -95,4 +95,4 @@ Dovresti utilizzare le Raccomandazioni sulle caratteristiche quando:
 
 **C’è qualche differenza tra i segmenti di Adobe Analytics e Audience Manager?**
 
-Sì, leggi [Understanding Segments in Analytics and Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=it) per una descrizione dettagliata delle differenze.
+Sì, leggi [Understanding Segments in Analytics and Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.

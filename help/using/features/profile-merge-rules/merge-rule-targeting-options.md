@@ -60,7 +60,7 @@ Consideriamo un segmento di famiglie con redditi superiori a 100.000 dollari/ann
 
 Audience Manager unisce ogni coppia di profili dispositivo + multi-dispositivo per verificare se il set di caratteristiche unito è idoneo per il segmento. Poiché Audience Manager valuta ogni profilo incluso nell’unione, è possibile segmentare sia un profilo dispositivo che un profilo famiglia.
 
-Il collegamento tra il dispositivo e il profilo di famiglia consente a Audience Manager di qualificare [!DNL Household 2] per il segmento, ma non [!DNL Household 1]. Da [!DNL Household 2], solo [!DNL Device 3] è idoneo per il segmento. [!UICONTROL Profile Merge Rule] ha consentito all&#39;addetto marketing di inviare un messaggio di marketing coerente a un singolo dispositivo ([!DNL Device 3]) e alla famiglia ([!DNL Household 2]).
+Il collegamento tra il dispositivo e il profilo di famiglia consente ad Audience Manager di qualificare [!DNL Household 2] per il segmento, ma non [!DNL Household 1]. Da [!DNL Household 2], solo [!DNL Device 3] è idoneo per il segmento. [!UICONTROL Profile Merge Rule] ha consentito all&#39;addetto marketing di inviare un messaggio di marketing coerente a un singolo dispositivo ([!DNL Device 3]) e alla famiglia ([!DNL Household 2]).
 
 ![gestione familiare](assets/household-management.png)
 
@@ -72,7 +72,7 @@ Il collegamento tra il dispositivo e il profilo di famiglia consente a Audience 
 
 Questo scenario di targeting è disponibile solo per i clienti che hanno acquistato il componente aggiuntivo [!DNL People-Based Destinations]. Questa regola consente agli esperti di marketing di raggiungere i clienti in base ai propri dati autenticati.
 
-Supponiamo che un rivenditore online desideri raggiungere i clienti esistenti tramite piattaforme social e mostrare loro offerte personalizzate basate sui loro ordini precedenti. Con [!UICONTROL People-Based Destinations], è possibile acquisire gli indirizzi e-mail con hash dal proprio [!DNL CRM] in Audience Manager, creare segmenti dai dati offline e inviare questi segmenti alle piattaforme social sulle quali desiderano fare pubblicità, utilizzando l&#39;identificatore con hash, ottimizzando le spese pubblicitarie.
+Supponiamo che una retailer online desideri raggiungere i clienti esistenti tramite piattaforme social e mostrare loro offerte personalizzate basate sui loro ordini precedenti. Con [!UICONTROL People-Based Destinations], è possibile acquisire indirizzi e-mail con hash dal proprio [!DNL CRM] in Audience Manager, creare segmenti dai dati offline e inviare questi segmenti alle piattaforme social sulle quali desiderano fare pubblicità, utilizzando l&#39;identificatore con hash, ottimizzando le spese pubblicitarie.
 
 Per ulteriori informazioni su questa opzione, consulta [Destinazioni basate sulle persone](../destinations/people-based-destinations-overview.md).
 
@@ -113,7 +113,7 @@ La scelta dell&#39;opzione [!UICONTROL device graph] per una regola [!UICONTROL 
 
 Guarda il video seguente per una panoramica dei possibili casi d&#39;uso per [!UICONTROL Profile Merge Rules].
 
->[!VIDEO](https://video.tv.adobe.com/v/34897?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28975/)
 
 >[!MORELIKETHIS]
 >

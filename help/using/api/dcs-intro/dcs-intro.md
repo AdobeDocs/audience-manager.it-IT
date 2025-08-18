@@ -1,7 +1,7 @@
 ---
 title: Metodi e codice dell’API Data Collection Server (DCS)
 seo-title: Data Collection Server (DCS) API Methods and Code for Adobe Audience Manager (AAM)
-description: Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS, Data Collection Servers) di Audience Manager.
+description: Codice, metodi e tecniche che consentono di lavorare in modo programmatico con i server di raccolta dati (DCS, Data Collection Servers) di Audience Manager.
 seo-description: Code, methods, and techniques that let you work programmatically with the Audience Manager Data Collection Servers (DCS).
 feature: DCS
 exl-id: be18a59c-c70d-4dcb-ae84-58ab0a3b8921
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # Metodi e codice dell’API Data Collection Server (DCS)
 
-Codice, metodi e tecniche che consentono di utilizzare in modo programmatico i server di raccolta dati (DCS, Data Collection Servers) di Audience Manager.
+Codice, metodi e tecniche che consentono di lavorare in modo programmatico con i server di raccolta dati (DCS, Data Collection Servers) di Audience Manager.
 
 * [API di chiamate evento DCS](/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 

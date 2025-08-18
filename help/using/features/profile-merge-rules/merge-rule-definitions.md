@@ -1,5 +1,5 @@
 ---
-description: Le opzioni delle regole di unione ti consentono di controllare il tipo di dati utilizzati dall’Audience Manager per la segmentazione. Una regola di unione può includere profili di dispositivi mappati dal grafico dei dispositivi Collegamento profilo e/o altri provider di grafici dei dispositivi di terze parti integrati con Audience Manager. Puoi creare un massimo di 4 regole di unione profili.
+description: Le opzioni delle regole di unione ti consentono di controllare il tipo di dati utilizzati da Audience Manager per la segmentazione. Una regola di unione può includere profili di dispositivi mappati dal grafico dei dispositivi Collegamento profilo e/o altri provider di grafici dei dispositivi di terze parti integrati con Audience Manager. Puoi creare un massimo di 4 regole di unione profili.
 seo-description: The merge rule options let you control the type of data Audience Manager uses for segmentation. A merge rule can include device profiles mapped by the Profile Link device graph and/or other, third-party device graph providers who are integrated with Audience Manager. You can create a maximum of 4 Profile Merge Rules.
 seo-title: Profile Merge Rule Options Defined
 solution: Audience Manager
@@ -52,7 +52,7 @@ La valutazione del batch [!UICONTROL segment] può richiedere fino a 24 ore per 
 
 ## [!UICONTROL Cross-Device Options] {#auth-options}
 
-[!UICONTROL Cross-Device Options] consente di selezionare utenti autenticati e non autenticati e di sfruttare il loro profilo multi-dispositivo per la segmentazione. Queste opzioni consentono di identificare e raggiungere utenti specifici su un dispositivo condiviso. Per ulteriori informazioni sugli utenti anonimi e autenticati, vedi [Stati di autenticazione del visitatore nell&#39;Audience Manager](../../reference/visitor-authentication-states.md).
+[!UICONTROL Cross-Device Options] consente di selezionare utenti autenticati e non autenticati e di sfruttare il loro profilo multi-dispositivo per la segmentazione. Queste opzioni consentono di identificare e raggiungere utenti specifici su un dispositivo condiviso. Per ulteriori informazioni sugli utenti anonimi e autenticati, vedi [Stati di autenticazione dei visitatori in Audience Manager](../../reference/visitor-authentication-states.md).
 
 <table id="table_4CE2DD312F54480E96BEAF72800789FB"> 
  <thead> 
@@ -64,19 +64,19 @@ La valutazione del batch [!UICONTROL segment] può richiedere fino a 24 ore per 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Nessun profilo multi-dispositivo</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica all'Audience Manager <span class="keyword"></span> di non utilizzare i dati raccolti dagli utenti autenticati. </p> </td> 
+   <td colname="col2"> <p>Indica a <span class="keyword"> Audience Manager</span> di non utilizzare i dati raccolti dagli utenti autenticati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> profili autenticati correnti</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica all'Audience Manager <span class="keyword"></span> di leggere e scrivere dati nel profilo autenticato se un visitatore ha effettuato l'accesso al sito. </p> </td> 
+   <td colname="col2"> <p>Indica a <span class="keyword"> Audience Manager</span> di leggere e scrivere dati nel profilo autenticato se un visitatore ha effettuato l'accesso al sito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> ultimi profili autenticati</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica all'Audience Manager <span class="keyword"></span> di leggere i dati dal profilo autenticato dell'ultimo utente che ha eseguito l'accesso al dispositivo. </p> <p>Se questa opzione è selezionata, l'Audience Manager <span class="keyword"></span> non scriverà nuovi dati sulle caratteristiche nel profilo autenticato se l'utente è anonimo. Al momento dell’autenticazione, i nuovi dati delle caratteristiche vengono scritti nel profilo autenticato dell’utente. </p> </td>
+   <td colname="col2"> <p>Indica a <span class="keyword"> Audience Manager</span> di leggere i dati dal profilo autenticato dell'ultimo utente che ha eseguito l'accesso al dispositivo. </p> <p>Se questa opzione è selezionata, <span class="keyword"> Audience Manager</span> non scriverà nuovi dati sulle caratteristiche nel profilo autenticato se l'utente è anonimo. Al momento dell’autenticazione, i nuovi dati delle caratteristiche vengono scritti nel profilo autenticato dell’utente. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Tutti I Profili Cross-Device</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica ad Audience Manager di leggere dati da tutti i profili multi-dispositivo, indipendentemente dallo stato di autenticazione. Questa opzione è disponibile solo per gli Audienci Manager di clienti che hanno acquistato il componente aggiuntivo Destinazioni basate su persone.</p> </td>
+   <td colname="col2"> <p>Indica ad Audience Manager di leggere i dati da tutti i profili tra dispositivi, indipendentemente dallo stato di autenticazione. Questa opzione è disponibile solo per i clienti di Audience Manager che hanno acquistato il componente aggiuntivo Destinazioni basate su persone.</p> </td>
   </tr>
  </tbody>
 </table>
@@ -99,15 +99,15 @@ La valutazione del batch [!UICONTROL segment] può richiedere fino a 24 ore per 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Nessun profilo dispositivo</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica all'Audience Manager <span class="keyword"></span> di non utilizzare le caratteristiche contenute nel profilo anonimo per la segmentazione. </p> </td> 
+   <td colname="col2"> <p>Indica a <span class="keyword"> Audience Manager</span> di non utilizzare le caratteristiche contenute nel profilo anonimo per la segmentazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> profilo dispositivo</span></b> </p> </td> 
-   <td colname="col2"> <p>Indica all'Audience Manager <span class="keyword"></span> di utilizzare il profilo dispositivo anonimo per la segmentazione. </p> </td> 
+   <td colname="col2"> <p>Indica a <span class="keyword"> Audience Manager</span> di utilizzare il profilo dispositivo anonimo per la segmentazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Grafico dei dispositivi di collegamento del profilo <b><span class="uicontrol"></span></b> </p> </td> 
-   <td colname="col2"> <p>Indica all'Audience Manager <span class="keyword"></span> di leggere i profili dal dispositivo corrente e fino a 100 altri dispositivi da cui l'utente ha eseguito l'autenticazione. Questo grafo di dispositivi è basato sui tuoi dati di prime parti nell'Audience Manager </span> di <span class="keyword">. È ideale per i clienti che hanno un elevato livello di autenticazione nelle loro proprietà digitali. Il grafico dei dispositivi <span class="wintitle"> Profile Link</span> è stato aggiornato in tempo reale. Questa opzione è disponibile quando si seleziona <b><span class="uicontrol"> profilo corrente autenticato</span></b> o <b><span class="uicontrol"> ultimo profilo autenticato</span></b>. Quando si utilizza questa opzione, è possibile scegliere un solo profilo autenticato (<span class="keyword"> Audience Manager</span> elimina automaticamente gli altri). Vedi anche <a href="profile-link-use-case.md"> casi d'uso del grafico dei dispositivi di collegamento dei profili</a>. </p> </td>
+   <td colname="col2"> <p>Indica a <span class="keyword"> Audience Manager</span> di leggere i profili dal dispositivo corrente e fino a 100 altri dispositivi da cui l'utente ha eseguito l'autenticazione. Questo grafico dei dispositivi è basato sui tuoi dati di prime parti in <span class="keyword"> Audience Manager</span>. È ideale per i clienti che hanno un elevato livello di autenticazione nelle loro proprietà digitali. Il grafico dei dispositivi <span class="wintitle"> Profile Link</span> è stato aggiornato in tempo reale. Questa opzione è disponibile quando si seleziona <b><span class="uicontrol"> profilo corrente autenticato</span></b> o <b><span class="uicontrol"> ultimo profilo autenticato</span></b>. Quando si utilizza questa opzione, è possibile scegliere un solo profilo autenticato (<span class="keyword"> Audience Manager</span> elimina automaticamente gli altri). Vedi anche <a href="profile-link-use-case.md"> casi d'uso del grafico dei dispositivi di collegamento dei profili</a>. </p> </td>
   </tr>
 
 <tr> 

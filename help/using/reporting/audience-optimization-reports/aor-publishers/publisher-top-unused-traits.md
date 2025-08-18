@@ -38,7 +38,7 @@ Utilizza la casella a discesa **[!UICONTROL Traits]** per selezionare le caratte
 
 >[!IMPORTANT]
 >
->Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel passaggio 3 di [Importare i file di dati di Google Ad Manager (precedentemente DFP) nell&#39;Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo si assicura che il report specifichi la proprietà Web come [!UICONTROL Order] invece di [!UICONTROL Order ID].
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Order IDs], come descritto nel passaggio 3 di [Importare file di dati di Google Ad Manager (precedentemente DFP) in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo si assicura che il report specifichi la proprietà Web come [!UICONTROL Order] invece di [!UICONTROL Order ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 

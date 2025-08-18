@@ -74,7 +74,7 @@ Le coppie chiave-valore CID e CID_IC sostituiscono DPID e DPUUID. Forniscono le 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Codice di integrazione ID cliente (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Un codice di integrazione <span class="term"></span> è un ID alternativo che è possibile utilizzare al posto dell'ID Data Source, assegnato dall'Audience Manager <span class="keyword"></span>. Per configurare un codice di integrazione, vedere <a href="../features/manage-datasources.md#create-data-source"> Creare un Data Source</a>. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Un codice di integrazione <span class="term"></span> è un ID alternativo che è possibile utilizzare al posto del Data Source ID, assegnato da <span class="keyword"> Audience Manager</span>. Per configurare un codice di integrazione, vedere <a href="../features/manage-datasources.md#create-data-source"> Creare un Data Source</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,7 +117,7 @@ Nella tabella seguente sono riportati alcuni esempi per tipo di evento.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Genera UUID Audience Manager (ID) </p> </td> 
+   <td colname="col1"> <p>Generare Audience Manager UUID (ID) </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EAA764DCFF7244F69ABF67ACEE13E579"> 
      <li id="li_18467A531FAF454A881CBD157BBFD6D2">Nuovo: <code> .../id?d_cid=123%01987...</code> </li> 

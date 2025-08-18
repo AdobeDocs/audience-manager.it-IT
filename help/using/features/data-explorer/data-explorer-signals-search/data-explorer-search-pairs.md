@@ -38,7 +38,7 @@ Questa ricerca restituirà solo i risultati qualificati per tutti e tre i filtri
 
 ## Segnali esclusi dalla ricerca del segnale {#excluded-signals}
 
-Le variabili chiave utilizzate da Audience Manager e precedute dai prefissi `d_` e `h_` non vengono visualizzate da [!UICONTROL Signals Search]. Per informazioni dettagliate, vedi [Requisiti di prefisso per le variabili chiave](../../traits/trait-variable-prefixes.md).
+Le variabili chiave utilizzate da Audience Manager e precedute dai prefissi `d_` e `h_` non sono precedute da [!UICONTROL Signals Search]. Per informazioni dettagliate, vedi [Requisiti di prefisso per le variabili chiave](../../traits/trait-variable-prefixes.md).
 
 ## Distinzione tra maiuscole e minuscole e completamento automatico della ricerca {#case-insensitivity}
 

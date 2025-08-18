@@ -1,5 +1,5 @@
 ---
-description: Questa pagina contiene istruzioni su come configurare e gestire l’integrazione tra piattaforme Audience Manager e piattaforme basate sulle persone.
+description: Questa pagina contiene istruzioni su come configurare e gestire l’integrazione tra Audience Manager e le piattaforme basate sulle persone.
 seo-description: This page contains guidance on how to configure and manage the integration between Audience Manager and people-based platforms.
 seo-title: Authentication with People-Based Platforms
 solution: Audience Manager
@@ -20,7 +20,7 @@ ht-degree: 0%
 >Questo articolo contiene la documentazione del prodotto e illustra come configurare e utilizzare questa funzione. Niente di ciò che è contenuto in questo documento rappresenta un parere legale. Consulta il tuo consulente legale per ricevere assistenza legale.
 
 Questa pagina contiene istruzioni su come configurare e gestire l’integrazione
-tra piattaforme Audience Manager e piattaforme basate su persone.
+tra Audience Manager e le piattaforme basate sulle persone.
 
 >[!NOTE]
 >Questo è un passaggio obbligatorio per le destinazioni basate su persone, indipendentemente dallo scenario di implementazione.
@@ -33,8 +33,8 @@ tra piattaforme Audience Manager e piattaforme basate su persone.
 3. Utilizza il menu a discesa **[!UICONTROL People-Based Platform]** per selezionare la piattaforma con cui configurare l&#39;integrazione.
    ![people-based-platform](assets/pbd-add.png)
 4. Fare clic su **[!UICONTROL Confirm]** per essere reindirizzato alla pagina di autenticazione della piattaforma selezionata.
-5. Dopo aver eseguito l’autenticazione all’account della piattaforma social, vieni reindirizzato all’Audience Manager in cui dovresti visualizzare gli account pubblicitari associati. Selezionare l&#39;account pubblicitario che si desidera utilizzare e fare clic su **[!UICONTROL Confirm]**.
-6. In Audience Manager, nella parte superiore della pagina viene visualizzata una notifica per comunicare se l’account è stato aggiunto correttamente. La notifica ti consente inoltre di aggiungere un indirizzo e-mail di contatto per ricevere notifiche da Adobe quando l’autenticazione della piattaforma social sta per scadere.
+5. Dopo aver eseguito l’autenticazione all’account della piattaforma social, vieni reindirizzato ad Audience Manager per visualizzare gli account pubblicitari associati. Selezionare l&#39;account pubblicitario che si desidera utilizzare e fare clic su **[!UICONTROL Confirm]**.
+6. Audience Manager visualizza una notifica nella parte superiore della pagina per comunicare se l’account è stato aggiunto correttamente. La notifica ti consente inoltre di aggiungere un indirizzo e-mail di contatto per ricevere notifiche da Adobe quando l’autenticazione della piattaforma social network sta per scadere.
 
 ## Gestione della scadenza e delle notifiche del token di autenticazione {#token-expiration-notification}
 

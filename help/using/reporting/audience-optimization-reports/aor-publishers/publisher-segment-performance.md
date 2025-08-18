@@ -43,7 +43,7 @@ Utilizza la casella a discesa **[!UICONTROL Segment]** per selezionare i segment
 
 >[!IMPORTANT]
 >
->Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Line Item IDs], come descritto nel passaggio 3 di [Importare i file di dati di Google Ad Manager (precedentemente DFP) nell&#39;Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo si assicura che il report specifichi la proprietà Web come [!UICONTROL Line Item] invece di [!UICONTROL Line Item ID].
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Line Item IDs], come descritto nel passaggio 3 di [Importare file di dati di Google Ad Manager (precedentemente DFP) in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo si assicura che il report specifichi la proprietà Web come [!UICONTROL Line Item] invece di [!UICONTROL Line Item ID].
 
 ## Interpretazione dei risultati {#interpreting-results}
 
@@ -85,7 +85,7 @@ Il report [!UICONTROL Segment Performance] potrebbe essere simile a quello ripor
   </tr> 
   <tr> 
    <td colname="col1"> <p>Popolazione del segmento in tempo reale </p> </td> 
-   <td colname="col2"> <p>Numero effettivo di visitatori univoci visualizzati in tempo reale per l'intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visualizzati dall'Audience Manager <span class="keyword"></span>. </p> </td> 
+   <td colname="col2"> <p>Numero effettivo di visitatori univoci visualizzati in tempo reale per l'intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visualizzati da <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

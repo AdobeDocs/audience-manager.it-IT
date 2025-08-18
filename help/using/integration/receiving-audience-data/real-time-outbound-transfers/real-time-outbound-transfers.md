@@ -30,7 +30,7 @@ Per utilizzare questo metodo, la piattaforma di destinazione deve soddisfare i s
 
 ## Frequenza
 
-Questo metodo di trasferimento dati può inviare i dati quasi in tempo reale, in quanto gli utenti si qualificano per i segmenti. I messaggi in tempo reale vengono consegnati solo quando l’utente è online e visibile attivamente alla rete Edge di Audience Manager. Facoltativamente, questo metodo può anche inviare batch di dati offline o onboarded ogni 24 ore.
+Questo metodo di trasferimento dati può inviare i dati quasi in tempo reale, in quanto gli utenti si qualificano per i segmenti. I messaggi in tempo reale vengono consegnati solo quando l’utente è online e visibile attivamente alla rete Audience Manager Edge. Facoltativamente, questo metodo può anche inviare batch di dati offline o onboarded ogni 24 ore.
 
 ## Trasferimenti in batch
 
@@ -80,7 +80,7 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviati 
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>Intero </p> </td> 
-   <td colname="col3"> <p>ID dell’oggetto "destination" di Audience Manager. Questo ID ha origine da Audience Manager.</p> </td> 
+   <td colname="col3"> <p>ID dell’oggetto "destination" di Audience Manager. Questo ID proviene da Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -95,7 +95,7 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviati 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>UUID dell'Audience Manager <span class="keyword"></span>. </p> </td> 
+   <td colname="col3"> <p>UUID <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -105,7 +105,7 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviati 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> L'ID dell'area geografica dell'Audience Manager <span class="keyword"></span> in cui è stato visualizzato il dispositivo. Ad esempio, se il dispositivo avesse un'attività a Parigi (Europa), l'ID di regione sarebbe <code> 6</code>. Vedi <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID regioni DCS, posizioni e nomi host</a>. </td> 
+   <td colname="col3"> L'ID dell'area geografica <span class="keyword"> Audience Manager</span> in cui è stato visualizzato il dispositivo. Ad esempio, se il dispositivo avesse un'attività a Parigi (Europa), l'ID di regione sarebbe <code> 6</code>. Vedi <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID regioni DCS, posizioni e nomi host</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -130,7 +130,7 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviati 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Rimosso da un segmento in base all'intervallo di time-to-live <a href="../../../features/traits/segment-ttl-explained.md"> del segmento</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Se non sono stati visti negli ultimi 120 giorni, vengono trasferiti a uno stato inattivo. </li>
      <li>Rimosso a causa di una richiesta di modifica della privacy (ovvero <span class="keyword"> RGPD</span>)</li>
-    </ul> <p>Tutti gli ID partner sincronizzati in un ID <span class="keyword"> Audience Manager</span> riceveranno il flag <code> "Status":"0"</code> quando un utente viene rimosso dai segmenti. </p> </td> 
+    </ul> <p>Tutti gli ID partner sincronizzati con un ID <span class="keyword"> Audience Manager</span> riceveranno il flag <code> "Status":"0"</code> quando un utente viene rimosso dai segmenti. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 

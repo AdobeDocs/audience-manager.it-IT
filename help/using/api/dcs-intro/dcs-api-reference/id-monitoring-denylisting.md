@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## Panoramica
 
-Per proteggere l&#39;infrastruttura Audience Manager da attività dannose, [!DNL DCS] utilizza un algoritmo avanzato per monitorare gli ID ricevuti. Possono essere [!UICONTROL Data Provider Unique User ID]s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s) o [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s). Consulta [Indice degli ID nell&#39;Audience Manager](../../../reference/ids-in-aam.md) per le spiegazioni dettagliate degli ID supportati da Audience Manager.
+Per proteggere l&#39;infrastruttura Audience Manager da attività dannose, [!DNL DCS] utilizza un algoritmo avanzato per monitorare gli ID ricevuti. Possono essere [!UICONTROL Data Provider Unique User ID]s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s) o [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s). Per informazioni dettagliate sugli ID supportati da Audience Manager, consulta [Indice degli ID in Audience Manager](../../../reference/ids-in-aam.md).
 
 [!DNL DCS] controlla la frequenza con cui riceve questi ID per rilevare potenziali attività dannose. Quando [!DNL DCS] rileva una quantità insolitamente elevata di [!DNL DCS] richieste per un determinato ID in un breve periodo di tempo, tale ID viene aggiunto a un elenco Bloccati.
 
@@ -47,7 +47,7 @@ Inserire nell&#39;elenco Bloccati Quando una chiamata ID multipla include anche 
 
 ## Cause e correzioni per la Inserisce nell&#39;elenco Bloccati dell’ID di
 
-La causa più frequente per cui gli ID vengono aggiunti agli elenchi Bloccati è l’integrazione errata tra l’infrastruttura del cliente e l’Audience Manager. Inserire nell&#39;elenco Bloccati Quando identifichi un ID, assicurati di rivedere attentamente le integrazioni dell’Audience Manager. Consulta **Guide all&#39;implementazione e all&#39;integrazione** per informazioni dettagliate su come configurare Audience Manager per l&#39;utilizzo con altre soluzioni Experience Cloud o con sistemi esterni.
+La causa più frequente dell’aggiunta degli ID agli elenchi Bloccati è l’integrazione non corretta tra l’infrastruttura del cliente e Audience Manager. Inserire nell&#39;elenco Bloccati Quando identifichi un ID, assicurati di rivedere attentamente le integrazioni Audience Manager. Consulta **Guide all&#39;implementazione e all&#39;integrazione** per informazioni dettagliate su come configurare Audience Manager per l&#39;utilizzo con altre soluzioni Experience Cloud o con sistemi esterni.
 
 Un&#39;altra causa frequente di aggiunta degli ID agli elenchi Bloccati sono i bot di indicizzazione (crawler web), che in genere causano un aumento del traffico e portano all&#39;invio degli stessi ID a [!DNL DCS] più volte. Se identifichi nei bot di indicizzazione il motivo per cui gli ID vengono aggiunti agli elenchi Bloccati, devi limitare l’accesso dei bot al sito web.
 

@@ -20,15 +20,15 @@ Audience Manager fornisce kit di sviluppo software ([!DNL SDK]s) per [!DNL Andro
 
 >[!IMPORTANT]
 >
->A settembre 2018 è stata rilasciata una nuova versione principale dell’SDK. Questi nuovi SDK per dispositivi mobili di Adobe Experience Platform sono configurabili tramite [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+>A settembre 2018 è stata rilasciata una nuova versione principale di SDK. Questi nuovi SDK per dispositivi mobili di Adobe Experience Platform sono configurabili tramite [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
 * Per iniziare, passa ad [Launch](https://launch.adobe.com/).
-* Per visualizzare cosa è compreso negli archivi Experience Platform SDK, passa a [Github: SDK Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-* Per implementare Audience Manager nella tua app, utilizzando il nuovo SDK v.5, leggi la [documentazione di Adobe Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=it) nella nuova pagina SDK.
+* Per visualizzare cosa è compreso negli archivi di Experience Platform SDK, passa a [Github: SDK di Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+* Per implementare Audience Manager nella tua app, utilizzando il nuovo SDK v.5, leggi la [documentazione di Adobe Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en) nella nuova pagina di SDK.
 
 <br> 
 
-Supportiamo ancora gli SDK Android e iOS 4.x. Per queste librerie di codici SDK, vedi:
+Supportiamo ancora gli SDK Android e iOS 4.x. Per informazioni su queste librerie di codice SDK, consulta:
 
-* [SDK per Android](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=it)
-* [SDK per iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=it)
+* [Android SDK](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
+* [iOS SDK](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)

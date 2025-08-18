@@ -1,5 +1,5 @@
 ---
-description: Metodi che consentono di elencare a livello di programmazione le aree DCS Audienci Manager.
+description: Metodi che consentono di elencare in modo programmatico le aree geografiche DCS di Audience Manager.
 seo-description: Methods that let you programmatically list Audience Manager DCS regions.
 seo-title: DCS Region API Methods
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # Metodi API per le aree geografiche dei DCS {#dcs-region-api-methods}
 
-Metodi che consentono di elencare a livello di programmazione le aree Audienci Manager [!DNL DCS].
+Metodi che consentono di elencare in modo programmatico le aree Audience Manager [!DNL DCS].
 
 <!-- c_rest_api_regions.xml -->
 

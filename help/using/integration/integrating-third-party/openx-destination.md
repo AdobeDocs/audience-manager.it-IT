@@ -1,5 +1,5 @@
 ---
-description: Imposta OpenX come destinazione e invia i dati dei segmenti Audience Manager a quella piattaforma.
+description: Imposta OpenX come destinazione e invia i dati dei segmenti Audience Manager a tale piattaforma.
 seo-description: Set up OpenX as a destination and send Audience Manager segment data to that platform.
 seo-title: OpenX as an Audience Manager Destination
 solution: Audience Manager
@@ -10,7 +10,7 @@ exl-id: 938a518b-c8b0-4e86-885f-daf79b2cba38
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -28,15 +28,15 @@ Standard per il posizionamento del codice, i formati chiave-valore supportati, i
 
 <!-- aam-openx-requirements.xml -->
 
-Prima di impostare [!DNL OpenX] come destinazione di Audience Manager, verificare quanto segue:
+Prima di configurare [!DNL OpenX] come destinazione Audience Manager, verificare quanto segue:
 
 * **[!UICONTROL DIL]:** Il codice [!UICONTROL Data Integration Library] deve essere distribuito sul sito. [!UICONTROL DIL] elimina la necessità di scrivere codice speciale per la raccolta dati, l&#39;integrazione, la lettura dei valori dei cookie e il recupero dei dati della pagina.
-* Funzione **`get_aamCookie`:** codice che acquisisce l&#39;ID utente Audience Manager e i dati dei cookie. Inserisci [questo codice](../../features/destinations/get-aam-cookie-code.md) nella parte superiore della pagina o all&#39;interno del blocco di codice `<head>`.
-* **Invia registri di consegna all&#39;Audience Manager:** Se desideri un rapporto di consegna del segmento (facoltativo), fornisci all&#39;Audience Manager un registro giornaliero che contiene dati di consegna a livello di impression. I dati possono essere in formato non elaborato, ma ogni record deve contenere l&#39;Audience Manager `UUID`. L&#39;Audience Manager può prelevarli o riceverli tramite [!DNL FTP].
+* Funzione **`get_aamCookie`:** codice che acquisisce l&#39;ID utente e i dati dei cookie di Audience Manager. Inserisci [questo codice](../../features/destinations/get-aam-cookie-code.md) nella parte superiore della pagina o all&#39;interno del blocco di codice `<head>`.
+* **Invia registri di consegna ad Audience Manager:** Se desideri un rapporto di consegna del segmento (facoltativo), fornisci ad Audience Manager un registro giornaliero che contenga dati di consegna a livello di impression. I dati possono essere in formato non elaborato, ma ogni record deve contenere Audience Manager `UUID`. Audience Manager può ritirarli o riceverli tramite [!DNL FTP].
 
 ### Dati chiave-valore: requisiti di formato
 
-L’Audience Manager invia i dati sotto forma di coppie chiave-valore. Crea coppie chiave-valore in base alle seguenti specifiche:
+Audience Manager invia i dati sotto forma di coppie chiave-valore. Crea coppie chiave-valore in base alle seguenti specifiche:
 
 * Prefazione con `c.` (ad esempio, `c.color` o `c.price`).
 * Valori serializzati separati allegati a una singola chiave con una virgola, ad esempio `c.color = red, green, blue`.
@@ -49,11 +49,11 @@ La quantità di dati passati a [!DNL OpenX] dipende dal numero di segmenti per i
 
 ## Creare una destinazione OpenX {#openx-destination}
 
-Creare una destinazione cookie per [!DNL OpenX] in Audience Manager.
+Crea una destinazione cookie per [!DNL OpenX] in Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
-Ad Audience Manager, una *destinazione* è qualsiasi altro sistema (ad server, [!DNL DSP], ad network, ecc.) con cui desideri condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire questi processi di distribuzione dei dati. Audience Manager di funzioni di destinazione che si trovano in *Dati pubblico > Destinazioni*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]** e segui i passaggi indicati di seguito.
+In Audience Manager, una *destinazione* è qualsiasi altro sistema (ad server, [!DNL DSP], ad network, ecc.) con cui si desidera condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire questi processi di distribuzione dei dati. Le funzionalità di destinazione di Audience Manager si trovano in *Dati pubblico > Destinazioni*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]** e segui i passaggi indicati di seguito.
 
 ### Passaggio 1: informazioni di base
 
@@ -85,7 +85,7 @@ Per aggiungere un segmento a una destinazione cookie:
 
 ## Impostazione OpenX {#openx-code-setup}
 
-Modifica le impostazioni di [!DNL OpenX] per utilizzare i dati del segmento Audience Manager.
+Modifica le impostazioni di [!DNL OpenX] per utilizzare i dati del segmento di Audience Manager.
 
 <!-- aam-openx-code.xml -->
 

@@ -13,7 +13,7 @@ ht-degree: 98%
 
 ---
 
-# Guida di preparazione al RGPD per i clienti Audience Manager (titolari del trattamento dei dati) {#gdpr-readiness-guidance}
+# Guida di preparazione al RGPD per i clienti di Audience Manager (titolari del trattamento dei dati) {#gdpr-readiness-guidance}
 
 Audience Manager ti consiglia di essere proattivo nei settori della governance dei dati e della preparazione organizzativa. Questo ti aiuterà a garantire che i dati dei consumatori siano organizzati per consentire i processi relativi alle richieste di accesso o cancellazione, che i tuoi team siano abilitati e autorizzati a gestire tali richieste e che i consumatori (gli interessati) abbiano un’esperienza positiva e differenziata con il tuo marchio.
 

@@ -69,13 +69,13 @@ Per ottimizzare il traffico tra [!UICONTROL IRIS] e le destinazioni dei segmenti
 
 1. **Nuova interdizione di segmento**: quando un dispositivo non è più idoneo per un segmento, [!UICONTROL IRIS] invia tutte le qualifiche e le interdizioni di segmento associate a tale dispositivo a tutte le destinazioni mappate a questi segmenti.
 
-1. **Aggiornamenti della mappatura di destinazione**: quando viene aggiornata una mappatura di destinazione, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a questi segmenti, l&#39;Audience Manager vede il dispositivo la volta successiva.
+1. **Aggiornamenti della mappatura di destinazione**: quando viene aggiornata una mappatura di destinazione, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a questi segmenti, la volta successiva che Audience Manager vede il dispositivo.
 
-1. **Aggiornamenti del grafo di dispositivi**: quando un ID dispositivo viene aggiunto o rimosso dal grafo di dispositivi utilizzato per valutare un segmento, [!UICONTROL IRIS] invia tutti i segmenti associati a tale dispositivo a tutte le destinazioni mappate a questi segmenti, l&#39;Audience Manager successivo visualizza il dispositivo.
+1. **Aggiornamenti del grafo di dispositivi**: quando un ID dispositivo viene aggiunto o rimosso dal grafo di dispositivi utilizzato per valutare un segmento, [!UICONTROL IRIS] invia tutti i segmenti associati a tale dispositivo a tutte le destinazioni mappate a questi segmenti, la prossima volta che Audience Manager vede il dispositivo.
 
 >[!IMPORTANT]
 >
->Se Audience Manager non rileva nessuno degli aggiornamenti di cui sopra per 3 giorni consecutivi, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a questi segmenti, la volta successiva che Audience Manager vede il dispositivo.
+>Se Audience Manager non rileva nessuno degli aggiornamenti di cui sopra per 3 giorni consecutivi, [!UICONTROL IRIS] invia tutti i segmenti associati a un dispositivo a tutte le destinazioni mappate a questi segmenti, la prossima volta che Audience Manager vede il dispositivo.
 
 **File di dati di esempio**
 

@@ -17,9 +17,9 @@ ht-degree: 4%
 
 ## Panoramica
 
-Le origini dati globali sono accessibili da tutti i clienti Audience Manager e contengono gli ID di Device Advertising generati dai produttori di dispositivi, ad esempio [!DNL Apple], [!DNL Samsung], [!DNL Microsoft], [!DNL Roku] e [!DNL Android]. Questi ID sono resi disponibili dai produttori per scopi pubblicitari. I clienti Audience Manager possono utilizzare origini di dati globali per sincronizzare gli ID dispositivo e importare o esportare dati ricavati da tali mappature.
+Le origini dati globali sono accessibili da tutti i clienti Audience Manager e contengono gli ID di Device Advertising generati dai produttori di dispositivi, ad esempio [!DNL Apple], [!DNL Samsung], [!DNL Microsoft], [!DNL Roku] e [!DNL Android]. Questi ID sono resi disponibili dai produttori per scopi pubblicitari. I clienti di Audience Manager possono utilizzare origini di dati globali per sincronizzare gli ID dispositivo e importare o esportare dati in base a tali mappature.
 
-Nella tabella seguente sono descritte le origini dati globali supportate da Audience Manager.
+La tabella seguente descrive le origini dati globali supportate da Audience Manager.
 
 | ID Data Source | Descrizione |
 |---|---|
@@ -46,18 +46,18 @@ Sui dispositivi che eseguono i sistemi operativi [!DNL iOS] e [!DNL Android], so
 
 ## Convalida ID dispositivo globale
 
-L&#39;Audience Manager convalida gli ID di Device Advertising ([!UICONTROL DAID]) importati dai clienti, in base al formato, per garantire che corrispondano al formato standard indicato dai produttori dei dispositivi. Consulta [Indice degli ID nell&#39;Audience Manager](../reference/ids-in-aam.md) per una mappatura dettagliata degli ID Device Advertising alle origini dati globali e per il formato corretto di ciascun ID. Assicurati di importare gli ID dispositivo nel formato corretto, in base al tipo di dispositivo. L&#39;Audience Manager rifiuta gli ID dispositivo che non soddisfano il formato corretto e restituisce un messaggio di errore per indicare che l&#39;ID è stato rifiutato.
+Audience Manager convalida gli ID pubblicità dispositivo ([!UICONTROL DAID]) importati dai clienti, in base al formato, per garantire che corrispondano al formato standard indicato dai produttori dei dispositivi. Consulta [Indice degli ID in Audience Manager](../reference/ids-in-aam.md) per una mappatura dettagliata degli ID Device Advertising alle origini dati globali e per il formato corretto per ciascun ID. Assicurati di importare gli ID dispositivo nel formato corretto, in base al tipo di dispositivo. Audience Manager rifiuta gli ID dispositivo che non soddisfano il formato corretto e restituisce un messaggio di errore per indicare che l’ID è stato rifiutato.
 
 * I messaggi di errore per i trasferimenti di dati batch sono descritti qui: [Termini e definizioni del rapporto sullo stato di onboarding](../reporting/onboarding-status-report.md#report-terms-conditions).
 * I messaggi di errore per i trasferimenti di dati in tempo reale sono descritti qui: [Codici di errore DCS, messaggi ed esempi](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
 
 ## Criteri di scadenza ID dispositivo
 
-L&#39;Audience Manager elimina automaticamente gli ID pubblicità dispositivo dopo 120 giorni di inattività, in modo simile a [UUID AAM](../faq/faq-privacy.md).
+Audience Manager elimina automaticamente gli ID pubblicità dispositivo dopo 120 giorni di inattività, in modo analogo a [AAM UUID](../faq/faq-privacy.md).
 
 ## Richiesta di nuove origini dati globali
 
-Per richiedere l’aggiunta di nuove origini dati globali a Audience Manager, contatta Adobe Consulting o l’Assistenza clienti Adobe e fornisci informazioni dettagliate sulle origini dati richieste:
+Per richiedere l’aggiunta di nuove origini dati globali ad Audience Manager, contatta l’Assistenza clienti di Adobe Consulting o Adobe e fornisci informazioni dettagliate sulle origini dati richieste:
 
 * Il nome della piattaforma richiesta (ad esempio, [!UICONTROL Apple IDFA]);
 * Il nome dell&#39;azienda/organizzazione che gestisce la piattaforma (ad esempio, [!UICONTROL Apple Inc.]);

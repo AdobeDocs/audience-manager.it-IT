@@ -1,5 +1,5 @@
 ---
-description: Con l’ottimizzazione del pubblico per gli editori, i publisher possono individuare potenziali opportunità prestazionali per segmenti Audience Manager sui contenuti che possiedono o gestiscono. Questi rapporti combinano dati sulle prestazioni delle campagne a livello di registro con metriche di Audience Manager per ottimizzare il pubblico e offrire opportunità di monetizzazione.
+description: Con l’ottimizzazione del pubblico per gli editori, i publisher possono individuare potenziali opportunità prestazionali per segmenti Audience Manager sui contenuti che possiedono o gestiscono. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche di Audience Manager per informare le ottimizzazioni del pubblico e le opportunità di monetizzazione.
 seo-description: Audience Optimization for Publishers can help you identify potential performance opportunities for Audience Manager segments on your owned and operated content. These reports combine log-level campaign performance data with Audience Manager metrics to inform audience optimizations and monetization opportunities.
 seo-title: Audience Optimization for Publishers
 solution: Audience Manager
@@ -16,15 +16,15 @@ ht-degree: 18%
 
 # Audience Optimization per editori{#audience-optimization-for-publishers}
 
-Con l’ottimizzazione del pubblico per gli editori, i publisher possono individuare potenziali opportunità prestazionali per segmenti Audience Manager sui contenuti che possiedono o gestiscono. Questi rapporti combinano dati sulle prestazioni delle campagne a livello di registro con metriche di Audience Manager per ottimizzare il pubblico e offrire opportunità di monetizzazione.
+Con l’ottimizzazione del pubblico per gli editori, i publisher possono individuare potenziali opportunità prestazionali per segmenti Audience Manager sui contenuti che possiedono o gestiscono. Questi rapporti combinano i dati sulle prestazioni delle campagne a livello di registro con le metriche di Audience Manager per informare le ottimizzazioni del pubblico e le opportunità di monetizzazione.
 
 ## Panoramica {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] sovrappone i dati delle prestazioni della campagna a livello di registro da [!DNL Google Ad Manager] con le metriche del segmento [!DNL Audience Manager]. I report sono disponibili per i clienti che hanno configurato l&#39;acquisizione del log da [!DNL Google Ad Manager] in [!DNL Audience Manager]. Se non hai ancora configurato l&#39;acquisizione del registro, leggi [Import Google Ad Manager Data Files In Audience Manager](import-dfp.md) per informazioni su come eseguire questa operazione.
+[!UICONTROL Audience Optimization for Publishers] sovrappone i dati delle prestazioni della campagna a livello di registro da [!DNL Google Ad Manager] con le metriche del segmento [!DNL Audience Manager]. I report sono disponibili per i clienti che hanno configurato l&#39;acquisizione del log da [!DNL Google Ad Manager] in [!DNL Audience Manager]. Se non hai ancora configurato l&#39;acquisizione del registro, leggi [Importare file di dati di Google Ad Manager in Audience Manager](import-dfp.md) per informazioni su come eseguire questa operazione.
 
 ## Metadati {#metadata}
 
-Le informazioni sulle prestazioni visualizzate nei report vengono importate dall&#39;istanza [!DNL Google Ad Manager]. Devi inviare i file di metadati in modo che possiamo aggiungere nomi descrittivi e descrittivi ai tuoi elementi nei rapporti, invece di ID. Il passaggio 3 in [Importare i file di dati di Google Ad Manager nell&#39;Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) descrive come inviare i metadati.
+Le informazioni sulle prestazioni visualizzate nei report vengono importate dall&#39;istanza [!DNL Google Ad Manager]. Devi inviare i file di metadati in modo che possiamo aggiungere nomi descrittivi e descrittivi ai tuoi elementi nei rapporti, invece di ID. Il passaggio 3 in [Importare i file di dati di Google Ad Manager in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) descrive come inviare i metadati.
 
 ## Rapporti disponibili {#available-reports}
 

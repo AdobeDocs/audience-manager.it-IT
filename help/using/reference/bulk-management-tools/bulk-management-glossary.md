@@ -20,7 +20,7 @@ Definite le etichette di intestazione di colonna.
 
 >[!IMPORTANT]
 >
->Gli strumenti di gestione in blocco non sono un’offerta di Adobe ufficialmente supportata. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
+>Gli strumenti di gestione in blocco non sono un’offerta ufficialmente supportata da Adobe. La risoluzione dei problemi e il supporto tramite l’Assistenza clienti verranno gestiti caso per caso.
 
 <!-- 
 
@@ -78,7 +78,7 @@ Definite le etichette di intestazione di colonna.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>I segnali sono bit di dati passati all'Audience Manager <span class="keyword"></span> in base all'attività dell'utente. Queste sono trasmesse come <a href="../../reference/key-value-pairs-explained.md"> coppie chiave-valore</a>. La chiave di origine è una costante che non cambia. Consente di categorizzare il valore sorgente che può cambiare. Vedere <a href="../../features/derived-signals.md"> segnali derivati</a>. </p> </td> 
+   <td colname="col2"> <p>I segnali sono bit di dati passati a <span class="keyword"> Audience Manager</span> in base all'attività dell'utente. Queste sono trasmesse come <a href="../../reference/key-value-pairs-explained.md"> coppie chiave-valore</a>. La chiave di origine è una costante che non cambia. Consente di categorizzare il valore sorgente che può cambiare. Vedere <a href="../../features/derived-signals.md"> segnali derivati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
@@ -102,7 +102,7 @@ Definite le etichette di intestazione di colonna.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>La caratteristica o regola del segmento effettiva utilizzata per raccogliere i dati. Una richiesta in blocco restituisce le regole create nell'Audience Manager <span class="keyword"></span> con il generatore di regole di caratteristiche <a href="../../features/traits/about-trait-builder.md"></a> o il generatore di regole di segmenti <a href="../../features/segments/segment-builder.md"></a>. Puoi anche utilizzare questi strumenti per creare regole e applicarle in blocco quando aggiorni un segmento o una caratteristica. </p> <p>Vedi anche <a href="../../reference/bulk-management-tools/bulk-rules.md"> Creare o aggiornare regole di caratteristiche e regole di segmenti</a>. </p> </td> 
+   <td colname="col2"> <p>La caratteristica o regola del segmento effettiva utilizzata per raccogliere i dati. Una richiesta in blocco restituisce le regole create in <span class="keyword"> Audience Manager</span> con <a href="../../features/traits/about-trait-builder.md"> Generatore di regole di caratteristiche</a> o <a href="../../features/segments/segment-builder.md"> Generatore di regole di segmenti</a>. Puoi anche utilizzare questi strumenti per creare regole e applicarle in blocco quando aggiorni un segmento o una caratteristica. </p> <p>Vedi anche <a href="../../reference/bulk-management-tools/bulk-rules.md"> Creare o aggiornare regole di caratteristiche e regole di segmenti</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 

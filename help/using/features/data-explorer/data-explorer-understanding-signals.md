@@ -1,5 +1,5 @@
 ---
-description: I segnali sono l'unità di informazione più piccola all'interno di Audience Manager. Rappresentano le interazioni degli utenti o l’attività degli utenti sulle proprietà online e vengono trasmessi agli Audienci Manager per essere utilizzati nelle regole delle caratteristiche.
+description: I segnali sono l’unità di informazioni più piccola all’interno di Audience Manager. Rappresentano le interazioni degli utenti o l’attività degli utenti sulle proprietà online e vengono trasmessi ad Audience Manager per essere utilizzati nelle regole delle caratteristiche.
 seo-description: Signals are the smallest unit of information within Audience Manager. They represent user interactions or user activity on your online properties, and get passed on to Audience Manager to be used in trait rules.
 seo-title: Understanding Signals
 title: Informazioni sui segnali
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Informazioni sui segnali
 
-I segnali sono l&#39;unità di informazione più piccola all&#39;interno di Audience Manager. Rappresentano le interazioni degli utenti o l’attività degli utenti sulle proprietà online e vengono trasmessi agli Audienci Manager per essere utilizzati nelle regole delle caratteristiche.
+I segnali sono l’unità di informazioni più piccola all’interno di Audience Manager. Rappresentano le interazioni degli utenti o l’attività degli utenti sulle proprietà online e vengono trasmessi ad Audience Manager per essere utilizzati nelle regole delle caratteristiche.
 
 [!DNL Audience Manager] utilizza coppie chiave-valore per rappresentare i segnali. Ad esempio, il seguente segnale potrebbe indicare che un visitatore ha raggiunto una pagina web contenente componenti elettronici:
 

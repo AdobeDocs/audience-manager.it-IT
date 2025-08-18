@@ -1,5 +1,5 @@
 ---
-description: Panoramica e flusso di lavoro per i provider di dati che desiderano vendere dati dall’interno di Audience Manager.
+description: Panoramica e flusso di lavoro per i provider di dati che desiderano vendere dati da Audience Manager.
 keywords: analisi Google
 seo-description: Overview and workflow for data providers who want to sell data from within Audience Manager.
 seo-title: Audience Marketplace for Data Providers

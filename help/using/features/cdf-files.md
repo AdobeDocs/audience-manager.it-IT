@@ -96,7 +96,7 @@ Un file [!UICONTROL CDF] include alcuni o tutti i campi definiti di seguito. Per
   <tr> 
    <td colname="col1"> <p><code> Request Parameters</code> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>Una stringa che acquisisce tutti i parametri (variabili, ID, coppie chiave-valore, ID dispositivo pubblicitario, ecc.) passato alla chiamata evento. </p> <p>Esempio abbreviato: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
+   <td colname="col3"> <p>Una stringa che acquisisce tutti i parametri (variabili, ID, coppie chiave-valore, ID di pubblicità del dispositivo, ecc.) trasmessi nella chiamata dell’evento. </p> <p>Esempio abbreviato: </p> <p> <code> d_rtbd:json,c_contextData.a.CarrierName:mobile,c_contextData.a.adid:92D56353-49C5-431E-B474-FC528D585810,c_contextData.a,RunMode:Application,c_contextData.a.DaysSinceLastUpgrade:61,d_cid_ic:xid%01EACB6E40-AC65-4012-9FE9-ABD59965E9C4%011,c_contextData.a.PrevSessionLength:583</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Referer Data Type</code> </p> </td> 
@@ -111,7 +111,7 @@ Un file [!UICONTROL CDF] include alcuni o tutti i campi definiti di seguito. Per
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>Stringa </p> </td> 
-   <td colname="col3"> <p>L'ID Experience Cloud <span class="keyword"> </span> (MID) assegnato al visitatore del sito. Vedi anche Cookie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it" format="https" scope="external"> e il servizio Adobe Experience Platform Identity</a>. </p> </td> 
+   <td colname="col3"> <p>L'ID Experience Cloud<span class="keyword"> (MID) </span> assegnato al visitatore del sito. Consulta anche <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> cookie e il servizio Adobe Experience Platform Identity</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -153,7 +153,7 @@ Elenca e definisce la struttura dati di un file [!UICONTROL CDF]. Ciò include s
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sequenza campi </p> </td> 
-   <td colname="col2"> <p> <p>Importante: <span class="keyword"> L'Audience Manager</span> si riserva il diritto di aggiungere nuovi campi alla fine del file CDF nelle versioni future. Ciò significa che la progettazione tecnica del file parsing system non deve presupporre un numero fisso di colonne (anche se potrebbe presupporre un ordine fisso per le colonne esistenti).</p> </p> <p>I dati nel file CDF vengono visualizzati nell’ordine mostrato di seguito. /N può essere visualizzato al posto di uno qualsiasi di questi campi, indicando un valore nullo.</p> <p> 
+   <td colname="col2"> <p> <p>Importante: <span class="keyword"> Audience Manager</span> si riserva il diritto di aggiungere nuovi campi alla fine del file CDF nelle versioni future. Ciò significa che la progettazione tecnica del file parsing system non deve presupporre un numero fisso di colonne (anche se potrebbe presupporre un ordine fisso per le colonne esistenti).</p> </p> <p>I dati nel file CDF vengono visualizzati nell’ordine mostrato di seguito. /N può essere visualizzato al posto di uno qualsiasi di questi campi, indicando un valore nullo.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Ora evento </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Dispositivo </li> 
@@ -163,7 +163,7 @@ Elenca e definisce la struttura dati di un file [!UICONTROL CDF]. Ciò include s
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parametri di richiesta </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Referer </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">Indirizzo IP </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID dispositivo di Experience Cloud (o MID). Vedi anche Cookie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it" format="https" scope="external"> e il servizio Adobe Experience Platform Identity</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">ID dispositivo Experience Cloud (o MID). Vedi anche Cookie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> e il servizio Adobe Experience Platform Identity</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Tutti i segmenti </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Tutte le caratteristiche </li> 
      </ol> </p> <p>Per le descrizioni dei campi, vedere <a href="#cdf-defined"> Customer Data Feed Contents Defined</a>. </p> </td> 

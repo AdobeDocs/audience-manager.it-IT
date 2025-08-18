@@ -20,7 +20,7 @@ Metodi che consentono di lavorare in modo programmatico con le funzioni di desti
 
 <!-- c_destinations_api.xml -->
 
-Ad Audience Manager, una destinazione è qualsiasi altro sistema (ad server, [!DNL DSP], ad network, exchange, il cookie di prime parti, ecc.) con cui desideri condividere i dati.
+In Audience Manager, una destinazione è qualsiasi altro sistema (ad server, [!DNL DSP], ad network, exchange, il cookie di prime parti di un utente, ecc.) con cui si desidera condividere i dati.
 
 ## Tipi di destinazione: URL e cookie {#destination-types}
 

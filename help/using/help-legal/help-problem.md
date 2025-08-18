@@ -80,5 +80,5 @@ Se pensi che vi sia un’interruzione, controlla innanzitutto la [pagina di stat
 
 * Ora di inizio dell&#39;interruzione
 * Spiegazione di ciò che sta accadendo
-* Portata
+* Ambito
 * Aspettative per la risoluzione (tempo stimato, gravità e così via)

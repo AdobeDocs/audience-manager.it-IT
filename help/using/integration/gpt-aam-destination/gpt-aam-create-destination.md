@@ -1,5 +1,5 @@
 ---
-description: Puoi inviare segmenti qualificati a Google Ad Manager tramite un’integrazione lato client (lato browser) o lato server. Se si sceglie l'integrazione lato client, è necessario creare una destinazione basata su cookie per i tag di Google Publisher nell'Audience Manager.
+description: Puoi inviare segmenti qualificati a Google Ad Manager tramite un’integrazione lato client (lato browser) o lato server. Se scegli l’integrazione lato client, devi creare una destinazione basata su cookie per i tag publisher di Google in Audience Manager.
 seo-description: You can send qualified segments to Google Ad Manager through a client-side (browser-side) integration, or a server-side integration. If you choose the client-side integration, you must create a cookie-based destination for Google Publisher Tags in Audience Manager.
 seo-title: Create a GPT Destination
 solution: Audience Manager
@@ -10,7 +10,7 @@ exl-id: 26373826-de06-49e5-82fd-bb6588a73fb9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## Destinazioni
 
-Ad Audience Manager, un *`destination`* è qualsiasi altro sistema (ad server, [!DNL DSP], ad network, ecc.) con cui desideri condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire questi processi di distribuzione dei dati. Audience Manager di funzionalità di destinazione disponibili in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]** e segui i passaggi indicati di seguito.
+In Audience Manager, *`destination`* è qualsiasi altro sistema (ad server, [!DNL DSP], ad network, ecc.) con cui si desidera condividere i dati. [!UICONTROL Destination Builder] fornisce gli strumenti che consentono di creare e gestire questi processi di distribuzione dei dati. Le funzionalità di destinazione di Audience Manager si trovano in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Per iniziare, fai clic su **[!UICONTROL Add New Destination]** e segui i passaggi indicati di seguito.
 
 ## Informazioni di base
 

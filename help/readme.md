@@ -43,7 +43,7 @@ ht-degree: 2%
    + index - yes/no: indica se la pagina verrà indicizzata dalla piattaforma di ricerca di Adobe.
    + translate - yes/no: indica se la pagina verrà localizzata.
    + version: utilizzato principalmente per AEM e Campaign, per indicare la versione del prodotto.
-   + private-feature-pack - utilizzato principalmente per l’AEM.
+   + private-feature-pack: utilizzato principalmente per AEM.
    + beta - il prodotto è in versione beta?
    + redirect: può essere utilizzato per creare un riferimento a una nuova pagina, se necessario.
    + tipo documento: riferimento (predefinito) / risoluzione dei problemi / sviluppatore / tutorial / kb / whitepaper.

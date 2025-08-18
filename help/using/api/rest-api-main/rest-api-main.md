@@ -20,6 +20,6 @@ ht-degree: 2%
 
 [!DNL Audience Manager] [!DNL REST API] segue gli standard [!DNL JavaScript Object Notation] ([JSON](https://www.json.org/)) per la formattazione di dati inviati e ricevuti. Uno dei principali vantaggi di [!DNL JSON] è che consente di semplificare la scrittura, la lettura e l&#39;analisi delle query di [!DNL API] da parte di sviluppatori e computer.
 
-Per semplificare ulteriormente il tuo lavoro, stiamo eseguendo la migrazione di [!DNL REST APIs] a [Swagger](https://swagger.io/solutions/api-documentation/). Per ulteriori informazioni, consulta [Audience Manager API Code Migration](/help/using/api/api-swagger-migration.md).
+Per semplificare ulteriormente il tuo lavoro, stiamo eseguendo la migrazione di [!DNL REST APIs] a [Swagger](https://swagger.io/solutions/api-documentation/). Per ulteriori informazioni, consulta [Migrazione codice API Audience Manager](/help/using/api/api-swagger-migration.md).
 
 Rivedi il materiale [Guida introduttiva](../../api/rest-api-main/aam-api-getting-started.md#getting-started-with-rest-apis) prima di utilizzare i metodi [!DNL Audience Manager] [!DNL API].

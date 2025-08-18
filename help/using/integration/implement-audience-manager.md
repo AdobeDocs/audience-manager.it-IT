@@ -1,9 +1,9 @@
 ---
-description: Questa sezione descrive e spiega i processi relativi alla guida introduttiva di Audience Manager Data Management Platform (DMP). Questa sezione è progettata per aiutare i team aziendali, i project manager e i responsabili tecnologici a comprendere il processo di implementazione di Audience Manager. Per iniziare a usare Audience Manager possono essere necessari da sei settimane a tre mesi, a seconda delle esigenze di raccolta dei dati.
+description: Questa sezione descrive e spiega i processi relativi alla guida introduttiva di Audience Manager data management platform (DMP). Questa sezione è stata progettata per aiutare i team aziendali, i project manager e i responsabili tecnologici a comprendere il processo di implementazione di Audience Manager. Per iniziare a usare Audience Manager possono essere necessari da sei settimane a tre mesi, a seconda delle esigenze di raccolta dei dati.
 seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 seo-title: Implementing Audience Manager
 solution: Audience Manager
-title: Audience Manager di implementazione
+title: Implementazione di Audience Manager
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
 feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 ---
 
-# Audience Manager di implementazione {#implementing-audience-manager}
+# Implementazione di Audience Manager {#implementing-audience-manager}
 
-In questa sezione vengono illustrati e illustrati i processi relativi alla guida introduttiva di Audience Manager Data Management Platform ([!DNL DMP]). Questa sezione è progettata per aiutare i team aziendali, i project manager e i responsabili tecnologici a comprendere il processo di implementazione di Audience Manager. Per iniziare a usare Audience Manager possono essere necessari da sei settimane a tre mesi, a seconda delle esigenze di raccolta dei dati.
+Questa sezione descrive e spiega i processi relativi alla guida introduttiva alla piattaforma di gestione dati di Audience Manager ([!DNL DMP]). Questa sezione è stata progettata per aiutare i team aziendali, i project manager e i responsabili tecnologici a comprendere il processo di implementazione di Audience Manager. Per iniziare a usare Audience Manager possono essere necessari da sei settimane a tre mesi, a seconda delle esigenze di raccolta dei dati.
 
 Le nostre tecniche di implementazione aiutano a creare una partnership consultiva con nuovi clienti. Questo processo è progettato per:
 
 * Scopri e comprendi le tue esigenze aziendali;
 * Elaborare un piano attuabile per rispondere a tali esigenze;
 * Sviluppare soluzioni personalizzate per soddisfare requisiti o casi d’uso specifici;
-* Assicurati che i dati proprietari vengano importati e resi disponibili nell’Audience Manager.
+* Assicurati che i dati proprietari vengano importati e resi disponibili in Audience Manager.
 
 I nostri team per le soluzioni dei partner e la gestione degli account collaboreranno strettamente con te prima, durante e dopo il processo di implementazione.
 
@@ -153,16 +153,16 @@ La tabella seguente descrive le attività chiave che si svolgono durante questa 
 
 | Attività | Scopo/Descrizione | Partecipanti |
 |---|---|---|
-| Preparare una strategia di raccolta dati | Collabora con Adobi team tecnici per creare un piano di raccolta dati che soddisfi i tuoi requisiti aziendali | Team tecnici e aziendali |
+| Preparare una strategia di raccolta dati | Collabora con i team tecnici di Adobe per creare un piano di raccolta dati che soddisfi i tuoi requisiti aziendali | Team tecnici e aziendali |
 | Distribuire e testare il codice | Testare la soluzione proposta in un ambiente di staging ed eseguire test cross-browser | Team tecnici |
 | Verificare la funzionalità e risolvere i bug | Esaminare e comunicare i risultati, risolvere i bug e ripetere il test | Team tecnici |
-| Formazione dell’utente | Formazione e comprensione sulle caratteristiche, gli strumenti e i rapporti Audienci Manager | Team aziendali |
+| Formazione dell’utente | Formazione e informazioni sulle funzioni, gli strumenti e i rapporti di Audience Manager | Team aziendali |
 
 I risultati finali di questa fase possono includere:
 
 * un piano di raccolta dei dati completato e accettato;
 * Test di [!DNL QA] end-to-end;
-* Istruzioni di base sulle funzioni dell’interfaccia utente Audience Manager;
+* Istruzioni di base sulle funzioni dell’interfaccia utente di Audience Manager;
 * Accettazione e approvazione.
 
 ## Fase di avvio, supporto e ottimizzazione {#launch-support-optimize-phase}
@@ -216,11 +216,11 @@ Le attività per questa fase possono includere:
 * Comprendere i rapporti personalizzati;
 * Come ottenere supporto per il prodotto
 * Risposta o richiesta di funzioni, bug e feedback degli utenti;
-* Approfondimento della familiarità con le funzioni e i rapporti di Audience Manager.
+* Approfondimento della conoscenza delle funzioni e dei rapporti di Audience Manager.
 
 ## Implementazione del codice {#code-implementation}
 
-L&#39;Audience Manager utilizza la Data Integration Library ([!DNL DIL]) per ricevere i dati sul pubblico.
+Audience Manager utilizza Data Integration Library ([!DNL DIL]) per ricevere i dati sul pubblico.
 
 Per istruzioni dettagliate sull&#39;utilizzo di [!DNL DIL], vedere [Ottenere e implementare codice DIL](../dil/dil-overview.md).
 
@@ -234,4 +234,4 @@ I nostri sforzi di collaborazione non si fermano alla distribuzione finale. Una 
 
 I responsabili dell’account forniscono un supporto continuo e servizi di consulenza al termine del processo di implementazione del prodotto. Potresti avere riunioni regolari con il tuo account manager. Queste riunioni ti garantiscono di ottenere la massima quantità di utilizzo e valore da Audience Manager.
 
-Contattaci [qui](https://www.adobe.com/products/audiencemanager.html) per ulteriori informazioni e per iniziare con Audience Manager.
+Contattaci [qui](https://www.adobe.com/products/audiencemanager.html) per ulteriori informazioni e per iniziare a utilizzare Audience Manager.

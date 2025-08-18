@@ -39,6 +39,6 @@ Il report [!UICONTROL Unique User Reach] potrebbe essere simile a quello riporta
 | Elemento | Descrizione |
 |--- |--- |
 | Valore Dimension | Nome della proprietà Web. |
-| Tipo di Dimension | Il tipo di dimensione dell’editore. Al momento supportiamo solo Ad Unit come tipo di dimensione. |
+| Tipo Dimension | Il tipo di dimensione dell’editore. Al momento supportiamo solo Ad Unit come tipo di dimensione. |
 | Impressioni | Il numero di impression distribuite per la proprietà web all’interno dell’intervallo di look-back specificato. |
 | Raggiungimento univoco | Il numero univoco di utenti che sono stati raggiunti dalle impression sulle proprietà web. |

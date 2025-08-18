@@ -1,5 +1,5 @@
 ---
-description: Descrive i campi obbligatori, la sintassi, le convenzioni di denominazione e le dimensioni dei file da seguire per l’invio dei dati ad Audience Manager. Imposta i nomi e le dimensioni dei file in base a queste specifiche quando invii dati a una directory FTP di Audience Manager.
+description: Descrive i campi obbligatori, la sintassi, le convenzioni di denominazione e le dimensioni dei file da seguire per l’invio dei dati ad Audience Manager. Imposta nomi e dimensioni dei file in base a queste specifiche quando invii dati a una directory FTP di Audience Manager.
 seo-description: Describes the required fields, syntax, naming conventions and file sizes you need to follow when sending data to Audience Manager. Set the names and sizes of your files according to these specifications when you send data to an Audience Manager FTP directory.
 seo-title: FTP Name and File Size Requirements for Inbound Data Files
 solution: Audience Manager
@@ -10,7 +10,7 @@ exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 source-git-commit: a5506a315a98afdf31f8f52fac09b9179f388f30
 workflow-type: tm+mt
 source-wordcount: '1105'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ Descrive i campi obbligatori, la sintassi, le convenzioni di denominazione e le 
 
 >[!NOTE]
 >
->Gli stili di testo (`monospaced text`, *corsivo*, parentesi `[ ]` `( )`, ecc.) in questo documento indicare gli elementi di codice e le opzioni. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
+>Gli stili di testo (`monospaced text`, *corsivo*, parentesi quadre `[ ]` `( )` e così via) in questo documento indicano elementi e opzioni di codice. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
 
 ## Sintassi dei nomi dei file {#file-name-syntax}
 
@@ -52,24 +52,24 @@ La tabella definisce gli elementi in un nome di file [!DNL FTP].
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>Percorso e nome della directory FTP dell'Audience Manager </span> di <span class="keyword">. Contatta il tuo Account Manager per la directory FTP e le credenziali. </p> </td> 
+   <td colname="col2"> <p>Percorso e nome della directory FTP di Audience Manager<span class="keyword"> </span>. Contatta il tuo Account Manager per la directory FTP e le credenziali. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Un ID che comunica all'Audience Manager <span class="keyword"></span> se un file di dati contiene i tuoi ID utente, gli ID Android, gli ID iOS o altri ID appartenenti a <a href="/help/using/features/global-data-sources.md"> origini dati globali</a>. Accetta le seguenti opzioni:</p> 
+   <td colname="col2"> <p>Un ID che comunica a <span class="keyword"> Audience Manager</span> se un file di dati contiene i tuoi ID utente, gli ID Android, gli ID iOS o altri ID appartenenti a <a href="/help/using/features/global-data-sources.md"> origini dati globali</a>. Accetta le seguenti opzioni:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID Data Source (noto anche come ID provider dati):</b> Questo è un ID univoco che Audience Manager assegna a un'origine dati (fare riferimento all'indice Audience Manager <a href="/help/using/reference/ids-in-aam.md"> degli ID </a>). Utilizza questo ID assegnato in un nome file quando invii dati che contengono i tuoi ID utente. <code>...ftp_dpm_21_123456789.sync</code>, ad esempio, comunica a <span class="keyword"> Audience Manager</span> di integrare i dati negli ID appartenenti all'origine dati 21. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>ID Android (GAID):</b> Utilizzare il 20914 ID in un nome di file di dati se contiene ID Android. Utilizzare il campo <code><i>_DPID_TARGET_DATA_OWNER</i></code> quando si utilizzano gli Android ID. <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code>, ad esempio, comunica a <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Android e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati <code><i>_DPID_TARGET_DATA_OWNER</i></code>.</li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID iOS (IDFA):</b> Utilizzare il 20915 ID in un nome di file di dati se contiene ID iOS. Utilizzare il campo <code><i>_DPID_TARGET_DATA_OWNER</i></code> quando si utilizzano gli iOS ID. <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code>, ad esempio, comunica a <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID iOS e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati <code><i>_DPID_TARGET_DATA_OWNER</i></code>.</li>
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID Data Source (noto anche come ID provider dati):</b> Questo è un ID univoco che Audience Manager assegna a un'origine dati (fai riferimento all'indice Audience Manager <a href="/help/using/reference/ids-in-aam.md"> degli ID </a>). Utilizza questo ID assegnato in un nome file quando invii dati che contengono i tuoi ID utente. Ad esempio, <code>...ftp_dpm_21_123456789.sync</code> comunica a <span class="keyword"> Audience Manager</span> di integrare i dati negli ID appartenenti all'origine dati 21. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>ID Android (GAID):</b> Utilizzare il 20914 ID in un nome di file di dati se contiene ID Android. Utilizzare il campo <code><i>_DPID_TARGET_DATA_OWNER</i></code> quando si utilizzano gli Android ID. Ad esempio, <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> comunica a <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Android e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati <code><i>_DPID_TARGET_DATA_OWNER</i></code>.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>ID iOS (IDFA):</b> Utilizzare il 20915 ID in un nome di file di dati se contiene ID iOS. Utilizzare il campo <code><i>_DPID_TARGET_DATA_OWNER</i></code> quando si utilizzano gli iOS ID. Ad esempio, <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> comunica a <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID iOS e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati <code><i>_DPID_TARGET_DATA_OWNER</i></code>.</li>
      <li> <b>ID appartenenti ad altre origini dati globali</b>: è possibile integrare gli ID Roku per Advertising (RIDA), Advertising ID di Microsoft (MAID) e altri ID. Utilizzare l'ID corrispondente a ciascuna origine dati, come descritto nell'articolo <a href="/help/using/features/global-data-sources.md"> delle origini dati globali</a>.</li> 
     </ul> <p> <p>Nota: non combinare i tipi di ID nei file di dati. Ad esempio, se il nome del file include l’identificatore Android, non inserire ID iOS o ID personalizzati nel file di dati. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Questo campo indica all’Audience Manager a quale origine dati incorporare i dati. Questo campo è obbligatorio se imposti il DPID su un Android ID o iOS ID o su un altro ID appartenente alle origini dati globali. Questo consente a <span class="keyword"> Audience Manager</span> di collegare nuovamente i dati del file alla tua organizzazione. <br> L'origine dati di destinazione deve essere di proprietà della società. Ai fini della condivisione dei dati di seconde parti, per acquisire i dati in un’origine dati di destinazione appartenente a un’altra società è necessario disporre di una mappatura di accesso tra la società e l’origine dati di destinazione. Contatta il tuo consulente Adobe o l’Assistenza clienti per configurare la mappatura.</p><p><b>Nota importante:</b> <i>non</i> è necessario richiedere una mappatura per le relazioni di condivisione dei dati esistenti (per le origini dati di destinazione appartenenti ad altre società in cui sono stati caricati i dati prima del 14 marzo 2022). Inoltre, la mappatura non è necessaria quando si inseriscono dati in origini dati di destinazione che appartengono al tuo PID. </p> <p>Ad esempio: </p> 
+   <td colname="col2"> <p>Questo campo indica ad Audience Manager a quale origine dati integrare i dati. Questo campo è obbligatorio se imposti il DPID su un Android ID o iOS ID o su un altro ID appartenente alle origini dati globali. Questo consente a <span class="keyword"> Audience Manager</span> di collegare nuovamente i dati del file alla tua organizzazione. <br> L'origine dati di destinazione deve essere di proprietà della società. Ai fini della condivisione dei dati di seconde parti, per acquisire i dati in un’origine dati di destinazione appartenente a un’altra società è necessario disporre di una mappatura di accesso tra la società e l’origine dati di destinazione. Contatta il tuo consulente Adobe o il Supporto clienti per configurare la mappatura.</p><p><b>Nota importante:</b> <i>non</i> è necessario richiedere una mappatura per le relazioni di condivisione dei dati esistenti (per le origini dati di destinazione appartenenti ad altre società in cui sono stati caricati i dati prima del 14 marzo 2022). Inoltre, la mappatura non è necessaria quando si inseriscono dati in origini dati di destinazione che appartengono al tuo PID. </p> <p>Ad esempio: </p> 
     <ul> 
-     <li> <code>...ftp_dpm_33_21_1234567890.sync</code> comunica all'Audience Manager che stai qualificando gli ID cliente appartenenti all'origine dati 33 per caratteristiche o segnali appartenenti all'origine dati 21. </li> 
-     <li> <b>Android ID (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> comunica a <span class="keyword"> Audience Manager</span> che il file di dati contiene solo Android ID e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati 21.</li> 
+     <li> <code>...ftp_dpm_33_21_1234567890.sync</code> comunica ad Audience Manager che stai qualificando gli ID cliente appartenenti all'origine dati 33 per caratteristiche o segnali appartenenti all'origine dati 21. </li> 
+     <li> <b>ID Android (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> comunica a <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Android e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati 21.</li> 
      <li> <b>ID iOS (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> comunica a <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID iOS e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati 21.</li>
      <li> <b>ID appartenenti ad altre origini dati globali</b>: <code>...ftp_dpm_121963_21_1234567890.sync</code> comunica a <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Roku e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati 21. Utilizzare l'ID corrispondente a ciascuna origine dati, come descritto nell'articolo <a href="/help/using/features/global-data-sources.md"> delle origini dati globali</a>.</li> 
     </ul> </td> 
@@ -78,7 +78,7 @@ La tabella definisce gli elementi in un nome di file [!DNL FTP].
    <td colname="col1"> <p> <code> (.sync |.overwrite)</code> </p> </td> 
    <td colname="col2"> <p>Opzioni di sincronizzazione che includono: </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
-      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: scenario normale in cui fornitori di dati di terze parti inviano caratteristiche in base all'utente da aggiungere o rimuovere nell'Audience Manager. </li> 
+      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: scenario normale in cui fornitori di dati di terze parti inviano caratteristiche in base all'utente da aggiungere o rimuovere nel sistema Audience Manager. </li> 
       <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: consente ai clienti e ai provider di dati di inviare un elenco di caratteristiche per singolo utente che dovrebbe sovrascrivere tutte le caratteristiche esistenti dell'utente per una determinata origine dati in Audience Manager. Non è necessario includere tutti gli utenti in un file di sovrascrittura. Includi solo gli utenti che desideri modificare. Le caratteristiche non assegnate all’origine dati di destinazione non verranno cancellate. </li> 
      </ul> </p> </td> 
   </tr> 

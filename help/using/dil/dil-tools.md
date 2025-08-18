@@ -20,9 +20,9 @@ ht-degree: 2%
 >
 >A partire da luglio 2023, Adobe ha interrotto lo sviluppo di [!DNL Data Integration Library (DIL)] e dell&#39;estensione [!DNL DIL].
 >
->I clienti esistenti possono continuare a utilizzare l&#39;implementazione [!DNL DIL]. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) per la strategia di raccolta dati a lungo termine.
+>I clienti esistenti possono continuare a utilizzare l&#39;implementazione [!DNL DIL]. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dati a lungo termine.
 >
->I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it).
+>I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
 Descrive i metodi nello spazio dei nomi `DIL.tools`. Queste funzioni consentono di eseguire attività specifiche.
 
@@ -76,7 +76,7 @@ E restituisce:
    <td> Ricerca predefinita</td> 
    <td> Restituisce i termini di ricerca per parole chiave utilizzati dai motori di ricerca AOL, Ask, Bing, Google e Yahoo. </td> 
    <td>
-      <code>var&nbsp;results&nbsp;=&nbsp;DIL.tools.getSearchReferrer();</code> 
+      <code>var&amp;nbsp;results&amp;nbsp;=&amp;nbsp;DIL.tools.getSearchReferrer();</code> 
   </td>
   </tr> 
   <tr> 
@@ -96,10 +96,10 @@ E restituisce:
   <code>
       var results = 
         DIL.tools.getSearchReferrer("https://www.ehow.com/
-      search.aspx?q=adobe+rules",&lbrace; 
+      search.aspx?q=adobe+rules",{ 
       &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
       &nbsp;&nbsp;&nbsp;queryParam:"p" 
-      &rbrace;); 
+      }); 
   </code>
   </td></tr> 
   <tr> 
@@ -109,10 +109,10 @@ E restituisce:
     <code>
       var&nbsp;results&nbsp;= 
       DIL.tools.getSearchReferrer("https://www.ehow.com/search.aspx?q=adobe+rules,
-      &lbrace;
+      {
         &nbsp;&nbsp;&nbsp;hostPattern:/ehow\./, 
         &nbsp;&nbsp;&nbsp;search_pattern:/[&amp;\?]p=([^&amp;]+/ 
-      &rbrace;);
+      });
     </code>
    </td> 
   </tr> 
@@ -182,19 +182,19 @@ Firma funzione: `DIL.tools.getMetaTags( 1 or more parameters)`
 ### Codice di esempio
 
 <pre class="javascript"><code>
-var dataLib = DIL.create(&lbrace; 
+var dataLib = DIL.create({ 
      partner: '<i>partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-&rbrace;); 
+}); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>', '<i>keywords</i>',  '<i>description</i>'), 'c_').submit();
 </code></pre>
 
 <pre><code>
-var dataLib = DIL.create(&lbrace; 
-     partner: <i>&grave;partnerName'</i>, 
+var dataLib = DIL.create({ 
+     partner: <i>`partnerName'</i>, 
      containerNSID: <i>containerNSID</i> 
-&rbrace;); 
+}); 
 
 dataLib.api.signals(DIL.tools.getMetaTags('<i>application</i>','<i>keywords</i>', '<i>description</i>'), 'c_').submit();
 </code></pre>

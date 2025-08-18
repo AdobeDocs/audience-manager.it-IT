@@ -19,7 +19,7 @@ Recupera le realizzazioni delle caratteristiche per acquisire pubblici storici e
 
 >[!IMPORTANT]
 >
->[!UICONTROL Data Explorer Trait Backfill] è una funzionalità premium che migliora l&#39;esperienza di Audience Manager sbloccando casi d&#39;uso aggiuntivi. Il backfill richiede una potenza di elaborazione aggiuntiva ed è disponibile per tutti i clienti Audienci Manager a un costo incrementale. Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe.
+>[!UICONTROL Data Explorer Trait Backfill] è una funzionalità premium che migliora l&#39;esperienza di Audience Manager sbloccando casi d&#39;uso aggiuntivi. Il backfill richiede una potenza di elaborazione aggiuntiva ed è disponibile per tutti i clienti Audience Manager a un costo incrementale. Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe.
 
 Quando crei caratteristiche da segnali non utilizzati, puoi scegliere di eseguire la retrocompilazione delle realizzazioni delle caratteristiche in un periodo di tempo specifico. [!DNL Audience Manager] acquisisce i dati storici sui tipi di pubblico idonei per la nuova caratteristica e li memorizza nel profilo corrispondente. Puoi visualizzare **[!UICONTROL Backfill Options]** nella sezione [!UICONTROL Trait Expression] del **[Generatore di caratteristiche](../../features/traits/about-trait-builder.md)**.
 
@@ -57,7 +57,7 @@ Guarda il video seguente per un video che illustra come retrocompilare le caratt
 
 Le nuove caratteristiche create iniziano a catturare il pubblico da due a tre ore dopo la creazione. Tuttavia, a causa del grande volume di dati che [!DNL Audience Manager] esegue su base giornaliera, la popolazione backfill non viene riflessa immediatamente nei grafici [!UICONTROL Unique Trait Realizations] e [!UICONTROL Total Trait Population].
 
-L&#39;Audience Manager aggiorna [!UICONTROL Trait Graph] con la popolazione recuperata entro 48 ore dalla creazione delle caratteristiche.
+Audience Manager aggiorna [!UICONTROL Trait Graph] con la popolazione recuperata entro 48 ore dalla creazione delle caratteristiche.
 
 ## Limite di retrocompilazione delle caratteristiche {#trait-backfilling-limit}
 

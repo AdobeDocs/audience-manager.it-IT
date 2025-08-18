@@ -1,5 +1,5 @@
 ---
-description: Descrive i metodi nello spazio dei nomi DIL.modules. Questi moduli ti consentono di raccogliere dati in modo programmatico e lavorare con oggetti Audienci Manager.
+description: Descrive i metodi nello spazio dei nomi DIL.modules. Questi moduli ti consentono di raccogliere dati in modo programmatico e lavorare con oggetti Audience Manager.
 seo-description: Describes methods in the DIL.modules namespace. These modules let you programmatically collect data and work with Audience Manager objects.
 seo-title: DIL Modules
 solution: Audience Manager
@@ -20,11 +20,11 @@ ht-degree: 3%
 >
 >A partire da luglio 2023, Adobe ha interrotto lo sviluppo di [!DNL Data Integration Library (DIL)] e dell&#39;estensione [!DNL DIL].
 >
->I clienti esistenti possono continuare a utilizzare l&#39;implementazione [!DNL DIL]. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) per la strategia di raccolta dati a lungo termine.
+>I clienti esistenti possono continuare a utilizzare l&#39;implementazione [!DNL DIL]. Tuttavia, Adobe non svilupperà [!DNL DIL] oltre questo punto. I clienti sono invitati a valutare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) per la strategia di raccolta dati a lungo termine.
 >
->I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it).
+>I clienti che desiderano implementare nuove integrazioni di raccolta dati dopo luglio 2023 devono utilizzare [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
-Descrive i metodi nello spazio dei nomi `DIL.modules`. Questi moduli ti consentono di raccogliere dati in modo programmatico e lavorare con oggetti Audienci Manager.
+Descrive i metodi nello spazio dei nomi `DIL.modules`. Questi moduli ti consentono di raccogliere dati in modo programmatico e lavorare con oggetti Audience Manager.
 
 <!-- 
 
@@ -34,7 +34,7 @@ c_dil_mods.xml
 
 ## siteCatalyst.init {#sitecat-init}
 
-Utilizza [!UICONTROL DIL] per inviare [!DNL Analytics] elementi tag (variabili, prop, eVar, ecc.) all&#39;Audience Manager. Restituisce i dati in un elenco separato da virgole. Disponibile nella versione 2.6.
+Utilizza [!UICONTROL DIL] per inviare [!DNL Analytics] elementi tag (variabili, prop, eVar, ecc.) ad Audience Manager. Restituisce i dati in un elenco separato da virgole. Disponibile nella versione 2.6.
 
 **Firma funzione:** `DIL.modules.siteCatalyst.init(siteCatalystReportingSuite, dilInstance, trackVars, options)`
 
@@ -77,7 +77,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> siteCatalystReportingSuite </code> </td> 
    <td colname="col2"> Oggetto </td> 
-   <td colname="col3"> <p>Oggetto che rappresenta l'oggetto </span> di Analytics <span class="keyword">. </p> </td> 
+   <td colname="col3"> <p>Oggetto che rappresenta l'oggetto <span class="keyword"> di Analytics </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dilInstance </code> </td> 
@@ -114,7 +114,7 @@ Questa funzione restituisce dettagli sulle seguenti proprietà [!DNL Analytics]:
 
 **Codice di esempio**
 
-Questo codice crea un elenco separato da virgole di [!DNL Analytics] eventi (prop, eVar, ecc.) se esistono dei valori per esse.
+Questo codice crea un elenco separato da virgole di [!DNL Analytics] eventi (prop, eVar, ecc.) se esistono dei valori per essi.
 
 ```
 // Get the Site Catalyst object instance: 
@@ -149,7 +149,7 @@ DIL.modules.siteCatalyst.init(s, scDil);
 
 ## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
-La funzione `GA.submitUniversalAnalytics();` invia i dati da [!DNL Universal Analytics] di Google all&#39;Audience Manager. Questa funzione [!UICONTROL DIL] è progettata per funzionare con `analytics.js`, che è la libreria di codici più recente per Google [!DNL Universal Analytics].
+La funzione `GA.submitUniversalAnalytics();` invia i dati da [!DNL Universal Analytics] di Google ad Audience Manager. Questa funzione [!UICONTROL DIL] è progettata per funzionare con `analytics.js`, che è la libreria di codici più recente per Google [!DNL Universal Analytics].
 
 <!-- 
 
@@ -160,7 +160,7 @@ dil-google-universal-analytics.xml
 >[!IMPORTANT]
 >
 >
->* [!DNL Audience Manager] non dispone di informazioni approfondite o controllo sulla libreria di codici di Google `analytics.js`. Verificare che la raccolta dati [!UICONTROL DIL] funzioni ancora se o quando Google rilascia nuove versioni di `analytics.js`.
+>* [!DNL Audience Manager] non dispone di alcun insight nella libreria di codici di Google `analytics.js` né ha il controllo su di essa. Verificare che la raccolta dati [!UICONTROL DIL] funzioni ancora se o quando Google rilascia nuove versioni di `analytics.js`.
 >
 >* Non puoi usare `GA.submitUniversalAnalytics();` se lavori ancora con il codice di tracciamento Analytics legacy di Google (ad esempio, `ga.js` o `dc.js`). Vedi [GA.init](../dil/dil-modules.md#ga-init).
 >
@@ -181,7 +181,7 @@ La funzione `GA.submitUniversalAnalytics();` accetta le seguenti proprietà.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p>La variabile globale per l'istanza di <span class="keyword"> Google Analytics </span>. In genere si tratta di <code> ga </code> per impostazione predefinita, a meno che non sia stato personalizzato <span class="keyword"> Google Analytics il codice </span>. </p> </td> 
+   <td colname="col2"> <p>La variabile globale per l'istanza di <span class="keyword"> Google Analytics </span>. In genere si tratta di <code> ga </code> per impostazione predefinita, a meno che non sia stato personalizzato il codice <span class="keyword"> di Google Analytics </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
@@ -189,7 +189,7 @@ La funzione `GA.submitUniversalAnalytics();` accetta le seguenti proprietà.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> internalPropertyName </code> </p> </td> 
-   <td colname="col2"> <p> <i>(Facoltativo)</i> Nella libreria <code> analytics.js </code>, la proprietà interna è la variabile minimizzata <code> 'b' </code>. Questa variabile contiene <span class="keyword"> Google Analytics </span> dati. </p> <p>Questa proprietà è facoltativa perché non è necessario impostarla a meno che Google non modifichi il nome della variabile interna. Ad esempio, se questa variabile minimizzata è cambiata in <code> 'a' </code>, chiamerai <code> GA.submitUniversalAnalytics(); </code> come segue: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
+   <td colname="col2"> <p> <i>(Facoltativo)</i> Nella libreria <code> analytics.js </code>, la proprietà interna è la variabile minimizzata <code> 'b' </code>. Questa variabile contiene <span class="keyword"> dati Google Analytics </span>. </p> <p>Questa proprietà è facoltativa perché non è necessario impostarla a meno che Google non modifichi il nome della variabile interna. Ad esempio, se questa variabile minimizzata è cambiata in <code> 'a' </code>, chiamerai <code> GA.submitUniversalAnalytics(); </code> come segue: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -210,7 +210,7 @@ DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 
 ## GA.init {#ga-init}
 
-La funzione `GA.init()` invia i dati dalla versione legacy/obsoleta di [!DNL Google Analytics] all&#39;Audience Manager.
+La funzione `GA.init()` invia i dati dalla versione legacy/obsoleta di [!DNL Google Analytics] ad Audience Manager.
 
 <!-- 
 
@@ -311,13 +311,13 @@ Per tenere traccia di tutte le metriche GA monitorate senza la funzione aggiunti
 
 **Chiamata evento di esempio**
 
-La chiamata evento URL all’Audience Manager potrebbe essere simile alla seguente:
+La chiamata evento URL ad Audience Manager potrebbe essere simile alla seguente:
 
 `https://adobe.demdex.com/event?...c_accountId=UA-XXXXX-X&c_Section=Life%20%26%20Style &c_itemOrderId=1234&c_itemSku=DD44&c_itemName=T-Shirt&c_itemCategory=Olive%20Medium& c_itemPrice=11.99&c_itemQuantity=1`
 
 >[!MORELIKETHIS]
 >
->* [Google Analytics codice di tracciamento](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
+>* [Codice di tracciamento Google Analytics](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
 >* [Aggiornamento Web completo: ga.js/dc.js a analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [Aggiunta di analytics.js al sito](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [ga Riferimento metodi oggetto](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)

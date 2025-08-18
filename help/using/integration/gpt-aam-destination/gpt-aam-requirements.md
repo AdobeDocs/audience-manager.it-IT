@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Integrazione lato client {#client-side-integration}
 
-Per un&#39;integrazione lato client, è necessario impostare una destinazione [!DNL GPT] in Audience Manager. Considerare i punti seguenti quando si desidera impostare [!DNL GPT] come destinazione di Audience Manager:
+Per un&#39;integrazione lato client, è necessario impostare una destinazione [!DNL GPT] in Audience Manager. Quando si desidera impostare [!DNL GPT] come destinazione Audience Manager, considerare i punti seguenti:
 
 * **Aggiungi [!UICONTROL DIL]:** Distribuisci il codice [!UICONTROL Data Integration Library (DIL)] in tutte le pagine di destinazione. [!UICONTROL DIL] scrive i dati del segmento di Audience Manager e gli ID utente nei cookie utilizzati da [!DNL GPT] per il targeting.
 
@@ -28,13 +28,13 @@ Per un&#39;integrazione lato client, è necessario impostare una destinazione [!
 
 * **Implementa codice di controllo cookie:** Racchiudi il metodo API [!DNL GPT] `.setTargeting` nel nostro codice di controllo cookie [consigliato](../../integration/gpt-aam-destination/gpt-aam-modify-api.md). Questo codice consente di evitare errori cercando cookie AAM validi prima che venga richiamato il metodo `.setTargeting`.
 
-* **Aggiungi la funzione `AamGpt`:** Il codice `AamGpt` acquisisce i dati dai cookie Audience Manager e li invia a [!DNL GPT]. Inserire il [codice Audience Manager per i tag publisher di Google](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) (`AamGpt`) nella parte superiore della pagina o all&#39;interno del blocco di codice `<head>`.
+* **Aggiungi la funzione `AamGpt`:** Il codice `AamGpt` acquisisce i dati dai cookie di Audience Manager e li invia a [!DNL GPT]. Posiziona il [codice Audience Manager per i tag publisher di Google](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) ( `AamGpt`) nella parte superiore della pagina o all&#39;interno del blocco di codice `<head>`.
 
   >[!NOTE]
   >
   >La funzione `AamGpt` non è necessaria se si utilizza il proprio codice per leggere i dati dei cookie di Audience Manager.
 
-* **Invia registri di consegna all&#39;Audience Manager:** Se desideri un rapporto di consegna del segmento (facoltativo), fornisci all&#39;Audience Manager un registro giornaliero che contiene dati di consegna a livello di impression. I dati possono essere in formato non elaborato, ma ogni record deve contenere l&#39;Audience Manager `UUID`. L&#39;Audience Manager può prelevarli o riceverli tramite [!DNL FTP].
+* **Invia registri di consegna ad Audience Manager:** Se desideri un rapporto di consegna del segmento (facoltativo), fornisci ad Audience Manager un registro giornaliero che contenga dati di consegna a livello di impression. I dati possono essere in formato non elaborato, ma ogni record deve contenere Audience Manager `UUID`. Audience Manager può ritirarli o riceverli tramite [!DNL FTP].
 
 ### Solo i segmenti qualificati vengono inviati a GPT
 
@@ -42,7 +42,7 @@ La quantità di dati passati a [!DNL GPT] dipende dal numero di segmenti per i q
 
 >[!NOTE]
 >
->Non sono previsti limiti al numero di valori chiave che è possibile inviare, ma la richiesta [!DNL Google] [!DNL URL] non ha limiti al numero di caratteri che può accettare. Vedi [Impostazione del targeting e delle dimensioni con GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&amp;answer=1697712).
+>Non sono previsti limiti al numero di valori chiave che è possibile inviare, ma la richiesta [!DNL Google] [!DNL URL] non ha limiti al numero di caratteri che può accettare. Vedi [Impostazione del targeting e delle dimensioni con GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
 
 ## Integrazione lato server {#server-side-integration}
 
@@ -50,8 +50,8 @@ Rivolgiti al tuo consulente Audience Manager o all&#39;Assistenza clienti se des
 
 >[!IMPORTANT]
 >
->Se nelle pagine Web è in esecuzione la libreria [Pagine di contenuti multimediali accelerati](https://www.ampproject.org/) ([!DNL AMP]), è necessario utilizzare l&#39;integrazione lato server con Audience Manager. Se utilizzi [!DNL AMP] e disponi di un&#39;integrazione lato client con [!DNL AMP], devi migrare all&#39;integrazione lato server. Contatta il tuo consulente di Audience Manager o l’Assistenza clienti per informazioni sulla migrazione.
+>Se nelle pagine Web è in esecuzione la libreria [Pagine di contenuti multimediali accelerati](https://www.ampproject.org/) ([!DNL AMP]), è necessario utilizzare l&#39;integrazione lato server con Audience Manager. Se utilizzi [!DNL AMP] e disponi di un&#39;integrazione lato client con [!DNL AMP], devi migrare all&#39;integrazione lato server. Contatta il tuo consulente Audience Manager o l’Assistenza clienti per informazioni sulla migrazione.
 
 >[!MORELIKETHIS]
 >
->* [Guida di riferimento API GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&amp;answer=1650154)
+>* [Guida di riferimento API GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)

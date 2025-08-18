@@ -1,5 +1,5 @@
 ---
-description: Gli acquirenti di dati di Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati il cui prezzo è stabilito in base al costo per mille impression pubblicitarie (CPM). La scadenza per l’utilizzo di CPM è il 5 di ogni mese di calendario e include i dati del mese precedente. Gli abbonati con tariffa fissa non devono segnalare l’utilizzo.
+description: Gli acquirenti di dati di Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati il cui prezzo è calcolato su un costo per migliaia di impression pubblicitarie (CPM). L’utilizzo di CPM è previsto per il 5° giorno di ogni mese di calendario e include i dati del mese precedente. Gli abbonati con tariffa fissa non devono segnalare l’utilizzo.
 seo-description: Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions (CPM) basis. CPM usage is due on the 5th day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
 seo-title: Billing for Data Feed Buyers
 solution: Audience Manager
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Fatturazione per gli acquirenti di feed di dati {#billing-for-data-feed-buyers}
 
-Gli acquirenti di dati di Audience Marketplace accettano di segnalare tutte le impression pubblicitarie servite utilizzando le caratteristiche contenute nel feed di dati il cui prezzo è calcolato su un costo per migliaia di impression pubblicitarie ([!DNL CPM]). L&#39;utilizzo di [!DNL CPM] scade il 5 di ogni mese del calendario e include i dati relativi al mese precedente. Gli abbonati con tariffa fissa non devono segnalare l’utilizzo.
+Gli acquirenti di dati di Audience Marketplace accettano di segnalare tutte le impression pubblicitarie distribuite utilizzando le caratteristiche contenute nel feed di dati il cui prezzo è calcolato su un costo per migliaia di impression pubblicitarie ([!DNL CPM]). L&#39;utilizzo di [!DNL CPM] scade il 5 di ogni mese del calendario e include i dati relativi al mese precedente. Gli abbonati con tariffa fissa non devono segnalare l’utilizzo.
 
 <br> 
 
@@ -29,16 +29,16 @@ Gli acquirenti di dati di Audience Marketplace accettano di segnalare tutte le i
 
 [!UICONTROL Audience Marketplace] offre due modi per segnalare l&#39;utilizzo di [!DNL CPM]:
 
-* **Generazione rapporti a livello di segmento**: metodo consigliato per la generazione rapporti sull&#39;utilizzo di [!DNL CPM]. Quando si segnala l&#39;utilizzo di [!DNL CPM] a livello di segmento, nella sezione di generazione rapporti a livello di feed di dati vengono automaticamente inseriti gli importi di utilizzo corrispondenti, in base agli algoritmi descritti in [Attribuzione costi per feed di dati CPM](#cost-attribution).
-* **Rapporti a livello di feed dati**: questo metodo richiede di segnalare singolarmente l&#39;utilizzo di [!DNL CPM] per ogni feed dati, in base agli algoritmi descritti in [Attribuzione costi per feed dati CPM](#cost-attribution). Tuttavia, questo metodo è più noioso e soggetto a errori rispetto al reporting a livello di segmento.
+* **Generazione rapporti a livello di segmento**: metodo consigliato per la generazione rapporti sull&#39;utilizzo di [!DNL CPM]. Quando si segnala l&#39;utilizzo di [!DNL CPM] a livello di segmento, la sezione di generazione rapporti a livello di feed di dati viene compilata automaticamente con gli importi di utilizzo corrispondenti, in base agli algoritmi descritti in [Attribuzione costi per feed dati di CPM](#cost-attribution).
+* **Generazione rapporti a livello di feed dati**: questo metodo richiede di segnalare singolarmente l&#39;utilizzo di [!DNL CPM] per ogni feed dati, in base agli algoritmi descritti in [Attribuzione costi per feed dati di CPM](#cost-attribution). Tuttavia, questo metodo è più noioso e soggetto a errori rispetto al reporting a livello di segmento.
 
 <br> 
 
-## Segnala l’utilizzo del CPM a livello di segmento {#segment-level-report}
+## Segnala l’utilizzo di CPM a livello di segmento {#segment-level-report}
 
 La scheda [!UICONTROL Segment Usage] ti consente di segnalare l&#39;utilizzo a livello di segmento, visualizzando al contempo i segmenti raggruppati per le destinazioni a cui sono mappati.
 
-Dopo aver segnalato l&#39;utilizzo di [!DNL CPM] a livello di segmento, [!UICONTROL Audience Marketplace] assegna automaticamente ai feed di dati corrispondenti l&#39;utilizzo corretto, in base a [Attribuzione costi per feed di dati CPM](#cost-attribution).
+Dopo aver segnalato l&#39;utilizzo di [!DNL CPM] a livello di segmento, [!UICONTROL Audience Marketplace] assegna automaticamente ai feed di dati corrispondenti l&#39;utilizzo corretto, in base a [Attribuzione costi per feed di dati di CPM](#cost-attribution).
 
 Per segnalare l&#39;utilizzo di [!DNL CPM] a livello di segmento:
 
@@ -59,9 +59,9 @@ Guarda anche il nostro video dimostrativo su come segnalare l’utilizzo a livel
 
  
 
-## Segnala l’utilizzo del CPM a livello di feed dati {#feed-level-report}
+## Segnalare l’utilizzo di CPM a livello di feed dati {#feed-level-report}
 
-La generazione di rapporti a livello di feed di dati è un processo più noioso e soggetto a errori, in quanto è necessario calcolare singolarmente l&#39;utilizzo di [!DNL CPM] per ogni feed di dati. È consigliabile invece [segnalare l&#39;utilizzo di CPM a livello di segmento](#segment-level-report).
+La generazione di rapporti a livello di feed di dati è un processo più noioso e soggetto a errori, in quanto è necessario calcolare singolarmente l&#39;utilizzo di [!DNL CPM] per ogni feed di dati. Ti consigliamo invece di [segnalare l&#39;utilizzo di CPM a livello di segmento](#segment-level-report).
 
 Per segnalare l&#39;utilizzo di [!DNL CPM] a livello di segmento:
 
@@ -69,7 +69,7 @@ Per segnalare l&#39;utilizzo di [!DNL CPM] a livello di segmento:
 2. Selezionare la scheda **[!UICONTROL Feed Usage]**.
 3. Utilizzare la casella [!UICONTROL Search] per filtrare i feed di dati e identificare quelli per i quali è necessario segnalare l&#39;utilizzo.
 4. Fare clic su **[!UICONTROL Edit Feeds Usage]**.
-5. Calcola l&#39;utilizzo di [!DNL CPM] per ogni feed di dati in base all&#39;[Attribuzione costi per feed di dati CPM](#cost-attribution) e inseriscilo nella colonna [!UICONTROL Usage].
+5. Calcola l&#39;utilizzo di [!DNL CPM] per ogni feed di dati in base a [Attribuzione costi per feed di dati di CPM](#cost-attribution) e inseriscilo nella colonna [!UICONTROL Usage].
 6. Al termine, fai clic su **[!UICONTROL Save]** e controlla la finestra di dialogo di conferma.
 
    ![confirm-feed-usage](assets/confirm-feed-usage.png)
@@ -125,18 +125,18 @@ Per aggiornare l&#39;utilizzo di [!DNL CPM] in blocco:
   <tr> 
    <td colname="col1"> <p><b>Segnala sempre il numero totale di impression</b> </p> </td> 
    <td colname="col2"> <p>Per i totali delle impression CPM: </p>
-   <p> Segnala il numero totale di impression, senza l’utilizzo di decimali. Audience Manager calcola automaticamente il CPM in base al numero totale riportato.</p><p>Se devi segnalare 1.234.567 impression, segnalalo esattamente in questo modo. Per calcolare il CPM non è necessario dividere per 1.000 il numero totale di impression.</p><p>Le caratteristiche utilizzate per ottimizzare il contenuto web o dell’app (ottimizzazione del contenuto) utilizzando strumenti come Adobe Target o una destinazione di Analytics non contribuiscono ai totali di utilizzo per i piani CPM. I fornitori di dati ricevono in genere un compenso per l’ottimizzazione dei contenuti utilizzando piani tariffari fissi.</p><p>Per ulteriori informazioni, vedere <a href="#cost-attribution">Attribuzione costi per feed dati CPM</a>. </p> </td>
+   <p> Segnala il numero totale di impression, senza l’utilizzo di decimali. Audience Manager calcola automaticamente il CPM in base al numero totale riportato.</p><p>Se devi segnalare 1.234.567 impression, segnalalo esattamente in questo modo. Per calcolare il CPM non è necessario dividere per 1.000 il numero totale di impression.</p><p>Le caratteristiche utilizzate per ottimizzare il contenuto web o dell’app (ottimizzazione del contenuto) utilizzando strumenti come Adobe Target o una destinazione di Analytics non contribuiscono ai totali di utilizzo per i piani di CPM. I fornitori di dati ricevono in genere un compenso per l’ottimizzazione dei contenuti utilizzando piani tariffari fissi.</p><p>Per ulteriori informazioni, vedere <a href="#cost-attribution">Attribuzione costi per feed dati di CPM</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Attenersi all'intervallo di reporting mensile</b> </p> </td> 
-   <td colname="col2"> <p>Il sistema di reporting viene chiuso dopo il 5 di ogni mese. Se non riesci a segnalare l’utilizzo di CPM entro tale data, devi aggiungere tale importo al rapporto per il mese successivo. Ad esempio, supponiamo che tu utilizzi 1000 impression in ottobre, che non rispetti la scadenza del reporting di ottobre e che utilizzi 1000 impression in novembre. In questo caso, si riporta il totale di ottobre e novembre (2000) in dicembre, tra il 1° e il 5.</p><p><b>Suggerimento</b>: provare sempre a segnalare l'utilizzo di CPM per il mese precedente tra il primo e il quinto giorno del mese successivo.</p><p>È possibile segnalare l’utilizzo di CPM anche dopo il 5 del nuovo mese di calendario, ma questa operazione non è consigliata. La generazione di rapporti sull’utilizzo del CPM prima del 5 di ogni mese offre agli Audienci Manager il tempo di controllare ed elaborare i dati.</p> </td>
+   <td colname="col2"> <p>Il sistema di reporting viene chiuso dopo il 5 di ogni mese. Se entro tale data non si segnala l'utilizzo di CPM, è necessario aggiungere tale importo al rapporto per il mese successivo. Ad esempio, supponiamo che tu utilizzi 1000 impression in ottobre, che non rispetti la scadenza del reporting di ottobre e che utilizzi 1000 impression in novembre. In questo caso, si riporta il totale di ottobre e novembre (2000) in dicembre, tra il 1° e il 5.</p><p><b>Suggerimento</b>: provare sempre a segnalare l'utilizzo di CPM per il mese precedente tra il primo e il quinto giorno del mese successivo.</p><p>È possibile segnalare l’utilizzo di CPM fino al 5 del nuovo mese di calendario, ma non è consigliabile. Il reporting sull’utilizzo di CPM prima del 5 di ogni mese consente ad Audience Manager di verificare ed elaborare i dati.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
 <br> 
 
-## Attribuzione costi per feed dati CPM {#cost-attribution}
+## Attribuzione costi per feed dati di CPM {#cost-attribution}
 
 In [!UICONTROL Audience Marketplace] devi segnalare autonomamente gli importi delle impression ogni mese, per ogni segmento. È consigliabile segnalare l&#39;utilizzo di [!DNL CPM] a livello di segmento, in modo che l&#39;attribuzione dei costi venga eseguita automaticamente.
 
@@ -169,7 +169,7 @@ Il caso d&#39;uso [!UICONTROL Activation] consente di utilizzare le caratteristi
 Quando [segnali l&#39;utilizzo di CPM a livello di feed dati](#feed-level-report), è necessario allocare le impression in modo proporzionale per ciascun feed dati, in base agli operatori [!DNL Boolean] utilizzati nelle regole di qualificazione delle caratteristiche. Nella tabella seguente viene illustrato come allocare correttamente le impression in base a una regola booleana o a un tipo di caratteristica.
 
 >[!TIP]
->[Segnala l&#39;utilizzo di CPM a livello di segmento](#segment-level-report) per fare in modo che il reporting a livello di feed di dati venga eseguito automaticamente per Audience Manager.
+>[Segnala l&#39;utilizzo di CPM a livello di segmento](#segment-level-report) affinché il reporting a livello di feed di dati venga eseguito automaticamente da Audience Manager.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -205,7 +205,7 @@ Quando [segnali l&#39;utilizzo di CPM a livello di feed dati](#feed-level-report
 Gli esempi seguenti illustrano come viene eseguita l&#39;allocazione dell&#39;utilizzo [!DNL CPM] a livello di feed di dati.
 
 >[!IMPORTANT]
->È consigliabile invece [segnalare l&#39;utilizzo di CPM a livello di segmento](#segment-level-report) per eseguire automaticamente il processo.
+>Ti consigliamo invece di [segnalare l&#39;utilizzo di CPM a livello di segmento](#segment-level-report), per eseguire automaticamente questa procedura.
 
 Prendiamo in considerazione lo scenario seguente:
 
@@ -264,12 +264,12 @@ La suddivisione immediata per feed di dati e caso d’uso è la seguente:
 
 >[!NOTE]
 >
->Per il caso di utilizzo della modellazione, è necessario segnalare solo l’utilizzo di CPM al momento dell’attivazione. Se esegui solo un modello ma non lo attivi, non è necessario alcun rapporto sull’utilizzo.
+>Per il caso di utilizzo della modellazione, devi segnalare solo l’utilizzo di CPM al momento dell’attivazione. Se esegui solo un modello ma non lo attivi, non è necessario alcun rapporto sull’utilizzo.
 
 <br> 
 
 ## Allocazione fatturazione e impression per feed di dati a tariffa fissa {#billing-flat-fee}
 
-Un feed di dati a canone fisso ti fattura un importo fisso ogni mese, indipendentemente da quando inizia l’abbonamento o dal numero di impression utilizzate. Le tariffe non vengono ripartite proporzionalmente per l&#39;utilizzo o gli intervalli di mesi parziali. Come per la fatturazione CPM, Adobe genera una fattura e la fattura alla tariffa mensile forfettaria per i feed di dati sottoscritti.
+Un feed di dati a canone fisso ti fattura un importo fisso ogni mese, indipendentemente da quando inizia l’abbonamento o dal numero di impression utilizzate. Le tariffe non vengono ripartite proporzionalmente per l&#39;utilizzo o gli intervalli di mesi parziali. Come per la fatturazione di CPM, Adobe genera una fattura e la fattura alla tariffa mensile forfettaria per i feed di dati sottoscritti.
 
 Ad esempio, supponiamo che tu abbia deciso di attivare alcune caratteristiche in un feed a metà mese. Verrai comunque fatturato alla tariffa piena mensile indipendentemente da quando hai iniziato l’abbonamento o hai attivato caratteristiche specifiche.

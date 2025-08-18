@@ -1,5 +1,5 @@
 ---
-description: Panoramica per clienti tecnici e non tecnici che desiderano acquisire in Audience Manager dati provenienti da altri sistemi (offline).
+description: Panoramica per clienti tecnici e non tecnici che desiderano inserire in Audience Manager dati provenienti da altri sistemi (offline).
 keywords: in entrata, batch, caricamento batch, dati batch
 seo-description: An overview for technical and non-technical customers who want to bring data from other systems (offline) into Audience Manager. To do so, use the batch upload option in Audience Manager.
 seo-title: Send Batch Data to Audience Manager Overview

@@ -10,7 +10,7 @@ exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Descrive i campi obbligatori, la sintassi e le convenzioni di denominazione util
 
 >[!NOTE]
 >
->Gli stili di testo (`monospaced text`, *corsivo*, parentesi `[ ]` `( )`, ecc.) in questo documento indicare gli elementi di codice e le opzioni. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
+>Gli stili di testo (`monospaced text`, *corsivo*, parentesi quadre `[ ]` `( )` e così via) in questo documento indicano elementi e opzioni di codice. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
 
 ## Sintassi ed esempi dei nomi dei file {#file-name-syntax}
 
@@ -101,7 +101,7 @@ abc123 def456 ghi789 xyz987
 
 ### Considerazioni sul contenuto dei file {#considerations}
 
-Quando crei i file in entrata, assicurati che la prima colonna sia compilata solo con ID dispositivo, ad esempio [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA] e così via. Consulta [Indice degli ID nell&#39;Audience Manager](../../../reference/ids-in-aam.md) per una spiegazione dettagliata degli ID supportati da Audience Manager.
+Quando crei i file in entrata, assicurati che la prima colonna sia compilata solo con ID dispositivo, ad esempio [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA] e così via. Consulta [Indice degli ID in Audience Manager](../../../reference/ids-in-aam.md) per una spiegazione dettagliata degli ID supportati da Audience Manager.
 
 >[!IMPORTANT]
 >
@@ -142,7 +142,7 @@ Passaggio 1: il processo di sincronizzazione ID sincronizzerà [!DNL DPUUID] da 
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLwregJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Passaggio 2: i [!DNL DPUUID] da [!DNL DPID] 12345 sono stati sincronizzati nel passaggio 1 con l&#39;Audience Manager [!DNL UUID]. Questa sincronizzazione ID sincronizzerà [!DNL DPUUID] da [!DNL DPID] 67890 con l&#39;Audience Manager [!DNL UUID] dal passaggio 1.
+Passaggio 2: i [!DNL DPUUID] da [!DNL DPID] 12345 sono stati sincronizzati nel passaggio 1 con Audience Manager [!DNL UUID]. Questa sincronizzazione ID sincronizzerà [!DNL DPUUID] da [!DNL DPID] 67890 con Audience Manager [!DNL UUID] dal passaggio 1.
 
 <br/>
 

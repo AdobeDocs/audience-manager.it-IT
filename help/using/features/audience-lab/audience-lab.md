@@ -65,7 +65,7 @@ Lo stato di un gruppo di test può essere attivo, pianificato, in pausa, bozza o
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> ha sospeso </span></b> </p> </td> 
-   <td colname="col2"> <p>Un gruppo di test <i>messo in pausa</i> al momento non invia dati alle destinazioni. Premere <b><span class="uicontrol"> Rendi attivo </span></b> nella scheda del gruppo di test </span></b> di <b><span class="uicontrol"> per riprendere a inviare caratteristiche. </p> </td> 
+   <td colname="col2"> <p>Un gruppo di test <i>messo in pausa</i> al momento non invia dati alle destinazioni. Premere <b><span class="uicontrol"> Rendi attivo </span></b> nella scheda del gruppo di test <b><span class="uicontrol"> di </span></b> per riprendere a inviare caratteristiche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> bozza </span></b> </p> </td> 
@@ -90,7 +90,7 @@ Lo stato di un gruppo di test può essere attivo, pianificato, in pausa, bozza o
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Modifica </span></b> </p> </td>
-   <td colname="col2"> <p>Disponibile <b>solo</b> per i gruppi di test bozza. Consente di riprendere la procedura guidata Crea nuovo gruppo di test </span></b> di <b><span class="uicontrol">. </p> </td>
+   <td colname="col2"> <p>Disponibile <b>solo</b> per i gruppi di test bozza. Consente di riprendere la procedura guidata Crea nuovo gruppo di test <b><span class="uicontrol"> di </span></b>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pausa </span></b> </p> </td>

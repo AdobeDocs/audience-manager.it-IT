@@ -18,7 +18,7 @@ ht-degree: 36%
 Utilizzare i dati delle soluzioni [!DNL Experience Cloud] o di altri sistemi esterni in [!DNL Audience Manager].
 
 * [Metodi di integrazione dei dati](data-integration-methods.md)
-* [Audience Manager di implementazione](implement-audience-manager.md)
+* [Implementazione di Audience Manager](implement-audience-manager.md)
 * [Integrazione dei dati multimediali](/help/using/integration/media-data-integration/media-data-integration.md)
 * [Ricezione dei dati sul pubblico](/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md)
 * [Invio di dati sul pubblico](/help/using/integration/sending-audience-data/send-audience-data.md)

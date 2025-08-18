@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Reporting di Predictive Audiences
 
-Dopo aver salvato un modello [!UICONTROL Predictive Audiences], Audience Manager inizia ad addestrarlo. Entro un paio d&#39;ore, il modello calcolato inizierà ad analizzare i tipi di pubblico sui [Server di raccolta dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=it#dcs-pcs). La segnalazione sarà disponibile il giorno successivo.
+Dopo aver salvato un modello [!UICONTROL Predictive Audiences], Audience Manager inizia ad addestrarlo. Entro un paio d&#39;ore, il modello calcolato inizierà ad analizzare i tipi di pubblico sui [Server di raccolta dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). La segnalazione sarà disponibile il giorno successivo.
 
 Per visualizzare i risultati della classificazione [!UICONTROL Predictive Audiences], passa a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** e fai clic sul modello nell&#39;elenco.
 
@@ -33,13 +33,13 @@ Nella tabella Modelli (models) sono riportate le informazioni riportate di segui
    * **[!UICONTROL Pending]**: inizializzazione del modello in corso. Produrrà i risultati a breve.
    * **[!UICONTROL Active]**: il modello è in esecuzione e produce risultati;
    * **[!UICONTROL Warning]**: il modello non è riuscito a produrre risultati, a causa di dati insufficienti (ovvero una popolazione di linee di base bassa, profili utente non ricchi);
-   * **[!UICONTROL Error]**: impossibile eseguire il modello. Contatta il rappresentante del tuo Adobe.
+   * **[!UICONTROL Error]**: impossibile eseguire il modello. Contatta il tuo rappresentante Adobe.
 
 ## Rapporto Panoramica modello{#model-report}
 
 Una volta scelto un modello, verrà caricata la relativa pagina di reporting. Nella parte superiore della pagina sono visualizzati i primi 5 segmenti predittivi più grandi, in base alla realizzazione in tempo reale di 1 giorno, in cui il modello ha classificato il pubblico di destinazione in base a. La categoria **[!UICONTROL Other]** include gli altri utenti tipo, che non sono stati inclusi nei primi 5 segmenti predittivi più grandi.
 
-In Audience Manager vengono visualizzati un grafico ad anello con codice colore e un grafico a cronologia per [!UICONTROL Predictive Audiences].
+Audience Manager visualizza un grafico ad anello con codice a colori e un grafico a cronologia per [!UICONTROL Predictive Audiences].
 
 Facendo clic sulle schede degli utenti tipo nella parte superiore della pagina, queste vengono aggiunte o rimosse dal grafico.
 

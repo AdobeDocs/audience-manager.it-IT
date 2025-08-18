@@ -1,5 +1,5 @@
 ---
-description: I file di controllo del trasferimento (.info) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che i trasferimenti di file gestiti da Audience Manager siano corretti.
+description: I file di controllo del trasferimento (con estensione info) forniscono informazioni sui metadati relativi ai trasferimenti di file, in modo che i partner possano verificare che Audience Manager abbia gestito correttamente i trasferimenti di file.
 seo-description: Transfer-control (.info) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
 seo-title: Transfer-Control Files for Log File Transfers
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # File di trasferimento dei controlli per trasferimenti di file di registro {#transfer-control-files-for-log-file-transfers}
 
-I file di controllo del trasferimento ([!DNL .info]) forniscono informazioni sui metadati sui trasferimenti di file in modo che i partner possano verificare che i trasferimenti di file gestiti da Audience Manager siano corretti.
+I file di controllo del trasferimento ([!DNL .info]) forniscono informazioni sui metadati relativi ai trasferimenti di file in modo che i partner possano verificare che i trasferimenti di file siano stati gestiti correttamente da Audience Manager.
 
 [!DNL Audience Manager] invia un file di controllo di trasferimento a un partner con ogni trasferimento di file. A causa della natura multithread dell&#39;editore [!DNL FTP], è possibile che il file di controllo del trasferimento venga inviato prima che il trasferimento dei file effettivi sia terminato.
 

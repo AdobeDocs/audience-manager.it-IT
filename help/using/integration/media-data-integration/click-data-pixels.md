@@ -47,7 +47,7 @@ In base all&#39;esempio precedente, il browser viene reindirizzato al seguente [
 
 ## Macro supportate
 
-Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macro è una piccola unità di codice indipendente che si attiva quando il tag dell’annuncio viene caricato per il tracciamento della campagna e dell’utente. Le macro verranno passate insieme alla destinazione [!DNL URL], a condizione che siano contrassegnate con il seguente formato: `%macro%`. Alcune chiavi non hanno macro e accettano un ID hardcoded. Le chiavi che accettano valori hardcoded sono necessarie se si desidera analizzare i dati in [Report Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
+Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macro è una piccola unità di codice indipendente che si attiva quando il tag dell’annuncio viene caricato per il tracciamento della campagna e dell’utente. Le macro verranno passate insieme alla destinazione [!DNL URL], a condizione che siano contrassegnate con il seguente formato: `%macro%`. Alcune chiavi non hanno macro e accettano un ID hardcoded. Le chiavi che accettano valori hardcoded sono necessarie se si desidera analizzare i dati nei [report Audience Optimization](../../reporting/audience-optimization-reports/audience-optimization-reports.md).
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -66,7 +66,7 @@ Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macr
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Nessuna macro. </p> <p>Accetta un valore ID hardcoded. </p> </td> 
-   <td colname="col2"> <p>ID inserzionista.</p> <p>Un codice di integrazione per l’origine dati dell’inserzionista. Tieni presente che ciò non è correlato alle origini dati Audience Manager.</p> <p> Obbligatorio per <span class="wintitle"> report Audience Optimization</span>. </p> </td> 
+   <td colname="col2"> <p>ID inserzionista.</p> <p>Un codice di integrazione per l’origine dati dell’inserzionista. Tieni presente che non è correlato alle origini dati di Audience Manager.</p> <p> Obbligatorio per <span class="wintitle"> report Audience Optimization</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
@@ -96,7 +96,7 @@ Gli eventi di clic supportano le macro elencate nella tabella seguente. Una macr
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> ID Experience Cloud </span> (ECID). Per ulteriori informazioni sull'ECID, vedere <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it" format="https" scope="external"> cookie e l'ID Experience Cloud</a>. </p> <p>Facoltativo. </p> </td> 
+   <td colname="col2"> <p> ID <span class="keyword"> Experience Cloud</span> (ECID). Per ulteriori informazioni sull'ECID, vedere <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> cookie e l'Experience Cloud ID</a>. </p> <p>Facoltativo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -168,7 +168,7 @@ In base all&#39;esempio precedente, il browser viene reindirizzato al seguente [
 
 ## Funzionalità aggiuntive - [!UICONTROL Audience Optimization Reports]
 
-Puoi usare le chiamate pixel per alimentare [i report Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Se desideri utilizzare i pixel per alimentare i report, consulta [Panoramica e mappature dei file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Puoi usare le chiamate pixel per alimentare i [report Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md). Se desideri utilizzare i pixel per alimentare i report, consulta [Panoramica e mappature dei file di metadati](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
 
 >[!MORELIKETHIS]

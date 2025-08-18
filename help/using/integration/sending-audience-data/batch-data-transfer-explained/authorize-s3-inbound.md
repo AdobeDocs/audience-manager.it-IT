@@ -17,7 +17,7 @@ Per inviare dati dal bucket Amazon S3 ad Audience Manager, devi prima richiedere
 
 A questo scopo, segui i passaggi descritti di seguito.
 
-1. Contatta l’Assistenza clienti e richiedi un metodo alternativo per l’invio di file agli Audienci Manager.
+1. Contatta l’Assistenza clienti e richiedi un metodo alternativo per l’invio di file ad Audience Manager.
 2. Fornisci all&#39;Assistenza clienti [!DNL Amazon Resource Name (ARN)] un ruolo nel tuo account Amazon S3 che utilizzerai per inviare file. _È necessario creare questo ruolo prima di contattare l&#39;Assistenza clienti_. Al termine della configurazione, l&#39;Assistenza clienti ti fornirà [!DNL Amazon Resource Name (ARN)] per il ruolo appena creato.
 3. Modifica le autorizzazioni del ruolo Amazon S3 esistente per assumere il ruolo fornito dall’Assistenza clienti.
 

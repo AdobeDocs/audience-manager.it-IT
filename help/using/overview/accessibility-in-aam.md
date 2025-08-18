@@ -19,7 +19,7 @@ ht-degree: 0%
 
 L’accessibilità si riferisce a una serie di funzioni che rendono un prodotto software utilizzabile, con il minimo sforzo possibile da parte di utenti con varie disabilità, come quella visiva, uditiva, cognitiva, motoria o di altro tipo.
 
-Adobe è leader di settore nell’accessibilità e supporta la creazione di esperienze web eccezionali incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti, accessibili a tutti gli utenti. Per ulteriori dettagli sull&#39;impegno di Adobe per l&#39;accessibilità, vedere [Accesso facilitato di Adobe](https://www.adobe.com/accessibility.html).
+Adobe è leader di settore nell’accessibilità e supporta la creazione di esperienze web eccezionali incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti, accessibili a tutti gli utenti. Per ulteriori dettagli sull&#39;impegno di Adobe per l&#39;accessibilità, vedere [Accessibilità Adobe](https://www.adobe.com/accessibility.html).
 
 Le funzioni di accessibilità più comuni presenti nei prodotti software sono: navigazione da tastiera, struttura semantica, contrasto sufficiente tra elementi in primo piano ed elementi in background, supporto per tecnologie assistive, etichette chiare per gli elementi e così via.
 
@@ -61,4 +61,4 @@ Ad esempio, le schermate di caricamento includono una rotazione di caricamento a
 
 [!DNL Audience Manager] si impegna a fornire un livello sempre maggiore di accessibilità, rendendo il prodotto facile da utilizzare per tutti.
 
-Ti invitiamo a utilizzare il [modulo di feedback sull&#39;accessibilità per Adobe](https://www.adobe.com/accessibility/feedback.html) per inviarci suggerimenti di miglioramento e segnalare i problemi di accessibilità incontrati. Saremo lieti di tenere conto del tuo feedback e migliorare [!DNL Audience Manager].
+Ti invitiamo a utilizzare il [Modulo di feedback sull&#39;accessibilità di Adobe](https://www.adobe.com/accessibility/feedback.html) per inviarci suggerimenti di miglioramento e segnalare i problemi di accessibilità incontrati. Saremo lieti di tenere conto del tuo feedback e migliorare [!DNL Audience Manager].

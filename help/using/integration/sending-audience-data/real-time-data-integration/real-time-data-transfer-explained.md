@@ -28,10 +28,10 @@ I trasferimenti di dati in tempo reale inviano e ricevono ID di segmenti quando 
 
 Il processo di integrazione dei dati in tempo reale funziona come segue:
 
-1. Un utente visita il sito di un cliente che contiene codice di Audience Manager.
+1. Un utente visita il sito di un cliente che contiene codice Audience Manager.
 1. Audience Manager carica un iframe e effettua una chiamata a [!UICONTROL Data Collection Server] ( [!DNL DCS]).
 1. [!DNL DCS] chiama il server di terze parti (in tempo reale) per verificare se il fornitore dispone di informazioni sui segmenti dell&#39;utente.
-1. Il provider di contenuti restituisce come Audience Manager informazioni sui segmenti relativi a tale utente.
-1. Audience Manager riceve le informazioni sul segmento e le rende disponibili per il targeting e la creazione di nuove caratteristiche e segmenti.
+1. Il provider di contenuti restituisce ad Audience Manager le informazioni del segmento relative a tale utente.
+1. Audience Manager riceve queste informazioni sui segmenti e le rende disponibili per il targeting e la creazione di nuove caratteristiche e segmenti.
 
 ![](assets/rt_reduce70.png)

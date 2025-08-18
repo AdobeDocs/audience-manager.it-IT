@@ -61,9 +61,9 @@ In questo esempio, il titolo del file è 20180921_0_1 e le tre colonne del file 
 333 Campaign C -1
 ```
 
-**Creativo**
+**Creative**
 
-In questo esempio, il titolo del file è 20180827_0_2 e le tre colonne del file sono: ID creativo, Nome e ID padre.
+In questo esempio, il titolo del file è 20180827_0_2 e le tre colonne del file sono: Creative ID, Name e Parent ID.
 
 ```
 //File Title

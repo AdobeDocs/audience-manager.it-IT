@@ -1,5 +1,5 @@
 ---
-description: Presentazione ad alto livello dei principali componenti e flussi di dati dell'Audience Manager.
+description: Presentazione ad alto livello dei principali componenti e flussi di dati del sistema Audience Manager.
 seo-description: A high-level tour of the major components and data flows in the Audience Manager system.
 seo-title: System Components Overview
 title: Panoramica dei componenti di sistema
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Panoramica dei componenti di sistema{#system-components-overview}
 
-Presentazione ad alto livello dei principali componenti e flussi di dati dell&#39;Audience Manager.
+Presentazione ad alto livello dei principali componenti e flussi di dati del sistema Audience Manager.
 
 <!-- 
 
@@ -31,7 +31,7 @@ Questa guida fornisce una panoramica di base dei componenti principali che alime
 
 Questa guida cerca di trovare un equilibrio tra le descrizioni generali e un approfondimento. Tuttavia, alcune cose sono proprietarie quindi semplicemente non ci andiamo. Dopo tutto, c&#39;è più di salsa speciale che solo maionese e ketchup. Dobbiamo tenere segreti i sottaceti. Come sempre, puoi verificare con il tuo consulente [!DNL Audience Manager] se hai domande.
 
-* [Componenti chiave nel sistema di Audience Manager](/help/using/reference/system-components/components-stack.md)
+* [Componenti chiave nel sistema Audience Manager](/help/using/reference/system-components/components-stack.md)
 * [Componenti azione dati](/help/using/reference/system-components/components-data-action.md)
 * [Componenti di raccolta dati](/help/using/reference/system-components/components-data-collection.md)
 * [Componenti di elaborazione dati](/help/using/reference/system-components/components-data-processing.md)

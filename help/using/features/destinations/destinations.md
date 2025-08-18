@@ -12,13 +12,13 @@ exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
 # Panoramica di [!UICONTROL Destinations] {#destinations}
 
-Ad Audience Manager, [!UICONTROL destination] è un qualsiasi sistema di terze parti (ad server, [!DNL DSP], ad network, ecc.) con cui desideri condividere i dati. [!UICONTROL Destination Builder] è lo strumento utilizzato per creare e gestire [!UICONTROL cookie], [!DNL URL] o [!UICONTROL server-to-server destinations].
+In Audience Manager, [!UICONTROL destination] è qualsiasi sistema di terze parti (ad server, [!DNL DSP], ad network, ecc.) con cui si desidera condividere i dati. [!UICONTROL Destination Builder] è lo strumento utilizzato per creare e gestire [!UICONTROL cookie], [!DNL URL] o [!UICONTROL server-to-server destinations].
 
 ## Finalità e vantaggi {#purposes}
 
@@ -26,7 +26,7 @@ Ad Audience Manager, [!UICONTROL destination] è un qualsiasi sistema di terze p
 
 [!UICONTROL Destinations] e [!UICONTROL Destination Builder] ti consentono di creare [!UICONTROL destinations] e inviare informazioni sugli utenti segmentati al tuo partner dati. Questo consente di:
 
-* **Valore dati Protect:** Anziché inviare tutti i dati utente a un [!UICONTROL destination], [!UICONTROL Destination Builder] consente di condividere informazioni specifiche solo sugli utenti qualificati.
+* **Proteggi valore dati:** Anziché inviare tutti i dati utente a un [!UICONTROL destination], [!UICONTROL Destination Builder] ti consente di condividere informazioni specifiche solo su utenti qualificati.
 * **Intervieni sui tuoi dati:** L&#39;invio di dati a un partner [!UICONTROL destination] li aiuta a sviluppare e indirizzare rapidamente segmenti di pubblico qualificati.
 * **Riduzione del sovraccarico tecnico:** Gli utenti aziendali possono configurare [!UICONTROL destinations] in modo sicuro nell&#39;interfaccia [!UICONTROL Destination Builder]. Questo consente di ridurre il tempo necessario per i test di pre-distribuzione. Con [!UICONTROL Destination Builder], puoi creare, gestire ed eliminare [!UICONTROL destinations] in base alle esigenze della tua azienda, senza dover affrontare un lungo ciclo di sviluppo.
 

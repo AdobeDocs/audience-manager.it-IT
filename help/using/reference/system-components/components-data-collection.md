@@ -1,5 +1,5 @@
 ---
-description: I componenti di raccolta dati includono i server di raccolta dati, l’API DIL, i trasferimenti di dati server-to-server in entrata e i file di registro.
+description: I componenti di raccolta dati includono i server di raccolta dati, l’API di DIL, i trasferimenti di dati server-to-server in entrata e i file di registro.
 seo-description: Data collection components include the Data Collection Servers, the DIL API, inbound server-to-server data transfers, and log files.
 seo-title: Data Collection Components
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Componenti di raccolta dati{#data-collection-components}
 
-I componenti di raccolta dati includono i server di raccolta dati, l’API DIL, i trasferimenti di dati server-to-server in entrata e i file di registro.
+I componenti di raccolta dati includono i server di raccolta dati, l’API di DIL, i trasferimenti di dati server-to-server in entrata e i file di registro.
 
 <!-- 
 
@@ -24,7 +24,7 @@ c_compcollect.xml
 
  -->
 
-L’Audience Manager contiene i seguenti componenti di raccolta dati:
+Audience Manager contiene i seguenti componenti di raccolta dati:
 
 * [Server di raccolta dati (DCS) e server di cache profili (PCS)](../../reference/system-components/components-data-collection.md#dcs-pcs)
 * [Libreria di integrazione dei dati (DIL)](../../reference/system-components/components-data-collection.md#dil)
@@ -78,15 +78,15 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-[!UICONTROL PCS] scarica le caratteristiche se sono inattive per 17 giorni. Tuttavia, queste caratteristiche non vengono perse. Sono conservati in Hadoop. Se l&#39;utente viene nuovamente visualizzato in un altro momento, il Hadoop invia tutte le caratteristiche a [!UICONTROL PCS], in genere entro un periodo di 24 ore.
+[!UICONTROL PCS] scarica le caratteristiche se sono inattive per 17 giorni. Tuttavia, queste caratteristiche non vengono perse. Sono archiviati in Hadoop. Se l&#39;utente viene nuovamente visualizzato in un altro momento, Hadoop invia tutte le caratteristiche a [!UICONTROL PCS], in genere entro un periodo di 24 ore.
 
 **Altri [!UICONTROL DCS/PCS] processi: rinuncia alla privacy**
 
-Questi sistemi server gestiscono le richieste di privacy e rinuncia degli utenti. Le informazioni sui cookie utente non vengono raccolte nel file di registro se un utente ha rinunciato alla raccolta dei dati. Per ulteriori informazioni sulle nostre informative sulla privacy, visita il [Centro per la privacy Adobe](https://www.adobe.com/it/privacy/advertising-services.html).
+Questi sistemi server gestiscono le richieste di privacy e rinuncia degli utenti. Le informazioni sui cookie utente non vengono raccolte nel file di registro se un utente ha rinunciato alla raccolta dei dati. Per ulteriori informazioni sulle politiche sulla privacy, visitare il [Centro per la privacy di Adobe](https://www.adobe.com/it/privacy/advertising-services.html).
 
 ## Data Integration Library (DIL) {#dil}
 
-[!UICONTROL DIL] è il codice inserito nella pagina per la raccolta dati. Per ulteriori informazioni sui servizi e i metodi disponibili, vedere [DIL API](../../dil/dil-overview.md).
+[!UICONTROL DIL] è il codice inserito nella pagina per la raccolta dati. Per ulteriori informazioni sui servizi e i metodi disponibili, vedere [API DIL](../../dil/dil-overview.md).
 
 ## Server-to-Server in entrata {#inbound-outbound-server}
 

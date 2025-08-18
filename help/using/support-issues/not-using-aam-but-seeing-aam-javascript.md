@@ -23,6 +23,6 @@ Perché succede?
 
 ## Risposta
 
-È probabile che tu stia eseguendo il servizio [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) sulla tua proprietà. Se è così, questo riferimento a Audience Manager non fa necessariamente riferimento alla proprietà che esegue Audience Manager. Significa, invece, che il tuo servizio è basato su Audience Manager.
+È probabile che tu stia eseguendo il servizio [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) sulla tua proprietà. Se è così, questo riferimento a Audience Manager non fa necessariamente riferimento alla proprietà che esegue Audience Manager. Significa, invece, che il tuo servizio è basato su Audience Manager.
 
-La chiamata al server Audience Manager solitamente viene eseguita per [sincronizzare gli ID cliente](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=it).
+La chiamata al server Audience Manager solitamente viene eseguita per [sincronizzare gli ID cliente](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html).

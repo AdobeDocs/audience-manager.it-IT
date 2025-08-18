@@ -20,7 +20,7 @@ Restituisce i dati sul numero di utenti univoci condivisi tra una particolare ca
 
 >[!NOTE]
 >
->I rapporti di sovrapposizione di cui all’Audience Manager rispettano i principi RBAC. Puoi visualizzare solo segmenti e caratteristiche da origini dati a cui hai accesso in base al [gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui appartieni.
+>I rapporti di sovrapposizione in Audience Manager sono conformi ai principi RBAC. Puoi visualizzare solo segmenti e caratteristiche da origini dati a cui hai accesso in base al [gruppo di utenti RBAC](/help/using/features/administration/administration-overview.md) a cui appartieni.
 
 <!-- 
 
@@ -185,5 +185,5 @@ La finestra a comparsa per il report [!UICONTROL Segment-to-Trait Overlap] conti
 >* [Forme, colori e dimensioni utilizzati nei report interattivi](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Icone e strumenti di report spiegati](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapporti di sovrapposizione: pianificazione degli aggiornamenti e dimensione minima dei segmenti](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Campionamento di dati e tassi di errore nei report di Audienci Manager selezionati...](../../reporting/report-sampling.md)
+>* [Campionamento di dati e tassi di errore nei rapporti di Audience Manager selezionati...](../../reporting/report-sampling.md)
 >* [File CSV per report di sovrapposizione](../../reporting/dynamic-reports/overlap-csv-files.md)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Integrazione [!DNL OAuth 2.0] per trasferimenti in uscita in tempo reale{#oauth-integration-for-real-time-outbound-transfers}
 
-Quando si pubblicano segmenti nella destinazione partner tramite un&#39;integrazione server-to-server in tempo reale, è possibile impostare l&#39;Audience Manager per l&#39;autenticazione utilizzando [!DNL OAuth 2.0] quando si eseguono le richieste. Questo offre la possibilità di emettere richieste autenticate da Audience Manager all’endpoint.
+Quando si pubblicano segmenti nella destinazione partner tramite un&#39;integrazione server-to-server in tempo reale, è possibile configurare Audience Manager per l&#39;autenticazione utilizzando [!DNL OAuth 2.0] durante l&#39;esecuzione delle richieste. Questo offre la possibilità di emettere richieste autenticate da Audience Manager all’endpoint.
 
 ## Flusso di autenticazione {#auth-flow}
 
@@ -44,7 +44,7 @@ Questo endpoint accetta le credenziali fornite al passaggio 1 e genera un token 
 * L&#39;endpoint deve esaminare l&#39;intestazione [!DNL Content-type] e verificare che il relativo valore sia `application/x-www-form-urlencoded ; charset=UTF-8`.
 * Il corpo della richiesta sarà `grant_type=client_credentials`.
 
-### Esempio di richiesta effettuata da Audience Manager all’endpoint partner per ottenere un token Bearer
+### Richiesta di esempio effettuata da Audience Manager all’endpoint partner per ottenere un token Bearer
 
 ```
 POST /oauth2/token HTTP/1.1

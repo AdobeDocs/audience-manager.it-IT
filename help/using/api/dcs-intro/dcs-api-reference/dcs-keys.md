@@ -37,7 +37,7 @@ Elenca e descrive la sintassi e gli attributi supportati (o coppie chiave-valore
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_</code> </p> </td> 
-   <td colname="col2"> <p>Attributi <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> attributi Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> h_</code> </p> </td> 
@@ -45,7 +45,7 @@ Elenca e descrive la sintassi e gli attributi supportati (o coppie chiave-valore
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Attributi privati definiti dal cliente. </p> <p> Il DCS accetta dati privati quando la chiave ha il prefisso <code> p_</code>. I dati privati vengono utilizzati per la valutazione delle caratteristiche, ma non verranno registrati o memorizzati nel nostro sistema. Supponiamo ad esempio che tu abbia una caratteristica definita come <code> customers = p_age&lt;25</code> e passi <code> p_age=23</code> in una chiamata evento. Considerate queste condizioni, l'utente che soddisfa i criteri di qualifica basati sull'età è idoneo per la caratteristica, ma la coppia chiave-valore viene eliminata dopo che <span class="keyword"> Audience Manager</span> riceve la richiesta e non viene registrato. </p> </td>
+   <td colname="col2"> <p>Attributi privati definiti dal cliente. </p> <p> Il DCS accetta dati privati quando la chiave ha il prefisso <code> p_</code>. I dati privati vengono utilizzati per la valutazione delle caratteristiche, ma non verranno registrati o memorizzati nel nostro sistema. Supponiamo ad esempio che tu abbia una caratteristica definita come <code> customers = p_age&lt;25</code> e passi <code> p_age=23</code> in una chiamata evento. Considerate queste condizioni, l'utente che soddisfa i criteri di qualifica basati sull'età è idoneo per la caratteristica, ma la coppia chiave-valore viene eliminata dopo che <span class="keyword"> Audience Manager</span> ha ricevuto la richiesta e non è registrato. </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -64,11 +64,11 @@ Tutti questi elementi sono facoltativi, a meno che non si desideri una risposta 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><code> d_caller</code> </p> </td> 
-   <td colname="col2"> <p>Utilizzato per identificare il chiamante che effettua la chiamata all'API DCS</span> di <span class="wintitle">. </p> </td> 
+   <td colname="col2"> <p>Utilizzato per identificare il chiamante che effettua la chiamata all'API DCS<span class="wintitle"> di </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cb</code> </p> </td> 
-   <td colname="col2"> <p>Specifica una funzione JavaScript che si desidera eseguire utilizzando la risposta DCS</span> di <span class="wintitle"> come parametro della funzione di callback. </p> </td> 
+   <td colname="col2"> <p>Specifica una funzione JavaScript che si desidera eseguire utilizzando la risposta DCS<span class="wintitle"> di </span> come parametro della funzione di callback. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
@@ -80,7 +80,7 @@ Tutti questi elementi sono facoltativi, a meno che non si desideri una risposta 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Disattiva l’utilizzo di cookie di terze parti al fine di rispettare le normative a tutela dei minori. Questo parametro viene impostato dinamicamente dal servizio Adobe Adobe Experience Platform Identity e dipende dalla configurazione <code> idSyncDisable3rdPartySyncing</code>. Consulta Supporto per COPPA <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=it" format="https" scope="external"> nel servizio Adobe Experience Platform Identity</a>. </p> </td>
+   <td colname="col2"> <p>Disattiva l’utilizzo di cookie di terze parti al fine di rispettare le normative a tutela dei minori. Questo parametro viene impostato dinamicamente dal servizio Adobe Adobe Experience Platform Identity e dipende dalla configurazione <code> idSyncDisable3rdPartySyncing</code>. Consulta Supporto per COPPA <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> nel servizio Adobe Experience Platform Identity</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -90,14 +90,14 @@ Tutti questi elementi sono facoltativi, a meno che non si desideri una risposta 
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> restituisce gli ID segmento per i segmenti. </p> </li>
      </ul> </p> <p>Un esempio di risposta potrebbe essere simile a quello riportato di seguito: </p> <p>
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"07955261652886032950143702505894272138",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"traits":&nbsp;[420020,&nbsp;5421506],
       &nbsp;&nbsp;&nbsp;&nbsp;"segments":&nbsp;[984263,&nbsp;985264],
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ Tutti questi elementi sono facoltativi, a meno che non si desideri una risposta 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Specifica l'ID Experience Cloud impostato e utilizzato dal servizio ID Experience Cloud</span> di <span class="keyword">. Per ulteriori informazioni sull'ECID, vedere Cookie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it" format="https" scope="external"> e il servizio Experience Cloud Identity</a>. </p> </td> 
+   <td colname="col2"> <p>Specifica l'Experience Cloud ID impostato e utilizzato dal servizio ID di Experience Cloud<span class="keyword"> </span>. Per ulteriori informazioni sull'ECID, vedere <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> cookie e il servizio Experience Cloud Identity</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -130,7 +130,7 @@ Tutti questi elementi sono facoltativi, a meno che non si desideri una risposta 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
-   <td colname="col2"> <p>Consente ad Audience Manager di distinguere le richieste da dispositivi mobili da quelle da desktop. I valori supportati includono: </p> <p> 
+   <td colname="col2"> <p>Consente ad Audience Manager di distinguere le richieste per dispositivi mobili da quelle per desktop. I valori supportati includono: </p> <p> 
      <ul id="ul_A01D4B15C89F4713A39E08377924D632"> 
       <li id="li_E17CC839265B4EB9AC44A3DA31A23857"> <code> ios</code> </li> 
       <li id="li_468F5903CD3048B5AE02A3FDA9B3C4F1"> <code> android</code> </li> 
@@ -146,16 +146,16 @@ Tutti questi elementi sono facoltativi, a meno che non si desideri una risposta 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
    <td colname="col2"> <p>Obbligatorio se si desidera ottenere una risposta <code> JSON</code> dal DCS <span class="wintitle"></span>. </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
-      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Se si omette questo elemento, il DCS</span> di <span class="wintitle"> restituisce un pixel nell'intestazione. </li> 
-      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Se si include questo elemento, il DCS</span> di <span class="wintitle"> restituisce un oggetto <code> JSON</code> nel corpo della risposta. Vedi l’esempio seguente. La tua risposta potrebbe essere più complessa. </li> 
+      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Se si omette questo elemento, il DCS<span class="wintitle"> di </span> restituisce un pixel nell'intestazione. </li> 
+      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Se si include questo elemento, il DCS<span class="wintitle"> di </span> restituisce un oggetto <code> JSON</code> nel corpo della risposta. Vedi l’esempio seguente. La tua risposta potrebbe essere più complessa. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"22920112968019678612904394744954398990",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -195,7 +195,7 @@ Queste intestazioni contengono informazioni come richieste di dati e risposte in
 
 | Attributo | Descrizione |
 | --- | --- | 
-| `h_host` | È impostato sul nome host specifico del client per la raccolta dati. Viene visualizzato come `host name .demdex.net`. Consulta [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=it). |
+| `h_host` | È impostato sul nome host specifico del client per la raccolta dati. Viene visualizzato come `host name .demdex.net`. Consulta [Understanding Calls to the Demdex Domain](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). |
 | `h_user-agent` | Imposta sul valore dell&#39;intestazione `User-Agent`. |
 | `h_accept-language` | Imposta sul valore dell&#39;intestazione `Accept-Language`. |
 | `h_referer` | Imposta sul valore dell&#39;intestazione `Referer`. |

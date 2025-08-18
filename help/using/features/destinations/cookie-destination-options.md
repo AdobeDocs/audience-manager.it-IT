@@ -1,5 +1,5 @@
 ---
-description: In Generatore di destinazione, la sezione Configurazione contiene i campi Dominio cookie e Publish Data To. Queste ti consentono di creare regole per determinare se una destinazione imposta un cookie o restituisce un cookie. Cookie Domain (Dominio cookie) e Publish Data (Dati) Per lavorare in modo indipendente l’uno dall’altro e sono facoltativi. Puoi creare una destinazione di cookie senza utilizzarne una.
+description: In Generatore di destinazione, la sezione Configurazione contiene i campi Dominio cookie e Pubblica dati in. Queste ti consentono di creare regole per determinare se una destinazione imposta un cookie o restituisce un cookie. Cookie Domain (Dominio cookie) e Publish Data (Pubblica dati) Per lavorare in modo indipendente l’uno dall’altro e sono facoltativi. Puoi creare una destinazione di cookie senza utilizzarne una.
 seo-description: In Destination Builder, the Configuration section contains the Cookie Domain and Publish Data To fields. These let you create rules to determine if a destination sets a cookie or returns a cookie. Cookie Domain and Publish Data To work independently of each other and are optional. You can create a cookie destination without using either of them.
 seo-title: Optional Settings for Cookie Destinations
 solution: Audience Manager
@@ -44,7 +44,7 @@ In [!UICONTROL Destination Builder], [!UICONTROL Configuration section] contiene
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Esempio</b> </p> </td> 
-   <td colname="col2"> <p>Per fare un semplice esempio, supponiamo di avere un sito fittizio chiamato sports.com. Sports.com ha domini per il golf, il baseball e il calcio. Per impostare un cookie in tutti i domini sportivi, digitarlo nella casella <span class="wintitle"> dominio cookie</span> come illustrato di seguito: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>In questo modo <span class="keyword"> Audience Manager</span> imposta un cookie in qualsiasi dominio che contiene il modello <code><i>something</i></code>.sports.com. Di seguito sono riportati alcuni esempi più complessi. </p> </td> 
+   <td colname="col2"> <p>Per fare un semplice esempio, supponiamo di avere un sito fittizio chiamato sports.com. Sports.com ha domini per il golf, il baseball e il calcio. Per impostare un cookie in tutti i domini sportivi, digitarlo nella casella <span class="wintitle"> dominio cookie</span> come illustrato di seguito: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Questo comunica a <span class="keyword"> Audience Manager</span> di impostare un cookie in qualsiasi dominio che contiene il modello <code><i>something</i></code>.sports.com. Di seguito sono riportati alcuni esempi più complessi. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +90,7 @@ Questi esempi mostrano se [!DNL Audience Manager] imposterà un cookie in base a
  </tbody> 
 </table>
 
-## Dati Publish a {#publish-data-to}
+## Pubblica dati in {#publish-data-to}
 
 Le impostazioni di [!UICONTROL Publish Data To] restituiscono un cookie se il dominio soddisfa i criteri impostati dalle opzioni selezionate. Le opzioni includono:
 

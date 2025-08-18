@@ -44,7 +44,7 @@ Durante una chiamata, [!DNL DCS] accetta dati chiave-valore in formato standard 
 
 ## Delimitatori e separatori per coppie chiave-valore serializzate {#delimiters-separators}
 
-Con le coppie chiave-valore serializzate, devi specificare gli indicatori che separano i valori all&#39;interno e tra queste variabili. L&#39;Audience Manager richiede i delimitatori e i separatori seguenti:
+Con le coppie chiave-valore serializzate, devi specificare gli indicatori che separano i valori all&#39;interno e tra queste variabili. Audience Manager richiede i seguenti delimitatori e separatori:
 
 <table id="table_8FD4E6B9506943AEA619D4089913ECBC"> 
  <thead> 

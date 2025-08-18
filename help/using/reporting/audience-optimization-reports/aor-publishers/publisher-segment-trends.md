@@ -44,7 +44,7 @@ Utilizza la casella a discesa **[!UICONTROL Segment]** per selezionare i segment
 
 >[!IMPORTANT]
 >
->Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Line Item] ID, come descritto nel passaggio 3 di [Importare i file di dati di Google Ad Manager (precedentemente DFP) nell&#39;Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo si assicura che il report specifichi la proprietà Web come [!UICONTROL Line Item] invece dell&#39;ID [!UICONTROL Line Item].
+>Quando si abilita [!UICONTROL Audience Optimization for Publishers], è necessario includere metadati descrittivi per [!UICONTROL Line Item] ID, come descritto nel passaggio 3 di [Importare file di dati di Google Ad Manager (precedentemente DFP) in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). In questo modo si assicura che il report specifichi la proprietà Web come [!UICONTROL Line Item] invece dell&#39;ID [!UICONTROL Line Item].
 
 ## Interpretazione dei risultati {#interpreting-results}
 

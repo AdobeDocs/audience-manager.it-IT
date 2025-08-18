@@ -62,7 +62,7 @@ Per creare un nuovo [!UICONTROL Segment Test Group]:
    * Aggiungi le caratteristiche di conversione digitando nella finestra delle caratteristiche di conversione. Questo è un passaggio **obbligatorio** e non puoi procedere al passaggio successivo a meno che non aggiungi almeno una caratteristica di conversione.
    * Puoi aggiungere fino a 5 caratteristiche di conversione, se lo desideri.
    * Se selezioni una caratteristica di conversione già utilizzata per altri gruppi di test, viene visualizzato un avviso.
-   * L&#39;Audience Manager non supporta l&#39;utilizzo di [caratteristiche cartella](/help/using/features/traits/about-folder-traits.md) come caratteristiche di conversione. Se si seleziona una caratteristica di cartella come caratteristica di conversione, nel test vengono visualizzati i rapporti aggregati e di tendenza 0.
+   * Audience Manager non supporta l&#39;utilizzo di [caratteristiche cartella](/help/using/features/traits/about-folder-traits.md) come caratteristiche di conversione. Se si seleziona una caratteristica di cartella come caratteristica di conversione, nel test vengono visualizzati i rapporti aggregati e di tendenza 0.
 
 1. **[!UICONTROL Choose Destinations & Dates]**
 

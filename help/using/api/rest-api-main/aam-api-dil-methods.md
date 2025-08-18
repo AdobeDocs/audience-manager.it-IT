@@ -3,7 +3,7 @@ description: Metodi che consentono di utilizzare a livello di programmazione Dat
 seo-description: Methods that let you work programmatically with the Data Integration Library (DIL).
 seo-title: Data Integration Library API Methods
 solution: Audience Manager
-title: Data Integration Library metodi API
+title: Metodi API di Data Integration Library
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
 exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 ---
 
-# Data Integration Library metodi API {#data-integration-library-api-methods}
+# Metodi API di Data Integration Library {#data-integration-library-api-methods}
 
 Metodi che consentono di utilizzare a livello di programmazione [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
 >[!IMPORTANT]
 >
->L’API Data Integration Library è stata dichiarata obsoleta. Questa API generava DIL, che ora puoi scaricare autonomamente qui: [Download DIL](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>L’API Data Integration Library è stata dichiarata obsoleta. Questa API generava DIL, che ora puoi scaricare autonomamente qui: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 

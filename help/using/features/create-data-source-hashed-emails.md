@@ -26,6 +26,6 @@ Segui i passaggi seguenti per creare e configurare un’origine dati per le e-ma
 
    >[!IMPORTANT]
    >
-   >Questa opzione etichetta l’origine dati solo come contenente dati con hash con quell’algoritmo specifico. L’Audience Manager non esegue l’hashing dei dati in questo passaggio. Verificare che gli indirizzi di posta elettronica che si prevede di memorizzare in questa origine dati siano già sottoposti a hashing con l&#39;algoritmo [!DNL SHA256]. In caso contrario, non potrai utilizzarlo per i flussi di lavoro e-mail con hash.
+   >Questa opzione etichetta l’origine dati solo come contenente dati con hash con quell’algoritmo specifico. In questo passaggio, Audience Manager non esegue l’hashing dei dati. Verificare che gli indirizzi di posta elettronica che si prevede di memorizzare in questa origine dati siano già sottoposti a hashing con l&#39;algoritmo [!DNL SHA256]. In caso contrario, non potrai utilizzarlo per i flussi di lavoro e-mail con hash.
 
    ![Immagine dell&#39;interfaccia utente di Audience Manager che mostra la sezione delle impostazioni dell&#39;origine dati.](../features/assets/data-source-settings.png)

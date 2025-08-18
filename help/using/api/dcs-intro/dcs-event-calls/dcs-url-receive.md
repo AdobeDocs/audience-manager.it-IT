@@ -61,7 +61,7 @@ La tabella seguente elenca e definisce i parametri più comuni che è possibile 
 | `stuff` | Questo oggetto contiene informazioni per tutte le destinazioni cookie. L’elenco di questo oggetto è dinamico in base alle azioni dell’utente. |
 | `tid` | ID transazione, un ID univoco di 12 caratteri utilizzato a scopo di debug. Ogni chiamata /event al DCS riceve un tid a cui è possibile fare riferimento nelle richieste di supporto per ottenere una risposta migliore e più rapida. |
 | `ttl` | Il valore time-to-live dei cookie in giorni. |
-| `u` e `uuid` | ID utente univoco assegnato dall’Audience Manager. Questa operazione è necessaria se si stanno effettuando [chiamate DCS server-to-server](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
+| `u` e `uuid` | ID utente univoco assegnato da Audience Manager. Questa operazione è necessaria se si stanno effettuando [chiamate DCS server-to-server](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md). |
 | `y` | Tipo di destinazione, iFrame (`iframe`) o immagine (`img`). |
 
 >[!MORELIKETHIS]

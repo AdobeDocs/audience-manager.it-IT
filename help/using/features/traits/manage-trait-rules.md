@@ -31,15 +31,15 @@ In [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] consente di crear
 
    >[!NOTE]
    >
-   >Questa opzione è disponibile solo per i clienti [!UICONTROL Data Explorer]. Contatta il tuo consulente Adobe per ulteriori dettagli.
+   >Questa opzione è disponibile solo per i clienti [!UICONTROL Data Explorer]. Per informazioni, contatta il tuo consulente Adobe.
 
 1. Questa sezione mostra una stima delle realizzazioni delle caratteristiche per gli ultimi 7 giorni, per i segnali definiti in [!UICONTROL Expression Builder], per le caratteristiche precompilate e non precompilate.
 
    >[!NOTE]
    >
-   >Questa opzione è disponibile solo per i clienti [!UICONTROL Data Explorer]. Contatta il tuo consulente Adobe per ulteriori dettagli.
+   >Questa opzione è disponibile solo per i clienti [!UICONTROL Data Explorer]. Per informazioni, contatta il tuo consulente Adobe.
 
-1. I campi di test ti consentono di convalidare combinazioni di regole di segnale o i [!DNL URL] che desideri utilizzare quando invii dati ad Audience Manager.
+1. I campi di test ti consentono di convalidare combinazioni di regole di segnale o [!DNL URL] da utilizzare per l’invio di dati ad Audience Manager.
 
 ## Creare una regola di caratteristiche {#create-trait-rule}
 
@@ -55,7 +55,7 @@ Completa i campi obbligatori nella sezione **[!UICONTROL Basic Information]** *p
    >
    >Includi il prefisso `c_` (o qualsiasi altra convenzione di denominazione) per la variabile chiave se le chiamate dell&#39;evento inviano i dati a [!DNL Audience Manager] utilizzando tale sintassi.
 
-1. Seleziona un operatore di confronto [&#128279;](../../features/traits/trait-comparison-operators.md) dal menu a discesa **[!UICONTROL Operator]**. L’operatore di confronto valuta la relazione tra gli elementi in un segnale.
+1. Seleziona un operatore di confronto [](../../features/traits/trait-comparison-operators.md) dal menu a discesa **[!UICONTROL Operator]**. L’operatore di confronto valuta la relazione tra gli elementi in un segnale.
 
    >[!NOTE]
    >

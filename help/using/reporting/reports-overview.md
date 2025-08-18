@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Le singole sezioni descrivono i rapporti disponibili, le loro finalità e gli utilizzi tipici. Tutti i report sono disponibili dal dashboard [!UICONTROL Analytics].
 
-Per informazioni che descrivono gli intervalli di tempo in cui Audience Manager riceve informazioni per compilare i rapporti, vedere [Influenza dei tempi di consegna dei dati ed elaborazione dei file sui rapporti](/help/using/reference/reporting-file-transfer-timeframe.md).
+Per informazioni che descrivono gli intervalli di tempo in cui Audience Manager riceve informazioni per compilare i rapporti, vedi [Influenza dei tempi di consegna dei dati ed elaborazione dei file sui rapporti](/help/using/reference/reporting-file-transfer-timeframe.md).
 
 * [Rapporti di Audience Optimization](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
-  I report [!UICONTROL Audience Optimization] utilizzano i metodi di visualizzazione dei dati per restituire informazioni sulle destinazioni nel tuo account di Audience Manager. In ogni rapporto, puoi fare clic su quasi qualsiasi punto dati per restituire informazioni dettagliate su quell’elemento. Queste informazioni sull’ottimizzazione del pubblico possono essere applicate a diversi casi d’uso in canali pubblicitari e di pubblicazione, ma non sono disponibili per impostazione predefinita. Per iniziare, contatta il tuo consulente Audience Manager.
+  I report [!UICONTROL Audience Optimization] utilizzano i metodi di visualizzazione dei dati per restituire informazioni sulle destinazioni nel tuo account Audience Manager. In ogni rapporto, puoi fare clic su quasi qualsiasi punto dati per restituire informazioni dettagliate su quell’elemento. Queste informazioni sull’ottimizzazione del pubblico possono essere applicate a diversi casi d’uso in canali pubblicitari e di pubblicazione, ma non sono disponibili per impostazione predefinita. Per iniziare, contatta il tuo consulente Audience Manager.
 
 * [Rapporti generali](/help/using/reporting/general-reports.md)
 
@@ -50,6 +50,6 @@ Per informazioni che descrivono gli intervalli di tempo in cui Audience Manager 
 
   Utilizza il dashboard per visualizzare informazioni sui conteggi dei visitatori univoci dei tuoi partner suddivisi per [!UICONTROL trait] tipi e [!UICONTROL segments] per un intervallo di tempo specificato.
 
-* [Campionamento di dati e tassi di errore nei report di Audienci Manager selezionati](/help/using/reporting/report-sampling.md)
+* [Campionamento di dati e tassi di errore nei rapporti di Audience Manager selezionati](/help/using/reporting/report-sampling.md)
 
   Sintesi della metodologia di campionamento utilizzata per alcune relazioni, tassi di errore di campionamento e un elenco di relazioni che restituiscono informazioni basate sui dati campionati.

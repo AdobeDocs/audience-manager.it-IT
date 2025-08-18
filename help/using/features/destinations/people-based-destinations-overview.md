@@ -25,7 +25,7 @@ Utilizza [!DNL People-Based Destinations] per inviare segmenti di pubblico prima
 [!DNL People-Based Destinations] consente di applicare la segmentazione ai dati online e offline per creare segmenti di pubblico in base a [identificatori con hash](people-based-destinations-prerequisites.md#hashing-requirements), ad esempio indirizzi e-mail. Quindi puoi inviare questi segmenti ai &quot;giardini murati&quot; come [!DNL Facebook], dove puoi indirizzare il tuo pubblico sulle piattaforme social. [!DNL People-Based Destinations] può aiutarti a:
 
 * Eseguire il targeting di tipi di pubblico offline e online in piattaforme come [!DNL Facebook], in base a indirizzi e-mail con hash;
-* Completa le attuali capacità di Audience Manager di targeting di dispositivi e cookie;
+* Completa le attuali funzionalità di targeting per dispositivi e cookie di Audience Manager;
 * Eliminazione dei costi associati alle soluzioni di onboarding dei dati di terze parti;
 * Eliminare i costi associati allo sviluppo di flussi di lavoro personalizzati per l’onboarding dei dati;
 * Tipi di pubblico target in ambienti senza cookie;
@@ -37,13 +37,13 @@ Utilizza [!DNL People-Based Destinations] per inviare segmenti di pubblico prima
 
 ## Disponibilità {#availability}
 
-[!DNL People-Based Destinations] è un&#39;integrazione Audience Manager premium. Contatta il tuo rappresentante di Adobe per approfittare di questa funzionalità premium.
+[!DNL People-Based Destinations] è un&#39;integrazione premium di Audience Manager. Contatta il tuo rappresentante Adobe per approfittare di questa funzionalità premium.
 
 ## Perché utilizzare [!UICONTROL People-Based Destinations] {#why-use}
 
 **Fornisci ai tuoi clienti esperienze cross-channel coerenti gestendo l&#39;intera segmentazione del pubblico dall&#39;interno di Audience Manager.**
 
-La mancata attivazione dei segmenti di pubblico nei canali basati sulle persone tramite Audience Manager porta a esperienze scollegate tra ciò che i clienti vedono quando visitano il tuo sito web e ciò che vedono, ad , nei loro feed [!DNL Facebook]. Con un targeting coerente tra i canali, puoi aumentare i ricavi degli annunci e al contempo ottimizzare la spesa pubblicitaria.
+La mancata attivazione dei segmenti di pubblico nei canali basati sulle persone tramite Audience Manager porta a esperienze scollegate tra ciò che i clienti vedono quando visitano il tuo sito web e ciò che vedono, ad esempio, nei loro feed [!DNL Facebook]. Con un targeting coerente tra i canali, puoi aumentare i ricavi degli annunci e al contempo ottimizzare la spesa pubblicitaria.
 
 **Raggiungi il pubblico nei canali basati sulle persone senza la necessità di una soluzione di onboarding dei dati dedicata o flussi di lavoro personalizzati per inviare il pubblico.**
 
@@ -51,7 +51,7 @@ Il modo più &quot;tradizionale&quot; di indirizzare il pubblico tra i canali ba
 
 ![pbd-overview](assets/pbd-diagram.png)
 
-Tramite [!DNL People-Based Destinations], Audience Manager ti consente di centralizzare i dati dei clienti, creare segmenti di pubblico e attivarli su più canali basati sulle persone. Puoi eseguire questa operazione dall’interfaccia utente di Audience Manager, evitando il lavoro aggiuntivo di caricamento manuale dei dati su ogni piattaforma, risparmiando tempo prezioso.
+Tramite [!DNL People-Based Destinations], Audience Manager ti consente di centralizzare i dati dei clienti, creare segmenti di pubblico e attivarli su più canali basati sulle persone. Puoi eseguire questa operazione dall’interfaccia utente di Audience Manager, evitando il lavoro aggiuntivo di caricamento manuale dei dati su ogni piattaforma, risparmiando tempo prezioso durante il processo.
 
 **Crea e attiva segmenti di pubblico da profili esclusivamente offline.**
 
@@ -63,20 +63,20 @@ Tramite [!DNL People-Based Destinations], Audience Manager ti consente di centra
 
 Guarda il video seguente per una panoramica del flusso di dati quando utilizzi [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/34905?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28968/)
 
 ## Casi d&#39;uso {#use-cases}
 
-Per aiutarti a capire meglio come e quando utilizzare [!DNL People-Based Destinations], ecco due casi d&#39;uso di Audience Manager che i clienti possono risolvere utilizzando questa funzione.
+Per aiutarti a capire meglio come e quando utilizzare [!DNL People-Based Destinations], ecco due esempi di casi d&#39;uso che i clienti di Audience Manager possono risolvere utilizzando questa funzione.
 
 ### #1 del caso d’uso {#use-case-1}
 
-Un rivenditore online desidera raggiungere i clienti esistenti tramite piattaforme social e mostrare loro offerte personalizzate basate sui loro ordini precedenti. Con [!DNL People-Based Destinations], il rivenditore online può acquisire gli indirizzi e-mail con hash dal proprio [!DNL CRM] per Audience Manager, creare segmenti dai propri dati offline e inviare questi segmenti alle piattaforme social sulle quali desidera fare pubblicità, ottimizzando le proprie spese pubblicitarie.
+Un retailer online vuole raggiungere i clienti esistenti tramite piattaforme social e mostrare loro offerte personalizzate basate sui loro ordini precedenti. Con [!DNL People-Based Destinations], il retailer online può acquisire gli indirizzi e-mail con hash dal proprio [!DNL CRM] ad Audience Manager, creare segmenti dai propri dati offline e inviare questi segmenti alle piattaforme social sulle quali desiderano fare pubblicità, ottimizzando le spese pubblicitarie.
 
 ### #2 del caso d’uso {#use-case-2}
 
 Una compagnia aerea ha diversi livelli di clienti (Bronzo, Argento e Oro) e vuole fornire a ciascuno di questi livelli offerte personalizzate tramite piattaforme social. L’azienda utilizza Audience Manager per analizzare l’attività dei clienti sul sito web. Tuttavia, non tutti i clienti utilizzano l&#39;app mobile della compagnia aerea e alcuni di loro non hanno effettuato l&#39;accesso al sito web della compagnia. Gli unici identificatori di questi clienti di cui dispone l’azienda sono gli ID iscrizione e gli indirizzi e-mail.
 
-Per eseguire il targeting tra social media e canali simili basati su persone, è possibile integrare i dati del cliente dal proprio [!DNL CRM] in Audience Manager, utilizzando come identificatori gli indirizzi e-mail con hash.
+Per eseguire il targeting tra social media e canali simili basati su persone, è possibile integrare i dati del cliente da [!DNL CRM] in Audience Manager, utilizzando come identificatori gli indirizzi e-mail con hash.
 
 Successivamente, possono combinare i propri dati offline con le caratteristiche delle attività online esistenti, per creare nuovi segmenti di pubblico a cui rivolgersi tramite [!DNL People-Based Destinations].

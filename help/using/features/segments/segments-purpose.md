@@ -20,7 +20,7 @@ Descrive [!UICONTROL segments], le relative parti costitutive e la creazione di 
 
 ## Scopo di [!UICONTROL Segments]
 
-Un *`segment`* (o un *`audience`*) è un insieme di utenti che condividono attributi comuni. Ad Audience Manager, puoi creare [!UICONTROL segments] con regole lato server. Queste regole ti consentono di creare gruppi di pubblico in base agli attributi dei visitatori del sito, ad esempio:
+Un *`segment`* (o un *`audience`*) è un insieme di utenti che condividono attributi comuni. In Audience Manager, puoi creare [!UICONTROL segments] con regole lato server. Queste regole ti consentono di creare gruppi di pubblico in base agli attributi dei visitatori del sito, ad esempio:
 
 * Comportamento
 * Caratteristiche demografiche (età, genere, reddito, ecc.);
@@ -32,11 +32,11 @@ Un Audience Manager [!UICONTROL segment] è una regola lato server costituita da
 
 ## Considerazioni sulla mappatura di [!UICONTROL Adobe Analytics] [!UICONTROL Segment]
 
-Quando si mappano le suite di rapporti o Adobe Analytics [!UICONTROL segments] nell&#39;organizzazione Experience Cloud, Audience Manager crea automaticamente [!UICONTROL segments] e caratteristiche nuovi, corrispondenti, di sola lettura. Impossibile modificare o modificare il percorso di archiviazione di questi [!UICONTROL segments] da Audience Manager. Tuttavia, qualsiasi modifica eseguita sull&#39;Adobe Analytics [!UICONTROL segments] o sulle suite di rapporti mappate si riflette in Audience Manager.
+Quando si mappano le suite di rapporti o Adobe Analytics [!UICONTROL segments] nell&#39;organizzazione Experience Cloud, Audience Manager crea automaticamente [!UICONTROL segments] e caratteristiche nuovi, corrispondenti, di sola lettura. Impossibile modificare o cambiare il percorso di archiviazione di questi [!UICONTROL segments] da Audience Manager. Tuttavia, qualsiasi modifica eseguita sull&#39;Adobe Analytics [!UICONTROL segments] o sulle suite di rapporti mappate si riflette in Audience Manager.
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] diverso da [!DNL Adobe Analytics] [!UICONTROL segments]. Leggi [Informazioni sui segmenti in Analytics e Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=it) per una descrizione dettagliata delle differenze.
+>Audience Manager [!UICONTROL segments] sono diversi da [!DNL Adobe Analytics] [!UICONTROL segments]. Leggi [Informazioni sui segmenti in Analytics e Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.
 
 ## Crea [!UICONTROL Segments] basato su regole con [!UICONTROL Segment Builder]
 
@@ -49,7 +49,7 @@ A differenza dei pixel tradizionali che si attivano in risposta a condizioni sem
 * Genera [!UICONTROL segments] pertinenti e utili con caratteristiche di prima e terze parti.
 * Crea regole di segmentazione complesse e sofisticate con operatori booleani, espressioni di confronto e criteri di recency/frequenza.
 * Invia dati [!UICONTROL segment] a un partner di destinazione.
-* Monitora le prestazioni con i rapporti Audience Manager.
+* Monitora le prestazioni con i rapporti di Audience Manager.
 
 >[!MORELIKETHIS]
 >

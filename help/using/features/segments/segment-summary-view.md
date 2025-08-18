@@ -26,8 +26,8 @@ La parte superiore della pagina dei dettagli dei segmenti contiene gli strumenti
 1. **[!UICONTROL Add New]**: utilizzare questa opzione per attivare [!UICONTROL Segment Builder] e creare nuovi segmenti.
 2. **[!UICONTROL Edit]**: utilizzare questa opzione per modificare la configurazione del segmento corrente.
 3. **[!UICONTROL Duplicate]**: utilizzare questa opzione per creare una copia del segmento corrente.
-4. **[!UICONTROL Delete]**: utilizzare questa opzione per rimuovere il segmento corrente dall&#39;account di Audience Manager.
-5. **[!UICONTROL Marketplace Recommendations]**: utilizzare questa opzione per trovare segmenti simili a quelli che si stanno visualizzando, da [!UICONTROL Audience Marketplace] feed di dati a cui non si è iscritti. Consulta l&#39;[Audience Marketplace per gli acquirenti di dati](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) per scoprire come navigare nel Marketplace e trovare segmenti simili.
+4. **[!UICONTROL Delete]**: utilizza questa opzione per rimuovere il segmento corrente dal tuo account Audience Manager.
+5. **[!UICONTROL Marketplace Recommendations]**: utilizzare questa opzione per trovare segmenti simili a quelli che si stanno visualizzando, da [!UICONTROL Audience Marketplace] feed di dati a cui non si è iscritti. Consulta [Audience Marketplace for Data Buyers](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) per scoprire come navigare nel Marketplace e trovare segmenti simili.
 
 ![informazioni-segmento-base](assets/basic-segment-information.png)
 
@@ -46,10 +46,10 @@ Sotto gli strumenti di gestione dei segmenti puoi trovare le seguenti informazio
 
    >[!NOTE]
    >
-   >In Audience Manager viene visualizzato il report [!UICONTROL Identity Type Breakdown] solo se si dispone di ID multi-dispositivo qualificati per il segmento.
+   >Audience Manager visualizza il report [!UICONTROL Identity Type Breakdown] solo se si dispone di ID multi-dispositivo qualificati per il segmento.
 
    Guarda il video seguente per una panoramica di [!UICONTROL Identity Type Breakdown].
-   >[!VIDEO](https://video.tv.adobe.com/v/36989?captions=ita)
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 4. **[!UICONTROL Segment Rules]:** elenca le caratteristiche nel segmento insieme alle regole di qualificazione.
 5. **[!UICONTROL Destination Mappings]:** Elenca i mapping di destinazione per il segmento.

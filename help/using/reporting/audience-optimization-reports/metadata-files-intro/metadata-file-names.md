@@ -38,7 +38,7 @@ La sintassi seguente definisce la struttura di un nome di file di metadati ben f
 Nel nome del file di metadati, l’ID figlio è un identificatore che classifica il tipo di dati in un file e lo inserisce in una gerarchia. Puoi assegnare all’ID figlio nel nome file i seguenti ID categoria:
 
 1. Campagna
-1. Creativo
+1. Creative
 1. Posizionamento
 1. Exchange
 1. Sito
@@ -50,7 +50,7 @@ Nel nome del file di metadati, l’ID figlio è un identificatore che classifica
 
 ## Esempio {#example}
 
-Per un file di metadati Creative, il nome del file può essere 20190115_0_2.
+Per un file di metadati di Creative, il nome del file potrebbe essere 20190115_0_2.
 
 <!--Let's take a look at how you would use these IDs in a metadata file name. As an example, say your data file consists of campaign creatives. In this case, the campaign is a parent object and the creatives are child objects because they belong to, or are contained by, the campaign. As a result, you'd choose the following IDs for the metadata file name:
 

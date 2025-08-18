@@ -129,7 +129,7 @@ In [!UICONTROL Audience Marketplace], i provider possono offrire agli acquirenti
    <td colname="col1"> <p> <b>Abbonati Potenziali</b> </p> </td> 
    <td colname="col2"> <p>Un potenziale abbonato <a href="../../../features/audience-marketplace/marketplace-private-feeds.md"></a> è un acquirente di dati che ha richiesto l'accesso a un feed di dati privato, ha ricevuto l'approvazione del venditore, ma non si è iscritto al feed. Per richiedere uno sconto come potenziale abbonato: </p> 
     <ol id="ol_9CECDA92E7894B20AC8A777D78962188"> 
-     <li id="li_618B64160CF24549AFCA73E006DCA35A">Vai all'Audience Marketplace <b><span class="uicontrol"> &gt; Marketplace</span></b>. </li> 
+     <li id="li_618B64160CF24549AFCA73E006DCA35A">Vai a <b><span class="uicontrol"> Audience Marketplace &gt; Marketplace</span></b>. </li> 
      <li id="li_FE52A06B30FC4858B48AF81954365FE9">Fai clic sul nome del feed per il quale sei stato approvato. </li> 
      <li id="li_763C050AC9464BE380D00F6085B6E540">Fai clic su <b><span class="uicontrol"> Richiedi ulteriori dettagli</span></b>. Richiedi uno sconto nella richiesta dei tuoi dati al venditore. </li> 
     </ol> </td> 
@@ -283,7 +283,7 @@ Questa pagina contiene le seguenti informazioni:
    * Fare clic su **[!UICONTROL Request More Details]** per porre al provider di dati domande sul feed di dati selezionato o per richiedere uno sconto. Questa funzione invia i tuoi commenti e le tue domande direttamente al provider di dati.
 
 1. Metriche del rapporto Feed dati. Il diagramma di Venn (e le relative metriche) mostrano i dati di sovrapposizione delle caratteristiche per gli ultimi 30 giorni. Per ulteriori dettagli, vedere [Marketplace: About](marketplace-data-buyers.md#about-marketplace).
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: numero di utenti univoci nell&#39;account che si sovrappongono agli utenti nell&#39;account del provider. Per una definizione di utenti univoci, vedi AAM UUID nell&#39;[Indice degli ID nell&#39;Audience Manager](/help/using/reference/ids-in-aam.md).
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: numero di utenti univoci nell&#39;account che si sovrappongono agli utenti nell&#39;account del provider. Per una definizione di utenti univoci, vedi AAM UUID nell&#39;indice [degli ID in Audience Manager](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: numero di utenti univoci provenienti dall&#39;account del provider.
    * **[!UICONTROL Your Unique Users]**: numero di utenti univoci provenienti dal tuo account.
 
@@ -314,11 +314,11 @@ Questo caso d&#39;uso consente di valutare le caratteristiche del fornitore risp
 
 ### Attivazione
 
-Questo caso d&#39;uso ti consente di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In [!DNL Audience Manager], una destinazione è qualsiasi sistema di terze parti (ad server, [!DNL DSP], [!DNL DMP], exchange, ecc.) con cui desideri condividere i dati. Tuttavia, con un caso d&#39;uso [!UICONTROL Activation], non è possibile eseguire rapporti di sovrapposizione o testare i dati in un modello algoritmico.
+Questo caso d&#39;uso ti consente di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In [!DNL Audience Manager], una destinazione è qualsiasi sistema di terze parti (ad server, [!DNL DSP], [!DNL DMP], exchange, ecc.) con cui si desidera condividere i dati. Tuttavia, con un caso d&#39;uso [!UICONTROL Activation], non è possibile eseguire rapporti di sovrapposizione o testare i dati in un modello algoritmico.
 
 >[!MORELIKETHIS]
 >
->* [Allocazione fatturazione e impression per feed dati CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [Allocazione fatturazione e impression per feed dati di CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
 >* [Allocazione fatturazione e impression per feed di dati a tariffa fissa](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
 >* [Come segnalare l&#39;utilizzo di CPM](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
 >* [Iscriviti a un feed di dati pubblici](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)

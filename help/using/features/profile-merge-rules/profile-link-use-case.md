@@ -1,5 +1,5 @@
 ---
-description: Recommendations e casi d’uso per il retargeting dei segmenti e la qualificazione personalizzata dei segmenti con il grafico del dispositivo Collegamento profilo.
+description: Consigli e casi di utilizzo per il retargeting dei segmenti e la qualificazione personalizzata dei segmenti con il grafico dei dispositivi Collegamento profilo.
 seo-description: Recommendations and use cases for segment retargeting and personalized segment qualification with the Profile Link device graph.
 seo-title: Profile Link Device Graph Use Cases
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Casi d’uso del grafico dei dispositivi di collegamento dei profili {#profile-link-device-graph-use-cases}
 
-Recommendations e casi d&#39;uso per il retargeting dei segmenti e la qualificazione personalizzata dei segmenti con [!UICONTROL Profile Link Device Graph].
+Consigli e casi d&#39;uso per il retargeting dei segmenti e la qualificazione personalizzata dei segmenti con [!UICONTROL Profile Link Device Graph].
 
 ## Consigli {#recommendations}
 
@@ -40,7 +40,7 @@ Anche se John non è autenticato su tutti e tre i dispositivi sopra menzionati, 
 
 ![last-device-graph](assets/last-device-graph.png)
 
-Poiché Audience Manager qualifica per un segmento tutti i profili dispositivo che hanno preso parte all’unione profili, tutti e tre i profili dispositivo vengono segmentati. [!UICONTROL Profile Link Device Graph] consente ad Audience Manager di esaminare il comportamento di tutti e tre i dispositivi e qualificare ogni dispositivo per un segmento per il quale nessun singolo profilo dispositivo è idoneo da solo.
+Poiché Audience Manager qualifica per un segmento tutti i profili di dispositivi che hanno preso parte all’unione di profili, tutti e tre i profili di dispositivi vengono segmentati. [!UICONTROL Profile Link Device Graph] consente ad Audience Manager di esaminare il comportamento di tutti e tre i dispositivi e qualificare ogni dispositivo per un segmento per il quale nessun singolo profilo dispositivo è idoneo da solo.
 
 [!UICONTROL Profile Merge Rule] consente agli addetti marketing di fornire un&#39;esperienza coerente a tutti i dispositivi di proprietà di una sola persona, in base all&#39;attività dell&#39;utente anziché alla singola attività del dispositivo.
 

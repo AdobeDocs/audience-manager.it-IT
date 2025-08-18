@@ -129,11 +129,11 @@ Le metriche seguenti sono disponibili quando si esegue un report Generale e si s
 
 ### Popolazione del segmento in tempo reale
 
-Questa metrica rappresenta il numero effettivo di visitatori univoci visualizzati in tempo reale per l’intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visualizzati dagli Audienci Manager.
+Questa metrica rappresenta il numero effettivo di visitatori univoci visualizzati in tempo reale per l’intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visualizzati da Audience Manager.
 
 ### Popolazione totale del segmento
 
-Questa metrica rappresenta il numero totale di UUID Audienci Manager qualificati per il segmento entro il periodo di look-back selezionato. La popolazione totale dei segmenti con validità 1 giorno rappresenta la base di utenti più precisa per il targeting.
+Questa metrica rappresenta il numero totale di UUID di Audience Manager qualificati per il segmento entro il periodo di look-back selezionato. La popolazione totale dei segmenti con validità 1 giorno rappresenta la base di utenti più precisa per il targeting.
 
 >[!NOTE]
 >
@@ -149,11 +149,11 @@ Le metriche seguenti sono disponibili quando si esegue un report Generale e si s
 
 **Popolazione segmento in tempo reale**
 
-Questa metrica rappresenta il numero effettivo di visitatori univoci visualizzati in tempo reale per l’intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visualizzati dagli Audienci Manager.
+Questa metrica rappresenta il numero effettivo di visitatori univoci visualizzati in tempo reale per l’intervallo di tempo specificato e qualificati per il segmento nel momento in cui sono stati visualizzati da Audience Manager.
 
 **Popolazione Segmento Totale**
 
-Questa metrica rappresenta il numero totale di UUID Audienci Manager appartenenti a un segmento all’interno del periodo di look-back, che sono stati inviati a una destinazione.
+Questa metrica rappresenta il numero totale di UUID di Audience Manager appartenenti a un segmento nel periodo di look-back, che sono stati inviati a una destinazione.
 
 L’illustrazione seguente mostra i risultati dell’esecuzione di un rapporto generale per il tipo di rapporto Destinazioni.
 
