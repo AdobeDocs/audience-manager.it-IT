@@ -22,7 +22,7 @@ Questo articolo descrive i concetti e la terminologia utilizzati dal Regolamento
 
 Il RGPD è entrato in vigore il 25 maggio 2018 con gli obiettivi principali di dare ai singoli utenti dell’UE (gli interessati) un maggiore controllo sui propri dati personali e al tempo stesso semplificare il contesto normativo per le imprese internazionali attraverso una migliore unificazione della regolamentazione all’interno dell’UE. Come parte della preparazione di Adobe al RGPD, il team di Adobe Audience Manager dispone di servizi e processi avanzati necessari per supportare le richieste di accesso ed eliminazione da parte degli interessati, cioè i tuoi consumatori.
 
-Assicurati anche di aver letto informazioni sul RGPD nella [Panoramica sulle normative sulla privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) per comprendere meglio come funziona il RGPD in Experience Cloud.
+Assicurati anche di aver letto informazioni sul RGPD nella [Panoramica sulle normative sulla privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=it) per comprendere meglio come funziona il RGPD in Experience Cloud.
 
 ## Glossario RGPD {#gdpr-glossay}
 
@@ -58,7 +58,7 @@ Acquisisci familiarità con i termini chiave utilizzati relativi al RGPD. Di seg
 
  
 
-**ID (identificatori di Audience Manager):** Adobe Audience Manager memorizza vari tipi di ID. La pagina [Audience Manager Identifiers](data-privacy-ids.md) fornisce un riepilogo di questi ID, le loro sorgenti di dati corrispondenti e brevi descrizioni. Quando invii delle richieste al servizio [Adobe Experience Platform Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), fai riferimento a tali ID per effettuare richieste di cancellazione o di accesso per gli interessati.
+**ID (identificatori di Audience Manager):** Adobe Audience Manager memorizza vari tipi di ID. La pagina [Audience Manager Identifiers](data-privacy-ids.md) fornisce un riepilogo di questi ID, le loro sorgenti di dati corrispondenti e brevi descrizioni. Quando invii delle richieste al servizio [Adobe Experience Platform Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it), fai riferimento a tali ID per effettuare richieste di cancellazione o di accesso per gli interessati.
 
  
 

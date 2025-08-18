@@ -37,7 +37,7 @@ Alcuni browser e la maggior parte dei dispositivi mobili non accettano [!DNL coo
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Chiamata evento</b> </td> 
-   <td colname="col2"> <p>Per funzionare, è necessario <span class="wintitle"> codice DIL </span> e <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> codice Adobe Experience Platform Identity Service </a> nella pagina. <span class="wintitle"> DIL </span> ottiene <span class="wintitle"> ID dichiarati </span> dalla funzione <code> setVisitorID </code> fornita dal servizio Adobe Experience Platform Identity <span class="keyword"> di </span> e lo trasmette a <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Per funzionare, è necessario <span class="wintitle"> codice DIL </span> e <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it" format="https" scope="external"> codice Adobe Experience Platform Identity Service </a> nella pagina. <span class="wintitle"> DIL </span> ottiene <span class="wintitle"> ID dichiarati </span> dalla funzione <code> setVisitorID </code> fornita dal servizio Adobe Experience Platform Identity <span class="keyword"> di </span> e lo trasmette a <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>ID corrispondenza</b> </td> 
@@ -184,7 +184,7 @@ Descrive le variabili di configurazione utilizzate per passare da [!UICONTROL de
 
 ## [!UICONTROL DIL] utilizza [!DNL Adobe Experience Platform Identity Service] per passare [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Se utilizzato con il servizio [Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html), non è più necessario passare [!UICONTROL declared IDs] con le variabili `dpid` e `dpuuid` obsolete. Le versioni correnti di [!UICONTROL DIL] si basano invece sulla funzione `visitorService` per ottenere [!UICONTROL declared IDs] dalla funzione `setCustomerIDs` in [!UICONTROL Adobe Experience Platform Identity Service]. Per ulteriori informazioni, consulta [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). Chiameresti `visitorService` in `DIL.create` come mostrato di seguito.
+Se utilizzato con il servizio [Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it), non è più necessario passare [!UICONTROL declared IDs] con le variabili `dpid` e `dpuuid` obsolete. Le versioni correnti di [!UICONTROL DIL] si basano invece sulla funzione `visitorService` per ottenere [!UICONTROL declared IDs] dalla funzione `setCustomerIDs` in [!UICONTROL Adobe Experience Platform Identity Service]. Per ulteriori informazioni, consulta [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it). Chiameresti `visitorService` in `DIL.create` come mostrato di seguito.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-Nella coppia chiave-valore `namespace`, `MCORG` è l&#39;ID organizzazione [!DNL Experience Cloud]. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard sono necessarie le autorizzazioni di amministratore. Consulta [Introduzione ai servizi Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
+Nella coppia chiave-valore `namespace`, `MCORG` è l&#39;ID organizzazione [!DNL Experience Cloud]. Se non disponi di questo ID, puoi trovarlo nella sezione [!UICONTROL Administration] del dashboard [!DNL Experience Cloud]. Per visualizzare questo dashboard sono necessarie le autorizzazioni di amministratore. Consulta [Introduzione ai servizi Experience Cloud](https://experienceleague.adobe.com/it/docs/core-services/interface/services/getting-started).
 
 ## Funzioni obsolete {#deprecated-functions}
 

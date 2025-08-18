@@ -31,7 +31,7 @@ Vedi anche Raccolta di indirizzi IP e offuscamento degli indirizzi IP nella [sez
 
 ### Precendenza offuscamento IP {#precedence}
 
-[L&#39;offuscamento dell&#39;IP a livello di stream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) ha la precedenza su qualsiasi opzione di offuscamento dell&#39;IP impostata in Audience Manager e viene applicata a tutti gli indirizzi IP. Qualsiasi ricerca di geolocalizzazione eseguita da Audience Manager è influenzata dall&#39;opzione [!UICONTROL IP obfuscation] a livello di flusso di dati. Una ricerca di geolocalizzazione in Audience Manager, basata su un IP completamente offuscato, darà luogo a un’area sconosciuta e tutti i segmenti basati sui dati di geolocalizzazione risultanti non verranno realizzati.
+[L&#39;offuscamento dell&#39;IP a livello di stream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it#create) ha la precedenza su qualsiasi opzione di offuscamento dell&#39;IP impostata in Audience Manager e viene applicata a tutti gli indirizzi IP. Qualsiasi ricerca di geolocalizzazione eseguita da Audience Manager è influenzata dall&#39;opzione [!UICONTROL IP obfuscation] a livello di flusso di dati. Una ricerca di geolocalizzazione in Audience Manager, basata su un IP completamente offuscato, darà luogo a un’area sconosciuta e tutti i segmenti basati sui dati di geolocalizzazione risultanti non verranno realizzati.
 
 ## Requisiti di offuscamento degli indirizzi IP {#ip-obfuscation-requirements}
 

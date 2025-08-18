@@ -36,7 +36,7 @@ Quando si mappano le suite di rapporti o Adobe Analytics [!UICONTROL segments] n
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] sono diversi da [!DNL Adobe Analytics] [!UICONTROL segments]. Leggi [Informazioni sui segmenti in Analytics e Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) per una descrizione dettagliata delle differenze.
+>Audience Manager [!UICONTROL segments] sono diversi da [!DNL Adobe Analytics] [!UICONTROL segments]. Leggi [Informazioni sui segmenti in Analytics e Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=it) per una descrizione dettagliata delle differenze.
 
 ## Crea [!UICONTROL Segments] basato su regole con [!UICONTROL Segment Builder]
 

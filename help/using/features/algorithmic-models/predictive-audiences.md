@@ -122,11 +122,11 @@ Durante la configurazione dei modelli [!UICONTROL Predictive Audiences], tenere 
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-I segmenti predittivi creati dai modelli [!UICONTROL Predictive Audiences] ereditano i [Controlli sull&#39;esportazione dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) dalle seguenti origini dati di prime parti:
+I segmenti predittivi creati dai modelli [!UICONTROL Predictive Audiences] ereditano i [Controlli sull&#39;esportazione dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=it) dalle seguenti origini dati di prime parti:
 
 1. L’origine dati di prime parti scelta per la creazione del modello.
 1. Le origini dati di prime parti del pubblico di destinazione. In particolare, i controlli di esportazione dei dati di [!UICONTROL traits] o [!UICONTROL segments] che costituiscono il pubblico di destinazione.
-1. [Controlli sull&#39;esportazione dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) di [!UICONTROL Profile Merge Rule] selezionati per il modello.
+1. [Controlli sull&#39;esportazione dei dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=it) di [!UICONTROL Profile Merge Rule] selezionati per il modello.
 
 I predittivi [!UICONTROL traits] e [!UICONTROL segments] appena creati avranno le stesse restrizioni di privacy dell&#39;unione delle origini dati di prime parti descritte in precedenza.
 
@@ -146,6 +146,6 @@ La selezione di un [!UICONTROL Profile Merge Rule] che utilizza sia dati disposi
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-Le caratteristiche e i segmenti scelti per la classificazione degli utenti tipo e del pubblico sono soggetti ai [controlli di accesso basati sul ruolo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html) di Audience Manager.
+Le caratteristiche e i segmenti scelti per la classificazione degli utenti tipo e del pubblico sono soggetti ai [controlli di accesso basati sul ruolo](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=it) di Audience Manager.
 
-Gli utenti di Audience Manager possono selezionare solo caratteristiche o segmenti per utenti tipo e tipi di pubblico target, che dispongono dell&#39;autorizzazione [per visualizzare](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Gli utenti di Audience Manager possono selezionare solo caratteristiche o segmenti per utenti tipo e tipi di pubblico target, che dispongono dell&#39;autorizzazione [per visualizzare](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=it#wild-card-permissions).

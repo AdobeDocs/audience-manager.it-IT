@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Pubblico previsto
 
-Questa pagina è destinata ai clienti Audience Manager che utilizzano l&#39;estensione tag [Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) per inserire dati della raccolta Web in Audience Manager. Per i clienti che utilizzano la libreria JavaScript di AppMeasurement, leggere la guida su come aggiornare la libreria di raccolta dati per Audience Manager [dalla libreria JavaScript di AppMeasurement alla libreria JavaScript Web SDK](appmeasurement-to-web-sdk.md).
+Questa pagina è destinata ai clienti Audience Manager che utilizzano l&#39;estensione tag [Audience Manager](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/audience-manager/overview) per inserire dati della raccolta Web in Audience Manager. Per i clienti che utilizzano la libreria JavaScript di AppMeasurement, leggere la guida su come aggiornare la libreria di raccolta dati per Audience Manager [dalla libreria JavaScript di AppMeasurement alla libreria JavaScript Web SDK](appmeasurement-to-web-sdk.md).
 
 ## Vantaggi e svantaggi di questo percorso di implementazione
 

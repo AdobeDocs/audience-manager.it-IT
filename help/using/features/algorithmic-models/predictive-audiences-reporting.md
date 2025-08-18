@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Reporting di Predictive Audiences
 
-Dopo aver salvato un modello [!UICONTROL Predictive Audiences], Audience Manager inizia ad addestrarlo. Entro un paio d&#39;ore, il modello calcolato inizierà ad analizzare i tipi di pubblico sui [Server di raccolta dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). La segnalazione sarà disponibile il giorno successivo.
+Dopo aver salvato un modello [!UICONTROL Predictive Audiences], Audience Manager inizia ad addestrarlo. Entro un paio d&#39;ore, il modello calcolato inizierà ad analizzare i tipi di pubblico sui [Server di raccolta dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=it#dcs-pcs). La segnalazione sarà disponibile il giorno successivo.
 
 Per visualizzare i risultati della classificazione [!UICONTROL Predictive Audiences], passa a **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** e fai clic sul modello nell&#39;elenco.
 
