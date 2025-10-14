@@ -31,7 +31,7 @@ L’indirizzo [!DNL IP] di un visitatore di un sito web del cliente viene trasme
 
 >[!NOTE]
 >
->Per informazioni su come abilitare l&#39;offuscamento dell&#39;indirizzo [ nell&#39;interfaccia utente di Audience Manager, consulta ](../../features/administration/ip-obfuscation.md)IP Address Obfuscation[!DNL IP].
+>Per informazioni su come abilitare l&#39;offuscamento dell&#39;indirizzo [&#x200B; nell&#39;interfaccia utente di Audience Manager, consulta &#x200B;](../../features/administration/ip-obfuscation.md)IP Address Obfuscation[!DNL IP].
 
 Guarda il video seguente per comprendere come funziona l’offuscamento degli indirizzi [!DNL IP] in Audience Manager.
 

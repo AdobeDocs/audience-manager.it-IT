@@ -31,7 +31,7 @@ Consentire ai nostri clienti di creare segmenti e modelli di dati personalizzati
 
 ## La tassonomia utilizza le categorie di classificazione standard del settore
 
-La tassonomia comune si basa sulle classificazioni create da [!DNL Interactive Advertising Bureau (IAB)]. Per ulteriori informazioni sulle linee guida per il controllo qualità per reti e scambi, consultare il [!DNL IAB]sito Web[ di ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
+La tassonomia comune si basa sulle classificazioni create da [!DNL Interactive Advertising Bureau (IAB)]. Per ulteriori informazioni sulle linee guida per il controllo qualità per reti e scambi, consultare il [!DNL IAB]sito Web[&#x200B; di &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
 
 ## Organizzazione tassonomica
 

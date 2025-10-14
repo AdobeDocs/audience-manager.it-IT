@@ -82,7 +82,7 @@ A seconda del tipo di ID cliente disponibili in Audience Manager (vedi [3. Ident
 
 ## &#x200B;6. Utilizzare una regola di unione profili per la segmentazione {#use-profile-merge-rules}
 
-A seconda del tuo caso d&#39;uso (vedi [1. Definendo il tuo caso d&#39;uso ](people-based-destinations-workflow.md#defining-your-use-case)), esistono due modi per utilizzare [!DNL Profile Merge Rules] per la segmentazione.
+A seconda del tuo caso d&#39;uso (vedi [1. Definendo il tuo caso d&#39;uso &#x200B;](people-based-destinations-workflow.md#defining-your-use-case)), esistono due modi per utilizzare [!DNL Profile Merge Rules] per la segmentazione.
 
 **A) Utilizza[!DNL Profile Merge Rules]** esistente. Questa opzione si applica al primo caso d’uso (targeting di pubblico basato sull’attività combinata degli utenti online e offline). In questo scenario, poiché esiste un’attività cliente in Audience Manager, hai già definito almeno una regola di unione profili utilizzata nella segmentazione. In questo caso, non è necessario creare alcun nuovo [!DNL Profile Merge Rules].
 

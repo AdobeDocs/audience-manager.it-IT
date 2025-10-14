@@ -40,7 +40,7 @@ Puoi inviare singole richieste di accesso ai dati tramite la [interfaccia utente
 
 La [Privacy Service UI](https://privacyui.cloud.adobe.io/) consente di creare nuove richieste di processi utilizzando il [!UICONTROL Request Builder] o caricando un file [!DNL JSON].
 
-Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [ scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
+Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [&#x200B; scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
 
 Comprendiamo il tuo impegno a soddisfare le richieste sulla privacy dei dati entro il termine stabilito dalla normativa.
 
@@ -50,7 +50,7 @@ Puoi inviare richieste di eliminazione dei dati tramite la [interfaccia utente d
 
 La [Privacy Service UI](https://privacyui.cloud.adobe.io/) consente di creare nuove richieste di processi utilizzando il [!UICONTROL Request Builder] o caricando un file [!DNL JSON].
 
-Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [ scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
+Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [&#x200B; scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
 
 Adobe comprende il tuo impegno a soddisfare le richieste dei clienti sulla privacy dei dati entro 30 giorni. Per questo motivo, [!DNL Adobe] si impegna a elaborare la richiesta di eliminazione dei dati il prima possibile.
 

@@ -184,7 +184,7 @@ Per le aziende che utilizzano [!UICONTROL Role-Based Access Controls] ([!UICONTR
 >
 >Per aggiungere [!UICONTROL Marketplace Recommendations] a un segmento, gli utenti devono prima iscriversi ai feed di dati corrispondenti. Solo gli utenti con privilegi di amministratore possono effettuare la sottoscrizione ai feed di dati [!UICONTROL Audience Marketplace].
 
-Ulteriori informazioni sui controlli [!UICONTROL RBAC]qui[ di ](../administration/administration-overview.md).
+Ulteriori informazioni sui controlli [!UICONTROL RBAC]qui[&#x200B; di &#x200B;](../administration/administration-overview.md).
 
 ## Limitazioni
 

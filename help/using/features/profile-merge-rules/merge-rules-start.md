@@ -122,7 +122,7 @@ Segui queste istruzioni per configurare il codice [!UICONTROL Adobe Experience P
 
 ### Prerequisiti
 
-Prima di [ completare queste procedure, è necessario impostare ](#create-data-source)un&#39;origine dati multi-dispositivo[ e ](#create-profile-merge-rule)regole di unione profili **.
+Prima di [&#x200B; completare queste procedure, è necessario impostare &#x200B;](#create-data-source)un&#39;origine dati multi-dispositivo[&#x200B; e &#x200B;](#create-profile-merge-rule)regole di unione profili **.
 
 ## Per i clienti del servizio Adobe Experience Platform Identity {#id-service-customers}
 
