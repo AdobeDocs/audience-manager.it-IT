@@ -63,4 +63,4 @@ Per disabilitare l&#39;offuscamento degli indirizzi IP per paesi specifici, indi
 * [Privacy dei dati](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Dimostrazione video offuscamento indirizzo IP
 
->[!VIDEO](https://video.tv.adobe.com/v/27218/)
+>[!VIDEO](https://video.tv.adobe.com/v/328567?captions=ita)

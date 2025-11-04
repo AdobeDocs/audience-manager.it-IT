@@ -33,4 +33,4 @@ Questa integrazione consente di visualizzare i nomi descrittivi per le coppie ch
 
 Il video seguente mostra come utilizzare [!UICONTROL Data Explorer] per individuare e utilizzare i dati di Adobe Analytics, inclusa la ricerca di segnali utilizzati e non utilizzati, la creazione di caratteristiche di Analytics e la comprensione dei dati.
 
->[!VIDEO](https://video.tv.adobe.com/v/25150)
+>[!VIDEO](https://video.tv.adobe.com/v/330365?captions=ita)

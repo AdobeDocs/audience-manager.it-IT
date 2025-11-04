@@ -66,7 +66,7 @@ In questo caso, devi creare una nuova origine dati multi-dispositivo che memoriz
 
 Guarda il video seguente per un&#39;esercitazione video su come creare un&#39;origine dati per [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/29006/)
+>[!VIDEO](https://video.tv.adobe.com/v/34899?captions=ita)
 
 >[!NOTE]
 >

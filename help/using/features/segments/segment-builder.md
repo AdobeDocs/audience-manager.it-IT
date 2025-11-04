@@ -58,7 +58,7 @@ Per iniziare, guarda [Creare segmenti nel video di Audience Manager](https://ima
 
 Guarda il video seguente per uno sguardo dettagliato al funzionamento delle metriche tra dispositivi.
 
->[!VIDEO](https://video.tv.adobe.com/v/33445)
+>[!VIDEO](https://video.tv.adobe.com/v/36892?captions=ita)
 
 ## Controlli [!UICONTROL Segment Builder]: sezione [!UICONTROL Basic Information] {#segment-builder-controls-basics}
 
