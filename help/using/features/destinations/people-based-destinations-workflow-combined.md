@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 'Flusso di lavoro A: Personalization basato su tutte le attività online combinate con dati offline'
 feature: People-based Destinations
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 0%
@@ -36,11 +36,13 @@ In questo caso, è necessario etichettare l’origine dati corrispondente come t
 1. Verificare che l&#39;opzione [!UICONTROL Cannot be tied to personally identifiable information] sia deselezionata.
 1. Nella sezione **[!UICONTROL Data Source Settings]** selezionare entrambe le opzioni **[!UICONTROL Inbound]** e **[!UICONTROL Outbound]** e abilitare l&#39;opzione **[!UICONTROL Share associated cross-device IDs in people-based destinations]**.
 1. Utilizzare il menu a discesa per selezionare l&#39;etichetta **[!UICONTROL Emails(SHA256, lowercased)]** per questa origine dati.
+
    >[!IMPORTANT]
    >
    >Questa opzione etichetta l’origine dati solo come contenente dati con hash con quell’algoritmo specifico. In questo passaggio, Audience Manager non esegue l’hashing dei dati. Verificare che gli indirizzi di posta elettronica che si prevede di memorizzare in questa origine dati siano già sottoposti a hashing con l&#39;algoritmo [!DNL SHA256]. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
+
 1. Salvare le impostazioni dell&#39;origine dati.
 
  
@@ -54,6 +56,7 @@ In questo caso, devi creare una nuova origine dati multi-dispositivo che memoriz
 1. Nel menu a discesa **[!UICONTROL ID Type]**, selezionare **[!UICONTROL Cross Device]**.
 1. Nella sezione **[!UICONTROL Data Source Settings]** selezionare entrambe le opzioni **[!UICONTROL Inbound]** e **[!UICONTROL Outbound]** e abilitare l&#39;opzione **[!UICONTROL Share associated cross-device IDs in people-based destinations]**.
 1. Utilizzare il menu a discesa per selezionare l&#39;etichetta **[!UICONTROL Emails(SHA256, lowercased)]** per questa origine dati.
+
    >[!IMPORTANT]
    >
    >Questa opzione etichetta l’origine dati solo come contenente dati con hash con quell’algoritmo specifico. In questo passaggio, Audience Manager non esegue l’hashing dei dati. Verificare che gli indirizzi di posta elettronica che si prevede di memorizzare in questa origine dati siano già sottoposti a hashing con l&#39;algoritmo [!DNL SHA256]. In caso contrario, non potrai utilizzarlo per [!DNL People-Based Destinations].
@@ -63,7 +66,7 @@ In questo caso, devi creare una nuova origine dati multi-dispositivo che memoriz
 
 Guarda il video seguente per un&#39;esercitazione video su come creare un&#39;origine dati per [!UICONTROL People-Based Destinations].
 
->[!VIDEO](https://video.tv.adobe.com/v/34899?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
 >[!NOTE]
 >

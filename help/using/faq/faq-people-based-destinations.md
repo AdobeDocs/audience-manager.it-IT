@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Domande frequenti sulle destinazioni basate su persone
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 93%
+ht-degree: 86%
 
 ---
 
@@ -34,7 +34,7 @@ Esistono due modi per trasferire i dati offline in Audience Manager per [!DNL Pe
 
 **Posso raccogliere indirizzi e-mail con hash tramite un modulo web o un’app per dispositivi mobili oppure è necessario riceverli in un file batch?**
 
-Puoi raccogliere indirizzi e-mail con hash tramite l’autenticazione web utilizzando [!DNL ECID] con [ID dichiarati](../features/declared-ids.md). Il file batch ti consente inoltre di raccogliere indirizzi e-mail con hash che non possono essere inviati tramite autenticazione (ad esempio, utenti inattivi nel tuo [!DNL CRM]) e attivarli nelle destinazioni basate su persone.
+Puoi raccogliere indirizzi e-mail con hash tramite l’autenticazione web utilizzando [!DNL ECID] con [ID dichiarati](../features/declared-ids.md). Il file batch ti consente inoltre di raccogliere indirizzi e-mail con hash che non possono essere inviati tramite autenticazione (ad esempio, utenti inattivi nel tuo ([!DNL CRM]) e attivarli nelle destinazioni basate su persone.
 
 **In che modo l’acquisizione di indirizzi e-mail con hash tramite moduli web è diversa dal caricamento di indirizzi e-mail con hash tramite file batch?**
 
@@ -60,6 +60,7 @@ Sì. Ai clienti che acquistano [!DNL People-Based Destinations] viene inoltre co
 Dipende dal tuo caso d’uso. Se prevedi di attivare segmenti di prime parti esistenti nei canali basati sulle persone, non è necessario creare nuovi segmenti. Puoi semplicemente mappare i segmenti su una destinazione basata su persone.
 
 Se prevedi di attivare nuovi tipi di pubblico offline nei canali basati sulle persone, devi creare nuovi segmenti di prime parti utilizzando la regola di unione [!DNL All Cross-Device Profiles].
+
 >[!NOTE]
 >
 > Puoi mappare solo segmenti con dati di prime parti su [!DNL People-Based Destinations]. Le nostre piattaforme di destinazione non accettano segmenti con dati di seconde e terze parti.
@@ -72,7 +73,7 @@ No. Quando si inviano segmenti di pubblico a [!DNL People-Based Destinations], l
 
 **In che modo le percentuali di corrispondenza che utilizzano [!DNL People-Based Destinations] differiscono teoricamente da altri metodi di invio di pubblici alle piattaforme di destinazione?**
 
-Se l’indirizzo e-mail viene dotato di hash e acquisito correttamente, non dovrebbe esserci alcuna differenza nella percentuale di corrispondenza tra [!DNL People-Based Destinations] e altri metodi. L’unico motivo per cui una percentuale di corrispondenza potrebbe essere inferiore al 100% è che gli indirizzi e-mail inviati in Audience Manager non possono essere associati a un indirizzo e-mail nella base utenti della piattaforma di destinazione.
+Se l’indirizzo e-mail viene dotato di hash e acquisito correttamente, non dovrebbe esserci alcuna differenza nella percentuale di corrispondenza tra [!DNL People-Based Destinations] e altri metodi. L’unico motivo per cui una percentuale di corrispondenza sarebbe inferiore al 100% è che gli indirizzi e-mail introdotti in Audience Manager non possono essere associati a un indirizzo e-mail nella base utenti della piattaforma di destinazione.
 
 **Raccolgo gli indirizzi e-mail di lavoro dai miei clienti, che sono diversi dagli indirizzi e-mail personali utilizzati nei social network. In che modo le identità vengono associate a più indirizzi e-mail?**
 
@@ -106,13 +107,13 @@ Prima di poter utilizzare [!DNL People-Based Destinations] per inviare segmenti 
 
 **[!DNL People-Based Destinations] supporta il targeting del pubblico in altre app [!DNL Facebook], ad esempio [!DNL Instagram]?**
 
-Puoi utilizzare [!DNL People-Based Destinations] in tutta la famiglia di app [!DNL Facebook] supportate da [!DNL Custom Audiences], incluse [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] e [!DNL Messenger]. La selezione dell’app su cui desideri eseguire la campagna è indicata al livello di posizionamento in [!DNL Facebook Ads Manager].
+È possibile utilizzare [!DNL People-Based Destinations] in tutta la famiglia di app di [!DNL Facebook] supportate da [!DNL Custom Audiences], incluse [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] e [!DNL Messenger]. La selezione dell’app su cui desideri eseguire la campagna è indicata al livello di posizionamento in [!DNL Facebook Ads Manager].
 
-**Qual è la differenza tra [!DNL People-Based Destinations] e [!DNL Website Custom Audiences]?**
+**Qual è la differenza tra [!DNL People-Based Destinations] e [!DNL Website Custom Audiences]?**
 
 [!DNL People-Based Destinations] sfrutta l’integrazione di [!DNL Custom Audiences (CA)] con [!DNL Facebook]. La differenza tra le integrazioni [!DNL WCA] e [!DNL CA] è la chiave che i clienti usano per inviare pubblici a [!DNL Facebook]. [!DNL WCA] utilizza il pixel di [!DNL Facebook] (che sarebbe un ID utente del sito web), mentre [!DNL People-Based Destinations] utilizza indirizzi e-mail con hash da integrare con [!DNL CA].
 
-Puoi utilizzare l’integrazione tra [!DNL Facebook] e [!DNL WCA] di Audience Manager tramite la funzionalità [!DNL URL Destinations] senza costi aggiuntivi.
+È possibile utilizzare l&#39;integrazione di Audience Manager [!DNL Facebook] [!DNL WCA] tramite la funzionalità [!DNL URL Destinations] senza costi aggiuntivi.
 
 Queste due integrazioni sono complementari; puoi utilizzare entrambe per garantire una migliore copertura del pubblico. Ad esempio, [!DNL WCA] può essere utile per la ricerca di potenziali clienti nel caso in cui un’azienda desideri effettuare il targeting di visitatori di siti web che non hanno registrato un account, mentre [!DNL People-Based Destinations] può aiutarti a individuare i clienti esistenti che hanno fornito il loro indirizzo e-mail ma che forse non hanno visitato il sito web.
 

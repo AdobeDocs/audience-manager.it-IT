@@ -8,7 +8,7 @@ title: File di registro fruibili
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Se stai già importando i dati di registro in [!DNL Audience Manager], chiedi al
 
 >[!IMPORTANT]
 >
-> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/it/contact/enterprise-support.ec.html) to get started.
+> At the end of 2019, [!UICONTROL Actionable Log Files] began to expand availability to new ad servers. Ask your [!DNL Audience Manager] consultant or [Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html) to get started.
 
 -->
 
@@ -62,7 +62,7 @@ I segnali sono le [unità di dati più piccole](../../reference/signal-trait-seg
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] sono supportati per i seguenti server di annunci:
->&#x200B;> <br>
+> <br>
 >
 > * [Gestione campagne Google](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)

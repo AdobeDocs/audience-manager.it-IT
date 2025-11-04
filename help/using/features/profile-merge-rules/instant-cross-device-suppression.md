@@ -6,7 +6,7 @@ title: Soppressione immediata su diversi dispositivi
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 6%
@@ -42,11 +42,13 @@ I visitatori sono idonei per il segmento finché non sono stati convertiti. Non 
 Per evitare di invadere gli utenti con la stessa creatività, è possibile impostare i controlli di frequenza e recency. In questo scenario, crea un segmento con due caratteristiche, come descritto nei passaggi seguenti.
 
 1. Creare un segmento utilizzando due caratteristiche e utilizzare la logica [!UICONTROL AND], come illustrato nell&#39;immagine seguente. Devi utilizzare una caratteristica basata su regole per definire l’evento di impression per l’attivazione in tempo reale della rimozione da un segmento. Ulteriori informazioni su come [creare caratteristiche basate su regole](../traits/create-onboarded-rule-based-traits.md).
+
    >[!NOTE]
    >
    >È possibile utilizzare [!UICONTROL Actionable Log Files] o [!UICONTROL Pixel Calls] per creare caratteristiche basate sulle impressioni degli utenti. Ulteriori informazioni su [File di registro fruibili](../../integration/media-data-integration/actionable-log-files.md) e [Chiamate pixel](../../integration/media-data-integration/impression-data-pixels.md).
-2. Applica i controlli di frequenza alla seconda caratteristica. Se lo si desidera, è possibile aggiungere anche i controlli di aggiornamento. Ulteriori informazioni su [come applicare i controlli di aggiornamento e frequenza](../segments/recency-and-frequency.md).
-3. Mappa il segmento a un numero qualsiasi di destinazioni in tempo reale da server a server. Scopri come aggiungere segmenti a [destinazioni da server a server](../destinations/add-edit-segments.md).
+
+1. Applica i controlli di frequenza alla seconda caratteristica. Se lo si desidera, è possibile aggiungere anche i controlli di aggiornamento. Ulteriori informazioni su [come applicare i controlli di aggiornamento e frequenza](../segments/recency-and-frequency.md).
+1. Mappa il segmento a un numero qualsiasi di destinazioni in tempo reale da server a server. Scopri come aggiungere segmenti a [destinazioni da server a server](../destinations/add-edit-segments.md).
 
 In questo scenario, una volta che gli utenti hanno accumulato più di tre impression, verranno rimossi da questo segmento e non vedranno più questo particolare contenuto creativo.
 

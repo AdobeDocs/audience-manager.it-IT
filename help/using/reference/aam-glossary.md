@@ -7,7 +7,7 @@ title: Glossario
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 96%
@@ -51,15 +51,17 @@ Consulta DPUUID in [Index of IDs in Audience Manager](../reference/ids-in-aam.md
 **Pubblico indirizzabile del cliente**
 
 In [Addressable Audience](/help/using/features/addressable-audiences.md), questa metrica rappresenta i dispositivi che:
-* Hanno realizzato una caratteristica basata su una regola o onboarded durante il periodo di look-back
-  **E**
-* Dispongono di una sincronizzazione ID con la destinazione selezionata, indipendentemente dal momento di sincronizzazione.
 
+* Hanno realizzato una caratteristica basata su una regola o onboarded durante il periodo di look-back
+
+  **E**
+
+* Dispongono di una sincronizzazione ID con la destinazione selezionata, indipendentemente dal momento di sincronizzazione.
 
 
 **Attributi del cliente**
 
-Consulta [Customer Attribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it) nella documentazione di [!DNL Experience Cloud Core Services].
+Consulta [Customer Attribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) nella documentazione di [!DNL Experience Cloud Core Services].
 
 
 
@@ -111,7 +113,7 @@ La [!UICONTROL Data Integration Library] è una libreria API utilizzata da [!DNL
 
 **Experience Cloud ID (ECID)**
 
-Precedentemente denominato ID [!DNL Marketing Cloud] (MID o MCID). L’ID [!DNL Experience Cloud] è fondamentale per il servizio ID. È un identificatore univoco e permanente dei visitatori del tuo sito. Consulta Cookie e il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it).
+Precedentemente denominato ID [!DNL Marketing Cloud] (MID o MCID). L’ID [!DNL Experience Cloud] è fondamentale per il servizio ID. È un identificatore univoco e permanente dei visitatori del tuo sito. Consulta Cookie e il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 
 
@@ -268,6 +270,6 @@ Il TTL definisce quanti giorni un visitatore qualificato rimane in una caratteri
 
 Il servizio ID di [!DNL Experience Cloud] (in precedenza ID visitatore) fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni di [!DNL Experience Cloud].
 
-Consulta la documentazione [Servizio di Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
+Consulta la documentazione [Servizio di Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## W-X-Y-Z {#w-z}

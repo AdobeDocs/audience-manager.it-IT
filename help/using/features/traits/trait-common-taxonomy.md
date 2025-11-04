@@ -8,7 +8,7 @@ title: Classificazione delle caratteristiche con una tassonomia comune
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Consentire ai nostri clienti di creare segmenti e modelli di dati personalizzati
 
 ## La tassonomia utilizza le categorie di classificazione standard del settore
 
-La tassonomia comune si basa sulle classificazioni create da [!DNL Interactive Advertising Bureau (IAB)]. Per ulteriori informazioni sulle linee guida per il controllo qualità per reti e scambi, consultare il [!DNL IAB]sito Web[&#x200B; di &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
+La tassonomia comune si basa sulle classificazioni create da [!DNL Interactive Advertising Bureau (IAB)]. Per ulteriori informazioni sulle linee guida per il controllo qualità per reti e scambi, consultare il [!DNL IAB]sito Web[ di ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
 
 ## Organizzazione tassonomica
 
@@ -39,7 +39,7 @@ La tassonomia [!DNL Audience Manager] organizza i dati in categorie nidificate d
 
 ## Classificare le caratteristiche in categorie di dati
 
-È possibile assegnare classificazioni tassonomiche durante la creazione o la modifica di caratteristiche in [!UICONTROL Add New Trait Wizard] (che si trova in * **[!UICONTROL Audience Data > Traits]***). Per ulteriori informazioni, consulta la [documentazione sulla creazione delle caratteristiche](../../features/traits/create-onboarded-rule-based-traits.md).
+È possibile assegnare classificazioni tassonomiche durante la creazione o la modifica di caratteristiche in [!UICONTROL Add New Trait Wizard] (situato in ***[!UICONTROL Audience Data > Traits]***). Per ulteriori informazioni, consulta la [documentazione sulla creazione delle caratteristiche](../../features/traits/create-onboarded-rule-based-traits.md).
 
 ## Utilizzo della tassonomia: considerazioni aggiuntive
 

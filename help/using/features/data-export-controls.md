@@ -7,7 +7,7 @@ title: Controlli sull'esportazione dei dati
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 26aa0a210a045b40b2329844324315a092947188
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -48,6 +48,7 @@ Inoltre, almeno un’etichetta di esportazione deve corrispondere a un controllo
 >[!IMPORTANT]
 >
 >Non è possibile bloccare l’esportazione di un segmento inserendo un controllo di esportazione dati nell’origine dati del segmento, è necessario impostare il controllo su:
+>
 > * Le fonti di dati delle caratteristiche utilizzate nel segmento;
 > * La regola di unione dei profili utilizzata dal segmento;
 > * Una qualsiasi delle origini dati utilizzate dalla regola di unione profili del segmento.
