@@ -34,7 +34,7 @@ Quando si lavora con il codice [Audience Manager API](https://bank.demdex.com/po
 [!DNL Audience Manager] [!DNL REST APIs] supporta tre metodi di autenticazione.
 
 * [!BADGE Consigliata]{type=positive} [Autenticazione server-to-server OAuth](#oauth-adobe-developer) tramite [la console per sviluppatori Adobe](https://www.adobe.io/). [!DNL Adobe Developer] è l&#39;ecosistema e la community di sviluppatori di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis/). Si tratta del metodo consigliato per impostare e utilizzare [!DNL Adobe] [!DNL APIs]. Ulteriori informazioni sull&#39;[autenticazione server-to-server OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) nella documentazione per gli sviluppatori di Adobe.
-* [!BADGE Autenticazione &#x200B;]{type=negative} [JWT (account di servizio) &#x200B;](#jwt) obsoleta tramite la [console per sviluppatori Adobe](https://www.adobe.io/). [!DNL Adobe Developer] è l&#39;ecosistema e la community di sviluppatori di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis/).
+* [!BADGE Autenticazione ]{type=negative} [JWT (account di servizio) ](#jwt) obsoleta tramite la [console per sviluppatori Adobe](https://www.adobe.io/). [!DNL Adobe Developer] è l&#39;ecosistema e la community di sviluppatori di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis/).
 * [!BADGE Obsoleta]{type=negative} [Autenticazione OAuth legacy](#oauth-deprecated). Anche se questo metodo è obsoleto, i clienti con integrazioni [!DNL OAuth] esistenti possono continuare a utilizzarlo.
 
 >[!IMPORTANT]
@@ -252,7 +252,7 @@ Per creare un account utente tecnico e aggiungerlo a un gruppo RBAC, effettua le
 
 +++
 
-## [!BADGE Autenticazione &#x200B;]{type=negative} Obsoleta[!DNL OAuth] (Obsoleta) {#oauth-deprecated}
+## [!BADGE Autenticazione ]{type=negative} Obsoleta[!DNL OAuth] (Obsoleta) {#oauth-deprecated}
 
 +++ Visualizza informazioni sul metodo di autenticazione legacy [!DNL OAuth] obsoleto per ottenere i token di autenticazione.
 
@@ -420,7 +420,7 @@ A seconda del metodo di autenticazione utilizzato, è necessario modificare la r
 
 {style="table-layout:auto"}
 
-### Richiedi [!DNL URLs] per l&#39;autenticazione [!BADGE &#x200B; legacy &#x200B;]{type=negative}Obsoleta[!DNL OAuth] {#request-urls-oauth}
+### Richiedi [!DNL URLs] per l&#39;autenticazione [!BADGE  legacy ]{type=negative}Obsoleta[!DNL OAuth] {#request-urls-oauth}
 
 | Metodi [!DNL API] | Richiedi [!DNL URL] |
 |--- |--- |
