@@ -8,9 +8,9 @@ title: Creare un modello algoritmico
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 6956793aa8d31d16a7add648b8d205dec6f75202
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Per generare un [!UICONTROL Look-Alike Model], attenersi alla procedura seguente
 
 Guarda il video seguente per uno sguardo dettagliato al funzionamento delle metriche tra dispositivi.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=it)
+[Informazioni sulle metriche multi-dispositivo in Audience Manager](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Informazioni di base per modelli algoritmici {#basic-information}
 
@@ -111,7 +111,7 @@ Completare prima i campi obbligatori nella sezione [!UICONTROL Basic Information
 
 Guarda il video seguente per scoprire come creare un modello lookalike di prime parti, in modo da poter trovare più visitatori che assomigliano ai tuoi convertitori.
 
->[!VIDEO](https://video.tv.adobe.com/v/329910?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23504/)
 
 >[!MORELIKETHIS]
 >
