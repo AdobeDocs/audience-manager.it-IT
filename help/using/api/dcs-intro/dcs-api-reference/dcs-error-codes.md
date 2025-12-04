@@ -23,7 +23,7 @@ Nelle tabelle seguenti, *corsivo* rappresenta un segnaposto variabile.
 |---|---|---|
 | 0 | Errore non specificato | Si tratta di un errore catch-all che gestisce eventi non coperti dagli altri gestori di errori. La risoluzione di questo errore è difficile. Può essere causata da una serie di azioni o eventi sconosciuti. Se si riceve questo errore, riprovare la richiesta [!DNL DCS]. Se il problema persiste, contatta il rappresentante [!DNL Adobe]. |
 | 1 | Impossibile trovare la configurazione per il nome host: `hostname` | Il nome host inviato nella richiesta non è stato configurato dal nostro team di provisioning partner. Se ricevi questo messaggio di errore, contatta il rappresentante [!DNL Adobe]. |
-| 2 | Valore `d_orgid` non valido (impossibile trovare una configurazione per questo ID organizzazione): `ID` | L’ID organizzazione non è corretto. Controlla il tuo ID e invia di nuovo la richiesta. Se non conosci o non possiedi il tuo ID organizzazione, consulta la sezione &quot;Pagina di amministrazione&quot; [Organizzazioni e collegamento di account](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) per informazioni su come trovarlo. |
+| 2 | Valore `d_orgid` non valido (impossibile trovare una configurazione per questo ID organizzazione): `ID` | L’ID organizzazione non è corretto. Controlla il tuo ID e invia di nuovo la richiesta. Se non conosci o non possiedi il tuo ID organizzazione, consulta la sezione &quot;Pagina di amministrazione&quot; [Organizzazioni e collegamento di account](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=it) per informazioni su come trovarlo. |
 | 10 | Impossibile valutare le caratteristiche | Le caratteristiche della richiesta sono state valutate parzialmente o non sono state valutate affatto. Se il problema persiste, contatta il rappresentante [!DNL Adobe]. |
 
 ## Codici errore di integrazione {#integration-error-codes}
@@ -151,7 +151,7 @@ Nelle tabelle seguenti, *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>ID cliente non autorizzato <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Restituito quando l'origine dati dell'ID cliente non è di proprietà dell'ID organizzazione corrente. Se non conosci o non possiedi il tuo ID organizzazione, consulta la sezione "Trova il tuo ID organizzazione" in <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizzazioni e collegamento account</a> per informazioni su come trovarlo. </p> </td> 
+   <td colname="col3"> <p>Restituito quando l'origine dati dell'ID cliente non è di proprietà dell'ID organizzazione corrente. Se non conosci o non possiedi il tuo ID organizzazione, consulta la sezione "Trova il tuo ID organizzazione" in <a href="https://experiencecloud.adobe.com/resources/help/it_IT/mcloud/organizations.html" format="https" scope="external"> Organizzazioni e collegamento account</a> per informazioni su come trovarlo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
