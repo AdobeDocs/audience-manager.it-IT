@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Guida utente di Audience Manager
 user-guide-description: Scopri come utilizzare Adobe Audience Manager per raccogliere informazioni rilevanti dal punto di vista commerciale sui visitatori del sito e creare segmenti commerciabili. Puoi anche trovare dettagli su come distribuire pubblicità e contenuti mirati al pubblico giusto.
 feature-set: Audience Manager
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
 workflow-type: tm+mt
 source-wordcount: '1866'
 ht-degree: 16%
@@ -16,7 +16,7 @@ ht-degree: 16%
 # Guida utente di Audience Manager {#user-guide}
 
 + [Guida ad Audience Manager](aam-home.md)
-+ [Guida all&#39;evoluzione di Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=it)
++ [Guida all&#39;evoluzione di Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + Migrare a Web SDK{#migrate-to-web-sdk}
    + [Migrare dall’estensione tag Adobe Audience Manager all’estensione tag Web SDK](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [Migrare la libreria di raccolta dati da AppMeasurement a Web SDK](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
@@ -66,7 +66,7 @@ ht-degree: 16%
       + [Funzionalità avanzate di Audience Lab](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + [Ottimizzazione di Audience Marketplace](features/audience-marketplace/audience-marketplace-optimization.md)
+      + {hide-from-toc}[Ottimizzazione Audience Marketplace](features/audience-marketplace/audience-marketplace-optimization.md)
       + Audience Marketplace per provider di dati{#audience-marketplace-for-data-providers}
          + [Audience Marketplace per provider di dati](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [Creare, assegnare un prezzo e gestire feed di dati](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
@@ -152,7 +152,7 @@ ht-degree: 16%
       + [Sintassi di codice utilizzata nell’editor di espressioni di segmenti](features/segments/segment-code-syntax.md)
       + [Dati sulle caratteristiche e sulle popolazioni dei segmenti nel Generatore di segmenti](features/segments/segment-builder-data.md)
       + [Raccomandazioni sulle caratteristiche](features/segments/trait-recommendations.md)
-      + [Riferimenti per la qualifica di caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=it)
+      + [Riferimenti per la qualifica di caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + Caratteristiche{#traits}
       + [Panoramica delle caratteristiche](/help/using/features/traits/traits-overview.md)
       + [Pagina dettagli caratteristica](features/traits/trait-details-page.md)
@@ -349,8 +349,8 @@ ht-degree: 16%
    + Integrazione con altre applicazioni Experience Cloud {#integration-other-solutions}
       + [Integrare Audience Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Inoltrare dati da Adobe Analytics ad Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Pubblica un segmento di Adobe Analytics in Experience Cloud (apre la documentazione di Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=it)
-      + [Integrare Audience Manager con Adobe Campaign (apre la documentazione di Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=it)
+      + [Pubblica un segmento di Adobe Analytics in Experience Cloud (apre la documentazione di Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Integrare Audience Manager con Adobe Campaign (apre la documentazione di Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Riferimenti{#reference}
    + [Panoramica dei riferimenti](reference/reference.md)
    + [Amazon S3: informazioni](reference/amazon-s3.md)
