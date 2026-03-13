@@ -60,8 +60,8 @@ Consulta [File Compression for Inbound Data Transfer Files](../integration/sendi
 
 Sì. Se utilizzi un [!UICONTROL cross-device data source] per archiviare i dati CRM caricati, Audience Manager memorizza sempre i dati. In effetti, in seguito ai miglioramenti di [!UICONTROL Profile Merge Rules] introdotti nell&#39;Audience Manager di ottobre 2019 che consentono casi d&#39;uso solo offline, puoi caricare dati e intervenire sui dati senza distribuire il codice Audience Manager nella produzione. Consulta:
 
-* [Overview of Profile Merge Rules Enhancements](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalizzazione basata su dati solo offline](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Overview of Profile Merge Rules Enhancements](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=it)
+* [!UICONTROL People-based Destinations] - [Personalizzazione basata su dati solo offline](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=it)
 
 <br> 
 
