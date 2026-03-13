@@ -7,7 +7,7 @@ title: Requisiti Amazon S3 di nome e dimensione file per i file di dati in entra
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-source-git-commit: a5506a315a98afdf31f8f52fac09b9179f388f30
+source-git-commit: f073dd733b512aa60d7817acbef76e51594900f8
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 2%
@@ -87,9 +87,10 @@ La tabella definisce gli elementi in un nome di file [!DNL S3].
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Timestamp UNIX UTC a 10 cifre in secondi. La marca temporale consente di rendere univoco ogni nome di file. </p> 
-    <!-- 
+    <!--
      <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
-    --> </td> 
+    -->
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
