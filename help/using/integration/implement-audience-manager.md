@@ -234,4 +234,4 @@ I nostri sforzi di collaborazione non si fermano alla distribuzione finale. Una 
 
 I responsabili dell’account forniscono un supporto continuo e servizi di consulenza al termine del processo di implementazione del prodotto. Potresti avere riunioni regolari con il tuo account manager. Queste riunioni ti garantiscono di ottenere la massima quantità di utilizzo e valore da Audience Manager.
 
-Contattaci [qui](https://www.adobe.com/products/audiencemanager.html) per ulteriori informazioni e per iniziare a utilizzare Audience Manager.
+Contattaci [qui](https://www.adobe.com/it/products/audiencemanager.html) per ulteriori informazioni e per iniziare a utilizzare Audience Manager.

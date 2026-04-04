@@ -76,7 +76,7 @@ Prima di contattarci, assicurati di avere a portata di mano le seguenti informaz
 
 ## In caso si verifichi un&#39;interruzione {#outage}
 
-Se pensi che vi sia un’interruzione, controlla innanzitutto la [pagina di stato del sistema di Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]). Troverai un registro di tutte le interruzioni, dei problemi e della manutenzione per le soluzioni Experience Cloud, incluso Audience Manager, e gli ultimi aggiornamenti dal nostro team Tech Ops. Se è necessaria ulteriore assistenza, quando contatti l&#39;assistenza clienti assicurati di avere a disposizione i dati seguenti, in aggiunta alle informazioni citate sopra:
+Se pensi che vi sia un’interruzione, controlla innanzitutto la [pagina di stato del sistema di Experience Cloud](https://status.adobe.com/it-it) ([!DNL https://status.adobe.com/it-it]). Troverai un registro di tutte le interruzioni, dei problemi e della manutenzione per le soluzioni Experience Cloud, incluso Audience Manager, e gli ultimi aggiornamenti dal nostro team Tech Ops. Se è necessaria ulteriore assistenza, quando contatti l&#39;assistenza clienti assicurati di avere a disposizione i dati seguenti, in aggiunta alle informazioni citate sopra:
 
 * Ora di inizio dell&#39;interruzione
 * Spiegazione di ciò che sta accadendo
