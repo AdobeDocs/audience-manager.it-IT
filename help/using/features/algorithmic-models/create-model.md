@@ -114,7 +114,7 @@ Completare prima i campi obbligatori nella sezione [!UICONTROL Basic Information
 
 Guarda il video seguente per scoprire come creare un modello lookalike di prime parti, in modo da poter trovare più visitatori che assomigliano ai tuoi convertitori.
 
->[!VIDEO](https://video.tv.adobe.com/v/23504/)
+>[!VIDEO](https://video.tv.adobe.com/v/329910?captions=ita)
 
 >[!MORELIKETHIS]
 >
