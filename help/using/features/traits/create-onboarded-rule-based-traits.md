@@ -8,9 +8,13 @@ title: Creare caratteristiche basate su regole o onboarded
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: Traits
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/WP-VxrKlSi7pHB9IEIFXDt1SD-iu85DynxDPyoVQAcQ
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: 356
 ht-degree: 1%
 
 ---
@@ -60,7 +64,7 @@ In [!UICONTROL Trait Builder], le impostazioni di [!UICONTROL Basic Information]
   </tr>
    <tr> 
    <td colname="col1"> Tipo di evento <b><span class="uicontrol"></span></b> </td> 
-   <td colname="col2"> Assegna la caratteristica a un tipo o a una categoria, in genere in base alla funzione (ad esempio conversione, visitatore del sito, partner, visualizzazione pagina, ecc.). Facoltativo. <p> Per informazioni su come creare caratteristiche di conversione, vedi <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=it">Creazione di caratteristiche di conversione nel video di Audience Manager</a>. </p></td> 
+   <td colname="col2"> Assegna la caratteristica a un tipo o a una categoria, in genere in base alla funzione (ad esempio conversione, visitatore del sito, partner, visualizzazione pagina, ecc.). Facoltativo. <p> Per informazioni su come creare caratteristiche di conversione, vedi <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creazione di caratteristiche di conversione nel video di Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Codice di integrazione <b><span class="uicontrol"></span></b> </td> 

@@ -2,9 +2,13 @@
 title: Migrare dall’estensione tag Audience Manager all’estensione tag Web SDK
 description: Comprendere i passaggi per aggiornare la libreria di raccolta dati per Audience Manager dall’estensione tag Audience Manager all’estensione tag Web SDK
 exl-id: 7f0486db-4511-4311-90df-290580fdcd78
-source-git-commit: a50aaeb5e384685100dc3ecc1d6d45f1c41461d0
+TQID: https://experienceleague.adobe.com/onqgwnCIZMdiZz6nGRWy7bpbXpMF1zizqyQOQjSkGTc
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: 1309
 ht-degree: 0%
 
 ---
@@ -13,7 +17,7 @@ ht-degree: 0%
 
 ## Pubblico previsto
 
-Questa pagina è destinata ai clienti Audience Manager che utilizzano l&#39;estensione tag [Audience Manager](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/audience-manager/overview) per inserire dati della raccolta Web in Audience Manager. Per i clienti che utilizzano la libreria JavaScript di AppMeasurement, leggere la guida su come aggiornare la libreria di raccolta dati per Audience Manager [dalla libreria JavaScript di AppMeasurement alla libreria JavaScript Web SDK](appmeasurement-to-web-sdk.md).
+Questa pagina è destinata ai clienti Audience Manager che utilizzano l&#39;estensione tag [Audience Manager](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) per inserire dati della raccolta Web in Audience Manager. Per i clienti che utilizzano la libreria JavaScript di AppMeasurement, leggere la guida su come aggiornare la libreria di raccolta dati per Audience Manager [dalla libreria JavaScript di AppMeasurement alla libreria JavaScript Web SDK](appmeasurement-to-web-sdk.md).
 
 ## Vantaggi e svantaggi di questo percorso di implementazione
 

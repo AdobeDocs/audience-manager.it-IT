@@ -8,9 +8,11 @@ title: Stati di autenticazione dei visitatori in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: Reference
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/-sM2Nc-SH0JibLcGQlY5P61zygmnDCEIvjjFq5QglYk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: 315
 ht-degree: 2%
 
 ---
@@ -19,7 +21,7 @@ ht-degree: 2%
 
 Lo stato di autenticazione del visitatore in Audience Manager determina se le informazioni sulle nuove caratteristiche vengono scritte nel profilo autenticato del visitatore o nel profilo del dispositivo da cui sono stati raccolti i dati. Audience Manager gestisce allo stesso modo gli stati di autenticazione dell’ID visitatore UNKNOWN e LOGGED_OUT nelle chiamate evento.
 
-A partire dalla versione 1.5 del servizio ID [!DNL Experience Cloud], il metodo `setCustomerID` include l&#39;oggetto `AuthState` facoltativo. `AuthState` identifica i visitatori in base al loro [stato di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it). [!DNL Audience Manager] gestisce le caratteristiche realizzate in modo diverso, a seconda dello stato di autenticazione passato nella chiamata e della [regola di unione profili](../features/profile-merge-rules/merge-rules-dashboard.md) utilizzata per la segmentazione.
+A partire dalla versione 1.5 del servizio ID [!DNL Experience Cloud], il metodo `setCustomerID` include l&#39;oggetto `AuthState` facoltativo. `AuthState` identifica i visitatori in base al loro [stato di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] gestisce le caratteristiche realizzate in modo diverso, a seconda dello stato di autenticazione passato nella chiamata e della [regola di unione profili](../features/profile-merge-rules/merge-rules-dashboard.md) utilizzata per la segmentazione.
 
 ## Stato autenticazione: SCONOSCIUTO {#auth-status-unknown}
 
@@ -57,4 +59,4 @@ Chiamata di esempio (viene evidenziato il valore della richiesta corrispondente 
 
 >[!MORELIKETHIS]
 >
->* [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=it)
+>* [ID cliente e stati di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)

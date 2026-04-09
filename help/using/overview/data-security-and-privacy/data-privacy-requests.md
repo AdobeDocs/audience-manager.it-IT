@@ -8,9 +8,14 @@ title: Richieste sulla privacy dei dati
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-source-git-commit: 6b43885deddb0cdaeb3698051ea110f0a4eed44e
+TQID: https://experienceleague.adobe.com/aZeBRtoDecmrGfSXa1u4GP9jTvFg2Qbv3b6je-1aA8Q
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: 1324
 ht-degree: 42%
 
 ---
@@ -28,29 +33,29 @@ Prima di leggere questo articolo, consigliamo di consultare il [RGPD Glossary](.
 È possibile inviare singole richieste per accedere ed eliminare i dati dei consumatori da [!DNL Audience Manager] in due modi:
 
 * Tramite la [Privacy Service UI](https://privacyui.cloud.adobe.io/). Consulta la documentazione [qui](https://docs.adobe.com/content/help/it-IT/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Attraverso la **[!DNL Privacy Service API]**. Consulta la documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it) e il riferimento [!DNL API] [qui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+* Attraverso la **[!DNL Privacy Service API]**. Consulta la documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) e il riferimento [!DNL API] [qui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 Quando invii richieste sulla privacy dei dati di singoli utenti, puoi inviare qualsiasi [!DNL Audience Manager] identificatore (ID), come descritto nella sezione **[Audience Manager Identifiers](data-privacy-ids.md)**, insieme ai rispettivi ID dei namespace (ID dell&#39;origine dati).
 
-[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) supporta due tipi di richieste: richieste di accesso ai dati e di cancellazione dei dati.
+[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) supporta due tipi di richieste: richieste di accesso ai dati e di cancellazione dei dati.
 
 ## Richieste di accesso ai dati {#access-data}
 
-Puoi inviare singole richieste di accesso ai dati tramite la [interfaccia utente di Privacy Service](https://privacyui.cloud.adobe.io) (documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=it) o chiamando l&#39;API di Privacy Service (documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it) e [!DNL API] di riferimento [qui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+Puoi inviare singole richieste di accesso ai dati tramite la [interfaccia utente di Privacy Service](https://privacyui.cloud.adobe.io) (documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) o chiamando l&#39;API di Privacy Service (documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) e [!DNL API] di riferimento [qui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 La [Privacy Service UI](https://privacyui.cloud.adobe.io/) consente di creare nuove richieste di processi utilizzando il [!UICONTROL Request Builder] o caricando un file [!DNL JSON].
 
-Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [&#x200B; scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
+Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [ scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
 
 Comprendiamo il tuo impegno a soddisfare le richieste sulla privacy dei dati entro il termine stabilito dalla normativa.
 
 ## Richieste di cancellazione dei dati {#delete-data}
 
-Puoi inviare richieste di eliminazione dei dati tramite la [interfaccia utente di Privacy Service](https://privacyui.cloud.adobe.io) (documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=it) o chiamando l&#39;API di Privacy Service (documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it) e [!DNL API] di riferimento [qui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+Puoi inviare richieste di eliminazione dei dati tramite la [interfaccia utente di Privacy Service](https://privacyui.cloud.adobe.io) (documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) o chiamando l&#39;API di Privacy Service (documentazione [qui](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) e [!DNL API] di riferimento [qui](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 La [Privacy Service UI](https://privacyui.cloud.adobe.io/) consente di creare nuove richieste di processi utilizzando il [!UICONTROL Request Builder] o caricando un file [!DNL JSON].
 
-Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [&#x200B; scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
+Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [ scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
 
 Adobe comprende il tuo impegno a soddisfare le richieste dei clienti sulla privacy dei dati entro 30 giorni. Per questo motivo, [!DNL Adobe] si impegna a elaborare la richiesta di eliminazione dei dati il prima possibile.
 
@@ -71,7 +76,7 @@ Consulta la [documentazione sull&#39;elenco delle destinazioni basate su disposi
 
 [!DNL Audience Manager] supporta gli standard di settore per la gestione delle rinunce. Continuare a leggere per informazioni complete sui tipi di rinuncia supportati da [!DNL Audience Manager].
 
-Mentre le richieste di accesso e di eliminazione dei dati vengono gestite tramite [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it), le richieste di rinuncia sono attualmente supportate tramite [!DNL DCS API]. Continua a leggere per scoprire l&#39;aspetto delle chiamate di rinuncia [!DNL API].
+Mentre le richieste di accesso e di eliminazione dei dati vengono gestite tramite [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), le richieste di rinuncia sono attualmente supportate tramite [!DNL DCS API]. Continua a leggere per scoprire l&#39;aspetto delle chiamate di rinuncia [!DNL API].
 
 ### Richieste di rinuncia globale
 
@@ -97,8 +102,8 @@ La rinuncia globale rappresenta una rinuncia in [!DNL Audience Manager] e altre 
    <td colname="col1"> <p>Dispositivi mobili </p> </td> 
    <td colname="col2"> <p>Consulta le impostazioni di privacy e rinuncia per: </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html?lang=it" format="https" scope="external">Dispositivi Android </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html?lang=it" format="https" scope="external">Dispositivi iOS </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external">Dispositivi Android </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external">Dispositivi iOS </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

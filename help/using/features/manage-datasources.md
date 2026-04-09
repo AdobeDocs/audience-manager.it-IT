@@ -8,9 +8,14 @@ title: Gestire le origini dati
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: bda66cb9aaee3a40ae64dda100f42b88696a027e
+TQID: https://experienceleague.adobe.com/ffRcCmzJX4WW0nTvEALBrE1Sm-b9Fl7Wj2heT-uNIx0
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620
+subfeature_v2: id: a49258d4-867f-4130-b875-d72c001bdf6c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: 403
 ht-degree: 0%
 
 ---
@@ -35,9 +40,9 @@ Per completare la sezione [!UICONTROL Data Source Details], compilare i campi se
 1. **[!UICONTROL Description]** (facoltativo): immettere una descrizione per l&#39;origine dati per definire il ruolo o lo scopo dell&#39;origine dati.
 1. **[!UICONTROL Integration Code]** (facoltativo): immettere un codice di integrazione. Questi codici sono necessari quando si desidera:
    * [Crea un&#39;origine dati multi-dispositivo](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Utilizza il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
+   * Utilizza il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Utilizzare [Regole di unione profili](../features/profile-merge-rules/merge-rules-start.md).
-1. **[!UICONTROL Namespace]** (sola lettura): questo campo è di sola lettura e viene generato automaticamente quando si salva l&#39;origine dati. Se desideri esportare segmenti da Audience Manager ad Experience Platform, devi creare uno spazio dei nomi [identity](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it#manage-namespaces) corrispondente in Experience Platform, utilizzando il valore generato automaticamente come spazio dei nomi [simbolo di identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) in Experience Platform.
+1. **[!UICONTROL Namespace]** (sola lettura): questo campo è di sola lettura e viene generato automaticamente quando si salva l&#39;origine dati. Se desideri esportare segmenti da Audience Manager ad Experience Platform, devi creare uno spazio dei nomi [identity](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) corrispondente in Experience Platform, utilizzando il valore generato automaticamente come spazio dei nomi [simbolo di identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) in Experience Platform.
 1. **[!UICONTROL ID Type]**: selezionare il tipo di ID che l&#39;origine dati conterrà:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -69,7 +74,7 @@ Eliminare un [!UICONTROL data source] non più necessario.
 >Si prega di notare le seguenti restrizioni:
 >
 >* Non puoi eliminare un [pubblico attivo o una caratteristica sincronizzata di Data Source](../features/traits/client-activity-synced-audience-traits.md).
->* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di rapporti [!DNL Analytics]. Utilizza il [servizio core](https://experienceleague.adobe.com/it/docs/core-services/interface/services/customer-attributes/attributes) per annullare la mappatura di queste origini dati.
+>* Per i clienti che utilizzano Adobe Analytics: Audience Manager non consente di eliminare le origini dati create automaticamente dalle suite di rapporti [!DNL Analytics]. Utilizza il [servizio core](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) per annullare la mappatura di queste origini dati.
 
 1. Fare clic su **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
 1. Selezionare la casella di controllo accanto a una o più origini dati.

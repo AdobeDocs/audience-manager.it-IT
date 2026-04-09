@@ -6,9 +6,11 @@ title: Ricerca avanzata per Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
 exl-id: 5a66623b-4d24-4f52-ba26-b59750d25f2c
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/-ml-cMnAI9yYhzIVC5OULFnCS4rPdj4RVqBvkm-jrYg
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: 209
 ht-degree: 0%
 
 ---
@@ -33,4 +35,4 @@ Questa integrazione consente di visualizzare i nomi descrittivi per le coppie ch
 
 Il video seguente mostra come utilizzare [!UICONTROL Data Explorer] per individuare e utilizzare i dati di Adobe Analytics, inclusa la ricerca di segnali utilizzati e non utilizzati, la creazione di caratteristiche di Analytics e la comprensione dei dati.
 
->[!VIDEO](https://video.tv.adobe.com/v/330365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25150)

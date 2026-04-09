@@ -5,9 +5,14 @@ solution: Audience Manager
 title: Offuscamento indirizzo IP
 feature: Data Governance & Privacy
 exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/HDL8UVo5Buup16TdOH8RZXit9EDTXtivbpUfqaaYezo
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: 509
 ht-degree: 12%
 
 ---
@@ -31,7 +36,7 @@ Vedi anche Raccolta di indirizzi IP e offuscamento degli indirizzi IP nella [sez
 
 ### Precendenza offuscamento IP {#precedence}
 
-[L&#39;offuscamento dell&#39;IP a livello di stream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it#create) ha la precedenza su qualsiasi opzione di offuscamento dell&#39;IP impostata in Audience Manager e viene applicata a tutti gli indirizzi IP. Qualsiasi ricerca di geolocalizzazione eseguita da Audience Manager è influenzata dall&#39;opzione [!UICONTROL IP obfuscation] a livello di flusso di dati. Una ricerca di geolocalizzazione in Audience Manager, basata su un IP completamente offuscato, darà luogo a un’area sconosciuta e tutti i segmenti basati sui dati di geolocalizzazione risultanti non verranno realizzati.
+[L&#39;offuscamento dell&#39;IP a livello di stream](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) ha la precedenza su qualsiasi opzione di offuscamento dell&#39;IP impostata in Audience Manager e viene applicata a tutti gli indirizzi IP. Qualsiasi ricerca di geolocalizzazione eseguita da Audience Manager è influenzata dall&#39;opzione [!UICONTROL IP obfuscation] a livello di flusso di dati. Una ricerca di geolocalizzazione in Audience Manager, basata su un IP completamente offuscato, darà luogo a un’area sconosciuta e tutti i segmenti basati sui dati di geolocalizzazione risultanti non verranno realizzati.
 
 ## Requisiti di offuscamento degli indirizzi IP {#ip-obfuscation-requirements}
 
@@ -63,4 +68,4 @@ Per disabilitare l&#39;offuscamento degli indirizzi IP per paesi specifici, indi
 * [Privacy dei dati](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * Dimostrazione video offuscamento indirizzo IP
 
->[!VIDEO](https://video.tv.adobe.com/v/328567?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27218/)

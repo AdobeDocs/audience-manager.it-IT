@@ -7,9 +7,13 @@ title: Panoramica sulla privacy dei dati
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 feature: Data Governance & Privacy
 exl-id: 051de369-e762-49fb-b65f-6faf94db48a4
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+TQID: https://experienceleague.adobe.com/2ePsnB1spOaodcifn67as3T7v28RnrOthzjhJJQKIGo
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cb
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: 437
 ht-degree: 52%
 
 ---
@@ -43,9 +47,9 @@ Per ulteriori informazioni, consulta il [Centro per la privacy di Adobe](https:/
 
 ## Conformità alle normative {#compliance}
 
-[!DNL Audience Manager] ti aiuta a rispettare gli obblighi derivanti da determinate normative sulla privacy, attraverso strumenti per la privacy come [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) per le richieste di accesso e cancellazione dei dati.
+[!DNL Audience Manager] ti aiuta a rispettare gli obblighi derivanti da determinate normative sulla privacy, attraverso strumenti per la privacy come [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) per le richieste di accesso e cancellazione dei dati.
 
-Questo servizio fornisce una [!DNL RESTful API] e un’interfaccia utente che facilitano la gestione delle richieste dei clienti relative ai dati. Tramite il [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it), puoi inviare richieste di accesso e cancellazione dei dati in base a una richiesta di un singolo consumatore, in modo da automatizzare questa parte degli obblighi di conformità.
+Questo servizio fornisce una [!DNL RESTful API] e un’interfaccia utente che facilitano la gestione delle richieste dei clienti relative ai dati. Tramite il [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), puoi inviare richieste di accesso e cancellazione dei dati in base a una richiesta di un singolo consumatore, in modo da automatizzare questa parte degli obblighi di conformità.
 
 Mentre le richieste di accesso e di eliminazione dei dati vengono gestite tramite Privacy Service, [le richieste di rinuncia](data-privacy-requests.md#opt-out-requests) sono attualmente supportate tramite l&#39;[API DCS](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Per ulteriori informazioni, consulta [Data Privacy Requests](data-privacy-requests.md).
 

@@ -6,9 +6,12 @@ solution: Audience Manager
 title: Guida introduttiva di Predictive Audiences
 feature: Algorithmic Models
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/GxGaEIsjpvAqbm5AbaxmmLrgC09x4fslbZcJuShf1sE
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: 545
 ht-degree: 2%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 2%
 
 ## Creare un modello Predictive Audiences {#create-predictive-audiences}
 
-Prima di creare un modello [!UICONTROL Predictive Audiences], è necessario decidere a quale origine dati di prime parti assegnare le caratteristiche e i segmenti di [!UICONTROL Predictive Audiences]. È possibile utilizzare un&#39;origine dati di prime parti esistente o crearne una nuova. Consulta [Gestisci origini dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=it) per informazioni dettagliate su come creare una nuova origine dati di prime parti.
+Prima di creare un modello [!UICONTROL Predictive Audiences], è necessario decidere a quale origine dati di prime parti assegnare le caratteristiche e i segmenti di [!UICONTROL Predictive Audiences]. È possibile utilizzare un&#39;origine dati di prime parti esistente o crearne una nuova. Consulta [Gestisci origini dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) per informazioni dettagliate su come creare una nuova origine dati di prime parti.
 
 Una volta individuata l’origine dati da utilizzare, effettua le seguenti operazioni.
 

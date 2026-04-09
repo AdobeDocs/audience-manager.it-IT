@@ -7,9 +7,11 @@ title: Regole di unione profili e processi di rimozione dei dispositivi dai segm
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge
 exl-id: ff3da607-5c25-45b2-ac27-071c22d518a0
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+TQID: https://experienceleague.adobe.com/xAMGTR-vAfeIqWTTu-J0xEGksW6IqKLOn-suIHYsbdU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: 467
 ht-degree: 2%
 
 ---
@@ -44,7 +46,7 @@ Come promemoria, i [!UICONTROL Device Options] sono disponibili nella sezione [!
 >[!NOTE]
 >
 >Limite di dispositivi **100 per la valutazione dei segmenti e l&#39;interdizione**.
->&#x200B;>Audience Manager unisce fino a 100 dispositivi durante la valutazione dei segmenti con una regola di unione profili che utilizza un grafico dei dispositivi. Audience Manager valuta il dispositivo corrente e fino a 99 dispositivi collegati al dispositivo corrente da un [profilo autenticato](../../reference/visitor-authentication-states.md) (ID multi-dispositivo). Se viene emesso il segnale di rimozione dai segmenti, il dispositivo corrente e i dispositivi aggiuntivi verranno rimossi dal segmento nella destinazione.
+>Audience Manager unisce fino a 100 dispositivi durante la valutazione dei segmenti con una regola di unione profili che utilizza un grafico dei dispositivi. Audience Manager valuta il dispositivo corrente e fino a 99 dispositivi collegati al dispositivo corrente da un [profilo autenticato](../../reference/visitor-authentication-states.md) (ID multi-dispositivo). Se viene emesso il segnale di rimozione dai segmenti, il dispositivo corrente e i dispositivi aggiuntivi verranno rimossi dal segmento nella destinazione.
 
 ![](assets/last-device-graph.png)
 

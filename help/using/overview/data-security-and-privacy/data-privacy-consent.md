@@ -8,9 +8,13 @@ title: Gestione del consenso
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+TQID: https://experienceleague.adobe.com/ky1cNyZ507tDn2FFS6umoWsT-zaZ05wQwvK8xvNc7HU
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: 685
 ht-degree: 98%
 
 ---
@@ -31,11 +35,11 @@ Audience Manager offre strumenti che ti consentono di ottenere il consenso neces
 
 ## Servizio Opt-in di Experience Cloud
 
-Il [Servizio Opt-in di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it) ti consente di configurare i protocolli per il visitatore per aiutarti a identificare se è possibile impostare un cookie sul dispositivo o sul browser del singolo utente quando visita il tuo sito.
+Il [Servizio Opt-in di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) ti consente di configurare i protocolli per il visitatore per aiutarti a identificare se è possibile impostare un cookie sul dispositivo o sul browser del singolo utente quando visita il tuo sito.
 
 Si tratta di un’estensione del [!DNL Experience Cloud ID (ECID) Service], progettata per consentirti di controllare eventuali soluzioni Experience Cloud che possono creare cookie sulle pagine web per i visitatori prima che l’utente dia il consenso.
 
-Il [Servizio Opt-in di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it) ti consente inoltre di impostare i protocolli da integrare con la piattaforma di gestione dei contenuti (CMP, Consent Management Platform) e i sistemi esistenti come parte di un tuo progetto più ampio.
+Il [Servizio Opt-in di Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) ti consente inoltre di impostare i protocolli da integrare con la piattaforma di gestione dei contenuti (CMP, Consent Management Platform) e i sistemi esistenti come parte di un tuo progetto più ampio.
 
 ## Gestione e ottenimento del consenso
 
@@ -43,7 +47,7 @@ I clienti di Audience Manager possono memorizzare il consenso degli utenti per v
 
 ## Gestione della rinuncia e del ritiro del consenso
 
-La rinuncia può essere gestita per Adobe Experience Cloud tramite la pagina relativa alle [scelte sulla privacy](https://www.adobe.com/it/privacy/opt-out.html#customeruse). Le funzionalità con 1 clic consentono agli utenti finali di controllare e rinunciare alla raccolta di dati da parte delle soluzioni pubblicitarie Adobe Experience Cloud (incluso Audience Manager). Nello specifico, consulta la [sezione per i clienti aziendali](https://www.adobe.com/it/privacy/opt-out.html#customeruse) della pagina relativa alle scelte sulla privacy. Per i browser che non supportano i cookie di terze parti, consulta [Declared ID targeting](../../features/declared-ids.md#declared-id-targeting). Per i dispositivi mobili, recupera gli identificatori pertinenti di Audience Manager e chiama le API di rinuncia di Audience Manager come indicato in [Declared ID Opt-Out examples](../../features/declared-ids.md#opt-out-examples). In seguito, puoi interrompere la raccolta di dati per tali utenti con le API di rinuncia dall’SDK di Mobile (consulta [Dispositivi Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html?lang=it) e [Dispositivi iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html?lang=it)). Ulteriori informazioni sulla rinuncia sono disponibili nella [Data Privacy Requests Documentation](../../overview/data-security-and-privacy/data-privacy-requests.md).
+La rinuncia può essere gestita per Adobe Experience Cloud tramite la pagina relativa alle [scelte sulla privacy](https://www.adobe.com/it/privacy/opt-out.html#customeruse). Le funzionalità con 1 clic consentono agli utenti finali di controllare e rinunciare alla raccolta di dati da parte delle soluzioni pubblicitarie Adobe Experience Cloud (incluso Audience Manager). Nello specifico, consulta la [sezione per i clienti aziendali](https://www.adobe.com/it/privacy/opt-out.html#customeruse) della pagina relativa alle scelte sulla privacy. Per i browser che non supportano i cookie di terze parti, consulta [Declared ID targeting](../../features/declared-ids.md#declared-id-targeting). Per i dispositivi mobili, recupera gli identificatori pertinenti di Audience Manager e chiama le API di rinuncia di Audience Manager come indicato in [Declared ID Opt-Out examples](../../features/declared-ids.md#opt-out-examples). In seguito, puoi interrompere la raccolta di dati per tali utenti con le API di rinuncia dall’SDK di Mobile (consulta [Dispositivi Android](https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html) e [Dispositivi iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html)). Ulteriori informazioni sulla rinuncia sono disponibili nella [Data Privacy Requests Documentation](../../overview/data-security-and-privacy/data-privacy-requests.md).
 
 ## Gestione del consenso per i partner di seconde parti
 

@@ -8,9 +8,12 @@ title: Classificazione delle caratteristiche con una tassonomia comune
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/oLqcNUv0yFp06VQs4tJJF-k6aTfS-LdxqyjF4-agMDs
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: 366
 ht-degree: 0%
 
 ---
@@ -31,7 +34,7 @@ Consentire ai nostri clienti di creare segmenti e modelli di dati personalizzati
 
 ## La tassonomia utilizza le categorie di classificazione standard del settore
 
-La tassonomia comune si basa sulle classificazioni create da [!DNL Interactive Advertising Bureau (IAB)]. Per ulteriori informazioni sulle linee guida per il controllo qualità per reti e scambi, consultare il [!DNL IAB]sito Web[&#x200B; di &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
+La tassonomia comune si basa sulle classificazioni create da [!DNL Interactive Advertising Bureau (IAB)]. Per ulteriori informazioni sulle linee guida per il controllo qualità per reti e scambi, consultare il [!DNL IAB]sito Web[ di ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines).
 
 ## Organizzazione tassonomica
 

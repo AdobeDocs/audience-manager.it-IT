@@ -8,9 +8,13 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: raggruppamento per tipo di identità, raggruppamento identità, reporting identità pubblico, multi-dispositivo, ID dispositivo
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/598rKoYt4bQ2Wojsy1ypYNfMyLrFDAJJX9jaqk9l2pk
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: 398
 ht-degree: 0%
 
 ---
@@ -50,7 +54,7 @@ Sotto gli strumenti di gestione dei segmenti puoi trovare le seguenti informazio
 
    Guarda il video seguente per una panoramica di [!UICONTROL Identity Type Breakdown].
 
-   >[!VIDEO](https://video.tv.adobe.com/v/36989?captions=ita)
+   >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
 1. **[!UICONTROL Segment Rules]:** elenca le caratteristiche nel segmento insieme alle regole di qualificazione.
 1. **[!UICONTROL Destination Mappings]:** Elenca i mapping di destinazione per il segmento.

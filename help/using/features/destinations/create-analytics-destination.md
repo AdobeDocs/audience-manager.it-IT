@@ -6,9 +6,14 @@ solution: Audience Manager
 title: Configurare una destinazione di Analytics
 feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: ef8cca16c8c9478f8558c26bf6f3ae95cd72e7ac
+TQID: https://experienceleague.adobe.com/Fm25UT69AXSh-cXo6MXGQwW-17LFy8dqs3-STiWKDeA
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: 866
 ht-degree: 4%
 
 ---
@@ -18,13 +23,13 @@ ht-degree: 4%
 ## Requisiti {#requirements}
 
 Per configurare una destinazione di Analytics, l’utente di Audience Manager deve disporre di autorizzazioni di amministratore. Vedere [Crea utenti](/help/using/features/administration/administration-overview.md#create-users) nella Guida all&#39;amministrazione. Tieni presente che disporre dell&#39;autorizzazione `CREATE_DESTINATIONS` per [caratteri jolly](/help/using/features/administration/administration-overview.md#wild-card-permissions) non è sufficiente per creare destinazioni Analytics.
-Per ulteriori requisiti, vedere Prerequisiti in [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=it).
+Per ulteriori requisiti, vedere Prerequisiti in [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
 ## La destinazione Analytics predefinita e le nuove destinazioni Analytics
 
 | Tipo di destinazione di Analytics | Descrizione |
 |---|---|
-| Predefinito | Il nome di questa destinazione predefinita è &quot;Adobe Analytics&quot;, che puoi modificare. Gli ID delle suite di rapporti mappati vengono visualizzati nell’archiviazione delle cartelle per le caratteristiche e i segmenti di Audience Manager. <br>  Audience Manager crea automaticamente una destinazione se il tuo account ha: <br>  <ul><li>Soddisfa i requisiti descritti nella documentazione di [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=it).</li><li>Una [suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=it) in Analytics.</li></ul> |
+| Predefinito | Il nome di questa destinazione predefinita è &quot;Adobe Analytics&quot;, che puoi modificare. Gli ID delle suite di rapporti mappati vengono visualizzati nell’archiviazione delle cartelle per le caratteristiche e i segmenti di Audience Manager. <br>  Audience Manager crea automaticamente una destinazione se il tuo account ha: <br>  <ul><li>Soddisfa i requisiti descritti nella documentazione di [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).</li><li>Una [suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) in Analytics.</li></ul> |
 | Nuovo | Per creare nuove destinazioni Analytics, vai a Dati pubblico > Destinazioni > Crea nuova destinazione e segui i passaggi per ciascuna sezione descritta di seguito. |
 
 ## Qualifiche dei segmenti Audience Manager in Adobe Analytics {#segment-qualifications}
@@ -82,9 +87,9 @@ In questa sezione sono disponibili opzioni che consentono di mappare i segmenti 
 
 | Opzione di mappatura | Descrizione |
 |---|---|
-| Mappa automaticamente tutti i segmenti correnti e futuri | Selezionata per impostazione predefinita, questa funzione invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all’hit. <br>  Se un visitatore appartiene a più di 150 segmenti di Audience Manager su un singolo hit, solo i 150 segmenti qualificati più di recente vengono inviati ad Analytics, mentre l’elenco rimanente viene troncato. Ad Analytics viene inviato un flag aggiuntivo che indica che l’elenco dei segmenti è stato troncato. Questa azione viene visualizzata come &quot;Limite di pubblico raggiunto&quot; nella dimensione Nome pubblico e &quot;1&quot; nella dimensione ID pubblico. Per informazioni dettagliate, consulta le [domande frequenti](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=it). <br>  Inoltre, questa opzione influisce sulla disponibilità della destinazione in [Segment Builder](/help/using/features/segments/segment-builder.md). Ad esempio, se un segmento viene mappato automaticamente a una destinazione Analytics, tale destinazione non è disponibile per la selezione nella sezione [mappature di destinazione](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) del Generatore di segmenti. La destinazione Analytics appare in grigio e mostra &quot;Analytics&quot; nella colonna Tipo del browser Destinazioni. |
+| Mappa automaticamente tutti i segmenti correnti e futuri | Selezionata per impostazione predefinita, questa funzione invia ad Analytics tutti i segmenti per i quali un visitatore si qualifica, in base all’hit. <br>  Se un visitatore appartiene a più di 150 segmenti di Audience Manager su un singolo hit, solo i 150 segmenti qualificati più di recente vengono inviati ad Analytics, mentre l’elenco rimanente viene troncato. Ad Analytics viene inviato un flag aggiuntivo che indica che l’elenco dei segmenti è stato troncato. Questa azione viene visualizzata come &quot;Limite di pubblico raggiunto&quot; nella dimensione Nome pubblico e &quot;1&quot; nella dimensione ID pubblico. Per informazioni dettagliate, consulta le [domande frequenti](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html). <br>  Inoltre, questa opzione influisce sulla disponibilità della destinazione in [Segment Builder](/help/using/features/segments/segment-builder.md). Ad esempio, se un segmento viene mappato automaticamente a una destinazione Analytics, tale destinazione non è disponibile per la selezione nella sezione [mappature di destinazione](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) del Generatore di segmenti. La destinazione Analytics appare in grigio e mostra &quot;Analytics&quot; nella colonna Tipo del browser Destinazioni. |
 | Mappare manualmente i segmenti | Questa opzione espone i controlli di ricerca e navigazione che consentono di scegliere quali segmenti inviare ad Analytics. <br>  Per cercare un segmento: <br>  <ol><li>Digita il nome o l’ID del segmento nel campo di ricerca.</li><li>Fare clic su <b>Aggiungi.</b></li><li>Continua a cercare e aggiungere segmenti o fai clic su <b>Fine</b>.</li></ol><br>  Per cercare un segmento: <ol><li>Fare clic su <b>Sfoglia tutti i segmenti</b>. Questo espone un elenco dei segmenti disponibili.</li><li>Dall&#39;elenco selezionare la casella di controllo del segmento che si desidera utilizzare e fare clic su <b>Aggiungi segmenti selezionati</b>.</li><li>Fare clic su <b>Salva</b> nella finestra Aggiungi mapping. Non puoi modificare le mappature, le date di inizio o di fine durante il rilascio della versione beta.</li><li>Continua a sfogliare e aggiungere segmenti o fai clic su <b>Fine</b>.</li></ol> ![mapsegments](assets/mapSegments.png) |
 
 ## Passaggi successivi
 
-Dopo aver creato e salvato una destinazione, puoi utilizzarla in Analytics. Tuttavia, possono essere necessarie alcune ore prima che i dati siano disponibili nelle suite di rapporti selezionate. Vedi [Utilizzare i dati sul pubblico in Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/use-audience-data-analytics.html?lang=it).
+Dopo aver creato e salvato una destinazione, puoi utilizzarla in Analytics. Tuttavia, possono essere necessarie alcune ore prima che i dati siano disponibili nelle suite di rapporti selezionate. Vedi [Utilizzare i dati sul pubblico in Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/use-audience-data-analytics.html).
