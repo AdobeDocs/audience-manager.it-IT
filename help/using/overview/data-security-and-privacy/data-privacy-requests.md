@@ -9,10 +9,20 @@ uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
 TQID: https://experienceleague.adobe.com/aZeBRtoDecmrGfSXa1u4GP9jTvFg2Qbv3b6je-1aA8Q
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cb
-subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+  - id: c814092e-2730-45e8-a12d-e084529f52cb
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 1324
@@ -45,7 +55,7 @@ Puoi inviare singole richieste di accesso ai dati tramite la [interfaccia utente
 
 La [Privacy Service UI](https://privacyui.cloud.adobe.io/) consente di creare nuove richieste di processi utilizzando il [!UICONTROL Request Builder] o caricando un file [!DNL JSON].
 
-Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [ scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
+Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [&#x200B; scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
 
 Comprendiamo il tuo impegno a soddisfare le richieste sulla privacy dei dati entro il termine stabilito dalla normativa.
 
@@ -55,7 +65,7 @@ Puoi inviare richieste di eliminazione dei dati tramite la [interfaccia utente d
 
 La [Privacy Service UI](https://privacyui.cloud.adobe.io/) consente di creare nuove richieste di processi utilizzando il [!UICONTROL Request Builder] o caricando un file [!DNL JSON].
 
-Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [ scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
+Per visualizzare l’aspetto di un file [!DNL JSON] valido, puoi [&#x200B; scaricare un file JSON di esempio](../data-security-and-privacy/assets/access_request.json).
 
 Adobe comprende il tuo impegno a soddisfare le richieste dei clienti sulla privacy dei dati entro 30 giorni. Per questo motivo, [!DNL Adobe] si impegna a elaborare la richiesta di eliminazione dei dati il prima possibile.
 

@@ -8,7 +8,8 @@ uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 exl-id: 4561b19a-bbb5-41ec-ac79-ab3e2ab75548
 TQID: https://experienceleague.adobe.com/36XAqdCyrogL7J9J1Wv7ZgKMMD8lG7DwUy6aWWT5z-8
-product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
 source-wordcount: 678
@@ -57,7 +58,7 @@ Completa i campi obbligatori nella sezione **[!UICONTROL Basic Information]** *p
    >
    >Includi il prefisso `c_` (o qualsiasi altra convenzione di denominazione) per la variabile chiave se le chiamate dell&#39;evento inviano i dati a [!DNL Audience Manager] utilizzando tale sintassi.
 
-1. Seleziona un operatore di confronto [](../../features/traits/trait-comparison-operators.md) dal menu a discesa **[!UICONTROL Operator]**. L’operatore di confronto valuta la relazione tra gli elementi in un segnale.
+1. Seleziona un operatore di confronto [&#128279;](../../features/traits/trait-comparison-operators.md) dal menu a discesa **[!UICONTROL Operator]**. L’operatore di confronto valuta la relazione tra gli elementi in un segnale.
 
    >[!NOTE]
    >
