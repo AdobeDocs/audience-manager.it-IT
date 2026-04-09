@@ -8,9 +8,17 @@ title: Monitoraggio degli ID e Inserisce nell'elenco Bloccati dei
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
 exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+TQID: https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2:
+  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 487
 ht-degree: 0%
 
 ---
@@ -43,12 +51,12 @@ Gli ID che sono stati aggiunti agli elenchi Bloccati non devono essere utilizzat
 
 [!DNL DCS] chiamate possono includere uno o più tipi di ID. Le chiamate contenenti un singolo ID vengono completamente ignorate se tale ID viene aggiunto a un elenco Bloccati e in questa situazione non si verifica alcuna sincronizzazione ID.
 
-Inserire nell&#39;elenco Bloccati Quando una chiamata ID multipla include anche un ID, [!DNL DCS] ignora l&#39;ID negato e utilizza solo gli ID consentiti rimanenti per la sincronizzazione.
+Quando una chiamata ID multipla include anche un ID, [!DNL DCS] ignora l&#39;ID negato e utilizza solo gli ID consentiti rimanenti per la sincronizzazione.
 
 ## Cause e correzioni per la Inserisce nell&#39;elenco Bloccati dell’ID di
 
-La causa più frequente dell’aggiunta degli ID agli elenchi Bloccati è l’integrazione non corretta tra l’infrastruttura del cliente e Audience Manager. Inserire nell&#39;elenco Bloccati Quando identifichi un ID, assicurati di rivedere attentamente le integrazioni Audience Manager. Consulta **Guide all&#39;implementazione e all&#39;integrazione** per informazioni dettagliate su come configurare Audience Manager per l&#39;utilizzo con altre soluzioni Experience Cloud o con sistemi esterni.
+La causa più frequente dell’aggiunta degli ID agli elenchi Bloccati è l’integrazione non corretta tra l’infrastruttura del cliente e Audience Manager. Quando identifichi un ID, assicurati di rivedere attentamente le integrazioni Audience Manager. Consulta **Guide all&#39;implementazione e all&#39;integrazione** per informazioni dettagliate su come configurare Audience Manager per l&#39;utilizzo con altre soluzioni Experience Cloud o con sistemi esterni.
 
-Un&#39;altra causa frequente di aggiunta degli ID agli elenchi Bloccati sono i bot di indicizzazione (crawler web), che in genere causano un aumento del traffico e portano all&#39;invio degli stessi ID a [!DNL DCS] più volte. Se identifichi nei bot di indicizzazione il motivo per cui gli ID vengono aggiunti agli elenchi Bloccati, devi limitare l’accesso dei bot al sito web.
+Un&#39;altra causa frequente di aggiunta degli ID agli elenchi Bloccati sono i bot di indicizzazione (crawler web), che in genere causano un aumento del traffico, con conseguente invio degli stessi ID a [!DNL DCS] più volte. Se identifichi nei bot di indicizzazione il motivo per cui gli ID vengono aggiunti agli elenchi Bloccati, devi limitare l’accesso dei bot al sito web.
 
 Se hai difficoltà a identificare i problemi di integrazione, non esitare a contattare l’Assistenza clienti. Prima di aprire una richiesta di supporto, assicurarsi di mantenere pronto l&#39;archivio `.har` `HTTP` del browser. Questo archivio aiuta il team di supporto a identificare il motivo per cui l’ID è stato aggiunto a un elenco Bloccati.

@@ -7,9 +7,12 @@ title: Sintassi di codice utilizzata nell’editor di espressioni di segmenti
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
-source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
+TQID: https://experienceleague.adobe.com/cJKsvcP-dZ05ojGgbn2ni-wFMFfiObuIWwaRP0-HWFQ
+product_v2:
+  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 297
 ht-degree: 4%
 
 ---
@@ -44,7 +47,7 @@ Per creare gruppi di segmenti, racchiudere la funzione di frequenza tra parentes
 | Nome o variabile | Descrizione |
 |---|---|
 | `FREQUENCY` | Valore letterale che deve precedere l&#39;espressione. |
-| `[`&lt;`traitID`>`T]` | Matrice di ID di caratteristiche seguita dalla lettera `T`. Separa più caratteristiche con una virgola. Ad esempio, `[123T, 456T]`. |
+| `[`&lt;`traitID` `T]` | Matrice di ID di caratteristiche seguita dalla lettera `T`. Separa più caratteristiche con una virgola. Ad esempio, `[123T, 456T]`. |
 | `<Recency Operator><Numeric Value>D` | *(Facoltativo)* Imposta le regole di aggiornamento sulle caratteristiche nel segmento. La lettera `D` indica l&#39;attualità in giorni. |
 | `<Frequency Operator><Numeric Value>` | Imposta le regole di frequenza per le caratteristiche nel segmento. |
 
