@@ -1,40 +1,33 @@
 ---
-description: Sintesi della metodologia di campionamento utilizzata per alcune relazioni, tassi di errore di campionamento e un elenco di relazioni che restituiscono informazioni basate sui dati campionati.
+description: A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 seo-description: A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 seo-title: Data Sampling and Error Rates in Selected Audience Manager Reports
 solution: Audience Manager
-title: Campionamento di dati e tassi di errore nei rapporti di Audience Manager selezionati
+title: Data Sampling and Error Rates in Selected Audience Manager Reports
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
 TQID: https://experienceleague.adobe.com/VGqto9hCroCmKygXvwZNOiAYnsV9CmdPzAoEvKnkV90
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
-  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2:
-  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
-  - id: a49258d4-867f-4130-b875-d72c001bdf6c
-  - id: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a99472c1-6aae-4c7a-8aa0-f60636369620id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: a2c6d65b-635d-4454-a9cc-9771ed501bb4id: a49258d4-867f-4130-b875-d72c001bdf6cid: ec0be1ae-7ea9-4f62-869a-963a97d2edc1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 0%
+source-wordcount: 451
+ht-degree: 1%
 
 ---
 
-# Campionamento di dati e tassi di errore nei rapporti di Audience Manager selezionati{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Data Sampling and Error Rates in Selected Audience Manager Reports{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
-Sintesi della metodologia di campionamento utilizzata per alcune relazioni, tassi di errore di campionamento e un elenco di relazioni che restituiscono informazioni basate sui dati campionati.
+A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
 
-## Rapporto di campionamento dei dati {#data-sampling-ratio}
+## Data Sampling Ratio {#data-sampling-ratio}
 
-Alcuni rapporti di [!DNL Audience Manager] visualizzano i risultati in base a un set campionato della quantità totale di dati disponibili. Il rapporto dei dati campionati è 1:54. Per i rapporti che utilizzano dati campionati, ciò significa che i risultati si basano su 1 record su ogni set di 54 record.
+Some [!DNL Audience Manager] reports display results based on a sampled set of the total amount of available data. The sampled data ratio is 1:54. For reports that use sampled data, this means your results are based on 1 record out of every set of 54 records.
 
-Questi rapporti utilizzano dati statistici campionati perché hanno bisogno di una quantità enorme di potenza di elaborazione per generare risultati. Il campionamento consente di trovare un equilibrio tra la riduzione delle esigenze di elaborazione, il mantenimento delle prestazioni del sistema e la fornitura di risultati accurati.
+These reports use statistical sampled data because they need a tremendous amount of computing power to generate results. Sampling helps strike a balance between reduced computational demands, maintaining system performance, and providing accurate results.
 
 <!--
 
@@ -51,20 +44,20 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 
 -->
 
-## Tassi di errore {#error-rates}
+## Error Rates {#error-rates}
 
-Nei rapporti che generano dati di sovrapposizione possono verificarsi errori. Un errore è definito come la percentuale di record che:
+Errors can occur in reports that generate overlap data. An error is defined as the percentage of records that:
 
-* Non avrebbero dovuto essere inclusi in un rapporto, ma sono stati aggiunti comunque.
-* Avrebbe dovuto essere incluso in un report ma è stato escluso.
+* Should not have been included in a report but were added anyway.
+* Should have been included in a report but were left out.
 
-È importante notare che i nostri test e modelli mostrano che il tasso di errore *diminuisce* in modo inverso rispetto al numero di record nel set di dati. I set di dati con un numero elevato di record generano meno errori rispetto ai set con un numero limitato di record. Vediamo questa affermazione in modo più quantitativo. Come mostrato nella tabella seguente, per un determinato numero di record, il 95% dei risultati del rapporto sarà inferiore a un tasso di errore specifico.
+It&#39;s important to note that our tests and models show that the error rate *decreases* in an inverse proportion to the number of records in your data set. Data sets that have a lot of records generate fewer errors than sets with a small number of records. Let&#39;s look at this assertion in a more quantitative manner. As shown in the following table, for a set number of records, 95% of your report results will be below a specific error rate.
 
-| Numero di record | Frequenza errori |
+| Number of Records | Error Rate |
 |--- |--- |
-| 500 - 1.000 | Il 95% è al di sotto di un tasso di errore del 42%. |
-| 1.000 - 1.500 | Il 95% è al di sotto di un tasso di errore del 34%. |
-| 10.000 - 50.000 | Il 95% è al di sotto di un tasso di errore del 14%. |
+| 500 - 1,000 | 95% are under a 42% error rate. |
+| 1,000 - 1,500 | 95% are under a 34% error rate. |
+| 10,000 - 50,000 | 95% are under a 14% error rate. |
 | 50.000 | Il 95% è al di sotto di un tasso di errore del 6%. |
 | 100.000 | Il 95% è al di sotto di un tasso di errore del 4%. |
 | 500.000 (o più) | Il 95% è al di sotto di un tasso di errore del 2%. |
@@ -99,5 +92,4 @@ Reports that use Minhash sampling methodology:
 | Campionamento statistico | Metodologia di campionamento Minhash |
 |--- |--- |
 | [Dati del pubblico indirizzabile](../features/addressable-audiences.md) (dati a livello di cliente e segmento). | [Rapporti di sovrapposizione](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (da caratteristica a caratteristica, da segmento a caratteristica e da segmento a segmento) |
-| La metrica [Dispositivi totali](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) per un [!UICONTROL Profile Merge Rule]. | [Raccomandazioni sulle caratteristiche](/help/using/features/segments/trait-recommendations.md) |
 | [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) utilizza i dati campionati nella scheda [!UICONTROL Search] e in qualsiasi [!UICONTROL Saved Searches] | [Consigli di Audience Marketplace](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
