@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 87%
+source-wordcount: 428
+ht-degree: 75%
 
 ---
 
@@ -82,28 +82,6 @@ Il feed di dati e tutte le caratteristiche in esso contenute vengono visualizzat
 **Che cosa è [!UICONTROL Tag Insertion Manager (TIM)]?**
 
 Audience Manager utilizzava [!UICONTROL Tag Insertion Manager] (TIM) per creare e gestire [!UICONTROL data collection code (DIL)]. Questa funzionalità è obsoleta ed è stata sostituita prima da [!UICONTROL Dynamic Tag Manager (DTM)] e successivamente da [!DNL Adobe Experience Platform Tags]. Per ulteriori informazioni, vedere [Tag Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
-
- 
-
-**Quali sono le differenze tra Modelli algoritmici e Raccomandazioni sulle caratteristiche? Quando dovrei usare uno o l’altro?**
-
-**Modelli algoritmici**
-
-I Modelli algoritmici non solo individuano le caratteristiche più influenti, ma assegnano inoltre agli utenti un punteggio in base a tali caratteristiche e a ciascun utente un punteggio individuale. In seguito puoi creare caratteristiche algoritmiche per eseguire il targeting degli utenti. Con i controlli di precisione e portata nel Generatore di caratteristiche, puoi specificare di quali utenti desideri effettuare il targeting tra tutti coloro che hanno le caratteristiche influenti.
-
-I Modelli algoritmici ti consentono di selezionare gli utenti a diversi livelli di precisione e di verificare in Audience Lab quale gruppo di utenti effettua le migliori conversioni. Consulta il caso d’uso dettagliato in [Compare Models in Audience Lab](../features/audience-lab/audience-lab-use-cases.md#compare-models).
-
-In Modelli algoritmici, il modello viene eseguito ogni 8 giorni e aggiorna gli utenti qualificati per le caratteristiche algoritmiche.
-
-**Raccomandazioni sulle caratteristiche**
-
-Le Raccomandazioni sulle caratteristiche sono un modo rapido per ottenere informazioni su altre caratteristiche simili a quelle utilizzate in un segmento.
-
-Dovresti utilizzare le Raccomandazioni sulle caratteristiche quando:
-
-* Hai bisogno di informazioni rapide durante la creazione di un segmento;
-* Utilizzi segmenti per campagne brevi o quando desideri eliminare rapidamente il pubblico che effettua la conversione;
-* Stai cercando di massimizzare la portata.
 
  
 

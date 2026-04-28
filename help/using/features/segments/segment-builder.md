@@ -15,9 +15,9 @@ feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
 subfeature_v2:
   - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 1048
+source-wordcount: 1028
 ht-degree: 1%
 
 ---
@@ -53,7 +53,6 @@ Per iniziare, guarda [Creare segmenti nel video di Audience Manager](https://ima
    * Cercare [!UICONTROL trait] da aggiungere a un segmento e fare clic su **[!UICONTROL Add Trait]**. Aggiungi un altro [!UICONTROL trait] per creare un gruppo [!UICONTROL trait].
    * Visualizzare il modale [!UICONTROL Advanced Search] facendo clic su **[!UICONTROL Browse All Traits]**. Cerca [!UICONTROL traits] per nome, ID, descrizione o [!UICONTROL data source]. Durante la ricerca, fai clic su una cartella per limitare i risultati a tale cartella e alle relative sottocartelle. È inoltre possibile filtrare [!UICONTROL traits] per [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] e [!UICONTROL Algorithmic]) o per tipo di popolazione ([ID dispositivo](../../reference/ids-in-aam.md) e [ID multi-dispositivo](../../reference/ids-in-aam.md)).
      ![segment-builder-browser-traits](assets/segment-builder-browse-traits.png)
-   * Ottieni le [raccomandazioni sulle caratteristiche](trait-recommendations.md) durante la creazione di [!UICONTROL segment].
    * Fai clic e trascina [!UICONTROL traits] per creare gruppi separati.
    * Passare il mouse tra i gruppi per impostare le relazioni con i valori booleani [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT].
    * Passa il puntatore sull&#39;icona dell&#39;orologio per aggiungere [regole di aggiornamento e frequenza](../../features/segments/recency-and-frequency.md) a [!UICONTROL trait].
@@ -119,29 +118,27 @@ In [!UICONTROL Segment Builder], le impostazioni di [!UICONTROL the Basic Inform
 
 | Campo | Descrizione |
 |---------|----------|
-| **[!UICONTROL Name]** | Assegna al segmento un nome breve e logico che ne descriva la funzione o lo scopo. Evita abbreviazioni e caratteri speciali. La lunghezza massima del nome di un segmento è di 255 caratteri. |
-| **[!UICONTROL Description]** | Un campo per informazioni descrittive aggiuntive sul segmento. |
-| **[!UICONTROL Integration Code]** | Un campo per un ID definito dall’utente o per altre informazioni specifiche per l’azienda. |
-| **[!UICONTROL Data Source]** | Associa il segmento a un provider di dati specifico. <br> Utilizza il primo menu a discesa per filtrare tra le origini dati di Audience Manager, le suite di rapporti di Adobe Analytics o entrambe. Quindi, utilizza il secondo menu a discesa per scegliere l’origine dati. <br> Se non utilizzi le suite di rapporti di Adobe Analytics, il selettore del tipo di origine dati è disabilitato e viene impostato automaticamente solo sulle origini dati di Audience Manager. |
-| **[!UICONTROL Profile Merge Rule]** | Seleziona la Regola di unione profili da utilizzare per la qualificazione dei segmenti. |
-| **[!UICONTROL Status]** | Attiva o disattiva il segmento (attivo per impostazione predefinita). |
-| **Archiviazione cartelle** | Determina la cartella di archiviazione a cui appartiene il segmento. |
+| **[!UICONTROL Name]** | Give the segment a short, logical name that describes its function or purpose. Avoid abbreviations and special characters. The maximum length of a segment name is 255 characters. |
+| **[!UICONTROL Description]** | A field for additional descriptive information about the segment. |
+| **[!UICONTROL Integration Code]** | A field for a user-defined ID or other company-specific information. |
+| **[!UICONTROL Data Source]** | Associates the segment with a specific data provider. <br> Use the first drop-down menu to filter between Audience Manager data sources, Adobe Analytics report suites, or both. Then, use the second drop-down menu to choose your data source. <br> If you are not using Adobe Analytics report suites, the data source type selector is disabled and defaulted to Audience Manager data sources only. |
+| **[!UICONTROL Profile Merge Rule]** | Selects the Profile Merge Rule to use for segment qualification. |
+| **[!UICONTROL Status]** | Activates or deactivates the segment (active by default). |
+| **Folder Storage** | Determines which storage folder the segment belongs to. |
 
 ## Controlli [!UICONTROL Segment Builder]: sezione [!UICONTROL Traits] {#segment-builder-controls-traits}
 
-In [!UICONTROL Segment Builder], la sezione [!UICONTROL Traits] consente di gestire [!UICONTROL traits] in un [!UICONTROL segment], creare [!UICONTROL trait] gruppi e impostare criteri di qualifica. Per aggiungere un [!UICONTROL trait] a un [!UICONTROL segment], digitare il nome [!UICONTROL trait] nel campo di ricerca e fare clic su [!UICONTROL Add Trait]. Salvare [!UICONTROL trait] (se terminato) o passare a [!UICONTROL Destinations Mapping].
+In [!UICONTROL Segment Builder], the [!UICONTROL Traits] section lets you manage [!UICONTROL traits] in a [!UICONTROL segment], create [!UICONTROL trait] groups, and set qualification criteria. To add a [!UICONTROL trait] to a [!UICONTROL segment], type the [!UICONTROL trait] name in the search field and click [!UICONTROL Add Trait]. Save the [!UICONTROL trait] (if finished) or move on to [!UICONTROL Destinations Mapping].
 
 <!-- r_segment_traits_section.xml-->
 
-**Prerequisiti:** Completare i campi obbligatori nella sezione [!UICONTROL Basic Information].
+**Prerequisites:** Complete the required fields in the [!UICONTROL Basic Information] section.
 
 | Campo | Descrizione |
 |--- |--- |
-| **[!UICONTROL Basic View]** | Questa sezione fornisce controlli visivi che consentono di: <ul><li>Crea nuovo/i e gestisci [!UICONTROL segments] esistente/i.</li><li>Rimuovi [!UICONTROL traits] da [!UICONTROL segment].</li><li>Aggiungere fino a 50 (massimo) [!UICONTROL traits] a [!UICONTROL segment].</li><li>Trascina [!UICONTROL traits] per creare nuovi gruppi.</li><li>Visualizza [!UICONTROL traits] e [!UICONTROL trait] gruppi in un [!UICONTROL segment].</li><li>Imposta i criteri di qualificazione con espressioni booleane, operatori di confronto e impostazioni di recency/frequenza.</li></ul> |
+| **[!UICONTROL Basic View]** | This section provides visual controls that let you: <ul><li>Build new and manage existing [!UICONTROL segments].</li><li>Remove [!UICONTROL traits] from a [!UICONTROL segment].</li><li>Add up to 50 (maximum) [!UICONTROL traits] to a [!UICONTROL segment].</li><li>Drag and drop [!UICONTROL traits] to create new groups.</li><li>View [!UICONTROL traits] and [!UICONTROL trait] groups in a [!UICONTROL segment].</li><li>Set qualification criteria with Boolean expressions, comparison operators, and recency/frequency settings.</li></ul> |
 | **[!UICONTROL Code View]** | Apre un ambiente di sviluppo che consente di creare e gestire [!UICONTROL traits], gruppi e requisiti di qualificazione con il codice anziché con l&#39;interfaccia visiva. La visualizzazione del codice è utile se [!UICONTROL segments]: <ul><li>Contenere più di 50 [!UICONTROL traits] in un singolo [!UICONTROL segment]. Nota: [!UICONTROL Segments] sono limitati a 5000 [!UICONTROL traits] (massimo).</li><li>Contengono molti [!UICONTROL trait] gruppi.</li><li>Avere requisiti di qualifica complessi.</li></ul> |
 | Cerca | Consente di trovare [!UICONTROL traits] da aggiungere a [!UICONTROL segment]. |
-| Consigli | Ricevi consigli live per [!UICONTROL traits] simili dai tuoi feed di dati di prime parti [!UICONTROL traits] e [!UICONTROL Audience Marketplace] a cui sei abbonato. Aggiungi questi consigli alla regola [!UICONTROL segment] per espandere il pubblico. Ulteriori informazioni sono disponibili in [Consigli sulle caratteristiche](trait-recommendations.md). |
-| **[!UICONTROL Marketplace Recommendations]** | Ricevi consigli live per [!UICONTROL traits] simili dai feed di dati di [!UICONTROL Audience Marketplace] ai quali non sei abbonato. Ulteriori informazioni sono disponibili in [Consigli sulle caratteristiche](trait-recommendations.md). |
 | Dati reali e delle dimensioni stimate di [!UICONTROL Segment] | Consulta [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
 
 ## Rimuovi [!UICONTROL Traits] da [!UICONTROL Segment] {#remove-traits}

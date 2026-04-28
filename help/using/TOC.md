@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Guida utente di Audience Manager
 user-guide-description: Scopri come utilizzare Adobe Audience Manager per raccogliere informazioni rilevanti dal punto di vista commerciale sui visitatori del sito e creare segmenti commerciabili. Puoi anche trovare dettagli su come distribuire pubblicità e contenuti mirati al pubblico giusto.
 feature-set: Audience Manager
-source-git-commit: 2d694db141b311977e84cefc48ce14921c87ccc3
+source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 16%
+source-wordcount: '1982'
+ht-degree: 15%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 16%
 # Guida utente di Audience Manager {#user-guide}
 
 + [Guida ad Audience Manager](aam-home.md)
-+ [Guida all&#39;evoluzione di Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=it)
++ [Guida all’evoluzione di Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=it)
 + Migrare a Web SDK{#migrate-to-web-sdk}
    + [Migrare dall’estensione tag Adobe Audience Manager all’estensione tag Web SDK](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [Migrare la libreria di raccolta dati da AppMeasurement a Web SDK](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
@@ -60,39 +60,39 @@ ht-degree: 16%
    + Audience Lab{#audience-lab}
       + [Panoramica di Audience Lab](features/audience-lab/audience-lab.md)
       + [Gestisci gruppi di test](features/audience-lab/audience-lab-manage-test-groups.md)
-      + [Informazioni sul gruppo di test](features/audience-lab/audience-lab-information-view.md)
-      + [Reporting sui gruppi di test](features/audience-lab/audience-lab-reporting-view.md)
-      + [Casi d’uso di Audience Lab](features/audience-lab/audience-lab-use-cases.md)
-      + [Funzionalità avanzate di Audience Lab](features/audience-lab/audience-lab-advanced.md)
+      + [Test Group Information](features/audience-lab/audience-lab-information-view.md)
+      + [Test Group Reporting](features/audience-lab/audience-lab-reporting-view.md)
+      + [Audience Lab Use Cases](features/audience-lab/audience-lab-use-cases.md)
+      + [Audience Lab Advanced Functionality](features/audience-lab/audience-lab-advanced.md)
    + Audience Marketplace{#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
-      + [hide-from-tocOttimizzazione Audience Marketplace](features/audience-marketplace/audience-marketplace-optimization.md)
-      + Audience Marketplace per provider di dati{#audience-marketplace-for-data-providers}
-         + [Audience Marketplace per provider di dati](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
-         + [Creare, assegnare un prezzo e gestire feed di dati](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
-         + [Fatturazione per provider di feed di dati](features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
+      + {hide-from-toc}[Audience Marketplace optimization](features/audience-marketplace/audience-marketplace-optimization.md)
+      + Audience Marketplace for Data Providers{#audience-marketplace-for-data-providers}
+         + [Audience Marketplace for Data Providers](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
+         + [Create, Price, and Manage Data Feeds](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
+         + [Billing for Data Feed Providers](features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
       + Audience Marketplace per gli acquirenti di dati{#audience-marketplace-for-data-buyers}
          + [Audience Marketplace per gli acquirenti di dati](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
-         + [Gestire le sottoscrizioni ai feed di dati](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
-         + [Fatturazione per gli acquirenti di feed di dati](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+         + [Manage Data Feed Subscriptions](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
+         + [Billing for Data Feed Buyers](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
       + [Feed di dati privati](features/audience-marketplace/marketplace-private-feeds.md)
    + [Customer Data Feeds](features/cdf-files.md)
    + Data Explorer{#data-explorer}
-      + [Data Explorer - Panoramica, vantaggi e casi d’uso](features/data-explorer/data-explorer-overview.md)
-      + [Informazioni sui segnali](features/data-explorer/data-explorer-understanding-signals.md)
-      + [Dashboard dei segnali](features/data-explorer/data-explorer-signals-dashboard.md)
-      + Ricerca di segnali{#signals-search}
-         + [Panoramica sulla ricerca di segnali](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
-         + [Ricerca di segnali per coppie chiave-valore](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
-         + [Ricerca di segnali per filtri](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
-         + [Ricerca avanzata per Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
+      + [Data Explorer - Overview, Benefits, and Use Cases](features/data-explorer/data-explorer-overview.md)
+      + [Understanding Signals](features/data-explorer/data-explorer-understanding-signals.md)
+      + [Signals Dashboard](features/data-explorer/data-explorer-signals-dashboard.md)
+      + Signals Search{#signals-search}
+         + [Signals Search Overview](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
+         + [Search Signals by Key-Value Pairs](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
+         + [Search Signals by Filters](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
+         + [Advanced Search for Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
          + [Filtra risultati di ricerca](features/data-explorer/data-explorer-signals-search/data-explorer-filter-results.md)
          + [Salva criterio di ricerca](features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md)
       + [Creare caratteristiche dai segnali](features/data-explorer/create-traits-from-signals.md)
       + [Realizzazioni delle caratteristiche di backfill](features/data-explorer/data-explorer-trait-backfill.md)
       + [Operatori logici supportati](features/data-explorer/data-explorer-supported-operators.md)
    + [Controlli sull&#39;esportazione dei dati](features/data-export-controls.md)
-   + Origini dati  {#data-sources}
+   + Origini dati {#data-sources}
       + [Elenco e impostazioni delle origini dati](features/datasources-list-and-settings.md)
       + [Creazione di un Source dati](features/manage-datasources.md)
       + [Configurare un Source dati per flussi di lavoro e-mail con hash](features/create-data-source-hashed-emails.md)
@@ -116,86 +116,85 @@ ht-degree: 16%
          + [Pubblico condivisibile](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Destinazioni basate su dispositivi (server-to-server) {#device-based}
          + [Aggiungere nuove destinazioni basate su dispositivi](features/destinations/add-device-based-destinations.md)
-         + [Elenco delle destinazioni basate su dispositivi di Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
+         + [List of Audience Manager Device-Based Destinations](/help/using/features/destinations/device-based-destinations-list.md)
          + [Aggiungere o modificare segmenti per le destinazioni server-to-server](features/destinations/add-edit-segments.md)
-         + [Configurare i tipi di pubblico personalizzati di Twitter come destinazione self-service basata su dispositivi](features/destinations/twitter-tailored-audiences.md)
-         + [Configurare Amazon Advertising come destinazione self-service basata su dispositivo](features/destinations/amazon-advertising.md)
-      + Destinazioni personalizzate {#custom-destinations}
-         + [Configurare una destinazione URL](features/destinations/create-url-destination.md)
-         + [Configurare una destinazione cookie](features/destinations/create-cookie-destination.md)
-         + [Impostazioni facoltative per le destinazioni cookie](features/destinations/cookie-destination-options.md)
-      + Riferimento destinazioni {#destinations-reference}
-         + [Generatore di destinazione](features/destinations/destination-builder.md)
-         + [Codice get_aamCookie](features/destinations/get-aam-cookie-code.md)
-         + [Definizione delle macro di destinazione](features/destinations/destination-macros.md)
-         + [Coppie chiave-valore standard e seriali](features/destinations/key-value-pairs.md)
-         + [Aggiungere controlli sull’esportazione dei dati a una destinazione](/help/using/features/destinations/add-data-export-labels.md)
+         + [Configure Twitter Custom Audiences as a Self-Service Device-Based Destination](features/destinations/twitter-tailored-audiences.md)
+         + [Configure Amazon Advertising as a Self-Service Device-Based Destination](features/destinations/amazon-advertising.md)
+      + Custom Destinations {#custom-destinations}
+         + [Configure a URL Destination](features/destinations/create-url-destination.md)
+         + [Configure a Cookie Destination](features/destinations/create-cookie-destination.md)
+         + [Optional Settings for Cookie Destinations](features/destinations/cookie-destination-options.md)
+      + Destinations Reference {#destinations-reference}
+         + [Destination Builder](features/destinations/destination-builder.md)
+         + [get_aamCookie Code](features/destinations/get-aam-cookie-code.md)
+         + [Destination Macros Defined](features/destinations/destination-macros.md)
+         + [Standard and Serial Key-Value Pairs](features/destinations/key-value-pairs.md)
+         + [Add Data Export Controls to a Destination](/help/using/features/destinations/add-data-export-labels.md)
    + Regole di unione profili{#profile-merge-rules}
-      + [Panoramica delle regole di unione profili](features/profile-merge-rules/merge-rules-overview.md)
-      + [Guida introduttiva alle regole di unione profili](features/profile-merge-rules/merge-rules-start.md)
-      + [Dashboard delle regole di unione profili](features/profile-merge-rules/merge-rules-dashboard.md)
-      + [Definizione delle opzioni delle regole di unione profili](features/profile-merge-rules/merge-rule-definitions.md)
-      + [Casi d’uso generali per le regole di unione profili](features/profile-merge-rules/merge-rule-targeting-options.md)
-      + [Casi d’uso del grafico dei dispositivi di collegamento dei profili](features/profile-merge-rules/profile-link-use-case.md)
-      + [Casi d’uso dei grafici dei dispositivi esterni](features/profile-merge-rules/external-graph-use-cases.md)
-      + [Metriche di rapporto per regole di unione profili](features/profile-merge-rules/profile-link-metrics.md)
-      + [Regole di unione profili e processi di rimozione dei dispositivi dai segmenti](features/profile-merge-rules/merge-rule-unsegment.md)
-      + [Soppressione immediata su diversi dispositivi](features/profile-merge-rules/instant-cross-device-suppression.md)
+      + [Profile Merge Rules Overview](features/profile-merge-rules/merge-rules-overview.md)
+      + [Getting Started with Profile Merge Rules](features/profile-merge-rules/merge-rules-start.md)
+      + [Profile Merge Rules Dashboard](features/profile-merge-rules/merge-rules-dashboard.md)
+      + [Profile Merge Rule Options Defined](features/profile-merge-rules/merge-rule-definitions.md)
+      + [General Use Cases for Profile Merge Rules](features/profile-merge-rules/merge-rule-targeting-options.md)
+      + [Profile Link Device Graph Use Cases](features/profile-merge-rules/profile-link-use-case.md)
+      + [External Device Graph Use Cases](features/profile-merge-rules/external-graph-use-cases.md)
+      + [Report Metrics for Profile Merge Rules](features/profile-merge-rules/profile-link-metrics.md)
+      + [Profile Merge Rules and Device Un-Segmentation Processes](features/profile-merge-rules/merge-rule-unsegment.md)
+      + [Instant Cross-Device Suppression](features/profile-merge-rules/instant-cross-device-suppression.md)
    + Segmenti{#segments}
-      + [Segmenti: finalità, composizione e regole](features/segments/segments-purpose.md)
-      + [Visualizzazione elenco segmenti](features/segments/segments-dashboard.md)
-      + [Visualizzazione Riepilogo segmenti](features/segments/segment-summary-view.md)
-      + [Recupero dei metadati dei segmenti](features/segments/retrieve-segment-metadata.md)
-      + [Segmenti in pausa ed eliminati](features/segments/paused-deleted-segments.md)
-      + [Attualità e frequenza](features/segments/recency-and-frequency.md)
+      + [Segments: Purpose, Composition, and Rules](features/segments/segments-purpose.md)
+      + [Segments List View](features/segments/segments-dashboard.md)
+      + [Segment Summary View](features/segments/segment-summary-view.md)
+      + [Retrieving Segment Metadata](features/segments/retrieve-segment-metadata.md)
+      + [Paused and Deleted Segments](features/segments/paused-deleted-segments.md)
+      + [Recency and Frequency](features/segments/recency-and-frequency.md)
       + [Generatore di segmenti](features/segments/segment-builder.md)
-      + [Sintassi di codice utilizzata nell’editor di espressioni di segmenti](features/segments/segment-code-syntax.md)
-      + [Dati sulle caratteristiche e sulle popolazioni dei segmenti nel Generatore di segmenti](features/segments/segment-builder-data.md)
-      + [Raccomandazioni sulle caratteristiche](features/segments/trait-recommendations.md)
-      + [Riferimenti per la qualifica di caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=it)
+      + [Code Syntax Used in the Segment Expression Editor](features/segments/segment-code-syntax.md)
+      + [Trait and Segment Population Data in Segment Builder](features/segments/segment-builder-data.md)
+      + [Trait and Segment Qualification Reference](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=it)
    + Caratteristiche{#traits}
-      + [Panoramica delle caratteristiche](/help/using/features/traits/traits-overview.md)
-      + [Pagina dettagli caratteristica](features/traits/trait-details-page.md)
-      + [Dashboard delle caratteristiche](features/traits/trait-dashboard.md)
-      + [Caratteristiche di pubblici attivi e caratteristiche sincronizzate con Data Source](features/traits/client-activity-synced-audience-traits.md)
-      + [Caratteristiche cartella: informazioni](features/traits/about-folder-traits.md)
-      + [Gestisci caratteristiche cartella](features/traits/manage-folder-traits.md)
-      + Generatore di caratteristiche{#trait-builder}
-         + [Informazioni sul Generatore di caratteristiche](features/traits/about-trait-builder.md)
-         + [Creare caratteristiche basate su regole o onboarded](features/traits/create-onboarded-rule-based-traits.md)
-         + [Gestione delle regole delle caratteristiche](features/traits/manage-trait-rules.md)
+      + [Traits Overview](/help/using/features/traits/traits-overview.md)
+      + [Trait Details Page](features/traits/trait-details-page.md)
+      + [Traits Dashboard](features/traits/trait-dashboard.md)
+      + [Active Audience Traits and Data Source Synced Traits](features/traits/client-activity-synced-audience-traits.md)
+      + [Folder Traits: About](features/traits/about-folder-traits.md)
+      + [Manage Folder Traits](features/traits/manage-folder-traits.md)
+      + Trait Builder{#trait-builder}
+         + [About Trait Builder](features/traits/about-trait-builder.md)
+         + [Create Rules-Based or Onboarded Traits](features/traits/create-onboarded-rule-based-traits.md)
+         + [Managing Trait Rules](features/traits/manage-trait-rules.md)
          + [Creare caratteristiche algoritmiche](features/traits/create-algorithmic-traits.md)
-         + [Utilizzo degli operatori di confronto nel Generatore di caratteristiche](features/traits/trait-comparison-operators.md)
-         + [Ordine delle operazioni nel Generatore di caratteristiche](features/traits/trait-operator-precedence.md)
-         + [Utilizzo di espressioni regolari nel Generatore di caratteristiche](features/traits/trait-builder-regex.md)
-      + [Archiviazione delle caratteristiche](features/traits/trait-storage.md)
-      + [Precisione e portata](features/traits/trait-accuracy-reach.md)
-      + [Classificazione delle caratteristiche con una tassonomia comune](features/traits/trait-common-taxonomy.md)
-      + [Requisiti di denominazione delle variabili chiave](features/traits/trait-key-name-requirements.md)
-      + [Spiegazione della durata di segmenti e caratteristiche](features/traits/segment-ttl-explained.md)
-      + [Requisiti di prefisso delle variabili chiave](features/traits/trait-variable-prefixes.md)
-      + [Geotargeting con chiavi a livello di piattaforma](features/traits/trait-geotarget-keys.md)
-      + [Targeting dei dispositivi con chiavi a livello di piattaforma](features/traits/trait-device-targeting.md)
-      + [Espressioni di esempio con operatori booleani e di confronto](features/traits/trait-expression-samples.md)
-      + [Riferimenti per la qualifica di caratteristiche e segmenti](features/traits/trait-and-segment-qualification-reference.md)
-   + [Visualizzatore profilo visitatore](features/visitor-profile-viewer.md)
-+ Generazione di rapporti  {#reporting}
-   + [Panoramica dei rapporti](reporting/reports-overview.md)
-   + [Dashboard dei report](reporting/reports-dashboard.md)
-   + [Rapporti generali](reporting/general-reports.md)
-   + [Report tendenze](reporting/trend-reports.md)
-   + Rapporti di Audience Optimization {#audience-optimization-reports}
-      + [Rapporti di Audience Optimization](reporting/audience-optimization-reports/audience-optimization-reports.md)
-      + Audience Optimization per gli inserzionisti {#audience-optimization-advertisers}
-         + [Panoramica di Audience Optimization per gli inserzionisti](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
-         + [Importare file di dati di Google Campaign Manager in Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-         + [Rapporto sulle prestazioni dei segmenti](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
-         + [Rapporto sull’analisi delle tendenze e dei volumi](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
-         + [Rapporto di frequenza ottimale](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
-         + [Raggiungimento di utenti univoci](reporting/audience-optimization-reports/aor-advertisers/unique-user-reach.md)
-         + [Rapporto di caratteristiche di conversione](reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)
-         + [Conversione tra canali](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
-      + Audience Optimization per editori {#audience-optimization-publishers}
+         + [Working with Comparison Operators in Trait Builder](features/traits/trait-comparison-operators.md)
+         + [Order of Operations in Trait Builder](features/traits/trait-operator-precedence.md)
+         + [Using Regular Expressions in Trait Builder](features/traits/trait-builder-regex.md)
+      + [Trait Storage](features/traits/trait-storage.md)
+      + [Accuracy and Reach](features/traits/trait-accuracy-reach.md)
+      + [Classifying Traits with a Common Taxonomy](features/traits/trait-common-taxonomy.md)
+      + [Name Requirements for Key Variables](features/traits/trait-key-name-requirements.md)
+      + [Segment and Trait Time-to-Live Explained](features/traits/segment-ttl-explained.md)
+      + [Prefix Requirements for Key Variables](features/traits/trait-variable-prefixes.md)
+      + [Geotargeting With Platform-level Keys](features/traits/trait-geotarget-keys.md)
+      + [Device Targeting With Platform-level Keys](features/traits/trait-device-targeting.md)
+      + [Sample Expressions With Boolean and Comparison Operators](features/traits/trait-expression-samples.md)
+      + [Trait and Segment Qualification Reference](features/traits/trait-and-segment-qualification-reference.md)
+   + [Visitor Profile Viewer](features/visitor-profile-viewer.md)
++ Generazione di rapporti{#reporting}
+   + [Reports Overview](reporting/reports-overview.md)
+   + [Reports Dashboard](reporting/reports-dashboard.md)
+   + [General Reports](reporting/general-reports.md)
+   + [Trend Reports](reporting/trend-reports.md)
+   + Audience Optimization Reports {#audience-optimization-reports}
+      + [Audience Optimization Reports](reporting/audience-optimization-reports/audience-optimization-reports.md)
+      + Audience Optimization for Advertisers {#audience-optimization-advertisers}
+         + [Audience Optimization for Advertisers Overview](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
+         + [Import Google Campaign Manager Data Files Into Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+         + [Segment Performance Report](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
+         + [Trend Analysis and Volume Analysis Reports](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
+         + [Optimal Frequency Report](reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md)
+         + [Unique User Reach](reporting/audience-optimization-reports/aor-advertisers/unique-user-reach.md)
+         + [Reported Conversion Traits](reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)
+         + [Cross Channel Conversion](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
+      + Audience Optimization for Publishers {#audience-optimization-publishers}
          + [Panoramica di Audience Optimization for Publishers](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
          + [Importare file di dati di Google Ad Manager (precedentemente DFP) in Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Rapporto sulle prestazioni dei segmenti](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
@@ -349,7 +348,7 @@ ht-degree: 16%
    + Integrazione con altre applicazioni Experience Cloud {#integration-other-solutions}
       + [Integrare Audience Manager con Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Inoltrare dati da Adobe Analytics ad Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Pubblica un segmento di Adobe Analytics in Experience Cloud (apre la documentazione di Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=it)
+      + [Pubblicare un segmento di Adobe Analytics in Experience Cloud (apre la documentazione di Adobe Analytics)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=it)
       + [Integrare Audience Manager con Adobe Campaign (apre la documentazione di Adobe Campaign)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=it)
 + Riferimenti{#reference}
    + [Panoramica dei riferimenti](reference/reference.md)
