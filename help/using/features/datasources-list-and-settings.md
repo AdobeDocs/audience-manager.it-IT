@@ -22,7 +22,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: 1090
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Oltre ai campi di testo, la sezione [!UICONTROL Data Source Details] contiene i 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Definizione ID <b><span class="uicontrol"></span></b> </p> </td> 
-   <td colname="col2"> <p>Le opzioni <b><span class="uicontrol"> ID Definition</span></b> definiscono la relazione tra un'origine dati e un ID utente (UUID) di Audience Manager<span class="keyword"> </span> e i dispositivi associati collegati da un grafico dei dispositivi di terze parti integrato con <span class="keyword"> Audience Manager</span>. Le opzioni includono: </p> <p> 
+   <td colname="col2"> <p>Le opzioni <b><span class="uicontrol"> ID Definition</span></b> definiscono la relazione tra un'origine dati e un ID utente (UUID) di Audience Manager</span> <span class="keyword"> e i dispositivi associati collegati da un grafico dei dispositivi di terze parti integrato con <span class="keyword"> Audience Manager</span>. Le opzioni includono: </p> <p> 
      <ul id="ul_718ADABF0C0C44E29643C85C69CE294F"> 
       <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol"> Persona:</span></b> ID utilizzato per definire una singola persona. Questo ID può essere mappato a più ID <span class="keyword"> Audience Manager</span>. </li> 
       <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol"> Famiglia:</span></b> ID utilizzato per definire un gruppo di persone. Questo ID può essere mappato su più ID di Audience Manager. </li> 
@@ -125,7 +125,7 @@ Selezionare la casella di controllo **[!UICONTROL Inbound]** quando l&#39;origin
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> ID cliente</span></b>: identifica i dati in entrata con un ID cliente. </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager ID</span></b>: identifica i dati in entrata con un ID <span class="keyword"> Audience Manager</span>. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: identifica i dati in entrata con un ID <span class="keyword"> Experience Cloud</span>. Consulta Cookie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it" format="https" scope="external"> e Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: identifica i dati in entrata con un ID <span class="keyword"> Experience Cloud</span>. Consulta <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it" format="https" scope="external"> cookie e l'Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -159,7 +159,7 @@ Selezionare la casella di controllo **[!UICONTROL Inbound]** quando l&#39;origin
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Usa come grafico del dispositivo</span></b> </p> </td> 
-   <td colname="col2"> <p>Crea un'origine dati come grafico dei dispositivi che puoi fornire ad altri clienti di <span class="keyword"> Audience Manager</span>. Prima di selezionare questa opzione, indica al tuo consulente <span class="keyword"> Audience Manager</span> con quali clienti deve essere condiviso questo Data Source<span class="wintitle"> di </span>. Il tuo consulente dovrà fornire tali aziende attraverso i nostri processi interni. </p> <p>Questa opzione espone un campo di testo che consente di rinominare l’origine dati con un alias. Se si utilizza un alias, questo nuovo nome sostituisce il nome dell'origine dati e viene visualizzato in <span class="wintitle"> Opzioni dispositivo</span> quando si crea <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> una regola di unione profili</a>. </p> </td> 
+   <td colname="col2"> <p>Crea un'origine dati come grafico dei dispositivi che puoi fornire ad altri clienti di <span class="keyword"> Audience Manager</span>. Prima di selezionare questa opzione, indica al tuo consulente <span class="keyword"> Audience Manager</span> con quali clienti deve essere condiviso questo Data Source</span> di <span class="wintitle">. Il tuo consulente dovrà fornire tali aziende attraverso i nostri processi interni. </p> <p>Questa opzione espone un campo di testo che consente di rinominare l’origine dati con un alias. Se si utilizza un alias, questo nuovo nome sostituisce il nome dell'origine dati e viene visualizzato in <span class="wintitle"> Opzioni dispositivo</span> quando si crea <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> una regola di unione profili</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Condividi gli ID dispositivo o visitatore associati con clienti Audience Manager specifici</span></b> </p> </td> 
