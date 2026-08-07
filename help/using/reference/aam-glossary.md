@@ -8,26 +8,14 @@ uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 TQID: https://experienceleague.adobe.com/tIudKTIrwiTO01Bq5pDuekNKI5YCrjBCDi13rKydK2k
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
-subfeature_v2:
-  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
-  - id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8
-  - id: e7029888-c8b0-46a7-849a-cf132a1559bf
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+subfeature_v2: id: d8f681b8-67cc-42dc-85c5-a0977528a942id: d921db59-bd4a-43dc-97e6-4ff4611f1ae8id: e7029888-c8b0-46a7-849a-cf132a1559bf
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 1157
-ht-degree: 96%
+source-wordcount: 1232
+ht-degree: 94%
 
 ---
 
@@ -78,7 +66,7 @@ In [Addressable Audience](/help/using/features/addressable-audiences.md), questa
 
 **Attributi del cliente**
 
-Consulta [Customer Attribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it) nella documentazione di [!DNL Experience Cloud Core Services].
+Consulta [Customer Attribute](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) nella documentazione di [!DNL Experience Cloud Core Services].
 
 
 
@@ -112,7 +100,7 @@ Consulta [Index of IDs in Audience Manager](../reference/ids-in-aam.md).
 
 **Destinazione**
 
-In [!DNL Audience Manager], una destinazione è qualsiasi altro sistema (ad server, DSP, ad network, ecc.) con cui si desidera condividere i dati. Il [!UICONTROL Destination Builder] della nostra interfaccia offre gli strumenti che ti consentono di creare e gestire tali processi di distribuzione dei dati. Le funzioni di destinazione di [!DNL Audience Manager] si trovano in **[!UICONTROL Audience Data > Destinations]**.
+In [!DNL Audience Manager], una destinazione è qualsiasi altro sistema (ad server, DSP, ad network, ecc.) con cui desideri condividere i dati. Il [!UICONTROL Destination Builder] della nostra interfaccia offre gli strumenti che ti consentono di creare e gestire tali processi di distribuzione dei dati. Le funzioni di destinazione di [!DNL Audience Manager] si trovano in **[!UICONTROL Audience Data > Destinations]**.
 
 
 
@@ -130,7 +118,7 @@ La [!UICONTROL Data Integration Library] è una libreria API utilizzata da [!DNL
 
 **Experience Cloud ID (ECID)**
 
-Precedentemente denominato ID [!DNL Marketing Cloud] (MID o MCID). L’ID [!DNL Experience Cloud] è fondamentale per il servizio ID. È un identificatore univoco e permanente dei visitatori del tuo sito. Consulta Cookie e il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it).
+Precedentemente denominato ID [!DNL Marketing Cloud] (MID o MCID). L’ID [!DNL Experience Cloud] è fondamentale per il servizio ID. È un identificatore univoco e permanente dei visitatori del tuo sito. Consulta Cookie e il [servizio Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 
 
@@ -287,6 +275,6 @@ Il TTL definisce quanti giorni un visitatore qualificato rimane in una caratteri
 
 Il servizio ID di [!DNL Experience Cloud] (in precedenza ID visitatore) fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni di [!DNL Experience Cloud].
 
-Consulta la documentazione [Servizio di Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
+Consulta la documentazione [Servizio di Adobe Experience Platform Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## W-X-Y-Z {#w-z}

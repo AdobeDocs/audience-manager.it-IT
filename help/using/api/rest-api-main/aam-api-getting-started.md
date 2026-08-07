@@ -8,26 +8,14 @@ uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 TQID: https://experienceleague.adobe.com/9-lmPI7-mjYo3AUgFi7L3kB-F0sZsOOVPI7r-sS21Mk
-product_v2:
-  - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-feature_v2:
-  - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
-  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
-  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
-  - id: c814092e-2730-45e8-a12d-e084529f52cb
-  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
-subfeature_v2:
-  - id: c2c33729-f309-4bc2-92ba-87c475259df3
-  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
-  - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2: id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+feature_v2: id: a8b0238e-1d43-4679-a3b4-5ba1bad83baaid: b82b475d-1e7d-46c6-9172-1f9c73004b11id: baaa0dd2-d27e-4921-aae3-7888623a5fa5id: c814092e-2730-45e8-a12d-e084529f52cbid: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+subfeature_v2: id: c2c33729-f309-4bc2-92ba-87c475259df3id: d3dfac44-e20d-492d-a806-0f4a4a495901id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2563
-ht-degree: 1%
+source-wordcount: 2778
+ht-degree: 2%
 
 ---
 
@@ -51,7 +39,7 @@ Quando si lavora con il codice [Audience Manager API](https://bank.demdex.com/po
 [!DNL Audience Manager] [!DNL REST APIs] supporta tre metodi di autenticazione.
 
 * [!BADGE Consigliata]{type=positive} [Autenticazione server-to-server OAuth](#oauth-adobe-developer) tramite [la console per sviluppatori Adobe](https://www.adobe.io/). [!DNL Adobe Developer] è l&#39;ecosistema e la community di sviluppatori di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis/). Si tratta del metodo consigliato per impostare e utilizzare [!DNL Adobe] [!DNL APIs]. Ulteriori informazioni sull&#39;[autenticazione server-to-server OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) nella documentazione per gli sviluppatori di Adobe.
-* [!BADGE Autenticazione &#x200B;]{type=negative} [JWT (account di servizio) &#x200B;](#jwt) obsoleta tramite la [console per sviluppatori Adobe](https://www.adobe.io/). [!DNL Adobe Developer] è l&#39;ecosistema e la community di sviluppatori di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis/).
+* [!BADGE Autenticazione ]{type=negative} [JWT (account di servizio) ](#jwt) obsoleta tramite la [console per sviluppatori Adobe](https://www.adobe.io/). [!DNL Adobe Developer] è l&#39;ecosistema e la community di sviluppatori di Adobe. Include [API per tutti i prodotti Adobe](https://developer.adobe.com/apis/).
 * [!BADGE Obsoleta]{type=negative} [Autenticazione OAuth legacy](#oauth-deprecated). Anche se questo metodo è obsoleto, i clienti con integrazioni [!DNL OAuth] esistenti possono continuare a utilizzarlo.
 
 >[!IMPORTANT]
@@ -99,7 +87,7 @@ Dopo aver creato un nuovo progetto, selezionare **[!UICONTROL Add API]** nella s
 
 ![Schermata Developer Console con l&#39;opzione Aggiungi API evidenziata.](/help/using/api/rest-api-main/assets/add-api.png)
 
-Viene visualizzata la schermata **[!UICONTROL Add an API]**. Selezionare l&#39;icona del prodotto per Adobe Experience Cloud, quindi scegliere **[!UICONTROL Audience Manager API]** prima di selezionare **[!UICONTROL Next]**.
+Viene visualizzata la schermata **[!UICONTROL Add an API]**. Seleziona l&#39;icona del prodotto per Adobe Experience Cloud, quindi scegli **[!UICONTROL Audience Manager API]** prima di selezionare **[!UICONTROL Next]**.
 
 ![Seleziona API Audience Manager.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
 
@@ -269,7 +257,7 @@ Per creare un account utente tecnico e aggiungerlo a un gruppo RBAC, effettua le
 
 +++
 
-## [!BADGE Autenticazione &#x200B;]{type=negative} Obsoleta[!DNL OAuth] (Obsoleta) {#oauth-deprecated}
+## [!BADGE Autenticazione [!DNL OAuth] Obsoleta]{type=negative} (Obsoleta) {#oauth-deprecated}
 
 +++ Visualizza informazioni sul metodo di autenticazione legacy [!DNL OAuth] obsoleto per ottenere i token di autenticazione.
 
@@ -394,7 +382,7 @@ Impostare i parametri facoltativi disponibili per i metodi che restituiscono tut
 | `pageSize` | Imposta il numero di risultati di risposta restituiti dalla richiesta (10 è il valore predefinito). |
 | `sortBy` | Ordina e restituisce i risultati in base alla proprietà [!DNL JSON] specificata. |
 | `descending` | Ordina e restituisce i risultati in ordine decrescente. `ascending` è predefinito. |
-| `search` | Restituisce risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare i risultati per tutti i modelli che hanno la parola &quot;Test&quot; in uno qualsiasi dei campi di valore per quell&#39;elemento. La richiesta di esempio potrebbe essere simile alla seguente:   `GET https://aam.adobe.io/v1/models/?search=Test`.  È possibile eseguire ricerche in base a qualsiasi valore restituito da un metodo &quot;[!DNL get all]&quot;. |
+| `search` | Restituisce risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare i risultati per tutti i modelli che hanno la parola &quot;Test&quot; in uno qualsiasi dei campi di valore per quell&#39;elemento. La richiesta di esempio potrebbe essere simile alla seguente: `GET https://aam.adobe.io/v1/models/?search=Test`.  È possibile eseguire ricerche in base a qualsiasi valore restituito da un metodo &quot;[!DNL get all]&quot;. |
 | `folderId` | Restituisce tutti gli ID per [!UICONTROL traits] all&#39;interno della cartella specificata. Non disponibile per tutti i metodi. |
 | `permissions` | Restituisce un elenco di segmenti in base all’autorizzazione specificata. `READ` è predefinito. Le autorizzazioni includono:<ul><li>`READ` : restituisce e visualizza informazioni su un segmento.</li><li>`WRITE`: utilizzare `PUT` per aggiornare un segmento.</li><li>`CREATE` : utilizza `POST` per creare un segmento.</li><li>`DELETE` : elimina un segmento. Richiede l’accesso alle caratteristiche sottostanti, se presenti. Ad esempio, per rimuoverlo, dovrai disporre dei diritti necessari per eliminare le caratteristiche che appartengono a un segmento.</li></ul><br>Specificare più autorizzazioni con coppie chiave-valore separate. Ad esempio, per restituire un elenco di segmenti con solo le autorizzazioni `READ` e `WRITE`, passare in `"permissions":"READ"`, `"permissions":"WRITE"`. |
 | `includePermissions` | ([!DNL Boolean]) Impostare su `true` per restituire le autorizzazioni per il segmento. Il valore predefinito è `false`. |
@@ -437,7 +425,7 @@ A seconda del metodo di autenticazione utilizzato, è necessario modificare la r
 
 {style="table-layout:auto"}
 
-### Richiedi [!DNL URLs] per l&#39;autenticazione [!BADGE &#x200B; legacy &#x200B;]{type=negative}Obsoleta[!DNL OAuth] {#request-urls-oauth}
+### Richiedi [!DNL URLs] per l&#39;autenticazione [!DNL OAuth] legacy [!BADGE Obsoleta]{type=negative} {#request-urls-oauth}
 
 | Metodi [!DNL API] | Richiedi [!DNL URL] |
 |--- |--- |
