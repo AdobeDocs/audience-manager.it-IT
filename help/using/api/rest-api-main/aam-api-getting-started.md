@@ -26,8 +26,8 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2563
-ht-degree: 1%
+source-wordcount: 2778
+ht-degree: 2%
 
 ---
 
@@ -99,7 +99,7 @@ Dopo aver creato un nuovo progetto, selezionare **[!UICONTROL Add API]** nella s
 
 ![Schermata Developer Console con l&#39;opzione Aggiungi API evidenziata.](/help/using/api/rest-api-main/assets/add-api.png)
 
-Viene visualizzata la schermata **[!UICONTROL Add an API]**. Selezionare l&#39;icona del prodotto per Adobe Experience Cloud, quindi scegliere **[!UICONTROL Audience Manager API]** prima di selezionare **[!UICONTROL Next]**.
+Viene visualizzata la schermata **[!UICONTROL Add an API]**. Seleziona l&#39;icona del prodotto per Adobe Experience Cloud, quindi scegli **[!UICONTROL Audience Manager API]** prima di selezionare **[!UICONTROL Next]**.
 
 ![Seleziona API Audience Manager.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
 
@@ -269,7 +269,7 @@ Per creare un account utente tecnico e aggiungerlo a un gruppo RBAC, effettua le
 
 +++
 
-## [!BADGE Autenticazione &#x200B;]{type=negative} Obsoleta[!DNL OAuth] (Obsoleta) {#oauth-deprecated}
+## [!BADGE Autenticazione [!DNL OAuth] Obsoleta]&lbrace;type=negative&rbrace; (Obsoleta) {#oauth-deprecated}
 
 +++ Visualizza informazioni sul metodo di autenticazione legacy [!DNL OAuth] obsoleto per ottenere i token di autenticazione.
 
@@ -394,7 +394,7 @@ Impostare i parametri facoltativi disponibili per i metodi che restituiscono tut
 | `pageSize` | Imposta il numero di risultati di risposta restituiti dalla richiesta (10 è il valore predefinito). |
 | `sortBy` | Ordina e restituisce i risultati in base alla proprietà [!DNL JSON] specificata. |
 | `descending` | Ordina e restituisce i risultati in ordine decrescente. `ascending` è predefinito. |
-| `search` | Restituisce risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare i risultati per tutti i modelli che hanno la parola &quot;Test&quot; in uno qualsiasi dei campi di valore per quell&#39;elemento. La richiesta di esempio potrebbe essere simile alla seguente:   `GET https://aam.adobe.io/v1/models/?search=Test`.  È possibile eseguire ricerche in base a qualsiasi valore restituito da un metodo &quot;[!DNL get all]&quot;. |
+| `search` | Restituisce risultati in base alla stringa specificata che si desidera utilizzare come parametro di ricerca. Ad esempio, supponiamo che si desideri trovare i risultati per tutti i modelli che hanno la parola &quot;Test&quot; in uno qualsiasi dei campi di valore per quell&#39;elemento. La richiesta di esempio potrebbe essere simile alla seguente: `GET https://aam.adobe.io/v1/models/?search=Test`.  È possibile eseguire ricerche in base a qualsiasi valore restituito da un metodo &quot;[!DNL get all]&quot;. |
 | `folderId` | Restituisce tutti gli ID per [!UICONTROL traits] all&#39;interno della cartella specificata. Non disponibile per tutti i metodi. |
 | `permissions` | Restituisce un elenco di segmenti in base all’autorizzazione specificata. `READ` è predefinito. Le autorizzazioni includono:<ul><li>`READ` : restituisce e visualizza informazioni su un segmento.</li><li>`WRITE`: utilizzare `PUT` per aggiornare un segmento.</li><li>`CREATE` : utilizza `POST` per creare un segmento.</li><li>`DELETE` : elimina un segmento. Richiede l’accesso alle caratteristiche sottostanti, se presenti. Ad esempio, per rimuoverlo, dovrai disporre dei diritti necessari per eliminare le caratteristiche che appartengono a un segmento.</li></ul><br>Specificare più autorizzazioni con coppie chiave-valore separate. Ad esempio, per restituire un elenco di segmenti con solo le autorizzazioni `READ` e `WRITE`, passare in `"permissions":"READ"`, `"permissions":"WRITE"`. |
 | `includePermissions` | ([!DNL Boolean]) Impostare su `true` per restituire le autorizzazioni per il segmento. Il valore predefinito è `false`. |
@@ -437,7 +437,7 @@ A seconda del metodo di autenticazione utilizzato, è necessario modificare la r
 
 {style="table-layout:auto"}
 
-### Richiedi [!DNL URLs] per l&#39;autenticazione [!BADGE &#x200B; legacy &#x200B;]{type=negative}Obsoleta[!DNL OAuth] {#request-urls-oauth}
+### Richiedi [!DNL URLs] per l&#39;autenticazione [!DNL OAuth] legacy [!BADGE Obsoleta]{type=negative} {#request-urls-oauth}
 
 | Metodi [!DNL API] | Richiedi [!DNL URL] |
 |--- |--- |

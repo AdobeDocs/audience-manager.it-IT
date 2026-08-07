@@ -32,8 +32,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f2fdbb191013b0bcb9bdab0529e3b7f3c872fd54
 workflow-type: tm+mt
-source-wordcount: 632
-ht-degree: 84%
+source-wordcount: 639
+ht-degree: 85%
 
 ---
 
@@ -45,7 +45,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
 
 * Esplora il contenuto per argomento e sottoargomento nella **navigazione a sinistra**.
 * Se sai cosa stai cercando, usa il campo **search** nella parte superiore della pagina.
-* Utilizza il pulsante **Log an issue** in alto a destra della pagina per segnalare qualsiasi documentazione errata o obsoleta. Per informazioni su come iniziare a contribuire, consulta la [Collaboration Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
+* Utilizza il pulsante **Log an issue** in alto a destra della pagina per segnalare qualsiasi documentazione errata o obsoleta. Per informazioni su come iniziare a contribuire, consulta la [Collaboration Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## Leggere questa pagina
 
@@ -144,7 +144,7 @@ Questa guida alla documentazione tecnica fornisce supporto autonomo per Audience
      </ul> </p>
     </td>
    <td colname="col2">  <p> <b>Collaborative Documentation</b> </p>
-     <p>We welcome contributions to our documentation from all our readers. See the <a href="https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it">Collaboration Guide Overview</a> to learn how to start contributing.</p>
+     <p>We welcome contributions to our documentation from all our readers. See the <a href="https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html">Collaboration Guide Overview</a> to learn how to start contributing.</p>
    <br>&nbsp;
    <p> <b>Release Notes</b> </p> <p> 
      See the latest <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=it" format="https" scope="external"> Experience Cloud Release Notes</a> for new features and fixes.</p> <br>&nbsp;

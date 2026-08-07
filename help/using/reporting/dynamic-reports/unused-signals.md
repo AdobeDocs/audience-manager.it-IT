@@ -14,7 +14,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 633
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ Esegui e controlla il report [!UICONTROL Unused Signals]:
 >Quando cerchi i valori non utilizzati nel rapporto, considera le seguenti particolarità. C&#39;è una differenza di espressione tra i due esempi seguenti:
 
 * T(v=1 [!UICONTROL AND NOT] (a=23))
-* T(v=1 [!UICONTROL AND] (a!=23)
+* T(v=1 [!UICONTROL AND] (a!=23))
 * Entrambi gli esempi mostrano una caratteristica che contiene due coppie chiave-valore v e a. La prima espressione si traduce in: la caratteristica contiene la chiave v con valore 1 [!UICONTROL AND NOT] la chiave a con valore 23. La seconda espressione contiene la chiave v con valore 1 [!UICONTROL AND] la chiave a con valore [!UICONTROL NOT EQUAL] 23.
 * Considerando le due diverse espressioni di cui sopra, supponiamo che tu cerchi in [!UICONTROL Unused Signals Report] i valori che vengono passati sulla chiave a con qualsiasi valore diverso da 23, otterrai risultati solo nel primo caso perché i valori per la chiave non sono stati inviati AFFATTO. Nel secondo caso, sono stati inviati valori diversi da 23 in modo che la chiave a non sia inutilizzata.
 

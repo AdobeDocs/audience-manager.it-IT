@@ -24,7 +24,7 @@ topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2160
 ht-degree: 0%
 
 ---
@@ -318,7 +318,7 @@ In qualità di acquirente di dati [!UICONTROL Audience Marketplace], puoi acquis
 
 ### Segmenti e sovrapposizione
 
-Questo caso d&#39;uso consente di confrontare le caratteristiche con quelle del provider in un rapporto di sovrapposizione caratteristica-caratteristica di [.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) È inoltre possibile creare o aggiungere caratteristiche del provider a un segmento e confrontare ulteriormente i report [da segmento a caratteristica](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [da segmento a segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). I confronti di sovrapposizione consentono di:
+Questo caso d&#39;uso consente di confrontare le caratteristiche con quelle del provider in un rapporto di sovrapposizione caratteristica-caratteristica di [.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Inoltre, puoi creare o aggiungere caratteristiche del provider a un segmento e fare ulteriori confronti con i report [da segmento a caratteristica](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) e [da segmento a segmento](../../../reporting/dynamic-reports/segment-segment-overlap-report.md). I confronti di sovrapposizione consentono di:
 
 * **Estendi la portata del pubblico:** una bassa sovrapposizione suggerisce che le caratteristiche contengono utenti che non hai mai visto prima. Potresti desiderare che queste caratteristiche provino a raggiungere nuovi utenti.
 * **Migliora i tipi di pubblico esistenti:** una sovrapposizione elevata suggerisce che le caratteristiche sono simili a quelle di proprietà del provider di dati. Potresti desiderare che queste caratteristiche contribuiscano ad apportare miglioramenti mirati e incrementali a un pubblico già sviluppato.
@@ -329,7 +329,7 @@ Questo caso d&#39;uso consente di valutare le caratteristiche del fornitore risp
 
 ### Attivazione
 
-Questo caso d&#39;uso ti consente di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In [!DNL Audience Manager], una destinazione è qualsiasi sistema di terze parti (ad server, [!DNL DSP], [!DNL DMP], exchange, ecc.) con cui si desidera condividere i dati. Tuttavia, con un caso d&#39;uso [!UICONTROL Activation], non è possibile eseguire rapporti di sovrapposizione o testare i dati in un modello algoritmico.
+Questo caso d&#39;uso ti consente di inviare dati a una [destinazione](../../../features/destinations/destinations.md). In [!DNL Audience Manager], una destinazione è qualsiasi sistema di terze parti (ad server, [!DNL DSP], [!DNL DMP], exchange, ecc.) con cui desideri condividere i dati. Tuttavia, con un caso d&#39;uso [!UICONTROL Activation], non è possibile eseguire rapporti di sovrapposizione o testare i dati in un modello algoritmico.
 
 >[!MORELIKETHIS]
 >

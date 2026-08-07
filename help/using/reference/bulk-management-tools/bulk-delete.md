@@ -57,7 +57,7 @@ Per eliminare più elementi, aprire il foglio di lavoro [!UICONTROL Bulk Managem
 5. Fornisci le [informazioni di accesso](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) richieste e fai clic su **[!UICONTROL Submit]**.
 
    Il foglio di lavoro crea una colonna [!UICONTROL Results]. La colonna [!UICONTROL Results] restituisce un messaggio che indica se l&#39;elemento è stato eliminato o un messaggio di errore.
-Prima di immettere i dati, il foglio di lavoro per l&#39;aggiornamento in blocco deve avere un aspetto simile al seguente:
+   Prima di immettere i dati, il foglio di lavoro per l&#39;aggiornamento in blocco deve avere un aspetto simile al seguente:
 
 ![](assets/delete.png)
 

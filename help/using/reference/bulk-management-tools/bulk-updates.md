@@ -23,7 +23,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
 workflow-type: tm+mt
-source-wordcount: 268
+source-wordcount: 271
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Per eseguire aggiornamenti in blocco, aprire il foglio di lavoro [!UICONTROL Bul
    * Quando si aggiornano segmenti o caratteristiche, è necessario solo l’ID segmento (SID) e l’elemento intestazione che devono essere modificati. Elimina le intestazioni non utilizzate.
 
 4. Incolla o digita i dati che desideri modificare in una colonna corrispondente in base all’etichetta dell’intestazione.
-5. Nella barra degli strumenti del foglio di lavoro fare clic su un pulsante di aggiornamento corrispondente al        elemento da aggiornare.
+5. Nella barra degli strumenti del foglio di lavoro fare clic su un pulsante di aggiornamento corrispondente all&#39;elemento che si sta aggiornando.
 Questa azione apre la finestra di dialogo [!UICONTROL Account Information].
 
 6. Fornisci le [informazioni di accesso](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) richieste e fai clic su **[!UICONTROL Submit]**.
