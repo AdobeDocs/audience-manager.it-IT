@@ -28,9 +28,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+source-git-commit: 99abc40141fbc79b15dd87691be58c9e201a705a
 workflow-type: tm+mt
-source-wordcount: 1255
+source-wordcount: 1276
 ht-degree: 74%
 
 ---
@@ -230,8 +230,8 @@ In genere, la sincronizzazione di un profilo utente tra aree geografiche richied
 
 **Cosa succede alle chiavi di accesso inattive per gli utenti di Amazon S3?**
 
-Adobe fornisce ai clienti Audience Manager le chiavi di accesso per [!DNL Amazon S3] bucket. Per motivi di sicurezza, queste chiavi di accesso vengono disattivate automaticamente se rimangono inutilizzate per 100 giorni.
+Adobe fornisce ai clienti Audience Manager le chiavi di accesso per [!DNL Amazon S3] bucket. Per motivi di sicurezza, queste chiavi di accesso vengono disattivate automaticamente se rimangono inutilizzate per 40 giorni.
 
 Se le chiavi di accesso sono disabilitate, puoi contattare l’Assistenza clienti per riabilitarle o richiederne di nuove.
 
-Per una maggiore sicurezza, le chiavi di accesso che rimangono inattive per 1000 giorni verranno eliminate definitivamente insieme all’account utente Amazon S3 IAM. Se sei un cliente abituale e hai bisogno di accedervi dopo questo periodo, contatta l’Assistenza clienti per ricreare il tuo account e ricevere le nuove chiavi di accesso.
+Per una maggiore sicurezza, le chiavi di accesso che rimangono inattive per 180 giorni verranno eliminate definitivamente insieme all’account utente Amazon S3 IAM. Se sei un cliente abituale e hai bisogno di accedervi dopo questo periodo, contatta l’Assistenza clienti per ricreare il tuo account e ricevere le nuove chiavi di accesso.
