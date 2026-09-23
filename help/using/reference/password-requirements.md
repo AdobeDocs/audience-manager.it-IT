@@ -10,21 +10,25 @@ exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
 TQID: https://experienceleague.adobe.com/zc1W-k6Ttlacqnoeqou-lW0A2X5mq0i0ZK2tHovFWoI
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: a3c2901ff307d6c2440cef22181abb854a9743df
 workflow-type: tm+mt
-source-wordcount: 267
-ht-degree: 100%
-
+source-wordcount: '352'
+ht-degree: 48%
 ---
-
 # Requisiti per le password, account bloccati e password dimenticate{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 Audience Manager può essere configurato in modo da far scadere le password ogni 30 giorni. Per abilitare la scadenza delle password, rivolgiti al tuo consulente Audience Manager o all’Assistenza clienti. Fai riferimento a questa sezione per i requisiti delle password e il recupero di una password persa o dimenticata.
@@ -39,54 +43,26 @@ c_password_requirements.xml
 
 Per essere valida, la password di [!DNL Audience Manager] deve soddisfare i seguenti requisiti:
 
-<table id="table_9B79E9F634664F6B995649E3158CCF20"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Requisiti </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Lunghezza</b> </p> </td> 
-   <td colname="col2"> <p>La lunghezza delle password può essere compresa tra 12 e 40 caratteri. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Contenuto</b> </p> </td> 
-   <td colname="col2"> <p>Le password devono: </p> <p> 
-     <ul id="ul_70F64B9DE90E463098DFA8AB8349CF0B"> 
-      <li id="li_2FBA66E47F4A4E1BB01DE3722821E100">Iniziare e terminare con un carattere alfanumerico. </li> 
-      <li id="li_1390D4C9A48944B68B891EE6CB734BBC">Contenere almeno 1 carattere maiuscolo e minuscolo. </li> 
-      <li id="li_B75B64A005804262BAAF0F1901D63358">Contenere almeno 1 numero. </li> 
-      <li id="li_28452022AF4743B8B159187BBD10890A">Contenere almeno 1 carattere speciale (esclusi i due punti “:”). </li> 
-      <li id="li_C02B931ABAB84FFE9B87AEBAEDF34EF3">Contenere solo lettere dell’alfabeto latino. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Versioni</b> </p> </td> 
-   <td colname="col2"> <p> Le password devono essere diverse dalle tue precedenti 12 password. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Elementi proibiti</b> </p> </td> 
-   <td colname="col2"> <p> Le password non devono contenere: </p> <p> 
-     <ul id="ul_08DE186AF56E401B933256E69279847A"> 
-      <li id="li_CC854F7F86484774A76CCF927E1400B4">Nome o cognome. </li> 
-      <li id="li_74ACCF3DE717473B8AB9B1720DD891E7">Indirizzo e-mail. </li> 
-      <li id="li_09C1F699BF6843ACAB4E68D2F57461AB">ID utente <span class="keyword">Adobe</span>. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Requisiti | Descrizione |
+|---|---|
+| Lunghezza | La lunghezza delle password può essere compresa tra 12 e 40 caratteri. |
+| Sommario | Le password devono:<ul><li>Iniziare e terminare con un carattere alfanumerico.</li><li>Contenere almeno un carattere maiuscolo e un carattere minuscolo.</li><li>Contenere almeno un numero.</li><li>Contengono almeno un carattere speciale (esclusi i due punti).</li><li>Contenere solo lettere dell’alfabeto latino.</li></ul> |
+| Versioni | Le password devono essere diverse dalle tue precedenti 12 password. |
+| Elementi proibiti | Le password non possono contenere:<ul><li>Nome o cognome.</li><li>Il tuo indirizzo e-mail o l&#39;ID utente [!DNL Adobe].</li><li>Lettere o numeri consecutivi.</li><li>Lettere o numeri sequenziali.</li><li>Password di uso comune.</li></ul> |
 
 Per informazioni sul ripristino della password, consulta [Edit Your Account Settings](../features/administration/edit-account-settings.md).
 
 **Blocco dell’account**
 
-Gli account vengono bloccati dopo 5 tentativi di accesso non riusciti. Contatta l’amministratore di [!DNL Audience Manager] della tua azienda o un rappresentante dei Servizi partner per sbloccare il tuo account.
+Per motivi di sicurezza, [!DNL Audience Manager] limita temporaneamente la frequenza dei tentativi di accesso non riusciti ripetuti. Se superi il limite, [!DNL Audience Manager] blocca ulteriori tentativi di accesso per un breve periodo, quindi li autorizza automaticamente di nuovo. Non è necessario contattare un amministratore o un rappresentante dei Servizi partner per sbloccare l&#39;account.
 
 **Password perduta/dimenticata**
 
-Fai clic sul collegamento **[!UICONTROL Forgot password]** nella pagina di accesso per reimpostare la password. Riceverai un’e-mail automatica con una password temporanea che scade dopo 24 ore. Fai clic sul collegamento nell’e-mail per accedere all’account e reimpostare la password.
+Seleziona **[!UICONTROL Forgot password]** nella pagina di accesso per reimpostare la password. [!DNL Audience Manager] ti invia un&#39;e-mail con un collegamento per reimpostare la password. Seleziona il collegamento, quindi crea una nuova password che soddisfi i requisiti della password. Il collegamento funziona una sola volta.
+
+**Configurazione nuovo account**
+
+Quando un amministratore crea il tuo account, [!DNL Audience Manager] ti invia un&#39;e-mail con un collegamento per impostare la password. Seleziona il collegamento, quindi crea una password che soddisfi i requisiti della password. È necessario impostare la password prima di accedere per la prima volta.
 
 >[!MORELIKETHIS]
 >
