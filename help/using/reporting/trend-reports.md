@@ -116,7 +116,7 @@ Gli zeri indicano che [!DNL Audience Manager] non ha raccolto dati per quel gior
 
 Guarda il video seguente per uno sguardo dettagliato al funzionamento delle metriche tra dispositivi.
 
-[Metriche tra dispositivi in Audience Manager](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[Metriche tra dispositivi in Audience Manager](https://experienceleague.adobe.com/it/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Risultati dei rapporti sulle tendenze per i segmenti {#segment-report-results-traits}
 
