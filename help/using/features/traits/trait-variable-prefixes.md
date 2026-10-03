@@ -7,18 +7,24 @@ title: Requisiti di prefisso delle variabili chiave
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 exl-id: 67fe0c74-6831-48cb-90cf-417ebbf7f272
-TQID: https://experienceleague.adobe.com/ZFh2JkTwcvUpYePMLiQa2BsMV9D27BtilfEIHYBXaIU
+TQID: 'https://experienceleague.adobe.com/ZFh2JkTwcvUpYePMLiQa2BsMV9D27BtilfEIHYBXaIU'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: '329'
 ht-degree: 0%
-
 ---
-
 # Requisiti di prefisso delle variabili chiave {#prefix-requirements-for-key-variables}
 
 Questo articolo descrive i prefissi da allegare alle variabili chiave durante la creazione di regole per le caratteristiche.
@@ -47,7 +53,7 @@ Nella tabella seguente sono definiti i prefissi comuni utilizzati da [!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>Al livello <span class="keyword"> Audience Manager</span>. Questi dati sono uniformi nell'ecosistema Audience Manager<span class="keyword"> </span>. Per un elenco più completo, vedere <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> attributi supportati per le chiamate API DCS</a>.</p> </td> 
+   <td colname="col2"> <p>Al livello <span class="keyword"> Audience Manager</span>. Questi dati sono uniformi nell'ecosistema Audience Manager</span> <span class="keyword">. Per un elenco più completo, vedere <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> attributi supportati per le chiamate API DCS</a>.</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 

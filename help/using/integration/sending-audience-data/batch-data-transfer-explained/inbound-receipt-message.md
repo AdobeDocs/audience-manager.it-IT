@@ -7,20 +7,26 @@ title: Messaggio di esempio ai partner dopo l’elaborazione in entrata
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 feature: Inbound Data Transfers
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
-TQID: https://experienceleague.adobe.com/CpGIKkc7rAP8h3ij53-YMv3mHoU7CWwpNF5EeB3oUOQ
+TQID: 'https://experienceleague.adobe.com/CpGIKkc7rAP8h3ij53-YMv3mHoU7CWwpNF5EeB3oUOQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '667'
 ht-degree: 0%
-
 ---
-
 # Messaggio di esempio ai partner dopo l’elaborazione in entrata{#sample-message-to-partners-after-inbound-processing}
 
 Ogni volta che viene elaborato un file [!UICONTROL Server-to-Server] in entrata, viene inviata una conferma tramite e-mail alle soluzioni partner e, se configurate, al partner.
@@ -49,7 +55,7 @@ La tabella seguente contiene le righe corrispondenti alle righe del messaggio e-
  <tbody> 
   <tr> 
    <td colname="col1"> Nome file </td> 
-   <td colname="col2"> <p>Elenco di tutti i file in entrata ricevuti da Adobe per questo partner ed elaborati insieme. Nel precedente messaggio e-mail di esempio, l’ID partner è 7 e l’ID proprietario dei dati è 901. </p> <p>Il numero di coda (1,2,3...) è il numero frazionato aggiunto dal cliente o dal distributore in entrata. </p> </td> 
+   <td colname="col2"> <p>Elenco di tutti i file in entrata ricevuti da Adobe per questo partner ed elaborati insieme. Nel precedente messaggio e-mail di esempio, l’ID partner è 7 e l’ID proprietario dei dati è 901. </p> <p>Numero di coda (1,2,3...) è il numero di frazionamento aggiunto dal cliente o dal distributore in entrata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Record ricevuti </td> 

@@ -6,23 +6,30 @@ solution: Audience Manager
 title: Prerequisiti e considerazioni
 feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-TQID: https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY
+TQID: 'https://experienceleague.adobe.com/SjS39KDro3z9ZFOolg5GU3pLgxG2GEmxrBJoR8tJByY'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+subfeature_v2:
+  - id: d7221605-094b-45a5-891f-f37bd58c0055
+    internal-label: People based Destinations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '1069'
 ht-degree: 2%
-
 ---
-
 # Prerequisiti e considerazioni {#prerequisites-considerations}
 
 >[!IMPORTANT]
@@ -59,7 +66,7 @@ Prima di poter utilizzare [!UICONTROL People-Based Destinations] per inviare i s
 
 Per informazioni su come modificare le autorizzazioni utente di [!DNL LinkedIn Campaign Manager], consulta [Aggiungere, modificare e rimuovere le autorizzazioni utente sugli account Advertising](https://www.linkedin.com/help/lms/answer/5753) nella documentazione di LinkedIn.
 
-Per istruzioni video, consulta [Informazioni e configurazione della destinazione LinkedIn basata sulle persone](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=it).
+Per istruzioni video, consulta [Informazioni e configurazione della destinazione LinkedIn basata sulle persone](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html).
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -99,16 +106,16 @@ Quando esegui l’hashing degli indirizzi e-mail, assicurati di soddisfare i seg
 
 * Taglia tutti gli spazi iniziali e finali dalla stringa e-mail. Esempio: `johndoe@example.com`, non `<space>johndoe@example.com<space>`;
 * Quando esegui l’hashing delle stringhe e-mail, assicurati di eseguire l’hashing della stringa in minuscolo;
-   * Esempio: `example@email.com`, non `EXAMPLE@EMAIL.COM`;
+  * Esempio: `example@email.com`, non `EXAMPLE@EMAIL.COM`;
 * Assicurati che la stringa con hash sia tutta in minuscolo
-   * Esempio: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, non `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
+  * Esempio: `55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149`, non `55E79200C1635B37AD31A378C39FEB12F120F116625093A19bC32FFF15041149`;
 * Non salare la corda.
 
 Il video seguente illustra i requisiti di hashing di [!UICONTROL People-Based Destinations].
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud consente di eseguire l&#39;hashing degli ID cliente tramite [!DNL Adobe Experience Platform Identity Service (ECID)]. Per informazioni dettagliate su come utilizzare ECID per eseguire l&#39;hashing degli ID cliente, consulta il supporto di hashing [SHA256 per setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=it).
+Adobe Experience Cloud consente di aggiungere hash agli ID cliente tramite [!DNL Adobe Experience Platform Identity Service (ECID)]. Per informazioni dettagliate su come utilizzare ECID per eseguire l&#39;hashing degli ID cliente, consulta il supporto di hashing [SHA256 per setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html).
 
 ## Ottenimento delle autorizzazioni utente {#obtaining-user-permission}
 

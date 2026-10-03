@@ -7,16 +7,21 @@ title: Geotargeting con chiavi a livello di piattaforma
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 exl-id: 449096f9-64fd-495f-ac1d-3181a4544279
-TQID: https://experienceleague.adobe.com/0urg6GCEHpWwnVBPrkxULMrnihOhJNy5J37oj5nW0ao
+TQID: 'https://experienceleague.adobe.com/0urg6GCEHpWwnVBPrkxULMrnihOhJNy5J37oj5nW0ao'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 621
+source-wordcount: '650'
 ht-degree: 2%
-
 ---
-
 # Geotargeting con chiavi a livello di piattaforma {#geotargeting-with-platform-level-keys}
 
 Descrive le coppie chiave-valore comuni a livello di piattaforma che è possibile utilizzare per eseguire il targeting di utenti con variabili geografiche in tutte le proprietà nell’account Audience Manager.
@@ -47,7 +52,7 @@ Lavoriamo con [Digital Envoy](https://www.digitalenvoy.com/) per ottenere e aggi
 |--- |--- |
 | d_area_code | [Codici area Nord America](https://en.wikipedia.org/wiki/List_of_North_American_Numbering_Plan_area_codes).  Ad esempio: <ul><li>**Caratteristica**: d_area_code=801</li><li>**Nome caratteristica**: Utah</li></ul> |
 | d_city | Città e paesi. Scarica l&#39;[elenco delle città](assets/d_city.txt).  Ad esempio: <ul><li>Caratteristica: d_city=bonn</li><li>Nome caratteristica: Bonn</li></ul> **Suggerimento**: è possibile utilizzare `d_city` in combinazione con `d_country` per assicurarsi di non eseguire il targeting di due città con lo stesso nome in paesi diversi. Puoi essere ancora più specifico nel targeting utilizzando `d_postal_code`. |
-| d_country | I valori corrispondono ai codici paese ISO. Per un elenco di codici ricercabili, vedere [ISO Online Browsing Platform](https://www.iso.org/obp/ui/#home). <br>  Il targeting per il Regno Unito è l&#39;unico caso speciale che non rispetta la norma ISO 3166. Utilizza &quot;UK&quot; invece di &quot;GB&quot; per il targeting nel Regno Unito.  Per colpire le Antille olandesi, il codice &quot;AN&quot; è stato dichiarato obsoleto dal 2010. L&#39;area è stata sciolta in cinque unità territoriali separate. L&#39;implicazione è che per il targeting nelle Antille olandesi non si dovrebbe usare &quot;AN&quot;, ma una combinazione dei codici paese per &quot;CW&quot;, &quot;SX&quot; e &quot;BQ&quot;.  Esempio: <br>  Caratteristica: d_country=CZ <br>  Nome caratteristica: Repubblica Ceca <br>  Caratteristica: d_country=UK <br>  Nome caratteristica: Regno Unito <br>  Caratteristica: d_country=CW O d_country=SX O d_country=BQ <br>  Nome caratteristica: Antille olandesi |
+| d_country | I valori corrispondono ai codici paese ISO. Per un elenco di codici ricercabili, vedere [ISO Online Browsing Platform](https://www.iso.org/obp/ui/#home). <br> Il targeting per il Regno Unito è l&#39;unico caso speciale che non rispetta ISO 3166. Utilizza &quot;UK&quot; invece di &quot;GB&quot; per il targeting nel Regno Unito.  Per colpire le Antille olandesi, il codice &quot;AN&quot; è stato dichiarato obsoleto dal 2010. L&#39;area è stata sciolta in cinque unità territoriali separate. L&#39;implicazione è che per il targeting nelle Antille olandesi non si dovrebbe usare &quot;AN&quot;, ma una combinazione dei codici paese per &quot;CW&quot;, &quot;SX&quot; e &quot;BQ&quot;.  Ad esempio: <br> Caratteristica: d_country=CZ <br> Nome caratteristica: Repubblica Ceca <br> Caratteristica: d_country=UK <br> Nome caratteristica: Regno Unito <br> Caratteristica: d_country=CW OR d_country=SX OR d_country=BQ <br> Nome caratteristica: Antille Olandesi |
 | d_dma_code | Codici DMA dell&#39;area metropolitana. Scarica l&#39;elenco delle aree geografiche di [DMA](assets/DMAregions.csv) (formato .csv).  Ad esempio: <ul><li>Caratteristica: d_dma_code=807</li><li>Nome caratteristica: San Francisco</li></ul> |
 | d_lat | Latitudine (ad esempio d_lat=40,75). Scarica l&#39;[elenco latitudini](assets/d_lat.txt). |
 | d_long | Longitudine (ad esempio d_long=73,98). Scarica l&#39;[elenco longitudini](assets/d_long.txt). |

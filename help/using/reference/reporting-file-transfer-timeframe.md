@@ -7,24 +7,30 @@ title: Influenza dei tempi di distribuzione dei dati ed elaborazione dei file su
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: Reference
 exl-id: d13102c3-fd1b-4c31-8003-9fdc0df36838
-TQID: https://experienceleague.adobe.com/1j9TsJYza6imKBGGAcK8ZvTBK6nLHAMOxO2mdO0PRts
+TQID: 'https://experienceleague.adobe.com/1j9TsJYza6imKBGGAcK8ZvTBK6nLHAMOxO2mdO0PRts'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: '617'
 ht-degree: 1%
-
 ---
-
 # Influenza dei tempi di distribuzione dei dati ed elaborazione dei file sui report{#how-data-delivery-and-file-processing-times-affect-reports}
 
 Audience Manager riceve una quantità enorme di dati ogni giorno. Ciò influisce sul tempo necessario per elaborare i dati e generare i risultati del rapporto. Il contenuto di questa sezione descrive come questi intervalli di tempo influiscono sul tuo account Audience Manager. Inoltre, le tempistiche e le pianificazioni qui descritte sono solo linee guida generali. Tali pianificazioni non costituiscono accordi sui livelli di servizio (SLA) o impegni relativi alla distribuzione dei dati. Adobe si riserva il diritto di modificare gli intervalli di tempo e le pianificazioni in qualsiasi momento senza preavviso.
@@ -42,7 +48,7 @@ Nella tabella seguente sono elencati e descritti gli intervalli di tempo nei rep
 
 | Tipo di dati | Descrizione |
 |---|---|
-| Dati in tempo reale | I numeri in tempo reale per oggi si riferiscono alle ore da 00:00 a 23:59:59 UTC da ieri. |
+| Dati in tempo reale | I numeri in tempo reale per oggi si riferiscono alle ore 00:00-23:59:59 UTC di ieri. |
 | Dati generali dei rapporti | I dati nei [report generali](../reporting/general-reports.md#general-reports-overview) dipendono dal completamento di altri processi e dalla quantità di dati ricevuti per un giorno specifico. Nella maggior parte dei casi, i dati di [!UICONTROL General Report] devono essere aggiornati ogni giorno entro le 18:00 UTC. |
 
 ## Trasferimenti di file in entrata e in uscita {#inbound-outbound-file-transfers}
@@ -52,7 +58,7 @@ Nella tabella seguente sono elencati e descritti gli intervalli di tempo nei rep
 | Tipo file | Descrizione |
 |---|---|
 | Acquisizione di file in entrata (dati offline) | L’elaborazione dei file viene eseguita due volte al giorno. Queste procedure acquisiscono i dati e li preparano per la consegna. I tempi di consegna dei file variano perché dipendono dalla quantità totale di dati del cliente da elaborare. Dovresti aspettarti una latenza massima di 48 ore tra il momento in cui il file viene caricato in Audience Manager e il momento in cui i dati non saranno disponibili per il reporting e l’attivazione. |
-| File in uscita (esportazione) | L’elaborazione e la consegna dei file avvengono una volta al giorno, alle 14:00 UTC circa. Tieni presente che l’elaborazione e la consegna sono influenzate dal numero totale e dalle dimensioni di questi file. In alcuni casi, potrebbe verificarsi un ritardo nell’elaborazione dei file fino a 24 ore. In questo caso, Audience Manager invierà 2 file per un giorno specifico invece di 1. Informeremo i nostri clienti nel raro caso in cui Audience Manager debba interrompere completamente l’elaborazione di un file. Date queste condizioni, è difficile stimare i tempi di consegna dei dati in uscita. Per determinare se hai ricevuto un set completo di file, controlla la marca temporale e cerca eventuali giorni mancanti. Timestamp UNIX UTC a 13 cifre che registra l&#39;ora di creazione del file. Consulta [Trasferimenti di dati in uscita in tempo reale](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
+| File in uscita (esportazione) | L’elaborazione dei file e la consegna avviene una volta al giorno, circa alle 14:00 UTC. Tieni presente che l’elaborazione e la consegna sono influenzate dal numero totale e dalle dimensioni di questi file. In alcuni casi, potrebbe verificarsi un ritardo nell’elaborazione dei file fino a 24 ore. In questo caso, Audience Manager invierà 2 file per un giorno specifico invece di 1. Informeremo i nostri clienti nel raro caso in cui Audience Manager debba interrompere completamente l’elaborazione di un file. Date queste condizioni, è difficile stimare i tempi di consegna dei dati in uscita. Per determinare se hai ricevuto un set completo di file, controlla la marca temporale e cerca eventuali giorni mancanti. Timestamp UNIX UTC a 13 cifre che registra l&#39;ora di creazione del file. Consulta [Trasferimenti di dati in uscita in tempo reale](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
 | File di registro di Ad Server | L’elaborazione dei file viene eseguita quasi in tempo reale per acquisire i record dei file di registro quando i file orari sono pronti. Il processo di preparazione dei file per il reporting viene eseguito una volta al giorno. I tempi di consegna dei file variano perché dipendono dalla quantità totale di dati del cliente da elaborare. Dovresti aspettarti una latenza massima di 48 ore tra il momento in cui carichi il file in Audience Manager e il momento in cui i dati sono disponibili per il reporting e l’attivazione. |
 
 >[!MORELIKETHIS]

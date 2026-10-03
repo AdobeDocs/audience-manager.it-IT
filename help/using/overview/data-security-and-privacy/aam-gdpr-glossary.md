@@ -7,22 +7,30 @@ title: Glossario RGPD
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-TQID: https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM
+TQID: 'https://experienceleague.adobe.com/8Q7X36aX-rauQ64-8TFvZ5tEacTRcJooD-VPVMLW5cM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 96%
-
+source-wordcount: '697'
+ht-degree: 85%
 ---
-
 # Glossario RGPD {#gdpr-glossary}
 
 ## Panoramica {#overview}
@@ -31,7 +39,7 @@ Questo articolo descrive i concetti e la terminologia utilizzati dal Regolamento
 
 Il RGPD è entrato in vigore il 25 maggio 2018 con gli obiettivi principali di dare ai singoli utenti dell’UE (gli interessati) un maggiore controllo sui propri dati personali e al tempo stesso semplificare il contesto normativo per le imprese internazionali attraverso una migliore unificazione della regolamentazione all’interno dell’UE. Come parte della preparazione di Adobe al RGPD, il team di Adobe Audience Manager dispone di servizi e processi avanzati necessari per supportare le richieste di accesso ed eliminazione da parte degli interessati, cioè i tuoi consumatori.
 
-Assicurati anche di aver letto informazioni sul RGPD nella [Panoramica sulle normative sulla privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=it) per comprendere meglio come funziona il RGPD in Experience Cloud.
+Assicurati anche di aver letto le informazioni sul RGPD nella [Panoramica sulle normative sulla privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) per comprendere meglio come funziona il RGPD in Experience Cloud.
 
 ## Glossario RGPD {#gdpr-glossay}
 
@@ -39,7 +47,7 @@ Acquisisci familiarità con i termini chiave utilizzati relativi al RGPD. Di seg
 
  
 
-**Titolare del trattamento dei dati:** il RGPD definisce il “Titolare del trattamento” come “la ... persona giuridica ... che, singolarmente o insieme ad altri, determina le finalità e i mezzi del trattamento di dati personali.” I clienti di Audience Manager sono titolari del trattamento dei dati. I clienti controllano il modo in cui i dati vengono gestiti in Audience Manager.
+**Titolare del trattamento dei dati:** Il RGPD definisce il &quot;Titolare del trattamento&quot; come &quot;la ... persona giuridica ... che, singolarmente o insieme ad altri, determina le finalità e i mezzi del trattamento di dati personali.&quot; I clienti di Audience Manager sono titolari del trattamento dei dati. I clienti controllano il modo in cui i dati vengono gestiti in Audience Manager.
 
  
 
@@ -59,7 +67,7 @@ Acquisisci familiarità con i termini chiave utilizzati relativi al RGPD. Di seg
 
  
 
-**Cancellazione:** Il RGPD descrive il “diritto all’oblio” o “diritto alla cancellazione”. Gli interessati hanno il diritto di richiedere ai titolari del trattamento dei dati di cancellare i propri dati personali. I titolari del trattamento dei dati collaborano con i rispettivi responsabili del trattamento, incluso Adobe, per supportare le richieste di cancellazione da parte degli interessati.
+**Elimina:** il RGPD descrive il &quot;diritto all&#39;oblio&quot; o il &quot;diritto alla cancellazione&quot;. Gli interessati hanno il diritto di richiedere ai titolari del trattamento dei dati di cancellare i propri dati personali. I titolari del trattamento dei dati collaborano con i rispettivi responsabili del trattamento, incluso Adobe, per supportare le richieste di cancellazione da parte degli interessati.
 
  
 
@@ -67,7 +75,7 @@ Acquisisci familiarità con i termini chiave utilizzati relativi al RGPD. Di seg
 
  
 
-**ID (identificatori di Audience Manager):** Adobe Audience Manager memorizza vari tipi di ID. La pagina [Audience Manager Identifiers](data-privacy-ids.md) fornisce un riepilogo di questi ID, le loro sorgenti di dati corrispondenti e brevi descrizioni. Quando invii delle richieste al servizio [Adobe Experience Platform Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it), fai riferimento a tali ID per effettuare richieste di cancellazione o di accesso per gli interessati.
+**ID (identificatori di Audience Manager):** Adobe Audience Manager memorizza vari tipi di ID. La pagina [Audience Manager Identifiers](data-privacy-ids.md) fornisce un riepilogo di questi ID, le loro sorgenti di dati corrispondenti e brevi descrizioni. Quando invii delle richieste al servizio [Adobe Experience Platform Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), fai riferimento a tali ID per effettuare richieste di cancellazione o di accesso per gli interessati.
 
  
 

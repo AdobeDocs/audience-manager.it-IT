@@ -7,27 +7,38 @@ title: Sicurezza dei dati in Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
-TQID: https://experienceleague.adobe.com/Ay-b45-aqpUms-8tezJQcsWLCmqPTESux3wVOPyHSnA
+TQID: 'https://experienceleague.adobe.com/Ay-b45-aqpUms-8tezJQcsWLCmqPTESux3wVOPyHSnA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 92%
-
+source-wordcount: '1022'
+ht-degree: 89%
 ---
-
 # Sicurezza dei dati in Audience Manager {#data-security}
 
 Audience Manager prende molto seriamente la sicurezza e la privacy dei dati. Lavoriamo per proteggere i nostri sistemi e i tuoi preziosi dati.
@@ -75,7 +86,7 @@ Processi che contribuiscono a mantenere sicure le informazioni personali. Per ul
 
 Processi che proteggono i dati di proprietà di singoli clienti.
 
-**Partizionamento dei dati delle caratteristiche:** i dati ([!UICONTROL traits], ID ecc.) sono partizionati per client. Questo aiuta a prevenire l’esposizione accidentale di informazioni tra client diversi. Ad esempio, i dati delle caratteristiche nei cookie vengono partizionati per client e memorizzati in un sottodominio specifico per il client. Non possono essere letti o utilizzati accidentalmente da un altro client Audience Manager. Inoltre, anche i dati delle caratteristiche memorizzati nei [!UICONTROL Profile Cache Servers (PCS)] vengono partizionati per cliente. Ciò impedisce ad altri client di utilizzare accidentalmente i tuoi dati in una chiamata evento o in un’altra richiesta.
+**Partizionamento dei dati delle caratteristiche:** Dati ([!UICONTROL traits], ID, ecc.) è partizionato per client. Questo aiuta a prevenire l’esposizione accidentale di informazioni tra client diversi. Ad esempio, i dati delle caratteristiche nei cookie vengono partizionati per client e memorizzati in un sottodominio specifico per il client. Non possono essere letti o utilizzati accidentalmente da un altro client Audience Manager. Inoltre, anche i dati delle caratteristiche memorizzati nei [!UICONTROL Profile Cache Servers (PCS)] vengono partizionati per cliente. Ciò impedisce ad altri client di utilizzare accidentalmente i tuoi dati in una chiamata evento o in un’altra richiesta.
 
 **Partizionamento dei dati nei report:** gli ID client fanno parte della chiave di identificazione in tutte le tabelle di reporting e le query di report vengono filtrate per ID. Questo aiuta a evitare che i dati vengano visualizzati nei report di un altro cliente Audience Manager.
 
@@ -93,7 +104,7 @@ Per aggiungere la crittografia PGP ai file di dati, consulta [File PGP Encryptio
 
 ## Protezione dei dati tramite escape {#escaping-data}
 
-Tieni presente che [!DNL Audience Manager] non esegue l’escape dei dati in uscita per proteggerli da possibili vulnerabilità cross-site scripting (XSS), ecc. È responsabilità del cliente effettuare l’escape dai dati in arrivo.
+[!DNL Audience Manager] non esegue l&#39;escape dei dati in uscita per proteggerli da possibili vulnerabilità cross-site scripting (XSS) e così via. È responsabilità del cliente effettuare l’escape dai dati in arrivo.
 
 ## HTTP Strict-Transport-Security {#hsts}
 

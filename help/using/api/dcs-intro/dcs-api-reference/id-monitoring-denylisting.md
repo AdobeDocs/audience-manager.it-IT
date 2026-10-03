@@ -4,26 +4,33 @@ keywords: id;monitoraggio;dcs;id;monitoring;dcs
 seo-description: The DCS monitors the IDs it receives and adds those that are being sent at an unusually high rate over a short period of time to a deny list.
 seo-title: ID Monitoring and Denylisting
 solution: Audience Manager
-title: Monitoraggio degli ID e Inserisce nell'elenco Bloccati dei
+title: Monitoraggio degli ID e Inserisce nell'elenco Bloccati degli ID
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: DCS
 exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
-TQID: https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0
+TQID: 'https://experienceleague.adobe.com/Aie0--aKCVUpPA5pySiDy08Uia8byRLcwVqRe3XEHp0'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 487
+source-wordcount: '487'
 ht-degree: 0%
-
 ---
-
-# Monitoraggio degli ID e Inserisce nell&#39;elenco Bloccati dei
+# Monitoraggio degli ID e Inserisce nell&#39;elenco Bloccati degli ID
 
 [!DNL DCS] controlla gli ID ricevuti e aggiunge a un elenco Bloccati quelli che vengono inviati con una frequenza insolitamente alta in un breve periodo di tempo.
 
@@ -53,9 +60,9 @@ Gli ID che sono stati aggiunti agli elenchi Bloccati non devono essere utilizzat
 
 Quando una chiamata ID multipla include anche un ID, [!DNL DCS] ignora l&#39;ID negato e utilizza solo gli ID consentiti rimanenti per la sincronizzazione.
 
-## Cause e correzioni per la Inserisce nell&#39;elenco Bloccati dell’ID di
+## Cause e correzioni per la Inserisce nell&#39;elenco Bloccati degli ID di
 
-La causa più frequente dell’aggiunta degli ID agli elenchi Bloccati è l’integrazione non corretta tra l’infrastruttura del cliente e Audience Manager. Quando identifichi un ID, assicurati di rivedere attentamente le integrazioni Audience Manager. Consulta **Guide all&#39;implementazione e all&#39;integrazione** per informazioni dettagliate su come configurare Audience Manager per l&#39;utilizzo con altre soluzioni Experience Cloud o con sistemi esterni.
+La causa più frequente dell’aggiunta degli ID agli elenchi Bloccati è l’integrazione non corretta tra l’infrastruttura del cliente e Audience Manager. Quando identifichi un ID, accertati di rivedere attentamente le integrazioni Audience Manager. Consulta **Guide all&#39;implementazione e all&#39;integrazione** per informazioni dettagliate su come configurare Audience Manager per l&#39;utilizzo con altre soluzioni Experience Cloud o con sistemi esterni.
 
 Un&#39;altra causa frequente di aggiunta degli ID agli elenchi Bloccati sono i bot di indicizzazione (crawler web), che in genere causano un aumento del traffico, con conseguente invio degli stessi ID a [!DNL DCS] più volte. Se identifichi nei bot di indicizzazione il motivo per cui gli ID vengono aggiunti agli elenchi Bloccati, devi limitare l’accesso dei bot al sito web.
 

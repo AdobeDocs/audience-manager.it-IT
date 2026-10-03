@@ -8,20 +8,26 @@ title: Creare caratteristiche basate su regole o onboarded
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: Traits
 exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
-TQID: https://experienceleague.adobe.com/WP-VxrKlSi7pHB9IEIFXDt1SD-iu85DynxDPyoVQAcQ
+TQID: 'https://experienceleague.adobe.com/WP-VxrKlSi7pHB9IEIFXDt1SD-iu85DynxDPyoVQAcQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 356
-ht-degree: 1%
-
+source-wordcount: '379'
+ht-degree: 2%
 ---
-
 # Crea [!UICONTROL Rules-Based] o [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
 Descrive i passaggi di configurazione e le funzionalità specifiche del processo di creazione delle caratteristiche [!UICONTROL rules-based] e [!UICONTROL onboarded].
@@ -67,7 +73,7 @@ In [!UICONTROL Trait Builder], le impostazioni di [!UICONTROL Basic Information]
   </tr>
    <tr> 
    <td colname="col1"> Tipo di evento <b><span class="uicontrol"></span></b> </td> 
-   <td colname="col2"> Assegna la caratteristica a un tipo o a una categoria, in genere in base alla funzione (ad esempio conversione, visitatore del sito, partner, visualizzazione pagina, ecc.). Facoltativo. <p> Per informazioni su come creare caratteristiche di conversione, vedi <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=it">Creazione di caratteristiche di conversione nel video di Audience Manager</a>. </p></td> 
+   <td colname="col2"> Assegna la caratteristica a un tipo o a una categoria, in genere in base alla funzione (ad esempio conversione, visitatore del sito, partner, visualizzazione pagina, ecc.). Facoltativo. <p> Per informazioni su come creare caratteristiche di conversione, vedi <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Creazione di caratteristiche di conversione nel video di Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Codice di integrazione <b><span class="uicontrol"></span></b> </td> 

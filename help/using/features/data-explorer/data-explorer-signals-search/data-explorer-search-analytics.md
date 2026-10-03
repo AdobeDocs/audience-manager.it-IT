@@ -6,16 +6,21 @@ title: Ricerca avanzata per Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
 exl-id: 5a66623b-4d24-4f52-ba26-b59750d25f2c
-TQID: https://experienceleague.adobe.com/-ml-cMnAI9yYhzIVC5OULFnCS4rPdj4RVqBvkm-jrYg
+TQID: 'https://experienceleague.adobe.com/-ml-cMnAI9yYhzIVC5OULFnCS4rPdj4RVqBvkm-jrYg'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: '215'
 ht-degree: 0%
-
 ---
-
 # Ricerca avanzata per Adobe Analytics {#advanced-search-for-adobe-analytics}
 
 I clienti Audience Manager che utilizzano anche [!DNL Adobe Analytics] possono sfruttare la stretta integrazione tra le due soluzioni abilitando l&#39;opzione [!UICONTROL Advanced Search for Adobe Analytics].
@@ -36,4 +41,4 @@ Questa integrazione consente di visualizzare i nomi descrittivi per le coppie ch
 
 Il video seguente mostra come utilizzare [!UICONTROL Data Explorer] per individuare e utilizzare i dati di Adobe Analytics, inclusa la ricerca di segnali utilizzati e non utilizzati, la creazione di caratteristiche di Analytics e la comprensione dei dati.
 
->[!VIDEO](https://video.tv.adobe.com/v/330365?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25150)

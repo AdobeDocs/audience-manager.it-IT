@@ -7,16 +7,18 @@ title: Convenzioni di stile per gli elementi di codice e testo
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
 feature: Reference
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
-TQID: https://experienceleague.adobe.com/5KxeNhqw4zbJObehloyd-GHur29rT-089E6o6rFSa5k
+TQID: 'https://experienceleague.adobe.com/5KxeNhqw4zbJObehloyd-GHur29rT-089E6o6rFSa5k'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 170
+source-wordcount: '170'
 ht-degree: 0%
-
 ---
-
 # Convenzioni di stile per gli elementi di codice e testo{#style-conventions-for-code-and-text-elements}
 
 Questi elementi identificano le opzioni di codice e le variabili utilizzate in tutta la documentazione dell’Aiuto. In genere, questi simboli o elementi di stile non vengono inclusi nel codice o nei file di dati. Sono solo indicatori visivi.

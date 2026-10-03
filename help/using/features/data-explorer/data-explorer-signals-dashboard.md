@@ -6,18 +6,24 @@ title: Dashboard dei segnali
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
-TQID: https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ
+TQID: 'https://experienceleague.adobe.com/FGEKJR4Vu2AUmmm09xfRewJxEX-spZeSyXqkdaQhMQQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: a2c6d65b-635d-4454-a9cc-9771ed501bb4
+    internal-label: Data Explorer
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Insights
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: '250'
 ht-degree: 0%
-
 ---
-
 # Dashboard dei segnali {#signals-dashboard}
 
 Ottieni una panoramica dei segnali non utilizzati ricevuti da Audience Manager negli ultimi 7 giorni e identifica potenziali nuove caratteristiche. I segnali non utilizzati raggiungono Audience Manager dalle proprietà online, ma non vengono utilizzati in nessuna delle caratteristiche esistenti. Per visualizzare [!UICONTROL Signals Dashboard], passa a [!UICONTROL Audience Data] > [!UICONTROL Signals]. [!UICONTROL Signals Dashboard] mostra informazioni fruibili in base ai segnali inutilizzati più attivi.
@@ -46,4 +52,4 @@ Le ricerche salvate visualizzano i primi 50 risultati per i criteri corrisponden
 
 Guarda il video seguente per scoprire come utilizzare [!UICONTROL Signals Dashboard].
 
->[!VIDEO](https://video.tv.adobe.com/v/329430?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/25151/)

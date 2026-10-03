@@ -8,26 +8,36 @@ title: Informazioni sulle caratteristiche della cartella
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
 feature: Traits
 exl-id: 779d1ab3-3a69-4975-b45a-acd95ab86a37
-TQID: https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA
+TQID: 'https://experienceleague.adobe.com/fFfEE048TORlBUDrVYjizvI31iBfJeNsBl99uZJNefA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 533
+source-wordcount: '535'
 ht-degree: 0%
-
 ---
-
 # Caratteristiche cartella: informazioni {#folder-traits-about}
 
 [!UICONTROL Folder traits] ti consente di aggregare automaticamente in un segmento di destinazione le caratteristiche che risiedono nella stessa cartella e tutte le cartelle secondarie.
@@ -78,6 +88,6 @@ Scopri come assegnare le autorizzazioni [!UICONTROL RBAC] nella [documentazione 
 | Elemento | Descrizione |
 |---|---|
 | Tipo di caratteristica | [!UICONTROL Onboarded traits] e [!UICONTROL algorithmic traits] contribuiscono al massimo 1 realizzazione alla frequenza di [!UICONTROL folder trait]. |
-| Spostamento di caratteristiche tra cartelle | Se si sposta una caratteristica da una cartella a un&#39;altra, tale caratteristica non sarà più valida per la prima caratteristica della cartella e sarà idonea per la seconda [!UICONTROL folder trait]. Ciò significa che se elimini o sposti una caratteristica dalla cartella, gli utenti nella popolazione della caratteristica verranno rimossi dai segmenti utilizzando la caratteristica cartella come espressione del segmento. <br> Quando mappi segmenti o suite di rapporti di Adobe Analytics nell&#39;organizzazione Experience Cloud, Audience Manager crea automaticamente nuovi segmenti e caratteristiche corrispondenti di sola lettura. Non puoi modificare o modificare la posizione di archiviazione di queste caratteristiche da Audience Manager. Tuttavia, qualsiasi modifica eseguita sui segmenti o sulle suite di rapporti di Adobe Analytics mappati si riflette in Audience Manager. |
+| Spostamento di caratteristiche tra cartelle | Se si sposta una caratteristica da una cartella a un&#39;altra, tale caratteristica non sarà più valida per la prima caratteristica della cartella e sarà idonea per la seconda [!UICONTROL folder trait]. Ciò significa che se elimini o sposti una caratteristica dalla cartella, gli utenti nella popolazione della caratteristica verranno rimossi dai segmenti utilizzando la caratteristica cartella come espressione del segmento. <br> Quando mappi segmenti o suite di rapporti di Adobe Analytics nell’organizzazione Experience Cloud, Audience Manager crea automaticamente nuovi segmenti e caratteristiche corrispondenti di sola lettura. Non puoi modificare o modificare la posizione di archiviazione di queste caratteristiche da Audience Manager. Tuttavia, qualsiasi modifica eseguita sui segmenti o sulle suite di rapporti di Adobe Analytics mappati si riflette in Audience Manager. |
 | Variabili di sistema | Impossibile realizzare [!UICONTROL Folder traits] nelle chiamate evento che utilizzano il parametro `d_sid`. |
-| Generazione di rapporti   | [!UICONTROL Folder traits] sono caratteristiche calcolate automaticamente e non vengono visualizzate in **[!UICONTROL Overlap Reports]**. |
+| Generazione di rapporti | [!UICONTROL Folder traits] sono caratteristiche calcolate automaticamente e non vengono visualizzate in **[!UICONTROL Overlap Reports]**. |

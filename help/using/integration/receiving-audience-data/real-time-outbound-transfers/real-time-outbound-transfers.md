@@ -7,22 +7,30 @@ title: Trasferimenti di dati in uscita in tempo reale
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 exl-id: 12aee831-1a44-4cd6-aeba-7738a584dfe7
-TQID: https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ
+TQID: 'https://experienceleague.adobe.com/uaVdbqmIOGWFad6aDmDJCBDh4KxNMBL-dei0Rxx2kLQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: bcf89bb2-9d92-4897-90ec-483950be810f
+    internal-label: Outbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: '695'
 ht-degree: 2%
-
 ---
-
 # Trasferimenti di dati in uscita in tempo reale {#real-time-outbound-data-transfers}
 
 Il processo di trasferimento dei dati in uscita in tempo reale fornisce i dati utente come una serie di [!DNL JSON] messaggi formattati a una piattaforma di destinazione.
@@ -138,7 +146,7 @@ La tabella seguente definisce gli elementi nel file di dati [!DNL JSON] inviati 
      <li id="li_8352B919A87242E68716FB9EC0443407">Rimosso da un segmento in base alla regola del segmento. </li> 
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Rimosso da un segmento in base all'intervallo di time-to-live <a href="../../../features/traits/segment-ttl-explained.md"> del segmento</a>. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Se non sono stati visti negli ultimi 120 giorni, vengono trasferiti a uno stato inattivo. </li>
-     <li>Rimosso a causa di una richiesta di modifica della privacy (ovvero <span class="keyword"> RGPD</span>)</li>
+     <li>Rimosso a causa di una richiesta di modifica della privacy (ad esempio <span class="keyword"> RGPD</span>)</li>
     </ul> <p>Tutti gli ID partner sincronizzati con un ID <span class="keyword"> Audience Manager</span> riceveranno il flag <code> "Status":"0"</code> quando un utente viene rimosso dai segmenti. </p> </td> 
   </tr> 
   <tr valign="top"> 
