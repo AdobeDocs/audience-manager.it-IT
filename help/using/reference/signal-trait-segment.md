@@ -8,18 +8,21 @@ title: Segnali, caratteristiche e segmenti
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
-TQID: https://experienceleague.adobe.com/brgTl8YZ3RYaFcWdImO1i3Jsxulp6-HYbiN45B7un-4
+TQID: 'https://experienceleague.adobe.com/brgTl8YZ3RYaFcWdImO1i3Jsxulp6-HYbiN45B7un-4'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience segmentation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 393
-ht-degree: 21%
-
+source-wordcount: '397'
+ht-degree: 20%
 ---
-
 # [!UICONTROL Signals], [!UICONTROL Traits] e [!UICONTROL Segments] {#signals-traits-and-segments}
 
 Descrive i componenti di un [!DNL Audience Manager] [!UICONTROL segment], le espressioni utilizzate per impostare i criteri di qualificazione del pubblico e il modo in cui i dati vengono trasmessi in una chiamata evento.
@@ -32,7 +35,7 @@ I dati di [!DNL Audience Manager] sono costituiti da [!UICONTROL signals], [!UIC
 |---|---|---|
 | [!UICONTROL Signal] | [!UICONTROL Signals] sono le unità di dati più piccole in [!DNL Audience Manager] e sono espresse come [coppie chiave-valore](../reference/key-value-pairs-explained.md).<br><br><ul><li>La chiave è una costante che definisce un set di dati (ad esempio, genere, colore, prezzo).</li><li>Il valore è una variabile correlata alla costante (ad esempio, maschio/femmina, verde, 100).</li></ul>Gli operatori di confronto si uniscono alla coppia chiave-valore e impostano la relazione tra di essi. | <ul><li>`product=camera`</li><li>`price>1000`</li><li>`type=digital SLR`</li></ul> |
 | [!UICONTROL Trait] | Combinazioni di uno o più [!UICONTROL signals].<br><br> Le espressioni [!DNL Boolean] e gli operatori di confronto consentono di creare [!UICONTROL trait] regole di qualificazione. <br><br>Creare requisiti di qualifica precisi con combinazioni di [!UICONTROL traits] e [!UICONTROL trait] gruppi. | Da [!UICONTROL signals] disponibile, è possibile creare una regola `High End Camera Browser` espressa come: `product=camera AND price>1000` |
-| [!UICONTROL Segment] | Utenti che condividono un set di attributi comuni e sono idonei per [!UICONTROL traits] correlati. Le espressioni [!DNL Boolean], insieme ai requisiti di frequenza/attualità, ti consentono di creare [!UICONTROL segment] regole di qualificazione.<br><br> Crea requisiti di qualifica precisi con combinazioni di [!UICONTROL trait] e [!UICONTROL segment] regole. | Dalle [!UICONTROL traits] e [!UICONTROL signals] disponibili, è possibile creare una regola [!UICONTROL segment] espressa come:`(product=camera AND type=digital SLR) OR (price>1000)` |
+| [!UICONTROL Segment] | Utenti che condividono un set di attributi comuni e sono idonei per [!UICONTROL traits] correlati. [!DNL Boolean] espressioni, insieme ai requisiti di frequenza/attualità, ti consentono di creare [!UICONTROL segment] regole di qualificazione.<br><br> Creare requisiti di qualifica precisi con combinazioni di [!UICONTROL trait] e [!UICONTROL segment] regole. | Dalle [!UICONTROL traits] e [!UICONTROL signals] disponibili, è possibile creare una regola [!UICONTROL segment] espressa come:`(product=camera AND type=digital SLR) OR (price>1000)` |
 
 Utilizzare il diagramma seguente per tenere traccia della relazione tra [!UICONTROL signals], [!UICONTROL traits] e [!UICONTROL segments].
 

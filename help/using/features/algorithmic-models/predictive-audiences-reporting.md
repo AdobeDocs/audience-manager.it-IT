@@ -6,23 +6,30 @@ solution: Audience Manager
 title: Reporting di Predictive Audiences
 feature: Algorithmic Models
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
-TQID: https://experienceleague.adobe.com/cCq0D-eJiC3HKysBofh6yxzJ2iBV-e1cOXnYl-VnZD8
+TQID: 'https://experienceleague.adobe.com/cCq0D-eJiC3HKysBofh6yxzJ2iBV-e1cOXnYl-VnZD8'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Data collection
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: '632'
 ht-degree: 2%
-
 ---
-
 # Reporting di Predictive Audiences
 
 Dopo aver salvato un modello [!UICONTROL Predictive Audiences], Audience Manager inizia ad addestrarlo. Entro un paio d&#39;ore, il modello calcolato inizierà ad analizzare i tipi di pubblico sui [Server di raccolta dati](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=it#dcs-pcs). La segnalazione sarà disponibile il giorno successivo.
@@ -40,10 +47,10 @@ Nella tabella Modelli (models) sono riportate le informazioni riportate di segui
 * **[!UICONTROL Description]**: descrizione fornita nel passaggio di creazione del modello;
 * **[!UICONTROL Model Type]**: il tipo di ciascun modello ([!UICONTROL Look-Alike Modeling] o [!UICONTROL Predictive Audiences]);
 * **[!UICONTROL Status]**: lo stato di ciascun modello:
-   * **[!UICONTROL Pending]**: inizializzazione del modello in corso. Produrrà i risultati a breve.
-   * **[!UICONTROL Active]**: il modello è in esecuzione e produce risultati;
-   * **[!UICONTROL Warning]**: il modello non è riuscito a produrre risultati, a causa di dati insufficienti (ovvero una popolazione di linee di base bassa, profili utente non ricchi);
-   * **[!UICONTROL Error]**: impossibile eseguire il modello. Contatta il tuo rappresentante Adobe.
+  * **[!UICONTROL Pending]**: inizializzazione del modello in corso. Produrrà i risultati a breve.
+  * **[!UICONTROL Active]**: il modello è in esecuzione e produce risultati;
+  * **[!UICONTROL Warning]**: il modello non è riuscito a produrre risultati, a causa di dati insufficienti (ovvero una popolazione di linee di base bassa, profili utente non ricchi);
+  * **[!UICONTROL Error]**: impossibile eseguire il modello. Contatta il tuo rappresentante Adobe.
 
 ## Rapporto Panoramica modello{#model-report}
 

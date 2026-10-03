@@ -7,24 +7,32 @@ title: Domande frequenti sul targeting
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
 feature: Match Rates
 exl-id: e5f761fd-dfc8-4859-a81e-89abbd7f2914
-TQID: https://experienceleague.adobe.com/Jm21pJH5trEnLWA8fo9I2j1D1OpJ-HxpmXwj1rCfgqk
+TQID: 'https://experienceleague.adobe.com/Jm21pJH5trEnLWA8fo9I2j1D1OpJ-HxpmXwj1rCfgqk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
+  - id: c8bc25a4-94eb-4dcd-b377-9328026b8b06
+    internal-label: Match rates
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Behavioral data
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 920
-ht-degree: 100%
-
+source-wordcount: '944'
+ht-degree: 98%
 ---
-
 # Domande frequenti sul targeting{#targeting-faq}
 
 Domande e problemi comuni relativi al targeting.
@@ -51,7 +59,7 @@ La risposta dipende dai tuoi obiettivi. Ad esempio, se la tua campagna è proget
 
 **Posso vendere a singoli utenti?**
 
-Audience Manager ti consente di aggregare utenti e vendere a essi in base ad attributi o caratteristiche condivisi. Tuttavia, per rispettare le normative di settore, i clienti [!DNL Audience Manager] non possono inviare informazioni personali (PII, personally identifiable information) ai nostri sistemi. Di conseguenza, non puoi utilizzare indirizzi e-mail, nomi di singoli utenti, indirizzi fisici, ecc. per il targeting.
+Audience Manager ti consente di aggregare utenti e vendere a essi in base ad attributi o caratteristiche condivisi. Tuttavia, per rispettare le normative di settore, i clienti [!DNL Audience Manager] non possono inviare informazioni personali (PII, personally identifiable information) ai nostri sistemi. Di conseguenza, non puoi utilizzare per il targeting indirizzi e-mail, nomi di singoli utenti, indirizzi fisici, ecc.
 
 <br> 
 
@@ -81,7 +89,7 @@ Sì. Consulta [Declared ID Targeting](../features/declared-ids.md#declared-id-ta
 
 **Posso valutare gli utenti tramite i dati raccolti online ed effettuare il retargeting in base alla valutazione del modello?**
 
-Sì. Audience Manager può fornire file di dati che ti consentono di valutare gli utenti, ma devi collaborare con altri fornitori o software per analizzare e classificare tali informazioni. Invia questi dati ad Audience Manager sotto forma di coppie chiave-valore. Possiamo prendere queste informazioni e aggiungerle ai profili utente esistenti. Contatta il tuo rappresentante di soluzioni dei partner per esaminare questo processo.
+Sì. Audience Manager può fornire file di dati che consentono di valutare gli utenti, ma devi collaborare con altri fornitori o software per analizzare e determinare il ranking di tali informazioni. Invia questi dati ad Audience Manager sotto forma di coppie chiave-valore. Possiamo prendere queste informazioni e aggiungerle ai profili utente esistenti. Contatta il tuo rappresentante di soluzioni dei partner per esaminare questo processo.
 
 <br> 
 

@@ -7,16 +7,21 @@ title: Metriche di rapporto per regole di unione profili
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-TQID: https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s
+TQID: 'https://experienceleague.adobe.com/XoOLUeHq9E68X703-rNxz-gCkQ9GtL1R-h71W8f4x-s'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 693
+source-wordcount: '727'
 ht-degree: 0%
-
 ---
-
 # Metriche di rapporto per regole di unione profili {#report-metrics-for-profile-merge-rules}
 
 Le metriche [!UICONTROL Profile Merge Rule] forniscono dati su persone e dispositivi che si autenticano nel sito. I dati e i grafici in [!UICONTROL Profile Merge Rule Reports] vengono aggiornati dinamicamente quando si crea una regola di unione o quando si fa clic su una regola esistente dal dashboard [!UICONTROL Profile Merge Rules]. Queste metriche possono includere grafici dei dispositivi provenienti da altre origini di grafici dei dispositivi di terze parti.

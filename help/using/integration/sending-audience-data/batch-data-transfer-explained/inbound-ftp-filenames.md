@@ -7,20 +7,26 @@ title: Requisiti FTP di nome e dimensione file per i file di dati in entrata
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
-TQID: https://experienceleague.adobe.com/ndl-BMDmVgcXTHtDRRgdsQPbbOJIDF3aAh21Q2NoZTA
+TQID: 'https://experienceleague.adobe.com/ndl-BMDmVgcXTHtDRRgdsQPbbOJIDF3aAh21Q2NoZTA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 3c88464c2249b7848c9ae80ca4c0ed58fcb81070
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1105
+source-wordcount: '1121'
 ht-degree: 3%
-
 ---
-
 # [!DNL FTP] Requisiti di nome e dimensione file per i file di dati in entrata {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
 Descrive i campi obbligatori, la sintassi, le convenzioni di denominazione e le dimensioni dei file da seguire per l&#39;invio dei dati a [!DNL Audience Manager]. Impostare i nomi e le dimensioni dei file in base a queste specifiche quando si inviano dati a una directory Audience Manager [!DNL FTP].
@@ -31,7 +37,7 @@ Descrive i campi obbligatori, la sintassi, le convenzioni di denominazione e le 
 
 >[!NOTE]
 >
->Gli stili di testo (`monospaced text`, *corsivo*, parentesi quadre `[ ]` `( )` e così via) in questo documento indicano elementi e opzioni di codice. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
+>Gli stili di testo (`monospaced text`, *corsivo*, parentesi quadre `[ ]` `( )`, ecc.) in questo documento indicare gli elementi di codice e le opzioni. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../../reference/code-style-elements.md).
 
 ## Sintassi dei nomi dei file {#file-name-syntax}
 
@@ -59,7 +65,7 @@ La tabella definisce gli elementi in un nome di file [!DNL FTP].
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>Percorso e nome della directory FTP di Audience Manager<span class="keyword"> </span>. Contatta il tuo Account Manager per la directory FTP e le credenziali. </p> </td> 
+   <td colname="col2"> <p>Percorso e nome della directory FTP di Audience Manager</span> <span class="keyword">. Contatta il tuo Account Manager per la directory FTP e le credenziali. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
@@ -73,7 +79,7 @@ La tabella definisce gli elementi in un nome di file [!DNL FTP].
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Questo campo indica ad Audience Manager a quale origine dati integrare i dati. Questo campo è obbligatorio se imposti il DPID su un Android ID o iOS ID o su un altro ID appartenente alle origini dati globali. Questo consente a <span class="keyword"> Audience Manager</span> di collegare nuovamente i dati del file alla tua organizzazione. <br> L'origine dati di destinazione deve essere di proprietà della società. Ai fini della condivisione dei dati di seconde parti, per acquisire i dati in un’origine dati di destinazione appartenente a un’altra società è necessario disporre di una mappatura di accesso tra la società e l’origine dati di destinazione. Contatta il tuo consulente Adobe o il Supporto clienti per configurare la mappatura.</p><p><b>Nota importante:</b> <i>non</i> è necessario richiedere una mappatura per le relazioni di condivisione dei dati esistenti (per le origini dati di destinazione appartenenti ad altre società in cui sono stati caricati i dati prima del 14 marzo 2022). Inoltre, la mappatura non è necessaria quando si inseriscono dati in origini dati di destinazione che appartengono al tuo PID. </p> <p>Ad esempio: </p> 
+   <td colname="col2"> <p>Questo campo indica ad Audience Manager a quale origine dati integrare i dati. Questo campo è obbligatorio se imposti il DPID su un Android ID o iOS ID o su un altro ID appartenente alle origini dati globali. Questo consente a <span class="keyword"> Audience Manager</span> di collegare nuovamente i dati del file alla tua organizzazione. <br> Questa origine dati di destinazione deve essere di proprietà della società. Ai fini della condivisione dei dati di seconde parti, per acquisire i dati in un’origine dati di destinazione appartenente a un’altra società è necessario disporre di una mappatura di accesso tra la società e l’origine dati di destinazione. Contatta il tuo consulente Adobe o il Supporto clienti per configurare la mappatura.</p><p><b>Nota importante:</b> <i>non</i> è necessario richiedere una mappatura per le relazioni di condivisione dei dati esistenti (per le origini dati di destinazione appartenenti ad altre società in cui sono stati caricati i dati prima del 14 marzo 2022). Inoltre, la mappatura non è necessaria quando si inseriscono dati in origini dati di destinazione che appartengono al tuo PID. </p> <p>Ad esempio: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> comunica ad Audience Manager che stai qualificando gli ID cliente appartenenti all'origine dati 33 per caratteristiche o segnali appartenenti all'origine dati 21. </li> 
      <li> <b>ID Android (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> comunica a <span class="keyword"> Audience Manager</span> che il file di dati contiene solo ID Android e che gli ID devono essere idonei per le caratteristiche appartenenti all'origine dati 21.</li> 

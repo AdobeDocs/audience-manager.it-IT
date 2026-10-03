@@ -7,21 +7,28 @@ title: Controlli sull'esportazione dei dati
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-TQID: https://experienceleague.adobe.com/Ycw7xN2n0gErtYP6g7nJCitz6b-qDdTQ73x0lqcGWaM
+TQID: 'https://experienceleague.adobe.com/Ycw7xN2n0gErtYP6g7nJCitz6b-qDdTQ73x0lqcGWaM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+subfeature_v2:
+  - id: cefdb449-7764-4855-a54f-3901d8be873d
+    internal-label: Data Export Controls
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: '889'
 ht-degree: 1%
-
 ---
-
 # Controlli sull&#39;esportazione dei dati {#data-export-controls}
 
 [!UICONTROL Data Export Controls] impedisce l&#39;invio di dati alle destinazioni quando questa azione viola la privacy dei dati o gli accordi sull&#39;utilizzo dei dati.
@@ -38,10 +45,10 @@ In base alle classificazioni applicate a un’origine dati e a una destinazione,
 * Aggiunta di una caratteristica a un segmento quando la caratteristica appartiene a un’origine dati con un controllo di esportazione dati incompatibile con un’etichetta di esportazione dati su una o più destinazioni a cui è mappato il segmento.
 Ad esempio, supponiamo che un segmento sia mappato a una destinazione con l&#39;etichetta di esportazione **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. I controlli di esportazione impediscono l&#39;aggiunta di una caratteristica al segmento se l&#39;origine dati a cui appartiene la caratteristica dispone di un controllo di esportazione dati con il nome **[!DNL Cannot be tied to personally identifiable information (PII)]**.
 * Invio di dati a una destinazione con un&#39;etichetta di esportazione dei dati bloccata da un controllo di esportazione dei dati su uno dei seguenti elementi:
-   * La fonte di dati di una caratteristica inclusa;
-   * La fonte di dati di una caratteristica utilizzata in un segmento incluso;
-   * La regola di unione dei profili utilizzata da un segmento incluso;
-   * Una qualsiasi delle origini dati utilizzate dalla regola di unione profili di un segmento incluso.
+  * La fonte di dati di una caratteristica inclusa;
+  * La fonte di dati di una caratteristica utilizzata in un segmento incluso;
+  * La regola di unione dei profili utilizzata da un segmento incluso;
+  * Una qualsiasi delle origini dati utilizzate dalla regola di unione profili di un segmento incluso.
 
 [!UICONTROL Data Export Controls] sono disponibili automaticamente per tutti i clienti Audience Manager. Tuttavia, per aggiungere controlli di esportazione a un&#39;origine dati è necessario disporre delle autorizzazioni di amministratore. L&#39;aggiunta di etichette di esportazione a una destinazione richiede autorizzazioni di amministratore *o* sufficienti per creare o modificare una destinazione.
 

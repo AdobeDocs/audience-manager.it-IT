@@ -7,20 +7,26 @@ title: Integrare Audience Manager Con Target
 uuid: c5ca2101-99fb-4178-9839-3ec5b605c040
 feature: Adobe Target Integration
 exl-id: a8486778-305a-4f09-a4f8-0e412369228c
-TQID: https://experienceleague.adobe.com/2yRBqMmms7dZ8Od52F3P-GGbCMJM4TVxORbK8SHSh9g
+TQID: 'https://experienceleague.adobe.com/2yRBqMmms7dZ8Od52F3P-GGbCMJM4TVxORbK8SHSh9g'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: fe5ec4d8-caf3-4d7e-b30a-eec72742d32a
+    internal-label: Target integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 107
-ht-degree: 0%
-
+source-wordcount: '125'
+ht-degree: 3%
 ---
-
 # Integra Audience Manager Con [!DNL Target] {#integrate-audience-manager-with-target}
 
 Questa integrazione consente di inviare segmenti Audience Manager ad Adobe [!DNL Target].

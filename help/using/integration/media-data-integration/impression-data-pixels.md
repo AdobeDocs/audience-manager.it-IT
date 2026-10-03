@@ -7,29 +7,42 @@ title: Acquisizione dei dati di impression delle campagne attraverso chiamate pi
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Adobe Campaign Integration
 exl-id: 04e6f1e5-5075-4221-a310-deb3717458ad
-TQID: https://experienceleague.adobe.com/4AePlh8JW-KJ5pMyBjEDNQ1mxfikBavHMT-UXkQqYJo
+TQID: 'https://experienceleague.adobe.com/4AePlh8JW-KJ5pMyBjEDNQ1mxfikBavHMT-UXkQqYJo'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
+  - id: b59a5343-ccde-4868-a926-97a27448e694
+    internal-label: Campaign integration
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '742'
 ht-degree: 14%
-
 ---
-
 # Acquisizione dei dati di impression delle campagne attraverso chiamate pixel{#capturing-campaign-impression-data-via-pixel-calls}
 
 Un approccio per l’invio di dati multimediali ad Audience Manager utilizza macro di ad server per inviare attributi della campagna ad Audience Manager.
@@ -40,7 +53,7 @@ Questa metodologia viene spesso definita &quot;pixeling the creative&quot;. Tali
 
 >[!NOTE]
 >
->Gli stili di testo (`monospaced text`, *corsivo*, parentesi quadre `[ ]` `( )` e così via) indicano gli elementi e le opzioni del codice. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../reference/code-style-elements.md).
+>Gli stili di testo (`monospaced text`, *corsivo*, parentesi quadre `[ ]` `( )`, ecc.) indica elementi di codice e opzioni. Per ulteriori informazioni, consulta le [convenzioni di stile per codice ed elementi di testo](../../reference/code-style-elements.md).
 
 La chiamata evento raccoglie i dati sulle impression e di conversione e li invia ai [!DNL Audience Manager] [server di raccolta dati](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). Questo processo si basa su server di annunci di terze parti che inseriscono la chiamata nella grafica per controllare quale contenuto viene inserito nel codice. I server di annunci di terze parti (ad esempio, [!DNL DFA]) possono inserire questo codice all&#39;interno di ogni impression pubblicitaria. Inoltre, una ad call non utilizza [!DNL JavaScript] o impiega tecniche di suddivisione dei fotogrammi per accedere ai dati del publisher all&#39;esterno dell&#39;ad tag.
 
@@ -78,7 +91,7 @@ Le chiamate dell’evento di impression accettano dati formati in coppie chiave-
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bust </code> </p> </td> 
-   <td colname="col2"> <p>Valore di cache non elaborata. <span class="keyword"> Audience Manager </span> invia automaticamente le intestazioni di controllo cache rispettate dalla maggior parte dei browser e dei proxy. Se desideri eseguire un busting aggiuntivo della cache, includi questo parametro in una chiamata evento, seguito da una stringa casuale. </p> <p> Facoltativo. </p> </td> 
+   <td colname="col2"> <p>Valore di cache non elaborata. <span class="keyword"> Audience Manager </span> invia automaticamente le intestazioni di controllo cache che vengono rispettate dalla maggior parte dei browser e dei proxy. Se desideri eseguire un busting aggiuntivo della cache, includi questo parametro in una chiamata evento, seguito da una stringa casuale. </p> <p> Facoltativo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> d_campaign </code> </td> 

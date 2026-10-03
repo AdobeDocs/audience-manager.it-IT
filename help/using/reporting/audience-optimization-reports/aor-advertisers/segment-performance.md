@@ -7,26 +7,33 @@ title: Rapporto sulle prestazioni dei segmenti
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 feature: Audience Optimization Reports
 exl-id: 2cd54b18-6916-4d69-bd65-7b8c8846c446
-TQID: https://experienceleague.adobe.com/CiPncU0YP2UFJhPi8EbFX-cACBvjldl5FD3YJijOOMc
+TQID: 'https://experienceleague.adobe.com/CiPncU0YP2UFJhPi8EbFX-cACBvjldl5FD3YJijOOMc'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
+subfeature_v2:
+  - id: ff9c2088-e1d9-47aa-85e4-6765b719f5c7
+    internal-label: Audience Optimization Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Optimization
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: '571'
 ht-degree: 0%
-
 ---
-
 # Rapporto sulle prestazioni dei segmenti{#segment-performance-report}
 
 Il report [!UICONTROL Segment Performance] confronta i segmenti mappati e non mappati in base alle impression e ai tassi di conversione. Un segmento mappato è un segmento creato e inviato a una destinazione per il targeting. Un segmento non mappato è un segmento creato ma non inviato a una destinazione per il targeting. Il confronto di questi diversi tipi di segmenti all’interno dei rapporti e tra i rapporti ti consente di ottimizzare le campagne esistenti e di trovare i segmenti trascurati che potresti voler inviare a una destinazione per il targeting.
 
 ## Come leggere i risultati dei segmenti mappati {#read-mapped-segment-results}
 
-Il report [!UICONTROL Segment Performance] mappato visualizza tutti i segmenti creati e inviati a una destinazione per il targeting. La posizione dei segmenti mappati in un report può indicare molto su quali segmenti stanno funzionando correttamente e dove potrebbe essere necessario apportare alcune modifiche.
+Il report [!UICONTROL Segment Performance] mappato visualizza tutti i segmenti creati e inviati a una destinazione per il targeting.La posizione dei segmenti mappati in un rapporto può indicarti molto quali segmenti hanno prestazioni migliori e dove potresti dover apportare alcune modifiche.
 
 Per leggere il rapporto, è utile dividere i risultati in 4 sezioni con linee immaginarie (in rosso) e le categorie visualizzate nel rapporto di esempio seguente.
 

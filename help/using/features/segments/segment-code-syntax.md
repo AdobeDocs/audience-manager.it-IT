@@ -7,16 +7,21 @@ title: Sintassi di codice utilizzata nell’editor di espressioni di segmenti
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 exl-id: 64fa6f03-cef9-4187-866f-28c54f45f72e
-TQID: https://experienceleague.adobe.com/cJKsvcP-dZ05ojGgbn2ni-wFMFfiObuIWwaRP0-HWFQ
+TQID: 'https://experienceleague.adobe.com/cJKsvcP-dZ05ojGgbn2ni-wFMFfiObuIWwaRP0-HWFQ'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 297
+source-wordcount: '299'
 ht-degree: 4%
-
 ---
-
 # Sintassi di codice utilizzata nell’editor di espressioni di segmenti {#code-syntax-used-in-the-segment-expression-editor}
 
 [!UICONTROL Segment Builder] consente di creare regole di caratteristiche per un segmento utilizzando un editor di codice. Fare clic sulla scheda **[!UICONTROL Segment Expressions (Code View)]** nel pannello [!UICONTROL Traits] per accedere a questa funzione.
@@ -47,7 +52,7 @@ Per creare gruppi di segmenti, racchiudere la funzione di frequenza tra parentes
 | Nome o variabile | Descrizione |
 |---|---|
 | `FREQUENCY` | Valore letterale che deve precedere l&#39;espressione. |
-| `[`&lt;`traitID` `T]` | Matrice di ID di caratteristiche seguita dalla lettera `T`. Separa più caratteristiche con una virgola. Ad esempio, `[123T, 456T]`. |
+| `[`&lt;`traitID`>`T]` | Matrice di ID di caratteristiche seguita dalla lettera `T`. Separa più caratteristiche con una virgola. Ad esempio, `[123T, 456T]`. |
 | `<Recency Operator><Numeric Value>D` | *(Facoltativo)* Imposta le regole di aggiornamento sulle caratteristiche nel segmento. La lettera `D` indica l&#39;attualità in giorni. |
 | `<Frequency Operator><Numeric Value>` | Imposta le regole di frequenza per le caratteristiche nel segmento. |
 

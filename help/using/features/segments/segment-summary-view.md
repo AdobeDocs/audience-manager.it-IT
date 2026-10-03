@@ -8,21 +8,28 @@ uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: raggruppamento per tipo di identità, raggruppamento identità, reporting identità pubblico, multi-dispositivo, ID dispositivo
 feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
-TQID: https://experienceleague.adobe.com/598rKoYt4bQ2Wojsy1ypYNfMyLrFDAJJX9jaqk9l2pk
+TQID: 'https://experienceleague.adobe.com/598rKoYt4bQ2Wojsy1ypYNfMyLrFDAJJX9jaqk9l2pk'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: d8f86c1e-15ad-457f-9d6f-5e756573fad4
+    internal-label: Audience Marketplace
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b52f95d5-ca6b-4fda-a49e-994dc0a63402
+    internal-label: Segments
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Reporting
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: '408'
 ht-degree: 0%
-
 ---
-
 # Pagina Dettagli segmento {#segment-summary-view}
 
 La pagina dei dettagli di un singolo segmento fornisce una panoramica dei dettagli del segmento, ad esempio il nome del segmento, l’ID, le metriche delle prestazioni, le regole che definiscono il segmento e le mappature di destinazione. Per visualizzare questi dettagli, vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** e fai clic sul nome del segmento che desideri usare.

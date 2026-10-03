@@ -7,16 +7,21 @@ title: Spiegazione del time-to-live del segmento
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
 feature: Traits
 exl-id: 2f019071-f829-4336-b2cf-26ec1f18fc91
-TQID: https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE
+TQID: 'https://experienceleague.adobe.com/4jlNXlxKfeGbPv7AZ2CAxnIhNx81STAvyb0b-30FGuE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Audience Manager
+feature_v2:
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: b1ecf375-97f8-4f5a-a937-6129552209be
+    internal-label: Traits
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: '387'
 ht-degree: 0%
-
 ---
-
 # Spiegazione della durata di segmenti e caratteristiche {#segment-time-to-live-explained}
 
 Modalità di influenza dell&#39;intervallo [!UICONTROL time-to-live] ([!DNL TTL]) sull&#39;appartenenza ai segmenti.
@@ -35,8 +40,8 @@ Audience Manager calcola la scadenza di [!DNL TTL] per le caratteristiche con 1 
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
-* **Esempio 1**: caratteristica realizzata a 1:00 [!DNL UTC], con un giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 1 = 47 ore dopo.
-* **Esempio 2**: una caratteristica realizzata in 23:00 [!DNL UTC], con un giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 23 = 25 ore dopo.
+* **Esempio 1**: una caratteristica realizzata alle 1:00 [!DNL UTC], con un giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 1 = 47 ore dopo.
+* **Esempio 2**: una caratteristica realizzata alle 23:00 [!DNL UTC], con un giorno [!DNL TTL]. [!DNL TTL] scadrà 24 + 24 - 23 = 25 ore dopo.
 
 ## [!DNL TTL] ed eliminazione di un segmento
 

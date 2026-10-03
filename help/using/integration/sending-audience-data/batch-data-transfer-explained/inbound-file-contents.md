@@ -5,21 +5,28 @@ title: Contenuto dei file di dati in entrata - Sintassi, caratteri non validi, v
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 feature: Inbound Data Transfers
 exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
-TQID: https://experienceleague.adobe.com/VmG1uYu83JVavbWhBTIwbcN6xXW-cCy2IqBlZe8NtVA
+TQID: 'https://experienceleague.adobe.com/VmG1uYu83JVavbWhBTIwbcN6xXW-cCy2IqBlZe8NtVA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+  - id: b82b475d-1e7d-46c6-9172-1f9c73004b11
+    internal-label: Integrations
+subfeature_v2:
+  - id: a03b8192-8410-479f-a326-4cddf10757f6
+    internal-label: Inbound data transfers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Implementation
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: '1228'
 ht-degree: 3%
-
 ---
-
 # Contenuti dei file di dati in entrata: sintassi, caratteri non validi, variabili ed esempi {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 Campi obbligatori, sintassi e regole da seguire per la formattazione di un file di dati delle caratteristiche in entrata.
@@ -78,7 +85,7 @@ La tabella elenca e definisce le variabili utilizzate in un file di dati in entr
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
-   <td colname="col2"> <p>L'ID caratteristica <span class="keyword"> di Audience Manager </span>. Ti chiediamo di includere <i>solo caratteristiche onboarded</i> nei file di dati in entrata. Non elaboriamo altri tipi di caratteristiche nel trasferimento di dati in entrata. </p> <p> <p>Nota: l’ID caratteristica può essere trovato utilizzando il metodo GET che restituisce i dettagli di tutte le caratteristiche. Per ulteriori informazioni, vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi API delle caratteristiche </a>. </p> </p> </td> 
+   <td colname="col2"> <p>L'ID caratteristica </span> di Audience Manager <span class="keyword">. Ti chiediamo di includere <i>solo caratteristiche onboarded</i> nei file di dati in entrata. Non elaboriamo altri tipi di caratteristiche nel trasferimento di dati in entrata. </p> <p> <p>Nota: l’ID caratteristica può essere trovato utilizzando il metodo GET che restituisce i dettagli di tutte le caratteristiche. Per ulteriori informazioni, vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi API delle caratteristiche </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,11 +104,11 @@ Nella tabella seguente sono descritti i prefissi che identificano i nomi o gli I
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>Il prefisso <code> d_sid </code> indica al sistema che l'ID è un ID caratteristica <span class="keyword"> di Audience Manager </span>. Questo è lo stesso ID visualizzato nell’interfaccia utente di. È inoltre possibile restituire gli ID delle caratteristiche con il metodo API <code> GET </code>. Vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi delle caratteristiche API </a>. </p> </td>
+   <td colname="col2"> <p>Il prefisso <code> d_sid </code> indica al sistema che l'ID è un ID caratteristica </span> di Audience Manager <span class="keyword">. Questo è lo stesso ID visualizzato nell’interfaccia utente di. È inoltre possibile restituire gli ID delle caratteristiche con il metodo API <code> GET </code>. Vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi delle caratteristiche API </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>I dati con prefisso <code> d_unsid </code> rimuovono gli utenti da tale caratteristica. Il prefisso <code> d_unsid </code> viene ignorato in un file <code> overwrite </code>. </p> <p>Il prefisso <code> d_unsid= </code> indica al sistema che l'ID è un ID caratteristica <span class="keyword"> di Audience Manager </span>. Questo è lo stesso ID visualizzato nell’interfaccia utente di. È inoltre possibile restituire gli ID delle caratteristiche con il metodo API <code> GET </code>. Vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi delle caratteristiche API </a>. </p> </td>
+   <td colname="col2"> <p>I dati con prefisso <code> d_unsid </code> rimuovono gli utenti da tale caratteristica. Il prefisso <code> d_unsid </code> viene ignorato in un file <code> overwrite </code>. </p> <p>Il prefisso <code> d_unsid= </code> indica al sistema che l'ID è un ID caratteristica </span> di Audience Manager <span class="keyword">. Questo è lo stesso ID visualizzato nell’interfaccia utente di. È inoltre possibile restituire gli ID delle caratteristiche con il metodo API <code> GET </code>. Vedere <a href="../../../api/rest-api-main/api-traits.md"> Metodi delle caratteristiche API </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -302,13 +309,13 @@ Utilizzare [!UICONTROL trait IDs] per inviare [!UICONTROL trait] informazioni di
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
 ```
 
- oppure 
+oppure
 
 ```
 59767559181262060060278870901087098252 <TAB> 24:0, 26:0, 27:0
 ```
 
- oppure 
+oppure
 
 ```
 59767559181262060060278870901087098252 <TAB> 24:-1, 26:-1, 27:-1
@@ -322,7 +329,7 @@ Inviare coppie chiave-valore per aggiungere informazioni sulla qualifica [!UICON
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
 ```
 
- oppure 
+oppure
 
 ```
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
@@ -336,7 +343,7 @@ Utilizzare il prefisso `ic` per inviare informazioni sulla qualifica di [!UICONT
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
 ```
 
- oppure 
+oppure
 
 ```
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
@@ -358,13 +365,13 @@ Utilizzare [!UICONTROL trait IDs] per inviare [!UICONTROL trait] informazioni di
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
 ```
 
- oppure 
+oppure
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:0, 26:0, 27:0
 ```
 
- oppure 
+oppure
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
@@ -378,7 +385,7 @@ Inviare coppie chiave-valore per aggiungere informazioni di qualificazione [!UIC
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
 ```
 
- oppure 
+oppure
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "phone"
@@ -392,7 +399,7 @@ Utilizzare il prefisso `ic` per inviare informazioni sulla qualifica di [!UICONT
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
 ```
 
- oppure 
+oppure
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
@@ -414,13 +421,13 @@ Utilizzare [!UICONTROL trait IDs] per inviare [!UICONTROL trait] informazioni di
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
 ```
 
- oppure 
+oppure
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 24:0, 26:0, 27:0
 ```
 
- oppure 
+oppure
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 24:-1, 26:-1, 27:-1
@@ -434,7 +441,7 @@ Inviare coppie chiave-valore per aggiungere informazioni di qualificazione [!UIC
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
 ```
 
- oppure 
+oppure
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> "product" = "tablet", "product" = "phone"
@@ -448,7 +455,7 @@ Utilizzare il prefisso `ic` per inviare informazioni sulla qualifica di [!UICONT
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
 ```
 
- oppure 
+oppure
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> ic=52,ic=55
@@ -470,13 +477,13 @@ Utilizzare [!UICONTROL trait IDs] per inviare [!UICONTROL trait] informazioni di
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
 ```
 
- oppure 
+oppure
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:0, 26:0, 27:0
 ```
 
- oppure 
+oppure
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
@@ -490,7 +497,7 @@ Inviare coppie chiave-valore per aggiungere informazioni sulla qualifica di [!UI
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
 ```
 
- oppure 
+oppure
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = "phone"
@@ -504,7 +511,7 @@ Utilizzare il prefisso `ic` per inviare le informazioni sulla qualifica di [!UIC
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
 ```
 
- oppure 
+oppure
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55

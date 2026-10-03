@@ -6,18 +6,24 @@ solution: Audience Manager
 title: Contatti e informazioni legali
 feature: Support
 exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
-TQID: https://experienceleague.adobe.com/HpTQDl5UkJ1KoyqBYUIZe4zphM9Y5NgGoSii1zNWIpw
+TQID: 'https://experienceleague.adobe.com/HpTQDl5UkJ1KoyqBYUIZe4zphM9Y5NgGoSii1zNWIpw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
+feature_v2:
+  - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+subfeature_v2:
+  - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 243
-ht-degree: 95%
-
+source-wordcount: '263'
+ht-degree: 87%
 ---
-
 # Contatti e informazioni legali {#legal-contact}
 
 Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti l&#39;utilizzo di questo prodotto e di questa documentazione.
@@ -26,9 +32,9 @@ Informazioni utili su come contattare Adobe e sulle questioni legali riguardanti
 
 Il team Assistenza clienti di Adobe Experience Cloud è a tua disposizione e può essere contattato in vari modi:
 
-* [Consulta le pagine dell’Aiuto di Experience Cloud per consigli, suggerimenti e domande frequenti](https://helpx.adobe.com/it/support.ec.html)
-* [Poni una domanda su Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
-* [Contatta direttamente il team di Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
+* [Consulta le pagine della guida di Experience Cloud per consigli, suggerimenti e domande frequenti](https://helpx.adobe.com/it/support.ec.html)
+* [Fai una domanda veloce su Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
+* [Contatta direttamente il team di assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html)
 * [Verifica la disponibilità e lo stato delle soluzioni Experience Cloud](https://status.adobe.com/it-it/)
 
 ## Servizio, funzionalità e fatturazione {#billing}
@@ -41,6 +47,6 @@ Published by Adobe Systems Incorporated.
 
 [Condizioni d&#39;uso](https://www.adobe.com/it/legal/terms.html) | [Centro per la privacy](https://www.adobe.com/it/privacy.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Un simbolo di marchio (®, ™, ecc.) denota un marchio Adobe.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
 All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [http://www.adobe.com/go/thirdparty_it](https://www.adobe.com/it/products/eula/third_party/).

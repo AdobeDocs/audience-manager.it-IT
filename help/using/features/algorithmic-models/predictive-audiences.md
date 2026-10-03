@@ -6,28 +6,40 @@ solution: Audience Manager
 title: Predictive Audiences di Audience Manager
 feature: Algorithmic Models
 exl-id: 57eaeb09-0e0e-4ce9-9b25-f1a27f4f35ce
-TQID: https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw
+TQID: 'https://experienceleague.adobe.com/--U4qWXmR0OhYOOlPCZXm7sdXBL3dmkfmtp09WMUetw'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: cd2456ea-4f93-45ef-a193-94c258a6fbfb
+    internal-label: Algorithmic models
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1543'
 ht-degree: 3%
-
 ---
-
 # Panoramica di [!UICONTROL Predictive Audiences] {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] ti consente di classificare in tempo reale un pubblico sconosciuto in utenti tipo distinti utilizzando tecniche avanzate di scienza dei dati.
@@ -123,16 +135,16 @@ Durante la valutazione dei tipi di pubblico di prime parti e l&#39;assegnazione 
 
 Durante la configurazione dei modelli [!UICONTROL Predictive Audiences], tenere presenti le considerazioni e le limitazioni seguenti:
 
-* È possibile creare fino a 10 modelli [!UICONTROL Predictive Audiences].
+* Puoi creare fino a 10 modelli [!UICONTROL Predictive Audiences].
 * Per ogni modello, puoi scegliere fino a 50 caratteristiche/segmenti di base.
 * I dati di seconde e terze parti non sono attualmente supportati in [!UICONTROL Predictive Audiences].
 * [!UICONTROL Predictive Audiences] esegue la classificazione del pubblico in base alle caratteristiche di prime parti, da tutte le origini dati di prime parti.
 * La valutazione del segmento per [!UICONTROL Predictive Audiences] utilizza **[!UICONTROL Profile Merge Rule]** scelto durante la creazione del modello. Per ulteriori informazioni su [!UICONTROL Profile Merge Rules], consulta la [documentazione](../profile-merge-rules/merge-rules-overview.md) dedicata.
 * Alcune caratteristiche e segmenti non sono supportati come linee di base o tipi di pubblico target. I modelli [!UICONTROL Predictive Audiences] non verranno salvati quando si sceglie uno dei seguenti tipi di pubblico come linee di base o target:
-   * Caratteristiche predittive e segmenti creati con caratteristiche predittive;
-   * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) caratteristiche o segmenti;
-   * Caratteristiche algoritmiche;
-   * Caratteristiche di seconda e terza parte.
+  * Caratteristiche predittive e segmenti creati con caratteristiche predittive;
+  * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) caratteristiche o segmenti;
+  * Caratteristiche algoritmiche;
+  * Caratteristiche di seconda e terza parte.
 * Impossibile utilizzare [!UICONTROL Predictive Audience] [!UICONTROL segments] in [!UICONTROL Audience Lab].
 
 ## [!UICONTROL Data Export Controls] {#dec}
@@ -153,8 +165,8 @@ A tutti i segmenti predittivi verrà assegnato [!UICONTROL Profile Merge Rule] s
 
 * Definisce quali dispositivi e/o profili autenticati devono essere presi in considerazione quando il modello analizza l&#39;influente [!UICONTROL traits], al momento della classificazione di un utente in un [!UICONTROL segment] predittivo.
 * Determina quali tipi di [!UICONTROL trait] (a livello di dispositivo o multi-dispositivo) devono essere utilizzati durante il passaggio di apprendimento del modello e sono emersi come [!UICONTROL traits] influenti. I [!UICONTROL segments] predittivi sono sottoinsiemi del pubblico di destinazione.
-   * Se il pubblico di destinazione è un segmento, è consigliabile selezionare lo stesso [!UICONTROL Profile Merge Rule] per il modello assegnato al pubblico di destinazione o un [!UICONTROL Profile Merge Rule] che include il tipo di profilo del pubblico di destinazione.
-   * Se il pubblico di destinazione è un [!UICONTROL trait], è consigliabile selezionare un [!UICONTROL Profile Merge Rule] che possa accedere allo stesso tipo di dati della caratteristica del pubblico di destinazione (dati del profilo dispositivo o dati del profilo multi-dispositivo).
+  * Se il pubblico di destinazione è un segmento, è consigliabile selezionare lo stesso [!UICONTROL Profile Merge Rule] per il modello assegnato al pubblico di destinazione o un [!UICONTROL Profile Merge Rule] che include il tipo di profilo del pubblico di destinazione.
+  * Se il pubblico di destinazione è un [!UICONTROL trait], è consigliabile selezionare un [!UICONTROL Profile Merge Rule] che possa accedere allo stesso tipo di dati della caratteristica del pubblico di destinazione (dati del profilo dispositivo o dati del profilo multi-dispositivo).
 * [!UICONTROL Profile Merge Rules] utilizzando le opzioni [!UICONTROL Current Authenticated Profiles] e [!UICONTROL No Device Profile] sono supportati solo per la classificazione del pubblico in tempo reale. Per ulteriori informazioni, vedere [Opzioni delle regole di unione profili definite](../profile-merge-rules/merge-rule-definitions.md).
 
 La selezione di un [!UICONTROL Profile Merge Rule] che utilizza sia dati dispositivo che dati multi-dispositivo massimizza il numero di [!UICONTROL traits] che può essere utilizzato per l&#39;apprendimento del modello e la classificazione utente nel [!UICONTROL segments] predittivo.

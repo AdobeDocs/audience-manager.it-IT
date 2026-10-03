@@ -6,26 +6,36 @@ solution: Audience Manager
 title: Guida di preparazione al RGPD per i clienti di Audience Manager
 feature: Data Governance & Privacy
 exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
-TQID: https://experienceleague.adobe.com/K72pQ8Q6yILWexkG38Hc5W1roYObFvhLE5A0GSCyhYE
+TQID: 'https://experienceleague.adobe.com/K72pQ8Q6yILWexkG38Hc5W1roYObFvhLE5A0GSCyhYE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: a1d8adf7-4300-4ca2-870f-1612c6774544
+    internal-label: Data governance and privacy
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 461
+source-wordcount: '462'
 ht-degree: 98%
-
 ---
-
 # Guida di preparazione al RGPD per i clienti di Audience Manager (titolari del trattamento dei dati) {#gdpr-readiness-guidance}
 
 Audience Manager ti consiglia di essere proattivo nei settori della governance dei dati e della preparazione organizzativa. Questo ti aiuterà a garantire che i dati dei consumatori siano organizzati per consentire i processi relativi alle richieste di accesso o cancellazione, che i tuoi team siano abilitati e autorizzati a gestire tali richieste e che i consumatori (gli interessati) abbiano un’esperienza positiva e differenziata con il tuo marchio.
@@ -39,7 +49,7 @@ In qualità di responsabile del trattamento dei dati, Adobe non può fornire con
 * Poiché la definizione di dati personali diventa più ampia, gli indirizzi IP possono essere considerati dati personali nella tua area geografica. Rivolgiti in modo proattivo ad Adobe Consulting per oscurare l’ultimo ottetto.
 * Determina una policy e un processo di convalida/autenticazione per confermare l’identità di un interessato quando effettua una richiesta RGPD.
 * Valuta l’utilizzo dei [Data Export Controls](../../features/data-export-controls.md) per bloccare l’Audience Activation per le tecnologie che ospitano dati personali. Ad esempio, i segmenti con dati di terze parti non devono essere diffusi ai provider di servizi e-mail. Imposta un [!UICONTROL Data Export Control] per garantire che nessuno nell’organizzazione possa accidentalmente attivare tali dati.
-* Inizia a utilizzare i [Role Based Access Controls](../../features/administration/administration-overview.md) per garantire che i team giusti abbiano accesso ai dati a loro destinati.
+* Inizia a utilizzare i [controlli per l’accesso in base al ruolo (RBAC, Role Based Access Controls)](../../features/administration/administration-overview.md) per assicurarti che ogni team abbia accesso ai dati corretti.
 * Valuta [periodi di conservazione](../../faq/faq-privacy.md#data-retention-faq) adeguati ai dati.
 * Esamina il collegamento delle identità e le policy e i requisiti legali relativi alla privacy per capire quando e in quali casi è opportuno legare tra loro set di identità; utilizzali in modo appropriato tramite le [Regole di unione profili](../../features/profile-merge-rules/merge-rules-overview.md) di Audience Manager.
 

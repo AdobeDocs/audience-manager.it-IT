@@ -7,27 +7,38 @@ title: Gestisci gruppi di test
 uuid: 2fadddeb-7574-4853-8c52-c58456582c62
 feature: Audience Lab
 exl-id: 1d07c8f1-34dc-4339-bd5d-87042a22f7e9
-TQID: https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM
+TQID: 'https://experienceleague.adobe.com/jQyTdKOIzeBEuUr76cpwJFNNdMRuzlCbJpGbC0mLQpM'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a99472c1-6aae-4c7a-8aa0-f60636369620
+    internal-label: Reporting
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
 subfeature_v2:
   - id: a49258d4-867f-4130-b875-d72c001bdf6c
+    internal-label: Overlap Reports
   - id: d3dfac44-e20d-492d-a806-0f4a4a495901
+    internal-label: Support
   - id: fa77d762-7e75-47b2-9bb4-e3fcf50d251d
+    internal-label: Overview
+  - id: e8501b6e-f5e0-495d-8a3d-6aa9293cdcc5
+    internal-label: Audience Lab
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '1001'
 ht-degree: 0%
-
 ---
-
 # Gestisci gruppi di test {#manage-test-groups}
 
 Questa procedura illustra i passaggi necessari per creare, modificare o eliminare un gruppo di test in [!UICONTROL Audience Lab].
@@ -45,9 +56,9 @@ Questa procedura illustra i passaggi necessari per creare, modificare o eliminar
   >[Caratteristiche cartella](../../features/traits/about-folder-traits.md) **non supportate** da [!UICONTROL Audience Lab]. Se si imposta il [Tipo evento](../../features/traits/create-onboarded-rule-based-traits.md) di una caratteristica cartella su **conversione**, non verranno generati dati in [!UICONTROL Audience Lab] per tale caratteristica cartella specifica.
 
 * Per le aziende che utilizzano [il controllo degli accessi basato sul ruolo](../../features/administration/administration-overview.md): assegnare l&#39;autorizzazione [!UICONTROL Audience Lab] [jolly](../../features/administration/administration-overview.md#wild-card-permissions) a **[!UICONTROL User Groups]** per fornire l&#39;accesso. Questa autorizzazione consente all’utente di creare e visualizzare i risultati di un test. Un utente potrà utilizzare solo i segmenti di un&#39;origine dati per la quale dispone di privilegi di **lettura** e di **mappatura sulla destinazione**. L&#39;utente potrà utilizzare solo le caratteristiche di conversione da un&#39;origine dati per la quale dispone di autorizzazioni di **&quot;lettura&quot;**. Un utente può visualizzare solo le destinazioni a cui ha accesso. Pertanto, prima di aggiungere l&#39;autorizzazione con caratteri jolly [!DNL Audience Lab] a un gruppo, verificare che il gruppo disponga di:
-   * accesso alle caratteristiche di conversione pertinenti alla lettura;
-   * accesso alla lettura e alla mappatura dei segmenti pertinenti per le prove;
-   * l&#39;accesso alle destinazioni pertinenti.
+  * accesso alle caratteristiche di conversione pertinenti alla lettura;
+  * accesso alla lettura e alla mappatura dei segmenti pertinenti per le prove;
+  * l&#39;accesso alle destinazioni pertinenti.
 
 Per creare un nuovo [!UICONTROL Segment Test Group]:
 

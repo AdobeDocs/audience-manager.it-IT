@@ -7,21 +7,25 @@ title: Informazioni su Amazon S3
 uuid: 8197ecdf-df8f-488d-bbc0-d8d4205b42b4
 feature: Reference
 exl-id: 12c4f00d-2916-4224-b834-d3a9ea86314a
-TQID: https://experienceleague.adobe.com/HRLp9cXzF3yRFulThePWxGt6TRD1HxgecSiFlnSAxlA
+TQID: 'https://experienceleague.adobe.com/HRLp9cXzF3yRFulThePWxGt6TRD1HxgecSiFlnSAxlA'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
+  - id: 6a8f3a31-6f0b-5101-9878-fb698e568543
+    internal-label: Reference
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Security
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 269
+source-wordcount: '290'
 ht-degree: 0%
-
 ---
-
 # Amazon S3: informazioni{#amazon-s-about}
 
 Informazioni su Amazon Simple Storage Service (Amazon S3).
@@ -37,9 +41,9 @@ I vantaggi dell’utilizzo di Amazon S3 includono:
 * **Caricamenti in più parti:** I file di grandi dimensioni possono essere caricati in modo rapido ed efficiente come caricamenti in più parti.
 * **Sicurezza:** Amazon S3 fornisce una sicurezza elevata.
 
-   * Tutte le directory sono accessibili solo al cliente o client appropriato.
-   * Supporto del protocollo HTTPS per caricamenti e download. Utilizzare sempre HTTPS durante il trasferimento dei file in [!DNL Audience Manager].
-   * Amazon S3 fornisce la crittografia a riposo per la crittografia di [file di dati in uscita](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). Viene utilizzato il metodo di crittografia [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html), che consente la generazione e la gestione automatica delle chiavi di crittografia da parte di Amazon S3.
+  * Tutte le directory sono accessibili solo al cliente o client appropriato.
+  * Supporto del protocollo HTTPS per caricamenti e download. Utilizzare sempre HTTPS durante il trasferimento dei file in [!DNL Audience Manager].
+  * Amazon S3 fornisce la crittografia a riposo per la crittografia di [file di dati in uscita](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). Viene utilizzato il metodo di crittografia [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html), che consente la generazione e la gestione automatica delle chiavi di crittografia da parte di Amazon S3.
 
 * **Supporto debug e backup:** Amazon S3 consente a [!DNL Audience Manager] di conservare copie esatte dei file per semplificare il debug o i ritrasferimenti.
 

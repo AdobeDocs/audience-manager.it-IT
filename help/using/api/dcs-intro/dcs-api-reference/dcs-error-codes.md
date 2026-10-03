@@ -4,22 +4,30 @@ title: Codici errore DCS, messaggi ed esempi
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-TQID: https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E
+TQID: 'https://experienceleague.adobe.com/FHc7VAvl6LcI-xtrxdg-eMRHMncTPHpxGxIx0sXOb-E'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: ce14ba14-a06d-4b2b-b7dd-04cb862494ec
+    internal-label: Administration
+  - id: baaa0dd2-d27e-4921-aae3-7888623a5fa5
+    internal-label: APIs and SDKs
+subfeature_v2:
+  - id: d8f681b8-67cc-42dc-85c5-a0977528a942
+    internal-label: Data Collection Server
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Administration
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 1519
+source-wordcount: '1546'
 ht-degree: 3%
-
 ---
-
 # Codici errore DCS, messaggi ed esempi {#dcs-error-codes-messages-and-examples}
 
 Codici di errore e messaggi generati da [!UICONTROL Data Collection Servers] ([!DNL DCS]) elencati in ordine numerico per ID di codice.
@@ -75,12 +83,12 @@ Nelle tabelle seguenti, *corsivo* rappresenta un segnaposto variabile.
   <tr> 
    <td colname="col1"> <p>198 </p> </td> 
    <td colname="col2"> <p>Le richieste provenienti da questo paese sono bloccate dai partner </p> </td> 
-   <td colname="col3"> <p>In base all'indirizzo IP, il DCS<span class="wintitle"> di </span> blocca le richieste provenienti da paesi in cui il partner ha deliberatamente limitato il traffico. </p> </td> 
+   <td colname="col3"> <p>In base all'indirizzo IP, il DCS</span> di <span class="wintitle"> blocca le richieste provenienti da paesi in cui il partner ha deliberatamente limitato il traffico. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>199 </p> </td> 
    <td colname="col2"> <p>Non sono consentite richieste da questo paese </p> </td> 
-   <td colname="col3"> <p>In base all'indirizzo IP, il DCS<span class="wintitle"> di </span> blocca le richieste dai seguenti paesi: </p> <p> 
+   <td colname="col3"> <p>In base all'indirizzo IP, il DCS</span> di <span class="wintitle"> blocca le richieste dai seguenti paesi: </p> <p> 
      <ul id="ul_4017A7D074064FE7A8B5618AFCFA4E28"> 
       <li id="li_EE65DEC3C64F4522B214C503DC754DC1">Cuba (CU) </li> 
       <li id="li_EDE8B304D35A41458DCFF11E9328802A">Iran (IR) </li> 

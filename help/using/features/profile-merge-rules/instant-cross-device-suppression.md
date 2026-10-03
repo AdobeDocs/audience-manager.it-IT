@@ -1,27 +1,35 @@
 ---
-description: La funzione di soppressione immediata su diversi dispositivi consente di eliminare gli utenti per i diversi dispositivi a cui sono associati, dopo il verificarsi di una specifica esperienza su uno di tali dispositivi. Utilizza la funzionalità di eliminazione immediata tra dispositivi per offrire agli utenti un’esperienza coerente su tutti i dispositivi. Ciò è possibile grazie alle capacità di rimozione da un segmento in tempo reale di Audience Manager.
+description: La funzione di soppressione immediata su diversi dispositivi consente di eliminare gli utenti per i diversi dispositivi a cui sono associati, dopo il verificarsi di una specifica esperienza su uno di tali dispositivi. Questa funzione consente di fornire a un utente un’esperienza coerente su tutti i suoi dispositivi. Ciò è possibile grazie alle capacità di rimozione da un segmento in tempo reale di Audience Manager.
 seo-description: Instant Cross-Device Suppression is the ability to suppress users across multiple devices connected to them when a particular experience occurs on any of these devices. Use the Instant Cross-Device Suppression capability to deliver a consistent experience across devices to your users. This experience is made possible by the real-time unsegment capabilities in Audience Manager.
 seo-title: Instant Cross-Device Suppression
 title: Soppressione immediata su diversi dispositivi
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-TQID: https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE
+TQID: 'https://experienceleague.adobe.com/8dXdDR8uduaPsKiDbkcdNYit0nESpBGezxwhrhU67GE'
 product_v2:
   - id: df80eeb1-8d72-467e-b0df-9d51c7d3a0a1
+    internal-label: Audience Manager
 feature_v2:
   - id: a8b0238e-1d43-4679-a3b4-5ba1bad83baa
+    internal-label: Implementation
   - id: c814092e-2730-45e8-a12d-e084529f52cb
+    internal-label: Destinations
+  - id: b89b323a-1e91-40b1-8d20-96b5b726d55a
+    internal-label: Audience management
+subfeature_v2:
+  - id: aefd3d92-918f-446f-ad66-e16541e30e75
+    internal-label: Profile Merge
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 395823e4876ddac1f56af10a1b110b60ff6f88a4
+    internal-label: Privacy
+source-git-commit: f188b550f327b59bab9f26bdd5e95bda6c1c0be9
 workflow-type: tm+mt
-source-wordcount: 778
-ht-degree: 6%
-
+source-wordcount: '812'
+ht-degree: 8%
 ---
-
 # Soppressione immediata su diversi dispositivi {#instant-cross-device-suppression}
 
 [!UICONTROL Instant Cross-Device Suppression] è la capacità di eliminare gli utenti su più dispositivi ad essi connessi quando si verifica una particolare esperienza su uno qualsiasi di questi dispositivi. Utilizza la funzionalità [!UICONTROL Instant Cross-Device Suppression] per fornire agli utenti un&#39;esperienza coerente su tutti i dispositivi. Ciò è possibile grazie alle capacità di rimozione da un segmento in tempo reale di Audience Manager.
@@ -37,7 +45,7 @@ I dettagli tecnici della rimozione dai segmenti in tempo reale sono descritti in
 
 ## Non eseguire il targeting dopo la conversione {#do-not-target-once}
 
-Assicurati che gli utenti che hanno già convertito (acquistato un prodotto, acquistato un abbonamento, ecc.) non visualizzino gli stessi messaggi visualizzati prima della conversione. È possibile ottenere questo risultato utilizzando la logica [!UICONTROL AND NOT], come segue.
+Assicurati che gli utenti che hanno già convertito (acquistato un prodotto, acquistato un abbonamento, ecc.) non visualizzerà gli stessi messaggi visualizzati prima della conversione. È possibile ottenere questo risultato utilizzando la logica [!UICONTROL AND NOT], come segue.
 
 1. Creare un segmento utilizzando due caratteristiche e utilizzare la logica [!UICONTROL AND NOT], come illustrato nell&#39;immagine seguente. È necessario utilizzare una caratteristica basata su regole per definire l’evento di conversione per l’attivazione in tempo reale della rimozione dai segmenti. Ulteriori informazioni su come [creare caratteristiche basate su regole](../traits/create-onboarded-rule-based-traits.md).
 2. Mappa il segmento a un numero qualsiasi di destinazioni in tempo reale da server a server. Scopri come aggiungere segmenti a [destinazioni da server a server](../destinations/add-edit-segments.md).
@@ -70,7 +78,7 @@ Tieni presente questi aspetti relativi all’elaborazione:
 * Affinché la funzionalità di rimozione dai segmenti in tempo reale funzioni, è necessario mappare i segmenti desiderati su destinazioni server-to-server in tempo reale.
 * Per i dispositivi connessi a un dispositivo da un [grafo di dispositivi](profile-link-use-case.md#recommendations), viene applicato un limite di quattro dispositivi per quanto riguarda la valutazione e la rimozione dai segmenti. Questa limitazione è descritta in [Opzioni del grafico dei dispositivi e rimozione dei dispositivi](merge-rule-unsegment.md#device-graph-options-unsegmentation).&#x200B;
 * Il comando di rimozione dai segmenti verrà incluso in un file batch, inviato alle destinazioni ogni 24 ore, per più dispositivi connessi dal grafico dei dispositivi.
-* Il dispositivo deve essere visualizzato in tempo reale (su [Edge](../../reference/system-components/components-edge.md) per richiedere la valutazione del segmento in tempo reale. Per le caratteristiche con [!UICONTROL time-to-live (TTL)] quando la caratteristica [!DNL TTL] viene soddisfatta, il dispositivo verrà automaticamente rimosso dal segmento entro 24 ore tramite il file batch..&#x200B; Ulteriori informazioni su come [impostare un intervallo di scadenza delle caratteristiche](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
+* Il dispositivo deve essere visualizzato in tempo reale (su [Edge](../../reference/system-components/components-edge.md) per richiedere la valutazione del segmento in tempo reale. Per le caratteristiche con [!UICONTROL time-to-live (TTL)] quando la caratteristica [!DNL TTL] viene soddisfatta, il dispositivo verrà automaticamente rimosso dal segmento entro 24 ore tramite il file batch...&#x200B; Ulteriori informazioni su come [impostare un intervallo di scadenza delle caratteristiche](../traits/create-onboarded-rule-based-traits.md#set-expiration-interval).
 * Se utilizzi [!UICONTROL DCS API] per integrare le caratteristiche basate su regole in tempo reale, puoi attivare la rimozione dai segmenti utilizzando la logica [!UICONTROL AND NOT]. Ulteriori informazioni sull&#39;invio di [dati all&#39;API DCS](../../api/dcs-intro/dcs-event-calls/dcs-url-send.md).&#x200B;
 
 ## Aspetti importanti da considerare - Tempistica {#timing-notes}
