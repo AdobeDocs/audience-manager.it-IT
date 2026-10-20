@@ -52,7 +52,7 @@ Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 {
    "sid":87723,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/it",
    "startDate":"2012-07-04"
 }
 ```
@@ -76,7 +76,7 @@ Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
    "startDate":"2012-07-03",
    "endDate":null,
    "priority":null,
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/it",
    "secureUrl":null,
    "tagCode":null,
    "secureTagCode":null,
@@ -342,7 +342,7 @@ Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/it",
    "startDate":"2012-11-20"
 },
 {
@@ -376,7 +376,7 @@ In caso di esito positivo, la risposta restituisce l’array delle mappature cre
         "startDate": "2012-11-19",
         "endDate": null,
         "priority": null,
-        "url": "https://adobe.com",
+        "url": "https://adobe.com/it",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -426,7 +426,7 @@ Creare più mappature di destinazione in un array. Tutti i valori di richiesta s
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/it",
    "startDate":"2012-11-20"
 },
 {
@@ -460,7 +460,7 @@ Restituisce una matrice di mappature create.
         "startDate": "2012-11-19",
         "endDate": null,
         "priority": null,
-        "url": "https://adobe.com",
+        "url": "https://adobe.com/it",
         "secureUrl": null,
         "tagCode": null,
         "secureTagCode": null,
@@ -559,7 +559,7 @@ Tutti i valori di richiesta sono obbligatori, salvo diversa indicazione.
 {
    "sid": 105123,
    "traitType":"SEGMENT",
-   "url":"https://adobe.com",
+   "url":"https://adobe.com/it",
    "startDate":"2012-11-20"
 }
 ```

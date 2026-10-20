@@ -34,7 +34,7 @@ ht-degree: 0%
 
 L’accessibilità si riferisce a una serie di funzioni che rendono un prodotto software utilizzabile, con il minimo sforzo possibile da parte di utenti con varie disabilità, come quella visiva, uditiva, cognitiva, motoria o di altro tipo.
 
-Adobe è leader di settore nell’accessibilità e supporta la creazione di esperienze web eccezionali incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti, accessibili a tutti gli utenti. Per ulteriori dettagli sull&#39;impegno di Adobe per l&#39;accessibilità, vedere [Accessibilità Adobe](https://www.adobe.com/accessibility.html).
+Adobe è leader di settore nell’accessibilità e supporta la creazione di esperienze web eccezionali incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti, accessibili a tutti gli utenti. Per ulteriori dettagli sull&#39;impegno di Adobe per l&#39;accessibilità, vedere [Accessibilità Adobe](https://www.adobe.com/it/accessibility.html).
 
 Le funzioni di accessibilità più comuni presenti nei prodotti software sono: navigazione da tastiera, struttura semantica, contrasto sufficiente tra elementi in primo piano ed elementi in background, supporto per tecnologie assistive, etichette chiare per gli elementi e così via.
 
